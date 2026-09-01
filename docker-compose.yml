@@ -1,0 +1,55 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # 100% Private Local LLM Service (Zero API keys required)
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    environment:
+      # Overrides whatever MONGO_URI is in .env so the container talks to
+      # the `mongo` service above rather than localhost.
+      MONGO_URI: mongodb://mongo:27017/lingrow_ai
+      LOCAL_LLM_URL: http://ollama:11434/api/generate
+      NODE_ENV: production
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+  # One-off helper: `docker compose run --rm seed` populates demo accounts
+  # and starter content. Not started automatically since it only needs to run once.
+  seed:
+    build: ./backend
+    env_file:
+      - ./backend/.env
+    environment:
+      MONGO_URI: mongodb://mongo:27017/lingrow_ai
+    command: ["node", "src/seed.js"]
+    depends_on:
+      mongo:
+        condition: service_healthy
+    profiles: ["tools"]
+
+volumes:
+  mongo_data:
+  ollama_data:
