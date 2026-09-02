@@ -19,10 +19,10 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
 
   mount.innerHTML = `
     <div class="grid grid-4" style="margin-bottom:20px">
-      <div class="card"><div class="eyebrow">Level</div><h2 style="font-size:22px">${progress.level}</h2></div>
-      <div class="card"><div class="eyebrow">Total XP</div><h2 style="font-size:22px" id="dash-total-xp">${progress.xp}</h2></div>
-      <div class="card"><div class="eyebrow">Streak</div><h2 style="font-size:22px">${progress.streak} days</h2></div>
-      <div class="card"><div class="eyebrow">Badges</div><h2 style="font-size:22px">${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length}</h2></div>
+      <div class="card"><div class="eyebrow">Level</div><h2 style="font-size:24px">${progress.level}</h2></div>
+      <div class="card"><div class="eyebrow">Total XP</div><h2 style="font-size:24px" id="dash-total-xp">${progress.xp}</h2></div>
+      <div class="card"><div class="eyebrow">Streak</div><h2 style="font-size:24px">${progress.streak} days</h2></div>
+      <div class="card"><div class="eyebrow">Badges</div><h2 style="font-size:24px">${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length}</h2></div>
     </div>
     <div class="grid grid-2">
       <div class="card">
@@ -30,8 +30,8 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         ${recent.length ? recent.map(a=>`
           <div class="row" style="padding:10px 0;border-bottom:1px solid var(--line)">
             <div class="col" style="flex:1">
-              <div style="font-weight:700;font-size:13.5px">${esc(a.passage?.title||'Passage')}</div>
-              <div style="font-size:12px;color:var(--cream-faint)">${timeAgo(a.createdAt)}</div>
+              <div style="font-weight:700;font-size:15px">${esc(a.passage?.title||'Passage')}</div>
+              <div style="font-size:13px;color:var(--cream-faint);margin-top:2px">${timeAgo(a.createdAt)}</div>
             </div>
             <div class="pill" style="color:${scoreColor(a.accuracy)};border-color:transparent">${a.accuracy}% accuracy</div>
           </div>`).join('') : `<div class="empty-state">No attempts yet — head to Read Aloud to get started.</div>`}
@@ -54,8 +54,8 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         ${progress.badges.map(b=>`
           <div class="badge-card ${b.unlocked?'':'locked'}">
             <div class="badge-ic">${ICONS.trophy}</div>
-            <div style="font-weight:700;font-size:13px">${esc(b.name)}</div>
-            <div style="font-size:11.5px;color:var(--cream-faint);margin-top:3px">${esc(b.description)}</div>
+            <div style="font-weight:700;font-size:14.5px">${esc(b.name)}</div>
+            <div style="font-size:13px;color:var(--cream-faint);margin-top:4px">${esc(b.description)}</div>
           </div>`).join('')}
       </div>
     </div>
@@ -72,39 +72,42 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
     [btnWord, btnQuiz, btnActivity].forEach(b => {
       b.style.borderColor = 'var(--line)';
       b.style.background = 'transparent';
+      b.style.color = '#FFFFFF';
     });
 
     if (activeNotifTab === 'word') {
-      btnWord.style.borderColor = 'var(--sprout)';
-      btnWord.style.background = 'rgba(143,209,79,0.12)';
+      btnWord.style.borderColor = 'var(--purple)';
+      btnWord.style.background = 'var(--purple)';
+      btnWord.style.color = '#FFFFFF';
       if (!dailyWord) {
-        contentDiv.innerHTML = `<div class="empty-state">No daily word available today.</div>`;
+        contentDiv.innerHTML = `<div class="empty-state" style="color:#FFFFFF">No daily word available today.</div>`;
         return;
       }
       contentDiv.innerHTML = `
-        <div class="col gap-xs">
+        <div class="col gap-xs" style="color:#FFFFFF">
           <div class="row gap-sm" style="align-items:center">
-            <h3 style="font-size:20px;font-weight:700;color:var(--sprout)">${esc(dailyWord.word)}</h3>
-            <span class="pill voice" style="font-size:11px">${esc(dailyWord.partOfSpeech)}</span>
+            <h3 style="font-size:22px;font-weight:700;color:#FFFFFF">${esc(dailyWord.word)}</h3>
+            <span class="pill voice" style="font-size:12px;color:#FFFFFF;border-color:rgba(255,255,255,0.25)">${esc(dailyWord.partOfSpeech)}</span>
             <div class="spacer"></div>
-            <span class="pill" style="font-size:10px;color:var(--cream-faint)">Today's Word</span>
+            <span class="pill" style="font-size:11.5px;color:#FFFFFF;border-color:rgba(255,255,255,0.25)">Today's Word</span>
           </div>
-          <div style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin-top:4px">
-            <b>Meaning:</b> ${esc(dailyWord.meaning)}
+          <div style="font-size:15px;color:#FFFFFF;line-height:1.55;margin-top:4px">
+            <strong style="color:#FFFFFF">Meaning:</strong> ${esc(dailyWord.meaning)}
           </div>
-          <div style="font-size:13px;color:var(--cream-dim);line-height:1.5;margin-top:6px;padding:8px 12px;background:rgba(255,255,255,0.03);border-left:3px solid var(--amber);border-radius:4px">
-            <b style="color:var(--amber)">&#x1F4A1; Why It's Relevant:</b> ${esc(dailyWord.relevancy)}
+          <div style="font-size:14.5px;color:#FFFFFF;line-height:1.55;margin-top:6px;padding:9px 13px;background:rgba(255,255,255,0.06);border-left:3px solid var(--amber);border-radius:6px">
+            <b style="color:var(--amber)">&#x1F4A1; Why It's Relevant:</b> <span style="color:#FFFFFF">${esc(dailyWord.relevancy)}</span>
           </div>
-          <div style="font-size:12.5px;color:var(--cream-faint);margin-top:6px;font-style:italic">
-            " ${esc(dailyWord.example)} "
+          <div style="font-size:13.5px;color:#FFFFFF;margin-top:6px;font-style:italic">
+            "${esc(dailyWord.example)}"
           </div>
         </div>
       `;
     } else if (activeNotifTab === 'quiz') {
       btnQuiz.style.borderColor = 'var(--amber)';
-      btnQuiz.style.background = 'rgba(244,183,64,0.12)';
+      btnQuiz.style.background = 'var(--amber)';
+      btnQuiz.style.color = '#0F172A';
       if (!dailyWord) {
-        contentDiv.innerHTML = `<div class="empty-state">No quiz available today.</div>`;
+        contentDiv.innerHTML = `<div class="empty-state" style="color:#FFFFFF">No quiz available today.</div>`;
         return;
       }
 
@@ -114,16 +117,16 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       if (isAnswered) {
         const isCorrect = userAnswer.isCorrect;
         contentDiv.innerHTML = `
-          <div class="col gap-xs">
+          <div class="col gap-xs" style="color:#FFFFFF">
             <div class="row gap-sm">
               <span class="pill ${isCorrect ? 'sprout' : 'coral'}">${isCorrect ? '&#x2714; Challenge Completed (+10 XP)' : '&#x2716; Completed'}</span>
             </div>
-            <div style="font-size:14px;font-weight:700;margin-top:6px">${esc(dailyWord.question.prompt)}</div>
-            <div style="font-size:13px;color:var(--cream-dim);margin-top:4px">
-              Your answer: <b style="color:${isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${esc(dailyWord.question.options[userAnswer.selectedOption])}</b>
-              ${!isCorrect ? ` &middot; Correct: <b style="color:var(--sprout)">${esc(dailyWord.question.options[dailyWord.question.correctAnswer])}</b>` : ''}
+            <div style="font-size:15.5px;font-weight:700;margin-top:6px;color:#FFFFFF">${esc(dailyWord.question.prompt)}</div>
+            <div style="font-size:14.5px;color:#FFFFFF;margin-top:4px">
+              Your answer: <b style="color:${isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${esc(dailyWord.question.options[userAnswer.selectedOption])}</b>
+              ${!isCorrect ? ` &middot; Correct: <b style="color:var(--emerald)">${esc(dailyWord.question.options[dailyWord.question.correctAnswer])}</b>` : ''}
             </div>
-            <div style="font-size:12.5px;color:var(--cream-faint);margin-top:6px;font-style:italic">
+            <div style="font-size:13.5px;color:#FFFFFF;margin-top:6px;font-style:italic">
               &#x1F4A1; ${esc(dailyWord.question.explanation)}
             </div>
           </div>
@@ -131,14 +134,14 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       } else {
         contentDiv.innerHTML = `
           <form id="afternoon-quiz-form" class="col gap-xs">
-            <div style="font-size:11px;color:var(--amber);text-transform:uppercase;letter-spacing:0.8px;font-weight:700">&#x26A1; Afternoon Practice Challenge</div>
-            <div style="font-size:14px;font-weight:700;margin-top:2px">${esc(dailyWord.question.prompt)}</div>
+            <div style="font-size:12.5px;color:var(--amber);text-transform:uppercase;letter-spacing:0.8px;font-weight:700">&#x26A1; Afternoon Practice Challenge</div>
+            <div style="font-size:15.5px;font-weight:700;margin-top:2px;color:#FFFFFF">${esc(dailyWord.question.prompt)}</div>
 
             <div class="col gap-xs" style="margin-top:6px">
               ${dailyWord.question.options.map((opt, idx) => `
-                <label class="row gap-sm" style="padding:7px 10px;border:1px solid var(--line);border-radius:6px;cursor:pointer;font-size:13px" id="quiz-opt-lbl-${idx}">
+                <label class="row gap-sm" style="padding:8px 12px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:14.5px;color:#FFFFFF" id="quiz-opt-lbl-${idx}">
                   <input type="radio" name="daily_quiz_opt" value="${idx}" style="accent-color:var(--amber)">
-                  <span>${esc(opt)}</span>
+                  <span style="color:#FFFFFF">${esc(opt)}</span>
                 </label>
               `).join('')}
             </div>
@@ -168,6 +171,7 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
                 toast('+10 XP Earned for today\'s word challenge!', 'sprout');
                 const xpEl = $('#dash-total-xp');
                 if (xpEl) xpEl.textContent = Number(xpEl.textContent || 0) + 10;
+                addStudentXP(10);
               } else {
                 toast('Keep trying! Check the explanation.', 'amber');
               }
@@ -187,7 +191,7 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       }
     } else {
       btnActivity.style.borderColor = 'var(--sprout)';
-      btnActivity.style.background = 'rgba(143,209,79,0.12)';
+      btnActivity.style.background = 'var(--purple-glow)';
       contentDiv.innerHTML = notifs.length ? notifs.slice(0, 5).map(n => `
         <div class="row gap-sm" style="padding:9px 0;border-bottom:1px solid var(--line)">
           <span class="badge-dot" style="background:${n.read ? 'var(--cream-faint)' : 'var(--sprout)'}"></span>
@@ -213,7 +217,7 @@ VIEW_RENDERERS['read-aloud'] = async (mount) => {
     <div class="row" style="margin-bottom:14px;align-items:center">
       <div>
         <div class="section-title" style="margin-bottom:2px">${ICONS.mic} Read Aloud (${dept} Department Bank)</div>
-        <div style="font-size:12.5px;color:var(--cream-dim)">Showing 5 randomly selected technical passages from your department's 50+ question bank pool.</div>
+        <div style="font-size:14px;color:var(--cream-dim)">Showing 5 randomly selected technical passages from your department's 50+ question bank pool.</div>
       </div>
       <div class="spacer"></div>
       <button class="btn btn-ghost btn-sm" id="refresh-passages-btn">${ICONS.activity} Refresh 5 Questions</button>
@@ -229,8 +233,8 @@ VIEW_RENDERERS['read-aloud'] = async (mount) => {
           <span class="pill ${levelColor(p.level)}">${p.level}</span>
           <span class="pill sprout">${p.department || dept}</span>
         </div>
-        <h3 style="font-size:15px;margin-bottom:6px">${esc(p.title)}</h3>
-        <div style="font-size:12.5px;color:var(--cream-faint)">${p.wordCount} words</div>
+        <h3 style="font-size:17px;margin-bottom:6px">${esc(p.title)}</h3>
+        <div style="font-size:13.5px;color:var(--cream-faint)">${p.wordCount} words</div>
       </div>`));
   });
   grid.querySelectorAll('[data-id]').forEach(card=>{
@@ -253,8 +257,8 @@ function openReadAloudPractice(passage){
       <div class="row gap-md" style="margin-top:22px">
         <button class="rec-btn" id="rec-btn">${ICONS.mic}</button>
         <div class="col" style="flex:1">
-          <div id="rec-status" style="font-weight:700;font-size:13.5px">Tap to start recording</div>
-          <div id="rec-transcript" style="font-size:13px;color:var(--cream-dim);margin-top:4px;min-height:18px"></div>
+          <div id="rec-status" style="font-weight:700;font-size:15px">Tap to start recording</div>
+          <div id="rec-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px;min-height:20px"></div>
         </div>
       </div>
       <div id="result-area" style="margin-top:18px"></div>
@@ -281,8 +285,7 @@ function openReadAloudPractice(passage){
             const { attempt, xpGain } = await Api.submitReadAloud({ passageId: passage._id, transcript: finalTranscript, seconds });
             renderReadAloudResult(attempt, xpGain);
             $('#rec-status').textContent = 'Tap to record again';
-            S.user.xp += xpGain;
-            renderTopbar();
+            addStudentXP(xpGain);
           } catch(err){ apiError(err); $('#rec-status').textContent = 'Tap to try again'; }
         },
         onError: (e)=>{ recBtn.classList.remove('on'); recBtn.innerHTML = ICONS.mic; $('#rec-status').textContent = 'Mic error: '+e; },
@@ -301,8 +304,8 @@ function renderReadAloudResult(attempt, xpGain){
       <div class="card card-2"><div class="eyebrow">Fluency</div><h3 style="color:${scoreColor(attempt.fluency)}">${attempt.fluency}%</h3></div>
       <div class="card card-2"><div class="eyebrow">Pace</div><h3>${attempt.pace} wpm</h3></div>
     </div>
-    <div class="card card-2"><div class="eyebrow">Word-level accuracy</div><div class="passage-box" style="font-family:var(--font-body);font-size:14px">${wordsHTML}</div></div>
-    <div class="card card-2" style="margin-top:14px"><div class="eyebrow">Coach feedback</div><p style="font-size:13.5px;line-height:1.6">${esc(attempt.feedback)}</p></div>
+    <div class="card card-2"><div class="eyebrow">Word-level accuracy</div><div class="passage-box" style="font-family:var(--font-body);font-size:15.5px">${wordsHTML}</div></div>
+    <div class="card card-2" style="margin-top:14px"><div class="eyebrow">Coach feedback</div><p style="font-size:15px;line-height:1.6">${esc(attempt.feedback)}</p></div>
     <div class="pill sprout" style="margin-top:14px">+${xpGain} XP earned</div>
   `;
 }
@@ -328,9 +331,9 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
       if (!flipped){
         card.dataset.flipped='1';
         card.innerHTML = `
-          <div style="font-weight:700;font-size:13px;color:var(--cream-faint)">${esc(w.partOfSpeech)}</div>
-          <div style="font-size:13.5px;margin:8px 0">${esc(w.meaning)}</div>
-          <div style="font-size:12.5px;color:var(--cream-dim);font-style:italic">"${esc(w.example)}"</div>
+          <div style="font-weight:700;font-size:14px;color:var(--cream-faint)">${esc(w.partOfSpeech)}</div>
+          <div style="font-size:15px;margin:8px 0">${esc(w.meaning)}</div>
+          <div style="font-size:14px;color:var(--cream-dim);font-style:italic">"${esc(w.example)}"</div>
           <div class="row gap-sm" style="margin-top:12px">
             <button class="btn btn-ghost btn-sm" data-listen>${ICONS.play}</button>
             <button class="btn btn-primary btn-sm" data-know>I know this</button>
@@ -338,7 +341,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
         card.querySelector('[data-listen]').onclick = (ev)=>{ ev.stopPropagation(); SpeechOutput.speak(`${w.word}. ${w.example}`); };
         card.querySelector('[data-know]').onclick = async (ev)=>{
           ev.stopPropagation();
-          try{ await Api.reviewVocab(w._id, true); toast(`Marked "${w.word}" as mastered (+5 XP)`); S.user.xp+=5; renderTopbar(); }
+          try{ await Api.reviewVocab(w._id, true); toast(`Marked "${w.word}" as mastered (+5 XP)`); addStudentXP(5); }
           catch(err){ apiError(err); }
         };
       }
@@ -355,7 +358,7 @@ VIEW_RENDERERS['listening'] = async (mount) => {
     <div class="row" style="margin-bottom:14px;align-items:center">
       <div>
         <div class="section-title" style="margin-bottom:2px">${ICONS.headphones} Listening Comprehension (${dept} Department Bank)</div>
-        <div style="font-size:12.5px;color:var(--cream-dim)">Showing 5 randomly sampled audio scripts from your department's 50+ question bank pool.</div>
+        <div style="font-size:14px;color:var(--cream-dim)">Showing 5 randomly sampled audio scripts from your department's 50+ question bank pool.</div>
       </div>
       <div class="spacer"></div>
       <button class="btn btn-ghost btn-sm" id="refresh-listening-btn">${ICONS.activity} Refresh 5 Questions</button>
@@ -374,11 +377,11 @@ VIEW_RENDERERS['listening'] = async (mount) => {
           <div class="spacer"></div>
           <button class="btn btn-ghost btn-sm" data-play>${ICONS.play} Play audio</button>
         </div>
-        <h3 style="font-size:15px;margin-bottom:8px">${esc(c.title)}</h3>
-        <p style="font-size:13.5px;color:var(--cream-dim);margin:0 0 14px">${esc(c.question)}</p>
+        <h3 style="font-size:17px;margin-bottom:8px">${esc(c.title)}</h3>
+        <p style="font-size:15px;color:var(--cream-dim);margin:0 0 14px">${esc(c.question)}</p>
         <div class="row gap-md">
           <button class="rec-btn" data-rec style="width:52px;height:52px">${ICONS.mic}</button>
-          <div class="col" style="flex:1"><div data-status style="font-weight:700;font-size:13px">Play the audio, then record your answer</div><div data-transcript style="font-size:12.5px;color:var(--cream-dim);margin-top:4px"></div></div>
+          <div class="col" style="flex:1"><div data-status style="font-weight:700;font-size:14.5px">Play the audio, then record your answer</div><div data-transcript style="font-size:13.5px;color:var(--cream-dim);margin-top:4px"></div></div>
         </div>
         <div data-result style="margin-top:12px"></div>
       </div>`);
@@ -398,7 +401,7 @@ VIEW_RENDERERS['listening'] = async (mount) => {
             card.querySelector('[data-status]').textContent = 'Grading…';
             try{
               const { attempt } = await Api.submitListening({ clipId: c._id, answerTranscript: finalTranscript });
-              card.querySelector('[data-result]').innerHTML = `<div class="pill" style="color:${scoreColor(attempt.score)};border-color:transparent">${attempt.score}/100</div><p style="font-size:13px;margin-top:8px">${esc(attempt.feedback)}</p>`;
+              card.querySelector('[data-result]').innerHTML = `<div class="pill" style="color:${scoreColor(attempt.score)};border-color:transparent">${attempt.score}/100</div><p style="font-size:14.5px;margin-top:8px">${esc(attempt.feedback)}</p>`;
               card.querySelector('[data-status]').textContent = 'Done — tap to try again';
             } catch(err){ apiError(err); }
           },
@@ -421,7 +424,7 @@ VIEW_RENDERERS['story'] = async (mount) => {
       <div class="passage-box">${esc(prompt.prompt)}</div>
       <div class="row gap-md" style="margin-top:22px">
         <button class="rec-btn" id="story-rec">${ICONS.mic}</button>
-        <div class="col" style="flex:1"><div id="story-status" style="font-weight:700;font-size:13.5px">Continue the story out loud</div><div id="story-transcript" style="font-size:13px;color:var(--cream-dim);margin-top:4px"></div></div>
+        <div class="col" style="flex:1"><div id="story-status" style="font-weight:700;font-size:15px">Continue the story out loud</div><div id="story-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div></div>
       </div>
       <div id="story-result" style="margin-top:18px"></div>
     </div>`;
@@ -445,9 +448,9 @@ VIEW_RENDERERS['story'] = async (mount) => {
               <div class="grid grid-4" style="margin-bottom:14px">
                 ${['creativity','coherence','vocabulary','grammarFlow'].map(k=>`<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`).join('')}
               </div>
-              <div class="card card-2"><div class="eyebrow">Feedback</div><p style="font-size:13.5px">${esc(attempt.feedback)}</p></div>`;
+              <div class="card card-2"><div class="eyebrow">Feedback</div><p style="font-size:15px">${esc(attempt.feedback)}</p></div>`;
             $('#story-status').textContent = 'Done';
-            S.user.xp += Math.round(15 + s.overall/5); renderTopbar();
+            addStudentXP(Math.round(15 + s.overall/5));
           } catch(err){ apiError(err); }
         },
         onError:(e)=>{ recBtn.classList.remove('on'); $('#story-status').textContent='Mic error: '+e; },
@@ -470,7 +473,7 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       </div>
       <div class="row gap-md">
         <button class="rec-btn" id="debate-rec">${ICONS.mic}</button>
-        <div class="col" style="flex:1"><div id="debate-status" style="font-weight:700;font-size:13.5px">Choose a stance, then record your argument</div><div id="debate-transcript" style="font-size:13px;color:var(--cream-dim);margin-top:4px"></div></div>
+        <div class="col" style="flex:1"><div id="debate-status" style="font-weight:700;font-size:15px">Choose a stance, then record your argument</div><div id="debate-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div></div>
       </div>
       <div id="debate-result" style="margin-top:18px"></div>
     </div>`;
@@ -498,9 +501,9 @@ VIEW_RENDERERS['debate'] = async (mount) => {
               <div class="grid grid-4" style="margin-bottom:14px">
                 ${['clarity','logic','vocabulary','counterargument'].map(k=>`<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`).join('')}
               </div>
-              <div class="card card-2"><div class="eyebrow">Overall: ${s.overall}</div><p style="font-size:13.5px">${esc(attempt.feedback)}</p></div>`;
+              <div class="card card-2"><div class="eyebrow">Overall: ${s.overall}</div><p style="font-size:15px">${esc(attempt.feedback)}</p></div>`;
             $('#debate-status').textContent = 'Done';
-            S.user.xp += Math.round(15 + s.overall/5); renderTopbar();
+            addStudentXP(Math.round(15 + s.overall/5));
           } catch(err){ apiError(err); }
         },
         onError:(e)=>{ recBtn.classList.remove('on'); $('#debate-status').textContent='Mic error: '+e; },
@@ -516,17 +519,17 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     <div class="grid grid-2">
       <div class="card">
         <div class="section-title">${ICONS.mask} Find a practice partner</div>
-        <p style="font-size:13px;color:var(--cream-dim);margin:0 0 16px">Your voice is anonymized before it reaches your partner (and theirs before it reaches you) — a real deployment routes audio through a server-side voice-conversion service so neither of you hears the other's real voice.</p>
+        <p style="font-size:14.5px;color:var(--cream-dim);margin:0 0 16px;line-height:1.6">Your voice is anonymized before it reaches your partner (and theirs before it reaches you) — a real deployment routes audio through a server-side voice-conversion service so neither of you hears the other's real voice.</p>
         <label class="field-label">Topic (optional)</label>
         <input type="text" id="peer-topic" placeholder="e.g. Favourite way to spend a weekend" style="margin-bottom:14px">
         <button class="btn btn-primary" id="peer-find">${ICONS.users} Find a partner</button>
-        <div id="peer-status" style="margin-top:14px;font-size:13px;color:var(--cream-dim)"></div>
+        <div id="peer-status" style="margin-top:14px;font-size:14px;color:var(--cream-dim)"></div>
       </div>
       <div class="card">
         <div class="section-title">${ICONS.grid} Past sessions</div>
         ${sessions.length ? sessions.map(s=>`
-          <div class="row" style="padding:9px 0;border-bottom:1px solid var(--line)">
-            <div style="flex:1;font-size:13px">${esc(s.topic||'Open conversation')}</div>
+          <div class="row" style="padding:10px 0;border-bottom:1px solid var(--line)">
+            <div style="flex:1;font-size:14.5px">${esc(s.topic||'Open conversation')}</div>
             <div class="pill ${s.status==='ended'?'muted':'sprout'}">${s.status}</div>
           </div>`).join('') : `<div class="empty-state">No sessions yet.</div>`}
       </div>
@@ -551,117 +554,103 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
   try { history = await Api.tutorHistory(); } catch (e) { history = []; }
   const user = (typeof S !== 'undefined' ? S.user : null) || {};
   let voiceChatActive = false;
+  let showLiveFeed = false;
   let showRagDrawer = false;
 
   mount.innerHTML = `
-    <div class="card">
-      <div class="row gap-sm" style="margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--line);align-items:center;flex-wrap:wrap">
-        <span class="pill sprout" style="font-weight:700">${ICONS.message} AI Speaking &amp; Technical Coach</span>
-        <span id="llm-status-pill" class="pill voice" style="font-size:11px;font-weight:700">Connecting to AI Engine...</span>
+    <div class="card tutor-card">
+      <!-- Minimalist Header -->
+      <div class="tutor-header-clean">
+        <div class="tutor-coach-info">
+          <div class="brand-mark" style="width:28px;height:28px;border-radius:8px;font-size:13px;flex-shrink:0">${ICONS.message}</div>
+          <div style="min-width:0">
+            <div style="font-weight:700;font-size:14.5px;color:#FFFFFF;line-height:1.2;white-space:nowrap">AI Coach</div>
+            <div style="font-size:11px;color:var(--emerald);display:flex;align-items:center;gap:4px;white-space:nowrap">
+              <span class="status-dot ok" style="width:6px;height:6px"></span> Online
+            </div>
+          </div>
+        </div>
         <div class="spacer"></div>
-        <button class="btn btn-outline btn-sm" id="btn-toggle-rag" style="font-size:12px;font-weight:700;display:flex;align-items:center;gap:6px">
-          📚 Study Notes &amp; Course Materials
-        </button>
-        <button class="btn btn-outline btn-sm" id="toggle-voice-mode" style="font-size:12px;font-weight:700;display:flex;align-items:center;gap:6px">
-          🎙️ Voice Chat: <span id="voice-mode-status" style="color:var(--coral)">OFF</span>
-        </button>
+        <div class="tutor-act-group">
+          <button class="icon-btn tutor-act-icon" id="toggle-voice-mode" title="Toggle Continuous Auto-Voice" aria-label="Auto Voice">
+            🎙️
+          </button>
+          <button class="icon-btn tutor-act-icon" id="btn-toggle-feed" title="Placement & Tech Topics" aria-label="Placement Topics">
+            🌐
+          </button>
+          <button class="icon-btn tutor-act-icon" id="btn-toggle-rag" title="Study Notes" aria-label="Study Notes">
+            📚
+          </button>
+          <button class="icon-btn tutor-act-icon" id="btn-clear-chat" title="Clear Conversation" aria-label="Clear Chat">
+            🗑️
+          </button>
+        </div>
       </div>
 
-      <div class="row gap-sm" style="margin-bottom:10px;padding:8px 12px;background:rgba(255,255,255,0.03);border-radius:8px;font-size:12px;color:var(--cream-bright);align-items:center">
-        <span>👤 <strong>Personal Coach for:</strong> ${esc(user.name || 'Student')}</span>
-        <span>•</span>
-        <span>🎓 <strong>Major:</strong> ${esc(user.department || 'CSE')}</span>
-        <span>•</span>
-        <span>⚡ <strong>Progress:</strong> ${esc(user.level || 'Beginner')} (${user.xp || 0} XP)</span>
-        <span>•</span>
-        <span style="color:var(--teal)">🔒 100% Private Offline Processing</span>
+      <!-- Live Web Topics Drawer (Collapsible) -->
+      <div id="live-web-feed" style="display:none;margin-bottom:10px;padding:10px 14px;background:var(--cyan-glow);border-left:3px solid var(--cyan);border-radius:10px;font-size:13px;color:var(--cream-bright)">
+        <div style="font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:6px">
+          🌐 Live Placement &amp; Tech Topics
+        </div>
+        <div id="live-web-feed-content" style="color:var(--cream-dim);font-size:12.5px;line-height:1.5">Fetching latest placement topics...</div>
       </div>
 
-      <!-- Study Notes Management Panel -->
-      <div id="rag-drawer" style="display:none;margin-bottom:12px;padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:8px;font-size:12px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:8px">
-          <strong style="color:var(--cream-bright)">📄 Course Notes &amp; Syllabus Ingestion</strong>
+      <!-- Study Notes Management Drawer (Collapsible) -->
+      <div id="rag-drawer" style="display:none;margin-bottom:10px;padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:10px;font-size:13px">
+        <div class="row gap-sm" style="align-items:center;margin-bottom:8px;flex-wrap:wrap">
+          <strong style="color:var(--cream-bright)">📄 Study Notes &amp; Syllabus Ingestion</strong>
           <div class="spacer"></div>
-          <span style="font-size:11px;color:var(--cream-dim)">Ask questions against your uploaded study documents</span>
+          <span style="font-size:11.5px;color:var(--cream-dim)">Ask questions against your uploaded study notes</span>
         </div>
-        <div class="row gap-sm" style="margin-bottom:8px">
-          <input type="text" id="rag-doc-title" placeholder="Document Title (e.g. Operating Systems Unit 1)" style="flex:1;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:12px">
-          <button class="btn btn-primary btn-sm" id="btn-save-rag-doc">Save &amp; Index Document</button>
+        <div class="row gap-sm" style="margin-bottom:8px;flex-wrap:wrap">
+          <input type="text" id="rag-doc-title" placeholder="Document Title (e.g. Operating Systems Unit 1)" style="flex:1;min-width:160px;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13.5px">
+          <button class="btn btn-primary btn-sm" id="btn-save-rag-doc" style="white-space:nowrap">Save &amp; Index</button>
         </div>
-        <textarea id="rag-doc-text" placeholder="Paste notes, lecture transcript, or textbook summary text here..." rows="3" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:12px;resize:vertical"></textarea>
+        <textarea id="rag-doc-text" placeholder="Paste notes, lecture transcript, or textbook summary text here..." rows="3" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13.5px;resize:vertical"></textarea>
         <div id="rag-docs-list" style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"></div>
       </div>
 
-      <div id="live-web-feed" style="margin-bottom:12px;padding:10px 14px;background:rgba(42,157,143,0.1);border-left:3px solid var(--teal);border-radius:8px;font-size:12px;color:var(--cream-bright)">
-        <div style="font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:6px">
-          🌐 Live Scraped Topics (Wikipedia / HackerNews / DEV.to)
-        </div>
-        <div id="live-web-feed-content" style="color:var(--cream-dim);font-size:11.5px">Fetching latest engineering news &amp; placement topics...</div>
-      </div>
-
+      <!-- Main Chat Area -->
       <div class="chat-wrap">
-        <div class="chat-log" id="chat-log"></div>
+        <div class="chat-log" id="chat-log">
+          <!-- Empty State Hero with Quick Starters -->
+          <div class="chat-empty-hero" id="chat-empty-hero" style="${history.length ? 'display:none' : ''}">
+            <div class="chat-hero-icon">${ICONS.message}</div>
+            <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
+            <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
+            <div class="chat-quick-prompts">
+              <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
+                <span>🎯</span> <span>Mock Technical Interview</span>
+              </button>
+              <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
+                <span>🗣️</span> <span>Daily Spoken English Practice</span>
+              </button>
+              <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
+                <span>⚡</span> <span>Explain OOP Concepts</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clean Input Pill -->
         <div class="chat-input-row">
-          <button class="icon-btn" id="chat-mic" title="Click to speak">${ICONS.mic}</button>
-          <input type="text" id="chat-input" placeholder="Ask any question, practice communication, or ask about uploaded notes…">
-          <button class="btn btn-primary btn-sm" id="chat-send">${ICONS.send}</button>
+          <button class="icon-btn" id="chat-mic" title="Click to speak" aria-label="Voice input">${ICONS.mic}</button>
+          <input type="text" id="chat-input" placeholder="Ask anything or practice speaking…">
+          <button class="btn btn-primary btn-sm" id="chat-send" aria-label="Send message" style="border-radius:99px;padding:8px 16px">${ICONS.send}</button>
         </div>
       </div>
     </div>`;
 
-  Api.tutorLLMStatus().then((status) => {
-    const pill = $('#llm-status-pill');
-    if (status && (status.status === 'online' || status.status === 'in_process_active')) {
-      if (pill) {
-        pill.textContent = `🟢 AI Engine Ready`;
-        pill.className = 'pill sprout';
-      }
-    } else {
-      if (pill) {
-        pill.textContent = `🟢 AI Engine Ready`;
-        pill.className = 'pill sprout';
-      }
-    }
-  }).catch(() => {});
-
-  Api.tutorLiveWebData().then((articles) => {
-    const container = $('#live-web-feed-content');
-    if (container && articles && articles.length > 0) {
-      container.innerHTML = articles.slice(0, 3).map(a => `• <strong>${esc(a.title)}</strong> (${esc(a.source)}): ${esc(a.summary)}`).join('<br>');
-    }
-  }).catch(() => {});
-
-  async function loadRagDocuments() {
-    try {
-      const docs = await Api.tutorDocuments();
-      const listEl = $('#rag-docs-list');
-      if (!listEl) return;
-      if (!docs || docs.length === 0) {
-        listEl.innerHTML = `<span style="color:var(--cream-faint);font-size:11.5px">No personal study documents indexed yet. Paste notes above to enable document-specific tutoring.</span>`;
-        return;
-      }
-      listEl.innerHTML = docs.map(d => `
-        <span class="source-tag" style="background:rgba(82,183,136,0.1);border-color:rgba(82,183,136,0.3)">
-          📄 ${esc(d.title)} (${d.totalChunks || d.chunks?.length || 1} chunks)
-          <button onclick="window._deleteRagDoc('${d._id}')" style="background:none;border:none;color:var(--coral);cursor:pointer;margin-left:4px;font-size:11px">✕</button>
-        </span>
-      `).join('');
-    } catch (e) {}
-  }
-
-  window._deleteRagDoc = async (id) => {
-    try {
-      await Api.tutorDeleteDocument(id);
-      toast('Document removed', 'info');
-      loadRagDocuments();
-    } catch (e) {
-      toast('Failed to remove document', 'coral');
-    }
+  $('#btn-toggle-feed').onclick = () => {
+    showLiveFeed = !showLiveFeed;
+    $('#live-web-feed').style.display = showLiveFeed ? 'block' : 'none';
+    $('#btn-toggle-feed').classList.toggle('active', showLiveFeed);
   };
 
   $('#btn-toggle-rag').onclick = () => {
     showRagDrawer = !showRagDrawer;
     $('#rag-drawer').style.display = showRagDrawer ? 'block' : 'none';
+    $('#btn-toggle-rag').classList.toggle('active', showRagDrawer);
     if (showRagDrawer) loadRagDocuments();
   };
 
@@ -684,90 +673,23 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
   };
 
   const log = $('#chat-log');
-  let msgCounter = 0;
 
   function addMsg(role, text, correction = null, verification = null, sources = [], engine = null, draft = null){
-    msgCounter++;
-    const wrap = el(`<div class="msg-wrap ${role==='user'?'user':'ai'}"></div>`);
+    const hero = $('#chat-empty-hero');
+    if (hero) hero.style.display = 'none';
 
-    if (correction) {
-      wrap.appendChild(el(`<div style="margin:4px 0;padding:6px 10px;background:rgba(238,108,77,0.12);border-left:3px solid var(--coral);border-radius:6px;font-size:12px;color:var(--cream-bright);font-weight:600">💡 Grammar Coaching: ${esc(correction)}</div>`));
-    }
+    const wrap = el(`<div class="msg-wrap ${role === 'user' ? 'user' : 'ai'}"></div>`);
 
-    const bubble = el(`<div class="msg ${role==='user'?'user':'ai'}">${esc(text)}</div>`);
+    const bubble = el(`<div class="msg ${role === 'user' ? 'user' : 'ai'}">${esc(text)}</div>`);
     wrap.appendChild(bubble);
 
-    // If Assistant message has verification info from pipeline
-    if (role === 'assistant' && verification && verification.verdict && verification.verdict !== 'SKIPPED') {
-      const isCorrect = verification.isCorrect !== false && verification.verdict !== 'INCORRECT';
-      const wasCorrected = verification.wasCorrected === true;
-      const badgeText = wasCorrected
-        ? '🔄 Fact-Checked &amp; Refined'
-        : isCorrect
-        ? '🛡️ Fact-Checked &amp; Verified'
-        : '⚠️ Audit Note';
-      const badgeClass = wasCorrected ? 'corrected' : isCorrect ? 'correct' : 'corrected';
+    if (correction) {
+      wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(correction)}</div>`));
+    }
 
-      const metaRow = el(`
-        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">
-          <span class="verif-badge ${badgeClass}">${badgeText}</span>
-          <button class="verif-toggle-btn" id="verif-btn-${msgCounter}">
-            🔍 View Verification &amp; Evidence
-          </button>
-        </div>
-      `);
-
-      const detailsPanel = el(`
-        <div id="verif-panel-${msgCounter}" class="verif-details" style="display:none">
-          <div style="margin-bottom:6px">
-            <strong style="color:var(--sprout)">⚡ Verification:</strong> Multi-Stage Factual Audit
-          </div>
-          ${draft && draft !== text ? `
-            <div style="margin-bottom:6px">
-              <strong style="color:var(--amber)">📝 Preliminary Draft:</strong>
-              <div style="margin-top:2px;padding:6px;background:rgba(0,0,0,0.3);border-radius:4px">${esc(draft)}</div>
-            </div>
-          ` : ''}
-          ${verification.reasoning ? `
-            <div style="margin-bottom:6px">
-              <strong style="color:var(--teal)">🧠 Verification Analysis:</strong>
-              <div style="margin-top:2px;padding:6px;background:rgba(0,0,0,0.3);border-radius:4px;max-height:120px;overflow-y:auto">${esc(verification.reasoning)}</div>
-            </div>
-          ` : ''}
-          ${verification.feedback ? `
-            <div style="margin-bottom:6px">
-              <strong style="color:var(--cream-bright)">📋 Audit Evaluation:</strong>
-              <div style="margin-top:2px">${esc(verification.feedback)}</div>
-            </div>
-          ` : ''}
-          ${sources && sources.length > 0 ? `
-            <div style="margin-top:6px">
-              <strong style="color:var(--teal)">🌐 Referenced Sources:</strong>
-              <div style="margin-top:4px">
-                ${sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)} (${esc(s.date || 'Web')})</a>`).join('')}
-              </div>
-            </div>
-          ` : ''}
-        </div>
-      `);
-
-      wrap.appendChild(metaRow);
-      wrap.appendChild(detailsPanel);
-
-      const btn = metaRow.querySelector(`#verif-btn-${msgCounter}`);
-      if (btn) {
-        btn.onclick = () => {
-          const panel = wrap.querySelector(`#verif-panel-${msgCounter}`);
-          if (panel) {
-            const isHidden = panel.style.display === 'none';
-            panel.style.display = isHidden ? 'block' : 'none';
-            btn.textContent = isHidden ? '▲ Hide Verification Details' : '🔍 View Verification & Evidence';
-          }
-        };
-      }
-    } else if (role === 'assistant' && sources && sources.length > 0) {
+    if (role === 'assistant' && sources && sources.length > 0) {
       const sourceRow = el(`
-        <div style="margin-top:4px">
+        <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap">
           ${sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
         </div>
       `);
@@ -778,10 +700,15 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     log.scrollTop = log.scrollHeight;
   }
 
-  if (history.length === 0) {
-    addMsg('assistant', `Hello ${user.name || 'there'}! I am your personalized AI Speaking & Technical Coach. How can I help you practice your technical concepts, placement interview answers, or English communication today?`);
-  }
   history.forEach(m => addMsg(m.role, m.text, m.correction, m.verification, m.sources, m.engine, m.draft));
+
+  // Quick prompt chip click listeners
+  mount.querySelectorAll('.chat-prompt-chip').forEach(chip => {
+    chip.onclick = () => {
+      const promptText = chip.dataset.prompt;
+      if (promptText) send(promptText);
+    };
+  });
 
   function startVoiceListening() {
     if (!SpeechInput.supported) return;
@@ -800,7 +727,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     if (!text.trim()) return;
     addMsg('user', text);
     $('#chat-input').value = '';
-    const typingEl = el(`<div class="msg ai" style="display:flex;align-items:center;gap:6px">⚡ Thinking &amp; verifying response…</div>`);
+    const typingEl = el(`<div class="msg ai" style="display:flex;align-items:center;gap:6px">⚡ Thinking…</div>`);
     log.appendChild(typingEl);
     log.scrollTop = log.scrollHeight;
 
@@ -825,25 +752,49 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     }
   }
 
-  $('#chat-send').onclick = ()=> send($('#chat-input').value);
-  $('#chat-input').onkeydown = (e)=>{ if (e.key==='Enter') send($('#chat-input').value); };
+  $('#chat-send').onclick = () => send($('#chat-input').value);
+  $('#chat-input').onkeydown = (e) => { if (e.key === 'Enter') send($('#chat-input').value); };
   $('#chat-mic').onclick = startVoiceListening;
+
+  $('#btn-clear-chat').onclick = () => {
+    log.innerHTML = '';
+    const hero = el(`
+      <div class="chat-empty-hero" id="chat-empty-hero">
+        <div class="chat-hero-icon">${ICONS.message}</div>
+        <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
+        <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
+        <div class="chat-quick-prompts">
+          <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
+            <span>🎯</span> <span>Mock Technical Interview</span>
+          </button>
+          <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
+            <span>🗣️</span> <span>Daily Spoken English Practice</span>
+          </button>
+          <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
+            <span>⚡</span> <span>Explain OOP Concepts</span>
+          </button>
+        </div>
+      </div>
+    `);
+    log.appendChild(hero);
+    hero.querySelectorAll('.chat-prompt-chip').forEach(chip => {
+      chip.onclick = () => {
+        const promptText = chip.dataset.prompt;
+        if (promptText) send(promptText);
+      };
+    });
+    toast('Chat cleared', 'info');
+  };
 
   $('#toggle-voice-mode').onclick = () => {
     voiceChatActive = !voiceChatActive;
-    const label = $('#voice-mode-status');
     const btn = $('#toggle-voice-mode');
+    btn.classList.toggle('active', voiceChatActive);
     if (voiceChatActive) {
-      label.textContent = 'ON 🎙️';
-      label.style.color = 'var(--mint)';
-      btn.classList.add('active');
-      toast('Continuous Voice Chat Enabled! The AI will auto-listen after each response.', 'sprout');
+      toast('Continuous Voice Chat: ON (Auto-listening)', 'sprout');
       startVoiceListening();
     } else {
-      label.textContent = 'OFF';
-      label.style.color = 'var(--coral)';
-      btn.classList.remove('active');
-      toast('Voice Chat Mode set to Manual.', 'info');
+      toast('Continuous Voice Chat: OFF', 'info');
     }
   };
 };
@@ -921,6 +872,15 @@ VIEW_RENDERERS['progress'] = async (mount) => {
 /* ---------------------------- GRAMMAR PRACTICE ---------------------------- */
 let currentGrammarCategory = 'All';
 
+const GRAMMAR_CAT_ICONS = {
+  'All': '✨',
+  'Subject-Verb Agreement': '⚡',
+  'Tenses': '⏳',
+  'Articles & Nouns': '🏷️',
+  'Prepositions': '🎯',
+  'Common Pitfalls': '⚠️',
+};
+
 VIEW_RENDERERS['grammar'] = async (mount) => {
   const topics = await Api.grammarTopics();
   renderGrammarView(mount, topics);
@@ -935,36 +895,51 @@ function renderGrammarView(mount, topics) {
 
   mount.innerHTML = `
     <div class="col gap-md">
-      <div class="card row gap-sm overflow-x" style="padding:10px 14px;flex-wrap:wrap">
+      <!-- Category Chips Scroll Bar -->
+      <div class="grammar-cat-scroll">
         ${categories.map(cat => `
-          <button class="pill ${currentGrammarCategory === cat ? 'sprout' : ''}" style="cursor:pointer;border:1px solid ${currentGrammarCategory === cat ? 'var(--sprout)' : 'var(--line)'}" data-cat="${cat}">
-            ${cat}
+          <button class="grammar-cat-pill ${currentGrammarCategory === cat ? 'active' : ''}" data-cat="${cat}">
+            <span>${GRAMMAR_CAT_ICONS[cat] || '📌'}</span>
+            <span>${cat}</span>
           </button>
         `).join('')}
       </div>
 
+      <!-- Topics Grid -->
       <div class="grid grid-2" id="grammar-grid">
-        ${filtered.length ? filtered.map(t => `
-          <div class="card col gap-sm" style="position:relative;display:flex;flex-direction:column;justify-content:space-between">
-            <div>
-              <div class="row gap-sm" style="margin-bottom:8px">
-                <span class="pill ${t.category === 'Tenses' ? 'amber' : t.category === 'Common Pitfalls' ? 'coral' : 'sprout'}">${esc(t.category)}</span>
-                <span class="pill voice" style="font-size:11px">${t.level}</span>
-                <div class="spacer"></div>
-                ${t.completed ? `<span class="pill sprout" style="color:var(--sprout)">${ICONS.check} ${t.bestScore}% Best</span>` : '<span class="pill" style="color:var(--cream-faint)">New</span>'}
+        ${filtered.length ? filtered.map(t => {
+          const isDone = t.completed;
+          return `
+            <div class="grammar-topic-card ${isDone ? 'completed' : ''}">
+              <div>
+                <div class="row gap-xs" style="margin-bottom:10px;flex-wrap:wrap">
+                  <span class="pill ${t.category === 'Tenses' ? 'amber' : t.category === 'Common Pitfalls' ? 'coral' : 'sprout'}" style="font-size:11px">
+                    ${esc(t.category)}
+                  </span>
+                  <span class="pill voice" style="font-size:10.5px">${t.level}</span>
+                  <div class="spacer"></div>
+                  ${isDone
+                    ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} ${t.bestScore}% Best</span>`
+                    : `<span class="pill" style="font-size:10.5px;color:var(--cyan);border-color:rgba(34,211,238,0.3)">⚡ +20 XP</span>`
+                  }
+                </div>
+                <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">${esc(t.title)}</h3>
+                <p style="font-size:13px;color:var(--cream-dim);line-height:1.55;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden">
+                  ${esc(t.description)}
+                </p>
               </div>
-              <h3 style="font-size:17px;font-weight:700;margin-bottom:6px">${esc(t.title)}</h3>
-              <p style="font-size:13px;color:var(--cream-dim);line-height:1.5;margin-bottom:12px">${esc(t.description)}</p>
+              <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line);align-items:center">
+                <span style="font-size:12px;color:var(--cream-faint);display:inline-flex;align-items:center;gap:4px">
+                  📝 ${t.questions.length} Questions
+                </span>
+                <div class="spacer"></div>
+                <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
+                  ${isDone ? 'Practice Again' : 'Start Practice'} ${ICONS.arrowRight}
+                </button>
+              </div>
             </div>
-            <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line)">
-              <span style="font-size:12px;color:var(--cream-faint)">${t.questions.length} Questions</span>
-              <div class="spacer"></div>
-              <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
-                ${t.completed ? 'Practice Again' : 'Start Practice'} ${ICONS.arrowRight}
-              </button>
-            </div>
-          </div>
-        `).join('') : `<div class="card empty-state">No grammar topics found in this category.</div>`}
+          `;
+        }).join('') : `<div class="card empty-state">No grammar topics found in this category.</div>`}
       </div>
 
       <div id="grammar-active-area"></div>
@@ -994,40 +969,52 @@ async function openGrammarQuiz(topicId, mount, topics) {
 
     activeArea.innerHTML = `
       <div class="col gap-md">
-        <button class="btn btn-ghost btn-sm" id="btn-back-grammar" style="align-self:flex-start">
-          &larr; Back to Topics
-        </button>
-
-        <div class="card" style="border-left:4px solid var(--sprout);background:var(--card-bg)">
-          <div class="row gap-sm" style="margin-bottom:8px">
-            <span class="pill sprout">${esc(topic.category)}</span>
-            <span class="pill voice">${topic.level}</span>
+        <!-- Top Navigation & Progress Header -->
+        <div class="row gap-sm" style="align-items:center;justify-content:space-between;flex-wrap:wrap">
+          <button class="btn btn-ghost btn-sm" id="btn-back-grammar" style="padding:6px 12px;font-size:13px">
+            &larr; Back to Topics
+          </button>
+          <div class="row gap-xs">
+            <span class="pill sprout" style="font-size:11px">${esc(topic.category)}</span>
+            <span class="pill voice" style="font-size:10.5px">${topic.level}</span>
           </div>
-          <h2 style="font-size:20px;font-weight:700;margin-bottom:8px">${esc(topic.title)}</h2>
-          <div style="font-size:13.5px;color:var(--cream-dim);line-height:1.6;margin-top:6px;padding:12px;background:rgba(255,255,255,0.03);border-radius:8px">
-            <b style="color:var(--sprout);display:block;margin-bottom:4px">&#x1F4A1; Grammar Rule Summary:</b>
+        </div>
+
+        <!-- Rule Summary Card -->
+        <div class="card" style="border-left:4px solid var(--sprout);padding:18px">
+          <h2 style="font-size:20px;font-weight:700;margin-bottom:10px">${esc(topic.title)}</h2>
+          <div class="rule-summary-box">
+            <b style="color:var(--sprout);display:flex;align-items:center;gap:6px;margin-bottom:4px;font-size:13.5px">
+              💡 Grammar Rule &amp; Tip:
+            </b>
             ${esc(topic.ruleSummary)}
           </div>
         </div>
 
+        <!-- Interactive Question Cards Form -->
         <form id="grammar-form" class="col gap-md">
-          ${topic.questions.map((q, qIdx) => `
-            <div class="card col gap-sm">
-              <div style="font-weight:700;font-size:15px">
-                <span style="color:var(--sprout);margin-right:6px">Q${qIdx + 1}.</span> ${esc(q.question)}
+          ${topic.questions.map((q, qIdx) => {
+            const letters = ['A', 'B', 'C', 'D'];
+            return `
+              <div class="card col gap-sm" style="padding:16px 18px">
+                <div class="row gap-xs" style="align-items:flex-start">
+                  <span class="pill sprout" style="font-size:11px;padding:2px 7px;margin-right:6px">Q${qIdx + 1}</span>
+                  <div style="font-weight:700;font-size:15px;line-height:1.45;flex:1">${esc(q.question)}</div>
+                </div>
+                <div class="col gap-xs" style="margin-top:10px">
+                  ${q.options.map((opt, optIdx) => `
+                    <label class="quiz-option-card" id="opt-label-${qIdx}-${optIdx}">
+                      <div class="quiz-option-letter">${letters[optIdx] || optIdx + 1}</div>
+                      <input type="radio" name="q_${qIdx}" value="${optIdx}" style="display:none">
+                      <span style="font-size:14.5px;line-height:1.4;flex:1">${esc(opt)}</span>
+                    </label>
+                  `).join('')}
+                </div>
               </div>
-              <div class="col gap-xs" style="margin-top:8px">
-                ${q.options.map((opt, optIdx) => `
-                  <label class="row gap-sm" style="padding:10px 14px;border:1px solid var(--line);border-radius:8px;cursor:pointer;transition:all .15s ease" id="opt-label-${qIdx}-${optIdx}">
-                    <input type="radio" name="q_${qIdx}" value="${optIdx}" style="accent-color:var(--sprout)">
-                    <span style="font-size:14px">${esc(opt)}</span>
-                  </label>
-                `).join('')}
-              </div>
-            </div>
-          `).join('')}
+            `;
+          }).join('')}
 
-          <button class="btn btn-primary" type="submit" style="align-self:flex-start;margin-top:6px" id="submit-grammar-btn">
+          <button class="btn btn-primary" type="submit" style="width:100%;max-width:320px;padding:13px;font-size:15px;margin:10px auto 0 auto" id="submit-grammar-btn">
             Submit Answers ${ICONS.arrowRight}
           </button>
         </form>
@@ -1050,8 +1037,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
           inputs.forEach((otherInp, oIdx) => {
             const lbl = $(`#opt-label-${qIdx}-${oIdx}`);
             if (lbl) {
-              lbl.style.borderColor = otherInp.checked ? 'var(--sprout)' : 'var(--line)';
-              lbl.style.background = otherInp.checked ? 'rgba(143,209,79,0.08)' : 'transparent';
+              lbl.classList.toggle('selected', otherInp.checked);
             }
           });
         };
@@ -1073,44 +1059,58 @@ async function openGrammarQuiz(topicId, mount, topics) {
         const res = await Api.submitGrammar(topic._id, selectedAnswers);
         if (res.xpEarned > 0) {
           toast(`+${res.xpEarned} XP Earned! Great job!`, 'sprout');
+          addStudentXP(res.xpEarned);
         }
 
         const resultsDiv = $('#grammar-results');
         resultsDiv.innerHTML = `
-          <div class="card col gap-md" style="margin-top:16px;border-top:3px solid ${scoreColor(res.score)}">
-            <div class="row gap-md">
-              <div class="col">
-                <div style="font-size:12px;color:var(--cream-faint);text-transform:uppercase;letter-spacing:1px">Your Result</div>
-                <h2 style="font-size:26px;color:${scoreColor(res.score)}">${res.score}% Accuracy</h2>
-                <div style="font-size:13.5px;color:var(--cream-dim);margin-top:4px">${res.correctCount} of ${res.totalQuestions} questions correct &middot; ${res.message}</div>
+          <div class="col gap-md" style="margin-top:18px">
+            <div class="result-hero-card col gap-xs" style="border-top:4px solid ${scoreColor(res.score)}">
+              <div style="font-size:11.5px;color:var(--cream-faint);text-transform:uppercase;letter-spacing:1px;font-weight:800">Practice Complete</div>
+              <h2 style="font-size:32px;font-weight:800;color:${scoreColor(res.score)};margin:4px 0">${res.score}%</h2>
+              <div style="font-size:14px;color:var(--cream);font-weight:600">
+                ${res.correctCount} of ${res.totalQuestions} questions correct
               </div>
+              <div style="font-size:13px;color:var(--cream-dim);margin-top:2px">${res.message}</div>
+              ${res.xpEarned > 0 ? `
+                <div style="margin-top:8px">
+                  <span class="pill sprout" style="font-size:12px;padding:5px 12px">⚡ +${res.xpEarned} XP Earned</span>
+                </div>
+              ` : ''}
             </div>
 
-            <div class="col gap-sm" style="margin-top:10px">
-              <h4 style="font-size:15px;font-weight:700">Detailed Feedback &amp; Explanations:</h4>
+            <div class="col gap-sm">
+              <div class="section-title" style="font-size:16px;margin:8px 0 4px">Detailed Feedback &amp; Explanations</div>
               ${res.evaluatedAnswers.map((ans, idx) => {
                 const q = topic.questions[idx];
+                const isCorrect = ans.isCorrect;
                 return `
-                  <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(143,209,79,0.3)' : 'rgba(255,122,89,0.3)'}">
-                    <div class="row gap-sm" style="margin-bottom:6px">
-                      <span style="font-weight:700;color:${ans.isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714; Correct' : '&#x2716; Incorrect'}</span>
-                      <span style="font-size:13px;font-weight:600">Q${idx + 1}: ${esc(q.question)}</span>
+                  <div class="card" style="padding:14px 16px;border-left:4px solid ${isCorrect ? 'var(--emerald)' : 'var(--coral)'};background:rgba(255,255,255,0.02)">
+                    <div class="row gap-xs" style="margin-bottom:8px;flex-wrap:wrap">
+                      <span class="pill ${isCorrect ? 'emerald' : 'coral'}" style="font-size:11px">
+                        ${isCorrect ? '✔ Correct' : '✖ Incorrect'}
+                      </span>
+                      <span style="font-size:13.5px;font-weight:700">Q${idx + 1}: ${esc(q.question)}</span>
                     </div>
-                    <div style="font-size:13px;color:var(--cream-dim)">
-                      Your answer: <b style="color:${ans.isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${esc(q.options[ans.selectedOption])}</b>
-                      ${!ans.isCorrect ? ` &middot; Correct answer: <b style="color:var(--sprout)">${esc(q.options[ans.correctAnswer])}</b>` : ''}
+                    <div style="font-size:13.5px;line-height:1.5;margin-bottom:6px">
+                      Your answer: <b style="color:${isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${esc(q.options[ans.selectedOption])}</b>
+                      ${!isCorrect ? `<br><span style="color:var(--cream-dim)">Correct answer: <b style="color:var(--emerald)">${esc(q.options[ans.correctAnswer])}</b></span>` : ''}
                     </div>
-                    <div style="font-size:12.5px;color:var(--cream-faint);margin-top:6px;font-style:italic">
-                      &#x1F4A1; ${esc(ans.explanation)}
+                    <div style="font-size:12.5px;color:var(--cream-dim);line-height:1.55;background:rgba(0,0,0,0.25);padding:10px 12px;border-radius:10px;margin-top:8px">
+                      <strong style="color:var(--cyan)">💡 Explanation:</strong> ${esc(ans.explanation)}
                     </div>
                   </div>
                 `;
               }).join('')}
             </div>
 
-            <div class="row gap-sm" style="margin-top:12px">
-              <button class="btn btn-primary" id="btn-retry-grammar">Try Again ${ICONS.refresh}</button>
-              <button class="btn btn-ghost" id="btn-finish-grammar">Back to Grammar Topics</button>
+            <div class="row gap-sm" style="margin-top:12px;flex-wrap:wrap">
+              <button class="btn btn-primary" id="btn-retry-grammar" style="flex:1;min-width:140px">
+                Try Again ${ICONS.refresh}
+              </button>
+              <button class="btn btn-ghost" id="btn-finish-grammar" style="flex:1;min-width:140px">
+                Back to Topics
+              </button>
             </div>
           </div>
         `;
@@ -1154,9 +1154,9 @@ function renderSituationalView(mount, scenarios) {
 
   mount.innerHTML = `
     <div class="col gap-md">
-      <div class="card row gap-sm overflow-x" style="padding:10px 14px;flex-wrap:wrap">
+      <div class="card row gap-sm overflow-x" style="padding:10px 14px;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch">
         ${categories.map(cat => `
-          <button class="pill ${currentSituationalCategory === cat ? 'sprout' : ''}" style="cursor:pointer;border:1px solid ${currentSituationalCategory === cat ? 'var(--sprout)' : 'var(--line)'}" data-scat="${cat}">
+          <button class="pill ${currentSituationalCategory === cat ? 'sprout' : ''}" style="cursor:pointer;flex-shrink:0;white-space:nowrap;border:1px solid ${currentSituationalCategory === cat ? 'var(--sprout)' : 'var(--line)'}" data-scat="${cat}">
             ${cat}
           </button>
         `).join('')}
@@ -1335,6 +1335,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
         const res = await Api.submitSituational(scenario._id, selectedAnswers);
         if (res.xpEarned > 0) {
           toast(`+${res.xpEarned} XP Earned! Great roleplay!`, 'sprout');
+          addStudentXP(res.xpEarned);
         }
 
         const resultsDiv = $('#situational-results');
@@ -1353,14 +1354,14 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
               ${res.evaluatedAnswers.map((ans, idx) => {
                 const q = scenario.interactivePrompts[idx];
                 return `
-                  <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(143,209,79,0.3)' : 'rgba(255,122,89,0.3)'}">
+                  <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
                     <div class="row gap-sm" style="margin-bottom:6px">
-                      <span style="font-weight:700;color:${ans.isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714; Correct Choice' : '&#x2716; Needs Improvement'}</span>
+                      <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714; Correct Choice' : '&#x2716; Needs Improvement'}</span>
                       <span style="font-size:13px;font-weight:600">Q${idx + 1}: ${esc(q.prompt)}</span>
                     </div>
                     <div style="font-size:13px;color:var(--cream-dim)">
-                      Your answer: <b style="color:${ans.isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${esc(q.options[ans.selectedOption])}</b>
-                      ${!ans.isCorrect ? ` &middot; Recommended choice: <b style="color:var(--sprout)">${esc(q.options[ans.correctAnswer])}</b>` : ''}
+                      Your answer: <b style="color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${esc(q.options[ans.selectedOption])}</b>
+                      ${!ans.isCorrect ? ` &middot; Recommended choice: <b style="color:var(--emerald)">${esc(q.options[ans.correctAnswer])}</b>` : ''}
                     </div>
                     <div style="font-size:12.5px;color:var(--cream-faint);margin-top:6px;font-style:italic">
                       &#x1F4A1; ${esc(ans.explanation)}
@@ -1533,7 +1534,7 @@ async function startTest(testId, mount) {
             const lbl = $(`#topt-label-${qIdx}-${oIdx}`);
             if (lbl) {
               lbl.style.borderColor = otherInp.checked ? 'var(--sprout)' : 'var(--line)';
-              lbl.style.background = otherInp.checked ? 'rgba(143,209,79,0.08)' : 'transparent';
+              lbl.style.background = otherInp.checked ? 'var(--purple-glow)' : 'transparent';
             }
           });
         };
@@ -1547,7 +1548,10 @@ async function startTest(testId, mount) {
       const timeTakenSeconds = Math.round((Date.now() - startedAt) / 1000);
       try {
         const res = await Api.submitTest(testId, selectedAnswers, timeTakenSeconds);
-        if (res.xpEarned > 0) toast(`+${res.xpEarned} XP Earned!`, 'sprout');
+        if (res.xpEarned > 0) {
+          toast(`+${res.xpEarned} XP Earned!`, 'sprout');
+          addStudentXP(res.xpEarned);
+        }
         if (auto) toast('Time\'s up — test auto-submitted', 'amber');
         renderTestResult(res, test);
       } catch (err) { apiError(err); if (submitBtn) submitBtn.disabled = false; }
@@ -1582,14 +1586,14 @@ function renderTestResult(res, test) {
         ${res.evaluatedAnswers.map((ans, idx) => {
           const q = test.questions[idx];
           return `
-            <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(143,209,79,0.3)' : 'rgba(255,122,89,0.3)'}">
+            <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
               <div class="row gap-sm" style="margin-bottom:6px">
-                <span style="font-weight:700;color:${ans.isCorrect ? 'var(--sprout)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714;' : '&#x2716;'}</span>
+                <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714;' : '&#x2716;'}</span>
                 <span style="font-size:13px;font-weight:600">Q${idx+1}: ${esc(q.question)}</span>
               </div>
               <div style="font-size:13px;color:var(--cream-dim)">
                 Your answer: <b>${q.options[ans.selectedOption] ? esc(q.options[ans.selectedOption]) : '—'}</b>
-                ${!ans.isCorrect ? ` &middot; Correct: <b style="color:var(--sprout)">${esc(q.options[ans.correctAnswer])}</b>` : ''}
+                ${!ans.isCorrect ? ` &middot; Correct: <b style="color:var(--emerald)">${esc(q.options[ans.correctAnswer])}</b>` : ''}
               </div>
               ${ans.explanation ? `<div style="font-size:12.5px;color:var(--cream-faint);margin-top:6px;font-style:italic">&#x1F4A1; ${esc(ans.explanation)}</div>` : ''}
             </div>`;

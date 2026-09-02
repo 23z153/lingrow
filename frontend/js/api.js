@@ -1,7 +1,26 @@
 /* Thin fetch wrapper around the LinGrow AI backend REST API.
-   Change API_BASE if the backend runs somewhere other than localhost:5000,
-   or leave it as '' to call the same origin the frontend is served from. */
-const API_BASE = window.LINGROW_API_BASE !== undefined ? window.LINGROW_API_BASE : 'http://localhost:5000';
+   Automatically uses the current host IP/domain so mobile devices on the same Wi-Fi
+   can access the backend seamlessly without hardcoding localhost. */
+function getDefaultApiBase() {
+  if (typeof window === 'undefined') return 'http://localhost:5000';
+  if (window.LINGROW_API_BASE !== undefined) return window.LINGROW_API_BASE;
+  
+  // If served directly by backend on same origin (e.g. port 5000 or production domain)
+  if (window.location.port === '5000' || (!window.location.port && window.location.protocol.startsWith('http'))) {
+    return window.location.origin;
+  }
+  
+  // If served via a separate dev server (e.g. Live Server port 5500, Vite port 5173, etc.)
+  // use the same hostname/IP (e.g. 192.168.x.x or localhost) with backend port 5000
+  if (window.location.hostname) {
+    const protocol = window.location.protocol || 'http:';
+    return `${protocol}//${window.location.hostname}:5000`;
+  }
+  
+  return 'http://localhost:5000';
+}
+
+const API_BASE = getDefaultApiBase();
 
 const Api = {
   token: localStorage.getItem('lingrow_token') || null,

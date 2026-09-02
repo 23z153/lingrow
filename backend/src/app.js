@@ -10,7 +10,16 @@ function createApp() {
 
   app.use(
     cors({
-      origin: (process.env.CORS_ORIGIN || '*').split(','),
+      origin: (origin, callback) => {
+        // Allow requests with no origin (like mobile apps, curl, or same-origin)
+        if (!origin) return callback(null, true);
+        const allowed = (process.env.CORS_ORIGIN || '').split(',').map(s => s.trim()).filter(Boolean);
+        // If no specific CORS_ORIGIN is set or contains wildcard, allow requesting origin (LAN IP, localhost, etc.)
+        if (!allowed.length || allowed.includes('*') || allowed.includes(origin)) {
+          return callback(null, true);
+        }
+        return callback(null, true);
+      },
       credentials: true, // required so the refresh-token cookie is sent/accepted cross-origin
     })
   );

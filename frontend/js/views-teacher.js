@@ -8,10 +8,12 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
         <div class="spacer"></div>
         <input type="search" id="student-search" placeholder="Search students…" style="width:220px">
       </div>
-      <table>
-        <thead><tr><th>Student</th><th>Level</th><th>Streak</th><th>XP</th><th>Status</th><th>Last active</th><th></th></tr></thead>
-        <tbody id="student-rows"></tbody>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Student</th><th>Level</th><th>Streak</th><th>XP</th><th>Status</th><th>Last active</th><th></th></tr></thead>
+          <tbody id="student-rows"></tbody>
+        </table>
+      </div>
     </div>
     <div id="student-detail" style="margin-top:20px"></div>
   `;
@@ -84,10 +86,12 @@ function renderTeacherTestsView(mount, tests, categories) {
 
       <div class="card">
         <div class="section-title" style="margin-bottom:14px">${ICONS.grid} Your tests</div>
-        <table>
-          <thead><tr><th>Title</th><th>Topic</th><th>Questions</th><th>Status</th><th>Attempts</th><th>Avg score</th><th></th></tr></thead>
-          <tbody id="test-rows"></tbody>
-        </table>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Title</th><th>Topic</th><th>Questions</th><th>Status</th><th>Attempts</th><th>Avg score</th><th></th></tr></thead>
+            <tbody id="test-rows"></tbody>
+          </table>
+        </div>
         ${!tests.length ? `<div class="empty-state">No tests created yet — build one above.</div>` : ''}
       </div>
 

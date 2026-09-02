@@ -8,10 +8,12 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
       <input type="search" id="user-search" placeholder="Search users…" style="width:220px">
     </div>
     <div class="card">
-      <table>
-        <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Status</th><th></th></tr></thead>
-        <tbody id="user-rows"></tbody>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Status</th><th></th></tr></thead>
+          <tbody id="user-rows"></tbody>
+        </table>
+      </div>
     </div>
     <div id="admin-modal-root"></div>
   `;
@@ -106,7 +108,7 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
   `).join('');
 
   mount.innerHTML = `
-    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--sprout);background:rgba(143,209,79,0.04)">
+    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--purple);background:var(--purple-glow)">
       <div class="row" style="margin-bottom:12px;align-items:center">
         <div>
           <div class="section-title" style="margin-bottom:2px">${ICONS.library} Department Question Bank Manager (50+ Sets Engine)</div>
@@ -128,10 +130,12 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
         </div>
       </div>
       <div id="qb-scraper-log" style="font-size:12.5px;margin-bottom:12px;color:var(--sprout);font-weight:600"></div>
-      <table>
-        <thead><tr><th>Department</th><th>Read Aloud Bank</th><th>Listening Bank</th><th>Total Question Sets</th><th>Question Bank Status</th></tr></thead>
-        <tbody>${deptRowsHtml || '<tr><td colspan="5">Loading stats…</td></tr>'}</tbody>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Department</th><th>Read Aloud Bank</th><th>Listening Bank</th><th>Total Question Sets</th><th>Question Bank Status</th></tr></thead>
+          <tbody>${deptRowsHtml || '<tr><td colspan="5">Loading stats…</td></tr>'}</tbody>
+        </table>
+      </div>
     </div>
 
     <div class="grid grid-2">
@@ -223,7 +227,7 @@ VIEW_RENDERERS['a-health'] = async (mount) => {
 
   const chatLogsHtml = tutorLogs.length
     ? tutorLogs.map((l) => `
-        <div style="padding:10px 12px;border-bottom:1px solid var(--line);background:${l.role==='assistant'?'rgba(143,209,79,0.02)':'transparent'}">
+        <div style="padding:10px 12px;border-bottom:1px solid var(--line);background:${l.role==='assistant'?'rgba(139,92,246,0.03)':'transparent'}">
           <div class="row gap-sm" style="margin-bottom:4px;align-items:center">
             <span class="pill ${l.role==='user'?'voice':'sprout'}" style="font-size:10px;font-weight:700">${l.role==='user'?'STUDENT QUESTION':'AI TUTOR RESPONSE'}</span>
             ${l.verification?.verdict ? `<span class="pill ${l.verification.wasCorrected?'amber':l.verification.isCorrect!==false?'sprout':'coral'}" style="font-size:9.5px;font-weight:700">${l.verification.wasCorrected?'🔄 AUTO-CORRECTED':l.verification.isCorrect!==false?'🛡️ VERIFIED':'⚠️ REVISED'}</span>` : ''}

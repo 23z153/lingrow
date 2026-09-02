@@ -15,15 +15,15 @@ function toast(msg, kind='sprout'){
   setTimeout(()=>{ t.style.opacity='0'; t.style.transform='translateY(6px)'; t.style.transition='all .25s ease'; setTimeout(()=>t.remove(),250); }, 3200);
 }
 function apiError(err){ toast(err.message || 'Something went wrong', 'coral'); console.error(err); }
-const AVATAR_COLORS = ['#8FD14F','#8C7BFF','#FF7A59','#F4B740','#5FA83A'];
+const AVATAR_COLORS = ['#8B5CF6', '#22D3EE', '#10B981', '#F59E0B', '#F43F5E'];
 function hashStr(s){ let h=0; for(let i=0;i<s.length;i++){ h=(h<<5)-h+s.charCodeAt(i); h|=0; } return h; }
 function initials(name){ return (name||'?').split(' ').map(w=>w[0]).slice(0,2).join('').toUpperCase(); }
 function avatarHTML(name, size=38){
   const c = AVATAR_COLORS[Math.abs(hashStr(name||''))%AVATAR_COLORS.length];
-  return `<div class="avatar" style="width:${size}px;height:${size}px;background:${c};font-size:${size*0.36}px">${initials(name)}</div>`;
+  return `<div class="avatar" style="width:${size}px;height:${size}px;background:${c};color:#F8FAFC;font-size:${size*0.36}px">${initials(name)}</div>`;
 }
-function levelColor(level){ return level==='Beginner' ? 'sprout' : level==='Intermediate' ? 'amber' : 'voice'; }
-function scoreColor(s){ return s>=80?'var(--sprout)': s>=60?'var(--amber)':'var(--coral)'; }
+function levelColor(level){ return level==='Beginner' ? 'cyan' : level==='Intermediate' ? 'purple' : 'amber'; }
+function scoreColor(s){ return s>=80?'var(--emerald)': s>=60?'var(--amber)':'var(--coral)'; }
 function timeAgo(iso){
   const d = (Date.now() - new Date(iso).getTime())/1000;
   if (d<60) return 'just now';
@@ -52,7 +52,7 @@ function renderLogin(){
         <div class="login-tagline">Speak more.<br/>Hesitate less.<br/>Grow every day.</div>
         <div class="login-wave-art" id="login-wave"></div>
       </div>
-      <div style="font-size:12px;color:var(--cream-faint);line-height:1.6;max-width:320px">
+      <div class="login-art-desc" style="font-size:12px;color:var(--cream-faint);line-height:1.6;max-width:320px">
         Full-stack build: Node.js/Express API, MongoDB database, JWT auth, and Claude-powered AI tutoring &amp; scoring. Mic input and audio playback use your browser's built-in speech engine.
       </div>
     </div>
@@ -85,9 +85,10 @@ function renderLogin(){
   </div>`;
 
   const waveEl = $('#login-wave');
-  for(let i=0;i<24;i++){
-    const h = 14 + Math.abs(Math.sin(i*0.5))*56;
-    waveEl.appendChild(el(`<span style="height:${h}px;animation-delay:${(i*0.06).toFixed(2)}s"></span>`));
+  const barCount = window.innerWidth <= 768 ? 16 : 24;
+  for(let i = 0; i < barCount; i++){
+    const pct = 25 + Math.round(Math.abs(Math.sin(i * 0.45)) * 70);
+    waveEl.appendChild(el(`<span style="height:${pct}%;animation-delay:${(i*0.06).toFixed(2)}s"></span>`));
   }
 
   $all2('#role-tabs .role-tab').forEach(tab=>{
@@ -134,29 +135,61 @@ async function logout(){
   S.user = null;
   S.cache = {};
   $('#app').classList.remove('active');
+  const loginScreen = $('#login-screen');
+  if (loginScreen) {
+    loginScreen.classList.remove('hidden');
+    loginScreen.style.display = 'flex';
+  }
   loginMode='login';
   renderLogin();
 }
 
 /* ---------------------------- NAV DEFINITIONS ---------------------------- */
+const LEVEL_RANKS = { 'Beginner': 1, 'Intermediate': 2, 'Advanced': 3 };
+
+function getStudentLevel(user) {
+  if (!user) return 'Beginner';
+  if (user.level && LEVEL_RANKS[user.level]) return user.level;
+  const xp = user.xp || 0;
+  if (xp >= 1500) return 'Advanced';
+  if (xp >= 500) return 'Intermediate';
+  return 'Beginner';
+}
+
+function addStudentXP(amount) {
+  if (!S.user || S.user.role !== 'student') return;
+  const oldRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
+  S.user.xp = (S.user.xp || 0) + amount;
+  if (S.user.xp >= 1500) S.user.level = 'Advanced';
+  else if (S.user.xp >= 500) S.user.level = 'Intermediate';
+  else if (!S.user.level) S.user.level = 'Beginner';
+
+  const newRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
+  renderTopbar();
+  if (newRank > oldRank) {
+    toast(`🎉 Leveled up to ${S.user.level}! New practice exercises unlocked!`, 'sprout');
+    renderShell();
+  }
+}
+
 const NAV = {
   student: [
     { group:'Practice', items:[
-      {id:'dashboard', label:'Dashboard', icon:'dashboard', minXP: 0},
-      {id:'grammar', label:'Grammar Practice', icon:'edit', minLevel:'Beginner', minXP: 0},
-      {id:'situational', label:'Daily Situational Phrases', icon:'message', minLevel:'Beginner', minXP: 0},
-      {id:'read-aloud', label:'Read Aloud', icon:'mic', minLevel:'Intermediate', minXP: 100},
-      {id:'vocabulary', label:'Vocabulary', icon:'book', minLevel:'Intermediate', minXP: 150},
-      {id:'listening', label:'Listening', icon:'headphones', minLevel:'Intermediate', minXP: 200},
-      {id:'peer', label:'Peer Practice', icon:'users', minLevel:'Intermediate', minXP: 300},
-      {id:'story', label:'Story Continuation', icon:'feather', minLevel:'Advanced', minXP: 500},
-      {id:'debate', label:'Debate Practice', icon:'podium', minLevel:'Advanced', minXP: 750},
+      {id:'dashboard', label:'Dashboard', icon:'dashboard'},
+      {id:'grammar', label:'Grammar Practice', icon:'edit', minLevel:'Beginner'},
+      {id:'situational', label:'Daily Situational Phrases', icon:'message', minLevel:'Beginner'},
+      {id:'read-aloud', label:'Read Aloud', icon:'mic', minLevel:'Intermediate'},
+      {id:'vocabulary', label:'Vocabulary', icon:'book', minLevel:'Intermediate'},
+      {id:'listening', label:'Listening', icon:'headphones', minLevel:'Intermediate'},
+      {id:'peer', label:'Peer Practice', icon:'users', minLevel:'Intermediate'},
+      {id:'story', label:'Story Continuation', icon:'feather', minLevel:'Advanced'},
+      {id:'debate', label:'Debate Practice', icon:'podium', minLevel:'Advanced'},
     ]},
     { group:'Social & Growth', items:[
-      {id:'tutor', label:'AI Tutor Chat', icon:'message', minXP: 0},
-      {id:'tests', label:'Tests', icon:'clipboard', minXP: 0},
-      {id:'lessons', label:'Lessons', icon:'library', minXP: 0},
-      {id:'progress', label:'Progress & Badges', icon:'trophy', minXP: 0},
+      {id:'tutor', label:'AI Tutor Chat', icon:'message'},
+      {id:'tests', label:'Tests', icon:'clipboard'},
+      {id:'lessons', label:'Lessons', icon:'library'},
+      {id:'progress', label:'Progress & Badges', icon:'trophy'},
     ]},
   ],
   teacher: [
@@ -194,27 +227,61 @@ const VIEW_TITLES = {
   'a-health':['System Health','Service status & platform stats'],
 };
 
+function closeMobileSidebar() {
+  const sidebar = $('#sidebar');
+  const overlay = $('#sidebar-overlay');
+  if (sidebar) sidebar.classList.remove('open');
+  if (overlay) overlay.classList.remove('open');
+  document.body.classList.remove('sidebar-open');
+}
+
+function openMobileSidebar() {
+  const sidebar = $('#sidebar');
+  const overlay = $('#sidebar-overlay');
+  if (sidebar) sidebar.classList.add('open');
+  if (overlay) overlay.classList.add('open');
+  document.body.classList.add('sidebar-open');
+}
+
 function renderShell(){
   const role = S.user.role;
-  const userXP = S.user.xp || 0;
+  const userLevel = getStudentLevel(S.user);
+  const userRank = LEVEL_RANKS[userLevel] || 1;
   const sidebar = $('#sidebar');
+
+  // Filter practice and other exercises appropriate for student's level
+  const roleNav = NAV[role].map(g => {
+    if (role !== 'student') return g;
+    const visibleItems = g.items.filter(it => {
+      if (!it.minLevel) return true;
+      const requiredRank = LEVEL_RANKS[it.minLevel] || 1;
+      return userRank >= requiredRank;
+    });
+    return { ...g, items: visibleItems };
+  }).filter(g => g.items.length > 0);
+
   sidebar.innerHTML = `
-    <div class="brand">
-      <div class="brand-mark">${ICONS.mic}</div>
-      <div><div class="brand-name">LinGrow AI</div><div class="brand-sub">${role}</div></div>
-    </div>
-    ${NAV[role].map(g=>`
-      <div class="nav-group-label">${g.group}</div>
-      ${g.items.map(it=> {
-        const isLocked = role === 'student' && it.minXP && userXP < it.minXP;
-        return `
-          <div class="nav-item ${isLocked ? 'locked' : ''}" data-view="${it.id}">
-            <span>${isLocked ? '&#x1F512;' : ICONS[it.icon]}</span>
-            <span style="flex:1">${it.label}</span>
-            ${isLocked ? `<span class="pill" style="font-size:9px;padding:2px 5px;color:var(--cream-faint)">${it.minLevel}</span>` : it.badge ? `<span class="pill sprout" style="font-size:9.5px;padding:2px 6px;margin-left:4px">${it.badge}</span>` : ''}
+    <div class="sidebar-header row" style="justify-content:space-between;align-items:center;width:100%;margin-bottom:8px">
+      <div class="brand">
+        <div class="brand-mark">${ICONS.mic}</div>
+        <div>
+          <div class="brand-name">LinGrow AI</div>
+          <div class="brand-sub">
+            ${role}${role === 'student' ? ` &middot; <span class="pill ${levelColor(userLevel)}" style="font-size:9.5px;padding:1px 5px">${userLevel}</span>` : ''}
           </div>
-        `;
-      }).join('')}
+        </div>
+      </div>
+      <button class="sidebar-close-btn icon-btn" id="sidebar-close-btn" aria-label="Close menu">${ICONS.x}</button>
+    </div>
+    ${roleNav.map(g=>`
+      <div class="nav-group-label">${g.group}</div>
+      ${g.items.map(it=> `
+        <div class="nav-item ${it.id === S.view ? 'active' : ''}" data-view="${it.id}">
+          <span>${ICONS[it.icon]}</span>
+          <span style="flex:1">${it.label}</span>
+          ${it.minLevel && it.minLevel !== 'Beginner' ? `<span class="pill ${levelColor(it.minLevel)}" style="font-size:9px;padding:2px 5px">${it.minLevel}</span>` : it.badge ? `<span class="pill sprout" style="font-size:9.5px;padding:2px 6px;margin-left:4px">${it.badge}</span>` : ''}
+        </div>
+      `).join('')}
     `).join('')}
     <div class="sidebar-footer">
       <div class="user-chip" id="logout-trigger" style="cursor:pointer">
@@ -224,8 +291,15 @@ function renderShell(){
     </div>
   `;
   $all2('.nav-item', sidebar).forEach(item=>{
-    item.onclick = ()=> setView(item.dataset.view);
+    item.onclick = ()=> {
+      setView(item.dataset.view);
+      closeMobileSidebar();
+    };
   });
+  const closeBtn = $('#sidebar-close-btn');
+  if (closeBtn) closeBtn.onclick = closeMobileSidebar;
+  const overlay = $('#sidebar-overlay');
+  if (overlay) overlay.onclick = closeMobileSidebar;
   $('#logout-trigger').onclick = logout;
 }
 
@@ -233,26 +307,37 @@ function renderTopbar(){
   const [title, sub] = VIEW_TITLES[S.view] || ['',''];
   const topbar = $('#topbar');
   let right = '';
-  if (S.user.role === 'student'){
+  if (S.user && S.user.role === 'student'){
     right = `
-      <div class="streak-chip">${ICONS.flame}<span>${S.user.streak||0} day streak</span></div>
-      <div class="xp-chip">${ICONS.bolt}<span>${S.user.xp||0} XP</span></div>
+      <div class="streak-chip" title="${S.user.streak||0} day streak">${ICONS.flame}<span>${S.user.streak||0}d</span></div>
+      <div class="xp-chip" title="${S.user.xp||0} Total XP">${ICONS.bolt}<span>${S.user.xp||0} XP</span></div>
     `;
   }
-  const banner = !S.user.emailVerified ? `
-    <div id="verify-banner" style="grid-column:1/-1;background:#fff8e1;color:#7a5b00;border:1px solid #f0d98a;border-radius:8px;padding:8px 14px;margin-bottom:10px;display:flex;align-items:center;gap:10px;font-size:13px">
-      <span>Verify your email to keep full access to your account.</span>
-      <b id="verify-resend-trigger" style="cursor:pointer;text-decoration:underline">Resend link</b>
+  const banner = (S.user && !S.user.emailVerified) ? `
+    <div id="verify-banner" style="grid-column:1/-1;width:100%;background:#fff8e1;color:#7a5b00;border:1px solid #f0d98a;border-radius:8px;padding:8px 12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap">
+      <span>Verify your email for full access.</span>
+      <b id="verify-resend-trigger" style="cursor:pointer;text-decoration:underline">Resend</b>
       <span id="verify-resend-status" style="opacity:.8"></span>
     </div>` : '';
+
   topbar.innerHTML = `
     ${banner}
-    <div style="display:flex;align-items:center;width:100%">
-      <div><div class="topbar-title">${title}</div><div class="topbar-sub">${sub}</div></div>
+    <div class="topbar-content-row" style="display:flex;align-items:center;width:100%;gap:10px">
+      <button class="mobile-menu-btn icon-btn" id="mobile-menu-btn" aria-label="Open Navigation Menu">${ICONS.menu}</button>
+      <div class="topbar-headings" style="min-width:0;flex:1">
+        <div class="topbar-title">${title}</div>
+        <div class="topbar-sub">${sub}</div>
+      </div>
       <div class="spacer"></div>
-      ${right}
+      ${right ? `<div class="topbar-chips row gap-xs">${right}</div>` : ''}
     </div>
   `;
+
+  const menuBtn = $('#mobile-menu-btn');
+  if (menuBtn) menuBtn.onclick = openMobileSidebar;
+  const overlay = $('#sidebar-overlay');
+  if (overlay) overlay.onclick = closeMobileSidebar;
+
   const resendTrigger = $('#verify-resend-trigger');
   if (resendTrigger) {
     resendTrigger.onclick = async () => {
@@ -260,9 +345,9 @@ function renderTopbar(){
       status.textContent = 'Sending…';
       try {
         const res = await Api.resendVerification();
-        status.textContent = res.devVerifyUrl ? 'Sent (dev mode — check the server console for the link).' : 'Sent — check your inbox.';
+        status.textContent = res.devVerifyUrl ? 'Sent (check console).' : 'Sent to inbox.';
       } catch (e) {
-        status.textContent = e.message || 'Could not resend right now.';
+        status.textContent = e.message || 'Could not resend.';
       }
     };
   }
@@ -273,22 +358,24 @@ function markActiveNav(){
 }
 
 async function setView(view){
+  // Level gating check for student role
+  if (S.user && S.user.role === 'student') {
+    const userLevel = getStudentLevel(S.user);
+    const userRank = LEVEL_RANKS[userLevel] || 1;
+    const allStudentNav = NAV.student.flatMap(g => g.items);
+    const item = allStudentNav.find(i => i.id === view);
+    if (item && item.minLevel) {
+      const requiredRank = LEVEL_RANKS[item.minLevel] || 1;
+      if (userRank < requiredRank) {
+        view = 'dashboard';
+      }
+    }
+  }
+
   S.view = view;
   markActiveNav();
   renderTopbar();
   const mount = $('#view-inner');
-
-  // Level gating check for student role
-  if (S.user.role === 'student') {
-    const allStudentNav = NAV.student.flatMap(g => g.items);
-    const item = allStudentNav.find(i => i.id === view);
-    const userXP = S.user.xp || 0;
-    if (item && item.minXP && userXP < item.minXP) {
-      const title = VIEW_TITLES[view]?.[0] || item.label;
-      renderLockedModuleView(mount, title, item.minLevel, item.minXP);
-      return;
-    }
-  }
 
   mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
   try {
@@ -300,7 +387,12 @@ async function setView(view){
 }
 
 async function enterApp(){
-  $('#login-screen').innerHTML = '';
+  const loginScreen = $('#login-screen');
+  if (loginScreen) {
+    loginScreen.innerHTML = '';
+    loginScreen.classList.add('hidden');
+    loginScreen.style.display = 'none';
+  }
   $('#app').classList.add('active');
   renderShell();
   const home = S.user.role === 'student' ? 'dashboard' : S.user.role === 'teacher' ? 't-dashboard' : 'a-users';
