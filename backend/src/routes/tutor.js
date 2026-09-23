@@ -132,6 +132,8 @@ router.post('/message', requireAuth, async (req, res) => {
 
     const history = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: 1 }).limit(20);
 
+    const shouldStream = req.body.stream === true || req.headers.accept?.includes('text/event-stream') || req.query.stream === 'true';
+
     // Record user message
     await TutorMessage.create({
       user: req.user._id,
@@ -143,7 +145,68 @@ router.post('/message', requireAuth, async (req, res) => {
       liveTaskSnapshot: liveTaskContext,
     });
 
-    // Execute full Two-Model Pipeline
+    if (shouldStream) {
+      res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
+      res.setHeader('Cache-Control', 'no-cache, no-transform');
+      res.setHeader('Connection', 'keep-alive');
+      res.setHeader('X-Accel-Buffering', 'no');
+      res.flushHeaders?.();
+
+      const onToken = (token) => {
+        try {
+          res.write(`data: ${JSON.stringify({ type: 'token', token })}\n\n`);
+        } catch (e) {}
+      };
+
+      const replyResult = await tutorReply({
+        history,
+        message,
+        studentLevel: req.user.level,
+        department: req.user.department || 'CSE',
+        liveTaskContext,
+        userId: req.user._id,
+        onToken,
+      });
+
+      const replyText = typeof replyResult === 'object' ? replyResult.reply : replyResult;
+      const correction = typeof replyResult === 'object' ? replyResult.correction : null;
+      const verification = typeof replyResult === 'object' ? replyResult.verification : null;
+      const draft = typeof replyResult === 'object' ? replyResult.draft : null;
+      const sources = typeof replyResult === 'object' ? replyResult.sources : [];
+      const engine = typeof replyResult === 'object' ? replyResult.engine : 'Qwen2.5-3B Local Engine';
+      const latencyMs = typeof replyResult === 'object' ? replyResult.latencyMs : null;
+
+      const saved = await TutorMessage.create({
+        user: req.user._id,
+        role: 'assistant',
+        text: replyText,
+        userName: req.user.name,
+        userEmail: req.user.email,
+        department: req.user.department || 'CSE',
+        correction,
+        draft,
+        verification,
+        sources,
+        engine,
+        latencyMs,
+        liveTaskSnapshot: liveTaskContext,
+      });
+
+      res.write(`data: ${JSON.stringify({
+        type: 'done',
+        reply: saved,
+        replyText,
+        correction,
+        draft,
+        verification,
+        sources,
+        engine,
+        latencyMs,
+      })}\n\n`);
+      return res.end();
+    }
+
+    // Execute full Two-Model Pipeline (Non-streaming)
     const replyResult = await tutorReply({
       history,
       message,
@@ -188,6 +251,10 @@ router.post('/message', requireAuth, async (req, res) => {
       latencyMs,
     });
   } catch (err) {
+    if (res.headersSent) {
+      res.write(`data: ${JSON.stringify({ type: 'error', error: err.message })}\n\n`);
+      return res.end();
+    }
     res.status(500).json({ error: err.message });
   }
 });

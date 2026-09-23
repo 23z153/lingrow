@@ -159,6 +159,71 @@ const Api = {
   tutorLiveWebData() { return this.get('/tutor/live-web-data'); },
   tutorHistory() { return this.get('/tutor/history'); },
   tutorMessage(message) { return this.post('/tutor/message', { message }); },
+  async tutorMessageStream(message, { onToken, onDone, onError } = {}) {
+    try {
+      const res = await fetch(`${API_BASE}/api/tutor/message`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'text/event-stream',
+          ...(this.token ? { Authorization: `Bearer ${this.token}` } : {}),
+        },
+        body: JSON.stringify({ message, stream: true }),
+      });
+
+      if (!res.ok) {
+        let errData = {};
+        try { errData = await res.json(); } catch (e) {}
+        throw new Error(errData.error || `Server error: ${res.status}`);
+      }
+
+      if (!res.body) {
+        throw new Error('ReadableStream not supported by browser or empty response');
+      }
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop();
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed || !trimmed.startsWith('data:')) continue;
+          const jsonStr = trimmed.slice(5).trim();
+          try {
+            const event = JSON.parse(jsonStr);
+            if (event.type === 'token' && typeof onToken === 'function') {
+              onToken(event.token);
+            } else if (event.type === 'done' && typeof onDone === 'function') {
+              onDone(event);
+            } else if (event.type === 'error' && typeof onError === 'function') {
+              onError(new Error(event.error));
+            }
+          } catch (e) {}
+        }
+      }
+
+      if (buffer.trim().startsWith('data:')) {
+        try {
+          const event = JSON.parse(buffer.trim().slice(5).trim());
+          if (event.type === 'done' && typeof onDone === 'function') {
+            onDone(event);
+          }
+        } catch (e) {}
+      }
+    } catch (err) {
+      if (typeof onError === 'function') onError(err);
+      else throw err;
+    }
+  },
   tutorDocuments() { return this.get('/tutor/documents'); },
   tutorUploadDocument(payload) { return this.post('/tutor/documents/upload', payload); },
   tutorDeleteDocument(id) { return this.del(`/tutor/documents/${id}`); },

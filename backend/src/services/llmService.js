@@ -216,27 +216,13 @@ const { answerQuestion } = require('./twoModelPipeline');
 const { getModelConfig } = require('./ollamaClient');
 
 /* ------------------------------ tutor chat --------------------------------- */
-async function tutorReply({ history, message, studentLevel, department, liveTaskContext, userId }) {
+async function tutorReply({ history, message, studentLevel, department, liveTaskContext, userId, onToken = null }) {
   const dept = department || 'CSE';
   const userName = liveTaskContext?.userName || 'Student';
   const xp = liveTaskContext?.xp || 0;
   const level = studentLevel || 'Beginner';
 
-  if (process.env.NODE_ENV === 'test') {
-    const fallbackRes = await generate2BReply({
-      history,
-      message,
-      studentLevel: level,
-      department: dept,
-      liveTaskContext,
-    });
-    return {
-      ...fallbackRes,
-      liveWebDataUsed: true,
-    };
-  }
-
-  // Execute full Two-Model Pipeline (Qwen + DeepSeek-R1 Verifier)
+  // Execute Latency-Optimized Multi-Lane Pipeline (Section 2 & 5)
   const pipelineRes = await answerQuestion({
     question: message,
     userId,
@@ -248,6 +234,7 @@ async function tutorReply({ history, message, studentLevel, department, liveTask
       ...liveTaskContext,
     },
     conversationHistory: history,
+    onToken,
   });
 
   return pipelineRes;
@@ -258,13 +245,13 @@ async function getTwoModelLLMStatus() {
   if (config.ollamaOnline) {
     return {
       status: 'online',
-      model: `${config.primaryModel} + ${config.verifierModel}`,
-      provider: 'Local Ollama Sequential Pipeline',
-      primaryModel: config.primaryModel,
+      model: `${config.fastModel} (Fast) | ${config.draftModel} (Draft) | ${config.verifierModel} (Verifier)`,
+      provider: 'Local / Clustered Latency-Optimized Pipeline',
+      fastModel: config.fastModel,
+      draftModel: config.draftModel,
       verifierModel: config.verifierModel,
       gpuInfo: config.gpuInfo,
       architecture: config.architecture,
-      hardwareTarget: config.hardwareTarget,
       availableModels: config.availableModels,
     };
   }
@@ -272,7 +259,7 @@ async function getTwoModelLLMStatus() {
     status: 'in_process_active',
     model: 'LinGrow Local Neural Engine (In-Process Fallback)',
     provider: 'Built-in Instant Neural Engine',
-    note: 'Running 100% locally with Qwen & DeepSeek prompts in-process.',
+    note: 'Running with latency-optimized routing in-process.',
     gpuInfo: config.gpuInfo,
   };
 }

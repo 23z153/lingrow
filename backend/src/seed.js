@@ -11,10 +11,15 @@ const GrammarTopic = require('./models/GrammarTopic');
 const SituationalPhrase = require('./models/SituationalPhrase');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
 
-async function upsertUser({ name, email, password, role, department, batch, level }) {
+async function upsertUser({ name, email, password, role, department, batch, level, xp = 0 }) {
   let user = await User.findOne({ email });
-  if (user) return user;
-  user = new User({ name, email, role, department, batch, level, emailVerified: true });
+  if (user) {
+    if (level) user.level = level;
+    if (xp) user.xp = xp;
+    await user.save();
+    return user;
+  }
+  user = new User({ name, email, role, department, batch, level, xp, emailVerified: true });
   await user.setPassword(password);
   await user.save();
   return user;
@@ -24,7 +29,7 @@ async function run() {
   await connectDB();
   console.log('[seed] Seeding demo accounts and content...');
 
-  await upsertUser({ name: 'Aarav Krishnan', email: 'student@lingrow.demo', password: 'password123', role: 'student', department: 'CSE', batch: 'CSE-B', level: 'Intermediate' });
+  await upsertUser({ name: 'Aarav Krishnan', email: 'student@lingrow.demo', password: 'password123', role: 'student', department: 'CSE', batch: 'CSE-B', level: 'Advanced', xp: 2000 });
   await upsertUser({ name: 'Dr. Lakshmi Menon', email: 'teacher@lingrow.demo', password: 'password123', role: 'teacher', department: 'English' });
   await upsertUser({ name: 'Admin Office', email: 'admin@lingrow.demo', password: 'password123', role: 'admin', department: 'Administration' });
 

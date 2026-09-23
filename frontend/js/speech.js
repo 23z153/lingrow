@@ -42,14 +42,34 @@ const SpeechInput = {
 
 const SpeechOutput = {
   supported: 'speechSynthesis' in window,
+  speaking: false,
   speak(text, { rate = 0.98, onEnd } = {}) {
-    if (!this.supported) return;
+    if (!this.supported || !text) return;
     window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance(text);
+    const cleanText = text
+      .replace(/```[\s\S]*?```/g, ' Code block. ')
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/[*_#~>]/g, '')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/\n+/g, ' ')
+      .trim();
+    if (!cleanText) return;
+    const utter = new SpeechSynthesisUtterance(cleanText);
     utter.rate = rate;
     utter.lang = 'en-IN';
-    utter.onend = () => onEnd && onEnd();
+    this.speaking = true;
+    utter.onend = () => {
+      this.speaking = false;
+      onEnd && onEnd();
+    };
+    utter.onerror = () => {
+      this.speaking = false;
+      onEnd && onEnd();
+    };
     window.speechSynthesis.speak(utter);
   },
-  stop() { if (this.supported) window.speechSynthesis.cancel(); },
+  stop() {
+    this.speaking = false;
+    if (this.supported) window.speechSynthesis.cancel();
+  },
 };

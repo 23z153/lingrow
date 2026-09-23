@@ -554,6 +554,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
   try { history = await Api.tutorHistory(); } catch (e) { history = []; }
   const user = (typeof S !== 'undefined' ? S.user : null) || {};
   let voiceChatActive = false;
+  let readAloudActive = localStorage.getItem('lingrow_tutor_read_aloud') !== 'false';
   let showLiveFeed = false;
   let showRagDrawer = false;
 
@@ -572,7 +573,10 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         </div>
         <div class="spacer"></div>
         <div class="tutor-act-group">
-          <button class="icon-btn tutor-act-icon" id="toggle-voice-mode" title="Toggle Continuous Auto-Voice" aria-label="Auto Voice">
+          <button class="icon-btn tutor-act-icon ${readAloudActive ? 'active' : ''}" id="toggle-read-aloud" title="Toggle Auto Read-Aloud (${readAloudActive ? 'ON' : 'OFF'})" aria-label="Auto Read Aloud">
+            ${readAloudActive ? '🔊' : '🔇'}
+          </button>
+          <button class="icon-btn tutor-act-icon" id="toggle-voice-mode" title="Toggle Continuous Hands-Free Voice" aria-label="Auto Voice">
             🎙️
           </button>
           <button class="icon-btn tutor-act-icon" id="btn-toggle-feed" title="Placement & Tech Topics" aria-label="Placement Topics">
@@ -674,30 +678,146 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
 
   const log = $('#chat-log');
 
-  function addMsg(role, text, correction = null, verification = null, sources = [], engine = null, draft = null){
+  function formatMarkdown(text) {
+    if (!text) return '';
+    let html = esc(text);
+    
+    // 1. Multi-line Code blocks: ```lang\ncode\n```
+    html = html.replace(/```([a-zA-Z0-9_\-\+]*)\n?([\s\S]*?)```/g, (match, lang, code) => {
+      return `<pre class="chat-code-block"><div class="chat-code-header">${esc(lang || 'code')}</div><code>${code.trim()}</code></pre>`;
+    });
+    
+    // 2. Inline code: `code`
+    html = html.replace(/`([^`\n]+)`/g, '<code class="chat-inline-code">$1</code>');
+    
+    // 3. Bold: **text** or __text__
+    html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/__([^_]+)__/g, '<strong>$1</strong>');
+    
+    // 4. Italic: *text* or _text_
+    html = html.replace(/(^|[^\*])\*([^\*\n]+)\*/g, '$1<em>$2</em>');
+    html = html.replace(/(^|[^_])_([^_\n]+)_/g, '$1<em>$2</em>');
+    
+    // 5. Headings: ### Header
+    html = html.replace(/^### (.*$)/gim, '<h4 class="chat-h4">$1</h4>');
+    html = html.replace(/^## (.*$)/gim, '<h3 class="chat-h3">$1</h3>');
+    html = html.replace(/^# (.*$)/gim, '<h2 class="chat-h2">$1</h2>');
+
+    // 6. Blockquotes: > quote
+    html = html.replace(/^\> (.*$)/gim, '<blockquote class="chat-blockquote">$1</blockquote>');
+
+    // 7. Bullet / numbered lists
+    html = html.replace(/^[\*\-]\s+(.+)$/gm, '<div class="chat-list-item">• $1</div>');
+    html = html.replace(/^(\d+)\.\s+(.+)$/gm, '<div class="chat-list-item"><span class="chat-list-num">$1.</span> $2</div>');
+
+    // 8. Paragraphs / Line breaks
+    html = html.replace(/\n\n+/g, '<div class="chat-para-spacer"></div>');
+    html = html.replace(/\n/g, '<br>');
+
+    return html;
+  }
+
+  function streamMessage(bubble, text, onDone) {
+    const tokens = text.split(/(\s+|\n+)/);
+    let index = 0;
+    let current = '';
+
+    function renderNext() {
+      if (index >= tokens.length) {
+        bubble.innerHTML = formatMarkdown(text);
+        log.scrollTop = log.scrollHeight;
+        if (typeof onDone === 'function') onDone();
+        return;
+      }
+
+      const chunk = tokens[index];
+      current += chunk;
+      index++;
+
+      bubble.innerHTML = formatMarkdown(current) + '<span class="streaming-cursor"></span>';
+      log.scrollTop = log.scrollHeight;
+
+      let delay = 16;
+      if (chunk.includes('\n')) {
+        delay = 70;
+      } else if (/[.!?]$/.test(chunk.trim())) {
+        delay = 95;
+      } else if (/[,;:]$/.test(chunk.trim())) {
+        delay = 45;
+      }
+
+      setTimeout(renderNext, delay);
+    }
+
+    renderNext();
+  }
+
+  function addMsg(role, text, correction = null, verification = null, sources = [], engine = null, draft = null, opts = {}){
     const hero = $('#chat-empty-hero');
     if (hero) hero.style.display = 'none';
 
     const wrap = el(`<div class="msg-wrap ${role === 'user' ? 'user' : 'ai'}"></div>`);
+    const bubble = el(`<div class="msg ${role === 'user' ? 'user' : 'ai'}"></div>`);
 
-    const bubble = el(`<div class="msg ${role === 'user' ? 'user' : 'ai'}">${esc(text)}</div>`);
-    wrap.appendChild(bubble);
+    let speakBtn = null;
+    if (role === 'assistant') {
+      const bubbleRow = el(`<div class="msg-bubble-row"></div>`);
+      bubbleRow.appendChild(bubble);
 
-    if (correction) {
-      wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(correction)}</div>`));
+      speakBtn = el(`<button class="msg-read-btn" title="Read this response aloud" aria-label="Read response aloud">🔊</button>`);
+      speakBtn.onclick = () => {
+        if (speakBtn.classList.contains('speaking')) {
+          SpeechOutput.stop();
+          speakBtn.classList.remove('speaking');
+          speakBtn.textContent = '🔊';
+          return;
+        }
+        mount.querySelectorAll('.msg-read-btn.speaking').forEach(b => {
+          b.classList.remove('speaking');
+          b.textContent = '🔊';
+        });
+        speakBtn.classList.add('speaking');
+        speakBtn.textContent = '⏹️';
+        SpeechOutput.speak(text, {
+          onEnd: () => {
+            speakBtn.classList.remove('speaking');
+            speakBtn.textContent = '🔊';
+          }
+        });
+      };
+      bubbleRow.appendChild(speakBtn);
+      wrap.appendChild(bubbleRow);
+    } else {
+      wrap.appendChild(bubble);
     }
 
-    if (role === 'assistant' && sources && sources.length > 0) {
-      const sourceRow = el(`
-        <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap">
-          ${sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
-        </div>
-      `);
-      wrap.appendChild(sourceRow);
+    function appendExtras() {
+      if (correction) {
+        wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(correction)}</div>`));
+      }
+      if (role === 'assistant' && sources && sources.length > 0) {
+        const sourceRow = el(`
+          <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
+            ${sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
+          </div>
+        `);
+        wrap.appendChild(sourceRow);
+      }
+      log.scrollTop = log.scrollHeight;
     }
 
     log.appendChild(wrap);
     log.scrollTop = log.scrollHeight;
+
+    if (role === 'assistant' && opts.stream) {
+      streamMessage(bubble, text, () => {
+        appendExtras();
+        if (typeof opts.onStreamComplete === 'function') opts.onStreamComplete();
+      });
+    } else {
+      bubble.innerHTML = role === 'assistant' ? formatMarkdown(text) : esc(text);
+      appendExtras();
+    }
   }
 
   history.forEach(m => addMsg(m.role, m.text, m.correction, m.verification, m.sources, m.engine, m.draft));
@@ -727,27 +847,114 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     if (!text.trim()) return;
     addMsg('user', text);
     $('#chat-input').value = '';
-    const typingEl = el(`<div class="msg ai" style="display:flex;align-items:center;gap:6px">⚡ Thinking…</div>`);
+    
+    const typingEl = el(`
+      <div class="msg-wrap ai">
+        <div class="msg ai" style="display:inline-flex;align-items:center;gap:8px">
+          <div class="typing-indicator-wrap">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+          <span style="font-size:13.5px;color:var(--cream-dim)">Thinking…</span>
+        </div>
+      </div>
+    `);
     log.appendChild(typingEl);
     log.scrollTop = log.scrollHeight;
 
     try {
-      const res = await Api.tutorMessage(text);
-      typingEl.remove();
-      const replyText = res.reply ? res.reply.text : (res.reply || res);
-      addMsg('assistant', replyText, res.correction, res.verification, res.sources, res.engine, res.draft);
-      
-      // Real Audio Voice Output
-      SpeechOutput.speak(replyText);
+      let wrap = null;
+      let bubble = null;
+      let fullText = '';
+      let hasCreatedBubble = false;
 
-      // Continuous Voice Chat Mode: auto-listen after AI finishes speaking
-      if (voiceChatActive) {
-        setTimeout(() => {
-          if (voiceChatActive) startVoiceListening();
-        }, Math.min(8000, replyText.length * 60));
+      function ensureBubble() {
+        if (hasCreatedBubble) return;
+        hasCreatedBubble = true;
+        if (typingEl && typingEl.parentNode) typingEl.remove();
+
+        wrap = el('<div class="msg-wrap ai"></div>');
+        bubble = el('<div class="msg ai"></div>');
+        const bubbleRow = el('<div class="msg-bubble-row"></div>');
+        bubbleRow.appendChild(bubble);
+        wrap.appendChild(bubbleRow);
+        log.appendChild(wrap);
       }
+
+      await Api.tutorMessageStream(text, {
+        onToken: (token) => {
+          ensureBubble();
+          fullText += token;
+          bubble.innerHTML = formatMarkdown(fullText) + '<span class="streaming-cursor"></span>';
+          log.scrollTop = log.scrollHeight;
+        },
+        onDone: (event) => {
+          ensureBubble();
+          if (!fullText && event.replyText) {
+            fullText = event.replyText;
+          }
+          bubble.innerHTML = formatMarkdown(fullText);
+
+          // Add speak button
+          const bubbleRow = wrap ? wrap.querySelector('.msg-bubble-row') : null;
+          if (bubbleRow) {
+            const speakBtn = el('<button class="msg-read-btn" title="Read this response aloud" aria-label="Read response aloud">🔊</button>');
+            speakBtn.onclick = () => {
+              if (speakBtn.classList.contains('speaking')) {
+                SpeechOutput.stop();
+                speakBtn.classList.remove('speaking');
+                speakBtn.textContent = '🔊';
+                return;
+              }
+              mount.querySelectorAll('.msg-read-btn.speaking').forEach(b => {
+                b.classList.remove('speaking');
+                b.textContent = '🔊';
+              });
+              speakBtn.classList.add('speaking');
+              speakBtn.textContent = '⏹️';
+              SpeechOutput.speak(fullText, {
+                onEnd: () => {
+                  speakBtn.classList.remove('speaking');
+                  speakBtn.textContent = '🔊';
+                }
+              });
+            };
+            bubbleRow.appendChild(speakBtn);
+          }
+
+          if (event.correction && wrap) {
+            wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(event.correction)}</div>`));
+          }
+
+          if (event.sources && event.sources.length > 0 && wrap) {
+            const sourceRow = el(`
+              <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
+                ${event.sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
+              </div>
+            `);
+            wrap.appendChild(sourceRow);
+          }
+
+          log.scrollTop = log.scrollHeight;
+
+          if (readAloudActive) {
+            SpeechOutput.speak(fullText, {
+              onEnd: () => {
+                if (voiceChatActive) startVoiceListening();
+              }
+            });
+          } else if (voiceChatActive) {
+            startVoiceListening();
+          }
+        },
+        onError: (err) => {
+          if (typingEl && typingEl.parentNode) typingEl.remove();
+          apiError(err);
+        }
+      });
     } catch(err){
-      typingEl.remove();
+      if (typingEl && typingEl.parentNode) typingEl.remove();
       apiError(err);
     }
   }
@@ -784,6 +991,25 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       };
     });
     toast('Chat cleared', 'info');
+  };
+
+  $('#toggle-read-aloud').onclick = () => {
+    readAloudActive = !readAloudActive;
+    localStorage.setItem('lingrow_tutor_read_aloud', String(readAloudActive));
+    const btn = $('#toggle-read-aloud');
+    btn.classList.toggle('active', readAloudActive);
+    btn.textContent = readAloudActive ? '🔊' : '🔇';
+    btn.title = `Toggle Auto Read-Aloud (${readAloudActive ? 'ON' : 'OFF'})`;
+    if (!readAloudActive) {
+      SpeechOutput.stop();
+      mount.querySelectorAll('.msg-read-btn.speaking').forEach(b => {
+        b.classList.remove('speaking');
+        b.textContent = '🔊';
+      });
+      toast('Auto Read-Aloud: OFF (Silent Mode)', 'info');
+    } else {
+      toast('Auto Read-Aloud: ON (Voice Active)', 'sprout');
+    }
   };
 
   $('#toggle-voice-mode').onclick = () => {
