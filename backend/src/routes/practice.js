@@ -47,10 +47,19 @@ router.post('/attempts', requireAuth, async (req, res) => {
       passage: passage._id,
       transcript,
       accuracy: result.accuracy,
+      pronunciationScore: result.pronunciationScore,
+      sentenceFormationScore: result.sentenceFormationScore,
+      accentScore: result.accentScore,
+      accentClassification: result.accentClassification,
       fluency: result.fluency,
       pace: result.pace,
       wordScores: result.wordScores,
       feedback: result.feedback,
+      pronunciationSuggestions: result.pronunciationSuggestions,
+      sentenceFormationSuggestions: result.sentenceFormationSuggestions,
+      improvements: result.improvements,
+      accentTraining: result.accentTraining,
+      accentDrills: result.accentDrills,
     });
 
     const xpGain = Math.round(10 + result.accuracy / 5);

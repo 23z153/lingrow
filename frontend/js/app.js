@@ -3,10 +3,22 @@
    uses SpeechInput/SpeechOutput (js/speech.js) for real mic capture and TTS.
    ========================================================================== */
 
+window.VIEW_RENDERERS = window.VIEW_RENDERERS || {};
+var VIEW_RENDERERS = window.VIEW_RENDERERS;
 const S = { user: null, view: 'dashboard', cache: {} };
 
 function $(sel, root=document){ return root.querySelector(sel); }
-function el(html){ const t=document.createElement('template'); t.innerHTML=html.trim(); return t.content.firstElementChild; }
+function el(html){
+  const trimmed = (html || '').trim();
+  if (trimmed.startsWith('<tr') || trimmed.startsWith('<td') || trimmed.startsWith('<th')) {
+    const tbody = document.createElement('tbody');
+    tbody.innerHTML = trimmed;
+    return tbody.firstElementChild;
+  }
+  const t = document.createElement('template');
+  t.innerHTML = trimmed;
+  return t.content.firstElementChild;
+}
 function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function toast(msg, kind='sprout'){
   const wrap = $('#toast-wrap');
@@ -178,10 +190,10 @@ const NAV = {
       {id:'dashboard', label:'Dashboard', icon:'dashboard'},
       {id:'grammar', label:'Grammar Practice', icon:'edit', minLevel:'Beginner'},
       {id:'situational', label:'Daily Situational Phrases', icon:'message', minLevel:'Beginner'},
-      {id:'read-aloud', label:'Read Aloud', icon:'mic', minLevel:'Intermediate'},
-      {id:'vocabulary', label:'Vocabulary', icon:'book', minLevel:'Intermediate'},
-      {id:'listening', label:'Listening', icon:'headphones', minLevel:'Intermediate'},
-      {id:'peer', label:'Peer Practice', icon:'users', minLevel:'Intermediate'},
+      {id:'read-aloud', label:'Read Aloud', icon:'mic', minLevel:'Beginner'},
+      {id:'vocabulary', label:'Vocabulary', icon:'book', minLevel:'Beginner'},
+      {id:'listening', label:'Listening', icon:'headphones', minLevel:'Beginner'},
+      {id:'peer', label:'Peer Practice', icon:'users', minLevel:'Beginner'},
       {id:'story', label:'Story Continuation', icon:'feather', minLevel:'Advanced'},
       {id:'debate', label:'Debate Practice', icon:'podium', minLevel:'Advanced'},
     ]},
@@ -196,6 +208,7 @@ const NAV = {
     { group:'Teaching', items:[
       {id:'t-dashboard', label:'Class Overview', icon:'grid'},
       {id:'t-tests', label:'Tests', icon:'clipboard'},
+      {id:'t-gd', label:'GD Rooms', icon:'users'},
     ]},
   ],
   admin: [
@@ -222,6 +235,8 @@ const VIEW_TITLES = {
   'progress':['Progress & Badges','Your growth over time'],
   't-dashboard':['Class Overview','Monitor your students'],
   't-tests':['Tests','Create and manage assessments'],
+  't-gd':['Group Discussion Rooms','Create GD rooms, monitor lobbies & AI speech reports'],
+
   'a-users':['User Management','Create, import and manage accounts'],
   'a-content':['Content Library','Passages, vocabulary, topics & prompts'],
   'a-health':['System Health','Service status & platform stats'],
@@ -381,8 +396,19 @@ async function setView(view){
   try {
     await VIEW_RENDERERS[view](mount);
   } catch (err) {
-    apiError(err);
-    mount.innerHTML = `<div class="empty-state">Couldn't load this view. Is the backend running at ${API_BASE || location.origin}?</div>`;
+    console.error(`Error rendering view '${view}':`, err);
+    const errMessage = err.message || 'Failed to load view';
+    const isAuthErr = errMessage.toLowerCase().includes('auth') || errMessage.toLowerCase().includes('forbidden') || errMessage.toLowerCase().includes('unauthorized');
+    mount.innerHTML = `
+      <div class="card empty-state col gap-sm" style="padding:36px 24px;max-width:480px;margin:40px auto;text-align:center">
+        <div style="font-size:36px">${isAuthErr ? '🔒' : '⚠️'}</div>
+        <h3 style="font-size:18px;font-weight:700">${isAuthErr ? 'Access Restricted' : 'Unable to Load View'}</h3>
+        <p style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin:4px 0 12px">${esc(errMessage)}</p>
+        <div class="row gap-sm" style="justify-content:center">
+          <button class="btn btn-primary btn-sm" onclick="setView('${view}')">Retry Loading</button>
+          ${isAuthErr ? `<button class="btn btn-ghost btn-sm" onclick="logout()">Sign in as Admin</button>` : ''}
+        </div>
+      </div>`;
   }
 }
 

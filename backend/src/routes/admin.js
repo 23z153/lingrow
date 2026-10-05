@@ -8,7 +8,9 @@ const StoryPrompt = require('../models/StoryPrompt');
 const ReadAloudAttempt = require('../models/ReadAloudAttempt');
 const TutorMessage = require('../models/TutorMessage');
 const SituationalAttempt = require('../models/SituationalAttempt');
+const GrammarTopic = require('../models/GrammarTopic');
 const { getQuestionBankStats, scrapeDepartmentContent } = require('../services/departmentScraperService');
+const { hasKey } = require('../services/llmService');
 
 router.use(requireAuth, requireRole('admin'));
 
@@ -47,6 +49,171 @@ router.post('/question-bank/scrape', async (req, res) => {
     const { department } = req.body;
     const result = await scrapeDepartmentContent(department);
     res.json({ message: `Scraper finished! Generated ${result.passagesCreated} passages & ${result.clipsCreated} listening clips.`, result });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/* -------- grammar & beginner topics + question bank management -------- */
+router.get('/grammar-topics', async (req, res) => {
+  try {
+    const topics = await GrammarTopic.find().sort({ createdAt: -1 });
+    res.json(topics);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/grammar-topics', async (req, res) => {
+  try {
+    const { title, category, level, description, ruleSummary, videoUrl } = req.body;
+    if (!title || !category || !description || !ruleSummary) {
+      return res.status(400).json({ error: 'Title, category, description and ruleSummary are required' });
+    }
+    const topic = new GrammarTopic({
+      title,
+      category,
+      level: level || 'Beginner',
+      description,
+      ruleSummary,
+      videoUrl: videoUrl || '',
+      questions: [],
+    });
+    await topic.save();
+    res.status(201).json(topic);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/grammar-topics/:id', async (req, res) => {
+  try {
+    const { title, category, level, description, ruleSummary, videoUrl } = req.body;
+    const topic = await GrammarTopic.findByIdAndUpdate(
+      req.params.id,
+      { title, category, level, description, ruleSummary, videoUrl },
+      { new: true, runValidators: true }
+    );
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+    res.json(topic);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/grammar-topics/:id', async (req, res) => {
+  try {
+    const topic = await GrammarTopic.findByIdAndDelete(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+    res.json({ message: 'Topic deleted successfully' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/* Question Bank endpoints for a specific topic */
+router.post('/grammar-topics/:id/questions', async (req, res) => {
+  try {
+    const { question, options, correctAnswer, explanation } = req.body;
+    if (!question || !Array.isArray(options) || options.length !== 4 || correctAnswer === undefined || !explanation) {
+      return res.status(400).json({ error: 'Question text, 4 options, correctAnswer (0-3), and explanation are required' });
+    }
+    const topic = await GrammarTopic.findById(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    topic.questions.push({
+      question,
+      options,
+      correctAnswer: Number(correctAnswer),
+      explanation,
+    });
+    await topic.save();
+    res.status(201).json(topic);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/grammar-topics/:id/questions/import', async (req, res) => {
+  try {
+    const { questions } = req.body;
+    if (!Array.isArray(questions) || questions.length === 0) {
+      return res.status(400).json({ error: 'questions must be a non-empty array' });
+    }
+    if (questions.length > 500) {
+      return res.status(400).json({ error: 'A single import can contain at most 500 questions' });
+    }
+
+    const topic = await GrammarTopic.findById(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    const results = { created: 0, skipped: 0, errors: [] };
+    const existingQuestions = new Set(topic.questions.map((q) => q.question.trim().toLowerCase()));
+
+    questions.forEach((row, index) => {
+      const question = typeof row.question === 'string' ? row.question.trim() : '';
+      const options = Array.isArray(row.options)
+        ? row.options.map((option) => String(option || '').trim())
+        : [row.optionA, row.optionB, row.optionC, row.optionD].map((option) => String(option || '').trim());
+      const explanation = typeof row.explanation === 'string' ? row.explanation.trim() : '';
+      const rawCorrectAnswer = row.correctAnswer ?? row.correct_answer;
+      const letterIndex = typeof rawCorrectAnswer === 'string'
+        ? ['A', 'B', 'C', 'D'].indexOf(rawCorrectAnswer.trim().toUpperCase())
+        : -1;
+      const correctAnswer = letterIndex >= 0 ? letterIndex : Number(rawCorrectAnswer);
+
+      if (!question || options.length !== 4 || options.some((option) => !option) || !Number.isInteger(correctAnswer) || correctAnswer < 0 || correctAnswer > 3 || !explanation) {
+        results.skipped++;
+        results.errors.push({ row: index + 1, error: 'Question, four options, a correct answer (A-D or 0-3), and explanation are required' });
+        return;
+      }
+      if (existingQuestions.has(question.toLowerCase())) {
+        results.skipped++;
+        results.errors.push({ row: index + 1, error: 'Duplicate question skipped' });
+        return;
+      }
+
+      topic.questions.push({ question, options, correctAnswer, explanation });
+      existingQuestions.add(question.toLowerCase());
+      results.created++;
+    });
+
+    if (results.created > 0) await topic.save();
+    res.status(201).json({ ...results, topic });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/grammar-topics/:id/questions/:qId', async (req, res) => {
+  try {
+    const { question, options, correctAnswer, explanation } = req.body;
+    const topic = await GrammarTopic.findById(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    const q = topic.questions.id(req.params.qId);
+    if (!q) return res.status(404).json({ error: 'Question not found in question bank' });
+
+    if (question) q.question = question;
+    if (Array.isArray(options) && options.length === 4) q.options = options;
+    if (correctAnswer !== undefined) q.correctAnswer = Number(correctAnswer);
+    if (explanation) q.explanation = explanation;
+
+    await topic.save();
+    res.json(topic);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/grammar-topics/:id/questions/:qId', async (req, res) => {
+  try {
+    const topic = await GrammarTopic.findById(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    topic.questions.pull({ _id: req.params.qId });
+    await topic.save();
+    res.json(topic);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

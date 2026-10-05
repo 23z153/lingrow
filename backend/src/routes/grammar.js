@@ -67,10 +67,46 @@ router.get('/:id', requireAuth, async (req, res) => {
   }
 });
 
+// GET /api/grammar/:id/test - Fetch 10 questions test from Question Bank for this topic
+router.get('/:id/test', requireAuth, async (req, res) => {
+  try {
+    const topic = await GrammarTopic.findById(req.params.id);
+    if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
+
+    // Pick 10 questions (or all if < 10)
+    let questions = [...topic.questions];
+    if (questions.length > 10) {
+      // Shuffle & pick 10
+      questions = questions.sort(() => 0.5 - Math.random()).slice(0, 10);
+    }
+
+    const testQuestions = questions.map((q, idx) => ({
+      _id: q._id,
+      index: idx + 1,
+      question: q.question,
+      options: q.options,
+    }));
+
+    res.json({
+      topicId: topic._id,
+      title: topic.title,
+      category: topic.category,
+      level: topic.level,
+      videoUrl: topic.videoUrl,
+      description: topic.description,
+      ruleSummary: topic.ruleSummary,
+      totalQuestions: testQuestions.length,
+      questions: testQuestions,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // POST /api/grammar/:id/submit - Evaluate answers & record attempt
 router.post('/:id/submit', requireAuth, async (req, res) => {
   try {
-    const { answers } = req.body; // Array of selected option indexes: [0, 2, 1, ...]
+    const { answers, questionIds } = req.body; // Array of selected option indexes: [0, 2, 1, ...]
     if (!Array.isArray(answers)) {
       return res.status(400).json({ error: 'Answers must be an array of selected option indexes' });
     }
@@ -78,12 +114,20 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
     const topic = await GrammarTopic.findById(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
 
+    // Determine target questions: either by questionIds array or topic.questions
+    let targetQuestions = topic.questions;
+    if (Array.isArray(questionIds) && questionIds.length > 0) {
+      targetQuestions = questionIds.map(qid => topic.questions.id(qid) || topic.questions.find(q => q._id.toString() === qid.toString())).filter(Boolean);
+    }
+
     let correctCount = 0;
-    const evaluatedAnswers = topic.questions.map((q, idx) => {
+    const evaluatedAnswers = targetQuestions.map((q, idx) => {
       const selectedOption = answers[idx] !== undefined ? Number(answers[idx]) : -1;
       const isCorrect = selectedOption === q.correctAnswer;
       if (isCorrect) correctCount += 1;
       return {
+        questionId: q._id,
+        questionText: q.question,
         questionIndex: idx,
         selectedOption,
         isCorrect,
@@ -92,7 +136,7 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
       };
     });
 
-    const totalQuestions = topic.questions.length;
+    const totalQuestions = targetQuestions.length;
     const score = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
 
     // Calculate XP: 15 base + bonus for higher accuracy

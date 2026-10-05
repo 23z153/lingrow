@@ -98,6 +98,7 @@ function createApp() {
   app.use('/api/listening', require('./routes/listening'));
   app.use('/api/lessons', require('./routes/lessons'));
   app.use('/api/peer', require('./routes/peer'));
+  app.use('/api/gd', require('./routes/gd'));
   app.use('/api/tutor', require('./routes/tutor'));
   app.use('/api/notifications', require('./routes/notifications'));
   app.use('/api/progress', require('./routes/progress'));

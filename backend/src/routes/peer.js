@@ -17,7 +17,7 @@ const PeerSession = require('../models/PeerSession');
 // naive in-memory waiting queue (per process) — fine for a single instance
 let waitingQueue = [];
 
-router.post('/queue', requireAuth, requireMinXP(300, 'Peer Practice'), async (req, res) => {
+router.post('/queue', requireAuth, async (req, res) => {
   const { topic } = req.body;
   waitingQueue = waitingQueue.filter((q) => q.userId !== req.user._id.toString());
 

@@ -114,12 +114,22 @@ const Api = {
 
   // vocabulary
   vocab(level) { return this.get('/vocabulary' + (level ? `?level=${level}` : '')); },
+  dailyVocab() { return this.get('/vocabulary/daily'); },
+  generateVocabQuiz(wordIds) { return this.post('/vocabulary/quiz', { wordIds }); },
+  submitVocabAssessment(payload) { return this.post('/vocabulary/assessment', payload); },
   reviewVocab(id, known) { return this.post(`/vocabulary/${id}/review`, { known }); },
 
   // grammar
-  grammarTopics(category) { return this.get('/grammar' + (category ? `?category=${encodeURIComponent(category)}` : '')); },
+  grammarTopics(category, level) {
+    const params = new URLSearchParams();
+    if (category) params.append('category', category);
+    if (level) params.append('level', level);
+    const q = params.toString();
+    return this.get('/grammar' + (q ? `?${q}` : ''));
+  },
   getGrammarTopic(id) { return this.get(`/grammar/${id}`); },
-  submitGrammar(id, answers) { return this.post(`/grammar/${id}/submit`, { answers }); },
+  getGrammarTest(id) { return this.get(`/grammar/${id}/test`); },
+  submitGrammar(id, answers, questionIds) { return this.post(`/grammar/${id}/submit`, { answers, questionIds }); },
   myGrammarAttempts() { return this.get('/grammar/attempts/me'); },
 
   // situational
@@ -240,6 +250,17 @@ const Api = {
   myProgress() { return this.get('/progress/me'); },
   leaderboard() { return this.get('/progress/leaderboard'); },
 
+  // Teacher-Led Group Discussion (GD) Rooms
+  createGdRoom(payload) { return this.post('/gd/rooms', payload); },
+  getGdRooms() { return this.get('/gd/rooms'); },
+  getGdRoom(id) { return this.get(`/gd/rooms/${id}`); },
+  joinGdRoom(id) { return this.post(`/gd/rooms/${id}/join`); },
+  leaveGdRoom(id) { return this.post(`/gd/rooms/${id}/leave`); },
+  startGdRoom(id) { return this.post(`/gd/rooms/${id}/start`); },
+  submitGdSpeech(id, text) { return this.post(`/gd/rooms/${id}/speech`, { text }); },
+  endGdRoom(id) { return this.post(`/gd/rooms/${id}/end`); },
+  getGdReport(id) { return this.get(`/gd/rooms/${id}/report`); },
+
   // teacher
   teacherStudents(batch) { return this.get('/teacher/students' + (batch ? `?batch=${batch}` : '')); },
   teacherStudentDetail(id) { return this.get(`/teacher/students/${id}`); },
@@ -277,4 +298,14 @@ const Api = {
   // AI Chatbot & Live Task Monitor
   adminTutorLogs() { return this.get('/admin/tutor-logs'); },
   adminLiveTasks() { return this.get('/admin/live-student-tasks'); },
+
+  // Admin Grammar & Beginner Topics + Question Bank Manager
+  adminGrammarTopics() { return this.get('/admin/grammar-topics'); },
+  adminCreateGrammarTopic(payload) { return this.post('/admin/grammar-topics', payload); },
+  adminUpdateGrammarTopic(id, payload) { return this.put(`/admin/grammar-topics/${id}`, payload); },
+  adminDeleteGrammarTopic(id) { return this.del(`/admin/grammar-topics/${id}`); },
+  adminAddGrammarQuestion(topicId, payload) { return this.post(`/admin/grammar-topics/${topicId}/questions`, payload); },
+  adminImportGrammarQuestions(topicId, questions) { return this.post(`/admin/grammar-topics/${topicId}/questions/import`, { questions }); },
+  adminUpdateGrammarQuestion(topicId, qId, payload) { return this.put(`/admin/grammar-topics/${topicId}/questions/${qId}`, payload); },
+  adminDeleteGrammarQuestion(topicId, qId) { return this.del(`/admin/grammar-topics/${topicId}/questions/${qId}`); },
 };

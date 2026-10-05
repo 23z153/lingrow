@@ -112,47 +112,15 @@ async function run() {
     ]);
   }
 
-  if ((await GrammarTopic.countDocuments()) === 0) {
-    await GrammarTopic.insertMany([
+  await GrammarTopic.deleteMany({});
+  await GrammarTopic.insertMany([
       {
-        title: 'Subject-Verb Agreement Essentials',
-        category: 'Subject-Verb Agreement',
-        level: 'Beginner',
-        description: 'Learn how singular and plural subjects must match their verbs in English sentences.',
-        ruleSummary: 'Singular subjects (he, she, it, Ravi) take a singular verb ending in -s (walks, reads, is). Plural subjects (they, we, students) take a base verb without -s (walk, read, are). Special rule: "I" and "You" take plural verb forms (I go, You write).',
-        questions: [
-          {
-            question: 'She ___ to the library every afternoon after class.',
-            options: ['go', 'goes', 'going', 'gone'],
-            correctAnswer: 1,
-            explanation: '"She" is a singular third-person subject, so it requires the singular verb form "goes".'
-          },
-          {
-            question: 'The students in the laboratory ___ working on their chemistry project.',
-            options: ['is', 'are', 'was', 'am'],
-            correctAnswer: 1,
-            explanation: 'The true subject is "students" (plural), not "laboratory". Plural subjects take "are".'
-          },
-          {
-            question: 'Neither Ravi nor his friends ___ attending the seminar today.',
-            options: ['is', 'are', 'has', 'was'],
-            correctAnswer: 1,
-            explanation: 'In "Neither... nor..." sentences, the verb agrees with the subject closest to it ("his friends" - plural).'
-          },
-          {
-            question: 'Every student in the class ___ received a certificate.',
-            options: ['have', 'has', 'having', 'are'],
-            correctAnswer: 1,
-            explanation: '"Every" makes the subject grammatically singular, so we use "has".'
-          }
-        ]
-      },
-      {
-        title: 'Mastering Present Tenses',
+        title: 'Mastering English Tenses (Present, Past & Future)',
         category: 'Tenses',
         level: 'Beginner',
-        description: 'Understand when to use Simple Present (habits & facts) vs Present Continuous (actions happening now).',
-        ruleSummary: 'Use Simple Present for permanent facts, routines, and habits (e.g., "I live in Chennai", "Classes start at 9 AM"). Use Present Continuous (am/is/are + verb-ing) for actions occurring at this exact moment (e.g., "I am writing an exam right now"). Do NOT use continuous tense for state verbs like know, believe, like, want.',
+        videoUrl: 'https://www.youtube.com/embed/84jVz0D-KkY',
+        description: 'Comprehensive beginner lesson on English Tenses. Master Simple Present, Present Continuous, Simple Past, Present Perfect, and Future tenses with practical everyday examples.',
+        ruleSummary: '• Simple Present: Facts & Routines ("She works in IT").\n• Present Continuous: Happening right now ("She is presenting a paper").\n• Simple Past: Completed past events ("They graduated in 2025").\n• Present Perfect: Past actions with present result ("I have completed the assignment").\n• Simple Future: Future plans ("We will submit tomorrow").',
         questions: [
           {
             question: 'Look! The professor ___ on the board right now.',
@@ -177,6 +145,112 @@ async function run() {
             options: ['drink', 'are drinking', 'drinks', 'drank'],
             correctAnswer: 0,
             explanation: '"Usually" indicates a habitual routine, which requires Simple Present ("drink").'
+          },
+          {
+            question: 'Yesterday, the students ___ their final project presentation.',
+            options: ['complete', 'completes', 'completed', 'have completed'],
+            correctAnswer: 2,
+            explanation: '"Yesterday" specifies a finished past time, requiring Simple Past ("completed").'
+          },
+          {
+            question: 'Arjun ___ already finished reading the reference manual.',
+            options: ['is', 'has', 'have', 'was'],
+            correctAnswer: 1,
+            explanation: '"Has finished" is Present Perfect, used for a completed action with present relevance.'
+          },
+          {
+            question: 'Next week, our department ___ a national conference.',
+            options: ['organize', 'organized', 'will organize', 'has organized'],
+            correctAnswer: 2,
+            explanation: '"Next week" refers to a future event, requiring Simple Future ("will organize").'
+          },
+          {
+            question: 'While I ___ to class, it started raining heavily.',
+            options: ['walked', 'was walking', 'am walking', 'walk'],
+            correctAnswer: 1,
+            explanation: 'An ongoing background action interrupted by a past event takes Past Continuous ("was walking").'
+          },
+          {
+            question: 'They ___ in Chennai since 2020.',
+            options: ['live', 'are living', 'have lived', 'lived'],
+            correctAnswer: 2,
+            explanation: 'Actions starting in the past and continuing up to the present with "since" use Present Perfect ("have lived").'
+          },
+          {
+            question: 'Don\'t disturb him; he ___ for his semester exam.',
+            options: ['prepares', 'is preparing', 'prepared', 'has prepared'],
+            correctAnswer: 1,
+            explanation: 'Action happening right now at the time of speaking requires Present Continuous ("is preparing").'
+          }
+        ]
+      },
+      {
+        title: 'Subject-Verb Agreement Essentials',
+        category: 'Subject-Verb Agreement',
+        level: 'Beginner',
+        videoUrl: 'https://www.youtube.com/embed/g2bM1u1w1_U',
+        description: 'Learn how singular and plural subjects must match their verbs accurately in academic and professional English sentences.',
+        ruleSummary: '• Singular subjects (he, she, it, student) take singular verbs ending in -s/es (walks, is, has).\n• Plural subjects (they, we, students) take base verbs without -s (walk, are, have).\n• Special cases: "Neither/Nor" agrees with the closest subject. Words like "Each" and "Every" are singular.',
+        questions: [
+          {
+            question: 'She ___ to the library every afternoon after class.',
+            options: ['go', 'goes', 'going', 'gone'],
+            correctAnswer: 1,
+            explanation: '"She" is a singular third-person subject, so it requires the singular verb form "goes".'
+          },
+          {
+            question: 'The students in the laboratory ___ working on their chemistry project.',
+            options: ['is', 'are', 'was', 'am'],
+            correctAnswer: 1,
+            explanation: 'The true subject is "students" (plural), not "laboratory". Plural subjects take "are".'
+          },
+          {
+            question: 'Neither Ravi nor his friends ___ attending the seminar today.',
+            options: ['is', 'are', 'has', 'was'],
+            correctAnswer: 1,
+            explanation: 'In "Neither... nor..." sentences, the verb agrees with the subject closest to it ("his friends" - plural).'
+          },
+          {
+            question: 'Every student in the class ___ received a certificate.',
+            options: ['have', 'has', 'having', 'are'],
+            correctAnswer: 1,
+            explanation: '"Every" makes the subject grammatically singular, so we use "has".'
+          },
+          {
+            question: 'The list of recommended books ___ available on the portal.',
+            options: ['is', 'are', 'were', 'be'],
+            correctAnswer: 0,
+            explanation: 'The main subject is "list" (singular noun), not "books". Therefore, use "is".'
+          },
+          {
+            question: 'Both the professor and the teaching assistant ___ present.',
+            options: ['is', 'was', 'are', 'has been'],
+            correctAnswer: 2,
+            explanation: '"Both... and..." forms a plural subject requiring plural verb "are".'
+          },
+          {
+            question: 'Ten kilometers ___ a long distance to walk every day.',
+            options: ['are', 'is', 'were', 'be'],
+            correctAnswer: 1,
+            explanation: 'Amounts of distance, money, or time treated as a single unit take a singular verb ("is").'
+          },
+          {
+            question: 'Either the captain or the players ___ responsible for the win.',
+            options: ['is', 'are', 'was', 'has'],
+            correctAnswer: 1,
+            explanation: 'In "Either... or...", the verb agrees with the subject closest to it ("the players" - plural).'
+          },
+          {
+            question: 'One of my closest friends ___ working at Google.',
+            options: ['are', 'is', 'were', 'have'],
+            correctAnswer: 1,
+            explanation: '"One of..." refers to a single individual ("One"), so it requires singular verb "is".'
+          },
+          {
+            question: 'Statistics ___ a mandatory subject for computer science students.',
+            options: ['are', 'is', 'were', 'have'],
+            correctAnswer: 1,
+            explanation: 'Academic subjects ending in -s (Statistics, Physics, Mathematics) take singular verb "is".'
           }
         ]
       },
@@ -184,8 +258,9 @@ async function run() {
         title: 'Articles: A, An & The',
         category: 'Articles & Nouns',
         level: 'Beginner',
-        description: 'Master indefinite (a/an) and definite (the) articles when talking about singular and plural nouns.',
-        ruleSummary: 'Use "a" before consonant sounds ("a university", "a car"). Use "an" before vowel sounds ("an hour", "an apple"). Use "the" when referring to a specific item already mentioned or unique ("the sun", "the library on campus"). Do NOT use articles before uncountable concepts or general plural nouns ("Water is essential", not "The water is essential").',
+        videoUrl: 'https://www.youtube.com/embed/9g_7m-O-Fls',
+        description: 'Master indefinite (a/an) and definite (the) articles when talking about singular, plural, and uncountable nouns.',
+        ruleSummary: '• Use "a" before consonant sounds ("a university", "a unit").\n• Use "an" before vowel sounds ("an hour", "an MBA graduate").\n• Use "the" when referring to a specific item already mentioned or unique ("the sun", "the library").',
         questions: [
           {
             question: 'He has been waiting at the station for ___ hour.',
@@ -210,6 +285,42 @@ async function run() {
             options: ['a', 'an', 'the', 'no article'],
             correctAnswer: 3,
             explanation: 'Academic subjects (computer science, mathematics, history) do not take an article.'
+          },
+          {
+            question: 'She is ___ honest officer who works diligently.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 1,
+            explanation: '"Honest" starts with a silent "h", giving a vowel sound, so it uses "an".'
+          },
+          {
+            question: 'My uncle completed his degree at ___ European university.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 0,
+            explanation: '"European" starts with a consonant sound (/jʊərəˈpiːən/), so it takes "a".'
+          },
+          {
+            question: '___ Taj Mahal is located in Agra.',
+            options: ['A', 'An', 'The', 'No article'],
+            correctAnswer: 2,
+            explanation: 'Famous historical monuments and landmark buildings require the definite article "The".'
+          },
+          {
+            question: 'We need to buy ___ fresh water for the journey.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 3,
+            explanation: 'Uncountable nouns like water, sugar, and advice do not take indefinite articles (a/an).'
+          },
+          {
+            question: 'This is ___ best book I have ever read on algorithms.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 2,
+            explanation: 'Superlative adjectives ("the best", "the highest") always require "the".'
+          },
+          {
+            question: 'He is studying for ___ MBA degree.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 1,
+            explanation: '"MBA" is pronounced starting with a vowel sound (/ɛm-biː-eɪ/), so it takes "an".'
           }
         ]
       },
@@ -217,8 +328,9 @@ async function run() {
         title: 'Prepositions of Time & Place',
         category: 'Prepositions',
         level: 'Beginner',
-        description: 'Learn the exact rules for using In, On, and At for times, dates, locations, and events.',
-        ruleSummary: 'AT is for specific precise times & spots ("at 5 PM", "at the door"). ON is for days, dates & surfaces ("on Monday", "on July 15th", "on the table"). IN is for enclosed spaces, months, years & cities ("in Chennai", "in 2026", "in August", "in the room").',
+        videoUrl: 'https://www.youtube.com/embed/2g811C7j65c',
+        description: 'Learn the exact rules for using In, On, and At for times, dates, locations, and events in conversational and formal context.',
+        ruleSummary: '• AT: Specific precise times & points ("at 5 PM", "at the main door").\n• ON: Days, dates & surfaces ("on Monday", "on July 15th", "on the table").\n• IN: Enclosed spaces, months, years & cities ("in Chennai", "in 2026", "in August").',
         questions: [
           {
             question: 'The team meeting is scheduled ___ 10:30 AM.',
@@ -243,6 +355,42 @@ async function run() {
             options: ['in', 'on', 'at', 'inside'],
             correctAnswer: 1,
             explanation: 'Use "on" to indicate position touching a surface ("on the desk").'
+          },
+          {
+            question: 'India gained independence ___ 1947.',
+            options: ['on', 'at', 'in', 'by'],
+            correctAnswer: 2,
+            explanation: 'Use "in" for years, centuries, and decades.'
+          },
+          {
+            question: 'The campus canteen is located ___ the ground floor.',
+            options: ['in', 'on', 'at', 'above'],
+            correctAnswer: 1,
+            explanation: 'Use "on" for floor levels in a building ("on the ground floor").'
+          },
+          {
+            question: 'I will meet you ___ the airport terminal entrance.',
+            options: ['in', 'on', 'at', 'inside'],
+            correctAnswer: 2,
+            explanation: 'Use "at" for specific landmarks, venues, or meeting points.'
+          },
+          {
+            question: 'Her birthday is ___ May 24th.',
+            options: ['in', 'on', 'at', 'by'],
+            correctAnswer: 1,
+            explanation: 'Specific calendar dates take preposition "on".'
+          },
+          {
+            question: 'The seminar starts ___ the morning.',
+            options: ['at', 'on', 'in', 'by'],
+            correctAnswer: 2,
+            explanation: 'Parts of the day take "in" ("in the morning", "in the evening"). Exception: "at night".'
+          },
+          {
+            question: 'Please arrive ___ time for the job interview.',
+            options: ['at', 'on', 'in', 'by'],
+            correctAnswer: 1,
+            explanation: '"On time" means punctual / at the scheduled hour.'
           }
         ]
       },
@@ -250,8 +398,9 @@ async function run() {
         title: 'Common Indian English Grammar Pitfalls',
         category: 'Common Pitfalls',
         level: 'Beginner',
-        description: 'Identify and correct direct translation mistakes commonly made by Indian college students.',
-        ruleSummary: 'Avoid redundant prepositions after transitive verbs: say "discuss the problem" (NOT "discuss about"), "order tea" (NOT "order for"). Avoid using continuous tense for possession: say "I have two brothers" (NOT "I am having two brothers"). Avoid adding unnecessary "only": say "I told him yesterday" (NOT "I told him yesterday only").',
+        videoUrl: 'https://www.youtube.com/embed/Q4u4mKk5G1A',
+        description: 'Identify and correct direct translation mistakes commonly made by Indian college students in writing and speaking.',
+        ruleSummary: '• Avoid redundant prepositions: "discuss the issue" (NOT "discuss about").\n• Possession cannot be continuous: "I have two sisters" (NOT "I am having").\n• Avoid double past tense: "Did you see?" (NOT "Did you saw?").',
         questions: [
           {
             question: 'Which sentence is grammatically correct?',
@@ -296,11 +445,76 @@ async function run() {
             ],
             correctAnswer: 1,
             explanation: 'The auxiliary verb "did" already carries the past tense, so the main verb must be in base form ("buy").'
+          },
+          {
+            question: 'Which of the following is correct?',
+            options: [
+              'I am revert back to your email.',
+              'I will revert to your email.',
+              'I will revert back to your email.',
+              'I will reverting to your email.'
+            ],
+            correctAnswer: 1,
+            explanation: '"Revert" means "return to", so "revert back" is redundant.'
+          },
+          {
+            question: 'Select the correct sentence:',
+            options: [
+              'He is senior than me.',
+              'He is senior to me.',
+              'He is senior from me.',
+              'He is more senior than me.'
+            ],
+            correctAnswer: 1,
+            explanation: 'Latin comparative adjectives (senior, junior, superior, inferior) take "to", not "than".'
+          },
+          {
+            question: 'Fix the sentence: "I told to him to submit the report."',
+            options: [
+              'I told to him to submit the report.',
+              'I told him to submit the report.',
+              'I said to him for submit the report.',
+              'I told him that to submit the report.'
+            ],
+            correctAnswer: 1,
+            explanation: '"Tell" takes a direct object without "to" (e.g. "I told him").'
+          },
+          {
+            question: 'Which sentence correctly expresses reason?',
+            options: [
+              'Because I was sick, so I could not attend.',
+              'Because I was sick, I could not attend.',
+              'As I was sick, so I could not attend.',
+              'Since I was sick, therefore I could not attend.'
+            ],
+            correctAnswer: 1,
+            explanation: 'Do not pair "Because/As/Since" with "so/therefore" in the same sentence.'
+          },
+          {
+            question: 'Correct: "What is your good name?"',
+            options: [
+              'What is your good name?',
+              'May I know your name, please?',
+              'What good name you have?',
+              'Tell your good name.'
+            ],
+            correctAnswer: 1,
+            explanation: '"Good name" is a literal translation of "shubh naam". In standard English, use "May I know your name, please?"'
+          },
+          {
+            question: 'Fix: "She does not has a hall ticket."',
+            options: [
+              'She does not has a hall ticket.',
+              'She does not have a hall ticket.',
+              'She do not have a hall ticket.',
+              'She is not having a hall ticket.'
+            ],
+            correctAnswer: 1,
+            explanation: 'After auxiliary "does not", always use base verb "have".'
           }
         ]
       }
     ]);
-  }
 
   await SituationalPhrase.deleteMany({});
   await SituationalPhrase.insertMany([
