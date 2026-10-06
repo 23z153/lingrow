@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { requireAuth } = require('../middleware/auth');
 const TutorMessage = require('../models/TutorMessage');
+const TutorMemory = require('../models/TutorMemory');
 const ReadAloudAttempt = require('../models/ReadAloudAttempt');
 const SituationalAttempt = require('../models/SituationalAttempt');
 const VocabProgress = require('../models/VocabProgress');
@@ -10,6 +11,14 @@ const { scrapeLiveWebData } = require('../services/webScraperService');
 const { executeWebSearch } = require('../services/webSearchService');
 const { ingestDocument } = require('../services/ragService');
 const { getModelConfig } = require('../services/ollamaClient');
+const {
+  getStudentMemories,
+  addStudentMemory,
+  deleteStudentMemory,
+  clearStudentMemories,
+  autoExtractMemory,
+  formatMemoriesForPrompt,
+} = require('../services/memoryService');
 
 router.get('/', (req, res) => res.redirect('/'));
 
@@ -44,6 +53,59 @@ router.get('/history', requireAuth, async (req, res) => {
   try {
     const messages = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: 1 }).limit(100);
     res.json(messages);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/history', requireAuth, async (req, res) => {
+  try {
+    await TutorMessage.deleteMany({ user: req.user._id });
+    res.json({ message: 'Conversation history cleared successfully' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/* ------------------- AI Tutor Memory Endpoints ------------------- */
+router.get('/memories', requireAuth, async (req, res) => {
+  try {
+    const memories = await getStudentMemories(req.user._id);
+    res.json(memories);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/memories', requireAuth, async (req, res) => {
+  try {
+    const { fact, category } = req.body;
+    if (!fact) return res.status(400).json({ error: 'fact is required' });
+    const memory = await addStudentMemory({
+      userId: req.user._id,
+      fact,
+      category: category || 'goal',
+      source: 'user_added',
+    });
+    res.status(201).json(memory);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/memories/:id', requireAuth, async (req, res) => {
+  try {
+    await deleteStudentMemory(req.user._id, req.params.id);
+    res.json({ message: 'Memory deleted' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/memories', requireAuth, async (req, res) => {
+  try {
+    await clearStudentMemories(req.user._id);
+    res.json({ message: 'All memories cleared' });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -120,6 +182,16 @@ router.post('/message', requireAuth, async (req, res) => {
     const situationalDone = await SituationalAttempt.countDocuments({ user: req.user._id });
     const vocabMastered = await VocabProgress.countDocuments({ user: req.user._id, mastered: true });
 
+    // Fetch latest 16 messages for true multi-turn context memory
+    const recentDbMessages = await TutorMessage.find({ user: req.user._id })
+      .sort({ createdAt: -1 })
+      .limit(16);
+    const history = recentDbMessages.reverse();
+
+    // Fetch long-term student memories & goals
+    const memories = await getStudentMemories(req.user._id);
+    const memoryContext = formatMemoriesForPrompt(memories);
+
     const liveTaskContext = {
       userName: req.user.name,
       userEmail: req.user.email,
@@ -128,9 +200,12 @@ router.post('/message', requireAuth, async (req, res) => {
       readAloudAvg,
       situationalDone,
       vocabMastered,
+      memories,
+      memoryContext,
     };
 
-    const history = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: 1 }).limit(20);
+    // Auto-detect and record any persistent learning goals / background from message
+    autoExtractMemory(req.user._id, message).catch(() => {});
 
     const shouldStream = req.body.stream === true || req.headers.accept?.includes('text/event-stream') || req.query.stream === 'true';
 

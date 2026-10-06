@@ -238,6 +238,11 @@ const Api = {
   tutorUploadDocument(payload) { return this.post('/tutor/documents/upload', payload); },
   tutorDeleteDocument(id) { return this.del(`/tutor/documents/${id}`); },
   tutorSearch(query) { return this.post('/tutor/search', { query }); },
+  tutorClearHistory() { return this.del('/tutor/history'); },
+  tutorMemories() { return this.get('/tutor/memories'); },
+  tutorAddMemory(payload) { return this.post('/tutor/memories', payload); },
+  tutorDeleteMemory(id) { return this.del(`/tutor/memories/${id}`); },
+  tutorClearMemories() { return this.del('/tutor/memories'); },
 
   // notifications
   notifications() { return this.get('/notifications'); },

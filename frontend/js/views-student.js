@@ -1833,6 +1833,9 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
           <button class="icon-btn tutor-act-icon" id="btn-toggle-rag" title="Study Notes" aria-label="Study Notes">
             📚
           </button>
+          <button class="icon-btn tutor-act-icon" id="btn-toggle-memory" title="AI Memory &amp; Learning Context" aria-label="AI Memory">
+            🧠
+          </button>
           <button class="icon-btn tutor-act-icon" id="btn-clear-chat" title="Clear Conversation" aria-label="Clear Chat">
             🗑️
           </button>
@@ -1860,6 +1863,29 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         </div>
         <textarea id="rag-doc-text" placeholder="Paste notes, lecture transcript, or textbook summary text here..." rows="3" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13.5px;resize:vertical"></textarea>
         <div id="rag-docs-list" style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"></div>
+      </div>
+
+      <!-- AI Tutor Memory & Context Drawer (Collapsible) -->
+      <div id="memory-drawer" style="display:none;margin-bottom:10px;padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:10px;font-size:13px">
+        <div class="row gap-sm" style="align-items:center;margin-bottom:6px;flex-wrap:wrap">
+          <strong style="color:var(--cream-bright)">🧠 AI Tutor Memory &amp; Learning Context</strong>
+          <div class="spacer"></div>
+          <button class="btn btn-ghost btn-xs" id="btn-clear-all-memories" style="color:var(--coral);font-size:11px">Clear Memories</button>
+        </div>
+        <div style="font-size:12px;color:var(--cream-dim);margin-bottom:10px">
+          Your AI Tutor automatically remembers your target goals, learning focus, and preferences across sessions.
+        </div>
+        <div class="row gap-sm" style="margin-bottom:8px;flex-wrap:wrap">
+          <input type="text" id="memory-input-fact" placeholder="Add custom context (e.g. Preparing for TCS technical interview, focus on concise answers)" style="flex:1;min-width:200px;padding:7px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13px">
+          <select id="memory-input-category" style="padding:7px 8px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:12.5px">
+            <option value="goal">Goal</option>
+            <option value="preference">Preference</option>
+            <option value="topic">Topic</option>
+            <option value="weakness">Focus Area</option>
+          </select>
+          <button class="btn btn-primary btn-sm" id="btn-save-memory" style="white-space:nowrap">+ Remember</button>
+        </div>
+        <div id="memories-list" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px"></div>
       </div>
 
       <!-- Main Chat Area -->
@@ -1921,6 +1947,76 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       loadRagDocuments();
     } catch (err) {
       toast(err.message || 'Failed to index document', 'coral');
+    }
+  };
+
+  let showMemoryDrawer = false;
+  async function loadStudentMemories() {
+    const listEl = $('#memories-list');
+    if (!listEl) return;
+    try {
+      const memories = await Api.tutorMemories();
+      if (!memories || memories.length === 0) {
+        listEl.innerHTML = '<span style="color:var(--cream-faint);font-size:12px">No saved context yet. Add a goal above or tell the AI about your goals in chat!</span>';
+        return;
+      }
+      listEl.innerHTML = memories.map(m => `
+        <span class="pill voice" style="display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:3px 8px" data-id="${m._id}">
+          <span style="opacity:0.75;text-transform:uppercase;font-size:9.5px;font-weight:700">${esc(m.category)}</span>
+          <span>${esc(m.fact)}</span>
+          <button class="del-memory-btn" data-id="${m._id}" style="background:none;border:none;color:var(--cream-dim);cursor:pointer;font-size:13px;padding:0;line-height:1" title="Delete memory">×</button>
+        </span>
+      `).join('');
+
+      listEl.querySelectorAll('.del-memory-btn').forEach(btn => {
+        btn.onclick = async (e) => {
+          e.stopPropagation();
+          try {
+            await Api.tutorDeleteMemory(btn.dataset.id);
+            loadStudentMemories();
+            toast('Memory removed', 'sprout');
+          } catch (err) {
+            toast('Failed to remove memory', 'coral');
+          }
+        };
+      });
+    } catch (e) {
+      listEl.innerHTML = '<span style="color:var(--coral);font-size:12px">Failed to load memories</span>';
+    }
+  }
+
+  $('#btn-toggle-memory').onclick = () => {
+    showMemoryDrawer = !showMemoryDrawer;
+    $('#memory-drawer').style.display = showMemoryDrawer ? 'block' : 'none';
+    $('#btn-toggle-memory').classList.toggle('active', showMemoryDrawer);
+    if (showMemoryDrawer) loadStudentMemories();
+  };
+
+  $('#btn-save-memory').onclick = async () => {
+    const fact = ($('#memory-input-fact').value || '').trim();
+    const category = $('#memory-input-category').value || 'goal';
+    if (!fact) {
+      toast('Please enter a memory or learning goal', 'coral');
+      return;
+    }
+    try {
+      await Api.tutorAddMemory({ fact, category });
+      $('#memory-input-fact').value = '';
+      loadStudentMemories();
+      toast('Memory saved to AI Tutor context!', 'sprout');
+    } catch (err) {
+      toast(err.message || 'Failed to save memory', 'coral');
+    }
+  };
+
+  $('#btn-clear-all-memories').onclick = async () => {
+    if (!confirm('Clear all stored learning memories and goals?')) return;
+    try {
+      await Api.tutorClearMemories();
+      loadStudentMemories();
+      toast('All memories cleared', 'sprout');
+    } catch (err) {
+      toast(err.message || 'Failed to clear memories', 'coral');
     }
   };
 
@@ -2211,34 +2307,41 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
   $('#chat-input').onkeydown = (e) => { if (e.key === 'Enter') send($('#chat-input').value); };
   $('#chat-mic').onclick = startVoiceListening;
 
-  $('#btn-clear-chat').onclick = () => {
-    log.innerHTML = '';
-    const hero = el(`
-      <div class="chat-empty-hero" id="chat-empty-hero">
-        <div class="chat-hero-icon">${ICONS.message}</div>
-        <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
-        <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
-        <div class="chat-quick-prompts">
-          <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
-            <span>🎯</span> <span>Mock Technical Interview</span>
-          </button>
-          <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
-            <span>🗣️</span> <span>Daily Spoken English Practice</span>
-          </button>
-          <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
-            <span>⚡</span> <span>Explain OOP Concepts</span>
-          </button>
+  $('#btn-clear-chat').onclick = async () => {
+    if (!confirm('Are you sure you want to clear your conversation history? This cannot be undone.')) return;
+    try {
+      await Api.tutorClearHistory();
+      history = [];
+      log.innerHTML = '';
+      const hero = el(`
+        <div class="chat-empty-hero" id="chat-empty-hero">
+          <div class="chat-hero-icon">${ICONS.message}</div>
+          <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
+          <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
+          <div class="chat-quick-prompts">
+            <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
+              <span>🎯</span> <span>Mock Technical Interview</span>
+            </button>
+            <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
+              <span>🗣️</span> <span>Daily Spoken English Practice</span>
+            </button>
+            <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
+              <span>⚡</span> <span>Explain OOP Concepts</span>
+            </button>
+          </div>
         </div>
-      </div>
-    `);
-    log.appendChild(hero);
-    hero.querySelectorAll('.chat-prompt-chip').forEach(chip => {
-      chip.onclick = () => {
-        const promptText = chip.dataset.prompt;
-        if (promptText) send(promptText);
-      };
-    });
-    toast('Chat cleared', 'info');
+      `);
+      log.appendChild(hero);
+      hero.querySelectorAll('.chat-prompt-chip').forEach(chip => {
+        chip.onclick = () => {
+          const promptText = chip.dataset.prompt;
+          if (promptText) send(promptText);
+        };
+      });
+      toast('Conversation cleared permanently', 'sprout');
+    } catch (err) {
+      apiError(err);
+    }
   };
 
   $('#toggle-read-aloud').onclick = () => {

@@ -135,8 +135,8 @@ async function answerQuestion({
     const draftModel = process.env.DRAFT_MODEL || process.env.PRIMARY_MODEL || DEFAULT_DRAFT_MODEL;
     const verifierModel = process.env.VERIFIER_MODEL || DEFAULT_VERIFIER_MODEL;
 
-    // Helper: format recent conversation history
-    const recentHistory = conversationHistory.slice(-4).map((h) => ({
+    // Helper: format recent conversation history (retains last 12 messages / 6 turns)
+    const recentHistory = conversationHistory.slice(-12).map((h) => ({
       role: h.role === 'user' ? 'user' : 'assistant',
       content: h.text || h.content || '',
     }));

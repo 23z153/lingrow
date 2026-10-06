@@ -25,6 +25,9 @@ function buildFastSinglePassPrompt(question, studentProfile = null) {
   let systemPrompt = SYSTEM_PREFIX_COACH;
   if (studentProfile && studentProfile.name) {
     systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    if (studentProfile.memoryContext) {
+      systemPrompt += studentProfile.memoryContext;
+    }
   }
 
   return {
@@ -44,6 +47,9 @@ function buildDraftPrompt(question, context = '', studentProfile = null) {
 
   if (studentProfile && studentProfile.name) {
     systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    if (studentProfile.memoryContext) {
+      systemPrompt += studentProfile.memoryContext;
+    }
   }
 
   const userContent = `USER QUESTION:
