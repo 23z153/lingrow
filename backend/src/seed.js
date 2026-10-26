@@ -1,5 +1,7 @@
 require('dotenv').config();
+const fs = require('fs');
 const connectDB = require('./config/db');
+const { importQuestionBank } = require('./importQBank');
 const User = require('./models/User');
 const Passage = require('./models/Passage');
 const VocabWord = require('./models/VocabWord');
@@ -11,15 +13,17 @@ const GrammarTopic = require('./models/GrammarTopic');
 const SituationalPhrase = require('./models/SituationalPhrase');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
 
-async function upsertUser({ name, email, password, role, department, batch, level, xp = 0 }) {
+async function upsertUser({ name, email, password, role, department, batch, level, xp = 0, assignedClasses = [] }) {
   let user = await User.findOne({ email });
   if (user) {
     if (level) user.level = level;
     if (xp) user.xp = xp;
+    if (batch) user.batch = batch;
+    if (assignedClasses && assignedClasses.length) user.assignedClasses = assignedClasses;
     await user.save();
     return user;
   }
-  user = new User({ name, email, role, department, batch, level, xp, emailVerified: true });
+  user = new User({ name, email, role, department, batch, level, xp, assignedClasses, emailVerified: true });
   await user.setPassword(password);
   await user.save();
   return user;
@@ -27,22 +31,68 @@ async function upsertUser({ name, email, password, role, department, batch, leve
 
 async function run() {
   await connectDB();
-  console.log('[seed] Seeding demo accounts and content...');
+  console.log('[seed] Seeding demo accounts and content with 10 official classes...');
 
-  await upsertUser({ name: 'Aarav Krishnan', email: 'student@lingrow.demo', password: 'password123', role: 'student', department: 'CSE', batch: 'CSE-B', level: 'Advanced', xp: 2000 });
-  await upsertUser({ name: 'Dr. Lakshmi Menon', email: 'teacher@lingrow.demo', password: 'password123', role: 'teacher', department: 'English' });
-  await upsertUser({ name: 'Admin Office', email: 'admin@lingrow.demo', password: 'password123', role: 'admin', department: 'Administration' });
-
-  const extraStudents = [
-    ['Divya Ramesh', 'ECE', 'ECE-A', 'Advanced'],
-    ['Karthik Subramanian', 'CSE', 'CSE-B', 'Beginner'],
-    ['Sneha Balaji', 'IT', 'IT-A', 'Intermediate'],
-    ['Rahul Iyer', 'CSE', 'CSE-A', 'Beginner'],
-    ['Priya Natarajan', 'ECE', 'ECE-B', 'Advanced'],
+  const OFFICIAL_CLASSES = [
+    'CSE-A', 'CSE-B', 'CSE-C',
+    'IT-A', 'IT-B',
+    'MECHANICAL', 'CIVIL',
+    'ECE-A', 'ECE-B', 'EEE'
   ];
-  for (const [name, department, batch, level] of extraStudents) {
-    const email = name.toLowerCase().replace(/\s+/g, '.') + '@lingrow.demo';
-    await upsertUser({ name, email, password: 'password123', role: 'student', department, batch, level });
+
+  // Clean up any legacy test records referencing old class names
+  const Test = require('./models/Test');
+  await Test.deleteMany({
+    $or: [
+      { batches: { $regex: /24-/i } },
+      { batch: { $regex: /24-/i } }
+    ]
+  });
+
+  // Demo Teacher with all 10 official classes
+  await upsertUser({
+    name: 'Dr. Lakshmi Menon',
+    email: 'teacher@lingrow.demo',
+    password: 'password123',
+    role: 'teacher',
+    department: 'English',
+    assignedClasses: OFFICIAL_CLASSES
+  });
+
+  // Demo Admin
+  await upsertUser({
+    name: 'Admin Office',
+    email: 'admin@lingrow.demo',
+    password: 'password123',
+    role: 'admin',
+    department: 'Administration'
+  });
+
+  // Seed students for all 10 official classes
+  const officialStudents = [
+    { name: 'Aarav Krishnan (CSE-A)', email: 'student@lingrow.demo', class: 'CSE-A', dept: 'CSE', level: 'Advanced', xp: 2000 },
+    { name: 'Bhavna Sharma (CSE-B)', email: 'student.b@lingrow.demo', class: 'CSE-B', dept: 'CSE', level: 'Intermediate', xp: 1450 },
+    { name: 'Chirag Reddy (CSE-C)', email: 'student.csec@lingrow.demo', class: 'CSE-C', dept: 'CSE', level: 'Beginner', xp: 820 },
+    { name: 'Sneha Balaji (IT-A)', email: 'student.ita@lingrow.demo', class: 'IT-A', dept: 'IT', level: 'Intermediate', xp: 1100 },
+    { name: 'Manoj Kumar (IT-B)', email: 'student.itb@lingrow.demo', class: 'IT-B', dept: 'IT', level: 'Beginner', xp: 750 },
+    { name: 'Praveen Raj (MECHANICAL)', email: 'student.mech@lingrow.demo', class: 'MECHANICAL', dept: 'Mechanical', level: 'Intermediate', xp: 1300 },
+    { name: 'Ananya Ramesh (CIVIL)', email: 'student.civil@lingrow.demo', class: 'CIVIL', dept: 'Civil', level: 'Beginner', xp: 680 },
+    { name: 'Chandran Mohan (ECE-A)', email: 'student.c@lingrow.demo', class: 'ECE-A', dept: 'ECE', level: 'Beginner', xp: 900 },
+    { name: 'Priya Natarajan (ECE-B)', email: 'student.eceb@lingrow.demo', class: 'ECE-B', dept: 'ECE', level: 'Advanced', xp: 1650 },
+    { name: 'Vikram Seth (EEE)', email: 'student.eee@lingrow.demo', class: 'EEE', dept: 'EEE', level: 'Intermediate', xp: 1200 },
+  ];
+
+  for (const s of officialStudents) {
+    await upsertUser({
+      name: s.name,
+      email: s.email,
+      password: 'password123',
+      role: 'student',
+      department: s.dept,
+      batch: s.class,
+      level: s.level,
+      xp: s.xp
+    });
   }
 
   if ((await Passage.countDocuments()) === 0) {
@@ -112,8 +162,13 @@ async function run() {
     ]);
   }
 
-  await GrammarTopic.deleteMany({});
-  await GrammarTopic.insertMany([
+  const qbankPath = process.env.QBANK_DIR || 'D:\\LinGrow_QBank';
+  if (fs.existsSync(qbankPath)) {
+    console.log('[seed] Found LinGrow Question Bank at ' + qbankPath + '. Importing all topics & questions...');
+    await importQuestionBank(qbankPath);
+  } else {
+    await GrammarTopic.deleteMany({});
+    await GrammarTopic.insertMany([
       {
         title: 'Mastering English Tenses (Present, Past & Future)',
         category: 'Tenses',
@@ -515,6 +570,7 @@ async function run() {
         ]
       }
     ]);
+  }
 
   await SituationalPhrase.deleteMany({});
   await SituationalPhrase.insertMany([

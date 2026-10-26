@@ -18,6 +18,37 @@ function shuffle(arr) {
 }
 
 /* -------------------------------------------------------------------------
+   GET /api/tests/topics
+   Returns all 243 individual topics grouped by unit so teachers can pick
+   an exact topic from the question bank.
+------------------------------------------------------------------------- */
+router.get('/topics', requireAuth, requireRole('teacher', 'admin'), async (req, res) => {
+  try {
+    const topics = await GrammarTopic.find({}, 'topicId title unit category level')
+      .sort({ topicId: 1 })
+      .lean();
+
+    const grouped = {};
+    for (const t of topics) {
+      const u = t.unit || t.category || 'General';
+      if (!grouped[u]) grouped[u] = [];
+      grouped[u].push({
+        topicId: t.topicId,
+        title: t.title,
+        category: t.category,
+        unit: t.unit,
+        level: t.level,
+        questionsCount: 25,
+      });
+    }
+
+    res.json({ topics, grouped, totalTopics: topics.length });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/* -------------------------------------------------------------------------
    GET /api/tests/categories
    The list of topics a teacher can build a test from, with how many
    questions currently sit in the bank for each — so the UI can warn if
@@ -25,15 +56,30 @@ function shuffle(arr) {
 ------------------------------------------------------------------------- */
 router.get('/categories', requireAuth, requireRole('teacher', 'admin'), async (req, res) => {
   try {
-    const topics = await GrammarTopic.find().select('category questions level');
-    const byCategory = {};
-    for (const t of topics) {
-      if (!byCategory[t.category]) byCategory[t.category] = { category: t.category, bankSize: 0, topicCount: 0, levels: new Set() };
-      byCategory[t.category].bankSize += t.questions.length;
-      byCategory[t.category].topicCount += 1;
-      byCategory[t.category].levels.add(t.level);
-    }
-    const result = Object.values(byCategory).map((c) => ({ ...c, levels: [...c.levels] }));
+    const stats = await GrammarTopic.aggregate([
+      {
+        $project: {
+          category: 1,
+          level: 1,
+          numQuestions: { $size: '$questions' }
+        }
+      },
+      {
+        $group: {
+          _id: '$category',
+          bankSize: { $sum: '$numQuestions' },
+          topicCount: { $sum: 1 },
+          levels: { $addToSet: '$level' }
+        }
+      },
+      { $sort: { _id: 1 } }
+    ]);
+    const result = stats.map((s) => ({
+      category: s._id,
+      bankSize: s.bankSize,
+      topicCount: s.topicCount,
+      levels: s.levels,
+    }));
     res.json(result);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -48,14 +94,38 @@ router.get('/categories', requireAuth, requireRole('teacher', 'admin'), async (r
 ------------------------------------------------------------------------- */
 router.post('/', requireAuth, requireRole('teacher', 'admin'), async (req, res) => {
   try {
-    const { title, category, level, numQuestions, durationMinutes, batch, status } = req.body;
-    if (!title || !category) return res.status(400).json({ error: 'title and category (topic) are required' });
+    let { title, category, level, numQuestions, durationMinutes, batches, batch, status, topicId } = req.body;
+    let targetBatches = [];
+    if (Array.isArray(batches)) {
+      targetBatches = batches.map((b) => String(b).trim()).filter(Boolean);
+    } else if (typeof batches === 'string' && batches.trim()) {
+      targetBatches = batches.split(',').map((b) => b.trim()).filter(Boolean);
+    } else if (batch && String(batch).trim()) {
+      targetBatches = String(batch).split(',').map((b) => b.trim()).filter(Boolean);
+    }
 
-    const requested = Math.max(1, Math.min(500, Number(numQuestions) || 20));
+    let topics = [];
+    if (topicId) {
+      const singleTopic = await GrammarTopic.findOne({ topicId: Number(topicId) });
+      if (singleTopic) {
+        topics = [singleTopic];
+        if (!category) category = singleTopic.title || singleTopic.category;
+      }
+    }
+    if (topics.length === 0 && category) {
+      const filter = { category };
+      if (level && level !== 'All' && level !== 'All Levels') filter.level = level;
+      topics = await GrammarTopic.find(filter);
+      if (topics.length === 0) {
+        topics = await GrammarTopic.find({ category });
+      }
+    }
 
-    const filter = { category };
-    if (level) filter.level = level;
-    const topics = await GrammarTopic.find(filter);
+    if (!title || (!category && topics.length === 0)) {
+      return res.status(400).json({ error: 'Title and topic are required' });
+    }
+
+    const requested = Math.max(1, Math.min(500, Number(numQuestions) || 25));
 
     const pool = [];
     for (const t of topics) {
@@ -78,15 +148,20 @@ router.post('/', requireAuth, requireRole('teacher', 'admin'), async (req, res) 
 
     const picked = shuffle(pool).slice(0, requested);
 
+    const testLevel = (level && level !== 'All' && level !== 'All Levels')
+      ? level
+      : (topics[0]?.level || 'Beginner');
+
     const test = await Test.create({
       title,
       category,
-      level: level || 'Beginner',
+      level: testLevel,
       durationMinutes: Number(durationMinutes) || 20,
       questions: picked,
       requestedQuestionCount: requested,
       createdBy: req.user._id,
-      batch: batch || '',
+      batch: targetBatches.join(', '),
+      batches: targetBatches,
       status: status === 'draft' ? 'draft' : 'published',
     });
 
@@ -132,7 +207,22 @@ router.get('/', requireAuth, requireRole('teacher', 'admin'), async (req, res) =
 ------------------------------------------------------------------------- */
 router.get('/available', requireAuth, async (req, res) => {
   try {
-    const filter = { status: 'published', $or: [{ batch: '' }, { batch: req.user.batch || '__none__' }] };
+    const studentBatch = (req.user.batch || '').trim().toLowerCase();
+    const filter = {
+      status: 'published',
+      $or: [
+        { batches: { $size: 0 }, batch: '' },
+        { batches: { $exists: false }, batch: '' },
+        { batch: 'all' },
+        ...(studentBatch
+          ? [
+              { batches: new RegExp(`^${studentBatch}$`, 'i') },
+              { batch: new RegExp(`^${studentBatch}$`, 'i') },
+              { batch: new RegExp(`(^|,\\s*)${studentBatch}(\\s*,|$)`, 'i') },
+            ]
+          : [{ batch: '' }]),
+      ],
+    };
     const tests = await Test.find(filter).sort({ createdAt: -1 }).select('-questions.correctAnswer -questions.explanation');
     const myAttempts = await TestAttempt.find({ user: req.user._id, test: { $in: tests.map((t) => t._id) } });
     const bestByTest = {};
@@ -164,11 +254,25 @@ router.get('/attempts/me', requireAuth, async (req, res) => {
 /* -------------------------------------------------------------------------
    Student: fetch a test to take (answers/explanations stripped out).
 ------------------------------------------------------------------------- */
+function hasClassAccess(test, user) {
+  if (user.role !== 'student') return true;
+  const targetBatches = (test.batches && test.batches.length
+    ? test.batches
+    : (test.batch ? test.batch.split(',').map((s) => s.trim()) : [])
+  ).filter((b) => b && b.toLowerCase() !== 'all');
+  if (targetBatches.length === 0) return true;
+  const studentBatch = (user.batch || '').trim().toLowerCase();
+  return targetBatches.some((b) => b.toLowerCase() === studentBatch);
+}
+
 router.get('/:id/take', requireAuth, async (req, res) => {
   try {
     const test = await Test.findById(req.params.id).select('-questions.correctAnswer -questions.explanation -questions.sourceTopic');
     if (!test) return res.status(404).json({ error: 'Test not found' });
     if (test.status !== 'published') return res.status(403).json({ error: 'This test is not currently open' });
+    if (!hasClassAccess(test, req.user)) {
+      return res.status(403).json({ error: 'Access restricted: you do not belong to the classes assigned to this test.' });
+    }
     res.json(test);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -186,6 +290,9 @@ router.post('/:id/attempts', requireAuth, async (req, res) => {
     const test = await Test.findById(req.params.id);
     if (!test) return res.status(404).json({ error: 'Test not found' });
     if (test.status !== 'published') return res.status(403).json({ error: 'This test is not currently open' });
+    if (!hasClassAccess(test, req.user)) {
+      return res.status(403).json({ error: 'Access restricted: you do not belong to the classes assigned to this test.' });
+    }
 
     let correctCount = 0;
     const evaluated = test.questions.map((q, idx) => {

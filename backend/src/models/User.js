@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema(
     role: { type: String, enum: ['student', 'teacher', 'admin'], default: 'student', index: true },
     department: { type: String, default: '' },
     batch: { type: String, default: '' },
+    assignedClasses: [{ type: String, trim: true }],
     level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
     xp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
@@ -18,7 +19,7 @@ const userSchema = new mongoose.Schema(
     institution: { type: String, default: 'PSG Institute of Technology and Applied Research' },
 
     // --- Email verification ---
-    emailVerified: { type: Boolean, default: false },
+    emailVerified: { type: Boolean, default: true },
     emailVerificationTokenHash: { type: String, default: null },
     emailVerificationExpires: { type: Date, default: null },
 
@@ -44,6 +45,7 @@ userSchema.methods.toSafeJSON = function () {
     role: this.role,
     department: this.department,
     batch: this.batch,
+    assignedClasses: this.assignedClasses || [],
     level: this.level,
     xp: this.xp,
     streak: this.streak,

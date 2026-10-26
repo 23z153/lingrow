@@ -229,12 +229,35 @@ router.get('/users', async (req, res) => {
 });
 
 router.post('/users', async (req, res) => {
-  const { name, email, password, role, department } = req.body;
+  const { name, email, password, role, department, batch, assignedClasses } = req.body;
   if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
   const existing = await User.findOne({ email: email.toLowerCase() });
   if (existing) return res.status(409).json({ error: 'Email already registered' });
 
-  const user = new User({ name, email, role: role || 'student', department });
+  const assigned = Array.isArray(assignedClasses)
+    ? assignedClasses
+    : (typeof assignedClasses === 'string' && assignedClasses.trim() ? assignedClasses.split(',').map((s) => s.trim()) : []);
+  
+  let dept = department || '';
+  let b = (batch || '').trim().toUpperCase();
+  if (!dept && b) {
+    if (b.startsWith('CSE')) dept = 'CSE';
+    else if (b.startsWith('IT')) dept = 'IT';
+    else if (b.startsWith('ECE')) dept = 'ECE';
+    else if (b.startsWith('EEE')) dept = 'EEE';
+    else if (b.includes('MECH')) dept = 'Mechanical';
+    else if (b.includes('CIVIL')) dept = 'Civil';
+  } else if (!dept && assigned.length > 0) {
+    const firstAssigned = assigned[0];
+    if (firstAssigned.startsWith('CSE')) dept = 'CSE';
+    else if (firstAssigned.startsWith('IT')) dept = 'IT';
+    else if (firstAssigned.startsWith('ECE')) dept = 'ECE';
+    else if (firstAssigned.startsWith('EEE')) dept = 'EEE';
+    else if (firstAssigned.includes('MECH')) dept = 'Mechanical';
+    else if (firstAssigned.includes('CIVIL')) dept = 'Civil';
+  }
+
+  const user = new User({ name, email, role: role || 'student', department: dept, batch: b, assignedClasses: assigned });
   await user.setPassword(password);
   await user.save();
   res.status(201).json(user.toSafeJSON());
@@ -251,7 +274,21 @@ router.post('/users/bulk', async (req, res) => {
       if (!row.name || !row.email || !row.password) { results.skipped++; continue; }
       const existing = await User.findOne({ email: row.email.toLowerCase() });
       if (existing) { results.skipped++; continue; }
-      const user = new User({ name: row.name, email: row.email, role: row.role || 'student', department: row.department || '' });
+      let batch = (row.batch || '').trim().toUpperCase();
+      let department = row.department || '';
+      if (!batch && ['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE'].includes(department.toUpperCase())) {
+        batch = department.toUpperCase();
+        department = '';
+      }
+      if (batch && !department) {
+        if (batch.startsWith('CSE')) department = 'CSE';
+        else if (batch.startsWith('IT')) department = 'IT';
+        else if (batch.startsWith('ECE')) department = 'ECE';
+        else if (batch.startsWith('EEE')) department = 'EEE';
+        else if (batch.includes('MECH')) department = 'Mechanical';
+        else if (batch.includes('CIVIL')) department = 'Civil';
+      }
+      const user = new User({ name: row.name, email: row.email, role: row.role || 'student', department, batch });
       await user.setPassword(row.password);
       await user.save();
       results.created++;

@@ -32,8 +32,22 @@ async function issueVerificationEmail(user) {
 }
 
 router.post('/register', async (req, res) => {
+  return res.status(403).json({
+    error: 'Public registration is disabled. Student and teacher accounts are provisioned by the college administrator.'
+  });
   try {
-    const { name, email, password, role, department, batch } = req.body;
+    let { name, email, password, role, department, batch } = req.body;
+    if (batch) {
+      batch = String(batch).trim().toUpperCase();
+      if (!department) {
+        if (batch.startsWith('CSE')) department = 'CSE';
+        else if (batch.startsWith('IT')) department = 'IT';
+        else if (batch.startsWith('ECE')) department = 'ECE';
+        else if (batch.startsWith('EEE')) department = 'EEE';
+        else if (batch.includes('MECH')) department = 'Mechanical';
+        else if (batch.includes('CIVIL')) department = 'Civil';
+      }
+    }
     if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
     if (password.length < 8) return res.status(400).json({ error: 'Password must be at least 8 characters' });
 
@@ -149,6 +163,26 @@ router.post('/resend-verification', requireAuth, async (req, res) => {
     const body = { ok: true };
     if (!emailResult.delivered && emailResult.previewUrl) body.devVerifyUrl = emailResult.previewUrl;
     res.json(body);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.patch('/class', requireAuth, async (req, res) => {
+  try {
+    let { batch } = req.body;
+    if (!batch) return res.status(400).json({ error: 'Class is required' });
+    batch = String(batch).trim().toUpperCase();
+    let department = '';
+    if (batch.startsWith('CSE')) department = 'CSE';
+    else if (batch.startsWith('IT')) department = 'IT';
+    else if (batch.startsWith('ECE')) department = 'ECE';
+    else if (batch.startsWith('EEE')) department = 'EEE';
+    else if (batch.includes('MECH')) department = 'Mechanical';
+    else if (batch.includes('CIVIL')) department = 'Civil';
+    
+    const user = await User.findByIdAndUpdate(req.user._id, { batch, department }, { new: true });
+    res.json({ ok: true, user: user.toSafeJSON() });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

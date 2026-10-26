@@ -20,12 +20,13 @@ const testSchema = new mongoose.Schema(
     // Matches GrammarTopic.category — the "topic" the teacher picks, which
     // is what the question bank is fetched/filtered by.
     category: { type: String, required: true },
-    level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
+    level: { type: String, default: 'Beginner' },
     durationMinutes: { type: Number, default: 20, min: 1 },
     questions: [testQuestionSchema],
     requestedQuestionCount: { type: Number, default: 0 }, // what the teacher asked for
     createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     batch: { type: String, default: '' }, // '' = open to every batch
+    batches: [{ type: String, trim: true }],
     status: { type: String, enum: ['draft', 'published', 'closed'], default: 'published' },
   },
   { timestamps: true }

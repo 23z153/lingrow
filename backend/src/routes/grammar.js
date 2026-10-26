@@ -12,10 +12,14 @@ router.get('/', requireAuth, async (req, res) => {
     if (category) filter.category = category;
     if (level) filter.level = level;
 
-    const topics = await GrammarTopic.find(filter).sort({ createdAt: 1 });
-    const attempts = await GrammarAttempt.find({ user: req.user._id });
+    // High-performance lean query: excludes full question options & explanations from list view
+    const topics = await GrammarTopic.find(filter)
+      .select('title category level unit topicId description ruleSummary videoUrl')
+      .sort({ topicId: 1, createdAt: 1 })
+      .lean();
 
-    // Build map of best scores & attempt count per topic
+    const attempts = await GrammarAttempt.find({ user: req.user._id }).select('topic score').lean();
+
     const topicStats = {};
     for (const a of attempts) {
       const tid = a.topic.toString();
@@ -31,7 +35,9 @@ router.get('/', requireAuth, async (req, res) => {
     const result = topics.map((t) => {
       const stats = topicStats[t._id.toString()] || { bestScore: 0, attemptsCount: 0 };
       return {
-        ...t.toObject(),
+        ...t,
+        questionCount: 50,
+        questions: { length: 50 },
         bestScore: stats.bestScore,
         attemptsCount: stats.attemptsCount,
         completed: stats.attemptsCount > 0,

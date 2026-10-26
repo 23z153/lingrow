@@ -74,20 +74,14 @@ function renderLogin(){
       </div>
       <div id="login-error">${verifyNoticeHTML}</div>
       <form id="auth-form" class="col gap-md">
-        ${loginMode==='register' ? `
-        <div><label class="field-label">Full name</label><input type="text" id="f-name" placeholder="Aarav Krishnan" required></div>
-        ` : ''}
-        <div><label class="field-label">Email</label><input type="email" id="f-email" placeholder="you@college.edu" required></div>
+        <div><label class="field-label">Email Address</label><input type="email" id="f-email" placeholder="you@college.edu" required></div>
         <div><label class="field-label">Password</label><input type="password" id="f-password" placeholder="••••••••" required></div>
-        ${loginMode==='register' ? `
-        <div><label class="field-label">Department</label><input type="text" id="f-dept" placeholder="CSE"></div>
-        ` : ''}
         <button class="btn btn-primary" type="submit" style="width:100%;margin-top:6px" id="auth-submit">
-          ${loginMode==='login' ? 'Sign in' : 'Create account'} ${ICONS.arrowRight}
+          Sign in ${ICONS.arrowRight}
         </button>
       </form>
-      <div class="form-switch">
-        ${loginMode==='login' ? `New here? <b id="to-register">Create an account</b>` : `Already have an account? <b id="to-login">Sign in</b>`}
+      <div class="form-switch" style="font-size:12px;color:var(--cream-faint);line-height:1.5;text-align:center">
+        <i class="bi bi-shield-lock-fill" style="color:var(--sprout)"></i> Institutional Access: Student and teacher accounts are provisioned by your college administrator.
       </div>
       <div class="demo-note">
         <b style="color:var(--cream)">Demo logins</b> (after running <code>npm run seed</code> on the backend):<br/>
@@ -106,23 +100,12 @@ function renderLogin(){
   $all2('#role-tabs .role-tab').forEach(tab=>{
     tab.onclick = ()=>{ loginRole = tab.dataset.role; renderLogin(); };
   });
-  const toReg = $('#to-register'); if (toReg) toReg.onclick = ()=>{ loginMode='register'; renderLogin(); };
-  const toLog = $('#to-login'); if (toLog) toLog.onclick = ()=>{ loginMode='login'; renderLogin(); };
-
   $('#auth-form').onsubmit = async (e)=>{
     e.preventDefault();
     const btn = $('#auth-submit'); btn.disabled = true;
     $('#login-error').innerHTML = '';
     try{
-      let res;
-      if (loginMode==='login'){
-        res = await Api.login({ email: $('#f-email').value, password: $('#f-password').value });
-      } else {
-        res = await Api.register({
-          name: $('#f-name').value, email: $('#f-email').value, password: $('#f-password').value,
-          role: loginRole, department: $('#f-dept') ? $('#f-dept').value : '',
-        });
-      }
+      const res = await Api.login({ email: $('#f-email').value, password: $('#f-password').value });
       Api.setToken(res.token);
       S.user = res.user;
       enterApp();
@@ -202,6 +185,7 @@ const NAV = {
       {id:'tests', label:'Tests', icon:'clipboard'},
       {id:'lessons', label:'Lessons', icon:'library'},
       {id:'progress', label:'Progress & Badges', icon:'trophy'},
+      {id:'profile', label:'My Profile', icon:'user'},
     ]},
   ],
   teacher: [
@@ -233,6 +217,7 @@ const VIEW_TITLES = {
   'tests':['Tests','Assessments assigned by your teacher'],
   'lessons':['Lessons','Structured curriculum'],
   'progress':['Progress & Badges','Your growth over time'],
+  'profile':['My Profile','Your student profile, enrolled class & learning status'],
   't-dashboard':['Class Overview','Monitor your students'],
   't-tests':['Tests','Create and manage assessments'],
   't-gd':['Group Discussion Rooms','Create GD rooms, monitor lobbies & AI speech reports'],
@@ -299,7 +284,7 @@ function renderShell(){
       `).join('')}
     `).join('')}
     <div class="sidebar-footer">
-      <div class="user-chip" id="logout-trigger" style="cursor:pointer">
+      <div class="user-chip" id="logout-trigger" style="cursor:pointer" title="My Profile / Account">
         ${avatarHTML(S.user.name)}
         <div><div class="user-name">${esc(S.user.name)}</div><div class="user-role">Sign out</div></div>
       </div>
@@ -315,6 +300,8 @@ function renderShell(){
   if (closeBtn) closeBtn.onclick = closeMobileSidebar;
   const overlay = $('#sidebar-overlay');
   if (overlay) overlay.onclick = closeMobileSidebar;
+
+
   $('#logout-trigger').onclick = logout;
 }
 
@@ -388,6 +375,10 @@ async function setView(view){
   }
 
   S.view = view;
+  try {
+    sessionStorage.setItem('lingrow_current_view', view);
+    if (history.replaceState) history.replaceState(null, '', '#' + view);
+  } catch(e){}
   markActiveNav();
   renderTopbar();
   const mount = $('#view-inner');
@@ -422,7 +413,15 @@ async function enterApp(){
   $('#app').classList.add('active');
   renderShell();
   const home = S.user.role === 'student' ? 'dashboard' : S.user.role === 'teacher' ? 't-dashboard' : 'a-users';
-  await setView(home);
+  const hashView = (location.hash || '').replace(/^#/, '').trim();
+  const sessionView = sessionStorage.getItem('lingrow_current_view');
+  let targetView = home;
+  if (hashView && VIEW_RENDERERS[hashView]) {
+    targetView = hashView;
+  } else if (sessionView && VIEW_RENDERERS[sessionView]) {
+    targetView = sessionView;
+  }
+  await setView(targetView);
 }
 
 async function handleEmailVerificationLink(){
@@ -442,9 +441,23 @@ async function handleEmailVerificationLink(){
 }
 
 window.addEventListener('DOMContentLoaded', async ()=>{
-  renderLogin();
+  const hasToken = !!localStorage.getItem('lingrow_token');
+  if (!hasToken) {
+    renderLogin();
+  }
   await handleEmailVerificationLink();
   const resumed = await tryResumeSession();
-  if (resumed) enterApp();
-  else if (S.verifyEmailNotice) renderLogin(); // show the verification result on the login screen if not signed in
+  if (resumed) {
+    enterApp();
+  } else {
+    renderLogin();
+  }
+});
+
+window.addEventListener('hashchange', () => {
+  if (!S.user) return;
+  const view = (location.hash || '').replace(/^#/, '').trim();
+  if (view && VIEW_RENDERERS[view] && view !== S.view) {
+    setView(view);
+  }
 });
