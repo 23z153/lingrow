@@ -7,7 +7,17 @@ const { scoreStory } = require('../services/llmService');
 const { awardXP } = require('../services/progressService');
 
 router.get('/prompts', requireAuth, requireMinXP(500, 'Story Continuation'), async (req, res) => {
-  res.json(await StoryPrompt.find().sort({ createdAt: 1 }));
+  try {
+    const { department } = req.query;
+    const filter = {};
+    if (department) {
+      filter.$or = [{ department: department.toUpperCase() }, { department: 'General' }];
+    }
+    const prompts = await StoryPrompt.find(filter).sort({ createdAt: -1 });
+    res.json(prompts);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 router.post('/attempts', requireAuth, async (req, res) => {

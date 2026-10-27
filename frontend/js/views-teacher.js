@@ -2,36 +2,31 @@ window.VIEW_RENDERERS = window.VIEW_RENDERERS || {};
 var VIEW_RENDERERS = window.VIEW_RENDERERS;
 
 VIEW_RENDERERS['t-dashboard'] = async (mount) => {
-  const students = await Api.teacherStudents();
+  let students = await Api.teacherStudents();
 
   mount.innerHTML = `
     <div class="card">
-      <div class="row" style="margin-bottom:14px;flex-wrap:wrap;gap:10px;align-items:center">
-        <div class="section-title" style="margin:0">${ICONS.grid} <span id="student-total-count">${students.length}</span> students</div>
-        <div class="spacer"></div>
-        <div class="row gap-xs" style="align-items:center">
-          <label class="field-label" style="margin:0;font-size:12px;color:var(--cream-dim);display:flex;align-items:center;gap:4px">
-            <i class="bi bi-filter"></i> Class:
-          </label>
-          <select id="teacher-class-filter" style="width:160px;min-height:36px;padding:6px 10px;font-size:13px;font-weight:700">
-            <option value="">All 10 Classes</option>
-            <option value="CSE-A">CSE-A</option>
-            <option value="CSE-B">CSE-B</option>
-            <option value="CSE-C">CSE-C</option>
-            <option value="IT-A">IT-A</option>
-            <option value="IT-B">IT-B</option>
-            <option value="MECHANICAL">MECHANICAL</option>
-            <option value="CIVIL">CIVIL</option>
-            <option value="ECE-A">ECE-A</option>
-            <option value="ECE-B">ECE-B</option>
-            <option value="EEE">EEE</option>
-          </select>
+      <div class="row" style="margin-bottom:14px;align-items:center">
+        <div>
+          <div class="section-title" style="margin:0">${ICONS.grid} Managed Students (<span id="student-count">${students.length}</span>)</div>
+          <div style="font-size:12.5px;color:var(--cream-dim)">Showing students in your assigned classes.</div>
         </div>
-        <input type="search" id="student-search" placeholder="Search students…" style="width:200px;min-height:36px;padding:6px 10px;font-size:13px">
+        <div class="spacer"></div>
+        <div class="row gap-sm" style="align-items:center">
+          <label class="field-label" style="margin:0">Filter by Class:</label>
+          <select id="teacher-class-filter" style="width:160px;padding:6px 10px;font-size:13px">
+            <option value="">All Assigned Classes</option>
+            <option value="A">Class A</option>
+            <option value="B">Class B</option>
+            <option value="C">Class C</option>
+            <option value="D">Class D</option>
+          </select>
+          <input type="search" id="student-search" placeholder="Search students…" style="width:200px">
+        </div>
       </div>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Student</th><th>Enrolled Class</th><th>Level</th><th>Streak</th><th>XP</th><th>Status</th><th>Last active</th><th></th></tr></thead>
+          <thead><tr><th>Student</th><th>Class / Section</th><th>Level</th><th>Streak</th><th>XP</th><th>Status</th><th>Last active</th><th>Actions</th></tr></thead>
           <tbody id="student-rows"></tbody>
         </table>
       </div>
@@ -39,27 +34,15 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
     <div id="student-detail" style="margin-top:20px"></div>
   `;
 
-  function filterAndRender() {
-    const q = ($('#student-search')?.value || '').toLowerCase();
-    const batchFilter = $('#teacher-class-filter')?.value || '';
-    const filtered = students.filter(s => {
-      const matchText = s.name.toLowerCase().includes(q) || s.email.toLowerCase().includes(q);
-      const matchBatch = !batchFilter || (s.batch === batchFilter);
-      return matchText && matchBatch;
-    });
-    renderRows(filtered);
-    const countEl = $('#student-total-count');
-    if (countEl) countEl.textContent = filtered.length;
-  }
-
   function renderRows(list){
     const tbody = $('#student-rows');
     tbody.innerHTML = '';
+    $('#student-count').textContent = (list || []).length;
     (list || []).forEach(s=>{
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
           <td class="row gap-sm">${avatarHTML(s.name,28)}<span>${esc(s.name)}</span></td>
-          <td><span class="pill voice" style="font-size:11.5px;font-weight:700"><i class="bi bi-mortarboard-fill"></i> ${esc(s.batch || 'Unassigned')}</span></td>
+          <td><span class="pill sprout" style="font-weight:700">Class ${esc(s.section || 'A')}</span></td>
           <td><span class="pill ${levelColor(s.level)}">${s.level}</span></td>
           <td>${s.streak} 🔥</td>
           <td class="mono">${s.xp}</td>
@@ -72,118 +55,88 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
       btn.onclick = ()=> openStudentDetail(btn.dataset.viewStudent);
     });
   }
+
   renderRows(students);
-  $('#student-search').oninput = filterAndRender;
-  $('#teacher-class-filter').onchange = filterAndRender;
+
+  $('#teacher-class-filter').onchange = async (e) => {
+    const sec = e.target.value;
+    try {
+      students = await Api.teacherStudents(sec ? { section: sec } : {});
+      renderRows(students);
+    } catch (err) { apiError(err); }
+  };
+
+  $('#student-search').oninput = (e)=>{
+    const q = e.target.value.toLowerCase();
+    renderRows(students.filter(s=> s.name.toLowerCase().includes(q) || s.email.toLowerCase().includes(q)));
+  };
 };
 
 /* =============================== TESTS =================================
    Teacher builds a test by picking a topic; the backend auto-pulls that
    many questions from the grammar question bank for that topic/category.
+   Supports targeting: All Classes, Individual Class (Class A), or Group of Classes (A, B).
    ========================================================================= */
 VIEW_RENDERERS['t-tests'] = async (mount) => {
-  const [tests, topicsData, classesData] = await Promise.all([
-    Api.teacherTests(),
-    Api.teacherTopics().catch(() => ({ topics: [], grouped: {} })),
-    Api.teacherClasses().catch(() => ({ assignedClasses: ['CSE-A', 'CSE-B', 'CSE-C', 'IT-A', 'IT-B', 'MECHANICAL', 'CIVIL', 'ECE-A', 'ECE-B', 'EEE'], classList: [] })),
-  ]);
-  renderTeacherTestsView(mount, tests, topicsData, classesData);
+  const [tests, categories] = await Promise.all([Api.teacherTests(), Api.testCategories()]);
+  renderTeacherTestsView(mount, tests, categories);
 };
 
-function renderTeacherTestsView(mount, tests, topicsData = { topics: [], grouped: {} }, classesData = { assignedClasses: [], classList: [] }) {
-  const classesList = (classesData.classList && classesData.classList.length > 0)
-    ? classesData.classList
-    : (classesData.assignedClasses || ['CSE-A', 'CSE-B', 'CSE-C', 'IT-A', 'IT-B', 'MECHANICAL', 'CIVIL', 'ECE-A', 'ECE-B', 'EEE']).map((c) => ({ name: c, studentCount: 0 }));
-
-  const groupedTopics = topicsData.grouped || {};
-
+function renderTeacherTestsView(mount, tests, categories) {
   mount.innerHTML = `
     <div class="col gap-md">
       <div class="card">
         <div class="row" style="margin-bottom:14px">
-          <div class="section-title" style="margin:0">${ICONS.clipboard} Create a test</div>
+          <div class="section-title" style="margin:0">${ICONS.clipboard} Create &amp; Conduct Test</div>
         </div>
-        <form id="create-test-form" class="grid grid-2" style="gap:16px">
+        <form id="create-test-form" class="grid grid-2" style="gap:14px">
+          <div><label class="field-label">Test Title</label><input type="text" id="ct-title" placeholder="Unit 3 Grammar Check" required></div>
           <div>
-            <label class="field-label">Test Title</label>
-            <input type="text" id="ct-title" placeholder="e.g. Unit 1 Sentence Structure Test" required>
-          </div>
-
-          <div>
-            <label class="field-label">Topic (Select from 243 Topics in Question Bank)</label>
-            <select id="ct-topic" required style="font-weight:600">
-              <option value="">-- Choose from 243 Topics --</option>
-              ${Object.entries(groupedTopics).map(([unitName, unitTopics]) => `
-                <optgroup label="${esc(unitName)}">
-                  ${unitTopics.map(t => `<option value="${t.topicId}">${t.topicId}. ${esc(t.title)} (25 questions)</option>`).join('')}
-                </optgroup>
-              `).join('')}
+            <label class="field-label">Topic (fetched from question bank)</label>
+            <select id="ct-category" required>
+              <option value="">Select a topic…</option>
+              ${categories.map(c => `<option value="${esc(c.category)}">${esc(c.category)} — ${c.bankSize} in bank</option>`).join('')}
             </select>
           </div>
-
-          <div style="position:relative">
-            <label class="field-label"><i class="bi bi-mortarboard-fill"></i> Select Classes to Assign (Multiple Allowed)</label>
-            <div id="class-dropdown-wrapper" style="position:relative">
-              <button type="button" id="class-dropdown-trigger" style="width:100%;min-height:42px;padding:8px 12px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;color:var(--cream);display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-size:13.5px;font-weight:600;text-align:left;transition:border-color .15s ease">
-                <span id="class-dropdown-label" style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;overflow:hidden">
-                  <span style="color:var(--cream-faint)">-- Select One or More Classes --</span>
-                </span>
-                <i class="bi bi-chevron-down" style="font-size:12px;opacity:0.7;flex-shrink:0;margin-left:8px"></i>
-              </button>
-
-              <div id="class-dropdown-menu" style="display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;background:#1E293B;border:1px solid var(--line-strong);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.65);z-index:100;max-height:270px;overflow-y:auto;padding:8px">
-                <div style="display:flex;align-items:center;justify-content:space-between;padding:4px 8px 8px;border-bottom:1px solid var(--line);margin-bottom:6px">
-                  <label style="display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--cyan);cursor:pointer;user-select:none">
-                    <input type="checkbox" id="class-select-all" style="accent-color:var(--cyan);width:15px;height:15px;cursor:pointer">
-                    Select All Classes
-                  </label>
-                  <span id="class-selected-counter" style="font-size:11px;color:var(--cream-faint);font-weight:600">0 selected</span>
-                </div>
-                <div style="display:flex;flex-direction:column;gap:2px">
-                  ${classesList.map(c => `
-                    <label class="class-dropdown-item" style="display:flex;align-items:center;justify-content:space-between;padding:7px 10px;border-radius:8px;cursor:pointer;user-select:none;transition:background .12s ease">
-                      <div style="display:flex;align-items:center;gap:9px">
-                        <input type="checkbox" value="${esc(c.name)}" class="class-checkbox" style="accent-color:var(--purple);width:16px;height:16px;cursor:pointer">
-                        <span style="font-size:13.5px;font-weight:700;color:var(--cream)">${esc(c.name)}</span>
-                      </div>
-                      <span style="font-size:11.5px;color:var(--cream-faint)">${c.studentCount} ${c.studentCount === 1 ? 'student' : 'students'}</span>
-                    </label>
-                  `).join('')}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <label class="field-label">Number of Questions (Each topic has 25 questions)</label>
-            <input type="number" id="ct-count" min="1" max="25" value="25" required>
-          </div>
-
-          <div>
-            <label class="field-label">Duration (minutes)</label>
-            <input type="number" id="ct-duration" min="1" value="20" required>
-          </div>
-
-          <div>
-            <label class="field-label">Difficulty / Level</label>
+          <div><label class="field-label">Level</label>
             <select id="ct-level">
-              <option value="All">All Levels (Comprehensive)</option>
               <option value="Beginner">Beginner</option>
               <option value="Intermediate">Intermediate</option>
               <option value="Advanced">Advanced</option>
             </select>
           </div>
+          <div><label class="field-label">Number of questions</label><input type="number" id="ct-count" min="1" max="500" value="20" required></div>
+          <div><label class="field-label">Duration (minutes)</label><input type="number" id="ct-duration" min="1" value="20" required></div>
+          
+          <div>
+            <label class="field-label">Target Audience / Class Target</label>
+            <select id="ct-target-type">
+              <option value="ALL">🌐 All Classes</option>
+              <option value="INDIVIDUAL_CLASS">🎯 Individual Class</option>
+              <option value="GROUP_OF_CLASSES">👥 Group of Classes</option>
+            </select>
+          </div>
 
-          <div id="ct-bank-hint" style="grid-column:1/-1;font-size:12.5px;color:var(--sprout);font-weight:600"></div>
-          <button class="btn btn-primary" type="submit" style="grid-column:1/-1;justify-self:start">Create test ${ICONS.arrowRight}</button>
+          <div id="ct-classes-wrap" style="grid-column:1/-1;display:none;background:var(--card-sub);padding:12px;border-radius:8px">
+            <label class="field-label">Select Targeted Class(es)</label>
+            <div class="row gap-md" style="margin-top:6px">
+              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="A"> Class A</label>
+              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="B"> Class B</label>
+              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="C"> Class C</label>
+              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="D"> Class D</label>
+            </div>
+          </div>
+
+          <div id="ct-bank-hint" style="grid-column:1/-1;font-size:12.5px;color:var(--cream-faint)"></div>
+          <button class="btn btn-primary" type="submit" style="grid-column:1/-1;justify-self:start">${ICONS.plus} Create Test &amp; Assign</button>
         </form>
       </div>
 
       <div class="card">
-        <div class="section-title" style="margin-bottom:14px">${ICONS.grid} Your tests</div>
+        <div class="section-title" style="margin-bottom:14px">${ICONS.grid} Managed Tests</div>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>Title</th><th>Topic</th><th>Assigned Classes</th><th>Questions</th><th>Status</th><th>Attempts</th><th>Avg score</th><th></th></tr></thead>
+            <thead><tr><th>Title</th><th>Topic</th><th>Class Target</th><th>Questions</th><th>Status</th><th>Attempts</th><th>Avg score</th><th>Actions</th></tr></thead>
             <tbody id="test-rows"></tbody>
           </table>
         </div>
@@ -194,23 +147,32 @@ function renderTeacherTestsView(mount, tests, topicsData = { topics: [], grouped
     </div>
   `;
 
+  const catMap = Object.fromEntries(categories.map(c => [c.category, c]));
+  $('#ct-category').onchange = (e) => {
+    const c = catMap[e.target.value];
+    $('#ct-bank-hint').textContent = c ? `${c.bankSize} questions currently available for "${c.category}" across ${c.topicCount} topic(s).` : '';
+  };
 
-
-
+  $('#ct-target-type').onchange = (e) => {
+    const val = e.target.value;
+    $('#ct-classes-wrap').style.display = (val === 'INDIVIDUAL_CLASS' || val === 'GROUP_OF_CLASSES') ? 'block' : 'none';
+  };
 
   function renderRows(list) {
     const tbody = $('#test-rows');
     tbody.innerHTML = '';
     (list || []).forEach(t => {
-      const classBadges = (t.batches && t.batches.length)
-        ? t.batches.map(b => `<span class="pill voice" style="font-size:10.5px;margin:2px 3px 2px 0;display:inline-block"><i class="bi bi-people-fill"></i> ${esc(b)}</span>`).join('')
-        : (t.batch ? `<span class="pill voice" style="font-size:10.5px"><i class="bi bi-people-fill"></i> ${esc(t.batch)}</span>` : '<span class="pill" style="font-size:10.5px;color:var(--cream-faint)">All Classes</span>');
-
+      let targetBadge = '<span class="pill amber">🌐 All Classes</span>';
+      if (t.targetType === 'INDIVIDUAL_CLASS') {
+        targetBadge = `<span class="pill sprout">🎯 Class ${(t.targetClasses || []).join(', ') || 'A'}</span>`;
+      } else if (t.targetType === 'GROUP_OF_CLASSES') {
+        targetBadge = `<span class="pill voice">👥 Classes ${(t.targetClasses || []).join(', ')}</span>`;
+      }
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
-          <td>${esc(t.title)}</td>
+          <td><strong>${esc(t.title)}</strong></td>
           <td><span class="pill sprout">${esc(t.category)}</span></td>
-          <td>${classBadges}</td>
+          <td>${targetBadge}</td>
           <td class="mono">${t.questionCount}</td>
           <td><span class="pill ${t.status === 'published' ? 'sprout' : t.status === 'closed' ? 'coral' : ''}">${t.status}</span></td>
           <td class="mono">${t.attempts}</td>
@@ -236,113 +198,33 @@ function renderTeacherTestsView(mount, tests, topicsData = { topics: [], grouped
   }
   renderRows(tests);
 
-  const topicSelect = $('#ct-topic');
-  if (topicSelect) {
-    topicSelect.onchange = (e) => {
-      const tid = Number(e.target.value);
-      const allTopics = topicsData.topics || [];
-      const chosen = allTopics.find(t => t.topicId === tid);
-      if (chosen) {
-        $('#ct-bank-hint').innerHTML = `<i class="bi bi-check-circle-fill"></i> Selected: <strong>${esc(chosen.title)}</strong> (${esc(chosen.unit)}) &middot; 25 Questions Available.`;
-        if (chosen.level) $('#ct-level').value = chosen.level;
-      } else {
-        $('#ct-bank-hint').textContent = '';
-      }
-    };
-  }
-
-    // Class Dropdown Multi-Select Logic
-  const classTrigger = $('#class-dropdown-trigger');
-  const classMenu = $('#class-dropdown-menu');
-  const classSelectAll = $('#class-select-all');
-  const classCounter = $('#class-selected-counter');
-  const classLabel = $('#class-dropdown-label');
-  const classCheckboxes = mount.querySelectorAll('.class-checkbox');
-
-  function updateClassSelectionDisplay() {
-    const selected = Array.from(classCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
-    if (classCounter) classCounter.textContent = `${selected.length} selected`;
-
-    if (classSelectAll) {
-      classSelectAll.checked = selected.length === classCheckboxes.length && classCheckboxes.length > 0;
-      classSelectAll.indeterminate = selected.length > 0 && selected.length < classCheckboxes.length;
-    }
-
-    if (classLabel) {
-      if (selected.length === 0) {
-        classLabel.innerHTML = '<span style="color:var(--cream-faint)">-- Select One or More Classes --</span>';
-      } else if (selected.length === classCheckboxes.length) {
-        classLabel.innerHTML = `<span class="pill sprout" style="font-size:11px;padding:2px 8px;margin:0"><i class="bi bi-check-all"></i> All Classes (${selected.length})</span>`;
-      } else if (selected.length <= 3) {
-        classLabel.innerHTML = selected.map(c => `<span class="pill voice" style="font-size:11px;padding:2px 7px;margin:1px 0"><i class="bi bi-people-fill"></i> ${esc(c)}</span>`).join(' ');
-      } else {
-        classLabel.innerHTML = `<span class="pill voice" style="font-size:11px;padding:2px 8px"><i class="bi bi-people-fill"></i> ${selected.length} Classes</span> <span style="font-size:11.5px;color:var(--cream-faint);overflow:hidden;text-overflow:ellipsis;max-width:180px;white-space:nowrap">(${esc(selected.join(', '))})</span>`;
-      }
-    }
-  }
-
-  if (classTrigger && classMenu) {
-    classTrigger.onclick = (e) => {
-      e.stopPropagation();
-      const isOpen = classMenu.style.display === 'block';
-      classMenu.style.display = isOpen ? 'none' : 'block';
-    };
-
-    classMenu.onclick = (e) => {
-      e.stopPropagation();
-    };
-
-    const docClickHandler = (e) => {
-      if (classMenu && !classMenu.contains(e.target) && e.target !== classTrigger) {
-        classMenu.style.display = 'none';
-      }
-    };
-    document.addEventListener('click', docClickHandler);
-  }
-
-  if (classSelectAll) {
-    classSelectAll.onchange = (e) => {
-      classCheckboxes.forEach(cb => { cb.checked = e.target.checked; });
-      updateClassSelectionDisplay();
-    };
-  }
-
-  classCheckboxes.forEach(cb => {
-    cb.onchange = updateClassSelectionDisplay;
-  });
-
   $('#create-test-form').onsubmit = async (e) => {
     e.preventDefault();
     const btn = e.target.querySelector('button[type=submit]');
     btn.disabled = true;
+
+    const targetType = $('#ct-target-type').value;
+    const selectedClasses = Array.from(document.querySelectorAll('.ct-class-cb:checked')).map(cb => cb.value);
+
+    if (targetType !== 'ALL' && selectedClasses.length === 0) {
+      toast('Please select at least one class for target audience', 'coral');
+      btn.disabled = false;
+      return;
+    }
+
     try {
-      const selectedClasses = Array.from(classCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
-      if (selectedClasses.length === 0) {
-        toast('Please select at least one class to assign the test to.');
-        if (classMenu) classMenu.style.display = 'block';
-        btn.disabled = false;
-        return;
-      }
-
-      const topicId = Number($('#ct-topic').value);
-      if (!topicId) {
-        toast('Please select a topic from the question bank.');
-        btn.disabled = false;
-        return;
-      }
-
       const res = await Api.createTest({
         title: $('#ct-title').value,
-        topicId,
+        category: $('#ct-category').value,
         level: $('#ct-level').value,
         numQuestions: Number($('#ct-count').value),
         durationMinutes: Number($('#ct-duration').value),
-        batches: selectedClasses,
-        batch: selectedClasses.join(', '),
+        targetType,
+        targetClasses: selectedClasses,
       });
-      toast(res.message);
+      toast(res.message, 'sprout');
       const fresh = await Api.teacherTests();
-      renderTeacherTestsView(mount, fresh, topicsData, classesData);
+      renderTeacherTestsView(mount, fresh, categories);
     } catch (err) { apiError(err); btn.disabled = false; }
   };
 }

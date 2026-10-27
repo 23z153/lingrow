@@ -105,7 +105,6 @@ const Api = {
     this.setToken(null);
   },
   verifyEmail(token) { return this.get(`/auth/verify-email?token=${encodeURIComponent(token)}`); },
-  updateClass(batch) { return this.patch('/auth/class', { batch }); },
   resendVerification() { return this.post('/auth/resend-verification'); },
 
   // practice
@@ -140,7 +139,13 @@ const Api = {
   mySituationalAttempts() { return this.get('/situational/attempts/me'); },
 
   // debate
-  debateTopics() { return this.get('/debate/topics'); },
+  debateTopics(department) { return this.get('/debate/topics' + (department ? `?department=${department}` : '')); },
+  nextDebateTopic(params) {
+    let q = '';
+    if (typeof params === 'string') q = `?department=${params}`;
+    else if (params && typeof params === 'object') q = `?${new URLSearchParams(params).toString()}`;
+    return this.get(`/debate/topics/next${q}`);
+  },
   submitDebate(payload) { return this.post('/debate/attempts', payload); },
   myDebateAttempts() { return this.get('/debate/attempts/me'); },
 
@@ -239,11 +244,6 @@ const Api = {
   tutorUploadDocument(payload) { return this.post('/tutor/documents/upload', payload); },
   tutorDeleteDocument(id) { return this.del(`/tutor/documents/${id}`); },
   tutorSearch(query) { return this.post('/tutor/search', { query }); },
-  tutorClearHistory() { return this.del('/tutor/history'); },
-  tutorMemories() { return this.get('/tutor/memories'); },
-  tutorAddMemory(payload) { return this.post('/tutor/memories', payload); },
-  tutorDeleteMemory(id) { return this.del(`/tutor/memories/${id}`); },
-  tutorClearMemories() { return this.del('/tutor/memories'); },
 
   // notifications
   notifications() { return this.get('/notifications'); },
@@ -268,13 +268,19 @@ const Api = {
   getGdReport(id) { return this.get(`/gd/rooms/${id}/report`); },
 
   // teacher
-  teacherStudents(batch) { return this.get('/teacher/students' + (batch ? `?batch=${batch}` : '')); },
+  teacherStudents(params) {
+    let q = '';
+    if (typeof params === 'string') q = `?batch=${params}`;
+    else if (params && typeof params === 'object') {
+      const sp = new URLSearchParams(params);
+      q = `?${sp.toString()}`;
+    }
+    return this.get(`/teacher/students${q}`);
+  },
   teacherStudentDetail(id) { return this.get(`/teacher/students/${id}`); },
   teacherComment(type, id, comment) { return this.post(`/teacher/attempts/${type}/${id}/comment`, { comment }); },
-  teacherClasses() { return this.get('/teacher/classes'); },
-  teacherTopics() { return this.get('/tests/topics'); },
 
-  // tests (teacher creates by topic, pulls from the question bank; students take them)
+  // tests (teacher & admin create by topic, pulls from the question bank; students take them)
   testCategories() { return this.get('/tests/categories'); },
   createTest(payload) { return this.post('/tests', payload); },
   teacherTests() { return this.get('/tests'); },
@@ -288,8 +294,14 @@ const Api = {
   myTestAttempts() { return this.get('/tests/attempts/me'); },
 
   // admin
-  adminUsers(params) { return this.get('/admin/users' + (params ? `?${params}` : '')); },
+  adminUsers(params) {
+    let q = '';
+    if (typeof params === 'string') q = `?${params}`;
+    else if (params && typeof params === 'object') q = `?${new URLSearchParams(params).toString()}`;
+    return this.get(`/admin/users${q}`);
+  },
   adminCreateUser(payload) { return this.post('/admin/users', payload); },
+  adminUpdateUser(id, payload) { return this.patch(`/admin/users/${id}`, payload); },
   adminBulkUsers(rows) { return this.post('/admin/users/bulk', { rows }); },
   adminSetUserStatus(id, status) { return this.patch(`/admin/users/${id}/status`, { status }); },
   adminDeleteUser(id) { return this.del(`/admin/users/${id}`); },

@@ -48,7 +48,10 @@ router.post('/question-bank/scrape', async (req, res) => {
   try {
     const { department } = req.body;
     const result = await scrapeDepartmentContent(department);
-    res.json({ message: `Scraper finished! Generated ${result.passagesCreated} passages & ${result.clipsCreated} listening clips.`, result });
+    res.json({
+      message: `Automated Department Scraper finished! Generated ${result.passagesCreated} passages, ${result.clipsCreated} listening clips & ${result.storyPromptsCreated || 0} story narration prompts across technical departments.`,
+      result,
+    });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -221,50 +224,48 @@ router.delete('/grammar-topics/:id/questions/:qId', async (req, res) => {
 
 /* -------- user management -------- */
 router.get('/users', async (req, res) => {
-  const { role, q } = req.query;
+  const { role, q, section } = req.query;
   const filter = {};
   if (role) filter.role = role;
+  if (section) filter.section = section;
   if (q) filter.$or = [{ name: new RegExp(q, 'i') }, { email: new RegExp(q, 'i') }];
   res.json(await User.find(filter).select('-passwordHash').sort({ createdAt: -1 }));
 });
 
 router.post('/users', async (req, res) => {
-  const { name, email, password, role, department, batch, assignedClasses } = req.body;
-  if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
-  const existing = await User.findOne({ email: email.toLowerCase() });
-  if (existing) return res.status(409).json({ error: 'Email already registered' });
+  try {
+    const { name, email, password, role, department, section, assignedClasses } = req.body;
+    if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
+    const existing = await User.findOne({ email: email.toLowerCase() });
+    if (existing) return res.status(409).json({ error: 'Email already registered' });
 
-  const assigned = Array.isArray(assignedClasses)
-    ? assignedClasses
-    : (typeof assignedClasses === 'string' && assignedClasses.trim() ? assignedClasses.split(',').map((s) => s.trim()) : []);
-  
-  let dept = department || '';
-  let b = (batch || '').trim().toUpperCase();
-  if (!dept && b) {
-    if (b.startsWith('CSE')) dept = 'CSE';
-    else if (b.startsWith('IT')) dept = 'IT';
-    else if (b.startsWith('ECE')) dept = 'ECE';
-    else if (b.startsWith('EEE')) dept = 'EEE';
-    else if (b.includes('MECH')) dept = 'Mechanical';
-    else if (b.includes('CIVIL')) dept = 'Civil';
-  } else if (!dept && assigned.length > 0) {
-    const firstAssigned = assigned[0];
-    if (firstAssigned.startsWith('CSE')) dept = 'CSE';
-    else if (firstAssigned.startsWith('IT')) dept = 'IT';
-    else if (firstAssigned.startsWith('ECE')) dept = 'ECE';
-    else if (firstAssigned.startsWith('EEE')) dept = 'EEE';
-    else if (firstAssigned.includes('MECH')) dept = 'Mechanical';
-    else if (firstAssigned.includes('CIVIL')) dept = 'Civil';
+    let parsedAssigned = [];
+    if (Array.isArray(assignedClasses)) {
+      parsedAssigned = assignedClasses.map((c) => String(c).trim()).filter(Boolean);
+    } else if (typeof assignedClasses === 'string') {
+      parsedAssigned = assignedClasses.split(',').map((c) => c.trim()).filter(Boolean);
+    }
+
+    const user = new User({
+      name,
+      email,
+      role: role || 'student',
+      department: department || '',
+      section: section || 'A',
+      assignedClasses: parsedAssigned,
+      createdByAdmin: true,
+      emailVerified: true,
+    });
+    await user.setPassword(password);
+    await user.save();
+    res.status(201).json(user.toSafeJSON());
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
-
-  const user = new User({ name, email, role: role || 'student', department: dept, batch: b, assignedClasses: assigned });
-  await user.setPassword(password);
-  await user.save();
-  res.status(201).json(user.toSafeJSON());
 });
 
 router.post('/users/bulk', async (req, res) => {
-  // rows: [{ name, email, password, role, department }]
+  // rows: [{ name, email, password, role, department, section, assignedClasses }]
   const { rows } = req.body;
   if (!Array.isArray(rows)) return res.status(400).json({ error: 'rows must be an array' });
 
@@ -274,21 +275,24 @@ router.post('/users/bulk', async (req, res) => {
       if (!row.name || !row.email || !row.password) { results.skipped++; continue; }
       const existing = await User.findOne({ email: row.email.toLowerCase() });
       if (existing) { results.skipped++; continue; }
-      let batch = (row.batch || '').trim().toUpperCase();
-      let department = row.department || '';
-      if (!batch && ['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE'].includes(department.toUpperCase())) {
-        batch = department.toUpperCase();
-        department = '';
+
+      let parsedAssigned = [];
+      if (Array.isArray(row.assignedClasses)) {
+        parsedAssigned = row.assignedClasses.map((c) => String(c).trim()).filter(Boolean);
+      } else if (typeof row.assignedClasses === 'string') {
+        parsedAssigned = row.assignedClasses.split(',').map((c) => c.trim()).filter(Boolean);
       }
-      if (batch && !department) {
-        if (batch.startsWith('CSE')) department = 'CSE';
-        else if (batch.startsWith('IT')) department = 'IT';
-        else if (batch.startsWith('ECE')) department = 'ECE';
-        else if (batch.startsWith('EEE')) department = 'EEE';
-        else if (batch.includes('MECH')) department = 'Mechanical';
-        else if (batch.includes('CIVIL')) department = 'Civil';
-      }
-      const user = new User({ name: row.name, email: row.email, role: row.role || 'student', department, batch });
+
+      const user = new User({
+        name: row.name,
+        email: row.email,
+        role: row.role || 'student',
+        department: row.department || '',
+        section: row.section || 'A',
+        assignedClasses: parsedAssigned,
+        createdByAdmin: true,
+        emailVerified: true,
+      });
       await user.setPassword(row.password);
       await user.save();
       results.created++;
@@ -299,11 +303,39 @@ router.post('/users/bulk', async (req, res) => {
   res.json(results);
 });
 
+router.patch('/users/:id', async (req, res) => {
+  try {
+    const { name, email, role, department, section, assignedClasses, status } = req.body;
+    const user = await User.findById(req.params.id);
+    if (!user) return res.status(404).json({ error: 'User not found' });
+
+    if (name) user.name = name;
+    if (email) user.email = email.toLowerCase();
+    if (role) user.role = role;
+    if (department !== undefined) user.department = department;
+    if (section !== undefined) user.section = section;
+    if (status) user.status = status;
+    if (assignedClasses !== undefined) {
+      if (Array.isArray(assignedClasses)) {
+        user.assignedClasses = assignedClasses.map((c) => String(c).trim()).filter(Boolean);
+      } else if (typeof assignedClasses === 'string') {
+        user.assignedClasses = assignedClasses.split(',').map((c) => c.trim()).filter(Boolean);
+      }
+    }
+    user.createdByAdmin = true;
+
+    await user.save();
+    res.json(user.toSafeJSON());
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 router.patch('/users/:id/status', async (req, res) => {
   const { status } = req.body;
   const user = await User.findByIdAndUpdate(req.params.id, { status }, { new: true }).select('-passwordHash');
   if (!user) return res.status(404).json({ error: 'User not found' });
-  res.json(user);
+  res.json(user.toSafeJSON());
 });
 
 router.delete('/users/:id', async (req, res) => {

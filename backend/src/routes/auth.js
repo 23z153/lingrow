@@ -32,44 +32,11 @@ async function issueVerificationEmail(user) {
 }
 
 router.post('/register', async (req, res) => {
+  // Public self-registration disabled as per security requirements:
+  // Only accounts provisioned by the Administrator can access the application.
   return res.status(403).json({
-    error: 'Public registration is disabled. Student and teacher accounts are provisioned by the college administrator.'
+    error: 'Public self-registration is disabled. Only accounts created by an Administrator can access the application.',
   });
-  try {
-    let { name, email, password, role, department, batch } = req.body;
-    if (batch) {
-      batch = String(batch).trim().toUpperCase();
-      if (!department) {
-        if (batch.startsWith('CSE')) department = 'CSE';
-        else if (batch.startsWith('IT')) department = 'IT';
-        else if (batch.startsWith('ECE')) department = 'ECE';
-        else if (batch.startsWith('EEE')) department = 'EEE';
-        else if (batch.includes('MECH')) department = 'Mechanical';
-        else if (batch.includes('CIVIL')) department = 'Civil';
-      }
-    }
-    if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
-    if (password.length < 8) return res.status(400).json({ error: 'Password must be at least 8 characters' });
-
-    const existing = await User.findOne({ email: email.toLowerCase() });
-    if (existing) return res.status(409).json({ error: 'An account with that email already exists' });
-
-    const user = new User({ name, email, role: ['student', 'teacher', 'admin'].includes(role) ? role : 'student', department, batch });
-    await user.setPassword(password);
-    await user.save();
-
-    const emailResult = await issueVerificationEmail(user);
-    const accessToken = await issueSession(user, res);
-
-    const body = { token: accessToken, user: user.toSafeJSON() };
-    // In dev without SMTP configured, hand back the verify link directly so
-    // the flow is testable without a real mailbox.
-    if (!emailResult.delivered && emailResult.previewUrl) body.devVerifyUrl = emailResult.previewUrl;
-
-    res.status(201).json(body);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
 });
 
 router.post('/login', async (req, res) => {
@@ -80,6 +47,14 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ error: 'Invalid email or password' });
     }
     if (user.status === 'Suspended') return res.status(403).json({ error: 'This account has been suspended' });
+
+    // Enforce Admin-Created Account restriction
+    const isDemoAccount = (user.email || '').endsWith('@lingrow.demo');
+    if (!user.createdByAdmin && !isDemoAccount) {
+      return res.status(403).json({
+        error: 'Access restricted. Only accounts created by an Administrator can access the application.',
+      });
+    }
 
     // streak bookkeeping
     const today = new Date().toDateString();
@@ -163,26 +138,6 @@ router.post('/resend-verification', requireAuth, async (req, res) => {
     const body = { ok: true };
     if (!emailResult.delivered && emailResult.previewUrl) body.devVerifyUrl = emailResult.previewUrl;
     res.json(body);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
-router.patch('/class', requireAuth, async (req, res) => {
-  try {
-    let { batch } = req.body;
-    if (!batch) return res.status(400).json({ error: 'Class is required' });
-    batch = String(batch).trim().toUpperCase();
-    let department = '';
-    if (batch.startsWith('CSE')) department = 'CSE';
-    else if (batch.startsWith('IT')) department = 'IT';
-    else if (batch.startsWith('ECE')) department = 'ECE';
-    else if (batch.startsWith('EEE')) department = 'EEE';
-    else if (batch.includes('MECH')) department = 'Mechanical';
-    else if (batch.includes('CIVIL')) department = 'Civil';
-    
-    const user = await User.findByIdAndUpdate(req.user._id, { batch, department }, { new: true });
-    res.json({ ok: true, user: user.toSafeJSON() });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

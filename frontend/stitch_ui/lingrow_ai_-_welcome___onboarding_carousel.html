@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LinGrow AI â€” Speak English with Confidence</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-tertiary-fixed-variant": "#5a4300",
+            "on-tertiary-container": "#ffe9bd",
+            "secondary-container": "#55fcda",
+            "inverse-on-surface": "#f1efff",
+            "on-secondary-fixed": "#00201a",
+            "tertiary-container": "#866500",
+            "surface-tint": "#4e3bf3",
+            "on-primary": "#ffffff",
+            "on-background": "#161838",
+            "secondary": "#006b5a",
+            "inverse-primary": "#c4c0ff",
+            "on-primary-container": "#ede9ff",
+            "surface-container": "#eeecff",
+            "on-secondary-container": "#007260",
+            "surface-dim": "#d6d7ff",
+            "primary-fixed": "#e3dfff",
+            "tertiary": "#684e00",
+            "on-secondary": "#ffffff",
+            "on-error": "#ffffff",
+            "surface": "#fbf8ff",
+            "surface-container-high": "#e7e6ff",
+            "on-error-container": "#93000a",
+            "on-secondary-fixed-variant": "#005143",
+            "surface-bright": "#fbf8ff",
+            "inverse-surface": "#2b2d4e",
+            "outline-variant": "#c7c4d9",
+            "surface-container-low": "#f5f2ff",
+            "tertiary-fixed": "#ffdf9a",
+            "surface-variant": "#e0e0ff",
+            "tertiary-fixed-dim": "#f4bf32",
+            "on-tertiary": "#ffffff",
+            "error-container": "#ffdad6",
+            "on-surface-variant": "#464556",
+            "on-primary-fixed-variant": "#340edd",
+            "primary-container": "#5b4bff",
+            "secondary-fixed-dim": "#27dfbe",
+            "background": "#fbf8ff",
+            "on-tertiary-fixed": "#251a00",
+            "error": "#ba1a1a",
+            "surface-container-lowest": "#ffffff",
+            "outline": "#777588",
+            "on-surface": "#161838",
+            "on-primary-fixed": "#120068",
+            "secondary-fixed": "#55fcda",
+            "surface-container-highest": "#e0e0ff",
+            "primary": "#4129e7",
+            "primary-fixed-dim": "#c4c0ff"
+          },
+          "borderRadius": {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-desktop": "3rem",
+            "margin": "1rem",
+            "space-xl": "2.25rem",
+            "gutter": "1.25rem",
+            "space-lg": "1.5rem",
+            "gutter-desktop": "2rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-xs": "0.25rem"
+          },
+          "fontFamily": {
+            "body-sm": ["Inter"],
+            "display-hero-mobile": ["Nunito Sans"],
+            "metric-counter": ["Nunito Sans"],
+            "body-lg": ["Inter"],
+            "label-pill": ["Inter"],
+            "display-hero": ["Nunito Sans"],
+            "headline-md": ["Nunito Sans"],
+            "label-action": ["Nunito Sans"],
+            "headline-lg-mobile": ["Nunito Sans"],
+            "headline-lg": ["Nunito Sans"],
+            "body-md": ["Inter"],
+            "headline-sm": ["Nunito Sans"]
+          },
+          "fontSize": {
+            "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "900" }],
+            "metric-counter": ["24px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "900" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "500" }],
+            "label-pill": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "900" }],
+            "headline-md": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "800" }],
+            "label-action": ["16px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "800" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "800" }],
+            "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "800" }],
+            "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    
+    /* Tactile 3D Extrusion Shadows */
+    .btn-3d-gold {
+      background-color: #FFC93C;
+      color: #0E1030;
+      box-shadow: 0 5px 0 0 #D99B14;
+      transition: all 0.1s ease;
+    }
+    .btn-3d-gold:hover {
+      background-color: #ffd257;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 0 0 #D99B14;
+    }
+    .btn-3d-gold:active {
+      transform: translateY(5px);
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    .btn-3d-primary {
+      background-color: #5B4BFF;
+      color: #ffffff;
+      box-shadow: 0 5px 0 0 #3b2dd0;
+      transition: all 0.1s ease;
+    }
+    .btn-3d-primary:hover {
+      background-color: #6a5cff;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 0 0 #3b2dd0;
+    }
+    .btn-3d-primary:active {
+      transform: translateY(5px);
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    .btn-3d-ghost {
+      background-color: #ffffff;
+      box-shadow: 0 4px 0 0 #CFD5FB;
+      transition: all 0.1s ease;
+    }
+    .btn-3d-ghost:hover {
+      background-color: #f7f8ff;
+      transform: translateY(-1px);
+      box-shadow: 0 5px 0 0 #CFD5FB;
+    }
+    .btn-3d-ghost:active {
+      transform: translateY(4px);
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    /* Tactile Selection Card */
+    .tactile-card {
+      transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease, border-color 0.15s ease;
+      box-shadow: 0 4px 0 0 #D5DAFC;
+    }
+    .tactile-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 0 #c2c9f5;
+    }
+    .tactile-card.selected {
+      border-color: #5B4BFF;
+      background-color: rgba(91, 75, 255, 0.05);
+      box-shadow: 0 4px 0 0 #5B4BFF;
+    }
+    .tactile-card:active {
+      transform: translateY(3px);
+      box-shadow: 0 1px 0 0 #5B4BFF;
+    }
+
+    /* Soft Grid Pattern Backdrop */
+    .bg-microgrid {
+      background-image: radial-gradient(rgba(91, 75, 255, 0.08) 1.5px, transparent 1.5px);
+      background-size: 24px 24px;
+    }
+
+    /* Floating animation for mascot stars */
+    @keyframes floatBob {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(3deg); }
+    }
+    .animate-bob {
+      animation: floatBob 3.5s ease-in-out infinite;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 0.9; transform: scale(1.04); }
+    }
+    .animate-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased min-h-screen relative overflow-x-hidden selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Ambient Chromatic Glow Overlays -->
+<div class="fixed top-[-100px] left-1/2 -translate-x-1/2 w-[1100px] h-[550px] bg-gradient-to-r from-primary-container/20 via-secondary-fixed-dim/20 to-tertiary-fixed-dim/20 rounded-full blur-[110px] pointer-events-none -z-10 animate-glow"></div>
+<div class="fixed top-[450px] -right-[150px] w-[500px] h-[500px] bg-secondary-fixed/20 rounded-full blur-[90px] pointer-events-none -z-10"></div>
+<div class="fixed top-[650px] -left-[150px] w-[500px] h-[500px] bg-primary-container/15 rounded-full blur-[90px] pointer-events-none -z-10"></div>
+<!-- Micro Grid Texture -->
+<div class="fixed inset-0 bg-microgrid pointer-events-none -z-10 opacity-70"></div>
+<!-- TOP BRANDING BAR (Linear/Onboarding canvas mode: minimalist, focused) -->
+<header class="w-full max-w-7xl mx-auto px-4 md:px-8 py-5 flex items-center justify-between">
+<!-- Brand Logo Anchor -->
+<a class="flex items-center gap-2.5 group" href="#">
+<div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-primary-container to-surface-tint flex items-center justify-center text-on-primary shadow-[0_4px_12px_rgba(91,75,255,0.35)] group-hover:scale-105 transition-transform duration-150">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">mic</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-black text-primary tracking-tight flex items-center gap-1.5">
+          LinGrow AI
+          <span class="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-secondary-container text-on-secondary-fixed tracking-wide uppercase">Esports Edu</span>
+</span>
+</div>
+</a>
+<!-- Global Utility Badges & Sign-in Link -->
+<div class="flex items-center gap-3">
+<!-- Locale Capsule -->
+<div class="hidden sm:flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container-lowest/80 border border-surface-variant backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">language</span>
+<span class="font-label-pill text-label-pill text-on-surface font-bold">EN (Campus)</span>
+</div>
+<!-- Sign In Secondary Tactile -->
+<a class="btn-3d-ghost font-label-action text-label-action text-primary px-4 py-2 rounded-full border border-surface-variant flex items-center gap-1.5" href="#signin">
+<span>Already have an account?</span>
+<span class="font-bold underline decoration-primary decoration-2 underline-offset-2">Sign In</span>
+</a>
+</div>
+</header>
+<!-- MAIN WRAPPER (1440px Canvas Focus) -->
+<main class="w-full max-w-7xl mx-auto px-4 md:px-8 pt-4 pb-20">
+<!-- ========================================================================= -->
+<!-- SECTION 1: HERO WELCOME STAGE                                             -->
+<!-- ========================================================================= -->
+<section class="relative pt-6 pb-12 flex flex-col items-center text-center" id="hero-welcome-stage">
+<!-- Lin Mascot Spotlight Frame -->
+<div class="relative w-56 h-56 sm:w-64 sm:h-64 mb-6 flex items-center justify-center">
+<!-- Ambient Podium Glow Ring -->
+<div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-container/30 to-secondary-fixed/40 blur-2xl animate-pulse"></div>
+<div class="absolute bottom-2 w-48 h-8 rounded-full bg-primary/10 blur-md"></div>
+<!-- Mascot SVG Avatar: Lin (Esports Owl with Glowing Cyan Headset & Mic) -->
+<div class="relative z-10 animate-bob">
+<svg class="drop-shadow-[0_12px_24px_rgba(91,75,255,0.22)]" fill="none" height="220" viewbox="0 0 220 220" width="220" xmlns="http://www.w3.org/2000/svg">
+<!-- Glow Underlay -->
+<circle cx="110" cy="115" fill="#EDE9FF" r="76"></circle>
+<!-- Body Gradient Shell -->
+<ellipse cx="110" cy="118" fill="url(#bodyGradient)" rx="68" ry="72"></ellipse>
+<!-- Cute Belly Panel -->
+<ellipse cx="110" cy="132" fill="#FBF8FF" rx="46" ry="46"></ellipse>
+<!-- Feather Chevrons on Belly (Game XP marks) -->
+<path d="M102 122 L110 128 L118 122" stroke="#5B4BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<path d="M99 134 L110 142 L121 134" stroke="#5B4BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<path d="M104 146 L110 152 L116 146" stroke="#5B4BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<!-- High-Tech Esports Headband Arc -->
+<path d="M46 100 C46 54 174 54 174 100" stroke="#161838" stroke-linecap="round" stroke-width="9"></path>
+<path d="M52 97 C52 59 168 59 168 97" stroke="#5B4BFF" stroke-linecap="round" stroke-width="3"></path>
+<!-- Headset Earcups (Cyber Indigo & Cyan Ring) -->
+<!-- Left Earcup -->
+<rect fill="#161838" height="34" rx="9" width="18" x="36" y="88"></rect>
+<rect fill="#00D4B4" height="24" rx="6" width="12" x="39" y="93"></rect>
+<!-- Right Earcup with Mic Attachment -->
+<rect fill="#161838" height="34" rx="9" width="18" x="166" y="88"></rect>
+<rect fill="#00D4B4" height="24" rx="6" width="12" x="169" y="93"></rect>
+<!-- Esports Boom Mic with Neon Cyan Glowing Ring -->
+<path d="M176 114 C176 140 148 156 128 154" stroke="#161838" stroke-linecap="round" stroke-width="5"></path>
+<circle cx="124" cy="154" fill="#00D4B4" r="7" stroke="#161838" stroke-width="2.5"></circle>
+<circle cx="124" cy="154" fill="#ffffff" r="3"></circle>
+<!-- Giant Friendly Eyes -->
+<!-- Left Eye -->
+<ellipse cx="86" cy="104" fill="#FFFFFF" rx="20" ry="22" stroke="#161838" stroke-width="3.5"></ellipse>
+<circle cx="88" cy="105" fill="#161838" r="11"></circle>
+<circle cx="84" cy="100" fill="#FFFFFF" r="4.5"></circle>
+<circle cx="92" cy="108" fill="#FFFFFF" r="2"></circle>
+<!-- Right Eye (Winking Confidence Wink) -->
+<path d="M125 106 C129 100 143 100 147 106" stroke="#161838" stroke-linecap="round" stroke-width="5.5"></path>
+<!-- Rosy Cheeks -->
+<circle cx="68" cy="120" fill="#FF5C7A" fill-opacity="0.35" r="7"></circle>
+<circle cx="152" cy="120" fill="#FF5C7A" fill-opacity="0.35" r="7"></circle>
+<!-- Friendly Beak -->
+<polygon fill="#FFC93C" points="104,113 116,113 110,123" stroke="#D99B14" stroke-linejoin="round" stroke-width="2"></polygon>
+<!-- Waving Wing Left (Enthusiastic Greeting) -->
+<path d="M46 124 C32 110 24 90 30 78 C36 68 50 82 52 102" fill="#4B3AE6" stroke="#161838" stroke-linecap="round" stroke-width="3"></path>
+<!-- Gradients -->
+<defs>
+<lineargradient gradientunits="userSpaceOnUse" id="bodyGradient" x1="42" x2="178" y1="46" y2="190">
+<stop stop-color="#7263FF"></stop>
+<stop offset="0.6" stop-color="#5B4BFF"></stop>
+<stop offset="1" stop-color="#4129E7"></stop>
+</lineargradient>
+</defs>
+</svg>
+<!-- Floating Esports Level Sparkles around Lin -->
+<div class="absolute -top-2 -right-3 w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center shadow-md animate-bounce">
+<span class="material-symbols-outlined text-[18px] text-tertiary font-bold" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="absolute top-12 -left-4 w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px] text-secondary font-bold" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div class="absolute bottom-4 right-1 px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 border border-surface-variant shadow-sm flex items-center gap-1 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim animate-ping"></span>
+<span class="font-label-pill text-[10px] text-on-surface font-extrabold uppercase tracking-wide">Lin Coach AI</span>
+</div>
+</div>
+</div>
+<!-- Main Headline & Subtitle -->
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface max-w-4xl tracking-tight leading-tight mb-4">
+        Speak English with <span class="bg-gradient-to-r from-primary via-primary-container to-secondary-fixed-dim bg-clip-text text-transparent underline decoration-secondary-fixed-dim decoration-wavy decoration-2 underline-offset-8">confidence.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-8 font-medium">
+        The gamified English speaking coach built specifically for campus placements, Versant drills, spontaneous JAM rounds, and acing corporate interviews.
+      </p>
+<!-- Three Floating Glassmorphism Benefit Chips -->
+<div class="flex flex-wrap items-center justify-center gap-3 md:gap-4 mb-10 max-w-3xl">
+<div class="flex items-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest/80 border border-white/80 shadow-[0_8px_20px_-4px_rgba(14,16,48,0.06)] backdrop-blur-md hover:scale-105 transition-transform">
+<span class="text-lg">ðŸ›¡ï¸</span>
+<span class="font-label-pill text-label-pill text-on-surface font-bold">Judgment-free practice</span>
+</div>
+<div class="flex items-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest/80 border border-white/80 shadow-[0_8px_20px_-4px_rgba(14,16,48,0.06)] backdrop-blur-md hover:scale-105 transition-transform">
+<span class="text-lg">ðŸŽ¯</span>
+<span class="font-label-pill text-label-pill text-on-surface font-bold">Placement-ready drills</span>
+</div>
+<div class="flex items-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest/80 border border-white/80 shadow-[0_8px_20px_-4px_rgba(14,16,48,0.06)] backdrop-blur-md hover:scale-105 transition-transform">
+<span class="text-lg">âš¡</span>
+<span class="font-label-pill text-label-pill text-on-surface font-bold">Earn XP &amp; level up every day</span>
+</div>
+</div>
+<!-- Chunky Action Button Cluster -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md mx-auto mb-10">
+<!-- Primary 3D Action: Sunny Gold -->
+<a class="w-full sm:w-auto btn-3d-gold px-8 py-4 rounded-full font-label-action text-label-action tracking-wide flex items-center justify-center gap-2.5 text-center min-w-[240px] cursor-pointer" href="#onboarding-arena" onclick="scrollToArena(1)">
+<span class="text-lg">ðŸš€</span>
+<span>Start Speaking Now</span>
+</a>
+<!-- Secondary 3D Action: Ghost Frosted -->
+<a class="w-full sm:w-auto btn-3d-ghost border-2 border-surface-variant/80 px-6 py-4 rounded-full font-label-action text-label-action text-primary tracking-wide flex items-center justify-center gap-2 text-center min-w-[180px] cursor-pointer" href="#demo-preview" onclick="scrollToArena(2)">
+<span>Explore Flight Path</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+<!-- Quick Interactive Switcher Tabs (Lets user toggle preview without losing context) -->
+<div class="inline-flex p-1.5 rounded-full bg-surface-container-high/70 border border-surface-variant backdrop-blur-lg">
+<button class="px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 bg-surface-container-lowest text-primary font-bold shadow-sm" id="tab-btn-welcome" onclick="showTab('welcome')">
+          ðŸŒŸ Welcome Overview
+        </button>
+<button class="px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 text-on-surface-variant font-bold hover:text-primary" id="tab-btn-step1" onclick="showTab('step1')">
+          ðŸŽ“ Step 1: Branch
+        </button>
+<button class="px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 text-on-surface-variant font-bold hover:text-primary" id="tab-btn-step2" onclick="showTab('step2')">
+          ðŸŽ¯ Step 2: Goal
+        </button>
+<button class="px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 text-on-surface-variant font-bold hover:text-primary" id="tab-btn-step3" onclick="showTab('step3')">
+          âš¡ Step 3: Commitment
+        </button>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- SECTION 2: INTERACTIVE 3-STEP ONBOARDING FLIGHT PATH                      -->
+<!-- ========================================================================= -->
+<section class="relative max-w-4xl mx-auto mt-6" id="onboarding-arena">
+<!-- Glassmorphic Elevated Container (28px corner radius, tactile light catching rim) -->
+<div class="bg-surface-container-lowest/90 backdrop-blur-xl rounded-[28px] border border-white/90 p-6 md:p-10 shadow-[0_20px_50px_-10px_rgba(14,16,48,0.08),0_4px_16px_rgba(91,75,255,0.05)] relative overflow-hidden">
+<!-- Header & Animated Progress Bar -->
+<div class="mb-8">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary-container text-on-primary text-xs font-black" id="step-badge-number">1</span>
+<span class="font-headline-sm text-headline-sm text-on-surface" id="step-header-title">Step 1 of 3: Personalize Your Placement Flight Path</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-tertiary" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+<span class="font-label-pill text-label-pill text-on-surface font-extrabold uppercase tracking-wider text-secondary" id="step-reward-text">+100 XP Ready</span>
+</div>
+</div>
+<!-- Progress Track -->
+<div class="w-full h-3 rounded-full bg-surface-container overflow-hidden p-0.5 border border-surface-variant/40">
+<div class="h-full rounded-full bg-gradient-to-r from-secondary-fixed-dim to-secondary-container transition-all duration-500 ease-out shadow-[0_0_8px_rgba(39,223,190,0.5)]" id="onboarding-progress-bar" style="width: 33.33%;"></div>
+</div>
+</div>
+<!-- ========================================================== -->
+<!-- STEP 1 CONTENT: BRANCH / DEPARTMENT SELECTION              -->
+<!-- ========================================================== -->
+<div class="transition-all duration-300" id="step-panel-1">
+<div class="text-left mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-1">Pick your department / branch</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">We'll calibrate spoken interview questions to match your campus test criteria.</p>
+</div>
+<!-- Grid of Tactile Department Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+<!-- Card 1: CSE (Default Selected) -->
+<div class="tactile-card selected cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-primary p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-primary-container/10 border border-primary-container/20 flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">terminal</span>
+</div>
+<div class="check-icon w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-primary-container/10 text-primary mb-1">Coding &amp; Tech Rounds</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Computer Science &amp; Engg (CSE / IT)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Data structures, System Design pitch &amp; Versant English drills.</p>
+</div>
+</div>
+<!-- Card 2: ECE -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/30 border border-secondary-container flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">memory</span>
+</div>
+<div class="check-icon hidden w-6 h-6 rounded-full bg-primary items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-secondary-fixed/40 text-on-secondary-fixed mb-1">Hardware &amp; Core Tech</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Electronics &amp; Comm (ECE / EEE)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">VLSI, Embedded pitches, AMCAT Aptitude &amp; Technical 1-on-1.</p>
+</div>
+</div>
+<!-- Card 3: Mechanical -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed/40 border border-tertiary-fixed flex items-center justify-center text-tertiary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+</div>
+<div class="check-icon hidden w-6 h-6 rounded-full bg-primary items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-tertiary-fixed/60 text-on-tertiary-fixed mb-1">Core Manufacturing</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Mechanical Engineering</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Auto, Thermo, Project presentations &amp; HR stress tests.</p>
+</div>
+</div>
+<!-- Card 4: Civil -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 border border-secondary/30 flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">apartment</span>
+</div>
+<div class="check-icon hidden w-6 h-6 rounded-full bg-primary items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-secondary-fixed/30 text-on-secondary-fixed mb-1">Design &amp; Infra</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Civil &amp; Structural Engg</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Project defense, client communication &amp; site management JAM.</p>
+</div>
+</div>
+<!-- Card 5: Management -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/50 border border-primary-fixed flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<div class="check-icon hidden w-6 h-6 rounded-full bg-primary items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-primary-fixed text-on-primary-fixed mb-1">GD &amp; Case Battles</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Management (MBA / BBA)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Executive summaries, spontaneous rebuttal &amp; GD leadership.</p>
+</div>
+</div>
+<!-- Card 6: Other / Any Degree -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-4.5 flex flex-col justify-between relative overflow-hidden group" onclick="selectCard(this, 'step1')">
+<div class="flex items-start justify-between mb-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high border border-surface-variant flex items-center justify-center text-on-surface group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<div class="check-icon hidden w-6 h-6 rounded-full bg-primary items-center justify-center text-white">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+<div>
+<span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-surface-container-high text-on-surface-variant mb-1">General Fluency</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Other Sciences / Arts</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Adaptive curriculum customized dynamically to your goals.</p>
+</div>
+</div>
+</div>
+<!-- Bottom Action Deck for Step 1 -->
+<div class="flex items-center justify-between pt-4 border-t border-surface-variant/40">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+              100% placement-aligned modules
+            </span>
+<button class="btn-3d-primary px-8 py-3.5 rounded-full font-label-action text-label-action flex items-center gap-2" onclick="goToStep(2)">
+<span>Continue to Goals</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ========================================================== -->
+<!-- STEP 2 CONTENT: PRIMARY GOAL SELECTION                     -->
+<!-- ========================================================== -->
+<div class="hidden transition-all duration-300" id="step-panel-2">
+<div class="text-left mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-1">Pick your primary goal</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Lin will tailor your voice sparring sessions and AI feedback telemetry.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+<!-- Goal 1 -->
+<div class="tactile-card selected cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-primary p-5 flex items-start gap-4" onclick="selectCard(this, 'step2')">
+<div class="w-12 h-12 rounded-xl bg-primary-container/10 border border-primary-container/20 flex-shrink-0 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">quiz</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Campus Placement Tests</h3>
+<span class="check-icon text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Master Versant sentence repeats, AMCAT story retellings, CoCubes and eLitmus speaking simulators.</p>
+</div>
+</div>
+<!-- Goal 2 -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-5 flex items-start gap-4" onclick="selectCard(this, 'step2')">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/30 border border-secondary-container flex-shrink-0 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">record_voice_over</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">HR &amp; Technical 1-on-1</h3>
+<span class="check-icon hidden text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Crush "Tell me about yourself", situational behavioral checks, and project deep dives with live pacing feedback.</p>
+</div>
+</div>
+<!-- Goal 3 -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-5 flex items-start gap-4" onclick="selectCard(this, 'step2')">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed/40 border border-tertiary-fixed flex-shrink-0 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Daily Fluency &amp; Spontaneous JAM</h3>
+<span class="check-icon hidden text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Eliminate filler words ("um", "ah"), boost speaking velocity, and speak for 1 minute without hesitation.</p>
+</div>
+</div>
+<!-- Goal 4 -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-5 flex items-start gap-4" onclick="selectCard(this, 'step2')">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high border border-surface-variant flex-shrink-0 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">forum</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">GD &amp; Group Debate Mastery</h3>
+<span class="check-icon hidden text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Practice voice modulation, polite interruptions, and structured argument synthesis against AI personas.</p>
+</div>
+</div>
+</div>
+<!-- Bottom Action Deck for Step 2 -->
+<div class="flex items-center justify-between pt-4 border-t border-surface-variant/40">
+<button class="btn-3d-ghost px-6 py-3 rounded-full font-label-action text-label-action text-on-surface-variant flex items-center gap-2" onclick="goToStep(1)">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+<span>Back</span>
+</button>
+<button class="btn-3d-primary px-8 py-3.5 rounded-full font-label-action text-label-action flex items-center gap-2" onclick="goToStep(3)">
+<span>Continue to Target</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ========================================================== -->
+<!-- STEP 3 CONTENT: DAILY PRACTICE COMMITMENT                  -->
+<!-- ========================================================== -->
+<div class="hidden transition-all duration-300" id="step-panel-3">
+<div class="text-left mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-1">Pick your daily practice commitment</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Small daily speaking reps compound into natural fluency before placements begin.</p>
+</div>
+<!-- 3 Chunky Target Cards with Multiplier Badges -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+<!-- Tier 1: Casual -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-5 flex flex-col justify-between text-left relative overflow-hidden group" onclick="selectCard(this, 'step3')">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl">ðŸŒ±</span>
+<span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-surface-container-high text-on-surface-variant">Steady Pace</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">5 mins / day</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">"Casual" â€” 1 quick scenario drill and instant AI phoneme coaching.</p>
+</div>
+<div class="mt-6 pt-3 border-t border-surface-variant/50 flex items-center justify-between">
+<span class="font-label-pill text-label-pill text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">bolt</span> +10 XP daily
+                </span>
+<span class="check-icon hidden text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+</div>
+<!-- Tier 2: Regular (RECOMMENDED) -->
+<div class="tactile-card selected cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-primary p-5 flex flex-col justify-between text-left relative overflow-hidden shadow-md group" onclick="selectCard(this, 'step3')">
+<!-- Highlight Ribbon -->
+<div class="absolute -top-0 right-4 bg-tertiary-fixed text-on-tertiary-fixed font-black text-[10px] tracking-wider uppercase px-3 py-1 rounded-b-lg shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+                RECOMMENDED
+              </div>
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl">ðŸ”¥</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">10 mins / day</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">"Regular" â€” 2 scenario drills, 1 spontaneous JAM round, and pronunciation checks.</p>
+</div>
+<div class="mt-6 pt-3 border-t border-primary/20 flex items-center justify-between">
+<span class="font-label-pill text-label-pill text-primary font-black flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span> +25 XP Streak Boost
+                </span>
+<span class="check-icon text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+</div>
+<!-- Tier 3: Serious -->
+<div class="tactile-card cursor-pointer bg-surface-container-lowest rounded-2xl border-2 border-surface-variant p-5 flex flex-col justify-between text-left relative overflow-hidden group" onclick="selectCard(this, 'step3')">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl">âš¡</span>
+<span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-primary-fixed text-primary">Fast Track</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">15 mins / day</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">"Serious" â€” Full Versant mock tests, GD rebuttal drills, and interview simulations.</p>
+</div>
+<div class="mt-6 pt-3 border-t border-surface-variant/50 flex items-center justify-between">
+<span class="font-label-pill text-label-pill text-secondary font-black flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">military_tech</span> +50 XP 2x Multiplier
+                </span>
+<span class="check-icon hidden text-primary font-bold"><span class="material-symbols-outlined text-[20px]">check_circle</span></span>
+</div>
+</div>
+</div>
+<!-- Bottom Action Deck for Step 3 (Launch into Arena) -->
+<div class="flex items-center justify-between pt-4 border-t border-surface-variant/40">
+<button class="btn-3d-ghost px-6 py-3 rounded-full font-label-action text-label-action text-on-surface-variant flex items-center gap-2" onclick="goToStep(2)">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+<span>Back</span>
+</button>
+<button class="btn-3d-gold px-9 py-4 rounded-full font-label-action text-label-action flex items-center gap-2.5 text-on-surface" onclick="launchExperience()">
+<span class="text-xl">ðŸ†</span>
+<span>Complete Setup &amp; Enter Arena</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- SECTION 3: SOCIAL PROOF, LIVE TELEMETRY COUNTER & RECRUITER BADGES        -->
+<!-- ========================================================================= -->
+<section class="mt-16 max-w-5xl mx-auto">
+<!-- Live Learner Activity Indicator Capsule -->
+<div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-surface-container-lowest/80 border border-white/80 shadow-[0_4px_16px_rgba(14,16,48,0.04)] backdrop-blur-md mb-8">
+<div class="relative flex items-center justify-center">
+<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim"></span>
+<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim animate-ping absolute"></span>
+</div>
+<span class="font-metric-counter text-body-md font-bold text-on-surface flex items-center gap-1.5">
+<span class="text-base">ðŸ”¥</span>
+<span class="text-primary font-extrabold font-headline-sm">24,850+</span> students practicing speaking right now
+        </span>
+</div>
+<!-- Recruiter Trust Headline -->
+<p class="font-label-pill text-label-pill text-on-surface-variant font-bold uppercase tracking-widest mb-6">
+        Trusted by students placed at top global recruiters
+      </p>
+<!-- Recruiter Logo Chips -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-on-surface-variant tracking-wider text-base">TCS</span>
+</div>
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-primary tracking-wider text-base">Infosys</span>
+</div>
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-on-surface tracking-wider text-base">Wipro</span>
+</div>
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-secondary tracking-wider text-base">Cognizant</span>
+</div>
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-on-surface tracking-wider text-base">amazon</span>
+</div>
+<div class="bg-surface-container-lowest/70 border border-surface-variant/60 rounded-2xl py-3 px-4 flex items-center justify-center hover:bg-white transition-all shadow-sm">
+<span class="font-headline-sm font-black text-primary-container tracking-wider text-base">accenture</span>
+</div>
+</div>
+<!-- Quick Trust Testimonials Mini-Strip -->
+<div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+<div class="p-4 rounded-2xl bg-surface-container-lowest/70 border border-surface-variant/50 backdrop-blur-md flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center font-bold text-primary text-sm flex-shrink-0">
+            AK
+          </div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">"Cleared my Versant 68+ round on day 1 of placements. Lin's sentence repeat drills were spot on."</p>
+<span class="text-xs text-on-surface-variant font-bold">Ananya K. â€” Placed at TCS Digital</span>
+</div>
+</div>
+<div class="p-4 rounded-2xl bg-surface-container-lowest/70 border border-surface-variant/50 backdrop-blur-md flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/40 flex items-center justify-center font-bold text-secondary text-sm flex-shrink-0">
+            RS
+          </div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">"I had massive stage fear in Group Discussions. The 10 mins/day daily JAM streak changed everything."</p>
+<span class="text-xs text-on-surface-variant font-bold">Rohit S. â€” Placed at Accenture Advanced Tech</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Interactive JavaScript for Multi-Step Navigation & Tabbed Previews -->
+<script>
+    let currentStep = 1;
+
+    function goToStep(step) {
+      currentStep = step;
+      
+      // Panels visibility
+      document.getElementById('step-panel-1').classList.toggle('hidden', step !== 1);
+      document.getElementById('step-panel-2').classList.toggle('hidden', step !== 2);
+      document.getElementById('step-panel-3').classList.toggle('hidden', step !== 3);
+
+      // Header labels update
+      const titleElem = document.getElementById('step-header-title');
+      const badgeElem = document.getElementById('step-badge-number');
+      const rewardElem = document.getElementById('step-reward-text');
+      const progressElem = document.getElementById('onboarding-progress-bar');
+
+      badgeElem.textContent = step;
+
+      if (step === 1) {
+        titleElem.textContent = 'Step 1 of 3: Personalize Your Placement Flight Path';
+        rewardElem.textContent = '+100 XP Ready';
+        progressElem.style.width = '33.33%';
+        updateTabButtons('step1');
+      } else if (step === 2) {
+        titleElem.textContent = 'Step 2 of 3: Target Your Placement Goals';
+        rewardElem.textContent = '+175 XP Ready';
+        progressElem.style.width = '66.66%';
+        updateTabButtons('step2');
+      } else if (step === 3) {
+        titleElem.textContent = 'Step 3 of 3: Lock Your Daily Speaking Streak';
+        rewardElem.textContent = '+250 XP Ready';
+        progressElem.style.width = '100%';
+        updateTabButtons('step3');
+      }
+    }
+
+    function selectCard(cardElement, groupKey) {
+      const parentGrid = cardElement.parentElement;
+      const cards = parentGrid.querySelectorAll('.tactile-card');
+      
+      cards.forEach(c => {
+        c.classList.remove('selected', 'border-primary');
+        c.classList.add('border-surface-variant');
+        const check = c.querySelector('.check-icon');
+        if (check) {
+          check.classList.add('hidden');
+          check.classList.remove('flex');
+        }
+      });
+
+      cardElement.classList.add('selected', 'border-primary');
+      cardElement.classList.remove('border-surface-variant');
+      const activeCheck = cardElement.querySelector('.check-icon');
+      if (activeCheck) {
+        activeCheck.classList.remove('hidden');
+        activeCheck.classList.add('flex');
+      }
+    }
+
+    function showTab(tabName) {
+      if (tabName === 'welcome') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        updateTabButtons('welcome');
+      } else if (tabName === 'step1') {
+        goToStep(1);
+        scrollToArena();
+      } else if (tabName === 'step2') {
+        goToStep(2);
+        scrollToArena();
+      } else if (tabName === 'step3') {
+        goToStep(3);
+        scrollToArena();
+      }
+    }
+
+    function scrollToArena(stepToGo) {
+      if (stepToGo) {
+        goToStep(stepToGo);
+      }
+      const arena = document.getElementById('onboarding-arena');
+      arena.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function updateTabButtons(activeTab) {
+      const tabs = ['welcome', 'step1', 'step2', 'step3'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (!btn) return;
+        if (t === activeTab) {
+          btn.className = 'px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 bg-surface-container-lowest text-primary font-bold shadow-sm';
+        } else {
+          btn.className = 'px-5 py-2 rounded-full font-label-pill text-label-pill transition-all duration-200 text-on-surface-variant font-bold hover:text-primary';
+        }
+      });
+    }
+
+    function launchExperience() {
+      const btn = event.currentTarget;
+      btn.innerHTML = `<span class="material-symbols-outlined animate-spin text-[20px]">sync</span><span>Launching Lin Arena...</span>`;
+      setTimeout(() => {
+        alert("ðŸŽ‰ Setup Complete! You earned +250 Welcome XP. Entering LinGrow AI Spoken Arena!");
+        btn.innerHTML = `<span class="text-xl">ðŸ†</span><span>Complete Setup & Enter Arena</span>`;
+      }, 700);
+    }
+  </script>
+</body></html>

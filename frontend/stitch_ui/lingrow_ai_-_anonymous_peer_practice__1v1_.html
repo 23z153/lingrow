@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Apex Ã— LinGrow AI - Anonymous Peer Practice</title>
+<!-- Material Symbols Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Inter, Nunito Sans & Space Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-tint": "#4e3bf3",
+            "surface-container-highest": "#dfe0ff",
+            "inverse-on-surface": "#f1efff",
+            "inverse-surface": "#292d54",
+            "on-background": "#14183d",
+            "on-secondary-container": "#007260",
+            "surface-variant": "#dfe0ff",
+            "on-tertiary-fixed": "#251a00",
+            "surface-bright": "#fbf8ff",
+            "on-primary-fixed": "#120068",
+            "surface-container-lowest": "#ffffff",
+            "outline": "#777588",
+            "surface-container-high": "#e6e6ff",
+            "on-error-container": "#93000a",
+            "background": "#fbf8ff",
+            "tertiary": "#684e00",
+            "inverse-primary": "#c4c0ff",
+            "on-primary-fixed-variant": "#340edd",
+            "tertiary-fixed": "#ffdf9a",
+            "on-primary-container": "#ede9ff",
+            "on-tertiary-container": "#ffe9bd",
+            "secondary-fixed-dim": "#27dfbe",
+            "on-secondary-fixed": "#00201a",
+            "on-tertiary": "#ffffff",
+            "primary": "#4129e7",
+            "error": "#ba1a1a",
+            "outline-variant": "#c7c4d9",
+            "error-container": "#ffdad6",
+            "on-error": "#ffffff",
+            "secondary-container": "#55fcda",
+            "on-secondary": "#ffffff",
+            "surface": "#fbf8ff",
+            "on-surface-variant": "#464556",
+            "surface-dim": "#d5d7ff",
+            "primary-fixed-dim": "#c4c0ff",
+            "tertiary-container": "#866500",
+            "primary-container": "#5b4bff",
+            "surface-container": "#edecff",
+            "primary-fixed": "#e3dfff",
+            "surface-container-low": "#f4f2ff",
+            "on-secondary-fixed-variant": "#005143",
+            "secondary-fixed": "#55fcda",
+            "on-tertiary-fixed-variant": "#5a4300",
+            "secondary": "#006b5a",
+            "on-primary": "#ffffff",
+            "tertiary-fixed-dim": "#f4bf32",
+            "on-surface": "#14183d"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "gutter-tablet": "1.25rem",
+            "space-lg": "1.5rem",
+            "margin": "1rem",
+            "space-xl": "2rem",
+            "space-md": "1rem",
+            "gutter-desktop": "1.5rem",
+            "margin-tablet": "1.5rem",
+            "gutter": "1rem",
+            "margin-desktop": "2.5rem",
+            "space-sm": "0.5rem",
+            "space-xs": "0.25rem"
+          },
+          fontFamily: {
+            "body-md": ["Inter"],
+            "display-hero": ["Nunito Sans"],
+            "headline-sm": ["Nunito Sans"],
+            "body-lg": ["Inter"],
+            "body-sm": ["Inter"],
+            "stat-counter": ["Space Grotesk"],
+            "display-hero-mobile": ["Nunito Sans"],
+            "badge-label": ["Space Grotesk"],
+            "headline-lg": ["Nunito Sans"],
+            "headline-md": ["Nunito Sans"]
+          },
+          fontSize: {
+            "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }],
+            "display-hero": ["44px", { lineHeight: "52px", fontWeight: "900" }],
+            "headline-sm": ["18px", { lineHeight: "24px", fontWeight: "700" }],
+            "body-lg": ["16px", { lineHeight: "24px", fontWeight: "500" }],
+            "body-sm": ["12px", { lineHeight: "16px", fontWeight: "400" }],
+            "stat-counter": ["24px", { lineHeight: "28px", fontWeight: "700" }],
+            "display-hero-mobile": ["32px", { lineHeight: "40px", fontWeight: "900" }],
+            "badge-label": ["11px", { lineHeight: "14px", fontWeight: "700" }],
+            "headline-lg": ["28px", { lineHeight: "36px", fontWeight: "800" }],
+            "headline-md": ["22px", { lineHeight: "28px", fontWeight: "800" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    
+    @keyframes pulse-wave {
+      0%, 100% { height: 6px; }
+      50% { height: 28px; }
+    }
+    
+    .wave-bar-1 { animation: pulse-wave 0.8s ease-in-out infinite 0.1s; }
+    .wave-bar-2 { animation: pulse-wave 1.1s ease-in-out infinite 0.3s; }
+    .wave-bar-3 { animation: pulse-wave 0.7s ease-in-out infinite 0.2s; }
+    .wave-bar-4 { animation: pulse-wave 1.3s ease-in-out infinite 0.4s; }
+    .wave-bar-5 { animation: pulse-wave 0.9s ease-in-out infinite 0.15s; }
+    .wave-bar-6 { animation: pulse-wave 1.0s ease-in-out infinite 0.35s; }
+    .wave-bar-7 { animation: pulse-wave 0.75s ease-in-out infinite 0.05s; }
+    .wave-bar-8 { animation: pulse-wave 1.2s ease-in-out infinite 0.25s; }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body-md antialiased min-h-screen flex justify-center selection:bg-secondary-container selection:text-on-secondary-fixed">
+<!-- Mobile Viewport Container (390px Max) -->
+<div class="w-full max-w-[390px] min-h-screen bg-background flex flex-col pb-6 relative overflow-x-hidden shadow-2xl">
+<!-- TOP APP BAR / HUD TIER -->
+<header class="w-full px-space-md pt-3 pb-2 bg-surface/90 backdrop-blur-md sticky top-0 z-40 border-b border-outline-variant/30">
+<!-- Top Row: Dismiss, Co-Branding, Status Counters -->
+<div class="flex items-center justify-between gap-1.5 mb-2">
+<!-- Close / Leave Modal Trigger -->
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-colors active:translate-y-0.5" onclick="document.getElementById('exit-modal').classList.remove('hidden')">
+<span class="material-symbols-outlined text-lg" data-icon="close">close</span>
+</button>
+<!-- Institutional Co-Branding Badge -->
+<div class="flex items-center bg-surface-container-lowest border border-outline-variant/50 rounded-full pl-1 pr-2 py-0.5 shadow-sm">
+<div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary font-badge-label text-[10px]">
+<span class="material-symbols-outlined text-[13px]" data-icon="school">school</span>
+</div>
+<span class="font-badge-label text-[11px] tracking-wider text-primary ml-1.5">Apex Ã— LinGrow AI</span>
+<span class="bg-surface-container-high text-primary font-badge-label text-[9px] px-1 py-0.2 rounded-full ml-1 font-bold">CSE '25</span>
+</div>
+<!-- Metric Badges Group -->
+<div class="flex items-center gap-1.5">
+<div class="flex items-center bg-surface-container-lowest px-1.5 py-0.5 rounded-full border border-outline-variant/40 shadow-xs">
+<span class="text-xs">ðŸ”¥</span>
+<span class="font-stat-counter text-[11px] text-tertiary-container ml-0.5">14</span>
+</div>
+<div class="flex items-center bg-surface-container-lowest px-1.5 py-0.5 rounded-full border border-outline-variant/40 shadow-xs">
+<span class="text-xs">â¤ï¸</span>
+<span class="font-stat-counter text-[11px] text-error ml-0.5">5/5</span>
+</div>
+</div>
+</div>
+<!-- Sub-header Room Identifier Pill -->
+<div class="flex items-center justify-between bg-surface-container-low px-2.5 py-1 rounded-lg border border-outline-variant/30">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim animate-ping"></span>
+<span class="font-badge-label text-[10px] text-primary tracking-wide">CAMPUS 1v1 PEER DRILL</span>
+</div>
+<span class="font-badge-label text-[10px] text-on-surface-variant">ROOM #204 â€¢ AUDIO ONLY</span>
+</div>
+</header>
+<!-- MAIN SCROLLABLE CONTENT CANVAS -->
+<main class="flex-1 px-space-md flex flex-col gap-3.5 pt-2">
+<!-- MATCHMAKING STATUS & ANONYMITY SHIELD NOTICE -->
+<section class="bg-surface-container-lowest rounded-2xl p-2.5 border border-outline-variant/40 shadow-xs flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-base" data-icon="shield">shield</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-xs text-on-surface font-bold">Shield Active</span>
+<span class="font-badge-label text-[9px] bg-secondary-fixed-dim/25 text-secondary px-1.5 py-0.2 rounded-full">100% Blind</span>
+</div>
+<p class="font-body-sm text-[10px] text-on-surface-variant leading-tight">Roll numbers masked to eliminate campus bias</p>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-2 py-1 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-badge-label text-[9px] text-secondary">24ms Ping</span>
+</div>
+</section>
+<!-- DUAL MATCHUP BATTLE CARD (VS LAYOUT) -->
+<section class="bg-surface-container-lowest rounded-2xl p-3 border border-outline-variant/40 shadow-sm relative overflow-hidden">
+<div class="grid grid-cols-5 items-center gap-1">
+<!-- LEFT STUDENT: YOU -->
+<div class="col-span-2 flex flex-col items-center text-center">
+<div class="relative mb-1.5">
+<!-- Ring glow for active speaker -->
+<div class="absolute -inset-1 rounded-2xl bg-primary-container opacity-40 blur-xs animate-pulse"></div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high border-2 border-primary flex items-center justify-center relative overflow-hidden shadow-inner">
+<span aria-label="Cyber Lin Headset Avatar" class="text-2xl" role="img">ðŸ¤–</span>
+<span class="absolute bottom-0 right-0 bg-primary text-on-primary p-0.5 rounded-tl-md">
+<span class="material-symbols-outlined text-[10px]" data-icon="mic" data-weight="fill" style="font-variation-settings: 'FILL' 1;">mic</span>
+</span>
+</div>
+<span class="absolute -top-1.5 -left-1.5 bg-primary-container text-on-primary-container font-badge-label text-[9px] px-1.5 py-0.2 rounded-full border border-on-primary-fixed-variant">Lvl 6</span>
+</div>
+<span class="font-headline-sm text-xs text-primary font-extrabold truncate max-w-[100px]">ApexEcho_42</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-badge-label text-[9px] text-on-surface-variant bg-surface-container px-1 py-0.2 rounded">CSE-A</span>
+<span class="font-badge-label text-[9px] text-primary font-bold">(You)</span>
+</div>
+<!-- Speaking Status Pill -->
+<div class="mt-2 bg-primary/10 border border-primary/20 text-primary rounded-full px-2 py-0.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-badge-label text-[9px] font-bold">Speaking Now</span>
+</div>
+</div>
+<!-- CENTER: VS BADGE & ROUND TICKER -->
+<div class="col-span-1 flex flex-col items-center justify-center py-1">
+<div class="w-9 h-9 rounded-full bg-surface-container border border-outline-variant/60 flex items-center justify-center shadow-md relative">
+<span class="font-stat-counter text-xs text-primary font-black italic">VS</span>
+</div>
+<span class="font-badge-label text-[8px] text-on-surface-variant mt-1.5 uppercase tracking-wider text-center">Round 1/2</span>
+</div>
+<!-- RIGHT STUDENT: PEER -->
+<div class="col-span-2 flex flex-col items-center text-center">
+<div class="relative mb-1.5">
+<div class="w-14 h-14 rounded-2xl bg-surface-container-low border border-outline-variant/60 flex items-center justify-center relative overflow-hidden">
+<span aria-label="Neon Fox Avatar" class="text-2xl" role="img">ðŸ¦Š</span>
+<span class="absolute bottom-0 right-0 bg-outline text-surface-container-lowest p-0.5 rounded-tl-md">
+<span class="material-symbols-outlined text-[10px]" data-icon="headphones">headphones</span>
+</span>
+</div>
+<span class="absolute -top-1.5 -right-1.5 bg-surface-container-highest text-on-surface font-badge-label text-[9px] px-1.5 py-0.2 rounded-full border border-outline-variant">Lvl 5</span>
+</div>
+<span class="font-headline-sm text-xs text-on-surface font-bold truncate max-w-[100px]">Quantum_99</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-badge-label text-[9px] text-on-surface-variant bg-surface-container px-1 py-0.2 rounded">CSE-B</span>
+<span class="font-badge-label text-[9px] text-on-surface-variant">Peer</span>
+</div>
+<!-- Listening Status Pill -->
+<div class="mt-2 bg-surface-container text-on-surface-variant rounded-full px-2 py-0.5 flex items-center gap-1">
+<span class="material-symbols-outlined text-[10px]" data-icon="hearing">hearing</span>
+<span class="font-badge-label text-[9px]">Listening</span>
+</div>
+</div>
+</div>
+</section>
+<!-- TOPIC & JAM DEBATE PROMPT CARD -->
+<section class="bg-surface-container-lowest rounded-2xl p-3.5 border border-outline-variant/40 shadow-sm relative">
+<div class="flex items-center justify-between mb-1.5">
+<div class="flex items-center gap-1 text-tertiary-container font-badge-label text-[10px] uppercase tracking-wider">
+<span class="material-symbols-outlined text-xs text-tertiary-fixed-dim" data-icon="local_fire_department" data-weight="fill" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span>JAM Technical Debate</span>
+</div>
+<span class="bg-surface-container text-on-surface-variant font-badge-label text-[9px] px-1.5 py-0.5 rounded">60s Pitch</span>
+</div>
+<h2 class="font-headline-sm text-sm text-on-surface font-extrabold leading-tight mb-2.5">
+          Should Autonomous AI Code Generators Replace Entry-Level Software Engineers?
+        </h2>
+<!-- Role & Stance Assignments Bento -->
+<div class="grid grid-cols-2 gap-2 mb-3">
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-2">
+<div class="flex items-center justify-between mb-0.5">
+<span class="font-badge-label text-[9px] text-primary uppercase font-bold">Your Stance</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<p class="font-body-sm text-[11px] font-semibold text-primary leading-snug">
+              FOR: Defending AI-assisted engineering agility
+            </p>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-2">
+<div class="flex items-center justify-between mb-0.5">
+<span class="font-badge-label text-[9px] text-on-surface-variant uppercase font-bold">Peer's Stance</span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+</div>
+<p class="font-body-sm text-[11px] font-medium text-on-surface-variant leading-snug">
+              AGAINST: Architectural depth &amp; critical oversight
+            </p>
+</div>
+</div>
+<!-- Dynamic Cheat Sheet & Hints -->
+<div class="border-t border-outline-variant/30 pt-2">
+<div class="flex items-center gap-1 mb-1.5">
+<span class="material-symbols-outlined text-xs text-primary" data-icon="tips_and_updates">tips_and_updates</span>
+<span class="font-badge-label text-[9px] text-on-surface font-bold tracking-wide">COACH CHEAT-SHEET</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="bg-surface-container text-primary font-body-sm text-[10px] px-2 py-0.5 rounded-full border border-primary/20 font-medium">
+              ðŸ’¡ +15 XP: "algorithmic reliability"
+            </span>
+<span class="bg-surface-container text-on-surface-variant font-body-sm text-[10px] px-2 py-0.5 rounded-full border border-outline-variant/40">
+              ðŸ”— Bridge: "While productivity doubles..."
+            </span>
+<span class="bg-error-container/40 text-on-error-container font-body-sm text-[10px] px-2 py-0.5 rounded-full font-medium">
+              ðŸš« Avoid filler: "um / like / basically"
+            </span>
+</div>
+</div>
+</section>
+<!-- LIVE SPEAKING TELEMETRY & ROUND CLOCK -->
+<section class="bg-surface-container-lowest rounded-2xl p-3.5 border border-outline-variant/40 shadow-sm flex flex-col gap-2.5">
+<!-- Timer Header & Animated Progress Circle -->
+<div class="flex items-center justify-between">
+<div>
+<span class="font-badge-label text-[10px] text-on-surface-variant uppercase">Time Remaining</span>
+<div class="flex items-baseline gap-1">
+<span class="font-stat-counter text-xl text-primary font-extrabold" id="clock-display">00:42</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant">sec</span>
+</div>
+</div>
+<!-- Circular Radial Gauge -->
+<div class="relative w-12 h-12 flex items-center justify-center">
+<svg class="w-12 h-12 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-primary transition-all duration-500 ease-linear" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="70, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<span class="material-symbols-outlined text-sm text-primary absolute" data-icon="mic" data-weight="fill" style="font-variation-settings: 'FILL' 1;">mic</span>
+</div>
+<!-- Cadence Meter -->
+<div class="text-right">
+<span class="font-badge-label text-[10px] text-on-surface-variant uppercase">Live Cadence</span>
+<div class="flex items-center justify-end gap-1">
+<span class="font-stat-counter text-sm text-secondary font-bold">126</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant">WPM</span>
+</div>
+<span class="font-badge-label text-[9px] text-secondary">Ideal Pace</span>
+</div>
+</div>
+<!-- Frequency Waveform Telemetry (You vs Peer) -->
+<div class="bg-surface-container-low rounded-xl p-2.5 border border-outline-variant/30 flex flex-col gap-2">
+<!-- Your Active Waveform -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex items-center gap-1.5 w-24 shrink-0">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-badge-label text-[10px] text-primary truncate font-bold">Your Voice</span>
+</div>
+<div class="flex items-center justify-center gap-1 flex-1 h-7">
+<div class="w-1 bg-primary rounded-full wave-bar-1"></div>
+<div class="w-1 bg-secondary-fixed-dim rounded-full wave-bar-2"></div>
+<div class="w-1 bg-primary rounded-full wave-bar-3"></div>
+<div class="w-1 bg-primary-container rounded-full wave-bar-4"></div>
+<div class="w-1 bg-secondary-fixed-dim rounded-full wave-bar-5"></div>
+<div class="w-1 bg-primary rounded-full wave-bar-6"></div>
+<div class="w-1 bg-primary-container rounded-full wave-bar-7"></div>
+<div class="w-1 bg-secondary-fixed-dim rounded-full wave-bar-8"></div>
+<div class="w-1 bg-primary rounded-full wave-bar-3"></div>
+<div class="w-1 bg-primary-container rounded-full wave-bar-5"></div>
+<div class="w-1 bg-secondary-fixed-dim rounded-full wave-bar-2"></div>
+</div>
+<span class="font-badge-label text-[9px] text-primary shrink-0">Active</span>
+</div>
+<!-- Peer Quiescent Waveform Line -->
+<div class="flex items-center justify-between gap-2 opacity-65">
+<div class="flex items-center gap-1.5 w-24 shrink-0">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span class="font-badge-label text-[10px] text-on-surface-variant truncate">Quantum_99</span>
+</div>
+<div class="flex items-center justify-center gap-1 flex-1 h-3">
+<div class="w-full h-0.5 bg-outline-variant rounded-full"></div>
+</div>
+<span class="font-badge-label text-[9px] text-on-surface-variant shrink-0">Muted</span>
+</div>
+</div>
+</section>
+<!-- PEER REACTION ORBS & AUDITORY EMOTICONS -->
+<section class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between px-1">
+<span class="font-badge-label text-[10px] text-on-surface-variant tracking-wider uppercase">Send Live Feedback</span>
+<span class="font-badge-label text-[9px] text-primary">Tap to encourage</span>
+</div>
+<div class="grid grid-cols-4 gap-1.5">
+<button class="flex flex-col items-center justify-center py-1.5 bg-surface-container-lowest border border-outline-variant/40 rounded-xl hover:bg-surface-container active:scale-95 transition-transform shadow-xs">
+<span class="text-base mb-0.5">ðŸ‘</span>
+<span class="font-badge-label text-[9px] text-on-surface">Valid Point</span>
+</button>
+<button class="flex flex-col items-center justify-center py-1.5 bg-surface-container-lowest border border-outline-variant/40 rounded-xl hover:bg-surface-container active:scale-95 transition-transform shadow-xs">
+<span class="text-base mb-0.5">ðŸ’¡</span>
+<span class="font-badge-label text-[9px] text-on-surface">Great Vocab</span>
+</button>
+<button class="flex flex-col items-center justify-center py-1.5 bg-surface-container-lowest border border-outline-variant/40 rounded-xl hover:bg-surface-container active:scale-95 transition-transform shadow-xs">
+<span class="text-base mb-0.5">ðŸ”¥</span>
+<span class="font-badge-label text-[9px] text-on-surface">Energy</span>
+</button>
+<button class="flex flex-col items-center justify-center py-1.5 bg-surface-container-lowest border border-outline-variant/40 rounded-xl hover:bg-surface-container active:scale-95 transition-transform shadow-xs">
+<span class="text-base mb-0.5">â±ï¸</span>
+<span class="font-badge-label text-[9px] text-on-surface">Wrap Up</span>
+</button>
+</div>
+</section>
+<!-- HARDWARE CONTROLS & EARLY HANDOFF TRAY -->
+<div class="flex items-center gap-2 pt-1">
+<!-- Mic Toggle Button -->
+<button class="w-12 h-12 rounded-2xl bg-surface-container-lowest border-2 border-outline-variant/40 flex items-center justify-center text-primary shadow-xs active:translate-y-0.5 transition-all" id="mic-toggle-btn" onclick="toggleMute()">
+<span class="material-symbols-outlined text-xl" data-icon="mic" id="mic-icon">mic</span>
+</button>
+<!-- Conclude Early / Early Hand Button -->
+<button class="flex-1 h-12 bg-surface-container text-on-surface rounded-2xl font-headline-sm text-xs font-bold flex items-center justify-center gap-1.5 border border-outline-variant/50 active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-base text-tertiary-container" data-icon="pan_tool">pan_tool</span>
+<span>Finish Pitch Early</span>
+</button>
+</div>
+<!-- PRIMARY CHUNKY 3D TURN HANDOVER BUTTON -->
+<div class="mt-1">
+<button class="w-full h-14 bg-tertiary-fixed-dim hover:bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-sm font-black rounded-2xl border-b-4 border-tertiary-container active:border-b-0 active:translate-y-1 transition-all flex items-center justify-center gap-2 shadow-md">
+<span>Pass Turn to Quantum_99</span>
+<span class="material-symbols-outlined text-lg" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Bottom Secondary Action: Surrender / Exit -->
+<div class="flex items-center justify-between px-2 pt-1 pb-2">
+<button class="font-body-sm text-[11px] text-error font-semibold hover:underline flex items-center gap-1" onclick="document.getElementById('exit-modal').classList.remove('hidden')">
+<span class="material-symbols-outlined text-xs" data-icon="flag">flag</span>
+<span>Exit Room (-1 â¤ï¸ Heart)</span>
+</button>
+<span class="font-body-sm text-[10px] text-outline">Rubric recorded for CSE placement</span>
+</div>
+</main>
+<!-- CONFIRMATION / EXIT MODAL (HIDDEN BY DEFAULT) -->
+<div class="hidden fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-xs flex items-center justify-center p-4" id="exit-modal">
+<div class="bg-surface-container-lowest rounded-3xl p-5 w-full max-w-[320px] shadow-2xl border border-outline-variant/40 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-2xl bg-error-container text-on-error-container flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-2xl" data-icon="warning">warning</span>
+</div>
+<h3 class="font-headline-sm text-base text-on-surface font-extrabold mb-1">Abandon Campus Drill?</h3>
+<p class="font-body-sm text-xs text-on-surface-variant mb-4">
+          Leaving now will forfeit your peer fluency score and deduct 1 Heart (â¤ï¸). Your anonymous peer will be re-queued.
+        </p>
+<div class="flex flex-col w-full gap-2">
+<button class="w-full py-2.5 bg-primary-container text-on-primary-container font-headline-sm text-xs font-bold rounded-xl border-b-2 border-on-primary-fixed-variant active:translate-y-0.5" onclick="document.getElementById('exit-modal').classList.add('hidden')">
+            Continue Practice Drill
+          </button>
+<button class="w-full py-2 bg-surface-container text-error font-body-sm text-xs font-bold rounded-xl" onclick="document.getElementById('exit-modal').classList.add('hidden')">
+            Forfeit &amp; Leave
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro-interactions Script -->
+<script>
+    let isMuted = false;
+    function toggleMute() {
+      isMuted = !isMuted;
+      const icon = document.getElementById('mic-icon');
+      const btn = document.getElementById('mic-toggle-btn');
+      if (isMuted) {
+        icon.innerText = 'mic_off';
+        icon.classList.add('text-error');
+        btn.classList.add('bg-error-container/20', 'border-error/40');
+      } else {
+        icon.innerText = 'mic';
+        icon.classList.remove('text-error');
+        btn.classList.remove('bg-error-container/20', 'border-error/40');
+      }
+    }
+
+    // Dynamic timer decrement simulation
+    let secondsRemaining = 42;
+    const clockEl = document.getElementById('clock-display');
+    setInterval(() => {
+      if (secondsRemaining > 0) {
+        secondsRemaining--;
+        const formatted = secondsRemaining < 10 ? `00:0${secondsRemaining}` : `00:${secondsRemaining}`;
+        if (clockEl) clockEl.innerText = formatted;
+      }
+    }, 1000);
+  </script>
+</body></html>

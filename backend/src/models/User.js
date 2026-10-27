@@ -9,7 +9,9 @@ const userSchema = new mongoose.Schema(
     role: { type: String, enum: ['student', 'teacher', 'admin'], default: 'student', index: true },
     department: { type: String, default: '' },
     batch: { type: String, default: '' },
-    assignedClasses: [{ type: String, trim: true }],
+    section: { type: String, default: 'A', trim: true }, // For students: Class/Section name (e.g. 'A', 'B', 'C')
+    assignedClasses: [{ type: String, trim: true }], // For teachers: Array of assigned classes/sections (e.g. ['A', 'B'])
+    createdByAdmin: { type: Boolean, default: false }, // Only admin-provisioned accounts can log in
     level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
     xp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
@@ -19,12 +21,11 @@ const userSchema = new mongoose.Schema(
     institution: { type: String, default: 'PSG Institute of Technology and Applied Research' },
 
     // --- Email verification ---
-    emailVerified: { type: Boolean, default: true },
+    emailVerified: { type: Boolean, default: false },
     emailVerificationTokenHash: { type: String, default: null },
     emailVerificationExpires: { type: Date, default: null },
 
-    // --- Refresh token (rotated on every use; only a hash is stored,
-    // the same way passwords are — a DB leak alone can't be replayed). ---
+    // --- Refresh token ---
     refreshTokenHash: { type: String, default: null },
     refreshTokenExpires: { type: Date, default: null },
   },
@@ -45,7 +46,9 @@ userSchema.methods.toSafeJSON = function () {
     role: this.role,
     department: this.department,
     batch: this.batch,
+    section: this.section,
     assignedClasses: this.assignedClasses || [],
+    createdByAdmin: this.createdByAdmin,
     level: this.level,
     xp: this.xp,
     streak: this.streak,

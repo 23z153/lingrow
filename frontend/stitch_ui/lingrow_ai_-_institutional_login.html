@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Apex Ã— LinGrow AI - Institutional Login</title>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;family=Space+Grotesk:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config verbatum -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary": "#ffffff",
+            "on-surface": "#14183d",
+            "surface": "#fbf8ff",
+            "on-tertiary-container": "#ffe9bd",
+            "primary-container": "#5b4bff",
+            "outline": "#777588",
+            "on-secondary-container": "#007260",
+            "secondary-fixed": "#55fcda",
+            "secondary-fixed-dim": "#27dfbe",
+            "on-primary-fixed": "#120068",
+            "error": "#ba1a1a",
+            "tertiary-fixed": "#ffdf9a",
+            "surface-container-low": "#f4f2ff",
+            "on-primary-container": "#ede9ff",
+            "surface-bright": "#fbf8ff",
+            "outline-variant": "#c7c4d9",
+            "surface-variant": "#dfe0ff",
+            "tertiary-container": "#866500",
+            "inverse-on-surface": "#f1efff",
+            "on-error-container": "#93000a",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-fixed-variant": "#340edd",
+            "surface-container": "#edecff",
+            "surface-dim": "#d5d7ff",
+            "secondary": "#006b5a",
+            "surface-container-high": "#e6e6ff",
+            "on-surface-variant": "#464556",
+            "secondary-container": "#55fcda",
+            "on-secondary-fixed": "#00201a",
+            "surface-tint": "#4e3bf3",
+            "tertiary": "#684e00",
+            "primary-fixed-dim": "#c4c0ff",
+            "tertiary-fixed-dim": "#f4bf32",
+            "on-tertiary": "#ffffff",
+            "inverse-primary": "#c4c0ff",
+            "primary": "#4129e7",
+            "on-tertiary-fixed": "#251a00",
+            "surface-container-highest": "#dfe0ff",
+            "on-background": "#14183d",
+            "error-container": "#ffdad6",
+            "on-error": "#ffffff",
+            "background": "#fbf8ff",
+            "primary-fixed": "#e3dfff",
+            "on-primary": "#ffffff",
+            "inverse-surface": "#292d54",
+            "on-tertiary-fixed-variant": "#5a4300",
+            "on-secondary-fixed-variant": "#005143"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter-desktop": "1.5rem",
+            "margin-desktop": "2.5rem",
+            "margin-tablet": "1.5rem",
+            "gutter-tablet": "1.25rem",
+            "space-lg": "1.5rem",
+            "gutter": "1rem",
+            "margin": "1rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-xl": "2rem",
+            "space-xs": "0.25rem"
+          },
+          "fontFamily": {
+            "headline-md": [
+              "Nunito Sans"
+            ],
+            "body-lg": [
+              "Inter"
+            ],
+            "badge-label": [
+              "Space Grotesk"
+            ],
+            "headline-sm": [
+              "Nunito Sans"
+            ],
+            "display-hero-mobile": [
+              "Nunito Sans"
+            ],
+            "display-hero": [
+              "Nunito Sans"
+            ],
+            "body-sm": [
+              "Inter"
+            ],
+            "body-md": [
+              "Inter"
+            ],
+            "headline-lg": [
+              "Nunito Sans"
+            ],
+            "stat-counter": [
+              "Space Grotesk"
+            ]
+          },
+          "fontSize": {
+            "headline-md": [
+              "22px",
+              {
+                "lineHeight": "28px",
+                "fontWeight": "800"
+              }
+            ],
+            "body-lg": [
+              "16px",
+              {
+                "lineHeight": "24px",
+                "fontWeight": "500"
+              }
+            ],
+            "badge-label": [
+              "11px",
+              {
+                "lineHeight": "14px",
+                "fontWeight": "700"
+              }
+            ],
+            "headline-sm": [
+              "18px",
+              {
+                "lineHeight": "24px",
+                "fontWeight": "700"
+              }
+            ],
+            "display-hero-mobile": [
+              "32px",
+              {
+                "lineHeight": "40px",
+                "fontWeight": "900"
+              }
+            ],
+            "display-hero": [
+              "44px",
+              {
+                "lineHeight": "52px",
+                "fontWeight": "900"
+              }
+            ],
+            "body-sm": [
+              "12px",
+              {
+                "lineHeight": "16px",
+                "fontWeight": "400"
+              }
+            ],
+            "body-md": [
+              "14px",
+              {
+                "lineHeight": "20px",
+                "fontWeight": "400"
+              }
+            ],
+            "headline-lg": [
+              "28px",
+              {
+                "lineHeight": "36px",
+                "fontWeight": "800"
+              }
+            ],
+            "stat-counter": [
+              "24px",
+              {
+                "lineHeight": "28px",
+                "fontWeight": "700"
+              }
+            ]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased min-h-screen flex justify-center items-center p-0 selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Mobile Viewport Shell (approx 390px) -->
+<main class="w-full max-w-[412px] min-h-screen relative overflow-x-hidden flex flex-col justify-between p-space-md bg-gradient-to-b from-primary via-primary-container to-secondary-fixed-dim/40 shadow-2xl">
+<!-- Ambient Neo-Arcade Aura Glow Overlays -->
+<div class="absolute -top-24 -right-16 w-64 h-64 bg-secondary-fixed opacity-30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/3 -left-20 w-56 h-56 bg-tertiary-fixed opacity-20 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Header Section: Institutional Co-Branding HUD Tier -->
+<header class="relative z-10 w-full pt-space-xs pb-space-sm flex flex-col items-center">
+<!-- Institutional Hybrid Co-Branding Dual-Pill Badge -->
+<div class="inline-flex items-center bg-surface-container-lowest/90 backdrop-blur-md p-1 pr-3 rounded-full border border-surface-container shadow-sm mb-space-xs">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-inner mr-2">
+<span class="material-symbols-outlined text-base">account_balance</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-badge-label text-badge-label tracking-wide text-on-surface uppercase font-bold">Apex Institute of Technology</span>
+<span class="font-body-sm text-[10px] leading-tight text-on-surface-variant font-medium">Ã— LinGrow AI Campus Speech Portal</span>
+</div>
+</div>
+<p class="font-badge-label text-badge-label text-on-primary-container text-center tracking-wider uppercase opacity-90">
+        Campus Speech &amp; Placement Portal
+      </p>
+<!-- Mascot Lin & Speech Bubble Stage -->
+<section class="w-full mt-space-sm flex items-end justify-center relative px-space-xs">
+<!-- Speech Bubble with Pointer -->
+<div class="relative bg-surface-container-lowest text-on-surface rounded-2xl p-space-sm shadow-md border border-surface-container-high max-w-[210px] mb-6 mr-1 transform -rotate-1 hover:rotate-0 transition-transform">
+<p class="font-headline-sm text-body-md leading-snug font-extrabold text-primary">
+            "Ready to speak with confidence today?"
+          </p>
+<span class="font-body-sm text-[11px] text-on-surface-variant block mt-0.5">Letâ€™s prep your placement drills! âœ¨</span>
+<!-- Triangle Tail pointing right to Mascot Lin -->
+<div class="absolute top-1/2 -right-2 transform -translate-y-1/2 w-0 h-0 border-t-[7px] border-t-transparent border-b-[7px] border-b-transparent border-l-[8px] border-l-surface-container-lowest"></div>
+</div>
+<!-- Mascot Lin Image Container -->
+<div class="relative w-28 h-28 flex-shrink-0">
+<div class="absolute inset-0 bg-secondary-fixed/40 rounded-full blur-md"></div>
+<img class="relative z-10 w-full h-full object-contain filter drop-shadow-lg" data-alt="A charming, high-precision 3D animated friendly scholarly owl mascot named Lin wearing sleek professional gaming headphones with a glowing boom microphone, energetically waving its wing. Set against soft collegiate pastel studio lighting with vibrant electric indigo and teal reflections, featuring sleek esports academy aesthetics in pristine detail." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCK46zvNekGqijX3ZlhkCDthH4QiuqkojgCy8ZvpidQ9GKWzZZzs73EZCIv2b6Vjg-XN-2NlQAQV1hYdh4JG227lMtvwTMrRMv2aaPQ1UpEUbo-7fKzdO58-rcEdOzXVVFqAsJXm4O156OAqrfLGc6Z7P_pzmsz4CQbPRxLVZE-pchwDFWeZ3y7WrDddspc174rOUSayEP3_cmLcfRXdtPhZNLu4_B3ugkmmB1Q9U3arzs7u2ql4DJcjQ"/>
+<!-- Live Mic Aura Indicator -->
+<div class="absolute bottom-1 right-1 z-20 bg-secondary text-on-secondary rounded-full p-1 border-2 border-surface-container-lowest flex items-center justify-center animate-pulse">
+<span class="material-symbols-outlined text-[14px]">mic</span>
+</div>
+</div>
+</section>
+</header>
+<!-- Main Form Glassmorphic Card Container -->
+<section class="relative z-10 w-full bg-surface-container-lowest/95 backdrop-blur-xl rounded-[24px] p-space-md shadow-xl border border-surface-container-high/60 my-space-xs">
+<!-- Card Heading -->
+<div class="mb-space-md text-left">
+<div class="flex items-center justify-between">
+<h1 class="font-headline-lg text-headline-md font-extrabold text-on-surface">Welcome Back, Scholar</h1>
+<span class="bg-surface-container text-primary font-badge-label text-badge-label px-2 py-0.5 rounded-full font-bold">2025 BATCH</span>
+</div>
+<p class="font-body-md text-body-sm text-on-surface-variant mt-0.5">Log in with your institution credentials</p>
+</div>
+<!-- Login Form Elements -->
+<form class="space-y-space-md" onsubmit="event.preventDefault();">
+<!-- Input Field 1: Institutional Email or Roll Number -->
+<div class="text-left">
+<label class="block font-badge-label text-badge-label uppercase text-on-surface-variant tracking-wider font-bold mb-1" for="campus-id">
+            Institutional Email or Roll number
+          </label>
+<div class="relative flex items-center">
+<div class="absolute left-3.5 flex items-center pointer-events-none text-primary">
+<span class="material-symbols-outlined text-xl">badge</span>
+</div>
+<input class="w-full pl-11 pr-4 py-3 bg-surface-container-low border-2 border-outline-variant/50 rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all font-medium" id="campus-id" placeholder="e.g. 21BCE1042@apex.edu.in" type="text"/>
+</div>
+</div>
+<!-- Input Field 2: Password with Active Show/Hide Toggle -->
+<div class="text-left">
+<div class="flex justify-between items-center mb-1">
+<label class="font-badge-label text-badge-label uppercase text-on-surface-variant tracking-wider font-bold" for="campus-password">
+              Password
+            </label>
+<span class="font-body-sm text-badge-label text-primary font-bold hover:underline cursor-pointer">Caps Lock Off</span>
+</div>
+<div class="relative flex items-center">
+<div class="absolute left-3.5 flex items-center pointer-events-none text-primary">
+<span class="material-symbols-outlined text-xl">lock</span>
+</div>
+<input class="w-full pl-11 pr-11 py-3 bg-surface-container-low border-2 border-outline-variant/50 rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all font-medium" id="campus-password" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" type="password"/>
+<button aria-label="Toggle password visibility" class="absolute right-3 text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center p-1" id="password-toggle" onclick="togglePasswordVisibility()" type="button">
+<span class="material-symbols-outlined text-xl" id="password-icon">visibility</span>
+</button>
+</div>
+</div>
+<!-- Primary Chunky 3D Gold Action CTA Button -->
+<div class="pt-space-xs">
+<button class="w-full py-3.5 px-space-md bg-tertiary-fixed-dim hover:bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-headline-sm font-black rounded-2xl border-b-4 border-tertiary-container shadow-md active:translate-y-1 active:border-b-0 transition-all flex items-center justify-center gap-2 group cursor-pointer" type="submit">
+<span>Sign In ðŸš€</span>
+</button>
+</div>
+</form>
+<!-- Visual Neo-Divider -->
+<div class="relative flex py-3 items-center my-space-xs">
+<div class="flex-grow border-t border-outline-variant/40"></div>
+<span class="flex-shrink mx-3 font-badge-label text-badge-label uppercase text-on-surface-variant tracking-wide font-bold">
+          or authenticate via campus network
+        </span>
+<div class="flex-grow border-t border-outline-variant/40"></div>
+</div>
+<!-- Secondary Chunky 3D Action CTA: Campus SSO -->
+<button class="w-full py-3 px-space-md bg-surface-container-high hover:bg-surface-container text-primary font-headline-sm text-body-lg font-extrabold rounded-2xl border-2 border-primary/20 border-b-4 border-b-primary/40 shadow-sm active:translate-y-1 active:border-b-2 transition-all flex items-center justify-center gap-2 cursor-pointer" type="button">
+<span class="material-symbols-outlined text-xl text-primary" style="font-variation-settings: 'FILL' 1;">shield</span>
+<span>Sign in with Organization SSO</span>
+</button>
+<span class="block text-center font-body-sm text-[11px] text-on-surface-variant mt-1.5 font-medium">(Apex Single Sign-On Portal)</span>
+<!-- Helper Recovery Links -->
+<div class="mt-space-md pt-space-xs border-t border-surface-container flex flex-col items-center gap-1.5 text-center">
+<a class="font-body-md text-body-sm font-bold text-primary hover:text-on-primary-fixed-variant underline transition-colors" href="#support">
+          Forgot password? Contact your IT/Placement Admin
+        </a>
+</div>
+<!-- Informational Provisioning Chip / Banner -->
+<div class="mt-space-sm bg-surface-container p-2.5 rounded-xl border border-outline-variant/30 flex items-start gap-2 text-left">
+<span class="material-symbols-outlined text-base text-primary flex-shrink-0 mt-0.5">lock_person</span>
+<p class="font-body-sm text-[11px] leading-tight text-on-surface-variant">
+<strong class="text-on-surface font-semibold">Note:</strong> Accounts are created &amp; provisioned by your institution. Public registration is disabled.
+        </p>
+</div>
+</section>
+<!-- Footer & Privacy Trust Assurance HUD Tier -->
+<footer class="relative z-10 w-full py-space-sm flex flex-col items-center text-center">
+<!-- Trust Shield Badge -->
+<div class="inline-flex items-center gap-1.5 bg-surface-container-lowest/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-surface-container shadow-xs">
+<span class="material-symbols-outlined text-sm text-secondary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="material-symbols-outlined text-sm text-primary">lock</span>
+<span class="font-body-sm text-[11px] text-on-surface font-medium">
+          Your practice is private &amp; judgment-free. Peer matching is always anonymous.
+        </span>
+</div>
+<!-- Subtle Theme & Compliance Bar -->
+<div class="w-full flex items-center justify-between mt-space-sm px-space-xs text-on-primary-container">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span>
+<span class="font-badge-label text-badge-label font-bold tracking-wider text-surface-container-lowest">APEX CAMPUS NETWORK: ONLINE</span>
+</div>
+<!-- Subtle Theme Preview Switcher -->
+<button class="flex items-center gap-1 bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 px-2 py-1 rounded-lg backdrop-blur-md transition-all text-surface-container-lowest font-badge-label text-badge-label cursor-pointer" id="theme-toggle-btn" onclick="toggleDarkPreview()" title="Toggle preview styling">
+<span class="material-symbols-outlined text-sm">palette</span>
+<span>Theme Preview</span>
+</button>
+</div>
+</footer>
+</main>
+<!-- Interactive Logic for Password Toggle & Theme Toggle -->
+<script>
+    function togglePasswordVisibility() {
+      const passwordInput = document.getElementById('campus-password');
+      const passwordIcon = document.getElementById('password-icon');
+      if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        passwordIcon.textContent = 'visibility_off';
+      } else {
+        passwordInput.type = 'password';
+        passwordIcon.textContent = 'visibility';
+      }
+    }
+
+    function toggleDarkPreview() {
+      const htmlEl = document.documentElement;
+      htmlEl.classList.toggle('dark');
+    }
+  </script>
+</body></html>

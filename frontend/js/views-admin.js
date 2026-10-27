@@ -11,16 +11,26 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
     throw err;
   }
   mount.innerHTML = `
+    <div class="card" style="margin-bottom:16px;background:var(--card-sub);border-left:4px solid var(--sprout)">
+      <div class="row" style="align-items:center;gap:12px">
+        <div style="font-size:20px">🔒</div>
+        <div>
+          <div style="font-weight:700;color:#FFFFFF;font-size:14px">Administrator Account Provisioning Active</div>
+          <div style="font-size:12.5px;color:var(--cream-dim)">Only accounts created by the Administrator can access the LinGrow AI platform. Teachers can view students filtered by assigned classes.</div>
+        </div>
+      </div>
+    </div>
+
     <div class="row" style="margin-bottom:16px">
-      <button class="btn btn-primary btn-sm" id="new-user-btn">${ICONS.userplus} New user</button>
-      <button class="btn btn-ghost btn-sm" id="bulk-user-btn">${ICONS.upload} Bulk import CSV</button>
+      <button class="btn btn-primary btn-sm" id="new-user-btn">${ICONS.userplus} Create User &amp; Assign Class</button>
+      <button class="btn btn-ghost btn-sm" id="bulk-user-btn">${ICONS.upload} Bulk CSV Import</button>
       <div class="spacer"></div>
-      <input type="search" id="user-search" placeholder="Search users…" style="width:220px">
+      <input type="search" id="user-search" placeholder="Search users by name or email…" style="width:240px">
     </div>
     <div class="card">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Status</th><th></th></tr></thead>
+          <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Class / Assigned Classes</th><th>Access Status</th><th>Actions</th></tr></thead>
           <tbody id="user-rows"></tbody>
         </table>
       </div>
@@ -31,19 +41,86 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
     const tbody = $('#user-rows'); tbody.innerHTML='';
     (list || []).forEach(u=>{
       const status = u.status || 'Active';
+      let classDisplay = '—';
+      if (u.role === 'student') {
+        classDisplay = `<span class="pill sprout" style="font-weight:700">Class ${esc(u.section || 'A')}</span>`;
+      } else if (u.role === 'teacher') {
+        const assigned = Array.isArray(u.assignedClasses) && u.assignedClasses.length ? u.assignedClasses.join(', ') : 'A, B';
+        classDisplay = `<span class="pill voice">Assigned: Classes ${esc(assigned)}</span>`;
+      }
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
           <td class="row gap-sm">${avatarHTML(u.name,28)}<span>${esc(u.name)}</span></td>
           <td style="font-size:12.5px;color:var(--cream-dim)">${esc(u.email)}</td>
           <td><span class="pill ${u.role==='admin'?'coral':u.role==='teacher'?'voice':'sprout'}">${u.role}</span></td>
-          <td>${esc(u.department||'—')}${u.batch ? ` <span class="pill outline" style="font-size:11px;padding:1px 6px">${esc(u.batch)}</span>` : ''}</td>
+          <td>${esc(u.department||'—')}</td>
+          <td>${classDisplay}</td>
           <td><span class="pill ${status==='Active'?'sprout':'coral'}">${status}</span></td>
           <td class="row gap-sm">
+            <button class="btn btn-ghost btn-sm" data-edit-user="${u._id}">✏️ Edit</button>
             <button class="btn btn-ghost btn-sm" data-toggle="${u._id}" data-status="${status}">${status==='Active'?'Suspend':'Reactivate'}</button>
             <button class="btn btn-danger btn-sm" data-delete="${u._id}">Delete</button>
           </td>
         </tr>`);
     });
+
+    tbody.querySelectorAll('[data-edit-user]').forEach(btn => {
+      btn.onclick = () => {
+        const u = users.find(x => x._id === btn.dataset.edit-user || x.id === btn.dataset.edit-user);
+        if (!u) return;
+        openModal(`
+          <h3 style="margin-bottom:16px">Edit User Account</h3>
+          <div class="col gap-md">
+            <div><label class="field-label">Name</label><input type="text" id="me-name" value="${esc(u.name)}"></div>
+            <div><label class="field-label">Email</label><input type="email" id="me-email" value="${esc(u.email)}"></div>
+            <div><label class="field-label">Role</label>
+              <select id="me-role">
+                <option value="student" ${u.role==='student'?'selected':''}>Student</option>
+                <option value="teacher" ${u.role==='teacher'?'selected':''}>Teacher</option>
+                <option value="admin" ${u.role==='admin'?'selected':''}>Admin</option>
+              </select>
+            </div>
+            <div><label class="field-label">Department</label><input type="text" id="me-dept" value="${esc(u.department||'')}"></div>
+            <div id="me-sec-wrap" style="display:${u.role==='student'?'block':'none'}">
+              <label class="field-label">Student Class / Section</label>
+              <select id="me-sec">
+                <option value="A" ${u.section==='A'?'selected':''}>Class A</option>
+                <option value="B" ${u.section==='B'?'selected':''}>Class B</option>
+                <option value="C" ${u.section==='C'?'selected':''}>Class C</option>
+                <option value="D" ${u.section==='D'?'selected':''}>Class D</option>
+              </select>
+            </div>
+            <div id="me-assigned-wrap" style="display:${u.role==='teacher'?'block':'none'}">
+              <label class="field-label">Teacher Assigned Classes (comma separated)</label>
+              <input type="text" id="me-assigned" value="${esc((u.assignedClasses||[]).join(', '))}" placeholder="e.g. A, B">
+            </div>
+            <button class="btn btn-primary" id="me-submit" style="margin-top:10px">Save Changes</button>
+          </div>
+        `, () => {
+          $('#me-role').onchange = (e) => {
+            const val = e.target.value;
+            $('#me-sec-wrap').style.display = val === 'student' ? 'block' : 'none';
+            $('#me-assigned-wrap').style.display = val === 'teacher' ? 'block' : 'none';
+          };
+          $('#me-submit').onclick = async () => {
+            try {
+              await Api.adminUpdateUser(u._id || u.id, {
+                name: $('#me-name').value,
+                email: $('#me-email').value,
+                role: $('#me-role').value,
+                department: $('#me-dept').value,
+                section: $('#me-sec').value,
+                assignedClasses: $('#me-assigned').value,
+              });
+              closeModal();
+              toast('User account updated successfully', 'sprout');
+              setView('a-users');
+            } catch (err) { apiError(err); }
+          };
+        });
+      };
+    });
+
     tbody.querySelectorAll('[data-toggle]').forEach(btn=>{
       btn.onclick = async ()=>{
         try{ await Api.adminSetUserStatus(btn.dataset.toggle, btn.dataset.status==='Active'?'Suspended':'Active'); setView('a-users'); }
@@ -65,123 +142,75 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
   };
 
   $('#new-user-btn').onclick = ()=> openModal(`
-    <h3 style="margin-bottom:16px">Create user (Teacher or Student)</h3>
+    <h3 style="margin-bottom:16px">Provision New User Account</h3>
     <div class="col gap-md">
-      <div><label class="field-label">Full Name</label><input type="text" id="m-name" placeholder="Prof. Rajesh Kumar" required></div>
-      <div><label class="field-label">Email</label><input type="email" id="m-email" placeholder="rajesh@college.edu" required></div>
-      <div><label class="field-label">Password</label><input type="password" id="m-password" placeholder="••••••••" required></div>
-      <div>
-        <label class="field-label">User Role</label>
+      <div><label class="field-label">Full Name</label><input type="text" id="m-name" placeholder="e.g. Rahul Sharma" required></div>
+      <div><label class="field-label">Email Address</label><input type="email" id="m-email" placeholder="student@college.edu" required></div>
+      <div><label class="field-label">Password</label><input type="password" id="m-password" placeholder="Minimum 8 characters" required></div>
+      <div><label class="field-label">Role</label>
         <select id="m-role">
-          <option value="teacher">Teacher (Instructor / Faculty)</option>
           <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
           <option value="admin">Admin</option>
         </select>
       </div>
-
-      <!-- Student Class Selection -->
-      <div id="m-student-group" style="display:none;background:rgba(34,211,238,0.06);border:1px solid rgba(34,211,238,0.2);border-radius:8px;padding:12px">
-        <label class="field-label" style="color:var(--cyan)"><i class="bi bi-mortarboard-fill"></i> Assigned Class</label>
-        <select id="m-batch" style="width:100%">
-          <option value="" disabled selected>-- Select Student Class --</option>
-          <option value="CSE-A">CSE-A (Computer Science)</option>
-          <option value="CSE-B">CSE-B (Computer Science)</option>
-          <option value="CSE-C">CSE-C (Computer Science)</option>
-          <option value="IT-A">IT-A (Information Technology)</option>
-          <option value="IT-B">IT-B (Information Technology)</option>
-          <option value="MECHANICAL">MECHANICAL (Mechanical Eng)</option>
-          <option value="CIVIL">CIVIL (Civil Eng)</option>
-          <option value="ECE-A">ECE-A (Electronics &amp; Comm)</option>
-          <option value="ECE-B">ECE-B (Electronics &amp; Comm)</option>
-          <option value="EEE">EEE (Electrical &amp; Electronics)</option>
+      <div><label class="field-label">Department</label><input type="text" id="m-dept" placeholder="e.g. CSE"></div>
+      
+      <div id="m-sec-wrap">
+        <label class="field-label">Student Assigned Class / Section</label>
+        <select id="m-sec">
+          <option value="A">Class A</option>
+          <option value="B">Class B</option>
+          <option value="C">Class C</option>
+          <option value="D">Class D</option>
         </select>
-        <div style="font-size:12px;color:var(--sprout);margin-top:5px;font-weight:600">
-          Department is automatically classified based on the selected class.
-        </div>
       </div>
 
-      <!-- Teacher Assigned Classes Selection -->
-      <div id="m-teacher-group" style="background:rgba(168,85,247,0.08);border:1px solid rgba(168,85,247,0.25);border-radius:8px;padding:12px">
-        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
-          <label class="field-label" style="margin:0;color:var(--purple);font-weight:700"><i class="bi bi-people-fill"></i> Assigned Classes Handled</label>
-          <button type="button" id="m-teacher-select-all" class="btn btn-ghost btn-sm" style="padding:2px 8px;font-size:11px">Select All 10</button>
-        </div>
-        <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:6px" id="m-teacher-classes-grid">
-          ${['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE'].map(c => `
-            <label style="display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;padding:5px 8px;background:var(--ink-2);border-radius:6px;cursor:pointer">
-              <input type="checkbox" name="m-teacher-batch" value="${c}" style="accent-color:var(--purple)">
-              <span>${c}</span>
-            </label>
-          `).join('')}
-        </div>
-        <div style="font-size:12px;color:var(--cream-dim);margin-top:8px">
-          Teacher will have test creation and grading access to the selected classes.
-        </div>
+      <div id="m-assigned-wrap" style="display:none">
+        <label class="field-label">Teacher Assigned Classes (comma separated)</label>
+        <input type="text" id="m-assigned" placeholder="e.g. A, B">
       </div>
 
-      <button class="btn btn-primary" id="m-submit" style="margin-top:6px">Create User Account</button>
+      <button class="btn btn-primary" id="m-submit" style="margin-top:8px">${ICONS.userplus} Create Account &amp; Grant Access</button>
     </div>`, ()=>{
-      const roleSelect = $('#m-role');
-      const studentGrp = $('#m-student-group');
-      const teacherGrp = $('#m-teacher-group');
-
-      function syncRoleVisibility() {
-        const r = roleSelect.value;
-        if (studentGrp) studentGrp.style.display = r === 'student' ? 'block' : 'none';
-        if (teacherGrp) teacherGrp.style.display = r === 'teacher' ? 'block' : 'none';
-      }
-      roleSelect.onchange = syncRoleVisibility;
-      syncRoleVisibility();
-
-      const btnAll = $('#m-teacher-select-all');
-      if (btnAll) {
-        btnAll.onclick = (e) => {
-          e.preventDefault();
-          $all2('input[name="m-teacher-batch"]').forEach(cb => cb.checked = true);
-        };
-      }
+      $('#m-role').onchange = (e) => {
+        const val = e.target.value;
+        $('#m-sec-wrap').style.display = val === 'student' ? 'block' : 'none';
+        $('#m-assigned-wrap').style.display = val === 'teacher' ? 'block' : 'none';
+      };
 
       $('#m-submit').onclick = async ()=>{
         try{
-          const role = roleSelect.value;
-          let batch = '';
-          let assignedClasses = [];
-          if (role === 'student') {
-            batch = $('#m-batch')?.value || '';
-            if (!batch) throw new Error('Please select an official class for the student.');
-          } else if (role === 'teacher') {
-            assignedClasses = $all2('input[name="m-teacher-batch"]:checked').map(cb => cb.value);
-            if (!assignedClasses.length) {
-              assignedClasses = ['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE'];
-            }
-          }
-
           await Api.adminCreateUser({
             name: $('#m-name').value,
             email: $('#m-email').value,
             password: $('#m-password').value,
-            role,
-            batch,
-            assignedClasses
+            role: $('#m-role').value,
+            department: $('#m-dept').value,
+            section: $('#m-sec').value,
+            assignedClasses: $('#m-assigned').value,
           });
           closeModal();
-          toast(`${role[0].toUpperCase() + role.slice(1)} account created successfully`);
+          toast('Account provisioned & granted access', 'sprout');
           setView('a-users');
         } catch(err){ apiError(err); }
       };
     });
 
   $('#bulk-user-btn').onclick = ()=> openModal(`
-    <h3 style="margin-bottom:10px">Bulk import users</h3>
-    <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,class</span> (one per line, header optional; class is one of CSE-A, CSE-B, CSE-C, IT-A, IT-B, MECHANICAL, CIVIL, ECE-A, ECE-B, EEE).</p>
-    <textarea id="m-csv" rows="8" placeholder="Aarav Krishnan,aarav@college.edu,pass1234,student,CSE,CSE-A"></textarea>
-    <button class="btn btn-primary" id="m-bulk-submit" style="margin-top:14px">Import</button>
+    <h3 style="margin-bottom:10px">Bulk Import User Accounts</h3>
+    <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,section,assignedClasses</span></p>
+    <textarea id="m-csv" rows="8" placeholder="Rahul Sharma,rahul@college.edu,pass1234,student,CSE,A\nDr. Priya,priya@college.edu,pass1234,teacher,English,,A;B"></textarea>
+    <button class="btn btn-primary" id="m-bulk-submit" style="margin-top:14px">Import &amp; Grant Access</button>
     <div id="bulk-result" style="margin-top:12px;font-size:13px"></div>`, ()=>{
       $('#m-bulk-submit').onclick = async ()=>{
         const lines = $('#m-csv').value.split('\n').map(l=>l.trim()).filter(Boolean);
         const rows = lines
           .filter(l=> !/^name\s*,/i.test(l))
-          .map(l=>{ const [name,email,password,role,department,batch] = l.split(',').map(x=>x?.trim()); return { name, email, password, role, department, batch }; });
+          .map(l=>{
+            const [name,email,password,role,department,section,assignedClasses] = l.split(',').map(x=>x?.trim());
+            return { name, email, password, role, department, section: section || 'A', assignedClasses: assignedClasses ? assignedClasses.split(';') : [] };
+          });
         try{
           const res = await Api.adminBulkUsers(rows);
           $('#bulk-result').innerHTML = `Created ${res.created}, skipped ${res.skipped}${res.errors.length?`, ${res.errors.length} errors`:''}.`;
@@ -382,15 +411,7 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
 /* Modal helper for creating/editing beginner topics */
 function openTopicEditModal(topic, onSave) {
   const isEdit = !!topic;
-  const categories = [
-    'Sentence Foundations', 'Parts of Speech', 'Nouns', 'Pronouns', 'Articles',
-    'Determiners & Quantifiers', 'Adjectives', 'Verbs & Verb Forms', 'Be, Have & Do',
-    'Tenses', 'Tense Sentence Forms', 'Subject-Verb Agreement', 'Questions', 'Negatives',
-    'Prepositions', 'Adverbs', 'Conjunctions', 'Sentence Construction', 'Modal Verbs',
-    'Gerunds & Infinitives', 'Phrases & Clauses', 'Active & Passive Voice',
-    'Basic Conditionals', 'Basic Reported Speech', 'Punctuation & Capitalization',
-    'Common Beginner Errors'
-  ];
+  const categories = ['Tenses', 'Subject-Verb Agreement', 'Articles & Nouns', 'Prepositions', 'Common Pitfalls', 'Basic Sentences & Verbs', 'Vocabulary & Idioms'];
 
   openModal(`
     <h3 style="margin-bottom:16px">${isEdit ? 'Edit Beginner Topic' : 'Create New Beginner Topic'}</h3>

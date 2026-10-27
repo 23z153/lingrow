@@ -1,5 +1,7 @@
 const Passage = require('../models/Passage');
 const ListeningClip = require('../models/ListeningClip');
+const StoryPrompt = require('../models/StoryPrompt');
+const DebateTopic = require('../models/DebateTopic');
 
 const DEPARTMENTS = ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
 
@@ -66,28 +68,46 @@ function generatePassageText(dept, topicObj, setIndex) {
 function generateListeningScript(dept, topicObj, setIndex) {
   const kw = topicObj.keywords;
   const script = `Good morning team. In today's ${dept} technical briefing, we are reviewing our ongoing implementation of ${topicObj.title.toLowerCase()}. As you know, our primary objective is to implement ${kw[0]} and optimize ${kw[1]} across the deployment. The lead engineer highlighted that applying ${kw[2]} has already improved stability by twenty-five percent. Please focus your upcoming sprint on ${kw[3]} and verify that ${kw[4]} satisfies all quality compliance checks before Friday's delivery.`;
-  
   const question = `What key objective was highlighted in today's ${dept} technical briefing for ${topicObj.title}?`;
-  
   return { script, question };
 }
 
+function generateStoryNarrationPrompt(dept, topicObj, setIndex) {
+  const kw = topicObj.keywords;
+  const title = `${dept}: Narration Case #${setIndex} — ${topicObj.title}`;
+  const openingNarration = `It was 2:00 PM on a high-stakes project deadline for the ${dept} engineering team. While reviewing ${topicObj.title.toLowerCase()}, a critical alert flashed across the control monitor. Initial diagnostics showed a breakdown related to ${kw[0]} and ${kw[1]}. As the senior engineer on shift, everyone turned to you for immediate direction.`;
+  const prompt = `You step up to the lead podium to address your engineering team. Explain how you will stabilize ${kw[2]}, address the underlying issues in ${kw[3]}, and guide the project to a successful outcome using ${kw[4]}. Continue the story narration out loud in English...`;
+  return { title, openingNarration, prompt };
+}
+
+function generateDebateTopic(dept, topicObj, setIndex) {
+  const kw = topicObj.keywords;
+  const topic = `Should ${dept} teams mandate ${kw[0]} as a mandatory standard over traditional legacy methods? (Debate #${setIndex})`;
+  const context = `In contemporary ${dept} operations, the adoption of ${kw[0]} is generating intense debate across industry leaders. Proponents argue that relying on ${kw[1]} and ${kw[2]} drives unparalleled efficiency, whereas critics warn of security vulnerabilities, elevated initial costs, and reliance on ${kw[3]}.`;
+  const forKeyPoints = [`Dramatically increases system speed and reliability via ${kw[0]}`, `Reduces long-term operational maintenance cost by leveraging ${kw[1]}`, `Proven industry standard for high-availability environments using ${kw[2]}`];
+  const againstKeyPoints = [`High initial implementation cost and steep learning curve for legacy teams`, `Potential single point of failure if ${kw[3]} is disrupted`, `Regulatory and compliance hurdles associated with rapid deployment of ${kw[4]}`];
+  return { topic, context, forKeyPoints, againstKeyPoints };
+}
+
 /**
- * Ensures at least 50 Read Aloud Passages and 50 Listening Clips exist per department
+ * Ensures Read Aloud Passages, Listening Clips, Story Narration Prompts, and Debate Topics exist per department
  */
 async function scrapeDepartmentContent(targetDept = null) {
   const deptsToProcess = targetDept ? [targetDept] : DEPARTMENTS;
-  const stats = { passagesCreated: 0, clipsCreated: 0 };
+  const stats = { passagesCreated: 0, clipsCreated: 0, storyPromptsCreated: 0, debateTopicsCreated: 0 };
 
   for (const dept of deptsToProcess) {
     const templates = DEPARTMENT_TOPIC_TEMPLATES[dept] || DEPARTMENT_TOPIC_TEMPLATES.CSE;
 
     const existingPassagesCount = await Passage.countDocuments({ department: dept });
     const existingClipsCount = await ListeningClip.countDocuments({ department: dept });
+    const existingStoryCount = await StoryPrompt.countDocuments({ department: dept });
+    const existingDebateCount = await DebateTopic.countDocuments({ department: dept });
 
-    // Guarantee creating at least 5 new sets per trigger run, or up to 50 if starting under 50
     const passagesNeeded = Math.max(5, Math.max(0, 50 - existingPassagesCount));
     const clipsNeeded = Math.max(5, Math.max(0, 50 - existingClipsCount));
+    const storiesNeeded = Math.max(5, Math.max(0, 30 - existingStoryCount));
+    const debatesNeeded = Math.max(5, Math.max(0, 30 - existingDebateCount));
 
     // Generate Passages
     const newPassages = [];
@@ -107,7 +127,6 @@ async function scrapeDepartmentContent(targetDept = null) {
         source: 'scraped',
       });
     }
-
     if (newPassages.length) {
       await Passage.insertMany(newPassages);
       stats.passagesCreated += newPassages.length;
@@ -130,10 +149,52 @@ async function scrapeDepartmentContent(targetDept = null) {
         source: 'scraped',
       });
     }
-
     if (newClips.length) {
       await ListeningClip.insertMany(newClips);
       stats.clipsCreated += newClips.length;
+    }
+
+    // Generate Story Narration Prompts
+    const newStories = [];
+    for (let i = 0; i < storiesNeeded; i++) {
+      const setIdx = existingStoryCount + i + 1;
+      const tmpl = templates[i % templates.length];
+      const { title, openingNarration, prompt } = generateStoryNarrationPrompt(dept, tmpl, setIdx);
+
+      newStories.push({
+        title,
+        prompt,
+        openingNarration,
+        department: dept,
+        level: setIdx > 20 ? 'Advanced' : 'Intermediate',
+        source: 'scraped',
+      });
+    }
+    if (newStories.length) {
+      await StoryPrompt.insertMany(newStories);
+      stats.storyPromptsCreated += newStories.length;
+    }
+
+    // Generate Debate Topics
+    const newDebates = [];
+    for (let i = 0; i < debatesNeeded; i++) {
+      const setIdx = existingDebateCount + i + 1;
+      const tmpl = templates[i % templates.length];
+      const { topic, context, forKeyPoints, againstKeyPoints } = generateDebateTopic(dept, tmpl, setIdx);
+
+      newDebates.push({
+        topic,
+        context,
+        forKeyPoints,
+        againstKeyPoints,
+        department: dept,
+        level: setIdx > 15 ? 'Advanced' : 'Intermediate',
+        source: 'scraped',
+      });
+    }
+    if (newDebates.length) {
+      await DebateTopic.insertMany(newDebates);
+      stats.debateTopicsCreated += newDebates.length;
     }
   }
 
@@ -148,11 +209,15 @@ async function getQuestionBankStats() {
   for (const dept of DEPARTMENTS) {
     const passageCount = await Passage.countDocuments({ department: dept });
     const clipCount = await ListeningClip.countDocuments({ department: dept });
+    const storyCount = await StoryPrompt.countDocuments({ department: dept });
+    const debateCount = await DebateTopic.countDocuments({ department: dept });
     result[dept] = {
       passages: passageCount,
       clips: clipCount,
-      totalSets: passageCount + clipCount,
-      status: passageCount >= 50 && clipCount >= 50 ? 'Ready (50+ sets)' : 'Building',
+      stories: storyCount,
+      debates: debateCount,
+      totalSets: passageCount + clipCount + storyCount + debateCount,
+      status: passageCount >= 50 && clipCount >= 50 && storyCount >= 30 && debateCount >= 30 ? 'Ready (50+ sets)' : 'Building',
     };
   }
   return result;
@@ -163,3 +228,4 @@ module.exports = {
   getQuestionBankStats,
   DEPARTMENTS,
 };
+

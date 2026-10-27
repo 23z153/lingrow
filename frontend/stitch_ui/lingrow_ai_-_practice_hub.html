@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Practice Hub | Apex Ã— LinGrow AI</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "error-container": "#ffdad6",
+            "error": "#ba1a1a",
+            "surface-container-lowest": "#ffffff",
+            "surface-variant": "#dfe0ff",
+            "tertiary-container": "#866500",
+            "tertiary-fixed": "#ffdf9a",
+            "outline": "#777588",
+            "on-secondary-container": "#007260",
+            "on-error": "#ffffff",
+            "primary-fixed-dim": "#c4c0ff",
+            "on-surface-variant": "#464556",
+            "surface-container": "#edecff",
+            "secondary-fixed-dim": "#27dfbe",
+            "inverse-on-surface": "#f1efff",
+            "inverse-surface": "#292d54",
+            "on-primary": "#ffffff",
+            "primary": "#4129e7",
+            "on-secondary-fixed": "#00201a",
+            "tertiary-fixed-dim": "#f4bf32",
+            "surface-container-high": "#e6e6ff",
+            "primary-container": "#5b4bff",
+            "surface-tint": "#4e3bf3",
+            "surface": "#fbf8ff",
+            "surface-dim": "#d5d7ff",
+            "surface-bright": "#fbf8ff",
+            "tertiary": "#684e00",
+            "on-secondary": "#ffffff",
+            "surface-container-highest": "#dfe0ff",
+            "on-primary-container": "#ede9ff",
+            "secondary": "#006b5a",
+            "on-primary-fixed-variant": "#340edd",
+            "outline-variant": "#c7c4d9",
+            "secondary-container": "#55fcda",
+            "on-tertiary-container": "#ffe9bd",
+            "surface-container-low": "#f4f2ff",
+            "on-surface": "#14183d",
+            "on-background": "#14183d",
+            "on-primary-fixed": "#120068",
+            "on-secondary-fixed-variant": "#005143",
+            "primary-fixed": "#e3dfff",
+            "background": "#fbf8ff",
+            "secondary-fixed": "#55fcda",
+            "on-error-container": "#93000a",
+            "inverse-primary": "#c4c0ff",
+            "on-tertiary-fixed-variant": "#5a4300",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#251a00"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-desktop": "2.5rem",
+            "margin-tablet": "1.5rem",
+            "gutter-desktop": "1.5rem",
+            "gutter-tablet": "1.25rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "gutter": "1rem",
+            "space-md": "1rem",
+            "margin": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2rem"
+          },
+          "fontFamily": {
+            "stat-counter": ["Space Grotesk"],
+            "display-hero-mobile": ["Nunito Sans"],
+            "body-sm": ["Inter"],
+            "headline-sm": ["Nunito Sans"],
+            "headline-md": ["Nunito Sans"],
+            "headline-lg": ["Nunito Sans"],
+            "badge-label": ["Space Grotesk"],
+            "body-lg": ["Inter"],
+            "display-hero": ["Nunito Sans"],
+            "body-md": ["Inter"]
+          },
+          "fontSize": {
+            "stat-counter": ["24px", { "lineHeight": "28px", "fontWeight": "700" }],
+            "display-hero-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "900" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+            "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "700" }],
+            "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "800" }],
+            "headline-lg": ["28px", { "lineHeight": "36px", "fontWeight": "800" }],
+            "badge-label": ["11px", { "lineHeight": "14px", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "500" }],
+            "display-hero": ["44px", { "lineHeight": "52px", "fontWeight": "900" }],
+            "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-outlined[data-weight="fill"] {
+      font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+    }
+    /* Hide scrollbars for slick horizontal pills */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface antialiased min-h-screen selection:bg-primary-fixed selection:text-primary pb-32">
+<!-- TOP SHELL: Institutional Anchor & Gamified Counter HUD -->
+<header class="sticky top-0 z-40 bg-surface/90 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center w-full px-space-md py-space-sm max-w-7xl mx-auto">
+<!-- Co-Branding Segment -->
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-xl bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">Apex Ã— LinGrow AI</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="bg-primary-fixed text-on-primary-fixed text-[10px] font-badge-label font-bold px-1.5 py-0.5 rounded">B.Tech CSE '25</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-badge-label font-bold px-1.5 py-0.5 rounded">Sec A</span>
+</div>
+</div>
+</div>
+<!-- Live Gamification Counters HUD -->
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-full border border-outline-variant/30">
+<!-- Streak -->
+<div class="flex items-center gap-0.5 px-1.5 py-0.5 bg-surface-container-lowest rounded-full shadow-xs">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-sm" data-icon="local_fire_department" data-weight="fill">local_fire_department</span>
+<span class="font-badge-label text-badge-label text-on-surface font-bold">14</span>
+</div>
+<!-- Gems -->
+<div class="flex items-center gap-0.5 px-1.5 py-0.5 bg-surface-container-lowest rounded-full shadow-xs">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-sm" data-icon="diamond" data-weight="fill">diamond</span>
+<span class="font-badge-label text-badge-label text-on-surface font-bold">1.2k</span>
+</div>
+<!-- Hearts -->
+<div class="flex items-center gap-0.5 px-1.5 py-0.5 bg-surface-container-lowest rounded-full shadow-xs">
+<span class="material-symbols-outlined text-error text-sm" data-icon="favorite" data-weight="fill">favorite</span>
+<span class="font-badge-label text-badge-label text-error font-bold">5/5</span>
+</div>
+</div>
+</div>
+</header>
+<!-- MAIN VIEWPORT CONTAINER -->
+<main class="max-w-md mx-auto px-4 pt-3 flex flex-col gap-4">
+<!-- HERO RECOMMENDATION BANNER: Lin Oral Fluency Sprint -->
+<section class="relative overflow-hidden rounded-[26px] bg-gradient-to-br from-primary via-primary-container to-surface-tint p-4 text-on-primary shadow-lg border border-primary-fixed-dim/30">
+<!-- Glow circles in background -->
+<div class="absolute -right-8 -top-8 w-36 h-36 rounded-full bg-secondary-container/20 blur-2xl pointer-events-none"></div>
+<div class="absolute -left-6 -bottom-6 w-32 h-32 rounded-full bg-tertiary-fixed/20 blur-xl pointer-events-none"></div>
+<div class="relative z-10 flex gap-3 items-start">
+<!-- Lin Mascot Illustration -->
+<div class="shrink-0 w-20 h-24 rounded-2xl bg-surface-container-lowest/15 backdrop-blur-md border border-white/20 flex flex-col items-center justify-center p-1.5 shadow-inner">
+<div class="relative w-14 h-14 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="smart_toy" data-weight="fill">smart_toy</span>
+<!-- Headphone overlay badge -->
+<div class="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center shadow">
+<span class="material-symbols-outlined text-xs" data-icon="headphones" data-weight="fill">headphones</span>
+</div>
+</div>
+<span class="mt-1 font-badge-label text-[10px] text-white/90 uppercase tracking-widest font-bold">Lin AI</span>
+</div>
+<!-- Sprint Information & Direct Action -->
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-1 bg-surface-container-lowest/20 backdrop-blur-md px-2 py-0.5 rounded-full text-[10px] font-badge-label text-on-primary-container font-bold mb-1">
+<span class="material-symbols-outlined text-xs" data-icon="bolt" data-weight="fill">bolt</span>
+              RECOMMENDED FOR YOU
+            </div>
+<h2 class="font-headline-sm text-headline-sm font-extrabold text-white leading-tight">
+              Versant Oral Fluency Sprint
+            </h2>
+<p class="font-body-sm text-[11px] text-white/80 mt-1 leading-snug">
+              Based on Prof. Meena's note on pause duration. Earn <span class="font-bold text-tertiary-fixed underline decoration-tertiary-fixed">+60 XP</span> today!
+            </p>
+</div>
+<!-- Tactile 3D Action Pill Button -->
+<div class="mt-3">
+<button class="w-full flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-secondary-fixed text-on-secondary-fixed font-badge-label text-badge-label font-black tracking-wider uppercase border-b-4 border-secondary shadow-md active:translate-y-1 active:border-b-0 transition-all duration-75">
+<span>Start Practice</span>
+<span class="material-symbols-outlined text-sm" data-icon="bolt" data-weight="fill">bolt</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- HORIZONTAL SCROLLABLE FILTER CHIPS -->
+<nav aria-label="Module Categories" class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 -mx-4 px-4">
+<!-- Active Chip -->
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-primary-container text-on-primary font-badge-label text-badge-label font-bold border-b-2 border-on-primary-fixed-variant shadow-sm active:translate-y-0.5 active:border-b-0 transition-transform">
+<span class="material-symbols-outlined text-sm" data-icon="grid_view">grid_view</span>
+<span>All</span>
+</button>
+<!-- Inactive Chips -->
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="mic">mic</span>
+<span>Speaking</span>
+</button>
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="spellcheck">spellcheck</span>
+<span>Grammar</span>
+</button>
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="hearing">hearing</span>
+<span>Listening</span>
+</button>
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="work">work</span>
+<span>Placement</span>
+</button>
+<button class="shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="groups">groups</span>
+<span>Group Discussion</span>
+</button>
+</nav>
+<!-- 2-COLUMN PRACTICE MODULE BENTO GRID -->
+<section aria-label="Practice Modules" class="grid grid-cols-2 gap-3">
+<!-- MODULE 1: Read Aloud (Versant Prep) -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<!-- Header tags -->
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-error text-on-error font-badge-label text-[10px] font-black uppercase tracking-wider shadow-xs">HOT</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Med â€¢ Versant</span>
+</div>
+<!-- Icon Badge & Reward -->
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-primary-fixed text-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="mic" data-weight="fill">mic</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +40 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Read Aloud</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Technical passages with live phoneme feedback.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-primary-fixed text-on-primary-fixed font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary-container active:text-on-primary-container transition-colors">
+<span>Practice</span>
+<span class="material-symbols-outlined text-xs" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</article>
+<!-- MODULE 2: Grammar Gym -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-badge-label text-[10px] font-black uppercase">DRILL</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Easy</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="spellcheck" data-weight="fill">spellcheck</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +25 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Grammar Gym</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Sentence reconstruction &amp; tense drills.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary active:text-on-primary transition-colors">
+<span>Drill Now</span>
+<span class="material-symbols-outlined text-xs" data-icon="play_arrow">play_arrow</span>
+</button>
+</article>
+<!-- MODULE 3: Daily Phrases & Idioms -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-on-surface-variant font-badge-label text-[10px] font-bold uppercase">DAILY</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Easy</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-secondary-container/40 text-secondary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="lightbulb" data-weight="fill">lightbulb</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +20 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Phrases &amp; Idioms</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Corporate jargon &amp; crisp expressions.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary active:text-on-primary transition-colors">
+<span>Review</span>
+<span class="material-symbols-outlined text-xs" data-icon="visibility">visibility</span>
+</button>
+</article>
+<!-- MODULE 4: Story Continuation -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary text-on-secondary font-badge-label text-[10px] font-black uppercase tracking-wider">NEW</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Medium</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-primary-fixed text-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="auto_stories" data-weight="fill">auto_stories</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +35 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Story Flow</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Spontaneous narrative flow under 60s.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary active:text-on-primary transition-colors">
+<span>Start Story</span>
+<span class="material-symbols-outlined text-xs" data-icon="record_voice_over">record_voice_over</span>
+</button>
+</article>
+<!-- MODULE 5: Debate Arena -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-primary text-on-primary font-badge-label text-[10px] font-black uppercase">POPULAR</span>
+<span class="text-[10px] font-badge-label font-bold text-error font-extrabold">Hard</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-error-container text-error flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="swords" data-weight="fill">swords</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +50 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Debate Arena</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">1v1 AI or peer battle with live rebuttals.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-primary-container text-on-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:translate-y-0.5 transition-all">
+<span>Enter 1v1</span>
+<span class="material-symbols-outlined text-xs" data-icon="swords">swords</span>
+</button>
+</article>
+<!-- MODULE 6: Listening Lab -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-on-surface font-badge-label text-[10px] font-bold uppercase">AUDIO</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Medium</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-secondary-fixed/50 text-secondary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="headphones" data-weight="fill">headphones</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +30 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">Listening Lab</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Comprehension &amp; accent decoding.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary active:text-on-primary transition-colors">
+<span>Listen</span>
+<span class="material-symbols-outlined text-xs" data-icon="graphic_eq">graphic_eq</span>
+</button>
+</article>
+<!-- MODULE 7: AI Tutor Chat -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant hover:border-primary-fixed active:translate-y-1 active:border-b-2 transition-all">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-badge-label text-[10px] font-black uppercase">LIN CHAT</span>
+<span class="text-[10px] font-badge-label font-bold text-on-surface-variant">Casual</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="forum" data-weight="fill">forum</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-tertiary-fixed text-tertiary font-badge-label text-[11px] font-bold">
+              +30 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-on-surface leading-tight">AI Tutor Sparring</h3>
+<p class="font-body-sm text-[11px] text-on-surface-variant mt-1 line-clamp-2">Free conversational interview sparring.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-primary font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 active:bg-primary active:text-on-primary transition-colors">
+<span>Chat Lin</span>
+<span class="material-symbols-outlined text-xs" data-icon="chat">chat</span>
+</button>
+</article>
+<!-- MODULE 8: Group Discussion (GD) [LOCKED] -->
+<article class="relative flex flex-col justify-between p-3.5 rounded-[22px] bg-surface-container-low/70 backdrop-blur-md border border-outline-variant/30 shadow-sm border-b-4 border-b-surface-variant opacity-80">
+<div>
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="px-2 py-0.5 rounded-md bg-outline-variant text-on-surface-variant font-badge-label text-[10px] font-bold uppercase flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[10px]" data-icon="lock">lock</span> Lvl 5
+            </span>
+<span class="text-[10px] font-badge-label font-bold text-error">Hard</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<div class="w-10 h-10 rounded-2xl bg-surface-container-highest text-outline flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-xl" data-icon="groups">groups</span>
+</div>
+<div class="px-1.5 py-0.5 rounded-md bg-surface-container text-outline font-badge-label text-[11px] font-bold">
+              +75 XP
+            </div>
+</div>
+<h3 class="font-headline-sm text-[15px] font-extrabold text-outline leading-tight">Group Discussion</h3>
+<p class="font-body-sm text-[11px] text-outline mt-1 line-clamp-2">Multi-speaker campus placement simulation.</p>
+</div>
+<button class="mt-3 w-full py-1.5 px-2 rounded-xl bg-surface-container text-outline font-badge-label text-[11px] font-bold flex items-center justify-center gap-1 cursor-not-allowed" disabled="">
+<span class="material-symbols-outlined text-xs" data-icon="lock">lock</span>
+<span>Unlock at Lvl 5</span>
+</button>
+</article>
+</section>
+<!-- MOTIVATIONAL FOOTER: Daily Practice Streak & Goal Meter -->
+<section class="rounded-2xl bg-surface-container-lowest p-3.5 border border-outline-variant/30 shadow-xs flex items-center justify-between gap-3">
+<div class="flex-1">
+<div class="flex items-center justify-between text-xs mb-1">
+<span class="font-badge-label font-bold text-on-surface">Daily Practice Goal</span>
+<span class="font-badge-label font-black text-primary">2 of 4 cleared</span>
+</div>
+<!-- Chunky progress bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-primary-container transition-all duration-500" style="width: 50%;"></div>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed font-badge-label text-badge-label font-extrabold shadow-xs">
+<span class="material-symbols-outlined text-sm" data-icon="bolt" data-weight="fill">bolt</span>
+<span>x1.5 XP Active!</span>
+</div>
+</section>
+</main>
+<!-- BOTTOM NAVIGATION BAR (Shared Component: BottomNavBar, 'Practice' active) -->
+<nav aria-label="Bottom Navigation" class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-space-sm pb-space-sm pt-space-xs bg-surface/95 backdrop-blur-lg rounded-t-xl shadow-lg border-t border-outline-variant/30">
+<!-- Tab 1: Path -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-space-xs hover:text-primary transition-all duration-75" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="map">map</span>
+<span class="font-badge-label text-badge-label font-bold">Path</span>
+</a>
+<!-- Tab 2: Practice (ACTIVE AS PER CONTEXT) -->
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-xl px-space-sm py-space-xs border-b-4 border-on-primary-fixed-variant active:translate-y-1 active:border-b-0 transition-all duration-75 shadow-sm" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="mic" data-weight="fill">mic</span>
+<span class="font-badge-label text-badge-label font-bold">Practice</span>
+</a>
+<!-- Tab 3: Arena -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-space-xs hover:text-primary transition-all duration-75" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="swords">swords</span>
+<span class="font-badge-label text-badge-label font-bold">Arena</span>
+</a>
+<!-- Tab 4: Quests -->
+<a class="relative flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-space-xs hover:text-primary transition-all duration-75" href="#">
+<!-- Notification dot -->
+<span class="absolute top-1 right-3 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span>
+<span class="material-symbols-outlined text-2xl" data-icon="assignment_turned_in">assignment_turned_in</span>
+<span class="font-badge-label text-badge-label font-bold">Quests</span>
+</a>
+<!-- Tab 5: Stats -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-space-xs hover:text-primary transition-all duration-75" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="person">person</span>
+<span class="font-badge-label text-badge-label font-bold">Stats</span>
+</a>
+</nav>
+<!-- Interactive script for tactile button feedback & chip selection -->
+<script>
+    // Module filter chips selection toggle
+    document.querySelectorAll('nav[aria-label="Module Categories"] button').forEach(button => {
+      button.addEventListener('click', function() {
+        document.querySelectorAll('nav[aria-label="Module Categories"] button').forEach(btn => {
+          btn.className = "shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant border border-outline-variant/40 font-badge-label text-badge-label font-bold hover:bg-surface-container active:translate-y-0.5 transition-all";
+        });
+        this.className = "shrink-0 flex items-center gap-1 px-3.5 py-1.5 rounded-xl bg-primary-container text-on-primary font-badge-label text-badge-label font-bold border-b-2 border-on-primary-fixed-variant shadow-sm active:translate-y-0.5 active:border-b-0 transition-transform";
+      });
+    });
+  </script>
+</body></html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinGrow AI — Google Stitch UI Design Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:wght@700;800;900&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              indigo: "#5B4BFF",
+              indigoDark: "#340edd",
+              teal: "#00D4B4",
+              gold: "#FFC93C",
+              coral: "#FF5C7A",
+              navy: "#0E1030",
+              canvas: "#F7F8FF"
+            }
+          },
+          fontFamily: {
+            headline: ["Nunito Sans", "sans-serif"],
+            display: ["Nunito Sans", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+            mono: ["Space Grotesk", "monospace"]
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: #F7F8FF;
+      color: #0E1030;
+      font-family: 'Inter', sans-serif;
+    }
+    .btn-chunky {
+      box-shadow: 0 4px 0 0 #340edd;
+      transition: all 0.08s ease-in-out;
+    }
+    .btn-chunky:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 0 #340edd;
+    }
+    .btn-chunky:active {
+      transform: translateY(4px);
+      box-shadow: 0 0 0 0 transparent;
+    }
+    .btn-chunky-gold {
+      box-shadow: 0 4px 0 0 #866500;
+      transition: all 0.08s ease-in-out;
+    }
+    .btn-chunky-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 0 #866500;
+    }
+    .btn-chunky-gold:active {
+      transform: translateY(4px);
+      box-shadow: 0 0 0 0 transparent;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 12px 32px -4px rgba(14, 16, 48, 0.06), 0 4px 12px -2px rgba(91, 75, 255, 0.04);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .glass-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px -4px rgba(91, 75, 255, 0.12), 0 6px 16px -2px rgba(14, 16, 48, 0.06);
+    }
+  </style>
+</head>
+<body class="min-h-screen relative overflow-x-hidden selection:bg-brand-indigo selection:text-white">
+
+  <!-- Ambient Light Blooms -->
+  <div class="fixed top-[-100px] left-1/4 w-[500px] h-[500px] bg-brand-indigo/15 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-10 right-[-80px] w-[450px] h-[450px] bg-brand-teal/15 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+
+  <!-- Top Header / Bar -->
+  <header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-indigo-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-2xl bg-brand-indigo text-white flex items-center justify-center shadow-[0_3px_0_0_#340edd]">
+          <span class="material-symbols-outlined text-[26px]">design_services</span>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-headline font-black text-2xl text-brand-navy tracking-tight">LinGrow AI</span>
+            <span class="bg-indigo-100 text-brand-indigo text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">Stitch MCP Suite</span>
+          </div>
+          <p class="text-xs text-slate-500 font-medium">11 Production UI Screens &amp; Design System Generated via Google Stitch</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="/" class="btn-chunky inline-flex items-center gap-2 bg-brand-indigo text-white px-5 py-2.5 rounded-full font-headline font-bold text-sm">
+          <span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+          <span>Back to Live App</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="glass-card rounded-3xl p-8 md:p-10 mb-10 bg-gradient-to-br from-white via-indigo-50/40 to-teal-50/30 border border-indigo-100/80">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-2 bg-brand-gold/20 text-yellow-900 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider mb-3">
+            <span class="material-symbols-outlined text-sm text-amber-600">verified</span>
+            Stitch Project: 11061374933574338722
+          </div>
+          <h1 class="font-headline font-black text-3xl md:text-5xl text-brand-navy leading-tight">
+            Gamified Campus Speaking &amp; Placement UI
+          </h1>
+          <p class="text-slate-600 mt-3 text-base md:text-lg leading-relaxed">
+            Exploration of high-fidelity, neo-arcade tactile designs engineered specifically for LinGrow AI. Featuring Mascot Lin, interactive 3D skill path progression, Versant-style speech telemetry, and AI 1v1 arenas.
+          </p>
+        </div>
+        <div class="flex flex-col gap-2.5 shrink-0 bg-white/90 p-5 rounded-2xl border border-indigo-100 shadow-sm">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Design System Highlights</div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-[#5B4BFF]"></span>
+            <span class="text-xs font-semibold text-slate-700">Electric Indigo (#5B4BFF)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-[#00D4B4]"></span>
+            <span class="text-xs font-semibold text-slate-700">Vivid Teal (#00D4B4)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-[#FFC93C]"></span>
+            <span class="text-xs font-semibold text-slate-700">Sunny Gold (#FFC93C)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-indigo-600 text-sm">touch_app</span>
+            <span class="text-xs font-semibold text-slate-700">Tactile 3D Extruded Buttons</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screen Grid -->
+    <div class="mb-6 flex items-center justify-between">
+      <h2 class="font-headline font-extrabold text-2xl text-brand-navy flex items-center gap-2">
+        <span class="material-symbols-outlined text-brand-indigo">grid_view</span>
+        <span>Generated Stitch Screens (11)</span>
+      </h2>
+      <span class="text-xs font-bold text-slate-500 bg-white px-3 py-1 rounded-full border border-slate-200">Click any screen to launch interactive view</span>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Card 1 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-100 text-brand-indigo">Core Game Arena</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Read Aloud Core Game Screen
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Real-time mic speech capture, phoneme accuracy diffs, Versant-style acoustic telemetry, and combo streak multiplier.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_read_aloud__core_game_screen_.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">21.8 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-teal-100 text-teal-800">Curriculum Map</span>
+            <span class="text-xs text-slate-400 font-mono">Responsive (1280px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Home &amp; Skill Path Map (Command Center)
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Full 3-zone layout: persistent navigation spine, Duolingo-style winding placement path with Mascot Lin, and live telemetry HUD.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_home___skill_path_map.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">39.1 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800">1v1 AI Battle</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Debate Arena (1v1 vs AI)
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Extempore and debate rebuttal arena with turn timer, persuasion scoring, and real-time counter-argument evaluation.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_debate_arena__1v1_vs_ai_.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">29.9 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800">Peer Practice</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Anonymous Peer Practice (1v1)
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Zero-anxiety peer conversations with masked avatar identities, turn-taking prompts, and post-call feedback exchange.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_anonymous_peer_practice__1v1_.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">26.6 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-800">Gamification</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Result &amp; Reward Celebration
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Arcade victory screen with odometer XP counter, streak flame milestone, badge unlocks, and Placement Readiness metrics.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_result___reward_celebration.html" target="_blank" class="btn-chunky-gold inline-flex items-center gap-1.5 bg-brand-gold text-yellow-950 px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">27.6 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800">Campus Auth</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Institutional Login Portal
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Co-branded college portal login with Mascot Lin speech bubble, roll number authentication, and 3D tactile gold action button.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_institutional_login.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">18.0 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">Module Directory</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Practice Hub (Arenas)
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Catalog of all practice drills: Grammar Lab, Situational Dialogues, Read Aloud, Vocabulary, GD Battle, and AI Tutor.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_practice_hub.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">31.2 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-100 text-brand-indigo">Student Hub</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Institutional Student Home &amp; Path Map
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Mobile-optimized student progression tree with institutional batch tag, streak tracker, and departmental drills.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_institutional_student_home___path_map.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">24.9 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-800">Onboarding</span>
+            <span class="text-xs text-slate-400 font-mono">Desktop (2560px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Welcome &amp; Onboarding Carousel
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            High-res widescreen onboarding tour introducing students to voice-driven placement practice, AI evaluation, and peer mode.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_welcome___onboarding_carousel.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">49.2 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-violet-100 text-violet-800">Setup Wizard</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            First-Login Setup &amp; Baseline Mic Test
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Target company selection (TCS, Infosys, Cognizant, Product), initial speaking calibration, and baseline CEFR level assignment.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_first-login_setup.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">22.4 KB HTML</span>
+        </div>
+      </div>
+
+      <!-- Card 11 -->
+      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+        <div class="p-5 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-800">Mobile Map</span>
+            <span class="text-xs text-slate-400 font-mono">Mobile (390px)</span>
+          </div>
+          <h3 class="font-headline font-black text-xl text-brand-navy group-hover:text-brand-indigo transition-colors">
+            Home (Skill Path Map Mobile)
+          </h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+            Single-column mobile path with floating voice recording trigger and bottom docked 5-tab gamified navigation tray.
+          </p>
+        </div>
+        <div class="mt-auto p-5 pt-3 border-t border-indigo-50/80 bg-white/40 flex items-center justify-between">
+          <a href="lingrow_ai_-_home__skill_path_map_.html" target="_blank" class="btn-chunky inline-flex items-center gap-1.5 bg-brand-indigo text-white px-4 py-2 rounded-full font-headline font-bold text-xs">
+            <span>Launch Screen</span>
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+          </a>
+          <span class="text-[11px] text-slate-400 font-medium">27.4 KB HTML</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Design System Reference Card -->
+    <div class="mt-12 glass-card rounded-3xl p-8 border border-indigo-100">
+      <h3 class="font-headline font-black text-2xl text-brand-navy mb-4 flex items-center gap-2">
+        <span class="material-symbols-outlined text-brand-indigo">palette</span>
+        <span>Google Stitch Design Tokens &amp; Specifications</span>
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-600">
+        <div class="bg-white/80 p-5 rounded-2xl border border-indigo-50">
+          <div class="font-bold text-brand-navy mb-2 flex items-center gap-2">
+            <span class="material-symbols-outlined text-sm text-indigo-500">layers</span>
+            <span>Elevation &amp; 3D Tactile</span>
+          </div>
+          <p class="text-xs leading-relaxed">
+            Departing from generic flat surfaces, interactive elements feature physical 4px bottom-edge extrusions that collapse on active click, mimicking tactile arcade keys.
+          </p>
+        </div>
+        <div class="bg-white/80 p-5 rounded-2xl border border-indigo-50">
+          <div class="font-bold text-brand-navy mb-2 flex items-center gap-2">
+            <span class="material-symbols-outlined text-sm text-indigo-500">text_fields</span>
+            <span>Typography Pairing</span>
+          </div>
+          <p class="text-xs leading-relaxed">
+            <strong>Nunito Sans (800/900)</strong> provides warm arcade energy for headlines and odometer counters. <strong>Inter</strong> provides analytical clarity for phonetic diffs.
+          </p>
+        </div>
+        <div class="bg-white/80 p-5 rounded-2xl border border-indigo-50">
+          <div class="font-bold text-brand-navy mb-2 flex items-center gap-2">
+            <span class="material-symbols-outlined text-sm text-indigo-500">token</span>
+            <span>MCP Integration</span>
+          </div>
+          <p class="text-xs leading-relaxed">
+            Connected to <code>https://stitch.googleapis.com/mcp</code> with authenticated project sync, screen generation, variant exploration, and live design token ingestion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-16 border-t border-indigo-100 bg-white/60 py-6 text-center text-xs text-slate-500 font-medium">
+    LinGrow AI &bull; Google Stitch MCP Design Integration &bull; Powered by Anthropic &amp; Local Dual-LLM Pipeline
+  </footer>
+
+</body>
+</html>

@@ -1664,100 +1664,350 @@ VIEW_RENDERERS['listening'] = async (mount) => {
 
 /* ---------------------------- STORY CONTINUATION ---------------------------- */
 VIEW_RENDERERS['story'] = async (mount) => {
-  const prompts = await Api.storyPrompts();
-  const prompt = prompts[Math.floor(Math.random()*prompts.length)];
-  mount.innerHTML = `
-    <div class="card">
-      <div class="pill voice" style="margin-bottom:10px">Advanced</div>
-      <div class="passage-box">${esc(prompt.prompt)}</div>
-      <div class="row gap-md" style="margin-top:22px">
-        <button class="rec-btn" id="story-rec">${ICONS.mic}</button>
-        <div class="col" style="flex:1"><div id="story-status" style="font-weight:700;font-size:15px">Continue the story out loud</div><div id="story-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div></div>
+  let prompts = [];
+  try {
+    prompts = await Api.storyPrompts();
+  } catch (err) {
+    prompts = [];
+  }
+
+  let selectedDept = '';
+  renderStoryView();
+
+  function renderStoryView() {
+    const filteredPrompts = selectedDept ? prompts.filter((p) => p.department === selectedDept || p.department === 'General') : prompts;
+    const prompt = filteredPrompts.length ? filteredPrompts[Math.floor(Math.random() * filteredPrompts.length)] : prompts[0] || { prompt: 'You are leading a major project launch when an unexpected breakdown occurs. Explain how you will resolve it.', title: 'Emergency Resolution', department: 'General', openingNarration: 'The system monitor flashed red as team members turned to you for direction.' };
+
+    const depts = ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
+
+    mount.innerHTML = `
+      <div class="col gap-md">
+        <!-- Header & Department Filter Bar -->
+        <div class="card card-white-accent">
+          <div class="row" style="margin-bottom:12px;align-items:center">
+            <div>
+              <div class="section-title" style="margin:0">${ICONS.book} Automated Story Narration &amp; Continuation</div>
+              <div style="font-size:13px;color:var(--cream-dim)">Auto-scraped engineering &amp; management story cases. Listen to the opening narration and record your speech continuation.</div>
+            </div>
+            <div class="spacer"></div>
+            <span class="pill sprout">⚡ Auto-Scraped Bank</span>
+          </div>
+
+          <div class="row gap-xs" style="flex-wrap:wrap">
+            <button class="btn ${!selectedDept ? 'btn-white' : 'btn-ghost'} btn-sm" data-story-dept="">All Departments</button>
+            ${depts.map((d) => `<button class="btn ${selectedDept === d ? 'btn-white' : 'btn-ghost'} btn-sm" data-story-dept="${d}">${d}</button>`).join('')}
+          </div>
+        </div>
+
+        <!-- Active Story Card -->
+        <div class="card">
+          <div class="row gap-sm" style="margin-bottom:12px">
+            <span class="pill voice">${esc(prompt.department || 'General')} Department</span>
+            <span class="pill sprout">${esc(prompt.level || 'Advanced')}</span>
+            <span class="pill amber">Set #${prompt._id ? prompt._id.slice(-4) : 'Demo'}</span>
+          </div>
+
+          <h3 style="font-size:20px;color:#FFFFFF;margin-bottom:10px">${esc(prompt.title || 'Story Narration Exercise')}</h3>
+
+          ${prompt.openingNarration ? `
+            <div style="background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:14px">
+              <div class="eyebrow" style="margin-bottom:4px">📖 Opening Story Narration</div>
+              <div style="font-size:15px;line-height:1.6;color:#FFFFFF">${esc(prompt.openingNarration)}</div>
+              <button class="btn btn-outline btn-sm" id="play-narration-btn" style="margin-top:10px">🔊 Listen to Opening Narration</button>
+            </div>
+          ` : ''}
+
+          <div class="passage-box" style="margin-bottom:16px">
+            <div class="eyebrow" style="margin-bottom:6px">🎯 Your Narration Prompt</div>
+            ${esc(prompt.prompt)}
+          </div>
+
+          <div class="row gap-md" style="margin-top:16px">
+            <button class="rec-btn" id="story-rec">${ICONS.mic}</button>
+            <div class="col" style="flex:1">
+              <div id="story-status" style="font-weight:700;font-size:15px">Tap mic to speak your story continuation</div>
+              <div id="story-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div>
+            </div>
+          </div>
+          <div id="story-result" style="margin-top:18px"></div>
+        </div>
       </div>
-      <div id="story-result" style="margin-top:18px"></div>
-    </div>`;
-  let startTime;
-  const recBtn = $('#story-rec');
-  recBtn.onclick = ()=>{
-    if (!SpeechInput.supported){ toast('Speech recognition not supported in this browser.', 'coral'); return; }
-    if (!SpeechInput.listening){
-      recBtn.classList.add('on'); startTime = Date.now();
-      $('#story-status').textContent = 'Listening…';
-      SpeechInput.start({
-        onResult: ({final,interim})=>{ $('#story-transcript').textContent = (final+' '+interim).trim(); },
-        onEnd: async (finalTranscript)=>{
-          recBtn.classList.remove('on');
-          if (!finalTranscript){ $('#story-status').textContent='No speech captured — try again'; return; }
-          $('#story-status').textContent = 'Scoring your continuation…';
-          try{
-            const { attempt } = await Api.submitStory({ promptId: prompt._id, transcript: finalTranscript });
-            const s = attempt.scores;
-            $('#story-result').innerHTML = `
-              <div class="grid grid-4" style="margin-bottom:14px">
-                ${['creativity','coherence','vocabulary','grammarFlow'].map(k=>`<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`).join('')}
-              </div>
-              <div class="card card-2"><div class="eyebrow">Feedback</div><p style="font-size:15px">${esc(attempt.feedback)}</p></div>`;
-            $('#story-status').textContent = 'Done';
-            addStudentXP(Math.round(15 + s.overall/5));
-          } catch(err){ apiError(err); }
-        },
-        onError:(e)=>{ recBtn.classList.remove('on'); $('#story-status').textContent='Mic error: '+e; },
-      });
-    } else SpeechInput.stop();
-  };
+    `;
+
+    // Department Filter Buttons
+    mount.querySelectorAll('[data-story-dept]').forEach((btn) => {
+      btn.onclick = () => {
+        selectedDept = btn.dataset.storyDept;
+        renderStoryView();
+      };
+    });
+
+    // Opening Narration Speech Synthesis
+    const playBtn = $('#play-narration-btn');
+    if (playBtn) {
+      playBtn.onclick = () => {
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const u = new SpeechSynthesisUtterance(prompt.openingNarration);
+          u.rate = 0.95;
+          window.speechSynthesis.speak(u);
+          toast('Playing opening story narration…', 'sprout');
+        } else {
+          toast('Text-to-speech not supported in browser', 'coral');
+        }
+      };
+    }
+
+    // Mic Recorder & Scoring
+    let startTime;
+    const recBtn = $('#story-rec');
+    recBtn.onclick = () => {
+      if (!SpeechInput.supported) {
+        toast('Speech recognition not supported in this browser.', 'coral');
+        return;
+      }
+      if (!SpeechInput.listening) {
+        recBtn.classList.add('on');
+        startTime = Date.now();
+        $('#story-status').textContent = 'Listening to your story continuation…';
+        SpeechInput.start({
+          onResult: ({ final, interim }) => {
+            $('#story-transcript').textContent = (final + ' ' + interim).trim();
+          },
+          onEnd: async (finalTranscript) => {
+            recBtn.classList.remove('on');
+            if (!finalTranscript) {
+              $('#story-status').textContent = 'No speech captured — tap mic to try again';
+              return;
+            }
+            $('#story-status').textContent = 'Evaluating story narration with Local AI…';
+            try {
+              const { attempt } = await Api.submitStory({ promptId: prompt._id, transcript: finalTranscript });
+              const s = attempt.scores;
+              $('#story-result').innerHTML = `
+                <div class="grid grid-4" style="margin-bottom:14px">
+                  ${['creativity', 'coherence', 'vocabulary', 'grammarFlow']
+                    .map((k) => `<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`)
+                    .join('')}
+                </div>
+                <div class="card card-2"><div class="eyebrow">Local AI Story Evaluation &amp; Feedback</div><p style="font-size:15px;color:#FFFFFF">${esc(attempt.feedback)}</p></div>`;
+              $('#story-status').textContent = 'Story evaluation complete!';
+              addStudentXP(Math.round(15 + s.overall / 5));
+            } catch (err) {
+              apiError(err);
+            }
+          },
+          onError: (e) => {
+            recBtn.classList.remove('on');
+            $('#story-status').textContent = 'Mic error: ' + e;
+          },
+        });
+      } else SpeechInput.stop();
+    };
+  }
 };
 
 /* ---------------------------- DEBATE ---------------------------- */
 VIEW_RENDERERS['debate'] = async (mount) => {
-  const topics = await Api.debateTopics();
-  const topic = topics[Math.floor(Math.random()*topics.length)];
-  mount.innerHTML = `
-    <div class="card">
-      <div class="pill voice" style="margin-bottom:10px">Advanced</div>
-      <h3 style="margin-bottom:16px">${esc(topic.topic)}</h3>
-      <div class="row gap-sm" style="margin-bottom:18px">
-        <button class="btn btn-ghost btn-sm active-stance" data-stance="for">Argue FOR</button>
-        <button class="btn btn-ghost btn-sm" data-stance="against">Argue AGAINST</button>
+  let selectedDept = '';
+  renderDebateView();
+
+  async function renderDebateView() {
+    mount.innerHTML = `<div class="card">${wave(5)}</div>`;
+    let topicData;
+    try {
+      topicData = await Api.nextDebateTopic({ department: selectedDept });
+    } catch (err) {
+      topicData = { topic: null, unattemptedRemaining: 0, totalTopicsCount: 0 };
+    }
+
+    const topic = topicData.topic || {
+      _id: null,
+      topic: 'Should social media platforms verify the identity of every user?',
+      department: 'General',
+      level: 'Advanced',
+      context: 'Identity verification could reduce online harassment and bot networks, but raises serious privacy and surveillance concerns.',
+      forKeyPoints: ['Reduces fake bot accounts and online harassment', 'Increases user accountability for digital statements'],
+      againstKeyPoints: ['Presents severe user privacy and data breach risks', 'Restricts freedom of speech for whistleblowers'],
+    };
+
+    const depts = ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
+
+    mount.innerHTML = `
+      <div class="col gap-md">
+        <!-- Header & Department Filter Bar -->
+        <div class="card card-white-accent">
+          <div class="row" style="margin-bottom:12px;align-items:center">
+            <div>
+              <div class="section-title" style="margin:0">${ICONS.mic} AI Debate Practice &amp; Topic Rotation</div>
+              <div style="font-size:13px;color:var(--cream-dim)">Unique unattempted debate topics selected dynamically for your profile. Select a stance and deliver your argument.</div>
+            </div>
+            <div class="spacer"></div>
+            <span class="pill sprout">⚡ ${topicData.unattemptedRemaining || 0} Unseen Topics Remaining</span>
+          </div>
+
+          <div class="row gap-xs" style="flex-wrap:wrap">
+            <button class="btn ${!selectedDept ? 'btn-white' : 'btn-ghost'} btn-sm" data-debate-dept="">All Departments</button>
+            ${depts.map((d) => `<button class="btn ${selectedDept === d ? 'btn-white' : 'btn-ghost'} btn-sm" data-debate-dept="${d}">${d}</button>`).join('')}
+          </div>
+        </div>
+
+        <!-- Active Debate Card -->
+        <div class="card">
+          <div class="row gap-sm" style="margin-bottom:12px">
+            <span class="pill voice">${esc(topic.department || 'General')} Department</span>
+            <span class="pill sprout">${esc(topic.level || 'Advanced')}</span>
+            <span class="pill amber">Topic #${topic._id ? topic._id.slice(-4) : 'Demo'}</span>
+            <div class="spacer"></div>
+            <button class="btn btn-outline btn-sm" id="skip-topic-btn">🔄 Next Topic</button>
+          </div>
+
+          <h3 style="font-size:22px;color:#FFFFFF;margin-bottom:12px;line-height:1.35">${esc(topic.topic)}</h3>
+
+          ${topic.context ? `
+            <div style="background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:16px">
+              <div class="eyebrow" style="margin-bottom:4px">💡 Debate Background &amp; Context</div>
+              <div style="font-size:14.5px;line-height:1.6;color:#FFFFFF">${esc(topic.context)}</div>
+            </div>
+          ` : ''}
+
+          <!-- Stance Selection Buttons -->
+          <div class="col gap-xs" style="margin-bottom:18px">
+            <label class="field-label" style="margin-bottom:4px">Select Your Debate Stance:</label>
+            <div class="row gap-sm">
+              <button class="btn btn-primary btn-sm" id="btn-stance-for" data-stance="for">👍 Argue FOR (Support)</button>
+              <button class="btn btn-ghost btn-sm" id="btn-stance-against" data-stance="against">👎 Argue AGAINST (Oppose)</button>
+            </div>
+          </div>
+
+          <!-- Stance Hints Card -->
+          <div id="stance-hints-box" style="background:var(--card-sub);padding:12px 16px;border-radius:10px;margin-bottom:18px;border-left:3px solid var(--cyan)">
+            <div class="eyebrow" id="hints-title">Suggested Key Arguments (FOR)</div>
+            <ul id="hints-list" style="margin:6px 0 0 18px;padding:0;font-size:13.5px;color:var(--cream-dim)">
+              ${(topic.forKeyPoints || ['Dramatically improves system performance', 'Reduces operational overhead']).map((p) => `<li>${esc(p)}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="row gap-md" style="margin-top:10px">
+            <button class="rec-btn" id="debate-rec">${ICONS.mic}</button>
+            <div class="col" style="flex:1">
+              <div id="debate-status" style="font-weight:700;font-size:15px">Choose your stance above, then tap mic to record your argument</div>
+              <div id="debate-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div>
+            </div>
+          </div>
+
+          <div id="debate-result" style="margin-top:20px"></div>
+        </div>
       </div>
-      <div class="row gap-md">
-        <button class="rec-btn" id="debate-rec">${ICONS.mic}</button>
-        <div class="col" style="flex:1"><div id="debate-status" style="font-weight:700;font-size:15px">Choose a stance, then record your argument</div><div id="debate-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div></div>
-      </div>
-      <div id="debate-result" style="margin-top:18px"></div>
-    </div>`;
-  let stance = 'for';
-  mount.querySelectorAll('[data-stance]').forEach(btn=>{
-    btn.onclick = ()=>{ stance = btn.dataset.stance; mount.querySelectorAll('[data-stance]').forEach(b=>b.classList.remove('btn-primary')); btn.classList.add('btn-primary'); };
-  });
-  let startTime;
-  const recBtn = $('#debate-rec');
-  recBtn.onclick = ()=>{
-    if (!SpeechInput.supported){ toast('Speech recognition not supported in this browser.', 'coral'); return; }
-    if (!SpeechInput.listening){
-      recBtn.classList.add('on'); startTime = Date.now();
-      $('#debate-status').textContent = 'Listening…';
-      SpeechInput.start({
-        onResult: ({final,interim})=>{ $('#debate-transcript').textContent = (final+' '+interim).trim(); },
-        onEnd: async (finalTranscript)=>{
-          recBtn.classList.remove('on');
-          if (!finalTranscript){ $('#debate-status').textContent='No speech captured — try again'; return; }
-          $('#debate-status').textContent = 'Judging your argument…';
-          try{
-            const { attempt } = await Api.submitDebate({ topicId: topic._id, stance, transcript: finalTranscript });
-            const s = attempt.scores;
-            $('#debate-result').innerHTML = `
-              <div class="grid grid-4" style="margin-bottom:14px">
-                ${['clarity','logic','vocabulary','counterargument'].map(k=>`<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`).join('')}
-              </div>
-              <div class="card card-2"><div class="eyebrow">Overall: ${s.overall}</div><p style="font-size:15px">${esc(attempt.feedback)}</p></div>`;
-            $('#debate-status').textContent = 'Done';
-            addStudentXP(Math.round(15 + s.overall/5));
-          } catch(err){ apiError(err); }
-        },
-        onError:(e)=>{ recBtn.classList.remove('on'); $('#debate-status').textContent='Mic error: '+e; },
-      });
-    } else SpeechInput.stop();
-  };
+    `;
+
+    // Department Filter Click Handlers
+    mount.querySelectorAll('[data-debate-dept]').forEach((btn) => {
+      btn.onclick = () => {
+        selectedDept = btn.dataset.debateDept;
+        renderDebateView();
+      };
+    });
+
+    // Skip / Next Topic Button
+    $('#skip-topic-btn').onclick = () => {
+      toast('Loading next unattempted topic…', 'sprout');
+      renderDebateView();
+    };
+
+    // Stance Buttons & Hint Switcher
+    let selectedStance = 'for';
+    const forBtn = $('#btn-stance-for');
+    const againstBtn = $('#btn-stance-against');
+
+    forBtn.onclick = () => {
+      selectedStance = 'for';
+      forBtn.className = 'btn btn-primary btn-sm';
+      againstBtn.className = 'btn btn-ghost btn-sm';
+      $('#hints-title').textContent = 'Suggested Key Arguments (FOR)';
+      $('#hints-list').innerHTML = (topic.forKeyPoints || ['Dramatically improves efficiency', 'Industry proven standard'])
+        .map((p) => `<li>${esc(p)}</li>`)
+        .join('');
+    };
+
+    againstBtn.onclick = () => {
+      selectedStance = 'against';
+      againstBtn.className = 'btn btn-primary btn-sm';
+      forBtn.className = 'btn btn-ghost btn-sm';
+      $('#hints-title').textContent = 'Suggested Key Arguments (AGAINST)';
+      $('#hints-list').innerHTML = (topic.againstKeyPoints || ['High initial implementation cost', 'Potential risk of downtime'])
+        .map((p) => `<li>${esc(p)}</li>`)
+        .join('');
+    };
+
+    // Mic Recorder & Scoring
+    let startTime;
+    const recBtn = $('#debate-rec');
+    recBtn.onclick = () => {
+      if (!SpeechInput.supported) {
+        toast('Speech recognition not supported in this browser.', 'coral');
+        return;
+      }
+      if (!SpeechInput.listening) {
+        recBtn.classList.add('on');
+        startTime = Date.now();
+        $('#debate-status').textContent = `Listening to your argument (${selectedStance.toUpperCase()})…`;
+        SpeechInput.start({
+          onResult: ({ final, interim }) => {
+            $('#debate-transcript').textContent = (final + ' ' + interim).trim();
+          },
+          onEnd: async (finalTranscript) => {
+            recBtn.classList.remove('on');
+            if (!finalTranscript) {
+              $('#debate-status').textContent = 'No speech captured — tap mic to try again';
+              return;
+            }
+            $('#debate-status').textContent = 'Judging your argument with Local AI…';
+            try {
+              const { attempt } = await Api.submitDebate({
+                topicId: topic._id,
+                stance: selectedStance,
+                transcript: finalTranscript,
+              });
+              const s = attempt.scores;
+              $('#debate-result').innerHTML = `
+                <div class="grid grid-4" style="margin-bottom:14px">
+                  ${['clarity', 'logic', 'vocabulary', 'counterargument']
+                    .map((k) => `<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`)
+                    .join('')}
+                </div>
+                <div class="card card-2" style="margin-bottom:14px">
+                  <div class="row" style="margin-bottom:6px">
+                    <div class="eyebrow" style="margin:0">AI Debate Evaluation &amp; Feedback</div>
+                    <div class="spacer"></div>
+                    <span class="pill" style="color:${scoreColor(s.overall)};border-color:transparent;font-size:14px">Overall ${s.overall}/100</span>
+                  </div>
+                  <p style="font-size:15px;color:#FFFFFF;margin:0;line-height:1.6">${esc(attempt.feedback)}</p>
+                </div>
+
+                <div class="row gap-md" style="margin-top:14px">
+                  <button class="btn btn-white" id="next-debate-after-submit">➡️ Practice Next Unseen Debate Topic</button>
+                </div>
+              `;
+              $('#debate-status').textContent = 'Debate evaluation complete!';
+              addStudentXP(Math.round(15 + s.overall / 5));
+
+              $('#next-debate-after-submit').onclick = () => {
+                toast('Loading next unattempted topic…', 'sprout');
+                renderDebateView();
+              };
+            } catch (err) {
+              apiError(err);
+            }
+          },
+          onError: (e) => {
+            recBtn.classList.remove('on');
+            $('#debate-status').textContent = 'Mic error: ' + e;
+          },
+        });
+      } else SpeechInput.stop();
+    };
+  }
 };
 
 /* ---------------------------- PEER PRACTICE ---------------------------- */
@@ -1833,9 +2083,6 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
           <button class="icon-btn tutor-act-icon" id="btn-toggle-rag" title="Study Notes" aria-label="Study Notes">
             📚
           </button>
-          <button class="icon-btn tutor-act-icon" id="btn-toggle-memory" title="AI Memory &amp; Learning Context" aria-label="AI Memory">
-            🧠
-          </button>
           <button class="icon-btn tutor-act-icon" id="btn-clear-chat" title="Clear Conversation" aria-label="Clear Chat">
             🗑️
           </button>
@@ -1863,29 +2110,6 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         </div>
         <textarea id="rag-doc-text" placeholder="Paste notes, lecture transcript, or textbook summary text here..." rows="3" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13.5px;resize:vertical"></textarea>
         <div id="rag-docs-list" style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"></div>
-      </div>
-
-      <!-- AI Tutor Memory & Context Drawer (Collapsible) -->
-      <div id="memory-drawer" style="display:none;margin-bottom:10px;padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:10px;font-size:13px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:6px;flex-wrap:wrap">
-          <strong style="color:var(--cream-bright)">🧠 AI Tutor Memory &amp; Learning Context</strong>
-          <div class="spacer"></div>
-          <button class="btn btn-ghost btn-xs" id="btn-clear-all-memories" style="color:var(--coral);font-size:11px">Clear Memories</button>
-        </div>
-        <div style="font-size:12px;color:var(--cream-dim);margin-bottom:10px">
-          Your AI Tutor automatically remembers your target goals, learning focus, and preferences across sessions.
-        </div>
-        <div class="row gap-sm" style="margin-bottom:8px;flex-wrap:wrap">
-          <input type="text" id="memory-input-fact" placeholder="Add custom context (e.g. Preparing for TCS technical interview, focus on concise answers)" style="flex:1;min-width:200px;padding:7px 10px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:13px">
-          <select id="memory-input-category" style="padding:7px 8px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--cream-bright);font-size:12.5px">
-            <option value="goal">Goal</option>
-            <option value="preference">Preference</option>
-            <option value="topic">Topic</option>
-            <option value="weakness">Focus Area</option>
-          </select>
-          <button class="btn btn-primary btn-sm" id="btn-save-memory" style="white-space:nowrap">+ Remember</button>
-        </div>
-        <div id="memories-list" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px"></div>
       </div>
 
       <!-- Main Chat Area -->
@@ -1947,76 +2171,6 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       loadRagDocuments();
     } catch (err) {
       toast(err.message || 'Failed to index document', 'coral');
-    }
-  };
-
-  let showMemoryDrawer = false;
-  async function loadStudentMemories() {
-    const listEl = $('#memories-list');
-    if (!listEl) return;
-    try {
-      const memories = await Api.tutorMemories();
-      if (!memories || memories.length === 0) {
-        listEl.innerHTML = '<span style="color:var(--cream-faint);font-size:12px">No saved context yet. Add a goal above or tell the AI about your goals in chat!</span>';
-        return;
-      }
-      listEl.innerHTML = memories.map(m => `
-        <span class="pill voice" style="display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:3px 8px" data-id="${m._id}">
-          <span style="opacity:0.75;text-transform:uppercase;font-size:9.5px;font-weight:700">${esc(m.category)}</span>
-          <span>${esc(m.fact)}</span>
-          <button class="del-memory-btn" data-id="${m._id}" style="background:none;border:none;color:var(--cream-dim);cursor:pointer;font-size:13px;padding:0;line-height:1" title="Delete memory">×</button>
-        </span>
-      `).join('');
-
-      listEl.querySelectorAll('.del-memory-btn').forEach(btn => {
-        btn.onclick = async (e) => {
-          e.stopPropagation();
-          try {
-            await Api.tutorDeleteMemory(btn.dataset.id);
-            loadStudentMemories();
-            toast('Memory removed', 'sprout');
-          } catch (err) {
-            toast('Failed to remove memory', 'coral');
-          }
-        };
-      });
-    } catch (e) {
-      listEl.innerHTML = '<span style="color:var(--coral);font-size:12px">Failed to load memories</span>';
-    }
-  }
-
-  $('#btn-toggle-memory').onclick = () => {
-    showMemoryDrawer = !showMemoryDrawer;
-    $('#memory-drawer').style.display = showMemoryDrawer ? 'block' : 'none';
-    $('#btn-toggle-memory').classList.toggle('active', showMemoryDrawer);
-    if (showMemoryDrawer) loadStudentMemories();
-  };
-
-  $('#btn-save-memory').onclick = async () => {
-    const fact = ($('#memory-input-fact').value || '').trim();
-    const category = $('#memory-input-category').value || 'goal';
-    if (!fact) {
-      toast('Please enter a memory or learning goal', 'coral');
-      return;
-    }
-    try {
-      await Api.tutorAddMemory({ fact, category });
-      $('#memory-input-fact').value = '';
-      loadStudentMemories();
-      toast('Memory saved to AI Tutor context!', 'sprout');
-    } catch (err) {
-      toast(err.message || 'Failed to save memory', 'coral');
-    }
-  };
-
-  $('#btn-clear-all-memories').onclick = async () => {
-    if (!confirm('Clear all stored learning memories and goals?')) return;
-    try {
-      await Api.tutorClearMemories();
-      loadStudentMemories();
-      toast('All memories cleared', 'sprout');
-    } catch (err) {
-      toast(err.message || 'Failed to clear memories', 'coral');
     }
   };
 
@@ -2307,41 +2461,34 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
   $('#chat-input').onkeydown = (e) => { if (e.key === 'Enter') send($('#chat-input').value); };
   $('#chat-mic').onclick = startVoiceListening;
 
-  $('#btn-clear-chat').onclick = async () => {
-    if (!confirm('Are you sure you want to clear your conversation history? This cannot be undone.')) return;
-    try {
-      await Api.tutorClearHistory();
-      history = [];
-      log.innerHTML = '';
-      const hero = el(`
-        <div class="chat-empty-hero" id="chat-empty-hero">
-          <div class="chat-hero-icon">${ICONS.message}</div>
-          <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
-          <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
-          <div class="chat-quick-prompts">
-            <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
-              <span>🎯</span> <span>Mock Technical Interview</span>
-            </button>
-            <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
-              <span>🗣️</span> <span>Daily Spoken English Practice</span>
-            </button>
-            <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
-              <span>⚡</span> <span>Explain OOP Concepts</span>
-            </button>
-          </div>
+  $('#btn-clear-chat').onclick = () => {
+    log.innerHTML = '';
+    const hero = el(`
+      <div class="chat-empty-hero" id="chat-empty-hero">
+        <div class="chat-hero-icon">${ICONS.message}</div>
+        <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
+        <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
+        <div class="chat-quick-prompts">
+          <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
+            <span>🎯</span> <span>Mock Technical Interview</span>
+          </button>
+          <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
+            <span>🗣️</span> <span>Daily Spoken English Practice</span>
+          </button>
+          <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
+            <span>⚡</span> <span>Explain OOP Concepts</span>
+          </button>
         </div>
-      `);
-      log.appendChild(hero);
-      hero.querySelectorAll('.chat-prompt-chip').forEach(chip => {
-        chip.onclick = () => {
-          const promptText = chip.dataset.prompt;
-          if (promptText) send(promptText);
-        };
-      });
-      toast('Conversation cleared permanently', 'sprout');
-    } catch (err) {
-      apiError(err);
-    }
+      </div>
+    `);
+    log.appendChild(hero);
+    hero.querySelectorAll('.chat-prompt-chip').forEach(chip => {
+      chip.onclick = () => {
+        const promptText = chip.dataset.prompt;
+        if (promptText) send(promptText);
+      };
+    });
+    toast('Chat cleared', 'info');
   };
 
   $('#toggle-read-aloud').onclick = () => {
@@ -2451,32 +2598,11 @@ let currentGrammarCategory = 'All';
 
 const GRAMMAR_CAT_ICONS = {
   'All': '✨',
-  'Sentence Foundations': '🏗️',
-  'Parts of Speech': '🧩',
-  'Nouns': '🏷️',
-  'Pronouns': '👤',
-  'Articles': '📰',
-  'Determiners & Quantifiers': '🔢',
-  'Adjectives': '🎨',
-  'Verbs & Verb Forms': '🏃',
-  'Be, Have & Do': '🔑',
-  'Tenses': '⏳',
-  'Tense Sentence Forms': '🔄',
   'Subject-Verb Agreement': '⚡',
-  'Questions': '❓',
-  'Negatives': '🚫',
+  'Tenses': '⏳',
+  'Articles & Nouns': '🏷️',
   'Prepositions': '🎯',
-  'Adverbs': '🚀',
-  'Conjunctions': '🔗',
-  'Sentence Construction': '📐',
-  'Modal Verbs': '💡',
-  'Gerunds & Infinitives': '🌀',
-  'Phrases & Clauses': '📑',
-  'Active & Passive Voice': '🗣️',
-  'Basic Conditionals': '🔀',
-  'Basic Reported Speech': '💬',
-  'Punctuation & Capitalization': '✍️',
-  'Common Beginner Errors': '⚠️',
+  'Common Pitfalls': '⚠️',
 };
 
 VIEW_RENDERERS['grammar'] = async (mount) => {
@@ -2501,8 +2627,7 @@ function formatVideoEmbedUrl(url) {
 let currentGrammarLevel = 'All';
 
 function renderGrammarView(mount, topics) {
-  const dynamicCats = [...new Set(topics.map(t => t.category).filter(Boolean))].sort();
-  const categories = ['All', ...(dynamicCats.length ? dynamicCats : ['Tenses', 'Subject-Verb Agreement', 'Prepositions'])];
+  const categories = ['All', 'Tenses', 'Subject-Verb Agreement', 'Articles & Nouns', 'Prepositions', 'Common Pitfalls'];
   const levels = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 
   let filtered = currentGrammarCategory === 'All'
@@ -3161,22 +3286,8 @@ function renderTestsListView(mount, tests) {
   clearInterval(testTimerHandle);
   mount.innerHTML = `
     <div class="col gap-md">
-      <div class="row" style="background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;flex-wrap:wrap;gap:8px">
-        <div style="font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:6px">
-          <i class="bi bi-mortarboard-fill" style="color:var(--sprout)"></i> Your Enrolled Class:
-          <span class="pill voice" style="font-size:12px;font-weight:700">${esc(S.user.batch || 'General Batch')}</span>
-        </div>
-        <div class="spacer"></div>
-        <span style="font-size:12px;color:var(--cream-faint)">Displaying tests assigned to your class & institutional tests</span>
-      </div>
-
       <div class="grid grid-2" id="tests-grid">
-        ${tests.length ? tests.map(t => {
-          const classTag = (t.batches && t.batches.length)
-            ? t.batches.join(', ')
-            : (t.batch ? t.batch : 'Open to All');
-
-          return `
+        ${tests.length ? tests.map(t => `
           <div class="card col gap-sm" style="display:flex;flex-direction:column;justify-content:space-between">
             <div>
               <div class="row gap-sm" style="margin-bottom:8px">
@@ -3186,21 +3297,15 @@ function renderTestsListView(mount, tests) {
                 ${t.attempted ? `<span class="pill sprout" style="color:var(--sprout)">${ICONS.check} ${t.bestScore}% Best</span>` : '<span class="pill" style="color:var(--cream-faint)">New</span>'}
               </div>
               <h3 style="font-size:17px;font-weight:700;margin-bottom:6px">${esc(t.title)}</h3>
-              <div class="row gap-sm" style="font-size:12.5px;color:var(--cream-faint);margin-bottom:6px">
+              <div class="row gap-sm" style="font-size:12.5px;color:var(--cream-faint)">
                 ${ICONS.clipboard} ${t.questionCount} questions &nbsp;·&nbsp; ${ICONS.timer} ${t.durationMinutes} min
-              </div>
-              <div class="row gap-xs" style="font-size:11px">
-                <span class="pill voice" style="font-size:10.5px;display:inline-flex;align-items:center;gap:4px">
-                  <i class="bi bi-people-fill"></i> Class: ${esc(classTag)}
-                </span>
               </div>
             </div>
             <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line)">
               <button class="btn btn-primary btn-sm" data-start-test="${t._id}">${t.attempted ? 'Retake' : 'Start Test'} ${ICONS.arrowRight}</button>
             </div>
           </div>
-        `;
-        }).join('') : `<div class="card empty-state" style="grid-column:1/-1">No tests currently assigned to class <strong>${esc(S.user.batch || 'General')}</strong>. Check back once your teacher publishes one.</div>`}
+        `).join('') : `<div class="card empty-state">No tests assigned yet. Check back once your teacher publishes one.</div>`}
       </div>
       <div id="test-active-area"></div>
     </div>
@@ -3335,142 +3440,4 @@ function renderTestResult(res, test) {
   };
 }
 
-/* ---------------------------- STUDENT PROFILE ---------------------------- */
-VIEW_RENDERERS['profile'] = async (mount) => {
-  const [userData, progress, attempts] = await Promise.all([
-    Api.me().catch(() => S.user),
-    Api.myProgress().catch(() => ({ level: S.user.level || 'Beginner', xp: S.user.xp || 0, streak: S.user.streak || 0, badges: [] })),
-    Api.myTestAttempts().catch(() => []),
-  ]);
 
-  if (userData) {
-    S.user = { ...S.user, ...userData };
-  }
-  const u = S.user;
-  const userClass = (u.batch || '').trim().toUpperCase();
-
-  mount.innerHTML = `
-    <div class="col gap-lg" style="max-width:960px;margin:0 auto">
-      <!-- Profile Header Hero -->
-      <div class="card" style="padding:28px 24px;background:linear-gradient(135deg, rgba(34,211,238,0.08) 0%, rgba(139,92,246,0.08) 100%);border:1px solid rgba(255,255,255,0.08)">
-        <div class="row gap-md" style="align-items:center;flex-wrap:wrap">
-          ${avatarHTML(u.name, 72)}
-          <div class="col" style="flex:1;min-width:240px">
-            <div class="row gap-xs" style="align-items:center;margin-bottom:4px">
-              <h2 style="font-size:24px;font-weight:700;color:var(--cream)">${esc(u.name)}</h2>
-              <span class="pill sprout" style="font-size:11px;font-weight:700">Active Student</span>
-              ${u.emailVerified ? `<span class="pill cyan" style="font-size:11px"><i class="bi bi-patch-check-fill"></i> Verified</span>` : ''}
-            </div>
-            <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:8px">
-              <b>${esc(u.email)}</b> &middot; Department of <b>${esc(u.department || 'Engineering')}</b>
-            </div>
-            <div class="row gap-xs" style="flex-wrap:wrap;align-items:center">
-              <span class="pill ${levelColor(u.level || 'Beginner')}" style="font-weight:700;font-size:12px">
-                Proficiency: ${esc(u.level || 'Beginner')}
-              </span>
-              <span class="pill cyan" style="font-weight:700;font-size:12px">
-                <i class="bi bi-mortarboard-fill"></i> Enrolled Class: ${esc(userClass || 'Not Assigned')}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Quick Metrics Grid -->
-      <div class="grid grid-4">
-        <div class="card col gap-xs" style="text-align:center">
-          <div class="eyebrow">Proficiency Level</div>
-          <div style="font-size:22px;font-weight:800;color:var(--cyan)">${esc(u.level || 'Beginner')}</div>
-        </div>
-        <div class="card col gap-xs" style="text-align:center">
-          <div class="eyebrow">Total XP</div>
-          <div style="font-size:22px;font-weight:800;color:var(--amber)">${u.xp || 0} <span style="font-size:13px;font-weight:600">XP</span></div>
-        </div>
-        <div class="card col gap-xs" style="text-align:center">
-          <div class="eyebrow">Daily Streak</div>
-          <div style="font-size:22px;font-weight:800;color:var(--coral)">${u.streak || 0} <span style="font-size:13px;font-weight:600">days</span></div>
-        </div>
-        <div class="card col gap-xs" style="text-align:center">
-          <div class="eyebrow">Tests Completed</div>
-          <div style="font-size:22px;font-weight:800;color:var(--sprout)">${attempts.length}</div>
-        </div>
-      </div>
-
-      <!-- Account Credentials & Academic Details Table -->
-      <div class="card col gap-sm">
-        <div class="section-title"><i class="bi bi-person-badge"></i> Account Credentials & Details</div>
-        <div class="table-wrap">
-          <table style="width:100%">
-            <tbody>
-              <tr>
-                <td style="width:200px;font-weight:600;color:var(--cream-faint);padding:10px 14px">Student ID (_id)</td>
-                <td style="font-family:monospace;font-size:13px;color:var(--cream)">${esc(u._id || u.id || 'N/A')}</td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">College Email</td>
-                <td style="font-size:13px;color:var(--cream)">${esc(u.email || '')}</td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Enrolled Class</td>
-                <td><span class="pill cyan" style="font-weight:700;font-size:12px"><i class="bi bi-mortarboard-fill"></i> ${esc(userClass || 'Not Assigned')}</span></td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Department</td>
-                <td style="font-size:13px;color:var(--cream)">${esc(u.department || 'Engineering')}</td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Institution</td>
-                <td style="font-size:13px;color:var(--cream)">${esc(u.institution || 'PSG Institute of Technology and Applied Research')}</td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Email Verification</td>
-                <td><span class="pill sprout" style="font-size:11px">Verified</span></td>
-              </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Account Status</td>
-                <td><span class="pill sprout" style="font-size:11px">Active</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Recent Test History -->
-      <div class="card col gap-sm">
-        <div class="section-title"><i class="bi bi-clock-history"></i> Recent Test Attempts</div>
-        ${attempts.length ? `
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Test Title</th>
-                  <th>Category</th>
-                  <th>Score</th>
-                  <th>Date</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${attempts.slice(0, 5).map(a => `
-                  <tr>
-                    <td style="font-weight:600">${esc(a.test?.title || 'Test')}</td>
-                    <td><span class="pill" style="font-size:11px">${esc(a.test?.category || 'General')}</span></td>
-                    <td>
-                      <span class="pill" style="color:${scoreColor(a.score)};border-color:transparent;font-weight:700">
-                        ${a.score}%
-                      </span>
-                    </td>
-                    <td style="font-size:12px;color:var(--cream-faint)">${timeAgo(a.createdAt)}</td>
-                  </tr>
-                `).join('')}
-              </tbody>
-            </table>
-          </div>
-        ` : `
-          <div class="empty-state" style="padding:24px">
-            No tests taken yet &mdash; visit the <b>Tests</b> tab to complete assigned quizzes!
-          </div>
-        `}
-      </div>
-    </div>
-  `;
-};
