@@ -77,6 +77,57 @@ function parseVerificationVerdict(responseContent, thinking = '') {
 }
 
 /**
+ * Developer Terminal Logger for Pipeline Routing & Source Verification (Dev Only)
+ */
+function logDevRouting({ question, route, intent, sources = [], ragSources = [], engine, latencyMs, verdict = null }) {
+  if (process.env.NODE_ENV === 'test' && !process.env.DEBUG_PIPELINE) return;
+  const isDev = process.env.NODE_ENV !== 'production';
+  if (!isDev && !process.env.DEBUG_PIPELINE) return;
+
+  const cyan = '\x1b[36m';
+  const green = '\x1b[32m';
+  const yellow = '\x1b[33m';
+  const magenta = '\x1b[35m';
+  const gray = '\x1b[90m';
+  const bold = '\x1b[1m';
+  const reset = '\x1b[0m';
+
+  const webStatus = sources && sources.length > 0
+    ? `${green}${bold}ACTIVE (${sources.length} sources)${reset}`
+    : `${gray}INACTIVE${reset}`;
+
+  const ragStatus = ragSources && ragSources.length > 0
+    ? `${green}${bold}ACTIVE (${ragSources.length} chunks matched)${reset}`
+    : `${gray}INACTIVE${reset}`;
+
+  const shortQuery = question.length > 70 ? `${question.slice(0, 67)}...` : question;
+
+  console.log(`\n${bold}${cyan}╔══════════════════════ [LINGROW DEV PIPELINE ROUTING] ══════════════════════╗${reset}`);
+  console.log(`${cyan}║${reset} ${bold}Query:${reset}        "${shortQuery}"`);
+  console.log(`${cyan}║${reset} ${bold}Lane/Route:${reset}   ${magenta}${route}${reset}`);
+  console.log(`${cyan}║${reset} ${bold}Web Search:${reset}   ${webStatus}`);
+  if (sources && sources.length > 0) {
+    sources.forEach((s, idx) => {
+      console.log(`${cyan}║${reset}   ${yellow}🌐 [Web ${idx + 1}]${reset} ${s.title || s.source || s.url} ${gray}(${s.url || ''})${reset}`);
+    });
+  }
+  console.log(`${cyan}║${reset} ${bold}RAG Search:${reset}   ${ragStatus}`);
+  if (ragSources && ragSources.length > 0) {
+    ragSources.forEach((r, idx) => {
+      const matchScore = r.score != null ? ` [Relevance: ${r.score}%]` : '';
+      console.log(`${cyan}║${reset}   ${yellow}📚 [RAG ${idx + 1}]${reset} ${r.title} ${r.section ? `(${r.section})` : ''}${matchScore}`);
+    });
+  }
+  console.log(`${cyan}║${reset} ${bold}Engine:${reset}       ${engine}`);
+  if (verdict) {
+    const verdictColor = verdict.isCorrect ? green : yellow;
+    console.log(`${cyan}║${reset} ${bold}Verifier:${reset}     ${verdictColor}${verdict.verdict} (${verdict.isCorrect ? 'VALID' : 'CORRECTED'})${reset}`);
+  }
+  console.log(`${cyan}║${reset} ${bold}Latency:${reset}      ${latencyMs}ms`);
+  console.log(`${cyan}╚════════════════════════════════════════════════════════════════════╝${reset}\n`);
+}
+
+/**
  * Main Latency-Optimized Answer Pipeline
  */
 async function answerQuestion({
@@ -103,6 +154,7 @@ async function answerQuestion({
 
   let referenceContext = '';
   let collectedSources = [];
+  let collectedRagSources = [];
 
   // Step 2: Context Retrieval (only when flagged)
   if (intent.needsWeb) {
@@ -117,9 +169,20 @@ async function answerQuestion({
 
   if (intent.needsRag && userId) {
     try {
-      const ragResult = await retrieveDocumentContext(userId, intent.searchQuery || question, 3);
+      const targetDept = studentProfile?.department || 'CSE';
+      const ragResult = await retrieveDocumentContext(userId, intent.searchQuery || question, 3, targetDept);
       if (ragResult.formattedContext) {
-        referenceContext += `\n\n--- UPLOADED COURSE DOCUMENTS ---\n${ragResult.formattedContext}`;
+        referenceContext += `\n\n--- UPLOADED COURSE & DEPARTMENT STUDY DOCUMENTS ---\n${ragResult.formattedContext}`;
+      }
+      if (ragResult.chunks && Array.isArray(ragResult.chunks)) {
+        collectedRagSources.push(
+          ...ragResult.chunks.map((c) => ({
+            title: c.docTitle,
+            section: c.chunkIndex != null ? `Section ${c.chunkIndex + 1}` : '',
+            score: c.score != null ? Math.round(c.score * 100) : null,
+            textSnippet: (c.text || '').slice(0, 150) + (c.text && c.text.length > 150 ? '...' : ''),
+          }))
+        );
       }
     } catch (e) {}
   }
@@ -162,18 +225,29 @@ async function answerQuestion({
             model: fastModel,
             messages,
             temperature: 0.7,
-            numPredict: 256,
+            numPredict: 1024,
             onToken,
           })
         : await chatCompletion({
             model: fastModel,
             messages,
             temperature: 0.7,
-            numPredict: 256,
+            numPredict: 1024,
           });
 
       const reply = res.content.trim();
       const latencyMs = Date.now() - startTime;
+
+      logDevRouting({
+        question,
+        route: 'fast_single_pass',
+        intent,
+        sources: [],
+        ragSources: [],
+        engine: `Small Fast Model (${fastModel}) [Single Pass]`,
+        latencyMs,
+        verdict: null,
+      });
 
       return {
         reply,
@@ -187,6 +261,8 @@ async function answerQuestion({
           wasCorrected: false,
         },
         sources: [],
+        ragSources: [],
+        ragUsed: false,
         engine: `Small Fast Model (${fastModel}) [Single Pass]`,
         pipelineRoute: 'fast_single_pass',
         intent,
@@ -208,6 +284,17 @@ async function answerQuestion({
         }
         const latencyMs = Date.now() - startTime;
 
+        logDevRouting({
+          question,
+          route: 'grammar_detector_explainer',
+          intent,
+          sources: [],
+          ragSources: [],
+          engine: `Deterministic GEC Detector + Fast Explainer (${fastModel})`,
+          latencyMs,
+          verdict: null,
+        });
+
         return {
           reply,
           draft: reply,
@@ -220,6 +307,8 @@ async function answerQuestion({
             wasCorrected: false,
           },
           sources: [],
+          ragSources: [],
+          ragUsed: false,
           engine: `Deterministic GEC Detector + Fast Explainer (${fastModel})`,
           pipelineRoute: 'grammar_detector_explainer',
           intent,
@@ -235,18 +324,29 @@ async function answerQuestion({
             model: fastModel,
             messages: explainerPrompt.messages,
             temperature: 0.3,
-            numPredict: 300,
+            numPredict: 768,
             onToken,
           })
         : await chatCompletion({
             model: fastModel,
             messages: explainerPrompt.messages,
             temperature: 0.3,
-            numPredict: 300,
+            numPredict: 768,
           });
 
       const explanation = res.content.trim() || `Correction: "${gecReport.correctedText}"`;
       const latencyMs = Date.now() - startTime;
+
+      logDevRouting({
+        question,
+        route: 'grammar_detector_explainer',
+        intent,
+        sources: [],
+        ragSources: [],
+        engine: `Deterministic GEC Detector + Fast Explainer (${fastModel})`,
+        latencyMs,
+        verdict: null,
+      });
 
       return {
         reply: explanation,
@@ -260,6 +360,8 @@ async function answerQuestion({
           wasCorrected: false,
         },
         sources: [],
+        ragSources: [],
+        ragUsed: false,
         engine: `Deterministic GEC Detector + Fast Explainer (${fastModel})`,
         pipelineRoute: 'grammar_detector_explainer',
         intent,
@@ -282,14 +384,14 @@ async function answerQuestion({
           model: draftModel,
           messages: draftMessages,
           temperature: 0.7,
-          numPredict: 384,
+          numPredict: 1536,
           onToken,
         })
       : await chatCompletion({
           model: draftModel,
           messages: draftMessages,
           temperature: 0.7,
-          numPredict: 512,
+          numPredict: 1536,
         });
 
     const draftText = draftRes.content.trim();
@@ -300,37 +402,43 @@ async function answerQuestion({
       model: verifierModel,
       messages: verifyPrompt.messages,
       temperature: 0.1,
-      numPredict: 150, // Short budget for structured JSON verdict
+      numPredict: 256,
     });
 
     const verdict = parseVerificationVerdict(verifyRes.content, verifyRes.thinking);
     let finalAnswer = draftText;
     let wasCorrected = false;
 
-    // Correction pass only if verifier flags INCORRECT
-    if (!verdict.isCorrect) {
-      if (typeof onToken === 'function') {
-        const note = `\n\n*(Coach Revision Note: ${verdict.feedback})*`;
-        onToken(note);
-        finalAnswer += note;
-        wasCorrected = true;
-      } else {
-        const correctionPrompt = buildCorrectionPrompt(question, draftText, verdict.feedback, referenceContext);
-        const correctionRes = await chatCompletion({
-          model: draftModel,
-          messages: correctionPrompt.messages,
-          temperature: 0.3,
-          numPredict: 512,
-        });
+    // Fast Feedback Loop: Conditional correction only on verified error in non-streaming mode
+    if (!verdict.isCorrect && typeof onToken !== 'function') {
+      const correctionPrompt = buildCorrectionPrompt(question, draftText, verdict.feedback, referenceContext);
+      const correctionRes = await chatCompletion({
+        model: draftModel,
+        messages: correctionPrompt.messages,
+        temperature: 0.3,
+        numPredict: 1536,
+      });
 
-        if (correctionRes.content && correctionRes.content.trim().length > 10) {
-          finalAnswer = correctionRes.content.trim();
-          wasCorrected = true;
-        }
+      if (correctionRes.content && correctionRes.content.trim().length > 10) {
+        finalAnswer = correctionRes.content.trim();
+        wasCorrected = true;
       }
     }
 
     const latencyMs = Date.now() - startTime;
+    const ragUsed = collectedRagSources.length > 0;
+    const liveWebDataUsed = collectedSources.length > 0;
+
+    logDevRouting({
+      question,
+      route: 'complex_verified_chain',
+      intent,
+      sources: collectedSources,
+      ragSources: collectedRagSources,
+      engine: `Draft (${draftModel}) + Fast Verifier (${verifierModel})`,
+      latencyMs,
+      verdict,
+    });
 
     return {
       reply: finalAnswer,
@@ -344,11 +452,13 @@ async function answerQuestion({
         wasCorrected,
       },
       sources: collectedSources,
+      ragSources: collectedRagSources,
+      ragUsed,
+      liveWebDataUsed,
       engine: `Draft (${draftModel}) + Fast Verifier (${verifierModel})`,
       pipelineRoute: 'complex_verified_chain',
       intent,
       latencyMs,
-      liveWebDataUsed: collectedSources.length > 0,
     };
   } catch (ollamaErr) {
     // Graceful fallback to embedded LinGrow Neural Engine
@@ -365,6 +475,20 @@ async function answerQuestion({
     }
 
     const latencyMs = Date.now() - startTime;
+    const ragUsed = collectedRagSources.length > 0;
+    const liveWebDataUsed = collectedSources.length > 0;
+
+    logDevRouting({
+      question,
+      route: 'fallback_neural_engine',
+      intent,
+      sources: collectedSources,
+      ragSources: collectedRagSources,
+      engine: 'LinGrow Local Neural Engine (In-Process Fallback)',
+      latencyMs,
+      verdict: null,
+    });
+
     return {
       reply: fallbackRes.reply,
       draft: fallbackRes.reply,
@@ -377,11 +501,13 @@ async function answerQuestion({
         wasCorrected: false,
       },
       sources: collectedSources,
+      ragSources: collectedRagSources,
+      ragUsed,
+      liveWebDataUsed,
       engine: 'LinGrow Local Neural Engine (In-Process Fallback)',
       pipelineRoute: 'fallback_neural_engine',
       intent,
       latencyMs,
-      liveWebDataUsed: collectedSources.length > 0,
     };
   }
 }

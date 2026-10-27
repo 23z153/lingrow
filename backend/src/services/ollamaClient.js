@@ -18,6 +18,9 @@ const OLLAMA_BASE = process.env.OLLAMA_BASE_URL || 'http://127.0.0.1:11434';
 let DEFAULT_FAST_MODEL = process.env.FAST_MODEL || process.env.PRIMARY_MODEL || process.env.LOCAL_LLM_MODEL || 'qwen2.5:3b';
 let DEFAULT_DRAFT_MODEL = process.env.DRAFT_MODEL || process.env.PRIMARY_MODEL || 'qwen2.5:7b';
 let DEFAULT_VERIFIER_MODEL = process.env.VERIFIER_MODEL || 'qwen2.5:3b';
+let DEFAULT_EMBED_MODEL = process.env.EMBED_MODEL || 'nomic-embed-text';
+const DEFAULT_NUM_CTX = parseInt(process.env.OLLAMA_NUM_CTX, 10) || 8192;
+const DEFAULT_NUM_PREDICT = parseInt(process.env.OLLAMA_NUM_PREDICT, 10) || 1536;
 
 let cachedModels = null;
 let lastModelCheck = 0;
@@ -132,7 +135,14 @@ async function getModelConfig() {
 /**
  * Execute a chat completion call to Ollama
  */
-async function chatCompletion({ model, messages, temperature = 0.7, numPredict = 512, timeoutMs = 45000 }) {
+async function chatCompletion({
+  model,
+  messages,
+  temperature = 0.7,
+  numPredict = DEFAULT_NUM_PREDICT,
+  numCtx = DEFAULT_NUM_CTX,
+  timeoutMs = 60000,
+}) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -148,6 +158,7 @@ async function chatCompletion({ model, messages, temperature = 0.7, numPredict =
         options: {
           temperature,
           num_predict: numPredict,
+          num_ctx: numCtx,
         },
         keep_alive: '10m',
       }),
@@ -178,7 +189,15 @@ async function chatCompletion({ model, messages, temperature = 0.7, numPredict =
 /**
  * Execute a streaming chat completion call to Ollama
  */
-async function streamChatCompletion({ model, messages, temperature = 0.7, numPredict = 512, timeoutMs = 60000, onToken }) {
+async function streamChatCompletion({
+  model,
+  messages,
+  temperature = 0.7,
+  numPredict = DEFAULT_NUM_PREDICT,
+  numCtx = DEFAULT_NUM_CTX,
+  timeoutMs = 75000,
+  onToken,
+}) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -194,6 +213,7 @@ async function streamChatCompletion({ model, messages, temperature = 0.7, numPre
         options: {
           temperature,
           num_predict: numPredict,
+          num_ctx: numCtx,
         },
         keep_alive: '10m',
       }),
@@ -271,6 +291,42 @@ async function streamChatCompletion({ model, messages, temperature = 0.7, numPre
   }
 }
 
+/**
+ * Generate vector embedding for a string or array of strings using Ollama embed endpoint
+ */
+async function embedText(input, model = DEFAULT_EMBED_MODEL, timeoutMs = 15000) {
+  if (!input) return null;
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const res = await fetch(`${OLLAMA_BASE}/api/embed`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      signal: controller.signal,
+      body: JSON.stringify({
+        model,
+        input,
+      }),
+    });
+
+    clearTimeout(timeoutId);
+
+    if (!res.ok) {
+      return null;
+    }
+
+    const data = await res.json();
+    if (data.embeddings && data.embeddings.length > 0) {
+      return Array.isArray(input) ? data.embeddings : data.embeddings[0];
+    }
+    return null;
+  } catch (err) {
+    clearTimeout(timeoutId);
+    return null;
+  }
+}
+
 module.exports = {
   OLLAMA_BASE,
   DEFAULT_PRIMARY: DEFAULT_FAST_MODEL,
@@ -278,9 +334,13 @@ module.exports = {
   DEFAULT_DRAFT_MODEL,
   DEFAULT_VERIFIER_MODEL,
   DEFAULT_VERIFIER: DEFAULT_VERIFIER_MODEL,
+  DEFAULT_EMBED_MODEL,
+  DEFAULT_NUM_CTX,
+  DEFAULT_NUM_PREDICT,
   listInstalledModels,
   getModelConfig,
   chatCompletion,
   streamChatCompletion,
+  embedText,
 };
 

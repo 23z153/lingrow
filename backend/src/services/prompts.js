@@ -40,7 +40,9 @@ function buildFastSinglePassPrompt(question, studentProfile = null) {
  * Section 12: Complex / Factual Draft Prompt
  */
 function buildDraftPrompt(question, context = '', studentProfile = null) {
-  let systemPrompt = `${SYSTEM_PREFIX_COACH}\nAnswer clearly and accurately. Rely on supplied reference data when present.`;
+  let systemPrompt = `${SYSTEM_PREFIX_COACH}\nAnswer the user's question directly, clearly, and accurately.
+If relevant reference data is provided below, incorporate it naturally into your answer.
+Do not mention or cite reference sources that are irrelevant to the question, and never explain what the reference data does or does not contain.`;
 
   if (studentProfile && studentProfile.name) {
     systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;

@@ -25,6 +25,55 @@ function cleanText(text) {
 }
 
 /**
+ * Detect whether query pertains to technology, software, or computer engineering
+ */
+function isTechQuery(query) {
+  const TECH_KEYWORDS = [
+    'ai', 'llm', 'software', 'programming', 'developer', 'startup', 'tech', 'coding',
+    'framework', 'library', 'database', 'system', 'linux', 'hardware', 'crypto',
+    'algorithm', 'cyber', 'security', 'hack', 'app', 'web', 'cloud', 'aws', 'docker',
+    'kubernetes', 'python', 'javascript', 'react', 'node', 'rust', 'golang', 'git',
+    'devops', 'backend', 'frontend', 'engineering', 'computer', 'server', 'api'
+  ];
+  const words = (query || '').toLowerCase().split(/\W+/);
+  return words.some((w) => TECH_KEYWORDS.includes(w));
+}
+
+/**
+ * Filter sources to ensure they are strictly relevant to the query terms
+ */
+function filterRelevantSources(sources, query) {
+  const stopWords = new Set([
+    'who', 'is', 'what', 'where', 'when', 'why', 'how', 'the', 'a', 'an',
+    'and', 'or', 'to', 'in', 'on', 'at', 'for', 'of', 'with', 'about',
+    'can', 'you', 'tell', 'me'
+  ]);
+  const queryTerms = (query || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .split(/\s+/)
+    .filter((w) => w.length > 1 && !stopWords.has(w));
+
+  if (queryTerms.length === 0) return sources;
+
+  // Prefer sources whose title explicitly contains at least one query term
+  const titleMatches = sources.filter((s) => {
+    const t = (s.title || '').toLowerCase();
+    return queryTerms.some((term) => t.includes(term));
+  });
+
+  if (titleMatches.length > 0) {
+    return titleMatches;
+  }
+
+  // Fallback: snippet contains query terms
+  return sources.filter((s) => {
+    const text = `${s.title} ${s.snippet}`.toLowerCase();
+    return queryTerms.some((term) => text.includes(term));
+  });
+}
+
+/**
  * Search Wikipedia for encyclopedic background & definitions
  */
 async function searchWikipedia(query, limit = 2) {
@@ -48,6 +97,7 @@ async function searchWikipedia(query, limit = 2) {
     if (data.query && data.query.pages) {
       return Object.values(data.query.pages)
         .filter((p) => p.extract && p.extract.length > 30)
+        .sort((a, b) => (a.index || 99) - (b.index || 99))
         .map((p) => ({
           title: p.title,
           url: `https://en.wikipedia.org/wiki/${encodeURIComponent(p.title.replace(/\s+/g, '_'))}`,
@@ -72,7 +122,7 @@ async function searchHackerNews(query, limit = 3) {
 
     const url = `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(
       query
-    )}&tags=story&hitsPerPage=${limit}`;
+    )}&tags=story&restrictSearchableAttributes=title&hitsPerPage=${limit}`;
 
     const res = await fetch(url, { signal: controller.signal });
     clearTimeout(timeout);
@@ -141,13 +191,16 @@ async function executeWebSearch(query, maxSources = 4) {
   const cleanQ = (query || '').trim();
   if (!cleanQ) return { sources: [], formattedContext: '' };
 
-  const [wikiResults, hnResults, devResults] = await Promise.all([
-    searchWikipedia(cleanQ, 2),
-    searchHackerNews(cleanQ, 2),
-    searchDevTo(cleanQ, 2),
-  ]);
+  const isTech = isTechQuery(cleanQ);
 
-  let combined = [...wikiResults, ...hnResults, ...devResults];
+  const searchPromises = [searchWikipedia(cleanQ, 2)];
+  if (isTech) {
+    searchPromises.push(searchHackerNews(cleanQ, 2));
+    searchPromises.push(searchDevTo(cleanQ, 2));
+  }
+
+  const searchResults = await Promise.all(searchPromises);
+  const combined = searchResults.flat();
 
   // Remove duplicates by URL or title
   const seenUrls = new Set();
@@ -159,17 +212,16 @@ async function executeWebSearch(query, maxSources = 4) {
     }
   }
 
-  const selectedSources = uniqueSources.slice(0, maxSources);
+  // Filter sources for keyword relevance to query
+  const relevantSources = filterRelevantSources(uniqueSources, cleanQ);
+  const selectedSources = relevantSources.slice(0, maxSources);
 
-  // Fallback curated sources if offline
   if (selectedSources.length === 0) {
-    selectedSources.push({
-      title: `${cleanQ} — Technical Reference`,
-      url: 'https://developer.mozilla.org',
-      snippet: `Standard documentation and specifications regarding ${cleanQ} in modern software engineering.`,
-      source: 'Official Engineering Docs',
-      date: new Date().toISOString().split('T')[0],
-    });
+    return {
+      sources: [],
+      formattedContext: '',
+      query: cleanQ,
+    };
   }
 
   // Format evidence block for Qwen and DeepSeek prompts

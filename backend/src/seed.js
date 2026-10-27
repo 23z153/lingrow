@@ -9,6 +9,8 @@ const ListeningClip = require('./models/ListeningClip');
 const Lesson = require('./models/Lesson');
 const GrammarTopic = require('./models/GrammarTopic');
 const SituationalPhrase = require('./models/SituationalPhrase');
+const Document = require('./models/Document');
+const { ingestDocument } = require('./services/ragService');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
 
 async function upsertUser({ name, email, password, role, department, batch, section = 'A', assignedClasses = [], level, xp = 0 }) {
@@ -819,6 +821,48 @@ async function run() {
   console.log('[seed] Running Department Content Scraper (50+ Question Bank sets per department)...');
   const scrapeStats = await scrapeDepartmentContent();
   console.log(`[seed] Scraper finished: Created ${scrapeStats.passagesCreated} department passages & ${scrapeStats.clipsCreated} department listening clips.`);
+
+  if ((await Document.countDocuments({ isDepartmentWide: true })) === 0) {
+    console.log('[seed] Ingesting department-wide RAG study notes & interview question banks with semantic vector embeddings...');
+    await ingestDocument({
+      title: 'Operating Systems & Process Concurrency (CSE Core Review)',
+      department: 'CSE',
+      isDepartmentWide: true,
+      tags: ['OS', 'Concurrency', 'Interviews', 'CSE'],
+      text: `Operating Systems Process Management and Concurrency Review:
+A process is a program in execution containing a program counter, stack, data section, and heap. A thread is the smallest unit of execution within a process, sharing code, data, and OS resources with peer threads.
+Race conditions occur when multiple threads access shared data concurrently and the outcome depends on the order of execution. Critical sections are protected using synchronization primitives such as mutex locks and counting semaphores.
+Deadlocks require four simultaneous Coffman conditions: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Deadlock prevention algorithms like Banker's Algorithm ensure the system stays in a safe state.
+Virtual memory allows the execution of processes that may not be completely in physical memory. Paging divides virtual memory into fixed-size pages and physical memory into frames. The Translation Lookaside Buffer (TLB) acts as a high-speed cache for page table mappings. Page faults trigger OS disk I/O to swap pages into RAM using algorithms like LRU (Least Recently Used) or Clock.`
+    });
+
+    await ingestDocument({
+      title: 'Software Engineering & System Design Placement Guide',
+      department: 'CSE',
+      isDepartmentWide: true,
+      tags: ['System Design', 'Placement', 'Database', 'CSE'],
+      text: `Technical Placement & System Design Fundamentals:
+Relational databases follow ACID properties: Atomicity (all or nothing), Consistency (preserves data validity rules), Isolation (concurrent transactions execute independently), and Durability (committed data survives server crashes).
+Indexing utilizes B-Trees and B+ Trees to accelerate data lookups from O(N) linear scans to O(log N) logarithmic operations. Composite indexes must match the leftmost prefix of query filter conditions.
+RESTful APIs use HTTP verbs predictively: GET for idempotent data retrieval, POST for creating new resource instances, PUT/PATCH for mutations, and DELETE for removals.
+Horizontal scaling expands system throughput by adding worker nodes behind a load balancer, whereas vertical scaling augments hardware capacity (CPU/RAM) on an existing machine. Caching with Redis minimizes database query latency by serving frequently read keys from memory.`
+    });
+
+    await ingestDocument({
+      title: 'Technical Interview Communication & The STAR Framework',
+      department: 'General',
+      isDepartmentWide: true,
+      tags: ['Interview', 'Soft Skills', 'Communication', 'Placement'],
+      text: `Mastering Behavioral and Technical Job Interviews with the STAR Framework:
+1. Situation: Set the scene and describe the context of your project, technical problem, or academic challenge. Keep it concise (15-20% of your answer).
+2. Task: Detail the specific responsibility or challenge you were assigned to solve.
+3. Action: Explain the step-by-step technical implementation, tools used, and problem-solving decisions you made. Focus on "I" rather than vague "we" statements (50-60% of your answer).
+4. Result: Conclude with quantifiable outcomes, lessons learned, or performance metrics achieved (e.g. "reduced latency by 35%" or "delivered the project 3 days ahead of the deadline").
+When asked technical concept questions by interviewers, follow the 3-tier response structure:
+First, give a 1-sentence crisp definition. Second, state a concrete technical or real-world example. Third, discuss trade-offs (time complexity, memory usage, or scalability considerations).`
+    });
+    console.log('[seed] RAG Study Packs successfully embedded and indexed!');
+  }
 
   console.log('[seed] Done. Demo logins:');
   console.log('  student@lingrow.demo / password123');

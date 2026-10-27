@@ -26,6 +26,17 @@ const tutorMessageSchema = new mongoose.Schema(
         date: { type: String },
       },
     ],
+    ragSources: [
+      {
+        title: { type: String },
+        section: { type: String },
+        score: { type: Number },
+        textSnippet: { type: String },
+      },
+    ],
+    ragUsed: { type: Boolean, default: false },
+    liveWebDataUsed: { type: Boolean, default: false },
+    pipelineRoute: { type: String },
     engine: { type: String },
     latencyMs: { type: Number },
     liveTaskSnapshot: { type: Object },

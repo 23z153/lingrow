@@ -4,13 +4,15 @@ const documentChunkSchema = new mongoose.Schema({
   chunkIndex: { type: Number, required: true },
   text: { type: String, required: true },
   keywords: [{ type: String }],
+  embedding: [{ type: Number }],
   charStart: { type: Number },
   charEnd: { type: Number },
 });
 
 const documentSchema = new mongoose.Schema(
   {
-    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, index: true },
+    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+    isDepartmentWide: { type: Boolean, default: false, index: true },
     title: { type: String, required: true },
     filename: { type: String },
     fileType: { type: String, default: 'text' },

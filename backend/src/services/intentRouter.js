@@ -28,7 +28,6 @@ const WEB_SEARCH_TRIGGERS = [
   'trending',
   'trend',
   'breakthrough',
-  'who is',
   'what happened',
   'announcement',
   '2024',

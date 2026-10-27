@@ -2178,7 +2178,13 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
 
   function formatMarkdown(text) {
     if (!text) return '';
-    let html = esc(text);
+    let raw = text;
+    // Auto-close open code fence if incomplete
+    const fenceCount = (raw.match(/```/g) || []).length;
+    if (fenceCount % 2 !== 0) {
+      raw += '\n```';
+    }
+    let html = esc(raw);
     
     // 1. Multi-line Code blocks: ```lang\ncode\n```
     html = html.replace(/```([a-zA-Z0-9_\-\+]*)\n?([\s\S]*?)```/g, (match, lang, code) => {
@@ -2250,7 +2256,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     renderNext();
   }
 
-  function addMsg(role, text, correction = null, verification = null, sources = [], engine = null, draft = null, opts = {}){
+  function addMsg(role, text, correction = null, verification = null, sources = [], engine = null, draft = null, opts = {}, ragSources = [], route = null){
     const hero = $('#chat-empty-hero');
     if (hero) hero.style.display = 'none';
 
@@ -2293,13 +2299,27 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       if (correction) {
         wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(correction)}</div>`));
       }
-      if (role === 'assistant' && sources && sources.length > 0) {
-        const sourceRow = el(`
-          <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
-            ${sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
-          </div>
-        `);
-        wrap.appendChild(sourceRow);
+      if (role === 'assistant') {
+        const pills = [];
+        if (ragSources && ragSources.length > 0) {
+          ragSources.forEach(r => {
+            const scoreLabel = r.score != null ? ` (${r.score}% match)` : '';
+            pills.push(`<span class="source-tag rag-tag" style="background:rgba(99,102,241,0.12);border:1px solid rgba(99,102,241,0.3);color:var(--primary,#6366f1);font-weight:500;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
+          });
+        }
+        if (sources && sources.length > 0) {
+          sources.forEach(s => {
+            pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#10b981;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
+          });
+        }
+        if (pills.length > 0) {
+          const sourceRow = el(`
+            <div class="row gap-xs" style="margin-top:6px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
+              ${pills.join('')}
+            </div>
+          `);
+          wrap.appendChild(sourceRow);
+        }
       }
       log.scrollTop = log.scrollHeight;
     }
@@ -2318,7 +2338,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
     }
   }
 
-  history.forEach(m => addMsg(m.role, m.text, m.correction, m.verification, m.sources, m.engine, m.draft));
+  history.forEach(m => addMsg(m.role, m.text, m.correction, m.verification, m.sources, m.engine, m.draft, {}, m.ragSources, m.pipelineRoute));
 
   // Quick prompt chip click listeners
   mount.querySelectorAll('.chat-prompt-chip').forEach(chip => {
@@ -2389,7 +2409,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         },
         onDone: (event) => {
           ensureBubble();
-          if (!fullText && event.replyText) {
+          if (event.replyText) {
             fullText = event.replyText;
           }
           bubble.innerHTML = formatMarkdown(fullText);
@@ -2425,10 +2445,22 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
             wrap.appendChild(el(`<div class="grammar-hint">💡 Grammar Tip: ${esc(event.correction)}</div>`));
           }
 
-          if (event.sources && event.sources.length > 0 && wrap) {
+          const pills = [];
+          if (event.ragSources && event.ragSources.length > 0) {
+            event.ragSources.forEach(r => {
+              const scoreLabel = r.score != null ? ` (${r.score}% match)` : '';
+              pills.push(`<span class="source-tag rag-tag" style="background:rgba(99,102,241,0.12);border:1px solid rgba(99,102,241,0.3);color:var(--primary,#6366f1);font-weight:500;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
+            });
+          }
+          if (event.sources && event.sources.length > 0) {
+            event.sources.forEach(s => {
+              pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#10b981;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
+            });
+          }
+          if (pills.length > 0 && wrap) {
             const sourceRow = el(`
-              <div class="row gap-xs" style="margin-top:4px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
-                ${event.sources.map(s => `<a href="${esc(s.url || '#')}" target="_blank" class="source-tag">🔗 ${esc(s.title || s.source)}</a>`).join('')}
+              <div class="row gap-xs" style="margin-top:6px;flex-wrap:wrap;animation:fadeIn 0.3s ease">
+                ${pills.join('')}
               </div>
             `);
             wrap.appendChild(sourceRow);

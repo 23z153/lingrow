@@ -52,7 +52,15 @@ router.get('/history', requireAuth, async (req, res) => {
 /* ------------------- Document / RAG Endpoints ------------------- */
 router.get('/documents', requireAuth, async (req, res) => {
   try {
-    const docs = await Document.find({ user: req.user._id }).select('-chunks.keywords').sort({ createdAt: -1 });
+    const userDept = req.user.department || 'CSE';
+    const docs = await Document.find({
+      $or: [
+        { user: req.user._id },
+        { isDepartmentWide: true, department: { $in: [userDept, 'General', 'All'] } },
+      ],
+    })
+      .select('-chunks.keywords -chunks.embedding')
+      .sort({ createdAt: -1 });
     res.json(docs);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -155,6 +163,7 @@ router.post('/message', requireAuth, async (req, res) => {
       const onToken = (token) => {
         try {
           res.write(`data: ${JSON.stringify({ type: 'token', token })}\n\n`);
+          if (typeof res.flush === 'function') res.flush();
         } catch (e) {}
       };
 
@@ -173,6 +182,10 @@ router.post('/message', requireAuth, async (req, res) => {
       const verification = typeof replyResult === 'object' ? replyResult.verification : null;
       const draft = typeof replyResult === 'object' ? replyResult.draft : null;
       const sources = typeof replyResult === 'object' ? replyResult.sources : [];
+      const ragSources = typeof replyResult === 'object' ? replyResult.ragSources : [];
+      const ragUsed = typeof replyResult === 'object' ? Boolean(replyResult.ragUsed) : false;
+      const liveWebDataUsed = typeof replyResult === 'object' ? Boolean(replyResult.liveWebDataUsed) : false;
+      const pipelineRoute = typeof replyResult === 'object' ? replyResult.pipelineRoute : null;
       const engine = typeof replyResult === 'object' ? replyResult.engine : 'Qwen2.5-3B Local Engine';
       const latencyMs = typeof replyResult === 'object' ? replyResult.latencyMs : null;
 
@@ -187,6 +200,10 @@ router.post('/message', requireAuth, async (req, res) => {
         draft,
         verification,
         sources,
+        ragSources,
+        ragUsed,
+        liveWebDataUsed,
+        pipelineRoute,
         engine,
         latencyMs,
         liveTaskSnapshot: liveTaskContext,
@@ -200,6 +217,10 @@ router.post('/message', requireAuth, async (req, res) => {
         draft,
         verification,
         sources,
+        ragSources,
+        ragUsed,
+        liveWebDataUsed,
+        pipelineRoute,
         engine,
         latencyMs,
       })}\n\n`);
@@ -221,6 +242,10 @@ router.post('/message', requireAuth, async (req, res) => {
     const verification = typeof replyResult === 'object' ? replyResult.verification : null;
     const draft = typeof replyResult === 'object' ? replyResult.draft : null;
     const sources = typeof replyResult === 'object' ? replyResult.sources : [];
+    const ragSources = typeof replyResult === 'object' ? replyResult.ragSources : [];
+    const ragUsed = typeof replyResult === 'object' ? Boolean(replyResult.ragUsed) : false;
+    const liveWebDataUsed = typeof replyResult === 'object' ? Boolean(replyResult.liveWebDataUsed) : false;
+    const pipelineRoute = typeof replyResult === 'object' ? replyResult.pipelineRoute : null;
     const engine = typeof replyResult === 'object' ? replyResult.engine : 'Qwen3-8B + DeepSeek-R1 (Local Engine)';
     const latencyMs = typeof replyResult === 'object' ? replyResult.latencyMs : null;
 
@@ -236,6 +261,10 @@ router.post('/message', requireAuth, async (req, res) => {
       draft,
       verification,
       sources,
+      ragSources,
+      ragUsed,
+      liveWebDataUsed,
+      pipelineRoute,
       engine,
       latencyMs,
       liveTaskSnapshot: liveTaskContext,
@@ -247,6 +276,10 @@ router.post('/message', requireAuth, async (req, res) => {
       draft,
       verification,
       sources,
+      ragSources,
+      ragUsed,
+      liveWebDataUsed,
+      pipelineRoute,
       engine,
       latencyMs,
     });

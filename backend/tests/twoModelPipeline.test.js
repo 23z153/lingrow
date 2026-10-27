@@ -42,6 +42,11 @@ describe('Latency-Optimized AI Chatbot Architecture Unit Tests', () => {
       const res2 = classifyIntent(q2);
       expect(res2.needsWeb).toBe(true);
       expect(res2.isFactualComplex).toBe(true);
+
+      // General knowledge queries should not trigger web search
+      const q3 = 'Who is Goku?';
+      const res3 = classifyIntent(q3);
+      expect(res3.needsWeb).toBe(false);
     });
 
     test('detects RAG triggers for course notes and documents', () => {
@@ -159,7 +164,9 @@ describe('Latency-Optimized AI Chatbot Architecture Unit Tests', () => {
       expect(res.latencyMs).toBeGreaterThanOrEqual(0);
       expect(res.intent).toBeDefined();
       expect(res.pipelineRoute).toBeDefined();
-    });
+      expect(Array.isArray(res.ragSources)).toBe(true);
+      expect(typeof res.ragUsed).toBe('boolean');
+    }, 60000);
   });
 });
 
