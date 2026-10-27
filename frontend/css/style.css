@@ -353,7 +353,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
 
 .role-tabs{display:flex; gap:6px; margin-bottom:20px; background:var(--ink-2); border-radius:99px; padding:4px; border:1px solid var(--line);}
 .role-tab{flex:1; text-align:center; padding:10px 0; border-radius:99px; font-size:13px; font-weight:700; color:var(--cream-dim); cursor:pointer; touch-action:manipulation;}
-.role-tab.active{background:var(--purple); color:#F8FAFC;}
+.role-tab.active{background:var(--color-primary); color:var(--color-on-primary);}
 .demo-note{margin-top:16px; font-size:12px; color:var(--cream-faint); line-height:1.6; padding-top:12px; border-top:1px solid var(--line);}
 .form-switch{margin-top:16px; font-size:13px; color:var(--cream-dim); text-align:center;}
 .form-switch b{color:var(--cyan); cursor:pointer; padding:4px;}
@@ -570,8 +570,8 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   color: var(--cream);
 }
 .tutor-act-icon:hover{
-  border-color: var(--purple);
-  color: #FFFFFF;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 .tutor-act-icon.active{
   background: var(--emerald-glow);
@@ -627,7 +627,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   font-family: var(--font-display);
   font-size: 20px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: var(--color-text);
   margin: 0;
 }
 .chat-hero-sub{
@@ -691,12 +691,12 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   width: fit-content;
 }
 .msg.ai{
-  background: var(--panel-2);
+  background: var(--color-surface-2);
   align-self: flex-start;
   border-bottom-left-radius: 4px;
-  color: #F8FAFC;
-  border: 1px solid var(--line);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
 }
 .msg.user{
   background: var(--purple);
@@ -707,12 +707,12 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
 }
 
 .grammar-hint{
-  background: rgba(244, 63, 94, 0.12);
-  border: 1px solid rgba(244, 63, 94, 0.3);
+  background: var(--color-error-soft);
+  border: 1px solid var(--color-error);
   border-radius: 8px;
   padding: 5px 11px;
   font-size: 13px;
-  color: #F8FAFC;
+  color: var(--color-error-text);
   font-weight: 600;
   width: fit-content;
   margin-top: 2px;
@@ -848,7 +848,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   font-style: italic;
 }
 .chat-h2, .chat-h3, .chat-h4{
-  color: #FFFFFF;
+  color: var(--color-text);
   margin: 8px 0 4px 0;
   font-family: var(--font-display);
 }
@@ -858,8 +858,8 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   gap: 8px;
   margin-top: 10px;
   align-items: center;
-  background: var(--ink-2);
-  border: 1px solid var(--line-strong);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
   border-radius: 99px;
   padding: 4px 6px 4px 14px;
 }
@@ -869,7 +869,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   padding: 10px 4px;
   font-size: 15.5px;
   min-height: 42px;
-  color: #FFFFFF;
+  color: var(--color-text);
   flex: 1;
 }
 .chat-input-row input:focus{
@@ -937,10 +937,10 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   color: var(--cream);
 }
 .grammar-cat-pill.active{
-  background: var(--purple);
-  border-color: var(--purple);
-  color: #F8FAFC;
-  box-shadow: 0 4px 14px var(--purple-glow);
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-on-primary);
+  box-shadow: 0 4px 14px var(--color-primary-soft);
 }
 
 .grammar-topic-card{
@@ -1003,8 +1003,8 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   transition: all 0.15s ease;
 }
 .quiz-option-card.selected .quiz-option-letter{
-  background: var(--purple);
-  color: #F8FAFC;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
 }
 
 .rule-summary-box{
@@ -1318,7 +1318,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
 .nav-item svg, .nav-item .bi, .nav-item i { flex-shrink: 0; opacity: .85; }
 .nav-item.active svg, .nav-item.active .bi, .nav-item.active i { opacity: 1; }
 .bi { display: inline-flex; align-items: center; justify-content: center; vertical-align: -0.125em; }
-select option { background: #0F172A; color: #F8FAFC; padding: 8px 12px; }
+select option { background: var(--color-surface); color: var(--color-text); padding: 8px 12px; }
 
 .class-dropdown-item:hover {
   background: rgba(248, 250, 252, 0.06);
