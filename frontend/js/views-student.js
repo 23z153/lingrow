@@ -3460,7 +3460,7 @@ function renderTestsListView(mount, tests) {
     <div class="col gap-md">
       <div class="row" style="background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;flex-wrap:wrap;gap:8px">
         <div style="font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:6px">
-          <i class="bi bi-mortarboard-fill" style="color:var(--sprout)"></i> Your Enrolled Class:
+          ${ICONS.mortarboard} Your Enrolled Class:
           <span class="pill voice" style="font-size:12px;font-weight:700">${esc(S.user.batch || 'General Batch')}</span>
         </div>
         <div class="spacer"></div>
@@ -3657,7 +3657,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
                 Proficiency: ${esc(u.level || 'Beginner')}
               </span>
               <span class="pill cyan" style="font-weight:700;font-size:12px">
-                <i class="bi bi-mortarboard-fill"></i> Enrolled Class: ${esc(userClass || 'Not Assigned')}
+                ${ICONS.mortarboard} Enrolled Class: ${esc(userClass || 'Not Assigned')}
               </span>
             </div>
           </div>
@@ -3686,7 +3686,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
 
       <!-- Account Credentials & Academic Details Table -->
       <div class="card col gap-sm">
-        <div class="section-title"><i class="bi bi-person-badge"></i> Account Credentials & Details</div>
+        <div class="section-title">${ICONS.personBadge} Account Credentials & Details</div>
         <div class="table-wrap">
           <table style="width:100%">
             <tbody>
@@ -3700,7 +3700,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
               </tr>
               <tr>
                 <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Enrolled Class</td>
-                <td><span class="pill cyan" style="font-weight:700;font-size:12px"><i class="bi bi-mortarboard-fill"></i> ${esc(userClass || 'Not Assigned')}</span></td>
+                <td><span class="pill cyan" style="font-weight:700;font-size:12px">${ICONS.mortarboard} ${esc(userClass || 'Not Assigned')}</span></td>
               </tr>
               <tr>
                 <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Department</td>
@@ -3725,7 +3725,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
 
       <!-- Recent Test History -->
       <div class="card col gap-sm">
-        <div class="section-title"><i class="bi bi-clock-history"></i> Recent Test Attempts</div>
+        <div class="section-title">${ICONS.clockHistory} Recent Test Attempts</div>
         ${attempts.length ? `
           <div class="table-wrap">
             <table>

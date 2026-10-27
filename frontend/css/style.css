@@ -1317,7 +1317,7 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
 /* Dropdown Checkbox Component & Bootstrap Icons support */
 .nav-item svg, .nav-item .bi, .nav-item i { flex-shrink: 0; opacity: .85; }
 .nav-item.active svg, .nav-item.active .bi, .nav-item.active i { opacity: 1; }
-.bi { display: inline-flex; align-items: center; justify-content: center; vertical-align: -0.125em; }
+.bi, svg { display: inline-flex; align-items: center; justify-content: center; vertical-align: -0.125em; fill: currentColor; }
 select option { background: var(--color-surface); color: var(--color-text); padding: 8px 12px; }
 
 .class-dropdown-item:hover {

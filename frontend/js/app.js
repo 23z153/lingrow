@@ -64,16 +64,16 @@ function toggleTheme() {
 
 function updateThemeIcons() {
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const iconClass = isDark ? 'bi-sun-fill' : 'bi-moon-stars-fill';
+  const iconSvg = isDark ? (ICONS.sun || '') : (ICONS.moon || '');
   const title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
   const topIcon = document.getElementById('theme-toggle-icon');
   if (topIcon) {
-    topIcon.className = 'bi ' + iconClass;
+    topIcon.innerHTML = iconSvg;
     if (topIcon.parentElement) topIcon.parentElement.title = title;
   }
   const loginIcon = document.getElementById('login-theme-icon');
   if (loginIcon) {
-    loginIcon.className = 'bi ' + iconClass;
+    loginIcon.innerHTML = iconSvg;
     if (loginIcon.parentElement) loginIcon.parentElement.title = title;
   }
 }
@@ -116,7 +116,7 @@ function renderLogin(){
         </button>
       </form>
       <div class="form-switch" style="font-size:12px;color:var(--cream-faint);line-height:1.5;text-align:center">
-        <i class="bi bi-shield-lock-fill" style="color:var(--sprout)"></i> Institutional Access: Student and teacher accounts are provisioned by your college administrator.
+        ${ICONS.shield} Institutional Access: Student and teacher accounts are provisioned by your college administrator.
       </div>
       <div class="demo-note">
         <b style="color:var(--cream)">Demo logins</b> (after running <code>npm run seed</code> on the backend):<br/>
