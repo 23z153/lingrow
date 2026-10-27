@@ -7,29 +7,36 @@ const StoryAttempt = require('../models/StoryAttempt');
 
 router.use(requireAuth, requireRole('teacher', 'admin'));
 
-// Class overview: students assigned to this teacher's classes/sections.
+// Class overview: students list (teachers can view all students, filtered by student class)
 router.get('/students', async (req, res) => {
   try {
     const { batch, section, q } = req.query;
     const filter = { role: 'student' };
-    if (batch) filter.batch = batch;
+    const classFilter = batch || section;
 
-    const teacher = req.user;
-    const teacherAssigned = teacher.assignedClasses || [];
-
-    if (section) {
-      filter.section = section;
-    } else if (teacher.role === 'teacher' && teacherAssigned.length > 0) {
-      filter.section = { $in: teacherAssigned };
+    if (classFilter) {
+      filter.$or = [
+        { batch: new RegExp(`^${classFilter}$`, 'i') },
+        { section: new RegExp(`^${classFilter}$`, 'i') },
+      ];
     }
 
     if (q) {
-      filter.$or = [{ name: new RegExp(q, 'i') }, { email: new RegExp(q, 'i') }];
+      const qRegex = new RegExp(q, 'i');
+      if (filter.$or) {
+        filter.$and = [
+          { $or: filter.$or },
+          { $or: [{ name: qRegex }, { email: qRegex }] }
+        ];
+        delete filter.$or;
+      } else {
+        filter.$or = [{ name: qRegex }, { email: qRegex }];
+      }
     }
 
     const students = await User.find(filter)
       .select('name email level batch section department xp streak status updatedAt')
-      .sort({ section: 1, name: 1 });
+      .sort({ batch: 1, section: 1, name: 1 });
     res.json(students);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -69,20 +76,9 @@ const OFFICIAL_CLASSES = [
   'ECE-A', 'ECE-B', 'EEE'
 ];
 
-// Classes assigned to the teacher + student counts for test creation
+// All institutional classes + student counts for test creation
 router.get('/classes', async (req, res) => {
   try {
-    const teacherUser = await User.findById(req.user._id).select('assignedClasses department');
-    let assigned = (teacherUser && teacherUser.assignedClasses && teacherUser.assignedClasses.length > 0)
-      ? teacherUser.assignedClasses.filter(c => OFFICIAL_CLASSES.includes(c))
-      : (req.user.assignedClasses && req.user.assignedClasses.length > 0
-          ? req.user.assignedClasses.filter(c => OFFICIAL_CLASSES.includes(c))
-          : OFFICIAL_CLASSES);
-
-    if (!assigned || assigned.length === 0) {
-      assigned = OFFICIAL_CLASSES;
-    }
-
     const batchAggregation = await User.aggregate([
       { $match: { role: 'student', batch: { $in: OFFICIAL_CLASSES } } },
       { $group: { _id: '$batch', count: { $sum: 1 } } },
@@ -93,11 +89,11 @@ router.get('/classes', async (req, res) => {
     const classList = OFFICIAL_CLASSES.map((name) => ({
       name,
       studentCount: countMap[name] || 0,
-      isAssigned: assigned.includes(name),
+      isAssigned: true,
     }));
 
     res.json({
-      assignedClasses: assigned,
+      assignedClasses: OFFICIAL_CLASSES,
       classList,
     });
   } catch (err) {

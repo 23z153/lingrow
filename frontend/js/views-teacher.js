@@ -9,13 +9,13 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
       <div class="row" style="margin-bottom:14px;align-items:center">
         <div>
           <div class="section-title" style="margin:0">${ICONS.grid} Managed Students (<span id="student-count">${students.length}</span>)</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Showing students in your assigned classes.</div>
+          <div style="font-size:12.5px;color:var(--cream-dim)">Monitor and manage enrolled students across all classes.</div>
         </div>
         <div class="spacer"></div>
         <div class="row gap-sm" style="align-items:center">
           <label class="field-label" style="margin:0">Filter by Class:</label>
           <select id="teacher-class-filter" style="width:180px;padding:6px 10px;font-size:13px;font-weight:600">
-            <option value="">All Assigned Classes</option>
+            <option value="">All Classes</option>
             <option value="CSE-A">CSE-A</option>
             <option value="CSE-B">CSE-B</option>
             <option value="CSE-C">CSE-C</option>
@@ -69,7 +69,7 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
   $('#teacher-class-filter').onchange = async (e) => {
     const sec = e.target.value;
     try {
-      students = await Api.teacherStudents(sec ? { section: sec } : {});
+      students = await Api.teacherStudents(sec || '');
       renderRows(students);
     } catch (err) { apiError(err); }
   };

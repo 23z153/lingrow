@@ -16,7 +16,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
         <div style="font-size:20px">🔒</div>
         <div>
           <div style="font-weight:700;color:#FFFFFF;font-size:14px">Administrator Account Provisioning Active</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Only accounts created by the Administrator can access the LinGrow AI platform. Teachers can view students filtered by assigned classes.</div>
+          <div style="font-size:12.5px;color:var(--cream-dim)">Only accounts created by the Administrator can access the LinGrow AI platform. Students are enrolled in their respective classes. Teachers have full access across all student classes.</div>
         </div>
       </div>
     </div>
@@ -30,7 +30,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
     <div class="card">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Class / Assigned Classes</th><th>Access Status</th><th>Actions</th></tr></thead>
+          <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Enrolled Class (Students)</th><th>Access Status</th><th>Actions</th></tr></thead>
           <tbody id="user-rows"></tbody>
         </table>
       </div>
@@ -44,9 +44,6 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
       let classDisplay = '—';
       if (u.role === 'student') {
         classDisplay = `<span class="pill sprout" style="font-weight:700">Class ${esc(u.batch || u.section || 'A')}</span>`;
-      } else if (u.role === 'teacher') {
-        const assigned = Array.isArray(u.assignedClasses) && u.assignedClasses.length ? u.assignedClasses.join(', ') : 'A, B';
-        classDisplay = `<span class="pill voice">Assigned: Classes ${esc(assigned)}</span>`;
       }
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
@@ -90,17 +87,14 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
                 <option value="D" ${u.section==='D'?'selected':''}>Class D</option>
               </select>
             </div>
-            <div id="me-assigned-wrap" style="display:${u.role==='teacher'?'block':'none'}">
-              <label class="field-label">Teacher Assigned Classes (comma separated)</label>
-              <input type="text" id="me-assigned" value="${esc((u.assignedClasses||[]).join(', '))}" placeholder="e.g. A, B">
-            </div>
+
             <button class="btn btn-primary" id="me-submit" style="margin-top:10px">Save Changes</button>
           </div>
         `, () => {
           $('#me-role').onchange = (e) => {
             const val = e.target.value;
             $('#me-sec-wrap').style.display = val === 'student' ? 'block' : 'none';
-            $('#me-assigned-wrap').style.display = val === 'teacher' ? 'block' : 'none';
+            
           };
           $('#me-submit').onclick = async () => {
             try {
@@ -110,7 +104,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
                 role: $('#me-role').value,
                 department: $('#me-dept').value,
                 section: $('#me-sec').value,
-                assignedClasses: $('#me-assigned').value,
+                assignedClasses: [],
               });
               closeModal();
               toast('User account updated successfully', 'sprout');
@@ -175,17 +169,14 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
         </select>
       </div>
 
-      <div id="m-assigned-wrap" style="display:none">
-        <label class="field-label">Teacher Assigned Classes (comma separated)</label>
-        <input type="text" id="m-assigned" placeholder="e.g. A, B">
-      </div>
+
 
       <button class="btn btn-primary" id="m-submit" style="margin-top:8px">${ICONS.userplus} Create Account &amp; Grant Access</button>
     </div>`, ()=>{
       $('#m-role').onchange = (e) => {
         const val = e.target.value;
         $('#m-sec-wrap').style.display = val === 'student' ? 'block' : 'none';
-        $('#m-assigned-wrap').style.display = val === 'teacher' ? 'block' : 'none';
+        
       };
 
       $('#m-submit').onclick = async ()=>{
@@ -197,7 +188,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
             role: $('#m-role').value,
             department: $('#m-dept').value,
             section: $('#m-sec').value,
-            assignedClasses: $('#m-assigned').value,
+            assignedClasses: [],
           });
           closeModal();
           toast('Account provisioned & granted access', 'sprout');
@@ -208,7 +199,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
 
   $('#bulk-user-btn').onclick = ()=> openModal(`
     <h3 style="margin-bottom:10px">Bulk Import User Accounts</h3>
-    <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,section,assignedClasses</span></p>
+    <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,class</span> (class applies to students only).</p>
     <textarea id="m-csv" rows="8" placeholder="Rahul Sharma,rahul@college.edu,pass1234,student,CSE,A\nDr. Priya,priya@college.edu,pass1234,teacher,English,,A;B"></textarea>
     <button class="btn btn-primary" id="m-bulk-submit" style="margin-top:14px">Import &amp; Grant Access</button>
     <div id="bulk-result" style="margin-top:12px;font-size:13px"></div>`, ()=>{
@@ -217,8 +208,8 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
         const rows = lines
           .filter(l=> !/^name\s*,/i.test(l))
           .map(l=>{
-            const [name,email,password,role,department,section,assignedClasses] = l.split(',').map(x=>x?.trim());
-            return { name, email, password, role, department, section: section || 'A', assignedClasses: assignedClasses ? assignedClasses.split(';') : [] };
+            const [name,email,password,role,department,cls] = l.split(',').map(x=>x?.trim());
+            return { name, email, password, role, department, batch: (role === 'student' ? (cls || 'CSE-A') : ''), section: (role === 'student' ? (cls || 'A') : '') };
           });
         try{
           const res = await Api.adminBulkUsers(rows);

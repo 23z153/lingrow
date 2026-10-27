@@ -54,14 +54,14 @@ async function run() {
     ]
   });
 
-  // Demo Teacher with all 10 official classes
+  // Demo Teacher
   await upsertUser({
     name: 'Dr. Lakshmi Menon',
     email: 'teacher@lingrow.demo',
     password: 'password123',
     role: 'teacher',
     department: 'English',
-    assignedClasses: OFFICIAL_CLASSES
+    assignedClasses: []
   });
 
   // Demo Admin
