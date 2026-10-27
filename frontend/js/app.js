@@ -32,10 +32,10 @@ function hashStr(s){ let h=0; for(let i=0;i<s.length;i++){ h=(h<<5)-h+s.charCode
 function initials(name){ return (name||'?').split(' ').map(w=>w[0]).slice(0,2).join('').toUpperCase(); }
 function avatarHTML(name, size=38){
   const c = AVATAR_COLORS[Math.abs(hashStr(name||''))%AVATAR_COLORS.length];
-  return `<div class="avatar" style="width:${size}px;height:${size}px;background:${c};color:#F8FAFC;font-size:${size*0.36}px">${initials(name)}</div>`;
+  return `<div class="avatar" style="width:${size}px;height:${size}px;background:${c};color:var(--color-on-bright);font-size:${size*0.36}px">${initials(name)}</div>`;
 }
 function levelColor(level){ return level==='Beginner' ? 'cyan' : level==='Intermediate' ? 'purple' : 'amber'; }
-function scoreColor(s){ return s>=80?'var(--emerald)': s>=60?'var(--amber)':'var(--coral)'; }
+function scoreColor(s){ return s>=80?'var(--color-success-text)': s>=60?'var(--color-streak-text)':'var(--color-error-text)'; }
 function timeAgo(iso){
   const d = (Date.now() - new Date(iso).getTime())/1000;
   if (d<60) return 'just now';
@@ -43,6 +43,41 @@ function timeAgo(iso){
   if (d<86400) return Math.floor(d/3600)+'h ago';
   return Math.floor(d/86400)+'d ago';
 }
+
+
+/* ---------------------------- THEME MANAGEMENT (LIGHT DEFAULT / DARK) ---------------------------- */
+function initTheme() {
+  const saved = localStorage.getItem('lingrow_theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (prefersDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+  updateThemeIcons();
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('lingrow_theme', next);
+  updateThemeIcons();
+}
+
+function updateThemeIcons() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const iconClass = isDark ? 'bi-sun-fill' : 'bi-moon-stars-fill';
+  const title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+  const topIcon = document.getElementById('theme-toggle-icon');
+  if (topIcon) {
+    topIcon.className = 'bi ' + iconClass;
+    if (topIcon.parentElement) topIcon.parentElement.title = title;
+  }
+  const loginIcon = document.getElementById('login-theme-icon');
+  if (loginIcon) {
+    loginIcon.className = 'bi ' + iconClass;
+    if (loginIcon.parentElement) loginIcon.parentElement.title = title;
+  }
+}
+initTheme();
 
 /* ---------------------------- LOGIN / REGISTER ---------------------------- */
 let loginMode = 'login';
@@ -96,6 +131,10 @@ function renderLogin(){
     const pct = 25 + Math.round(Math.abs(Math.sin(i * 0.45)) * 70);
     waveEl.appendChild(el(`<span style="height:${pct}%;animation-delay:${(i*0.06).toFixed(2)}s"></span>`));
   }
+
+  const lThemeBtn = $('#login-theme-toggle-btn');
+  if (lThemeBtn) lThemeBtn.onclick = toggleTheme;
+  updateThemeIcons();
 
   $all2('#role-tabs .role-tab').forEach(tab=>{
     tab.onclick = ()=>{ loginRole = tab.dataset.role; renderLogin(); };
@@ -316,7 +355,7 @@ function renderTopbar(){
     `;
   }
   const banner = (S.user && !S.user.emailVerified) ? `
-    <div id="verify-banner" style="grid-column:1/-1;width:100%;background:#fff8e1;color:#7a5b00;border:1px solid #f0d98a;border-radius:8px;padding:8px 12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap">
+    <div id="verify-banner" style="grid-column:1/-1;width:100%;background:var(--color-streak-soft);color:var(--color-streak-text);border:1px solid var(--color-streak);border-radius:8px;padding:8px 12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap">
       <span>Verify your email for full access.</span>
       <b id="verify-resend-trigger" style="cursor:pointer;text-decoration:underline">Resend</b>
       <span id="verify-resend-status" style="opacity:.8"></span>
@@ -332,6 +371,9 @@ function renderTopbar(){
       </div>
       <div class="spacer"></div>
       ${right ? `<div class="topbar-chips row gap-xs">${right}</div>` : ''}
+      <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
+        <i class="bi bi-moon-stars-fill" id="theme-toggle-icon"></i>
+      </button>
     </div>
   `;
 
@@ -339,6 +381,10 @@ function renderTopbar(){
   if (menuBtn) menuBtn.onclick = openMobileSidebar;
   const overlay = $('#sidebar-overlay');
   if (overlay) overlay.onclick = closeMobileSidebar;
+
+  const themeBtn = $('#theme-toggle-btn');
+  if (themeBtn) themeBtn.onclick = toggleTheme;
+  updateThemeIcons();
 
   const resendTrigger = $('#verify-resend-trigger');
   if (resendTrigger) {
