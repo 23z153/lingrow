@@ -2630,11 +2630,32 @@ let currentGrammarCategory = 'All';
 
 const GRAMMAR_CAT_ICONS = {
   'All': '✨',
-  'Subject-Verb Agreement': '⚡',
+  'Sentence Foundations': '🏗️',
+  'Parts of Speech': '🧩',
+  'Nouns': '🏷️',
+  'Pronouns': '👤',
+  'Articles': '📰',
+  'Determiners & Quantifiers': '🔢',
+  'Adjectives': '🎨',
+  'Verbs & Verb Forms': '🏃',
+  'Be, Have & Do': '🔑',
   'Tenses': '⏳',
-  'Articles & Nouns': '🏷️',
+  'Tense Sentence Forms': '🔄',
+  'Subject-Verb Agreement': '⚡',
+  'Questions': '❓',
+  'Negatives': '🚫',
   'Prepositions': '🎯',
-  'Common Pitfalls': '⚠️',
+  'Adverbs': '🚀',
+  'Conjunctions': '🔗',
+  'Sentence Construction': '📐',
+  'Modal Verbs': '💡',
+  'Gerunds & Infinitives': '🌀',
+  'Phrases & Clauses': '📑',
+  'Active & Passive Voice': '🗣️',
+  'Basic Conditionals': '🔀',
+  'Basic Reported Speech': '💬',
+  'Punctuation & Capitalization': '✍️',
+  'Common Beginner Errors': '⚠️',
 };
 
 VIEW_RENDERERS['grammar'] = async (mount) => {
@@ -2659,7 +2680,8 @@ function formatVideoEmbedUrl(url) {
 let currentGrammarLevel = 'All';
 
 function renderGrammarView(mount, topics) {
-  const categories = ['All', 'Tenses', 'Subject-Verb Agreement', 'Articles & Nouns', 'Prepositions', 'Common Pitfalls'];
+  const dynamicCats = [...new Set(topics.map(t => t.category).filter(Boolean))].sort();
+  const categories = ['All', ...(dynamicCats.length ? dynamicCats : ['Tenses', 'Subject-Verb Agreement', 'Prepositions'])];
   const levels = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 
   let filtered = currentGrammarCategory === 'All'
@@ -3318,6 +3340,15 @@ function renderTestsListView(mount, tests) {
   clearInterval(testTimerHandle);
   mount.innerHTML = `
     <div class="col gap-md">
+      <div class="row" style="background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;flex-wrap:wrap;gap:8px">
+        <div style="font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:6px">
+          <i class="bi bi-mortarboard-fill" style="color:var(--sprout)"></i> Your Enrolled Class:
+          <span class="pill voice" style="font-size:12px;font-weight:700">${esc(S.user.batch || 'General Batch')}</span>
+        </div>
+        <div class="spacer"></div>
+        <span style="font-size:12px;color:var(--cream-faint)">Displaying tests assigned to your class & institutional tests</span>
+      </div>
+
       <div class="grid grid-2" id="tests-grid">
         ${tests.length ? tests.map(t => `
           <div class="card col gap-sm" style="display:flex;flex-direction:column;justify-content:space-between">
@@ -3473,3 +3504,143 @@ function renderTestResult(res, test) {
 }
 
 
+
+
+VIEW_RENDERERS['profile'] = async (mount) => {
+  const [userData, progress, attempts] = await Promise.all([
+    Api.me().catch(() => S.user),
+    Api.myProgress().catch(() => ({ level: S.user.level || 'Beginner', xp: S.user.xp || 0, streak: S.user.streak || 0, badges: [] })),
+    Api.myTestAttempts().catch(() => []),
+  ]);
+
+  if (userData) {
+    S.user = { ...S.user, ...userData };
+  }
+  const u = S.user;
+  const userClass = (u.batch || '').trim().toUpperCase();
+
+  mount.innerHTML = `
+    <div class="col gap-lg" style="max-width:960px;margin:0 auto">
+      <!-- Profile Header Hero -->
+      <div class="card" style="padding:28px 24px;background:linear-gradient(135deg, rgba(34,211,238,0.08) 0%, rgba(139,92,246,0.08) 100%);border:1px solid rgba(255,255,255,0.08)">
+        <div class="row gap-md" style="align-items:center;flex-wrap:wrap">
+          ${avatarHTML(u.name, 72)}
+          <div class="col" style="flex:1;min-width:240px">
+            <div class="row gap-xs" style="align-items:center;margin-bottom:4px">
+              <h2 style="font-size:24px;font-weight:700;color:var(--cream)">${esc(u.name)}</h2>
+              <span class="pill sprout" style="font-size:11px;font-weight:700">Active Student</span>
+              ${u.emailVerified ? `<span class="pill cyan" style="font-size:11px"><i class="bi bi-patch-check-fill"></i> Verified</span>` : ''}
+            </div>
+            <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:8px">
+              <b>${esc(u.email)}</b> &middot; Department of <b>${esc(u.department || 'Engineering')}</b>
+            </div>
+            <div class="row gap-xs" style="flex-wrap:wrap;align-items:center">
+              <span class="pill ${levelColor(u.level || 'Beginner')}" style="font-weight:700;font-size:12px">
+                Proficiency: ${esc(u.level || 'Beginner')}
+              </span>
+              <span class="pill cyan" style="font-weight:700;font-size:12px">
+                <i class="bi bi-mortarboard-fill"></i> Enrolled Class: ${esc(userClass || 'Not Assigned')}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="grid grid-4">
+        <div class="card col gap-xs" style="text-align:center">
+          <div class="eyebrow">Proficiency Level</div>
+          <div style="font-size:22px;font-weight:800;color:var(--cyan)">${esc(u.level || 'Beginner')}</div>
+        </div>
+        <div class="card col gap-xs" style="text-align:center">
+          <div class="eyebrow">Total XP</div>
+          <div style="font-size:22px;font-weight:800;color:var(--amber)">${u.xp || 0} <span style="font-size:13px;font-weight:600">XP</span></div>
+        </div>
+        <div class="card col gap-xs" style="text-align:center">
+          <div class="eyebrow">Daily Streak</div>
+          <div style="font-size:22px;font-weight:800;color:var(--coral)">${u.streak || 0} <span style="font-size:13px;font-weight:600">days</span></div>
+        </div>
+        <div class="card col gap-xs" style="text-align:center">
+          <div class="eyebrow">Tests Completed</div>
+          <div style="font-size:22px;font-weight:800;color:var(--sprout)">${attempts.length}</div>
+        </div>
+      </div>
+
+      <!-- Account Credentials & Academic Details Table -->
+      <div class="card col gap-sm">
+        <div class="section-title"><i class="bi bi-person-badge"></i> Account Credentials & Details</div>
+        <div class="table-wrap">
+          <table style="width:100%">
+            <tbody>
+              <tr>
+                <td style="width:200px;font-weight:600;color:var(--cream-faint);padding:10px 14px">Student ID (_id)</td>
+                <td style="font-family:monospace;font-size:13px;color:var(--cream)">${esc(u._id || u.id || 'N/A')}</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">College Email</td>
+                <td style="font-size:13px;color:var(--cream)">${esc(u.email || '')}</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Enrolled Class</td>
+                <td><span class="pill cyan" style="font-weight:700;font-size:12px"><i class="bi bi-mortarboard-fill"></i> ${esc(userClass || 'Not Assigned')}</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Department</td>
+                <td style="font-size:13px;color:var(--cream)">${esc(u.department || 'Engineering')}</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Institution</td>
+                <td style="font-size:13px;color:var(--cream)">${esc(u.institution || 'PSG Institute of Technology and Applied Research')}</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Email Verification</td>
+                <td><span class="pill sprout" style="font-size:11px">Verified</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Account Status</td>
+                <td><span class="pill sprout" style="font-size:11px">Active</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Recent Test History -->
+      <div class="card col gap-sm">
+        <div class="section-title"><i class="bi bi-clock-history"></i> Recent Test Attempts</div>
+        ${attempts.length ? `
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Test Title</th>
+                  <th>Category</th>
+                  <th>Score</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${attempts.slice(0, 5).map(a => `
+                  <tr>
+                    <td style="font-weight:600">${esc(a.test?.title || 'Test')}</td>
+                    <td><span class="pill" style="font-size:11px">${esc(a.test?.category || 'General')}</span></td>
+                    <td>
+                      <span class="pill" style="color:${scoreColor(a.score)};border-color:transparent;font-weight:700">
+                        ${a.score}%
+                      </span>
+                    </td>
+                    <td style="font-size:12px;color:var(--cream-faint)">${timeAgo(a.createdAt)}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : `
+          <div class="empty-state" style="padding:24px">
+            No tests taken yet &mdash; visit the <b>Tests</b> tab to complete assigned quizzes!
+          </div>
+        `}
+      </div>
+    </div>
+  `;
+};

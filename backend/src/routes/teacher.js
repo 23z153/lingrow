@@ -60,4 +60,50 @@ router.post('/attempts/:type/:id/comment', async (req, res) => {
   res.json(attempt);
 });
 
+
+// 10 Official Institutional Classes
+const OFFICIAL_CLASSES = [
+  'CSE-A', 'CSE-B', 'CSE-C',
+  'IT-A', 'IT-B',
+  'MECHANICAL', 'CIVIL',
+  'ECE-A', 'ECE-B', 'EEE'
+];
+
+// Classes assigned to the teacher + student counts for test creation
+router.get('/classes', async (req, res) => {
+  try {
+    const teacherUser = await User.findById(req.user._id).select('assignedClasses department');
+    let assigned = (teacherUser && teacherUser.assignedClasses && teacherUser.assignedClasses.length > 0)
+      ? teacherUser.assignedClasses.filter(c => OFFICIAL_CLASSES.includes(c))
+      : (req.user.assignedClasses && req.user.assignedClasses.length > 0
+          ? req.user.assignedClasses.filter(c => OFFICIAL_CLASSES.includes(c))
+          : OFFICIAL_CLASSES);
+
+    if (!assigned || assigned.length === 0) {
+      assigned = OFFICIAL_CLASSES;
+    }
+
+    const batchAggregation = await User.aggregate([
+      { $match: { role: 'student', batch: { $in: OFFICIAL_CLASSES } } },
+      { $group: { _id: '$batch', count: { $sum: 1 } } },
+      { $sort: { _id: 1 } }
+    ]);
+
+    const countMap = Object.fromEntries(batchAggregation.map((b) => [b._id, b.count]));
+    const classList = OFFICIAL_CLASSES.map((name) => ({
+      name,
+      studentCount: countMap[name] || 0,
+      isAssigned: assigned.includes(name),
+    }));
+
+    res.json({
+      assignedClasses: assigned,
+      classList,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 module.exports = router;
+

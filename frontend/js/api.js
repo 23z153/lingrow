@@ -105,6 +105,7 @@ const Api = {
     this.setToken(null);
   },
   verifyEmail(token) { return this.get(`/auth/verify-email?token=${encodeURIComponent(token)}`); },
+  updateClass(batch) { return this.patch('/auth/class', { batch }); },
   resendVerification() { return this.post('/auth/resend-verification'); },
 
   // practice
@@ -279,6 +280,8 @@ const Api = {
   },
   teacherStudentDetail(id) { return this.get(`/teacher/students/${id}`); },
   teacherComment(type, id, comment) { return this.post(`/teacher/attempts/${type}/${id}/comment`, { comment }); },
+  teacherClasses() { return this.get('/teacher/classes'); },
+  teacherTopics() { return this.get('/tests/topics'); },
 
   // tests (teacher & admin create by topic, pulls from the question bank; students take them)
   testCategories() { return this.get('/tests/categories'); },

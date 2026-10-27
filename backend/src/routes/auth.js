@@ -143,6 +143,26 @@ router.post('/resend-verification', requireAuth, async (req, res) => {
   }
 });
 
+router.patch('/class', requireAuth, async (req, res) => {
+  try {
+    let { batch } = req.body;
+    if (!batch) return res.status(400).json({ error: 'Class is required' });
+    batch = String(batch).trim().toUpperCase();
+    let department = '';
+    if (batch.startsWith('CSE')) department = 'CSE';
+    else if (batch.startsWith('IT')) department = 'IT';
+    else if (batch.startsWith('ECE')) department = 'ECE';
+    else if (batch.startsWith('EEE')) department = 'EEE';
+    else if (batch.includes('MECH')) department = 'Mechanical';
+    else if (batch.includes('CIVIL')) department = 'Civil';
+    
+    const user = await User.findByIdAndUpdate(req.user._id, { batch, department }, { new: true });
+    res.json({ ok: true, user: user.toSafeJSON() });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 router.get('/me', requireAuth, (req, res) => {
   res.json({ user: req.user.toSafeJSON() });
 });

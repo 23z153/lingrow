@@ -28,7 +28,8 @@ const testSchema = new mongoose.Schema(
     createdByRole: { type: String, enum: ['admin', 'teacher'], default: 'teacher' },
     batch: { type: String, default: '' }, // '' = open to every batch
     targetType: { type: String, enum: ['ALL', 'INDIVIDUAL_CLASS', 'GROUP_OF_CLASSES'], default: 'ALL' },
-    targetClasses: [{ type: String, trim: true }], // e.g. ['A'] or ['A', 'B']
+    targetClasses: [{ type: String, trim: true }],
+    batches: [{ type: String, trim: true }], // e.g. ['A'] or ['A', 'B']
     status: { type: String, enum: ['draft', 'published', 'closed'], default: 'published' },
   },
   { timestamps: true }

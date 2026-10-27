@@ -3,7 +3,11 @@ const mongoose = require('mongoose');
 async function connectDB() {
   const uri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
   try {
-    await mongoose.connect(uri, { serverSelectionTimeoutMS: 3000 });
+    await mongoose.connect(uri, {
+      maxPoolSize: 50,
+      minPoolSize: 5,
+      serverSelectionTimeoutMS: 5000,
+    });
     const sanitizedUri = uri.replace(/\/\/([^:]+):([^@]+)@/, '//$1:****@');
     console.log(`[db] connected -> ${sanitizedUri}`);
   } catch (err) {

@@ -1183,3 +1183,20 @@ tr.tr-hover:hover td{background:rgba(255,255,255,0.06);}
   }
 }
 
+
+
+/* Dropdown Checkbox Component & Bootstrap Icons support */
+.nav-item svg, .nav-item .bi, .nav-item i { flex-shrink: 0; opacity: .85; }
+.nav-item.active svg, .nav-item.active .bi, .nav-item.active i { opacity: 1; }
+.bi { display: inline-flex; align-items: center; justify-content: center; vertical-align: -0.125em; }
+select option { background: #0F172A; color: #F8FAFC; padding: 8px 12px; }
+
+.class-dropdown-item:hover {
+  background: rgba(248, 250, 252, 0.06);
+}
+.class-dropdown-item input[type="checkbox"]:checked + span {
+  color: var(--cyan);
+}
+#class-dropdown-trigger:hover {
+  border-color: var(--cyan);
+}

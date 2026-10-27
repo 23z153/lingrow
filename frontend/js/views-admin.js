@@ -43,7 +43,7 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
       const status = u.status || 'Active';
       let classDisplay = '—';
       if (u.role === 'student') {
-        classDisplay = `<span class="pill sprout" style="font-weight:700">Class ${esc(u.section || 'A')}</span>`;
+        classDisplay = `<span class="pill sprout" style="font-weight:700">Class ${esc(u.batch || u.section || 'A')}</span>`;
       } else if (u.role === 'teacher') {
         const assigned = Array.isArray(u.assignedClasses) && u.assignedClasses.length ? u.assignedClasses.join(', ') : 'A, B';
         classDisplay = `<span class="pill voice">Assigned: Classes ${esc(assigned)}</span>`;
@@ -158,11 +158,20 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
       
       <div id="m-sec-wrap">
         <label class="field-label">Student Assigned Class / Section</label>
-        <select id="m-sec">
+        <select id="m-sec" style="width:100%">
+          <option value="" disabled selected>-- Select Student Class --</option>
+          <option value="CSE-A">CSE-A (Computer Science)</option>
+          <option value="CSE-B">CSE-B (Computer Science)</option>
+          <option value="CSE-C">CSE-C (Computer Science)</option>
+          <option value="IT-A">IT-A (Information Technology)</option>
+          <option value="IT-B">IT-B (Information Technology)</option>
+          <option value="MECHANICAL">MECHANICAL (Mechanical Eng)</option>
+          <option value="CIVIL">CIVIL (Civil Eng)</option>
+          <option value="ECE-A">ECE-A (Electronics &amp; Comm)</option>
+          <option value="ECE-B">ECE-B (Electronics &amp; Comm)</option>
+          <option value="EEE">EEE (Electrical &amp; Electronics)</option>
           <option value="A">Class A</option>
           <option value="B">Class B</option>
-          <option value="C">Class C</option>
-          <option value="D">Class D</option>
         </select>
       </div>
 
@@ -411,7 +420,15 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
 /* Modal helper for creating/editing beginner topics */
 function openTopicEditModal(topic, onSave) {
   const isEdit = !!topic;
-  const categories = ['Tenses', 'Subject-Verb Agreement', 'Articles & Nouns', 'Prepositions', 'Common Pitfalls', 'Basic Sentences & Verbs', 'Vocabulary & Idioms'];
+  const categories = [
+    'Sentence Foundations', 'Parts of Speech', 'Nouns', 'Pronouns', 'Articles',
+    'Determiners & Quantifiers', 'Adjectives', 'Verbs & Verb Forms', 'Be, Have & Do',
+    'Tenses', 'Tense Sentence Forms', 'Subject-Verb Agreement', 'Questions', 'Negatives',
+    'Prepositions', 'Adverbs', 'Conjunctions', 'Sentence Construction', 'Modal Verbs',
+    'Gerunds & Infinitives', 'Phrases & Clauses', 'Active & Passive Voice',
+    'Basic Conditionals', 'Basic Reported Speech', 'Punctuation & Capitalization',
+    'Common Beginner Errors'
+  ];
 
   openModal(`
     <h3 style="margin-bottom:16px">${isEdit ? 'Edit Beginner Topic' : 'Create New Beginner Topic'}</h3>

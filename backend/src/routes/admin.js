@@ -234,7 +234,7 @@ router.get('/users', async (req, res) => {
 
 router.post('/users', async (req, res) => {
   try {
-    const { name, email, password, role, department, section, assignedClasses } = req.body;
+    const { name, email, password, role, department, batch, section, assignedClasses } = req.body;
     if (!name || !email || !password) return res.status(400).json({ error: 'name, email and password are required' });
     const existing = await User.findOne({ email: email.toLowerCase() });
     if (existing) return res.status(409).json({ error: 'Email already registered' });
@@ -246,12 +246,23 @@ router.post('/users', async (req, res) => {
       parsedAssigned = assignedClasses.split(',').map((c) => c.trim()).filter(Boolean);
     }
 
+    let dept = department || '';
+    let b = (batch || section || '').trim().toUpperCase();
+    if (!dept && b) {
+      if (b.startsWith('CSE')) dept = 'CSE';
+      else if (b.startsWith('IT')) dept = 'IT';
+      else if (b.startsWith('ECE')) dept = 'ECE';
+      else if (b.startsWith('EEE')) dept = 'EEE';
+      else if (b.includes('MECH')) dept = 'Mechanical';
+      else if (b.includes('CIVIL')) dept = 'Civil';
+    }
     const user = new User({
       name,
       email,
       role: role || 'student',
-      department: department || '',
-      section: section || 'A',
+      department: dept,
+      batch: b,
+      section: section || b || 'A',
       assignedClasses: parsedAssigned,
       createdByAdmin: true,
       emailVerified: true,
@@ -283,12 +294,27 @@ router.post('/users/bulk', async (req, res) => {
         parsedAssigned = row.assignedClasses.split(',').map((c) => c.trim()).filter(Boolean);
       }
 
+      let b = (row.batch || row.section || '').trim().toUpperCase();
+      let department = row.department || '';
+      if (!b && ['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE'].includes(department.toUpperCase())) {
+        b = department.toUpperCase();
+        department = '';
+      }
+      if (b && !department) {
+        if (b.startsWith('CSE')) department = 'CSE';
+        else if (b.startsWith('IT')) department = 'IT';
+        else if (b.startsWith('ECE')) department = 'ECE';
+        else if (b.startsWith('EEE')) department = 'EEE';
+        else if (b.includes('MECH')) department = 'Mechanical';
+        else if (b.includes('CIVIL')) department = 'Civil';
+      }
       const user = new User({
         name: row.name,
         email: row.email,
         role: row.role || 'student',
-        department: row.department || '',
-        section: row.section || 'A',
+        department,
+        batch: b,
+        section: row.section || b || 'A',
         assignedClasses: parsedAssigned,
         createdByAdmin: true,
         emailVerified: true,

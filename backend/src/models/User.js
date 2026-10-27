@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
     institution: { type: String, default: 'PSG Institute of Technology and Applied Research' },
 
     // --- Email verification ---
-    emailVerified: { type: Boolean, default: false },
+    emailVerified: { type: Boolean, default: true },
     emailVerificationTokenHash: { type: String, default: null },
     emailVerificationExpires: { type: Date, default: null },
 

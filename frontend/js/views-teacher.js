@@ -14,12 +14,20 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
         <div class="spacer"></div>
         <div class="row gap-sm" style="align-items:center">
           <label class="field-label" style="margin:0">Filter by Class:</label>
-          <select id="teacher-class-filter" style="width:160px;padding:6px 10px;font-size:13px">
+          <select id="teacher-class-filter" style="width:180px;padding:6px 10px;font-size:13px;font-weight:600">
             <option value="">All Assigned Classes</option>
+            <option value="CSE-A">CSE-A</option>
+            <option value="CSE-B">CSE-B</option>
+            <option value="CSE-C">CSE-C</option>
+            <option value="IT-A">IT-A</option>
+            <option value="IT-B">IT-B</option>
+            <option value="MECHANICAL">MECHANICAL</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="ECE-A">ECE-A</option>
+            <option value="ECE-B">ECE-B</option>
+            <option value="EEE">EEE</option>
             <option value="A">Class A</option>
             <option value="B">Class B</option>
-            <option value="C">Class C</option>
-            <option value="D">Class D</option>
           </select>
           <input type="search" id="student-search" placeholder="Search students…" style="width:200px">
         </div>
@@ -42,7 +50,7 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
           <td class="row gap-sm">${avatarHTML(s.name,28)}<span>${esc(s.name)}</span></td>
-          <td><span class="pill sprout" style="font-weight:700">Class ${esc(s.section || 'A')}</span></td>
+          <td><span class="pill sprout" style="font-weight:700">Class ${esc(s.batch || s.section || 'A')}</span></td>
           <td><span class="pill ${levelColor(s.level)}">${s.level}</span></td>
           <td>${s.streak} 🔥</td>
           <td class="mono">${s.xp}</td>
@@ -119,11 +127,10 @@ function renderTeacherTestsView(mount, tests, categories) {
 
           <div id="ct-classes-wrap" style="grid-column:1/-1;display:none;background:var(--card-sub);padding:12px;border-radius:8px">
             <label class="field-label">Select Targeted Class(es)</label>
-            <div class="row gap-md" style="margin-top:6px">
-              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="A"> Class A</label>
-              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="B"> Class B</label>
-              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="C"> Class C</label>
-              <label class="row gap-xs" style="font-size:13px;cursor:pointer"><input type="checkbox" class="ct-class-cb" value="D"> Class D</label>
+            <div class="row gap-sm" style="margin-top:6px;flex-wrap:wrap">
+              ${['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE','A','B'].map(clsName => `
+                <label class="row gap-xs" style="font-size:13px;cursor:pointer;padding:3px 8px;background:rgba(255,255,255,0.04);border-radius:6px;border:1px solid var(--white-border)"><input type="checkbox" class="ct-class-cb" value="${clsName}"> ${clsName}</label>
+              `).join('')}
             </div>
           </div>
 

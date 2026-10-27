@@ -29,11 +29,18 @@ function createApp() {
 
   // Auth endpoints get a tighter limit — they're the most abuse-prone
   // (credential stuffing, token-guessing) and don't need 120 req/min.
+  // High-capacity rate limiting for stability during rapid reloads & concurrent student traffic
   app.use(
     '/api/auth',
-    rateLimit({ windowMs: 15 * 60 * 1000, max: 30, standardHeaders: true, legacyHeaders: false })
+    rateLimit({
+      windowMs: 15 * 60 * 1000,
+      max: 500, // Generous limit allowing fast page reloads and verification checks
+      standardHeaders: true,
+      legacyHeaders: false,
+      skip: (req) => req.method === 'GET' && req.path === '/me' // Don't throttle session resume checks
+    })
   );
-  app.use(rateLimit({ windowMs: 60 * 1000, max: 120 }));
+  app.use('/api', rateLimit({ windowMs: 60 * 1000, max: 1500, standardHeaders: true, legacyHeaders: false }));
 
   const { getModelConfig } = require('./services/ollamaClient');
   const { executeWebSearch } = require('./services/webSearchService');
