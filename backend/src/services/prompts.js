@@ -25,6 +25,9 @@ function buildFastSinglePassPrompt(question, studentProfile = null) {
   let systemPrompt = SYSTEM_PREFIX_COACH;
   if (studentProfile && studentProfile.name) {
     systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    if (studentProfile.memoryContext) {
+      systemPrompt += studentProfile.memoryContext;
+    }
   }
 
   return {
@@ -46,6 +49,9 @@ Do not mention or cite reference sources that are irrelevant to the question, an
 
   if (studentProfile && studentProfile.name) {
     systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    if (studentProfile.memoryContext) {
+      systemPrompt += studentProfile.memoryContext;
+    }
   }
 
   const userContent = `USER QUESTION:

@@ -111,6 +111,24 @@ describe('Latency-Optimized AI Chatbot Architecture Unit Tests', () => {
       expect(explainer.messages[1].content).toContain('IDENTIFIED CORRECTIONS:');
       expect(explainer.messages[1].content).toContain('He goes');
     });
+
+    test('injects persistent student memory and learning context into prompts', () => {
+      const memoryContext = '\nSTUDENT LONG-TERM MEMORY & GOALS:\n- Preparing for Google technical interview';
+      const prompt = buildFastSinglePassPrompt('How can I practice today?', {
+        name: 'Sarah',
+        department: 'CSE',
+        memoryContext,
+      });
+      expect(prompt.messages[0].content).toContain('STUDENT LONG-TERM MEMORY & GOALS:');
+      expect(prompt.messages[0].content).toContain('Preparing for Google technical interview');
+
+      const draft = buildDraftPrompt('Explain binary trees', '', {
+        name: 'Sarah',
+        department: 'CSE',
+        memoryContext,
+      });
+      expect(draft.messages[0].content).toContain('Preparing for Google technical interview');
+    });
   });
 
   describe('Fast Non-Reasoning Verdict Parser (Section 2.2)', () => {
