@@ -163,6 +163,16 @@
 *{
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  caret-color: transparent;
+}
+
+input, textarea, [contenteditable="true"]{
+  caret-color: auto;
+}
+
+.sidebar, .nav-item, .topbar, button, .btn, .pill, .role-tab, .tab-btn, .quiz-option-card, .badge-card, .stat-tile{
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 html, body{
@@ -392,6 +402,8 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   transition: all .12s ease;
   cursor: pointer;
   touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .nav-item svg, .nav-item .bi, .nav-item i{flex-shrink:0; opacity:.85;}
 .nav-item:hover{background:var(--color-surface-2); color:var(--color-text);}
