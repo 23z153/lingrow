@@ -20,10 +20,10 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
 
   mount.innerHTML = `
     <div class="grid grid-4" style="margin-bottom:20px">
-      <div class="card"><div class="eyebrow">Level</div><h2 style="font-size:24px">${progress.level}</h2></div>
-      <div class="card"><div class="eyebrow">Total XP</div><h2 style="font-size:24px" id="dash-total-xp">${progress.xp}</h2></div>
-      <div class="card"><div class="eyebrow">Streak</div><h2 style="font-size:24px">${progress.streak} days</h2></div>
-      <div class="card"><div class="eyebrow">Badges</div><h2 style="font-size:24px">${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length}</h2></div>
+      <div class="card"><div class="eyebrow">Level</div><h2 style="font-size:24px" class="stat-tile-level">${progress.level}</h2></div>
+      <div class="card"><div class="eyebrow">Total XP</div><h2 style="font-size:24px" id="dash-total-xp" class="stat-tile-xp">${progress.xp}</h2></div>
+      <div class="card"><div class="eyebrow">Streak</div><h2 style="font-size:24px" class="stat-tile-streak">${progress.streak} days</h2></div>
+      <div class="card"><div class="eyebrow">Badges</div><h2 style="font-size:24px" class="stat-tile-badges">${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length}</h2></div>
     </div>
     <div class="grid grid-2">
       <div class="card">
@@ -71,44 +71,45 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
 
   function renderNotifTab() {
     [btnWord, btnQuiz, btnActivity].forEach(b => {
-      b.style.borderColor = 'var(--line)';
-      b.style.background = 'transparent';
-      b.style.color = '#FFFFFF';
+      b.style.borderColor = 'var(--color-border)';
+      b.style.background = 'var(--color-surface-2)';
+      b.style.color = 'var(--color-text-muted)';
+      b.style.fontWeight = '600';
     });
 
+    const activeBtn = activeNotifTab === 'word' ? btnWord : activeNotifTab === 'quiz' ? btnQuiz : btnActivity;
+    activeBtn.style.borderColor = 'var(--color-streak)';
+    activeBtn.style.background = 'var(--color-streak)';
+    activeBtn.style.color = 'var(--color-on-bright)';
+    activeBtn.style.fontWeight = '800';
+
     if (activeNotifTab === 'word') {
-      btnWord.style.borderColor = 'var(--purple)';
-      btnWord.style.background = 'var(--purple)';
-      btnWord.style.color = '#FFFFFF';
       if (!dailyWord) {
-        contentDiv.innerHTML = `<div class="empty-state" style="color:#FFFFFF">No daily word available today.</div>`;
+        contentDiv.innerHTML = `<div class="empty-state" style="color:var(--color-text)">No daily word available today.</div>`;
         return;
       }
       contentDiv.innerHTML = `
-        <div class="col gap-xs" style="color:#FFFFFF">
+        <div class="col gap-xs" style="color:var(--color-text)">
           <div class="row gap-sm" style="align-items:center">
-            <h3 style="font-size:22px;font-weight:700;color:#FFFFFF">${esc(dailyWord.word)}</h3>
-            <span class="pill voice" style="font-size:12px;color:#FFFFFF;border-color:rgba(255,255,255,0.25)">${esc(dailyWord.partOfSpeech)}</span>
+            <h3 style="font-size:22px;font-weight:700;color:var(--color-text)">${esc(dailyWord.word)}</h3>
+            <span class="pill voice" style="font-size:12px;color:var(--color-text);border-color:rgba(255,255,255,0.25)">${esc(dailyWord.partOfSpeech)}</span>
             <div class="spacer"></div>
-            <span class="pill" style="font-size:11.5px;color:#FFFFFF;border-color:rgba(255,255,255,0.25)">Today's Word</span>
+            <span class="pill" style="font-size:11.5px;color:var(--color-text);border-color:rgba(255,255,255,0.25)">Today's Word</span>
           </div>
-          <div style="font-size:15px;color:#FFFFFF;line-height:1.55;margin-top:4px">
-            <strong style="color:#FFFFFF">Meaning:</strong> ${esc(dailyWord.meaning)}
+          <div style="font-size:15px;color:var(--color-text);line-height:1.55;margin-top:4px">
+            <strong style="color:var(--color-text)">Meaning:</strong> ${esc(dailyWord.meaning)}
           </div>
-          <div style="font-size:14.5px;color:#FFFFFF;line-height:1.55;margin-top:6px;padding:9px 13px;background:rgba(255,255,255,0.06);border-left:3px solid var(--amber);border-radius:6px">
-            <b style="color:var(--amber)">&#x1F4A1; Why It's Relevant:</b> <span style="color:#FFFFFF">${esc(dailyWord.relevancy)}</span>
+          <div style="font-size:14.5px;color:var(--color-text);line-height:1.55;margin-top:6px;padding:9px 13px;background:var(--color-surface-2);border-left:3px solid var(--amber);border-radius:6px">
+            <b style="color:var(--amber)">&#x1F4A1; Why It's Relevant:</b> <span style="color:var(--color-text)">${esc(dailyWord.relevancy)}</span>
           </div>
-          <div style="font-size:13.5px;color:#FFFFFF;margin-top:6px;font-style:italic">
+          <div style="font-size:13.5px;color:var(--color-text);margin-top:6px;font-style:italic">
             "${esc(dailyWord.example)}"
           </div>
         </div>
       `;
     } else if (activeNotifTab === 'quiz') {
-      btnQuiz.style.borderColor = 'var(--amber)';
-      btnQuiz.style.background = 'var(--amber)';
-      btnQuiz.style.color = '#0F172A';
       if (!dailyWord) {
-        contentDiv.innerHTML = `<div class="empty-state" style="color:#FFFFFF">No quiz available today.</div>`;
+        contentDiv.innerHTML = `<div class="empty-state" style="color:var(--color-text)">No quiz available today.</div>`;
         return;
       }
 
@@ -118,16 +119,16 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       if (isAnswered) {
         const isCorrect = userAnswer.isCorrect;
         contentDiv.innerHTML = `
-          <div class="col gap-xs" style="color:#FFFFFF">
+          <div class="col gap-xs" style="color:var(--color-text)">
             <div class="row gap-sm">
               <span class="pill ${isCorrect ? 'sprout' : 'coral'}">${isCorrect ? '&#x2714; Challenge Completed (+10 XP)' : '&#x2716; Completed'}</span>
             </div>
-            <div style="font-size:15.5px;font-weight:700;margin-top:6px;color:#FFFFFF">${esc(dailyWord.question.prompt)}</div>
-            <div style="font-size:14.5px;color:#FFFFFF;margin-top:4px">
+            <div style="font-size:15.5px;font-weight:700;margin-top:6px;color:var(--color-text)">${esc(dailyWord.question.prompt)}</div>
+            <div style="font-size:14.5px;color:var(--color-text);margin-top:4px">
               Your answer: <b style="color:${isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${esc(dailyWord.question.options[userAnswer.selectedOption])}</b>
               ${!isCorrect ? ` &middot; Correct: <b style="color:var(--emerald)">${esc(dailyWord.question.options[dailyWord.question.correctAnswer])}</b>` : ''}
             </div>
-            <div style="font-size:13.5px;color:#FFFFFF;margin-top:6px;font-style:italic">
+            <div style="font-size:13.5px;color:var(--color-text);margin-top:6px;font-style:italic">
               &#x1F4A1; ${esc(dailyWord.question.explanation)}
             </div>
           </div>
@@ -136,13 +137,13 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         contentDiv.innerHTML = `
           <form id="afternoon-quiz-form" class="col gap-xs">
             <div style="font-size:12.5px;color:var(--amber);text-transform:uppercase;letter-spacing:0.8px;font-weight:700">&#x26A1; Afternoon Practice Challenge</div>
-            <div style="font-size:15.5px;font-weight:700;margin-top:2px;color:#FFFFFF">${esc(dailyWord.question.prompt)}</div>
+            <div style="font-size:15.5px;font-weight:700;margin-top:2px;color:var(--color-text)">${esc(dailyWord.question.prompt)}</div>
 
             <div class="col gap-xs" style="margin-top:6px">
               ${dailyWord.question.options.map((opt, idx) => `
-                <label class="row gap-sm" style="padding:8px 12px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:14.5px;color:#FFFFFF" id="quiz-opt-lbl-${idx}">
+                <label class="row gap-sm" style="padding:8px 12px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:14.5px;color:var(--color-text)" id="quiz-opt-lbl-${idx}">
                   <input type="radio" name="daily_quiz_opt" value="${idx}" style="accent-color:var(--amber)">
-                  <span style="color:#FFFFFF">${esc(opt)}</span>
+                  <span style="color:var(--color-text)">${esc(opt)}</span>
                 </label>
               `).join('')}
             </div>
@@ -336,11 +337,11 @@ function renderReadAloudResult(attempt, xpGain){
       </div>
     </div>
 
-    <div class="card card-2" style="margin-bottom:16px;background:rgba(255,255,255,0.02);border-left:4px solid var(--purple)">
+    <div class="card card-2" style="margin-bottom:16px;background:var(--color-surface-2);border-left:4px solid var(--purple)">
       <div class="row gap-sm" style="align-items:center">
         <div>
           <div style="font-size:12px;text-transform:uppercase;letter-spacing:0.8px;color:var(--purple);font-weight:700">&#x1F399;&#xFE0F; Speaker Accent Classification</div>
-          <div style="font-size:17px;font-weight:700;margin-top:2px;color:#FFFFFF">${esc(aClass)}</div>
+          <div style="font-size:17px;font-weight:700;margin-top:2px;color:var(--color-text)">${esc(aClass)}</div>
         </div>
         <div class="spacer"></div>
         <span class="pill voice" style="font-size:12.5px">${aScore >= 85 ? '&#x2714; High Interview Alignment' : '&#x1F3AF; Training Available'}</span>
@@ -539,7 +540,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
         <!-- Deck Header & Progress -->
         <div class="card card-2" style="margin-bottom:16px;background:var(--card-bg);border:1px solid var(--line)">
           <div class="row gap-sm" style="align-items:center;margin-bottom:10px">
-            <div style="font-size:16px;font-weight:700;color:#FFFFFF">📖 Interactive Deck Reader</div>
+            <div style="font-size:16px;font-weight:700;color:var(--color-text)">📖 Interactive Deck Reader</div>
             <div class="spacer"></div>
             <span class="pill voice" style="font-weight:600">Card ${currentIndex + 1} of ${words.length}</span>
             <span class="pill sprout" style="font-weight:600">${readWordIds.size}/${words.length} Read</span>
@@ -652,7 +653,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
               <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
               ${w.mastered ? `<span class="pill sprout">${ICONS.check} Mastered</span>` : ''}
             </div>
-            <div style="font-size:22px;font-weight:700;color:#FFFFFF;margin-bottom:8px">${esc(w.word)}</div>
+            <div style="font-size:22px;font-weight:700;color:var(--color-text);margin-bottom:8px">${esc(w.word)}</div>
             <div style="font-size:16px;margin:8px 0;line-height:1.45;color:var(--cream)"><b>Meaning:</b> ${esc(w.meaning)}</div>
             <div style="font-size:14px;color:var(--cream-dim);font-style:italic;margin-bottom:14px">"${esc(w.example)}"</div>
             <div class="row gap-sm" style="margin-top:auto" id="deck-card-actions">
@@ -796,7 +797,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
           <!-- Summary Celebration Card -->
           <div class="card card-2" style="text-align:center;padding:30px;margin-bottom:20px;border:1px solid var(--emerald);background:rgba(16,185,129,0.08)">
             <div style="font-size:36px;margin-bottom:8px">🎉 Assessment Completed!</div>
-            <h3 style="font-size:24px;color:#FFFFFF;margin-bottom:8px">Score: ${correctCount} / ${totalQuestions} Correct (${Math.round((correctCount/totalQuestions)*100)}%)</h3>
+            <h3 style="font-size:24px;color:var(--color-text);margin-bottom:8px">Score: ${correctCount} / ${totalQuestions} Correct (${Math.round((correctCount/totalQuestions)*100)}%)</h3>
             <div class="pill sprout" style="font-size:16px;padding:8px 16px;margin-bottom:16px">Total XP Earned: +${totalEarnedXP} XP ⚡</div>
             <div class="row gap-sm" style="justify-content:center">
               <button class="btn btn-primary" id="re-read-deck-btn">🔄 Re-read Flashcards Deck</button>
@@ -814,7 +815,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
                   <span class="pill voice">${esc(q.partOfSpeech || 'noun')}</span>
                   <span class="pill sprout">+10 XP</span>
                 </div>
-                <h3 style="font-size:20px;margin-bottom:6px;color:#FFFFFF">Q${qIdx + 1}: What is the correct meaning of "${esc(q.word)}"?</h3>
+                <h3 style="font-size:20px;margin-bottom:6px;color:var(--color-text)">Q${qIdx + 1}: What is the correct meaning of "${esc(q.word)}"?</h3>
                 <div class="col gap-xs" style="margin-top:10px" id="fda-opts-${qIdx}">
                   ${q.options.map((opt, oIdx) => {
                     let optStyle = 'text-align:left;justify-content:flex-start;padding:10px 14px;border:1px solid var(--line);font-size:14.5px';
@@ -920,7 +921,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
               <span class="pill ${levelColor(w.level)}">${w.level}</span>
               <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
             </div>
-            <h3 style="font-size:20px;margin-bottom:4px;color:#FFFFFF">${esc(w.word)}</h3>
+            <h3 style="font-size:20px;margin-bottom:4px;color:var(--color-text)">${esc(w.word)}</h3>
             <div style="font-size:14px;color:var(--cream);margin-bottom:8px;line-height:1.45"><b>Meaning:</b> ${esc(w.meaning)}</div>
             <div style="font-size:13px;color:var(--cream-dim);font-style:italic;margin-bottom:12px">"${esc(w.example)}"</div>
             <button class="btn btn-ghost btn-sm" style="width:100%" onclick="SpeechOutput.speak('${esc(w.word)}. ${esc(w.example)}')">${ICONS.play} Listen Pronunciation</button>
@@ -947,7 +948,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
               <span class="pill voice">${esc(q.partOfSpeech || 'noun')}</span>
               <span class="pill sprout">+10 XP</span>
             </div>
-            <h3 style="font-size:20px;margin-bottom:6px;color:#FFFFFF">What is the correct meaning of "${esc(q.word)}"?</h3>
+            <h3 style="font-size:20px;margin-bottom:6px;color:var(--color-text)">What is the correct meaning of "${esc(q.word)}"?</h3>
             <div class="col gap-xs" style="margin-top:10px" id="vquiz-opts-${qIdx}">
               ${q.options.map((opt, oIdx) => `
                 <button class="btn btn-ghost" style="text-align:left;justify-content:flex-start;padding:10px 14px;border:1px solid var(--line);font-size:14.5px" data-qidx="${qIdx}" data-oidx="${oIdx}">
@@ -1012,7 +1013,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
               <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
               <span class="pill sprout">+15 XP Reward</span>
             </div>
-            <h3 style="font-size:20px;margin-bottom:4px;color:#FFFFFF">Target Word: "${esc(w.word)}"</h3>
+            <h3 style="font-size:20px;margin-bottom:4px;color:var(--color-text)">Target Word: "${esc(w.word)}"</h3>
             <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:10px">Meaning: ${esc(w.meaning)}</div>
             <div class="row gap-md" style="margin-top:10px">
               <button class="rec-btn" id="vspoken-mic-${idx}" style="width:48px;height:48px">${ICONS.mic}</button>
@@ -1101,7 +1102,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
       <!-- Teacher-Led GD Rooms Section -->
       <div class="card card-2" style="margin-bottom:24px;border:1px solid var(--purple)">
         <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
-          <div style="font-size:17px;font-weight:700;color:#FFFFFF">👥 Teacher-Led Group Discussion (GD) Rooms (${gdRooms.length})</div>
+          <div style="font-size:17px;font-weight:700;color:var(--color-text)">👥 Teacher-Led Group Discussion (GD) Rooms (${gdRooms.length})</div>
           <div class="spacer"></div>
           <button class="btn btn-ghost btn-sm" id="refresh-gd-rooms-btn">🔄 Refresh Rooms</button>
         </div>
@@ -1124,7 +1125,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
                   <span class="pill voice">Max: ${r.maxStudents} Students</span>
                   ${statusPill}
                 </div>
-                <h3 style="font-size:18px;margin-bottom:4px;color:#FFFFFF">${esc(r.topic)}</h3>
+                <h3 style="font-size:18px;margin-bottom:4px;color:var(--color-text)">${esc(r.topic)}</h3>
                 <div style="font-size:13px;color:var(--cream-dim);margin-bottom:10px">
                   Host: <b>${esc(r.teacher?.name || 'Teacher')}</b> &middot; Target: ${r.targetDurationMinutes || 5} Mins
                 </div>
@@ -1154,7 +1155,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           <div class="section-title" style="margin-bottom:10px">${ICONS.target} 1-on-1 Voice-Anonymized Match</div>
           <div class="col gap-xs" style="margin-bottom:14px">
             <label class="field-label">Topic for Discussion</label>
-            <select id="peer-topic-select" class="input-field" style="background:rgba(255,255,255,0.06);color:#FFFFFF;padding:10px;border-radius:8px;border:1px solid var(--line)">
+            <select id="peer-topic-select" class="input-field" style="background:var(--color-surface-2);color:var(--color-text);padding:10px;border-radius:8px;border:1px solid var(--line)">
               <option value="CSE Technical Projects &amp; Algorithms">CSE Technical Projects &amp; Algorithms</option>
               <option value="Campus Life &amp; Student Activities">Campus Life &amp; Student Activities</option>
               <option value="Placement Interview Practice">Placement Interview Mock Q&amp;A</option>
@@ -1282,7 +1283,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
           <div>
             <span class="pill amber" style="font-weight:700">⌛ Lobby Open</span>
-            <h3 style="font-size:22px;margin-top:4px;color:#FFFFFF">GD Room: "${esc(room.topic)}"</h3>
+            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">GD Room: "${esc(room.topic)}"</h3>
             <div style="font-size:13.5px;color:var(--cream-dim)">Host Teacher: <b>${esc(room.teacher?.name || 'Teacher')}</b></div>
           </div>
           <div class="spacer"></div>
@@ -1291,7 +1292,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
         <div class="card card-2" style="margin-bottom:16px;background:rgba(255,255,255,0.03);text-align:center;padding:24px">
           <div style="font-size:32px;margin-bottom:8px">👥</div>
-          <h4 style="font-size:18px;margin-bottom:4px;color:#FFFFFF">
+          <h4 style="font-size:18px;margin-bottom:4px;color:var(--color-text)">
             ${room.participants?.length || 0} of ${room.maxStudents} Students in Lobby
           </h4>
           <div style="font-size:14px;color:var(--amber);font-weight:600">
@@ -1304,7 +1305,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           ${(room.participants || []).map((p) => `
             <div class="card card-2 row gap-sm" style="align-items:center;padding:10px 14px">
               ${avatarHTML(p.name || 'Student', 28)}
-              <div style="font-size:14px;font-weight:600;color:#FFFFFF">${esc(p.name || 'Student')}</div>
+              <div style="font-size:14px;font-weight:600;color:var(--color-text)">${esc(p.name || 'Student')}</div>
             </div>
           `).join('')}
         </div>
@@ -1346,7 +1347,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:12px">
           <div>
             <span class="pill sprout" style="font-weight:700">🔴 Live GD In-Progress</span>
-            <h3 style="font-size:22px;margin-top:4px;color:#FFFFFF">Topic: "${esc(room.topic)}"</h3>
+            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">Topic: "${esc(room.topic)}"</h3>
             <div style="font-size:13.5px;color:var(--cream-dim)">
               Host: <b>${esc(room.teacher?.name || 'Teacher')}</b> &middot; Target: ${room.targetDurationMinutes || 5} Mins
             </div>
@@ -1360,7 +1361,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         <!-- Participants Counter Bar -->
         <div class="card card-2" style="margin-bottom:16px;background:rgba(16,185,129,0.08);border:1px solid var(--emerald)">
           <div class="row gap-sm" style="align-items:center">
-            <div style="font-size:15px;font-weight:700;color:#FFFFFF">👥 ${room.participants?.length || 0} Students Active in Room</div>
+            <div style="font-size:15px;font-weight:700;color:var(--color-text)">👥 ${room.participants?.length || 0} Students Active in Room</div>
             <div class="spacer"></div>
             <div class="row gap-xs">
               ${(room.participants || []).map((p) => `<span class="pill voice" style="font-size:11.5px">${esc(p.name || 'Student')}</span>`).join('')}
@@ -1379,7 +1380,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
         <!-- Live Transcripts Feed -->
         <div class="eyebrow" style="margin-bottom:6px">Group Speech Transcript Feed</div>
-        <div class="col gap-xs" id="gd-transcript-feed" style="max-height:240px;overflow-y:auto;background:rgba(0,0,0,0.2);padding:12px;border-radius:8px;border:1px solid var(--line)">
+        <div class="col gap-xs" id="gd-transcript-feed" style="max-height:240px;overflow-y:auto;background:var(--color-surface-2);padding:12px;border-radius:8px;border:1px solid var(--line)">
           ${(room.transcripts || []).map((t) => `
             <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
               <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
@@ -1445,7 +1446,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px">
           <div>
             <span class="pill sprout" style="font-size:13px;font-weight:700">🎉 GD Session Completed (+25 XP)</span>
-            <h3 style="font-size:22px;margin-top:4px;color:#FFFFFF">Speech AI Performance Report</h3>
+            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">Speech AI Performance Report</h3>
             <div style="font-size:13.5px;color:var(--cream-dim)">Topic: <b>"${esc(room.topic)}"</b></div>
           </div>
           <div class="spacer"></div>
@@ -1541,7 +1542,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           </div>
         </div>
 
-        <div class="card card-2" style="margin-bottom:14px;background:rgba(255,255,255,0.02)">
+        <div class="card card-2" style="margin-bottom:14px;background:var(--color-surface-2)">
           <div class="section-title" style="font-size:14px;margin-bottom:6px">&#x1F4A1; Conversation Starter Prompts</div>
           <ul style="padding-left:20px;margin:0;font-size:13.5px;color:var(--cream);line-height:1.6">
             <li>"What is a recent technical topic or project you worked on this semester?"</li>
@@ -1707,12 +1708,12 @@ VIEW_RENDERERS['story'] = async (mount) => {
             <span class="pill amber">Set #${prompt._id ? prompt._id.slice(-4) : 'Demo'}</span>
           </div>
 
-          <h3 style="font-size:20px;color:#FFFFFF;margin-bottom:10px">${esc(prompt.title || 'Story Narration Exercise')}</h3>
+          <h3 style="font-size:20px;color:var(--color-text);margin-bottom:10px">${esc(prompt.title || 'Story Narration Exercise')}</h3>
 
           ${prompt.openingNarration ? `
             <div style="background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:14px">
               <div class="eyebrow" style="margin-bottom:4px">📖 Opening Story Narration</div>
-              <div style="font-size:15px;line-height:1.6;color:#FFFFFF">${esc(prompt.openingNarration)}</div>
+              <div style="font-size:15px;line-height:1.6;color:var(--color-text)">${esc(prompt.openingNarration)}</div>
               <button class="btn btn-outline btn-sm" id="play-narration-btn" style="margin-top:10px">🔊 Listen to Opening Narration</button>
             </div>
           ` : ''}
@@ -1790,7 +1791,7 @@ VIEW_RENDERERS['story'] = async (mount) => {
                     .map((k) => `<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`)
                     .join('')}
                 </div>
-                <div class="card card-2"><div class="eyebrow">Local AI Story Evaluation &amp; Feedback</div><p style="font-size:15px;color:#FFFFFF">${esc(attempt.feedback)}</p></div>`;
+                <div class="card card-2"><div class="eyebrow">Local AI Story Evaluation &amp; Feedback</div><p style="font-size:15px;color:var(--color-text)">${esc(attempt.feedback)}</p></div>`;
               $('#story-status').textContent = 'Story evaluation complete!';
               addStudentXP(Math.round(15 + s.overall / 5));
             } catch (err) {
@@ -1862,12 +1863,12 @@ VIEW_RENDERERS['debate'] = async (mount) => {
             <button class="btn btn-outline btn-sm" id="skip-topic-btn">🔄 Next Topic</button>
           </div>
 
-          <h3 style="font-size:22px;color:#FFFFFF;margin-bottom:12px;line-height:1.35">${esc(topic.topic)}</h3>
+          <h3 style="font-size:22px;color:var(--color-text);margin-bottom:12px;line-height:1.35">${esc(topic.topic)}</h3>
 
           ${topic.context ? `
             <div style="background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:16px">
               <div class="eyebrow" style="margin-bottom:4px">💡 Debate Background &amp; Context</div>
-              <div style="font-size:14.5px;line-height:1.6;color:#FFFFFF">${esc(topic.context)}</div>
+              <div style="font-size:14.5px;line-height:1.6;color:var(--color-text)">${esc(topic.context)}</div>
             </div>
           ` : ''}
 
@@ -1982,7 +1983,7 @@ VIEW_RENDERERS['debate'] = async (mount) => {
                     <div class="spacer"></div>
                     <span class="pill" style="color:${scoreColor(s.overall)};border-color:transparent;font-size:14px">Overall ${s.overall}/100</span>
                   </div>
-                  <p style="font-size:15px;color:#FFFFFF;margin:0;line-height:1.6">${esc(attempt.feedback)}</p>
+                  <p style="font-size:15px;color:var(--color-text);margin:0;line-height:1.6">${esc(attempt.feedback)}</p>
                 </div>
 
                 <div class="row gap-md" style="margin-top:14px">
@@ -2063,7 +2064,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         <div class="tutor-coach-info">
           <div class="brand-mark" style="width:28px;height:28px;border-radius:8px;font-size:13px;flex-shrink:0">${ICONS.message}</div>
           <div style="min-width:0">
-            <div style="font-weight:700;font-size:14.5px;color:#FFFFFF;line-height:1.2;white-space:nowrap">AI Coach</div>
+            <div style="font-weight:700;font-size:14.5px;color:var(--color-text);line-height:1.2;white-space:nowrap">AI Coach</div>
             <div style="font-size:11px;color:var(--emerald);display:flex;align-items:center;gap:4px;white-space:nowrap">
               <span class="status-dot ok" style="width:6px;height:6px"></span> Online
             </div>
@@ -2098,7 +2099,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       </div>
 
       <!-- Study Notes Management Drawer (Collapsible) -->
-      <div id="rag-drawer" style="display:none;margin-bottom:10px;padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:10px;font-size:13px">
+      <div id="rag-drawer" style="display:none;margin-bottom:10px;padding:12px 14px;background:var(--color-surface-2);border:1px solid var(--line);border-radius:10px;font-size:13px">
         <div class="row gap-sm" style="align-items:center;margin-bottom:8px;flex-wrap:wrap">
           <strong style="color:var(--cream-bright)">📄 Study Notes &amp; Syllabus Ingestion</strong>
           <div class="spacer"></div>
@@ -2608,19 +2609,33 @@ VIEW_RENDERERS['progress'] = async (mount) => {
             <div class="badge-card ${b.unlocked?'':'locked'}">
               <div class="badge-ic">${ICONS.trophy}</div>
               <div style="font-weight:700;font-size:13px">${esc(b.name)}</div>
-              <div style="font-size:11.5px;color:var(--cream-faint);margin-top:3px">${esc(b.description)}</div>
+              <div style="font-size:11.5px;color:var(--color-text-muted);margin-top:3px">${esc(b.description)}</div>
             </div>`).join('')}
         </div>
       </div>
       <div class="card">
         <div class="section-title">${ICONS.bolt} Leaderboard</div>
-        ${leaderboard.map((u,i)=>`
-          <div class="row gap-sm" style="padding:9px 0;border-bottom:1px solid var(--line)">
-            <div class="mono" style="width:20px;color:var(--cream-faint)">${i+1}</div>
-            ${avatarHTML(u.name, 30)}
-            <div style="flex:1;font-size:13.5px">${esc(u.name)}</div>
-            <div class="mono" style="font-size:12.5px">${u.xp} XP</div>
-          </div>`).join('')}
+        <div class="table-wrap">
+          <table style="width:100%">
+            <tbody>
+              ${leaderboard.map((u,i)=>{
+                const isMe = u._id === S.user._id || u.id === S.user.id || u.email === S.user.email;
+                const rankClass = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : '';
+                const rankColor = i === 0 ? '#FACC15' : i === 1 ? '#CBD5E1' : i === 2 ? '#FDBA74' : 'var(--color-text-muted)';
+                return `
+                  <tr class="leader-row ${rankClass} ${isMe ? 'current-user' : 'tr-hover'}">
+                    <td class="mono" style="width:36px;font-weight:800;color:${rankColor};text-align:center">${i+1}</td>
+                    <td class="row gap-sm" style="padding:10px 14px">
+                      ${avatarHTML(u.name, 30)}
+                      <span style="font-weight:${isMe ? '700' : '500'}">${esc(u.name)} ${isMe ? '<span class="pill voice" style="font-size:10px;padding:1px 6px">You</span>' : ''}</span>
+                    </td>
+                    <td class="mono" style="font-size:13px;font-weight:700;text-align:right;padding:10px 14px;color:var(--color-gem-text)">${u.xp} XP</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>`;
 };
@@ -2903,7 +2918,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
           `;
         }).join('')}
 
-        <button class="btn btn-primary" type="submit" style="width:100%;max-width:340px;padding:14px;font-size:16px;font-weight:700;margin:12px auto 0 auto" id="submit-grammar-10q-btn">
+        <button class="btn btn-primary btn-action" type="submit" style="width:100%;max-width:340px;padding:14px;font-size:16px;font-weight:700;margin:12px auto 0 auto" id="submit-grammar-10q-btn">
           Submit 10-Question Test ${ICONS.arrowRight}
         </button>
       </form>
@@ -2973,7 +2988,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
               const isCorrect = ans.isCorrect;
               const letters = ['A', 'B', 'C', 'D'];
               return `
-                <div class="card" style="padding:16px 18px;border-left:4px solid ${isCorrect ? 'var(--emerald)' : 'var(--coral)'};background:rgba(255,255,255,0.02)">
+                <div class="card" style="padding:16px 18px;border-left:4px solid ${isCorrect ? 'var(--emerald)' : 'var(--coral)'};background:var(--color-surface-2)">
                   <div class="row gap-xs" style="margin-bottom:8px;flex-wrap:wrap;align-items:center">
                     <span class="pill ${isCorrect ? 'emerald' : 'coral'}" style="font-size:11px">
                       ${isCorrect ? '✔ Correct' : '✖ Incorrect'}
@@ -2984,7 +2999,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
                     Your choice: <b style="color:${isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${letters[ans.selectedOption]} - ${esc(q.options[ans.selectedOption])}</b>
                     ${!isCorrect ? `<br><span style="color:var(--cream-dim)">Correct answer: <b style="color:var(--emerald)">${letters[ans.correctAnswer]} - ${esc(q.options[ans.correctAnswer])}</b></span>` : ''}
                   </div>
-                  <div style="font-size:13px;color:var(--cream-dim);line-height:1.55;background:rgba(0,0,0,0.25);padding:10px 14px;border-radius:10px;margin-top:10px">
+                  <div style="font-size:13px;color:var(--cream-dim);line-height:1.55;background:var(--color-surface-2);padding:10px 14px;border-radius:10px;margin-top:10px">
                     <strong style="color:var(--cyan)">💡 Explanation:</strong> ${esc(ans.explanation)}
                   </div>
                 </div>
@@ -3117,7 +3132,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
           <div class="section-title">${ICONS.message} Key Phrases &amp; Audio Pronunciation</div>
           <div class="col gap-md" style="margin-top:10px">
             ${scenario.phrases.map((p, pIdx) => `
-              <div class="card" style="padding:14px 16px;background:rgba(255,255,255,0.02);border:1px solid var(--line)">
+              <div class="card" style="padding:14px 16px;background:var(--color-surface-2);border:1px solid var(--line)">
                 <div class="row gap-sm" style="margin-bottom:6px;align-items:center">
                   <span class="pill sprout" style="font-size:11px">${esc(p.speaker)}</span>
                   <div class="spacer"></div>
@@ -3238,7 +3253,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
               ${res.evaluatedAnswers.map((ans, idx) => {
                 const q = scenario.interactivePrompts[idx];
                 return `
-                  <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
+                  <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
                     <div class="row gap-sm" style="margin-bottom:6px">
                       <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714; Correct Choice' : '&#x2716; Needs Improvement'}</span>
                       <span style="font-size:13px;font-weight:600">Q${idx + 1}: ${esc(q.prompt)}</span>
@@ -3365,7 +3380,7 @@ function renderTestsListView(mount, tests) {
               </div>
             </div>
             <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line)">
-              <button class="btn btn-primary btn-sm" data-start-test="${t._id}">${t.attempted ? 'Retake' : 'Start Test'} ${ICONS.arrowRight}</button>
+              <button class="btn btn-primary btn-action btn-sm" data-start-test="${t._id}">${t.attempted ? 'Retake' : 'Start Test'} ${ICONS.arrowRight}</button>
             </div>
           </div>
         `).join('') : `<div class="card empty-state">No tests assigned yet. Check back once your teacher publishes one.</div>`}
@@ -3479,7 +3494,7 @@ function renderTestResult(res, test) {
         ${res.evaluatedAnswers.map((ans, idx) => {
           const q = test.questions[idx];
           return `
-            <div class="card" style="padding:12px 16px;background:rgba(255,255,255,0.02);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
+            <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
               <div class="row gap-sm" style="margin-bottom:6px">
                 <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714;' : '&#x2716;'}</span>
                 <span style="font-size:13px;font-weight:600">Q${idx+1}: ${esc(q.question)}</span>
@@ -3550,19 +3565,19 @@ VIEW_RENDERERS['profile'] = async (mount) => {
       <div class="grid grid-4">
         <div class="card col gap-xs" style="text-align:center">
           <div class="eyebrow">Proficiency Level</div>
-          <div style="font-size:22px;font-weight:800;color:var(--cyan)">${esc(u.level || 'Beginner')}</div>
+          <div style="font-size:22px;font-weight:800" class="stat-tile-level">${esc(u.level || 'Beginner')}</div>
         </div>
         <div class="card col gap-xs" style="text-align:center">
           <div class="eyebrow">Total XP</div>
-          <div style="font-size:22px;font-weight:800;color:var(--amber)">${u.xp || 0} <span style="font-size:13px;font-weight:600">XP</span></div>
+          <div style="font-size:22px;font-weight:800" class="stat-tile-xp">${u.xp || 0} <span style="font-size:13px;font-weight:600">XP</span></div>
         </div>
         <div class="card col gap-xs" style="text-align:center">
           <div class="eyebrow">Daily Streak</div>
-          <div style="font-size:22px;font-weight:800;color:var(--coral)">${u.streak || 0} <span style="font-size:13px;font-weight:600">days</span></div>
+          <div style="font-size:22px;font-weight:800" class="stat-tile-streak">${u.streak || 0} <span style="font-size:13px;font-weight:600">days</span></div>
         </div>
         <div class="card col gap-xs" style="text-align:center">
           <div class="eyebrow">Tests Completed</div>
-          <div style="font-size:22px;font-weight:800;color:var(--sprout)">${attempts.length}</div>
+          <div style="font-size:22px;font-weight:800" class="stat-tile-badges">${attempts.length}</div>
         </div>
       </div>
 
