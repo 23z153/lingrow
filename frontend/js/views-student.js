@@ -92,9 +92,9 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         <div class="col gap-xs" style="color:var(--color-text)">
           <div class="row gap-sm" style="align-items:center">
             <h3 style="font-size:22px;font-weight:700;color:var(--color-text)">${esc(dailyWord.word)}</h3>
-            <span class="pill voice" style="font-size:12px;color:var(--color-text);border-color:rgba(255,255,255,0.25)">${esc(dailyWord.partOfSpeech)}</span>
+            <span class="pill voice" style="font-size:12px;color:var(--color-text);border-color:var(--color-border)">${esc(dailyWord.partOfSpeech)}</span>
             <div class="spacer"></div>
-            <span class="pill" style="font-size:11.5px;color:var(--color-text);border-color:rgba(255,255,255,0.25)">Today's Word</span>
+            <span class="pill" style="font-size:11.5px;color:var(--color-text);border-color:var(--color-border)">Today's Word</span>
           </div>
           <div style="font-size:15px;color:var(--color-text);line-height:1.55;margin-top:4px">
             <strong style="color:var(--color-text)">Meaning:</strong> ${esc(dailyWord.meaning)}
@@ -370,7 +370,7 @@ function renderReadAloudResult(attempt, xpGain){
     </div>
 
     ${trainingCards.length ? `
-    <div class="card card-2" style="margin-bottom:16px;border:1px solid rgba(255,255,255,0.15);background:rgba(15,23,42,0.6)">
+    <div class="card card-2" style="margin-bottom:16px;border:1px solid var(--color-border);background:var(--color-surface)">
       <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
         <div class="section-title" style="font-size:16px;margin:0">&#x1F9E0; Targeted Phonetic & Accent Training Cards</div>
         <div class="spacer"></div>
@@ -378,10 +378,10 @@ function renderReadAloudResult(attempt, xpGain){
       </div>
       <div class="grid grid-2 gap-sm" id="phonetic-cards-container">
         ${trainingCards.map(tc => `
-          <div class="card card-2" style="background:rgba(255,255,255,0.04);border:1px solid var(--line)">
+          <div class="card card-2" style="background:var(--color-surface-2);border:1px solid var(--color-border)">
             <div class="row gap-sm" style="align-items:center;margin-bottom:6px">
               <span style="font-size:16px;font-weight:700;color:var(--amber)">"${esc(tc.word)}"</span>
-              <span style="font-family:monospace;font-size:13px;background:rgba(255,255,255,0.1);padding:2px 8px;border-radius:4px;color:var(--cream)">${esc(tc.phonetic)}</span>
+              <span style="font-family:monospace;font-size:13px;background:var(--color-surface-2);padding:2px 8px;border-radius:4px;color:var(--color-text)">${esc(tc.phonetic)}</span>
               <div class="spacer"></div>
               <button class="btn btn-ghost btn-sm" style="padding:4px 8px;font-size:12px" data-speak-word="${esc(tc.word)}">${ICONS.play} Listen</button>
             </div>
@@ -402,7 +402,7 @@ function renderReadAloudResult(attempt, xpGain){
     </div>
     ` : ''}
 
-    <div class="card card-2" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1)">
+    <div class="card card-2" style="background:var(--color-surface-2);border:1px solid var(--color-border)">
       <div class="section-title" style="font-size:15px;margin-bottom:8px">&#x1F4A1; Actionable Steps to Improve</div>
       <ul style="padding-left:20px;margin:0;font-size:14px;line-height:1.7;color:var(--cream)">
         ${imps.map(imp => `<li>${esc(imp)}</li>`).join('')}
@@ -474,28 +474,28 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
     [btnCards, btnDaily, btnQuiz, btnSpoken].forEach((b) => {
       b.style.borderColor = 'var(--line)';
       b.style.background = 'transparent';
-      b.style.color = '#FFFFFF';
+      b.style.color = 'var(--color-text-muted)';
     });
 
     if (activeTab === 'flashcards') {
       btnCards.style.borderColor = 'var(--purple)';
       btnCards.style.background = 'var(--purple)';
-      btnCards.style.color = '#FFFFFF';
+      btnCards.style.color = 'var(--color-on-primary)';
       renderFlashcardsTab(contentArea, allWords);
     } else if (activeTab === 'daily') {
       btnDaily.style.borderColor = 'var(--emerald)';
       btnDaily.style.background = 'var(--emerald)';
-      btnDaily.style.color = '#0F172A';
+      btnDaily.style.color = 'var(--color-on-bright)';
       renderDailyTab(contentArea, vocabData.dailyWords || []);
     } else if (activeTab === 'quiz') {
       btnQuiz.style.borderColor = 'var(--amber)';
       btnQuiz.style.background = 'var(--amber)';
-      btnQuiz.style.color = '#0F172A';
+      btnQuiz.style.color = 'var(--color-on-bright)';
       renderQuizTab(contentArea, vocabData.quizQuestions || []);
     } else if (activeTab === 'spoken') {
-      btnSpoken.style.borderColor = 'var(--voice-blue)';
-      btnSpoken.style.background = 'var(--voice-blue)';
-      btnSpoken.style.color = '#FFFFFF';
+      btnSpoken.style.borderColor = 'var(--color-gem)';
+      btnSpoken.style.background = 'var(--color-gem)';
+      btnSpoken.style.color = 'var(--color-on-bright)';
       renderSpokenTab(contentArea, vocabData.dailyWords || []);
     }
 
@@ -545,7 +545,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
             <span class="pill voice" style="font-weight:600">Card ${currentIndex + 1} of ${words.length}</span>
             <span class="pill sprout" style="font-weight:600">${readWordIds.size}/${words.length} Read</span>
           </div>
-          <div style="background:rgba(255,255,255,0.08);border-radius:6px;height:8px;overflow:hidden">
+          <div style="background:var(--color-border);border-radius:6px;height:8px;overflow:hidden">
             <div style="background:var(--purple);height:100%;width:${progressPercent}%;transition:width 0.3s ease"></div>
           </div>
         </div>
@@ -562,7 +562,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
           <button class="btn btn-ghost" id="deck-listen-btn">${ICONS.play} Listen Pronunciation</button>
           <div class="spacer"></div>
           ${(isLastCard || allRead) ? `
-            <button class="btn btn-primary" id="deck-start-assessment-btn" style="background:var(--amber);color:#0F172A;font-weight:700">
+            <button class="btn btn-primary" id="deck-start-assessment-btn" class="btn btn-primary btn-action" style="font-weight:700">
               ⚡ Read All! Start Assessment Quiz (+10 XP)
             </button>
           ` : `
@@ -575,7 +575,7 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
           <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
             <div style="font-size:15px;font-weight:700;color:var(--cream-faint)">📚 Complete Flashcards Pool (${words.length} Words)</div>
             <div class="spacer"></div>
-            ${allRead ? `<button class="btn btn-primary btn-sm" id="grid-assessment-btn" style="background:var(--amber);color:#0F172A">⚡ Start Assessment Quiz</button>` : ''}
+            ${allRead ? `<button class="btn btn-primary btn-sm" id="grid-assessment-btn" class="btn-action" style="background:var(--color-success);color:var(--color-on-bright)">⚡ Start Assessment Quiz</button>` : ''}
           </div>
           <div class="grid grid-3" id="vocab-grid"></div>
         </div>
@@ -788,14 +788,14 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
           <div style="font-size:14px;color:var(--cream-dim);margin-bottom:12px">
             Test your recall on the <b>${readWordIds.size} flashcards</b> you just read! Select the correct definition for each target word.
           </div>
-          <div style="background:rgba(255,255,255,0.08);border-radius:6px;height:8px;overflow:hidden">
+          <div style="background:var(--color-border);border-radius:6px;height:8px;overflow:hidden">
             <div style="background:var(--amber);height:100%;width:${Math.round((answeredCount / totalQuestions) * 100)}%;transition:width 0.3s ease"></div>
           </div>
         </div>
 
         ${isComplete ? `
           <!-- Summary Celebration Card -->
-          <div class="card card-2" style="text-align:center;padding:30px;margin-bottom:20px;border:1px solid var(--emerald);background:rgba(16,185,129,0.08)">
+          <div class="card card-2" style="text-align:center;padding:30px;margin-bottom:20px;border:1px solid var(--color-success);background:var(--color-success-soft)">
             <div style="font-size:36px;margin-bottom:8px">🎉 Assessment Completed!</div>
             <h3 style="font-size:24px;color:var(--color-text);margin-bottom:8px">Score: ${correctCount} / ${totalQuestions} Correct (${Math.round((correctCount/totalQuestions)*100)}%)</h3>
             <div class="pill sprout" style="font-size:16px;padding:8px 16px;margin-bottom:16px">Total XP Earned: +${totalEarnedXP} XP ⚡</div>
@@ -820,8 +820,8 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
                   ${q.options.map((opt, oIdx) => {
                     let optStyle = 'text-align:left;justify-content:flex-start;padding:10px 14px;border:1px solid var(--line);font-size:14.5px';
                     if (result) {
-                      if (opt === q.options[q.correctAnswer]) optStyle += ';border-color:var(--emerald);background:rgba(16,185,129,0.15)';
-                      else if (result.selectedOpt === opt && !result.isCorrect) optStyle += ';border-color:var(--coral);background:rgba(244,63,94,0.15)';
+                      if (opt === q.options[q.correctAnswer]) optStyle += ';border:2px solid var(--color-success);background:var(--color-success-soft);color:var(--color-success-text)';
+                      else if (result.selectedOpt === opt && !result.isCorrect) optStyle += ';border:2px solid var(--color-error);background:var(--color-error-soft);color:var(--color-error-text)';
                     }
                     return `
                       <button class="btn btn-ghost" style="${optStyle}" data-qidx="${qIdx}" data-oidx="${oIdx}" ${result ? 'disabled' : ''}>
@@ -981,13 +981,13 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
 
           if (res.isCorrect) {
             btn.style.borderColor = 'var(--emerald)';
-            btn.style.background = 'rgba(16,185,129,0.15)';
+            btn.style.background = 'var(--color-success-soft)';
             feedbackDiv.innerHTML = `<div class="pill sprout" style="font-size:13.5px">&#x2714; ${esc(res.feedback)} (+${res.xpEarned} XP)</div>`;
             addStudentXP(res.xpEarned);
             toast(`Correct answer! +${res.xpEarned} XP earned`, 'sprout');
           } else {
             btn.style.borderColor = 'var(--coral)';
-            btn.style.background = 'rgba(244,63,94,0.15)';
+            btn.style.background = 'var(--color-error-soft)';
             feedbackDiv.innerHTML = `<div class="pill coral" style="font-size:13.5px">&#x2716; ${esc(res.feedback)}</div>`;
           }
         } catch (err) {
@@ -1120,7 +1120,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
             else if (r.status === 'COMPLETED') statusPill = `<span class="pill voice">✓ Completed</span>`;
 
             return `
-              <div class="card card-2" style="background:rgba(255,255,255,0.03);border:1px solid var(--line)">
+              <div class="card card-2" style="background:var(--color-surface);border:1px solid var(--color-border)">
                 <div class="row gap-sm" style="margin-bottom:6px">
                   <span class="pill voice">Max: ${r.maxStudents} Students</span>
                   ${statusPill}
@@ -1135,7 +1135,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
                   ${r.status === 'COMPLETED' ? `
                     <button class="btn btn-ghost btn-sm" data-gd-report="${r._id}">📊 View AI Report</button>
                   ` : userJoined ? `
-                    <button class="btn btn-primary btn-sm" data-gd-enter="${r._id}" style="background:var(--emerald);color:#0F172A">➡️ Enter Room</button>
+                    <button class="btn btn-primary btn-sm" data-gd-enter="${r._id}" class="btn-action" style="background:var(--color-success);color:var(--color-on-bright)">➡️ Enter Room</button>
                   ` : `
                     <button class="btn btn-primary btn-sm" data-gd-join="${r._id}" ${isFull ? 'disabled' : ''}>
                       ${isFull ? 'Room Full' : '🚪 Join Lobby'}
@@ -1279,7 +1279,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     if (pollInterval) clearInterval(pollInterval);
 
     area.innerHTML = `
-      <div class="card" style="border:2px solid var(--amber);background:rgba(15,23,42,0.9);margin-top:10px">
+      <div class="card" style="border:2px solid var(--color-streak);background:var(--color-surface);margin-top:10px">
         <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
           <div>
             <span class="pill amber" style="font-weight:700">⌛ Lobby Open</span>
@@ -1290,7 +1290,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           <button class="btn btn-ghost btn-sm" id="leave-gd-lobby-btn">🚪 Leave Lobby</button>
         </div>
 
-        <div class="card card-2" style="margin-bottom:16px;background:rgba(255,255,255,0.03);text-align:center;padding:24px">
+        <div class="card card-2" style="margin-bottom:16px;background:var(--color-surface-2);text-align:center;padding:24px">
           <div style="font-size:32px;margin-bottom:8px">👥</div>
           <h4 style="font-size:18px;margin-bottom:4px;color:var(--color-text)">
             ${room.participants?.length || 0} of ${room.maxStudents} Students in Lobby
@@ -1343,7 +1343,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     if (pollInterval) clearInterval(pollInterval);
 
     area.innerHTML = `
-      <div class="card" style="border:2px solid var(--emerald);background:rgba(15,23,42,0.95);margin-top:10px">
+      <div class="card" style="border:2px solid var(--color-success);background:var(--color-surface);margin-top:10px">
         <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:12px">
           <div>
             <span class="pill sprout" style="font-weight:700">🔴 Live GD In-Progress</span>
@@ -1353,13 +1353,13 @@ VIEW_RENDERERS['peer'] = async (mount) => {
             </div>
           </div>
           <div class="spacer"></div>
-          <button class="btn btn-primary btn-sm" id="end-student-gd-btn" style="background:var(--amber);color:#0F172A;font-weight:700">
+          <button class="btn btn-primary btn-sm" id="end-student-gd-btn" style="background:var(--color-streak);color:var(--color-on-bright);font-weight:700">
             ⏹️ Complete &amp; View AI Report (+25 XP)
           </button>
         </div>
 
         <!-- Participants Counter Bar -->
-        <div class="card card-2" style="margin-bottom:16px;background:rgba(16,185,129,0.08);border:1px solid var(--emerald)">
+        <div class="card card-2" style="margin-bottom:16px;background:var(--color-success-soft);border:1px solid var(--color-success)">
           <div class="row gap-sm" style="align-items:center">
             <div style="font-size:15px;font-weight:700;color:var(--color-text)">👥 ${room.participants?.length || 0} Students Active in Room</div>
             <div class="spacer"></div>
@@ -1442,7 +1442,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     const myReport = (room.reports || []).find((r) => (r.student?._id || r.student) === userId) || (room.reports && room.reports[0]);
 
     area.innerHTML = `
-      <div class="card card-2" style="border:2px solid var(--purple);background:rgba(15,23,42,0.95);margin-top:16px">
+      <div class="card card-2" style="border:2px solid var(--color-primary);background:var(--color-surface);margin-top:16px">
         <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px">
           <div>
             <span class="pill sprout" style="font-size:13px;font-weight:700">🎉 GD Session Completed (+25 XP)</span>
@@ -1455,7 +1455,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
         ${myReport ? `
           <div class="grid grid-2 gap-md" style="margin-bottom:20px">
-            <div class="card card-2" style="text-align:center;padding:24px;background:rgba(255,255,255,0.03)">
+            <div class="card card-2" style="text-align:center;padding:24px;background:var(--color-surface-2)">
               <div class="eyebrow">Overall GD Score</div>
               <div style="font-size:48px;font-weight:900;color:${scoreColor(myReport.overallScore)};margin:8px 0">${myReport.overallScore}/100</div>
               <div class="pill sprout" style="display:inline-block">+25 XP Awarded</div>
@@ -1471,7 +1471,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
           <!-- Key Strengths -->
           ${myReport.strengths && myReport.strengths.length ? `
-            <div class="card card-2" style="margin-bottom:14px;background:rgba(16,185,129,0.06);border-left:4px solid var(--emerald)">
+            <div class="card card-2" style="margin-bottom:14px;background:var(--color-success-soft);border-left:4px solid var(--color-success)">
               <div style="font-size:15px;font-weight:700;color:var(--emerald);margin-bottom:6px">🌟 Key Strengths Observed</div>
               <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--cream);line-height:1.5">
                 ${myReport.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}
@@ -1481,7 +1481,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
           <!-- Sentence Corrections -->
           ${myReport.corrections && myReport.corrections.length ? `
-            <div class="card card-2" style="margin-bottom:14px;background:rgba(244,63,94,0.06);border-left:4px solid var(--coral)">
+            <div class="card card-2" style="margin-bottom:14px;background:var(--color-error-soft);border-left:4px solid var(--color-error)">
               <div style="font-size:15px;font-weight:700;color:var(--coral);margin-bottom:6px">✏️ Sentence &amp; Grammar Refinements</div>
               ${myReport.corrections.map((c) => `
                 <div style="margin-bottom:8px;font-size:13.5px">
@@ -1494,7 +1494,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
           <!-- Actionable Skill Suggestions -->
           ${myReport.suggestions && myReport.suggestions.length ? `
-            <div class="card card-2" style="margin-bottom:16px;background:rgba(245,158,11,0.06);border-left:4px solid var(--amber)">
+            <div class="card card-2" style="margin-bottom:16px;background:var(--color-streak-soft);border-left:4px solid var(--color-streak)">
               <div style="font-size:15px;font-weight:700;color:var(--amber);margin-bottom:6px">💡 Targeted Skill Improvement Suggestions</div>
               <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--cream);line-height:1.6">
                 ${myReport.suggestions.map((sug) => `<li>${esc(sug)}</li>`).join('')}
@@ -1518,7 +1518,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     if (matchCard) matchCard.style.display = 'none';
 
     roomArea.innerHTML = `
-      <div class="card" style="border:2px solid var(--purple);background:rgba(15,23,42,0.85);margin-top:10px">
+      <div class="card" style="border:2px solid var(--color-primary);background:var(--color-surface);margin-top:10px">
         <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px">
           <div>
             <div class="pill voice" style="font-size:12px">&#x1F507; Voice Anonymization Active</div>
@@ -1530,12 +1530,12 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         </div>
 
         <div class="grid grid-2 gap-md" style="margin-bottom:16px">
-          <div class="card card-2" style="text-align:center;padding:16px;background:rgba(255,255,255,0.03)">
+          <div class="card card-2" style="text-align:center;padding:16px;background:var(--color-surface-2)">
             <div class="avatar" style="width:54px;height:54px;margin:0 auto 8px;background:var(--purple);font-size:22px">YOU</div>
             <div style="font-weight:700;font-size:15px">${esc(S.user?.name || 'You')} (Anonymized)</div>
             <div style="font-size:12px;color:var(--emerald);margin-top:2px">&#x2714; Mic Connected</div>
           </div>
-          <div class="card card-2" style="text-align:center;padding:16px;background:rgba(255,255,255,0.03)">
+          <div class="card card-2" style="text-align:center;padding:16px;background:var(--color-surface-2)">
             <div class="avatar" style="width:54px;height:54px;margin:0 auto 8px;background:var(--amber);font-size:22px">PEER</div>
             <div style="font-weight:700;font-size:15px">Peer Student (Anonymized)</div>
             <div style="font-size:12px;color:var(--emerald);margin-top:2px">&#x26A1; Voice Stream Filtered</div>
@@ -2305,12 +2305,12 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         if (ragSources && ragSources.length > 0) {
           ragSources.forEach(r => {
             const scoreLabel = r.score != null ? ` (${r.score}% match)` : '';
-            pills.push(`<span class="source-tag rag-tag" style="background:rgba(99,102,241,0.12);border:1px solid rgba(99,102,241,0.3);color:var(--primary,#6366f1);font-weight:500;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
+            pills.push(`<span class="source-tag rag-tag" style="background:var(--color-primary-soft);border:1px solid var(--color-primary);color:var(--color-primary);font-weight:600;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
           });
         }
         if (sources && sources.length > 0) {
           sources.forEach(s => {
-            pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#10b981;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
+            pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:var(--color-success-soft);border:1px solid var(--color-success);color:var(--color-success-text);font-weight:600;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
           });
         }
         if (pills.length > 0) {
@@ -2450,12 +2450,12 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
           if (event.ragSources && event.ragSources.length > 0) {
             event.ragSources.forEach(r => {
               const scoreLabel = r.score != null ? ` (${r.score}% match)` : '';
-              pills.push(`<span class="source-tag rag-tag" style="background:rgba(99,102,241,0.12);border:1px solid rgba(99,102,241,0.3);color:var(--primary,#6366f1);font-weight:500;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
+              pills.push(`<span class="source-tag rag-tag" style="background:var(--color-primary-soft);border:1px solid var(--color-primary);color:var(--color-primary);font-weight:600;" title="${esc(r.textSnippet || '')}">📚 ${esc(r.title)}${r.section ? ` · ${esc(r.section)}` : ''}${scoreLabel}</span>`);
             });
           }
           if (event.sources && event.sources.length > 0) {
             event.sources.forEach(s => {
-              pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#10b981;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
+              pills.push(`<a href="${esc(s.url || '#')}" target="_blank" class="source-tag web-tag" style="background:var(--color-success-soft);border:1px solid var(--color-success);color:var(--color-success-text);font-weight:600;">🌐 ${esc(s.title || s.source || 'Web Source')}</a>`);
             });
           }
           if (pills.length > 0 && wrap) {
@@ -2746,7 +2746,7 @@ function renderGrammarView(mount, topics) {
                   <div class="spacer"></div>
                   ${isDone
                     ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} ${t.bestScore}% Best</span>`
-                    : `<span class="pill" style="font-size:10.5px;color:var(--cyan);border-color:rgba(34,211,238,0.3)">⚡ +25 XP</span>`
+                    : `<span class="pill" style="font-size:10.5px;color:var(--cyan);border-color:var(--color-border)">⚡ +25 XP</span>`
                   }
                 </div>
                 <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">${esc(t.title)}</h3>
@@ -2828,13 +2828,13 @@ async function openGrammarQuiz(topicId, mount, topics) {
               <iframe src="${embedUrl}" title="${esc(topic.title)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;border-radius:12px"></iframe>
             </div>
           ` : `
-            <div class="card" style="background:rgba(139,92,246,0.06);border:1px dashed var(--purple);padding:16px;text-align:center">
+            <div class="card" style="background:var(--color-primary-soft);border:1px dashed var(--color-primary);padding:16px;text-align:center">
               <span style="font-size:13px;color:var(--cream-dim)">📺 No video provided for this topic. Read the rule summary below and start your 10-question test.</span>
             </div>
           `}
 
           <!-- Rule Summary Box -->
-          <div class="rule-summary-box" style="background:rgba(0,0,0,0.3);padding:16px;border-radius:10px;border:1px solid var(--line)">
+          <div class="rule-summary-box" style="background:var(--color-surface-2);padding:16px;border-radius:10px;border:1px solid var(--color-border)">
             <b style="color:var(--sprout);display:flex;align-items:center;gap:6px;margin-bottom:8px;font-size:14px">
               💡 Grammar Key Rules &amp; Summary:
             </b>
@@ -3122,7 +3122,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
             <span class="pill voice">${scenario.level}</span>
           </div>
           <h2 style="font-size:20px;font-weight:700;margin-bottom:8px">${esc(scenario.title)}</h2>
-          <div style="font-size:13.5px;color:var(--cream-dim);line-height:1.6;margin-top:6px;padding:12px;background:rgba(255,255,255,0.03);border-radius:8px">
+          <div style="font-size:13.5px;color:var(--cream-dim);line-height:1.6;margin-top:6px;padding:12px;background:var(--color-surface-2);border-radius:8px">
             <b style="color:var(--amber);display:block;margin-bottom:4px">&#x1F4CD; Scenario Situation:</b>
             ${esc(scenario.situationContext)}
           </div>
@@ -3212,7 +3212,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
             const lbl = $(`#s-opt-label-${qIdx}-${oIdx}`);
             if (lbl) {
               lbl.style.borderColor = otherInp.checked ? 'var(--amber)' : 'var(--line)';
-              lbl.style.background = otherInp.checked ? 'rgba(244,183,64,0.08)' : 'transparent';
+              lbl.style.background = otherInp.checked ? 'var(--color-streak-soft)' : 'transparent';
             }
           });
         };
@@ -3253,7 +3253,7 @@ async function openSituationalScenario(scenarioId, mount, scenarios) {
               ${res.evaluatedAnswers.map((ans, idx) => {
                 const q = scenario.interactivePrompts[idx];
                 return `
-                  <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
+                  <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'var(--color-success)' : 'var(--color-error)'}">
                     <div class="row gap-sm" style="margin-bottom:6px">
                       <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714; Correct Choice' : '&#x2716; Needs Improvement'}</span>
                       <span style="font-size:13px;font-weight:600">Q${idx + 1}: ${esc(q.prompt)}</span>
@@ -3305,7 +3305,7 @@ function renderLockedModuleView(mount, moduleTitle, minLevel, minXP) {
 
   mount.innerHTML = `
     <div class="col gap-md align-center" style="max-width:600px;margin:40px auto;text-align:center">
-      <div class="card col gap-md" style="padding:32px;border:1px solid var(--amber);background:rgba(244,183,64,0.04);position:relative">
+      <div class="card col gap-md" style="padding:32px;border:1px solid var(--color-streak);background:var(--color-streak-soft);position:relative">
         <div style="font-size:48px;margin-bottom:8px">&#x1F512;</div>
         <span class="pill amber" style="align-self:center">${minLevel} Level Required</span>
         <h2 style="font-size:24px;font-weight:700">${esc(moduleTitle)} is Locked</h2>
@@ -3321,7 +3321,7 @@ function renderLockedModuleView(mount, moduleTitle, minLevel, minXP) {
             <div class="spacer"></div>
             <b>${currentXP} / ${minXP} XP</b>
           </div>
-          <div style="width:100%;height:10px;background:rgba(255,255,255,0.08);border-radius:5px;overflow:hidden">
+          <div style="width:100%;height:10px;background:var(--color-border);border-radius:5px;overflow:hidden">
             <div style="width:${pct}%;height:100%;background:linear-gradient(90deg, var(--amber), var(--sprout));border-radius:5px;transition:width 0.4s ease"></div>
           </div>
         </div>
@@ -3494,7 +3494,7 @@ function renderTestResult(res, test) {
         ${res.evaluatedAnswers.map((ans, idx) => {
           const q = test.questions[idx];
           return `
-            <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'rgba(16,185,129,0.35)' : 'rgba(244,63,94,0.35)'}">
+            <div class="card" style="padding:12px 16px;background:var(--color-surface-2);border:1px solid ${ans.isCorrect ? 'var(--color-success)' : 'var(--color-error)'}">
               <div class="row gap-sm" style="margin-bottom:6px">
                 <span style="font-weight:700;color:${ans.isCorrect ? 'var(--emerald)' : 'var(--coral)'}">${ans.isCorrect ? '&#x2714;' : '&#x2716;'}</span>
                 <span style="font-size:13px;font-weight:600">Q${idx+1}: ${esc(q.question)}</span>
@@ -3537,7 +3537,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
   mount.innerHTML = `
     <div class="col gap-lg" style="max-width:960px;margin:0 auto">
       <!-- Profile Header Hero -->
-      <div class="card" style="padding:28px 24px;background:linear-gradient(135deg, rgba(34,211,238,0.08) 0%, rgba(139,92,246,0.08) 100%);border:1px solid rgba(255,255,255,0.08)">
+      <div class="card" style="padding:28px 24px;background:var(--color-primary-soft);border:1px solid var(--color-border)">
         <div class="row gap-md" style="align-items:center;flex-wrap:wrap">
           ${avatarHTML(u.name, 72)}
           <div class="col" style="flex:1;min-width:240px">
