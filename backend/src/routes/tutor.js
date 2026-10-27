@@ -51,8 +51,8 @@ router.get('/live-web-data', requireAuth, async (req, res) => {
 
 router.get('/history', requireAuth, async (req, res) => {
   try {
-    const messages = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: 1 }).limit(100);
-    res.json(messages);
+    const messages = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: -1 }).limit(100);
+    res.json(messages.reverse());
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -209,7 +209,11 @@ router.post('/message', requireAuth, async (req, res) => {
     // Auto-detect and record any persistent learning goals / background from message
     autoExtractMemory(req.user._id, message).catch(() => {});
 
-    const history = await TutorMessage.find({ user: req.user._id }).sort({ createdAt: 1 }).limit(20);
+    // Fetch latest 20 messages for true multi-turn context memory (in chronological order)
+    const recentDbMessages = await TutorMessage.find({ user: req.user._id })
+      .sort({ createdAt: -1 })
+      .limit(20);
+    const history = recentDbMessages.reverse();
 
     const shouldStream = req.body.stream === true || req.headers.accept?.includes('text/event-stream') || req.query.stream === 'true';
 
