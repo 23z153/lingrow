@@ -507,3 +507,20 @@ window.addEventListener('hashchange', () => {
     setView(view);
   }
 });
+
+// Prevent accidental F7 Caret Browsing activation
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'F7') {
+    e.preventDefault();
+  }
+});
+
+// Clear any accidental text cursor / caret on touch or click outside inputs
+document.addEventListener('pointerup', (e) => {
+  if (!e.target.closest('input, textarea, select, [contenteditable="true"]')) {
+    const sel = window.getSelection();
+    if (sel && sel.type === 'Caret') {
+      sel.removeAllRanges();
+    }
+  }
+});
