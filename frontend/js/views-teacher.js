@@ -9,7 +9,7 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
       <div class="row" style="margin-bottom:14px;align-items:center">
         <div>
           <div class="section-title" style="margin:0">${ICONS.grid} Managed Students (<span id="student-count">${students.length}</span>)</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Monitor and manage enrolled students across all classes.</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Monitor and manage enrolled students across all classes.</div>
         </div>
         <div class="spacer"></div>
         <div class="row gap-sm" style="align-items:center">
@@ -55,7 +55,7 @@ VIEW_RENDERERS['t-dashboard'] = async (mount) => {
           <td>${s.streak} 🔥</td>
           <td class="mono">${s.xp}</td>
           <td><span class="pill ${s.status==='Active'?'sprout':'coral'}">${s.status}</span></td>
-          <td style="font-size:12px;color:var(--cream-faint)">${timeAgo(s.updatedAt)}</td>
+          <td style="font-size:12px;color:var(--color-text-muted)">${timeAgo(s.updatedAt)}</td>
           <td><button class="btn btn-ghost btn-sm" data-view-student="${s._id}">View</button></td>
         </tr>`);
     });
@@ -125,16 +125,16 @@ function renderTeacherTestsView(mount, tests, categories) {
             </select>
           </div>
 
-          <div id="ct-classes-wrap" style="grid-column:1/-1;display:none;background:var(--card-sub);padding:12px;border-radius:8px">
+          <div id="ct-classes-wrap" style="grid-column:1/-1;display:none;background:var(--color-surface-2);padding:12px;border-radius:8px">
             <label class="field-label">Select Targeted Class(es)</label>
             <div class="row gap-sm" style="margin-top:6px;flex-wrap:wrap">
               ${['CSE-A','CSE-B','CSE-C','IT-A','IT-B','MECHANICAL','CIVIL','ECE-A','ECE-B','EEE','A','B'].map(clsName => `
-                <label class="row gap-xs" style="font-size:13px;cursor:pointer;padding:3px 8px;background:rgba(255,255,255,0.04);border-radius:6px;border:1px solid var(--white-border)"><input type="checkbox" class="ct-class-cb" value="${clsName}"> ${clsName}</label>
+                <label class="row gap-xs" style="font-size:13px;cursor:pointer;padding:3px 8px;background:var(--color-surface-2);border-radius:6px;border:1px solid var(--color-border);color:var(--color-text)"><input type="checkbox" class="ct-class-cb" value="${clsName}"> ${clsName}</label>
               `).join('')}
             </div>
           </div>
 
-          <div id="ct-bank-hint" style="grid-column:1/-1;font-size:12.5px;color:var(--cream-faint)"></div>
+          <div id="ct-bank-hint" style="grid-column:1/-1;font-size:12.5px;color:var(--color-text-muted)"></div>
           <button class="btn btn-primary" type="submit" style="grid-column:1/-1;justify-self:start">${ICONS.plus} Create Test &amp; Assign</button>
         </form>
       </div>
@@ -253,8 +253,8 @@ async function openTestResults(testId) {
           <div>
             <div class="eyebrow">Student scores</div>
             ${attempts.length ? attempts.map(a => `
-              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--line)">
-                <div style="flex:1;font-size:13px">${esc(a.user?.name || 'Unknown')} <span style="color:var(--cream-faint);font-size:11.5px">${esc(a.user?.batch || '')}</span></div>
+              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--color-border)">
+                <div style="flex:1;font-size:13px">${esc(a.user?.name || 'Unknown')} <span style="color:var(--color-text-muted);font-size:11.5px">${esc(a.user?.batch || '')}</span></div>
                 <div class="pill" style="color:${scoreColor(a.score)};border-color:transparent">${a.score}%</div>
               </div>
             `).join('') : `<div class="empty-state">No attempts yet</div>`}
@@ -262,9 +262,9 @@ async function openTestResults(testId) {
           <div>
             <div class="eyebrow">Toughest questions (most missed)</div>
             ${questionStats.slice().sort((a,b)=>b.wrongCount-a.wrongCount).slice(0,8).map(q => `
-              <div style="padding:8px 0;border-bottom:1px solid var(--line);font-size:13px">
+              <div style="padding:8px 0;border-bottom:1px solid var(--color-border);font-size:13px">
                 <div>${esc(q.question)}</div>
-                <div style="font-size:11.5px;color:var(--cream-faint)">Missed by ${q.wrongCount} of ${q.totalAnswered || 0}</div>
+                <div style="font-size:11.5px;color:var(--color-text-muted)">Missed by ${q.wrongCount} of ${q.totalAnswered || 0}</div>
               </div>
             `).join('')}
           </div>
@@ -284,7 +284,7 @@ async function openStudentDetail(id){
       <div class="card">
         <div class="row gap-sm" style="margin-bottom:16px">
           ${avatarHTML(student.name, 44)}
-          <div><h3>${esc(student.name)}</h3><div style="font-size:12.5px;color:var(--cream-faint)">${esc(student.email)} · ${esc(student.batch||student.department||'')}</div></div>
+          <div><h3>${esc(student.name)}</h3><div style="font-size:12.5px;color:var(--color-text-muted)">${esc(student.email)} · ${esc(student.batch||student.department||'')}</div></div>
           <div class="spacer"></div>
           <div class="pill amber">${student.xp} XP</div>
         </div>
@@ -292,7 +292,7 @@ async function openStudentDetail(id){
           <div>
             <div class="eyebrow">Read Aloud attempts</div>
             ${readAloud.length ? readAloud.map(a=>`
-              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--line)">
+              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--color-border)">
                 <div style="flex:1;font-size:13px">${esc(a.passage?.title||'Passage')}</div>
                 <div class="pill" style="color:${scoreColor(a.accuracy)};border-color:transparent">${a.accuracy}%</div>
               </div>
@@ -302,7 +302,7 @@ async function openStudentDetail(id){
           <div>
             <div class="eyebrow">Debate attempts</div>
             ${debates.length ? debates.map(a=>`
-              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--line)">
+              <div class="row" style="padding:8px 0;border-bottom:1px solid var(--color-border)">
                 <div style="flex:1;font-size:13px">${esc(a.topic?.topic||'Topic')}</div>
                 <div class="pill" style="color:${scoreColor(a.scores.overall)};border-color:transparent">${a.scores.overall}</div>
               </div>
@@ -400,23 +400,23 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
               <tbody id="gd-room-rows">
                 ${rooms.map((r) => `
                   <tr class="tr-hover">
-                    <td style="font-weight:600;color:#FFFFFF">${esc(r.topic)}</td>
+                    <td style="font-weight:600;color:var(--color-text)">${esc(r.topic)}</td>
                     <td class="mono">${r.participants?.length || 0} / ${r.maxStudents} Students</td>
                     <td>
                       <span class="pill ${r.status === 'LOBBY' ? 'amber' : r.status === 'IN_PROGRESS' ? 'sprout' : 'voice'}">
                         ${r.status === 'LOBBY' ? '⌛ Lobby Open' : r.status === 'IN_PROGRESS' ? '🔴 Live In-Progress' : '✓ Completed'}
                       </span>
                     </td>
-                    <td style="font-size:12.5px;color:var(--cream-dim)">
+                    <td style="font-size:12.5px;color:var(--color-text-muted)">
                       ${(r.participants || []).map((p) => esc(p.name)).join(', ') || 'No students in lobby yet'}
                     </td>
-                    <td style="font-size:12px;color:var(--cream-faint)">${timeAgo(r.createdAt)}</td>
+                    <td style="font-size:12px;color:var(--color-text-muted)">${timeAgo(r.createdAt)}</td>
                     <td class="row gap-xs">
                       ${r.status === 'LOBBY' ? `
-                        <button class="btn btn-primary btn-sm" data-start-gd="${r._id}">▶ Start GD</button>
+                        <button class="btn btn-primary btn-action btn-sm" data-start-gd="${r._id}">▶ Start GD</button>
                       ` : r.status === 'IN_PROGRESS' ? `
                         <button class="btn btn-ghost btn-sm" data-view-gd="${r._id}">👁️ Monitor</button>
-                        <button class="btn btn-primary btn-sm" data-end-gd="${r._id}" style="background:var(--coral);border-color:var(--coral)">⏹️ End &amp; AI Report</button>
+                        <button class="btn btn-primary btn-sm" data-end-gd="${r._id}" style="background:var(--color-error);border-color:var(--color-error);color:#fff">⏹️ End &amp; AI Report</button>
                       ` : `
                         <button class="btn btn-ghost btn-sm" data-report-gd="${r._id}">📊 AI Report</button>
                       `}
@@ -498,11 +498,11 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
     if (!area) return;
 
     area.innerHTML = `
-      <div class="card card-2" style="margin-top:20px;border:1px solid var(--purple)">
+      <div class="card card-2" style="margin-top:20px;border:1px solid var(--color-primary)">
         <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
           <div>
-            <h3 style="font-size:20px;margin:0;color:#FFFFFF">📊 Group Discussion AI Report &amp; Class Matrix</h3>
-            <div style="font-size:14px;color:var(--cream-dim)">Topic: <b>"${esc(room.topic)}"</b> | Host: ${esc(room.teacher?.name || 'Teacher')}</div>
+            <h3 style="font-size:20px;margin:0;color:var(--color-text)">📊 Group Discussion AI Report &amp; Class Matrix</h3>
+            <div style="font-size:14px;color:var(--color-text-muted)">Topic: <b>"${esc(room.topic)}"</b> | Host: ${esc(room.teacher?.name || 'Teacher')}</div>
           </div>
           <div class="spacer"></div>
           <span class="pill sprout">${room.participants?.length || 0} Students in Room</span>
@@ -540,10 +540,10 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
           <div class="eyebrow" style="margin-bottom:10px">Individual Student Feedback &amp; Skill Improvement Suggestions</div>
           <div class="col gap-md">
             ${room.reports.map((rep) => `
-              <div class="card card-2" style="background:var(--card-bg);border:1px solid var(--line)">
+              <div class="card card-2" style="background:var(--color-surface);border:1px solid var(--color-border)">
                 <div class="row gap-sm" style="margin-bottom:8px;align-items:center">
                   ${avatarHTML(rep.studentName, 32)}
-                  <div style="font-size:16px;font-weight:700;color:#FFFFFF">${esc(rep.studentName)}</div>
+                  <div style="font-size:16px;font-weight:700;color:var(--color-text)">${esc(rep.studentName)}</div>
                   <div class="spacer"></div>
                   <span class="pill amber" style="font-weight:700">Overall: ${rep.overallScore}/100</span>
                 </div>
@@ -551,8 +551,8 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
                 <!-- Strengths -->
                 ${rep.strengths && rep.strengths.length ? `
                   <div style="margin-bottom:10px">
-                    <div style="font-size:13px;font-weight:700;color:var(--emerald);margin-bottom:4px">🌟 Key Strengths:</div>
-                    <ul style="margin:0;padding-left:18px;font-size:13.5px;color:var(--cream)">
+                    <div style="font-size:13px;font-weight:700;color:var(--color-success-text);margin-bottom:4px">🌟 Key Strengths:</div>
+                    <ul style="margin:0;padding-left:18px;font-size:13.5px;color:var(--color-text)">
                       ${rep.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}
                     </ul>
                   </div>
@@ -561,11 +561,11 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
                 <!-- Corrections -->
                 ${rep.corrections && rep.corrections.length ? `
                   <div style="margin-bottom:10px">
-                    <div style="font-size:13px;font-weight:700;color:var(--coral);margin-bottom:4px">✏️ Sentence &amp; Grammar Corrections:</div>
+                    <div style="font-size:13px;font-weight:700;color:var(--color-error-text);margin-bottom:4px">✏️ Sentence &amp; Grammar Corrections:</div>
                     ${rep.corrections.map((c) => `
-                      <div class="card" style="padding:10px;margin-bottom:6px;background:rgba(244,63,94,0.08);border-left:3px solid var(--coral)">
-                        <div style="font-size:13px;color:var(--coral)"><b>Spoken:</b> "${esc(c.original)}"</div>
-                        <div style="font-size:13px;color:var(--emerald);margin-top:2px"><b>Improved:</b> "${esc(c.corrected)}"</div>
+                      <div class="card" style="padding:10px;margin-bottom:6px;background:var(--color-error-soft);border-left:3px solid var(--color-error)">
+                        <div style="font-size:13px;color:var(--color-error-text)"><b>Spoken:</b> "${esc(c.original)}"</div>
+                        <div style="font-size:13px;color:var(--color-success-text);margin-top:2px"><b>Improved:</b> "${esc(c.corrected)}"</div>
                       </div>
                     `).join('')}
                   </div>
@@ -574,8 +574,8 @@ VIEW_RENDERERS['t-gd'] = async (mount) => {
                 <!-- Targeted Suggestions -->
                 ${rep.suggestions && rep.suggestions.length ? `
                   <div>
-                    <div style="font-size:13px;font-weight:700;color:var(--amber);margin-bottom:4px">💡 Skill Improvement Suggestions:</div>
-                    <ul style="margin:0;padding-left:18px;font-size:13.5px;color:var(--cream)">
+                    <div style="font-size:13px;font-weight:700;color:var(--color-streak-text);margin-bottom:4px">💡 Skill Improvement Suggestions:</div>
+                    <ul style="margin:0;padding-left:18px;font-size:13.5px;color:var(--color-text)">
                       ${rep.suggestions.map((sug) => `<li>${esc(sug)}</li>`).join('')}
                     </ul>
                   </div>
