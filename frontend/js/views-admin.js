@@ -11,12 +11,12 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
     throw err;
   }
   mount.innerHTML = `
-    <div class="card" style="margin-bottom:16px;background:var(--card-sub);border-left:4px solid var(--sprout)">
+    <div class="card" style="margin-bottom:16px;background:var(--color-surface-2);border-left:4px solid var(--color-success)">
       <div class="row" style="align-items:center;gap:12px">
         <div style="font-size:20px">🔒</div>
         <div>
-          <div style="font-weight:700;color:#FFFFFF;font-size:14px">Administrator Account Provisioning Active</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Only accounts created by the Administrator can access the LinGrow AI platform. Students are enrolled in their respective classes. Teachers have full access across all student classes.</div>
+          <div style="font-weight:700;color:var(--color-text);font-size:14px">Administrator Account Provisioning Active</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Only accounts created by the Administrator can access the LinGrow AI platform. Students are enrolled in their respective classes. Teachers have full access across all student classes.</div>
         </div>
       </div>
     </div>
@@ -48,11 +48,11 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
       tbody.insertAdjacentHTML('beforeend', `
         <tr class="tr-hover">
           <td class="row gap-sm">${avatarHTML(u.name,28)}<span>${esc(u.name)}</span></td>
-          <td style="font-size:12.5px;color:var(--cream-dim)">${esc(u.email)}</td>
-          <td><span class="pill ${u.role==='admin'?'coral':u.role==='teacher'?'voice':'sprout'}">${u.role}</span></td>
+          <td style="font-size:12.5px;color:var(--color-text-muted)">${esc(u.email)}</td>
+          <td><span class="pill ${u.role==='admin'?'streak':u.role==='teacher'?'primary':'gem'}">${u.role}</span></td>
           <td>${esc(u.department||'—')}</td>
           <td>${classDisplay}</td>
-          <td><span class="pill ${status==='Active'?'sprout':'coral'}">${status}</span></td>
+          <td><span class="pill ${status==='Active'?'success':'error'}">${status}</span></td>
           <td class="row gap-sm">
             <button class="btn btn-ghost btn-sm" data-edit-user="${u._id}">✏️ Edit</button>
             <button class="btn btn-ghost btn-sm" data-toggle="${u._id}" data-status="${status}">${status==='Active'?'Suspend':'Reactivate'}</button>
@@ -199,9 +199,9 @@ VIEW_RENDERERS['a-users'] = async (mount) => {
 
   $('#bulk-user-btn').onclick = ()=> openModal(`
     <h3 style="margin-bottom:10px">Bulk Import User Accounts</h3>
-    <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,class</span> (class applies to students only).</p>
+    <p style="font-size:12.5px;color:var(--color-text-muted);margin-bottom:12px">Paste CSV rows: <span class="mono">name,email,password,role,department,class</span> (class applies to students only).</p>
     <textarea id="m-csv" rows="8" placeholder="Rahul Sharma,rahul@college.edu,pass1234,student,CSE,A\nDr. Priya,priya@college.edu,pass1234,teacher,English,,A;B"></textarea>
-    <button class="btn btn-primary" id="m-bulk-submit" style="margin-top:14px">Import &amp; Grant Access</button>
+    <button class="btn btn-primary btn-action" id="m-bulk-submit" style="margin-top:14px">Import &amp; Grant Access</button>
     <div id="bulk-result" style="margin-top:12px;font-size:13px"></div>`, ()=>{
       $('#m-bulk-submit').onclick = async ()=>{
         const lines = $('#m-csv').value.split('\n').map(l=>l.trim()).filter(Boolean);
@@ -247,7 +247,7 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
       <td><strong>${esc(t.title)}</strong></td>
       <td><span class="pill sprout" style="font-size:11px">${esc(t.category)}</span></td>
       <td><span class="pill voice" style="font-size:10.5px">${t.level}</span></td>
-      <td>${t.videoUrl ? `<span class="pill emerald" style="font-size:10.5px">📹 Video Attached</span>` : `<span style="color:var(--cream-faint);font-size:12px">No video</span>`}</td>
+      <td>${t.videoUrl ? `<span class="pill emerald" style="font-size:10.5px">📹 Video Attached</span>` : `<span style="color:var(--color-text-muted);font-size:12px">No video</span>`}</td>
       <td><strong>${t.questions.length} MCQs</strong></td>
       <td class="row gap-xs">
         <button class="btn btn-primary btn-sm" data-manage-qb="${t._id}">Manage Question Bank</button>
@@ -259,11 +259,11 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
 
   mount.innerHTML = `
     <!-- Beginner Topics & Question Bank Manager -->
-    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--sprout)">
+    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--color-success)">
       <div class="row" style="margin-bottom:12px;align-items:center">
         <div>
           <div class="section-title" style="margin-bottom:2px">${ICONS.book} Beginner &amp; Grammar Topics &amp; 10-Question Bank Manager</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Manage topics (Tenses, Articles, Prepositions, etc.), video URLs, descriptions, and 4-option MCQ Question Banks.</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Manage topics (Tenses, Articles, Prepositions, etc.), video URLs, descriptions, and 4-option MCQ Question Banks.</div>
         </div>
         <div class="spacer"></div>
         <button class="btn btn-primary btn-sm" id="admin-add-grammar-topic-btn">+ Add New Topic</button>
@@ -278,11 +278,11 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
       </div>
     </div>
 
-    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--purple);background:var(--purple-glow)">
+    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--color-primary);background:var(--color-primary-soft)">
       <div class="row" style="margin-bottom:12px;align-items:center">
         <div>
           <div class="section-title" style="margin-bottom:2px">${ICONS.library} Department Question Bank Manager (50+ Sets Engine)</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Scrapes and manages technical passages &amp; listening scripts per department for student random sampling.</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Scrapes and manages technical passages &amp; listening scripts per department for student random sampling.</div>
         </div>
         <div class="spacer"></div>
         <div class="row gap-sm">
@@ -299,7 +299,7 @@ VIEW_RENDERERS['a-content'] = async (mount) => {
           <button class="btn btn-primary btn-sm" id="qb-run-scraper-btn">${ICONS.activity} Run Department Scraper</button>
         </div>
       </div>
-      <div id="qb-scraper-log" style="font-size:12.5px;margin-bottom:12px;color:var(--sprout);font-weight:600"></div>
+      <div id="qb-scraper-log" style="font-size:12.5px;margin-bottom:12px;color:var(--color-success-text);font-weight:600"></div>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Department</th><th>Read Aloud Bank</th><th>Listening Bank</th><th>Total Question Sets</th><th>Question Bank Status</th></tr></thead>
@@ -491,36 +491,36 @@ function openTopicEditModal(topic, onSave) {
 function openQuestionBankModal(topic, onChange) {
   function renderContent() {
     const qListHtml = topic.questions.map((q, idx) => `
-      <div class="card" style="padding:14px;margin-bottom:10px;border-left:3px solid var(--sprout);background:rgba(255,255,255,0.02)">
+      <div class="card" style="padding:14px;margin-bottom:10px;border-left:3px solid var(--color-success);background:var(--color-surface-2)">
         <div class="row gap-xs" style="align-items:flex-start;margin-bottom:6px">
           <span class="pill sprout" style="font-size:10.5px">Q${idx + 1}</span>
           <strong style="font-size:14px;flex:1">${esc(q.question)}</strong>
           <button class="btn btn-danger btn-sm" style="padding:2px 8px;font-size:11px" data-del-q="${q._id}">Delete</button>
         </div>
-        <div style="font-size:12.5px;color:var(--cream-dim);margin-bottom:6px">
-          Options: ${q.options.map((opt, oIdx) => `<span style="${oIdx === q.correctAnswer ? 'color:var(--emerald);font-weight:700' : ''}">${['A','B','C','D'][oIdx]}: ${esc(opt)}</span>`).join(' · ')}
+        <div style="font-size:12.5px;color:var(--color-text-muted);margin-bottom:6px">
+          Options: ${q.options.map((opt, oIdx) => `<span style="${oIdx === q.correctAnswer ? 'color:var(--color-success-text);font-weight:700' : ''}">${['A','B','C','D'][oIdx]}: ${esc(opt)}</span>`).join(' · ')}
         </div>
-        <div style="font-size:12px;color:var(--cream-faint)">💡 Explanation: ${esc(q.explanation)}</div>
+        <div style="font-size:12px;color:var(--color-text-muted)">💡 Explanation: ${esc(q.explanation)}</div>
       </div>
     `).join('');
 
     openModal(`
       <h3 style="margin-bottom:6px">Question Bank: ${esc(topic.title)}</h3>
-      <p style="font-size:12.5px;color:var(--cream-dim);margin-bottom:14px">Total Questions in Bank: <strong>${topic.questions.length}</strong> (Students take 10 randomized MCQs per test attempt).</p>
+      <p style="font-size:12.5px;color:var(--color-text-muted);margin-bottom:14px">Total Questions in Bank: <strong>${topic.questions.length}</strong> (Students take 10 randomized MCQs per test attempt).</p>
 
-      <div class="card col gap-sm" style="padding:16px;margin-bottom:16px;background:rgba(34,211,238,0.04);border:1px solid var(--cyan)">
-        <div style="font-size:14px;font-weight:700;color:var(--cyan)">Import Question File</div>
-        <div style="font-size:12.5px;color:var(--cream-dim);line-height:1.5">Upload a CSV or JSON file with question, optionA, optionB, optionC, optionD, correctAnswer, and explanation. Correct answers may use A-D or 0-3.</div>
+      <div class="card col gap-sm" style="padding:16px;margin-bottom:16px;background:var(--color-gem-soft);border:1px solid var(--color-gem)">
+        <div style="font-size:14px;font-weight:700;color:var(--color-gem-text)">Import Question File</div>
+        <div style="font-size:12.5px;color:var(--color-text-muted);line-height:1.5">Upload a CSV or JSON file with question, optionA, optionB, optionC, optionD, correctAnswer, and explanation. Correct answers may use A-D or 0-3.</div>
         <input type="file" id="mq-import-file" accept=".csv,application/json,.json,text/csv">
         <div class="row gap-sm" style="align-items:center;flex-wrap:wrap">
-          <button class="btn btn-primary btn-sm" id="mq-import-btn">Import Questions</button>
-          <span id="mq-import-status" style="font-size:12px;color:var(--cream-dim)"></span>
+          <button class="btn btn-primary btn-action btn-sm" id="mq-import-btn">Import Questions</button>
+          <span id="mq-import-status" style="font-size:12px;color:var(--color-text-muted)"></span>
         </div>
       </div>
 
       <!-- Add New Question Form -->
-      <div class="card col gap-sm" style="padding:16px;margin-bottom:16px;background:rgba(139,92,246,0.05);border:1px solid var(--purple)">
-        <div style="font-size:14px;font-weight:700;color:var(--purple)">+ Add New MCQ Question</div>
+      <div class="card col gap-sm" style="padding:16px;margin-bottom:16px;background:var(--color-primary-soft);border:1px solid var(--color-primary)">
+        <div style="font-size:14px;font-weight:700;color:var(--color-primary)">+ Add New MCQ Question</div>
         <div>
           <label class="field-label">Question Text</label>
           <input type="text" id="mq-question" placeholder="e.g. She ___ to class every morning.">
@@ -546,11 +546,11 @@ function openQuestionBankModal(topic, onChange) {
           <label class="field-label">Explanation</label>
           <input type="text" id="mq-explanation" placeholder="Explanation for correct choice…">
         </div>
-        <button class="btn btn-primary btn-sm" id="mq-add-btn" style="margin-top:6px">+ Add Question to Bank</button>
+        <button class="btn btn-primary btn-action btn-sm" id="mq-add-btn" style="margin-top:6px">+ Add Question to Bank</button>
       </div>
 
       <div style="max-height:280px;overflow-y:auto;padding-right:4px">
-        ${qListHtml || '<div style="font-size:13px;color:var(--cream-dim)">No questions in this question bank yet. Add one above!</div>'}
+        ${qListHtml || '<div style="font-size:13px;color:var(--color-text-muted)">No questions in this question bank yet. Add one above!</div>'}
       </div>
     `, () => {
       $('#mq-import-btn').onclick = async () => {
@@ -685,23 +685,23 @@ VIEW_RENDERERS['a-health'] = async (mount) => {
 
   const chatLogsHtml = tutorLogs.length
     ? tutorLogs.map((l) => `
-        <div style="padding:10px 12px;border-bottom:1px solid var(--line);background:${l.role==='assistant'?'rgba(139,92,246,0.03)':'transparent'}">
+        <div style="padding:10px 12px;border-bottom:1px solid var(--color-border);background:${l.role==='assistant'?'var(--color-primary-soft)':'transparent'}">
           <div class="row gap-sm" style="margin-bottom:4px;align-items:center">
             <span class="pill ${l.role==='user'?'voice':'sprout'}" style="font-size:10px;font-weight:700">${l.role==='user'?'STUDENT QUESTION':'AI TUTOR RESPONSE'}</span>
             ${l.verification?.verdict ? `<span class="pill ${l.verification.wasCorrected?'amber':l.verification.isCorrect!==false?'sprout':'coral'}" style="font-size:9.5px;font-weight:700">${l.verification.wasCorrected?'🔄 AUTO-CORRECTED':l.verification.isCorrect!==false?'🛡️ VERIFIED':'⚠️ REVISED'}</span>` : ''}
             <strong>${esc(l.userName || 'Student')}</strong>
-            <span style="font-size:11.5px;color:var(--cream-dim)">(${esc(l.userEmail || '')})</span>
+            <span style="font-size:11.5px;color:var(--color-text-muted)">(${esc(l.userEmail || '')})</span>
             <span class="pill amber" style="font-size:10px">${l.department || 'CSE'}</span>
             <div class="spacer"></div>
-            <span style="font-size:11px;color:var(--cream-faint)">${timeAgo(l.createdAt)}</span>
+            <span style="font-size:11px;color:var(--color-text-muted)">${timeAgo(l.createdAt)}</span>
           </div>
-          <div style="font-size:13px;color:var(--cream-bright);margin-bottom:4px">${esc(l.text)}</div>
-          ${l.correction ? `<div style="font-size:12px;color:var(--coral);font-weight:600">💡 Auto-Correction: ${esc(l.correction)}</div>` : ''}
-          ${l.sources && l.sources.length > 0 ? `<div style="font-size:11px;color:var(--teal)">🌐 Cited Sources: ${l.sources.map(s => esc(s.title)).join(' · ')}</div>` : ''}
-          ${l.liveTaskSnapshot ? `<div style="font-size:11px;color:var(--cream-faint);margin-top:2px">Live Task Snapshot: ${l.liveTaskSnapshot.xp || 0} XP · ${l.liveTaskSnapshot.level || 'Beginner'} · ${l.liveTaskSnapshot.vocabMastered || 0} Vocab Mastered</div>` : ''}
+          <div style="font-size:13px;color:var(--color-text);margin-bottom:4px">${esc(l.text)}</div>
+          ${l.correction ? `<div style="font-size:12px;color:var(--color-error-text);font-weight:600">💡 Auto-Correction: ${esc(l.correction)}</div>` : ''}
+          ${l.sources && l.sources.length > 0 ? `<div style="font-size:11px;color:var(--color-gem-text)">🌐 Cited Sources: ${l.sources.map(s => esc(s.title)).join(' · ')}</div>` : ''}
+          ${l.liveTaskSnapshot ? `<div style="font-size:11px;color:var(--color-text-muted);margin-top:2px">Live Task Snapshot: ${l.liveTaskSnapshot.xp || 0} XP · ${l.liveTaskSnapshot.level || 'Beginner'} · ${l.liveTaskSnapshot.vocabMastered || 0} Vocab Mastered</div>` : ''}
         </div>
       `).join('')
-    : '<div style="padding:16px;color:var(--cream-dim);font-size:13px">No student chatbot interactions logged yet.</div>';
+    : '<div style="padding:16px;color:var(--color-text-muted);font-size:13px">No student chatbot interactions logged yet.</div>';
 
   mount.innerHTML = `
     <div class="grid grid-4" style="margin-bottom:20px">
@@ -711,16 +711,16 @@ VIEW_RENDERERS['a-health'] = async (mount) => {
       <div class="card"><div class="eyebrow">Content items</div><h2 style="font-size:22px">${stats.totalPassages + stats.totalVocab}</h2></div>
     </div>
 
-    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--sprout)">
+    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--color-success)">
       <div class="row" style="margin-bottom:12px;align-items:center">
         <div>
           <div class="section-title" style="margin:0">${ICONS.message} Live AI Chatbot &amp; Student Task Monitor</div>
-          <div style="font-size:12.5px;color:var(--cream-dim)">Real-time feed of all student questions, live task snapshots, and AI responses.</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Real-time feed of all student questions, live task snapshots, and AI responses.</div>
         </div>
         <div class="spacer"></div>
         <button class="btn btn-ghost btn-sm" id="refresh-admin-logs-btn">${ICONS.activity} Refresh Live Logs</button>
       </div>
-      <div style="max-height:420px;overflow-y:auto;border:1px solid var(--line);border-radius:8px">
+      <div style="max-height:420px;overflow-y:auto;border:1px solid var(--color-border);border-radius:8px">
         ${chatLogsHtml}
       </div>
     </div>
@@ -728,10 +728,10 @@ VIEW_RENDERERS['a-health'] = async (mount) => {
     <div class="card">
       <div class="section-title">${ICONS.activity} Service &amp; Private Engine Status</div>
       ${stats.services.map(s=>`
-        <div class="row gap-sm" style="padding:10px 0;border-bottom:1px solid var(--line)">
+        <div class="row gap-sm" style="padding:10px 0;border-bottom:1px solid var(--color-border)">
           <span class="status-dot ${s.status.includes('operational')?'ok':s.status.includes('not')?'off':'warn'}"></span>
           <div style="flex:1;font-size:13.5px">${esc(s.name)}</div>
-          <div style="font-size:12px;color:var(--cream-faint)">${esc(s.status)}</div>
+          <div style="font-size:12px;color:var(--color-text-muted)">${esc(s.status)}</div>
         </div>`).join('')}
     </div>
   `;
