@@ -76,6 +76,7 @@ async function run() {
   // Seed students for all 10 official classes
   const officialStudents = [
     { name: 'Aarav Krishnan (CSE-A)', email: 'student@lingrow.demo', class: 'CSE-A', dept: 'CSE', level: 'Advanced', xp: 2000 },
+    { name: 'Rohan Verma (CSE-A)', email: 'student2@lingrow.demo', class: 'CSE-A', dept: 'CSE', level: 'Intermediate', xp: 1200 },
     { name: 'Bhavna Sharma (CSE-B)', email: 'student.b@lingrow.demo', class: 'CSE-B', dept: 'CSE', level: 'Intermediate', xp: 1450 },
     { name: 'Chirag Reddy (CSE-C)', email: 'student.csec@lingrow.demo', class: 'CSE-C', dept: 'CSE', level: 'Beginner', xp: 820 },
     { name: 'Sneha Balaji (IT-A)', email: 'student.ita@lingrow.demo', class: 'IT-A', dept: 'IT', level: 'Intermediate', xp: 1100 },
@@ -935,9 +936,10 @@ First, give a 1-sentence crisp definition. Second, state a concrete technical or
   }
 
   console.log('[seed] Done. Demo logins:');
-  console.log('  student@lingrow.demo / password123');
-  console.log('  teacher@lingrow.demo / password123');
-  console.log('  admin@lingrow.demo   / password123');
+  console.log('  student@lingrow.demo  / password123 (Student 1 - Aarav Krishnan)');
+  console.log('  student2@lingrow.demo / password123 (Student 2 - Rohan Verma)');
+  console.log('  teacher@lingrow.demo  / password123');
+  console.log('  admin@lingrow.demo    / password123');
   process.exit(0);
 }
 
