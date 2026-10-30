@@ -1045,6 +1045,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
   let activeSession = null;
   let activeGdRoom = null;
   let pollInterval = null;
+  let currentPeerTab = 'gd'; // 'gd' | '1-on-1'
 
   async function renderPeerMain() {
     if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
@@ -1058,107 +1059,157 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     const gdRooms = Array.isArray(gdRoomsRes) ? gdRoomsRes : [];
 
     mount.innerHTML = `
-      <div class="row" style="margin-bottom:16px;align-items:center">
+      <div class="row" style="margin-bottom:18px;align-items:center;flex-wrap:wrap;gap:12px">
         <div>
-          <div class="section-title" style="margin-bottom:2px">${ICONS.users} Peer Practice &amp; Teacher GD Rooms</div>
-          <div style="font-size:14px;color:var(--cream-dim)">Join teacher-led Group Discussion (GD) lobbies or matched 1-on-1 voice calls.</div>
+          <div class="section-title" style="margin-bottom:2px">${ICONS.users} Peer Practice Hub</div>
+          <div style="font-size:14px;color:var(--color-text-muted)">Join teacher-led Group Discussion (GD) lobbies or matched 1-on-1 voice calls.</div>
         </div>
         <div class="spacer"></div>
-        <span class="pill voice" style="font-size:12.5px">${ICONS.mic} Voice Anonymization Active</span>
+        <!-- Segmented Tab Toggle Button -->
+        <div class="role-tabs" style="max-width:440px;margin-bottom:0;background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:99px;padding:4px;display:inline-flex;gap:4px">
+          <button class="role-tab ${currentPeerTab === 'gd' ? 'active' : ''}" id="peer-tab-gd" type="button" style="border:none;outline:none;border-radius:99px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;transition:all 0.2s ease">
+            👥 Group Discussions (${gdRooms.length})
+          </button>
+          <button class="role-tab ${currentPeerTab === '1-on-1' ? 'active' : ''}" id="peer-tab-1on1" type="button" style="border:none;outline:none;border-radius:99px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;transition:all 0.2s ease">
+            🎯 1-on-1 Practice
+          </button>
+        </div>
       </div>
 
       <!-- Teacher-Led GD Rooms Section -->
-      <div class="card card-2" style="margin-bottom:24px;border:1px solid var(--purple)">
-        <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
-          <div style="font-size:17px;font-weight:700;color:var(--color-text)">👥 Teacher-Led Group Discussion (GD) Rooms (${gdRooms.length})</div>
-          <div class="spacer"></div>
-          <button class="btn btn-ghost btn-sm" id="refresh-gd-rooms-btn">🔄 Refresh Rooms</button>
-        </div>
-        <div style="font-size:14px;color:var(--cream-dim);margin-bottom:14px">
-          Teachers create GD rooms with specified student limits. Enter the lobby, participate in live speech, and receive a comprehensive local AI evaluation report with personalized skill suggestions.
-        </div>
-
-        <div class="grid grid-2 gap-md" id="gd-rooms-container">
-          ${gdRooms.map((r) => {
-            const currentCount = r.participants?.length || 0;
-            const isFull = currentCount >= r.maxStudents;
-            const userJoined = (r.participants || []).some(p => (p._id || p) === (S.user?._id || S.user?.id));
-            let statusPill = `<span class="pill amber">⌛ Lobby Open</span>`;
-            if (r.status === 'IN_PROGRESS') statusPill = `<span class="pill sprout">🔴 Live In-Progress</span>`;
-            else if (r.status === 'COMPLETED') statusPill = `<span class="pill voice">✓ Completed</span>`;
-
-            return `
-              <div class="card card-2" style="background:var(--color-surface);border:1px solid var(--color-border)">
-                <div class="row gap-sm" style="margin-bottom:6px">
-                  <span class="pill voice">Max: ${r.maxStudents} Students</span>
-                  ${statusPill}
-                </div>
-                <h3 style="font-size:18px;margin-bottom:4px;color:var(--color-text)">${esc(r.topic)}</h3>
-                <div style="font-size:13px;color:var(--cream-dim);margin-bottom:10px">
-                  Host: <b>${esc(r.teacher?.name || 'Teacher')}</b> &middot; Target: ${r.targetDurationMinutes || 5} Mins
-                </div>
-                <div class="row gap-sm" style="align-items:center">
-                  <div style="font-size:13.5px;font-weight:700;color:var(--cream)">👥 ${currentCount} / ${r.maxStudents} Joined</div>
-                  <div class="spacer"></div>
-                  ${r.status === 'COMPLETED' ? `
-                    <button class="btn btn-ghost btn-sm" data-gd-report="${r._id}">📊 View AI Report</button>
-                  ` : userJoined ? `
-                    <button class="btn btn-primary btn-sm" data-gd-enter="${r._id}" class="btn-action" style="background:var(--color-success);color:var(--color-on-bright)">➡️ Enter Room</button>
-                  ` : `
-                    <button class="btn btn-primary btn-sm" data-gd-join="${r._id}" ${isFull ? 'disabled' : ''}>
-                      ${isFull ? 'Room Full' : '🚪 Join Lobby'}
-                    </button>
-                  `}
-                </div>
+      <div id="peer-gd-section" style="${currentPeerTab === 'gd' ? '' : 'display:none;'}">
+        <div class="card card-2" style="margin-bottom:24px;border:1px solid var(--color-border);background:var(--color-surface);padding:22px">
+          <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+            <div>
+              <div style="font-size:17px;font-weight:700;color:var(--color-text)">👥 Teacher-Led Group Discussion (GD) Rooms (${gdRooms.length})</div>
+              <div style="font-size:13.5px;color:var(--color-text-muted);margin-top:2px">
+                Teachers create GD rooms with specified student limits. Enter the lobby, participate in live speech, and receive a comprehensive AI evaluation report.
               </div>
-            `;
-          }).join('')}
+            </div>
+            <div class="spacer"></div>
+            <button class="btn btn-ghost btn-sm" id="refresh-gd-rooms-btn">🔄 Refresh Rooms</button>
+          </div>
+
+          <div class="grid grid-2 gap-md" id="gd-rooms-container" style="margin-top:14px">
+            ${gdRooms.map((r) => {
+              const currentCount = r.participants?.length || 0;
+              const isFull = currentCount >= r.maxStudents;
+              const userJoined = (r.participants || []).some(p => (p._id || p) === (S.user?._id || S.user?.id));
+              let statusPill = `<span class="pill amber">⌛ Lobby Open</span>`;
+              if (r.status === 'IN_PROGRESS') statusPill = `<span class="pill sprout">🔴 Live In-Progress</span>`;
+              else if (r.status === 'COMPLETED') statusPill = `<span class="pill voice">✓ Completed</span>`;
+
+              return `
+                <div class="card card-2" style="background:var(--color-surface);border:1px solid var(--color-border);padding:18px">
+                  <div class="row gap-sm" style="margin-bottom:8px">
+                    <span class="pill voice">Max: ${r.maxStudents} Students</span>
+                    ${statusPill}
+                  </div>
+                  <h3 style="font-size:18px;margin-bottom:6px;color:var(--color-text);line-height:1.35">${esc(r.topic)}</h3>
+                  <div style="font-size:13px;color:var(--color-text-muted);margin-bottom:12px">
+                    Host: <b>${esc(r.teacher?.name || 'Teacher')}</b> &middot; Target: ${r.targetDurationMinutes || 5} Mins
+                  </div>
+                  <div class="row gap-sm" style="align-items:center">
+                    <div style="font-size:13.5px;font-weight:700;color:var(--color-text)">👥 ${currentCount} / ${r.maxStudents} Joined</div>
+                    <div class="spacer"></div>
+                    ${r.status === 'COMPLETED' ? `
+                      <button class="btn btn-ghost btn-sm" data-gd-report="${r._id}">📊 View AI Report</button>
+                    ` : userJoined ? `
+                      <button class="btn btn-primary btn-sm" data-gd-enter="${r._id}" class="btn-action" style="background:var(--color-success);color:var(--color-on-bright);font-weight:700">➡️ Enter Room</button>
+                    ` : `
+                      <button class="btn btn-primary btn-sm" data-gd-join="${r._id}" ${isFull ? 'disabled' : ''} style="font-weight:700">
+                        ${isFull ? 'Room Full' : '🚪 Join Lobby'}
+                      </button>
+                    `}
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+          ${!gdRooms.length ? `<div class="empty-state" style="padding:28px 16px;text-align:center">No teacher GD rooms created yet. Ask your teacher to open a GD room lobby!</div>` : ''}
         </div>
-        ${!gdRooms.length ? `<div class="empty-state">No teacher GD rooms created yet. Ask your teacher to open a GD room lobby!</div>` : ''}
       </div>
 
       <!-- 1-on-1 Peer Match Section -->
-      <div class="grid grid-2" style="margin-bottom:20px">
-        <div class="card" id="peer-match-card">
-          <div class="section-title" style="margin-bottom:10px">${ICONS.target} 1-on-1 Voice-Anonymized Match</div>
-          <div class="col gap-xs" style="margin-bottom:14px">
-            <label class="field-label">Topic for Discussion</label>
-            <select id="peer-topic-select" class="input-field" style="background:var(--color-surface-2);color:var(--color-text);padding:10px;border-radius:8px;border:1px solid var(--line)">
-              <option value="Everyday Life &amp; Personal Hobbies">Everyday Life &amp; Personal Hobbies</option>
-              <option value="Campus Life &amp; Student Activities">Campus Life &amp; Student Activities</option>
-              <option value="Placement Interview Practice">Placement Interview Mock Q&amp;A</option>
-              <option value="General Free Speech">General Free Conversation</option>
-            </select>
-          </div>
-          <button class="btn btn-primary" id="start-peer-btn" style="width:100%">
-            ${ICONS.users} Find Peer &amp; Start 1-on-1 Call
-          </button>
-        </div>
-
-        <div class="card">
-          <div class="section-title" style="margin-bottom:10px">${ICONS.activity} Your Recent Peer Sessions</div>
-          ${sessions && sessions.length ? `
-            <div class="col gap-xs" style="max-height:220px;overflow-y:auto">
-              ${sessions.map(s => `
-                <div class="row gap-sm" style="padding:8px 0;border-bottom:1px solid var(--line);align-items:center">
-                  <div>
-                    <div style="font-weight:700;font-size:14px">${esc(s.topic || 'Peer Practice Call')}</div>
-                    <div style="font-size:12px;color:var(--cream-faint)">Duration: ${s.durationSeconds || 120}s &middot; ${timeAgo(s.createdAt)}</div>
-                  </div>
-                  <div class="spacer"></div>
-                  <span class="pill sprout" style="font-size:11px">Completed</span>
-                </div>
-              `).join('')}
+      <div id="peer-1on1-section" style="${currentPeerTab === '1-on-1' ? '' : 'display:none;'}">
+        <div class="row" style="margin-bottom:14px;align-items:center">
+          <div>
+            <div style="font-size:17px;font-weight:700;color:var(--color-text)">🎯 1-on-1 Voice-Anonymized Practice</div>
+            <div style="font-size:13.5px;color:var(--color-text-muted);margin-top:2px">
+              Practice spontaneous conversational English with an anonymized classmate.
             </div>
-          ` : `<div class="empty-state">No peer practice calls yet. Tap "Find Peer" to begin!</div>`}
+          </div>
+          <div class="spacer"></div>
+          <span class="pill voice" style="font-size:12.5px">${ICONS.mic} Voice Anonymization Active</span>
         </div>
-      </div>
 
-      <div id="peer-room-area"></div>
+        <div class="grid grid-2 gap-md" id="peer-1on1-grid" style="margin-bottom:20px">
+          <div class="card" id="peer-match-card" style="background:var(--color-surface);border:1px solid var(--color-border);padding:22px">
+            <div class="section-title" style="margin-bottom:10px">${ICONS.target} Find Practice Partner</div>
+            <div class="col gap-xs" style="margin-bottom:16px">
+              <label class="field-label" style="font-size:13px;font-weight:600;color:var(--color-text)">Topic for Discussion</label>
+              <select id="peer-topic-select" class="input-field" style="background:var(--color-surface-2);color:var(--color-text);padding:10px 12px;border-radius:8px;border:1px solid var(--color-border);font-size:14px">
+                <option value="Everyday Life &amp; Personal Hobbies">Everyday Life &amp; Personal Hobbies</option>
+                <option value="Campus Life &amp; Student Activities">Campus Life &amp; Student Activities</option>
+                <option value="Placement Interview Practice">Placement Interview Mock Q&amp;A</option>
+                <option value="General Free Speech">General Free Conversation</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" id="start-peer-btn" style="width:100%;font-weight:700">
+              ${ICONS.users} Find Peer &amp; Start 1-on-1 Call
+            </button>
+          </div>
+
+          <div class="card" style="background:var(--color-surface);border:1px solid var(--color-border);padding:22px">
+            <div class="section-title" style="margin-bottom:10px">${ICONS.activity} Your Recent Peer Sessions</div>
+            ${sessions && sessions.length ? `
+              <div class="col gap-xs" style="max-height:220px;overflow-y:auto">
+                ${sessions.map(s => `
+                  <div class="row gap-sm" style="padding:10px 0;border-bottom:1px solid var(--color-border);align-items:center">
+                    <div>
+                      <div style="font-weight:700;font-size:14px;color:var(--color-text)">${esc(s.topic || 'Peer Practice Call')}</div>
+                      <div style="font-size:12px;color:var(--color-text-muted)">Duration: ${s.durationSeconds || 120}s &middot; ${timeAgo(s.createdAt)}</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <span class="pill sprout" style="font-size:11px">Completed</span>
+                  </div>
+                `).join('')}
+              </div>
+            ` : `<div class="empty-state" style="padding:24px 12px;text-align:center">No peer practice calls yet. Tap "Find Peer" to begin!</div>`}
+          </div>
+        </div>
+
+        <div id="peer-room-area"></div>
+      </div>
     `;
 
+    // Tab toggle logic
+    const tabGd = $('#peer-tab-gd');
+    const tab1on1 = $('#peer-tab-1on1');
+    const gdSection = $('#peer-gd-section');
+    const on1Section = $('#peer-1on1-section');
+
+    function switchTab(target) {
+      currentPeerTab = target;
+      if (target === 'gd') {
+        tabGd?.classList.add('active');
+        tab1on1?.classList.remove('active');
+        if (gdSection) gdSection.style.display = 'block';
+        if (on1Section) on1Section.style.display = 'none';
+      } else {
+        tab1on1?.classList.add('active');
+        tabGd?.classList.remove('active');
+        if (gdSection) gdSection.style.display = 'none';
+        if (on1Section) on1Section.style.display = 'block';
+      }
+    }
+
+    if (tabGd) tabGd.onclick = () => switchTab('gd');
+    if (tab1on1) tab1on1.onclick = () => switchTab('1-on-1');
+
     // Attach Refresh & GD Action Listeners
-    $('#refresh-gd-rooms-btn').onclick = () => renderPeerMain();
+    const refreshBtn = $('#refresh-gd-rooms-btn');
+    if (refreshBtn) refreshBtn.onclick = () => renderPeerMain();
 
     mount.querySelectorAll('[data-gd-join], [data-gd-enter]').forEach((btn) => {
       btn.onclick = async () => {
@@ -1694,49 +1745,54 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
   function openPeerRoom(session, topic) {
     activeSession = session;
+    currentPeerTab = '1-on-1';
     const roomArea = $('#peer-room-area');
-    const matchCard = $('#peer-match-card');
-    if (matchCard) matchCard.style.display = 'none';
+    const matchGrid = $('#peer-1on1-grid') || $('#peer-match-card');
+    if (matchGrid) matchGrid.style.display = 'none';
 
     roomArea.innerHTML = `
-      <div class="card" style="border:2px solid var(--color-primary);background:var(--color-surface);margin-top:10px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px">
-          <div>
-            <div class="pill voice" style="font-size:12px">&#x1F507; Voice Anonymization Active</div>
-            <h3 style="font-size:18px;margin-top:4px">Connected: Anonymized Voice Call</h3>
-            <div style="font-size:13px;color:var(--cream-dim)">Discussion Topic: <b>${esc(topic)}</b></div>
+      <div style="max-width: 860px; margin: 0 auto; width: 100%; display: flex; flex-direction: column; gap: 16px; animation: fadeIn 0.25s ease;">
+        <div class="card card-2" style="border: 2px solid var(--color-primary); background: var(--color-surface); padding: 22px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+          <div class="row gap-sm" style="align-items: center; margin-bottom: 14px; border-bottom: 1px solid var(--color-border); padding-bottom: 12px;">
+            <div>
+              <div class="pill voice" style="font-size: 12px; font-weight: 700;">&#x1F507; Voice Anonymization Active</div>
+              <h3 style="font-size: 20px; margin-top: 4px; color: var(--color-text);">Connected: Anonymized Voice Call</h3>
+              <div style="font-size: 13.5px; color: var(--color-text-muted);">Discussion Topic: <b>${esc(topic)}</b></div>
+            </div>
+            <div class="spacer"></div>
+            <button class="btn btn-coral btn-sm" id="end-peer-session-btn" style="font-weight: 700;">${ICONS.x} End Call &amp; Rate</button>
           </div>
-          <div class="spacer"></div>
-          <button class="btn btn-coral btn-sm" id="end-peer-session-btn">${ICONS.x} End Call &amp; Rate</button>
-        </div>
 
-        <div class="grid grid-2 gap-md" style="margin-bottom:16px">
-          <div class="card card-2" style="text-align:center;padding:16px;background:var(--color-surface-2)">
-            <div class="avatar" style="width:54px;height:54px;margin:0 auto 8px;background:var(--purple);font-size:22px">YOU</div>
-            <div style="font-weight:700;font-size:15px">${esc(S.user?.name || 'You')} (Anonymized)</div>
-            <div style="font-size:12px;color:var(--emerald);margin-top:2px">&#x2714; Mic Connected</div>
+          <div class="grid grid-2 gap-md" style="margin-bottom: 16px;">
+            <div class="card card-2" style="text-align: center; padding: 20px; background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: 12px;">
+              <div class="avatar" style="width: 54px; height: 54px; margin: 0 auto 8px; background: var(--purple); font-size: 20px; font-weight: 700; color: #fff;">YOU</div>
+              <div style="font-weight: 700; font-size: 15px; color: var(--color-text);">${esc(S.user?.name || 'You')} (Anonymized)</div>
+              <div style="font-size: 12px; color: var(--emerald); margin-top: 2px;">&#x2714; Mic Connected</div>
+            </div>
+            <div class="card card-2" style="text-align: center; padding: 20px; background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: 12px;">
+              <div class="avatar" style="width: 54px; height: 54px; margin: 0 auto 8px; background: var(--amber); font-size: 20px; font-weight: 700; color: #fff;">PEER</div>
+              <div style="font-weight: 700; font-size: 15px; color: var(--color-text);">Peer Student (Anonymized)</div>
+              <div style="font-size: 12px; color: var(--emerald); margin-top: 2px;">&#x26A1; Voice Stream Filtered</div>
+            </div>
           </div>
-          <div class="card card-2" style="text-align:center;padding:16px;background:var(--color-surface-2)">
-            <div class="avatar" style="width:54px;height:54px;margin:0 auto 8px;background:var(--amber);font-size:22px">PEER</div>
-            <div style="font-weight:700;font-size:15px">Peer Student (Anonymized)</div>
-            <div style="font-size:12px;color:var(--emerald);margin-top:2px">&#x26A1; Voice Stream Filtered</div>
+
+          <div class="card card-2" style="margin-bottom: 16px; background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: 12px; padding: 16px;">
+            <div class="section-title" style="font-size: 14px; margin-bottom: 8px;">&#x1F4A1; Conversation Starter Prompts</div>
+            <ul style="padding-left: 20px; margin: 0; font-size: 13.5px; color: var(--color-text); line-height: 1.6;">
+              <li>"What is an exciting project, hobby, or goal you worked on recently?"</li>
+              <li>"How do you prepare for campus placement interviews and group discussions?"</li>
+              <li>"What is your favorite travel destination or memorable life experience?"</li>
+            </ul>
           </div>
-        </div>
 
-        <div class="card card-2" style="margin-bottom:14px;background:var(--color-surface-2)">
-          <div class="section-title" style="font-size:14px;margin-bottom:6px">&#x1F4A1; Conversation Starter Prompts</div>
-          <ul style="padding-left:20px;margin:0;font-size:13.5px;color:var(--cream);line-height:1.6">
-            <li>"What is an exciting project, hobby, or goal you worked on recently?"</li>
-            <li>"How do you prepare for campus placement interviews and group discussions?"</li>
-            <li>"What is your favorite travel destination or memorable life experience?"</li>
-          </ul>
-        </div>
-
-        <div class="row gap-md" style="align-items:center">
-          <button class="rec-btn" id="peer-mic-btn">${ICONS.mic}</button>
-          <div class="col" style="flex:1">
-            <div id="peer-status" style="font-weight:700;font-size:14.5px">Tap mic to speak to your peer</div>
-            <div id="peer-transcript" style="font-size:13.5px;color:var(--cream-dim);margin-top:2px"></div>
+          <div class="card card-2" style="background: var(--color-surface-2); border: 1.5px solid var(--color-primary); border-radius: 12px; padding: 16px 20px;">
+            <div class="row gap-md" style="align-items: center;">
+              <button class="rec-btn" id="peer-mic-btn" style="width: 52px; height: 52px; flex-shrink: 0;">${ICONS.mic}</button>
+              <div class="col" style="flex: 1; min-width: 0;">
+                <div id="peer-status" style="font-weight: 700; font-size: 15px; color: var(--color-text);">Tap mic to speak to your peer</div>
+                <div id="peer-transcript" style="font-size: 13.5px; color: var(--color-primary); margin-top: 3px; min-height: 18px;"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
