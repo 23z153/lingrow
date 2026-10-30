@@ -19,6 +19,7 @@ const userSchema = new mongoose.Schema(
     status: { type: String, enum: ['Active', 'Suspended'], default: 'Active' },
     voiceProfile: { type: String, enum: ['neutral_a', 'neutral_b', 'neutral_c', 'robot'], default: 'neutral_a' },
     institution: { type: String, default: 'PSG Institute of Technology and Applied Research' },
+    selectedDebateDept: { type: String, default: '' },
 
     // --- Email verification ---
     emailVerified: { type: Boolean, default: true },
@@ -54,6 +55,7 @@ userSchema.methods.toSafeJSON = function () {
     streak: this.streak,
     status: this.status,
     voiceProfile: this.voiceProfile,
+    selectedDebateDept: this.selectedDebateDept || '',
     emailVerified: this.emailVerified,
   };
 };

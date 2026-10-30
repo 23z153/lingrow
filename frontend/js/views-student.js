@@ -1823,48 +1823,424 @@ VIEW_RENDERERS['story'] = async (mount) => {
 };
 
 /* ---------------------------- DEBATE ---------------------------- */
+// Pure helper functions for debate module (can also be unit tested)
+function debateCountWords(text) {
+  if (!text || typeof text !== 'string') return 0;
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+function debateCalculateScoreDeltas(current, previous) {
+  if (!current || !previous) return null;
+  const deltas = {};
+  const metrics = ['logic', 'persuasion', 'clarity', 'vocabulary', 'structure', 'overall'];
+  for (const m of metrics) {
+    const curVal = current[m] ?? (m === 'logic' ? current.argument : m === 'persuasion' ? current.counterargument : 70);
+    const prevVal = previous[m] ?? (m === 'logic' ? previous.argument : m === 'persuasion' ? previous.counterargument : 70);
+    deltas[m] = Math.round(curVal - prevVal);
+  }
+  return deltas;
+}
+
+function debateFormatDeltaBadge(delta, suffix = '%') {
+  if (delta === null || delta === undefined) return '';
+  if (delta > 0) return `<span class="pill sprout" style="font-size:11px;padding:2px 6px;margin-left:4px;font-weight:700">+${delta}${suffix} 📈</span>`;
+  if (delta < 0) return `<span class="pill coral" style="font-size:11px;padding:2px 6px;margin-left:4px;font-weight:700">${delta}${suffix} 📉</span>`;
+  return `<span class="pill" style="font-size:11px;padding:2px 6px;margin-left:4px;color:var(--cream-dim)">0${suffix}</span>`;
+}
+
 VIEW_RENDERERS['debate'] = async (mount) => {
+  // Available departments list
+  const DEPARTMENTS = ['All', 'General', 'CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
+
+  // Restore persisted department filter
+  let activeDept = localStorage.getItem('lingrow_debate_dept') ||
+    (typeof S !== 'undefined' && S.user && S.user.selectedDebateDept) ||
+    'All';
+
+  // Practice mode: 'manual' (Choose my side) vs 'assigned' (Assign me a side)
+  let practiceMode = localStorage.getItem('lingrow_debate_mode') || 'manual';
+
+  // Timers state & intervals
+  let prepInterval = null;
+  let speakInterval = null;
+  let prepSecondsRemaining = 120; // 2 minutes prep timer
+  let targetDurationSeconds = 120; // 60, 120, or 180 seconds
+  let speakingStartTime = null;
+
+  // Track previous attempt on same topic/stance for score delta comparisons
+  let previousAttemptReport = null;
+
+  function clearAllTimers() {
+    if (prepInterval) { clearInterval(prepInterval); prepInterval = null; }
+    if (speakInterval) { clearInterval(speakInterval); speakInterval = null; }
+  }
+
+  function formatTimer(sec) {
+    const s = Math.max(0, Math.floor(sec));
+    const m = Math.floor(s / 60);
+    const rem = s % 60;
+    return `${m}:${rem < 10 ? '0' : ''}${rem}`;
+  }
+
+  function renderDebateSvgChart(series) {
+    const labels = series.labels || [];
+    const n = labels.length;
+    if (n === 0) {
+      return '<div style="text-align:center;color:var(--cream-dim);padding:20px;font-size:13px">No historical scores available yet.</div>';
+    }
+
+    const width = 560;
+    const height = 180;
+    const padL = 36;
+    const padR = 20;
+    const padT = 16;
+    const padB = 28;
+    const plotW = width - padL - padR;
+    const plotH = height - padT - padB;
+
+    const getY = (val) => padT + (100 - Math.max(0, Math.min(100, val))) * (plotH / 100);
+    const getX = (idx) => n === 1 ? padL + plotW / 2 : padL + idx * (plotW / (n - 1));
+
+    // Y Grid lines: 20, 40, 60, 80, 100
+    const gridLevels = [20, 40, 60, 80, 100];
+    const gridLinesSvg = gridLevels.map(lvl => {
+      const y = getY(lvl);
+      return `
+        <line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="var(--line)" stroke-width="1" stroke-dasharray="3 3" />
+        <text x="${padL - 6}" y="${y + 3}" text-anchor="end" font-size="9" fill="var(--cream-dim)">${lvl}</text>
+      `;
+    }).join('');
+
+    // X Labels
+    const xLabelsSvg = labels.map((lbl, idx) => {
+      const x = getX(idx);
+      return `<text x="${x}" y="${height - 8}" text-anchor="middle" font-size="10" fill="var(--cream-dim)">${lbl}</text>`;
+    }).join('');
+
+    // Metric configs
+    const metrics = [
+      { key: 'logic', color: '#8b5cf6' },
+      { key: 'persuasion', color: '#10b981' },
+      { key: 'clarity', color: '#06b6d4' },
+      { key: 'vocabulary', color: '#f59e0b' },
+      { key: 'structure', color: '#f43f5e' },
+    ];
+
+    const linesAndDotsSvg = metrics.map(m => {
+      const data = series[m.key] || [];
+      const points = data.map((val, idx) => `${getX(idx)},${getY(val)}`).join(' ');
+      const polyline = `<polyline points="${points}" fill="none" stroke="${m.color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />`;
+      const dots = data.map((val, idx) => `
+        <circle cx="${getX(idx)}" cy="${getY(val)}" r="3.5" fill="${m.color}" stroke="var(--ink)" stroke-width="1.5">
+          <title>${m.key}: ${val}%</title>
+        </circle>
+      `).join('');
+      return polyline + dots;
+    }).join('');
+
+    return `
+      <svg viewBox="0 0 ${width} ${height}" style="width:100%;height:auto;max-height:220px;display:block">
+        ${gridLinesSvg}
+        ${xLabelsSvg}
+        ${linesAndDotsSvg}
+      </svg>
+    `;
+  }
+
+  async function showDebateHistoryDrawer() {
+    let historyData = null;
+    try {
+      historyData = await Api.debateHistory();
+    } catch (err) {
+      toast('Failed to load debate history: ' + (err.message || 'Offline'), 'coral');
+      return;
+    }
+
+    const { attempts = [], series = {}, averages = {}, weakestSkill = null } = historyData || {};
+
+    const existingOverlay = document.querySelector('.debate-history-modal-overlay');
+    if (existingOverlay) existingOverlay.remove();
+
+    const overlay = el(`
+      <div class="modal-overlay debate-history-modal-overlay" style="z-index:1200">
+        <div class="modal" style="max-width:720px;width:95%;max-height:90vh;padding:24px;position:relative">
+          <div class="row" style="align-items:center;margin-bottom:16px">
+            <div>
+              <h2 style="font-size:20px;margin:0;color:var(--cream-bright);display:flex;align-items:center;gap:8px">
+                📊 Collegiate Debate Skill Trends
+              </h2>
+              <div style="font-size:13px;color:var(--cream-dim);margin-top:2px">
+                Performance trajectory across your recent speeches.
+              </div>
+            </div>
+            <div class="spacer"></div>
+            <button class="icon-btn" id="btn-close-debate-history" style="font-size:18px;color:var(--cream-dim)">${ICONS.x}</button>
+          </div>
+
+          ${attempts.length === 0 ? `
+            <div style="text-align:center;padding:40px 16px">
+              <div style="font-size:42px;margin-bottom:12px">🎙️</div>
+              <h3 style="font-size:17px;color:var(--cream-bright);margin-bottom:6px">No Debate Speeches Yet</h3>
+              <p style="font-size:13.5px;color:var(--cream-dim);max-width:440px;margin:0 auto">
+                Deliver your first collegiate speech in the Debate Arena to begin tracking your trend lines across logic, persuasion, clarity, vocabulary, and structure!
+              </p>
+            </div>
+          ` : `
+            <!-- Weakest Skill & Coaching Tip Card (Phase 4 Item 4) -->
+            ${weakestSkill ? `
+              <div style="background:linear-gradient(135deg, rgba(244,63,94,0.12), rgba(139,92,246,0.10));border:1.5px solid var(--coral);border-radius:12px;padding:14px 16px;margin-bottom:18px">
+                <div class="row gap-sm" style="align-items:flex-start">
+                  <span style="font-size:24px">🎯</span>
+                  <div style="flex:1">
+                    <div class="row" style="align-items:center;gap:8px">
+                      <strong style="color:var(--coral);font-size:14.5px">Primary Growth Area: ${esc(weakestSkill.skill.toUpperCase())}</strong>
+                      <span class="pill coral" style="font-size:11px;padding:2px 8px">${weakestSkill.average}% Recent Avg</span>
+                    </div>
+                    <div style="font-size:13.5px;color:var(--cream-bright);margin-top:4px;line-height:1.5">
+                      💡 <strong>Collegiate Coaching Tip:</strong> ${esc(weakestSkill.tip)}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- 5-Metric Average Tiles -->
+            <div class="grid grid-5 gap-xs" style="margin-bottom:20px">
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Logic</div>
+                <div style="font-size:17px;font-weight:700;color:var(--purple)">${averages.logic || 0}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Persuasion</div>
+                <div style="font-size:17px;font-weight:700;color:var(--emerald)">${averages.persuasion || 0}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Clarity</div>
+                <div style="font-size:17px;font-weight:700;color:var(--cyan)">${averages.clarity || 0}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Vocabulary</div>
+                <div style="font-size:17px;font-weight:700;color:var(--amber)">${averages.vocabulary || 0}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Structure</div>
+                <div style="font-size:17px;font-weight:700;color:var(--coral)">${averages.structure || 0}%</div>
+              </div>
+            </div>
+
+            <!-- SVG Multi-Metric Trend Chart -->
+            <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:20px">
+              <div class="row" style="align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px">
+                <strong style="font-size:13.5px;color:var(--cream-bright)">📈 Rubric Metric Trends (Last ${series.labels?.length || 0} Speeches)</strong>
+                <div class="spacer"></div>
+                <!-- Legend -->
+                <div class="row gap-xs" style="flex-wrap:wrap;font-size:11.5px">
+                  <span style="color:var(--purple);display:flex;align-items:center;gap:4px">● Logic</span>
+                  <span style="color:var(--emerald);display:flex;align-items:center;gap:4px">● Persuasion</span>
+                  <span style="color:var(--cyan);display:flex;align-items:center;gap:4px">● Clarity</span>
+                  <span style="color:var(--amber);display:flex;align-items:center;gap:4px">● Vocab</span>
+                  <span style="color:var(--coral);display:flex;align-items:center;gap:4px">● Structure</span>
+                </div>
+              </div>
+              <div style="width:100%;overflow-x:auto">
+                ${renderDebateSvgChart(series)}
+              </div>
+            </div>
+
+            <!-- Recent Speeches History List -->
+            <div>
+              <div class="eyebrow" style="margin-bottom:10px">Recent Speeches (Chronological)</div>
+              <div class="col gap-xs" style="max-height:220px;overflow-y:auto;padding-right:4px">
+                ${attempts.map(a => {
+                  const sc = a.scores || {};
+                  const topicTitle = a.topic?.topic || 'Collegiate Debate Topic';
+                  const dateStr = a.createdAt ? new Date(a.createdAt).toLocaleDateString() : '';
+                  return `
+                    <div style="background:var(--card-sub);border:1px solid var(--line);border-radius:8px;padding:8px 12px;display:flex;align-items:center;gap:10px">
+                      <span class="pill ${a.stance === 'for' ? 'voice' : 'warn'}" style="font-size:10.5px;padding:2px 6px">
+                        ${(a.stance || 'FOR').toUpperCase()}
+                      </span>
+                      <div style="flex:1;min-width:0">
+                        <div style="font-size:13px;font-weight:600;color:var(--cream-bright);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">
+                          ${esc(topicTitle)}
+                        </div>
+                        <div style="font-size:11px;color:var(--cream-dim)">
+                          ${dateStr} • L:${sc.logic ?? sc.argument ?? 70}% P:${sc.persuasion ?? sc.counterargument ?? 70}% C:${sc.clarity ?? 70}% V:${sc.vocabulary ?? 70}% S:${sc.structure ?? 70}%
+                        </div>
+                      </div>
+                      <span class="pill sprout" style="font-size:12px;font-weight:700">
+                        ${sc.overall ?? 70}%
+                      </span>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `}
+        </div>
+      </div>
+    `);
+
+    document.body.appendChild(overlay);
+
+    const closeBtn = overlay.querySelector('#btn-close-debate-history');
+    if (closeBtn) closeBtn.onclick = () => overlay.remove();
+    overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  }
+
   renderDebateView();
 
-  async function renderDebateView() {
+  async function renderDebateView(overrideTopicData = null) {
+    clearAllTimers();
+    if (typeof SpeechInput !== 'undefined' && SpeechInput.listening) {
+      SpeechInput.stop();
+    }
+
     mount.innerHTML = `<div class="card">${wave(5)}</div>`;
-    let topicData;
-    try {
-      topicData = await Api.nextDebateTopic();
-    } catch (err) {
-      topicData = { topic: null, unattemptedRemaining: 0, totalTopicsCount: 0 };
+
+    let topicData = overrideTopicData;
+    if (!topicData) {
+      try {
+        topicData = await Api.nextDebateTopic({
+          assignStance: practiceMode === 'assigned',
+          department: activeDept !== 'All' ? activeDept : '',
+        });
+      } catch (err) {
+        // Level Gate UX (Phase 3 Item 6)
+        if (err.status === 403 || err.locked) {
+          const reqLevel = err.data?.requiredLevel || err.requiredLevel || 'Intermediate';
+          const reqXp = err.data?.requiredXp ?? err.requiredXp ?? 100;
+          const curXp = err.data?.currentXp ?? err.currentXp ?? (typeof S !== 'undefined' && S.user ? S.user.xp : 0);
+          const xpNeeded = Math.max(0, reqXp - curXp);
+
+          mount.innerHTML = `
+            <div class="col gap-md">
+              <div class="card card-white-accent" style="text-align:center;padding:40px 24px">
+                <div style="font-size:48px;margin-bottom:14px">🔒</div>
+                <h2 style="font-size:22px;color:var(--cream-bright);margin-bottom:8px">Collegiate Debate Practice Locked</h2>
+                <p style="font-size:14.5px;color:var(--cream-dim);max-width:520px;margin:0 auto 20px auto;line-height:1.6">
+                  Collegiate Debate requires <strong style="color:var(--cyan)">${esc(reqLevel)} Level</strong> or a minimum of <strong style="color:var(--emerald)">${reqXp} XP</strong> to unlock.
+                </p>
+                <div class="card card-sub" style="max-width:380px;margin:0 auto 24px auto;padding:16px 20px">
+                  <div class="row" style="font-size:14px;margin-bottom:8px">
+                    <span>Your Current XP:</span>
+                    <div class="spacer"></div>
+                    <strong>${curXp} XP</strong>
+                  </div>
+                  <div class="row" style="font-size:14px;color:var(--amber)">
+                    <span>XP Needed to Unlock:</span>
+                    <div class="spacer"></div>
+                    <strong>+${xpNeeded} XP</strong>
+                  </div>
+                </div>
+                <div class="row gap-sm" style="justify-content:center;flex-wrap:wrap">
+                  <button class="btn btn-primary" data-nav="read-aloud">Practice Read Aloud (+XP) ${ICONS.arrowRight}</button>
+                  <button class="btn btn-outline" data-nav="grammar">Practice Grammar</button>
+                </div>
+              </div>
+            </div>
+          `;
+          return;
+        }
+
+        topicData = {
+          topic: null,
+          unattemptedRemaining: 0,
+          totalTopicsCount: 0,
+          suggestedStance: 'for',
+          assignedStance: 'for',
+        };
+      }
     }
 
     const topic = topicData.topic || {
       _id: null,
       topic: 'Should social media platforms verify the identity of every user?',
       level: 'Advanced',
+      difficulty: 'advanced',
+      tags: ['Ethics', 'Privacy', 'Technology'],
+      keyTerms: [
+        { term: 'Algorithmic accountability', meaning: 'The principle that automated systems should be transparent and answerable for their impact.' },
+        { term: 'Digital sovereignty', meaning: 'The control an individual or nation maintains over their digital data and presence.' },
+      ],
       context: 'Identity verification could reduce online harassment and bot networks, but raises serious privacy and surveillance concerns.',
       forKeyPoints: ['Reduces fake bot accounts and online harassment', 'Increases user accountability for digital statements'],
       againstKeyPoints: ['Presents severe user privacy and data breach risks', 'Restricts freedom of speech for whistleblowers'],
     };
 
+    // Determine initial stance based on practice mode and server recommendation
+    let selectedStance = 'for';
+    if (practiceMode === 'assigned') {
+      selectedStance = (topicData.assignedStance || topicData.suggestedStance || 'for').toLowerCase();
+    } else if (topicData.suggestedStance) {
+      selectedStance = topicData.suggestedStance.toLowerCase();
+    }
+
+    const difficultyLabel = topic.difficulty || topic.level || 'Intermediate';
+    const diffLower = String(difficultyLabel).toLowerCase();
+    const difficultyClass = diffLower === 'beginner' ? 'sprout' : diffLower === 'advanced' ? 'purple' : 'voice';
+
+    // Track input mode: Speech mic vs Typed input
+    let isTypedInputMode = !SpeechInput.supported;
+
     mount.innerHTML = `
       <div class="col gap-md">
-        <!-- Header -->
+        <!-- Header & Stats Card -->
         <div class="card card-white-accent">
-          <div class="row" style="align-items:center">
+          <div class="row" style="align-items:center;flex-wrap:wrap;gap:10px">
             <div>
-              <div class="section-title" style="margin:0">${ICONS.mic} Debate Practice</div>
-              <div style="font-size:13.5px;color:var(--cream-dim)">Structured reasoning and persuasive speaking. Choose a stance and deliver your argument.</div>
+              <div class="section-title" style="margin:0">${ICONS.mic} Collegiate Debate Practice</div>
+              <div style="font-size:13.5px;color:var(--cream-dim)">Structured reasoning, stance agility, and persuasive speaking with AI rubric evaluation.</div>
             </div>
             <div class="spacer"></div>
-            <span class="pill sprout">⚡ ${topicData.unattemptedRemaining || 0} Unseen Topics Remaining</span>
+            <div class="row gap-xs" style="align-items:center">
+              <span class="pill sprout" id="unseen-pill">⚡ ${topicData.unattemptedRemaining || 0} Topics Need Practice</span>
+              ${topicData.fullyPracticedCount !== undefined ? `<span class="pill voice" title="Topics practiced on both FOR and AGAINST">✨ ${topicData.fullyPracticedCount} Fully Practiced</span>` : ''}
+            </div>
+          </div>
+
+          <!-- Department Filter Bar (Item 5) -->
+          <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--white-border)">
+            <div class="row gap-xs" style="align-items:center;flex-wrap:wrap">
+              <span class="eyebrow" style="margin-right:6px">Department:</span>
+              <div class="row gap-xs" id="dept-pills-row" style="flex-wrap:wrap">
+                ${DEPARTMENTS.map(dept => `
+                  <button class="pill ${dept === activeDept ? 'sprout font-bold' : ''}" data-dept="${dept}" style="cursor:pointer;background:${dept === activeDept ? 'var(--emerald-glow)' : 'transparent'};border:1px solid ${dept === activeDept ? 'var(--emerald)' : 'var(--white-border)'};color:${dept === activeDept ? 'var(--cream-bright)' : 'var(--cream-dim)'};padding:4px 10px;border-radius:20px;font-size:12px">
+                    ${dept}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
           </div>
         </div>
 
+        <!-- Mastered Pool / Retry Banner (Item 4) -->
+        ${topicData.retry ? `
+          <div class="card" style="background:linear-gradient(135deg, rgba(245,158,11,0.12), rgba(16,185,129,0.08));border:1.5px solid var(--amber);padding:14px 18px">
+            <div class="row gap-sm" style="align-items:center">
+              <span style="font-size:24px">🏆</span>
+              <div>
+                <strong style="color:var(--amber);font-size:15px">Mastered Department Pool!</strong>
+                <div style="font-size:13.5px;color:var(--cream-bright);margin-top:2px">
+                  You have argued both sides of all available topics in this department!
+                  ${topicData.previousBestScore ? `Challenge: <strong>Beat your previous score of ${topicData.previousBestScore}/100</strong> on this topic.` : 'Try this topic again to polish your delivery!'}
+                </div>
+              </div>
+            </div>
+          </div>
+        ` : ''}
+
         <!-- Active Debate Card -->
         <div class="card">
-          <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+          <div class="row gap-sm" style="margin-bottom:12px;align-items:center;flex-wrap:wrap">
             <span class="pill voice">Debate Arena</span>
-            <span class="pill sprout">${esc(topic.level || 'Advanced')}</span>
+            <span class="pill ${difficultyClass}">${esc(difficultyLabel)}</span>
+            ${topic.department && topic.department !== 'General' ? `<span class="pill warn">${esc(topic.department)}</span>` : ''}
+            ${topicData.bestScoreOnTopic != null ? `<span class="pill sprout" style="font-weight:700" title="Your best previous score on this topic">🎯 Your Best: ${topicData.bestScoreOnTopic}/100</span>` : ''}
+            ${(topic.tags || []).map(tag => `<span class="pill" style="font-size:11px;border-color:var(--line);color:var(--cream-dim)">#${esc(tag)}</span>`).join('')}
             <div class="spacer"></div>
-            <button class="btn btn-outline btn-sm" id="skip-topic-btn">🔄 Next Topic</button>
+            <button class="btn btn-outline btn-sm" id="btn-toggle-debate-history" title="View your debate history and skill trends">📊 Skill Trends</button>
+            <button class="btn btn-outline btn-sm" id="skip-topic-btn" title="Rotate to next available topic">🔄 Next Topic</button>
           </div>
 
           <h3 style="font-size:22px;color:var(--color-text);margin-bottom:12px;line-height:1.35">${esc(topic.topic)}</h3>
@@ -1876,43 +2252,236 @@ VIEW_RENDERERS['debate'] = async (mount) => {
             </div>
           ` : ''}
 
-          <!-- Stance Selection Buttons -->
-          <div class="col gap-xs" style="margin-bottom:18px">
-            <label class="field-label" style="margin-bottom:4px">Select Your Debate Stance:</label>
-            <div class="row gap-sm">
-              <button class="btn btn-primary btn-sm" id="btn-stance-for" data-stance="for">👍 Argue FOR (Support)</button>
-              <button class="btn btn-ghost btn-sm" id="btn-stance-against" data-stance="against">👎 Argue AGAINST (Oppose)</button>
+          <!-- Key Terminology Card -->
+          ${topic.keyTerms && topic.keyTerms.length > 0 ? `
+            <div style="background:rgba(255,255,255,0.02);padding:12px 14px;border-radius:10px;border:1px solid var(--line);margin-bottom:16px">
+              <div class="eyebrow" style="margin-bottom:8px">📚 Recommended Key Vocabulary &amp; Terms</div>
+              <div class="grid grid-2 gap-xs">
+                ${topic.keyTerms.map(kt => `
+                  <div style="background:var(--card-sub);padding:8px 10px;border-radius:8px;font-size:13px;border-left:2px solid var(--cyan)">
+                    <strong style="color:var(--cyan)">${esc(kt.term)}:</strong>
+                    <span style="color:var(--cream-dim);margin-left:4px">${esc(kt.meaning)}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Mode Toggle: Choose side vs Assign side -->
+          <div style="background:var(--panel-2);padding:12px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:16px">
+            <div class="row gap-md" style="align-items:center;flex-wrap:wrap">
+              <div>
+                <label class="field-label" style="margin:0;font-size:13.5px">Practice Mode:</label>
+                <div style="font-size:12px;color:var(--cream-dim)">Choose your preferred stance or test your agility with an assigned stance.</div>
+              </div>
+              <div class="spacer"></div>
+              <div class="row gap-xs">
+                <button class="btn btn-sm ${practiceMode === 'manual' ? 'btn-primary' : 'btn-ghost'}" id="btn-mode-manual">
+                  ✋ Choose My Side
+                </button>
+                <button class="btn btn-sm ${practiceMode === 'assigned' ? 'btn-primary' : 'btn-ghost'}" id="btn-mode-assigned">
+                  🎲 Assign Me a Side
+                </button>
+              </div>
             </div>
           </div>
 
-          <!-- Stance Hints Card -->
-          <div id="stance-hints-box" style="background:var(--card-sub);padding:12px 16px;border-radius:10px;margin-bottom:18px;border-left:3px solid var(--cyan)">
-            <div class="eyebrow" id="hints-title">Suggested Key Arguments (FOR)</div>
-            <ul id="hints-list" style="margin:6px 0 0 18px;padding:0;font-size:13.5px;color:var(--cream-dim)">
-              ${(topic.forKeyPoints || ['Dramatically improves system performance', 'Reduces operational overhead']).map((p) => `<li>${esc(p)}</li>`).join('')}
+          <!-- Stance Selection & Status -->
+          <div class="col gap-xs" style="margin-bottom:18px">
+            <div class="row" style="align-items:center">
+              <label class="field-label" style="margin-bottom:0">Debate Stance:</label>
+              <div class="spacer"></div>
+              ${practiceMode === 'assigned' ? `
+                <span class="pill warn" style="font-size:12px;font-weight:700">🎲 Randomly Assigned (${selectedStance.toUpperCase()})</span>
+              ` : `
+                <span style="font-size:12px;color:var(--cream-dim)">Select which side you will defend:</span>
+              `}
+            </div>
+
+            <div class="row gap-sm" style="margin-top:6px">
+              <button class="btn ${selectedStance === 'for' ? 'btn-primary' : 'btn-ghost'} btn-sm" id="btn-stance-for" data-stance="for" ${practiceMode === 'assigned' ? 'disabled style="cursor:not-allowed;opacity:0.8"' : ''}>
+                👍 Argue FOR (Support)
+              </button>
+              <button class="btn ${selectedStance === 'against' ? 'btn-primary' : 'btn-ghost'} btn-sm" id="btn-stance-against" data-stance="against" ${practiceMode === 'assigned' ? 'disabled style="cursor:not-allowed;opacity:0.8"' : ''}>
+                👎 Argue AGAINST (Oppose)
+              </button>
+            </div>
+          </div>
+
+          <!-- Suggested Arguments Card -->
+          <div id="stance-hints-box" style="background:var(--card-sub);padding:14px 16px;border-radius:10px;margin-bottom:18px;border-left:3px solid var(--cyan)">
+            <div class="eyebrow" id="hints-title">
+              ${selectedStance === 'for' ? 'Suggested Key Arguments (FOR)' : 'Suggested Key Arguments (AGAINST)'}
+            </div>
+            <ul id="hints-list" style="margin:6px 0 0 18px;padding:0;font-size:13.5px;color:var(--cream-dim);line-height:1.6">
+              ${((selectedStance === 'for' ? topic.forKeyPoints : topic.againstKeyPoints) || ['Articulate your points with clear evidence and logical progression.']).map(p => `<li>${esc(p)}</li>`).join('')}
             </ul>
           </div>
 
-          <div class="row gap-md" style="margin-top:10px">
-            <button class="rec-btn" id="debate-rec">${ICONS.mic}</button>
-            <div class="col" style="flex:1">
-              <div id="debate-status" style="font-weight:700;font-size:15px">Choose your stance above, then tap mic to record your argument</div>
-              <div id="debate-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px"></div>
+          <!-- Timed Format Controls -->
+          <div style="background:rgba(255,255,255,0.02);padding:12px 16px;border-radius:10px;border:1px solid var(--line);margin-bottom:18px">
+            <div class="row gap-md" style="align-items:center;flex-wrap:wrap">
+              <div>
+                <span class="field-label" style="font-size:13px;display:block">Speaking Limit:</span>
+                <div class="row gap-xs" style="margin-top:4px" id="limit-pills-row">
+                  <button class="pill ${targetDurationSeconds === 60 ? 'sprout font-bold' : ''}" data-target-sec="60" style="cursor:pointer">1 Min (60s)</button>
+                  <button class="pill ${targetDurationSeconds === 120 ? 'sprout font-bold' : ''}" data-target-sec="120" style="cursor:pointer">2 Min (120s)</button>
+                  <button class="pill ${targetDurationSeconds === 180 ? 'sprout font-bold' : ''}" data-target-sec="180" style="cursor:pointer">3 Min (180s)</button>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <!-- Prep Timer Controls -->
+              <div class="row gap-xs" style="align-items:center">
+                <button class="btn btn-outline btn-sm" id="btn-prep-timer" title="Start 2-minute prep timer to structure your thoughts">
+                  ⏱️ Prep Timer (2:00)
+                </button>
+                <button class="btn btn-ghost btn-sm" id="btn-skip-prep" style="display:none">
+                  ⏭️ Skip Prep &amp; Speak
+                </button>
+                ${SpeechInput.supported ? `
+                  <button class="btn btn-ghost btn-sm" id="btn-toggle-input-mode" title="Toggle between Speech Mic and Typed Text input">
+                    ⌨️ Type Input
+                  </button>
+                ` : ''}
+              </div>
+            </div>
+
+            <!-- Active Countdown Status Bar -->
+            <div id="timer-countdown-bar" style="display:none;margin-top:10px;padding:8px 12px;background:var(--panel-2);border-radius:8px;border:1px solid var(--cyan);align-items:center;gap:8px">
+              <span id="countdown-icon">⏳</span>
+              <span id="countdown-text" style="font-size:13.5px;font-weight:700;color:var(--cyan)">Prep Remaining: 02:00</span>
+              <div class="spacer"></div>
+              <span id="countdown-sub" style="font-size:12px;color:var(--cream-dim)">Organize your opening hook and 3 arguments</span>
             </div>
           </div>
 
+          <!-- Browser Support Alert (Phase 3 Item 2) -->
+          ${!SpeechInput.supported ? `
+            <div class="card" style="background:rgba(239,68,68,0.08);border:1px solid var(--coral);padding:12px 16px;margin-bottom:16px">
+              <div class="row gap-sm" style="align-items:center">
+                <span style="font-size:20px">🎙️</span>
+                <div style="font-size:13.5px;color:var(--cream-bright)">
+                  <strong>Speech Recognition is unavailable in this browser.</strong> (Chrome or Edge recommended).
+                  You can type your collegiate argument in the text area below.
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Speech Mic Input Section -->
+          <div id="speech-input-section" style="${isTypedInputMode ? 'display:none;' : ''}">
+            <div class="row gap-md" style="margin-top:10px;align-items:center">
+              <button class="rec-btn" id="debate-rec">${ICONS.mic}</button>
+              <div class="col" style="flex:1">
+                <div id="debate-status" style="font-weight:700;font-size:15px;color:var(--cream-bright)">
+                  Tap mic to record your speech (or use Prep Timer above)
+                </div>
+                <div id="debate-live-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:4px;max-height:80px;overflow-y:auto"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Typed Text Input Section (Phase 3 Item 2) -->
+          <div id="typed-input-section" style="${!isTypedInputMode ? 'display:none;' : ''}margin-top:12px">
+            <div style="margin-bottom:8px;display:flex;align-items:center">
+              <label class="field-label" style="margin:0;font-size:13.5px">Type Your Debate Argument:</label>
+              <div class="spacer"></div>
+              <span id="typed-word-counter" class="pill coral" style="font-size:12px">0 / 40 min words</span>
+            </div>
+            <textarea id="debate-typed-text" rows="5" placeholder="Draft your collegiate debate argument here... (minimum 40 words required for scoring)" style="width:100%;box-sizing:border-box;padding:12px;border-radius:10px;background:var(--panel-2);color:var(--cream-bright);border:1px solid var(--line);font-size:14.5px;line-height:1.6;resize:vertical"></textarea>
+            <div class="row gap-sm" style="margin-top:10px;align-items:center">
+              <button class="btn btn-primary btn-sm" id="btn-submit-typed" disabled>
+                🚀 Submit Argument for Scoring
+              </button>
+              ${SpeechInput.supported ? `
+                <button class="btn btn-ghost btn-sm" id="btn-back-to-mic">
+                  🎙️ Switch to Microphone
+                </button>
+              ` : ''}
+              <div class="spacer"></div>
+              <span style="font-size:12px;color:var(--cream-dim)">Timer defaults to 120s standard when typing</span>
+            </div>
+          </div>
+
+          <!-- Transcript Review Mode (Phase 3 Item 3) -->
+          <div id="transcript-review-box" style="display:none;margin-top:16px;background:var(--panel-2);padding:14px 18px;border-radius:12px;border:1.5px solid var(--cyan)">
+            <div class="row" style="align-items:center;margin-bottom:8px">
+              <strong style="color:var(--cyan);font-size:14.5px">📝 Review &amp; Edit Your Speech Transcript</strong>
+              <div class="spacer"></div>
+              <span id="review-word-count-badge" class="pill sprout" style="font-size:12px">0 words</span>
+            </div>
+            <div style="font-size:13px;color:var(--cream-dim);margin-bottom:10px">
+              Review and correct any misrecognitions before submitting for collegiate AI scoring.
+            </div>
+            <textarea id="debate-review-textarea" rows="4" style="width:100%;box-sizing:border-box;padding:10px 14px;border-radius:8px;background:var(--card-sub);color:var(--cream-bright);border:1px solid var(--line);font-size:14.5px;line-height:1.6;resize:vertical"></textarea>
+            <div id="review-error-box" style="display:none;margin-top:8px;padding:8px 12px;background:rgba(239,68,68,0.12);border:1px solid var(--coral);border-radius:6px;font-size:13px;color:var(--coral)"></div>
+            <div class="row gap-sm" style="margin-top:14px;align-items:center;flex-wrap:wrap">
+              <button class="btn btn-primary btn-sm" id="btn-submit-review">
+                🚀 Submit for Collegiate AI Evaluation
+              </button>
+              <button class="btn btn-outline btn-sm" id="btn-re-record">
+                🔄 Discard &amp; Record Again
+              </button>
+            </div>
+          </div>
+
+          <!-- Evaluation Results Section -->
           <div id="debate-result" style="margin-top:20px"></div>
         </div>
       </div>
     `;
 
-    // Skip / Next Topic Button
+    // 1. Department Filter Click Handlers
+    $$('#dept-pills-row button').forEach((btn) => {
+      btn.onclick = async () => {
+        const dept = btn.dataset.dept;
+        activeDept = dept;
+        localStorage.setItem('lingrow_debate_dept', dept);
+        if (typeof S !== 'undefined' && S.user) S.user.selectedDebateDept = dept;
+        try {
+          await Api.saveDebatePreferences({ department: dept !== 'All' ? dept : '' });
+        } catch (e) {}
+        toast(`Switched department filter to ${dept}`, 'sprout');
+        renderDebateView();
+      };
+    });
+
+    // 2. Next / Skip Topic Handler
     $('#skip-topic-btn').onclick = () => {
       toast('Loading next unattempted topic…', 'sprout');
+      previousAttemptReport = null;
       renderDebateView();
     };
 
-    let selectedStance = 'for';
+    const btnHistory = $('#btn-toggle-debate-history');
+    if (btnHistory) {
+      btnHistory.onclick = showDebateHistoryDrawer;
+    }
+
+    // 3. Mode Toggle Handlers
+    $('#btn-mode-manual').onclick = () => {
+      practiceMode = 'manual';
+      localStorage.setItem('lingrow_debate_mode', 'manual');
+      toast('Switched to manual stance selection', 'sprout');
+      renderDebateView(topicData);
+    };
+
+    $('#btn-mode-assigned').onclick = async () => {
+      practiceMode = 'assigned';
+      localStorage.setItem('lingrow_debate_mode', 'assigned');
+      toast('Requesting randomly assigned stance…', 'voice');
+      try {
+        const fresh = await Api.nextDebateTopic({
+          assignStance: true,
+          department: activeDept !== 'All' ? activeDept : '',
+        });
+        renderDebateView(fresh);
+      } catch (e) {
+        renderDebateView();
+      }
+    };
+
+    // 4. Stance Button Handlers (Only active in manual mode)
     const btnFor = $('#btn-stance-for');
     const btnAgainst = $('#btn-stance-against');
     const hintsTitle = $('#hints-title');
@@ -1932,61 +2501,189 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       }
     }
 
-    btnFor.onclick = () => { selectedStance = 'for'; updateStanceUI(); };
-    btnAgainst.onclick = () => { selectedStance = 'against'; updateStanceUI(); };
+    if (practiceMode === 'manual') {
+      btnFor.onclick = () => { selectedStance = 'for'; updateStanceUI(); };
+      btnAgainst.onclick = () => { selectedStance = 'against'; updateStanceUI(); };
+    }
 
+    // 5. Target Duration Selector
+    $$('#limit-pills-row button').forEach((btn) => {
+      btn.onclick = () => {
+        targetDurationSeconds = Number(btn.dataset.targetSec) || 120;
+        $$('#limit-pills-row button').forEach((b) => b.classList.remove('sprout', 'font-bold'));
+        btn.classList.add('sprout', 'font-bold');
+        toast(`Speaking limit set to ${formatTimer(targetDurationSeconds)}`, 'sprout');
+      };
+    });
+
+    // 6. Prep Timer Handlers
+    const btnPrepTimer = $('#btn-prep-timer');
+    const btnSkipPrep = $('#btn-skip-prep');
+    const timerBar = $('#timer-countdown-bar');
+    const countdownIcon = $('#countdown-icon');
+    const countdownText = $('#countdown-text');
+    const countdownSub = $('#countdown-sub');
+
+    btnPrepTimer.onclick = () => {
+      prepSecondsRemaining = 120;
+      timerBar.style.display = 'flex';
+      btnPrepTimer.style.display = 'none';
+      btnSkipPrep.style.display = 'inline-block';
+      countdownIcon.textContent = '⏳';
+      countdownText.style.color = 'var(--cyan)';
+      countdownText.textContent = `Prep Remaining: ${formatTimer(prepSecondsRemaining)}`;
+      countdownSub.textContent = 'Review key terms & outline your 3 main arguments';
+
+      prepInterval = setInterval(() => {
+        prepSecondsRemaining--;
+        if (prepSecondsRemaining <= 0) {
+          clearInterval(prepInterval);
+          prepInterval = null;
+          timerBar.style.display = 'none';
+          btnPrepTimer.style.display = 'inline-block';
+          btnSkipPrep.style.display = 'none';
+          toast('Prep time complete! Tap the mic to begin speaking.', 'voice');
+          $('#debate-status').textContent = 'Prep finished! Tap the mic to deliver your argument.';
+        } else {
+          countdownText.textContent = `Prep Remaining: ${formatTimer(prepSecondsRemaining)}`;
+        }
+      }, 1000);
+    };
+
+    btnSkipPrep.onclick = () => {
+      if (prepInterval) { clearInterval(prepInterval); prepInterval = null; }
+      timerBar.style.display = 'none';
+      btnPrepTimer.style.display = 'inline-block';
+      btnSkipPrep.style.display = 'none';
+      toast('Prep skipped. Tap mic when ready to speak.', 'sprout');
+    };
+
+    // 7. Input Mode Switching (Speech Mic vs Typed Text)
+    const btnToggleInputMode = $('#btn-toggle-input-mode');
+    const speechSection = $('#speech-input-section');
+    const typedSection = $('#typed-input-section');
+    const btnBackToMic = $('#btn-back-to-mic');
+
+    if (btnToggleInputMode) {
+      btnToggleInputMode.onclick = () => {
+        isTypedInputMode = true;
+        speechSection.style.display = 'none';
+        typedSection.style.display = 'block';
+        toast('Switched to Typed Text mode', 'sprout');
+      };
+    }
+
+    if (btnBackToMic) {
+      btnBackToMic.onclick = () => {
+        isTypedInputMode = false;
+        typedSection.style.display = 'none';
+        speechSection.style.display = 'block';
+        toast('Switched to Speech Mic mode', 'sprout');
+      };
+    }
+
+    // 8. Typed Text Input Word Counter & Submit Logic
+    const typedTextarea = $('#debate-typed-text');
+    const typedCounter = $('#typed-word-counter');
+    const btnSubmitTyped = $('#btn-submit-typed');
+
+    if (typedTextarea) {
+      typedTextarea.oninput = () => {
+        const words = debateCountWords(typedTextarea.value);
+        typedCounter.textContent = `${words} / 40 min words`;
+        if (words >= 40) {
+          typedCounter.className = 'pill sprout';
+          btnSubmitTyped.disabled = false;
+        } else {
+          typedCounter.className = 'pill coral';
+          btnSubmitTyped.disabled = true;
+        }
+      };
+
+      btnSubmitTyped.onclick = () => {
+        const text = typedTextarea.value.trim();
+        const words = debateCountWords(text);
+        if (words < 40) {
+          toast(`Argument too short (${words} words). Minimum 40 words required.`, 'coral');
+          return;
+        }
+        openTranscriptReview(text, targetDurationSeconds);
+      };
+    }
+
+    // 9. Speech Recording with Auto-Restart & Accumulation (Phase 3 Item 1)
     const recBtn = $('#debate-rec');
+    let speakingCountdown = targetDurationSeconds;
+    let actualElapsedDuration = 0;
+
     recBtn.onclick = () => {
-      if (!SpeechInput.supported) { toast('Speech recognition not supported in browser.', 'coral'); return; }
+      if (!SpeechInput.supported) {
+        toast('Speech recognition not supported in browser. Use typing mode below.', 'coral');
+        return;
+      }
+
       if (!SpeechInput.listening) {
+        // Clear prep timer if active
+        if (prepInterval) {
+          clearInterval(prepInterval);
+          prepInterval = null;
+          timerBar.style.display = 'none';
+          btnPrepTimer.style.display = 'inline-block';
+          btnSkipPrep.style.display = 'none';
+        }
+
         recBtn.classList.add('on');
-        $('#debate-status').textContent = 'Listening to your debate speech…';
+        speakingStartTime = Date.now();
+        speakingCountdown = targetDurationSeconds;
+
+        timerBar.style.display = 'flex';
+        countdownIcon.textContent = '🔴';
+        countdownText.style.color = 'var(--coral)';
+        countdownText.textContent = `Speaking: ${formatTimer(speakingCountdown)} remaining`;
+        countdownSub.textContent = `Auto-stops at limit (${formatTimer(targetDurationSeconds)})`;
+
+        // Start speaking countdown with auto-stop at zero
+        speakInterval = setInterval(() => {
+          speakingCountdown--;
+          if (speakingCountdown <= 0) {
+            clearInterval(speakInterval);
+            speakInterval = null;
+            toast("⏱️ Time's up! Stopping speech and opening review…", 'warn');
+            SpeechInput.stop();
+          } else {
+            countdownText.textContent = `Speaking: ${formatTimer(speakingCountdown)} remaining`;
+          }
+        }, 1000);
+
+        $('#debate-status').textContent = `Defending stance: ${selectedStance.toUpperCase()}… Deliver your speech clearly!`;
+
         SpeechInput.start({
+          // Auto-restart callback: continue recognition as long as speakingCountdown > 0
+          shouldContinue: () => speakingCountdown > 0,
           onResult: ({ final, interim }) => {
-            $('#debate-transcript').textContent = (final + ' ' + interim).trim();
+            $('#debate-live-transcript').textContent = (final + ' ' + interim).trim();
           },
-          onEnd: async (finalTranscript) => {
+          onEnd: (capturedTranscript) => {
             recBtn.classList.remove('on');
-            if (!finalTranscript) {
-              $('#debate-status').textContent = 'No speech captured — tap to try again';
+            if (speakInterval) { clearInterval(speakInterval); speakInterval = null; }
+            timerBar.style.display = 'none';
+
+            actualElapsedDuration = speakingStartTime
+              ? Math.max(1, Math.round((Date.now() - speakingStartTime) / 1000))
+              : Math.max(1, Math.round(debateCountWords(capturedTranscript) / 2.16));
+
+            if (!capturedTranscript || !capturedTranscript.trim()) {
+              $('#debate-status').textContent = 'No speech captured — tap mic to try again';
               return;
             }
-            $('#debate-status').textContent = 'Evaluating argument with Local AI…';
-            try {
-              const res = await Api.submitDebate({ topicId: topic._id, stance: selectedStance, transcript: finalTranscript });
-              const report = res.attempt;
-              $('#debate-result').innerHTML = `
-                <div class="card card-2" style="background:var(--color-surface-2);border:1px solid var(--line);margin-top:14px">
-                  <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
-                    <span class="pill sprout" style="font-size:14px;font-weight:700">Overall Score: ${report.scores.overall}/100</span>
-                    <span class="pill voice" style="font-size:13px;font-weight:700">+25 XP Earned</span>
-                  </div>
-                  <div class="grid grid-3 gap-xs" style="margin-bottom:14px">
-                    <div class="card" style="text-align:center;padding:8px">
-                      <div class="eyebrow">Clarity</div>
-                      <div style="font-size:18px;font-weight:700;color:var(--purple)">${report.scores.clarity}%</div>
-                    </div>
-                    <div class="card" style="text-align:center;padding:8px">
-                      <div class="eyebrow">Persuasiveness</div>
-                      <div style="font-size:18px;font-weight:700;color:var(--emerald)">${report.scores.persuasiveness}%</div>
-                    </div>
-                    <div class="card" style="text-align:center;padding:8px">
-                      <div class="eyebrow">Vocabulary</div>
-                      <div style="font-size:18px;font-weight:700;color:var(--amber)">${report.scores.vocabulary}%</div>
-                    </div>
-                  </div>
-                  <div style="font-size:14px;color:var(--color-text);line-height:1.5">${esc(report.feedback)}</div>
-                </div>
-              `;
-              addStudentXP(25);
-              $('#debate-status').textContent = 'Done! Tap to record again.';
-            } catch (err) {
-              apiError(err);
-              $('#debate-status').textContent = 'Error evaluating debate argument.';
-            }
+
+            $('#debate-status').textContent = 'Speech complete! Review and refine below before scoring.';
+            openTranscriptReview(capturedTranscript, actualElapsedDuration);
           },
           onError: (e) => {
             recBtn.classList.remove('on');
+            if (speakInterval) { clearInterval(speakInterval); speakInterval = null; }
+            timerBar.style.display = 'none';
             $('#debate-status').textContent = 'Mic error: ' + e;
           },
         });
@@ -1994,6 +2691,345 @@ VIEW_RENDERERS['debate'] = async (mount) => {
         SpeechInput.stop();
       }
     };
+
+    // 10. Open Transcript Review Mode (Phase 3 Item 3)
+    const reviewBox = $('#transcript-review-box');
+    const reviewTextarea = $('#debate-review-textarea');
+    const reviewBadge = $('#review-word-count-badge');
+    const reviewErrBox = $('#review-error-box');
+    const btnSubmitReview = $('#btn-submit-review');
+    const btnReRecord = $('#btn-re-record');
+    let activeElapsedSeconds = 120;
+    let currentIdempotencyKey = null;
+
+    function openTranscriptReview(rawTranscript, elapsedSec) {
+      activeElapsedSeconds = elapsedSec || targetDurationSeconds || 120;
+      if (!currentIdempotencyKey) {
+        currentIdempotencyKey = 'deb_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+      }
+      reviewTextarea.value = rawTranscript || '';
+      updateReviewWordCount();
+      reviewErrBox.style.display = 'none';
+      reviewBox.style.display = 'block';
+      reviewTextarea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function updateReviewWordCount() {
+      const words = debateCountWords(reviewTextarea.value);
+      reviewBadge.textContent = `${words} words`;
+      if (words >= 40) {
+        reviewBadge.className = 'pill sprout';
+      } else {
+        reviewBadge.className = 'pill coral';
+      }
+    }
+
+    reviewTextarea.oninput = () => {
+      updateReviewWordCount();
+      reviewErrBox.style.display = 'none';
+    };
+
+    btnReRecord.onclick = () => {
+      currentIdempotencyKey = 'deb_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+      reviewBox.style.display = 'none';
+      reviewErrBox.style.display = 'none';
+      $('#debate-live-transcript').textContent = '';
+      $('#debate-status').textContent = 'Ready to record. Tap mic when prepared.';
+      toast('Transcript discarded. Ready to record again.', 'sprout');
+    };
+
+    // Submit Transcript for Evaluation with Retry & Error Resilience (Items 3, 4, 6, 7)
+    btnSubmitReview.onclick = async () => {
+      const finalSubmissionText = reviewTextarea.value.trim();
+      const words = debateCountWords(finalSubmissionText);
+
+      if (words < 40) {
+        reviewErrBox.textContent = `Argument is too short (${words} words). Minimum 40 words required for collegiate debate scoring.`;
+        reviewErrBox.style.display = 'block';
+        return;
+      }
+
+      if (!currentIdempotencyKey) {
+        currentIdempotencyKey = 'deb_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+      }
+
+      // Disable button and show loading state
+      btnSubmitReview.disabled = true;
+      btnReRecord.disabled = true;
+      btnSubmitReview.innerHTML = `<span class="spinner" style="margin-right:8px"></span> Judging your speech with Collegiate AI...`;
+      $('#debate-status').textContent = 'Collegiate AI evaluation in progress (evaluating rubric & delivery)...';
+
+      try {
+        const payload = {
+          topicId: topic._id,
+          stance: selectedStance,
+          transcript: finalSubmissionText,
+          durationSeconds: isTypedInputMode ? undefined : activeElapsedSeconds,
+          targetDurationSeconds,
+          mode: isTypedInputMode ? 'typed' : practiceMode === 'assigned' ? 'assigned' : 'timed',
+          stanceAssigned: practiceMode === 'assigned',
+          assignedStanceToken: practiceMode === 'assigned' ? topicData.assignedStanceToken : undefined,
+          idempotencyKey: currentIdempotencyKey,
+        };
+
+        const res = await Api.submitDebate(payload);
+        const report = res.attempt;
+        currentIdempotencyKey = null; // Clean reset on success
+
+        // Hide review box upon successful evaluation
+        reviewBox.style.display = 'none';
+        renderResultCard(report, topic, selectedStance, topicData, res.xpBreakdown, res.newBadges);
+        addStudentXP(res.xpBreakdown ? res.xpBreakdown.total : Math.round(15 + (report.scores?.overall || 70) / 5));
+        $('#debate-status').textContent = 'Evaluation complete! Tap below to try again with fixes or argue opposite side.';
+        toast('Debate scored successfully!', 'sprout');
+      } catch (err) {
+        btnSubmitReview.disabled = false;
+        btnReRecord.disabled = false;
+        btnSubmitReview.innerHTML = `🚀 Submit for Collegiate AI Evaluation`;
+
+        // 409 Conflict: if server returns the saved attempt, render it directly! (Phase 3 Item 6)
+        const savedAttempt = err.data?.attempt || err.attempt;
+        if (err.status === 409 && savedAttempt) {
+          currentIdempotencyKey = null;
+          reviewBox.style.display = 'none';
+          renderResultCard(savedAttempt, topic, selectedStance, topicData, err.data?.xpBreakdown, err.data?.newBadges);
+          toast('Duplicate argument: Retrieved previously evaluated speech.', 'sprout');
+          return;
+        }
+
+        // On transient network or validation failure, keep currentIdempotencyKey intact for retry
+        let errMsg = 'Failed to evaluate debate argument. Please try again.';
+        if (err.status === 400) {
+          if (err.data && err.data.code === 'TRANSCRIPT_TOO_SHORT') {
+            errMsg = `Speech too short (${err.data.wordCount || words} words). Minimum 40 words required for scoring.`;
+          } else {
+            errMsg = err.message || 'Validation error in argument submission.';
+          }
+        } else if (err.status === 409) {
+          errMsg = 'Duplicate argument detected: This exact speech was already submitted recently. Add fresh reasoning or argue the other side.';
+        } else if (err.status === 429) {
+          errMsg = 'Rate limit reached: Too many attempts submitted recently. Please pause for 2 minutes before submitting again.';
+        } else {
+          errMsg = `Network or service error (${err.message || 'Offline'}). Your transcript is preserved above so you can retry safely.`;
+        }
+
+        reviewErrBox.textContent = errMsg;
+        reviewErrBox.style.display = 'block';
+        $('#debate-status').textContent = 'Submission error — your transcript is saved in the review box above.';
+      }
+    };
+
+    // 11. Render Results with 5 Rubric Metrics, Deltas, XP Breakdown & Badges (Phase 3 & 4)
+    function renderResultCard(report, currentTopic, practicedStance, curTopicData, xpBreakdown = null, newBadges = null) {
+      const oppositeStance = practicedStance === 'for' ? 'against' : 'for';
+      const dm = report.deliveryMetrics || {};
+      const fb = typeof report.feedback === 'object' && report.feedback !== null ? report.feedback : null;
+      const scores = report.scores || {};
+
+      // Calculate score delta if "Try again with these fixes" was executed
+      const deltas = previousAttemptReport ? debateCalculateScoreDeltas(scores, previousAttemptReport.scores) : null;
+
+      // Extract 2 strengths and 2 improvements
+      const strengths = fb && Array.isArray(fb.strengths) ? fb.strengths.slice(0, 2) : ['Clear voice delivery and coherent perspective.'];
+      const improvements = fb && Array.isArray(fb.improvements) ? fb.improvements.slice(0, 2) : ['Incorporate more cited factual evidence.', 'Elaborate on potential counterarguments.'];
+      const rewrittenExcerpt = fb && (fb.rewrittenExcerpt || fb.recommendation) ? (fb.rewrittenExcerpt || fb.recommendation) : '';
+
+      // Determine duration label (Timed vs Estimated vs Suspect)
+      let durationLabel = 'Timed';
+      if (dm.durationSuspect) {
+        durationLabel = 'Suspect (Estimated)';
+      } else if (dm.durationEstimated) {
+        durationLabel = 'Estimated';
+      }
+
+      // Hide WPM and target adherence if durationEstimated or durationSuspect
+      const hidePaceMetrics = dm.durationEstimated || dm.durationSuspect;
+
+      $('#debate-result').innerHTML = `
+        <div class="card card-2" style="background:var(--color-surface-2);border:1.5px solid var(--line);margin-top:18px">
+          <!-- Newly Earned Badges Celebration Banner (Phase 4 Item 2) -->
+          ${newBadges && newBadges.length > 0 ? `
+            <div class="card card-emerald-accent" style="background:linear-gradient(135deg, rgba(16,185,129,0.18), rgba(139,92,246,0.14));border:1.5px solid var(--emerald);padding:14px 18px;margin-bottom:14px">
+              <div class="row gap-sm" style="align-items:center">
+                <span style="font-size:32px">🎖️</span>
+                <div>
+                  <div style="font-size:16px;font-weight:700;color:var(--emerald)">New Badge Unlocked!</div>
+                  ${newBadges.map(b => `<div style="font-size:13.5px;color:var(--cream-bright);margin-top:2px"><strong>${esc(b.name)}:</strong> ${esc(b.description)}</div>`).join('')}
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Heuristic Lower Confidence Notice (Phase 3 Item 4) -->
+          ${report.evaluator === 'heuristic' ? `
+            <div style="background:rgba(245,158,11,0.12);border:1px solid var(--amber);padding:10px 14px;border-radius:8px;margin-bottom:14px">
+              <div class="row gap-sm" style="align-items:center">
+                <span style="font-size:18px">⚡</span>
+                <div style="font-size:12.5px;color:var(--cream-bright);line-height:1.4">
+                  <strong>Evaluated by LinGrow Heuristic Engine:</strong> Local Ollama neural pipeline offline; offline rubric fallback active (confidence is lower than neural evaluation).
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Score Header, XP Breakdown & Delta (Phase 4 Item 1) -->
+          <div class="row gap-sm" style="margin-bottom:14px;align-items:center;flex-wrap:wrap">
+            <span class="pill sprout" style="font-size:16px;font-weight:700">
+              Overall Score: ${scores.overall}/100
+              ${deltas ? debateFormatDeltaBadge(deltas.overall, ' pts') : ''}
+            </span>
+            <span class="pill voice" style="font-size:13px;font-weight:700">
+              +${xpBreakdown?.total ?? Math.round(15 + (scores.overall || 70) / 5)} XP Earned
+            </span>
+            ${xpBreakdown ? `
+              <span class="pill" style="font-size:11.5px;color:var(--cream-dim);border-color:var(--line)">
+                Base: ${xpBreakdown.base} XP
+                ${xpBreakdown.improvementBonus ? ` • Improvement: +${xpBreakdown.improvementBonus} XP` : ''}
+                ${xpBreakdown.stanceBonus ? ` • Stance Agility: +${xpBreakdown.stanceBonus} XP` : ''}
+                ${xpBreakdown.capped ? ' (Capped at 50 XP max)' : ''}
+              </span>
+            ` : ''}
+            <div class="spacer"></div>
+            <button class="btn btn-outline btn-sm" id="btn-result-view-trends">📈 Skill Trends</button>
+            <span class="pill warn" style="font-size:12px;font-weight:700">Stance: ${practicedStance.toUpperCase()}</span>
+          </div>
+
+          <!-- All 5 Rubric Metrics Grid (Phase 3 Item 4) -->
+          <div class="grid grid-5 gap-xs" style="margin-bottom:16px">
+            <div class="card" style="text-align:center;padding:10px 6px">
+              <div class="eyebrow" style="font-size:11px">Logic</div>
+              <div style="font-size:19px;font-weight:700;color:var(--purple)">
+                ${scores.logic ?? scores.argument ?? 70}%
+              </div>
+              ${deltas ? debateFormatDeltaBadge(deltas.logic) : ''}
+            </div>
+            <div class="card" style="text-align:center;padding:10px 6px">
+              <div class="eyebrow" style="font-size:11px">Persuasion</div>
+              <div style="font-size:19px;font-weight:700;color:var(--emerald)">
+                ${scores.persuasion ?? scores.counterargument ?? scores.persuasiveness ?? 70}%
+              </div>
+              ${deltas ? debateFormatDeltaBadge(deltas.persuasion) : ''}
+            </div>
+            <div class="card" style="text-align:center;padding:10px 6px">
+              <div class="eyebrow" style="font-size:11px">Clarity</div>
+              <div style="font-size:19px;font-weight:700;color:var(--cyan)">
+                ${scores.clarity ?? 70}%
+              </div>
+              ${deltas ? debateFormatDeltaBadge(deltas.clarity) : ''}
+            </div>
+            <div class="card" style="text-align:center;padding:10px 6px">
+              <div class="eyebrow" style="font-size:11px">Vocabulary</div>
+              <div style="font-size:19px;font-weight:700;color:var(--amber)">
+                ${scores.vocabulary ?? 70}%
+              </div>
+              ${deltas ? debateFormatDeltaBadge(deltas.vocabulary) : ''}
+            </div>
+            <div class="card" style="text-align:center;padding:10px 6px">
+              <div class="eyebrow" style="font-size:11px">Structure</div>
+              <div style="font-size:19px;font-weight:700;color:var(--coral)">
+                ${scores.structure ?? 75}%
+              </div>
+              ${deltas ? debateFormatDeltaBadge(deltas.structure) : ''}
+            </div>
+          </div>
+
+          <!-- Delivery Metrics Breakdown -->
+          <div style="background:var(--panel-2);padding:12px 14px;border-radius:10px;border:1px solid var(--white-border);margin-bottom:16px">
+            <div class="eyebrow" style="margin-bottom:6px">📊 Objective Delivery Metrics</div>
+            <div class="row gap-md" style="flex-wrap:wrap;font-size:13px;color:var(--cream-bright)">
+              <div>⏱️ <strong>Duration:</strong> ${dm.speechDurationSeconds || report.durationSeconds || 0}s <span style="font-size:11px;color:var(--cream-dim)">(${durationLabel})</span></div>
+              ${!hidePaceMetrics ? `<div>⚡ <strong>Pace:</strong> ${dm.wpm || 0} WPM</div>` : ''}
+              ${!hidePaceMetrics ? `<div>🎯 <strong>Target Adherence:</strong> ${dm.targetAdherencePercent || 0}%</div>` : ''}
+              <div>💬 <strong>Filler Words:</strong> ${dm.fillerCount || 0} ${dm.fillerWords && dm.fillerWords.length > 0 ? `(${dm.fillerWords.map(w => esc(w)).join(', ')})` : '(None detected)'}</div>
+            </div>
+          </div>
+
+          <!-- Structured Strengths, Improvements & Exemplar Rewrite (Phase 3 Item 4 & 7) -->
+          <div style="margin-bottom:18px">
+            <div class="col gap-sm" style="font-size:14px;line-height:1.6;color:var(--color-text)">
+              <div>
+                <strong style="color:var(--emerald)">✅ Strengths:</strong>
+                <ul style="margin:4px 0 0 18px;padding:0;color:var(--cream-bright);font-size:13.5px">
+                  ${strengths.map(s => `<li>${esc(s)}</li>`).join('')}
+                </ul>
+              </div>
+              <div>
+                <strong style="color:var(--coral)">⚠️ Areas for Improvement:</strong>
+                <ul style="margin:4px 0 0 18px;padding:0;color:var(--cream-bright);font-size:13.5px">
+                  ${improvements.map(i => `<li>${esc(i)}</li>`).join('')}
+                </ul>
+              </div>
+              ${rewrittenExcerpt ? `
+                <div style="background:var(--card-sub);padding:10px 14px;border-radius:8px;border-left:3px solid var(--cyan);margin-top:4px">
+                  <strong style="color:var(--cyan);font-size:13px">💡 Exemplar Collegiate Rewrite:</strong>
+                  <div style="font-size:13px;color:var(--cream-bright);margin-top:4px;font-style:italic">"${esc(rewrittenExcerpt)}"</div>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+
+          <!-- Action Buttons: Try Again Delta, Opposite Side, Next Topic (Items 3, 5) -->
+          <div class="row gap-sm" style="flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px;align-items:center">
+            <button class="btn btn-primary btn-sm" id="btn-try-again-fixes">
+              🔁 Try Again with These Fixes
+            </button>
+            <button class="btn btn-outline btn-sm" id="btn-argue-opposite">
+              🔄 Argue Opposite Side (${oppositeStance.toUpperCase()})
+            </button>
+            <button class="btn btn-ghost btn-sm" id="btn-next-topic-res">
+              ➡️ Next Topic
+            </button>
+            <div class="spacer"></div>
+            <span style="font-size:12px;color:var(--cream-dim)">Track your score deltas to master collegiate debate!</span>
+          </div>
+        </div>
+      `;
+
+      // Handler: View Trends
+      const btnViewTrends = $('#btn-result-view-trends');
+      if (btnViewTrends) {
+        btnViewTrends.onclick = showDebateHistoryDrawer;
+      }
+
+      // Handler: Try Again with These Fixes (Phase 3 Item 5)
+      $('#btn-try-again-fixes').onclick = () => {
+        previousAttemptReport = report; // Store for delta calculation
+        $('#debate-result').innerHTML = '';
+        $('#debate-live-transcript').textContent = '';
+        reviewBox.style.display = 'none';
+        $('#debate-status').textContent = 'Re-practicing with feedback in mind. Tap mic or type when ready!';
+        toast('Ready to retry! Score delta will be displayed after submission.', 'sprout');
+      };
+
+      // Handler: Next Topic
+      $('#btn-next-topic-res').onclick = () => {
+        toast('Loading next unattempted topic…', 'sprout');
+        previousAttemptReport = null;
+        renderDebateView();
+      };
+
+      // Handler: Argue Opposite Side
+      $('#btn-argue-opposite').onclick = () => {
+        selectedStance = oppositeStance;
+        previousAttemptReport = null;
+        practiceMode = 'manual';
+        localStorage.setItem('lingrow_debate_mode', 'manual');
+
+        updateStanceUI();
+        btnFor.disabled = false;
+        btnAgainst.disabled = false;
+        btnFor.style.cursor = 'pointer';
+        btnAgainst.style.cursor = 'pointer';
+        btnFor.style.opacity = '1';
+        btnAgainst.style.opacity = '1';
+
+        $('#debate-live-transcript').textContent = '';
+        $('#debate-result').innerHTML = '';
+        reviewBox.style.display = 'none';
+        $('#debate-status').textContent = `Ready to argue ${oppositeStance.toUpperCase()}! Review suggested arguments above and begin.`;
+        toast(`Flipped to ${oppositeStance.toUpperCase()}! Defend the counter-perspective.`, 'sprout');
+      };
+    }
   }
 };
 

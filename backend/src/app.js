@@ -6,6 +6,10 @@ const rateLimit = require('express-rate-limit');
 const path = require('path');
 
 function createApp() {
+  if (process.env.NODE_ENV === 'production' && !process.env.JWT_SECRET) {
+    throw new Error('FATAL: JWT_SECRET environment variable is required in production.');
+  }
+
   const app = express();
 
   app.use(

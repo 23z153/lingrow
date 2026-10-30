@@ -189,6 +189,12 @@ async function scrapeDepartmentContent(targetDept = null) {
         againstKeyPoints,
         department: dept,
         level: setIdx > 15 ? 'Advanced' : 'Intermediate',
+        difficulty: setIdx > 15 ? 'advanced' : 'intermediate',
+        tags: [dept, setIdx > 15 ? 'Advanced' : 'Intermediate'],
+        keyTerms: tmpl && tmpl.keywords && tmpl.keywords.length >= 2 ? [
+          { term: tmpl.keywords[0], meaning: `Core technical architecture or method in ${dept}.` },
+          { term: tmpl.keywords[1], meaning: `High-impact technical practice in ${dept}.` },
+        ] : [],
         source: 'scraped',
       });
     }

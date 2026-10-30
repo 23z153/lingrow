@@ -93,6 +93,7 @@ const Api = {
 
   get(path) { return this.request('GET', path); },
   post(path, body) { return this.request('POST', path, body); },
+  put(path, body) { return this.request('PUT', path, body); },
   patch(path, body) { return this.request('PATCH', path, body); },
   del(path) { return this.request('DELETE', path); },
 
@@ -142,9 +143,17 @@ const Api = {
 
   // debate
   debateTopics() { return this.get('/debate/topics'); },
-  nextDebateTopic() { return this.get('/debate/topics/next'); },
+  nextDebateTopic(params = {}) {
+    const q = new URLSearchParams();
+    if (params && params.assignStance) q.set('assignStance', 'true');
+    if (params && params.department) q.set('department', params.department);
+    const qs = q.toString();
+    return this.get('/debate/topics/next' + (qs ? `?${qs}` : ''));
+  },
+  saveDebatePreferences(data) { return this.put('/debate/preferences', data); },
   submitDebate(payload) { return this.post('/debate/attempts', payload); },
   myDebateAttempts() { return this.get('/debate/attempts/me'); },
+  debateHistory() { return this.get('/debate/history'); },
 
   // story
   storyPrompts() { return this.get('/story/prompts'); },

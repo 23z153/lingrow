@@ -1,4 +1,9 @@
 require('dotenv').config();
+
+if (process.env.NODE_ENV === 'production' && !process.env.JWT_SECRET) {
+  throw new Error('FATAL: JWT_SECRET environment variable is required in production.');
+}
+
 const createApp = require('./src/app');
 const connectDB = require('./src/config/db');
 

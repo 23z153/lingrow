@@ -139,14 +139,14 @@ async function getLLMStatus() {
 /**
  * Fast local Llama/Qwen model solver with sub-50ms execution guarantee
  */
-async function generateLocalLlamaResponse(systemPrompt, userPrompt, history = []) {
+async function generateLocalLlamaResponse(systemPrompt, userPrompt, history = [], options = {}) {
   if (process.env.NODE_ENV === 'test') return null;
 
   // 1. Check cached active endpoint
   const endpoint = await probeLocalLLM();
   if (endpoint) {
     const model = endpoint.detectedModel || PREFERRED_MODELS[0];
-    const timeoutMs = parseInt(process.env.LOCAL_LLM_TIMEOUT, 10) || 5000;
+    const timeoutMs = options.timeoutMs || parseInt(process.env.LOCAL_LLM_TIMEOUT, 10) || 12000;
 
     try {
       const controller = new AbortController();
@@ -159,19 +159,29 @@ async function generateLocalLlamaResponse(systemPrompt, userPrompt, history = []
           ...history.map((h) => ({ role: h.role === 'user' ? 'user' : 'assistant', content: h.text || h.content })),
           { role: 'user', content: userPrompt },
         ];
+        const reqBody = { model, messages, stream: false };
+        if (options.format) reqBody.format = options.format;
+        if (options.temperature !== undefined) {
+          reqBody.options = { temperature: options.temperature };
+        }
         res = await fetch(endpoint.url, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           signal: controller.signal,
-          body: JSON.stringify({ model, messages, stream: false }),
+          body: JSON.stringify(reqBody),
         });
       } else if (endpoint.type === 'ollama-generate') {
         const fullPrompt = formatLlama3Prompt(systemPrompt, userPrompt, history);
+        const reqBody = { model, prompt: fullPrompt, stream: false };
+        if (options.format) reqBody.format = options.format;
+        if (options.temperature !== undefined) {
+          reqBody.options = { temperature: options.temperature };
+        }
         res = await fetch(endpoint.url, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           signal: controller.signal,
-          body: JSON.stringify({ model, prompt: fullPrompt, stream: false }),
+          body: JSON.stringify(reqBody),
         });
       } else {
         const messages = [
@@ -179,11 +189,18 @@ async function generateLocalLlamaResponse(systemPrompt, userPrompt, history = []
           ...history.map((h) => ({ role: h.role === 'user' ? 'user' : 'assistant', content: h.text || h.content })),
           { role: 'user', content: userPrompt },
         ];
+        const reqBody = {
+          model,
+          messages,
+          temperature: options.temperature !== undefined ? options.temperature : 0.7,
+          max_tokens: options.max_tokens || 800,
+        };
+        if (options.format === 'json') reqBody.response_format = { type: 'json_object' };
         res = await fetch(endpoint.url, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           signal: controller.signal,
-          body: JSON.stringify({ model, messages, temperature: 0.7, max_tokens: 250 }),
+          body: JSON.stringify(reqBody),
         });
       }
 

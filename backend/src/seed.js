@@ -139,9 +139,27 @@ async function run() {
 
   if ((await DebateTopic.countDocuments()) === 0) {
     await DebateTopic.insertMany([
-      { topic: 'Should colleges make attendance optional for final-year students?', level: 'Advanced' },
-      { topic: 'Is remote work better than working from an office?', level: 'Advanced' },
-      { topic: 'Should social media platforms verify the identity of every user?', level: 'Advanced' },
+      {
+        topic: 'Should colleges make attendance optional for final-year students?',
+        level: 'Advanced',
+        difficulty: 'advanced',
+        tags: ['Higher Education', 'Policy'],
+        keyTerms: [{ term: 'Academic Autonomy', meaning: 'The freedom of students to direct their own study time and focus.' }],
+      },
+      {
+        topic: 'Is remote work better than working from an office?',
+        level: 'Intermediate',
+        difficulty: 'intermediate',
+        tags: ['Workplace', 'Productivity'],
+        keyTerms: [{ term: 'Asynchronous Collaboration', meaning: 'Team members collaborating without needing to be online at the same moment.' }],
+      },
+      {
+        topic: 'Should social media platforms verify the identity of every user?',
+        level: 'Advanced',
+        difficulty: 'advanced',
+        tags: ['Cybersecurity', 'Ethics'],
+        keyTerms: [{ term: 'Algorithmic Accountability', meaning: 'Holding automated digital platforms responsible for user behavior and content safety.' }],
+      },
     ]);
   }
 

@@ -26,11 +26,17 @@ function requireMinXP(minXP, moduleName = 'This module', minLevel = null) {
       const meetsXP = userXP >= minXP;
 
       if (!meetsLevel && !meetsXP) {
+        const reqLevel = minLevel || (requiredRank === 3 ? 'Advanced' : requiredRank === 2 ? 'Intermediate' : 'Beginner');
         return res.status(403).json({
-          error: `${moduleName} is locked. Requires ${minLevel || (requiredRank === 3 ? 'Advanced' : 'Intermediate')} level (${minXP} XP) to unlock.`,
+          error: `${moduleName} is locked. Requires ${reqLevel} level (${minXP} XP) to unlock.`,
           minXP,
           userXP,
           minLevel,
+          requiredLevel: reqLevel,
+          requiredXp: minXP,
+          currentXp: userXP,
+          currentLevel: userLevel,
+          xpNeeded: Math.max(0, minXP - userXP),
           locked: true,
         });
       }

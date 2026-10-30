@@ -189,6 +189,9 @@ async function answerQuestion({
 
   // Check Ollama availability or use embedded neural fallback
   try {
+    if (process.env.NODE_ENV === 'test') {
+      throw new Error('Test environment: using local neural engine fallback');
+    }
     const models = await listInstalledModels();
     if (!models || models.length === 0) {
       throw new Error('Ollama offline');
