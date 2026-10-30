@@ -151,7 +151,7 @@ async function importQuestionBank(qbankDir = QBANK_DIR) {
 
 // Standalone execution
 if (require.main === module) {
-  const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
+  const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
   mongoose.connect(mongoUri)
     .then(async () => {
       console.log(`[db] Connected to ${mongoUri}`);

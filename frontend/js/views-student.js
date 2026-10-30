@@ -2762,6 +2762,7 @@ function renderGrammarView(mount, topics, progress) {
     : topics.filter(t => t.isCompleted || t.completed).length;
   const totalCount = (progress && progress.totalTopics) || topics.length;
   const progressPercent = totalCount ? Math.round((completedCount / totalCount) * 100) : 0;
+  const passMark = (progress && progress.passPercent) || 50;
   
   // Find first unlocked topic that is not yet completed
   const firstActiveUnlocked = topics.find(t => !t.isLocked && !t.isCompleted && !t.completed);
@@ -2776,7 +2777,7 @@ function renderGrammarView(mount, topics, progress) {
             <span id="grammar-header-pct" class="pill sprout" style="font-size:11px;font-weight:700">${progressPercent}% Complete</span>
           </div>
           <div class="row gap-xs" style="align-items:center">
-            <span class="pill" style="font-size:11.5px;color:var(--cream-dim);border-color:var(--line)">Pass Mark: 60%</span>
+            <span class="pill" style="font-size:11.5px;color:var(--cream-dim);border-color:var(--line)">Pass Mark: ${passMark}%</span>
             <span class="pill voice" style="font-size:11.5px;font-weight:700">+25 XP on first completion</span>
           </div>
         </div>
@@ -2823,7 +2824,7 @@ function renderGrammarView(mount, topics, progress) {
                 <div id="unlock-msg-${t._id}">
                   ${isLocked ? `
                     <div style="font-size:12px;color:var(--coral);margin-bottom:12px;display:flex;align-items:center;gap:6px">
-                      <i class="bi bi-lock-fill"></i> Complete "${esc(t.previousTopicTitle || 'previous topic')}" with &ge;60% to unlock
+                      <i class="bi bi-lock-fill"></i> Complete "${esc(t.previousTopicTitle || 'previous topic')}" with &ge;${passMark}% to unlock
                     </div>
                   ` : ''}
                 </div>
@@ -3074,7 +3075,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
 
       const resultsDiv = $('#grammar-results-10q');
       const passed = !!res.passed;
-      const passMark = res.passPercent || 60;
+      const passMark = res.passPercent || 50;
       const minCorrectNeeded = Math.ceil((passMark / 100) * res.totalQuestions);
 
       resultsDiv.innerHTML = `

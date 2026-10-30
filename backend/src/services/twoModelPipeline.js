@@ -169,7 +169,7 @@ async function answerQuestion({
 
   if (intent.needsRag && userId) {
     try {
-      const targetDept = studentProfile?.department || 'CSE';
+      const targetDept = studentProfile?.department || 'General';
       const ragResult = await retrieveDocumentContext(userId, intent.searchQuery || question, 3, targetDept);
       if (ragResult.formattedContext) {
         referenceContext += `\n\n--- UPLOADED COURSE & DEPARTMENT STUDY DOCUMENTS ---\n${ragResult.formattedContext}`;
@@ -466,7 +466,7 @@ async function answerQuestion({
       history: conversationHistory,
       message: question,
       studentLevel: studentProfile?.level || 'Beginner',
-      department: studentProfile?.department || 'CSE',
+      department: studentProfile?.department || 'General',
       liveTaskContext: studentProfile,
     });
 

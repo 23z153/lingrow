@@ -19,7 +19,13 @@ function el(html){
   t.innerHTML = trimmed;
   return t.content.firstElementChild;
 }
-function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function esc(s){
+  if (typeof s !== 'string') {
+    if (s && typeof s === 'object' && s.text) s = s.text;
+    else s = String(s ?? '');
+  }
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
 function toast(msg, kind='sprout'){
   const wrap = $('#toast-wrap');
   const t = el(`<div class="toast"><span style="color:var(--${kind})">${ICONS.check}</span><span>${esc(msg)}</span></div>`);
@@ -211,7 +217,6 @@ function addStudentXP(amount) {
   if (newRank > oldRank) {
     toast(`🎉 Leveled up to ${S.user.level}! New practice exercises unlocked!`, 'sprout');
     renderShell();
-  initGlobalChatbot();
   initGlobalChatbot();
   }
 }
@@ -461,6 +466,7 @@ async function setView(view){
 }
 
 async function enterApp(){
+  initGlobalChatbot();
   const loginScreen = $('#login-screen');
   if (loginScreen) {
     loginScreen.innerHTML = '';
@@ -498,6 +504,7 @@ async function handleEmailVerificationLink(){
 }
 
 window.addEventListener('DOMContentLoaded', async ()=>{
+  initGlobalChatbot();
   const hasToken = !!localStorage.getItem('lingrow_token');
   if (!hasToken) {
     renderLogin();
@@ -543,6 +550,9 @@ let isMicRecording = false;
 let isChatbotBound = false;
 
 function updateGlobalChatbotVisibility(view) {
+  if (!isChatbotBound) {
+    initGlobalChatbot();
+  }
   const fab = $('#global-chatbot-fab');
   if (!fab) return;
   const currentView = view || S.view;
@@ -556,7 +566,10 @@ function updateGlobalChatbotVisibility(view) {
     if (drawer && drawer.classList.contains('open')) {
       drawer.classList.remove('open');
       drawer.setAttribute('aria-hidden', 'true');
-      if (overlay) overlay.style.display = 'none';
+      if (overlay) {
+        overlay.style.display = 'none';
+        overlay.classList.remove('open');
+      }
     }
   }
 }
@@ -571,36 +584,77 @@ function initGlobalChatbot() {
   const input = $('#chatbot-drawer-input');
   const msgsContainer = $('#chatbot-drawer-messages');
 
-  if (!fab || !drawer) return;
+  if (!drawer) return;
 
   function openDrawer() {
-    drawer.classList.add('open');
-    drawer.setAttribute('aria-hidden', 'false');
-    if (overlay) overlay.style.display = 'block';
-    if (input) input.focus();
+    const d = $('#global-chatbot-drawer');
+    const o = $('#global-chatbot-overlay');
+    const inp = $('#chatbot-drawer-input');
+    if (d) {
+      d.classList.add('open');
+      d.setAttribute('aria-hidden', 'false');
+    }
+    if (o) {
+      o.style.display = 'block';
+      o.classList.add('open');
+    }
+    if (inp) {
+      setTimeout(() => inp.focus(), 100);
+    }
     loadChatbotHistory();
   }
 
   function closeDrawer() {
-    drawer.classList.remove('open');
-    drawer.setAttribute('aria-hidden', 'true');
-    if (overlay) overlay.style.display = 'none';
+    const d = $('#global-chatbot-drawer');
+    const o = $('#global-chatbot-overlay');
+    if (d) {
+      d.classList.remove('open');
+      d.setAttribute('aria-hidden', 'true');
+    }
+    if (o) {
+      o.style.display = 'none';
+      o.classList.remove('open');
+    }
   }
 
   window.openGlobalChatbot = openDrawer;
   window.closeGlobalChatbot = closeDrawer;
 
+  if (fab) {
+    fab.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const d = $('#global-chatbot-drawer');
+      if (d && d.classList.contains('open')) closeDrawer();
+      else openDrawer();
+    };
+  }
+
   if (!isChatbotBound) {
     isChatbotBound = true;
 
-    // Document-level event delegation for FAB click
+    // Document-level event delegation so clicks ALWAYS open/close the drawer
     document.addEventListener('click', (e) => {
-      const clickedFab = e.target.closest('#global-chatbot-fab');
+      const clickedFab = e.target.closest('#global-chatbot-fab, .global-chatbot-fab');
       if (clickedFab) {
         e.preventDefault();
         e.stopPropagation();
-        if (drawer.classList.contains('open')) closeDrawer();
+        const d = $('#global-chatbot-drawer');
+        if (d && d.classList.contains('open')) closeDrawer();
         else openDrawer();
+        return;
+      }
+      const clickedClose = e.target.closest('#chatbot-close-btn');
+      if (clickedClose) {
+        e.preventDefault();
+        closeDrawer();
+        return;
+      }
+      const clickedOverlay = e.target.closest('#global-chatbot-overlay');
+      if (clickedOverlay) {
+        e.preventDefault();
+        closeDrawer();
+        return;
       }
     });
 
@@ -608,7 +662,8 @@ function initGlobalChatbot() {
     if (overlay) overlay.onclick = closeDrawer;
 
     window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && drawer.classList.contains('open')) {
+      const d = $('#global-chatbot-drawer');
+      if (e.key === 'Escape' && d && d.classList.contains('open')) {
         closeDrawer();
       }
     });
@@ -630,18 +685,37 @@ function initGlobalChatbot() {
         chatbotHistory.push({ role: 'user', text });
         renderChatbotMessages();
 
+        const msgs = $('#chatbot-drawer-messages');
         const typingEl = document.createElement('div');
         typingEl.className = 'msg-wrap ai';
         typingEl.innerHTML = `<div class="msg ai" style="font-size:13px;color:var(--cream-dim);padding:8px 14px">AI Tutor is thinking…</div>`;
-        msgsContainer.appendChild(typingEl);
-        msgsContainer.scrollTop = msgsContainer.scrollHeight;
+        if (msgs) {
+          msgs.appendChild(typingEl);
+          msgs.scrollTop = msgs.scrollHeight;
+        }
 
         try {
           const res = await Api.tutorMessage(text);
           if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
-          const replyText = res.reply || res.message || 'I am here to assist your English learning.';
+          let replyText = '';
+          if (res) {
+            if (typeof res.reply === 'object' && res.reply !== null) {
+              replyText = res.reply.text || res.reply.message || '';
+            } else if (typeof res.reply === 'string') {
+              replyText = res.reply;
+            } else if (typeof res.message === 'string') {
+              replyText = res.message;
+            } else if (typeof res.text === 'string') {
+              replyText = res.text;
+            }
+          }
+          if (!replyText) {
+            replyText = 'I am here to assist your English learning.';
+          }
           chatbotHistory.push({ role: 'assistant', text: replyText });
-          sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory.slice(-25)));
+          try {
+            sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory.slice(-25)));
+          } catch (_) {}
           renderChatbotMessages();
         } catch (err) {
           if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
@@ -659,25 +733,54 @@ function initGlobalChatbot() {
 
   async function loadChatbotHistory() {
     try {
-      const stored = sessionStorage.getItem('lingrow_chatbot_drawer_history');
-      if (stored) {
-        chatbotHistory = JSON.parse(stored);
+      const hist = await Api.tutorHistory();
+      if (Array.isArray(hist) && hist.length) {
+        chatbotHistory = hist.slice(-25).map((m) => {
+          let t = m.text;
+          if (t && typeof t === 'object') t = t.text || t.message || '';
+          return { role: m.role || 'assistant', text: String(t || '') };
+        });
+        try {
+          sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory));
+        } catch (_) {}
       } else {
-        const hist = await Api.tutorHistory();
-        if (Array.isArray(hist) && hist.length) {
-          chatbotHistory = hist.slice(-10);
+        const stored = sessionStorage.getItem('lingrow_chatbot_drawer_history');
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          chatbotHistory = (Array.isArray(parsed) ? parsed : []).map((m) => {
+            let t = m.text;
+            if (t && typeof t === 'object') t = t.text || t.message || '';
+            return { role: m.role || 'assistant', text: String(t || '') };
+          });
+        } else {
+          chatbotHistory = [];
         }
       }
     } catch (e) {
-      chatbotHistory = [];
+      const stored = sessionStorage.getItem('lingrow_chatbot_drawer_history');
+      if (stored) {
+        try {
+          const parsed = JSON.parse(stored);
+          chatbotHistory = (Array.isArray(parsed) ? parsed : []).map((m) => {
+            let t = m.text;
+            if (t && typeof t === 'object') t = t.text || t.message || '';
+            return { role: m.role || 'assistant', text: String(t || '') };
+          });
+        } catch (_) {
+          chatbotHistory = [];
+        }
+      } else {
+        chatbotHistory = [];
+      }
     }
     renderChatbotMessages();
   }
 
   function renderChatbotMessages() {
-    if (!msgsContainer) return;
+    const msgs = $('#chatbot-drawer-messages');
+    if (!msgs) return;
     if (!chatbotHistory.length) {
-      msgsContainer.innerHTML = `
+      msgs.innerHTML = `
         <div style="text-align:center;padding:28px 12px;color:var(--cream-dim)">
           <div style="font-size:32px;margin-bottom:8px">👋</div>
           <div style="font-weight:700;font-size:15px;color:var(--color-text);margin-bottom:4px">Welcome to your AI Tutor!</div>
@@ -687,14 +790,21 @@ function initGlobalChatbot() {
       return;
     }
 
-    msgsContainer.innerHTML = chatbotHistory.map((m) => `
-      <div class="msg-wrap ${m.role === 'user' ? 'user' : 'ai'}" style="margin-bottom:8px">
-        <div class="msg ${m.role === 'user' ? 'user' : 'ai'}" style="font-size:14px;padding:10px 14px;line-height:1.5">
-          ${m.text ? esc(m.text).replace(/\n/g, '<br>') : ''}
+    msgs.innerHTML = chatbotHistory.map((m) => {
+      let t = m.text;
+      if (t && typeof t === 'object') t = t.text || t.message || '';
+      const safeText = esc(t || '').replace(/\n/g, '<br>');
+      return `
+        <div class="msg-wrap ${m.role === 'user' ? 'user' : 'ai'}" style="margin-bottom:8px">
+          <div class="msg ${m.role === 'user' ? 'user' : 'ai'}" style="font-size:14px;padding:10px 14px;line-height:1.5">
+            ${safeText}
+          </div>
         </div>
-      </div>
-    `).join('');
-    msgsContainer.scrollTop = msgsContainer.scrollHeight;
+      `;
+    }).join('');
+    setTimeout(() => {
+      msgs.scrollTop = msgs.scrollHeight;
+    }, 50);
   }
 
   updateGlobalChatbotVisibility();

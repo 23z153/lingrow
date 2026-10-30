@@ -1,3 +1,4 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
 /**
  * seedStories.js
  * Migration & seeding script:
@@ -504,7 +505,7 @@ const GENERAL_STORIES = [
 ];
 
 async function seedGeneralStories() {
-  const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
+  const uri = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
   let shouldClose = false;
 
   if (mongoose.connection.readyState !== 1) {

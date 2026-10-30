@@ -1,3 +1,4 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
 const mongoose = require('mongoose');
 const Passage = require('./models/Passage');
 const ListeningClip = require('./models/ListeningClip');
@@ -539,7 +540,7 @@ const GENERAL_VOCAB_WORDS = [
 ];
 
 async function runSeed() {
-  const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
+  const uri = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
   console.log('[SeedCurriculum] Connecting to:', uri);
   await mongoose.connect(uri);
 
