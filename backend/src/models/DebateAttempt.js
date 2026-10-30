@@ -44,6 +44,7 @@ const debateAttemptSchema = new mongoose.Schema(
     mode: { type: String, default: 'standard' },
     stanceAssigned: { type: Boolean, default: false },
     idempotencyKey: { type: String },
+    xpAwarded: { type: Number, default: 0 },
     teacherComment: { type: String, default: '' },
   },
   { timestamps: true }

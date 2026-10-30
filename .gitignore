@@ -63,6 +63,9 @@ coverage/
 .cache/
 .eslintcache
 .parcel-cache
+test_results.json
+*.result.json
+test-results/
 
 # OS files
 .DS_Store

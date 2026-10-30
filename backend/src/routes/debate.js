@@ -1,11 +1,18 @@
 const router = require('express').Router();
+const mongoose = require('mongoose');
 const crypto = require('crypto');
 const rateLimit = require('express-rate-limit');
 const { requireAuth } = require('../middleware/auth');
 const { requireMinXP } = require('../middleware/levelGate');
 const DebateTopic = require('../models/DebateTopic');
 const DebateAttempt = require('../models/DebateAttempt');
-const { scoreDebate, stripTranscriptTags } = require('../services/llmService');
+const DebateRebuttal = require('../models/DebateRebuttal');
+const {
+  scoreDebate,
+  generateDebateCounter,
+  scoreDebateRebuttal,
+  stripTranscriptTags,
+} = require('../services/llmService');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
 
 // Rate limiter for debate attempts (max 25 attempts per 10 minutes, keyed by User ID with IP fallback)
@@ -16,6 +23,16 @@ const debateAttemptLimiter = rateLimit({
   legacyHeaders: false,
   keyGenerator: (req) => (req.user && req.user._id ? String(req.user._id) : (req.ip || 'anonymous')),
   message: { error: 'Too many debate attempts submitted. Please take a brief break before submitting again.' },
+});
+
+// Dedicated rate limiter for rebuttal start/resume (separate bucket from /attempts, max 30 starts per 10 minutes)
+const rebuttalStartLimiter = rateLimit({
+  windowMs: 10 * 60 * 1000,
+  max: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+  keyGenerator: (req) => (req.user && req.user._id ? String(req.user._id) : (req.ip || 'anonymous')),
+  message: { error: 'Too many rebuttal rounds started. Please take a brief break before starting again.' },
 });
 
 function getDebateSecret() {
@@ -69,6 +86,59 @@ function verifyAssignedStanceToken(userId, topicId, stance, token) {
   const expectedSig = crypto
     .createHmac('sha256', secret)
     .update(`${String(userId)}:${String(topicId)}:${String(stance).toLowerCase()}:${expiresAt}`)
+    .digest('hex');
+  try {
+    return crypto.timingSafeEqual(Buffer.from(sig, 'hex'), Buffer.from(expectedSig, 'hex'));
+  } catch (e) {
+    return false;
+  }
+}
+
+/**
+ * Returns YYYY-MM-DD string for a date in a given timezone (defaults to Asia/Kolkata)
+ */
+function getDateInTimezone(date, timezone = 'Asia/Kolkata') {
+  try {
+    const formatter = new Intl.DateTimeFormat('en-CA', {
+      timeZone: timezone,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    });
+    return formatter.format(new Date(date));
+  } catch (e) {
+    return new Date(date).toISOString().slice(0, 10);
+  }
+}
+
+/**
+ * Generates signed HMAC token for a rebuttal round with 10-minute expiry
+ */
+function generateRebuttalToken(userId, openingAttemptId, rebuttalId, customExpiresAt = null) {
+  const secret = getDebateSecret();
+  const expiresAt = customExpiresAt || Date.now() + 10 * 60 * 1000;
+  const signature = crypto
+    .createHmac('sha256', secret)
+    .update(`${String(userId)}:${String(openingAttemptId)}:${String(rebuttalId)}:${expiresAt}`)
+    .digest('hex');
+  return `${rebuttalId}.${expiresAt}.${signature}`;
+}
+
+/**
+ * Verifies rebuttal token authenticity, user binding, and expiry
+ */
+function verifyRebuttalToken(userId, openingAttemptId, rebuttalId, token) {
+  if (!token || typeof token !== 'string') return false;
+  const parts = token.split('.');
+  if (parts.length !== 3) return false;
+  const [tokenRebuttalId, expiresAtStr, sig] = parts;
+  if (tokenRebuttalId !== String(rebuttalId)) return false;
+  const expiresAt = Number(expiresAtStr);
+  if (!Number.isFinite(expiresAt) || expiresAt < Date.now()) return false;
+  const secret = getDebateSecret();
+  const expectedSig = crypto
+    .createHmac('sha256', secret)
+    .update(`${String(userId)}:${String(openingAttemptId)}:${String(rebuttalId)}:${expiresAt}`)
     .digest('hex');
   try {
     return crypto.timingSafeEqual(Buffer.from(sig, 'hex'), Buffer.from(expectedSig, 'hex'));
@@ -487,13 +557,15 @@ router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => 
       ? 'assigned'
       : 'manual';
 
-    // Calculate XP with improvement & stance bonuses, capped at 50 XP
+    // Calculate XP with personal best improvement, repeat diminishing returns & daily cap
     const xpBreakdown = await calculateDebateXP({
       overallScore: result.scores.overall,
       userId: req.user._id,
       topicId: topic._id,
       stance: normalizedStance,
       isAssigned,
+      isTyped: isTypedMode,
+      userTimezone: req.user.timezone || 'Asia/Kolkata',
     });
 
     const attempt = await DebateAttempt.create({
@@ -514,6 +586,7 @@ router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => 
       mode: resolvedMode,
       stanceAssigned: isAssigned,
       idempotencyKey: idempotencyKey ? String(idempotencyKey) : undefined,
+      xpAwarded: xpBreakdown.total,
     });
 
     await awardXP(req.user, xpBreakdown.total);
@@ -537,29 +610,49 @@ router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => 
 });
 
 /**
- * Calculates XP with improvement and stance agility bonuses, capped at 50 XP.
- * Anti-farming: Overall score must be >= 40 to qualify for any bonuses.
+ * Calculates XP with personal-best improvement, stance agility bonuses, repeat diminishing returns,
+ * and daily debate XP cap (150 max).
+ * - Improvement bonus is measured against the user's PERSONAL BEST overall on the same topic+stance (not latest attempt).
+ * - Anti-farming: Overall score must be >= 40 to qualify for any bonuses.
+ * - Repeat attempts on same topic+stance: 1st full XP, 2nd half, 3rd+ flat 5 XP.
+ * - Typed mode: receives only base XP (no improvement or stance bonuses).
  */
-async function calculateDebateXP({ overallScore, userId, topicId, stance, isAssigned }) {
+async function calculateDebateXP({
+  overallScore,
+  userId,
+  topicId,
+  stance,
+  isAssigned,
+  isTyped = false,
+  mode,
+  userTimezone = 'Asia/Kolkata',
+}) {
+  const typedMode = Boolean(isTyped || String(mode).toLowerCase() === 'typed');
   const baseXp = Math.round(15 + overallScore / 5);
   let improvementBonus = 0;
   let stanceBonus = 0;
 
-  // Anti-farming check: require overall >= 40 for any bonus
-  if (overallScore >= 40) {
-    // 1. Improvement bonus (+5 per 5 points improved vs previous attempt on same topic & stance, max +15)
-    const prevSameAttempt = await DebateAttempt.findOne({
-      user: userId,
-      topic: topicId,
-      stance,
-    }).sort({ createdAt: -1 });
+  // Query all previous attempts on same topic + stance to check personal best and attempt count
+  const prevSameAttempts = await DebateAttempt.find({
+    user: userId,
+    topic: topicId,
+    stance,
+  }).select('scores.overall xpAwarded createdAt');
 
-    if (prevSameAttempt && prevSameAttempt.scores && Number.isFinite(prevSameAttempt.scores.overall)) {
-      const prevScore = prevSameAttempt.scores.overall;
-      if (overallScore > prevScore) {
-        const diff = overallScore - prevScore;
-        improvementBonus = Math.min(15, Math.floor(diff / 5) * 5);
-      }
+  const priorCount = prevSameAttempts.length;
+
+  const validScores = prevSameAttempts
+    .map((a) => a.scores?.overall)
+    .filter((s) => typeof s === 'number' && !isNaN(s));
+
+  const personalBest = validScores.length > 0 ? Math.max(...validScores) : null;
+
+  // Anti-farming check: require overall >= 40 and non-typed mode for bonuses
+  if (!typedMode && overallScore >= 40) {
+    // 1. Improvement bonus measured strictly against PERSONAL BEST (+5 per 5 pts, max +15)
+    if (personalBest !== null && overallScore > personalBest) {
+      const diff = overallScore - personalBest;
+      improvementBonus = Math.min(15, Math.floor(diff / 5) * 5);
     }
 
     // 2. Stance bonus (+5 for assigned stance or if opposite stance already attempted)
@@ -578,16 +671,60 @@ async function calculateDebateXP({ overallScore, userId, topicId, stance, isAssi
     }
   }
 
-  const uncappedTotal = baseXp + improvementBonus + stanceBonus;
-  const total = Math.min(50, uncappedTotal);
-  const capped = uncappedTotal > 50;
+  const uncappedSubtotal = baseXp + improvementBonus + stanceBonus;
+  const subtotalBeforeDiminishing = Math.min(50, uncappedSubtotal);
+
+  // 3. Diminishing returns on repeat attempts on same topic+stance:
+  // 1st attempt (priorCount === 0): full XP
+  // 2nd attempt (priorCount === 1): half XP
+  // 3rd and later (priorCount >= 2): flat 5 XP
+  let diminishedTotal = subtotalBeforeDiminishing;
+  let diminishingCategory = 'full';
+
+  if (priorCount === 1) {
+    diminishedTotal = Math.round(subtotalBeforeDiminishing * 0.5);
+    diminishingCategory = 'half';
+  } else if (priorCount >= 2) {
+    diminishedTotal = 5;
+    diminishingCategory = 'flat5';
+  }
+
+  // 4. Daily debate XP cap (150 XP per day in user's timezone)
+  const todayStr = getDateInTimezone(new Date(), userTimezone);
+  const lookbackCutoff = new Date(Date.now() - 36 * 3600 * 1000);
+
+  const [recentAttempts, recentRebuttals] = await Promise.all([
+    DebateAttempt.find({ user: userId, createdAt: { $gte: lookbackCutoff } }).select('createdAt xpAwarded'),
+    DebateRebuttal.find({ user: userId, createdAt: { $gte: lookbackCutoff } }).select('createdAt xpAwarded'),
+  ]);
+
+  const dailyAttemptXp = recentAttempts
+    .filter((a) => getDateInTimezone(a.createdAt, userTimezone) === todayStr)
+    .reduce((sum, a) => sum + (a.xpAwarded || 0), 0);
+
+  const dailyRebuttalXp = recentRebuttals
+    .filter((r) => getDateInTimezone(r.createdAt, userTimezone) === todayStr)
+    .reduce((sum, r) => sum + (r.xpAwarded || 0), 0);
+
+  const totalDailyDebateXpEarned = dailyAttemptXp + dailyRebuttalXp;
+  const dailyCapRemaining = Math.max(0, 150 - totalDailyDebateXpEarned);
+  const finalTotal = Math.min(diminishedTotal, dailyCapRemaining);
 
   return {
     base: baseXp,
     improvementBonus,
     stanceBonus,
-    total,
-    capped,
+    uncappedTotal: uncappedSubtotal,
+    subtotal: subtotalBeforeDiminishing,
+    total: finalTotal,
+    capped: uncappedSubtotal > 50,
+    repeatAttemptCount: priorCount,
+    diminishingCategory,
+    personalBestBefore: personalBest,
+    dailyDebateXpEarnedBefore: totalDailyDebateXpEarned,
+    dailyCapRemaining,
+    dailyCapReached: dailyCapRemaining <= 0,
+    typedModeNoBonuses: Boolean(typedMode),
   };
 }
 
@@ -597,7 +734,7 @@ async function calculateDebateXP({ overallScore, userId, topicId, stance, isAssi
  * - debate_champion (overall >= 85)
  * - both_sides (same topic argued FOR and AGAINST)
  * - consistent_debater (3 consecutive attempts with overall >= 70)
- * - debate_streak_5 (5 consecutive days with >= 1 debate attempt)
+ * - debate_streak_5 (5 consecutive days with >= 1 attempt scoring overall >= 40 in user's timezone)
  */
 async function evaluateDebateBadges(user, topicId, stance, overallScore) {
   const newlyEarned = [];
@@ -631,18 +768,25 @@ async function evaluateDebateBadges(user, topicId, stance, overallScore) {
     if (consBadge) newlyEarned.push(consBadge);
   }
 
-  // 5. debate_streak_5: 5 consecutive days with at least one attempt
-  const recentAttempts = await DebateAttempt.find({ user: user._id })
+  // 5. debate_streak_5: 5 consecutive days with at least one attempt with overall >= 40
+  const userTz = (user && user.timezone) || 'Asia/Kolkata';
+  const recentAttempts = await DebateAttempt.find({
+    user: user._id,
+    'scores.overall': { $gte: 40 },
+  })
     .sort({ createdAt: -1 })
-    .limit(50)
-    .select('createdAt');
+    .limit(100)
+    .select('createdAt scores.overall');
 
-  const dayStrings = [...new Set(recentAttempts.map((a) => a.createdAt.toISOString().slice(0, 10)))].sort().reverse();
+  const dayStrings = [
+    ...new Set(recentAttempts.map((a) => getDateInTimezone(a.createdAt, userTz))),
+  ].sort().reverse();
+
   if (dayStrings.length >= 5) {
     let consecutiveCount = 1;
     for (let i = 0; i < dayStrings.length - 1; i++) {
-      const d1 = new Date(dayStrings[i]);
-      const d2 = new Date(dayStrings[i + 1]);
+      const d1 = new Date(dayStrings[i] + 'T00:00:00Z');
+      const d2 = new Date(dayStrings[i + 1] + 'T00:00:00Z');
       const diffDays = Math.round((d1 - d2) / (1000 * 60 * 60 * 24));
       if (diffDays === 1) {
         consecutiveCount++;
@@ -689,7 +833,7 @@ router.get('/history', requireAuth, async (req, res) => {
         (a.scores?.vocabulary && a.scores.vocabulary > 0) ? a.scores.vocabulary : 70
       ),
       structure: chronological.map((a) =>
-        (a.scores?.structure && a.scores.structure > 0) ? a.scores.structure : 70
+        typeof a.scores?.structure === 'number' && a.scores.structure > 0 ? a.scores.structure : null
       ),
       overall: chronological.map((a) =>
         (a.scores?.overall && a.scores.overall > 0) ? a.scores.overall : 70
@@ -697,7 +841,10 @@ router.get('/history', requireAuth, async (req, res) => {
     };
 
     const count = chronological.length;
-    const calcAvg = (arr) => (count > 0 ? Math.round(arr.reduce((s, v) => s + v, 0) / count) : 0);
+    const calcAvg = (arr) => {
+      const valid = arr.filter((v) => typeof v === 'number' && !isNaN(v));
+      return valid.length > 0 ? Math.round(valid.reduce((s, v) => s + v, 0) / valid.length) : null;
+    };
 
     const averages = {
       logic: calcAvg(series.logic),
@@ -713,7 +860,7 @@ router.get('/history', requireAuth, async (req, res) => {
     let lowestVal = Infinity;
 
     for (const k of skillKeys) {
-      if (averages[k] < lowestVal) {
+      if (averages[k] !== null && averages[k] !== undefined && averages[k] < lowestVal) {
         lowestVal = averages[k];
         lowestSkill = k;
       }
@@ -728,7 +875,7 @@ router.get('/history', requireAuth, async (req, res) => {
     };
 
     const weakestSkill =
-      count > 0
+      count > 0 && lowestVal !== Infinity
         ? {
             skill: lowestSkill,
             average: lowestVal,
@@ -748,8 +895,318 @@ router.get('/history', requireAuth, async (req, res) => {
   }
 });
 
+// GET /api/debate/attempts/me — Returns user's debate history
 router.get('/attempts/me', requireAuth, async (req, res) => {
   res.json(await DebateAttempt.find({ user: req.user._id }).populate('topic').sort({ createdAt: -1 }).limit(50));
+});
+
+// POST /api/debate/rebuttal/start — Generates AI counter-argument and returns rebuttal token
+router.post('/rebuttal/start', requireAuth, rebuttalStartLimiter, async (req, res) => {
+  try {
+    const { openingAttemptId } = req.body;
+    if (!openingAttemptId || !mongoose.Types.ObjectId.isValid(openingAttemptId)) {
+      return res.status(400).json({ error: 'Valid openingAttemptId is required.' });
+    }
+
+    const openingAttempt = await DebateAttempt.findOne({
+      _id: openingAttemptId,
+      user: req.user._id,
+    }).populate('topic');
+
+    if (!openingAttempt) {
+      return res.status(404).json({ error: 'Opening debate attempt not found or unauthorized.' });
+    }
+
+    // Allow only one counter per opening attempt (no re-rolling)
+    const existingRebuttal = await DebateRebuttal.findOne({ openingAttempt: openingAttempt._id });
+    if (existingRebuttal) {
+      if (existingRebuttal.status === 'completed') {
+        return res.status(409).json({
+          error: 'Rebuttal round already completed for this speech.',
+          code: 'REBUTTAL_ALREADY_COMPLETED',
+          rebuttalId: existingRebuttal._id,
+        });
+      }
+
+      // Rebuttal is in 'started' status: update counterShownAt and resume with the SAME stored counter
+      existingRebuttal.counterShownAt = new Date();
+      await existingRebuttal.save();
+
+      const freshToken = generateRebuttalToken(req.user._id, openingAttempt._id, existingRebuttal._id);
+      return res.status(200).json({
+        rebuttalId: existingRebuttal._id,
+        counterArgument: existingRebuttal.counterArgument,
+        counterKeyPoints: existingRebuttal.counterKeyPoints,
+        keyPoints: existingRebuttal.counterKeyPoints,
+        counterStance: existingRebuttal.counterStance,
+        evaluator: existingRebuttal.evaluator,
+        rebuttalToken: freshToken,
+        expiresInSeconds: 600,
+        resumed: true,
+      });
+    }
+
+    const topic = openingAttempt.topic;
+    const openingStance = openingAttempt.stance;
+    const counterStance = openingStance === 'for' ? 'against' : 'for';
+    const opposingKeyPoints = counterStance === 'for'
+      ? (topic.forKeyPoints || [])
+      : (topic.againstKeyPoints || []);
+
+    const sanitizedOpeningTranscript = stripTranscriptTags(openingAttempt.transcript || '').slice(0, 5000);
+
+    const aiCounter = await generateDebateCounter({
+      topic: topic.topic,
+      openingStance,
+      counterStance,
+      studentTranscript: sanitizedOpeningTranscript,
+      opposingKeyPoints,
+    });
+
+    const now = new Date();
+    const rebuttal = await DebateRebuttal.create({
+      user: req.user._id,
+      topic: topic._id,
+      openingAttempt: openingAttempt._id,
+      openingStance,
+      counterStance,
+      counterArgument: aiCounter.counterArgument,
+      counterKeyPoints: aiCounter.keyPoints,
+      evaluator: aiCounter.evaluator,
+      confidence: aiCounter.confidence,
+      modelName: aiCounter.modelName || '',
+      status: 'started',
+      startedAt: now,
+      counterShownAt: now,
+    });
+
+    const token = generateRebuttalToken(req.user._id, openingAttempt._id, rebuttal._id);
+
+    res.status(200).json({
+      rebuttalId: rebuttal._id,
+      counterArgument: rebuttal.counterArgument,
+      counterKeyPoints: rebuttal.counterKeyPoints,
+      keyPoints: rebuttal.counterKeyPoints,
+      counterStance,
+      evaluator: rebuttal.evaluator,
+      rebuttalToken: token,
+      expiresInSeconds: 600,
+    });
+  } catch (err) {
+    if (err.code === 11000 || (err.name === 'MongoServerError' && err.code === 11000)) {
+      // Safe concurrent execution: load and return the existing session as a resume
+      const existing = await DebateRebuttal.findOne({ openingAttempt: req.body.openingAttemptId });
+      if (existing) {
+        if (existing.status === 'completed') {
+          return res.status(409).json({
+            error: 'Rebuttal round already completed for this speech.',
+            code: 'REBUTTAL_ALREADY_COMPLETED',
+            rebuttalId: existing._id,
+          });
+        }
+        existing.counterShownAt = new Date();
+        await existing.save();
+        const freshToken = generateRebuttalToken(req.user._id, existing.openingAttempt, existing._id);
+        return res.status(200).json({
+          rebuttalId: existing._id,
+          counterArgument: existing.counterArgument,
+          counterKeyPoints: existing.counterKeyPoints,
+          keyPoints: existing.counterKeyPoints,
+          counterStance: existing.counterStance,
+          evaluator: existing.evaluator,
+          rebuttalToken: freshToken,
+          expiresInSeconds: 600,
+          resumed: true,
+        });
+      }
+    }
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/debate/rebuttal/submit — Submits 60s student rebuttal and scores against counter
+router.post('/rebuttal/submit', requireAuth, debateAttemptLimiter, async (req, res) => {
+  try {
+    const { rebuttalToken, transcript, durationSeconds, mode, idempotencyKey } = req.body;
+
+    if (!rebuttalToken || typeof rebuttalToken !== 'string') {
+      return res.status(400).json({ error: 'rebuttalToken is required.', code: 'MISSING_REBUTTAL_TOKEN' });
+    }
+
+    const parts = rebuttalToken.split('.');
+    if (parts.length !== 3) {
+      return res.status(400).json({ error: 'Malformed rebuttal token.', code: 'INVALID_REBUTTAL_TOKEN' });
+    }
+
+    const [rebuttalId] = parts;
+    if (!mongoose.Types.ObjectId.isValid(rebuttalId)) {
+      return res.status(400).json({ error: 'Invalid rebuttal ID in token.', code: 'INVALID_REBUTTAL_TOKEN' });
+    }
+
+    const rebuttal = await DebateRebuttal.findById(rebuttalId).populate('topic openingAttempt');
+    if (!rebuttal) {
+      return res.status(404).json({ error: 'Rebuttal session not found.' });
+    }
+
+    const isOwner = String(rebuttal.user) === String(req.user._id);
+    const isValidToken = isOwner && verifyRebuttalToken(req.user._id, rebuttal.openingAttempt._id, rebuttal._id, rebuttalToken);
+    if (!isValidToken) {
+      return res.status(400).json({
+        error: 'Rebuttal token is invalid, forged, belongs to another user, or has expired.',
+        code: 'EXPIRED_OR_INVALID_TOKEN',
+      });
+    }
+
+    // Allow only one rebuttal per counter (no duplicate submissions)
+    if (rebuttal.status === 'completed') {
+      return res.status(409).json({
+        error: 'Rebuttal already submitted and scored.',
+        code: 'REBUTTAL_ALREADY_COMPLETED',
+        rebuttal,
+      });
+    }
+
+    // Check submission window: reject if > 5 minutes after latest counterShownAt
+    const shownAt = rebuttal.counterShownAt || rebuttal.startedAt || rebuttal.createdAt || new Date();
+    const elapsedSinceShownMs = Date.now() - new Date(shownAt).getTime();
+    if (elapsedSinceShownMs > 5 * 60 * 1000) {
+      return res.status(400).json({
+        error: 'Rebuttal submission window expired (> 5 minutes since counter was shown). Please resume the rebuttal to get a fresh window.',
+        code: 'REBUTTAL_WINDOW_EXPIRED',
+        elapsedSeconds: Math.round(elapsedSinceShownMs / 1000),
+      });
+    }
+
+    // Transcript sanitization & length checks
+    if (!transcript || typeof transcript !== 'string') {
+      return res.status(400).json({ error: 'Transcript is required.', code: 'MISSING_TRANSCRIPT' });
+    }
+
+    const sanitized = stripTranscriptTags(transcript).trim().slice(0, 5000);
+    const words = sanitized.split(/\s+/).filter(Boolean);
+    if (words.length < 20) {
+      return res.status(400).json({
+        error: `Rebuttal speech too short (${words.length} words). Minimum 20 words required.`,
+        code: 'REBUTTAL_TOO_SHORT',
+        wordCount: words.length,
+      });
+    }
+
+    const isTyped = String(mode).toLowerCase() === 'typed';
+
+    // Server timing check: reject submits less than 5 seconds after start (timed mode)
+    if (!isTyped) {
+      const startTime = rebuttal.startedAt || rebuttal.createdAt || new Date();
+      const elapsedMs = Date.now() - new Date(startTime).getTime();
+      const clientDuration = Number(durationSeconds);
+      if (elapsedMs < 5000 || (Number.isFinite(clientDuration) && clientDuration < 5)) {
+        return res.status(400).json({
+          error: 'Rebuttal submitted too quickly (< 5 seconds). Must take time to speak and refute the counter.',
+          code: 'SUBMISSION_TOO_FAST',
+          elapsedSeconds: Math.round(elapsedMs / 1000),
+        });
+      }
+    }
+
+    const scoredResult = await scoreDebateRebuttal({
+      topic: rebuttal.topic.topic,
+      counterStance: rebuttal.counterStance,
+      studentStance: rebuttal.openingStance,
+      counterArgument: rebuttal.counterArgument,
+      rebuttalTranscript: sanitized,
+      openingTranscript: rebuttal.openingAttempt?.transcript || '',
+    });
+
+    // XP Calculation for rebuttal: flat bonus up to 20 XP
+    let rebuttalXp = 0;
+    const overallScore = scoredResult.scores.overall;
+    if (overallScore >= 40) {
+      let rawBonus = Math.round((overallScore / 100) * 20);
+
+      // Reduced XP for repeated rebuttals on the same topic:
+      // 1st rebuttal on topic: 100%
+      // 2nd rebuttal on topic: 50%
+      // 3rd+ rebuttal on topic: flat 5 max
+      const priorTopicRebuttals = await DebateRebuttal.countDocuments({
+        user: req.user._id,
+        topic: rebuttal.topic._id,
+        status: 'completed',
+      });
+
+      if (priorTopicRebuttals === 1) {
+        rawBonus = Math.round(rawBonus * 0.5);
+      } else if (priorTopicRebuttals >= 2) {
+        rawBonus = Math.min(5, rawBonus);
+      }
+
+      // Check user's daily debate cap
+      const userTz = (req.user && req.user.timezone) || 'Asia/Kolkata';
+      const todayStr = getDateInTimezone(new Date(), userTz);
+
+      const recentAttempts = await DebateAttempt.find({
+        user: req.user._id,
+        createdAt: { $gte: new Date(Date.now() - 36 * 3600 * 1000) },
+      }).select('createdAt xpAwarded');
+      const dailyAttemptXp = recentAttempts
+        .filter((a) => getDateInTimezone(a.createdAt, userTz) === todayStr)
+        .reduce((sum, a) => sum + (a.xpAwarded || 0), 0);
+
+      const recentRebuttals = await DebateRebuttal.find({
+        user: req.user._id,
+        createdAt: { $gte: new Date(Date.now() - 36 * 3600 * 1000) },
+      }).select('createdAt xpAwarded');
+      const dailyRebuttalXp = recentRebuttals
+        .filter((r) => getDateInTimezone(r.createdAt, userTz) === todayStr)
+        .reduce((sum, r) => sum + (r.xpAwarded || 0), 0);
+
+      const dailyTotal = dailyAttemptXp + dailyRebuttalXp;
+      const remainingCap = Math.max(0, 150 - dailyTotal);
+      rebuttalXp = Math.min(rawBonus, remainingCap);
+    }
+
+    rebuttal.rebuttalTranscript = sanitized;
+    rebuttal.durationSeconds = isTyped ? 0 : Math.max(0, Number(durationSeconds) || 0);
+    rebuttal.mode = isTyped ? 'typed' : 'timed';
+    rebuttal.deliveryMetrics = undefined; // Typed gets no timing metrics
+    rebuttal.scores = scoredResult.scores;
+    rebuttal.feedback = scoredResult.feedback;
+    rebuttal.evaluator = scoredResult.evaluator;
+    rebuttal.confidence = scoredResult.confidence;
+    rebuttal.modelName = scoredResult.modelName || '';
+    rebuttal.xpAwarded = rebuttalXp;
+    rebuttal.status = 'completed';
+    rebuttal.idempotencyKey = idempotencyKey ? String(idempotencyKey) : undefined;
+    await rebuttal.save();
+
+    if (rebuttalXp > 0) {
+      await awardXP(req.user, rebuttalXp);
+    }
+
+    // Check rebuttal_ready badge: 3 completed rebuttals with overall >= 70
+    const newBadges = [];
+    const highScoringRebuttals = await DebateRebuttal.countDocuments({
+      user: req.user._id,
+      status: 'completed',
+      'scores.overall': { $gte: 70 },
+    });
+    if (highScoringRebuttals >= 3) {
+      const badge = await maybeAwardBadge(req.user, 'rebuttal_ready');
+      if (badge) newBadges.push(badge);
+    }
+
+    res.status(200).json({
+      rebuttal,
+      xpAwarded: rebuttalXp,
+      xpBreakdown: {
+        rebuttalXp,
+        qualifiesForBonus: overallScore >= 40,
+        overallScore,
+      },
+      newBadges,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 router.generateAssignedStanceToken = generateAssignedStanceToken;
@@ -758,5 +1215,8 @@ router.getDeterministicAssignedStance = getDeterministicAssignedStance;
 router.calculateDebateDeliveryMetrics = calculateDebateDeliveryMetrics;
 router.calculateDebateXP = calculateDebateXP;
 router.evaluateDebateBadges = evaluateDebateBadges;
+router.getDateInTimezone = getDateInTimezone;
+router.generateRebuttalToken = generateRebuttalToken;
+router.verifyRebuttalToken = verifyRebuttalToken;
 
 module.exports = router;

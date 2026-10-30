@@ -154,6 +154,8 @@ const Api = {
   submitDebate(payload) { return this.post('/debate/attempts', payload); },
   myDebateAttempts() { return this.get('/debate/attempts/me'); },
   debateHistory() { return this.get('/debate/history'); },
+  startDebateRebuttal(openingAttemptId) { return this.post('/debate/rebuttal/start', { openingAttemptId }); },
+  submitDebateRebuttal(payload) { return this.post('/debate/rebuttal/submit', payload); },
 
   // story
   storyPrompts() { return this.get('/story/prompts'); },

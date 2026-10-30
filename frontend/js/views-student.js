@@ -1928,14 +1928,24 @@ VIEW_RENDERERS['debate'] = async (mount) => {
 
     const linesAndDotsSvg = metrics.map(m => {
       const data = series[m.key] || [];
-      const points = data.map((val, idx) => `${getX(idx)},${getY(val)}`).join(' ');
-      const polyline = `<polyline points="${points}" fill="none" stroke="${m.color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />`;
-      const dots = data.map((val, idx) => `
-        <circle cx="${getX(idx)}" cy="${getY(val)}" r="3.5" fill="${m.color}" stroke="var(--ink)" stroke-width="1.5">
-          <title>${m.key}: ${val}%</title>
-        </circle>
-      `).join('');
-      return polyline + dots;
+      const validPoints = [];
+      const dotsSvg = [];
+      data.forEach((val, idx) => {
+        if (typeof val === 'number' && !isNaN(val)) {
+          const x = getX(idx);
+          const y = getY(val);
+          validPoints.push(`${x},${y}`);
+          dotsSvg.push(`
+            <circle cx="${x}" cy="${y}" r="3.5" fill="${m.color}" stroke="var(--ink)" stroke-width="1.5">
+              <title>${m.key}: ${val}%</title>
+            </circle>
+          `);
+        }
+      });
+      const polyline = validPoints.length > 1
+        ? `<polyline points="${validPoints.join(' ')}" fill="none" stroke="${m.color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />`
+        : '';
+      return polyline + dotsSvg.join('');
     }).join('');
 
     return `
@@ -2008,23 +2018,23 @@ VIEW_RENDERERS['debate'] = async (mount) => {
             <div class="grid grid-5 gap-xs" style="margin-bottom:20px">
               <div class="card" style="text-align:center;padding:8px 4px">
                 <div class="eyebrow" style="font-size:10px">Logic</div>
-                <div style="font-size:17px;font-weight:700;color:var(--purple)">${averages.logic || 0}%</div>
+                <div style="font-size:17px;font-weight:700;color:var(--purple)">${averages.logic != null ? `${averages.logic}%` : 'N/A'}</div>
               </div>
               <div class="card" style="text-align:center;padding:8px 4px">
                 <div class="eyebrow" style="font-size:10px">Persuasion</div>
-                <div style="font-size:17px;font-weight:700;color:var(--emerald)">${averages.persuasion || 0}%</div>
+                <div style="font-size:17px;font-weight:700;color:var(--emerald)">${averages.persuasion != null ? `${averages.persuasion}%` : 'N/A'}</div>
               </div>
               <div class="card" style="text-align:center;padding:8px 4px">
                 <div class="eyebrow" style="font-size:10px">Clarity</div>
-                <div style="font-size:17px;font-weight:700;color:var(--cyan)">${averages.clarity || 0}%</div>
+                <div style="font-size:17px;font-weight:700;color:var(--cyan)">${averages.clarity != null ? `${averages.clarity}%` : 'N/A'}</div>
               </div>
               <div class="card" style="text-align:center;padding:8px 4px">
                 <div class="eyebrow" style="font-size:10px">Vocabulary</div>
-                <div style="font-size:17px;font-weight:700;color:var(--amber)">${averages.vocabulary || 0}%</div>
+                <div style="font-size:17px;font-weight:700;color:var(--amber)">${averages.vocabulary != null ? `${averages.vocabulary}%` : 'N/A'}</div>
               </div>
               <div class="card" style="text-align:center;padding:8px 4px">
                 <div class="eyebrow" style="font-size:10px">Structure</div>
-                <div style="font-size:17px;font-weight:700;color:var(--coral)">${averages.structure || 0}%</div>
+                <div style="font-size:17px;font-weight:700;color:var(--coral)">${averages.structure != null ? `${averages.structure}%` : 'N/A'}</div>
               </div>
             </div>
 
@@ -2065,7 +2075,7 @@ VIEW_RENDERERS['debate'] = async (mount) => {
                           ${esc(topicTitle)}
                         </div>
                         <div style="font-size:11px;color:var(--cream-dim)">
-                          ${dateStr} • L:${sc.logic ?? sc.argument ?? 70}% P:${sc.persuasion ?? sc.counterargument ?? 70}% C:${sc.clarity ?? 70}% V:${sc.vocabulary ?? 70}% S:${sc.structure ?? 70}%
+                          ${dateStr} • L:${sc.logic ?? sc.argument ?? 70}% P:${sc.persuasion ?? sc.counterargument ?? 70}% C:${sc.clarity ?? 70}% V:${sc.vocabulary ?? 70}% S:${sc.structure != null ? `${sc.structure}%` : 'N/A'}
                         </div>
                       </div>
                       <span class="pill sprout" style="font-size:12px;font-weight:700">
@@ -2088,10 +2098,21 @@ VIEW_RENDERERS['debate'] = async (mount) => {
     overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
   }
 
+  function debateCancelSpeechSynthesis() {
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
+  }
+
+  window.addEventListener('hashchange', debateCancelSpeechSynthesis);
+  window.addEventListener('popstate', debateCancelSpeechSynthesis);
+  window.addEventListener('beforeunload', debateCancelSpeechSynthesis);
+
   renderDebateView();
 
   async function renderDebateView(overrideTopicData = null) {
     clearAllTimers();
+    debateCancelSpeechSynthesis();
     if (typeof SpeechInput !== 'undefined' && SpeechInput.listening) {
       SpeechInput.stop();
     }
@@ -2108,10 +2129,11 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       } catch (err) {
         // Level Gate UX (Phase 3 Item 6)
         if (err.status === 403 || err.locked) {
-          const reqLevel = err.data?.requiredLevel || err.requiredLevel || 'Intermediate';
-          const reqXp = err.data?.requiredXp ?? err.requiredXp ?? 100;
-          const curXp = err.data?.currentXp ?? err.currentXp ?? (typeof S !== 'undefined' && S.user ? S.user.xp : 0);
-          const xpNeeded = Math.max(0, reqXp - curXp);
+          const reqLevel = err.data?.requiredLevel || err.requiredLevel;
+          const reqXp = err.data?.requiredXp ?? err.requiredXp;
+          const curXp = err.data?.currentXp ?? err.currentXp ?? (typeof S !== 'undefined' && S.user ? S.user.xp : null);
+          const hasServerData = Boolean(reqLevel && reqXp != null);
+          const xpNeeded = hasServerData && curXp != null ? Math.max(0, reqXp - curXp) : null;
 
           mount.innerHTML = `
             <div class="col gap-md">
@@ -2119,20 +2141,24 @@ VIEW_RENDERERS['debate'] = async (mount) => {
                 <div style="font-size:48px;margin-bottom:14px">🔒</div>
                 <h2 style="font-size:22px;color:var(--cream-bright);margin-bottom:8px">Collegiate Debate Practice Locked</h2>
                 <p style="font-size:14.5px;color:var(--cream-dim);max-width:520px;margin:0 auto 20px auto;line-height:1.6">
-                  Collegiate Debate requires <strong style="color:var(--cyan)">${esc(reqLevel)} Level</strong> or a minimum of <strong style="color:var(--emerald)">${reqXp} XP</strong> to unlock.
+                  ${hasServerData
+                    ? `Collegiate Debate requires <strong style="color:var(--cyan)">${esc(reqLevel)} Level</strong> or a minimum of <strong style="color:var(--emerald)">${reqXp} XP</strong> to unlock.`
+                    : 'Collegiate Debate practice requires a higher level standing to unlock. Complete foundational reading and grammar modules to gain XP and unlock this arena.'}
                 </p>
-                <div class="card card-sub" style="max-width:380px;margin:0 auto 24px auto;padding:16px 20px">
-                  <div class="row" style="font-size:14px;margin-bottom:8px">
-                    <span>Your Current XP:</span>
-                    <div class="spacer"></div>
-                    <strong>${curXp} XP</strong>
+                ${hasServerData && xpNeeded != null ? `
+                  <div class="card card-sub" style="max-width:380px;margin:0 auto 24px auto;padding:16px 20px">
+                    <div class="row" style="font-size:14px;margin-bottom:8px">
+                      <span>Your Current XP:</span>
+                      <div class="spacer"></div>
+                      <strong>${curXp} XP</strong>
+                    </div>
+                    <div class="row" style="font-size:14px;color:var(--amber)">
+                      <span>XP Needed to Unlock:</span>
+                      <div class="spacer"></div>
+                      <strong>+${xpNeeded} XP</strong>
+                    </div>
                   </div>
-                  <div class="row" style="font-size:14px;color:var(--amber)">
-                    <span>XP Needed to Unlock:</span>
-                    <div class="spacer"></div>
-                    <strong>+${xpNeeded} XP</strong>
-                  </div>
-                </div>
+                ` : ''}
                 <div class="row gap-sm" style="justify-content:center;flex-wrap:wrap">
                   <button class="btn btn-primary" data-nav="read-aloud">Practice Read Aloud (+XP) ${ICONS.arrowRight}</button>
                   <button class="btn btn-outline" data-nav="grammar">Practice Grammar</button>
@@ -2623,6 +2649,7 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       }
 
       if (!SpeechInput.listening) {
+        debateCancelSpeechSynthesis();
         // Clear prep timer if active
         if (prepInterval) {
           clearInterval(prepInterval);
@@ -2740,6 +2767,7 @@ VIEW_RENDERERS['debate'] = async (mount) => {
 
     // Submit Transcript for Evaluation with Retry & Error Resilience (Items 3, 4, 6, 7)
     btnSubmitReview.onclick = async () => {
+      debateCancelSpeechSynthesis();
       const finalSubmissionText = reviewTextarea.value.trim();
       const words = debateCountWords(finalSubmissionText);
 
@@ -2968,8 +2996,11 @@ VIEW_RENDERERS['debate'] = async (mount) => {
             </div>
           </div>
 
-          <!-- Action Buttons: Try Again Delta, Opposite Side, Next Topic (Items 3, 5) -->
+          <!-- Action Buttons: Face Rebuttal, Try Again Delta, Opposite Side, Next Topic (Phase 3 & 5) -->
           <div class="row gap-sm" style="flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px;align-items:center">
+            <button class="btn btn-primary btn-sm" id="btn-face-rebuttal" style="background:linear-gradient(135deg, var(--coral), var(--purple));color:#fff;border:none">
+              ⚔️ Face AI Rebuttal Round (60s)
+            </button>
             <button class="btn btn-primary btn-sm" id="btn-try-again-fixes">
               🔁 Try Again with These Fixes
             </button>
@@ -2980,8 +3011,11 @@ VIEW_RENDERERS['debate'] = async (mount) => {
               ➡️ Next Topic
             </button>
             <div class="spacer"></div>
-            <span style="font-size:12px;color:var(--cream-dim)">Track your score deltas to master collegiate debate!</span>
+            <span style="font-size:12px;color:var(--cream-dim)">Track score deltas and face the AI rebuttal to master debate!</span>
           </div>
+
+          <!-- AI Rebuttal Round Container (Phase 5) -->
+          <div id="debate-rebuttal-container" style="margin-top:16px;display:none"></div>
         </div>
       `;
 
@@ -2989,6 +3023,386 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       const btnViewTrends = $('#btn-result-view-trends');
       if (btnViewTrends) {
         btnViewTrends.onclick = showDebateHistoryDrawer;
+      }
+
+      // Handler: Face AI Rebuttal Round (Phase 5)
+      const btnFaceRebuttal = $('#btn-face-rebuttal');
+      if (btnFaceRebuttal) {
+        btnFaceRebuttal.onclick = async () => {
+          btnFaceRebuttal.disabled = true;
+          btnFaceRebuttal.innerHTML = `<span class="spinner" style="margin-right:6px"></span> AI Opponent Preparing Counter...`;
+
+          try {
+            const startRes = await Api.startDebateRebuttal(report._id);
+            const container = $('#debate-rebuttal-container');
+            container.style.display = 'block';
+            btnFaceRebuttal.innerHTML = '⚔️ Rebuttal Round Active';
+            btnFaceRebuttal.style.opacity = '0.7';
+
+            container.innerHTML = `
+              <div class="card card-white-accent" style="border:2px solid var(--purple);background:var(--color-surface-2);padding:20px;border-radius:14px;margin-top:14px">
+                <div class="row gap-sm" style="align-items:center;margin-bottom:12px;flex-wrap:wrap">
+                  <span class="pill purple" style="font-size:13px;font-weight:700">⚔️ Rebuttal Round 2</span>
+                  <span class="pill warn" style="font-weight:700">AI Opponent: ${esc(startRes.counterStance.toUpperCase())}</span>
+                  <span class="pill voice">⏱️ 60-Second Challenge</span>
+                  <div class="spacer"></div>
+                  <button class="btn btn-outline btn-sm" id="btn-tts-counter">🔊 Listen to Counter</button>
+                </div>
+
+                <!-- AI Counter Argument Display -->
+                <div style="background:rgba(139,92,246,0.08);border:1.5px solid var(--purple);border-radius:10px;padding:14px 16px;margin-bottom:14px">
+                  <div class="eyebrow" style="color:var(--purple);margin-bottom:4px">🤖 AI Opponent's Counter-Argument:</div>
+                  <div style="font-size:14.5px;line-height:1.6;color:var(--cream-bright);font-style:italic">
+                    "${esc(startRes.counterArgument)}"
+                  </div>
+                  ${startRes.counterKeyPoints && startRes.counterKeyPoints.length > 0 ? `
+                    <div class="row gap-xs" style="margin-top:10px;flex-wrap:wrap;align-items:center">
+                      <span class="eyebrow" style="font-size:10.5px;margin-right:4px">Points to Dismantle:</span>
+                      ${startRes.counterKeyPoints.map(kp => `<span class="pill coral" style="font-size:11px">${esc(kp)}</span>`).join('')}
+                    </div>
+                  ` : ''}
+                </div>
+
+                <!-- Rebuttal Speech & Input Box -->
+                <div style="background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px">
+                  <div class="row" style="align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px">
+                    <div>
+                      <strong style="color:var(--cream-bright);font-size:14px">Deliver Your 60s Rebuttal</strong>
+                      <div style="font-size:12px;color:var(--cream-dim)">Directly dismantle the AI's claims with logic and evidence. Minimum 20 words.</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <button class="btn btn-ghost btn-sm" id="btn-toggle-rebuttal-mode" style="font-size:12px">⌨️ Switch to Typing Mode</button>
+                  </div>
+
+                  <!-- 60s Timer Countdown -->
+                  <div id="reb-timer-bar" style="display:none;align-items:center;gap:10px;padding:8px 14px;background:rgba(244,63,94,0.15);border:1px solid var(--coral);border-radius:8px;margin-bottom:12px">
+                    <span id="reb-timer-icon">🔴</span>
+                    <strong id="reb-timer-text" style="color:var(--coral);font-size:13.5px">Speaking: 60s remaining</strong>
+                    <div class="spacer"></div>
+                    <span style="font-size:11px;color:var(--cream-dim)">Auto-stops at 60s limit</span>
+                  </div>
+
+                  <!-- Mic Mode -->
+                  <div id="reb-mic-section" style="text-align:center;padding:12px 0">
+                    <button class="rec-btn" id="reb-mic-btn" title="Tap to start 60s rebuttal speech">
+                      ${ICONS.mic}
+                    </button>
+                    <div id="reb-mic-status" style="margin-top:8px;font-size:13px;color:var(--cream-dim)">
+                      Tap mic to deliver your rebuttal against the AI.
+                    </div>
+                    <div id="reb-live-transcript" style="font-style:italic;font-size:13.5px;color:var(--cream-bright);margin-top:8px;min-height:20px"></div>
+                  </div>
+
+                  <!-- Typed Mode (Hidden by default) -->
+                  <div id="reb-typed-section" style="display:none;margin-top:10px">
+                    <textarea id="reb-typed-input" rows="4" placeholder="Type your collegiate rebuttal directly refuting the AI's points..." style="width:100%;box-sizing:border-box;padding:10px 14px;border-radius:8px;background:var(--card-sub);color:var(--cream-bright);border:1px solid var(--line);font-size:14px;line-height:1.6"></textarea>
+                    <div class="row" style="margin-top:8px">
+                      <div class="spacer"></div>
+                      <button class="btn btn-primary btn-sm" id="btn-reb-review-typed">Review &amp; Submit</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Review Box Before Submitting Rebuttal -->
+                <div id="reb-review-box" style="display:none;background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1.5px solid var(--cyan)">
+                  <div class="row" style="align-items:center;margin-bottom:8px">
+                    <strong style="color:var(--cyan);font-size:14px">📝 Review &amp; Edit Your Rebuttal Transcript</strong>
+                    <div class="spacer"></div>
+                    <span id="reb-word-count-badge" class="pill sprout" style="font-size:12px">0 words</span>
+                  </div>
+                  <textarea id="reb-review-textarea" rows="3" style="width:100%;box-sizing:border-box;padding:10px 14px;border-radius:8px;background:var(--card-sub);color:var(--cream-bright);border:1px solid var(--line);font-size:14px;line-height:1.6"></textarea>
+                  <div id="reb-error-box" style="display:none;margin-top:8px;padding:8px 12px;background:rgba(239,68,68,0.12);border:1px solid var(--coral);border-radius:6px;font-size:13px;color:var(--coral)"></div>
+                  <div class="row gap-sm" style="margin-top:12px">
+                    <button class="btn btn-primary btn-sm" id="btn-reb-submit-final">
+                      🚀 Submit Rebuttal for Collegiate Evaluation
+                    </button>
+                    <button class="btn btn-outline btn-sm" id="btn-reb-rerecord">
+                      🔄 Discard &amp; Try Again
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Rebuttal Evaluation Card (Appears after submission) -->
+                <div id="reb-result-area" style="margin-top:16px"></div>
+              </div>
+            `;
+
+            container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            // TTS Speech Synthesis Handler
+            const btnTts = container.querySelector('#btn-tts-counter');
+            if (btnTts && window.speechSynthesis) {
+              btnTts.onclick = () => {
+                if (window.speechSynthesis.speaking) {
+                  window.speechSynthesis.cancel();
+                  btnTts.textContent = '🔊 Listen to Counter';
+                } else {
+                  const utterance = new SpeechSynthesisUtterance(startRes.counterArgument);
+                  utterance.rate = 0.95;
+                  utterance.onend = () => { btnTts.textContent = '🔊 Listen to Counter'; };
+                  utterance.onerror = () => { btnTts.textContent = '🔊 Listen to Counter'; };
+                  window.speechSynthesis.speak(utterance);
+                  btnTts.textContent = '⏹️ Stop Audio';
+                }
+              };
+            }
+
+            // Input Mode Toggle
+            let isRebTyped = !SpeechInput.supported;
+            const btnToggleInput = container.querySelector('#btn-toggle-rebuttal-mode');
+            const micSec = container.querySelector('#reb-mic-section');
+            const typedSec = container.querySelector('#reb-typed-section');
+
+            btnToggleInput.onclick = () => {
+              isRebTyped = !isRebTyped;
+              if (isRebTyped) {
+                micSec.style.display = 'none';
+                typedSec.style.display = 'block';
+                btnToggleInput.textContent = '🎙️ Switch to Mic Mode';
+              } else {
+                micSec.style.display = 'block';
+                typedSec.style.display = 'none';
+                btnToggleInput.textContent = '⌨️ Switch to Typing Mode';
+              }
+            };
+
+            // Review Box Elements
+            const rebReviewBox = container.querySelector('#reb-review-box');
+            const rebReviewTextarea = container.querySelector('#reb-review-textarea');
+            const rebWordBadge = container.querySelector('#reb-word-count-badge');
+            const rebErrBox = container.querySelector('#reb-error-box');
+            const btnSubmitRebFinal = container.querySelector('#btn-reb-submit-final');
+            const btnRebRerecord = container.querySelector('#btn-reb-rerecord');
+            let rebDuration = 60;
+
+            function openRebReview(text, duration) {
+              rebDuration = duration || 60;
+              rebReviewTextarea.value = text || '';
+              updateRebWordCount();
+              rebErrBox.style.display = 'none';
+              rebReviewBox.style.display = 'block';
+              rebReviewTextarea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            function updateRebWordCount() {
+              const words = debateCountWords(rebReviewTextarea.value);
+              rebWordBadge.textContent = `${words} words`;
+              rebWordBadge.className = words >= 20 ? 'pill sprout' : 'pill coral';
+            }
+
+            rebReviewTextarea.oninput = updateRebWordCount;
+
+            // Typed Mode Review Trigger
+            container.querySelector('#btn-reb-review-typed').onclick = () => {
+              const text = container.querySelector('#reb-typed-input').value.trim();
+              if (debateCountWords(text) < 20) {
+                toast('Rebuttal too short. Minimum 20 words required.', 'coral');
+                return;
+              }
+              openRebReview(text, 0);
+            };
+
+            // Mic Mode Recording Trigger (60s countdown)
+            const rebMicBtn = container.querySelector('#reb-mic-btn');
+            const rebTimerBar = container.querySelector('#reb-timer-bar');
+            const rebTimerText = container.querySelector('#reb-timer-text');
+            let rebCountdown = 60;
+            let rebInterval = null;
+            let rebStartTime = 0;
+
+            rebMicBtn.onclick = () => {
+              if (!SpeechInput.supported) {
+                toast('Microphone not supported. Please use typing mode.', 'coral');
+                return;
+              }
+
+              if (!SpeechInput.listening) {
+                debateCancelSpeechSynthesis();
+                rebMicBtn.classList.add('on');
+                rebCountdown = 60;
+                rebStartTime = Date.now();
+                rebTimerBar.style.display = 'flex';
+                rebTimerText.textContent = `Speaking: ${rebCountdown}s remaining`;
+
+                rebInterval = setInterval(() => {
+                  rebCountdown--;
+                  if (rebCountdown <= 0) {
+                    clearInterval(rebInterval);
+                    rebInterval = null;
+                    SpeechInput.stop();
+                    toast('⏱️ Rebuttal limit reached! Opening review…', 'warn');
+                  } else {
+                    rebTimerText.textContent = `Speaking: ${rebCountdown}s remaining`;
+                  }
+                }, 1000);
+
+                container.querySelector('#reb-mic-status').textContent = 'Defending stance against AI counter… Speak articulately!';
+
+                SpeechInput.start({
+                  shouldContinue: () => rebCountdown > 0,
+                  onResult: ({ final, interim }) => {
+                    container.querySelector('#reb-live-transcript').textContent = (final + ' ' + interim).trim();
+                  },
+                  onEnd: (captured) => {
+                    rebMicBtn.classList.remove('on');
+                    if (rebInterval) { clearInterval(rebInterval); rebInterval = null; }
+                    rebTimerBar.style.display = 'none';
+                    const elapsed = rebStartTime ? Math.max(1, Math.round((Date.now() - rebStartTime) / 1000)) : 60;
+                    if (!captured || !captured.trim()) {
+                      container.querySelector('#reb-mic-status').textContent = 'No speech detected — tap mic to try again.';
+                      return;
+                    }
+                    container.querySelector('#reb-mic-status').textContent = 'Rebuttal complete! Review below.';
+                    openRebReview(captured, elapsed);
+                  },
+                  onError: (e) => {
+                    rebMicBtn.classList.remove('on');
+                    if (rebInterval) { clearInterval(rebInterval); rebInterval = null; }
+                    rebTimerBar.style.display = 'none';
+                    container.querySelector('#reb-mic-status').textContent = 'Mic error: ' + e;
+                  },
+                });
+              } else {
+                SpeechInput.stop();
+              }
+            };
+
+            btnRebRerecord.onclick = () => {
+              rebReviewBox.style.display = 'none';
+              container.querySelector('#reb-live-transcript').textContent = '';
+              container.querySelector('#reb-mic-status').textContent = 'Ready to re-record rebuttal. Tap mic when prepared.';
+            };
+
+            // Submit Rebuttal to Server
+            btnSubmitRebFinal.onclick = async () => {
+              debateCancelSpeechSynthesis();
+              const text = rebReviewTextarea.value.trim();
+              const words = debateCountWords(text);
+              if (words < 20) {
+                rebErrBox.textContent = `Rebuttal is too short (${words} words). Minimum 20 words required.`;
+                rebErrBox.style.display = 'block';
+                return;
+              }
+
+              btnSubmitRebFinal.disabled = true;
+              btnRebRerecord.disabled = true;
+              btnSubmitRebFinal.innerHTML = `<span class="spinner" style="margin-right:8px"></span> Scoring Rebuttal...`;
+
+              try {
+                const subRes = await Api.submitDebateRebuttal({
+                  rebuttalToken: startRes.rebuttalToken,
+                  transcript: text,
+                  durationSeconds: isRebTyped ? 0 : rebDuration,
+                  mode: isRebTyped ? 'typed' : 'timed',
+                  idempotencyKey: 'reb_' + Date.now(),
+                });
+
+                rebReviewBox.style.display = 'none';
+                if (subRes.xpBreakdown?.rebuttalXp > 0) {
+                  addStudentXP(subRes.xpBreakdown.rebuttalXp);
+                }
+
+                renderRebuttalResultCard(container.querySelector('#reb-result-area'), report, subRes.rebuttal, subRes.xpBreakdown, subRes.newBadges);
+                toast('Rebuttal scored successfully!', 'sprout');
+              } catch (subErr) {
+                btnSubmitRebFinal.disabled = false;
+                btnRebRerecord.disabled = false;
+                btnSubmitRebFinal.innerHTML = `🚀 Submit Rebuttal for Collegiate Evaluation`;
+                rebErrBox.textContent = subErr.message || 'Error submitting rebuttal. Your transcript is preserved above.';
+                rebErrBox.style.display = 'block';
+              }
+            };
+          } catch (err) {
+            btnFaceRebuttal.disabled = false;
+            btnFaceRebuttal.innerHTML = `⚔️ Face AI Rebuttal (60s)`;
+            toast(err.message || 'Could not start rebuttal round.', 'coral');
+          }
+        };
+      }
+
+      function renderRebuttalResultCard(targetEl, openRep, reb, xpBk, newBdg) {
+        const sc = reb.scores || {};
+        const fb = reb.feedback || {};
+        const compositeScore = Math.round(((openRep.scores?.overall || 70) + (sc.overall || 70)) / 2);
+
+        targetEl.innerHTML = `
+          <div class="card" style="background:var(--color-surface-1);border:1.5px solid var(--purple);border-radius:12px;padding:18px;margin-top:14px">
+            ${newBdg && newBdg.length > 0 ? `
+              <div class="card card-emerald-accent" style="background:linear-gradient(135deg, rgba(16,185,129,0.18), rgba(139,92,246,0.14));border:1.5px solid var(--emerald);padding:12px 16px;margin-bottom:14px">
+                <div class="row gap-sm" style="align-items:center">
+                  <span style="font-size:28px">🎖️</span>
+                  <div>
+                    <strong style="color:var(--emerald);font-size:15px">New Badge Unlocked!</strong>
+                    ${newBdg.map(b => `<div style="font-size:13px;color:var(--cream-bright);margin-top:2px"><strong>${esc(b.name)}:</strong> ${esc(b.description)}</div>`).join('')}
+                  </div>
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Match Total & Rebuttal Header -->
+            <div class="row gap-sm" style="align-items:center;margin-bottom:14px;flex-wrap:wrap">
+              <span class="pill purple" style="font-size:15px;font-weight:700">
+                Rebuttal Score: ${sc.overall}/100
+              </span>
+              <span class="pill sprout" style="font-size:13px;font-weight:700">
+                🏆 Match Total: ${compositeScore}/100
+              </span>
+              <span class="pill voice" style="font-size:12px;font-weight:700">
+                +${xpBk?.rebuttalXp ?? 0} Rebuttal XP Earned
+              </span>
+            </div>
+
+            <!-- 5 Rebuttal Rubric Metrics Grid -->
+            <div class="grid grid-5 gap-xs" style="margin-bottom:16px">
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Responsiveness</div>
+                <div style="font-size:17px;font-weight:700;color:var(--purple)">${sc.responsiveness ?? 70}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Refutation</div>
+                <div style="font-size:17px;font-weight:700;color:var(--coral)">${sc.refutation ?? 70}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Evidence</div>
+                <div style="font-size:17px;font-weight:700;color:var(--cyan)">${sc.evidence ?? 70}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Clarity</div>
+                <div style="font-size:17px;font-weight:700;color:var(--emerald)">${sc.clarity ?? 70}%</div>
+              </div>
+              <div class="card" style="text-align:center;padding:8px 4px">
+                <div class="eyebrow" style="font-size:10px">Overall</div>
+                <div style="font-size:17px;font-weight:700;color:var(--amber)">${sc.overall ?? 70}%</div>
+              </div>
+            </div>
+
+            <!-- Strengths & Improvements -->
+            <div class="col gap-xs" style="font-size:13.5px;color:var(--color-text);margin-bottom:14px">
+              ${fb.strengths && fb.strengths.length > 0 ? `
+                <div>
+                  <strong style="color:var(--emerald)">✅ Rebuttal Strengths:</strong>
+                  <ul style="margin:4px 0 0 16px;padding:0">
+                    ${fb.strengths.map(s => `<li>${esc(s)}</li>`).join('')}
+                  </ul>
+                </div>
+              ` : ''}
+              ${fb.improvements && fb.improvements.length > 0 ? `
+                <div style="margin-top:4px">
+                  <strong style="color:var(--coral)">⚠️ Areas for Growth:</strong>
+                  <ul style="margin:4px 0 0 16px;padding:0">
+                    ${fb.improvements.map(i => `<li>${esc(i)}</li>`).join('')}
+                  </ul>
+                </div>
+              ` : ''}
+              ${fb.rewrittenExcerpt ? `
+                <div style="background:var(--card-sub);padding:10px 14px;border-radius:8px;border-left:3px solid var(--purple);margin-top:6px">
+                  <strong style="color:var(--purple);font-size:12.5px">💡 Collegiate Rebuttal Rewrite:</strong>
+                  <div style="font-size:13px;color:var(--cream-bright);margin-top:2px;font-style:italic">"${esc(fb.rewrittenExcerpt)}"</div>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `;
       }
 
       // Handler: Try Again with These Fixes (Phase 3 Item 5)
