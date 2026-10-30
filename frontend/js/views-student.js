@@ -1389,6 +1389,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     };
 
     $('#end-student-gd-btn').onclick = async () => {
+      if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
       const btn = $('#end-student-gd-btn');
       btn.disabled = true;
       btn.textContent = 'Analyzing Speech with AI...';
@@ -1402,9 +1403,34 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         btn.disabled = false;
       }
     };
+
+    // Live transcript sync: poll active room every 2.5s so other students' speech appears in real-time
+    pollInterval = setInterval(async () => {
+      try {
+        const fresh = await Api.getGdRoom(room._id);
+        if (fresh.status === 'COMPLETED') {
+          clearInterval(pollInterval);
+          pollInterval = null;
+          toast('GD session concluded. Generating your AI report...', 'sprout');
+          renderStudentGdReport(fresh);
+        } else if (fresh.transcripts && fresh.transcripts.length !== (room.transcripts || []).length) {
+          room = fresh;
+          const feed = $('#gd-transcript-feed');
+          if (feed) {
+            feed.innerHTML = (room.transcripts || []).map((t) => `
+              <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
+                <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
+              </div>
+            `).join('') || '<div style="color:var(--cream-faint);font-style:italic">No speech recorded yet. Speak your first point using the mic!</div>';
+            feed.scrollTop = feed.scrollHeight;
+          }
+        }
+      } catch (e) {}
+    }, 2500);
   }
 
   function renderStudentGdReport(room) {
+    if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
     const area = $('#peer-room-area') || mount;
     const userId = S.user?._id || S.user?.id;
     const myReport = (room.reports || []).find((r) => (r.student?._id || r.student) === userId) || (room.reports && room.reports[0]);
