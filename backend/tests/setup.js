@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
@@ -8,9 +9,10 @@ let mongod;
 let connected = false;
 
 beforeAll(async () => {
-  if (process.env.MONGODB_URI) {
+  const remoteUri = process.env.MONGODB_URI || (process.env.MONGO_URI ? `${process.env.MONGO_URI.replace(/\/$/, '')}/lingrow_test?retryWrites=true&w=majority` : null);
+  if (remoteUri) {
     try {
-      await mongoose.connect(process.env.MONGODB_URI, { serverSelectionTimeoutMS: 2000 });
+      await mongoose.connect(remoteUri, { serverSelectionTimeoutMS: 3000 });
       connected = true;
       return;
     } catch (e) {}

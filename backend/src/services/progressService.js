@@ -15,7 +15,7 @@ function levelForXP(xp) {
 }
 
 async function awardXP(user, amount) {
-  user.xp += amount;
+  user.xp = (Number(user.xp) || 0) + (Number(amount) || 0);
   const newLevel = levelForXP(user.xp);
   const leveledUp = newLevel !== user.level;
   user.level = newLevel;

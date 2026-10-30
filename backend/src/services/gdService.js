@@ -1,3 +1,4 @@
+const User = require('../models/User');
 const { detectGrammarCorrection } = require('./llm2BEngine');
 const { awardXP } = require('./progressService');
 
@@ -123,8 +124,12 @@ async function evaluateGdSession(room) {
 
     // Award student XP for participating in GD
     try {
-      if (participant._id) {
-        await awardXP(participant, 25);
+      const uId = participant._id || participant;
+      if (uId) {
+        const studentDoc = await User.findById(uId);
+        if (studentDoc) {
+          await awardXP(studentDoc, 25);
+        }
       }
     } catch (e) {
       console.error('[gdService] XP award error:', e.message);
