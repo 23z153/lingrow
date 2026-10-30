@@ -1231,55 +1231,65 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 
   function openGdLobbyOrRoom(room) {
     activeGdRoom = room;
-    const roomArea = $('#peer-room-area');
-    if (!roomArea) return;
-
     if (room.status === 'LOBBY') {
-      renderGdLobbyView(roomArea, room);
+      renderGdLobbyView(mount, room);
     } else if (room.status === 'IN_PROGRESS') {
-      renderGdActiveRoomView(roomArea, room);
+      renderGdActiveRoomView(mount, room);
     } else if (room.status === 'COMPLETED') {
       renderStudentGdReport(room);
     }
   }
 
-  function renderGdLobbyView(area, room) {
+  function renderGdLobbyView(container, room) {
     if (pollInterval) clearInterval(pollInterval);
 
-    area.innerHTML = `
-      <div class="card" style="border:2px solid var(--color-streak);background:var(--color-surface);margin-top:10px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
-          <div>
-            <span class="pill amber" style="font-weight:700">⌛ Lobby Open</span>
-            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">GD Room: "${esc(room.topic)}"</h3>
-            <div style="font-size:13.5px;color:var(--cream-dim)">Host Teacher: <b>${esc(room.teacher?.name || 'Teacher')}</b></div>
-          </div>
+    container.innerHTML = `
+      <div style="max-width: 860px; margin: 0 auto; width: 100%; display: flex; flex-direction: column; gap: 16px; animation: fadeIn 0.25s ease;">
+        <div class="row" style="align-items: center;">
+          <button class="btn btn-ghost btn-sm" id="leave-gd-lobby-btn">⬅️ Back to Rooms</button>
           <div class="spacer"></div>
-          <button class="btn btn-ghost btn-sm" id="leave-gd-lobby-btn">🚪 Leave Lobby</button>
+          <span class="pill amber" style="font-weight: 700;">⌛ Lobby Open</span>
+          <span class="pill voice" style="font-size: 12px;">Host: ${esc(room.teacher?.name || 'Teacher')}</span>
         </div>
 
-        <div class="card card-2" style="margin-bottom:16px;background:var(--color-surface-2);text-align:center;padding:24px">
-          <div style="font-size:32px;margin-bottom:8px">👥</div>
-          <h4 style="font-size:18px;margin-bottom:4px;color:var(--color-text)">
-            ${room.participants?.length || 0} of ${room.maxStudents} Students in Lobby
-          </h4>
-          <div style="font-size:14px;color:var(--amber);font-weight:600">
-            Waiting for teacher to start the discussion session...
+        <div class="card" style="border: 2px solid var(--color-streak); background: var(--color-surface); padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+          <div class="eyebrow" style="color: var(--amber); font-weight: 700;">GROUP DISCUSSION TOPIC</div>
+          <h2 style="font-size: 24px; font-weight: 800; margin: 6px 0 10px; color: var(--color-text); line-height: 1.35;">
+            "${esc(room.topic)}"
+          </h2>
+          <div style="font-size: 13.5px; color: var(--color-text-muted);">
+            Discussion target: <b>${room.targetDurationMinutes || 5} minutes</b> &middot; Room capacity: <b>${room.maxStudents} students</b>
           </div>
-        </div>
 
-        <div class="eyebrow" style="margin-bottom:8px">Joined Participants</div>
-        <div class="grid grid-3 gap-sm" style="margin-bottom:16px">
-          ${(room.participants || []).map((p) => `
-            <div class="card card-2 row gap-sm" style="align-items:center;padding:10px 14px">
-              ${avatarHTML(p.name || 'Student', 28)}
-              <div style="font-size:14px;font-weight:600;color:var(--color-text)">${esc(p.name || 'Student')}</div>
+          <div class="card card-2" style="margin: 20px 0; background: var(--color-surface-2); text-align: center; padding: 28px 20px; border-radius: 14px; border: 1px solid var(--color-border);">
+            <div style="font-size: 42px; margin-bottom: 8px;">👥</div>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 6px; color: var(--color-text);">
+              ${room.participants?.length || 0} of ${room.maxStudents} Students in Lobby
+            </h3>
+            <div style="font-size: 14.5px; color: var(--amber); font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 8px;">
+              <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--amber); animation: pulse 1.2s infinite;"></span>
+              Waiting for teacher to start the live discussion session...
             </div>
-          `).join('')}
-        </div>
+          </div>
 
-        <div style="font-size:12.5px;color:var(--cream-faint);text-align:center">
-          💡 Tip: Prepare 2-3 main points about "${esc(room.topic)}" while waiting in the lobby!
+          <div class="eyebrow" style="margin-bottom: 10px;">Joined Classmates</div>
+          <div class="grid grid-3 gap-sm" style="margin-bottom: 18px;">
+            ${(room.participants || []).map((p) => {
+              const isMe = (p._id || p) === (S.user?._id || S.user?.id);
+              return `
+                <div class="card card-2 row gap-sm" style="align-items: center; padding: 12px 14px; background: var(--color-surface-2); ${isMe ? 'border: 1.5px solid var(--color-primary); background: var(--color-primary-soft);' : 'border: 1px solid var(--color-border);'}">
+                  ${avatarHTML(p.name || 'Student', 32)}
+                  <div style="font-size: 14px; font-weight: 600; color: var(--color-text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                    ${esc(p.name || 'Student')}${isMe ? ' (You)' : ''}
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+
+          <div style="font-size: 13px; color: var(--color-text-muted); text-align: center; background: rgba(245, 158, 11, 0.08); padding: 12px 16px; border-radius: 8px; border-left: 3px solid var(--amber);">
+            💡 <b>Pro Tip:</b> Prepare 2–3 structured bullet points about <i>"${esc(room.topic)}"</i> while waiting in the lobby!
+          </div>
         </div>
       </div>
     `;
@@ -1290,7 +1300,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
       renderPeerMain();
     };
 
-    // Poll room status every 3s to transition when teacher starts
+    // Poll room status every 2.5s to transition when teacher starts
     pollInterval = setInterval(async () => {
       try {
         const fresh = await Api.getGdRoom(room._id);
@@ -1298,77 +1308,194 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           clearInterval(pollInterval);
           pollInterval = null;
           toast('Teacher started the Group Discussion! Entering room now...', 'sprout');
-          renderGdActiveRoomView(area, fresh);
+          renderGdActiveRoomView(container, fresh);
         } else if (fresh.participants?.length !== room.participants?.length) {
           room = fresh;
-          renderGdLobbyView(area, room);
+          renderGdLobbyView(container, room);
         }
       } catch (e) {}
-    }, 3000);
+    }, 2500);
   }
 
   function renderGdActiveRoomView(area, room) {
     if (pollInterval) clearInterval(pollInterval);
+    const container = area || mount;
 
-    area.innerHTML = `
-      <div class="card" style="border:2px solid var(--color-success);background:var(--color-surface);margin-top:10px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:12px">
-          <div>
-            <span class="pill sprout" style="font-weight:700">🔴 Live GD In-Progress</span>
-            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">Topic: "${esc(room.topic)}"</h3>
-            <div style="font-size:13.5px;color:var(--cream-dim)">
-              Host: <b>${esc(room.teacher?.name || 'Teacher')}</b> &middot; Target: ${room.targetDurationMinutes || 5} Mins
-            </div>
-          </div>
+    container.innerHTML = `
+      <div style="max-width: 900px; margin: 0 auto; width: 100%; display: flex; flex-direction: column; gap: 16px; animation: fadeIn 0.25s ease;">
+        <!-- Top Navigation Bar -->
+        <div class="row" style="align-items: center; gap: 10px;">
+          <button class="btn btn-ghost btn-sm" id="gd-back-rooms-btn">⬅️ Back to GD Rooms</button>
           <div class="spacer"></div>
-          <button class="btn btn-primary btn-sm" id="end-student-gd-btn" style="background:var(--color-streak);color:var(--color-on-bright);font-weight:700">
-            ⏹️ Complete &amp; View AI Report (+25 XP)
+          <span class="pill sprout" style="display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px;">
+            <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); animation: pulse 1.2s infinite;"></span>
+            Live GD In-Progress
+          </span>
+          <button class="btn btn-primary btn-sm" id="end-student-gd-btn" style="background: var(--color-streak); color: var(--color-on-bright); font-weight: 700;">
+            ⏹️ Complete &amp; View Report (+25 XP)
           </button>
         </div>
 
-        <!-- Participants Counter Bar -->
-        <div class="card card-2" style="margin-bottom:16px;background:var(--color-success-soft);border:1px solid var(--color-success)">
-          <div class="row gap-sm" style="align-items:center">
-            <div style="font-size:15px;font-weight:700;color:var(--color-text)">👥 ${room.participants?.length || 0} Students Active in Room</div>
+        <!-- Topic & Room Meta Card -->
+        <div class="card" style="border: 2px solid var(--color-success); background: var(--color-surface); padding: 22px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+          <div class="eyebrow" style="color: var(--emerald); font-weight: 700;">DISCUSSION TOPIC</div>
+          <h2 style="font-size: 24px; font-weight: 800; margin: 6px 0 10px; color: var(--color-text); line-height: 1.35;">
+            "${esc(room.topic)}"
+          </h2>
+          <div class="row gap-md" style="font-size: 13.5px; color: var(--color-text-muted); align-items: center; flex-wrap: wrap;">
+            <div>Host: <b>${esc(room.teacher?.name || 'Teacher')}</b></div>
+            <div>&middot;</div>
+            <div>Target: <b>${room.targetDurationMinutes || 5} Mins</b></div>
             <div class="spacer"></div>
-            <div class="row gap-xs">
-              ${(room.participants || []).map((p) => `<span class="pill voice" style="font-size:11.5px">${esc(p.name || 'Student')}</span>`).join('')}
+            <div class="row gap-xs" style="align-items: center;">
+              <span style="font-size: 12px; font-weight: 600; color: var(--color-text-muted); margin-right: 4px;">In room:</span>
+              ${(room.participants || []).map((p) => {
+                const isMe = (p._id || p) === (S.user?._id || S.user?.id);
+                return `<span class="pill voice" style="font-size: 11.5px; ${isMe ? 'border: 1.5px solid var(--color-primary); font-weight: 700;' : ''}">${esc(p.name || 'Student')}${isMe ? ' (You)' : ''}</span>`;
+              }).join('')}
             </div>
           </div>
         </div>
 
-        <!-- Live Speech Mic Input -->
-        <div class="row gap-md" style="align-items:center;margin-bottom:18px">
-          <button class="rec-btn" id="gd-mic-btn" style="width:52px;height:52px">${ICONS.mic}</button>
-          <div class="col" style="flex:1">
-            <div id="gd-mic-status" style="font-weight:700;font-size:15px">Tap mic to speak your point into the GD room</div>
-            <div id="gd-mic-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:2px;min-height:20px"></div>
+        <!-- Live Transcripts Feed Card -->
+        <div class="card card-2" style="background: var(--color-surface); border: 1px solid var(--color-border); padding: 18px 20px; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+          <div class="row" style="align-items: center; margin-bottom: 12px;">
+            <div style="font-size: 16px; font-weight: 700; color: var(--color-text); display: flex; align-items: center; gap: 8px;">
+              <span>💬 Live Speech Transcription Feed</span>
+            </div>
+            <div class="spacer"></div>
+            <span id="gd-point-count" class="pill voice" style="font-size: 12px; font-weight: 600;">
+              ${(room.transcripts || []).length} points recorded
+            </span>
           </div>
-          <button class="btn btn-primary btn-sm" id="gd-send-now-btn" style="display:none;font-weight:700">📤 Send Point</button>
+
+          <div id="gd-transcript-feed" style="min-height: 280px; max-height: 420px; overflow-y: auto; background: var(--color-surface-2); padding: 16px; border-radius: 12px; border: 1px solid var(--color-border); display: flex; flex-direction: column; gap: 14px;">
+            <!-- Injected by renderTranscripts -->
+          </div>
         </div>
 
-        <!-- Live Transcripts Feed -->
-        <div class="eyebrow" style="margin-bottom:6px">Group Speech Transcript Feed</div>
-        <div class="col gap-xs" id="gd-transcript-feed" style="max-height:240px;overflow-y:auto;background:var(--color-surface-2);padding:12px;border-radius:8px;border:1px solid var(--line)">
-          ${(room.transcripts || []).map((t) => `
-            <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
-              <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
+        <!-- Speech Mic Input Card -->
+        <div class="card card-2" style="background: var(--color-surface); border: 1.5px solid var(--color-primary); padding: 16px 20px; box-shadow: 0 4px 16px rgba(139, 92, 246, 0.08);">
+          <div class="row gap-md" style="align-items: center;">
+            <button class="rec-btn" id="gd-mic-btn" style="width: 52px; height: 52px; flex-shrink: 0;" title="Tap to speak your point">${ICONS.mic}</button>
+            <div class="col" style="flex: 1; min-width: 0;">
+              <div id="gd-mic-status" style="font-weight: 700; font-size: 15px; color: var(--color-text);">
+                Tap mic to speak your point into the GD room
+              </div>
+              <div id="gd-mic-transcript" style="font-size: 14px; color: var(--color-primary); font-weight: 500; margin-top: 3px; min-height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"></div>
             </div>
-          `).join('')}
-          ${!room.transcripts?.length ? `<div style="color:var(--cream-faint);font-style:italic">No speech recorded yet. Speak your first point using the mic!</div>` : ''}
+            <button class="btn btn-primary btn-sm" id="gd-send-now-btn" style="display: none; font-weight: 700; padding: 10px 18px; border-radius: 10px;">
+              📤 Send Point
+            </button>
+          </div>
         </div>
       </div>
     `;
 
     function renderTranscripts(transcripts) {
       const feed = $('#gd-transcript-feed');
+      const countEl = $('#gd-point-count');
       if (!feed) return;
-      feed.innerHTML = (transcripts || []).map((t) => `
-        <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
-          <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
-        </div>
-      `).join('') || '<div style="color:var(--cream-faint);font-style:italic">No speech recorded yet. Speak your first point using the mic!</div>';
+      const list = transcripts || [];
+      if (countEl) countEl.textContent = `${list.length} point${list.length === 1 ? '' : 's'} recorded`;
+
+      if (!list.length) {
+        feed.innerHTML = `
+          <div style="margin: auto; text-align: center; color: var(--color-text-muted); padding: 36px 16px;">
+            <div style="font-size: 38px; margin-bottom: 8px;">🎙️</div>
+            <div style="font-weight: 600; font-size: 15px; color: var(--color-text);">No speech recorded yet</div>
+            <div style="font-size: 13px; margin-top: 4px;">Tap the microphone below to contribute your opening argument!</div>
+          </div>
+        `;
+        return;
+      }
+
+      const myId = S.user?._id || S.user?.id;
+      const myName = (S.user?.name || '').trim().toLowerCase();
+
+      feed.innerHTML = list.map((t) => {
+        const isMe = (t.student && (t.student === myId || t.student?._id === myId)) ||
+                     (t.studentName && t.studentName.trim().toLowerCase() === myName);
+        const timeStr = t.timestamp ? new Date(t.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
+
+        if (isMe) {
+          return `
+            <div class="msg-wrap user" style="align-self: flex-end; align-items: flex-end; max-width: 82%;">
+              <div style="font-size: 12px; font-weight: 600; color: var(--color-text-muted); margin-bottom: 3px; display: flex; align-items: center; gap: 6px;">
+                <span>You</span>
+                ${timeStr ? `<span style="font-size: 11px; opacity: 0.7;">${timeStr}</span>` : ''}
+              </div>
+              <div class="msg user" style="background: var(--purple); color: #FFFFFF; border-radius: 16px 16px 4px 16px; padding: 12px 18px; font-size: 14.5px; line-height: 1.55; box-shadow: 0 4px 14px rgba(139, 92, 246, 0.22); word-break: break-word;">
+                ${esc(t.text)}
+              </div>
+            </div>
+          `;
+        } else {
+          return `
+            <div class="msg-wrap ai" style="align-self: flex-start; align-items: flex-start; max-width: 82%;">
+              <div style="font-size: 12px; font-weight: 600; color: var(--color-text-muted); margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+                ${avatarHTML(t.studentName || 'Student', 22)}
+                <span style="color: var(--amber); font-weight: 700;">${esc(t.studentName || 'Classmate')}</span>
+                ${timeStr ? `<span style="font-size: 11px; opacity: 0.7;">${timeStr}</span>` : ''}
+              </div>
+              <div style="display: flex; align-items: flex-end; gap: 8px;">
+                <div class="msg ai" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); border-radius: 16px 16px 16px 4px; padding: 12px 18px; font-size: 14.5px; line-height: 1.55; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05); word-break: break-word;">
+                  ${esc(t.text)}
+                </div>
+                <button class="msg-read-btn gd-read-btn" data-speak-text="${esc(t.text)}" title="Listen to classmate's point" aria-label="Listen aloud" style="padding: 7px 10px; font-size: 14px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); cursor: pointer; transition: all 0.15s ease; flex-shrink: 0;">
+                  🔊
+                </button>
+              </div>
+            </div>
+          `;
+        }
+      }).join('');
+
+      // Wire up read-aloud buttons
+      feed.querySelectorAll('.gd-read-btn').forEach((btn) => {
+        btn.onclick = () => {
+          const textToSpeak = btn.dataset.speakText;
+          if (btn.classList.contains('speaking')) {
+            SpeechOutput.stop();
+            btn.classList.remove('speaking');
+            btn.textContent = '🔊';
+            return;
+          }
+          feed.querySelectorAll('.gd-read-btn.speaking').forEach((b) => {
+            b.classList.remove('speaking');
+            b.textContent = '🔊';
+          });
+          btn.classList.add('speaking');
+          btn.textContent = '⏹️';
+          SpeechOutput.speak(textToSpeak, {
+            onEnd: () => {
+              btn.classList.remove('speaking');
+              btn.textContent = '🔊';
+            },
+            onError: () => {
+              btn.classList.remove('speaking');
+              btn.textContent = '🔊';
+            }
+          });
+        };
+      });
+
       feed.scrollTop = feed.scrollHeight;
+    }
+
+    // Immediately render current transcripts
+    renderTranscripts(room.transcripts);
+
+    // Back to Rooms button
+    const backRoomsBtn = $('#gd-back-rooms-btn');
+    if (backRoomsBtn) {
+      backRoomsBtn.onclick = () => {
+        if (silenceTimer) clearTimeout(silenceTimer);
+        if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
+        SpeechOutput.stop();
+        if (SpeechInput.listening) SpeechInput.stop();
+        renderPeerMain();
+      };
     }
 
     const micBtn = $('#gd-mic-btn');
@@ -1445,6 +1572,8 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     $('#end-student-gd-btn').onclick = async () => {
       if (silenceTimer) clearTimeout(silenceTimer);
       if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
+      SpeechOutput.stop();
+      if (SpeechInput.listening) SpeechInput.stop();
       const btn = $('#end-student-gd-btn');
       btn.disabled = true;
       btn.textContent = 'Analyzing Speech with AI...';
@@ -1476,75 +1605,86 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     }, 1000);
   }
 
-  function renderStudentGdReport(room) {
+  function renderStudentGdReport(room, targetArea = mount) {
     if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
-    const area = $('#peer-room-area') || mount;
+    SpeechOutput.stop();
+    if (SpeechInput.listening) SpeechInput.stop();
+    const area = targetArea || mount;
     const userId = S.user?._id || S.user?.id;
     const myReport = (room.reports || []).find((r) => (r.student?._id || r.student) === userId) || (room.reports && room.reports[0]);
 
     area.innerHTML = `
-      <div class="card card-2" style="border:2px solid var(--color-primary);background:var(--color-surface);margin-top:16px">
-        <div class="row gap-sm" style="align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px">
-          <div>
-            <span class="pill sprout" style="font-size:13px;font-weight:700">🎉 GD Session Completed (+25 XP)</span>
-            <h3 style="font-size:22px;margin-top:4px;color:var(--color-text)">Speech AI Performance Report</h3>
-            <div style="font-size:13.5px;color:var(--cream-dim)">Topic: <b>"${esc(room.topic)}"</b></div>
-          </div>
+      <div style="max-width: 900px; margin: 0 auto; width: 100%; display: flex; flex-direction: column; gap: 16px; animation: fadeIn 0.25s ease;">
+        <div class="row" style="align-items: center; gap: 10px;">
+          <button class="btn btn-ghost btn-sm" id="back-to-peer-btn">⬅️ Back to GD Rooms</button>
           <div class="spacer"></div>
-          <button class="btn btn-ghost btn-sm" id="back-to-peer-btn">⬅️ Back to Peer Hub</button>
+          <span class="pill sprout" style="font-size: 13px; font-weight: 700;">🎉 GD Session Completed (+25 XP)</span>
         </div>
 
-        ${myReport ? `
-          <div class="grid grid-2 gap-md" style="margin-bottom:20px">
-            <div class="card card-2" style="text-align:center;padding:24px;background:var(--color-surface-2)">
-              <div class="eyebrow">Overall GD Score</div>
-              <div style="font-size:48px;font-weight:900;color:${scoreColor(myReport.overallScore)};margin:8px 0">${myReport.overallScore}/100</div>
-              <div class="pill sprout" style="display:inline-block">+25 XP Awarded</div>
-            </div>
-
-            <div class="grid grid-2 gap-xs">
-              <div class="card card-2" style="padding:12px"><div class="eyebrow">Clarity &amp; Fluency</div><h3 style="color:${scoreColor(myReport.clarityScore)}">${myReport.clarityScore}%</h3></div>
-              <div class="card card-2" style="padding:12px"><div class="eyebrow">Grammar Accuracy</div><h3 style="color:${scoreColor(myReport.grammarScore)}">${myReport.grammarScore}%</h3></div>
-              <div class="card card-2" style="padding:12px"><div class="eyebrow">Vocabulary</div><h3 style="color:${scoreColor(myReport.vocabularyScore)}">${myReport.vocabularyScore}%</h3></div>
-              <div class="card card-2" style="padding:12px"><div class="eyebrow">Interaction</div><h3 style="color:${scoreColor(myReport.interactionScore)}">${myReport.interactionScore}%</h3></div>
+        <div class="card card-2" style="border: 2px solid var(--color-primary); background: var(--color-surface); padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+          <div class="row gap-sm" style="align-items: center; margin-bottom: 16px; border-bottom: 1px solid var(--color-border); padding-bottom: 12px;">
+            <div>
+              <div class="eyebrow" style="color: var(--color-primary); font-weight: 700;">SPEECH AI PERFORMANCE REPORT</div>
+              <h2 style="font-size: 24px; font-weight: 800; margin: 4px 0 8px; color: var(--color-text);">Topic: "${esc(room.topic)}"</h2>
+              <div style="font-size: 13.5px; color: var(--color-text-muted);">
+                Host: <b>${esc(room.teacher?.name || 'Teacher')}</b> &middot; Total Participants: <b>${room.participants?.length || 0} students</b>
+              </div>
             </div>
           </div>
 
-          <!-- Key Strengths -->
-          ${myReport.strengths && myReport.strengths.length ? `
-            <div class="card card-2" style="margin-bottom:14px;background:var(--color-success-soft);border-left:4px solid var(--color-success)">
-              <div style="font-size:15px;font-weight:700;color:var(--emerald);margin-bottom:6px">🌟 Key Strengths Observed</div>
-              <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--cream);line-height:1.5">
-                ${myReport.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}
-              </ul>
-            </div>
-          ` : ''}
+          ${myReport ? `
+            <div class="grid grid-2 gap-md" style="margin-bottom: 20px;">
+              <div class="card card-2" style="text-align: center; padding: 24px; background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: 12px;">
+                <div class="eyebrow">Overall GD Score</div>
+                <div style="font-size: 48px; font-weight: 900; color: ${scoreColor(myReport.overallScore)}; margin: 8px 0;">${myReport.overallScore}/100</div>
+                <div class="pill sprout" style="display: inline-block;">+25 XP Awarded</div>
+              </div>
 
-          <!-- Sentence Corrections -->
-          ${myReport.corrections && myReport.corrections.length ? `
-            <div class="card card-2" style="margin-bottom:14px;background:var(--color-error-soft);border-left:4px solid var(--color-error)">
-              <div style="font-size:15px;font-weight:700;color:var(--coral);margin-bottom:6px">✏️ Sentence &amp; Grammar Refinements</div>
-              ${myReport.corrections.map((c) => `
-                <div style="margin-bottom:8px;font-size:13.5px">
-                  <div style="color:var(--coral)"><b>Spoken:</b> "${esc(c.original)}"</div>
-                  <div style="color:var(--emerald);margin-top:2px"><b>Improved:</b> "${esc(c.corrected)}"</div>
-                </div>
-              `).join('')}
+              <div class="grid grid-2 gap-xs">
+                <div class="card card-2" style="padding: 12px; background: var(--color-surface-2); border: 1px solid var(--color-border);"><div class="eyebrow">Clarity &amp; Fluency</div><h3 style="color:${scoreColor(myReport.clarityScore)};margin-top:4px">${myReport.clarityScore}%</h3></div>
+                <div class="card card-2" style="padding: 12px; background: var(--color-surface-2); border: 1px solid var(--color-border);"><div class="eyebrow">Grammar Accuracy</div><h3 style="color:${scoreColor(myReport.grammarScore)};margin-top:4px">${myReport.grammarScore}%</h3></div>
+                <div class="card card-2" style="padding: 12px; background: var(--color-surface-2); border: 1px solid var(--color-border);"><div class="eyebrow">Vocabulary</div><h3 style="color:${scoreColor(myReport.vocabularyScore)};margin-top:4px">${myReport.vocabularyScore}%</h3></div>
+                <div class="card card-2" style="padding: 12px; background: var(--color-surface-2); border: 1px solid var(--color-border);"><div class="eyebrow">Interaction</div><h3 style="color:${scoreColor(myReport.interactionScore)};margin-top:4px">${myReport.interactionScore}%</h3></div>
+              </div>
             </div>
-          ` : ''}
 
-          <!-- Actionable Skill Suggestions -->
-          ${myReport.suggestions && myReport.suggestions.length ? `
-            <div class="card card-2" style="margin-bottom:16px;background:var(--color-streak-soft);border-left:4px solid var(--color-streak)">
-              <div style="font-size:15px;font-weight:700;color:var(--amber);margin-bottom:6px">💡 Targeted Skill Improvement Suggestions</div>
-              <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--cream);line-height:1.6">
-                ${myReport.suggestions.map((sug) => `<li>${esc(sug)}</li>`).join('')}
-              </ul>
-            </div>
-          ` : ''}
-        ` : `
-          <div class="empty-state">No individual report available for this session.</div>
-        `}
+            <!-- Key Strengths -->
+            ${myReport.strengths && myReport.strengths.length ? `
+              <div class="card card-2" style="margin-bottom: 14px; background: var(--color-success-soft); border-left: 4px solid var(--color-success); padding: 16px;">
+                <div style="font-size: 15px; font-weight: 700; color: var(--emerald); margin-bottom: 8px;">🌟 Key Strengths Observed</div>
+                <ul style="margin: 0; padding-left: 20px; font-size: 14px; color: var(--color-text); line-height: 1.6;">
+                  ${myReport.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
+
+            <!-- Sentence Corrections -->
+            ${myReport.corrections && myReport.corrections.length ? `
+              <div class="card card-2" style="margin-bottom: 14px; background: var(--color-error-soft); border-left: 4px solid var(--color-error); padding: 16px;">
+                <div style="font-size: 15px; font-weight: 700; color: var(--coral); margin-bottom: 8px;">✏️ Sentence &amp; Grammar Refinements</div>
+                ${myReport.corrections.map((c) => `
+                  <div style="margin-bottom: 10px; font-size: 13.5px; background: var(--color-surface); padding: 10px 14px; border-radius: 8px; border: 1px solid var(--color-border);">
+                    <div style="color: var(--coral); font-weight: 600;"><b>Spoken:</b> "${esc(c.original)}"</div>
+                    <div style="color: var(--emerald); font-weight: 600; margin-top: 4px;"><b>Improved:</b> "${esc(c.corrected)}"</div>
+                    ${c.explanation ? `<div style="color: var(--color-text-muted); font-size: 12.5px; margin-top: 4px;">💡 ${esc(c.explanation)}</div>` : ''}
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
+
+            <!-- Actionable Skill Suggestions -->
+            ${myReport.suggestions && myReport.suggestions.length ? `
+              <div class="card card-2" style="margin-bottom: 16px; background: var(--color-streak-soft); border-left: 4px solid var(--color-streak); padding: 16px;">
+                <div style="font-size: 15px; font-weight: 700; color: var(--amber); margin-bottom: 8px;">💡 Targeted Skill Improvement Suggestions</div>
+                <ul style="margin: 0; padding-left: 20px; font-size: 14px; color: var(--color-text); line-height: 1.6;">
+                  ${myReport.suggestions.map((sug) => `<li>${esc(sug)}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
+          ` : `
+            <div class="empty-state" style="padding: 32px 16px; text-align: center;">No individual report available for this session.</div>
+          `}
+        </div>
       </div>
     `;
 
