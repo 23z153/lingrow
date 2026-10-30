@@ -1344,6 +1344,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
             <div id="gd-mic-status" style="font-weight:700;font-size:15px">Tap mic to speak your point into the GD room</div>
             <div id="gd-mic-transcript" style="font-size:14px;color:var(--cream-dim);margin-top:2px;min-height:20px"></div>
           </div>
+          <button class="btn btn-primary btn-sm" id="gd-send-now-btn" style="display:none;font-weight:700">📤 Send Point</button>
         </div>
 
         <!-- Live Transcripts Feed -->
@@ -1359,29 +1360,82 @@ VIEW_RENDERERS['peer'] = async (mount) => {
       </div>
     `;
 
+    function renderTranscripts(transcripts) {
+      const feed = $('#gd-transcript-feed');
+      if (!feed) return;
+      feed.innerHTML = (transcripts || []).map((t) => `
+        <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
+          <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
+        </div>
+      `).join('') || '<div style="color:var(--cream-faint);font-style:italic">No speech recorded yet. Speak your first point using the mic!</div>';
+      feed.scrollTop = feed.scrollHeight;
+    }
+
     const micBtn = $('#gd-mic-btn');
+    const sendNowBtn = $('#gd-send-now-btn');
+    let silenceTimer = null;
+    let latestTranscript = '';
+
+    function resetSilenceTimer() {
+      if (silenceTimer) clearTimeout(silenceTimer);
+      silenceTimer = setTimeout(() => {
+        if (SpeechInput.listening && latestTranscript.trim()) {
+          SpeechInput.stop();
+        }
+      }, 1500); // 1.5s of silence auto-sends speech to room
+    }
+
+    if (sendNowBtn) {
+      sendNowBtn.onclick = () => {
+        if (SpeechInput.listening) SpeechInput.stop();
+      };
+    }
+
     micBtn.onclick = () => {
       if (!SpeechInput.supported) { toast('Speech recognition not supported in browser.', 'coral'); return; }
       if (!SpeechInput.listening) {
         micBtn.classList.add('on');
-        $('#gd-mic-status').textContent = 'Listening... Speak your sentence clearly';
+        $('#gd-mic-status').textContent = 'Listening... (Speak your point; stops & sends on pause or tap)';
+        latestTranscript = '';
         SpeechInput.start({
-          onResult: ({ final, interim }) => { $('#gd-mic-transcript').textContent = (final + ' ' + interim).trim(); },
+          onResult: ({ final, interim }) => {
+            latestTranscript = (final + ' ' + interim).trim();
+            $('#gd-mic-transcript').textContent = latestTranscript;
+            if (sendNowBtn) sendNowBtn.style.display = latestTranscript ? 'inline-flex' : 'none';
+            resetSilenceTimer();
+          },
           onEnd: async (finalTranscript) => {
+            if (silenceTimer) clearTimeout(silenceTimer);
             micBtn.classList.remove('on');
-            $('#gd-mic-status').textContent = 'Tap mic to speak another point';
-            if (finalTranscript && finalTranscript.trim()) {
+            if (sendNowBtn) sendNowBtn.style.display = 'none';
+            const textToSend = (finalTranscript || latestTranscript || '').trim();
+            latestTranscript = '';
+            $('#gd-mic-transcript').textContent = '';
+
+            if (textToSend) {
+              $('#gd-mic-status').textContent = '⚡ Transmitting point to room...';
               try {
-                const res = await Api.submitGdSpeech(room._id, finalTranscript.trim());
-                toast('Speech added to GD room transcript', 'sprout');
-                const fresh = await Api.getGdRoom(room._id);
-                renderGdActiveRoomView(area, fresh);
+                const res = await Api.submitGdSpeech(room._id, textToSend);
+                toast('Point posted to GD feed!', 'sprout');
+                if (res.transcripts) {
+                  room.transcripts = res.transcripts;
+                  renderTranscripts(room.transcripts);
+                }
+                $('#gd-mic-status').textContent = 'Tap mic to speak another point';
               } catch (err) {
                 apiError(err);
+                $('#gd-mic-status').textContent = 'Tap mic to speak your point into the GD room';
               }
+            } else {
+              $('#gd-mic-status').textContent = 'Tap mic to speak your point into the GD room';
             }
           },
-          onError: (e) => { micBtn.classList.remove('on'); $('#gd-mic-status').textContent = 'Mic error: ' + e; }
+          onError: (e) => {
+            if (silenceTimer) clearTimeout(silenceTimer);
+            micBtn.classList.remove('on');
+            if (sendNowBtn) sendNowBtn.style.display = 'none';
+            $('#gd-mic-status').textContent = 'Mic error: ' + e;
+          }
         });
       } else {
         SpeechInput.stop();
@@ -1389,6 +1443,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
     };
 
     $('#end-student-gd-btn').onclick = async () => {
+      if (silenceTimer) clearTimeout(silenceTimer);
       if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
       const btn = $('#end-student-gd-btn');
       btn.disabled = true;
@@ -1404,7 +1459,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
       }
     };
 
-    // Live transcript sync: poll active room every 2.5s so other students' speech appears in real-time
+    // Live transcript sync: poll active room every 1000ms (1 second) for near-instant sync
     pollInterval = setInterval(async () => {
       try {
         const fresh = await Api.getGdRoom(room._id);
@@ -1415,18 +1470,10 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           renderStudentGdReport(fresh);
         } else if (fresh.transcripts && fresh.transcripts.length !== (room.transcripts || []).length) {
           room = fresh;
-          const feed = $('#gd-transcript-feed');
-          if (feed) {
-            feed.innerHTML = (room.transcripts || []).map((t) => `
-              <div style="padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px">
-                <b style="color:var(--amber)">${esc(t.studentName)}:</b> "${esc(t.text)}"
-              </div>
-            `).join('') || '<div style="color:var(--cream-faint);font-style:italic">No speech recorded yet. Speak your first point using the mic!</div>';
-            feed.scrollTop = feed.scrollHeight;
-          }
+          renderTranscripts(room.transcripts);
         }
       } catch (e) {}
-    }, 2500);
+    }, 1000);
   }
 
   function renderStudentGdReport(room) {
