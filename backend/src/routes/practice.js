@@ -3,30 +3,60 @@ const { requireAuth } = require('../middleware/auth');
 const { requireMinXP } = require('../middleware/levelGate');
 const Passage = require('../models/Passage');
 const ReadAloudAttempt = require('../models/ReadAloudAttempt');
-const User = require('../models/User');
 const { scorePronunciation } = require('../services/llmService');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
 
-router.get('/passages', requireAuth, requireMinXP(100, 'Read Aloud'), async (req, res) => {
+// GET /api/practice/passages — Returns 5 general passages sampled by student's level, excluding recently attempted
+router.get('/passages', requireAuth, requireMinXP(0, 'Read Aloud'), async (req, res) => {
   try {
-    const { level, department } = req.query;
-    const targetDept = department || req.user?.department || 'CSE';
-    
-    const filter = {};
-    if (level) filter.level = level;
-    if (targetDept) filter.department = { $in: [targetDept, 'General'] };
+    const rawLevel = req.query.level || req.user?.level || 'Intermediate';
+    const targetLevel = rawLevel.charAt(0).toUpperCase() + rawLevel.slice(1).toLowerCase();
 
-    // MongoDB aggregation sample: 5 random items
+    // Find recently attempted passage IDs for this user to exclude
+    const recentAttempts = await ReadAloudAttempt.find({ user: req.user._id })
+      .sort({ createdAt: -1 })
+      .limit(15)
+      .distinct('passage');
+
+    const baseFilter = {
+      active: { $ne: false },
+      level: targetLevel,
+    };
+
+    // First attempt: match level and exclude recent attempts
     let passages = await Passage.aggregate([
-      { $match: filter },
+      { $match: { ...baseFilter, _id: { $nin: recentAttempts } } },
       { $sample: { size: 5 } },
     ]);
 
-    if (!passages.length) {
-      passages = await Passage.find().limit(5);
+    // Fallback 1: match level without recency filter
+    if (passages.length < 5) {
+      passages = await Passage.aggregate([
+        { $match: baseFilter },
+        { $sample: { size: 5 } },
+      ]);
     }
 
-    res.json(passages);
+    // Fallback 2: any active general passages
+    if (passages.length < 5) {
+      passages = await Passage.aggregate([
+        { $match: { active: { $ne: false } } },
+        { $sample: { size: 5 } },
+      ]);
+    }
+
+    // Format passages with word count and estimated reading time
+    const enriched = passages.map((p) => {
+      const words = p.wordCount || p.text.trim().split(/\s+/).length;
+      const readingMinutes = Math.max(1, Math.ceil(words / 130));
+      return {
+        ...p,
+        wordCount: words,
+        estimatedReadingTime: `~${readingMinutes} min read`,
+      };
+    });
+
+    res.json(enriched);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

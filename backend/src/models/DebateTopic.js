@@ -8,10 +8,10 @@ const debateTopicSchema = new mongoose.Schema(
     context: { type: String, default: '' },
     forKeyPoints: [{ type: String }],
     againstKeyPoints: [{ type: String }],
-    source: { type: String, default: 'scraped' },
+    source: { type: String, default: 'curated' },
+    active: { type: Boolean, default: true, index: true },
   },
   { timestamps: true }
 );
 
 module.exports = mongoose.model('DebateTopic', debateTopicSchema);
-

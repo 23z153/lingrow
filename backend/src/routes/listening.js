@@ -6,20 +6,24 @@ const ListeningAttempt = require('../models/ListeningAttempt');
 const { scoreListening } = require('../services/llmService');
 const { awardXP } = require('../services/progressService');
 
-router.get('/clips', requireAuth, requireMinXP(200, 'Listening Comprehension'), async (req, res) => {
+// GET /api/listening/clips — Returns general listening comprehension audio clips
+router.get('/clips', requireAuth, requireMinXP(0, 'Listening Comprehension'), async (req, res) => {
   try {
-    const { level, department } = req.query;
-    const targetDept = department || req.user?.department || 'CSE';
+    const rawLevel = req.query.level || req.user?.level || 'Intermediate';
+    const targetLevel = rawLevel.charAt(0).toUpperCase() + rawLevel.slice(1).toLowerCase();
 
-    const filter = {};
-    if (level) filter.level = level;
-    if (targetDept) filter.department = { $in: [targetDept, 'General'] };
-
-    // MongoDB aggregation sample: 5 random items
+    // Query active general clips
     let clips = await ListeningClip.aggregate([
-      { $match: filter },
+      { $match: { active: { $ne: false }, level: targetLevel } },
       { $sample: { size: 5 } },
     ]);
+
+    if (!clips.length) {
+      clips = await ListeningClip.aggregate([
+        { $match: { active: { $ne: false } } },
+        { $sample: { size: 5 } },
+      ]);
+    }
 
     if (!clips.length) {
       clips = await ListeningClip.find().limit(5);

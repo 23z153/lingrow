@@ -67,11 +67,13 @@ function updateThemeIcons() {
   const title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
   const topIcon = document.getElementById('theme-toggle-icon');
   if (topIcon) {
+    topIcon.className = '';
     topIcon.innerHTML = iconSvg;
     if (topIcon.parentElement) topIcon.parentElement.title = title;
   }
   const loginIcon = document.getElementById('login-theme-icon');
   if (loginIcon) {
+    loginIcon.className = '';
     loginIcon.innerHTML = iconSvg;
     if (loginIcon.parentElement) loginIcon.parentElement.title = title;
   }
@@ -147,6 +149,7 @@ function renderLogin(){
       Api.setToken(res.token);
       S.user = res.user;
       enterApp();
+    initGlobalChatbot();
     } catch(err){
       $('#login-error').innerHTML = `<div class="error-box">${esc(err.message)}</div>`;
     } finally { btn.disabled = false; }
@@ -173,6 +176,12 @@ async function logout(){
     loginScreen.classList.remove('hidden');
     loginScreen.style.display = 'flex';
   }
+  const fab = $('#global-chatbot-fab');
+  if (fab) fab.style.display = 'none';
+  const drawer = $('#global-chatbot-drawer');
+  if (drawer) drawer.classList.remove('open');
+  const overlay = $('#global-chatbot-overlay');
+  if (overlay) overlay.style.display = 'none';
   loginMode='login';
   renderLogin();
 }
@@ -202,6 +211,8 @@ function addStudentXP(amount) {
   if (newRank > oldRank) {
     toast(`🎉 Leveled up to ${S.user.level}! New practice exercises unlocked!`, 'sprout');
     renderShell();
+  initGlobalChatbot();
+  initGlobalChatbot();
   }
 }
 
@@ -371,7 +382,7 @@ function renderTopbar(){
       <div class="spacer"></div>
       ${right ? `<div class="topbar-chips row gap-xs">${right}</div>` : ''}
       <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
-        <i class="bi bi-moon-stars-fill" id="theme-toggle-icon"></i>
+        <span id="theme-toggle-icon" style="display:inline-flex;align-items:center;justify-content:center"></span>
       </button>
     </div>
   `;
@@ -426,6 +437,7 @@ async function setView(view){
   } catch(e){}
   markActiveNav();
   renderTopbar();
+  updateGlobalChatbotVisibility(view);
   const mount = $('#view-inner');
 
   mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
@@ -501,8 +513,9 @@ window.addEventListener('DOMContentLoaded', async ()=>{
 
 window.addEventListener('hashchange', () => {
   if (!S.user) return;
-  const view = (location.hash || '').replace(/^#/, '').trim();
-  if (view && VIEW_RENDERERS[view] && view !== S.view) {
+  const rawHash = (location.hash || '').replace(/^#/, '').trim();
+  const view = rawHash.split('?')[0];
+  if (view && VIEW_RENDERERS[view]) {
     setView(view);
   }
 });
@@ -523,3 +536,166 @@ document.addEventListener('pointerup', (e) => {
     }
   }
 });
+
+/* ---------------------------- GLOBAL CHATBOT CONTROLLER ---------------------------- */
+let chatbotHistory = [];
+let isMicRecording = false;
+let isChatbotBound = false;
+
+function updateGlobalChatbotVisibility(view) {
+  const fab = $('#global-chatbot-fab');
+  if (!fab) return;
+  const currentView = view || S.view;
+  const isAuth = !!S.user;
+  const isTutorPage = currentView === 'tutor';
+  const shouldHide = !isAuth || isTutorPage || isMicRecording;
+  fab.style.display = shouldHide ? 'none' : 'flex';
+  if (shouldHide) {
+    const drawer = $('#global-chatbot-drawer');
+    const overlay = $('#global-chatbot-overlay');
+    if (drawer && drawer.classList.contains('open')) {
+      drawer.classList.remove('open');
+      drawer.setAttribute('aria-hidden', 'true');
+      if (overlay) overlay.style.display = 'none';
+    }
+  }
+}
+
+function initGlobalChatbot() {
+  const fab = $('#global-chatbot-fab');
+  const drawer = $('#global-chatbot-drawer');
+  const overlay = $('#global-chatbot-overlay');
+  const closeBtn = $('#chatbot-close-btn');
+  const fullPageBtn = $('#chatbot-open-full-btn');
+  const form = $('#chatbot-drawer-form');
+  const input = $('#chatbot-drawer-input');
+  const msgsContainer = $('#chatbot-drawer-messages');
+
+  if (!fab || !drawer) return;
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    drawer.setAttribute('aria-hidden', 'false');
+    if (overlay) overlay.style.display = 'block';
+    if (input) input.focus();
+    loadChatbotHistory();
+  }
+
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    drawer.setAttribute('aria-hidden', 'true');
+    if (overlay) overlay.style.display = 'none';
+  }
+
+  window.openGlobalChatbot = openDrawer;
+  window.closeGlobalChatbot = closeDrawer;
+
+  if (!isChatbotBound) {
+    isChatbotBound = true;
+
+    // Document-level event delegation for FAB click
+    document.addEventListener('click', (e) => {
+      const clickedFab = e.target.closest('#global-chatbot-fab');
+      if (clickedFab) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (drawer.classList.contains('open')) closeDrawer();
+        else openDrawer();
+      }
+    });
+
+    if (closeBtn) closeBtn.onclick = closeDrawer;
+    if (overlay) overlay.onclick = closeDrawer;
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && drawer.classList.contains('open')) {
+        closeDrawer();
+      }
+    });
+
+    if (fullPageBtn) {
+      fullPageBtn.onclick = () => {
+        closeDrawer();
+        setView('tutor');
+      };
+    }
+
+    if (form && input) {
+      form.onsubmit = async (e) => {
+        e.preventDefault();
+        const text = input.value.trim();
+        if (!text) return;
+        input.value = '';
+
+        chatbotHistory.push({ role: 'user', text });
+        renderChatbotMessages();
+
+        const typingEl = document.createElement('div');
+        typingEl.className = 'msg-wrap ai';
+        typingEl.innerHTML = `<div class="msg ai" style="font-size:13px;color:var(--cream-dim);padding:8px 14px">AI Tutor is thinking…</div>`;
+        msgsContainer.appendChild(typingEl);
+        msgsContainer.scrollTop = msgsContainer.scrollHeight;
+
+        try {
+          const res = await Api.tutorMessage(text);
+          if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
+          const replyText = res.reply || res.message || 'I am here to assist your English learning.';
+          chatbotHistory.push({ role: 'assistant', text: replyText });
+          sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory.slice(-25)));
+          renderChatbotMessages();
+        } catch (err) {
+          if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
+          chatbotHistory.push({ role: 'assistant', text: 'Sorry, I encountered an error connecting to the AI Tutor. Please try again.' });
+          renderChatbotMessages();
+        }
+      };
+    }
+
+    window.addEventListener('lingrow:recording', (e) => {
+      isMicRecording = !!e.detail?.recording;
+      updateGlobalChatbotVisibility();
+    });
+  }
+
+  async function loadChatbotHistory() {
+    try {
+      const stored = sessionStorage.getItem('lingrow_chatbot_drawer_history');
+      if (stored) {
+        chatbotHistory = JSON.parse(stored);
+      } else {
+        const hist = await Api.tutorHistory();
+        if (Array.isArray(hist) && hist.length) {
+          chatbotHistory = hist.slice(-10);
+        }
+      }
+    } catch (e) {
+      chatbotHistory = [];
+    }
+    renderChatbotMessages();
+  }
+
+  function renderChatbotMessages() {
+    if (!msgsContainer) return;
+    if (!chatbotHistory.length) {
+      msgsContainer.innerHTML = `
+        <div style="text-align:center;padding:28px 12px;color:var(--cream-dim)">
+          <div style="font-size:32px;margin-bottom:8px">👋</div>
+          <div style="font-weight:700;font-size:15px;color:var(--color-text);margin-bottom:4px">Welcome to your AI Tutor!</div>
+          <div style="font-size:13px;line-height:1.5">Ask questions about grammar, vocabulary, pronunciation, or practice English conversation.</div>
+        </div>
+      `;
+      return;
+    }
+
+    msgsContainer.innerHTML = chatbotHistory.map((m) => `
+      <div class="msg-wrap ${m.role === 'user' ? 'user' : 'ai'}" style="margin-bottom:8px">
+        <div class="msg ${m.role === 'user' ? 'user' : 'ai'}" style="font-size:14px;padding:10px 14px;line-height:1.5">
+          ${m.text ? esc(m.text).replace(/\n/g, '<br>') : ''}
+        </div>
+      </div>
+    `).join('');
+    msgsContainer.scrollTop = msgsContainer.scrollHeight;
+  }
+
+  updateGlobalChatbotVisibility();
+}

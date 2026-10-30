@@ -6,44 +6,40 @@ const DebateAttempt = require('../models/DebateAttempt');
 const { scoreDebate } = require('../services/llmService');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
 
-router.get('/topics', requireAuth, requireMinXP(750, 'Debate Practice'), async (req, res) => {
+// GET /api/debate/topics — General English debate topics
+router.get('/topics', requireAuth, requireMinXP(0, 'Debate Practice'), async (req, res) => {
   try {
-    const { department } = req.query;
-    const filter = department ? { $or: [{ department: department.toUpperCase() }, { department: 'General' }] } : {};
-    res.json(await DebateTopic.find(filter).sort({ createdAt: -1 }));
+    const topics = await DebateTopic.find({ active: { $ne: false } }).sort({ createdAt: -1 });
+    res.json(topics);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// GET /api/debate/topics/next — Selects a NEW unattempted topic unique to this user
-router.get('/topics/next', requireAuth, requireMinXP(750, 'Debate Practice'), async (req, res) => {
+// GET /api/debate/topics/next — Selects a NEW unattempted general topic unique to this user
+router.get('/topics/next', requireAuth, requireMinXP(0, 'Debate Practice'), async (req, res) => {
   try {
-    const { department } = req.query;
-    const deptFilter = department ? { $or: [{ department: department.toUpperCase() }, { department: 'General' }] } : {};
-
     // Get list of topic IDs the user has already attempted
     const attemptedTopicIds = await DebateAttempt.find({ user: req.user._id }).distinct('topic');
 
-    // Find topics unattempted by this user
+    // Find active general topics unattempted by this user
     let unattemptedTopics = await DebateTopic.find({
+      active: { $ne: false },
       _id: { $nin: attemptedTopicIds },
-      ...deptFilter,
     }).sort({ createdAt: -1 });
 
     let pickedTopic = null;
     if (unattemptedTopics.length > 0) {
-      // Pick a random unattempted topic from the pool
       pickedTopic = unattemptedTopics[Math.floor(Math.random() * unattemptedTopics.length)];
     } else {
-      // If all topics attempted, pick random from dept
-      const allTopics = await DebateTopic.find(deptFilter);
+      // If all topics attempted, pick any active general topic
+      const allTopics = await DebateTopic.find({ active: { $ne: false } });
       if (allTopics.length > 0) {
         pickedTopic = allTopics[Math.floor(Math.random() * allTopics.length)];
       }
     }
 
-    const totalTopicsCount = await DebateTopic.countDocuments(deptFilter);
+    const totalTopicsCount = await DebateTopic.countDocuments({ active: { $ne: false } });
 
     res.json({
       topic: pickedTopic,

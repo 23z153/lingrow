@@ -4,6 +4,7 @@ const VocabWord = require('../models/VocabWord');
 const VocabProgress = require('../models/VocabProgress');
 const { maybeAwardBadge, awardXP } = require('../services/progressService');
 const { detectGrammarCorrection } = require('../services/llm2BEngine');
+const { buildVocabQuiz } = require('../services/vocabQuizBuilder');
 
 router.get('/', requireAuth, async (req, res) => {
   const { level } = req.query;
@@ -14,7 +15,7 @@ router.get('/', requireAuth, async (req, res) => {
   res.json(words.map((w) => ({ ...w.toObject(), mastered: progressMap[w._id.toString()]?.mastered || false, timesReviewed: progressMap[w._id.toString()]?.timesReviewed || 0 })));
 });
 
-// GET /api/vocabulary/daily — Daily Refreshed Set with Assessment Quizzes
+// GET /api/vocabulary/daily — Daily Refreshed Set with Varied Assessment Quizzes
 router.get('/daily', requireAuth, async (req, res) => {
   try {
     const allWords = await VocabWord.find();
@@ -26,20 +27,8 @@ router.get('/daily', requireAuth, async (req, res) => {
     const progress = await VocabProgress.find({ user: req.user._id });
     const progressMap = Object.fromEntries(progress.map((p) => [p.word.toString(), p]));
 
-    // Generate assessment quiz questions
-    const quizQuestions = dailyWords.map((w) => {
-      const distractors = allWords.filter((other) => other._id.toString() !== w._id.toString()).sort(() => 0.5 - Math.random()).slice(0, 3).map((other) => other.meaning);
-      const options = [w.meaning, ...distractors].sort(() => 0.5 - Math.random());
-      const correctAnswer = options.indexOf(w.meaning);
-      return {
-        wordId: w._id,
-        word: w.word,
-        partOfSpeech: w.partOfSpeech,
-        example: w.example,
-        options,
-        correctAnswer,
-      };
-    });
+    // Generate varied assessment quiz questions
+    const quizQuestions = buildVocabQuiz(dailyWords, allWords, req.user._id);
 
     res.json({
       dailyWords: dailyWords.map((w) => ({ ...w.toObject(), mastered: progressMap[w._id.toString()]?.mastered || false })),
@@ -50,7 +39,7 @@ router.get('/daily', requireAuth, async (req, res) => {
   }
 });
 
-// POST /api/vocabulary/quiz — Generate quiz for specific list of word IDs (e.g., after reading flashcards)
+// POST /api/vocabulary/quiz — Generate varied quiz for specific list of word IDs (e.g., after reading flashcards)
 router.post('/quiz', requireAuth, async (req, res) => {
   try {
     const { wordIds } = req.body;
@@ -58,29 +47,12 @@ router.post('/quiz', requireAuth, async (req, res) => {
     if (Array.isArray(wordIds) && wordIds.length) {
       words = await VocabWord.find({ _id: { $in: wordIds } });
     }
-    if (!words.length) {
-      const all = await VocabWord.find();
-      words = all.sort(() => 0.5 - Math.random()).slice(0, 5);
-    }
     const allWords = await VocabWord.find();
+    if (!words.length) {
+      words = allWords.sort(() => 0.5 - Math.random()).slice(0, 5);
+    }
 
-    const quizQuestions = words.map((w) => {
-      const distractors = allWords
-        .filter((other) => other._id.toString() !== w._id.toString())
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3)
-        .map((other) => other.meaning);
-      const options = [w.meaning, ...distractors].sort(() => 0.5 - Math.random());
-      const correctAnswer = options.indexOf(w.meaning);
-      return {
-        wordId: w._id,
-        word: w.word,
-        partOfSpeech: w.partOfSpeech,
-        example: w.example,
-        options,
-        correctAnswer,
-      };
-    });
+    const quizQuestions = buildVocabQuiz(words, allWords, req.user._id);
 
     res.json({ quizQuestions });
   } catch (err) {
@@ -91,7 +63,7 @@ router.post('/quiz', requireAuth, async (req, res) => {
 // POST /api/vocabulary/assessment — Submit Vocabulary Assessment & Earn XP
 router.post('/assessment', requireAuth, async (req, res) => {
   try {
-    const { wordId, answerType, selectedOption, spokenSentence } = req.body;
+    const { wordId, answerType, selectedOption, selectedIndex, correctIndex, spokenSentence, explanation } = req.body;
     if (!wordId) return res.status(400).json({ error: 'wordId is required' });
 
     const word = await VocabWord.findById(wordId);
@@ -132,24 +104,36 @@ router.post('/assessment', requireAuth, async (req, res) => {
       });
     }
 
-    // Default MCQ Assessment
-    const allWords = await VocabWord.find();
-    const correctMeaning = word.meaning;
-    const isCorrect = Number(selectedOption) === 0 || selectedOption === correctMeaning;
-    const xpEarned = isCorrect ? 10 : 2;
+    // Varied MCQ Assessment handling
+    let isCorrect = false;
+    if (selectedIndex !== undefined && correctIndex !== undefined) {
+      isCorrect = Number(selectedIndex) === Number(correctIndex);
+    } else if (selectedOption !== undefined) {
+      isCorrect = selectedOption === word.meaning || selectedOption === word.word;
+    }
+
+    const xpEarned = isCorrect ? 10 : 0;
 
     progress.timesReviewed += 1;
     if (isCorrect) progress.mastered = true;
     await progress.save();
 
-    await awardXP(req.user, xpEarned);
+    if (isCorrect) {
+      await awardXP(req.user, xpEarned);
+    }
+
     const masteredCount = await VocabProgress.countDocuments({ user: req.user._id, mastered: true });
     if (masteredCount >= 20) await maybeAwardBadge(req.user, 'vocab_master');
+
+    const resultFeedback = isCorrect
+      ? `Correct! ${explanation || `"${word.word}" means: ${word.meaning}`}`
+      : `Incorrect. ${explanation || `The correct definition for "${word.word}" is: ${word.meaning}`}`;
 
     res.json({
       isCorrect,
       xpEarned,
-      feedback: isCorrect ? `Correct! "${word.word}" means: ${word.meaning}` : `Incorrect. The correct meaning of "${word.word}" is: ${word.meaning}`,
+      feedback: resultFeedback,
+      explanation: explanation || word.meaning,
       masteredCount,
     });
   } catch (err) {

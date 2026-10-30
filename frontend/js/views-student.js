@@ -214,33 +214,34 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
 /* ---------------------------- READ ALOUD ---------------------------- */
 VIEW_RENDERERS['read-aloud'] = async (mount) => {
   const passages = await Api.passages();
-  const dept = S.user?.department || 'CSE';
   mount.innerHTML = `
     <div class="row" style="margin-bottom:14px;align-items:center">
       <div>
-        <div class="section-title" style="margin-bottom:2px">${ICONS.mic} Read Aloud (${dept} Department Bank)</div>
-        <div style="font-size:14px;color:var(--cream-dim)">Showing 5 randomly selected technical passages from your department's 50+ question bank pool.</div>
+        <div class="section-title" style="margin-bottom:2px">${ICONS.mic} Read Aloud</div>
+        <div style="font-size:14px;color:var(--cream-dim)">Practice pronunciation and fluency with short English passages.</div>
       </div>
       <div class="spacer"></div>
-      <button class="btn btn-ghost btn-sm" id="refresh-passages-btn">${ICONS.activity} Refresh 5 Questions</button>
+      <button class="btn btn-ghost btn-sm" id="refresh-passages-btn">${ICONS.activity} Show different passages</button>
     </div>
     <div class="grid grid-3" id="passage-grid"></div>
     <div id="practice-area" style="margin-top:20px"></div>
   `;
   const grid = $('#passage-grid');
-  passages.forEach(p=>{
+  passages.forEach(p => {
+    const readingTime = p.estimatedReadingTime || `~${Math.max(1, Math.ceil((p.wordCount || 75) / 130))} min read`;
     grid.appendChild(el(`
       <div class="card" style="cursor:pointer" data-id="${p._id}">
-        <div class="row gap-sm" style="margin-bottom:10px">
+        <div class="row gap-sm" style="margin-bottom:10px;align-items:center">
           <span class="pill ${levelColor(p.level)}">${p.level}</span>
-          <span class="pill sprout">${p.department || dept}</span>
+          <div class="spacer"></div>
+          <span style="font-size:12px;color:var(--cream-faint)">${readingTime}</span>
         </div>
         <h3 style="font-size:17px;margin-bottom:6px">${esc(p.title)}</h3>
-        <div style="font-size:13.5px;color:var(--cream-faint)">${p.wordCount} words</div>
+        <div style="font-size:13.5px;color:var(--cream-faint)">${p.wordCount || 75} words</div>
       </div>`));
   });
-  grid.querySelectorAll('[data-id]').forEach(card=>{
-    card.onclick = ()=> openReadAloudPractice(passages.find(p=>p._id===card.dataset.id));
+  grid.querySelectorAll('[data-id]').forEach(card => {
+    card.onclick = () => openReadAloudPractice(passages.find(p => p._id === card.dataset.id));
   });
 
   $('#refresh-passages-btn').onclick = () => setView('read-aloud');
@@ -426,9 +427,14 @@ function renderReadAloudResult(attempt, xpGain){
 
 /* ---------------------------- VOCABULARY ---------------------------- */
 VIEW_RENDERERS['vocabulary'] = async (mount) => {
-  let activeTab = 'flashcards'; // 'flashcards', 'daily', 'quiz', 'spoken'
+  let currentStep = 1; // 1: Flashcards, 2: Assessment, 3: Speak It, 4: Summary
   let vocabData = null;
   let allWords = [];
+  let dailyWords = [];
+  let wrongWords = [];
+  let sessionXPEarned = 0;
+  let quizQuestions = [];
+  let assessmentResults = {};
 
   try {
     const [allRes, dailyRes] = await Promise.all([
@@ -437,639 +443,601 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
     ]);
     allWords = Array.isArray(allRes) ? allRes : [];
     vocabData = dailyRes || { dailyWords: [], quizQuestions: [] };
+    dailyWords = Array.isArray(vocabData.dailyWords) && vocabData.dailyWords.length
+      ? vocabData.dailyWords
+      : allWords.slice(0, 5);
   } catch (e) {
     allWords = [];
-    vocabData = { dailyWords: [], quizQuestions: [] };
+    dailyWords = [];
   }
 
-  function renderVocabView() {
-    const masteredCount = allWords.filter((w) => w.mastered).length;
+  function getMasteredCount() {
+    return allWords.filter(w => w.mastered).length;
+  }
 
+  function renderStepperHTML() {
+    const step1Class = currentStep === 1 ? 'current' : (currentStep > 1 ? 'done' : 'upcoming');
+    const step2Class = currentStep === 2 ? 'current' : (currentStep > 2 ? 'done' : 'upcoming');
+    const step3Class = currentStep === 3 ? 'current' : (currentStep > 3 ? 'done' : 'upcoming');
+
+    return `
+      <div class="vocab-stepper-wrap" aria-label="Vocabulary Learning Steps">
+        <div class="vocab-step-badge ${step1Class}">
+          <span class="step-num">${currentStep > 1 ? '✓' : '1'}</span>
+          <span class="step-title">Step 1: Flashcards</span>
+        </div>
+        <div class="vocab-step-line ${currentStep > 1 ? 'done' : ''}"></div>
+        <div class="vocab-step-badge ${step2Class}">
+          <span class="step-num">${currentStep > 2 ? '✓' : '2'}</span>
+          <span class="step-title">Step 2: Assessment</span>
+        </div>
+        <div class="vocab-step-line ${currentStep > 2 ? 'done' : ''}"></div>
+        <div class="vocab-step-badge ${step3Class}">
+          <span class="step-num">${currentStep > 3 ? '✓' : '3'}</span>
+          <span class="step-title">Step 3: Speak It</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderVocabMain() {
     mount.innerHTML = `
-      <div class="row" style="margin-bottom:16px;align-items:center">
+      <!-- Header -->
+      <div class="row" style="margin-bottom:14px;align-items:center">
         <div>
-          <div class="section-title" style="margin-bottom:2px">${ICONS.book} Technical &amp; Campus Vocabulary</div>
-          <div style="font-size:14px;color:var(--cream-dim)">Daily refreshed vocabulary sets, interactive flashcards, AI assessments, and XP rewards.</div>
+          <div class="section-title" style="margin-bottom:2px">${ICONS.book} Daily Vocabulary</div>
+          <div style="font-size:14px;color:var(--cream-dim)">Learn new words, then test yourself.</div>
         </div>
         <div class="spacer"></div>
-        <span class="pill sprout" style="font-size:12.5px">${masteredCount} / ${allWords.length} Words Mastered</span>
+        <span class="pill sprout" style="font-size:12.5px" id="vocab-mastered-pill">${getMasteredCount()} / ${allWords.length} Words Mastered</span>
       </div>
 
-      <div class="row gap-xs" style="margin-bottom:16px;border-bottom:1px solid var(--line);padding-bottom:10px;flex-wrap:wrap">
-        <button class="pill" style="cursor:pointer" id="vtab-cards">&#x1F4DA; Flashcards Pool (${allWords.length})</button>
-        <button class="pill" style="cursor:pointer" id="vtab-daily">&#x1F504; Daily Refreshed Set (${vocabData.dailyWords?.length || 0})</button>
-        <button class="pill" style="cursor:pointer" id="vtab-quiz">&#x26A1; Daily Assessment Quiz (+10 XP)</button>
-        <button class="pill" style="cursor:pointer" id="vtab-spoken">&#x1F399;&#xFE0F; Spoken Usage AI (+15 XP)</button>
-      </div>
+      <!-- Linear Stepper -->
+      ${renderStepperHTML()}
 
-      <div id="vocab-tab-content"></div>
+      <!-- Step Content Area -->
+      <div id="vocab-step-container"></div>
+      <div id="vocab-transition-container"></div>
     `;
 
-    const contentArea = $('#vocab-tab-content');
-    const btnCards = $('#vtab-cards');
-    const btnDaily = $('#vtab-daily');
-    const btnQuiz = $('#vtab-quiz');
-    const btnSpoken = $('#vtab-spoken');
-
-    [btnCards, btnDaily, btnQuiz, btnSpoken].forEach((b) => {
-      b.style.borderColor = 'var(--line)';
-      b.style.background = 'transparent';
-      b.style.color = 'var(--color-text-muted)';
-    });
-
-    if (activeTab === 'flashcards') {
-      btnCards.style.borderColor = 'var(--purple)';
-      btnCards.style.background = 'var(--purple)';
-      btnCards.style.color = 'var(--color-on-primary)';
-      renderFlashcardsTab(contentArea, allWords);
-    } else if (activeTab === 'daily') {
-      btnDaily.style.borderColor = 'var(--emerald)';
-      btnDaily.style.background = 'var(--emerald)';
-      btnDaily.style.color = 'var(--color-on-bright)';
-      renderDailyTab(contentArea, vocabData.dailyWords || []);
-    } else if (activeTab === 'quiz') {
-      btnQuiz.style.borderColor = 'var(--amber)';
-      btnQuiz.style.background = 'var(--amber)';
-      btnQuiz.style.color = 'var(--color-on-bright)';
-      renderQuizTab(contentArea, vocabData.quizQuestions || []);
-    } else if (activeTab === 'spoken') {
-      btnSpoken.style.borderColor = 'var(--color-gem)';
-      btnSpoken.style.background = 'var(--color-gem)';
-      btnSpoken.style.color = 'var(--color-on-bright)';
-      renderSpokenTab(contentArea, vocabData.dailyWords || []);
-    }
-
-    btnCards.onclick = () => { activeTab = 'flashcards'; renderVocabView(); };
-    btnDaily.onclick = () => { activeTab = 'daily'; renderVocabView(); };
-    btnQuiz.onclick = () => { activeTab = 'quiz'; renderVocabView(); };
-    btnSpoken.onclick = () => { activeTab = 'spoken'; renderVocabView(); };
+    const container = $('#vocab-step-container');
+    if (currentStep === 1) renderStep1Flashcards(container);
+    else if (currentStep === 2) renderStep2Assessment(container);
+    else if (currentStep === 3) renderStep3Spoken(container);
+    else if (currentStep === 4) renderStep4Summary(container);
   }
 
-  function renderFlashcardsTab(area, words) {
-    if (!words.length) {
+  // --- STEP 1: Interactive Flashcards Deck ---
+  function renderStep1Flashcards(area) {
+    if (!dailyWords.length) {
       area.innerHTML = `
-        <div class="card" style="text-align:center;padding:30px">
-          <div style="font-size:16px;font-weight:700;margin-bottom:8px">No vocabulary words available right now</div>
-          <div style="font-size:14px;color:var(--cream-dim)">Run <code>npm run seed</code> in the backend terminal or refresh to populate starter words.</div>
-          <button class="btn btn-primary btn-sm" style="margin-top:14px" id="reload-vocab-btn">Refresh Words</button>
-        </div>`;
-      $('#reload-vocab-btn').onclick = () => setView('vocabulary');
+        <div class="card empty-state" style="padding:40px;text-align:center">
+          <div style="font-size:16px;font-weight:700;margin-bottom:6px">No vocabulary words available right now</div>
+          <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:14px">Click below to refresh today's starter words.</div>
+          <button class="btn btn-primary btn-sm" id="reload-daily-vocab-btn">Refresh Words</button>
+        </div>
+      `;
+      $('#reload-daily-vocab-btn').onclick = () => setView('vocabulary');
       return;
     }
 
     let currentIndex = 0;
     let isFlipped = false;
     const readWordIds = new Set();
-    let isAssessmentMode = false;
-    let assessmentQuestions = [];
-    let assessmentResults = {};
+    let transitionScheduled = false;
 
-    function renderDeckView() {
-      if (isAssessmentMode) {
-        renderDeckAssessment();
-        return;
+    function renderCardView() {
+      const currentWord = dailyWords[currentIndex];
+      readWordIds.add(currentWord._id);
+      const allRead = readWordIds.size === dailyWords.length;
+      const progressPercent = Math.round(((currentIndex + 1) / dailyWords.length) * 100);
+
+      // Auto-open assessment when all cards viewed
+      if (allRead && !transitionScheduled) {
+        transitionScheduled = true;
+        showAutoAssessmentTransition();
       }
 
-      const currentWord = words[currentIndex];
-      readWordIds.add(currentWord._id);
-      const isLastCard = currentIndex === words.length - 1;
-      const allRead = readWordIds.size === words.length;
-      const progressPercent = Math.round(((currentIndex + 1) / words.length) * 100);
-
       area.innerHTML = `
-        <!-- Deck Header & Progress -->
-        <div class="card card-2" style="margin-bottom:16px;background:var(--card-bg);border:1px solid var(--line)">
-          <div class="row gap-sm" style="align-items:center;margin-bottom:10px">
-            <div style="font-size:16px;font-weight:700;color:var(--color-text)">📖 Interactive Deck Reader</div>
+        <div class="card card-2" style="max-width:680px;margin:0 auto">
+          <!-- Card Progress Header -->
+          <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
+            <span class="pill voice" style="font-size:11.5px">Word ${currentIndex + 1} of ${dailyWords.length}</span>
+            <span class="pill sprout" style="font-size:11.5px">${readWordIds.size}/${dailyWords.length} Read</span>
             <div class="spacer"></div>
-            <span class="pill voice" style="font-weight:600">Card ${currentIndex + 1} of ${words.length}</span>
-            <span class="pill sprout" style="font-weight:600">${readWordIds.size}/${words.length} Read</span>
+            <span style="font-size:12.5px;color:var(--cream-faint)">Flip card to learn usage</span>
           </div>
-          <div style="background:var(--color-border);border-radius:6px;height:8px;overflow:hidden">
+          <div style="background:var(--color-border);border-radius:6px;height:6px;overflow:hidden;margin-bottom:16px">
             <div style="background:var(--purple);height:100%;width:${progressPercent}%;transition:width 0.3s ease"></div>
           </div>
-        </div>
 
-        <!-- Main Card Display -->
-        <div class="flashcard" id="deck-card-element" style="min-height:220px;cursor:pointer;margin-bottom:16px">
-          ${renderCardContent(currentWord, isFlipped)}
-        </div>
-
-        <!-- Navigation Controls -->
-        <div class="row gap-sm" style="align-items:center;flex-wrap:wrap;margin-bottom:24px">
-          <button class="btn btn-ghost" id="deck-prev-btn" ${currentIndex === 0 ? 'disabled' : ''}>⬅️ Previous Card</button>
-          <button class="btn btn-ghost" id="deck-flip-btn">🔄 ${isFlipped ? 'Show Word' : 'Flip to Reveal Meaning'}</button>
-          <button class="btn btn-ghost" id="deck-listen-btn">${ICONS.play} Listen Pronunciation</button>
-          <div class="spacer"></div>
-          ${(isLastCard || allRead) ? `
-            <button class="btn btn-primary" id="deck-start-assessment-btn" class="btn btn-primary btn-action" style="font-weight:700">
-              ⚡ Read All! Start Assessment Quiz (+10 XP)
-            </button>
-          ` : `
-            <button class="btn btn-primary" id="deck-next-btn">➡️ Next Flashcard</button>
-          `}
-        </div>
-
-        <!-- Grid View Below Deck -->
-        <div style="margin-top:28px;border-top:1px solid var(--line);padding-top:16px">
-          <div class="row gap-sm" style="align-items:center;margin-bottom:12px">
-            <div style="font-size:15px;font-weight:700;color:var(--cream-faint)">📚 Complete Flashcards Pool (${words.length} Words)</div>
-            <div class="spacer"></div>
-            ${allRead ? `<button class="btn btn-primary btn-sm" id="grid-assessment-btn" class="btn-action" style="background:var(--color-success);color:var(--color-on-bright)">⚡ Start Assessment Quiz</button>` : ''}
+          <!-- Main Flashcard Box -->
+          <div class="flashcard" id="deck-card-element" style="min-height:220px;cursor:pointer;margin-bottom:18px">
+            ${renderFlashcardContent(currentWord, isFlipped)}
           </div>
-          <div class="grid grid-3" id="vocab-grid"></div>
+
+          <!-- Card Controls -->
+          <div class="row gap-sm" style="align-items:center;flex-wrap:wrap">
+            <button class="btn btn-ghost btn-sm" id="deck-prev-btn" ${currentIndex === 0 ? 'disabled' : ''}>⬅️ Previous</button>
+            <button class="btn btn-ghost btn-sm" id="deck-flip-btn">🔄 ${isFlipped ? 'Show Word' : 'Flip for Meaning'}</button>
+            <button class="btn btn-ghost btn-sm" id="deck-listen-btn">${ICONS.play} Listen</button>
+            <div class="spacer"></div>
+            ${allRead ? `
+              <button class="btn btn-primary btn-sm" id="deck-go-assessment-btn" style="font-weight:700">
+                ⚡ Proceed to Assessment (+10 XP)
+              </button>
+            ` : `
+              <button class="btn btn-primary btn-sm" id="deck-next-btn">Next Word ➡️</button>
+            `}
+          </div>
         </div>
       `;
 
-      // Attach Card event handlers
       const cardEl = $('#deck-card-element');
-      cardEl.onclick = (e) => {
-        if (e.target.closest('button')) return;
-        isFlipped = !isFlipped;
-        cardEl.innerHTML = renderCardContent(currentWord, isFlipped);
-        attachCardButtons(currentWord);
-      };
+      if (cardEl) {
+        cardEl.onclick = () => {
+          isFlipped = !isFlipped;
+          cardEl.innerHTML = renderFlashcardContent(currentWord, isFlipped);
+        };
+      }
 
       $('#deck-flip-btn').onclick = () => {
         isFlipped = !isFlipped;
-        cardEl.innerHTML = renderCardContent(currentWord, isFlipped);
-        attachCardButtons(currentWord);
+        cardEl.innerHTML = renderFlashcardContent(currentWord, isFlipped);
       };
 
       $('#deck-listen-btn').onclick = () => {
-        SpeechOutput.speak(`${currentWord.word}. ${currentWord.example}`);
+        SpeechOutput.speak(`${currentWord.word}. ${currentWord.meaning}`);
       };
 
       $('#deck-prev-btn').onclick = () => {
         if (currentIndex > 0) {
           currentIndex--;
           isFlipped = false;
-          renderDeckView();
+          renderCardView();
         }
       };
 
       const nextBtn = $('#deck-next-btn');
       if (nextBtn) {
         nextBtn.onclick = () => {
-          if (currentIndex < words.length - 1) {
+          if (currentIndex < dailyWords.length - 1) {
             currentIndex++;
             isFlipped = false;
-            renderDeckView();
+            renderCardView();
           }
         };
       }
 
-      const startAssessBtn = $('#deck-start-assessment-btn');
-      if (startAssessBtn) {
-        startAssessBtn.onclick = () => startPostReadingAssessment();
+      const goAssessBtn = $('#deck-go-assessment-btn');
+      if (goAssessBtn) {
+        goAssessBtn.onclick = () => {
+          currentStep = 2;
+          renderVocabMain();
+        };
       }
-
-      const gridAssessBtn = $('#grid-assessment-btn');
-      if (gridAssessBtn) {
-        gridAssessBtn.onclick = () => startPostReadingAssessment();
-      }
-
-      // Populate grid below
-      renderGridItems(words);
     }
 
-    function renderCardContent(w, flipped) {
+    function renderFlashcardContent(w, flipped) {
       if (!flipped) {
         return `
-          <div class="face-front" style="padding:24px;text-align:center">
-            <div class="row gap-xs" style="justify-content:center;margin-bottom:8px">
-              <span class="pill ${levelColor(w.level)}">${w.level}</span>
-              <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
-            </div>
-            <div class="word-main" style="font-size:32px;margin:12px 0">${esc(w.word)}</div>
-            <div class="word-sub">Tap card or press Flip to reveal definition &amp; example</div>
-            ${w.mastered ? `<div class="pill sprout" style="margin-top:12px">${ICONS.check} Mastered</div>` : ''}
-          </div>
-        `;
-      } else {
-        return `
-          <div class="face-back" style="padding:24px">
-            <div class="row gap-xs" style="margin-bottom:6px">
-              <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
-              ${w.mastered ? `<span class="pill sprout">${ICONS.check} Mastered</span>` : ''}
-            </div>
-            <div style="font-size:22px;font-weight:700;color:var(--color-text);margin-bottom:8px">${esc(w.word)}</div>
-            <div style="font-size:16px;margin:8px 0;line-height:1.45;color:var(--cream)"><b>Meaning:</b> ${esc(w.meaning)}</div>
-            <div style="font-size:14px;color:var(--cream-dim);font-style:italic;margin-bottom:14px">"${esc(w.example)}"</div>
-            <div class="row gap-sm" style="margin-top:auto" id="deck-card-actions">
-              <button class="btn btn-ghost btn-sm" id="deck-card-listen-btn">${ICONS.play} Listen Audio</button>
-              <button class="btn btn-primary btn-sm" id="deck-card-know-btn">${w.mastered ? 'Mastered' : 'Mark Mastered (+5 XP)'}</button>
-            </div>
+          <div class="col gap-xs" style="text-align:center;padding:28px 20px">
+            <span class="pill voice" style="align-self:center;font-size:11.5px">${esc(w.partOfSpeech || 'word')}</span>
+            <div style="font-size:36px;font-weight:800;letter-spacing:-0.5px;color:var(--color-text);margin:14px 0">${esc(w.word)}</div>
+            <div style="font-size:13.5px;color:var(--cream-dim)">Tap card or flip button to reveal definition &amp; example</div>
           </div>
         `;
       }
-    }
-
-    function attachCardButtons(w) {
-      const listenBtn = $('#deck-card-listen-btn');
-      if (listenBtn) {
-        listenBtn.onclick = (e) => {
-          e.stopPropagation();
-          SpeechOutput.speak(`${w.word}. ${w.example}`);
-        };
-      }
-      const knowBtn = $('#deck-card-know-btn');
-      if (knowBtn) {
-        knowBtn.onclick = async (e) => {
-          e.stopPropagation();
-          try {
-            await Api.reviewVocab(w._id, true);
-            w.mastered = true;
-            toast(`Marked "${w.word}" as mastered (+5 XP)`, 'sprout');
-            addStudentXP(5);
-            renderDeckView();
-          } catch (err) {
-            apiError(err);
-          }
-        };
-      }
-    }
-
-    function renderGridItems(wordsList) {
-      const grid = $('#vocab-grid');
-      if (!grid) return;
-      grid.innerHTML = '';
-      wordsList.forEach((w) => {
-        const isRead = readWordIds.has(w._id);
-        const card = el(`
-          <div class="flashcard" data-id="${w._id}" data-flipped="0" style="border:${isRead ? '1px solid var(--purple)' : '1px solid var(--line)'}">
-            <div class="face-front">
-              <div class="row gap-xs" style="margin-bottom:8px;justify-content:space-between;width:100%">
-                <span class="pill ${levelColor(w.level)}">${w.level}</span>
-                ${isRead ? `<span class="pill sprout" style="font-size:11px">Read ✓</span>` : ''}
-              </div>
-              <div class="word-main">${esc(w.word)}</div>
-              <div class="word-sub">Tap to reveal meaning &amp; example</div>
-              ${w.mastered ? `<div class="pill sprout" style="margin-top:8px">${ICONS.check} Mastered</div>` : ''}
-            </div>
-          </div>`);
-
-        card.onclick = (e) => {
-          if (e.target.closest('button')) return;
-          readWordIds.add(w._id);
-          const flipped = card.dataset.flipped === '1';
-          if (!flipped) {
-            card.dataset.flipped = '1';
-            card.innerHTML = `
-              <div style="font-weight:700;font-size:14px;color:var(--cream-faint);text-transform:uppercase">${esc(w.partOfSpeech || 'noun')}</div>
-              <div style="font-size:15px;margin:8px 0;line-height:1.45">${esc(w.meaning)}</div>
-              <div style="font-size:13.5px;color:var(--cream-dim);font-style:italic;margin-bottom:10px">"${esc(w.example)}"</div>
-              <div class="row gap-sm" style="margin-top:auto">
-                <button class="btn btn-ghost btn-sm" data-listen>${ICONS.play} Listen</button>
-                <button class="btn btn-primary btn-sm" data-know>${w.mastered ? 'Mastered' : 'I know this (+5 XP)'}</button>
-              </div>`;
-
-            card.querySelector('[data-listen]').onclick = (ev) => {
-              ev.stopPropagation();
-              SpeechOutput.speak(`${w.word}. ${w.example}`);
-            };
-
-            card.querySelector('[data-know]').onclick = async (ev) => {
-              ev.stopPropagation();
-              try {
-                await Api.reviewVocab(w._id, true);
-                w.mastered = true;
-                toast(`Marked "${w.word}" as mastered (+5 XP)`, 'sprout');
-                addStudentXP(5);
-                setView('vocabulary');
-              } catch (err) {
-                apiError(err);
-              }
-            };
-          }
-        };
-        grid.appendChild(card);
-      });
-    }
-
-    async function startPostReadingAssessment() {
-      isAssessmentMode = true;
-      area.innerHTML = `
-        <div class="card" style="text-align:center;padding:40px">
-          <div style="font-size:24px;margin-bottom:12px">⚡ Generating Post-Reading Assessment Quiz...</div>
-          <div style="font-size:14px;color:var(--cream-dim)">Preparing retention questions for the ${readWordIds.size} flashcards you read.</div>
-        </div>`;
-
-      try {
-        const res = await Api.generateVocabQuiz(Array.from(readWordIds));
-        assessmentQuestions = res.quizQuestions || [];
-        renderDeckAssessment();
-      } catch (err) {
-        apiError(err);
-        isAssessmentMode = false;
-        renderDeckView();
-      }
-    }
-
-    function renderDeckAssessment() {
-      if (!assessmentQuestions.length) {
-        area.innerHTML = `<div class="empty-state">No assessment questions available.</div>`;
-        return;
-      }
-
-      const answeredCount = Object.keys(assessmentResults).length;
-      const totalQuestions = assessmentQuestions.length;
-      const isComplete = answeredCount === totalQuestions;
-      const totalEarnedXP = Object.values(assessmentResults).reduce((sum, r) => sum + (r.xpEarned || 0), 0);
-      const correctCount = Object.values(assessmentResults).filter((r) => r.isCorrect).length;
-
-      area.innerHTML = `
-        <div class="card card-2" style="margin-bottom:16px;background:var(--card-bg);border:1px solid var(--amber)">
-          <div class="row gap-sm" style="align-items:center;margin-bottom:6px">
-            <div style="font-size:18px;font-weight:700;color:var(--amber)">⚡ Post-Reading Flashcard Assessment Quiz</div>
+      return `
+        <div class="col gap-sm" style="padding:22px">
+          <div class="row gap-xs" style="align-items:center">
+            <span class="pill voice" style="font-size:11px">${esc(w.partOfSpeech || 'word')}</span>
+            <span class="pill sprout" style="font-size:11px">${esc(w.level || 'Intermediate')}</span>
             <div class="spacer"></div>
-            <span class="pill sprout" style="font-size:13px;font-weight:700">+10 XP per Correct Answer</span>
+            ${w.mastered ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} Mastered</span>` : ''}
           </div>
-          <div style="font-size:14px;color:var(--cream-dim);margin-bottom:12px">
-            Test your recall on the <b>${readWordIds.size} flashcards</b> you just read! Select the correct definition for each target word.
-          </div>
-          <div style="background:var(--color-border);border-radius:6px;height:8px;overflow:hidden">
-            <div style="background:var(--amber);height:100%;width:${Math.round((answeredCount / totalQuestions) * 100)}%;transition:width 0.3s ease"></div>
+          <div style="font-size:24px;font-weight:800;color:var(--purple);margin:4px 0">${esc(w.word)}</div>
+          <div style="font-size:15px;line-height:1.55;color:var(--color-text)"><b>Definition:</b> ${esc(w.meaning)}</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--cream-dim);background:var(--panel-2);padding:10px 14px;border-radius:8px;border-left:3px solid var(--purple)">
+            <i>"${esc(w.example)}"</i>
           </div>
         </div>
+      `;
+    }
 
-        ${isComplete ? `
-          <!-- Summary Celebration Card -->
-          <div class="card card-2" style="text-align:center;padding:30px;margin-bottom:20px;border:1px solid var(--color-success);background:var(--color-success-soft)">
-            <div style="font-size:36px;margin-bottom:8px">🎉 Assessment Completed!</div>
-            <h3 style="font-size:24px;color:var(--color-text);margin-bottom:8px">Score: ${correctCount} / ${totalQuestions} Correct (${Math.round((correctCount/totalQuestions)*100)}%)</h3>
-            <div class="pill sprout" style="font-size:16px;padding:8px 16px;margin-bottom:16px">Total XP Earned: +${totalEarnedXP} XP ⚡</div>
-            <div class="row gap-sm" style="justify-content:center">
-              <button class="btn btn-primary" id="re-read-deck-btn">🔄 Re-read Flashcards Deck</button>
-              <button class="btn btn-ghost" id="goto-spoken-btn">🎤 Try AI Spoken Challenge</button>
-            </div>
+    function showAutoAssessmentTransition() {
+      const container = $('#vocab-transition-container');
+      if (!container) return;
+
+      container.innerHTML = `
+        <div class="vocab-transition-overlay" id="vocab-transition-modal">
+          <div class="vocab-transition-card">
+            <div style="font-size:36px">🎉</div>
+            <h3 style="font-size:22px;font-weight:800;color:var(--color-text);margin:0">Flashcards complete!</h3>
+            <p style="font-size:14.5px;color:var(--cream-dim);line-height:1.55;margin:0">
+              Starting your assessment in <b id="vocab-countdown" style="color:var(--purple);font-size:16px">1.5</b>s…
+            </p>
+            <button class="btn btn-ghost btn-sm" id="skip-vocab-transition-btn" style="color:var(--cream-faint);margin-top:4px">
+              Skip for now
+            </button>
           </div>
-        ` : ''}
-
-        <div class="col gap-md">
-          ${assessmentQuestions.map((q, qIdx) => {
-            const result = assessmentResults[qIdx];
-            return `
-              <div class="card card-2" id="fda-card-${qIdx}">
-                <div class="row gap-sm" style="margin-bottom:6px">
-                  <span class="pill voice">${esc(q.partOfSpeech || 'noun')}</span>
-                  <span class="pill sprout">+10 XP</span>
-                </div>
-                <h3 style="font-size:20px;margin-bottom:6px;color:var(--color-text)">Q${qIdx + 1}: What is the correct meaning of "${esc(q.word)}"?</h3>
-                <div class="col gap-xs" style="margin-top:10px" id="fda-opts-${qIdx}">
-                  ${q.options.map((opt, oIdx) => {
-                    let optStyle = 'text-align:left;justify-content:flex-start;padding:10px 14px;border:1px solid var(--line);font-size:14.5px';
-                    if (result) {
-                      if (opt === q.options[q.correctAnswer]) optStyle += ';border:2px solid var(--color-success);background:var(--color-success-soft);color:var(--color-success-text)';
-                      else if (result.selectedOpt === opt && !result.isCorrect) optStyle += ';border:2px solid var(--color-error);background:var(--color-error-soft);color:var(--color-error-text)';
-                    }
-                    return `
-                      <button class="btn btn-ghost" style="${optStyle}" data-qidx="${qIdx}" data-oidx="${oIdx}" ${result ? 'disabled' : ''}>
-                        ${esc(opt)}
-                      </button>
-                    `;
-                  }).join('')}
-                </div>
-                <div id="fda-feedback-${qIdx}" style="margin-top:10px">
-                  ${result ? `
-                    <div class="pill ${result.isCorrect ? 'sprout' : 'coral'}" style="font-size:13.5px">
-                      ${result.isCorrect ? '✔' : '✖'} ${esc(result.feedback)} (${result.isCorrect ? `+${result.xpEarned} XP` : '0 XP'})
-                    </div>
-                  ` : ''}
-                </div>
-              </div>
-            `;
-          }).join('')}
         </div>
       `;
 
-      // Event handlers for options
+      let timeLeft = 1.5;
+      const countEl = $('#vocab-countdown');
+      const interval = setInterval(() => {
+        timeLeft -= 0.5;
+        if (countEl) countEl.textContent = timeLeft > 0 ? timeLeft.toFixed(1) : '0';
+        if (timeLeft <= 0) {
+          clearInterval(interval);
+          closeModal();
+          currentStep = 2;
+          renderVocabMain();
+        }
+      }, 500);
+
+      function closeModal() {
+        clearInterval(interval);
+        if (container) container.innerHTML = '';
+      }
+
+      const skipBtn = $('#skip-vocab-transition-btn');
+      if (skipBtn) {
+        skipBtn.onclick = () => {
+          closeModal();
+          toast('You can proceed to Assessment whenever you are ready.', 'voice');
+        };
+      }
+    }
+
+    renderCardView();
+  }
+
+  // --- STEP 2: Varied Assessment Quiz ---
+  async function renderStep2Assessment(area) {
+    area.innerHTML = `
+      <div class="card card-2" style="text-align:center;padding:40px;max-width:680px;margin:0 auto">
+        <div style="font-size:24px;margin-bottom:10px">⚡ Preparing Assessment Quiz…</div>
+        <div style="font-size:14px;color:var(--cream-dim)">Generating varied multi-format questions for your flashcard words.</div>
+      </div>
+    `;
+
+    if (!quizQuestions.length) {
+      try {
+        const ids = dailyWords.map(w => w._id);
+        const res = await Api.generateVocabQuiz(ids);
+        quizQuestions = res.quizQuestions || [];
+      } catch (e) {
+        quizQuestions = [];
+      }
+    }
+
+    if (!quizQuestions.length) {
+      area.innerHTML = `
+        <div class="card empty-state" style="padding:32px;text-align:center;max-width:680px;margin:0 auto">
+          <div>No assessment questions could be generated.</div>
+          <button class="btn btn-primary btn-sm" style="margin-top:12px" id="back-to-step1-btn">Back to Flashcards</button>
+        </div>
+      `;
+      $('#back-to-step1-btn').onclick = () => { currentStep = 1; renderVocabMain(); };
+      return;
+    }
+
+    function renderQuizQuestions() {
+      const answeredCount = Object.keys(assessmentResults).length;
+      const totalCount = quizQuestions.length;
+      const isAllAnswered = answeredCount === totalCount;
+      const correctCount = Object.values(assessmentResults).filter(r => r.isCorrect).length;
+
+      area.innerHTML = `
+        <div class="col gap-md" style="max-width:680px;margin:0 auto">
+          <!-- Quiz Progress Banner -->
+          <div class="card card-2" style="border:1px solid var(--amber)">
+            <div class="row gap-sm" style="align-items:center;margin-bottom:6px">
+              <div style="font-size:16px;font-weight:700;color:var(--amber)">⚡ Step 2: Varied Assessment Quiz</div>
+              <div class="spacer"></div>
+              <span class="pill sprout" style="font-size:12px;font-weight:700">+10 XP per Correct Answer</span>
+            </div>
+            <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:10px">
+              ${answeredCount} of ${totalCount} Questions Answered
+            </div>
+            <div style="background:var(--color-border);border-radius:6px;height:6px;overflow:hidden">
+              <div style="background:var(--amber);height:100%;width:${Math.round((answeredCount / totalCount) * 100)}%;transition:width 0.3s ease"></div>
+            </div>
+          </div>
+
+          <!-- All Answered Celebration Card -->
+          ${isAllAnswered ? `
+            <div class="card card-2" style="text-align:center;padding:24px;border:1px solid var(--color-success);background:var(--color-success-soft)">
+              <div style="font-size:32px;margin-bottom:6px">🎉</div>
+              <h3 style="font-size:20px;color:var(--color-text);margin-bottom:6px">
+                Assessment Score: ${correctCount} / ${totalCount} Correct (${Math.round((correctCount / totalCount) * 100)}%)
+              </h3>
+              <div class="pill sprout" style="font-size:14px;padding:6px 16px;margin-bottom:14px">
+                +${sessionXPEarned} XP Earned
+              </div>
+              <div class="row gap-sm" style="justify-content:center">
+                <button class="btn btn-primary" id="proceed-to-step3-btn" style="font-weight:700">
+                  ➡️ Continue to Step 3: Speak It (+15 XP)
+                </button>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Questions List -->
+          <div class="col gap-md">
+            ${quizQuestions.map((q, qIdx) => {
+              const res = assessmentResults[qIdx];
+              return `
+                <div class="card card-2" id="vqa-card-${qIdx}">
+                  <div class="row gap-sm" style="margin-bottom:8px;align-items:center">
+                    <span class="pill voice" style="font-size:11px;font-weight:700">${esc(q.typeLabel || 'Question')}</span>
+                    <span class="pill sprout" style="font-size:11px">+10 XP</span>
+                    <div class="spacer"></div>
+                    <span style="font-size:12px;color:var(--cream-dim)">Question ${qIdx + 1} of ${totalCount}</span>
+                  </div>
+
+                  <h3 style="font-size:17px;margin-bottom:12px;color:var(--color-text);line-height:1.45">
+                    ${esc(q.prompt).replace(/\n/g, '<br>')}
+                  </h3>
+
+                  <div class="col gap-xs">
+                    ${q.options.map((opt, oIdx) => {
+                      let optStyle = 'text-align:left;justify-content:flex-start;padding:12px 14px;border:1px solid var(--line);font-size:14px;border-radius:10px';
+                      if (res) {
+                        if (oIdx === q.correctIndex) {
+                          optStyle += ';border:2px solid var(--color-success);background:var(--color-success-soft);color:var(--color-success-text);font-weight:700';
+                        } else if (res.selectedIdx === oIdx && !res.isCorrect) {
+                          optStyle += ';border:2px solid var(--color-error);background:var(--color-error-soft);color:var(--color-error-text)';
+                        }
+                      }
+                      return `
+                        <button class="btn btn-ghost" style="${optStyle}" data-qidx="${qIdx}" data-oidx="${oIdx}" ${res ? 'disabled' : ''}>
+                          <span style="font-weight:700;margin-right:8px;color:var(--cream-dim)">${['A', 'B', 'C', 'D'][oIdx] || oIdx + 1}.</span>
+                          <span>${esc(opt)}</span>
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+
+                  <!-- Explanation -->
+                  <div id="vqa-feedback-${qIdx}" style="margin-top:10px">
+                    ${res ? `
+                      <div class="pill ${res.isCorrect ? 'sprout' : 'coral'}" style="font-size:13px;display:inline-flex;align-items:center;gap:6px">
+                        ${res.isCorrect ? '✔ Correct!' : '✖ Incorrect.'} ${esc(res.explanation || q.explanation)}
+                      </div>
+                    ` : ''}
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+
+      // Attach option click handlers
       area.querySelectorAll('[data-qidx]').forEach((btn) => {
         btn.onclick = async () => {
           const qIdx = parseInt(btn.dataset.qidx, 10);
           const oIdx = parseInt(btn.dataset.oidx, 10);
           if (assessmentResults[qIdx]) return;
-          const q = assessmentQuestions[qIdx];
+
+          const q = quizQuestions[qIdx];
           const selectedOpt = q.options[oIdx];
 
           try {
             const res = await Api.submitVocabAssessment({
               wordId: q.wordId,
-              answerType: 'mcq',
+              selectedIndex: oIdx,
+              correctIndex: q.correctIndex,
               selectedOption: selectedOpt,
+              explanation: q.explanation,
             });
 
-            assessmentResults[qIdx] = {
-              selectedOpt,
-              isCorrect: res.isCorrect,
-              xpEarned: res.xpEarned || 0,
-              feedback: res.feedback,
-            };
-
-            if (res.isCorrect) {
-              addStudentXP(res.xpEarned || 10);
-              toast(`Correct! +${res.xpEarned || 10} XP earned`, 'sprout');
+            const isCorrect = res.isCorrect;
+            const xp = res.xpEarned || (isCorrect ? 10 : 0);
+            if (isCorrect) {
+              sessionXPEarned += xp;
+              addStudentXP(xp);
+              toast(`Correct! +${xp} XP`, 'sprout');
+            } else {
+              if (q.word) wrongWords.push(q.word);
             }
 
-            renderDeckAssessment();
+            assessmentResults[qIdx] = {
+              selectedIdx: oIdx,
+              isCorrect,
+              xpEarned: xp,
+              explanation: q.explanation || res.explanation,
+            };
+
+            const masteredPill = $('#vocab-mastered-pill');
+            if (masteredPill && res.masteredCount !== undefined) {
+              masteredPill.textContent = `${res.masteredCount} / ${allWords.length} Words Mastered`;
+            }
+
+            renderQuizQuestions();
           } catch (err) {
             apiError(err);
           }
         };
       });
 
-      const reReadBtn = $('#re-read-deck-btn');
-      if (reReadBtn) {
-        reReadBtn.onclick = () => {
-          isAssessmentMode = false;
-          currentIndex = 0;
-          isFlipped = false;
-          assessmentResults = {};
-          renderDeckView();
-        };
-      }
-
-      const spokenBtn = $('#goto-spoken-btn');
-      if (spokenBtn) {
-        spokenBtn.onclick = () => {
-          activeTab = 'spoken';
-          renderVocabView();
+      const proceedBtn = $('#proceed-to-step3-btn');
+      if (proceedBtn) {
+        proceedBtn.onclick = () => {
+          currentStep = 3;
+          renderVocabMain();
         };
       }
     }
 
-    renderDeckView();
+    renderQuizQuestions();
   }
 
-
-  function renderDailyTab(area, dailyWords) {
-    if (!dailyWords.length) {
-      area.innerHTML = `<div class="empty-state">No daily refreshed words available. Tap Refresh above.</div>`;
-      return;
+  // --- STEP 3: Spoken Usage AI ---
+  function renderStep3Spoken(area) {
+    // Focus on words answered incorrectly, or the 2 hardest words
+    const uniqueWrongWords = [...new Set(wrongWords)];
+    let targetWords = [];
+    if (uniqueWrongWords.length) {
+      targetWords = dailyWords.filter(w => uniqueWrongWords.includes(w.word));
+    }
+    if (!targetWords.length) {
+      targetWords = dailyWords.slice(-2);
     }
 
-    area.innerHTML = `
-      <div class="row gap-sm" style="margin-bottom:14px;align-items:center">
-        <div style="font-size:15px;font-weight:700">&#x1F504; Today's Refreshed Word Selection (${dailyWords.length} Words)</div>
-        <div class="spacer"></div>
-        <button class="btn btn-ghost btn-sm" id="refresh-daily-set-btn">${ICONS.activity} Refresh New 6 Words</button>
-      </div>
-      <div class="grid grid-3">
-        ${dailyWords.map((w) => `
-          <div class="card card-2" style="border:1px solid var(--line)">
-            <div class="row gap-sm" style="margin-bottom:6px">
-              <span class="pill ${levelColor(w.level)}">${w.level}</span>
-              <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
-            </div>
-            <h3 style="font-size:20px;margin-bottom:4px;color:var(--color-text)">${esc(w.word)}</h3>
-            <div style="font-size:14px;color:var(--cream);margin-bottom:8px;line-height:1.45"><b>Meaning:</b> ${esc(w.meaning)}</div>
-            <div style="font-size:13px;color:var(--cream-dim);font-style:italic;margin-bottom:12px">"${esc(w.example)}"</div>
-            <button class="btn btn-ghost btn-sm" style="width:100%" onclick="SpeechOutput.speak('${esc(w.word)}. ${esc(w.example)}')">${ICONS.play} Listen Pronunciation</button>
+    let wordIdx = 0;
+
+    function renderSpokenCard() {
+      const w = targetWords[wordIdx];
+      area.innerHTML = `
+        <div class="card card-2" style="max-width:680px;margin:0 auto">
+          <div class="row gap-xs" style="margin-bottom:12px;align-items:center">
+            <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
+            <span class="pill sprout">${esc(w.level || 'Intermediate')}</span>
+            <div class="spacer"></div>
+            <span style="font-size:12.5px;color:var(--cream-dim)">Spoken Challenge ${wordIdx + 1} of ${targetWords.length}</span>
           </div>
-        `).join('')}
+
+          <h2 style="font-size:26px;color:var(--color-text);margin-bottom:6px">${esc(w.word)}</h2>
+          <p style="font-size:14.5px;color:var(--color-text);margin-bottom:14px"><b>Meaning:</b> ${esc(w.meaning)}</p>
+
+          <div class="passage-box" style="margin-bottom:16px">
+            <div class="eyebrow" style="margin-bottom:4px">🎯 Speaking Task</div>
+            Speak an original, natural English sentence aloud using the word "<b>${esc(w.word)}</b>".
+          </div>
+
+          <div class="row gap-md" style="margin-top:14px">
+            <button class="rec-btn" id="spoken-rec-btn">${ICONS.mic}</button>
+            <div class="col" style="flex:1">
+              <div id="spoken-rec-status" style="font-weight:700;font-size:14.5px">Tap mic to speak your sentence</div>
+              <div id="spoken-rec-transcript" style="font-size:13.5px;color:var(--cream-dim);margin-top:4px"></div>
+            </div>
+          </div>
+          <div id="spoken-rec-result" style="margin-top:14px"></div>
+
+          <!-- Bottom Actions -->
+          <div class="row gap-sm" style="margin-top:20px;border-top:1px solid var(--line);padding-top:16px;align-items:center">
+            <button class="btn btn-ghost btn-sm" id="spoken-prev-btn" ${wordIdx === 0 ? 'disabled' : ''}>⬅️ Previous</button>
+            ${wordIdx < targetWords.length - 1 ? `
+              <button class="btn btn-ghost btn-sm" id="spoken-next-btn">Next Word ➡️</button>
+            ` : ''}
+            <div class="spacer"></div>
+            <button class="btn btn-primary" id="finish-vocab-flow-btn" style="font-weight:700">
+              🏁 Finish Vocabulary Flow
+            </button>
+          </div>
+        </div>
+      `;
+
+      const prevBtn = $('#spoken-prev-btn');
+      if (prevBtn) prevBtn.onclick = () => { if (wordIdx > 0) { wordIdx--; renderSpokenCard(); } };
+      const nextBtn = $('#spoken-next-btn');
+      if (nextBtn) nextBtn.onclick = () => { if (wordIdx < targetWords.length - 1) { wordIdx++; renderSpokenCard(); } };
+
+      const finishBtn = $('#finish-vocab-flow-btn');
+      if (finishBtn) {
+        finishBtn.onclick = () => {
+          currentStep = 4;
+          renderVocabMain();
+        };
+      }
+
+      const recBtn = $('#spoken-rec-btn');
+      if (recBtn) {
+        recBtn.onclick = () => {
+          if (!SpeechInput.supported) { toast('Speech recognition not supported in browser.', 'coral'); return; }
+          if (!SpeechInput.listening) {
+            recBtn.classList.add('on');
+            $('#spoken-rec-status').textContent = 'Listening…';
+            SpeechInput.start({
+              onResult: ({ final, interim }) => { $('#spoken-rec-transcript').textContent = (final + ' ' + interim).trim(); },
+              onEnd: async (finalTranscript) => {
+                recBtn.classList.remove('on');
+                if (!finalTranscript) { $('#spoken-rec-status').textContent = 'No speech captured — try again'; return; }
+                $('#spoken-rec-status').textContent = 'Evaluating with AI…';
+                try {
+                  const res = await Api.submitVocabAssessment({ wordId: w._id, answerType: 'spoken', spokenSentence: finalTranscript });
+                  const xp = res.xpEarned || (res.isCorrect ? 15 : 0);
+                  if (res.isCorrect) {
+                    sessionXPEarned += xp;
+                    addStudentXP(xp);
+                  }
+                  $('#spoken-rec-result').innerHTML = `
+                    <div class="pill ${res.isCorrect ? 'sprout' : 'coral'}" style="font-size:13.5px">
+                      ${res.isCorrect ? '✔ Passed!' : '⚠️ Needs Practice'} (Score: ${res.score || 80}/100, +${xp} XP)
+                    </div>
+                    <div style="font-size:13.5px;color:var(--color-text);margin-top:8px">${esc(res.feedback || 'Good sentence structure.')}</div>
+                  `;
+                  $('#spoken-rec-status').textContent = 'Done!';
+                } catch (err) { apiError(err); }
+              },
+              onError: (e) => { recBtn.classList.remove('on'); $('#spoken-rec-status').textContent = 'Mic error: ' + e; }
+            });
+          } else SpeechInput.stop();
+        };
+      }
+    }
+
+    renderSpokenCard();
+  }
+
+  // --- STEP 4: Summary Screen ---
+  function renderStep4Summary(area) {
+    const uniqueWrongWords = [...new Set(wrongWords)];
+    area.innerHTML = `
+      <div class="card card-2" style="max-width:680px;margin:0 auto;text-align:center;padding:36px 24px">
+        <div style="font-size:48px;margin-bottom:12px">🏆</div>
+        <h2 style="font-size:26px;font-weight:800;color:var(--color-text);margin-bottom:8px">Vocabulary Session Complete!</h2>
+        <p style="font-size:14.5px;color:var(--cream-dim);line-height:1.6;margin-bottom:20px">
+          You practiced today's vocabulary set across flashcards, varied retention assessments, and spoken sentence usage.
+        </p>
+
+        <div class="grid grid-2 gap-sm" style="margin-bottom:24px">
+          <div class="card" style="background:var(--panel-2);text-align:center;padding:16px">
+            <div class="eyebrow">Session XP Earned</div>
+            <div style="font-size:28px;font-weight:800;color:var(--purple);margin-top:4px">+${sessionXPEarned} XP</div>
+          </div>
+          <div class="card" style="background:var(--panel-2);text-align:center;padding:16px">
+            <div class="eyebrow">Words Mastered</div>
+            <div style="font-size:28px;font-weight:800;color:var(--emerald);margin-top:4px">${getMasteredCount()} / ${allWords.length}</div>
+          </div>
+        </div>
+
+        ${uniqueWrongWords.length ? `
+          <div class="card" style="background:var(--panel-2);text-align:left;margin-bottom:24px;border-left:3px solid var(--coral)">
+            <div class="eyebrow" style="color:var(--coral);margin-bottom:6px">📝 Words to Revise</div>
+            <div class="row gap-xs" style="flex-wrap:wrap">
+              ${uniqueWrongWords.map(w => `<span class="pill coral">${esc(w)}</span>`).join('')}
+            </div>
+          </div>
+        ` : `
+          <div class="pill sprout" style="font-size:14px;padding:8px 18px;margin-bottom:24px">
+            🌟 Perfect retention across all words!
+          </div>
+        `}
+
+        <div class="row gap-sm" style="justify-content:center">
+          <button class="btn btn-ghost" id="vocab-restart-btn">🔄 Review Deck</button>
+          <button class="btn btn-primary" id="vocab-goto-dashboard-btn">Go to Dashboard ➡️</button>
+        </div>
       </div>
     `;
 
-    $('#refresh-daily-set-btn').onclick = () => setView('vocabulary');
+    $('#vocab-restart-btn').onclick = () => {
+      currentStep = 1;
+      assessmentResults = {};
+      renderVocabMain();
+    };
+
+    $('#vocab-goto-dashboard-btn').onclick = () => {
+      setView('dashboard');
+    };
   }
 
-  function renderQuizTab(area, questions) {
-    if (!questions.length) {
-      area.innerHTML = `<div class="empty-state">No assessment quiz questions available today.</div>`;
-      return;
-    }
-
-    area.innerHTML = `
-      <div class="section-title" style="margin-bottom:12px">&#x26A1; Vocabulary Assessment Quizzes (+10 XP per Question)</div>
-      <div class="col gap-md">
-        ${questions.map((q, qIdx) => `
-          <div class="card card-2" id="vquiz-card-${qIdx}">
-            <div class="row gap-sm" style="margin-bottom:6px">
-              <span class="pill voice">${esc(q.partOfSpeech || 'noun')}</span>
-              <span class="pill sprout">+10 XP</span>
-            </div>
-            <h3 style="font-size:20px;margin-bottom:6px;color:var(--color-text)">What is the correct meaning of "${esc(q.word)}"?</h3>
-            <div class="col gap-xs" style="margin-top:10px" id="vquiz-opts-${qIdx}">
-              ${q.options.map((opt, oIdx) => `
-                <button class="btn btn-ghost" style="text-align:left;justify-content:flex-start;padding:10px 14px;border:1px solid var(--line);font-size:14.5px" data-qidx="${qIdx}" data-oidx="${oIdx}">
-                  ${esc(opt)}
-                </button>
-              `).join('')}
-            </div>
-            <div id="vquiz-feedback-${qIdx}" style="margin-top:10px"></div>
-          </div>
-        `).join('')}
-      </div>
-    `;
-
-    area.querySelectorAll('[data-qidx]').forEach((btn) => {
-      btn.onclick = async () => {
-        const qIdx = parseInt(btn.dataset.qidx, 10);
-        const oIdx = parseInt(btn.dataset.oidx, 10);
-        const q = questions[qIdx];
-        const optsContainer = $(`#vquiz-opts-${qIdx}`);
-        const feedbackDiv = $(`#vquiz-feedback-${qIdx}`);
-
-        optsContainer.querySelectorAll('button').forEach((b) => (b.disabled = true));
-
-        try {
-          const res = await Api.submitVocabAssessment({
-            wordId: q.wordId,
-            answerType: 'mcq',
-            selectedOption: q.options[oIdx],
-          });
-
-          if (res.isCorrect) {
-            btn.style.borderColor = 'var(--emerald)';
-            btn.style.background = 'var(--color-success-soft)';
-            feedbackDiv.innerHTML = `<div class="pill sprout" style="font-size:13.5px">&#x2714; ${esc(res.feedback)} (+${res.xpEarned} XP)</div>`;
-            addStudentXP(res.xpEarned);
-            toast(`Correct answer! +${res.xpEarned} XP earned`, 'sprout');
-          } else {
-            btn.style.borderColor = 'var(--coral)';
-            btn.style.background = 'var(--color-error-soft)';
-            feedbackDiv.innerHTML = `<div class="pill coral" style="font-size:13.5px">&#x2716; ${esc(res.feedback)}</div>`;
-          }
-        } catch (err) {
-          apiError(err);
-        }
-      };
-    });
-  }
-
-  function renderSpokenTab(area, dailyWords) {
-    if (!dailyWords.length) {
-      area.innerHTML = `<div class="empty-state">No daily words available for spoken practice.</div>`;
-      return;
-    }
-
-    area.innerHTML = `
-      <div class="section-title" style="margin-bottom:12px">&#x1F399;&#xFE0F; AI Spoken Sentence Assessment (+15 XP per Sentence)</div>
-      <div style="font-size:14px;color:var(--cream-dim);margin-bottom:16px">Speak an original sentence aloud using the target vocabulary word. The local AI engine will evaluate your sentence formation and grammar.</div>
-      <div class="col gap-md">
-        ${dailyWords.map((w, idx) => `
-          <div class="card card-2" id="vspoken-card-${idx}">
-            <div class="row gap-sm" style="margin-bottom:6px">
-              <span class="pill voice">${esc(w.partOfSpeech || 'noun')}</span>
-              <span class="pill sprout">+15 XP Reward</span>
-            </div>
-            <h3 style="font-size:20px;margin-bottom:4px;color:var(--color-text)">Target Word: "${esc(w.word)}"</h3>
-            <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:10px">Meaning: ${esc(w.meaning)}</div>
-            <div class="row gap-md" style="margin-top:10px">
-              <button class="rec-btn" id="vspoken-mic-${idx}" style="width:48px;height:48px">${ICONS.mic}</button>
-              <div class="col" style="flex:1">
-                <div id="vspoken-status-${idx}" style="font-weight:700;font-size:14px">Tap mic to speak your sentence</div>
-                <div id="vspoken-transcript-${idx}" style="font-size:13.5px;color:var(--cream-dim);margin-top:2px;min-height:18px"></div>
-              </div>
-            </div>
-            <div id="vspoken-result-${idx}" style="margin-top:10px"></div>
-          </div>
-        `).join('')}
-      </div>
-    `;
-
-    dailyWords.forEach((w, idx) => {
-      const micBtn = $(`#vspoken-mic-${idx}`);
-      micBtn.onclick = () => {
-        if (!SpeechInput.supported) { toast('Speech recognition not supported in browser.', 'coral'); return; }
-        if (!SpeechInput.listening) {
-          micBtn.classList.add('on');
-          $(`#vspoken-status-${idx}`).textContent = 'Listening to your sentence…';
-          SpeechInput.start({
-            onResult: ({ final, interim }) => { $(`#vspoken-transcript-${idx}`).textContent = (final + ' ' + interim).trim(); },
-            onEnd: async (finalTranscript) => {
-              micBtn.classList.remove('on');
-              if (!finalTranscript) { $(`#vspoken-status-${idx}`).textContent = 'No speech captured — tap to try again'; return; }
-              $(`#vspoken-status-${idx}`).textContent = 'Evaluating sentence with Local AI…';
-              try {
-                const res = await Api.submitVocabAssessment({
-                  wordId: w._id,
-                  answerType: 'spoken',
-                  spokenSentence: finalTranscript,
-                });
-
-                if (res.isCorrect) {
-                  $(`#vspoken-result-${idx}`).innerHTML = `<div class="pill sprout" style="font-size:13.5px">&#x2714; ${esc(res.feedback)} (+${res.xpEarned} XP)</div>`;
-                  addStudentXP(res.xpEarned);
-                  toast(`Great sentence! +${res.xpEarned} XP earned`, 'sprout');
-                } else {
-                  $(`#vspoken-result-${idx}`).innerHTML = `<div class="pill coral" style="font-size:13.5px">&#x2716; ${esc(res.feedback)}</div>`;
-                }
-                $(`#vspoken-status-${idx}`).textContent = 'Done — tap mic to try another sentence';
-              } catch (err) {
-                apiError(err);
-              }
-            },
-            onError: (e) => { micBtn.classList.remove('on'); $(`#vspoken-status-${idx}`).textContent = 'Mic error: ' + e; },
-          });
-        } else {
-          SpeechInput.stop();
-        }
-      };
-    });
-  }
-
-  renderVocabView();
+  renderVocabMain();
 };
 
 /* ---------------------------- PEER & GD PRACTICE ---------------------------- */
@@ -1156,7 +1124,7 @@ VIEW_RENDERERS['peer'] = async (mount) => {
           <div class="col gap-xs" style="margin-bottom:14px">
             <label class="field-label">Topic for Discussion</label>
             <select id="peer-topic-select" class="input-field" style="background:var(--color-surface-2);color:var(--color-text);padding:10px;border-radius:8px;border:1px solid var(--line)">
-              <option value="CSE Technical Projects &amp; Algorithms">CSE Technical Projects &amp; Algorithms</option>
+              <option value="Everyday Life &amp; Personal Hobbies">Everyday Life &amp; Personal Hobbies</option>
               <option value="Campus Life &amp; Student Activities">Campus Life &amp; Student Activities</option>
               <option value="Placement Interview Practice">Placement Interview Mock Q&amp;A</option>
               <option value="General Free Speech">General Free Conversation</option>
@@ -1545,9 +1513,9 @@ VIEW_RENDERERS['peer'] = async (mount) => {
         <div class="card card-2" style="margin-bottom:14px;background:var(--color-surface-2)">
           <div class="section-title" style="font-size:14px;margin-bottom:6px">&#x1F4A1; Conversation Starter Prompts</div>
           <ul style="padding-left:20px;margin:0;font-size:13.5px;color:var(--cream);line-height:1.6">
-            <li>"What is a recent technical topic or project you worked on this semester?"</li>
+            <li>"What is an exciting project, hobby, or goal you worked on recently?"</li>
             <li>"How do you prepare for campus placement interviews and group discussions?"</li>
-            <li>"Share your favorite approach for explaining complex algorithms in simple English."</li>
+            <li>"What is your favorite travel destination or memorable life experience?"</li>
           </ul>
         </div>
 
@@ -1602,15 +1570,15 @@ VIEW_RENDERERS['peer'] = async (mount) => {
 /* ---------------------------- LISTENING ---------------------------- */
 VIEW_RENDERERS['listening'] = async (mount) => {
   const clips = await Api.listeningClips();
-  const dept = S.user?.department || 'CSE';
+  
   mount.innerHTML = `
     <div class="row" style="margin-bottom:14px;align-items:center">
       <div>
-        <div class="section-title" style="margin-bottom:2px">${ICONS.headphones} Listening Comprehension (${dept} Department Bank)</div>
-        <div style="font-size:14px;color:var(--cream-dim)">Showing 5 randomly sampled audio scripts from your department's 50+ question bank pool.</div>
+        <div class="section-title" style="margin-bottom:2px">${ICONS.headphones} Listening Comprehension</div>
+        <div style="font-size:14px;color:var(--cream-dim)">Train your ear for natural spoken English.</div>
       </div>
       <div class="spacer"></div>
-      <button class="btn btn-ghost btn-sm" id="refresh-listening-btn">${ICONS.activity} Refresh 5 Questions</button>
+      <button class="btn btn-ghost btn-sm" id="refresh-listening-btn">${ICONS.activity} Show different audio clips</button>
     </div>
     <div class="col gap-md" id="listen-list"></div>
   `;
@@ -1621,7 +1589,7 @@ VIEW_RENDERERS['listening'] = async (mount) => {
         <div class="row" style="margin-bottom:10px;align-items:center">
           <div class="row gap-sm">
             <span class="pill ${levelColor(c.level)}">${c.level}</span>
-            <span class="pill sprout">${c.department || dept}</span>
+            
           </div>
           <div class="spacer"></div>
           <button class="btn btn-ghost btn-sm" data-play>${ICONS.play} Play audio</button>
@@ -1672,56 +1640,66 @@ VIEW_RENDERERS['story'] = async (mount) => {
     prompts = [];
   }
 
-  let selectedDept = '';
+  let currentIndex = 0;
   renderStoryView();
 
   function renderStoryView() {
-    const filteredPrompts = selectedDept ? prompts.filter((p) => p.department === selectedDept || p.department === 'General') : prompts;
-    const prompt = filteredPrompts.length ? filteredPrompts[Math.floor(Math.random() * filteredPrompts.length)] : prompts[0] || { prompt: 'You are leading a major project launch when an unexpected breakdown occurs. Explain how you will resolve it.', title: 'Emergency Resolution', department: 'General', openingNarration: 'The system monitor flashed red as team members turned to you for direction.' };
-
-    const depts = ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
+    const prompt = prompts.length && prompts[currentIndex]
+      ? prompts[currentIndex]
+      : prompts[0] || {
+          prompt: 'You are walking home when you find a lost package with an incomplete address. Explain how you locate the recipient.',
+          title: 'The Lost Package',
+          theme: 'Everyday Life',
+          level: 'Beginner',
+          openingNarration: 'The evening streets were quiet as a cold breeze blew fallen leaves across the sidewalk. On the bottom step of an apartment block sat a brown cardboard parcel with a smeared postal stamp.',
+          suggestedWords: ['examined', 'inquired', 'delivered'],
+        };
 
     mount.innerHTML = `
       <div class="col gap-md">
-        <!-- Header & Department Filter Bar -->
-        <div class="card card-white-accent">
-          <div class="row" style="margin-bottom:12px;align-items:center">
-            <div>
-              <div class="section-title" style="margin:0">${ICONS.book} Automated Story Narration &amp; Continuation</div>
-              <div style="font-size:13px;color:var(--cream-dim)">Auto-scraped engineering &amp; management story cases. Listen to the opening narration and record your speech continuation.</div>
-            </div>
-            <div class="spacer"></div>
-            <span class="pill sprout">⚡ Auto-Scraped Bank</span>
+        <!-- Header -->
+        <div class="row" style="margin-bottom:8px;align-items:center">
+          <div>
+            <div class="section-title" style="margin:0">${ICONS.book} Story Continuation &amp; Speaking Practice</div>
+            <div style="font-size:13.5px;color:var(--cream-dim)">Listen to the opening narration, prepare your thoughts, and record your spoken continuation.</div>
           </div>
-
-          <div class="row gap-xs" style="flex-wrap:wrap">
-            <button class="btn ${!selectedDept ? 'btn-white' : 'btn-ghost'} btn-sm" data-story-dept="">All Departments</button>
-            ${depts.map((d) => `<button class="btn ${selectedDept === d ? 'btn-white' : 'btn-ghost'} btn-sm" data-story-dept="${d}">${d}</button>`).join('')}
-          </div>
+          <div class="spacer"></div>
+          <span class="pill voice" style="font-size:12.5px">${prompts.length ? `${currentIndex + 1} of ${prompts.length} Stories` : 'Curated Bank'}</span>
         </div>
 
         <!-- Active Story Card -->
         <div class="card">
-          <div class="row gap-sm" style="margin-bottom:12px">
-            <span class="pill voice">${esc(prompt.department || 'General')} Department</span>
-            <span class="pill sprout">${esc(prompt.level || 'Advanced')}</span>
-            <span class="pill amber">Set #${prompt._id ? prompt._id.slice(-4) : 'Demo'}</span>
+          <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+            <span class="pill voice">${esc(prompt.theme || 'Everyday Life')}</span>
+            <span class="pill sprout">${esc(prompt.level || 'Beginner')}</span>
+            <div class="spacer"></div>
+            <div class="row gap-xs">
+              <button class="btn btn-ghost btn-sm" id="prev-story-btn" ${currentIndex === 0 ? 'disabled' : ''}>⬅️ Previous Story</button>
+              <button class="btn btn-ghost btn-sm" id="next-story-btn" ${currentIndex >= prompts.length - 1 ? 'disabled' : ''}>Next Story ➡️</button>
+            </div>
           </div>
 
-          <h3 style="font-size:20px;color:var(--color-text);margin-bottom:10px">${esc(prompt.title || 'Story Narration Exercise')}</h3>
+          <h3 style="font-size:22px;color:var(--color-text);margin-bottom:12px;font-weight:800">${esc(prompt.title)}</h3>
 
           ${prompt.openingNarration ? `
-            <div style="background:var(--panel-2);padding:14px 16px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:14px">
-              <div class="eyebrow" style="margin-bottom:4px">📖 Opening Story Narration</div>
-              <div style="font-size:15px;line-height:1.6;color:var(--color-text)">${esc(prompt.openingNarration)}</div>
+            <div style="background:var(--panel-2);padding:16px 18px;border-radius:12px;border:1px solid var(--white-border);margin-bottom:14px">
+              <div class="eyebrow" style="margin-bottom:6px">📖 Opening Story Narration</div>
+              <div style="font-size:15px;line-height:1.65;color:var(--color-text)">${esc(prompt.openingNarration)}</div>
               <button class="btn btn-outline btn-sm" id="play-narration-btn" style="margin-top:10px">🔊 Listen to Opening Narration</button>
             </div>
           ` : ''}
 
-          <div class="passage-box" style="margin-bottom:16px">
-            <div class="eyebrow" style="margin-bottom:6px">🎯 Your Narration Prompt</div>
-            ${esc(prompt.prompt)}
+          <div class="passage-box" style="margin-bottom:14px">
+            <div class="eyebrow" style="margin-bottom:6px">🎯 Your Narration Task</div>
+            <div style="font-size:15px;line-height:1.55">${esc(prompt.prompt)}</div>
           </div>
+
+          ${prompt.suggestedWords && prompt.suggestedWords.length ? `
+            <div class="row gap-xs" style="align-items:center;margin-bottom:16px;flex-wrap:wrap">
+              <span style="font-size:12.5px;color:var(--cream-dim);font-weight:600">Suggested vocabulary:</span>
+              ${prompt.suggestedWords.map(w => `<span class="pill sprout" style="font-size:11.5px">${esc(w)}</span>`).join('')}
+            </div>
+          ` : ''}
 
           <div class="row gap-md" style="margin-top:16px">
             <button class="rec-btn" id="story-rec">${ICONS.mic}</button>
@@ -1735,15 +1713,28 @@ VIEW_RENDERERS['story'] = async (mount) => {
       </div>
     `;
 
-    // Department Filter Buttons
-    mount.querySelectorAll('[data-story-dept]').forEach((btn) => {
-      btn.onclick = () => {
-        selectedDept = btn.dataset.storyDept;
-        renderStoryView();
+    // Prev / Next Handlers
+    const prevBtn = $('#prev-story-btn');
+    if (prevBtn) {
+      prevBtn.onclick = () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          renderStoryView();
+        }
       };
-    });
+    }
 
-    // Opening Narration Speech Synthesis
+    const nextBtn = $('#next-story-btn');
+    if (nextBtn) {
+      nextBtn.onclick = () => {
+        if (currentIndex < prompts.length - 1) {
+          currentIndex++;
+          renderStoryView();
+        }
+      };
+    }
+
+    // TTS
     const playBtn = $('#play-narration-btn');
     if (playBtn) {
       playBtn.onclick = () => {
@@ -1759,65 +1750,87 @@ VIEW_RENDERERS['story'] = async (mount) => {
       };
     }
 
-    // Mic Recorder & Scoring
-    let startTime;
+    // Mic Recording & Scoring
     const recBtn = $('#story-rec');
-    recBtn.onclick = () => {
-      if (!SpeechInput.supported) {
-        toast('Speech recognition not supported in this browser.', 'coral');
-        return;
-      }
-      if (!SpeechInput.listening) {
-        recBtn.classList.add('on');
-        startTime = Date.now();
-        $('#story-status').textContent = 'Listening to your story continuation…';
-        SpeechInput.start({
-          onResult: ({ final, interim }) => {
-            $('#story-transcript').textContent = (final + ' ' + interim).trim();
-          },
-          onEnd: async (finalTranscript) => {
-            recBtn.classList.remove('on');
-            if (!finalTranscript) {
-              $('#story-status').textContent = 'No speech captured — tap mic to try again';
-              return;
-            }
-            $('#story-status').textContent = 'Evaluating story narration with Local AI…';
-            try {
-              const { attempt } = await Api.submitStory({ promptId: prompt._id, transcript: finalTranscript });
-              const s = attempt.scores;
-              $('#story-result').innerHTML = `
-                <div class="grid grid-4" style="margin-bottom:14px">
-                  ${['creativity', 'coherence', 'vocabulary', 'grammarFlow']
-                    .map((k) => `<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`)
-                    .join('')}
-                </div>
-                <div class="card card-2"><div class="eyebrow">Local AI Story Evaluation &amp; Feedback</div><p style="font-size:15px;color:var(--color-text)">${esc(attempt.feedback)}</p></div>`;
-              $('#story-status').textContent = 'Story evaluation complete!';
-              addStudentXP(Math.round(15 + s.overall / 5));
-            } catch (err) {
-              apiError(err);
-            }
-          },
-          onError: (e) => {
-            recBtn.classList.remove('on');
-            $('#story-status').textContent = 'Mic error: ' + e;
-          },
-        });
-      } else SpeechInput.stop();
-    };
+    if (recBtn) {
+      recBtn.onclick = () => {
+        if (!SpeechInput.supported) {
+          toast('Speech recognition not supported in browser.', 'coral');
+          return;
+        }
+        if (!SpeechInput.listening) {
+          recBtn.classList.add('on');
+          $('#story-status').textContent = 'Listening to your story…';
+          SpeechInput.start({
+            onResult: ({ final, interim }) => {
+              $('#story-transcript').textContent = (final + ' ' + interim).trim();
+            },
+            onEnd: async (finalTranscript) => {
+              recBtn.classList.remove('on');
+              if (!finalTranscript) {
+                $('#story-status').textContent = 'No speech captured — tap to try again';
+                return;
+              }
+              $('#story-status').textContent = 'Grading story with Local AI…';
+              try {
+                const res = await Api.submitStory({ promptId: prompt._id, transcript: finalTranscript });
+                const report = res.attempt;
+                $('#story-result').innerHTML = `
+                  <div class="card card-2" style="background:var(--color-surface-2);border:1px solid var(--line);margin-top:14px">
+                    <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+                      <span class="pill sprout" style="font-size:14px;font-weight:700">Overall Score: ${report.scores.overall}/100</span>
+                      <span class="pill voice" style="font-size:13px;font-weight:700">+20 XP Earned</span>
+                    </div>
+                    <div class="grid grid-4 gap-xs" style="margin-bottom:14px">
+                      <div class="card" style="text-align:center;padding:8px">
+                        <div class="eyebrow">Creativity</div>
+                        <div style="font-size:18px;font-weight:700;color:var(--purple)">${report.scores.creativity}%</div>
+                      </div>
+                      <div class="card" style="text-align:center;padding:8px">
+                        <div class="eyebrow">Coherence</div>
+                        <div style="font-size:18px;font-weight:700;color:var(--emerald)">${report.scores.coherence}%</div>
+                      </div>
+                      <div class="card" style="text-align:center;padding:8px">
+                        <div class="eyebrow">Vocabulary</div>
+                        <div style="font-size:18px;font-weight:700;color:var(--amber)">${report.scores.vocabulary}%</div>
+                      </div>
+                      <div class="card" style="text-align:center;padding:8px">
+                        <div class="eyebrow">Grammar Flow</div>
+                        <div style="font-size:18px;font-weight:700;color:var(--voice-blue)">${report.scores.grammarFlow}%</div>
+                      </div>
+                    </div>
+                    <div style="font-size:14px;color:var(--color-text);line-height:1.5">${esc(report.feedback)}</div>
+                  </div>
+                `;
+                addStudentXP(20);
+                $('#story-status').textContent = 'Done! Tap to record again.';
+              } catch (err) {
+                apiError(err);
+                $('#story-status').textContent = 'Error evaluating story.';
+              }
+            },
+            onError: (e) => {
+              recBtn.classList.remove('on');
+              $('#story-status').textContent = 'Mic error: ' + e;
+            },
+          });
+        } else {
+          SpeechInput.stop();
+        }
+      };
+    }
   }
 };
 
 /* ---------------------------- DEBATE ---------------------------- */
 VIEW_RENDERERS['debate'] = async (mount) => {
-  let selectedDept = '';
   renderDebateView();
 
   async function renderDebateView() {
     mount.innerHTML = `<div class="card">${wave(5)}</div>`;
     let topicData;
     try {
-      topicData = await Api.nextDebateTopic({ department: selectedDept });
+      topicData = await Api.nextDebateTopic();
     } catch (err) {
       topicData = { topic: null, unattemptedRemaining: 0, totalTopicsCount: 0 };
     }
@@ -1825,40 +1838,31 @@ VIEW_RENDERERS['debate'] = async (mount) => {
     const topic = topicData.topic || {
       _id: null,
       topic: 'Should social media platforms verify the identity of every user?',
-      department: 'General',
       level: 'Advanced',
       context: 'Identity verification could reduce online harassment and bot networks, but raises serious privacy and surveillance concerns.',
       forKeyPoints: ['Reduces fake bot accounts and online harassment', 'Increases user accountability for digital statements'],
       againstKeyPoints: ['Presents severe user privacy and data breach risks', 'Restricts freedom of speech for whistleblowers'],
     };
 
-    const depts = ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA'];
-
     mount.innerHTML = `
       <div class="col gap-md">
-        <!-- Header & Department Filter Bar -->
+        <!-- Header -->
         <div class="card card-white-accent">
-          <div class="row" style="margin-bottom:12px;align-items:center">
+          <div class="row" style="align-items:center">
             <div>
-              <div class="section-title" style="margin:0">${ICONS.mic} AI Debate Practice &amp; Topic Rotation</div>
-              <div style="font-size:13px;color:var(--cream-dim)">Unique unattempted debate topics selected dynamically for your profile. Select a stance and deliver your argument.</div>
+              <div class="section-title" style="margin:0">${ICONS.mic} Debate Practice</div>
+              <div style="font-size:13.5px;color:var(--cream-dim)">Structured reasoning and persuasive speaking. Choose a stance and deliver your argument.</div>
             </div>
             <div class="spacer"></div>
             <span class="pill sprout">⚡ ${topicData.unattemptedRemaining || 0} Unseen Topics Remaining</span>
-          </div>
-
-          <div class="row gap-xs" style="flex-wrap:wrap">
-            <button class="btn ${!selectedDept ? 'btn-white' : 'btn-ghost'} btn-sm" data-debate-dept="">All Departments</button>
-            ${depts.map((d) => `<button class="btn ${selectedDept === d ? 'btn-white' : 'btn-ghost'} btn-sm" data-debate-dept="${d}">${d}</button>`).join('')}
           </div>
         </div>
 
         <!-- Active Debate Card -->
         <div class="card">
-          <div class="row gap-sm" style="margin-bottom:12px">
-            <span class="pill voice">${esc(topic.department || 'General')} Department</span>
+          <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+            <span class="pill voice">Debate Arena</span>
             <span class="pill sprout">${esc(topic.level || 'Advanced')}</span>
-            <span class="pill amber">Topic #${topic._id ? topic._id.slice(-4) : 'Demo'}</span>
             <div class="spacer"></div>
             <button class="btn btn-outline btn-sm" id="skip-topic-btn">🔄 Next Topic</button>
           </div>
@@ -1902,57 +1906,41 @@ VIEW_RENDERERS['debate'] = async (mount) => {
       </div>
     `;
 
-    // Department Filter Click Handlers
-    mount.querySelectorAll('[data-debate-dept]').forEach((btn) => {
-      btn.onclick = () => {
-        selectedDept = btn.dataset.debateDept;
-        renderDebateView();
-      };
-    });
-
     // Skip / Next Topic Button
     $('#skip-topic-btn').onclick = () => {
       toast('Loading next unattempted topic…', 'sprout');
       renderDebateView();
     };
 
-    // Stance Buttons & Hint Switcher
     let selectedStance = 'for';
-    const forBtn = $('#btn-stance-for');
-    const againstBtn = $('#btn-stance-against');
+    const btnFor = $('#btn-stance-for');
+    const btnAgainst = $('#btn-stance-against');
+    const hintsTitle = $('#hints-title');
+    const hintsList = $('#hints-list');
 
-    forBtn.onclick = () => {
-      selectedStance = 'for';
-      forBtn.className = 'btn btn-primary btn-sm';
-      againstBtn.className = 'btn btn-ghost btn-sm';
-      $('#hints-title').textContent = 'Suggested Key Arguments (FOR)';
-      $('#hints-list').innerHTML = (topic.forKeyPoints || ['Dramatically improves efficiency', 'Industry proven standard'])
-        .map((p) => `<li>${esc(p)}</li>`)
-        .join('');
-    };
+    function updateStanceUI() {
+      if (selectedStance === 'for') {
+        btnFor.className = 'btn btn-primary btn-sm';
+        btnAgainst.className = 'btn btn-ghost btn-sm';
+        hintsTitle.textContent = 'Suggested Key Arguments (FOR)';
+        hintsList.innerHTML = (topic.forKeyPoints || []).map((p) => `<li>${esc(p)}</li>`).join('');
+      } else {
+        btnFor.className = 'btn btn-ghost btn-sm';
+        btnAgainst.className = 'btn btn-primary btn-sm';
+        hintsTitle.textContent = 'Suggested Key Arguments (AGAINST)';
+        hintsList.innerHTML = (topic.againstKeyPoints || []).map((p) => `<li>${esc(p)}</li>`).join('');
+      }
+    }
 
-    againstBtn.onclick = () => {
-      selectedStance = 'against';
-      againstBtn.className = 'btn btn-primary btn-sm';
-      forBtn.className = 'btn btn-ghost btn-sm';
-      $('#hints-title').textContent = 'Suggested Key Arguments (AGAINST)';
-      $('#hints-list').innerHTML = (topic.againstKeyPoints || ['High initial implementation cost', 'Potential risk of downtime'])
-        .map((p) => `<li>${esc(p)}</li>`)
-        .join('');
-    };
+    btnFor.onclick = () => { selectedStance = 'for'; updateStanceUI(); };
+    btnAgainst.onclick = () => { selectedStance = 'against'; updateStanceUI(); };
 
-    // Mic Recorder & Scoring
-    let startTime;
     const recBtn = $('#debate-rec');
     recBtn.onclick = () => {
-      if (!SpeechInput.supported) {
-        toast('Speech recognition not supported in this browser.', 'coral');
-        return;
-      }
+      if (!SpeechInput.supported) { toast('Speech recognition not supported in browser.', 'coral'); return; }
       if (!SpeechInput.listening) {
         recBtn.classList.add('on');
-        startTime = Date.now();
-        $('#debate-status').textContent = `Listening to your argument (${selectedStance.toUpperCase()})…`;
+        $('#debate-status').textContent = 'Listening to your debate speech…';
         SpeechInput.start({
           onResult: ({ final, interim }) => {
             $('#debate-transcript').textContent = (final + ' ' + interim).trim();
@@ -1960,45 +1948,41 @@ VIEW_RENDERERS['debate'] = async (mount) => {
           onEnd: async (finalTranscript) => {
             recBtn.classList.remove('on');
             if (!finalTranscript) {
-              $('#debate-status').textContent = 'No speech captured — tap mic to try again';
+              $('#debate-status').textContent = 'No speech captured — tap to try again';
               return;
             }
-            $('#debate-status').textContent = 'Judging your argument with Local AI…';
+            $('#debate-status').textContent = 'Evaluating argument with Local AI…';
             try {
-              const { attempt } = await Api.submitDebate({
-                topicId: topic._id,
-                stance: selectedStance,
-                transcript: finalTranscript,
-              });
-              const s = attempt.scores;
+              const res = await Api.submitDebate({ topicId: topic._id, stance: selectedStance, transcript: finalTranscript });
+              const report = res.attempt;
               $('#debate-result').innerHTML = `
-                <div class="grid grid-4" style="margin-bottom:14px">
-                  ${['clarity', 'logic', 'vocabulary', 'counterargument']
-                    .map((k) => `<div class="card card-2"><div class="eyebrow">${k}</div><h3 style="color:${scoreColor(s[k])}">${s[k]}</h3></div>`)
-                    .join('')}
-                </div>
-                <div class="card card-2" style="margin-bottom:14px">
-                  <div class="row" style="margin-bottom:6px">
-                    <div class="eyebrow" style="margin:0">AI Debate Evaluation &amp; Feedback</div>
-                    <div class="spacer"></div>
-                    <span class="pill" style="color:${scoreColor(s.overall)};border-color:transparent;font-size:14px">Overall ${s.overall}/100</span>
+                <div class="card card-2" style="background:var(--color-surface-2);border:1px solid var(--line);margin-top:14px">
+                  <div class="row gap-sm" style="margin-bottom:12px;align-items:center">
+                    <span class="pill sprout" style="font-size:14px;font-weight:700">Overall Score: ${report.scores.overall}/100</span>
+                    <span class="pill voice" style="font-size:13px;font-weight:700">+25 XP Earned</span>
                   </div>
-                  <p style="font-size:15px;color:var(--color-text);margin:0;line-height:1.6">${esc(attempt.feedback)}</p>
-                </div>
-
-                <div class="row gap-md" style="margin-top:14px">
-                  <button class="btn btn-white" id="next-debate-after-submit">➡️ Practice Next Unseen Debate Topic</button>
+                  <div class="grid grid-3 gap-xs" style="margin-bottom:14px">
+                    <div class="card" style="text-align:center;padding:8px">
+                      <div class="eyebrow">Clarity</div>
+                      <div style="font-size:18px;font-weight:700;color:var(--purple)">${report.scores.clarity}%</div>
+                    </div>
+                    <div class="card" style="text-align:center;padding:8px">
+                      <div class="eyebrow">Persuasiveness</div>
+                      <div style="font-size:18px;font-weight:700;color:var(--emerald)">${report.scores.persuasiveness}%</div>
+                    </div>
+                    <div class="card" style="text-align:center;padding:8px">
+                      <div class="eyebrow">Vocabulary</div>
+                      <div style="font-size:18px;font-weight:700;color:var(--amber)">${report.scores.vocabulary}%</div>
+                    </div>
+                  </div>
+                  <div style="font-size:14px;color:var(--color-text);line-height:1.5">${esc(report.feedback)}</div>
                 </div>
               `;
-              $('#debate-status').textContent = 'Debate evaluation complete!';
-              addStudentXP(Math.round(15 + s.overall / 5));
-
-              $('#next-debate-after-submit').onclick = () => {
-                toast('Loading next unattempted topic…', 'sprout');
-                renderDebateView();
-              };
+              addStudentXP(25);
+              $('#debate-status').textContent = 'Done! Tap to record again.';
             } catch (err) {
               apiError(err);
+              $('#debate-status').textContent = 'Error evaluating debate argument.';
             }
           },
           onError: (e) => {
@@ -2006,45 +1990,11 @@ VIEW_RENDERERS['debate'] = async (mount) => {
             $('#debate-status').textContent = 'Mic error: ' + e;
           },
         });
-      } else SpeechInput.stop();
+      } else {
+        SpeechInput.stop();
+      }
     };
   }
-};
-
-/* ---------------------------- PEER PRACTICE ---------------------------- */
-VIEW_RENDERERS['peer'] = async (mount) => {
-  const sessions = await Api.myPeerSessions();
-  mount.innerHTML = `
-    <div class="grid grid-2">
-      <div class="card">
-        <div class="section-title">${ICONS.mask} Find a practice partner</div>
-        <p style="font-size:14.5px;color:var(--cream-dim);margin:0 0 16px;line-height:1.6">Your voice is anonymized before it reaches your partner (and theirs before it reaches you) — a real deployment routes audio through a server-side voice-conversion service so neither of you hears the other's real voice.</p>
-        <label class="field-label">Topic (optional)</label>
-        <input type="text" id="peer-topic" placeholder="e.g. Favourite way to spend a weekend" style="margin-bottom:14px">
-        <button class="btn btn-primary" id="peer-find">${ICONS.users} Find a partner</button>
-        <div id="peer-status" style="margin-top:14px;font-size:14px;color:var(--cream-dim)"></div>
-      </div>
-      <div class="card">
-        <div class="section-title">${ICONS.grid} Past sessions</div>
-        ${sessions.length ? sessions.map(s=>`
-          <div class="row" style="padding:10px 0;border-bottom:1px solid var(--line)">
-            <div style="flex:1;font-size:14.5px">${esc(s.topic||'Open conversation')}</div>
-            <div class="pill ${s.status==='ended'?'muted':'sprout'}">${s.status}</div>
-          </div>`).join('') : `<div class="empty-state">No sessions yet.</div>`}
-      </div>
-    </div>
-  `;
-  $('#peer-find').onclick = async ()=>{
-    $('#peer-status').textContent = 'Searching for a partner…';
-    try{
-      const res = await Api.joinPeerQueue($('#peer-topic').value);
-      if (res.matched){
-        $('#peer-status').innerHTML = `<div class="pill sprout">Matched!</div> Connected anonymously. In the full app this opens a live voice-anonymized call here.`;
-      } else {
-        $('#peer-status').textContent = `You're #${res.position} in the queue — waiting for another student to join.`;
-      }
-    } catch(err){ apiError(err); }
-  };
 };
 
 /* ---------------------------- AI TUTOR CHAT ---------------------------- */
@@ -2191,7 +2141,7 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       return;
     }
     try {
-      await Api.tutorUploadDocument({ title, text, department: user.department || 'CSE' });
+      await Api.tutorUploadDocument({ title, text, department: 'General' });
       toast('Document indexed successfully into study store!', 'sprout');
       $('#rag-doc-title').value = '';
       $('#rag-doc-text').value = '';
@@ -2743,11 +2693,9 @@ VIEW_RENDERERS['progress'] = async (mount) => {
     </div>`;
 };
 
-/* ---------------------------- GRAMMAR PRACTICE ---------------------------- */
-let currentGrammarCategory = 'All';
+/* ---------------------------- GRAMMAR PRACTICE (SEQUENTIAL UNLOCK) ---------------------------- */
 
 const GRAMMAR_CAT_ICONS = {
-  'All': '✨',
   'Sentence Foundations': '🏗️',
   'Parts of Speech': '🧩',
   'Nouns': '🏷️',
@@ -2777,8 +2725,17 @@ const GRAMMAR_CAT_ICONS = {
 };
 
 VIEW_RENDERERS['grammar'] = async (mount) => {
-  const topics = await Api.grammarTopics();
-  renderGrammarView(mount, topics);
+  let topics = [];
+  let progress = null;
+  try {
+    [topics, progress] = await Promise.all([
+      Api.grammarTopics().catch(() => []),
+      Api.grammarProgress().catch(() => null),
+    ]);
+  } catch (err) {
+    topics = [];
+  }
+  renderGrammarView(mount, topics, progress);
 };
 
 function formatVideoEmbedUrl(url) {
@@ -2786,108 +2743,120 @@ function formatVideoEmbedUrl(url) {
   if (url.includes('youtube.com/embed/')) return url;
   if (url.includes('youtu.be/')) {
     const id = url.split('youtu.be/')[1]?.split('?')[0];
-    return `https://www.youtube.com/embed/${id}`;
+    return 'https://www.youtube.com/embed/' + id;
   }
   if (url.includes('youtube.com/watch')) {
-    const id = new URL(url).searchParams.get('v');
-    return `https://www.youtube.com/embed/${id}`;
+    try {
+      const id = new URL(url).searchParams.get('v');
+      return 'https://www.youtube.com/embed/' + id;
+    } catch (e) {
+      return url;
+    }
   }
   return url;
 }
 
-let currentGrammarLevel = 'All';
-
-function renderGrammarView(mount, topics) {
-  const dynamicCats = [...new Set(topics.map(t => t.category).filter(Boolean))].sort();
-  const categories = ['All', ...(dynamicCats.length ? dynamicCats : ['Tenses', 'Subject-Verb Agreement', 'Prepositions'])];
-  const levels = ['All', 'Beginner', 'Intermediate', 'Advanced'];
-
-  let filtered = currentGrammarCategory === 'All'
-    ? topics
-    : topics.filter(t => t.category === currentGrammarCategory);
-
-  if (currentGrammarLevel !== 'All') {
-    filtered = filtered.filter(t => t.level === currentGrammarLevel);
-  }
+function renderGrammarView(mount, topics, progress) {
+  const completedCount = (progress && progress.completedCount !== undefined)
+    ? progress.completedCount
+    : topics.filter(t => t.isCompleted || t.completed).length;
+  const totalCount = (progress && progress.totalTopics) || topics.length;
+  const progressPercent = totalCount ? Math.round((completedCount / totalCount) * 100) : 0;
+  
+  // Find first unlocked topic that is not yet completed
+  const firstActiveUnlocked = topics.find(t => !t.isLocked && !t.isCompleted && !t.completed);
 
   mount.innerHTML = `
     <div class="col gap-md">
-      <!-- Category & Level Filters -->
-      <div class="row gap-sm" style="align-items:center;justify-content:space-between;flex-wrap:wrap">
-        <div class="grammar-cat-scroll" style="flex:1">
-          ${categories.map(cat => `
-            <button class="grammar-cat-pill ${currentGrammarCategory === cat ? 'active' : ''}" data-cat="${cat}">
-              <span>${GRAMMAR_CAT_ICONS[cat] || '📌'}</span>
-              <span>${cat}</span>
-            </button>
-          `).join('')}
+      <!-- Sequential Progress Header -->
+      <div class="card" id="grammar-header-card" style="padding:18px 22px;background:var(--color-surface-2);border:1px solid var(--line)">
+        <div class="row gap-sm" style="align-items:center;justify-content:space-between;flex-wrap:wrap">
+          <div class="row gap-xs" style="align-items:center">
+            <span id="grammar-header-count" style="font-size:18px;font-weight:700">${completedCount} / ${totalCount} topics completed</span>
+            <span id="grammar-header-pct" class="pill sprout" style="font-size:11px;font-weight:700">${progressPercent}% Complete</span>
+          </div>
+          <div class="row gap-xs" style="align-items:center">
+            <span class="pill" style="font-size:11.5px;color:var(--cream-dim);border-color:var(--line)">Pass Mark: 60%</span>
+            <span class="pill voice" style="font-size:11.5px;font-weight:700">+25 XP on first completion</span>
+          </div>
         </div>
-        <div class="row gap-xs" style="align-items:center">
-          <span style="font-size:12px;color:var(--cream-dim);font-weight:600">Level:</span>
-          ${levels.map(lvl => `
-            <button class="pill ${currentGrammarLevel === lvl ? 'voice' : ''}" data-lvl="${lvl}" style="cursor:pointer;font-size:11px">
-              ${lvl}
-            </button>
-          `).join('')}
+        <div style="height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:12px">
+          <div id="grammar-header-bar" style="width:${progressPercent}%;height:100%;background:var(--gradient-primary);border-radius:4px;transition:width 0.3s ease"></div>
         </div>
       </div>
 
-      <!-- Topics Grid -->
+      <!-- Topics Grid (Clean Syllabus Order, Sequential Unlocking) -->
       <div class="grid grid-2" id="grammar-grid">
-        ${filtered.length ? filtered.map(t => {
-          const isDone = t.completed;
+        ${topics.length ? topics.map(t => {
+          const isDone = !!(t.isCompleted || t.completed);
+          const isLocked = !!t.isLocked;
+          const isCurrent = !isLocked && !isDone && (!firstActiveUnlocked || String(firstActiveUnlocked._id) === String(t._id));
           const hasVideo = !!t.videoUrl;
+          const qCount = t.questionCount || (t.questions && t.questions.length) || 25;
+          const orderNum = t.order || t.topicId || '';
+
           return `
-            <div class="grammar-topic-card ${isDone ? 'completed' : ''}">
+            <div id="topic-card-${t._id}" class="grammar-topic-card ${isDone ? 'completed' : ''}" style="${isLocked ? 'opacity:0.62;background:var(--color-surface-1);border:1px dashed var(--line);' : isCurrent ? 'border:2px solid var(--purple);box-shadow:0 0 16px rgba(124, 58, 237, 0.25);' : ''}">
               <div>
                 <div class="row gap-xs" style="margin-bottom:10px;flex-wrap:wrap;align-items:center">
                   <span class="pill ${t.category === 'Tenses' ? 'amber' : t.category === 'Common Pitfalls' ? 'coral' : 'sprout'}" style="font-size:11px">
-                    ${esc(t.category)}
+                    ${GRAMMAR_CAT_ICONS[t.category] || '📌'} ${esc(t.category)}
                   </span>
-                  <span class="pill voice" style="font-size:10.5px">${t.level}</span>
-                  ${hasVideo ? `<span class="pill emerald" style="font-size:10.5px">📹 Video Lesson</span>` : ''}
+                  <span class="pill voice" style="font-size:10.5px">${t.level || 'Beginner'}</span>
+                  ${hasVideo ? '<span class="pill emerald" style="font-size:10.5px">📹 Video Lesson</span>' : ''}
                   <div class="spacer"></div>
-                  ${isDone
-                    ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} ${t.bestScore}% Best</span>`
-                    : `<span class="pill" style="font-size:10.5px;color:var(--cyan);border-color:var(--color-border)">⚡ +25 XP</span>`
-                  }
+                  <span id="badge-status-${t._id}">
+                    ${isDone
+                      ? `<span class="pill emerald" style="font-size:11px;font-weight:700">${ICONS.check} ${t.bestScore}% Best</span>`
+                      : isLocked
+                        ? `<span class="pill" style="font-size:10.5px;color:var(--cream-dim);border-color:var(--line)"><i class="bi bi-lock-fill"></i> Locked</span>`
+                        : `<span class="pill voice" style="font-size:10.5px;font-weight:700">Continue</span>`
+                    }
+                  </span>
                 </div>
-                <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">${esc(t.title)}</h3>
+                <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">
+                  ${orderNum ? `<span style="font-size:13px;color:var(--cream-faint);margin-right:4px">#${orderNum}</span>` : ''}${esc(t.title)}
+                </h3>
                 <p style="font-size:13px;color:var(--cream-dim);line-height:1.55;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden">
                   ${esc(t.description)}
                 </p>
+                <div id="unlock-msg-${t._id}">
+                  ${isLocked ? `
+                    <div style="font-size:12px;color:var(--coral);margin-bottom:12px;display:flex;align-items:center;gap:6px">
+                      <i class="bi bi-lock-fill"></i> Complete "${esc(t.previousTopicTitle || 'previous topic')}" with &ge;60% to unlock
+                    </div>
+                  ` : ''}
+                </div>
               </div>
               <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line);align-items:center">
                 <span style="font-size:12px;color:var(--cream-faint);display:inline-flex;align-items:center;gap:4px">
-                  📝 ${t.questions.length} Questions Test
+                  📝 ${qCount} Questions Test
                 </span>
                 <div class="spacer"></div>
-                <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
-                  ${isDone ? 'Practice Again' : 'Study & Take Test'} ${ICONS.arrowRight}
-                </button>
+                <div id="btn-container-${t._id}">
+                  ${isLocked ? `
+                    <button class="btn btn-secondary btn-sm" disabled style="opacity:0.6;cursor:not-allowed">
+                      <i class="bi bi-lock-fill"></i> Locked
+                    </button>
+                  ` : isDone ? `
+                    <button class="btn btn-secondary btn-sm" data-start-grammar="${t._id}">
+                      Retake Test ${ICONS.refresh}
+                    </button>
+                  ` : `
+                    <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
+                      Study &amp; Take Test ${ICONS.arrowRight}
+                    </button>
+                  `}
+                </div>
               </div>
             </div>
           `;
-        }).join('') : `<div class="card empty-state">No topics found matching criteria.</div>`}
+        }).join('') : '<div class="card empty-state">No grammar topics available.</div>'}
       </div>
 
       <div id="grammar-active-area"></div>
     </div>
   `;
-
-  mount.querySelectorAll('[data-cat]').forEach(btn => {
-    btn.onclick = () => {
-      currentGrammarCategory = btn.dataset.cat;
-      renderGrammarView(mount, topics);
-    };
-  });
-
-  mount.querySelectorAll('[data-lvl]').forEach(btn => {
-    btn.onclick = () => {
-      currentGrammarLevel = btn.dataset.lvl;
-      renderGrammarView(mount, topics);
-    };
-  });
 
   mount.querySelectorAll('[data-start-grammar]').forEach(btn => {
     btn.onclick = () => openGrammarQuiz(btn.dataset.startGrammar, mount, topics);
@@ -2902,6 +2871,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
   try {
     const topic = await Api.getGrammarTopic(topicId);
     const embedUrl = formatVideoEmbedUrl(topic.videoUrl);
+    const qBankCount = topic.questionCount || (topic.questions && topic.questions.length) || 25;
 
     activeArea.innerHTML = `
       <div class="col gap-md">
@@ -2912,7 +2882,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
           </button>
           <div class="row gap-xs">
             <span class="pill sprout" style="font-size:11px">${esc(topic.category)}</span>
-            <span class="pill voice" style="font-size:10.5px">${topic.level}</span>
+            <span class="pill voice" style="font-size:10.5px">${topic.level || 'Beginner'}</span>
           </div>
         </div>
 
@@ -2920,7 +2890,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
         <div class="card col gap-md" style="padding:22px;border-left:4px solid var(--purple)">
           <div class="col gap-xs">
             <div style="font-size:11.5px;color:var(--purple);text-transform:uppercase;letter-spacing:1px;font-weight:800">
-              Beginner Learning Module
+              Grammar Module
             </div>
             <h2 style="font-size:24px;font-weight:800;line-height:1.3">${esc(topic.title)}</h2>
             <p style="font-size:14px;color:var(--cream-dim);line-height:1.6;margin-top:4px">${esc(topic.description)}</p>
@@ -2932,7 +2902,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
             </div>
           ` : `
             <div class="card" style="background:var(--color-primary-soft);border:1px dashed var(--color-primary);padding:16px;text-align:center">
-              <span style="font-size:13px;color:var(--cream-dim)">📺 No video provided for this topic. Read the rule summary below and start your 10-question test.</span>
+              <span style="font-size:13px;color:var(--cream-dim)">📺 No video provided for this topic. Read the rule summary below and start your test.</span>
             </div>
           `}
 
@@ -2948,7 +2918,7 @@ async function openGrammarQuiz(topicId, mount, topics) {
 
           <div style="margin-top:8px">
             <button class="btn btn-primary" id="btn-start-test-10q" style="width:100%;padding:14px;font-size:16px;font-weight:700">
-              🎯 Take 10-Question Test (${topic.questions.length} Question Bank) ${ICONS.arrowRight}
+              🎯 Take Topic Test (${qBankCount} Questions) ${ICONS.arrowRight}
             </button>
           </div>
         </div>
@@ -2957,16 +2927,20 @@ async function openGrammarQuiz(topicId, mount, topics) {
       </div>
     `;
 
-    $('#btn-back-grammar').onclick = () => {
-      grid.style.display = 'grid';
-      activeArea.innerHTML = '';
+    // Ensure Top Back button ALWAYS re-fetches fresh topics and progress
+    $('#btn-back-grammar').onclick = async () => {
+      const [freshTopics, freshProg] = await Promise.all([
+        Api.grammarTopics().catch(() => []),
+        Api.grammarProgress().catch(() => null),
+      ]);
+      renderGrammarView(mount, freshTopics, freshProg);
     };
 
     $('#btn-start-test-10q').onclick = async () => {
       const runnerArea = $('#test-runner-area');
       const startBtn = $('#btn-start-test-10q');
       startBtn.disabled = true;
-      startBtn.textContent = 'Loading Question Bank…';
+      startBtn.textContent = 'Loading Questions…';
 
       try {
         const testData = await Api.getGrammarTest(topic._id);
@@ -2975,12 +2949,13 @@ async function openGrammarQuiz(topicId, mount, topics) {
       } catch (err) {
         apiError(err);
         startBtn.disabled = false;
-        startBtn.textContent = '🎯 Take 10-Question Test';
+        startBtn.textContent = '🎯 Take Topic Test';
       }
     };
 
   } catch (err) {
     apiError(err);
+    grid.style.display = 'grid';
   }
 }
 
@@ -2992,7 +2967,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
     <div class="col gap-md" style="margin-top:12px">
       <div class="card" style="border-left:4px solid var(--sprout);padding:16px 20px">
         <div class="row gap-xs" style="align-items:center">
-          <span class="pill sprout" style="font-size:12px;font-weight:700">10-QUESTION MCQ TEST</span>
+          <span class="pill sprout" style="font-size:12px;font-weight:700">MCQ TEST</span>
           <div class="spacer"></div>
           <span style="font-size:13px;color:var(--cream-dim)">${questions.length} Questions</span>
         </div>
@@ -3022,7 +2997,7 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
         }).join('')}
 
         <button class="btn btn-primary btn-action" type="submit" style="width:100%;max-width:340px;padding:14px;font-size:16px;font-weight:700;margin:12px auto 0 auto" id="submit-grammar-10q-btn">
-          Submit 10-Question Test ${ICONS.arrowRight}
+          Submit Test ${ICONS.arrowRight}
         </button>
       </form>
 
@@ -3067,21 +3042,67 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
         addStudentXP(res.xpEarned);
       }
 
+      // Update in-memory topic list state immediately
+      const completedT = topics.find(t => String(t._id) === String(topicId));
+      if (completedT) {
+        completedT.bestScore = Math.max(completedT.bestScore || 0, res.score);
+        if (res.passed) {
+          completedT.isCompleted = true;
+          completedT.completed = true;
+          completedT.isLocked = false;
+        }
+      }
+      if (res.passed) {
+        const completedIdx = topics.findIndex(t => String(t._id) === String(topicId));
+        if (completedIdx !== -1 && completedIdx + 1 < topics.length) {
+          topics[completedIdx + 1].isLocked = false;
+        }
+      }
+
+      // Update Header counter and progress bar immediately
+      if (res.progress) {
+        const countEl = $('#grammar-header-count');
+        const pctEl = $('#grammar-header-pct');
+        const barEl = $('#grammar-header-bar');
+        const completedCount = res.progress.completedCount;
+        const totalCount = res.progress.totalTopics;
+        const pct = totalCount ? Math.round((completedCount / totalCount) * 100) : 0;
+        if (countEl) countEl.textContent = `${completedCount} / ${totalCount} topics completed`;
+        if (pctEl) pctEl.textContent = `${pct}% Complete`;
+        if (barEl) barEl.style.width = `${pct}%`;
+      }
+
       const resultsDiv = $('#grammar-results-10q');
+      const passed = !!res.passed;
+      const passMark = res.passPercent || 60;
+      const minCorrectNeeded = Math.ceil((passMark / 100) * res.totalQuestions);
+
       resultsDiv.innerHTML = `
         <div class="col gap-md" style="margin-top:20px">
-          <div class="result-hero-card col gap-xs" style="border-top:4px solid ${scoreColor(res.score)}">
-            <div style="font-size:11.5px;color:var(--cream-faint);text-transform:uppercase;letter-spacing:1px;font-weight:800">Topic Test Score</div>
-            <h2 style="font-size:36px;font-weight:800;color:${scoreColor(res.score)};margin:4px 0">${res.score}%</h2>
-            <div style="font-size:15px;color:var(--cream);font-weight:600">
-              ${res.correctCount} of ${res.totalQuestions} questions correct
-            </div>
-            <div style="font-size:13.5px;color:var(--cream-dim);margin-top:2px">${res.message}</div>
-            ${res.xpEarned > 0 ? `
-              <div style="margin-top:10px">
-                <span class="pill sprout" style="font-size:13px;padding:6px 14px;font-weight:700">⚡ +${res.xpEarned} XP Awarded</span>
+          <!-- Clear Result Hero Banner -->
+          <div class="result-hero-card col gap-xs" style="border-top:4px solid ${passed ? 'var(--emerald)' : 'var(--coral)'};background:var(--color-surface-2);padding:24px;border-radius:12px;text-align:center">
+            ${passed ? `
+              <span class="pill sprout" style="font-size:12px;font-weight:700;margin:0 auto 8px auto">✔ TOPIC PASSED &amp; UNLOCKED</span>
+              <h2 style="font-size:42px;font-weight:800;color:var(--emerald);margin:4px 0">${res.score}%</h2>
+              <div style="font-size:16px;color:var(--cream);font-weight:700">
+                ${res.correctCount} of ${res.totalQuestions} questions correct
               </div>
-            ` : ''}
+              <div style="font-size:14px;color:var(--cream-dim);margin-top:4px">${esc(res.message)}</div>
+              ${res.xpEarned > 0 ? `
+                <div style="margin-top:10px">
+                  <span class="pill sprout" style="font-size:13px;padding:6px 14px;font-weight:700">⚡ +${res.xpEarned} XP Awarded</span>
+                </div>
+              ` : ''}
+            ` : `
+              <span class="pill coral" style="font-size:12px;font-weight:700;margin:0 auto 8px auto">✖ PASS MARK NOT MET</span>
+              <h2 style="font-size:42px;font-weight:800;color:var(--coral);margin:4px 0">${res.score}%</h2>
+              <div style="font-size:16px;color:var(--cream);font-weight:700">
+                ${res.correctCount} of ${res.totalQuestions} questions correct
+              </div>
+              <div style="font-size:14.5px;color:var(--coral);font-weight:600;margin-top:8px;line-height:1.5">
+                Score ${res.score}%. Need ${passMark}% (${minCorrectNeeded}/${res.totalQuestions}) to unlock the next topic. Retry
+              </div>
+            `}
           </div>
 
           <div class="col gap-sm">
@@ -3126,51 +3147,46 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
       $('#btn-retry-grammar-10q').onclick = () => {
         openGrammarQuiz(topicId, mount, topics);
       };
+      
+      // Bottom Back button ALWAYS re-fetches fresh topics and progress
       $('#btn-finish-grammar-10q').onclick = async () => {
-        const freshTopics = await Api.grammarTopics();
-        renderGrammarView(mount, freshTopics);
+        const [freshTopics, freshProg] = await Promise.all([
+          Api.grammarTopics().catch(() => []),
+          Api.grammarProgress().catch(() => null),
+        ]);
+        renderGrammarView(mount, freshTopics, freshProg);
       };
 
     } catch (err) {
       apiError(err);
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Submit 10-Question Test';
+      submitBtn.textContent = 'Submit Test';
     }
   };
 }
 
 /* ---------------------------- DAILY SITUATIONAL PHRASES ---------------------------- */
-let currentSituationalCategory = 'All';
 
 VIEW_RENDERERS['situational'] = async (mount) => {
-  const scenarios = await Api.situationalScenarios();
+  let scenarios = [];
+  try {
+    scenarios = await Api.situationalScenarios();
+  } catch (err) {
+    scenarios = [];
+  }
   renderSituationalView(mount, scenarios);
 };
 
 function renderSituationalView(mount, scenarios) {
-  const categories = ['All', 'Campus Life', 'Professional & Jobs', 'Social & Daily'];
-
-  const filtered = currentSituationalCategory === 'All'
-    ? scenarios
-    : scenarios.filter(s => s.category === currentSituationalCategory);
-
   mount.innerHTML = `
     <div class="col gap-md">
-      <div class="card row gap-sm overflow-x" style="padding:10px 14px;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch">
-        ${categories.map(cat => `
-          <button class="pill ${currentSituationalCategory === cat ? 'sprout' : ''}" style="cursor:pointer;flex-shrink:0;white-space:nowrap;border:1px solid ${currentSituationalCategory === cat ? 'var(--sprout)' : 'var(--line)'}" data-scat="${cat}">
-            ${cat}
-          </button>
-        `).join('')}
-      </div>
-
       <div class="grid grid-2" id="situational-grid">
-        ${filtered.length ? filtered.map(s => `
+        ${scenarios.length ? scenarios.map(s => `
           <div class="card col gap-sm" style="position:relative;display:flex;flex-direction:column;justify-content:space-between">
             <div>
               <div class="row gap-sm" style="margin-bottom:8px">
                 <span class="pill ${s.category === 'Campus Life' ? 'sprout' : s.category === 'Professional & Jobs' ? 'amber' : 'voice'}">${esc(s.category)}</span>
-                <span class="pill voice" style="font-size:11px">${s.level}</span>
+                <span class="pill voice" style="font-size:11px">${s.level || 'Beginner'}</span>
                 <div class="spacer"></div>
                 ${s.completed ? `<span class="pill sprout" style="color:var(--sprout)">${ICONS.check} ${s.bestScore}% Best</span>` : '<span class="pill" style="color:var(--cream-faint)">New</span>'}
               </div>
@@ -3178,26 +3194,19 @@ function renderSituationalView(mount, scenarios) {
               <p style="font-size:13px;color:var(--cream-dim);line-height:1.5;margin-bottom:12px">${esc(s.situationContext)}</p>
             </div>
             <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line)">
-              <span style="font-size:12px;color:var(--cream-faint)">${s.phrases.length} Key Phrases &middot; ${s.interactivePrompts.length} Prompts</span>
+              <span style="font-size:12px;color:var(--cream-faint)">${(s.phrases && s.phrases.length) || 0} Key Phrases &middot; ${(s.interactivePrompts && s.interactivePrompts.length) || 0} Prompts</span>
               <div class="spacer"></div>
               <button class="btn btn-primary btn-sm" data-start-situational="${s._id}">
                 ${s.completed ? 'Roleplay Again' : 'Start Scenario'} ${ICONS.arrowRight}
               </button>
             </div>
           </div>
-        `).join('') : `<div class="card empty-state">No scenarios found in this category.</div>`}
+        `).join('') : '<div class="card empty-state">No situational scenarios available.</div>'}
       </div>
 
       <div id="situational-active-area"></div>
     </div>
   `;
-
-  mount.querySelectorAll('[data-scat]').forEach(btn => {
-    btn.onclick = () => {
-      currentSituationalCategory = btn.dataset.scat;
-      renderSituationalView(mount, scenarios);
-    };
-  });
 
   mount.querySelectorAll('[data-start-situational]').forEach(btn => {
     btn.onclick = () => openSituationalScenario(btn.dataset.startSituational, mount, scenarios);
@@ -3650,7 +3659,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
               ${u.emailVerified ? `<span class="pill cyan" style="font-size:11px"><i class="bi bi-patch-check-fill"></i> Verified</span>` : ''}
             </div>
             <div style="font-size:13.5px;color:var(--cream-dim);margin-bottom:8px">
-              <b>${esc(u.email)}</b> &middot; Department of <b>${esc(u.department || 'Engineering')}</b>
+              <b>${esc(u.email)}</b>
             </div>
             <div class="row gap-xs" style="flex-wrap:wrap;align-items:center">
               <span class="pill ${levelColor(u.level || 'Beginner')}" style="font-weight:700;font-size:12px">
@@ -3702,10 +3711,7 @@ VIEW_RENDERERS['profile'] = async (mount) => {
                 <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Enrolled Class</td>
                 <td><span class="pill cyan" style="font-weight:700;font-size:12px">${ICONS.mortarboard} ${esc(userClass || 'Not Assigned')}</span></td>
               </tr>
-              <tr>
-                <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Department</td>
-                <td style="font-size:13px;color:var(--cream)">${esc(u.department || 'Engineering')}</td>
-              </tr>
+
               <tr>
                 <td style="font-weight:600;color:var(--cream-faint);padding:10px 14px">Institution</td>
                 <td style="font-size:13px;color:var(--cream)">${esc(u.institution || 'PSG Institute of Technology and Applied Research')}</td>

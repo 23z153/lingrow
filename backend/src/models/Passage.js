@@ -6,12 +6,12 @@ const passageSchema = new mongoose.Schema(
     level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Intermediate' },
     department: {
       type: String,
-      enum: ['CSE', 'ECE', 'MECH', 'CIVIL', 'EEE', 'IT', 'MBA', 'General'],
       default: 'General',
     },
     text: { type: String, required: true },
     wordCount: { type: Number, required: true },
     source: { type: String, enum: ['scraped', 'curated'], default: 'curated' },
+    active: { type: Boolean, default: true, index: true },
   },
   { timestamps: true }
 );

@@ -1,46 +1,191 @@
 const router = require('express').Router();
+const mongoose = require('mongoose');
 const { requireAuth } = require('../middleware/auth');
 const GrammarTopic = require('../models/GrammarTopic');
 const GrammarAttempt = require('../models/GrammarAttempt');
+const GrammarProgress = require('../models/GrammarProgress');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
 
-// GET /api/grammar - List all grammar topics with user's completion status & highest score
-router.get('/', requireAuth, async (req, res) => {
-  try {
-    const { category, level } = req.query;
-    const filter = {};
-    if (category) filter.category = category;
-    if (level) filter.level = level;
+// Pass mark threshold required to complete a topic and unlock the next topic
+const PASS_PERCENT = 60;
 
-    // High-performance lean query: excludes full question options & explanations from list view
-    const topics = await GrammarTopic.find(filter)
-      .select('title category level unit topicId description ruleSummary videoUrl')
-      .sort({ topicId: 1, createdAt: 1 })
-      .lean();
+/**
+ * Normalizes any topic id representation (ObjectId, populated doc, string) to string
+ */
+function toIdString(id) {
+  if (!id) return '';
+  if (id._id) return String(id._id);
+  return String(id);
+}
 
-    const attempts = await GrammarAttempt.find({ user: req.user._id }).select('topic score').lean();
+/**
+ * Flexible lookup by MongoDB _id or numeric topicId
+ */
+async function findTopicByIdOrTopicId(paramId) {
+  if (!paramId) return null;
+  const idStr = String(paramId).trim();
+  if (/^[0-9a-fA-F]{24}$/.test(idStr)) {
+    const byId = await GrammarTopic.findById(idStr);
+    if (byId) return byId;
+  }
+  const num = Number(idStr);
+  if (!isNaN(num)) {
+    const byNum = await GrammarTopic.findOne({ topicId: num });
+    if (byNum) return byNum;
+  }
+  return null;
+}
 
-    const topicStats = {};
-    for (const a of attempts) {
-      const tid = a.topic.toString();
-      if (!topicStats[tid]) {
-        topicStats[tid] = { bestScore: 0, attemptsCount: 0 };
-      }
-      topicStats[tid].attemptsCount += 1;
-      if (a.score > topicStats[tid].bestScore) {
-        topicStats[tid].bestScore = a.score;
+/**
+ * Helper to fetch or create user's grammar progress.
+ * Migrates existing attempts so users with prior completions are not locked out.
+ */
+async function getOrCreateGrammarProgress(userId) {
+  let progress = await GrammarProgress.findOne({ userId });
+
+  // Find all historical attempts for migration / sync
+  const pastAttempts = await GrammarAttempt.find({ user: userId }).select('topic score').lean();
+
+  if (!progress) {
+    const completedSet = new Set();
+    const scores = {};
+
+    for (const a of pastAttempts) {
+      if (!a.topic) continue;
+      const tid = toIdString(a.topic);
+      if (a.score !== undefined && a.score !== null) {
+        scores[tid] = Math.max(scores[tid] || 0, a.score);
+        if (a.score >= PASS_PERCENT) {
+          completedSet.add(tid);
+        }
       }
     }
 
-    const result = topics.map((t) => {
-      const stats = topicStats[t._id.toString()] || { bestScore: 0, attemptsCount: 0 };
+    progress = new GrammarProgress({
+      userId,
+      completedTopicIds: Array.from(completedSet),
+      bestScores: scores,
+    });
+    await progress.save();
+  } else {
+    // Ensure any previously unrecorded passing attempts are migrated
+    let updated = false;
+    const currentCompleted = new Set(progress.completedTopicIds.map(toIdString));
+
+    for (const a of pastAttempts) {
+      if (!a.topic) continue;
+      const tid = toIdString(a.topic);
+      const prevBest = progress.bestScores.get
+        ? (progress.bestScores.get(tid) || 0)
+        : (progress.bestScores[tid] || 0);
+      if (a.score > prevBest) {
+        if (progress.bestScores.set) {
+          progress.bestScores.set(tid, a.score);
+        } else {
+          progress.bestScores[tid] = a.score;
+        }
+        updated = true;
+      }
+      if (a.score >= PASS_PERCENT && !currentCompleted.has(tid)) {
+        progress.completedTopicIds.push(a.topic);
+        currentCompleted.add(tid);
+        updated = true;
+      }
+    }
+
+    if (updated) {
+      await progress.save();
+    }
+  }
+
+  return progress;
+}
+
+/**
+ * Checks if a topic is unlocked for a given user progress and sorted topic list.
+ * Topic 1 (index 0) is always unlocked.
+ * Topic N is unlocked if Topic N-1 is in completedTopicIds.
+ */
+function checkTopicUnlocked(targetTopicId, allSortedTopics, completedSet) {
+  const targetIdStr = toIdString(targetTopicId);
+  let index = allSortedTopics.findIndex((t) => toIdString(t._id) === targetIdStr);
+  if (index === -1 && !isNaN(Number(targetIdStr))) {
+    const num = Number(targetIdStr);
+    index = allSortedTopics.findIndex((t) => t.topicId === num);
+  }
+  if (index === -1) return false;
+  if (index === 0) return true; // First topic is always unlocked
+
+  const prevTopic = allSortedTopics[index - 1];
+  const prevIdStr = toIdString(prevTopic._id);
+  return completedSet.has(prevIdStr);
+}
+
+// GET /api/grammar/progress - Current user's progress summary
+router.get('/progress', requireAuth, async (req, res) => {
+  try {
+    const progress = await getOrCreateGrammarProgress(req.user._id);
+    const totalTopics = await GrammarTopic.countDocuments();
+    const completedTopicIds = progress.completedTopicIds.map(toIdString);
+
+    res.json({
+      completedTopicIds,
+      bestScores: Object.fromEntries(progress.bestScores || new Map()),
+      totalTopics,
+      completedCount: completedTopicIds.length,
+      passPercent: PASS_PERCENT,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET /api/grammar - List all grammar topics with sequential unlock state
+router.get('/', requireAuth, async (req, res) => {
+  try {
+    const topics = await GrammarTopic.find({})
+      .select('title category level unit topicId description ruleSummary videoUrl questions')
+      .sort({ topicId: 1, createdAt: 1 })
+      .lean();
+
+    const progress = await getOrCreateGrammarProgress(req.user._id);
+    const completedSet = new Set(progress.completedTopicIds.map(toIdString));
+
+    const attempts = await GrammarAttempt.find({ user: req.user._id }).select('topic score').lean();
+    const topicAttemptCounts = {};
+    for (const a of attempts) {
+      if (!a.topic) continue;
+      const tid = toIdString(a.topic);
+      topicAttemptCounts[tid] = (topicAttemptCounts[tid] || 0) + 1;
+    }
+
+    const result = topics.map((t, idx) => {
+      const tid = toIdString(t._id);
+      const isCompleted = completedSet.has(tid);
+      const isUnlocked = idx === 0 || completedSet.has(toIdString(topics[idx - 1]._id));
+      const bestScore = progress.bestScores.get
+        ? (progress.bestScores.get(tid) || 0)
+        : (progress.bestScores[tid] || 0);
+      const prevTopic = idx > 0 ? topics[idx - 1] : null;
+
       return {
-        ...t,
-        questionCount: 50,
-        questions: { length: 50 },
-        bestScore: stats.bestScore,
-        attemptsCount: stats.attemptsCount,
-        completed: stats.attemptsCount > 0,
+        _id: t._id,
+        topicId: t.topicId || idx + 1,
+        order: t.topicId || idx + 1,
+        title: t.title,
+        category: t.category,
+        level: t.level,
+        unit: t.unit,
+        description: t.description,
+        ruleSummary: t.ruleSummary,
+        videoUrl: t.videoUrl,
+        questionCount: (t.questions && t.questions.length) || 0,
+        bestScore,
+        attemptsCount: topicAttemptCounts[tid] || 0,
+        completed: isCompleted,
+        isCompleted,
+        isLocked: !isUnlocked,
+        previousTopicTitle: prevTopic ? prevTopic.title : null,
       };
     });
 
@@ -54,7 +199,7 @@ router.get('/', requireAuth, async (req, res) => {
 router.get('/attempts/me', requireAuth, async (req, res) => {
   try {
     const attempts = await GrammarAttempt.find({ user: req.user._id })
-      .populate('topic', 'title category level')
+      .populate('topic', 'title category level topicId')
       .sort({ createdAt: -1 });
     res.json(attempts);
   } catch (err) {
@@ -62,28 +207,52 @@ router.get('/attempts/me', requireAuth, async (req, res) => {
   }
 });
 
-// GET /api/grammar/:id - Single topic details & questions
+// GET /api/grammar/:id - Single topic details & questions (locked check)
 router.get('/:id', requireAuth, async (req, res) => {
   try {
-    const topic = await GrammarTopic.findById(req.params.id);
+    const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
+
+    // Verify sequential unlock
+    const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
+    const progress = await getOrCreateGrammarProgress(req.user._id);
+    const completedSet = new Set(progress.completedTopicIds.map(toIdString));
+
+    if (!checkTopicUnlocked(topic._id, allTopics, completedSet)) {
+      return res.status(403).json({
+        error: 'This topic is locked. Complete the previous topic to unlock it.',
+        locked: true,
+      });
+    }
+
     res.json(topic);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// GET /api/grammar/:id/test - Fetch 10 questions test from Question Bank for this topic
+// GET /api/grammar/:id/test - Fetch questions test for this topic (locked check)
 router.get('/:id/test', requireAuth, async (req, res) => {
   try {
-    const topic = await GrammarTopic.findById(req.params.id);
+    const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
 
-    // Pick 10 questions (or all if < 10)
-    let questions = [...topic.questions];
-    if (questions.length > 10) {
-      // Shuffle & pick 10
-      questions = questions.sort(() => 0.5 - Math.random()).slice(0, 10);
+    // Verify sequential unlock
+    const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
+    const progress = await getOrCreateGrammarProgress(req.user._id);
+    const completedSet = new Set(progress.completedTopicIds.map(toIdString));
+
+    if (!checkTopicUnlocked(topic._id, allTopics, completedSet)) {
+      return res.status(403).json({
+        error: 'This topic is locked. Complete the previous topic to unlock it.',
+        locked: true,
+      });
+    }
+
+    // Select questions from topic question pool
+    let questions = [...(topic.questions || [])];
+    if (questions.length > 50) {
+      questions = questions.slice(0, 50);
     }
 
     const testQuestions = questions.map((q, idx) => ({
@@ -95,12 +264,14 @@ router.get('/:id/test', requireAuth, async (req, res) => {
 
     res.json({
       topicId: topic._id,
+      order: topic.topicId,
       title: topic.title,
       category: topic.category,
       level: topic.level,
       videoUrl: topic.videoUrl,
       description: topic.description,
       ruleSummary: topic.ruleSummary,
+      passPercent: PASS_PERCENT,
       totalQuestions: testQuestions.length,
       questions: testQuestions,
     });
@@ -109,21 +280,35 @@ router.get('/:id/test', requireAuth, async (req, res) => {
   }
 });
 
-// POST /api/grammar/:id/submit - Evaluate answers & record attempt
+// POST /api/grammar/:id/submit - Evaluate answers & record attempt (locked check)
 router.post('/:id/submit', requireAuth, async (req, res) => {
   try {
-    const { answers, questionIds } = req.body; // Array of selected option indexes: [0, 2, 1, ...]
+    const { answers, questionIds } = req.body;
     if (!Array.isArray(answers)) {
       return res.status(400).json({ error: 'Answers must be an array of selected option indexes' });
     }
 
-    const topic = await GrammarTopic.findById(req.params.id);
+    const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
 
-    // Determine target questions: either by questionIds array or topic.questions
-    let targetQuestions = topic.questions;
+    // Verify sequential unlock
+    const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
+    const progress = await getOrCreateGrammarProgress(req.user._id);
+    const completedSet = new Set(progress.completedTopicIds.map(toIdString));
+
+    if (!checkTopicUnlocked(topic._id, allTopics, completedSet)) {
+      return res.status(403).json({
+        error: 'This topic is locked. Complete the previous topic to unlock it.',
+        locked: true,
+      });
+    }
+
+    // Determine target questions
+    let targetQuestions = topic.questions || [];
     if (Array.isArray(questionIds) && questionIds.length > 0) {
-      targetQuestions = questionIds.map(qid => topic.questions.id(qid) || topic.questions.find(q => q._id.toString() === qid.toString())).filter(Boolean);
+      targetQuestions = questionIds
+        .map((qid) => (topic.questions.id ? topic.questions.id(qid) : topic.questions.find((q) => toIdString(q._id) === toIdString(qid))))
+        .filter(Boolean);
     }
 
     let correctCount = 0;
@@ -144,14 +329,35 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
 
     const totalQuestions = targetQuestions.length;
     const score = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+    const passed = score >= PASS_PERCENT;
+    const tidStr = toIdString(topic._id);
+    const wasAlreadyCompleted = completedSet.has(tidStr);
 
-    // Calculate XP: 15 base + bonus for higher accuracy
     let xpEarned = 0;
-    if (score >= 50) {
-      xpEarned = Math.round(15 + (score / 100) * 15); // 15 - 30 XP
+    // Award +25 XP only once per topic, on first completion
+    if (passed && !wasAlreadyCompleted) {
+      xpEarned = 25;
       await awardXP(req.user, xpEarned);
       await maybeAwardBadge(req.user);
     }
+
+    // Update GrammarProgress
+    const prevBest = progress.bestScores.get
+      ? (progress.bestScores.get(tidStr) || 0)
+      : (progress.bestScores[tidStr] || 0);
+
+    if (score > prevBest) {
+      if (progress.bestScores.set) {
+        progress.bestScores.set(tidStr, score);
+      } else {
+        progress.bestScores[tidStr] = score;
+      }
+    }
+
+    if (passed && !wasAlreadyCompleted) {
+      progress.completedTopicIds.push(topic._id);
+    }
+    await progress.save();
 
     const attempt = new GrammarAttempt({
       user: req.user._id,
@@ -164,6 +370,15 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
     });
     await attempt.save();
 
+    const updatedCompletedIds = progress.completedTopicIds.map(toIdString);
+    const progressSummary = {
+      completedTopicIds: updatedCompletedIds,
+      bestScores: Object.fromEntries(progress.bestScores || new Map()),
+      totalTopics: allTopics.length,
+      completedCount: updatedCompletedIds.length,
+      passPercent: PASS_PERCENT,
+    };
+
     res.json({
       attempt,
       evaluatedAnswers,
@@ -171,12 +386,13 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
       correctCount,
       totalQuestions,
       xpEarned,
-      message:
-        score >= 80
-          ? 'Outstanding job! Grammar master!'
-          : score >= 50
-          ? 'Good effort! Keep practicing to sharpen your skills.'
-          : 'Nice try! Review the rule card and try again.',
+      passed,
+      isCompleted: passed || wasAlreadyCompleted,
+      passPercent: PASS_PERCENT,
+      progress: progressSummary,
+      message: passed
+        ? (wasAlreadyCompleted ? 'Topic retake completed!' : 'Congratulations! Topic completed and next topic unlocked!')
+        : `Score ${score}%. Need ${PASS_PERCENT}% to unlock the next topic. Retry`,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -184,3 +400,4 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
 });
 
 module.exports = router;
+module.exports.PASS_PERCENT = PASS_PERCENT;

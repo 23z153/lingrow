@@ -8,6 +8,20 @@ let mongod;
 let connected = false;
 
 beforeAll(async () => {
+  if (process.env.MONGODB_URI) {
+    try {
+      await mongoose.connect(process.env.MONGODB_URI, { serverSelectionTimeoutMS: 2000 });
+      connected = true;
+      return;
+    } catch (e) {}
+  }
+  // Try local MongoDB first if running
+  try {
+    await mongoose.connect('mongodb://127.0.0.1:27017/lingrow_test', { serverSelectionTimeoutMS: 1500 });
+    connected = true;
+    return;
+  } catch (e) {}
+
   try {
     mongod = await MongoMemoryServer.create({
       instance: {
@@ -17,12 +31,7 @@ beforeAll(async () => {
     await mongoose.connect(mongod.getUri(), { serverSelectionTimeoutMS: 3000 });
     connected = true;
   } catch (err) {
-    try {
-      await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_test', { serverSelectionTimeoutMS: 1500 });
-      connected = true;
-    } catch (e) {
-      // Running standalone unit tests without DB instance
-    }
+    // Running standalone unit tests without DB instance
   }
 }, 15000);
 
@@ -49,4 +58,3 @@ afterAll(async () => {
     } catch (e) {}
   }
 });
-

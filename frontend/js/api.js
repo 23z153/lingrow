@@ -121,6 +121,7 @@ const Api = {
   reviewVocab(id, known) { return this.post(`/vocabulary/${id}/review`, { known }); },
 
   // grammar
+  grammarProgress() { return this.get('/grammar/progress'); },
   grammarTopics(category, level) {
     const params = new URLSearchParams();
     if (category) params.append('category', category);
@@ -140,13 +141,8 @@ const Api = {
   mySituationalAttempts() { return this.get('/situational/attempts/me'); },
 
   // debate
-  debateTopics(department) { return this.get('/debate/topics' + (department ? `?department=${department}` : '')); },
-  nextDebateTopic(params) {
-    let q = '';
-    if (typeof params === 'string') q = `?department=${params}`;
-    else if (params && typeof params === 'object') q = `?${new URLSearchParams(params).toString()}`;
-    return this.get(`/debate/topics/next${q}`);
-  },
+  debateTopics() { return this.get('/debate/topics'); },
+  nextDebateTopic() { return this.get('/debate/topics/next'); },
   submitDebate(payload) { return this.post('/debate/attempts', payload); },
   myDebateAttempts() { return this.get('/debate/attempts/me'); },
 

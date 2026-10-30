@@ -27,16 +27,29 @@ const SpeechInput = {
       }
       onResult && onResult({ final: finalTranscript.trim(), interim: interim.trim() });
     };
-    rec.onerror = (e) => { onError && onError(e.error || 'Speech recognition error'); };
-    rec.onend = () => { this.listening = false; onEnd && onEnd(finalTranscript.trim()); };
+    rec.onerror = (e) => {
+      this.listening = false;
+      window.dispatchEvent(new CustomEvent('lingrow:recording', { detail: { recording: false } }));
+      onError && onError(e.error || 'Speech recognition error');
+    };
+    rec.onend = () => {
+      this.listening = false;
+      window.dispatchEvent(new CustomEvent('lingrow:recording', { detail: { recording: false } }));
+      onEnd && onEnd(finalTranscript.trim());
+    };
 
     this.recognizer = rec;
     this.listening = true;
+    window.dispatchEvent(new CustomEvent('lingrow:recording', { detail: { recording: true } }));
     rec.start();
   },
 
   stop() {
-    if (this.recognizer && this.listening) this.recognizer.stop();
+    this.listening = false;
+    window.dispatchEvent(new CustomEvent('lingrow:recording', { detail: { recording: false } }));
+    if (this.recognizer) {
+      try { this.recognizer.stop(); } catch (e) {}
+    }
   },
 };
 
@@ -60,16 +73,17 @@ const SpeechOutput = {
     this.speaking = true;
     utter.onend = () => {
       this.speaking = false;
-      onEnd && onEnd();
+      if (onEnd) onEnd();
     };
     utter.onerror = () => {
       this.speaking = false;
-      onEnd && onEnd();
+      if (onEnd) onEnd();
     };
     window.speechSynthesis.speak(utter);
   },
   stop() {
+    if (!this.supported) return;
+    window.speechSynthesis.cancel();
     this.speaking = false;
-    if (this.supported) window.speechSynthesis.cancel();
   },
 };

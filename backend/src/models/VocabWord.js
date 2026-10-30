@@ -7,6 +7,7 @@ const vocabWordSchema = new mongoose.Schema(
     meaning: { type: String, required: true },
     example: { type: String, required: true },
     level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], required: true },
+    active: { type: Boolean, default: true, index: true },
   },
   { timestamps: true }
 );

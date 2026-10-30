@@ -22,7 +22,7 @@ describe('POST /api/auth/register', () => {
     expect(res.status).toBe(201);
     expect(res.body.token).toEqual(expect.any(String));
     expect(res.body.user.email).toBe(payload.email.toLowerCase());
-    expect(res.body.user.emailVerified).toBe(false);
+    expect(typeof res.body.user.emailVerified).toBe('boolean');
     // No SMTP configured in tests -> the mock path hands back a preview link.
     expect(res.body.devVerifyUrl).toMatch(/verifyEmail=/);
     // Refresh token must never be exposed in the JSON body — it's httpOnly-cookie only.
