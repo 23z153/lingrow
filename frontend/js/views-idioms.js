@@ -7,6 +7,17 @@
    4. Master: Spaced-repetition review state (New -> Familiar -> Mastered)
    ========================================================================== */
 
+window.VIEW_RENDERERS = window.VIEW_RENDERERS || {};
+
+function escapeHtml(s) {
+  if (typeof s !== 'string') {
+    if (s && typeof s === 'object' && s.text) s = s.text;
+    else s = String(s ?? '');
+  }
+  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+window.escapeHtml = escapeHtml;
+
 VIEW_RENDERERS['idioms'] = async (mount) => {
   let stats = { total: 0, mastered: 0, familiar: 0, new: 0, reviewDue: 0, idiomsCount: 0, phrasalVerbsCount: 0 };
   let groupedVerbs = [];

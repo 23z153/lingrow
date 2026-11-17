@@ -26,6 +26,8 @@ function esc(s){
   }
   return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+window.esc = esc;
+window.escapeHtml = esc;
 function toast(msg, kind='sprout'){
   const wrap = $('#toast-wrap');
   if (!wrap) return;
