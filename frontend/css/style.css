@@ -1600,13 +1600,13 @@ select option { background: var(--color-surface); color: var(--color-text); padd
 /* ===== GLOBAL CHATBOT FAB & DRAWER ===== */
 .global-chatbot-fab {
   position: fixed;
-  bottom: calc(96px + env(safe-area-inset-bottom, 0px));
-  right: 24px;
-  width: 56px;
-  height: 56px;
+  bottom: calc(112px + env(safe-area-inset-bottom, 0px));
+  right: 28px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   padding: 0;
-  z-index: 9999;
+  z-index: 997;
   background: linear-gradient(135deg, #7C3AED 0%, #4F46E5 100%);
   color: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1621,8 +1621,10 @@ select option { background: var(--color-surface); color: var(--color-text); padd
 }
 @media (max-width: 768px) {
   .global-chatbot-fab {
-    bottom: calc(88px + env(safe-area-inset-bottom, 0px));
-    right: 16px;
+    bottom: calc(100px + env(safe-area-inset-bottom, 0px));
+    right: 20px;
+    width: 46px;
+    height: 46px;
   }
 }
 .global-chatbot-fab:hover {

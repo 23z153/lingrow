@@ -179,9 +179,8 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         </div>
 
         <div class="dragon-hero-visual">
-          <div class="dragon-halo-ring"></div>
-          <div id="dragon-hero-mascot-svg" style="cursor:pointer" title="Click to greet your dragon!">
-            ${DragonMascot.renderSVG(evo.stage, 'idle', 210)}
+          <div id="dragon-hero-mascot-art" style="cursor:pointer;width:100%;max-width:340px" title="Click to greet your dragon companion!">
+            ${DragonMascot.renderArt ? DragonMascot.renderArt(evo.stage, { mode: 'hero', maxWidth: '340px' }) : DragonMascot.renderSVG(evo.stage, 'idle', 210)}
           </div>
         </div>
       </div>
@@ -372,15 +371,20 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
   const btnAdventures = mount.querySelector('#dash-view-adventures-btn');
   if (btnAdventures) btnAdventures.onclick = () => setView('adventures');
 
-  const mascotSvg = mount.querySelector('#dragon-hero-mascot-svg');
-  if (mascotSvg) {
-    let heroMoodIndex = 0;
-    const heroMoods = ['happy', 'excited', 'thinking', 'encouraging', 'idle'];
-    mascotSvg.onclick = () => {
-      heroMoodIndex = (heroMoodIndex + 1) % heroMoods.length;
-      const mood = heroMoods[heroMoodIndex];
-      mascotSvg.innerHTML = DragonMascot.renderSVG(evo.stage, mood, 210);
-      DragonMascot.say(`Rider, your dragon feels ${mood}! Let us practice our English today!`, mood);
+  const mascotArt = mount.querySelector('#dragon-hero-mascot-art') || mount.querySelector('#dragon-hero-mascot-svg');
+  if (mascotArt) {
+    mascotArt.onclick = () => {
+      const frame = mascotArt.querySelector('.dragon-hero-frame');
+      if (frame) {
+        frame.style.animation = 'none';
+        void frame.offsetHeight;
+        frame.style.animation = 'dragonHeroFloat 2s ease-in-out';
+      }
+      const quote = DragonMascot.getRandomQuote();
+      DragonMascot.say(quote, 'victory');
+      if (window.SpeechOutput && window.SpeechOutput.speak) {
+        try { window.SpeechOutput.speak(quote.slice(0, 80)); } catch(e){}
+      }
     };
   }
 
@@ -390,10 +394,15 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       claimBtn.disabled = true;
       try {
         const res = await Api.claimDailyMissions();
-        toast(res.message || 'Daily Missions bonus claimed! +30 XP!', 'sprout');
         if (window.addStudentXP) window.addStudentXP(30);
-        DragonMascot.say('Sensational dedication! You claimed the +30 XP Daily Mastery Bonus!', 'victory');
-        VIEW_RENDERERS['dashboard'](mount);
+        DragonMascot.celebrate({
+          title: 'Daily Rider Missions Mastered!',
+          xp: 30,
+          message: 'All daily trials conquered! Your dragon absorbs immense linguistic energy and breathes brilliant star-flame!',
+          onDismiss: () => {
+            VIEW_RENDERERS['dashboard'](mount);
+          }
+        });
       } catch (err) {
         apiError(err);
         claimBtn.disabled = false;
@@ -666,7 +675,12 @@ function openInteractiveAdventure(type) {
               <div style="margin-top:6px;font-weight:800;color:var(--dragon-gold)">+20 XP Awarded!</div>
             </div>`;
           if (window.addStudentXP) window.addStudentXP(20);
-          DragonMascot.say('Brilliant deduction, Detective! You spotted the continuous state-verb error!', 'victory');
+          DragonMascot.celebrate({
+            title: 'Grammar Detective Victory!',
+            xp: 20,
+            message: 'Brilliant deduction, Detective! You spotted the continuous state-verb error and restored order to the Citadel!',
+            onDismiss: () => { $('#adventure-modal-root').innerHTML = ''; }
+          });
         } else {
           resEl.innerHTML = `
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
@@ -715,7 +729,12 @@ function openInteractiveAdventure(type) {
               <div style="margin-top:6px;font-weight:800;color:var(--dragon-gold)">+20 XP Awarded! You escaped the chamber!</div>
             </div>`;
           if (window.addStudentXP) window.addStudentXP(20);
-          DragonMascot.say('The chamber is unlocked! You wield phrasal verbs with true dragon mastery!', 'victory');
+          DragonMascot.celebrate({
+            title: 'Phrasal Vault Unlocked!',
+            xp: 20,
+            message: 'The enchanted chamber swings open! You wield phrasal verbs with true dragon mastery!',
+            onDismiss: () => { $('#adventure-modal-root').innerHTML = ''; }
+          });
         } else {
           resEl.innerHTML = `
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
@@ -768,7 +787,12 @@ function openInteractiveAdventure(type) {
               <div style="margin-top:6px;font-weight:800;color:var(--dragon-gold)">+25 XP Awarded!</div>
             </div>`;
           if (window.addStudentXP) window.addStudentXP(25);
-          DragonMascot.say('Victory in the Word Battle Arena! Your vocabulary speed is fearsome!', 'victory');
+          DragonMascot.celebrate({
+            title: 'Word Battle Arena Victory!',
+            xp: 25,
+            message: 'The Word Shadow is vanquished! Your vocabulary speed and precision are fearsome!',
+            onDismiss: () => { $('#adventure-modal-root').innerHTML = ''; }
+          });
         } else {
           resEl.innerHTML = `
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
@@ -820,7 +844,12 @@ function openInteractiveAdventure(type) {
           <div style="margin-top:4px;font-weight:800;color:var(--dragon-gold)">+${q.xp} XP Awarded!</div>
         </div>`;
       if (window.addStudentXP) window.addStudentXP(q.xp);
-      DragonMascot.say('Well spoken, Dragon Rider! Your impromptu fluency is growing sharper!', 'happy');
+      DragonMascot.celebrate({
+        title: 'Dragon Vocal Roar Unleashed!',
+        xp: q.xp || 25,
+        message: 'Well spoken, Dragon Rider! Your impromptu speech reverberates across the realm!',
+        onDismiss: () => { $('#adventure-modal-root').innerHTML = ''; }
+      });
     };
   }
 }

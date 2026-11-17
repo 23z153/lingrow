@@ -656,6 +656,14 @@
       triggerConfettiCelebration();
     }
 
+    if (window.DragonMascot && window.DragonMascot.celebrate) {
+      DragonMascot.celebrate({
+        title: 'Weak Words Drill Complete!',
+        xp: WWState.totalSessionXP || 20,
+        message: `Accuracy: ${accuracy}%! You forged difficult words into permanent dragon power!`,
+      });
+    }
+
     $('#btn-finish-drill').onclick = async () => {
       closeDrillModal();
       await loadWeakWordsData();

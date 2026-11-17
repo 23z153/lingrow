@@ -439,6 +439,16 @@ function markActiveNav(){
 }
 
 async function setView(view){
+  const defaultHome = S.user?.role === 'student' ? 'dashboard' : S.user?.role === 'teacher' ? 't-dashboard' : 'a-users';
+
+  // Fallback if view is undefined or renderer missing
+  if (!view || typeof VIEW_RENDERERS[view] !== 'function') {
+    if (view && view !== defaultHome && typeof VIEW_RENDERERS[defaultHome] === 'function') {
+      console.warn(`View '${view}' is not registered in VIEW_RENDERERS. Falling back to '${defaultHome}'.`);
+      view = defaultHome;
+    }
+  }
+
   // Level gating check for student role
   if (S.user && S.user.role === 'student') {
     const userLevel = getStudentLevel(S.user);
@@ -465,6 +475,9 @@ async function setView(view){
 
   mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
   try {
+    if (typeof VIEW_RENDERERS[view] !== 'function') {
+      throw new Error(`View '${view}' is not currently loaded.`);
+    }
     await VIEW_RENDERERS[view](mount);
   } catch (err) {
     console.error(`Error rendering view '${view}':`, err);
@@ -475,8 +488,9 @@ async function setView(view){
         <div style="font-size:36px">${isAuthErr ? '🔒' : '⚠️'}</div>
         <h3 style="font-size:18px;font-weight:700">${isAuthErr ? 'Access Restricted' : 'Unable to Load View'}</h3>
         <p style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin:4px 0 12px">${esc(errMessage)}</p>
-        <div class="row gap-sm" style="justify-content:center">
+        <div class="row gap-sm" style="justify-content:center;flex-wrap:wrap">
           <button class="btn btn-primary btn-sm" onclick="setView('${view}')">Retry Loading</button>
+          <button class="btn btn-secondary btn-sm" onclick="setView('dashboard')">Return to Dragon Kingdom</button>
           ${isAuthErr ? `<button class="btn btn-ghost btn-sm" onclick="logout()">Sign in as Admin</button>` : ''}
         </div>
       </div>`;

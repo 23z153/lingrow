@@ -309,6 +309,15 @@ function openReadAloudPractice(passage){
             $('#rec-status').textContent = 'Tap to record again';
             addStudentXP(xpGain);
 
+            // Trigger dragon celebration animation if passed / gained XP
+            if (window.DragonMascot && window.DragonMascot.celebrate && (attempt.score >= 50 || xpGain > 0)) {
+              DragonMascot.celebrate({
+                title: 'Speaking Volcano Conquered!',
+                xp: xpGain || 20,
+                message: `Fluency: ${Math.round(attempt.score)}%! Your oral flame burns brighter!`,
+              });
+            }
+
             // Silently sync mispronounced or skipped words to Weak Words Lab
             const missedWords = (attempt.wordScores || [])
               .filter(w => w.status === 'bad' || w.status === 'ok')
@@ -4445,8 +4454,8 @@ VIEW_RENDERERS['progress'] = async (mount) => {
             </div>
           </div>
         </div>
-        <div style="display:flex;align-items:center;justify-content:center;min-width:180px">
-          ${window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'excited', 170) : ''}
+        <div style="display:flex;align-items:center;justify-content:center;min-width:240px;max-width:320px;width:100%">
+          ${window.DragonMascot && window.DragonMascot.renderArt ? window.DragonMascot.renderArt(evo.stage, { mode: 'hero', maxWidth: '300px' }) : (window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'excited', 170) : '')}
         </div>
       </div>
     </div>
@@ -4455,11 +4464,13 @@ VIEW_RENDERERS['progress'] = async (mount) => {
     <div class="section-title" style="margin-bottom:14px">
       <span>🧬</span> The 6 Stages of Dragon Evolution
     </div>
-    <div class="dragon-missions-grid" style="grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));margin-bottom:28px">
+    <div class="dragon-missions-grid" style="grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));margin-bottom:28px">
       ${evolutions.map((e) => {
         const isCurrent = e.stage === evo.stage;
         const isUnlocked = (progress.xp || 0) >= e.minXp;
-        return `
+        return window.DragonMascot && window.DragonMascot.renderArt
+          ? window.DragonMascot.renderArt(e.stage, { mode: 'card', isCurrent, isUnlocked })
+          : `
           <div class="card col gap-xs ${isCurrent ? 'active' : ''}" style="text-align:center;padding:16px;border:1.5px solid ${isCurrent ? 'var(--dragon-gold)' : isUnlocked ? 'var(--color-primary)' : 'var(--color-border)'};background:${isCurrent ? 'linear-gradient(135deg, rgba(245,158,11,0.12), rgba(124,58,237,0.12))' : 'var(--color-surface)'};opacity:${isUnlocked ? '1' : '0.6'}">
             <div style="height:90px;display:flex;align-items:center;justify-content:center">
               ${window.DragonMascot ? window.DragonMascot.renderSVG(e.stage, isCurrent ? 'happy' : 'idle', 90) : ''}
@@ -4876,6 +4887,14 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
       if (res.xpEarned > 0) {
         toast(`+${res.xpEarned} XP Earned! Excellent job!`, 'sprout');
         addStudentXP(res.xpEarned);
+      }
+
+      if (res.passed && window.DragonMascot && window.DragonMascot.celebrate) {
+        DragonMascot.celebrate({
+          title: 'Grammar Castle Trial Conquered!',
+          xp: res.xpEarned || 25,
+          message: `Accuracy: ${res.score}%! You mastered the rules and stoked your dragon flame!`,
+        });
       }
 
       // Update in-memory topic list state immediately
@@ -5514,8 +5533,8 @@ VIEW_RENDERERS['profile'] = async (mount) => {
         const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(u.xp || 0) : { stage: 2, name: 'Dragon Companion', title: 'Novice Hatchling', percentToNext: 40, xpToNext: 120 };
         return `
         <div class="card row gap-md" style="align-items:center;padding:20px 24px;background:linear-gradient(135deg,rgba(124,58,237,0.1),rgba(245,158,11,0.08));border:1.5px solid var(--dragon-gold);border-radius:18px">
-          <div style="width:100px;height:100px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#2A1B4E,#0F172A);border-radius:50%;border:2px solid var(--dragon-gold);box-shadow:0 0 20px rgba(245,158,11,0.3)">
-            ${window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'happy', 95) : '🐉'}
+          <div>
+            ${window.DragonMascot && window.DragonMascot.renderArt ? window.DragonMascot.renderArt(evo.stage, { mode: 'avatar', size: 96 }) : (window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'happy', 95) : '🐉')}
           </div>
           <div class="col" style="flex:1">
             <div class="row gap-xs" style="align-items:center;margin-bottom:4px">

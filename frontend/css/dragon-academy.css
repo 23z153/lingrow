@@ -527,7 +527,7 @@
    ========================================================================== */
 .dragon-floating-wrap {
   position: fixed;
-  bottom: 84px;
+  bottom: 24px;
   right: 24px;
   z-index: 998;
   display: flex;
@@ -586,17 +586,53 @@
   cursor: pointer;
   pointer-events: auto;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 20px rgba(245, 158, 11, 0.4);
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
 }
 
 .dragon-avatar-btn:hover {
-  transform: scale(1.08);
+  transform: scale(1.1);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45), 0 0 30px rgba(245, 158, 11, 0.6);
 }
 
-.dragon-avatar-svg {
+.dragon-avatar-portal {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.dragon-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 50%;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dragon-avatar-portal.breathe-flame .dragon-avatar-img {
+  transform: scale(1.22) rotate(-2deg);
+}
+
+.dragon-avatar-flame-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 12px rgba(245, 158, 11, 0.6);
+  pointer-events: none;
+}
+
+.dragon-avatar-portal.breathe-flame .dragon-avatar-flame-ring {
+  animation: dragonFlameBreathBurst 1.2s ease-out;
+}
+
+@keyframes dragonFlameBreathBurst {
+  0% { box-shadow: inset 0 0 8px rgba(245, 158, 11, 0.6); }
+  50% { box-shadow: inset 0 0 22px rgba(245, 158, 11, 0.95), 0 0 20px #EF4444; }
+  100% { box-shadow: inset 0 0 8px rgba(245, 158, 11, 0.6); }
 }
 
 .dragon-level-badge {
@@ -676,6 +712,462 @@
 }
 
 /* ==========================================================================
+   DRAGON ARTWORK & EVOLUTION SHOWCASE SYSTEM
+   ========================================================================== */
+.dragon-art-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dragon-hero-frame {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(245, 158, 11, 0.45);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 35px rgba(245, 158, 11, 0.25);
+  background: #0A0E1A;
+  animation: dragonHeroFloat 5s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+@keyframes dragonHeroFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.dragon-hero-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.dragon-hero-frame:hover .dragon-hero-photo {
+  transform: scale(1.04);
+  filter: brightness(1.06);
+}
+
+.dragon-runic-halo {
+  position: absolute;
+  inset: -15%;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(245, 158, 11, 0.3);
+  animation: dragonHaloSpin 32s linear infinite;
+  pointer-events: none;
+}
+
+.dragon-hero-flame-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 75% 45%, rgba(245, 158, 11, 0.2) 0%, transparent 60%);
+  pointer-events: none;
+  animation: flameGlowPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes flameGlowPulse {
+  0% { opacity: 0.5; }
+  100% { opacity: 0.9; }
+}
+
+.dragon-hero-label-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  padding: 4px 14px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.dragon-hero-stage-badge {
+  background: var(--dragon-gold);
+  color: #0F172A;
+  font-weight: 800;
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 12px;
+}
+
+.dragon-hero-form-name {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+/* Dragon Evolution Progression Cards */
+.dragon-art-card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  background: var(--dragon-card-bg);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.dragon-art-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(245, 158, 11, 0.2);
+}
+
+.dragon-art-card.current {
+  border-color: var(--dragon-gold);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(124, 58, 237, 0.14));
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.35);
+}
+
+.dragon-art-card.locked {
+  opacity: 0.62;
+  filter: grayscale(0.25);
+}
+
+.dragon-card-photo-wrap {
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+  background: #0A0E1A;
+}
+
+.dragon-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 50%;
+  transition: transform 0.4s ease;
+}
+
+.dragon-art-card:hover .dragon-card-photo {
+  transform: scale(1.08);
+}
+
+.dragon-card-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(10, 14, 26, 0.95) 100%);
+  pointer-events: none;
+}
+
+.dragon-card-current-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: linear-gradient(90deg, #F59E0B, #EF4444);
+  color: #0F172A;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.dragon-card-stage-pill {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.dragon-card-details {
+  padding: 14px 16px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dragon-card-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 2px;
+}
+
+.dragon-card-title {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 8px;
+}
+
+.dragon-card-xp-req {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.dragon-card-xp-req.active {
+  background: rgba(245, 158, 11, 0.2);
+  color: #F59E0B;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.dragon-card-xp-req.unlocked {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34D399;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.dragon-card-xp-req.locked {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--cream-dim);
+}
+
+/* Dragon Art Avatar (Circles for Profile & Topbar) */
+.dragon-art-avatar {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--dragon-gold);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35), 0 0 18px rgba(245, 158, 11, 0.35);
+  flex-shrink: 0;
+}
+
+.dragon-avatar-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 50%;
+  display: block;
+}
+
+/* ==========================================================================
+   TASK COMPLETION CELEBRATION MODAL & ANIMATION
+   ========================================================================== */
+.dragon-celebration-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(10, 14, 26, 0.92);
+  backdrop-filter: blur(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: celebrationFadeIn 0.3s ease-out;
+}
+
+.dragon-celebration-overlay.fade-out {
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+@keyframes celebrationFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.dragon-celebration-modal {
+  position: relative;
+  max-width: 560px;
+  width: 100%;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(30, 27, 75, 0.96), rgba(15, 23, 42, 0.98));
+  border: 2px solid var(--dragon-gold);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.75), 0 0 55px rgba(245, 158, 11, 0.4);
+  text-align: center;
+  overflow: hidden;
+  animation: celebrationPopIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes celebrationPopIn {
+  0% { transform: scale(0.7) translateY(30px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.celebration-particles-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.celebration-close-x {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  background: transparent;
+  border: none;
+  color: #CBD5E1;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 5;
+  transition: color 0.2s, transform 0.2s;
+  line-height: 1;
+}
+
+.celebration-close-x:hover {
+  color: #FFFFFF;
+  transform: scale(1.15);
+}
+
+.celebration-content {
+  position: relative;
+  z-index: 2;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.celebration-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  color: #FBBF24;
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.celebration-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
+  margin: 0 0 8px;
+  line-height: 1.25;
+}
+
+/* Widescreen animated dragon showcase with expanding rainbow cosmic flame */
+.celebration-dragon-display {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  height: 210px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 14px 0 16px;
+  border: 2px solid rgba(245, 158, 11, 0.55);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6), 0 0 40px rgba(245, 158, 11, 0.35);
+  background: #0A0E1A;
+}
+
+.celebration-dragon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: celebrationDragonFlameBreath 3s ease-in-out infinite;
+  transform-origin: 35% 55%;
+}
+
+@keyframes celebrationDragonFlameBreath {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.05); filter: brightness(1.12); }
+}
+
+.celebration-dragon-halo {
+  position: absolute;
+  inset: -20%;
+  border-radius: 50%;
+  border: 2px dashed rgba(245, 158, 11, 0.35);
+  animation: dragonHaloSpin 20s linear infinite;
+  pointer-events: none;
+}
+
+.celebration-flame-breath-aura {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 75% 45%, rgba(244, 63, 94, 0.25) 0%, rgba(245, 158, 11, 0.2) 35%, transparent 70%);
+  animation: celebrationFlameBurst 2s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes celebrationFlameBurst {
+  0% { opacity: 0.4; transform: scale(0.96); }
+  100% { opacity: 0.85; transform: scale(1.04); }
+}
+
+.celebration-xp-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(90deg, #F59E0B, #EF4444);
+  color: #0F172A;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.45);
+  margin-bottom: 12px;
+  animation: xpPillPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes xpPillPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 4px 15px rgba(245, 158, 11, 0.45); }
+  50% { transform: scale(1.05); box-shadow: 0 6px 25px rgba(245, 158, 11, 0.7); }
+}
+
+.celebration-message {
+  font-size: 14.5px;
+  color: #E2E8F0;
+  line-height: 1.55;
+  max-width: 460px;
+  margin: 0 0 4px;
+}
+
+.celebration-ignis-tag {
+  font-size: 12px;
+  color: var(--dragon-gold);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.celebration-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-dragon-celebrate {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #EF4444 100%);
+  color: #0F172A;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 13px 34px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.45);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.btn-dragon-celebrate:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(245, 158, 11, 0.6);
+}
+
+/* ==========================================================================
    MEDIA QUERIES (RESPONSIVE VIEWPORTS)
    ========================================================================== */
 @media (max-width: 900px) {
@@ -690,7 +1182,7 @@
     justify-content: center;
   }
   .dragon-floating-wrap {
-    bottom: 76px;
+    bottom: 16px;
     right: 16px;
   }
 }
