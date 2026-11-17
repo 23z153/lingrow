@@ -309,12 +309,19 @@ function openReadAloudPractice(passage){
             $('#rec-status').textContent = 'Tap to record again';
             addStudentXP(xpGain);
 
-            // Trigger dragon celebration animation if passed / gained XP
-            if (window.DragonMascot && window.DragonMascot.celebrate && (attempt.score >= 50 || xpGain > 0)) {
+            // Trigger dragon celebration animation if passed, or failure encouragement if unresolved
+            if (window.DragonMascot && (attempt.score >= 50 || xpGain > 0)) {
               DragonMascot.celebrate({
                 title: 'Speaking Volcano Conquered!',
                 xp: xpGain || 20,
                 message: `Fluency: ${Math.round(attempt.score)}%! Your oral flame burns brighter!`,
+              });
+            } else if (window.DragonMascot && window.DragonMascot.encourage) {
+              DragonMascot.encourage({
+                title: 'Volcano Speech Trial Unresolved',
+                message: `Fluency: ${Math.round(attempt.score)}%. Your vocal flame was hesitant. Review the mispronounced words below and roar again!`,
+                tip: 'Speak clearly into the microphone at a steady, rhythmic pace without pausing mid-clause.',
+                buttonText: '🔥 Rekindle Vocal Flame & Retry',
               });
             }
 
@@ -4894,6 +4901,13 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
           title: 'Grammar Castle Trial Conquered!',
           xp: res.xpEarned || 25,
           message: `Accuracy: ${res.score}%! You mastered the rules and stoked your dragon flame!`,
+        });
+      } else if (!res.passed && window.DragonMascot && window.DragonMascot.encourage) {
+        DragonMascot.encourage({
+          title: 'Grammar Trial Unresolved',
+          message: `Accuracy: ${res.score}%. The Castle Gates require at least 50% to unlock the next chamber! Review the answers below and rekindle your flame.`,
+          tip: 'Carefully inspect each question explanation below to reinforce the grammatical pattern.',
+          buttonText: '🔥 Review Mistakes & Retake Trial',
         });
       }
 

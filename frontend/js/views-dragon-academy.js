@@ -686,6 +686,12 @@ function openInteractiveAdventure(type) {
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
               ❌ Incorrect deduction. Re-read the statements. Look closely at verb forms that cannot be used in continuous tenses.
             </div>`;
+          DragonMascot.encourage({
+            title: 'Detective Clue Missed!',
+            message: 'The suspect slipped away! In English, state-verbs like "understand", "believe", and "know" express permanent states and are almost never used in continuous (-ing) forms.',
+            tip: 'Watch out for "I am understanding"; always use "I understand".',
+            buttonText: '🔥 Re-examine Clues & Try Again',
+          });
         }
       };
     });
@@ -740,6 +746,12 @@ function openInteractiveAdventure(type) {
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
               ❌ The lock remains sealed. Think of the phrasal verb that means "surrender or yield to a force".
             </div>`;
+          DragonMascot.encourage({
+            title: 'The Vault Lock Resists!',
+            message: 'That rune did not turn the cylinder. The sentence says the dragon refused to surrender or yield to the enemy storm!',
+            tip: '"Give in to" means to surrender or yield; "give up on" means to abandon.',
+            buttonText: '🔥 Turn Rune Dial & Try Again',
+          });
         }
       };
     });
@@ -798,6 +810,12 @@ function openInteractiveAdventure(type) {
             <div style="background:var(--color-error-soft);color:var(--color-error-text);border:1px solid var(--color-error);border-radius:10px;padding:12px;font-size:13.5px">
               💥 The Drake Shadow blocked your move. "Resilient" means strong and adaptable, able to bounce back!
             </div>`;
+          DragonMascot.encourage({
+            title: 'Word Strike Parried!',
+            message: 'The Drake Shadow blocked your strike! "Resilient" means recovering quickly from difficulties; tough and adaptable.',
+            tip: 'Synonyms: adaptable, tough, durable. Antonyms: fragile, brittle.',
+            buttonText: '🔥 Strike Again with Full Focus',
+          });
         }
       };
     });

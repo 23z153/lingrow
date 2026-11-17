@@ -509,6 +509,10 @@
    * cosmic starlight rainbow flame, floating particles, and XP burst!
    */
   function celebrate(config = {}) {
+    if (config.failed || config.success === false || config.isFailure) {
+      return encourage(config);
+    }
+
     const {
       title = 'Task Completed!',
       xp = 20,
@@ -523,8 +527,10 @@
     const evo = EVOLUTIONS.find((e) => e.stage === s) || EVOLUTIONS[1];
     const imgUrl = getImage(s);
 
-    const existing = document.getElementById('dragon-celebration-overlay');
-    if (existing) existing.remove();
+    const existingCelebration = document.getElementById('dragon-celebration-overlay');
+    if (existingCelebration) existingCelebration.remove();
+    const existingFailure = document.getElementById('dragon-failure-overlay');
+    if (existingFailure) existingFailure.remove();
 
     const overlay = document.createElement('div');
     overlay.id = 'dragon-celebration-overlay';
@@ -610,6 +616,206 @@
     }
   }
 
+  /**
+   * Particle animation engine for Task Failure / Rekindle Animation
+   * Renders rising warm embers, fire sparks, and violet smoke
+   */
+  function initEmberParticles(canvas) {
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width || window.innerWidth;
+    canvas.height = rect.height || window.innerHeight;
+
+    const colors = ['#EF4444', '#F97316', '#F59E0B', '#DC2626', '#7C3AED', '#FEF08A'];
+    const embers = [];
+    const count = 65;
+
+    for (let i = 0; i < count; i++) {
+      embers.push({
+        x: Math.random() * canvas.width,
+        y: canvas.height + Math.random() * 80,
+        vx: (Math.random() - 0.5) * 1.5,
+        vy: -(Math.random() * 2.2 + 1.2),
+        size: Math.random() * 4 + 2,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        alpha: Math.random() * 0.7 + 0.3,
+        flickerOffset: Math.random() * Math.PI * 2,
+      });
+    }
+
+    let animId = null;
+    let frame = 0;
+
+    function renderLoop() {
+      frame++;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      let active = 0;
+      for (let p of embers) {
+        p.y += p.vy;
+        p.x += p.vx + Math.sin(frame * 0.05 + p.flickerOffset) * 0.8;
+        p.alpha -= 0.003;
+
+        if (p.alpha <= 0 || p.y < -20) {
+          if (frame < 300) {
+            p.y = canvas.height + 10;
+            p.x = Math.random() * canvas.width;
+            p.alpha = Math.random() * 0.7 + 0.3;
+          } else {
+            continue;
+          }
+        }
+        active++;
+
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, Math.min(1, p.alpha));
+        ctx.fillStyle = p.color;
+        ctx.shadowColor = p.color;
+        ctx.shadowBlur = 10;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+
+      if (active > 0 && frame < 360) {
+        animId = requestAnimationFrame(renderLoop);
+      }
+    }
+
+    renderLoop();
+  }
+
+  /**
+   * TASK FAILURE / REKINDLE ANIMATION
+   * Triggers when a test, speech drill, adventure, or challenge is failed or missed.
+   * Shows the dragon with rekindling ember flame animation, rising smoke & sparks,
+   * mentor wisdom, and a clear retry action!
+   */
+  function encourage(config = {}) {
+    const {
+      title = 'Trial Unresolved!',
+      message = 'Every dragon falters before soaring high. Rekindle your flame and try again!',
+      tip = '',
+      stage = (window.S && window.S.user ? getEvolutionByXp(window.S.user.xp || 0).stage : 2),
+      buttonText = '🔥 Rekindle Flame & Retry',
+      secondaryText = 'Return to Training',
+      onRetry = null,
+      onDismiss = null,
+      autoDismissMs = 0,
+    } = config;
+
+    const s = Math.min(6, Math.max(1, Number(stage) || 2));
+    const evo = EVOLUTIONS.find((e) => e.stage === s) || EVOLUTIONS[1];
+    const imgUrl = getImage(s);
+
+    const existingCelebration = document.getElementById('dragon-celebration-overlay');
+    if (existingCelebration) existingCelebration.remove();
+    const existingFailure = document.getElementById('dragon-failure-overlay');
+    if (existingFailure) existingFailure.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'dragon-failure-overlay';
+    overlay.className = 'dragon-failure-overlay active';
+    overlay.innerHTML = `
+      <div class="dragon-failure-modal">
+        <canvas id="failure-embers-canvas" class="failure-embers-canvas"></canvas>
+        <button class="celebration-close-x" id="failure-close-btn" aria-label="Close dialog">&times;</button>
+
+        <div class="failure-content">
+          <div class="failure-badge-pill">
+            <span class="ember-spark">🔥</span>
+            <span class="badge-text">REKINDLE YOUR FLAME &bull; KEEP FIGHTING</span>
+            <span class="ember-spark">🔥</span>
+          </div>
+
+          <h2 class="failure-heading">${esc(title)}</h2>
+
+          <!-- The Real Dragon Art with Rekindling Ember Flame & Smoke Animation -->
+          <div class="failure-dragon-display stage-${s}">
+            <div class="failure-flame-rekindle-aura"></div>
+            <img src="${imgUrl}" alt="${evo.name}" class="failure-dragon-img" />
+            <div class="failure-smoke-overlay"></div>
+          </div>
+
+          <p class="failure-message">
+            "${esc(message)}"
+          </p>
+
+          ${
+            tip
+              ? `
+            <div class="failure-tip-box">
+              <span class="tip-icon">💡</span>
+              <div class="tip-text"><b>Dragon Mentor Tip:</b> ${esc(tip)}</div>
+            </div>
+          `
+              : ''
+          }
+
+          <div class="celebration-ignis-tag" style="color:#F97316;margin-bottom:16px">— Ignis, Dragon Mentor</div>
+
+          <div class="failure-actions">
+            <button class="btn-dragon-rekindle" id="failure-retry-btn">
+              <span>🔥</span> ${esc(buttonText)}
+            </button>
+            ${
+              secondaryText
+                ? `
+              <button class="btn-dragon-secondary" id="failure-dismiss-btn" style="margin-top:8px">
+                ${esc(secondaryText)}
+              </button>
+            `
+                : ''
+            }
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    // Audio / Speech encouragement
+    if (window.SpeechOutput && window.SpeechOutput.speak) {
+      try {
+        window.SpeechOutput.speak('Do not despair, Dragon Rider! Rekindle your flame and try again!');
+      } catch (e) {}
+    }
+
+    // Launch rising ember particle effect
+    const canvas = overlay.querySelector('#failure-embers-canvas');
+    initEmberParticles(canvas);
+
+    function dismiss(isRetry = false) {
+      overlay.classList.add('fade-out');
+      setTimeout(() => {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+        if (isRetry && typeof onRetry === 'function') {
+          onRetry();
+        } else if (!isRetry && typeof onDismiss === 'function') {
+          onDismiss();
+        }
+      }, 350);
+    }
+
+    overlay.querySelector('#failure-close-btn').onclick = () => dismiss(false);
+    overlay.querySelector('#failure-retry-btn').onclick = () => dismiss(true);
+    const dismissBtn = overlay.querySelector('#failure-dismiss-btn');
+    if (dismissBtn) {
+      dismissBtn.onclick = () => dismiss(false);
+    }
+    overlay.onclick = (e) => {
+      if (e.target === overlay) dismiss(false);
+    };
+
+    if (autoDismissMs > 0) {
+      setTimeout(() => dismiss(false), autoDismissMs);
+    }
+  }
+
   window.DragonMascot = {
     EVOLUTIONS,
     getImage,
@@ -618,6 +824,9 @@
     renderSVG,
     initFloatingCompanion,
     celebrate,
+    encourage,
+    failure: encourage,
+    showFailure: encourage,
     say,
     getRandomQuote,
   };

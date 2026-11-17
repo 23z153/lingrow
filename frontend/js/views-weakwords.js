@@ -656,11 +656,18 @@
       triggerConfettiCelebration();
     }
 
-    if (window.DragonMascot && window.DragonMascot.celebrate) {
+    if (accuracy >= 50 && window.DragonMascot && window.DragonMascot.celebrate) {
       DragonMascot.celebrate({
         title: 'Weak Words Drill Complete!',
         xp: WWState.totalSessionXP || 20,
         message: `Accuracy: ${accuracy}%! You forged difficult words into permanent dragon power!`,
+      });
+    } else if (accuracy < 50 && window.DragonMascot && window.DragonMascot.encourage) {
+      DragonMascot.encourage({
+        title: 'Memory Reinforcement Needed',
+        message: `Drill accuracy was ${accuracy}%. These words are stubborn, but repetitive vocal drills will bend them to your will!`,
+        tip: 'Listen to the "Slow" button audio to catch subtle phonemes before speaking.',
+        buttonText: '🔥 Practice Tricky Words Again',
       });
     }
 
