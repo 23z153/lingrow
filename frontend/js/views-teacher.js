@@ -2,9 +2,54 @@ window.VIEW_RENDERERS = window.VIEW_RENDERERS || {};
 var VIEW_RENDERERS = window.VIEW_RENDERERS;
 
 VIEW_RENDERERS['t-dashboard'] = async (mount) => {
-  let students = await Api.teacherStudents();
+  const [students, weakSummary] = await Promise.all([
+    Api.teacherStudents(),
+    Api.weakWordsClassSummary().catch(() => ({ topMissed: [], totalStudents: 0 })),
+  ]);
+
+  const topMissed = weakSummary?.topMissed || [];
 
   mount.innerHTML = `
+    <!-- Common Class Mistakes Panel -->
+    <div class="card" style="margin-bottom:20px;border-left:4px solid var(--purple)">
+      <div class="row" style="align-items:center;margin-bottom:12px">
+        <div>
+          <div class="section-title" style="margin:0">${ICONS.target} Common Class Pronunciation Mistakes</div>
+          <div style="font-size:12.5px;color:var(--color-text-muted)">Top words frequently mispronounced or skipped by students across practice sessions.</div>
+        </div>
+        <div class="spacer"></div>
+        <span class="pill voice" style="font-size:12px">${topMissed.length} Flagged Terms</span>
+      </div>
+
+      ${
+        topMissed.length
+          ? `
+        <div class="grid grid-2" style="gap:10px">
+          ${topMissed
+            .map(
+              (m, idx) => `
+            <div class="card card-2 row gap-sm" style="align-items:center;padding:10px 14px;background:var(--color-surface-2)">
+              <div style="font-weight:800;font-size:14px;color:var(--cream-faint);width:22px">#${idx + 1}</div>
+              <div class="col" style="flex:1">
+                <div style="font-weight:700;font-size:15px;color:var(--color-text)">${esc(m.word)}</div>
+                <div style="font-size:12px;color:var(--cream-dim)">
+                  Missed by ${m.studentCount} student${m.studentCount === 1 ? '' : 's'} (${m.totalMisses} total misses)
+                </div>
+              </div>
+              <span class="pill coral" style="font-size:11px;font-weight:700">${m.totalMisses}x Missed</span>
+              ${m.masteredCount > 0 ? `<span class="pill sprout" style="font-size:10px" title="${m.masteredCount} student(s) mastered this word">${m.masteredCount} Mastered</span>` : ''}
+            </div>
+          `
+            )
+            .join('')}
+        </div>
+      `
+          : `
+        <div class="empty-state" style="padding:16px;text-align:center">No pronunciation mistakes recorded across active students yet.</div>
+      `
+      }
+    </div>
+
     <div class="card">
       <div class="row" style="margin-bottom:14px;align-items:center">
         <div>

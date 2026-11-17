@@ -3,15 +3,17 @@ var VIEW_RENDERERS = window.VIEW_RENDERERS;
 
 /* ---------------------------- DASHBOARD ---------------------------- */
 VIEW_RENDERERS['dashboard'] = async (mount) => {
-  const [progress, attempts, notifs, dailyRes] = await Promise.all([
+  const [progress, attempts, notifs, dailyRes, dueWeakWords] = await Promise.all([
     Api.myProgress(),
     Api.myReadAloudAttempts(),
     Api.notifications(),
     Api.getDailyWord().catch(() => null),
+    Api.getWeakWordsDue(5).catch(() => []),
   ]);
 
   const recent = attempts.slice(0, 4);
   const dailyWord = dailyRes?.dailyWord || null;
+  const dueCount = Array.isArray(dueWeakWords) ? dueWeakWords.length : 0;
 
   // Real-time automatic check: hours >= 12 is Afternoon/Evening -> automatically show Afternoon Challenge quiz
   const currentHour = new Date().getHours();
@@ -24,6 +26,23 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
       <div class="card"><div class="eyebrow">Total XP</div><h2 style="font-size:24px" id="dash-total-xp" class="stat-tile-xp">${progress.xp}</h2></div>
       <div class="card"><div class="eyebrow">Streak</div><h2 style="font-size:24px" class="stat-tile-streak">${progress.streak} days</h2></div>
       <div class="card"><div class="eyebrow">Badges</div><h2 style="font-size:24px" class="stat-tile-badges">${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length}</h2></div>
+    </div>
+
+    <!-- Weak Words Lab Callout -->
+    <div class="card row gap-md" style="margin-bottom:20px;align-items:center;background:linear-gradient(135deg, rgba(99,102,241,0.08), rgba(168,85,247,0.08));border:1px solid rgba(129,140,248,0.25);border-radius:14px;padding:16px 20px">
+      <div style="font-size:28px;line-height:1">🎯</div>
+      <div class="col" style="flex:1">
+        <div style="font-weight:700;font-size:15px;color:var(--color-text)">
+          Weak Words Lab
+          ${dueCount > 0 ? `<span class="pill coral" style="font-size:11px;margin-left:6px">${dueCount} due for review</span>` : `<span class="pill sprout" style="font-size:11px;margin-left:6px">All caught up</span>`}
+        </div>
+        <div style="font-size:13px;color:var(--cream-dim);margin-top:2px">
+          ${dueCount > 0 ? `You have ${dueCount} words waiting for spaced-repetition pronunciation drills.` : 'Great job! No words currently due for review. Continue practice to build mastery.'}
+        </div>
+      </div>
+      <button class="btn btn-primary btn-sm" data-nav="weakwords" style="white-space:nowrap">
+        Practice my weak words (${dueCount} due) ${ICONS.arrowRight}
+      </button>
     </div>
     <div class="grid grid-2">
       <div class="card">
@@ -289,6 +308,14 @@ function openReadAloudPractice(passage){
             renderReadAloudResult(attempt, xpGain);
             $('#rec-status').textContent = 'Tap to record again';
             addStudentXP(xpGain);
+
+            // Silently sync mispronounced or skipped words to Weak Words Lab
+            const missedWords = (attempt.wordScores || [])
+              .filter(w => w.status === 'bad' || w.status === 'ok')
+              .map(w => w.word);
+            if (missedWords.length > 0) {
+              Api.postWeakWordsBulk({ words: missedWords, source: 'read-aloud' }).catch(() => {});
+            }
           } catch(err){ apiError(err); $('#rec-status').textContent = 'Tap to try again'; }
         },
         onError: (e)=>{ recBtn.classList.remove('on'); recBtn.innerHTML = ICONS.mic; $('#rec-status').textContent = 'Mic error: '+e; },
@@ -489,6 +516,9 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
           <div style="font-size:14px;color:var(--cream-dim)">Learn new words, then test yourself.</div>
         </div>
         <div class="spacer"></div>
+        <button class="btn btn-ghost btn-sm" id="btn-vocab-weakwords" style="border:1px dashed var(--purple);color:var(--purple);font-size:12px;margin-right:8px" title="Open Weak Words Lab">
+          ${ICONS.target} Practice My Weak Words
+        </button>
         <span class="pill sprout" style="font-size:12.5px" id="vocab-mastered-pill">${getMasteredCount()} / ${allWords.length} Words Mastered</span>
       </div>
 
@@ -498,6 +528,10 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
       <!-- Step Content Area -->
       <div id="vocab-step-container"></div>
       <div id="vocab-transition-container"></div>
+    `;
+
+    const weakBtn = $('#btn-vocab-weakwords');
+    if (weakBtn) weakBtn.onclick = () => setView('weakwords');
     `;
 
     const container = $('#vocab-step-container');
@@ -3462,11 +3496,11 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
       <!-- Minimalist Header -->
       <div class="tutor-header-clean">
         <div class="tutor-coach-info">
-          <div class="brand-mark" style="width:28px;height:28px;border-radius:8px;font-size:13px;flex-shrink:0">${ICONS.message}</div>
+          <div class="brand-mark" style="width:32px;height:32px;border-radius:10px;font-size:18px;background:linear-gradient(135deg,#F59E0B,#EF4444);color:#0F172A;display:flex;align-items:center;justify-content:center;flex-shrink:0">🐉</div>
           <div style="min-width:0">
-            <div style="font-weight:700;font-size:14.5px;color:var(--color-text);line-height:1.2;white-space:nowrap">AI Coach</div>
+            <div style="font-weight:700;font-size:15px;color:var(--color-text);line-height:1.2;white-space:nowrap">Ignis &middot; Dragon Mentor</div>
             <div style="font-size:11px;color:var(--emerald);display:flex;align-items:center;gap:4px;white-space:nowrap">
-              <span class="status-dot ok" style="width:6px;height:6px"></span> Online
+              <span class="status-dot ok" style="width:6px;height:6px"></span> Dragon Academy &middot; Online
             </div>
           </div>
         </div>
@@ -3544,18 +3578,21 @@ VIEW_RENDERERS['tutor'] = async (mount) => {
         <div class="chat-log" id="chat-log">
           <!-- Empty State Hero with Quick Starters -->
           <div class="chat-empty-hero" id="chat-empty-hero" style="${history.length ? 'display:none' : ''}">
-            <div class="chat-hero-icon">${ICONS.message}</div>
-            <h2 class="chat-hero-title">Practice English &amp; Tech with AI</h2>
-            <p class="chat-hero-sub">Speak naturally, ask concept questions, or prepare for technical interviews with real-time coaching.</p>
+            <div class="chat-hero-icon" style="background:none;font-size:48px;display:flex;align-items:center;justify-content:center">🐉</div>
+            <h2 class="chat-hero-title">Awaken Your English with Ignis, Your Dragon Mentor</h2>
+            <p class="chat-hero-sub">Speak freely in English, ask for grammar breakdowns, expand your vocabulary, or practice interview dialogues.</p>
             <div class="chat-quick-prompts">
-              <button class="chat-prompt-chip" data-prompt="Can we do a 5-minute mock technical interview for a software developer role? Start with question 1.">
-                <span>🎯</span> <span>Mock Technical Interview</span>
+              <button class="chat-prompt-chip" data-prompt="Explain the difference between Past Simple and Present Perfect with simple real-world examples.">
+                <span>🏰</span> <span>Grammar Castle: Tenses</span>
               </button>
-              <button class="chat-prompt-chip" data-prompt="Help me improve my spoken English fluency. Let's talk about our daily routine.">
-                <span>🗣️</span> <span>Daily Spoken English Practice</span>
+              <button class="chat-prompt-chip" data-prompt="Give me 5 advanced adjectives for professional communication with example sentences.">
+                <span>🌲</span> <span>Vocabulary Forest: Power Words</span>
               </button>
-              <button class="chat-prompt-chip" data-prompt="Explain Object-Oriented Programming (OOP) principles with simple real-world examples.">
-                <span>⚡</span> <span>Explain OOP Concepts</span>
+              <button class="chat-prompt-chip" data-prompt="Let's do a 5-minute mock technical interview for a software developer role. Ask me question 1.">
+                <span>💼</span> <span>Startup Pitch &amp; Tech Interview</span>
+              </button>
+              <button class="chat-prompt-chip" data-prompt="Give me a surprise daily English quest to practice my speaking right now!">
+                <span>🎲</span> <span>Daily Dragon Quest</span>
               </button>
             </div>
           </div>
@@ -4102,37 +4139,117 @@ VIEW_RENDERERS['lessons'] = async (mount) => {
 
 /* ---------------------------- PROGRESS & LEADERBOARD ---------------------------- */
 VIEW_RENDERERS['progress'] = async (mount) => {
-  const [progress, leaderboard] = await Promise.all([Api.myProgress(), Api.leaderboard()]);
+  const [progress, dragonData, leaderboard] = await Promise.all([
+    Api.myProgress(),
+    Api.myDragonProgress().catch(() => null),
+    Api.leaderboard(),
+  ]);
+
+  const evo = dragonData?.dragon || (window.DragonMascot ? window.DragonMascot.getEvolutionByXp(progress.xp || 0) : { stage: 2, name: 'Dragon Companion', title: 'Novice', percentToNext: 50, xpToNext: 150 });
+  const evolutions = window.DragonMascot?.EVOLUTIONS || [
+    { stage: 1, name: 'Dragon Egg', minXp: 0, nextXp: 250, title: 'Novice Hatchling' },
+    { stage: 2, name: 'Baby Dragon', minXp: 250, nextXp: 500, title: 'Curious Fledgling' },
+    { stage: 3, name: 'Young Dragon', minXp: 500, nextXp: 1000, title: 'Brave Apprentice' },
+    { stage: 4, name: 'Fire Dragon', minXp: 1000, nextXp: 1500, title: 'Flame Keeper' },
+    { stage: 5, name: 'Ancient Dragon', minXp: 1500, nextXp: 2500, title: 'Sky Guardian' },
+    { stage: 6, name: 'Legendary Dragon', minXp: 2500, nextXp: 5000, title: 'Grand Drake Archon' },
+  ];
+
   mount.innerHTML = `
+    <!-- DRAGON PROGRESSION HERO -->
+    <div class="dragon-hero-card" style="padding:28px;margin-bottom:24px">
+      <div class="row" style="justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px">
+        <div class="col" style="flex:1;min-width:260px">
+          <div class="dragon-realm-badge"><span>🐉</span> DRAGON EVOLUTION SYSTEM</div>
+          <h2 style="font-size:26px;font-weight:800;color:#FFFFFF;margin:0 0 8px">
+            Your Dragon: ${esc(evo.name)} <span style="font-size:16px;color:#FBBF24">(${esc(evo.title)})</span>
+          </h2>
+          <p style="font-size:14px;color:#CBD5E1;line-height:1.6;margin:0 0 16px">
+            As you practice speaking, vocabulary, and grammar, your dragon companion absorbs linguistic energy and evolves into legendary forms.
+          </p>
+          <div class="dragon-hero-progress-box" style="margin-bottom:0">
+            <div class="dragon-xp-header">
+              <span>Next Evolution: <b>${esc(evo.nextStageName || 'Max')}</b></span>
+              <span><b>${evo.percentToNext}%</b> (${evo.xpToNext} XP remaining)</span>
+            </div>
+            <div class="dragon-xp-bar-outer">
+              <div class="dragon-xp-bar-inner" style="width:${evo.percentToNext}%"></div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;min-width:180px">
+          ${window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'excited', 170) : ''}
+        </div>
+      </div>
+    </div>
+
+    <!-- THE 6 EVOLUTION STAGES -->
+    <div class="section-title" style="margin-bottom:14px">
+      <span>🧬</span> The 6 Stages of Dragon Evolution
+    </div>
+    <div class="dragon-missions-grid" style="grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));margin-bottom:28px">
+      ${evolutions.map((e) => {
+        const isCurrent = e.stage === evo.stage;
+        const isUnlocked = (progress.xp || 0) >= e.minXp;
+        return `
+          <div class="card col gap-xs ${isCurrent ? 'active' : ''}" style="text-align:center;padding:16px;border:1.5px solid ${isCurrent ? 'var(--dragon-gold)' : isUnlocked ? 'var(--color-primary)' : 'var(--color-border)'};background:${isCurrent ? 'linear-gradient(135deg, rgba(245,158,11,0.12), rgba(124,58,237,0.12))' : 'var(--color-surface)'};opacity:${isUnlocked ? '1' : '0.6'}">
+            <div style="height:90px;display:flex;align-items:center;justify-content:center">
+              ${window.DragonMascot ? window.DragonMascot.renderSVG(e.stage, isCurrent ? 'happy' : 'idle', 90) : ''}
+            </div>
+            <div style="font-weight:800;font-size:14px;color:var(--color-text)">Stage ${e.stage}: ${esc(e.name)}</div>
+            <div style="font-size:11.5px;color:var(--color-text-muted)">${esc(e.title)}</div>
+            <div class="pill ${isCurrent ? 'amber' : isUnlocked ? 'sprout' : ''}" style="font-size:10px;margin-top:6px">
+              ${isCurrent ? '★ Current Form' : isUnlocked ? '✓ Unlocked' : `${e.minXp} XP Needed`}
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+
     <div class="grid grid-2">
+      <!-- DRAGON RIDER BADGES -->
       <div class="card">
-        <div class="section-title">${ICONS.trophy} Badges</div>
-        <div class="grid grid-2">
+        <div class="section-title"><span>🛡️</span> Dragon Rider Badges (${progress.badges.filter(b=>b.unlocked).length}/${progress.badges.length})</div>
+        <div class="grid grid-2" style="gap:10px">
           ${progress.badges.map(b=>`
-            <div class="badge-card ${b.unlocked?'':'locked'}">
-              <div class="badge-ic">${ICONS.trophy}</div>
+            <div class="badge-card ${b.unlocked?'':'locked'}" style="padding:12px">
+              <div class="badge-ic" style="font-size:22px">🏆</div>
               <div style="font-weight:700;font-size:13px">${esc(b.name)}</div>
               <div style="font-size:11.5px;color:var(--color-text-muted);margin-top:3px">${esc(b.description)}</div>
             </div>`).join('')}
         </div>
       </div>
+
+      <!-- REALM CHAMPIONS LEADERBOARD -->
       <div class="card">
-        <div class="section-title">${ICONS.bolt} Leaderboard</div>
+        <div class="section-title"><span>👑</span> Dragon Riders Leaderboard</div>
         <div class="table-wrap">
           <table style="width:100%">
+            <thead>
+              <tr style="border-bottom:1px solid var(--line);font-size:11.5px;color:var(--color-text-muted)">
+                <th style="padding:8px">Rank</th>
+                <th style="padding:8px">Rider</th>
+                <th style="padding:8px">Dragon Stage</th>
+                <th style="padding:8px;text-align:right">Power (XP)</th>
+              </tr>
+            </thead>
             <tbody>
               ${leaderboard.map((u,i)=>{
                 const isMe = u._id === S.user._id || u.id === S.user.id || u.email === S.user.email;
-                const rankClass = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : '';
                 const rankColor = i === 0 ? '#FACC15' : i === 1 ? '#CBD5E1' : i === 2 ? '#FDBA74' : 'var(--color-text-muted)';
+                const stageName = u.dragonStage || 'Dragon Egg';
                 return `
-                  <tr class="leader-row ${rankClass} ${isMe ? 'current-user' : 'tr-hover'}">
+                  <tr class="leader-row ${isMe ? 'current-user' : 'tr-hover'}">
                     <td class="mono" style="width:36px;font-weight:800;color:${rankColor};text-align:center">${i+1}</td>
-                    <td class="row gap-sm" style="padding:10px 14px">
-                      ${avatarHTML(u.name, 30)}
-                      <span style="font-weight:${isMe ? '700' : '500'}">${esc(u.name)} ${isMe ? '<span class="pill voice" style="font-size:10px;padding:1px 6px">You</span>' : ''}</span>
+                    <td class="row gap-sm" style="padding:10px 8px;align-items:center">
+                      ${avatarHTML(u.name, 28)}
+                      <div>
+                        <div style="font-weight:${isMe ? '700' : '600'};font-size:13.5px">${esc(u.name)} ${isMe ? '<span class="pill voice" style="font-size:9px;padding:1px 5px">You</span>' : ''}</div>
+                        ${u.streak ? `<span style="font-size:11px;color:var(--dragon-fire)">🔥 ${u.streak}d streak</span>` : ''}
+                      </div>
                     </td>
-                    <td class="mono" style="font-size:13px;font-weight:700;text-align:right;padding:10px 14px;color:var(--color-gem-text)">${u.xp} XP</td>
+                    <td style="font-size:12px;color:var(--dragon-purple);font-weight:600">${esc(stageName)}</td>
+                    <td class="mono" style="font-size:13px;font-weight:700;text-align:right;padding:10px 8px;color:var(--color-gem-text)">${u.xp} XP</td>
                   </tr>
                 `;
               }).join('')}
@@ -5122,6 +5239,36 @@ VIEW_RENDERERS['profile'] = async (mount) => {
           </div>
         </div>
       </div>
+
+      <!-- Dragon Companion & Rider Identity Card -->
+      ${(() => {
+        const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(u.xp || 0) : { stage: 2, name: 'Dragon Companion', title: 'Novice Hatchling', percentToNext: 40, xpToNext: 120 };
+        return `
+        <div class="card row gap-md" style="align-items:center;padding:20px 24px;background:linear-gradient(135deg,rgba(124,58,237,0.1),rgba(245,158,11,0.08));border:1.5px solid var(--dragon-gold);border-radius:18px">
+          <div style="width:100px;height:100px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#2A1B4E,#0F172A);border-radius:50%;border:2px solid var(--dragon-gold);box-shadow:0 0 20px rgba(245,158,11,0.3)">
+            ${window.DragonMascot ? window.DragonMascot.renderSVG(evo.stage, 'happy', 95) : '🐉'}
+          </div>
+          <div class="col" style="flex:1">
+            <div class="row gap-xs" style="align-items:center;margin-bottom:4px">
+              <span class="pill amber" style="font-size:11px;font-weight:800">STAGE ${evo.stage} EVOLUTION</span>
+              <span style="font-size:12px;color:var(--color-text-muted)">&middot; ${esc(evo.title)}</span>
+            </div>
+            <h3 style="font-size:20px;font-weight:800;color:var(--color-text);margin:0 0 4px">Companion: ${esc(evo.name)}</h3>
+            <p style="font-size:13px;color:var(--color-text-muted);margin:0 0 10px">
+              Your dragon awakens as you master English across the 7 kingdoms.
+            </p>
+            <div class="dragon-xp-bar-outer" style="height:8px;max-width:320px;background:var(--color-surface-2)">
+              <div class="dragon-xp-bar-inner" style="width:${evo.percentToNext}%"></div>
+            </div>
+            <div style="font-size:11.5px;color:var(--color-text-muted);margin-top:4px">
+              ${evo.percentToNext}% &middot; ${evo.xpToNext} XP needed for next evolution
+            </div>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="setView('progress')" style="white-space:nowrap;background:linear-gradient(135deg,#F59E0B,#D97706);border:none;color:#0F172A;font-weight:700">
+            View Dragon Tree &rarr;
+          </button>
+        </div>`;
+      })()}
 
       <!-- Quick Metrics Grid -->
       <div class="grid grid-4">

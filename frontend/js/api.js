@@ -265,8 +265,10 @@ const Api = {
   getDailyWord() { return this.get('/notifications/daily-word'); },
   answerDailyWord(selectedOption) { return this.post('/notifications/daily-word/answer', { selectedOption }); },
 
-  // progress
+  // progress & dragon academy
   myProgress() { return this.get('/progress/me'); },
+  myDragonProgress() { return this.get('/progress/dragon'); },
+  claimDailyMissions() { return this.post('/progress/missions/claim'); },
   leaderboard() { return this.get('/progress/leaderboard'); },
 
   // Teacher-Led Group Discussion (GD) Rooms
@@ -343,4 +345,46 @@ const Api = {
   adminImportGrammarQuestions(topicId, questions) { return this.post(`/admin/grammar-topics/${topicId}/questions/import`, { questions }); },
   adminUpdateGrammarQuestion(topicId, qId, payload) { return this.put(`/admin/grammar-topics/${topicId}/questions/${qId}`, payload); },
   adminDeleteGrammarQuestion(topicId, qId) { return this.del(`/admin/grammar-topics/${topicId}/questions/${qId}`); },
+
+  // AI Real-World Communication Simulator
+  simulationEnvironments() { return this.get('/simulation/environments'); },
+  simulationScenarios(params) {
+    let q = '';
+    if (typeof params === 'string') q = `?${params}`;
+    else if (params && typeof params === 'object') q = `?${new URLSearchParams(params).toString()}`;
+    return this.get(`/simulation/scenarios${q}`);
+  },
+  simulationScenarioDetail(id) { return this.get(`/simulation/scenarios/${id}`); },
+  createSimulationSession(payload) { return this.post('/simulation/sessions', payload); },
+  sendSimulationTurn(sessionId, payload) { return this.post(`/simulation/sessions/${sessionId}/turn`, payload); },
+  getSimulationHint(sessionId) { return this.post(`/simulation/sessions/${sessionId}/hint`, {}); },
+  endSimulationSession(sessionId) { return this.post(`/simulation/sessions/${sessionId}/end`, {}); },
+  getSimulationSession(sessionId) { return this.get(`/simulation/sessions/${sessionId}`); },
+  simulationHistory() { return this.get('/simulation/history'); },
+  simulationStats() { return this.get('/simulation/stats'); },
+
+  // World Stage Public Speaking Module
+  worldStageStages() { return this.get('/world-stage/stages'); },
+  worldStageTopics(params) {
+    let q = '';
+    if (typeof params === 'string') q = `?${params}`;
+    else if (params && typeof params === 'object') q = `?${new URLSearchParams(params).toString()}`;
+    return this.get(`/world-stage/topics${q}`);
+  },
+  createWorldStageSession(payload) { return this.post('/world-stage/sessions', payload); },
+  submitWorldStageSpeech(sessionId, payload) { return this.post(`/world-stage/sessions/${sessionId}/speech`, payload); },
+  triggerWorldStageQuestion(sessionId) { return this.post(`/world-stage/sessions/${sessionId}/question`, {}); },
+  submitWorldStageAnswer(sessionId, payload) { return this.post(`/world-stage/sessions/${sessionId}/answer`, payload); },
+  endWorldStageSession(sessionId) { return this.post(`/world-stage/sessions/${sessionId}/end`, {}); },
+  getWorldStageReport(sessionId) { return this.get(`/world-stage/sessions/${sessionId}/report`); },
+  worldStageHistory() { return this.get('/world-stage/history'); },
+  worldStageStats() { return this.get('/world-stage/stats'); },
+
+  // Weak Words Lab Module
+  getWeakWords() { return this.get('/weakwords'); },
+  getWeakWordsDue(limit = 5) { return this.get(`/weakwords/due?limit=${limit}`); },
+  postWeakWordsBulk(payload) { return this.post('/weakwords/bulk', payload); },
+  submitWeakWordResult(id, payload) { return this.post(`/weakwords/${id}/result`, payload); },
+  deleteWeakWord(id) { return this.del(`/weakwords/${id}`); },
+  weakWordsClassSummary() { return this.get('/weakwords/class-summary'); },
 };

@@ -93,15 +93,15 @@ function renderLogin(){
   <div class="login-wrap">
     <div class="login-art">
       <div class="brand">
-        <div class="brand-mark">${ICONS.mic}</div>
-        <div><div class="brand-name">LinGrow AI</div><div class="brand-sub">Speaking Practice Platform</div></div>
+        <div class="brand-mark" style="background:linear-gradient(135deg,#F59E0B,#EF4444);color:#0F172A;font-size:18px">🐉</div>
+        <div><div class="brand-name">LinGrow AI</div><div class="brand-sub">Dragon Academy Universe</div></div>
       </div>
       <div>
-        <div class="login-tagline">Speak more.<br/>Hesitate less.<br/>Grow every day.</div>
+        <div class="login-tagline">Train Your Mind.<br/>Awaken Your Dragon.<br/>Master English.</div>
         <div class="login-wave-art" id="login-wave"></div>
       </div>
       <div class="login-art-desc" style="font-size:12px;color:var(--cream-faint);line-height:1.6;max-width:320px">
-        Full-stack build: Node.js/Express API, MongoDB database, JWT auth, and Claude-powered AI tutoring &amp; scoring. Mic input and audio playback use your browser's built-in speech engine.
+        An immersive fantasy English-learning universe. Master speaking, vocabulary, listening, and grammar through interactive quests, spaced-repetition drills, and intelligent AI mentorship.
       </div>
     </div>
     <div class="login-form-side">
@@ -182,6 +182,8 @@ async function logout(){
   if (drawer) drawer.classList.remove('open');
   const overlay = $('#global-chatbot-overlay');
   if (overlay) overlay.style.display = 'none';
+  const dragonWidget = $('#dragon-floating-companion');
+  if (dragonWidget) dragonWidget.remove();
   loginMode='login';
   renderLogin();
 }
@@ -218,23 +220,30 @@ function addStudentXP(amount) {
 
 const NAV = {
   student: [
-    { group:'Practice', items:[
-      {id:'dashboard', label:'Dashboard', icon:'dashboard'},
-      {id:'grammar', label:'Grammar Practice', icon:'edit', minLevel:'Beginner'},
-      {id:'situational', label:'Daily Situational Phrases', icon:'message', minLevel:'Beginner'},
-      {id:'read-aloud', label:'Read Aloud', icon:'mic', minLevel:'Beginner'},
-      {id:'vocabulary', label:'Vocabulary', icon:'book', minLevel:'Beginner'},
-      {id:'listening', label:'Listening', icon:'headphones', minLevel:'Beginner'},
-      {id:'peer', label:'Peer Practice', icon:'users', minLevel:'Beginner'},
-      {id:'story', label:'Story Continuation', icon:'feather', minLevel:'Advanced'},
-      {id:'debate', label:'Debate Practice', icon:'podium', minLevel:'Advanced'},
+    { group:'Dragon Academy', items:[
+      {id:'dashboard', label:'Dragon Kingdom', icon:'dashboard'},
+      {id:'kingdoms', label:'The 7 Kingdoms', icon:'library', badge:'MAP'},
+      {id:'adventures', label:'Adventure Quests', icon:'trophy', badge:'QUESTS'},
+      {id:'world-stage', label:'World Stage', icon:'mic', minLevel:'Beginner', badge:'HOT'},
+      {id:'tutor', label:'Ignis: Dragon Mentor', icon:'message', badge:'AI'},
     ]},
-    { group:'Social & Growth', items:[
-      {id:'tutor', label:'AI Tutor Chat', icon:'message'},
-      {id:'tests', label:'Tests', icon:'clipboard'},
-      {id:'lessons', label:'Lessons', icon:'library'},
-      {id:'progress', label:'Progress & Badges', icon:'trophy'},
-      {id:'profile', label:'My Profile', icon:'user'},
+    { group:'Kingdom Realms', items:[
+      {id:'weakwords', label:'Weak Words Lab', icon:'target', minLevel:'Beginner', badge:'LAB'},
+      {id:'simulator', label:'Communication Simulator', icon:'message', minLevel:'Beginner', badge:'NEW'},
+      {id:'grammar', label:'Grammar Castle', icon:'edit', minLevel:'Beginner'},
+      {id:'vocabulary', label:'Vocabulary Forest', icon:'book', minLevel:'Beginner'},
+      {id:'read-aloud', label:'Speaking Volcano (Read Aloud)', icon:'mic', minLevel:'Beginner'},
+      {id:'listening', label:'Listening Ocean', icon:'headphones', minLevel:'Beginner'},
+      {id:'situational', label:'Conversation Village', icon:'message', minLevel:'Beginner'},
+      {id:'peer', label:'Peer Practice Duels', icon:'users', minLevel:'Beginner'},
+      {id:'story', label:'Reading Grimoires & Stories', icon:'feather', minLevel:'Advanced'},
+      {id:'debate', label:'Dragon Debate Arena', icon:'podium', minLevel:'Advanced'},
+    ]},
+    { group:'Rider Progression', items:[
+      {id:'progress', label:'Dragon Progression & Badges', icon:'trophy'},
+      {id:'lessons', label:'Curriculum Scrolls', icon:'library'},
+      {id:'tests', label:'Academy Trials', icon:'clipboard'},
+      {id:'profile', label:'Dragon Rider Profile', icon:'user'},
     ]},
   ],
   teacher: [
@@ -253,20 +262,25 @@ const NAV = {
   ],
 };
 const VIEW_TITLES = {
-  'dashboard':['Dashboard','Your practice at a glance'],
-  'read-aloud':['Read Aloud','Pronunciation & fluency practice'],
-  'vocabulary':['Vocabulary','Build your working vocabulary'],
-  'grammar':['Grammar Practice','Master essential English grammar with interactive beginner exercises'],
-  'situational':['Daily Situational Phrases','Master real-life campus & professional English conversations'],
-  'listening':['Listening Comprehension','Train your ear for natural speech'],
-  'story':['Story Continuation','Advanced — improvisation & creativity'],
-  'debate':['Debate Practice','Advanced — argument & persuasion'],
-  'peer':['Peer Practice','Talk to a real classmate, voice-anonymized'],
-  'tutor':['AI Tutor Chat','Free-form conversation practice'],
-  'tests':['Tests','Assessments assigned by your teacher'],
-  'lessons':['Lessons','Structured curriculum'],
-  'progress':['Progress & Badges','Your growth over time'],
-  'profile':['My Profile','Your student profile, enrolled class & learning status'],
+  'dashboard':['Dragon Kingdom','Train Your Mind. Awaken Your Dragon. Master English.'],
+  'kingdoms':['The 7 Dragon Kingdoms','Curriculum world map of enchanted English learning realms'],
+  'adventures':['Special Adventure Experiences','Quests, detective cases, escape rooms & high-stakes simulations'],
+  'weakwords':['Weak Words Lab','Spaced-repetition drills to master your mispronounced and tricky words'],
+  'world-stage':['Grand Dragon Amphitheater','Simulated public speaking in iconic auditoriums before intelligent AI audiences'],
+  'simulator':['AI Real-World Communication Simulator','Interactive voice & text simulations across interviews, workplace, travel & negotiation'],
+  'read-aloud':['Speaking Volcano (Read Aloud)','Pronunciation & vocal power training'],
+  'vocabulary':['Vocabulary Forest','Build and master your working lexicon'],
+  'grammar':['Grammar Castle','Master essential English grammar with interactive beginner exercises'],
+  'situational':['Conversation Village','Master real-life campus & professional English conversations'],
+  'listening':['Listening Ocean','Train your ear for natural speech, accents & rhythms'],
+  'story':['Reading Grimoires & Stories','Advanced — improvisation, narrative & creativity'],
+  'debate':['Dragon Debate Arena','Advanced — collegiate debate & persuasion vs AI Drake'],
+  'peer':['Peer Practice Duels','Talk to a real classmate, voice-anonymized'],
+  'tutor':['Ignis: Your Dragon Mentor','Your personal intelligent English teacher and companion'],
+  'tests':['Academy Trials & Assessments','Assessments assigned by your mentor'],
+  'lessons':['Curriculum Scrolls & Lessons','Structured academy lessons'],
+  'progress':['Dragon Progression & Rider Hall','Awaken your dragon companion through real English mastery'],
+  'profile':['Dragon Rider Profile','Your student profile, enrolled class & learning status'],
   't-dashboard':['Class Overview','Monitor your students'],
   't-tests':['Tests','Create and manage assessments'],
   't-gd':['Group Discussion Rooms','Create GD rooms, monitor lobbies & AI speech reports'],
@@ -312,11 +326,11 @@ function renderShell(){
   sidebar.innerHTML = `
     <div class="sidebar-header row" style="justify-content:space-between;align-items:center;width:100%;margin-bottom:8px">
       <div class="brand">
-        <div class="brand-mark">${ICONS.mic}</div>
+        <div class="brand-mark" style="background:linear-gradient(135deg,#F59E0B,#EF4444);color:#0F172A;font-size:17px">🐉</div>
         <div>
           <div class="brand-name">LinGrow AI</div>
           <div class="brand-sub">
-            ${role}${role === 'student' ? ` &middot; <span class="pill ${levelColor(userLevel)}" style="font-size:9.5px;padding:1px 5px">${userLevel}</span>` : ''}
+            Dragon Academy${role === 'student' ? ` &middot; <span class="pill ${levelColor(userLevel)}" style="font-size:9.5px;padding:1px 5px">${userLevel}</span>` : ` &middot; ${role}`}
           </div>
         </div>
       </div>
@@ -359,7 +373,11 @@ function renderTopbar(){
   const topbar = $('#topbar');
   let right = '';
   if (S.user && S.user.role === 'student'){
+    const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(S.user.xp || 0) : { stage: 2, name: 'Dragon Companion' };
     right = `
+      <div class="streak-chip" style="background:var(--dragon-purple-soft);color:var(--dragon-purple);border:1px solid rgba(124,58,237,0.3)" title="Dragon Evolution: ${esc(evo.name)}">
+        <span>🐉</span><span>${esc(evo.name)}</span>
+      </div>
       <div class="streak-chip" title="${S.user.streak||0} day streak">${ICONS.flame}<span>${S.user.streak||0}d</span></div>
       <div class="xp-chip" title="${S.user.xp||0} Total XP">${ICONS.bolt}<span>${S.user.xp||0} XP</span></div>
     `;
@@ -469,6 +487,9 @@ async function enterApp(){
   }
   $('#app').classList.add('active');
   renderShell();
+  if (window.DragonMascot && window.DragonMascot.initFloatingCompanion) {
+    window.DragonMascot.initFloatingCompanion(S.user);
+  }
   const home = S.user.role === 'student' ? 'dashboard' : S.user.role === 'teacher' ? 't-dashboard' : 'a-users';
   const hashView = (location.hash || '').replace(/^#/, '').trim();
   const sessionView = sessionStorage.getItem('lingrow_current_view');

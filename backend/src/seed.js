@@ -12,6 +12,7 @@ const Lesson = require('./models/Lesson');
 const GrammarTopic = require('./models/GrammarTopic');
 const SituationalPhrase = require('./models/SituationalPhrase');
 const Document = require('./models/Document');
+const WeakWord = require('./models/WeakWord');
 const { ingestDocument } = require('./services/ragService');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
 
@@ -950,6 +951,111 @@ When asked technical concept questions by interviewers, follow the 3-tier respon
 First, give a 1-sentence crisp definition. Second, state a concrete technical or real-world example. Third, discuss trade-offs (time complexity, memory usage, or scalability considerations).`
     });
     console.log('[seed] RAG Study Packs successfully embedded and indexed!');
+  }
+
+  // Seed sample weak words for student@lingrow.demo (8 words across new, learning, almost, mastered)
+  const studentUser = await User.findOne({ email: 'student@lingrow.demo' });
+  if (studentUser) {
+    const now = Date.now();
+    const demoWeakWords = [
+      {
+        userId: studentUser._id,
+        word: 'algorithm',
+        phonetic: '/ˈæl.ɡə.rɪ.ðəm/',
+        exampleSentence: 'The search algorithm processes millions of queries efficiently.',
+        missCount: 3,
+        correctStreak: 0,
+        stage: 'new',
+        nextReviewAt: new Date(now - 60 * 60 * 1000), // due (1 hr ago)
+        source: 'read-aloud',
+      },
+      {
+        userId: studentUser._id,
+        word: 'asynchronous',
+        phonetic: '/eɪˈsɪŋ.krə.nəs/',
+        exampleSentence: 'Node.js uses asynchronous non-blocking event loops for scalability.',
+        missCount: 4,
+        correctStreak: 1,
+        stage: 'learning',
+        nextReviewAt: new Date(now - 30 * 60 * 1000), // due (30 min ago)
+        source: 'read-aloud',
+      },
+      {
+        userId: studentUser._id,
+        word: 'architecture',
+        phonetic: '/ˈɑː.kɪ.tek.tʃər/',
+        exampleSentence: 'A clean software architecture decouples business logic from frameworks.',
+        missCount: 2,
+        correctStreak: 1,
+        stage: 'learning',
+        nextReviewAt: new Date(now - 15 * 60 * 1000), // due (15 min ago)
+        source: 'world-stage',
+      },
+      {
+        userId: studentUser._id,
+        word: 'scalable',
+        phonetic: '/ˈskeɪ.lə.bəl/',
+        exampleSentence: 'Cloud microservices provide a scalable foundation for modern web apps.',
+        missCount: 2,
+        correctStreak: 2,
+        stage: 'almost',
+        nextReviewAt: new Date(now - 5 * 60 * 1000), // due (5 min ago)
+        source: 'simulator',
+      },
+      {
+        userId: studentUser._id,
+        word: 'infrastructure',
+        phonetic: '/ˈɪn.frə.strʌk.tʃər/',
+        exampleSentence: 'Serverless infrastructure removes the operational overhead of server maintenance.',
+        missCount: 1,
+        correctStreak: 0,
+        stage: 'new',
+        nextReviewAt: new Date(now - 2 * 60 * 1000), // due (2 min ago)
+        source: 'manual',
+      },
+      {
+        userId: studentUser._id,
+        word: 'optimization',
+        phonetic: '/ˌɒp.tɪ.maɪˈzeɪ.ʃən/',
+        exampleSentence: 'Database query optimization drastically reduced API response times.',
+        missCount: 3,
+        correctStreak: 2,
+        stage: 'almost',
+        nextReviewAt: new Date(now + 24 * 60 * 60 * 1000), // tomorrow
+        source: 'read-aloud',
+      },
+      {
+        userId: studentUser._id,
+        word: 'repository',
+        phonetic: '/rɪˈpɒz.ɪ.tər.i/',
+        exampleSentence: 'Clone the Git repository to your local development environment.',
+        missCount: 5,
+        correctStreak: 4,
+        stage: 'mastered',
+        nextReviewAt: new Date(now + 7 * 24 * 60 * 60 * 1000), // next week
+        source: 'read-aloud',
+      },
+      {
+        userId: studentUser._id,
+        word: 'compliance',
+        phonetic: '/kəmˈplaɪ.əns/',
+        exampleSentence: 'The engineering team ensured data privacy compliance with regulatory standards.',
+        missCount: 2,
+        correctStreak: 3,
+        stage: 'mastered',
+        nextReviewAt: new Date(now + 7 * 24 * 60 * 60 * 1000), // next week
+        source: 'manual',
+      },
+    ];
+
+    for (const w of demoWeakWords) {
+      await WeakWord.findOneAndUpdate(
+        { userId: w.userId, word: w.word },
+        { $set: w },
+        { upsert: true, new: true }
+      );
+    }
+    console.log('[seed] 8 Weak Words seeded for student@lingrow.demo (5 due for Daily 5 drill)!');
   }
 
   console.log('[seed] Done. Demo logins:');

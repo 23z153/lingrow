@@ -1,0 +1,697 @@
+/* ==========================================================================
+   Dragon Academy — Fantasy RPG Design System & Stylesheet
+   Identity: LinGrow AI | Theme: Dragon Academy
+   Tagline: Train Your Mind. Awaken Your Dragon. Master English.
+   ========================================================================== */
+
+:root {
+  /* Dragon Academy Core Palette */
+  --dragon-gold: #F59E0B;
+  --dragon-gold-bright: #FBBF24;
+  --dragon-gold-soft: rgba(245, 158, 11, 0.15);
+  --dragon-gold-glow: rgba(245, 158, 11, 0.35);
+
+  --dragon-fire: #EF4444;
+  --dragon-fire-soft: rgba(239, 68, 68, 0.15);
+  --dragon-fire-glow: rgba(239, 68, 68, 0.35);
+
+  --dragon-indigo: #4F46E5;
+  --dragon-purple: #7C3AED;
+  --dragon-purple-soft: rgba(124, 58, 237, 0.15);
+  --dragon-purple-glow: rgba(124, 58, 237, 0.30);
+
+  --dragon-emerald: #10B981;
+  --dragon-emerald-soft: rgba(16, 185, 129, 0.15);
+
+  --dragon-cyan: #06B6D4;
+  --dragon-cyan-soft: rgba(6, 182, 212, 0.15);
+
+  --dragon-realm-bg: linear-gradient(135deg, #0B0F1E 0%, #151932 50%, #1E1B4B 100%);
+  --dragon-card-bg: rgba(255, 255, 255, 0.95);
+  --dragon-card-border: rgba(124, 58, 237, 0.18);
+  --dragon-card-shadow: 0 10px 30px -5px rgba(79, 70, 229, 0.12), 0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+[data-theme="dark"] {
+  --dragon-card-bg: rgba(19, 26, 46, 0.88);
+  --dragon-card-border: rgba(129, 140, 248, 0.22);
+  --dragon-card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 20px rgba(124, 58, 237, 0.15);
+}
+
+/* ==========================================================================
+   CINEMATIC DRAGON HERO SECTION
+   ========================================================================== */
+.dragon-hero-card {
+  position: relative;
+  background: linear-gradient(135deg, #0E1428 0%, #1A1F3C 40%, #2A1B4E 100%);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 20px;
+  padding: 32px 36px;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px -10px rgba(15, 23, 42, 0.4), 0 0 35px rgba(124, 58, 237, 0.25);
+}
+
+.dragon-hero-card::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.4) 0%, rgba(245, 158, 11, 0.18) 45%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.dragon-hero-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background: linear-gradient(to top, rgba(14, 20, 40, 0.6), transparent);
+  pointer-events: none;
+}
+
+.dragon-hero-layout {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.dragon-hero-content {
+  flex: 1;
+  max-width: 620px;
+}
+
+.dragon-realm-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 14px;
+  background: rgba(245, 158, 11, 0.16);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FBBF24;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.dragon-hero-title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0 0 10px;
+  background: linear-gradient(110deg, #FFFFFF 20%, #FBBF24 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dragon-hero-subtitle {
+  font-size: 15px;
+  color: #CBD5E1;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.dragon-hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+}
+
+.dragon-stat-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  font-size: 13.5px;
+  backdrop-filter: blur(8px);
+}
+
+.dragon-stat-pill b {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.dragon-hero-progress-box {
+  background: rgba(15, 23, 42, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 12px 16px;
+  margin-bottom: 22px;
+}
+
+.dragon-xp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12.5px;
+  margin-bottom: 8px;
+  color: #94A3B8;
+}
+
+.dragon-xp-bar-outer {
+  position: relative;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.dragon-xp-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, #7C3AED, #F59E0B);
+  border-radius: 999px;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dragon-hero-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-dragon-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  color: #0F172A;
+  font-weight: 800;
+  font-size: 14.5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+  transition: all 0.25s ease;
+}
+
+.btn-dragon-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.55);
+}
+
+.btn-dragon-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-dragon-secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+.dragon-hero-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.dragon-halo-ring {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px dashed rgba(245, 158, 11, 0.35);
+  animation: dragonHaloSpin 28s linear infinite;
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   DAILY MISSIONS SECTION
+   ========================================================================== */
+.dragon-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0 16px;
+}
+
+.dragon-section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.dragon-missions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.dragon-mission-card {
+  position: relative;
+  background: var(--dragon-card-bg);
+  border: 1px solid var(--dragon-card-border);
+  border-radius: 16px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--dragon-card-shadow);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dragon-mission-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--dragon-purple);
+}
+
+.dragon-mission-card.completed {
+  border-color: rgba(16, 185, 129, 0.45);
+  background: linear-gradient(135deg, var(--dragon-card-bg), rgba(16, 185, 129, 0.05));
+}
+
+.mission-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.mission-icon-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background: var(--dragon-purple-soft);
+  color: var(--dragon-purple);
+}
+
+.mission-xp-tag {
+  font-size: 12px;
+  font-weight: 800;
+  color: #D97706;
+  background: var(--dragon-gold-soft);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+.mission-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 4px;
+}
+
+.mission-desc {
+  font-size: 12.5px;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+  margin: 0 0 16px;
+}
+
+.mission-progress-bar {
+  height: 6px;
+  background: var(--color-surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mission-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--dragon-indigo), var(--dragon-emerald));
+  border-radius: 999px;
+}
+
+.mission-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   THE 7 DRAGON KINGDOMS PORTALS
+   ========================================================================== */
+.dragon-kingdoms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.kingdom-portal-card {
+  position: relative;
+  background: var(--dragon-card-bg);
+  border: 1px solid var(--dragon-card-border);
+  border-radius: 18px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--dragon-card-shadow);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.kingdom-portal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--kingdom-color, #7C3AED);
+}
+
+.kingdom-portal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 35px -5px rgba(0, 0, 0, 0.25), 0 0 20px var(--kingdom-glow, rgba(124, 58, 237, 0.25));
+  border-color: var(--kingdom-color, #7C3AED);
+}
+
+.kingdom-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.kingdom-icon-crest {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  background: var(--kingdom-soft, rgba(124, 58, 237, 0.15));
+  border: 1px solid var(--kingdom-color, #7C3AED);
+  flex-shrink: 0;
+}
+
+.kingdom-name {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.kingdom-theme-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.kingdom-desc {
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+
+.kingdom-activities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.kingdom-activity-pill {
+  font-size: 11.5px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.kingdom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 13.5px;
+  font-weight: 700;
+  background: var(--kingdom-soft, rgba(124, 58, 237, 0.15));
+  color: var(--kingdom-color, var(--color-primary));
+  border: 1px solid var(--kingdom-color, var(--color-primary));
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.kingdom-portal-card:hover .kingdom-btn {
+  background: var(--kingdom-color, var(--color-primary));
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   SKILL MASTERY RADAR / DOMAIN BARS
+   ========================================================================== */
+.dragon-mastery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.dragon-skill-card {
+  background: var(--dragon-card-bg);
+  border: 1px solid var(--dragon-card-border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: var(--dragon-card-shadow);
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.skill-pct {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+/* ==========================================================================
+   FLOATING DRAGON COMPANION WIDGET
+   ========================================================================== */
+.dragon-floating-wrap {
+  position: fixed;
+  bottom: 84px;
+  right: 24px;
+  z-index: 998;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.dragon-speech-bubble {
+  position: relative;
+  background: var(--dragon-card-bg);
+  border: 1.5px solid var(--dragon-gold);
+  border-radius: 14px;
+  padding: 12px 16px;
+  max-width: 240px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(245, 158, 11, 0.25);
+  margin-bottom: 12px;
+  pointer-events: auto;
+  animation: bubblePop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dragon-speech-bubble.fade-out {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.dragon-bubble-text {
+  font-size: 13px;
+  color: var(--color-text);
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.dragon-bubble-arrow {
+  position: absolute;
+  bottom: -8px;
+  right: 28px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--dragon-gold);
+}
+
+.dragon-avatar-btn {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #2A1B4E 0%, #0F172A 100%);
+  border: 2px solid var(--dragon-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 20px rgba(245, 158, 11, 0.4);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dragon-avatar-btn:hover {
+  transform: scale(1.08);
+}
+
+.dragon-avatar-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dragon-level-badge {
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--dragon-gold);
+  color: #0F172A;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0F172A;
+}
+
+.dragon-glow-ring {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid var(--dragon-gold);
+  opacity: 0.4;
+  animation: dragonRingPulse 2.5s infinite;
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   ANIMATIONS & PARTICLES
+   ========================================================================== */
+@keyframes dragonHaloSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bubblePop {
+  0% { transform: scale(0.85); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes dragonRingPulse {
+  0% { transform: scale(0.95); opacity: 0.6; }
+  50% { transform: scale(1.15); opacity: 0.1; }
+  100% { transform: scale(0.95); opacity: 0.6; }
+}
+
+@keyframes dragonBreath {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-4px) scale(1.02); }
+}
+
+@keyframes dragonWingFlap {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-8deg); }
+}
+
+@keyframes dragonSparkFloat {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-12px); opacity: 0; }
+}
+
+.dragon-mascot {
+  animation: dragonBreath 4s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.dragon-mascot.mood-happy .dragon-wing-left,
+.dragon-mascot.mood-excited .dragon-wing-left {
+  animation: dragonWingFlap 0.8s ease-in-out infinite;
+  transform-origin: 68px 105px;
+}
+
+.dragon-spark {
+  animation: dragonSparkFloat 2s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (RESPONSIVE VIEWPORTS)
+   ========================================================================== */
+@media (max-width: 900px) {
+  .dragon-hero-layout {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .dragon-hero-stats {
+    justify-content: center;
+  }
+  .dragon-hero-actions {
+    justify-content: center;
+  }
+  .dragon-floating-wrap {
+    bottom: 76px;
+    right: 16px;
+  }
+}
+

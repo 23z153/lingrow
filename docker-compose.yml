@@ -18,9 +18,18 @@ services:
       - "11434:11434"
     volumes:
       - ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
 
   backend:
-    build: ./backend
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
     restart: unless-stopped
     ports:
       - "5000:5000"
@@ -30,7 +39,8 @@ services:
       # Overrides whatever MONGO_URI is in .env so the container talks to
       # the `mongo` service above rather than localhost.
       MONGO_URI: mongodb://mongo:27017/lingrow_ai
-      LOCAL_LLM_URL: http://ollama:11434/api/generate
+      OLLAMA_BASE_URL: http://ollama:11434
+      LOCAL_LLM_URL: http://ollama:11434/api/chat
       NODE_ENV: production
     depends_on:
       mongo:
@@ -39,7 +49,9 @@ services:
   # One-off helper: `docker compose run --rm seed` populates demo accounts
   # and starter content. Not started automatically since it only needs to run once.
   seed:
-    build: ./backend
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
     env_file:
       - ./backend/.env
     environment:

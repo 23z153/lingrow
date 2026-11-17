@@ -163,7 +163,7 @@ const SpeechInput = {
 const SpeechOutput = {
   supported: 'speechSynthesis' in window,
   speaking: false,
-  speak(text, { rate = 0.98, onEnd } = {}) {
+  speak(text, { rate = 0.98, pitch = 1.0, lang = 'en-IN', onEnd } = {}) {
     if (!this.supported || !text) return;
     window.speechSynthesis.cancel();
     const cleanText = text
@@ -176,7 +176,8 @@ const SpeechOutput = {
     if (!cleanText) return;
     const utter = new SpeechSynthesisUtterance(cleanText);
     utter.rate = rate;
-    utter.lang = 'en-IN';
+    utter.pitch = pitch;
+    utter.lang = lang;
     this.speaking = true;
     utter.onend = () => {
       this.speaking = false;
