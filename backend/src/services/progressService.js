@@ -26,9 +26,10 @@ async function ensureUserBadgeIndex() {
 
 async function awardXP(user, amount) {
   const User = require('../models/User');
+  const cleanAmount = Number(amount) || 0;
   const updated = await User.findByIdAndUpdate(
     user._id,
-    { $inc: { xp: amount } },
+    { $inc: { xp: cleanAmount } },
     { new: true }
   );
   if (!updated) return { xp: user.xp, level: user.level, leveledUp: false };

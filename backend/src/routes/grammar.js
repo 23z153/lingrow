@@ -7,7 +7,7 @@ const GrammarProgress = require('../models/GrammarProgress');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
 
 // Pass mark threshold required to complete a topic and unlock the next topic
-const PASS_PERCENT = 60;
+const PASS_PERCENT = 50;
 
 /**
  * Normalizes any topic id representation (ObjectId, populated doc, string) to string

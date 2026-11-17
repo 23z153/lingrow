@@ -1,16 +1,23 @@
+process.env.NODE_ENV = 'test';
+process.env.JWT_SECRET = process.env.JWT_SECRET || 'test-secret-do-not-use-in-prod';
+require('dotenv').config();
+process.env.NODE_ENV = 'test';
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
-
-process.env.JWT_SECRET = process.env.JWT_SECRET || 'test-secret-do-not-use-in-prod';
-process.env.NODE_ENV = 'test';
 
 let mongod;
 let connected = false;
 
 beforeAll(async () => {
-  if (process.env.MONGODB_URI) {
+  let remoteUri = process.env.MONGODB_URI;
+  if (!remoteUri && process.env.MONGO_URI) {
+    const isLocal = process.env.MONGO_URI.includes('127.0.0.1') || process.env.MONGO_URI.includes('localhost');
+    const suffix = isLocal ? '' : '?retryWrites=true&w=majority';
+    remoteUri = `${process.env.MONGO_URI.replace(/\/$/, '').replace(/\/lingrow_ai$/, '')}/lingrow_test${suffix}`;
+  }
+  if (remoteUri) {
     try {
-      await mongoose.connect(process.env.MONGODB_URI, { serverSelectionTimeoutMS: 2000 });
+      await mongoose.connect(remoteUri, { serverSelectionTimeoutMS: 3000 });
       connected = true;
       return;
     } catch (e) {}

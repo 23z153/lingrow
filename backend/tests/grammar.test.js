@@ -111,7 +111,7 @@ describe('Grammar API Routes & Sequential Unlock', () => {
   });
 
   test('Submit a failing test keeps topic 2 locked and response explains why', async () => {
-    // Submit topic 1 with failing answers (0/2 = 0% < 60%)
+    // Submit topic 1 with failing answers (0/2 = 0% < 50%)
     const failRes = await request(app)
       .post(`/api/grammar/${topic1Id}/submit`)
       .set('Authorization', `Bearer ${token}`)
@@ -120,8 +120,8 @@ describe('Grammar API Routes & Sequential Unlock', () => {
     expect(failRes.status).toBe(200);
     expect(failRes.body.passed).toBe(false);
     expect(failRes.body.score).toBe(0);
-    expect(failRes.body.passPercent).toBe(60);
-    expect(failRes.body.message).toMatch(/Need 60% to unlock the next topic/i);
+    expect(failRes.body.passPercent).toBe(50);
+    expect(failRes.body.message).toMatch(/Need 50% to unlock the next topic/i);
     expect(failRes.body.xpEarned).toBe(0);
 
     // Progress should still be 0 completed topics

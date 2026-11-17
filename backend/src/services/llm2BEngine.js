@@ -52,50 +52,74 @@ function detectGrammarCorrection(text) {
  * 2-Billion Parameter Neural Model Inference Solver
  */
 function solveWith2BModel(promptText, dept, liveCtx) {
-  const q = promptText.toLowerCase();
-  const department = dept || 'CSE';
+  const q = promptText.toLowerCase().trim();
 
   // 1. Tenses & Grammar Queries
   if (q.includes('tense') || q.includes('past perfect') || q.includes('present continuous') || q.includes('future')) {
-    return `[LinGrow-2B Model Output] In English grammar, Tenses structure time context: 1) Present Simple ('I build systems'), 2) Present Continuous ('I am building systems'), 3) Present Perfect ('I have built systems'), and 4) Past Perfect ('I had built systems before deployment'). Which tense would you like to practice in a sentence?`;
+    return `In English grammar, tenses establish the time frame:
+1) Present Simple: 'I practice speaking every day'
+2) Present Continuous: 'I am practicing my pronunciation right now'
+3) Present Perfect: 'I have completed three grammar lessons'
+4) Past Simple: 'I completed the assignment yesterday'
+Which tense would you like to practice in a sentence?`;
   }
   if (q.includes('passive') || q.includes('active voice')) {
-    return `[LinGrow-2B Model Output] Active Voice emphasizes the agent ('The engineer optimized the query'), whereas Passive Voice highlights the object/action ('The query was optimized by the engineer'). Passive voice is standard in ${department} research reports.`;
+    return `Active Voice emphasizes the person doing the action ('The student solved the puzzle'), whereas Passive Voice emphasizes the action or recipient ('The puzzle was solved by the student'). Passive voice is common in academic reports, news, and formal communication.`;
   }
   if (q.includes('preposition') || q.includes('in on at') || q.includes('at vs in')) {
-    return `[LinGrow-2B Model Output] Prepositions Guide: Use 'at' for precise times ('at 10:00 AM'), 'on' for specific days/dates ('on Tuesday'), and 'in' for months, years, or enclosed spaces ('in July', 'in the ${department} laboratory').`;
+    return `Prepositions Guide: Use 'at' for specific times ('at 9:00 AM') or precise locations ('at the entrance'), 'on' for days/dates ('on Wednesday') or surfaces ('on the table'), and 'in' for months, years, or enclosed spaces ('in October', 'in the library').`;
   }
   if (q.includes('subject verb') || q.includes('agreement') || q.includes('singular plural')) {
-    return `[LinGrow-2B Model Output] Subject-Verb Agreement: Singular subjects require singular verbs ('The server runs smoothly'), while plural subjects require plural verbs ('The servers run smoothly'). Watch out for collective phrases!`;
+    return `Subject-Verb Agreement: Singular subjects take singular verbs ('The student speaks clearly'), while plural subjects take plural verbs ('The students speak clearly'). Remember: words joined by 'and' usually take a plural verb.`;
   }
 
-  // 2. Vocabulary & Technical Jargon
+  // 2. Vocabulary & Words
   if (q.includes('vocabulary') || q.includes('synonym') || q.includes('antonym') || q.includes('word meaning')) {
-    return `[LinGrow-2B Model Output] High-impact technical vocabulary for ${department}: 1) 'Scalable' (expandable efficiently), 2) 'Robust' (strong & fault-tolerant), 3) 'Optimized' (engineered for maximum performance). Using these in presentations elevates your score!`;
+    return `High-impact vocabulary words to strengthen your communication:
+1) 'Articulate' (verb/adj) — to express thoughts fluently and coherently.
+2) 'Resilient' (adj) — able to recover quickly from challenges.
+3) 'Perspective' (noun) — a particular way of regarding situations.
+Try using one of these words in a sentence today!`;
   }
   if (q.includes('email') || q.includes('professional email') || q.includes('formal letter') || q.includes('leave request')) {
-    return `[LinGrow-2B Model Output] Professional Email Format: Subject line: 'Request for Project Guidance - [Your Name]'. Salutation: 'Dear Professor/Manager, I am writing to update you on...'. Body: Keep paragraphs under 3 lines. Sign-off: 'Best regards, [Your Name]'.`;
+    return `Professional Email Structure:
+• Subject line: Clear and concise (e.g., 'Request for Leave - [Your Name]')
+• Salutation: 'Dear Professor / Dear Mr./Ms. [Last Name],'
+• Opening: State your purpose directly in the first sentence.
+• Body: Keep details concise and polite.
+• Closing: 'Thank you for your time and guidance.'
+• Sign-off: 'Best regards, [Your Name]'.`;
   }
 
-  // 3. Placement Interview Prep
+  // 3. Interview & Self-Introduction Prep
   if (q.includes('interview') || q.includes('tell me about yourself') || q.includes('placement') || q.includes('resume')) {
-    return `[LinGrow-2B Model Output] Placement Interview Answer Strategy: Structure your introduction in 3 parts: 1) Current degree & department (${department}), 2) Key technical projects & achievements, and 3) Why your career goals align with this company. Would you like to practice your answer now?`;
+    return `Self-Introduction Strategy:
+1) Present: State who you are, your educational background, and your key interests.
+2) Past: Mention 1-2 major projects, achievements, or practical experiences.
+3) Future: Explain your career aspirations and why you want to grow in this role.
+Would you like to practice your introductory pitch with me right now?`;
   }
 
   // 4. Live Student Task Analysis
   if (q.includes('my progress') || q.includes('live task') || q.includes('how am i doing') || q.includes('score') || q.includes('xp')) {
     if (liveCtx) {
       const { xp, level, readAloudAvg, vocabMastered, situationalDone } = liveCtx;
-      return `[LinGrow-2B Task Analyzer] Live Progress Summary: You are at ${level} level with ${xp} total XP! You completed ${situationalDone || 0} situational roleplays and mastered ${vocabMastered || 0} vocabulary words. Your average Read Aloud pronunciation score is ${readAloudAvg ? readAloudAvg + '%' : 'ready for practice'}. Keep leveling up!`;
+      return `Live Progress Summary: You are at the ${level} level with ${xp} total XP! You have completed ${situationalDone || 0} situational dialogues and mastered ${vocabMastered || 0} vocabulary words. Your average Read Aloud pronunciation accuracy is ${readAloudAvg ? readAloudAvg + '%' : 'ready for practice'}. Keep leveling up!`;
     }
   }
 
-  // Default 2B Generative Response
   let liveTaskNote = '';
   if (liveCtx && liveCtx.xp) {
     liveTaskNote = ` I see your current live score is ${liveCtx.xp} XP!`;
   }
-  return `[LinGrow-2B Neural Response] That is a fantastic point! As a ${department} student, practicing how you articulate complex technical concepts with clarity will boost your spoken fluency.${liveTaskNote} What sentence or technical topic would you like us to practice right now?`;
+
+  // 5. Greetings
+  if (/^(hi|hello|hey|hii|good\s*(morning|afternoon|evening)|howdy)\b/i.test(q)) {
+    return `Hello! Great to connect with you.${liveTaskNote} How can I assist you with your English learning today? We can practice grammar, vocabulary, pronunciation, or free conversation!`;
+  }
+
+  // Default Generative Response
+  return `That is a great point! Practicing how you articulate ideas clearly and accurately will boost your spoken fluency and confidence.${liveTaskNote} What sentence or topic would you like us to practice together right now?`;
 }
 
 /**

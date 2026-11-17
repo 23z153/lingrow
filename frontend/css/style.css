@@ -1662,6 +1662,10 @@ select option { background: var(--color-surface); color: var(--color-text); padd
   backdrop-filter: blur(2px);
   z-index: 10000;
   transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+.global-chatbot-overlay.open {
+  pointer-events: auto;
 }
 .global-chatbot-drawer {
   position: fixed;
@@ -1676,11 +1680,15 @@ select option { background: var(--color-surface); color: var(--color-text); padd
   display: flex;
   flex-direction: column;
   transform: translateX(100%);
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s ease;
   box-shadow: -10px 0 35px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  pointer-events: none;
 }
 .global-chatbot-drawer.open {
   transform: translateX(0);
+  visibility: visible;
+  pointer-events: auto;
 }
 .chatbot-drawer-header{
   display: flex;
