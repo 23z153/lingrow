@@ -5,12 +5,25 @@ const Passage = require('../models/Passage');
 const ReadAloudAttempt = require('../models/ReadAloudAttempt');
 const { scorePronunciation } = require('../services/llmService');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 // GET /api/practice/passages — Returns 5 general passages sampled by student's level, excluding recently attempted
 router.get('/passages', requireAuth, requireMinXP(0, 'Read Aloud'), async (req, res) => {
   try {
-    const rawLevel = req.query.level || req.user?.level || 'Intermediate';
+    const unlocked = req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'];
+    const highestUnlocked = unlocked.includes('Advanced') ? 'Advanced' : unlocked.includes('Intermediate') ? 'Intermediate' : 'Beginner';
+    const rawLevel = req.query.level || highestUnlocked;
     const targetLevel = rawLevel.charAt(0).toUpperCase() + rawLevel.slice(1).toLowerCase();
+
+    // Strict level check if explicitly requested
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, targetLevel)) {
+      return res.status(403).json({
+        error: `The ${targetLevel} tier is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: targetLevel,
+        unlockedLevels: unlocked,
+      });
+    }
 
     // Find recently attempted passage IDs for this user to exclude
     const recentAttempts = await ReadAloudAttempt.find({ user: req.user._id })
@@ -70,6 +83,16 @@ router.post('/attempts', requireAuth, async (req, res) => {
     const passage = await Passage.findById(passageId);
     if (!passage) return res.status(404).json({ error: 'Passage not found' });
 
+    // Strict level check
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, passage.level)) {
+      return res.status(403).json({
+        error: `This passage is in the ${passage.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: passage.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
     const result = await scorePronunciation({ referenceText: passage.text, transcript, seconds: Number(seconds) || 0 });
 
     const attempt = await ReadAloudAttempt.create({
@@ -96,7 +119,21 @@ router.post('/attempts', requireAuth, async (req, res) => {
     await awardXP(req.user, xpGain);
     await maybeAwardBadge(req.user, 'first_read_aloud');
 
-    res.status(201).json({ attempt, xpGain });
+    // Central progression engine tracking
+    const prog = await recordActivityCompletion({
+      user: req.user,
+      activityId: passage._id.toString(),
+      activityType: 'passage',
+      level: passage.level || 'Beginner',
+      category: 'read-aloud',
+      score: result.accuracy,
+      xp: xpGain,
+    }).catch((e) => {
+      console.warn('[progression] Error recording passage completion:', e);
+      return null;
+    });
+
+    res.status(201).json({ attempt, xpGain, progression: prog });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

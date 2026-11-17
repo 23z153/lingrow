@@ -5,15 +5,29 @@ const StoryPrompt = require('../models/StoryPrompt');
 const StoryAttempt = require('../models/StoryAttempt');
 const { scoreStory } = require('../services/llmService');
 const { awardXP } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
-// GET /api/story/prompts - Fetch active general English stories (no department filter)
-router.get('/prompts', requireAuth, requireMinXP(500, 'Story Continuation'), async (req, res) => {
+// GET /api/story/prompts - Fetch active general English stories
+router.get('/prompts', requireAuth, requireMinXP(0, 'Story Continuation'), async (req, res) => {
   try {
+    const unlocked = req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'];
     // Exclude inactive legacy department stories
     const query = { active: { $ne: false } };
     const { level } = req.query;
+
     if (level && ['Beginner', 'Intermediate', 'Advanced'].includes(level)) {
+      if (req.user.role === 'student' && !canUserAccessLevel(req.user, level)) {
+        return res.status(403).json({
+          error: `The ${level} tier is currently locked. Complete previous level activities to unlock.`,
+          locked: true,
+          requiredLevel: level,
+          unlockedLevels: unlocked,
+        });
+      }
       query.level = level;
+    } else if (req.user.role === 'student') {
+      // By default, only return stories matching student's unlocked tiers
+      query.level = { $in: unlocked };
     }
 
     // Fetch active general stories
@@ -50,6 +64,15 @@ router.post('/attempts', requireAuth, async (req, res) => {
     const prompt = await StoryPrompt.findById(promptId);
     if (!prompt) return res.status(404).json({ error: 'Prompt not found' });
 
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, prompt.level)) {
+      return res.status(403).json({
+        error: `This story is in the ${prompt.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: prompt.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
     const result = await scoreStory({ prompt: prompt.prompt, transcript });
 
     const attempt = await StoryAttempt.create({
@@ -63,7 +86,20 @@ router.post('/attempts', requireAuth, async (req, res) => {
     const xpEarned = Math.round(15 + result.scores.overall / 5);
     await awardXP(req.user, xpEarned);
 
-    res.status(201).json({ attempt, xpEarned });
+    const prog = await recordActivityCompletion({
+      user: req.user,
+      activityId: prompt._id.toString(),
+      activityType: 'story',
+      level: prompt.level || 'Beginner',
+      category: 'story',
+      score: result.scores.overall,
+      xp: xpEarned,
+    }).catch((e) => {
+      console.warn('[progression] Story record error:', e);
+      return null;
+    });
+
+    res.status(201).json({ attempt, xpEarned, progression: prog });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

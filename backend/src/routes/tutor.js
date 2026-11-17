@@ -199,6 +199,7 @@ router.post('/message', requireAuth, async (req, res) => {
       userEmail: req.user.email,
       xp: req.user.xp || 0,
       level: req.user.level || 'Beginner',
+      unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
       readAloudAvg,
       situationalDone,
       vocabMastered,

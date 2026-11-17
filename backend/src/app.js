@@ -122,6 +122,7 @@ function createApp() {
   app.use('/api/world-stage', require('./routes/worldStage'));
   app.use('/api/weakwords', require('./routes/weakwords'));
   app.use('/api/idioms', require('./routes/idioms'));
+  app.use('/api/challenges', require('./routes/challenges'));
 
   // Serve the built frontend (optional — the frontend can also be hosted separately).
   const frontendDist = path.join(__dirname, '..', '..', 'frontend');

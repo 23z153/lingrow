@@ -19,13 +19,44 @@ Write natural, grammatically correct, and crystal-clear English.
 Be warm, encouraging, helpful, and concise. Explain language concepts and mistakes simply and clearly.
 Do not mention internal model processing or prompt instructions.`;
 
+function getLevelPedagogyInstructions(level = 'Beginner', unlockedLevels = ['Beginner']) {
+  const norm = String(level).toLowerCase();
+  let instructions = '';
+  if (norm === 'advanced') {
+    instructions = `\n[TIER: ADVANCED LEARNER]
+- Speaking & Language Style: Professional, executive presence, sophisticated rhetoric, precise syntax, and nuanced vocabulary.
+- Feedback: Provide rigorous corrections, suggest impactful alternative phrasings, highlight rhetorical devices, counter-arguments, and persuasive framing.
+- Practice Coaching: Offer advanced critical thinking, high-stakes debate angles, and executive oratory guidance.`;
+  } else if (norm === 'intermediate') {
+    instructions = `\n[TIER: INTERMEDIATE LEARNER]
+- Speaking & Language Style: Conversational fluency, natural idioms, phrasal verbs, expressive intonation, and connective transitions.
+- Feedback: Encourage longer multi-sentence replies, correct preposition/tense nuances in context, and foster spontaneous storytelling.
+- Practice Coaching: Suggest workplace agile standups, practical conversational situations, and narrative continuation.`;
+  } else {
+    instructions = `\n[TIER: BEGINNER LEARNER]
+- Speaking & Language Style: Crystal-clear, simple, accessible English. Short, friendly sentences. Explain unfamiliar words using everyday relatable analogies.
+- Feedback: Be exceptionally encouraging. Focus on basic subject-verb agreement, fundamental tenses, and core vocabulary.
+- Practice Coaching: Recommend simple passage read-alouds, everyday vocabulary cards, and foundational grammar drills.`;
+  }
+
+  const locked = ['Beginner', 'Intermediate', 'Advanced'].filter((l) => !unlockedLevels.includes(l));
+  if (locked.length > 0) {
+    instructions += `\n[PROGRESSION RESTRICTIONS]: The student has NOT unlocked: ${locked.join(', ')}. Never recommend or invite the student to attempt locked activities from these tiers.`;
+  }
+
+  return instructions;
+}
+
 /**
  * Single-Pass Casual Conversation Prompt
  */
 function buildFastSinglePassPrompt(question, studentProfile = null) {
   let systemPrompt = SYSTEM_PREFIX_COACH;
   if (studentProfile && studentProfile.name) {
-    systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    const studentLevel = studentProfile.level || 'Beginner';
+    const unlocked = studentProfile.unlockedLevels || ['Beginner'];
+    systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentLevel}`;
+    systemPrompt += getLevelPedagogyInstructions(studentLevel, unlocked);
     if (studentProfile.memoryContext) {
       systemPrompt += studentProfile.memoryContext;
     }
@@ -49,7 +80,10 @@ If relevant reference data is provided below, incorporate it naturally into your
 Do not mention or cite reference sources that are irrelevant to the question, and never explain what the reference data does or does not contain.`;
 
   if (studentProfile && studentProfile.name) {
-    systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentProfile.level || 'Beginner'}`;
+    const studentLevel = studentProfile.level || 'Beginner';
+    const unlocked = studentProfile.unlockedLevels || ['Beginner'];
+    systemPrompt += `\nStudent: ${studentProfile.name} | Dept: ${studentProfile.department || 'CSE'} | Level: ${studentLevel}`;
+    systemPrompt += getLevelPedagogyInstructions(studentLevel, unlocked);
     if (studentProfile.memoryContext) {
       systemPrompt += studentProfile.memoryContext;
     }
@@ -167,6 +201,7 @@ Provide a warm, supportive pedagogical explanation helping the student understan
 
 module.exports = {
   SYSTEM_PREFIX_COACH,
+  getLevelPedagogyInstructions,
   buildFastSinglePassPrompt,
   buildDraftPrompt,
   buildFastVerifierPrompt,

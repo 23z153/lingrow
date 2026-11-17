@@ -10,6 +10,7 @@ const {
   evaluateSimulationSession,
 } = require('../services/simulationEngine');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
+const { recordActivityCompletion } = require('../services/progressionEngine');
 
 // User-keyed rate limiting for simulation interactive turns
 const simulationTurnLimiter = rateLimit({
@@ -185,6 +186,20 @@ router.post('/sessions', requireAuth, async (req, res) => {
 
     const scenario = await SimulationScenario.findOne({ scenarioId });
     if (!scenario) return res.status(404).json({ error: 'Simulation scenario not found' });
+
+    // Validate level locking on simulation scenario access
+    if (req.user && req.user.role === 'student') {
+      const unlocked = req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : (req.user.unlockedLevels || ['Beginner']);
+      const reqLvl = scenario.level;
+      if (reqLvl && reqLvl !== 'All Levels' && reqLvl !== 'Beginner' && !unlocked.includes(reqLvl)) {
+        return res.status(403).json({
+          error: `Scenario "${scenario.title}" is in the ${reqLvl} tier, which is currently locked. Complete the previous challenges to unlock.`,
+          locked: true,
+          requiredLevel: reqLvl,
+          unlockedLevels: unlocked,
+        });
+      }
+    }
 
     let selectedCharacter = null;
     if (characterId) {
@@ -382,11 +397,25 @@ router.post('/sessions/:id/end', requireAuth, async (req, res) => {
       await maybeAwardBadge(req.user, 'consistent_debater', 20);
     }
 
+    const progression = await recordActivityCompletion({
+      user: req.user,
+      activityId: session.scenarioId,
+      activityType: 'simulation',
+      level: scenario.level === 'All Levels' ? 'Intermediate' : (scenario.level || 'Intermediate'),
+      category: scenario.environment || 'simulation',
+      score: evaluation.overallScore,
+      xp: xpAmount,
+    }).catch((e) => {
+      console.warn('[progression] Simulation record error:', e);
+      return null;
+    });
+
     res.json({
       session,
       evaluation,
       xpAwarded: xpAmount,
       userStreak: req.user.streak,
+      progression,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });

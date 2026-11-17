@@ -29,6 +29,11 @@ const worldStageScenarioSchema = new mongoose.Schema(
       type: String,
       default: 'mic',
     },
+    level: {
+      type: String,
+      enum: ['Beginner', 'Intermediate', 'Advanced'],
+      default: 'Advanced',
+    },
     badge: {
       type: String,
       default: 'Featured',

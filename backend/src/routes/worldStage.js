@@ -12,6 +12,7 @@ const {
   submitAudienceAnswer,
   endSessionAndEvaluate,
 } = require('../services/worldStageEngine');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 // Rate limiting for interactive speech submissions
 const speechSubmissionLimiter = rateLimit({
@@ -118,6 +119,19 @@ router.post('/sessions', requireAuth, async (req, res) => {
     const validStages = ['ted-talk', 'college-seminar', 'corporate-conference', 'debate-arena', 'global-summit'];
     if (!validStages.includes(stageId)) {
       return res.status(400).json({ error: `Invalid stageId. Must be one of: ${validStages.join(', ')}` });
+    }
+
+    if (req.user && req.user.role === 'student') {
+      const stageObj = await WorldStageScenario.findOne({ stageId });
+      const requiredTier = difficulty && difficulty !== 'All Levels' ? difficulty : (stageObj?.level || 'Advanced');
+      if (!canUserAccessLevel(req.user, requiredTier)) {
+        return res.status(403).json({
+          error: `This World Stage session is in the ${requiredTier} tier, which is currently locked. Complete previous level activities to unlock.`,
+          locked: true,
+          requiredLevel: requiredTier,
+          unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+        });
+      }
     }
 
     const { session, stage } = await createWorldStageSession({
@@ -249,6 +263,21 @@ router.post('/sessions/:id/end', requireAuth, async (req, res) => {
       user: req.user,
     });
 
+    const stageObj = await WorldStageScenario.findOne({ stageId: session.stageId });
+    const prog = await recordActivityCompletion({
+      user: req.user,
+      activityId: session.stageId,
+      activityType: 'world-stage',
+      level: session.difficulty === 'Beginner' ? 'Beginner' : (stageObj?.level || 'Advanced'),
+      category: 'world-stage',
+      score: result.evaluation?.overallScore || 80,
+      xp: result.xpAwarded || 35,
+    }).catch((e) => {
+      console.warn('[progression] World Stage record error:', e);
+      return null;
+    });
+
+    result.progression = prog;
     res.json(result);
   } catch (err) {
     res.status(500).json({ error: err.message });

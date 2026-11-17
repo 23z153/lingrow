@@ -9,11 +9,13 @@ let mongod;
 let connected = false;
 
 beforeAll(async () => {
-  let remoteUri = process.env.MONGODB_URI;
-  if (!remoteUri && process.env.MONGO_URI) {
-    const isLocal = process.env.MONGO_URI.includes('127.0.0.1') || process.env.MONGO_URI.includes('localhost');
+  const baseUri = process.env.TEST_MONGODB_URI || process.env.MONGODB_URI || process.env.MONGO_URI;
+  let remoteUri = null;
+  if (baseUri) {
+    const isLocal = baseUri.includes('127.0.0.1') || baseUri.includes('localhost');
     const suffix = isLocal ? '' : '?retryWrites=true&w=majority';
-    remoteUri = `${process.env.MONGO_URI.replace(/\/$/, '').replace(/\/lingrow_ai$/, '')}/lingrow_test${suffix}`;
+    const root = baseUri.split('?')[0].replace(/\/+$/, '').replace(/\/lingrow_ai$/, '');
+    remoteUri = `${root}/lingrow_test${suffix}`;
   }
   if (remoteUri) {
     try {
@@ -44,6 +46,7 @@ beforeAll(async () => {
 
 afterEach(async () => {
   if (!connected || mongoose.connection.readyState !== 1) return;
+  if (!mongoose.connection.name || !mongoose.connection.name.includes('test')) return;
   const collections = mongoose.connection.collections;
   for (const key of Object.keys(collections)) {
     try {
@@ -55,7 +58,9 @@ afterEach(async () => {
 afterAll(async () => {
   if (connected && mongoose.connection.readyState === 1) {
     try {
-      await mongoose.connection.dropDatabase();
+      if (mongoose.connection.name && mongoose.connection.name.includes('test')) {
+        await mongoose.connection.dropDatabase();
+      }
       await mongoose.connection.close();
     } catch (e) {}
   }

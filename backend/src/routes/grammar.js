@@ -5,6 +5,7 @@ const GrammarTopic = require('../models/GrammarTopic');
 const GrammarAttempt = require('../models/GrammarAttempt');
 const GrammarProgress = require('../models/GrammarProgress');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 // Pass mark threshold required to complete a topic and unlock the next topic
 const PASS_PERCENT = 50;
@@ -213,6 +214,16 @@ router.get('/:id', requireAuth, async (req, res) => {
     const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
 
+    // Strict level check
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, topic.level)) {
+      return res.status(403).json({
+        error: `This grammar topic is in the ${topic.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: topic.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
     // Verify sequential unlock
     const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
     const progress = await getOrCreateGrammarProgress(req.user._id);
@@ -236,6 +247,16 @@ router.get('/:id/test', requireAuth, async (req, res) => {
   try {
     const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
+
+    // Strict level check
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, topic.level)) {
+      return res.status(403).json({
+        error: `This grammar topic is in the ${topic.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: topic.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
 
     // Verify sequential unlock
     const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
@@ -290,6 +311,16 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
 
     const topic = await findTopicByIdOrTopicId(req.params.id);
     if (!topic) return res.status(404).json({ error: 'Grammar topic not found' });
+
+    // Strict level check
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, topic.level)) {
+      return res.status(403).json({
+        error: `This grammar topic is in the ${topic.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: topic.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
 
     // Verify sequential unlock
     const allTopics = await GrammarTopic.find({}).sort({ topicId: 1, createdAt: 1 }).select('_id topicId title').lean();
@@ -369,6 +400,22 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
       xpEarned,
     });
     await attempt.save();
+
+    let progression = null;
+    if (passed) {
+      progression = await recordActivityCompletion({
+        user: req.user,
+        activityId: String(topic.topicId || topic._id),
+        activityType: 'grammar',
+        level: topic.level || 'Beginner',
+        category: topic.category || 'grammar',
+        score,
+        xp: xpEarned,
+      }).catch((e) => {
+        console.warn('[progression] Grammar record error:', e);
+        return null;
+      });
+    }
 
     const updatedCompletedIds = progress.completedTopicIds.map(toIdString);
     const progressSummary = {

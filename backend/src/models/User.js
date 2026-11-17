@@ -13,6 +13,11 @@ const userSchema = new mongoose.Schema(
     assignedClasses: [{ type: String, trim: true }], // For teachers: Array of assigned classes/sections (e.g. ['A', 'B'])
     createdByAdmin: { type: Boolean, default: false }, // Only admin-provisioned accounts can log in
     level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
+    unlockedLevels: {
+      type: [String],
+      enum: ['Beginner', 'Intermediate', 'Advanced'],
+      default: ['Beginner'],
+    },
     xp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
     lastActiveDate: { type: Date, default: null },
@@ -39,6 +44,19 @@ userSchema.methods.setPassword = async function (plain) {
 userSchema.methods.checkPassword = function (plain) {
   return bcrypt.compare(plain, this.passwordHash);
 };
+userSchema.methods.getUnlockedLevels = function () {
+  const levels = new Set(this.unlockedLevels && this.unlockedLevels.length ? this.unlockedLevels : ['Beginner']);
+  levels.add('Beginner');
+  if (this.level === 'Intermediate' || (this.xp && this.xp >= 500)) {
+    levels.add('Intermediate');
+  }
+  if (this.level === 'Advanced' || (this.xp && this.xp >= 1500)) {
+    levels.add('Intermediate');
+    levels.add('Advanced');
+  }
+  return Array.from(levels);
+};
+
 userSchema.methods.toSafeJSON = function () {
   return {
     id: this._id,
@@ -51,6 +69,7 @@ userSchema.methods.toSafeJSON = function () {
     assignedClasses: this.assignedClasses || [],
     createdByAdmin: this.createdByAdmin,
     level: this.level,
+    unlockedLevels: this.getUnlockedLevels(),
     xp: this.xp,
     streak: this.streak,
     status: this.status,

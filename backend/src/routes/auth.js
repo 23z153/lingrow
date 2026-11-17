@@ -87,9 +87,14 @@ router.post('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
-    const user = await User.findOne({ email: (email || '').toLowerCase() });
+    const cleanEmail = (email || '').trim().toLowerCase();
+    const cleanPassword = (password || '').trim();
+    let user = await User.findOne({ email: cleanEmail });
     if (!user || !(await user.checkPassword(password || ''))) {
-      return res.status(401).json({ error: 'Invalid email or password' });
+      // Also try with cleanPassword in case user has leading/trailing whitespace
+      if (!user || !(await user.checkPassword(cleanPassword))) {
+        return res.status(401).json({ error: 'Invalid email or password' });
+      }
     }
     if (user.status === 'Suspended') return res.status(403).json({ error: 'This account has been suspended' });
 

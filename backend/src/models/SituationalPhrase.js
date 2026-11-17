@@ -22,7 +22,7 @@ const situationalPhraseSchema = new mongoose.Schema(
       enum: ['Campus Life', 'Professional & Jobs', 'Social & Daily'],
       required: true,
     },
-    level: { type: String, enum: ['Beginner', 'Intermediate'], default: 'Beginner' },
+    level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
     situationContext: { type: String, required: true },
     phrases: [phraseCardSchema],
     interactivePrompts: [promptSchema],

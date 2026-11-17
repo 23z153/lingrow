@@ -154,9 +154,14 @@ function renderLogin(){
       <div class="form-switch" style="font-size:12px;color:var(--cream-faint);line-height:1.5;text-align:center">
         ${ICONS.shield} Institutional Access: Student and teacher accounts are provisioned by your college administrator.
       </div>
-      <div class="demo-note">
-        <b style="color:var(--cream)">Demo logins</b> (after running <code>npm run seed</code> on the backend):<br/>
-        student@lingrow.demo &middot; teacher@lingrow.demo &middot; admin@lingrow.demo — password: <code>password123</code>
+      <div class="demo-note" style="font-size:12px;line-height:1.6">
+        <b style="color:var(--cream)">Quick Demo Logins</b> (password: <code>password123</code>):<br/>
+        <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px">
+          <button type="button" class="btn btn-secondary btn-sm demo-fill-btn" data-email="student2@lingrow.demo" data-role="student" style="font-size:11px;padding:3px 8px">student2 (Intermediate)</button>
+          <button type="button" class="btn btn-secondary btn-sm demo-fill-btn" data-email="student@lingrow.demo" data-role="student" style="font-size:11px;padding:3px 8px">student (Advanced)</button>
+          <button type="button" class="btn btn-secondary btn-sm demo-fill-btn" data-email="teacher@lingrow.demo" data-role="teacher" style="font-size:11px;padding:3px 8px">teacher</button>
+          <button type="button" class="btn btn-secondary btn-sm demo-fill-btn" data-email="admin@lingrow.demo" data-role="admin" style="font-size:11px;padding:3px 8px">admin</button>
+        </div>
       </div>
     </div>
   </div>`;
@@ -175,12 +180,20 @@ function renderLogin(){
   $all2('#role-tabs .role-tab').forEach(tab=>{
     tab.onclick = ()=>{ loginRole = tab.dataset.role; renderLogin(); };
   });
+  $all2('.demo-fill-btn').forEach(btn => {
+    btn.onclick = () => {
+      $('#f-email').value = btn.dataset.email;
+      $('#f-password').value = 'password123';
+      loginRole = btn.dataset.role;
+      $all2('#role-tabs .role-tab').forEach(t => t.classList.toggle('active', t.dataset.role === loginRole));
+    };
+  });
   $('#auth-form').onsubmit = async (e)=>{
     e.preventDefault();
     const btn = $('#auth-submit'); btn.disabled = true;
     $('#login-error').innerHTML = '';
     try{
-      const res = await Api.login({ email: $('#f-email').value, password: $('#f-password').value });
+      const res = await Api.login({ email: $('#f-email').value.trim(), password: $('#f-password').value.trim() });
       Api.setToken(res.token);
       S.user = res.user;
       enterApp();
@@ -228,6 +241,9 @@ const LEVEL_RANKS = { 'Beginner': 1, 'Intermediate': 2, 'Advanced': 3 };
 
 function getStudentLevel(user) {
   if (!user) return 'Beginner';
+  const unlocked = user.unlockedLevels || ['Beginner'];
+  if (unlocked.includes('Advanced')) return 'Advanced';
+  if (unlocked.includes('Intermediate')) return 'Intermediate';
   if (user.level && LEVEL_RANKS[user.level]) return user.level;
   const xp = user.xp || 0;
   if (xp >= 1500) return 'Advanced';
@@ -240,9 +256,8 @@ function addStudentXP(amount) {
   const oldXp = S.user.xp || 0;
   const oldRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
   S.user.xp = oldXp + amount;
-  if (S.user.xp >= 1500) S.user.level = 'Advanced';
-  else if (S.user.xp >= 500) S.user.level = 'Intermediate';
-  else if (!S.user.level) S.user.level = 'Beginner';
+  if (S.user.xp >= 1500 && (!S.user.level || S.user.level === 'Intermediate')) S.user.level = 'Advanced';
+  else if (S.user.xp >= 500 && !S.user.level) S.user.level = 'Intermediate';
 
   const newRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
   renderTopbar();
@@ -264,21 +279,21 @@ const NAV = {
     { group:'Dragon Academy', items:[
       {id:'dashboard', label:'Dragon Kingdom', icon:'dashboard'},
       {id:'kingdoms', label:'The 7 Kingdoms', icon:'library', badge:'MAP'},
-      {id:'adventures', label:'Adventure Quests', icon:'trophy', badge:'QUESTS'},
-      {id:'world-stage', label:'World Stage', icon:'mic', minLevel:'Beginner', badge:'HOT'},
+      {id:'adventures', label:'Adventure Quests', icon:'trophy', badge:'3-TIER'},
+      {id:'world-stage', label:'World Stage', icon:'mic', minLevel:'Advanced', badge:'ORATORY'},
       {id:'tutor', label:'Ignis: Dragon Mentor', icon:'message', badge:'AI'},
     ]},
     { group:'Kingdom Realms', items:[
       {id:'weakwords', label:'Weak Words Lab', icon:'target', minLevel:'Beginner', badge:'LAB'},
       {id:'idioms', label:'Idioms & Phrasal Grove', icon:'feather', minLevel:'Intermediate', badge:'NEW'},
-      {id:'simulator', label:'Communication Simulator', icon:'message', minLevel:'Beginner', badge:'NEW'},
       {id:'grammar', label:'Grammar Castle', icon:'edit', minLevel:'Beginner'},
       {id:'vocabulary', label:'Vocabulary Forest', icon:'book', minLevel:'Beginner'},
       {id:'read-aloud', label:'Speaking Volcano (Read Aloud)', icon:'mic', minLevel:'Beginner'},
       {id:'listening', label:'Listening Ocean', icon:'headphones', minLevel:'Beginner'},
       {id:'situational', label:'Conversation Village', icon:'message', minLevel:'Beginner'},
-      {id:'peer', label:'Peer Practice Duels', icon:'users', minLevel:'Beginner'},
-      {id:'story', label:'Reading Grimoires & Stories', icon:'feather', minLevel:'Advanced'},
+      {id:'story', label:'Reading Grimoires & Stories', icon:'feather', minLevel:'Beginner'},
+      {id:'simulator', label:'Communication Simulator', icon:'message', minLevel:'Intermediate', badge:'NEW'},
+      {id:'peer', label:'Peer Practice Duels', icon:'users', minLevel:'Intermediate'},
       {id:'debate', label:'Dragon Debate Arena', icon:'podium', minLevel:'Advanced'},
     ]},
     { group:'Rider Progression', items:[
@@ -352,7 +367,7 @@ function openMobileSidebar() {
 function renderShell(){
   const role = S.user.role;
   const userLevel = getStudentLevel(S.user);
-  const userRank = LEVEL_RANKS[userLevel] || 1;
+  const unlocked = S.user.unlockedLevels || ['Beginner'];
   const sidebar = $('#sidebar');
 
   const BIOME_MAP = {
@@ -375,8 +390,7 @@ function renderShell(){
     return {
       ...g,
       items: g.items.map(it => {
-        const requiredRank = it.minLevel ? (LEVEL_RANKS[it.minLevel] || 1) : 1;
-        const isLocked = userRank < requiredRank;
+        const isLocked = it.minLevel && it.minLevel !== 'Beginner' && !unlocked.includes(it.minLevel);
         const biome = BIOME_MAP[it.id] || '';
         return { ...it, isLocked, biome };
       })
@@ -402,7 +416,7 @@ function renderShell(){
         const isLocked = !!it.isLocked;
         const biomeClass = it.biome ? `realm-item biome-${it.biome}` : '';
         return `
-        <div class="nav-item ${biomeClass} ${it.id === S.view ? 'active' : ''} ${isLocked ? 'locked' : ''}" 
+        <div class="nav-item ${biomeClass} ${it.id === S.view ? 'active' : ''} ${isLocked ? 'locked is-locked-nav' : ''}" 
              data-view="${it.id}" 
              data-locked="${isLocked ? 'true' : 'false'}"
              data-minlevel="${it.minLevel || ''}"
@@ -410,7 +424,7 @@ function renderShell(){
           <span>${ICONS[it.icon] || '✨'}</span>
           <span style="flex:1">${it.label}</span>
           ${isLocked ? `
-            <span class="rune-lock-shimmer">🔒 ${it.minLevel}</span>
+            <span class="rune-lock-shimmer pill" style="font-size:9px;padding:2px 5px;background:rgba(239,68,68,0.15);color:#EF4444;border-color:rgba(239,68,68,0.3)">🔒 ${it.minLevel}</span>
           ` : (it.minLevel && it.minLevel !== 'Beginner' ? `<span class="pill ${levelColor(it.minLevel)}" style="font-size:9px;padding:2px 5px">${it.minLevel}</span>` : it.badge ? `<span class="pill sprout" style="font-size:9.5px;padding:2px 6px;margin-left:4px">${it.badge}</span>` : '')}
         </div>
       `;}).join('')}
@@ -555,15 +569,13 @@ async function setView(view){
 
   // Level gating check for student role
   if (S.user && S.user.role === 'student') {
-    const userLevel = getStudentLevel(S.user);
-    const userRank = LEVEL_RANKS[userLevel] || 1;
+    const unlocked = S.user.unlockedLevels && S.user.unlockedLevels.length ? S.user.unlockedLevels : ['Beginner'];
     const allStudentNav = NAV.student.flatMap(g => g.items);
     const item = allStudentNav.find(i => i.id === view);
-    if (item && item.minLevel) {
-      const requiredRank = LEVEL_RANKS[item.minLevel] || 1;
-      if (userRank < requiredRank) {
-        view = 'dashboard';
-      }
+    if (item && item.minLevel && item.minLevel !== 'Beginner' && !unlocked.includes(item.minLevel)) {
+      const prevTier = item.minLevel === 'Advanced' ? 'Intermediate' : 'Beginner';
+      toast(`🔒 ${item.label} is locked in the ${item.minLevel} tier! Complete 4 ${prevTier} activities to unlock.`, 'coral');
+      view = 'dashboard';
     }
   }
 

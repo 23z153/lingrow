@@ -16,6 +16,7 @@ const WeakWord = require('./models/WeakWord');
 const { seedIdiomsData } = require('./seedIdioms');
 const { ingestDocument } = require('./services/ragService');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
+const { seedThreeLevelContent } = require('./seedThreeLevelContent');
 
 async function upsertUser({ name, email, password, role, department, batch, section = 'A', assignedClasses = [], level, xp = 0 }) {
   let user = await User.findOne({ email });
@@ -168,8 +169,20 @@ async function run() {
 
   if ((await StoryPrompt.countDocuments()) === 0) {
     await StoryPrompt.insertMany([
-      { prompt: "The lift stopped between the third and fourth floor. Meera pressed every button twice, but nothing happened. Then she noticed a small note taped inside, one she was certain hadn't been there a moment ago...", level: 'Advanced' },
-      { prompt: "The professor placed an old, unlabeled jar on the desk and said nothing. For a full minute, the class simply stared at it, waiting for an explanation that never came...", level: 'Advanced' },
+      {
+        title: 'The Stalled Elevator',
+        theme: 'Mystery',
+        openingNarration: 'The lift stopped between the third and fourth floor. Meera pressed every button twice, but nothing happened.',
+        prompt: "The lift stopped between the third and fourth floor. Meera pressed every button twice, but nothing happened. Then she noticed a small note taped inside, one she was certain hadn't been there a moment ago...",
+        level: 'Advanced',
+      },
+      {
+        title: 'The Mystery Jar',
+        theme: 'Campus',
+        openingNarration: 'The professor placed an old, unlabeled jar on the desk and said nothing. For a full minute, the class simply stared at it.',
+        prompt: "The professor placed an old, unlabeled jar on the desk and said nothing. For a full minute, the class simply stared at it, waiting for an explanation that never came...",
+        level: 'Advanced',
+      },
     ]);
   }
 
@@ -1068,6 +1081,7 @@ First, give a 1-sentence crisp definition. Second, state a concrete technical or
   }
 
   await seedIdiomsData();
+  await seedThreeLevelContent();
 
   console.log('[seed] Done. Demo logins:');
   console.log('  student@lingrow.demo  / password123 (Student 1 - Aarav Krishnan)');

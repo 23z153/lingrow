@@ -14,6 +14,7 @@ const {
   stripTranscriptTags,
 } = require('../services/llmService');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 // Rate limiter for debate attempts (max 25 attempts per 10 minutes, keyed by User ID with IP fallback)
 const debateAttemptLimiter = rateLimit({
@@ -491,6 +492,15 @@ router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => 
     const topic = await DebateTopic.findById(topicId);
     if (!topic) return res.status(404).json({ error: 'Topic not found' });
 
+    if (req.user && req.user.role === 'student' && !canUserAccessLevel(req.user, topic.level)) {
+      return res.status(403).json({
+        error: `This debate topic is in the ${topic.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: topic.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
     // 6. Assigned stance validation: prevent stance forgery/cheating
     const isAssigned = stanceAssigned === true || stanceAssigned === 'true';
     if (isAssigned) {
@@ -592,7 +602,20 @@ router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => 
     await awardXP(req.user, xpBreakdown.total);
     const newBadges = await evaluateDebateBadges(req.user, topic._id, normalizedStance, result.scores.overall);
 
-    res.status(201).json({ attempt, xpBreakdown, newBadges });
+    const prog = await recordActivityCompletion({
+      user: req.user,
+      activityId: topic._id.toString(),
+      activityType: 'debate',
+      level: topic.level || 'Advanced',
+      category: topic.department || 'Debate',
+      score: result.scores.overall,
+      xp: xpBreakdown.total,
+    }).catch((e) => {
+      console.warn('[progression] Debate record error:', e);
+      return null;
+    });
+
+    res.status(201).json({ attempt, xpBreakdown, newBadges, progression: prog });
   } catch (err) {
     if (err.code === 11000 || (err.name === 'MongoServerError' && err.code === 11000)) {
       const existing = await DebateAttempt.findOne({

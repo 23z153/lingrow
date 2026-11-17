@@ -5,6 +5,7 @@ const TestAttempt = require('../models/TestAttempt');
 const GrammarTopic = require('../models/GrammarTopic');
 const User = require('../models/User');
 const { awardXP } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 /* Fisher-Yates shuffle — used so two tests built from the same topic don't
    hand out an identical paper in the same order every time. */
@@ -265,6 +266,7 @@ router.get('/available', requireAuth, async (req, res) => {
       questionCount: t.questions.length,
       attempted: bestByTest[t._id.toString()] !== undefined,
       bestScore: bestByTest[t._id.toString()] ?? null,
+      isLocked: !canUserAccessLevel(req.user, t.level),
     }));
     res.json(result);
   } catch (err) {
@@ -313,6 +315,14 @@ router.get('/:id/take', requireAuth, async (req, res) => {
     if (!hasClassAccess(test, req.user)) {
       return res.status(403).json({ error: 'Access restricted: you do not belong to the classes assigned to this test.' });
     }
+    if (req.user && req.user.role === 'student' && !canUserAccessLevel(req.user, test.level)) {
+      return res.status(403).json({
+        error: `This assessment is in the ${test.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: test.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
     res.json(test);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -332,6 +342,14 @@ router.post('/:id/attempts', requireAuth, async (req, res) => {
     if (test.status !== 'published') return res.status(403).json({ error: 'This test is not currently open' });
     if (!hasClassAccess(test, req.user)) {
       return res.status(403).json({ error: 'Access restricted: you do not belong to the classes assigned to this test.' });
+    }
+    if (req.user && req.user.role === 'student' && !canUserAccessLevel(req.user, test.level)) {
+      return res.status(403).json({
+        error: `This assessment is in the ${test.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: test.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
     }
 
     let correctCount = 0;
@@ -362,6 +380,22 @@ router.post('/:id/attempts', requireAuth, async (req, res) => {
       xpEarned,
     });
 
+    let progression = null;
+    if (score >= 50) {
+      progression = await recordActivityCompletion({
+        user: req.user,
+        activityId: test._id.toString(),
+        activityType: 'test',
+        level: test.level || 'Beginner',
+        category: test.category || 'assessment',
+        score,
+        xp: xpEarned,
+      }).catch((e) => {
+        console.warn('[progression] Test record error:', e);
+        return null;
+      });
+    }
+
     res.status(201).json({
       attempt,
       evaluatedAnswers: evaluated,
@@ -369,6 +403,7 @@ router.post('/:id/attempts', requireAuth, async (req, res) => {
       correctCount,
       totalQuestions,
       xpEarned,
+      progression,
       message: score >= 80 ? 'Excellent result!' : score >= 50 ? 'Good effort — review the ones you missed.' : 'Keep practicing — review the explanations below.',
     });
   } catch (err) {

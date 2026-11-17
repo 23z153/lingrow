@@ -288,6 +288,9 @@ const Api = {
   myDragonProgress() { return this.get('/progress/dragon'); },
   claimDailyMissions() { return this.post('/progress/missions/claim'); },
   leaderboard() { return this.get('/progress/leaderboard'); },
+  getChallenges() { return this.get('/challenges'); },
+  getProgression() { return this.get('/progress/progression'); },
+  completeChallenge(id, payload = {}) { return this.post(`/challenges/${id}/complete`, payload); },
 
   // Teacher-Led Group Discussion (GD) Rooms
   createGdRoom(payload) { return this.post('/gd/rooms', payload); },

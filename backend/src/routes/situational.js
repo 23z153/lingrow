@@ -3,6 +3,7 @@ const { requireAuth } = require('../middleware/auth');
 const SituationalPhrase = require('../models/SituationalPhrase');
 const SituationalAttempt = require('../models/SituationalAttempt');
 const { awardXP, maybeAwardBadge } = require('../services/progressService');
+const { canUserAccessLevel, recordActivityCompletion } = require('../services/progressionEngine');
 
 // GET /api/situational/scenarios - List scenarios with user progress
 router.get('/scenarios', requireAuth, async (req, res) => {
@@ -56,6 +57,25 @@ router.get('/scenarios/:id', requireAuth, async (req, res) => {
   try {
     const scenario = await SituationalPhrase.findById(req.params.id);
     if (!scenario) return res.status(404).json({ error: 'Situational scenario not found' });
+
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, scenario.level)) {
+      return res.status(403).json({
+        error: `This scenario is in the ${scenario.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: scenario.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, scenario.level)) {
+      return res.status(403).json({
+        error: `This scenario is in the ${scenario.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: scenario.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
+
     res.json(scenario);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -72,6 +92,15 @@ router.post('/scenarios/:id/submit', requireAuth, async (req, res) => {
 
     const scenario = await SituationalPhrase.findById(req.params.id);
     if (!scenario) return res.status(404).json({ error: 'Situational scenario not found' });
+
+    if (req.user.role === 'student' && !canUserAccessLevel(req.user, scenario.level)) {
+      return res.status(403).json({
+        error: `This scenario is in the ${scenario.level} tier, which is currently locked. Complete previous level activities to unlock.`,
+        locked: true,
+        requiredLevel: scenario.level,
+        unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
+      });
+    }
 
     let correctCount = 0;
     const evaluatedAnswers = scenario.interactivePrompts.map((q, idx) => {
@@ -108,6 +137,22 @@ router.post('/scenarios/:id/submit', requireAuth, async (req, res) => {
     });
     await attempt.save();
 
+    let progression = null;
+    if (score >= 50) {
+      progression = await recordActivityCompletion({
+        user: req.user,
+        activityId: scenario._id.toString(),
+        activityType: 'situational',
+        level: scenario.level || 'Beginner',
+        category: scenario.category || 'conversation',
+        score,
+        xp: xpEarned,
+      }).catch((e) => {
+        console.warn('[progression] Situational record error:', e);
+        return null;
+      });
+    }
+
     res.json({
       attempt,
       evaluatedAnswers,
@@ -115,6 +160,7 @@ router.post('/scenarios/:id/submit', requireAuth, async (req, res) => {
       correctCount,
       totalQuestions,
       xpEarned,
+      progression,
       message:
         score >= 80
           ? 'Fantastic conversation skills! You spoke naturally and politely.'

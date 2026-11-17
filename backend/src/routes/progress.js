@@ -10,20 +10,33 @@ const WorldStageSession = require('../models/WorldStageSession');
 const ListeningAttempt = require('../models/ListeningAttempt');
 const VocabProgress = require('../models/VocabProgress');
 const { BADGE_DEFS, getDragonEvolution, awardXP, maybeAwardBadge } = require('../services/progressService');
+const { getApplicationProgressionSummary } = require('../services/progressionEngine');
 
 router.get('/me', requireAuth, async (req, res) => {
   const earned = await UserBadge.find({ user: req.user._id }).populate('badge');
   const earnedKeys = new Set(earned.map((e) => e.badge?.key).filter(Boolean));
   const allBadges = Object.entries(BADGE_DEFS).map(([key, def]) => ({ key, ...def, unlocked: earnedKeys.has(key) }));
   const dragon = getDragonEvolution(req.user.xp || 0);
+  const progression = await getApplicationProgressionSummary(req.user._id);
 
   res.json({
     xp: req.user.xp,
     level: req.user.level,
+    unlockedLevels: req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : ['Beginner'],
     streak: req.user.streak,
     dragon,
     badges: allBadges,
+    progression,
   });
+});
+
+router.get('/progression', requireAuth, async (req, res) => {
+  try {
+    const summary = await getApplicationProgressionSummary(req.user._id);
+    res.json(summary);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 router.get('/dragon', requireAuth, async (req, res) => {
@@ -113,6 +126,7 @@ router.get('/dragon', requireAuth, async (req, res) => {
       streak: user.streak || 0,
       xp: user.xp || 0,
       level: user.level || 'Beginner',
+      unlockedLevels: user.getUnlockedLevels ? user.getUnlockedLevels() : ['Beginner'],
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
