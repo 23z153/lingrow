@@ -532,7 +532,6 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
 
     const weakBtn = $('#btn-vocab-weakwords');
     if (weakBtn) weakBtn.onclick = () => setView('weakwords');
-    `;
 
     const container = $('#vocab-step-container');
     if (currentStep === 1) renderStep1Flashcards(container);
