@@ -1,5 +1,10 @@
 :root {
   color-scheme: light;
+  /* ===== FANTASY RPG TYPOGRAPHY TOKENS ===== */
+  --font-display: 'Cinzel', 'Space Grotesk', serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
   /* ===== STEP 2: DESIGN TOKENS (High-Energy & Playful Palette - Light Mode Default) ===== */
   --color-primary: #7C3AED;          /* Primary buttons, active nav, links, level */
   --color-primary-hover: #6D28D9;    /* Hover and pressed */
@@ -166,6 +171,11 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   caret-color: transparent !important;
+}
+
+h1, h2, h3, h4, .brand-name, .topbar-title, .section-title {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
 }
 
 input, textarea, [contenteditable="true"]{
@@ -472,6 +482,140 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
 .streak-chip svg, .streak-chip i{color:var(--color-streak);}
 .xp-chip{display:flex; align-items:center; gap:5px; padding:6px 12px; border-radius:99px; background:var(--color-gem-soft); color:var(--color-gem-text); font-weight:800; font-size:13px; white-space:nowrap;}
 .xp-chip svg, .xp-chip i{color:var(--color-gem);}
+
+/* Topbar Dragon Profile & Streak Flame */
+.topbar-dragon-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 4px 12px 4px 6px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.topbar-dragon-profile:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-flame);
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+}
+.topbar-dragon-avatar {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1.5px solid var(--color-flame);
+  flex-shrink: 0;
+}
+.topbar-dragon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 50%;
+  display: block;
+}
+.topbar-dragon-lvl {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background: var(--color-flame);
+  color: #0A0E1A;
+  font-size: 9px;
+  font-weight: 900;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-dragon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 90px;
+}
+.topbar-dragon-name {
+  font-family: var(--font-display);
+  font-size: 11.5px;
+  font-weight: 800;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.topbar-dragon-title {
+  font-family: var(--font-body);
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--color-flame);
+}
+.topbar-dragon-xp-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.topbar-dragon-xp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #F59E0B, #EF4444);
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+.streak-flame-icon {
+  animation: flameFlicker 2.4s ease-in-out infinite alternate;
+}
+@keyframes flameFlicker {
+  0% { transform: scale(1) rotate(-2deg); filter: drop-shadow(0 0 2px rgba(249, 115, 22, 0.6)); }
+  100% { transform: scale(1.18) rotate(3deg); filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.8)); }
+}
+
+/* Realm Map Navigation Styles */
+.nav-item.realm-item {
+  position: relative;
+  border-radius: 12px;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  border-left: 3px solid transparent;
+}
+.nav-item.realm-item:hover {
+  transform: translateX(4px);
+}
+.nav-item.realm-item.biome-castle { border-left-color: #8B5CF6; }
+.nav-item.realm-item.biome-forest { border-left-color: #10B981; }
+.nav-item.realm-item.biome-volcano { border-left-color: #EF4444; }
+.nav-item.realm-item.biome-ocean { border-left-color: #06B6D4; }
+.nav-item.realm-item.biome-grimoire { border-left-color: #F59E0B; }
+.nav-item.realm-item.biome-workshop { border-left-color: #EC4899; }
+.nav-item.realm-item.biome-village { border-left-color: #6366F1; }
+.nav-item.realm-item.biome-flame-lab { border-left-color: #F97316; }
+
+.nav-item.realm-item.locked {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.nav-item.realm-item.locked:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.04);
+}
+.rune-lock-shimmer {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 800;
+  color: #FBBF24;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 2px 6px;
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+  animation: lockRuneGaze 3s ease-in-out infinite alternate;
+}
+@keyframes lockRuneGaze {
+  0% { opacity: 0.7; }
+  100% { opacity: 1; box-shadow: 0 0 8px rgba(245, 158, 11, 0.4); }
+}
 
 /* Main View Container */
 .view{

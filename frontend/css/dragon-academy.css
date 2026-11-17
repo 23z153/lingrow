@@ -5,37 +5,419 @@
    ========================================================================== */
 
 :root {
-  /* Dragon Academy Core Palette */
-  --dragon-gold: #F59E0B;
-  --dragon-gold-bright: #FBBF24;
-  --dragon-gold-soft: rgba(245, 158, 11, 0.15);
-  --dragon-gold-glow: rgba(245, 158, 11, 0.35);
+  /* ===== 1. CORE DRAGON PALETTE TOKENS ===== */
+  --color-ember: #F97316;
+  --color-ember-bright: #FB923C;
+  --color-ember-glow: rgba(249, 115, 22, 0.45);
+  --color-ember-soft: rgba(249, 115, 22, 0.16);
+
+  --color-flame: #F59E0B;
+  --color-flame-bright: #FBBF24;
+  --color-flame-glow: rgba(245, 158, 11, 0.45);
+  --color-flame-soft: rgba(245, 158, 11, 0.15);
+
+  --color-nebula: #7C3AED;
+  --color-nebula-deep: #4338CA;
+  --color-nebula-bright: #A855F7;
+  --color-nebula-glow: rgba(124, 58, 237, 0.35);
+  --color-nebula-soft: rgba(124, 58, 237, 0.15);
+
+  --color-astral: #38BDF8;
+  --color-astral-deep: #0284C7;
+  --color-astral-glow: rgba(56, 189, 248, 0.40);
+  --color-astral-soft: rgba(56, 189, 248, 0.15);
+
+  --color-obsidian-950: #04060C;
+  --color-obsidian-900: #060913;
+  --color-obsidian-800: #0A0E1A;
+  --color-obsidian-700: #0F172A;
+  --color-obsidian-600: #1E1B4B;
+  --color-obsidian-500: #252846;
+
+  --color-parchment: #FEF3C7;
+  --color-parchment-bright: #FFFBEB;
+  --color-parchment-dim: #D1D5DB;
+  --color-parchment-bg: #161528;
+  --color-parchment-border: rgba(245, 158, 11, 0.32);
+
+  /* Legacy mappings */
+  --dragon-gold: var(--color-flame);
+  --dragon-gold-bright: var(--color-flame-bright);
+  --dragon-gold-soft: var(--color-flame-soft);
+  --dragon-gold-glow: var(--color-flame-glow);
 
   --dragon-fire: #EF4444;
   --dragon-fire-soft: rgba(239, 68, 68, 0.15);
   --dragon-fire-glow: rgba(239, 68, 68, 0.35);
 
-  --dragon-indigo: #4F46E5;
-  --dragon-purple: #7C3AED;
-  --dragon-purple-soft: rgba(124, 58, 237, 0.15);
-  --dragon-purple-glow: rgba(124, 58, 237, 0.30);
+  --dragon-indigo: var(--color-nebula-deep);
+  --dragon-purple: var(--color-nebula);
+  --dragon-purple-soft: var(--color-nebula-soft);
+  --dragon-purple-glow: var(--color-nebula-glow);
 
   --dragon-emerald: #10B981;
   --dragon-emerald-soft: rgba(16, 185, 129, 0.15);
 
-  --dragon-cyan: #06B6D4;
-  --dragon-cyan-soft: rgba(6, 182, 212, 0.15);
+  --dragon-cyan: var(--color-astral);
+  --dragon-cyan-soft: var(--color-astral-soft);
 
-  --dragon-realm-bg: linear-gradient(135deg, #0B0F1E 0%, #151932 50%, #1E1B4B 100%);
-  --dragon-card-bg: rgba(255, 255, 255, 0.95);
-  --dragon-card-border: rgba(124, 58, 237, 0.18);
-  --dragon-card-shadow: 0 10px 30px -5px rgba(79, 70, 229, 0.12), 0 4px 12px rgba(15, 23, 42, 0.05);
+  --dragon-realm-bg: linear-gradient(135deg, #060913 0%, #0F172A 45%, #1E1B4B 100%);
+  --dragon-card-bg: rgba(15, 23, 42, 0.88);
+  --dragon-card-border: rgba(245, 158, 11, 0.22);
+  --dragon-card-shadow: 0 12px 36px -8px rgba(0, 0, 0, 0.6), 0 0 25px rgba(245, 158, 11, 0.15);
+
+  /* ===== 2. TYPOGRAPHY TOKENS ===== */
+  --font-display: 'Cinzel', 'Space Grotesk', serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.844rem;    /* 13.5px */
+  --text-base: 0.938rem;  /* 15px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.375rem;    /* 22px */
+  --text-2xl: 1.75rem;    /* 28px */
+  --text-3xl: 2.25rem;    /* 36px */
+  --text-4xl: 3rem;       /* 48px */
+
+  /* ===== 3. SHADOW & GLOW SCALES ===== */
+  --shadow-rune-sm: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(245, 158, 11, 0.22);
+  --shadow-rune-md: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 22px rgba(245, 158, 11, 0.32);
+  --shadow-rune-lg: 0 16px 48px rgba(0, 0, 0, 0.7), 0 0 38px rgba(245, 158, 11, 0.42);
+  --shadow-glass: 0 12px 36px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  --shadow-ember: 0 0 25px rgba(239, 68, 68, 0.45);
+  --shadow-astral: 0 0 25px rgba(56, 189, 248, 0.40);
+
+  /* ===== 4. SPACING SCALE ===== */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* ===== 5. RADIUS SCALE ===== */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* ===== 6. Z-INDEX SCALE ===== */
+  --z-deep: -1;
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fab: 990;
+  --z-mascot: 998;
+  --z-modal: 1000;
+  --z-toast: 1200;
+  --z-celebration: 10000;
 }
 
 [data-theme="dark"] {
-  --dragon-card-bg: rgba(19, 26, 46, 0.88);
-  --dragon-card-border: rgba(129, 140, 248, 0.22);
-  --dragon-card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 20px rgba(124, 58, 237, 0.15);
+  --dragon-card-bg: rgba(15, 23, 42, 0.92);
+  --dragon-card-border: rgba(245, 158, 11, 0.28);
+  --dragon-card-shadow: 0 14px 40px -5px rgba(0, 0, 0, 0.7), 0 0 28px rgba(245, 158, 11, 0.2);
+}
+
+/* ==========================================================================
+   AMBIENT CSS BACKGROUND: DRIFTING NEBULA & STARRY SKY
+   (60 FPS on integrated GPU: animates only transform and opacity)
+   ========================================================================== */
+body {
+  position: relative;
+  background-color: var(--color-obsidian-900);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -15%, rgba(124, 58, 237, 0.22), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 85% 60%, rgba(245, 158, 11, 0.10), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 15% 80%, rgba(6, 182, 212, 0.08), transparent 60%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 100px 150px, #fde047, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 220px 80px, #38bdf8, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 340px 220px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 450px 120px, #c084fc, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 600px 350px, #f59e0b, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 780px 200px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 920px 80px, #38bdf8, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 1100px 260px, #fde047, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 1200px 450px;
+  opacity: 0.45;
+  z-index: 0;
+  animation: starTwinkle 7s ease-in-out infinite alternate;
+}
+
+@keyframes starTwinkle {
+  0% { opacity: 0.30; transform: translateY(0); }
+  50% { opacity: 0.55; }
+  100% { opacity: 0.35; transform: translateY(-4px); }
+}
+
+/* ==========================================================================
+   REUSABLE FANTASY RPG COMPONENTS
+   ========================================================================== */
+
+/* 1. Glassmorphism Fantasy Card */
+.glass-card,
+.card-fantasy {
+  position: relative;
+  background: var(--dragon-card-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--dragon-card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--dragon-card-shadow);
+  color: #FFFFFF;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.glass-card:hover,
+.card-fantasy:hover {
+  transform: translateY(-3px);
+  border-color: rgba(245, 158, 11, 0.45);
+  box-shadow: var(--shadow-rune-md);
+}
+
+/* 2. Parchment Scroll Panel */
+.parchment-panel,
+.scroll-grimoire {
+  position: relative;
+  background: linear-gradient(180deg, #1C192E 0%, #151324 100%);
+  border: 1px solid var(--color-parchment-border);
+  border-top: 3px double var(--color-flame);
+  border-bottom: 3px double var(--color-flame);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5), var(--shadow-rune-sm);
+  color: var(--color-parchment);
+}
+
+/* 3. Rune-Bordered Interactive Buttons */
+.btn-rune,
+.btn-rune-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #EF4444 100%);
+  color: #0A0E1A !important;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14.5px;
+  letter-spacing: 0.03em;
+  padding: 11px 24px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.16s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, filter 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-rune:hover,
+.btn-rune-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  filter: brightness(1.05);
+}
+
+.btn-rune:active,
+.btn-rune-primary:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+.btn-rune-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--color-parchment-bright) !important;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid rgba(56, 189, 248, 0.35);
+  box-shadow: var(--shadow-rune-sm);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.16s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-rune-secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-astral);
+  box-shadow: var(--shadow-astral);
+  background: rgba(30, 41, 59, 0.95);
+}
+
+.btn-rune-secondary:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+.btn-rune-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #EF4444 0%, #B91C1C 100%);
+  color: #FFFFFF !important;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14px;
+  padding: 11px 22px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.4);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.16s ease, box-shadow 0.2s ease;
+}
+
+.btn-rune-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-ember);
+}
+
+.btn-rune-danger:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+/* WCAG Focus Rings */
+.btn-rune:focus-visible,
+.btn-rune-primary:focus-visible,
+.btn-rune-secondary:focus-visible,
+.btn-rune-danger:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--color-astral) !important;
+  outline-offset: 3px !important;
+}
+
+/* 4. Animated Fantasy XP Bar */
+.fantasy-xp-bar {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  background: rgba(10, 14, 26, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.fantasy-xp-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, #F59E0B 0%, #EF4444 60%, #A855F7 100%);
+  border-radius: var(--radius-full);
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  box-shadow: 0 0 14px rgba(245, 158, 11, 0.6);
+}
+
+.fantasy-xp-bar-inner::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background: #FFFFFF;
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 10px #FFFFFF, 0 0 18px var(--color-flame);
+}
+
+/* 5. Shimmering Rune Skeleton Loader */
+.skeleton-rune {
+  position: relative;
+  background: rgba(30, 27, 75, 0.45);
+  border: 1px dashed rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.skeleton-rune::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(245, 158, 11, 0.15) 50%, transparent 100%);
+  transform: translateX(-100%);
+  animation: runeShimmer 1.8s infinite;
+}
+
+@keyframes runeShimmer {
+  100% { transform: translateX(100%); }
+}
+
+/* 6. Fantasy Chip & Biome Badge */
+.rune-badge,
+.biome-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: var(--color-parchment-bright);
+}
+
+.biome-chip.castle { border-color: #8B5CF6; color: #C084FC; background: rgba(139, 92, 246, 0.15); }
+.biome-chip.forest { border-color: #10B981; color: #34D399; background: rgba(16, 185, 129, 0.15); }
+.biome-chip.volcano { border-color: #EF4444; color: #F87171; background: rgba(239, 68, 68, 0.15); }
+.biome-chip.ocean { border-color: #06B6D4; color: #67E8F9; background: rgba(6, 182, 212, 0.15); }
+.biome-chip.grimoire { border-color: #F59E0B; color: #FBBF24; background: rgba(245, 158, 11, 0.15); }
+.biome-chip.workshop { border-color: #EC4899; color: #F472B6; background: rgba(236, 72, 153, 0.15); }
+.biome-chip.village { border-color: #6366F1; color: #818CF8; background: rgba(99, 102, 241, 0.15); }
+
+/* 7. Page Transition Animation */
+.view-enter-wipe {
+  animation: magicDustWipe 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes magicDustWipe {
+  0% { opacity: 0; transform: translateY(12px) scale(0.995); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+/* 8. PREFERS-REDUCED-MOTION SUPPORT */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  body::before,
+  .dragon-hero-frame,
+  .celebration-dragon-img,
+  .dragon-runic-halo,
+  .dragon-hero-flame-glow,
+  .dragon-failure-modal,
+  .skeleton-rune::after {
+    animation: none !important;
+    transform: none !important;
+  }
 }
 
 /* ==========================================================================

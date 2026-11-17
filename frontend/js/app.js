@@ -317,16 +317,32 @@ function renderShell(){
   const userRank = LEVEL_RANKS[userLevel] || 1;
   const sidebar = $('#sidebar');
 
-  // Filter practice and other exercises appropriate for student's level
+  const BIOME_MAP = {
+    'grammar': 'castle',
+    'vocabulary': 'forest',
+    'read-aloud': 'volcano',
+    'listening': 'ocean',
+    'story': 'grimoire',
+    'simulator': 'workshop',
+    'situational': 'village',
+    'weakwords': 'flame-lab',
+    'world-stage': 'amphitheater',
+    'debate': 'arena',
+  };
+
+  // Build realm navigation with biome indicators and locked rune states
   const roleNav = NAV[role].map(g => {
     if (role !== 'student') return g;
-    const visibleItems = g.items.filter(it => {
-      if (!it.minLevel) return true;
-      const requiredRank = LEVEL_RANKS[it.minLevel] || 1;
-      return userRank >= requiredRank;
-    });
-    return { ...g, items: visibleItems };
-  }).filter(g => g.items.length > 0);
+    return {
+      ...g,
+      items: g.items.map(it => {
+        const requiredRank = it.minLevel ? (LEVEL_RANKS[it.minLevel] || 1) : 1;
+        const isLocked = userRank < requiredRank;
+        const biome = BIOME_MAP[it.id] || '';
+        return { ...it, isLocked, biome };
+      })
+    };
+  });
 
   sidebar.innerHTML = `
     <div class="sidebar-header row" style="justify-content:space-between;align-items:center;width:100%;margin-bottom:8px">
@@ -343,13 +359,22 @@ function renderShell(){
     </div>
     ${roleNav.map(g=>`
       <div class="nav-group-label">${g.group}</div>
-      ${g.items.map(it=> `
-        <div class="nav-item ${it.id === S.view ? 'active' : ''}" data-view="${it.id}">
-          <span>${ICONS[it.icon]}</span>
+      ${g.items.map(it=> {
+        const isLocked = !!it.isLocked;
+        const biomeClass = it.biome ? `realm-item biome-${it.biome}` : '';
+        return `
+        <div class="nav-item ${biomeClass} ${it.id === S.view ? 'active' : ''} ${isLocked ? 'locked' : ''}" 
+             data-view="${it.id}" 
+             data-locked="${isLocked ? 'true' : 'false'}"
+             data-minlevel="${it.minLevel || ''}"
+             title="${isLocked ? `Locked Realm: Requires ${it.minLevel} level to unlock` : it.label}">
+          <span>${ICONS[it.icon] || '✨'}</span>
           <span style="flex:1">${it.label}</span>
-          ${it.minLevel && it.minLevel !== 'Beginner' ? `<span class="pill ${levelColor(it.minLevel)}" style="font-size:9px;padding:2px 5px">${it.minLevel}</span>` : it.badge ? `<span class="pill sprout" style="font-size:9.5px;padding:2px 6px;margin-left:4px">${it.badge}</span>` : ''}
+          ${isLocked ? `
+            <span class="rune-lock-shimmer">🔒 ${it.minLevel}</span>
+          ` : (it.minLevel && it.minLevel !== 'Beginner' ? `<span class="pill ${levelColor(it.minLevel)}" style="font-size:9px;padding:2px 5px">${it.minLevel}</span>` : it.badge ? `<span class="pill sprout" style="font-size:9.5px;padding:2px 6px;margin-left:4px">${it.badge}</span>` : '')}
         </div>
-      `).join('')}
+      `;}).join('')}
     `).join('')}
     <div class="sidebar-footer">
       <div class="user-chip" id="logout-trigger" style="cursor:pointer" title="My Profile / Account">
@@ -360,6 +385,16 @@ function renderShell(){
   `;
   $all2('.nav-item', sidebar).forEach(item=>{
     item.onclick = ()=> {
+      if (item.dataset.locked === 'true') {
+        const reqLevel = item.dataset.minlevel || 'higher';
+        const msg = `This realm is protected by ancient dragon runes! Attain ${reqLevel} rank to unseal the gates.`;
+        if (window.DragonMascot && window.DragonMascot.say) {
+          window.DragonMascot.say(msg, 'thinking');
+        } else {
+          toast(msg, 'amber');
+        }
+        return;
+      }
       setView(item.dataset.view);
       closeMobileSidebar();
     };
@@ -369,7 +404,6 @@ function renderShell(){
   const overlay = $('#sidebar-overlay');
   if (overlay) overlay.onclick = closeMobileSidebar;
 
-
   $('#logout-trigger').onclick = logout;
 }
 
@@ -378,13 +412,27 @@ function renderTopbar(){
   const topbar = $('#topbar');
   let right = '';
   if (S.user && S.user.role === 'student'){
-    const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(S.user.xp || 0) : { stage: 2, name: 'Dragon Companion' };
+    const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(S.user.xp || 0) : { stage: 2, name: 'Dragon Companion', title: 'Curious Fledgling', percentToNext: 40, xpToNext: 150 };
+    const streak = S.user.streak || 0;
+    const streakScale = Math.min(1.5, 1 + streak * 0.06);
     right = `
-      <div class="streak-chip" style="background:var(--dragon-purple-soft);color:var(--dragon-purple);border:1px solid rgba(124,58,237,0.3)" title="Dragon Evolution: ${esc(evo.name)}">
-        <span>🐉</span><span>${esc(evo.name)}</span>
+      <div class="topbar-dragon-profile" title="Dragon Companion: ${esc(evo.name)} (${esc(evo.title)}) - Click for Progression" onclick="setView('progress')" style="cursor:pointer">
+        <div class="topbar-dragon-avatar">
+          <img src="${window.DragonMascot ? window.DragonMascot.getImage(evo.stage) : '/img/dragon/dragon-stage-2.jpg'}" alt="${esc(evo.name)}" class="topbar-dragon-img" />
+          <span class="topbar-dragon-lvl">${evo.stage}</span>
+        </div>
+        <div class="topbar-dragon-info">
+          <div class="topbar-dragon-name">${esc(evo.name)} <span class="topbar-dragon-title">&bull; ${esc(evo.title)}</span></div>
+          <div class="topbar-dragon-xp-track" title="${evo.percentToNext}% toward next form (${evo.xpToNext} XP needed)">
+            <div class="topbar-dragon-xp-fill" style="width:${evo.percentToNext}%"></div>
+          </div>
+        </div>
       </div>
-      <div class="streak-chip" title="${S.user.streak||0} day streak">${ICONS.flame}<span>${S.user.streak||0}d</span></div>
-      <div class="xp-chip" title="${S.user.xp||0} Total XP">${ICONS.bolt}<span>${S.user.xp||0} XP</span></div>
+      <div class="streak-chip" title="${streak} day streak! Flame power active">
+        <span class="streak-flame-icon" style="transform:scale(${streakScale});display:inline-block;transform-origin:bottom center">🔥</span>
+        <span>${streak}d</span>
+      </div>
+      <div class="xp-chip" title="${S.user.xp||0} Total XP">⚡<span>${S.user.xp||0} XP</span></div>
     `;
   }
   const banner = (S.user && !S.user.emailVerified) ? `
@@ -473,6 +521,7 @@ async function setView(view){
   updateGlobalChatbotVisibility(view);
   const mount = $('#view-inner');
 
+  mount.className = 'view-inner view-enter-wipe';
   mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
   try {
     if (typeof VIEW_RENDERERS[view] !== 'function') {
