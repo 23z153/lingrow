@@ -343,7 +343,7 @@ function openReadAloudPractice(passage){
 }
 
 function renderReadAloudResult(attempt, xpGain){
-  const wordsHTML = attempt.wordScores.map(w=>`<span class="word ${w.status}">${esc(w.word)}</span>`).join(' ');
+  const wordsHTML = attempt.wordScores.map((w, idx) => `<span class="word ${w.status}" style="animation-delay:${idx * 35}ms">${esc(w.word)}</span>`).join(' ');
   const pScore = attempt.pronunciationScore !== undefined ? attempt.pronunciationScore : attempt.accuracy;
   const sScore = attempt.sentenceFormationScore !== undefined ? attempt.sentenceFormationScore : 85;
   const aScore = attempt.accentScore !== undefined ? attempt.accentScore : 88;
@@ -623,17 +623,23 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
       `;
 
       const cardEl = $('#deck-card-element');
-      if (cardEl) {
-        cardEl.onclick = () => {
-          isFlipped = !isFlipped;
+      function toggleFlip() {
+        isFlipped = !isFlipped;
+        const inner = cardEl ? cardEl.querySelector('.flashcard-3d-inner') : null;
+        if (inner) {
+          inner.classList.toggle('flipped', isFlipped);
+        } else if (cardEl) {
           cardEl.innerHTML = renderFlashcardContent(currentWord, isFlipped);
-        };
+        }
+        const flipBtn = $('#deck-flip-btn');
+        if (flipBtn) flipBtn.innerHTML = `🔄 ${isFlipped ? 'Show Word' : 'Flip for Meaning'}`;
       }
 
-      $('#deck-flip-btn').onclick = () => {
-        isFlipped = !isFlipped;
-        cardEl.innerHTML = renderFlashcardContent(currentWord, isFlipped);
-      };
+      if (cardEl) {
+        cardEl.onclick = toggleFlip;
+      }
+
+      $('#deck-flip-btn').onclick = toggleFlip;
 
       $('#deck-listen-btn').onclick = () => {
         SpeechOutput.speak(`${currentWord.word}. ${currentWord.meaning}`);
@@ -668,27 +674,28 @@ VIEW_RENDERERS['vocabulary'] = async (mount) => {
     }
 
     function renderFlashcardContent(w, flipped) {
-      if (!flipped) {
-        return `
-          <div class="col gap-xs" style="text-align:center;padding:28px 20px">
-            <span class="pill voice" style="align-self:center;font-size:11.5px">${esc(w.partOfSpeech || 'word')}</span>
-            <div style="font-size:36px;font-weight:800;letter-spacing:-0.5px;color:var(--color-text);margin:14px 0">${esc(w.word)}</div>
-            <div style="font-size:13.5px;color:var(--cream-dim)">Tap card or flip button to reveal definition &amp; example</div>
-          </div>
-        `;
-      }
       return `
-        <div class="col gap-sm" style="padding:22px">
-          <div class="row gap-xs" style="align-items:center">
-            <span class="pill voice" style="font-size:11px">${esc(w.partOfSpeech || 'word')}</span>
-            <span class="pill sprout" style="font-size:11px">${esc(w.level || 'Intermediate')}</span>
-            <div class="spacer"></div>
-            ${w.mastered ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} Mastered</span>` : ''}
-          </div>
-          <div style="font-size:24px;font-weight:800;color:var(--purple);margin:4px 0">${esc(w.word)}</div>
-          <div style="font-size:15px;line-height:1.55;color:var(--color-text)"><b>Definition:</b> ${esc(w.meaning)}</div>
-          <div style="font-size:14px;line-height:1.5;color:var(--cream-dim);background:var(--panel-2);padding:10px 14px;border-radius:8px;border-left:3px solid var(--purple)">
-            <i>"${esc(w.example)}"</i>
+        <div class="flashcard-3d-scene ${w.mastered ? 'mastered-leaf-glow' : ''}">
+          <div class="flashcard-3d-inner ${flipped ? 'flipped' : ''}">
+            <div class="flashcard-face flashcard-front col gap-xs" style="text-align:center;padding:28px 20px">
+              <span class="pill voice" style="align-self:center;font-size:11.5px">${esc(w.partOfSpeech || 'word')}</span>
+              <div style="font-size:36px;font-weight:800;letter-spacing:-0.5px;color:var(--color-text);margin:14px 0">${esc(w.word)}</div>
+              <div style="font-size:13.5px;color:var(--cream-dim)">Tap card or flip button to reveal definition &amp; example</div>
+              ${w.mastered ? '<div class="pill emerald" style="align-self:center;margin-top:10px;font-size:11px">🍃 Mastered Word</div>' : ''}
+            </div>
+            <div class="flashcard-face flashcard-back col gap-sm" style="padding:22px">
+              <div class="row gap-xs" style="align-items:center">
+                <span class="pill voice" style="font-size:11px">${esc(w.partOfSpeech || 'word')}</span>
+                <span class="pill sprout" style="font-size:11px">${esc(w.level || 'Intermediate')}</span>
+                <div class="spacer"></div>
+                ${w.mastered ? `<span class="pill emerald" style="font-size:11px">${ICONS.check} Mastered</span>` : ''}
+              </div>
+              <div style="font-size:24px;font-weight:800;color:var(--purple);margin:4px 0">${esc(w.word)}</div>
+              <div style="font-size:15px;line-height:1.55;color:var(--color-text)"><b>Definition:</b> ${esc(w.meaning)}</div>
+              <div style="font-size:14px;line-height:1.5;color:var(--cream-dim);background:var(--panel-2);padding:10px 14px;border-radius:8px;border-left:3px solid var(--purple)">
+                <i>"${esc(w.example)}"</i>
+              </div>
+            </div>
           </div>
         </div>
       `;
@@ -1904,13 +1911,23 @@ VIEW_RENDERERS['listening'] = async (mount) => {
   clips.forEach(c=>{
     const card = el(`
       <div class="card">
-        <div class="row" style="margin-bottom:10px;align-items:center">
-          <div class="row gap-sm">
+        <div class="row" style="margin-bottom:10px;align-items:center;flex-wrap:wrap;gap:8px">
+          <div class="row gap-sm" style="align-items:center">
             <span class="pill ${levelColor(c.level)}">${c.level}</span>
-            
           </div>
           <div class="spacer"></div>
+          <!-- Tide Speed Levels (0.75x, 1.0x, 1.25x) -->
+          <div class="tide-speed-selector row gap-xs" style="align-items:center;background:rgba(2,132,199,0.14);border:1px solid rgba(56,189,248,0.35);border-radius:20px;padding:3px 10px">
+            <span style="font-size:11px;color:#38BDF8;font-weight:700">🌊 Tide:</span>
+            <button class="tide-btn" data-speed="0.75" style="background:none;border:none;color:#94A3B8;cursor:pointer;font-size:11px;font-weight:700;padding:2px 5px" title="Low Tide: 0.75x Speed">0.75x</button>
+            <button class="tide-btn active" data-speed="1.0" style="background:none;border:none;color:#38BDF8;cursor:pointer;font-size:11px;font-weight:700;padding:2px 5px" title="Mid Tide: Normal Speed">1.0x</button>
+            <button class="tide-btn" data-speed="1.25" style="background:none;border:none;color:#94A3B8;cursor:pointer;font-size:11px;font-weight:700;padding:2px 5px" title="High Tide: 1.25x Speed">1.25x</button>
+          </div>
           <button class="btn btn-ghost btn-sm" data-play>${ICONS.play} Play audio</button>
+          <!-- Ocean Waveform Visualizer -->
+          <div class="ocean-waveform" data-waveform style="display:none;align-items:center;gap:3px;height:20px;padding:0 6px">
+            <span class="ocean-bar"></span><span class="ocean-bar"></span><span class="ocean-bar"></span><span class="ocean-bar"></span><span class="ocean-bar"></span>
+          </div>
         </div>
         <h3 style="font-size:17px;margin-bottom:8px">${esc(c.title)}</h3>
         <p style="font-size:15px;color:var(--cream-dim);margin:0 0 14px">${esc(c.question)}</p>
@@ -1920,7 +1937,31 @@ VIEW_RENDERERS['listening'] = async (mount) => {
         </div>
         <div data-result style="margin-top:12px"></div>
       </div>`);
-    card.querySelector('[data-play]').onclick = ()=> SpeechOutput.speak(c.script);
+
+    let currentSpeed = 1.0;
+    const tideBtns = card.querySelectorAll('.tide-btn');
+    tideBtns.forEach(btn => {
+      btn.onclick = () => {
+        tideBtns.forEach(b => {
+          b.style.color = '#94A3B8';
+          b.classList.remove('active');
+        });
+        btn.style.color = '#38BDF8';
+        btn.classList.add('active');
+        currentSpeed = parseFloat(btn.dataset.speed) || 1.0;
+      };
+    });
+
+    const waveformEl = card.querySelector('[data-waveform]');
+    card.querySelector('[data-play]').onclick = () => {
+      if (waveformEl) waveformEl.style.display = 'inline-flex';
+      SpeechOutput.speak(c.script, {
+        rate: currentSpeed,
+        onEnd: () => {
+          if (waveformEl) waveformEl.style.display = 'none';
+        }
+      });
+    };
     const recBtn = card.querySelector('[data-rec]');
     let startTime;
     recBtn.onclick = ()=>{
@@ -4544,6 +4585,27 @@ VIEW_RENDERERS['progress'] = async (mount) => {
         </div>
       </div>
     </div>`;
+
+  // Wire up dragon evolution card clicks and "View Cinematic" triggers
+  mount.querySelectorAll('[data-cinematic-stage]').forEach(btn => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      const stage = Number(btn.dataset.cinematicStage) || 1;
+      if (window.DragonMascot && window.DragonMascot.playEvolutionCinematic) {
+        window.DragonMascot.playEvolutionCinematic(stage);
+      }
+    };
+  });
+
+  mount.querySelectorAll('.dragon-art-card:not(.locked)').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.onclick = () => {
+      const stage = Number(card.dataset.stage) || 1;
+      if (window.DragonMascot && window.DragonMascot.playEvolutionCinematic) {
+        window.DragonMascot.playEvolutionCinematic(stage);
+      }
+    };
+  });
 };
 
 /* ---------------------------- GRAMMAR PRACTICE (SEQUENTIAL UNLOCK) ---------------------------- */
@@ -4890,6 +4952,22 @@ function render10QuestionTest(testData, runnerArea, mount, topics) {
     try {
       const questionIds = questions.map(q => q._id);
       const res = await Api.submitGrammar(topicId, selectedAnswers, questionIds);
+
+      // Feedback animation: golden spark for correct answers, gentle shake for wrong
+      if (Array.isArray(res.evaluatedAnswers)) {
+        res.evaluatedAnswers.forEach((ans, qIdx) => {
+          const correctLbl = runnerArea.querySelector(`#opt-label-${qIdx}-${ans.correctAnswer}`);
+          if (correctLbl) {
+            correctLbl.classList.add('correct-spark');
+          }
+          if (!ans.isCorrect && ans.selectedAnswer !== undefined && ans.selectedAnswer !== -1) {
+            const wrongLbl = runnerArea.querySelector(`#opt-label-${qIdx}-${ans.selectedAnswer}`);
+            if (wrongLbl) {
+              wrongLbl.classList.add('wrong-shake');
+            }
+          }
+        });
+      }
 
       if (res.xpEarned > 0) {
         toast(`+${res.xpEarned} XP Earned! Excellent job!`, 'sprout');

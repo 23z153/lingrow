@@ -261,3 +261,50 @@
   100% { transform: translateY(500px) rotate(720deg); opacity: 0; }
 }
 
+/* 7. Enchanted Mastery Crystals & Review Intervals */
+.mastery-crystal {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+.mastery-crystal.stage-new {
+  color: #38BDF8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+}
+.mastery-crystal.stage-learning {
+  color: #F59E0B;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+.mastery-crystal.stage-almost {
+  color: #A855F7;
+  background: rgba(168, 85, 247, 0.14);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+}
+.mastery-crystal.stage-mastered {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.18);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.35);
+  animation: crystalMasteryPulse 2.2s ease-in-out infinite alternate;
+}
+@keyframes crystalMasteryPulse {
+  0% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1.03); filter: brightness(1.2); }
+}
+.crystal-tag {
+  font-size: 10px;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 1px 6px;
+  border-radius: 6px;
+  letter-spacing: 0.05em;
+}
+
+

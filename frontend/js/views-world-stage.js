@@ -667,6 +667,15 @@
       const m = Math.floor(WSState.remainingSeconds / 60);
       const s = WSState.remainingSeconds % 60;
       displayEl.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+      const timerBox = $('#ws-timer-box');
+      if (timerBox) {
+        if (WSState.remainingSeconds <= 30) {
+          timerBox.classList.add('urgent-fuse');
+        } else {
+          timerBox.classList.remove('urgent-fuse');
+        }
+      }
     };
 
     updateDisplay();
@@ -1083,7 +1092,7 @@
         <div class="ws-report-hero">
           <div class="ws-gauge-card">
             <div class="ws-gauge-circle" style="border-color:${gradeColor}">
-              <div class="ws-gauge-number" style="color:${gradeColor}">${overall}</div>
+              <div class="ws-gauge-number" id="ws-report-overall-score" style="color:${gradeColor}">0</div>
               <div style="font-size:11px;color:var(--cream-faint);margin-top:2px">/ 100 points</div>
             </div>
             <div class="ws-gauge-grade" style="color:${gradeColor}">${grade} Speaker</div>
@@ -1253,5 +1262,34 @@
       WSState.viewState = 'hub';
       renderCurrentScreen();
     };
+
+    // Dramatic score count-up
+    const scoreNumEl = $('#ws-report-overall-score');
+    if (scoreNumEl && overall > 0) {
+      let cur = 0;
+      const countInterval = setInterval(() => {
+        cur += Math.ceil((overall - cur) / 6) || 1;
+        if (cur >= overall) {
+          cur = overall;
+          clearInterval(countInterval);
+          if (window.DragonMascot) {
+            if (overall >= 70) {
+              DragonMascot.celebrate({
+                title: 'World Stage Triumph!',
+                xp: Math.round(overall * 0.4),
+                message: `You scored ${overall}/100! Your oratorical presence captivated the auditorium.`,
+              });
+            } else {
+              DragonMascot.encourage({
+                title: 'Stage Trial Completed',
+                message: `You earned ${overall}/100. Every orator builds their stage presence through repeated trials.`,
+                tip: 'Work on pacing and vocal projection to increase your audience approval.',
+              });
+            }
+          }
+        }
+        scoreNumEl.textContent = cur;
+      }, 40);
+    }
   }
 })();

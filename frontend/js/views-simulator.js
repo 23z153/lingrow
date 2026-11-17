@@ -961,13 +961,17 @@
     const typingIndicator = el(`
       <div class="sim-msg-row sim-msg-ai" id="sim-typing-indicator">
         <div class="sim-msg-avatar">${avatarHTML(session.character?.name || 'AI', 32)}</div>
-        <div class="sim-msg-bubble sim-bubble-ai" style="padding:10px 16px">
-          <div class="typing-dots"><span></span><span></span><span></span></div>
+        <div class="sim-msg-bubble sim-bubble-ai parchment-bubble" style="padding:10px 16px">
+          <div class="typing-embers"><span class="ember-flicker">🔥</span><span class="ember-flicker">🔥</span><span class="ember-flicker">🔥</span> <span style="font-size:12px;color:var(--color-flame);margin-left:6px;font-style:italic">Ignis is formulating speech…</span></div>
         </div>
       </div>
     `);
     stream.appendChild(typingIndicator);
     stream.scrollTop = stream.scrollHeight;
+
+    if (window.DragonMascot && window.DragonMascot.setMood) {
+      window.DragonMascot.setMood('thinking');
+    }
 
     try {
       const res = await Api.sendSimulationTurn(session._id, {
@@ -977,6 +981,9 @@
       });
 
       typingIndicator.remove();
+      if (window.DragonMascot && window.DragonMascot.setMood) {
+        window.DragonMascot.setMood('idle');
+      }
 
       // Update state with AI response
       SimState.activeSession = res.session;

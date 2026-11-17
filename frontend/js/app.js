@@ -28,9 +28,36 @@ function esc(s){
 }
 function toast(msg, kind='sprout'){
   const wrap = $('#toast-wrap');
-  const t = el(`<div class="toast"><span style="color:var(--${kind})">${ICONS.check}</span><span>${esc(msg)}</span></div>`);
+  if (!wrap) return;
+
+  // Stack limit: cap at 4 toasts, removing oldest
+  const existing = wrap.querySelectorAll('.toast');
+  if (existing.length >= 4) {
+    existing[0].remove();
+  }
+
+  const icons = {
+    sprout: '✨',
+    coral: '🔥',
+    amber: '💡',
+    voice: '🐉',
+    info: '📜',
+  };
+  const icon = icons[kind] || '✨';
+
+  const t = el(`
+    <div class="toast toast-${kind}">
+      <span class="toast-ic" style="font-size:16px;line-height:1;margin-right:8px">${icon}</span>
+      <span class="toast-msg">${esc(msg)}</span>
+    </div>
+  `);
   wrap.appendChild(t);
-  setTimeout(()=>{ t.style.opacity='0'; t.style.transform='translateY(6px)'; t.style.transition='all .25s ease'; setTimeout(()=>t.remove(),250); }, 3200);
+  setTimeout(()=>{
+    t.style.opacity='0';
+    t.style.transform='translateY(6px)';
+    t.style.transition='all .25s ease';
+    setTimeout(()=>t.remove(),250);
+  }, 3600);
 }
 function apiError(err){ toast(err.message || 'Something went wrong', 'coral'); console.error(err); }
 const AVATAR_COLORS = ['#8B5CF6', '#22D3EE', '#10B981', '#F59E0B', '#F43F5E'];
@@ -208,18 +235,25 @@ function getStudentLevel(user) {
 
 function addStudentXP(amount) {
   if (!S.user || S.user.role !== 'student') return;
+  const oldXp = S.user.xp || 0;
   const oldRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
-  S.user.xp = (S.user.xp || 0) + amount;
+  S.user.xp = oldXp + amount;
   if (S.user.xp >= 1500) S.user.level = 'Advanced';
   else if (S.user.xp >= 500) S.user.level = 'Intermediate';
   else if (!S.user.level) S.user.level = 'Beginner';
 
   const newRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
   renderTopbar();
+
+  // Check if student crossed a dragon evolution stage threshold
+  if (window.DragonMascot && window.DragonMascot.checkEvolution) {
+    window.DragonMascot.checkEvolution(oldXp, S.user.xp);
+  }
+
   if (newRank > oldRank) {
     toast(`🎉 Leveled up to ${S.user.level}! New practice exercises unlocked!`, 'sprout');
     renderShell();
-  initGlobalChatbot();
+    initGlobalChatbot();
   }
 }
 
@@ -452,6 +486,11 @@ function renderTopbar(){
       </div>
       <div class="spacer"></div>
       ${right ? `<div class="topbar-chips row gap-xs">${right}</div>` : ''}
+      <button class="sound-toggle-btn theme-toggle-btn" id="sound-toggle-btn" aria-label="Toggle UI Audio and Chimes" title="Toggle Sound">
+        <span id="sound-toggle-icon" style="display:inline-flex;align-items:center;justify-content:center;font-size:14px">
+          ${window.DragonMascot && window.DragonMascot.isSoundEnabled && window.DragonMascot.isSoundEnabled() ? '🔔' : '🔕'}
+        </span>
+      </button>
       <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
         <span id="theme-toggle-icon" style="display:inline-flex;align-items:center;justify-content:center"></span>
       </button>
@@ -462,6 +501,18 @@ function renderTopbar(){
   if (menuBtn) menuBtn.onclick = openMobileSidebar;
   const overlay = $('#sidebar-overlay');
   if (overlay) overlay.onclick = closeMobileSidebar;
+
+  const soundBtn = $('#sound-toggle-btn');
+  if (soundBtn) {
+    soundBtn.onclick = () => {
+      if (window.DragonMascot && window.DragonMascot.toggleSound) {
+        const active = window.DragonMascot.toggleSound();
+        const icon = $('#sound-toggle-icon');
+        if (icon) icon.textContent = active ? '🔔' : '🔕';
+        toast(active ? 'Dragon Chimes & Audio: Active 🔔' : 'Sound Muted 🔕', 'voice');
+      }
+    };
+  }
 
   const themeBtn = $('#theme-toggle-btn');
   if (themeBtn) themeBtn.onclick = toggleTheme;

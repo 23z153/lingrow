@@ -175,11 +175,11 @@
 
   function renderWordRows(list) {
     return list.map((w) => {
-      const stagePills = {
-        new: '<span class="pill" style="color:#06B6D4;border-color:rgba(6,182,212,0.4)">New</span>',
-        learning: '<span class="pill amber">Learning</span>',
-        almost: '<span class="pill purple">Almost</span>',
-        mastered: '<span class="pill sprout">Mastered</span>',
+      const crystalChips = {
+        new: '<span class="mastery-crystal stage-new" title="Stage 1: New Word (1 Day Review Interval)">💎 New <span class="crystal-tag">1d</span></span>',
+        learning: '<span class="mastery-crystal stage-learning" title="Stage 2: Learning (2 Day Review Interval)">💎 Learning <span class="crystal-tag">2d</span></span>',
+        almost: '<span class="mastery-crystal stage-almost" title="Stage 3: Almost (4 Day Review Interval)">💎 Almost <span class="crystal-tag">4d</span></span>',
+        mastered: '<span class="mastery-crystal stage-mastered" title="Stage 4: Mastered (7 Day Maintenance Interval)">✨💎 Mastered <span class="crystal-tag">7d</span></span>',
       };
 
       const isDue = w.stage !== 'mastered' && new Date(w.nextReviewAt) <= new Date();
@@ -192,7 +192,7 @@
           </td>
           <td>
             <div class="col gap-xs">
-              ${stagePills[w.stage] || stagePills.new}
+              ${crystalChips[w.stage] || crystalChips.new}
               <div class="ww-bar-wrap" title="${w.stage.toUpperCase()} Stage">
                 <div class="ww-bar-fill stage-${w.stage}"></div>
               </div>
