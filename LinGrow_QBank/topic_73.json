@@ -1,0 +1,507 @@
+{
+  "topicId": 73,
+  "topicName": "Stative verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T073-Q001",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She melted the chocolate.",
+      "optionB": "She is eating chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She bought chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q002",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understand",
+      "optionB": "lesson -> lessons",
+      "optionC": "am understanding -> understanding",
+      "optionD": "now -> then",
+      "correctOption": "Option A",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q003",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "jump",
+      "optionB": "build",
+      "optionC": "run",
+      "optionD": "belong",
+      "correctOption": "Option D",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q004",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "the",
+      "optionB": "answer",
+      "optionC": "know",
+      "optionD": "I",
+      "correctOption": "Option C",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q005",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She melted the chocolate.",
+      "optionB": "She is eating chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She bought chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q006",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "lesson -> lessons",
+      "optionB": "now -> then",
+      "optionC": "am understanding -> understanding",
+      "optionD": "am understanding -> understand",
+      "correctOption": "Option D",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q007",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "belong",
+      "optionB": "jump",
+      "optionC": "run",
+      "optionD": "build",
+      "correctOption": "Option A",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q008",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "know",
+      "optionB": "I",
+      "optionC": "the",
+      "optionD": "answer",
+      "correctOption": "Option A",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q009",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She is eating chocolate.",
+      "optionB": "She melted the chocolate.",
+      "optionC": "She bought chocolate.",
+      "optionD": "She loves chocolate.",
+      "correctOption": "Option D",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q010",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "lesson -> lessons",
+      "optionB": "am understanding -> understanding",
+      "optionC": "am understanding -> understand",
+      "optionD": "now -> then",
+      "correctOption": "Option C",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q011",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "build",
+      "optionB": "belong",
+      "optionC": "jump",
+      "optionD": "run",
+      "correctOption": "Option B",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q012",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "know",
+      "optionB": "I",
+      "optionC": "the",
+      "optionD": "answer",
+      "correctOption": "Option A",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q013",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She is eating chocolate.",
+      "optionB": "She bought chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She melted the chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q014",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "lesson -> lessons",
+      "optionB": "am understanding -> understanding",
+      "optionC": "now -> then",
+      "optionD": "am understanding -> understand",
+      "correctOption": "Option D",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q015",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "jump",
+      "optionC": "belong",
+      "optionD": "build",
+      "correctOption": "Option C",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q016",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "answer",
+      "optionB": "know",
+      "optionC": "the",
+      "optionD": "I",
+      "correctOption": "Option B",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q017",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She loves chocolate.",
+      "optionB": "She bought chocolate.",
+      "optionC": "She is eating chocolate.",
+      "optionD": "She melted the chocolate.",
+      "correctOption": "Option A",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q018",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understanding",
+      "optionB": "am understanding -> understand",
+      "optionC": "lesson -> lessons",
+      "optionD": "now -> then",
+      "correctOption": "Option B",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q019",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "belong",
+      "optionC": "jump",
+      "optionD": "build",
+      "correctOption": "Option B",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q020",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "know",
+      "optionB": "I",
+      "optionC": "the",
+      "optionD": "answer",
+      "correctOption": "Option A",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q021",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She melted the chocolate.",
+      "optionB": "She is eating chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She bought chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q022",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understand",
+      "optionB": "lesson -> lessons",
+      "optionC": "now -> then",
+      "optionD": "am understanding -> understanding",
+      "correctOption": "Option A",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q023",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "jump",
+      "optionB": "belong",
+      "optionC": "build",
+      "optionD": "run",
+      "correctOption": "Option B",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q024",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "know",
+      "optionB": "I",
+      "optionC": "answer",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q025",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She melted the chocolate.",
+      "optionB": "She bought chocolate.",
+      "optionC": "She is eating chocolate.",
+      "optionD": "She loves chocolate.",
+      "correctOption": "Option D",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q026",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "lesson -> lessons",
+      "optionB": "now -> then",
+      "optionC": "am understanding -> understand",
+      "optionD": "am understanding -> understanding",
+      "correctOption": "Option C",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q027",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "build",
+      "optionC": "jump",
+      "optionD": "belong",
+      "correctOption": "Option D",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q028",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "the",
+      "optionB": "I",
+      "optionC": "answer",
+      "optionD": "know",
+      "correctOption": "Option D",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q029",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She melted the chocolate.",
+      "optionB": "She bought chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She is eating chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q030",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understanding",
+      "optionB": "now -> then",
+      "optionC": "lesson -> lessons",
+      "optionD": "am understanding -> understand",
+      "correctOption": "Option D",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q031",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "jump",
+      "optionB": "build",
+      "optionC": "belong",
+      "optionD": "run",
+      "correctOption": "Option C",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q032",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "answer",
+      "optionB": "know",
+      "optionC": "the",
+      "optionD": "I",
+      "correctOption": "Option B",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q033",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She is eating chocolate.",
+      "optionB": "She melted the chocolate.",
+      "optionC": "She loves chocolate.",
+      "optionD": "She bought chocolate.",
+      "correctOption": "Option C",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q034",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understanding",
+      "optionB": "now -> then",
+      "optionC": "am understanding -> understand",
+      "optionD": "lesson -> lessons",
+      "correctOption": "Option C",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q035",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "jump",
+      "optionC": "build",
+      "optionD": "belong",
+      "correctOption": "Option D",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q036",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "answer",
+      "optionB": "I",
+      "optionC": "know",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q037",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She bought chocolate.",
+      "optionB": "She is eating chocolate.",
+      "optionC": "She melted the chocolate.",
+      "optionD": "She loves chocolate.",
+      "correctOption": "Option D",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q038",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "lesson -> lessons",
+      "optionB": "am understanding -> understanding",
+      "optionC": "now -> then",
+      "optionD": "am understanding -> understand",
+      "correctOption": "Option D",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q039",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "build",
+      "optionC": "jump",
+      "optionD": "belong",
+      "correctOption": "Option D",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q040",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "know",
+      "optionB": "the",
+      "optionC": "I",
+      "optionD": "answer",
+      "correctOption": "Option A",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q041",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She bought chocolate.",
+      "optionB": "She melted the chocolate.",
+      "optionC": "She is eating chocolate.",
+      "optionD": "She loves chocolate.",
+      "correctOption": "Option D",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q042",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "now -> then",
+      "optionB": "am understanding -> understanding",
+      "optionC": "lesson -> lessons",
+      "optionD": "am understanding -> understand",
+      "correctOption": "Option D",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q043",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "run",
+      "optionB": "belong",
+      "optionC": "jump",
+      "optionD": "build",
+      "correctOption": "Option B",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q044",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "answer",
+      "optionB": "the",
+      "optionC": "I",
+      "optionD": "know",
+      "correctOption": "Option D",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q045",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She is eating chocolate.",
+      "optionB": "She loves chocolate.",
+      "optionC": "She bought chocolate.",
+      "optionD": "She melted the chocolate.",
+      "correctOption": "Option B",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q046",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understand",
+      "optionB": "am understanding -> understanding",
+      "optionC": "lesson -> lessons",
+      "optionD": "now -> then",
+      "correctOption": "Option A",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q047",
+      "questionText": "Which of the following is typically a stative verb?",
+      "optionA": "jump",
+      "optionB": "run",
+      "optionC": "build",
+      "optionD": "belong",
+      "correctOption": "Option D",
+      "explanation": "'belong' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q048",
+      "questionText": "Identify the stative verb: 'I know the answer.'",
+      "optionA": "answer",
+      "optionB": "the",
+      "optionC": "know",
+      "optionD": "I",
+      "correctOption": "Option C",
+      "explanation": "'know' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q049",
+      "questionText": "Which sentence uses a stative verb?",
+      "optionA": "She loves chocolate.",
+      "optionB": "She is eating chocolate.",
+      "optionC": "She melted the chocolate.",
+      "optionD": "She bought chocolate.",
+      "correctOption": "Option A",
+      "explanation": "'She loves chocolate' is a stative verb because it expresses a state of being, thought, or feeling."
+    },
+    {
+      "questionId": "T073-Q050",
+      "questionText": "Identify the error: 'I am understanding the lesson now.'",
+      "optionA": "am understanding -> understand",
+      "optionB": "am understanding -> understanding",
+      "optionC": "lesson -> lessons",
+      "optionD": "now -> then",
+      "correctOption": "Option A",
+      "explanation": "'am understanding -> understand' is a stative verb because it expresses a state of being, thought, or feeling."
+    }
+  ]
+}

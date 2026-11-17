@@ -1,0 +1,507 @@
+{
+  "topicId": 12,
+  "topicName": "Prepositions",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T012-Q001",
+      "questionText": "The new university term starts ___ September.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q002",
+      "questionText": "Please put your completed essay ___ my desk.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q003",
+      "questionText": "I usually sit ___ Maria and John in the lecture hall.",
+      "optionA": "among",
+      "optionB": "next",
+      "optionC": "between",
+      "optionD": "through",
+      "correctOption": "Option C",
+      "explanation": "'between' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q004",
+      "questionText": "The campus bookstore is located ___ the science building.",
+      "optionA": "in",
+      "optionB": "over",
+      "optionC": "under",
+      "optionD": "behind",
+      "correctOption": "Option D",
+      "explanation": "'behind' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q005",
+      "questionText": "He is studying quietly ___ his dorm room.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "about",
+      "correctOption": "Option A",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q006",
+      "questionText": "The graduation ceremony is ___ May 15th.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q007",
+      "questionText": "Students must register for classes ___ the end of the week.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "by",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'by' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q008",
+      "questionText": "She walks ___ the campus courtyard every morning to get to class.",
+      "optionA": "under",
+      "optionB": "above",
+      "optionC": "between",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q009",
+      "questionText": "We usually have a study break ___ the afternoon.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option A",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q010",
+      "questionText": "The main library is closed ___ night.",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "during",
+      "correctOption": "Option B",
+      "explanation": "Use 'at' for specific times or specific locations (e.g. 'at 9 AM')."
+    },
+    {
+      "questionId": "T012-Q011",
+      "questionText": "Please give this research paper ___ the professor.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q012",
+      "questionText": "They are waiting for the campus shuttle ___ the bus stop.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "Use 'at' for specific times or specific locations (e.g. 'at 9 AM')."
+    },
+    {
+      "questionId": "T012-Q013",
+      "questionText": "My dormitory is ___ the chemistry laboratory.",
+      "optionA": "near",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'near' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q014",
+      "questionText": "Today's lecture is ___ marine biology.",
+      "optionA": "at",
+      "optionB": "about",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option B",
+      "explanation": "'about' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q015",
+      "questionText": "He travels to the university ___ bus every day.",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "by",
+      "optionD": "with",
+      "correctOption": "Option C",
+      "explanation": "'by' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q016",
+      "questionText": "The cafeteria is open ___ 7:00 AM to 8:00 PM.",
+      "optionA": "at",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option D",
+      "explanation": "'from' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q017",
+      "questionText": "I will meet you ___ the student union cafe.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "Use 'at' for specific times or specific locations (e.g. 'at 9 AM')."
+    },
+    {
+      "questionId": "T012-Q018",
+      "questionText": "The student dropped his pen ___ the desk during the exam.",
+      "optionA": "above",
+      "optionB": "under",
+      "optionC": "over",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'under' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q019",
+      "questionText": "The important dates are written ___ the whiteboard.",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q020",
+      "questionText": "She comes ___ a small town in the north of the country.",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "from",
+      "correctOption": "Option D",
+      "explanation": "'from' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q021",
+      "questionText": "He always reads his textbook ___ the morning.",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option A",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q022",
+      "questionText": "I am looking ___ my student ID card. Have you seen it?",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "after",
+      "optionD": "to",
+      "correctOption": "Option B",
+      "explanation": "'for' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q023",
+      "questionText": "They live ___ a small apartment near the university.",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q024",
+      "questionText": "Please listen ___ the instructions before beginning the test.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q025",
+      "questionText": "The campus map is pinned ___ the noticeboard.",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "under",
+      "correctOption": "Option A",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q026",
+      "questionText": "We are studying together ___ the final exam.",
+      "optionA": "to",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'for' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q027",
+      "questionText": "She is sitting ___ front of the computer in the lab.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q028",
+      "questionText": "The next class begins ___ ten minutes.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "by",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q029",
+      "questionText": "He works ___ Dr. Lee on the new biology research.",
+      "optionA": "with",
+      "optionB": "on",
+      "optionC": "by",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'with' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q030",
+      "questionText": "The heavy textbook is ___ the library table.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "above",
+      "correctOption": "Option B",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q031",
+      "questionText": "Please write your student ID number ___ the top of the page.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "Use 'at' for specific times or specific locations (e.g. 'at 9 AM')."
+    },
+    {
+      "questionId": "T012-Q032",
+      "questionText": "The debate club meets ___ Tuesdays.",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "by",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q033",
+      "questionText": "They are talking ___ the new group assignment.",
+      "optionA": "about",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "'about' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q034",
+      "questionText": "You can find the summary of the chapter ___ page 42.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "Use 'on' for days, dates, or surface locations (e.g. 'on my desk')."
+    },
+    {
+      "questionId": "T012-Q035",
+      "questionText": "She is very good ___ solving complex mathematics problems.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "with",
+      "correctOption": "Option C",
+      "explanation": "Use 'at' for specific times or specific locations (e.g. 'at 9 AM')."
+    },
+    {
+      "questionId": "T012-Q036",
+      "questionText": "He apologizes ___ being late to the morning lecture.",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "for",
+      "correctOption": "Option D",
+      "explanation": "'for' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q037",
+      "questionText": "I agree ___ your opinion on the history essay topic.",
+      "optionA": "with",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'with' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q038",
+      "questionText": "The professor divided the project work ___ the four students.",
+      "optionA": "between",
+      "optionB": "among",
+      "optionC": "in",
+      "optionD": "with",
+      "correctOption": "Option B",
+      "explanation": "'among' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q039",
+      "questionText": "We walked ___ the stairs to reach the second-floor classroom.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "up",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'up' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q040",
+      "questionText": "He looked ___ the microscope to see the cells.",
+      "optionA": "over",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q041",
+      "questionText": "She is very interested ___ learning a second language.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "about",
+      "correctOption": "Option A",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q042",
+      "questionText": "My dorm keys are safely stored ___ my backpack.",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "Use 'in' for months, years, or enclosed spaces (e.g. 'in September')."
+    },
+    {
+      "questionId": "T012-Q043",
+      "questionText": "A small bird flew ___ the campus tree.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "over",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'over' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q044",
+      "questionText": "He leaned ___ the wall while waiting for the class to start.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "against",
+      "correctOption": "Option D",
+      "explanation": "'against' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q045",
+      "questionText": "The final exam will last ___ two hours.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "since",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'for' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q046",
+      "questionText": "She always sits ___ me in the modern literature class.",
+      "optionA": "at",
+      "optionB": "beside",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'beside' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q047",
+      "questionText": "Students are responsible ___ submitting their assignments on time.",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "with",
+      "correctOption": "Option C",
+      "explanation": "'for' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q048",
+      "questionText": "I bought a hot coffee ___ the campus cafe this morning.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "from",
+      "correctOption": "Option D",
+      "explanation": "'from' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q049",
+      "questionText": "The notice poster is hanging ___ the classroom door.",
+      "optionA": "above",
+      "optionB": "in",
+      "optionC": "under",
+      "optionD": "through",
+      "correctOption": "Option A",
+      "explanation": "'above' is a preposition showing direction, location, or time."
+    },
+    {
+      "questionId": "T012-Q050",
+      "questionText": "His notebook slipped and fell ___ the library sofa.",
+      "optionA": "on",
+      "optionB": "behind",
+      "optionC": "at",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'behind' is a preposition showing direction, location, or time."
+    }
+  ]
+}

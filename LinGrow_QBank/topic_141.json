@@ -1,0 +1,507 @@
+{
+  "topicId": 141,
+  "topicName": "Wasn't/weren't",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T141-Q001",
+      "questionText": "They ___ happy with the results. (Variant 1)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "aren't",
+      "optionD": "weren't",
+      "correctOption": "Option D",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q002",
+      "questionText": "I ___ feeling well two days ago. (Variant 2)",
+      "optionA": "am not",
+      "optionB": "wasn't",
+      "optionC": "didn't",
+      "optionD": "weren't",
+      "correctOption": "Option B",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q003",
+      "questionText": "The exams ___ difficult. (Variant 3)",
+      "optionA": "wasn't",
+      "optionB": "weren't",
+      "optionC": "haven't",
+      "optionD": "didn't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q004",
+      "questionText": "___ she the president of the club? (Variant 4)",
+      "optionA": "Weren't",
+      "optionB": "Isn't",
+      "optionC": "Wasn't",
+      "optionD": "Didn't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q005",
+      "questionText": "Complete: Sarah ___ at home yesterday. (Variant 5)",
+      "optionA": "isn't",
+      "optionB": "weren't",
+      "optionC": "wasn't",
+      "optionD": "didn't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q006",
+      "questionText": "They ___ happy with the results. (Variant 6)",
+      "optionA": "didn't",
+      "optionB": "aren't",
+      "optionC": "wasn't",
+      "optionD": "weren't",
+      "correctOption": "Option D",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q007",
+      "questionText": "I ___ feeling well last night. (Variant 7)",
+      "optionA": "didn't",
+      "optionB": "wasn't",
+      "optionC": "am not",
+      "optionD": "weren't",
+      "correctOption": "Option B",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q008",
+      "questionText": "The exams ___ difficult. (Variant 8)",
+      "optionA": "weren't",
+      "optionB": "wasn't",
+      "optionC": "didn't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q009",
+      "questionText": "___ she the president of the club? (Variant 9)",
+      "optionA": "Wasn't",
+      "optionB": "Weren't",
+      "optionC": "Isn't",
+      "optionD": "Didn't",
+      "correctOption": "Option A",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q010",
+      "questionText": "Complete: Sarah ___ at home last night. (Variant 10)",
+      "optionA": "didn't",
+      "optionB": "wasn't",
+      "optionC": "isn't",
+      "optionD": "weren't",
+      "correctOption": "Option B",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q011",
+      "questionText": "They ___ happy with the results. (Variant 11)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "wasn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q012",
+      "questionText": "I ___ feeling well two days ago. (Variant 12)",
+      "optionA": "weren't",
+      "optionB": "am not",
+      "optionC": "wasn't",
+      "optionD": "didn't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q013",
+      "questionText": "The exams ___ difficult. (Variant 13)",
+      "optionA": "haven't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "weren't",
+      "correctOption": "Option D",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q014",
+      "questionText": "___ she the president of the club? (Variant 14)",
+      "optionA": "Isn't",
+      "optionB": "Weren't",
+      "optionC": "Wasn't",
+      "optionD": "Didn't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q015",
+      "questionText": "Complete: Sarah ___ at home two days ago. (Variant 15)",
+      "optionA": "isn't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "weren't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q016",
+      "questionText": "They ___ happy with the results. (Variant 16)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q017",
+      "questionText": "I ___ feeling well last night. (Variant 17)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "am not",
+      "optionD": "weren't",
+      "correctOption": "Option A",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q018",
+      "questionText": "The exams ___ difficult. (Variant 18)",
+      "optionA": "weren't",
+      "optionB": "wasn't",
+      "optionC": "haven't",
+      "optionD": "didn't",
+      "correctOption": "Option A",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q019",
+      "questionText": "___ she the president of the club? (Variant 19)",
+      "optionA": "Didn't",
+      "optionB": "Weren't",
+      "optionC": "Wasn't",
+      "optionD": "Isn't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q020",
+      "questionText": "Complete: Sarah ___ at home yesterday. (Variant 20)",
+      "optionA": "isn't",
+      "optionB": "didn't",
+      "optionC": "weren't",
+      "optionD": "wasn't",
+      "correctOption": "Option D",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q021",
+      "questionText": "They ___ happy with the results. (Variant 21)",
+      "optionA": "wasn't",
+      "optionB": "aren't",
+      "optionC": "didn't",
+      "optionD": "weren't",
+      "correctOption": "Option D",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q022",
+      "questionText": "I ___ feeling well this morning. (Variant 22)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "am not",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q023",
+      "questionText": "The exams ___ difficult. (Variant 23)",
+      "optionA": "didn't",
+      "optionB": "wasn't",
+      "optionC": "weren't",
+      "optionD": "haven't",
+      "correctOption": "Option C",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q024",
+      "questionText": "___ she the president of the club? (Variant 24)",
+      "optionA": "Wasn't",
+      "optionB": "Didn't",
+      "optionC": "Isn't",
+      "optionD": "Weren't",
+      "correctOption": "Option A",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q025",
+      "questionText": "Complete: His brother ___ at home last night. (Variant 25)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "isn't",
+      "optionD": "wasn't",
+      "correctOption": "Option D",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q026",
+      "questionText": "They ___ happy with the results. (Variant 26)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "aren't",
+      "optionD": "weren't",
+      "correctOption": "Option D",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q027",
+      "questionText": "I ___ feeling well last night. (Variant 27)",
+      "optionA": "am not",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "weren't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q028",
+      "questionText": "The exams ___ difficult. (Variant 28)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "weren't",
+      "optionD": "haven't",
+      "correctOption": "Option C",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q029",
+      "questionText": "___ she the president of the club? (Variant 29)",
+      "optionA": "Didn't",
+      "optionB": "Weren't",
+      "optionC": "Isn't",
+      "optionD": "Wasn't",
+      "correctOption": "Option D",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q030",
+      "questionText": "Complete: John ___ at home two days ago. (Variant 30)",
+      "optionA": "wasn't",
+      "optionB": "weren't",
+      "optionC": "didn't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q031",
+      "questionText": "They ___ happy with the results. (Variant 31)",
+      "optionA": "weren't",
+      "optionB": "aren't",
+      "optionC": "didn't",
+      "optionD": "wasn't",
+      "correctOption": "Option A",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q032",
+      "questionText": "I ___ feeling well this morning. (Variant 32)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "am not",
+      "optionD": "wasn't",
+      "correctOption": "Option D",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q033",
+      "questionText": "The exams ___ difficult. (Variant 33)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "weren't",
+      "optionD": "haven't",
+      "correctOption": "Option C",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q034",
+      "questionText": "___ she the president of the club? (Variant 34)",
+      "optionA": "Weren't",
+      "optionB": "Didn't",
+      "optionC": "Isn't",
+      "optionD": "Wasn't",
+      "correctOption": "Option D",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q035",
+      "questionText": "Complete: Sarah ___ at home two days ago. (Variant 35)",
+      "optionA": "isn't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "weren't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q036",
+      "questionText": "They ___ happy with the results. (Variant 36)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "aren't",
+      "optionD": "wasn't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q037",
+      "questionText": "I ___ feeling well two days ago. (Variant 37)",
+      "optionA": "weren't",
+      "optionB": "wasn't",
+      "optionC": "didn't",
+      "optionD": "am not",
+      "correctOption": "Option B",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q038",
+      "questionText": "The exams ___ difficult. (Variant 38)",
+      "optionA": "haven't",
+      "optionB": "weren't",
+      "optionC": "didn't",
+      "optionD": "wasn't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q039",
+      "questionText": "___ she the president of the club? (Variant 39)",
+      "optionA": "Didn't",
+      "optionB": "Isn't",
+      "optionC": "Wasn't",
+      "optionD": "Weren't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q040",
+      "questionText": "Complete: Sarah ___ at home last week. (Variant 40)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "wasn't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q041",
+      "questionText": "They ___ happy with the results. (Variant 41)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "aren't",
+      "optionD": "wasn't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q042",
+      "questionText": "I ___ feeling well yesterday. (Variant 42)",
+      "optionA": "didn't",
+      "optionB": "wasn't",
+      "optionC": "weren't",
+      "optionD": "am not",
+      "correctOption": "Option B",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q043",
+      "questionText": "The exams ___ difficult. (Variant 43)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "haven't",
+      "optionD": "wasn't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q044",
+      "questionText": "___ she the president of the club? (Variant 44)",
+      "optionA": "Didn't",
+      "optionB": "Weren't",
+      "optionC": "Wasn't",
+      "optionD": "Isn't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q045",
+      "questionText": "Complete: Anna ___ at home this morning. (Variant 45)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q046",
+      "questionText": "They ___ happy with the results. (Variant 46)",
+      "optionA": "weren't",
+      "optionB": "wasn't",
+      "optionC": "aren't",
+      "optionD": "didn't",
+      "correctOption": "Option A",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q047",
+      "questionText": "I ___ feeling well two days ago. (Variant 47)",
+      "optionA": "wasn't",
+      "optionB": "am not",
+      "optionC": "weren't",
+      "optionD": "didn't",
+      "correctOption": "Option A",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q048",
+      "questionText": "The exams ___ difficult. (Variant 48)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "wasn't",
+      "optionD": "haven't",
+      "correctOption": "Option B",
+      "explanation": "'weren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q049",
+      "questionText": "___ she the president of the club? (Variant 49)",
+      "optionA": "Weren't",
+      "optionB": "Didn't",
+      "optionC": "Wasn't",
+      "optionD": "Isn't",
+      "correctOption": "Option C",
+      "explanation": "'Wasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T141-Q050",
+      "questionText": "Complete: The teacher ___ at home last night. (Variant 50)",
+      "optionA": "weren't",
+      "optionB": "isn't",
+      "optionC": "wasn't",
+      "optionD": "didn't",
+      "correctOption": "Option C",
+      "explanation": "'wasn't' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 182,
+  "topicName": "Basic complex sentences",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T182-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Presents assignment agrees, if university the the the researcher.",
+      "optionB": "If the researcher agrees, the university presents the assignmenting.",
+      "optionC": "If the researcher agrees, the university presents the assignment.",
+      "optionD": "If researcher agrees, the university presents the assignment.",
+      "correctOption": "Option C",
+      "explanation": "'If the researcher agrees, the university presents the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If the student works, the author observes the dataing.",
+      "optionB": "If the student works, the author observes the data.",
+      "optionC": "The observes author the works, data student the if.",
+      "optionD": "If student works, the author observes the data.",
+      "correctOption": "Option B",
+      "explanation": "'If the student works, the author observes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If an expert hesitates, the scientist reads the dataing.",
+      "optionB": "If an expert hesitates, the scientist reads the data.",
+      "optionC": "If expert hesitates, the scientist reads the data.",
+      "optionD": "If scientist reads the an expert data the hesitates,.",
+      "correctOption": "Option B",
+      "explanation": "'If an expert hesitates, the scientist reads the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although author agrees, the team completes the assignment.",
+      "optionB": "The author completes team agrees, although the the assignment.",
+      "optionC": "Although the author agrees, the team completes the assignment.",
+      "optionD": "Although the author agrees, the team completes the assignmenting.",
+      "correctOption": "Option C",
+      "explanation": "'Although the author agrees, the team completes the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "University a data colleague pauses, because questions the the.",
+      "optionB": "Because colleague pauses, the university questions the data.",
+      "optionC": "Because a colleague pauses, the university questions the data.",
+      "optionD": "Because a colleague pauses, the university questions the dataing.",
+      "correctOption": "Option C",
+      "explanation": "'Because a colleague pauses, the university questions the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The the because student essay graduates, analyzes professor an.",
+      "optionB": "Because the student graduates, the professor analyzes an essay.",
+      "optionC": "Because the student graduates, the professor analyzes an essaying.",
+      "optionD": "Because student graduates, the professor analyzes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'Because the student graduates, the professor analyzes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "University if reviews a colleague an listens, the essay.",
+      "optionB": "If university listens, a colleague reviews an essay.",
+      "optionC": "If the university listens, a colleague reviews an essaying.",
+      "optionD": "If the university listens, a colleague reviews an essay.",
+      "correctOption": "Option D",
+      "explanation": "'If the university listens, a colleague reviews an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Because an expert smiles, a colleague presents the results.",
+      "optionB": "Because expert smiles, a colleague presents the results.",
+      "optionC": "Because an expert smiles, a colleague presents the resultsing.",
+      "optionD": "A presents colleague expert because smiles, results the an.",
+      "correctOption": "Option A",
+      "explanation": "'Because an expert smiles, a colleague presents the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Reviews the although graduates, the author team assignment the.",
+      "optionB": "Although team graduates, the author reviews the assignment.",
+      "optionC": "Although the team graduates, the author reviews the assignmenting.",
+      "optionD": "Although the team graduates, the author reviews the assignment.",
+      "correctOption": "Option D",
+      "explanation": "'Although the team graduates, the author reviews the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since the team speaks, the university reads a book.",
+      "optionB": "Team university the since book speaks, the reads a.",
+      "optionC": "Since team speaks, the university reads a book.",
+      "optionD": "Since the team speaks, the university reads a booking.",
+      "correctOption": "Option A",
+      "explanation": "'Since the team speaks, the university reads a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The if expert a pauses, an reads thesis university.",
+      "optionB": "If university pauses, an expert reads a thesis.",
+      "optionC": "If the university pauses, an expert reads a thesis.",
+      "optionD": "If the university pauses, an expert reads a thesising.",
+      "correctOption": "Option C",
+      "explanation": "'If the university pauses, an expert reads a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although the committee smiles, the student observes the reporting.",
+      "optionB": "Although committee smiles, the student observes the report.",
+      "optionC": "Although the committee smiles, the student observes the report.",
+      "optionD": "The report the although smiles, committee the observes student.",
+      "correctOption": "Option C",
+      "explanation": "'Although the committee smiles, the student observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Analyzes if the the professor results hesitates, the professor.",
+      "optionB": "If the professor hesitates, the professor analyzes the results.",
+      "optionC": "If the professor hesitates, the professor analyzes the resultsing.",
+      "optionD": "If professor hesitates, the professor analyzes the results.",
+      "correctOption": "Option B",
+      "explanation": "'If the professor hesitates, the professor analyzes the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The author the report completes university if the disagrees,.",
+      "optionB": "If the author disagrees, the university completes the reporting.",
+      "optionC": "If author disagrees, the university completes the report.",
+      "optionD": "If the author disagrees, the university completes the report.",
+      "correctOption": "Option D",
+      "explanation": "'If the author disagrees, the university completes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If team hesitates, the committee presents an essay.",
+      "optionB": "If the team hesitates, the committee presents an essaying.",
+      "optionC": "Committee presents hesitates, the an the team if essay.",
+      "optionD": "If the team hesitates, the committee presents an essay.",
+      "correctOption": "Option D",
+      "explanation": "'If the team hesitates, the committee presents an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While the scientist agrees, the student presents the data.",
+      "optionB": "The agrees, data student while scientist the presents the.",
+      "optionC": "While scientist agrees, the student presents the data.",
+      "optionD": "While the scientist agrees, the student presents the dataing.",
+      "correctOption": "Option A",
+      "explanation": "'While the scientist agrees, the student presents the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While committee pauses, the team reviews the results.",
+      "optionB": "While the committee pauses, the team reviews the resultsing.",
+      "optionC": "While the committee pauses, the team reviews the results.",
+      "optionD": "Team pauses, the while the committee reviews results the.",
+      "correctOption": "Option C",
+      "explanation": "'While the committee pauses, the team reviews the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While the author disagrees, the committee reviews the assignmenting.",
+      "optionB": "While the author disagrees, the committee reviews the assignment.",
+      "optionC": "While disagrees, reviews author assignment the the the committee.",
+      "optionD": "While author disagrees, the committee reviews the assignment.",
+      "correctOption": "Option B",
+      "explanation": "'While the author disagrees, the committee reviews the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Because professor graduates, the team observes the article.",
+      "optionB": "Because the professor graduates, the team observes the article.",
+      "optionC": "Because the professor graduates, the team observes the articleing.",
+      "optionD": "The observes the article professor the graduates, because team.",
+      "correctOption": "Option B",
+      "explanation": "'Because the professor graduates, the team observes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Because the author works, a colleague observes the reporting.",
+      "optionB": "Colleague author works, the observes the a because report.",
+      "optionC": "Because author works, a colleague observes the report.",
+      "optionD": "Because the author works, a colleague observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'Because the author works, a colleague observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While committee listens, the team questions the experiment.",
+      "optionB": "The listens, the questions while experiment team committee the.",
+      "optionC": "While the committee listens, the team questions the experimenting.",
+      "optionD": "While the committee listens, the team questions the experiment.",
+      "correctOption": "Option D",
+      "explanation": "'While the committee listens, the team questions the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While university listens, the student reviews the assignment.",
+      "optionB": "University reviews the the listens, assignment student while the.",
+      "optionC": "While the university listens, the student reviews the assignment.",
+      "optionD": "While the university listens, the student reviews the assignmenting.",
+      "correctOption": "Option C",
+      "explanation": "'While the university listens, the student reviews the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If a colleague pauses, the researcher reviews a book.",
+      "optionB": "If colleague pauses, the researcher reviews a book.",
+      "optionC": "A book a pauses, colleague researcher the reviews if.",
+      "optionD": "If a colleague pauses, the researcher reviews a booking.",
+      "correctOption": "Option A",
+      "explanation": "'If a colleague pauses, the researcher reviews a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Student university analyzes speaks, proposal the although the the.",
+      "optionB": "Although the university speaks, the student analyzes the proposaling.",
+      "optionC": "Although university speaks, the student analyzes the proposal.",
+      "optionD": "Although the university speaks, the student analyzes the proposal.",
+      "correctOption": "Option D",
+      "explanation": "'Although the university speaks, the student analyzes the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although a colleague graduates, the professor reads the reporting.",
+      "optionB": "Although colleague graduates, the professor reads the report.",
+      "optionC": "Although a colleague graduates, the professor reads the report.",
+      "optionD": "The the although report professor reads a colleague graduates,.",
+      "correctOption": "Option C",
+      "explanation": "'Although a colleague graduates, the professor reads the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since the student agrees, the scientist studies a thesis.",
+      "optionB": "Since student agrees, the scientist studies a thesis.",
+      "optionC": "Since agrees, student thesis the the scientist studies a.",
+      "optionD": "Since the student agrees, the scientist studies a thesising.",
+      "correctOption": "Option A",
+      "explanation": "'Since the student agrees, the scientist studies a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The researcher graduates, the the reads while article student.",
+      "optionB": "While researcher graduates, the student reads the article.",
+      "optionC": "While the researcher graduates, the student reads the articleing.",
+      "optionD": "While the researcher graduates, the student reads the article.",
+      "correctOption": "Option D",
+      "explanation": "'While the researcher graduates, the student reads the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If the committee speaks, a colleague analyzes the assignmenting.",
+      "optionB": "If committee speaks, a colleague analyzes the assignment.",
+      "optionC": "Colleague assignment committee speaks, a if the analyzes the.",
+      "optionD": "If the committee speaks, a colleague analyzes the assignment.",
+      "correctOption": "Option D",
+      "explanation": "'If the committee speaks, a colleague analyzes the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "University pauses, book since committee submits the a the.",
+      "optionB": "Since the committee pauses, the university submits a booking.",
+      "optionC": "Since the committee pauses, the university submits a book.",
+      "optionD": "Since committee pauses, the university submits a book.",
+      "correctOption": "Option C",
+      "explanation": "'Since the committee pauses, the university submits a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Expert author thesis an hesitates, analyzes since a the.",
+      "optionB": "Since author hesitates, an expert analyzes a thesis.",
+      "optionC": "Since the author hesitates, an expert analyzes a thesis.",
+      "optionD": "Since the author hesitates, an expert analyzes a thesising.",
+      "correctOption": "Option C",
+      "explanation": "'Since the author hesitates, an expert analyzes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since the student speaks, an expert analyzes the dataing.",
+      "optionB": "Since the student speaks, an expert analyzes the data.",
+      "optionC": "Since student speaks, an expert analyzes the data.",
+      "optionD": "Expert an the student since the speaks, analyzes data.",
+      "correctOption": "Option B",
+      "explanation": "'Since the student speaks, an expert analyzes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although the team speaks, the team reviews an essay.",
+      "optionB": "Although the team speaks, the team reviews an essaying.",
+      "optionC": "The reviews team essay an team the although speaks,.",
+      "optionD": "Although team speaks, the team reviews an essay.",
+      "correctOption": "Option A",
+      "explanation": "'Although the team speaks, the team reviews an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Speaks, completes thesis researcher while the a scientist the.",
+      "optionB": "While the scientist speaks, the researcher completes a thesis.",
+      "optionC": "While the scientist speaks, the researcher completes a thesising.",
+      "optionD": "While scientist speaks, the researcher completes a thesis.",
+      "correctOption": "Option B",
+      "explanation": "'While the scientist speaks, the researcher completes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since scientist disagrees, the researcher studies a thesis.",
+      "optionB": "Since the scientist disagrees, the researcher studies a thesising.",
+      "optionC": "Since the scientist disagrees, the researcher studies a thesis.",
+      "optionD": "Disagrees, scientist researcher since studies the a thesis the.",
+      "correctOption": "Option C",
+      "explanation": "'Since the scientist disagrees, the researcher studies a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Analyzes results a the colleague listens, the university although.",
+      "optionB": "Although the university listens, a colleague analyzes the resultsing.",
+      "optionC": "Although university listens, a colleague analyzes the results.",
+      "optionD": "Although the university listens, a colleague analyzes the results.",
+      "correctOption": "Option D",
+      "explanation": "'Although the university listens, a colleague analyzes the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The the pauses, the although researcher submits data professor.",
+      "optionB": "Although the professor pauses, the researcher submits the data.",
+      "optionC": "Although professor pauses, the researcher submits the data.",
+      "optionD": "Although the professor pauses, the researcher submits the dataing.",
+      "correctOption": "Option B",
+      "explanation": "'Although the professor pauses, the researcher submits the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While expert hesitates, the student questions the report.",
+      "optionB": "Student questions while report expert the the an hesitates,.",
+      "optionC": "While an expert hesitates, the student questions the report.",
+      "optionD": "While an expert hesitates, the student questions the reporting.",
+      "correctOption": "Option C",
+      "explanation": "'While an expert hesitates, the student questions the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since the student speaks, an expert completes the assignment.",
+      "optionB": "Since the student speaks, an expert completes the assignmenting.",
+      "optionC": "Since student speaks, an expert completes the assignment.",
+      "optionD": "Speaks, completes since an assignment student the the expert.",
+      "correctOption": "Option A",
+      "explanation": "'Since the student speaks, an expert completes the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although the researcher smiles, the team completes a booking.",
+      "optionB": "Although the researcher smiles, the team completes a book.",
+      "optionC": "Although a researcher the the book smiles, completes team.",
+      "optionD": "Although researcher smiles, the team completes a book.",
+      "correctOption": "Option B",
+      "explanation": "'Although the researcher smiles, the team completes a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "The the student writes the arrives, proposal university although.",
+      "optionB": "Although the university arrives, the student writes the proposal.",
+      "optionC": "Although university arrives, the student writes the proposal.",
+      "optionD": "Although the university arrives, the student writes the proposaling.",
+      "correctOption": "Option B",
+      "explanation": "'Although the university arrives, the student writes the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although the author agrees, a colleague analyzes the articleing.",
+      "optionB": "Author although the colleague the agrees, a analyzes article.",
+      "optionC": "Although author agrees, a colleague analyzes the article.",
+      "optionD": "Although the author agrees, a colleague analyzes the article.",
+      "correctOption": "Option D",
+      "explanation": "'Although the author agrees, a colleague analyzes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since scientist disagrees, the scientist observes the report.",
+      "optionB": "Since the scientist disagrees, the scientist observes the reporting.",
+      "optionC": "Scientist disagrees, report scientist observes the the since the.",
+      "optionD": "Since the scientist disagrees, the scientist observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'Since the scientist disagrees, the scientist observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If the committee speaks, an expert completes the article.",
+      "optionB": "Committee completes expert the the speaks, an article if.",
+      "optionC": "If the committee speaks, an expert completes the articleing.",
+      "optionD": "If committee speaks, an expert completes the article.",
+      "correctOption": "Option A",
+      "explanation": "'If the committee speaks, an expert completes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although the author hesitates, the student reviews the reporting.",
+      "optionB": "Although the author hesitates, the student reviews the report.",
+      "optionC": "Hesitates, the although report the student author the reviews.",
+      "optionD": "Although author hesitates, the student reviews the report.",
+      "correctOption": "Option B",
+      "explanation": "'Although the author hesitates, the student reviews the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "While colleague graduates, the scientist observes the report.",
+      "optionB": "While a colleague graduates, the scientist observes the reporting.",
+      "optionC": "Graduates, the the colleague scientist while a report observes.",
+      "optionD": "While a colleague graduates, the scientist observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'While a colleague graduates, the scientist observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If the researcher listens, a colleague reviews the assignmenting.",
+      "optionB": "If researcher listens, a colleague reviews the assignment.",
+      "optionC": "Listens, a if reviews colleague assignment the the researcher.",
+      "optionD": "If the researcher listens, a colleague reviews the assignment.",
+      "correctOption": "Option D",
+      "explanation": "'If the researcher listens, a colleague reviews the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Since team works, an expert completes the experiment.",
+      "optionB": "Expert the completes works, team since experiment the an.",
+      "optionC": "Since the team works, an expert completes the experiment.",
+      "optionD": "Since the team works, an expert completes the experimenting.",
+      "correctOption": "Option C",
+      "explanation": "'Since the team works, an expert completes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Because the professor smiles, the university reviews the results.",
+      "optionB": "Professor reviews smiles, because university the the the results.",
+      "optionC": "Because professor smiles, the university reviews the results.",
+      "optionD": "Because the professor smiles, the university reviews the resultsing.",
+      "correctOption": "Option A",
+      "explanation": "'Because the professor smiles, the university reviews the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "Although thesis observes author hesitates, a the a colleague.",
+      "optionB": "Although colleague hesitates, the author observes a thesis.",
+      "optionC": "Although a colleague hesitates, the author observes a thesising.",
+      "optionD": "Although a colleague hesitates, the author observes a thesis.",
+      "correctOption": "Option D",
+      "explanation": "'Although a colleague hesitates, the author observes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T182-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Basic complex sentences'?",
+      "optionA": "If the team arrives, the author reads the articleing.",
+      "optionB": "If the team arrives, the author reads the article.",
+      "optionC": "If team arrives, the author reads the article.",
+      "optionD": "If reads the author arrives, the article the team.",
+      "correctOption": "Option B",
+      "explanation": "'If the team arrives, the author reads the article' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 101,
+  "topicName": "Simple present for schedules",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T101-Q001",
+      "questionText": "Choose the correct simple present for schedules form: We ___ the assignment.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "left",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q002",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the report.",
+      "optionA": "left",
+      "optionB": "will leave",
+      "optionC": "is leaving",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q003",
+      "questionText": "Choose the correct simple present for schedules form: She ___ the report.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "is leaving",
+      "optionD": "will leave",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q004",
+      "questionText": "Choose the correct simple present for schedules form: She ___ the report.",
+      "optionA": "is leaving",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "will leave",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q005",
+      "questionText": "Choose the correct simple present for schedules form: We ___ the test.",
+      "optionA": "left",
+      "optionB": "will leave",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q006",
+      "questionText": "Choose the correct simple present for schedules form: It ___ the test.",
+      "optionA": "left",
+      "optionB": "is leaving",
+      "optionC": "will leave",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q007",
+      "questionText": "Choose the correct simple present for schedules form: We ___ the homework.",
+      "optionA": "leaves",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q008",
+      "questionText": "Choose the correct simple present for schedules form: He ___ the presentation.",
+      "optionA": "is leaving",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q009",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the presentation.",
+      "optionA": "will leave",
+      "optionB": "leaves",
+      "optionC": "is leaving",
+      "optionD": "left",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q010",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the presentation.",
+      "optionA": "leaves",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q011",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the report.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "left",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q012",
+      "questionText": "Choose the correct simple present for schedules form: She ___ the test.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "left",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q013",
+      "questionText": "Choose the correct simple present for schedules form: The professor ___ the presentation.",
+      "optionA": "leaves",
+      "optionB": "is leaving",
+      "optionC": "left",
+      "optionD": "will leave",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q014",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the homework.",
+      "optionA": "leaves",
+      "optionB": "left",
+      "optionC": "is leaving",
+      "optionD": "will leave",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q015",
+      "questionText": "Choose the correct simple present for schedules form: The professor ___ the assignment.",
+      "optionA": "is leaving",
+      "optionB": "will leave",
+      "optionC": "left",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q016",
+      "questionText": "Choose the correct simple present for schedules form: He ___ the homework.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q017",
+      "questionText": "Choose the correct simple present for schedules form: The professor ___ the exam.",
+      "optionA": "is leaving",
+      "optionB": "leaves",
+      "optionC": "left",
+      "optionD": "will leave",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q018",
+      "questionText": "Choose the correct simple present for schedules form: We ___ the project.",
+      "optionA": "is leaving",
+      "optionB": "leaves",
+      "optionC": "will leave",
+      "optionD": "left",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q019",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the document.",
+      "optionA": "left",
+      "optionB": "will leave",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q020",
+      "questionText": "Choose the correct simple present for schedules form: She ___ the report.",
+      "optionA": "is leaving",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q021",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the document.",
+      "optionA": "will leave",
+      "optionB": "leaves",
+      "optionC": "left",
+      "optionD": "is leaving",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q022",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the report.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "left",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q023",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the test.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "is leaving",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q024",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the exam.",
+      "optionA": "leaves",
+      "optionB": "is leaving",
+      "optionC": "will leave",
+      "optionD": "left",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q025",
+      "questionText": "Choose the correct simple present for schedules form: She ___ the report.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "is leaving",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q026",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the project.",
+      "optionA": "leaves",
+      "optionB": "will leave",
+      "optionC": "left",
+      "optionD": "is leaving",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q027",
+      "questionText": "Choose the correct simple present for schedules form: It ___ the report.",
+      "optionA": "leaves",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q028",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the document.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "is leaving",
+      "optionD": "will leave",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q029",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the test.",
+      "optionA": "leaves",
+      "optionB": "is leaving",
+      "optionC": "left",
+      "optionD": "will leave",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q030",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the document.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "left",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q031",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the test.",
+      "optionA": "left",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "will leave",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q032",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the document.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "left",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q033",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the test.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q034",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the exam.",
+      "optionA": "left",
+      "optionB": "will leave",
+      "optionC": "is leaving",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q035",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the homework.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q036",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the document.",
+      "optionA": "leaves",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q037",
+      "questionText": "Choose the correct simple present for schedules form: It ___ the homework.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q038",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the homework.",
+      "optionA": "left",
+      "optionB": "will leave",
+      "optionC": "is leaving",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q039",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the report.",
+      "optionA": "is leaving",
+      "optionB": "left",
+      "optionC": "will leave",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q040",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the exam.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q041",
+      "questionText": "Choose the correct simple present for schedules form: The team ___ the presentation.",
+      "optionA": "will leave",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "is leaving",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q042",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the homework.",
+      "optionA": "leaves",
+      "optionB": "will leave",
+      "optionC": "is leaving",
+      "optionD": "left",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q043",
+      "questionText": "Choose the correct simple present for schedules form: It ___ the essay.",
+      "optionA": "left",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "will leave",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q044",
+      "questionText": "Choose the correct simple present for schedules form: He ___ the homework.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "is leaving",
+      "optionD": "will leave",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q045",
+      "questionText": "Choose the correct simple present for schedules form: He ___ the presentation.",
+      "optionA": "left",
+      "optionB": "is leaving",
+      "optionC": "will leave",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q046",
+      "questionText": "Choose the correct simple present for schedules form: The student ___ the exam.",
+      "optionA": "leaves",
+      "optionB": "will leave",
+      "optionC": "is leaving",
+      "optionD": "left",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q047",
+      "questionText": "Choose the correct simple present for schedules form: It ___ the homework.",
+      "optionA": "is leaving",
+      "optionB": "will leave",
+      "optionC": "left",
+      "optionD": "leaves",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q048",
+      "questionText": "Choose the correct simple present for schedules form: You ___ the document.",
+      "optionA": "will leave",
+      "optionB": "is leaving",
+      "optionC": "leaves",
+      "optionD": "left",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q049",
+      "questionText": "Choose the correct simple present for schedules form: I ___ the exam.",
+      "optionA": "left",
+      "optionB": "leaves",
+      "optionC": "will leave",
+      "optionD": "is leaving",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T101-Q050",
+      "questionText": "Choose the correct simple present for schedules form: We ___ the presentation.",
+      "optionA": "is leaving",
+      "optionB": "left",
+      "optionC": "leaves",
+      "optionD": "will leave",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'leaves' for regular habits, routines, or general truths."
+    }
+  ]
+}

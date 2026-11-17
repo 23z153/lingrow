@@ -1,0 +1,507 @@
+{
+  "topicId": 140,
+  "topicName": "Isn't/aren't",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T140-Q001",
+      "questionText": "They ___ ready for the exam. (Variant 1)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q002",
+      "questionText": "Choose the correct sentence. (Variant 2)",
+      "optionA": "She isn't here.",
+      "optionB": "She doesn't here.",
+      "optionC": "She aren't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option A",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q003",
+      "questionText": "We ___ students at this university. (Variant 3)",
+      "optionA": "are not",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q004",
+      "questionText": "The book ___ on the table. (Variant 4)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q005",
+      "questionText": "Complete: Sarah ___ coming to the meeting. (Variant 5)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q006",
+      "questionText": "They ___ ready for the exam. (Variant 6)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q007",
+      "questionText": "Choose the correct sentence. (Variant 7)",
+      "optionA": "She doesn't here.",
+      "optionB": "She aren't here.",
+      "optionC": "She don't here.",
+      "optionD": "She isn't here.",
+      "correctOption": "Option D",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q008",
+      "questionText": "We ___ students at this university. (Variant 8)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "are not",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q009",
+      "questionText": "The book ___ on the table. (Variant 9)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q010",
+      "questionText": "Complete: The student ___ coming to the meeting. (Variant 10)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q011",
+      "questionText": "They ___ ready for the exam. (Variant 11)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "aren't",
+      "correctOption": "Option D",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q012",
+      "questionText": "Choose the correct sentence. (Variant 12)",
+      "optionA": "She aren't here.",
+      "optionB": "She doesn't here.",
+      "optionC": "She isn't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option C",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q013",
+      "questionText": "We ___ students at this university. (Variant 13)",
+      "optionA": "are not",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q014",
+      "questionText": "The book ___ on the table. (Variant 14)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q015",
+      "questionText": "Complete: The student ___ coming to the meeting. (Variant 15)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q016",
+      "questionText": "They ___ ready for the exam. (Variant 16)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option D",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q017",
+      "questionText": "Choose the correct sentence. (Variant 17)",
+      "optionA": "She doesn't here.",
+      "optionB": "She isn't here.",
+      "optionC": "She aren't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option B",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q018",
+      "questionText": "We ___ students at this university. (Variant 18)",
+      "optionA": "are not",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q019",
+      "questionText": "The book ___ on the table. (Variant 19)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q020",
+      "questionText": "Complete: Sarah ___ coming to the meeting. (Variant 20)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q021",
+      "questionText": "They ___ ready for the exam. (Variant 21)",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q022",
+      "questionText": "Choose the correct sentence. (Variant 22)",
+      "optionA": "She isn't here.",
+      "optionB": "She doesn't here.",
+      "optionC": "She aren't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option A",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q023",
+      "questionText": "We ___ students at this university. (Variant 23)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "are not",
+      "optionD": "aren't",
+      "correctOption": "Option D",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q024",
+      "questionText": "The book ___ on the table. (Variant 24)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q025",
+      "questionText": "Complete: My friend ___ coming to the meeting. (Variant 25)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q026",
+      "questionText": "They ___ ready for the exam. (Variant 26)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q027",
+      "questionText": "Choose the correct sentence. (Variant 27)",
+      "optionA": "She doesn't here.",
+      "optionB": "She don't here.",
+      "optionC": "She isn't here.",
+      "optionD": "She aren't here.",
+      "correctOption": "Option C",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q028",
+      "questionText": "We ___ students at this university. (Variant 28)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "are not",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q029",
+      "questionText": "The book ___ on the table. (Variant 29)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q030",
+      "questionText": "Complete: His brother ___ coming to the meeting. (Variant 30)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q031",
+      "questionText": "They ___ ready for the exam. (Variant 31)",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q032",
+      "questionText": "Choose the correct sentence. (Variant 32)",
+      "optionA": "She aren't here.",
+      "optionB": "She isn't here.",
+      "optionC": "She doesn't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option B",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q033",
+      "questionText": "We ___ students at this university. (Variant 33)",
+      "optionA": "are not",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option D",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q034",
+      "questionText": "The book ___ on the table. (Variant 34)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q035",
+      "questionText": "Complete: Mary ___ coming to the meeting. (Variant 35)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q036",
+      "questionText": "They ___ ready for the exam. (Variant 36)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q037",
+      "questionText": "Choose the correct sentence. (Variant 37)",
+      "optionA": "She doesn't here.",
+      "optionB": "She don't here.",
+      "optionC": "She isn't here.",
+      "optionD": "She aren't here.",
+      "correctOption": "Option C",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q038",
+      "questionText": "We ___ students at this university. (Variant 38)",
+      "optionA": "are not",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q039",
+      "questionText": "The book ___ on the table. (Variant 39)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q040",
+      "questionText": "Complete: The teacher ___ coming to the meeting. (Variant 40)",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q041",
+      "questionText": "They ___ ready for the exam. (Variant 41)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q042",
+      "questionText": "Choose the correct sentence. (Variant 42)",
+      "optionA": "She aren't here.",
+      "optionB": "She isn't here.",
+      "optionC": "She doesn't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option B",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q043",
+      "questionText": "We ___ students at this university. (Variant 43)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "are not",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q044",
+      "questionText": "The book ___ on the table. (Variant 44)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q045",
+      "questionText": "Complete: John ___ coming to the meeting. (Variant 45)",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q046",
+      "questionText": "They ___ ready for the exam. (Variant 46)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q047",
+      "questionText": "Choose the correct sentence. (Variant 47)",
+      "optionA": "She doesn't here.",
+      "optionB": "She isn't here.",
+      "optionC": "She aren't here.",
+      "optionD": "She don't here.",
+      "correctOption": "Option B",
+      "explanation": "Use 'She isn't here' to form the negative verb correctly."
+    },
+    {
+      "questionId": "T140-Q048",
+      "questionText": "We ___ students at this university. (Variant 48)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "are not",
+      "correctOption": "Option A",
+      "explanation": "Use 'aren't' (are not) with plural subjects like 'we', 'they', or plural nouns."
+    },
+    {
+      "questionId": "T140-Q049",
+      "questionText": "The book ___ on the table. (Variant 49)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    },
+    {
+      "questionId": "T140-Q050",
+      "questionText": "Complete: My friend ___ coming to the meeting. (Variant 50)",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "Use 'isn't' (is not) with singular subjects like 'he', 'she', 'it', or singular nouns."
+    }
+  ]
+}

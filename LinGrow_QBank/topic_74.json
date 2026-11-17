@@ -1,0 +1,507 @@
+{
+  "topicId": 74,
+  "topicName": "Linking verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T074-Q001",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She became a doctor.",
+      "optionB": "She drove a car.",
+      "optionC": "She wrote a book.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option A",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q002",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "He",
+      "optionB": "today",
+      "optionC": "tired",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q003",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "seem",
+      "optionB": "catch",
+      "optionC": "kick",
+      "optionD": "throw",
+      "correctOption": "Option A",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q004",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "tastes",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "cake",
+      "correctOption": "Option A",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q005",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She became a doctor.",
+      "optionB": "She wrote a book.",
+      "optionC": "She drove a car.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option A",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q006",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "tired",
+      "optionC": "He",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q007",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "seem",
+      "optionB": "throw",
+      "optionC": "kick",
+      "optionD": "catch",
+      "correctOption": "Option A",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q008",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "The",
+      "optionB": "cake",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option C",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q009",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She drove a car.",
+      "optionB": "She wrote a book.",
+      "optionC": "She called a friend.",
+      "optionD": "She became a doctor.",
+      "correctOption": "Option D",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q010",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "tired",
+      "optionB": "today",
+      "optionC": "He",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q011",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "throw",
+      "optionB": "kick",
+      "optionC": "seem",
+      "optionD": "catch",
+      "correctOption": "Option C",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q012",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "cake",
+      "optionB": "tastes",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option B",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q013",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She became a doctor.",
+      "optionB": "She wrote a book.",
+      "optionC": "She drove a car.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option A",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q014",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "tired",
+      "optionC": "He",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q015",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "throw",
+      "optionB": "kick",
+      "optionC": "seem",
+      "optionD": "catch",
+      "correctOption": "Option C",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q016",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "cake",
+      "correctOption": "Option A",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q017",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She wrote a book.",
+      "optionB": "She called a friend.",
+      "optionC": "She became a doctor.",
+      "optionD": "She drove a car.",
+      "correctOption": "Option C",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q018",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "He",
+      "optionC": "looks",
+      "optionD": "tired",
+      "correctOption": "Option C",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q019",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "catch",
+      "optionB": "seem",
+      "optionC": "kick",
+      "optionD": "throw",
+      "correctOption": "Option B",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q020",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "cake",
+      "optionB": "The",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option C",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q021",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She became a doctor.",
+      "optionB": "She drove a car.",
+      "optionC": "She called a friend.",
+      "optionD": "She wrote a book.",
+      "correctOption": "Option A",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q022",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "looks",
+      "optionC": "He",
+      "optionD": "tired",
+      "correctOption": "Option B",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q023",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "catch",
+      "optionB": "kick",
+      "optionC": "seem",
+      "optionD": "throw",
+      "correctOption": "Option C",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q024",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "cake",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option D",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q025",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She drove a car.",
+      "optionB": "She called a friend.",
+      "optionC": "She wrote a book.",
+      "optionD": "She became a doctor.",
+      "correctOption": "Option D",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q026",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "looks",
+      "optionB": "tired",
+      "optionC": "He",
+      "optionD": "today",
+      "correctOption": "Option A",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q027",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "kick",
+      "optionB": "throw",
+      "optionC": "seem",
+      "optionD": "catch",
+      "correctOption": "Option C",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q028",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "tastes",
+      "optionB": "cake",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option A",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q029",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She drove a car.",
+      "optionB": "She wrote a book.",
+      "optionC": "She called a friend.",
+      "optionD": "She became a doctor.",
+      "correctOption": "Option D",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q030",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "looks",
+      "optionC": "tired",
+      "optionD": "He",
+      "correctOption": "Option B",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q031",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "kick",
+      "optionB": "catch",
+      "optionC": "throw",
+      "optionD": "seem",
+      "correctOption": "Option D",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q032",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "tastes",
+      "optionB": "delicious",
+      "optionC": "cake",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q033",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She wrote a book.",
+      "optionB": "She became a doctor.",
+      "optionC": "She drove a car.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option B",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q034",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "tired",
+      "optionC": "He",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q035",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "kick",
+      "optionB": "catch",
+      "optionC": "throw",
+      "optionD": "seem",
+      "correctOption": "Option D",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q036",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "cake",
+      "optionB": "The",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option C",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q037",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She drove a car.",
+      "optionB": "She became a doctor.",
+      "optionC": "She wrote a book.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option B",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q038",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "tired",
+      "optionB": "He",
+      "optionC": "today",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q039",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "catch",
+      "optionB": "kick",
+      "optionC": "seem",
+      "optionD": "throw",
+      "correctOption": "Option C",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q040",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "cake",
+      "optionD": "delicious",
+      "correctOption": "Option B",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q041",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She called a friend.",
+      "optionB": "She wrote a book.",
+      "optionC": "She drove a car.",
+      "optionD": "She became a doctor.",
+      "correctOption": "Option D",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q042",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "tired",
+      "optionB": "today",
+      "optionC": "looks",
+      "optionD": "He",
+      "correctOption": "Option C",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q043",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "seem",
+      "optionB": "kick",
+      "optionC": "catch",
+      "optionD": "throw",
+      "correctOption": "Option A",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q044",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "delicious",
+      "optionB": "The",
+      "optionC": "cake",
+      "optionD": "tastes",
+      "correctOption": "Option D",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q045",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She wrote a book.",
+      "optionB": "She drove a car.",
+      "optionC": "She became a doctor.",
+      "optionD": "She called a friend.",
+      "correctOption": "Option C",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q046",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "today",
+      "optionB": "tired",
+      "optionC": "He",
+      "optionD": "looks",
+      "correctOption": "Option D",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q047",
+      "questionText": "Which of the following can be a linking verb?",
+      "optionA": "seem",
+      "optionB": "throw",
+      "optionC": "catch",
+      "optionD": "kick",
+      "correctOption": "Option A",
+      "explanation": "'seem' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q048",
+      "questionText": "Identify the linking verb: 'The cake tastes delicious.'",
+      "optionA": "The",
+      "optionB": "cake",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option C",
+      "explanation": "'tastes' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q049",
+      "questionText": "Which sentence contains a linking verb?",
+      "optionA": "She wrote a book.",
+      "optionB": "She called a friend.",
+      "optionC": "She drove a car.",
+      "optionD": "She became a doctor.",
+      "correctOption": "Option D",
+      "explanation": "'She became a doctor' is a linking verb connecting the subject to a descriptor or noun complement."
+    },
+    {
+      "questionId": "T074-Q050",
+      "questionText": "Identify the linking verb: 'He looks tired today.'",
+      "optionA": "looks",
+      "optionB": "He",
+      "optionC": "tired",
+      "optionD": "today",
+      "correctOption": "Option A",
+      "explanation": "'looks' is a linking verb connecting the subject to a descriptor or noun complement."
+    }
+  ]
+}

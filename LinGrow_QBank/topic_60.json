@@ -1,0 +1,507 @@
+{
+  "topicId": 60,
+  "topicName": "Descriptive adjectives",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T060-Q001",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q002",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q003",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q004",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q005",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q006",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q007",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q008",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q009",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q010",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q011",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q012",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q013",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q014",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q015",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q016",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q017",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q018",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q019",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q020",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q021",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q022",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q023",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q024",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q025",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q026",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q027",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q028",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q029",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q030",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q031",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q032",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q033",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q034",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q035",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q036",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q037",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q038",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q039",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q040",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q041",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Sky the blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q042",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q043",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q044",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q045",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The blue sky is beautiful.",
+      "optionC": "The sky blue is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option B",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q046",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The sky blue is beautiful.",
+      "optionB": "Blue the sky is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q047",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "Blue the sky is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q048",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "The blue sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Blue the sky is beautiful.",
+      "optionD": "Sky the blue is beautiful.",
+      "correctOption": "Option A",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q049",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "The sky blue is beautiful.",
+      "optionC": "Sky the blue is beautiful.",
+      "optionD": "The blue sky is beautiful.",
+      "correctOption": "Option D",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T060-Q050",
+      "questionText": "Which sentence uses a descriptive adjective correctly?",
+      "optionA": "Blue the sky is beautiful.",
+      "optionB": "Sky the blue is beautiful.",
+      "optionC": "The blue sky is beautiful.",
+      "optionD": "The sky blue is beautiful.",
+      "correctOption": "Option C",
+      "explanation": "'The blue sky is beautiful' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

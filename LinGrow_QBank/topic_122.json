@@ -1,0 +1,507 @@
+{
+  "topicId": 122,
+  "topicName": "Who",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T122-Q001",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q002",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q003",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q004",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q005",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q006",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q007",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q008",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q009",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q010",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q011",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q012",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q013",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q014",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "Whose",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q015",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q016",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q017",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q018",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q019",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q020",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q021",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q022",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q023",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "What",
+      "optionC": "Who",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q024",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q025",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q026",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "Whose",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q027",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whose",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q028",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q029",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q030",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whose",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q031",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q032",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q033",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q034",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q035",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q036",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q037",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q038",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q039",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q040",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whose",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q041",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q042",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q043",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q044",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q045",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q046",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q047",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q048",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "Whose",
+      "correctOption": "Option C",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q049",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Who' to ask about a person."
+    },
+    {
+      "questionId": "T122-Q050",
+      "questionText": "Fill in the blank: ______ is that man?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Who' to ask about a person."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 91,
+  "topicName": "Present Continuous",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T091-Q001",
+      "questionText": "Mary _____ writing a letter right now. (1)",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q002",
+      "questionText": "Mary _____ going to the park right now. (2)",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q003",
+      "questionText": "We _____ going to the park right now. (3)",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q004",
+      "questionText": "We _____ writing a letter right now. (4)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q005",
+      "questionText": "John _____ reading a book right now. (5)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q006",
+      "questionText": "The students _____ working hard right now. (6)",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q007",
+      "questionText": "We _____ writing a letter right now. (7)",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q008",
+      "questionText": "It _____ going to the park right now. (8)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q009",
+      "questionText": "The teacher _____ reading a book right now. (9)",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q010",
+      "questionText": "It _____ reading a book right now. (10)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q011",
+      "questionText": "The teacher _____ eating an apple right now. (11)",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q012",
+      "questionText": "He _____ working hard right now. (12)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q013",
+      "questionText": "The students _____ working hard right now. (13)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q014",
+      "questionText": "We _____ writing a letter right now. (14)",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q015",
+      "questionText": "He _____ playing tennis right now. (15)",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q016",
+      "questionText": "We _____ watching TV right now. (16)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q017",
+      "questionText": "He _____ going to the park right now. (17)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q018",
+      "questionText": "The students _____ working hard right now. (18)",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q019",
+      "questionText": "You _____ studying English right now. (19)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q020",
+      "questionText": "He _____ going to the park right now. (20)",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q021",
+      "questionText": "We _____ eating an apple right now. (21)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q022",
+      "questionText": "He _____ eating an apple right now. (22)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q023",
+      "questionText": "He _____ playing tennis right now. (23)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q024",
+      "questionText": "John _____ studying English right now. (24)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q025",
+      "questionText": "I _____ listening to music right now. (25)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'am' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q026",
+      "questionText": "She _____ studying English right now. (26)",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q027",
+      "questionText": "The teacher _____ sleeping well right now. (27)",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q028",
+      "questionText": "Mary _____ writing a letter right now. (28)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q029",
+      "questionText": "You _____ sleeping well right now. (29)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q030",
+      "questionText": "They _____ going to the park right now. (30)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q031",
+      "questionText": "The students _____ eating an apple right now. (31)",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q032",
+      "questionText": "He _____ going to the park right now. (32)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q033",
+      "questionText": "The teacher _____ studying English right now. (33)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q034",
+      "questionText": "They _____ reading a book right now. (34)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q035",
+      "questionText": "I _____ studying English right now. (35)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'am' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q036",
+      "questionText": "Mary _____ going to the park right now. (36)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q037",
+      "questionText": "You _____ sleeping well right now. (37)",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q038",
+      "questionText": "It _____ playing tennis right now. (38)",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q039",
+      "questionText": "The teacher _____ going to the park right now. (39)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q040",
+      "questionText": "The students _____ sleeping well right now. (40)",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q041",
+      "questionText": "John _____ going to the park right now. (41)",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q042",
+      "questionText": "We _____ eating an apple right now. (42)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q043",
+      "questionText": "John _____ playing tennis right now. (43)",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q044",
+      "questionText": "I _____ watching TV right now. (44)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "Present Continuous (be + verb-ing) uses 'am' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q045",
+      "questionText": "Mary _____ working hard right now. (45)",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q046",
+      "questionText": "We _____ listening to music right now. (46)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q047",
+      "questionText": "The students _____ reading a book right now. (47)",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'are' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q048",
+      "questionText": "The teacher _____ listening to music right now. (48)",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q049",
+      "questionText": "He _____ playing tennis right now. (49)",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    },
+    {
+      "questionId": "T091-Q050",
+      "questionText": "He _____ going to the park right now. (50)",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "Present Continuous (be + verb-ing) uses 'is' for actions happening now or planned future events."
+    }
+  ]
+}

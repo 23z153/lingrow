@@ -1,0 +1,507 @@
+{
+  "topicId": 212,
+  "topicName": "Passive voice",
+  "unit": "UNIT 22 — ACTIVE & PASSIVE VOICE",
+  "questions": [
+    {
+      "questionId": "T212-Q001",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library discovers the paper. (Variant 1)",
+      "optionB": "The paper is explained by the professor.",
+      "optionC": "He runs fast. (Variant 1)",
+      "optionD": "She will read. (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'The paper is explained by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q002",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook explains the paper. (Variant 2)",
+      "optionB": "He runs fast. (Variant 2)",
+      "optionC": "She will read. (Variant 2)",
+      "optionD": "The paper was discovered by a bright student.",
+      "correctOption": "Option D",
+      "explanation": "'The paper was discovered by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q003",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers explains the paper. (Variant 3)",
+      "optionB": "He runs fast. (Variant 3)",
+      "optionC": "The paper has been analyzed by the professor.",
+      "optionD": "She will read. (Variant 3)",
+      "correctOption": "Option C",
+      "explanation": "'The paper has been analyzed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q004",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library completes the paper. (Variant 4)",
+      "optionB": "He runs fast. (Variant 4)",
+      "optionC": "The paper has been analyzed by the professor.",
+      "optionD": "She will read. (Variant 4)",
+      "correctOption": "Option C",
+      "explanation": "'The paper has been analyzed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q005",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook reviews the paper. (Variant 5)",
+      "optionB": "He runs fast. (Variant 5)",
+      "optionC": "She will read. (Variant 5)",
+      "optionD": "The paper has been analyzed by the professor.",
+      "correctOption": "Option D",
+      "explanation": "'The paper has been analyzed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q006",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library reviews the paper. (Variant 6)",
+      "optionB": "The paper was discovered by the textbook.",
+      "optionC": "He runs fast. (Variant 6)",
+      "optionD": "She will read. (Variant 6)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was discovered by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q007",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library completes the paper. (Variant 7)",
+      "optionB": "He runs fast. (Variant 7)",
+      "optionC": "The paper was discovered by a bright student.",
+      "optionD": "She will read. (Variant 7)",
+      "correctOption": "Option C",
+      "explanation": "'The paper was discovered by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q008",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook explains the paper. (Variant 8)",
+      "optionB": "The paper was discovered by the professor.",
+      "optionC": "He runs fast. (Variant 8)",
+      "optionD": "She will read. (Variant 8)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was discovered by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q009",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor analyzes the paper. (Variant 9)",
+      "optionB": "The paper will be reviewed by the textbook.",
+      "optionC": "He runs fast. (Variant 9)",
+      "optionD": "She will read. (Variant 9)",
+      "correctOption": "Option B",
+      "explanation": "'The paper will be reviewed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q010",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor reviews the paper. (Variant 10)",
+      "optionB": "The paper was discovered by the university library.",
+      "optionC": "He runs fast. (Variant 10)",
+      "optionD": "She will read. (Variant 10)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was discovered by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q011",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper will be reviewed by the textbook.",
+      "optionB": "The textbook completes the paper. (Variant 11)",
+      "optionC": "He runs fast. (Variant 11)",
+      "optionD": "She will read. (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'The paper will be reviewed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q012",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper will be reviewed by the professor.",
+      "optionB": "The textbook analyzes the paper. (Variant 12)",
+      "optionC": "He runs fast. (Variant 12)",
+      "optionD": "She will read. (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'The paper will be reviewed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q013",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook completes the paper. (Variant 13)",
+      "optionB": "The paper has been analyzed by the university library.",
+      "optionC": "He runs fast. (Variant 13)",
+      "optionD": "She will read. (Variant 13)",
+      "correctOption": "Option B",
+      "explanation": "'The paper has been analyzed by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q014",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper has been analyzed by a bright student.",
+      "optionB": "Many researchers discovers the paper. (Variant 14)",
+      "optionC": "He runs fast. (Variant 14)",
+      "optionD": "She will read. (Variant 14)",
+      "correctOption": "Option A",
+      "explanation": "'The paper has been analyzed by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q015",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor reviews the paper. (Variant 15)",
+      "optionB": "He runs fast. (Variant 15)",
+      "optionC": "The paper will be reviewed by the professor.",
+      "optionD": "She will read. (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'The paper will be reviewed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q016",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook analyzes the paper. (Variant 16)",
+      "optionB": "The paper was discovered by many researchers.",
+      "optionC": "He runs fast. (Variant 16)",
+      "optionD": "She will read. (Variant 16)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was discovered by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q017",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor explains the paper. (Variant 17)",
+      "optionB": "He runs fast. (Variant 17)",
+      "optionC": "The paper will be reviewed by many researchers.",
+      "optionD": "She will read. (Variant 17)",
+      "correctOption": "Option C",
+      "explanation": "'The paper will be reviewed by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q018",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers analyzes the paper. (Variant 18)",
+      "optionB": "He runs fast. (Variant 18)",
+      "optionC": "The paper has been analyzed by the university library.",
+      "optionD": "She will read. (Variant 18)",
+      "correctOption": "Option C",
+      "explanation": "'The paper has been analyzed by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q019",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student reviews the paper. (Variant 19)",
+      "optionB": "He runs fast. (Variant 19)",
+      "optionC": "The paper was completed by the university library.",
+      "optionD": "She will read. (Variant 19)",
+      "correctOption": "Option C",
+      "explanation": "'The paper was completed by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q020",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library analyzes the paper. (Variant 20)",
+      "optionB": "The paper was completed by the textbook.",
+      "optionC": "He runs fast. (Variant 20)",
+      "optionD": "She will read. (Variant 20)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was completed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q021",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers discovers the paper. (Variant 21)",
+      "optionB": "He runs fast. (Variant 21)",
+      "optionC": "The paper has been analyzed by the professor.",
+      "optionD": "She will read. (Variant 21)",
+      "correctOption": "Option C",
+      "explanation": "'The paper has been analyzed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q022",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers completes the paper. (Variant 22)",
+      "optionB": "He runs fast. (Variant 22)",
+      "optionC": "The paper was discovered by many researchers.",
+      "optionD": "She will read. (Variant 22)",
+      "correctOption": "Option C",
+      "explanation": "'The paper was discovered by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q023",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook completes the paper. (Variant 23)",
+      "optionB": "The paper will be reviewed by a bright student.",
+      "optionC": "He runs fast. (Variant 23)",
+      "optionD": "She will read. (Variant 23)",
+      "correctOption": "Option B",
+      "explanation": "'The paper will be reviewed by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q024",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library completes the paper. (Variant 24)",
+      "optionB": "He runs fast. (Variant 24)",
+      "optionC": "She will read. (Variant 24)",
+      "optionD": "The paper was completed by the professor.",
+      "correctOption": "Option D",
+      "explanation": "'The paper was completed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q025",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student discovers the paper. (Variant 25)",
+      "optionB": "The paper has been analyzed by the textbook.",
+      "optionC": "He runs fast. (Variant 25)",
+      "optionD": "She will read. (Variant 25)",
+      "correctOption": "Option B",
+      "explanation": "'The paper has been analyzed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q026",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor explains the paper. (Variant 26)",
+      "optionB": "The paper is explained by a bright student.",
+      "optionC": "He runs fast. (Variant 26)",
+      "optionD": "She will read. (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'The paper is explained by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q027",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor analyzes the paper. (Variant 27)",
+      "optionB": "He runs fast. (Variant 27)",
+      "optionC": "She will read. (Variant 27)",
+      "optionD": "The paper was discovered by the university library.",
+      "correctOption": "Option D",
+      "explanation": "'The paper was discovered by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q028",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper was discovered by many researchers.",
+      "optionB": "A bright student discovers the paper. (Variant 28)",
+      "optionC": "He runs fast. (Variant 28)",
+      "optionD": "She will read. (Variant 28)",
+      "correctOption": "Option A",
+      "explanation": "'The paper was discovered by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q029",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper was discovered by a bright student.",
+      "optionB": "The professor discovers the paper. (Variant 29)",
+      "optionC": "He runs fast. (Variant 29)",
+      "optionD": "She will read. (Variant 29)",
+      "correctOption": "Option A",
+      "explanation": "'The paper was discovered by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q030",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student reviews the paper. (Variant 30)",
+      "optionB": "The paper is explained by the textbook.",
+      "optionC": "He runs fast. (Variant 30)",
+      "optionD": "She will read. (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'The paper is explained by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q031",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers completes the paper. (Variant 31)",
+      "optionB": "The paper was completed by the professor.",
+      "optionC": "He runs fast. (Variant 31)",
+      "optionD": "She will read. (Variant 31)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was completed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q032",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper will be reviewed by the textbook.",
+      "optionB": "The university library explains the paper. (Variant 32)",
+      "optionC": "He runs fast. (Variant 32)",
+      "optionD": "She will read. (Variant 32)",
+      "correctOption": "Option A",
+      "explanation": "'The paper will be reviewed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q033",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook discovers the paper. (Variant 33)",
+      "optionB": "The paper will be reviewed by many researchers.",
+      "optionC": "He runs fast. (Variant 33)",
+      "optionD": "She will read. (Variant 33)",
+      "correctOption": "Option B",
+      "explanation": "'The paper will be reviewed by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q034",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper was discovered by the university library.",
+      "optionB": "The textbook completes the paper. (Variant 34)",
+      "optionC": "He runs fast. (Variant 34)",
+      "optionD": "She will read. (Variant 34)",
+      "correctOption": "Option A",
+      "explanation": "'The paper was discovered by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q035",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper was completed by many researchers.",
+      "optionB": "A bright student completes the paper. (Variant 35)",
+      "optionC": "He runs fast. (Variant 35)",
+      "optionD": "She will read. (Variant 35)",
+      "correctOption": "Option A",
+      "explanation": "'The paper was completed by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q036",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper will be reviewed by the university library.",
+      "optionB": "The professor completes the paper. (Variant 36)",
+      "optionC": "He runs fast. (Variant 36)",
+      "optionD": "She will read. (Variant 36)",
+      "correctOption": "Option A",
+      "explanation": "'The paper will be reviewed by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q037",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library reviews the paper. (Variant 37)",
+      "optionB": "He runs fast. (Variant 37)",
+      "optionC": "The paper will be reviewed by the professor.",
+      "optionD": "She will read. (Variant 37)",
+      "correctOption": "Option C",
+      "explanation": "'The paper will be reviewed by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q038",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student analyzes the paper. (Variant 38)",
+      "optionB": "He runs fast. (Variant 38)",
+      "optionC": "She will read. (Variant 38)",
+      "optionD": "The paper will be reviewed by the university library.",
+      "correctOption": "Option D",
+      "explanation": "'The paper will be reviewed by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q039",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student explains the paper. (Variant 39)",
+      "optionB": "He runs fast. (Variant 39)",
+      "optionC": "She will read. (Variant 39)",
+      "optionD": "The paper was completed by the textbook.",
+      "correctOption": "Option D",
+      "explanation": "'The paper was completed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q040",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library reviews the paper. (Variant 40)",
+      "optionB": "He runs fast. (Variant 40)",
+      "optionC": "The paper was discovered by the university library.",
+      "optionD": "She will read. (Variant 40)",
+      "correctOption": "Option C",
+      "explanation": "'The paper was discovered by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q041",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The university library reviews the paper. (Variant 41)",
+      "optionB": "He runs fast. (Variant 41)",
+      "optionC": "She will read. (Variant 41)",
+      "optionD": "The paper has been analyzed by the textbook.",
+      "correctOption": "Option D",
+      "explanation": "'The paper has been analyzed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q042",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper was completed by a bright student.",
+      "optionB": "Many researchers completes the paper. (Variant 42)",
+      "optionC": "He runs fast. (Variant 42)",
+      "optionD": "She will read. (Variant 42)",
+      "correctOption": "Option A",
+      "explanation": "'The paper was completed by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q043",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers analyzes the paper. (Variant 43)",
+      "optionB": "The paper was completed by the textbook.",
+      "optionC": "He runs fast. (Variant 43)",
+      "optionD": "She will read. (Variant 43)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was completed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q044",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The paper is explained by the professor.",
+      "optionB": "A bright student reviews the paper. (Variant 44)",
+      "optionC": "He runs fast. (Variant 44)",
+      "optionD": "She will read. (Variant 44)",
+      "correctOption": "Option A",
+      "explanation": "'The paper is explained by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q045",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The professor analyzes the paper. (Variant 45)",
+      "optionB": "The paper is explained by the university library.",
+      "optionC": "He runs fast. (Variant 45)",
+      "optionD": "She will read. (Variant 45)",
+      "correctOption": "Option B",
+      "explanation": "'The paper is explained by the university library' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q046",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook reviews the paper. (Variant 46)",
+      "optionB": "He runs fast. (Variant 46)",
+      "optionC": "She will read. (Variant 46)",
+      "optionD": "The paper is explained by the textbook.",
+      "correctOption": "Option D",
+      "explanation": "'The paper is explained by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q047",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers reviews the paper. (Variant 47)",
+      "optionB": "The paper was discovered by the professor.",
+      "optionC": "He runs fast. (Variant 47)",
+      "optionD": "She will read. (Variant 47)",
+      "correctOption": "Option B",
+      "explanation": "'The paper was discovered by the professor' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q048",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "A bright student reviews the paper. (Variant 48)",
+      "optionB": "He runs fast. (Variant 48)",
+      "optionC": "She will read. (Variant 48)",
+      "optionD": "The paper was completed by a bright student.",
+      "correctOption": "Option D",
+      "explanation": "'The paper was completed by a bright student' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q049",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "Many researchers analyzes the paper. (Variant 49)",
+      "optionB": "He runs fast. (Variant 49)",
+      "optionC": "She will read. (Variant 49)",
+      "optionD": "The paper has been analyzed by many researchers.",
+      "correctOption": "Option D",
+      "explanation": "'The paper has been analyzed by many researchers' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T212-Q050",
+      "questionText": "Which sentence is in the passive voice?",
+      "optionA": "The textbook discovers the paper. (Variant 50)",
+      "optionB": "He runs fast. (Variant 50)",
+      "optionC": "The paper will be reviewed by the textbook.",
+      "optionD": "She will read. (Variant 50)",
+      "correctOption": "Option C",
+      "explanation": "'The paper will be reviewed by the textbook' is in passive voice (be + past participle), focusing on the action or object."
+    }
+  ]
+}

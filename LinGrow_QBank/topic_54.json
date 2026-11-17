@@ -1,0 +1,507 @@
+{
+  "topicId": 54,
+  "topicName": "A few/a little",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T054-Q001",
+      "questionText": "I have ___ friends 0 coming over tonight.",
+      "optionA": "a few",
+      "optionB": "little",
+      "optionC": "much",
+      "optionD": "a little",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q002",
+      "questionText": "Can I have ___ sugar 1 in my tea?",
+      "optionA": "a little",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q003",
+      "questionText": "We only have ___ minutes 2 left.",
+      "optionA": "a little",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "less",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q004",
+      "questionText": "She added ___ salt 3 to the soup.",
+      "optionA": "several",
+      "optionB": "a little",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q005",
+      "questionText": "There are only ___ tickets 4 available.",
+      "optionA": "less",
+      "optionB": "a little",
+      "optionC": "a few",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q006",
+      "questionText": "I have ___ friends 5 coming over tonight.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "much",
+      "optionD": "little",
+      "correctOption": "Option B",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q007",
+      "questionText": "Can I have ___ sugar 6 in my tea?",
+      "optionA": "a little",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "few",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q008",
+      "questionText": "We only have ___ minutes 7 left.",
+      "optionA": "much",
+      "optionB": "a few",
+      "optionC": "a little",
+      "optionD": "less",
+      "correctOption": "Option B",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q009",
+      "questionText": "She added ___ salt 8 to the soup.",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q010",
+      "questionText": "There are only ___ tickets 9 available.",
+      "optionA": "a little",
+      "optionB": "much",
+      "optionC": "less",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q011",
+      "questionText": "I have ___ friends 10 coming over tonight.",
+      "optionA": "much",
+      "optionB": "a little",
+      "optionC": "a few",
+      "optionD": "little",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q012",
+      "questionText": "Can I have ___ sugar 11 in my tea?",
+      "optionA": "a few",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "a little",
+      "correctOption": "Option D",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q013",
+      "questionText": "We only have ___ minutes 12 left.",
+      "optionA": "a little",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "less",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q014",
+      "questionText": "She added ___ salt 13 to the soup.",
+      "optionA": "several",
+      "optionB": "a little",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q015",
+      "questionText": "There are only ___ tickets 14 available.",
+      "optionA": "much",
+      "optionB": "less",
+      "optionC": "a few",
+      "optionD": "a little",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q016",
+      "questionText": "I have ___ friends 15 coming over tonight.",
+      "optionA": "a few",
+      "optionB": "little",
+      "optionC": "much",
+      "optionD": "a little",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q017",
+      "questionText": "Can I have ___ sugar 16 in my tea?",
+      "optionA": "many",
+      "optionB": "a little",
+      "optionC": "few",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q018",
+      "questionText": "We only have ___ minutes 17 left.",
+      "optionA": "much",
+      "optionB": "less",
+      "optionC": "a little",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q019",
+      "questionText": "She added ___ salt 18 to the soup.",
+      "optionA": "many",
+      "optionB": "a little",
+      "optionC": "several",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q020",
+      "questionText": "There are only ___ tickets 19 available.",
+      "optionA": "a few",
+      "optionB": "less",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q021",
+      "questionText": "I have ___ friends 20 coming over tonight.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "little",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q022",
+      "questionText": "Can I have ___ sugar 21 in my tea?",
+      "optionA": "many",
+      "optionB": "a little",
+      "optionC": "few",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q023",
+      "questionText": "We only have ___ minutes 22 left.",
+      "optionA": "less",
+      "optionB": "a little",
+      "optionC": "much",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q024",
+      "questionText": "She added ___ salt 23 to the soup.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "many",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q025",
+      "questionText": "There are only ___ tickets 24 available.",
+      "optionA": "much",
+      "optionB": "a little",
+      "optionC": "less",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q026",
+      "questionText": "I have ___ friends 25 coming over tonight.",
+      "optionA": "little",
+      "optionB": "a little",
+      "optionC": "much",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q027",
+      "questionText": "Can I have ___ sugar 26 in my tea?",
+      "optionA": "few",
+      "optionB": "a little",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q028",
+      "questionText": "We only have ___ minutes 27 left.",
+      "optionA": "a few",
+      "optionB": "less",
+      "optionC": "much",
+      "optionD": "a little",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q029",
+      "questionText": "She added ___ salt 28 to the soup.",
+      "optionA": "several",
+      "optionB": "a few",
+      "optionC": "a little",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q030",
+      "questionText": "There are only ___ tickets 29 available.",
+      "optionA": "less",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "a little",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q031",
+      "questionText": "I have ___ friends 30 coming over tonight.",
+      "optionA": "a little",
+      "optionB": "little",
+      "optionC": "much",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q032",
+      "questionText": "Can I have ___ sugar 31 in my tea?",
+      "optionA": "few",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "a few",
+      "correctOption": "Option C",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q033",
+      "questionText": "We only have ___ minutes 32 left.",
+      "optionA": "a little",
+      "optionB": "less",
+      "optionC": "much",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q034",
+      "questionText": "She added ___ salt 33 to the soup.",
+      "optionA": "many",
+      "optionB": "a little",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q035",
+      "questionText": "There are only ___ tickets 34 available.",
+      "optionA": "a few",
+      "optionB": "less",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q036",
+      "questionText": "I have ___ friends 35 coming over tonight.",
+      "optionA": "a few",
+      "optionB": "little",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q037",
+      "questionText": "Can I have ___ sugar 36 in my tea?",
+      "optionA": "a little",
+      "optionB": "few",
+      "optionC": "a few",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q038",
+      "questionText": "We only have ___ minutes 37 left.",
+      "optionA": "less",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q039",
+      "questionText": "She added ___ salt 38 to the soup.",
+      "optionA": "several",
+      "optionB": "a little",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q040",
+      "questionText": "There are only ___ tickets 39 available.",
+      "optionA": "a little",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "less",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q041",
+      "questionText": "I have ___ friends 40 coming over tonight.",
+      "optionA": "little",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "a little",
+      "correctOption": "Option C",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q042",
+      "questionText": "Can I have ___ sugar 41 in my tea?",
+      "optionA": "few",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "a few",
+      "correctOption": "Option C",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q043",
+      "questionText": "We only have ___ minutes 42 left.",
+      "optionA": "less",
+      "optionB": "a little",
+      "optionC": "much",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q044",
+      "questionText": "She added ___ salt 43 to the soup.",
+      "optionA": "a little",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q045",
+      "questionText": "There are only ___ tickets 44 available.",
+      "optionA": "a few",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "less",
+      "correctOption": "Option A",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q046",
+      "questionText": "I have ___ friends 45 coming over tonight.",
+      "optionA": "little",
+      "optionB": "a few",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q047",
+      "questionText": "Can I have ___ sugar 46 in my tea?",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "many",
+      "optionD": "few",
+      "correctOption": "Option A",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q048",
+      "questionText": "We only have ___ minutes 47 left.",
+      "optionA": "less",
+      "optionB": "a few",
+      "optionC": "much",
+      "optionD": "a little",
+      "correctOption": "Option B",
+      "explanation": "Use 'few / a few' with countable nouns."
+    },
+    {
+      "questionId": "T054-Q049",
+      "questionText": "She added ___ salt 48 to the soup.",
+      "optionA": "many",
+      "optionB": "several",
+      "optionC": "a few",
+      "optionD": "a little",
+      "correctOption": "Option D",
+      "explanation": "Use 'little / a little' with uncountable nouns."
+    },
+    {
+      "questionId": "T054-Q050",
+      "questionText": "There are only ___ tickets 49 available.",
+      "optionA": "a little",
+      "optionB": "much",
+      "optionC": "less",
+      "optionD": "a few",
+      "correctOption": "Option D",
+      "explanation": "Use 'few / a few' with countable nouns."
+    }
+  ]
+}

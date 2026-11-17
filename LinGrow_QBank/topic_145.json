@@ -1,0 +1,507 @@
+{
+  "topicId": 145,
+  "topicName": "Double negatives",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T145-Q001",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 1)",
+      "optionA": "I haven't gone anywhere.",
+      "optionB": "I haven't gone nowhere.",
+      "optionC": "We don't need no education.",
+      "optionD": "I didn't do nothing.",
+      "correctOption": "Option A",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q002",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 2)",
+      "optionA": "He don't have any friends.",
+      "optionB": "He doesn't has no friends.",
+      "optionC": "He doesn't have any friends.",
+      "optionD": "He have no friends.",
+      "correctOption": "Option C",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q003",
+      "questionText": "Which is incorrect? (Variant 3)",
+      "optionA": "She couldn't see anything.",
+      "optionB": "I can't get no satisfaction.",
+      "optionC": "I can't get any satisfaction.",
+      "optionD": "I got no satisfaction.",
+      "correctOption": "Option B",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q004",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 4)",
+      "optionA": "We didn't see anybody.",
+      "optionB": "We saw nobody.",
+      "optionC": "Both A and B",
+      "optionD": "We didn't saw anybody.",
+      "correctOption": "Option C",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q005",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 5)",
+      "optionA": "I know nothing.",
+      "optionB": "I don't know anything.",
+      "optionC": "I don't know nothing.",
+      "optionD": "She doesn't have any money.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q006",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 6)",
+      "optionA": "I haven't gone nowhere.",
+      "optionB": "I haven't gone anywhere.",
+      "optionC": "I didn't do nothing.",
+      "optionD": "We don't need no education.",
+      "correctOption": "Option B",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q007",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 7)",
+      "optionA": "He have no friends.",
+      "optionB": "He don't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He doesn't have any friends.",
+      "correctOption": "Option D",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q008",
+      "questionText": "Which is incorrect? (Variant 8)",
+      "optionA": "She couldn't see anything.",
+      "optionB": "I got no satisfaction.",
+      "optionC": "I can't get any satisfaction.",
+      "optionD": "I can't get no satisfaction.",
+      "correctOption": "Option D",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q009",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 9)",
+      "optionA": "Both A and B",
+      "optionB": "We didn't see anybody.",
+      "optionC": "We didn't saw anybody.",
+      "optionD": "We saw nobody.",
+      "correctOption": "Option A",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q010",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 10)",
+      "optionA": "I don't know anything.",
+      "optionB": "I know nothing.",
+      "optionC": "I don't know nothing.",
+      "optionD": "She doesn't have any money.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q011",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 11)",
+      "optionA": "I didn't do nothing.",
+      "optionB": "I haven't gone anywhere.",
+      "optionC": "I haven't gone nowhere.",
+      "optionD": "We don't need no education.",
+      "correctOption": "Option B",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q012",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 12)",
+      "optionA": "He doesn't have any friends.",
+      "optionB": "He have no friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He don't have any friends.",
+      "correctOption": "Option A",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q013",
+      "questionText": "Which is incorrect? (Variant 13)",
+      "optionA": "I can't get any satisfaction.",
+      "optionB": "She couldn't see anything.",
+      "optionC": "I got no satisfaction.",
+      "optionD": "I can't get no satisfaction.",
+      "correctOption": "Option D",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q014",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 14)",
+      "optionA": "We saw nobody.",
+      "optionB": "Both A and B",
+      "optionC": "We didn't saw anybody.",
+      "optionD": "We didn't see anybody.",
+      "correctOption": "Option B",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q015",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 15)",
+      "optionA": "I don't know anything.",
+      "optionB": "She doesn't have any money.",
+      "optionC": "I know nothing.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q016",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 16)",
+      "optionA": "I haven't gone nowhere.",
+      "optionB": "We don't need no education.",
+      "optionC": "I didn't do nothing.",
+      "optionD": "I haven't gone anywhere.",
+      "correctOption": "Option D",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q017",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 17)",
+      "optionA": "He have no friends.",
+      "optionB": "He doesn't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He don't have any friends.",
+      "correctOption": "Option B",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q018",
+      "questionText": "Which is incorrect? (Variant 18)",
+      "optionA": "I can't get any satisfaction.",
+      "optionB": "I got no satisfaction.",
+      "optionC": "She couldn't see anything.",
+      "optionD": "I can't get no satisfaction.",
+      "correctOption": "Option D",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q019",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 19)",
+      "optionA": "Both A and B",
+      "optionB": "We didn't saw anybody.",
+      "optionC": "We didn't see anybody.",
+      "optionD": "We saw nobody.",
+      "correctOption": "Option A",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q020",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 20)",
+      "optionA": "I know nothing.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I don't know anything.",
+      "optionD": "She doesn't have any money.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q021",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 21)",
+      "optionA": "I haven't gone nowhere.",
+      "optionB": "I haven't gone anywhere.",
+      "optionC": "I didn't do nothing.",
+      "optionD": "We don't need no education.",
+      "correctOption": "Option B",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q022",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 22)",
+      "optionA": "He don't have any friends.",
+      "optionB": "He doesn't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He have no friends.",
+      "correctOption": "Option B",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q023",
+      "questionText": "Which is incorrect? (Variant 23)",
+      "optionA": "She couldn't see anything.",
+      "optionB": "I got no satisfaction.",
+      "optionC": "I can't get no satisfaction.",
+      "optionD": "I can't get any satisfaction.",
+      "correctOption": "Option C",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q024",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 24)",
+      "optionA": "We didn't see anybody.",
+      "optionB": "We didn't saw anybody.",
+      "optionC": "Both A and B",
+      "optionD": "We saw nobody.",
+      "correctOption": "Option C",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q025",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 25)",
+      "optionA": "She doesn't have any money.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I know nothing.",
+      "optionD": "I don't know anything.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q026",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 26)",
+      "optionA": "I haven't gone anywhere.",
+      "optionB": "I haven't gone nowhere.",
+      "optionC": "We don't need no education.",
+      "optionD": "I didn't do nothing.",
+      "correctOption": "Option A",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q027",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 27)",
+      "optionA": "He doesn't have any friends.",
+      "optionB": "He don't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He have no friends.",
+      "correctOption": "Option A",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q028",
+      "questionText": "Which is incorrect? (Variant 28)",
+      "optionA": "I can't get no satisfaction.",
+      "optionB": "She couldn't see anything.",
+      "optionC": "I got no satisfaction.",
+      "optionD": "I can't get any satisfaction.",
+      "correctOption": "Option A",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q029",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 29)",
+      "optionA": "Both A and B",
+      "optionB": "We didn't saw anybody.",
+      "optionC": "We saw nobody.",
+      "optionD": "We didn't see anybody.",
+      "correctOption": "Option A",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q030",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 30)",
+      "optionA": "She doesn't have any money.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I know nothing.",
+      "optionD": "I don't know anything.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q031",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 31)",
+      "optionA": "I haven't gone nowhere.",
+      "optionB": "I didn't do nothing.",
+      "optionC": "We don't need no education.",
+      "optionD": "I haven't gone anywhere.",
+      "correctOption": "Option D",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q032",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 32)",
+      "optionA": "He doesn't has no friends.",
+      "optionB": "He have no friends.",
+      "optionC": "He don't have any friends.",
+      "optionD": "He doesn't have any friends.",
+      "correctOption": "Option D",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q033",
+      "questionText": "Which is incorrect? (Variant 33)",
+      "optionA": "I can't get no satisfaction.",
+      "optionB": "I can't get any satisfaction.",
+      "optionC": "I got no satisfaction.",
+      "optionD": "She couldn't see anything.",
+      "correctOption": "Option A",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q034",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 34)",
+      "optionA": "Both A and B",
+      "optionB": "We didn't saw anybody.",
+      "optionC": "We saw nobody.",
+      "optionD": "We didn't see anybody.",
+      "correctOption": "Option A",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q035",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 35)",
+      "optionA": "She doesn't have any money.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I don't know anything.",
+      "optionD": "I know nothing.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q036",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 36)",
+      "optionA": "I didn't do nothing.",
+      "optionB": "We don't need no education.",
+      "optionC": "I haven't gone nowhere.",
+      "optionD": "I haven't gone anywhere.",
+      "correctOption": "Option D",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q037",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 37)",
+      "optionA": "He don't have any friends.",
+      "optionB": "He have no friends.",
+      "optionC": "He doesn't have any friends.",
+      "optionD": "He doesn't has no friends.",
+      "correctOption": "Option C",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q038",
+      "questionText": "Which is incorrect? (Variant 38)",
+      "optionA": "I got no satisfaction.",
+      "optionB": "I can't get any satisfaction.",
+      "optionC": "She couldn't see anything.",
+      "optionD": "I can't get no satisfaction.",
+      "correctOption": "Option D",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q039",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 39)",
+      "optionA": "We didn't see anybody.",
+      "optionB": "We didn't saw anybody.",
+      "optionC": "We saw nobody.",
+      "optionD": "Both A and B",
+      "correctOption": "Option D",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q040",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 40)",
+      "optionA": "She doesn't have any money.",
+      "optionB": "I don't know anything.",
+      "optionC": "I know nothing.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q041",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 41)",
+      "optionA": "I didn't do nothing.",
+      "optionB": "I haven't gone nowhere.",
+      "optionC": "We don't need no education.",
+      "optionD": "I haven't gone anywhere.",
+      "correctOption": "Option D",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q042",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 42)",
+      "optionA": "He have no friends.",
+      "optionB": "He doesn't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He don't have any friends.",
+      "correctOption": "Option B",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q043",
+      "questionText": "Which is incorrect? (Variant 43)",
+      "optionA": "I got no satisfaction.",
+      "optionB": "I can't get any satisfaction.",
+      "optionC": "She couldn't see anything.",
+      "optionD": "I can't get no satisfaction.",
+      "correctOption": "Option D",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q044",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 44)",
+      "optionA": "We didn't saw anybody.",
+      "optionB": "We didn't see anybody.",
+      "optionC": "We saw nobody.",
+      "optionD": "Both A and B",
+      "correctOption": "Option D",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q045",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 45)",
+      "optionA": "I don't know nothing.",
+      "optionB": "She doesn't have any money.",
+      "optionC": "I don't know anything.",
+      "optionD": "I know nothing.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q046",
+      "questionText": "Which sentence is grammatically correct in standard English? (Variant 46)",
+      "optionA": "I haven't gone nowhere.",
+      "optionB": "I didn't do nothing.",
+      "optionC": "I haven't gone anywhere.",
+      "optionD": "We don't need no education.",
+      "correctOption": "Option C",
+      "explanation": "'I haven't gone anywhere' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q047",
+      "questionText": "Fix the error: 'He doesn't have no friends.' (Variant 47)",
+      "optionA": "He don't have any friends.",
+      "optionB": "He doesn't have any friends.",
+      "optionC": "He doesn't has no friends.",
+      "optionD": "He have no friends.",
+      "correctOption": "Option B",
+      "explanation": "'He doesn't have any friends' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q048",
+      "questionText": "Which is incorrect? (Variant 48)",
+      "optionA": "I can't get any satisfaction.",
+      "optionB": "I can't get no satisfaction.",
+      "optionC": "She couldn't see anything.",
+      "optionD": "I got no satisfaction.",
+      "correctOption": "Option B",
+      "explanation": "'I can't get no satisfaction' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q049",
+      "questionText": "Correct the sentence: 'We didn't see nobody.' (Variant 49)",
+      "optionA": "We saw nobody.",
+      "optionB": "We didn't see anybody.",
+      "optionC": "We didn't saw anybody.",
+      "optionD": "Both A and B",
+      "correctOption": "Option D",
+      "explanation": "'Both A and B' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T145-Q050",
+      "questionText": "Identify the double negative (incorrect sentence): (Variant 50)",
+      "optionA": "She doesn't have any money.",
+      "optionB": "I know nothing.",
+      "optionC": "I don't know anything.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know nothing' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

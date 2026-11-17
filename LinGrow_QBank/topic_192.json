@@ -1,0 +1,507 @@
+{
+  "topicId": 192,
+  "topicName": "Must",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T192-Q001",
+      "questionText": "Fill in the blank for strong obligation: You ___ study a letter.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q002",
+      "questionText": "Fill in the blank for strong obligation: He ___ read gracefully.",
+      "optionA": "musts",
+      "optionB": "must to",
+      "optionC": "to must",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q003",
+      "questionText": "Fill in the blank for strong obligation: She ___ speak some food.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q004",
+      "questionText": "Fill in the blank for strong obligation: It ___ jump math.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q005",
+      "questionText": "Fill in the blank for strong obligation: We ___ cook football.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q006",
+      "questionText": "Fill in the blank for strong obligation: They ___ drive high.",
+      "optionA": "must to",
+      "optionB": "musts",
+      "optionC": "to must",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q007",
+      "questionText": "Fill in the blank for strong obligation: The student ___ buy in the sky.",
+      "optionA": "must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "to must",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q008",
+      "questionText": "Fill in the blank for strong obligation: The professor ___ draw a bridge.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q009",
+      "questionText": "Fill in the blank for strong obligation: The dog ___ create for the exam.",
+      "optionA": "must to",
+      "optionB": "musts",
+      "optionC": "to must",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q010",
+      "questionText": "Fill in the blank for strong obligation: My friend ___ go fast.",
+      "optionA": "must",
+      "optionB": "musts",
+      "optionC": "to must",
+      "optionD": "must to",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q011",
+      "questionText": "Fill in the blank for strong obligation: The team ___ study the car.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q012",
+      "questionText": "Fill in the blank for strong obligation: Someone ___ read a program.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q013",
+      "questionText": "Fill in the blank for strong obligation: Nobody ___ speak an apple.",
+      "optionA": "to must",
+      "optionB": "must",
+      "optionC": "musts",
+      "optionD": "must to",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q014",
+      "questionText": "Fill in the blank for strong obligation: Everyone ___ jump to music.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q015",
+      "questionText": "Fill in the blank for strong obligation: The teacher ___ cook dinner.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q016",
+      "questionText": "Fill in the blank for strong obligation: The doctor ___ drive the house.",
+      "optionA": "musts",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "to must",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q017",
+      "questionText": "Fill in the blank for strong obligation: The manager ___ buy history.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q018",
+      "questionText": "Fill in the blank for strong obligation: The child ___ draw a book.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q019",
+      "questionText": "Fill in the blank for strong obligation: The workers ___ create a song.",
+      "optionA": "musts",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "to must",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q020",
+      "questionText": "Fill in the blank for strong obligation: Alice ___ go a movie.",
+      "optionA": "musts",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "must to",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q021",
+      "questionText": "Fill in the blank for strong obligation: Bob ___ study a building.",
+      "optionA": "to must",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q022",
+      "questionText": "Fill in the blank for strong obligation: Charlie ___ read at the office.",
+      "optionA": "must",
+      "optionB": "must to",
+      "optionC": "musts",
+      "optionD": "to must",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q023",
+      "questionText": "Fill in the blank for strong obligation: David ___ speak slowly.",
+      "optionA": "must to",
+      "optionB": "musts",
+      "optionC": "to must",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q024",
+      "questionText": "Fill in the blank for strong obligation: Eve ___ jump to Paris.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q025",
+      "questionText": "Fill in the blank for strong obligation: Frank ___ cook a website.",
+      "optionA": "musts",
+      "optionB": "must to",
+      "optionC": "must",
+      "optionD": "to must",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q026",
+      "questionText": "Fill in the blank for strong obligation: Grace ___ drive all night.",
+      "optionA": "musts",
+      "optionB": "must to",
+      "optionC": "must",
+      "optionD": "to must",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q027",
+      "questionText": "Fill in the blank for strong obligation: Hannah ___ buy English.",
+      "optionA": "musts",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "to must",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q028",
+      "questionText": "Fill in the blank for strong obligation: Ivy ___ draw the room.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q029",
+      "questionText": "Fill in the blank for strong obligation: Jack ___ create a picture.",
+      "optionA": "to must",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q030",
+      "questionText": "Fill in the blank for strong obligation: I ___ go to the park.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q031",
+      "questionText": "Fill in the blank for strong obligation: You ___ study a letter.",
+      "optionA": "must",
+      "optionB": "must to",
+      "optionC": "musts",
+      "optionD": "to must",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q032",
+      "questionText": "Fill in the blank for strong obligation: He ___ read gracefully.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q033",
+      "questionText": "Fill in the blank for strong obligation: She ___ speak some food.",
+      "optionA": "must to",
+      "optionB": "to must",
+      "optionC": "must",
+      "optionD": "musts",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q034",
+      "questionText": "Fill in the blank for strong obligation: It ___ jump math.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q035",
+      "questionText": "Fill in the blank for strong obligation: We ___ cook football.",
+      "optionA": "must",
+      "optionB": "musts",
+      "optionC": "to must",
+      "optionD": "must to",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q036",
+      "questionText": "Fill in the blank for strong obligation: They ___ drive high.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q037",
+      "questionText": "Fill in the blank for strong obligation: The student ___ buy in the sky.",
+      "optionA": "to must",
+      "optionB": "must to",
+      "optionC": "must",
+      "optionD": "musts",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q038",
+      "questionText": "Fill in the blank for strong obligation: The professor ___ draw a bridge.",
+      "optionA": "to must",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q039",
+      "questionText": "Fill in the blank for strong obligation: The dog ___ create for the exam.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q040",
+      "questionText": "Fill in the blank for strong obligation: My friend ___ go fast.",
+      "optionA": "musts",
+      "optionB": "must to",
+      "optionC": "must",
+      "optionD": "to must",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q041",
+      "questionText": "Fill in the blank for strong obligation: The team ___ study the car.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "to must",
+      "optionD": "musts",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q042",
+      "questionText": "Fill in the blank for strong obligation: Someone ___ read a program.",
+      "optionA": "must to",
+      "optionB": "must",
+      "optionC": "musts",
+      "optionD": "to must",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q043",
+      "questionText": "Fill in the blank for strong obligation: Nobody ___ speak an apple.",
+      "optionA": "musts",
+      "optionB": "must",
+      "optionC": "must to",
+      "optionD": "to must",
+      "correctOption": "Option B",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q044",
+      "questionText": "Fill in the blank for strong obligation: Everyone ___ jump to music.",
+      "optionA": "must",
+      "optionB": "must to",
+      "optionC": "musts",
+      "optionD": "to must",
+      "correctOption": "Option A",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q045",
+      "questionText": "Fill in the blank for strong obligation: The teacher ___ cook dinner.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must",
+      "optionD": "must to",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q046",
+      "questionText": "Fill in the blank for strong obligation: The doctor ___ drive the house.",
+      "optionA": "must to",
+      "optionB": "musts",
+      "optionC": "must",
+      "optionD": "to must",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q047",
+      "questionText": "Fill in the blank for strong obligation: The manager ___ buy history.",
+      "optionA": "musts",
+      "optionB": "to must",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q048",
+      "questionText": "Fill in the blank for strong obligation: The child ___ draw a book.",
+      "optionA": "to must",
+      "optionB": "musts",
+      "optionC": "must to",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q049",
+      "questionText": "Fill in the blank for strong obligation: The workers ___ create a song.",
+      "optionA": "to must",
+      "optionB": "must to",
+      "optionC": "musts",
+      "optionD": "must",
+      "correctOption": "Option D",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T192-Q050",
+      "questionText": "Fill in the blank for strong obligation: Alice ___ go a movie.",
+      "optionA": "must to",
+      "optionB": "musts",
+      "optionC": "must",
+      "optionD": "to must",
+      "correctOption": "Option C",
+      "explanation": "'must' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 129,
+  "topicName": "How",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T129-Q001",
+      "questionText": "____ did the student know?",
+      "optionA": "Which",
+      "optionB": "When",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q002",
+      "questionText": "____ did we use?",
+      "optionA": "What",
+      "optionB": "When",
+      "optionC": "How",
+      "optionD": "Why",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q003",
+      "questionText": "____ do you spell your name?",
+      "optionA": "Where",
+      "optionB": "How",
+      "optionC": "When",
+      "optionD": "Why",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q004",
+      "questionText": "Which question word is used to ask about manner or method?",
+      "optionA": "How",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "Why",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q005",
+      "questionText": "Which question word is used to ask about manner or method? (1)",
+      "optionA": "Who",
+      "optionB": "How",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q006",
+      "questionText": "____ did you fix the computer?",
+      "optionA": "Which",
+      "optionB": "When",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q007",
+      "questionText": "Which question word is used to ask about manner or method? (2)",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "When",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q008",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will use.",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "When",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q009",
+      "questionText": "Which question word is used to ask about manner or method? (3)",
+      "optionA": "Who",
+      "optionB": "How",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q010",
+      "questionText": "____ did the team think?",
+      "optionA": "How",
+      "optionB": "Which",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q011",
+      "questionText": "Identify the missing word: I don't know ____ the team will run.",
+      "optionA": "Where",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q012",
+      "questionText": "Which question word is used to ask about manner or method? (4)",
+      "optionA": "How",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q013",
+      "questionText": "____ did the team run?",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Why",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q014",
+      "questionText": "Identify the missing word: I don't know ____ they will come.",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q015",
+      "questionText": "____ do you spell your name? (1)",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q016",
+      "questionText": "____ did I run?",
+      "optionA": "Who",
+      "optionB": "How",
+      "optionC": "Which",
+      "optionD": "Where",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q017",
+      "questionText": "____ do you spell your name? (2)",
+      "optionA": "Where",
+      "optionB": "Why",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q018",
+      "questionText": "Which question word is used to ask about manner or method? (5)",
+      "optionA": "When",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q019",
+      "questionText": "Identify the missing word: I don't know ____ the dog will wait.",
+      "optionA": "Why",
+      "optionB": "How",
+      "optionC": "Where",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q020",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will know.",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q021",
+      "questionText": "Identify the missing word: I don't know ____ it will take.",
+      "optionA": "How",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q022",
+      "questionText": "____ did you fix the computer? (1)",
+      "optionA": "What",
+      "optionB": "How",
+      "optionC": "Which",
+      "optionD": "Who",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q023",
+      "questionText": "Which question word is used to ask about manner or method? (6)",
+      "optionA": "What",
+      "optionB": "Where",
+      "optionC": "How",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q024",
+      "questionText": "Identify the missing word: I don't know ____ the company will want.",
+      "optionA": "How",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q025",
+      "questionText": "Which question word is used to ask about manner or method? (7)",
+      "optionA": "Who",
+      "optionB": "How",
+      "optionC": "When",
+      "optionD": "Why",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q026",
+      "questionText": "____ did we want?",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q027",
+      "questionText": "____ did it take?",
+      "optionA": "Why",
+      "optionB": "How",
+      "optionC": "Which",
+      "optionD": "Where",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q028",
+      "questionText": "Which question word is used to ask about manner or method? (8)",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Why",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q029",
+      "questionText": "Identify the missing word: I don't know ____ the dog will go.",
+      "optionA": "What",
+      "optionB": "How",
+      "optionC": "Which",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q030",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will arrive.",
+      "optionA": "Who",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q031",
+      "questionText": "____ did you fix the computer? (2)",
+      "optionA": "When",
+      "optionB": "Where",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q032",
+      "questionText": "____ do you spell your name? (3)",
+      "optionA": "How",
+      "optionB": "When",
+      "optionC": "Why",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q033",
+      "questionText": "Identify the missing word: I don't know ____ the company will depart.",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "When",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q034",
+      "questionText": "Which question word is used to ask about manner or method? (9)",
+      "optionA": "Where",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q035",
+      "questionText": "____ do you spell your name? (4)",
+      "optionA": "How",
+      "optionB": "When",
+      "optionC": "Why",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q036",
+      "questionText": "____ did you fix the computer? (3)",
+      "optionA": "When",
+      "optionB": "Why",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q037",
+      "questionText": "____ do you spell your name? (5)",
+      "optionA": "Where",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q038",
+      "questionText": "Which question word is used to ask about manner or method? (10)",
+      "optionA": "Why",
+      "optionB": "What",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q039",
+      "questionText": "Which question word is used to ask about manner or method? (11)",
+      "optionA": "When",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q040",
+      "questionText": "____ did you fix the computer? (4)",
+      "optionA": "How",
+      "optionB": "Why",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q041",
+      "questionText": "____ did you run?",
+      "optionA": "What",
+      "optionB": "Why",
+      "optionC": "Who",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q042",
+      "questionText": "____ did you fix the computer? (5)",
+      "optionA": "When",
+      "optionB": "What",
+      "optionC": "Where",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q043",
+      "questionText": "____ do you spell your name? (6)",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "How",
+      "optionD": "Who",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q044",
+      "questionText": "____ did it know?",
+      "optionA": "Who",
+      "optionB": "When",
+      "optionC": "How",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q045",
+      "questionText": "____ did the teacher sleep?",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q046",
+      "questionText": "____ did the teacher know?",
+      "optionA": "How",
+      "optionB": "When",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q047",
+      "questionText": "Identify the missing word: I don't know ____ you will stay.",
+      "optionA": "Who",
+      "optionB": "Why",
+      "optionC": "Which",
+      "optionD": "How",
+      "correctOption": "Option D",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q048",
+      "questionText": "Identify the missing word: I don't know ____ you will stay. (1)",
+      "optionA": "Why",
+      "optionB": "When",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q049",
+      "questionText": "Identify the missing word: I don't know ____ they will run.",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "How",
+      "optionD": "Where",
+      "correctOption": "Option C",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    },
+    {
+      "questionId": "T129-Q050",
+      "questionText": "Which question word is used to ask about manner or method? (12)",
+      "optionA": "When",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Why",
+      "correctOption": "Option B",
+      "explanation": "Use 'How' to ask about the manner, method, or condition."
+    }
+  ]
+}

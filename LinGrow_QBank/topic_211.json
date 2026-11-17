@@ -1,0 +1,507 @@
+{
+  "topicId": 211,
+  "topicName": "Active voice",
+  "unit": "UNIT 22 — ACTIVE & PASSIVE VOICE",
+  "questions": [
+    {
+      "questionId": "T211-Q001",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by the professor. (Variant 1)",
+      "optionB": "The professor analyzes the paper.",
+      "optionC": "The paper is long. (Variant 1)",
+      "optionD": "It is done. (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'The professor analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q002",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper is explained by a bright student. (Variant 2)",
+      "optionB": "The paper is long. (Variant 2)",
+      "optionC": "It is done. (Variant 2)",
+      "optionD": "Many researchers completes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'Many researchers completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q003",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the textbook. (Variant 3)",
+      "optionB": "The paper is long. (Variant 3)",
+      "optionC": "It is done. (Variant 3)",
+      "optionD": "A bright student completes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'A bright student completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q004",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by a bright student. (Variant 4)",
+      "optionB": "The university library completes the paper.",
+      "optionC": "The paper is long. (Variant 4)",
+      "optionD": "It is done. (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'The university library completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q005",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The textbook discovers the paper.",
+      "optionB": "The paper was completed by many researchers. (Variant 5)",
+      "optionC": "The paper is long. (Variant 5)",
+      "optionD": "It is done. (Variant 5)",
+      "correctOption": "Option A",
+      "explanation": "'The textbook discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q006",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by many researchers. (Variant 6)",
+      "optionB": "The paper is long. (Variant 6)",
+      "optionC": "The textbook discovers the paper.",
+      "optionD": "It is done. (Variant 6)",
+      "correctOption": "Option C",
+      "explanation": "'The textbook discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q007",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "A bright student analyzes the paper.",
+      "optionB": "The paper will be reviewed by the textbook. (Variant 7)",
+      "optionC": "The paper is long. (Variant 7)",
+      "optionD": "It is done. (Variant 7)",
+      "correctOption": "Option A",
+      "explanation": "'A bright student analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q008",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by the university library. (Variant 8)",
+      "optionB": "The paper is long. (Variant 8)",
+      "optionC": "It is done. (Variant 8)",
+      "optionD": "Many researchers completes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'Many researchers completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q009",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "Many researchers analyzes the paper.",
+      "optionB": "The paper was completed by the university library. (Variant 9)",
+      "optionC": "The paper is long. (Variant 9)",
+      "optionD": "It is done. (Variant 9)",
+      "correctOption": "Option A",
+      "explanation": "'Many researchers analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q010",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The textbook explains the paper.",
+      "optionB": "The paper was discovered by the professor. (Variant 10)",
+      "optionC": "The paper is long. (Variant 10)",
+      "optionD": "It is done. (Variant 10)",
+      "correctOption": "Option A",
+      "explanation": "'The textbook explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q011",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The professor reviews the paper.",
+      "optionB": "The paper is explained by the university library. (Variant 11)",
+      "optionC": "The paper is long. (Variant 11)",
+      "optionD": "It is done. (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'The professor reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q012",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "Many researchers explains the paper.",
+      "optionB": "The paper will be reviewed by many researchers. (Variant 12)",
+      "optionC": "The paper is long. (Variant 12)",
+      "optionD": "It is done. (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'Many researchers explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q013",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "A bright student discovers the paper.",
+      "optionB": "The paper is explained by the university library. (Variant 13)",
+      "optionC": "The paper is long. (Variant 13)",
+      "optionD": "It is done. (Variant 13)",
+      "correctOption": "Option A",
+      "explanation": "'A bright student discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q014",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The professor reviews the paper.",
+      "optionB": "The paper will be reviewed by the professor. (Variant 14)",
+      "optionC": "The paper is long. (Variant 14)",
+      "optionD": "It is done. (Variant 14)",
+      "correctOption": "Option A",
+      "explanation": "'The professor reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q015",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by the university library. (Variant 15)",
+      "optionB": "The paper is long. (Variant 15)",
+      "optionC": "A bright student reviews the paper.",
+      "optionD": "It is done. (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'A bright student reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q016",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by the university library. (Variant 16)",
+      "optionB": "The paper is long. (Variant 16)",
+      "optionC": "The university library discovers the paper.",
+      "optionD": "It is done. (Variant 16)",
+      "correctOption": "Option C",
+      "explanation": "'The university library discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q017",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the professor. (Variant 17)",
+      "optionB": "The paper is long. (Variant 17)",
+      "optionC": "It is done. (Variant 17)",
+      "optionD": "A bright student explains the paper.",
+      "correctOption": "Option D",
+      "explanation": "'A bright student explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q018",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by the university library. (Variant 18)",
+      "optionB": "The paper is long. (Variant 18)",
+      "optionC": "A bright student completes the paper.",
+      "optionD": "It is done. (Variant 18)",
+      "correctOption": "Option C",
+      "explanation": "'A bright student completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q019",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by the professor. (Variant 19)",
+      "optionB": "The professor discovers the paper.",
+      "optionC": "The paper is long. (Variant 19)",
+      "optionD": "It is done. (Variant 19)",
+      "correctOption": "Option B",
+      "explanation": "'The professor discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q020",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by many researchers. (Variant 20)",
+      "optionB": "The paper is long. (Variant 20)",
+      "optionC": "Many researchers reviews the paper.",
+      "optionD": "It is done. (Variant 20)",
+      "correctOption": "Option C",
+      "explanation": "'Many researchers reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q021",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the textbook. (Variant 21)",
+      "optionB": "The textbook analyzes the paper.",
+      "optionC": "The paper is long. (Variant 21)",
+      "optionD": "It is done. (Variant 21)",
+      "correctOption": "Option B",
+      "explanation": "'The textbook analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q022",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by the textbook. (Variant 22)",
+      "optionB": "The paper is long. (Variant 22)",
+      "optionC": "The textbook reviews the paper.",
+      "optionD": "It is done. (Variant 22)",
+      "correctOption": "Option C",
+      "explanation": "'The textbook reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q023",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by the university library. (Variant 23)",
+      "optionB": "The paper is long. (Variant 23)",
+      "optionC": "It is done. (Variant 23)",
+      "optionD": "The university library discovers the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The university library discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q024",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper is explained by the professor. (Variant 24)",
+      "optionB": "Many researchers reviews the paper.",
+      "optionC": "The paper is long. (Variant 24)",
+      "optionD": "It is done. (Variant 24)",
+      "correctOption": "Option B",
+      "explanation": "'Many researchers reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q025",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The professor reviews the paper.",
+      "optionB": "The paper will be reviewed by many researchers. (Variant 25)",
+      "optionC": "The paper is long. (Variant 25)",
+      "optionD": "It is done. (Variant 25)",
+      "correctOption": "Option A",
+      "explanation": "'The professor reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q026",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by the university library. (Variant 26)",
+      "optionB": "The university library completes the paper.",
+      "optionC": "The paper is long. (Variant 26)",
+      "optionD": "It is done. (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'The university library completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q027",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by a bright student. (Variant 27)",
+      "optionB": "The paper is long. (Variant 27)",
+      "optionC": "It is done. (Variant 27)",
+      "optionD": "The professor explains the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The professor explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q028",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The university library explains the paper.",
+      "optionB": "The paper was completed by many researchers. (Variant 28)",
+      "optionC": "The paper is long. (Variant 28)",
+      "optionD": "It is done. (Variant 28)",
+      "correctOption": "Option A",
+      "explanation": "'The university library explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q029",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by the professor. (Variant 29)",
+      "optionB": "The university library reviews the paper.",
+      "optionC": "The paper is long. (Variant 29)",
+      "optionD": "It is done. (Variant 29)",
+      "correctOption": "Option B",
+      "explanation": "'The university library reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q030",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the university library. (Variant 30)",
+      "optionB": "The paper is long. (Variant 30)",
+      "optionC": "It is done. (Variant 30)",
+      "optionD": "The textbook completes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The textbook completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q031",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper is explained by the university library. (Variant 31)",
+      "optionB": "The paper is long. (Variant 31)",
+      "optionC": "It is done. (Variant 31)",
+      "optionD": "The university library discovers the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The university library discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q032",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the university library. (Variant 32)",
+      "optionB": "The paper is long. (Variant 32)",
+      "optionC": "The textbook explains the paper.",
+      "optionD": "It is done. (Variant 32)",
+      "correctOption": "Option C",
+      "explanation": "'The textbook explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q033",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by the professor. (Variant 33)",
+      "optionB": "The paper is long. (Variant 33)",
+      "optionC": "The professor explains the paper.",
+      "optionD": "It is done. (Variant 33)",
+      "correctOption": "Option C",
+      "explanation": "'The professor explains the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q034",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The textbook discovers the paper.",
+      "optionB": "The paper was completed by a bright student. (Variant 34)",
+      "optionC": "The paper is long. (Variant 34)",
+      "optionD": "It is done. (Variant 34)",
+      "correctOption": "Option A",
+      "explanation": "'The textbook discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q035",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The textbook completes the paper.",
+      "optionB": "The paper is explained by many researchers. (Variant 35)",
+      "optionC": "The paper is long. (Variant 35)",
+      "optionD": "It is done. (Variant 35)",
+      "correctOption": "Option A",
+      "explanation": "'The textbook completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q036",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by many researchers. (Variant 36)",
+      "optionB": "The textbook completes the paper.",
+      "optionC": "The paper is long. (Variant 36)",
+      "optionD": "It is done. (Variant 36)",
+      "correctOption": "Option B",
+      "explanation": "'The textbook completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q037",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by a bright student. (Variant 37)",
+      "optionB": "The paper is long. (Variant 37)",
+      "optionC": "It is done. (Variant 37)",
+      "optionD": "The textbook discovers the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The textbook discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q038",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "Many researchers completes the paper.",
+      "optionB": "The paper was discovered by the university library. (Variant 38)",
+      "optionC": "The paper is long. (Variant 38)",
+      "optionD": "It is done. (Variant 38)",
+      "correctOption": "Option A",
+      "explanation": "'Many researchers completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q039",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by the textbook. (Variant 39)",
+      "optionB": "A bright student analyzes the paper.",
+      "optionC": "The paper is long. (Variant 39)",
+      "optionD": "It is done. (Variant 39)",
+      "correctOption": "Option B",
+      "explanation": "'A bright student analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q040",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper is explained by many researchers. (Variant 40)",
+      "optionB": "The paper is long. (Variant 40)",
+      "optionC": "Many researchers reviews the paper.",
+      "optionD": "It is done. (Variant 40)",
+      "correctOption": "Option C",
+      "explanation": "'Many researchers reviews the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q041",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The textbook analyzes the paper.",
+      "optionB": "The paper has been analyzed by a bright student. (Variant 41)",
+      "optionC": "The paper is long. (Variant 41)",
+      "optionD": "It is done. (Variant 41)",
+      "correctOption": "Option A",
+      "explanation": "'The textbook analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q042",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by many researchers. (Variant 42)",
+      "optionB": "A bright student analyzes the paper.",
+      "optionC": "The paper is long. (Variant 42)",
+      "optionD": "It is done. (Variant 42)",
+      "correctOption": "Option B",
+      "explanation": "'A bright student analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q043",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by the textbook. (Variant 43)",
+      "optionB": "The professor discovers the paper.",
+      "optionC": "The paper is long. (Variant 43)",
+      "optionD": "It is done. (Variant 43)",
+      "correctOption": "Option B",
+      "explanation": "'The professor discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q044",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper is explained by the professor. (Variant 44)",
+      "optionB": "The paper is long. (Variant 44)",
+      "optionC": "Many researchers completes the paper.",
+      "optionD": "It is done. (Variant 44)",
+      "correctOption": "Option C",
+      "explanation": "'Many researchers completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q045",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by many researchers. (Variant 45)",
+      "optionB": "A bright student discovers the paper.",
+      "optionC": "The paper is long. (Variant 45)",
+      "optionD": "It is done. (Variant 45)",
+      "correctOption": "Option B",
+      "explanation": "'A bright student discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q046",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper will be reviewed by the textbook. (Variant 46)",
+      "optionB": "The paper is long. (Variant 46)",
+      "optionC": "It is done. (Variant 46)",
+      "optionD": "A bright student completes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'A bright student completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q047",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was completed by the professor. (Variant 47)",
+      "optionB": "The university library completes the paper.",
+      "optionC": "The paper is long. (Variant 47)",
+      "optionD": "It is done. (Variant 47)",
+      "correctOption": "Option B",
+      "explanation": "'The university library completes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q048",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by many researchers. (Variant 48)",
+      "optionB": "The paper is long. (Variant 48)",
+      "optionC": "A bright student discovers the paper.",
+      "optionD": "It is done. (Variant 48)",
+      "correctOption": "Option C",
+      "explanation": "'A bright student discovers the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q049",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper has been analyzed by the professor. (Variant 49)",
+      "optionB": "The paper is long. (Variant 49)",
+      "optionC": "It is done. (Variant 49)",
+      "optionD": "The textbook analyzes the paper.",
+      "correctOption": "Option D",
+      "explanation": "'The textbook analyzes the paper' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T211-Q050",
+      "questionText": "Which sentence is in the active voice?",
+      "optionA": "The paper was discovered by many researchers. (Variant 50)",
+      "optionB": "The paper is long. (Variant 50)",
+      "optionC": "It is done. (Variant 50)",
+      "optionD": "Many researchers reviews the paper.",
+      "correctOption": "Option D",
+      "explanation": "'Many researchers reviews the paper' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 231,
+  "topicName": "Quotation marks",
+  "unit": "UNIT 25 — PUNCTUATION & CAPITALIZATION",
+  "questions": [
+    {
+      "questionId": "T231-Q001",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 1)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q002",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 2)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q003",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 3)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q004",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 4)",
+      "optionA": "She said, I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q005",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 5)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q006",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 6)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q007",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 7)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q008",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 8)",
+      "optionA": "She said, I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q009",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 9)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q010",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 10)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q011",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 11)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q012",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 12)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q013",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 13)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q014",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 14)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q015",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 15)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q016",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 16)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q017",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 17)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q018",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 18)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q019",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 19)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q020",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 20)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q021",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 21)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q022",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 22)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q023",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 23)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q024",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 24)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q025",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 25)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q026",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 26)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q027",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 27)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q028",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 28)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q029",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 29)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q030",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 30)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q031",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 31)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q032",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 32)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q033",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 33)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q034",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 34)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q035",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 35)",
+      "optionA": "She said, \"I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option A",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q036",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 36)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q037",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 37)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q038",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 38)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q039",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 39)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q040",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 40)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q041",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 41)",
+      "optionA": "She said, I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q042",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 42)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q043",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 43)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q044",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 44)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "She \"said\" I am happy.",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q045",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 45)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, \"I am happy.\"",
+      "optionC": "She said, I am happy.",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option B",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q046",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 46)",
+      "optionA": "She said, I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She \"said\" I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q047",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 47)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "She said, I am happy.",
+      "optionC": "\"She said, I am happy.\"",
+      "optionD": "She said, \"I am happy.\"",
+      "correctOption": "Option D",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q048",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 48)",
+      "optionA": "\"She said, I am happy.\"",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q049",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 49)",
+      "optionA": "She said, I am happy.",
+      "optionB": "She \"said\" I am happy.",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "\"She said, I am happy.\"",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T231-Q050",
+      "questionText": "Which sentence uses quotation marks correctly? (Question 50)",
+      "optionA": "She \"said\" I am happy.",
+      "optionB": "\"She said, I am happy.\"",
+      "optionC": "She said, \"I am happy.\"",
+      "optionD": "She said, I am happy.",
+      "correctOption": "Option C",
+      "explanation": "'She said, \"I am happy.\"' correctly follows standard English punctuation and capitalization rules."
+    }
+  ]
+}

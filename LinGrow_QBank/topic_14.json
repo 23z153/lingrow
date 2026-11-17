@@ -1,0 +1,507 @@
+{
+  "topicId": 14,
+  "topicName": "Interjections",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T014-Q001",
+      "questionText": "\"___! I forgot my student ID in the dorm,\" said Mark.",
+      "optionA": "Oops",
+      "optionB": "Yay",
+      "optionC": "Wow",
+      "optionD": "Shh",
+      "correctOption": "Option A",
+      "explanation": "'Oops' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q002",
+      "questionText": "\"___! The library is a quiet zone,\" the librarian whispered.",
+      "optionA": "Ouch",
+      "optionB": "Shh",
+      "optionC": "Yuck",
+      "optionD": "Hurray",
+      "correctOption": "Option B",
+      "explanation": "'Shh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q003",
+      "questionText": "\"___! I finally passed my math exam!\" Sarah cheered.",
+      "optionA": "Alas",
+      "optionB": "Eww",
+      "optionC": "Yay",
+      "optionD": "Ouch",
+      "correctOption": "Option C",
+      "explanation": "'Yay' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q004",
+      "questionText": "\"___! This cafeteria food is really salty,\" Tom complained.",
+      "optionA": "Wow",
+      "optionB": "Bingo",
+      "optionC": "Aha",
+      "optionD": "Yuck",
+      "correctOption": "Option D",
+      "explanation": "'Yuck' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q005",
+      "questionText": "\"___! I stubbed my toe on the lecture hall desk,\" he cried.",
+      "optionA": "Ouch",
+      "optionB": "Wow",
+      "optionC": "Phew",
+      "optionD": "Shh",
+      "correctOption": "Option A",
+      "explanation": "'Ouch' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q006",
+      "questionText": "\"___, look at the size of that new science building!\"",
+      "optionA": "Oops",
+      "optionB": "Wow",
+      "optionC": "Yuck",
+      "optionD": "Ouch",
+      "correctOption": "Option B",
+      "explanation": "'Wow' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q007",
+      "questionText": "\"___, I think we have a pop quiz today.\"",
+      "optionA": "Bravo",
+      "optionB": "Yay",
+      "optionC": "Uh-oh",
+      "optionD": "Bingo",
+      "correctOption": "Option C",
+      "explanation": "'Uh-oh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q008",
+      "questionText": "\"___! I understand the physics problem now.\"",
+      "optionA": "Eww",
+      "optionB": "Alas",
+      "optionC": "Oops",
+      "optionD": "Aha",
+      "correctOption": "Option D",
+      "explanation": "'Aha' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q009",
+      "questionText": "\"___! We have to climb five flights of stairs to get to class?\"",
+      "optionA": "Yikes",
+      "optionB": "Bravo",
+      "optionC": "Shh",
+      "optionD": "Yay",
+      "correctOption": "Option A",
+      "explanation": "'Yikes' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q010",
+      "questionText": "\"___! You spilled coffee on my printed essay!\"",
+      "optionA": "Hurray",
+      "optionB": "Hey",
+      "optionC": "Phew",
+      "optionD": "Bingo",
+      "correctOption": "Option B",
+      "explanation": "'Hey' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q011",
+      "questionText": "\"___, I managed to submit my assignment one minute before the deadline.\"",
+      "optionA": "Oops",
+      "optionB": "Ouch",
+      "optionC": "Phew",
+      "optionD": "Yuck",
+      "correctOption": "Option C",
+      "explanation": "'Phew' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q012",
+      "questionText": "\"___! That is the correct answer to the question,\" the professor smiled.",
+      "optionA": "Alas",
+      "optionB": "Ouch",
+      "optionC": "Yuck",
+      "optionD": "Bingo",
+      "correctOption": "Option D",
+      "explanation": "'Bingo' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q013",
+      "questionText": "\"___! I am so sorry for bumping into your desk.\"",
+      "optionA": "Oh",
+      "optionB": "Yay",
+      "optionC": "Shh",
+      "optionD": "Phew",
+      "correctOption": "Option A",
+      "explanation": "'Oh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q014",
+      "questionText": "\"___! The campus smells like wet dog today.\"",
+      "optionA": "Wow",
+      "optionB": "Eww",
+      "optionC": "Aha",
+      "optionD": "Yay",
+      "correctOption": "Option B",
+      "explanation": "'Eww' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q015",
+      "questionText": "\"___! Look at that adorable puppy on the quad.\"",
+      "optionA": "Ouch",
+      "optionB": "Yuck",
+      "optionC": "Aww",
+      "optionD": "Uh-oh",
+      "correctOption": "Option C",
+      "explanation": "'Aww' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q016",
+      "questionText": "\"___! I did not know the campus closed at 10 PM.\"",
+      "optionA": "Shh",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Gosh",
+      "correctOption": "Option D",
+      "explanation": "'Gosh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q017",
+      "questionText": "\"___! The tuition fee has increased again,\" sighed the student.",
+      "optionA": "Alas",
+      "optionB": "Bravo",
+      "optionC": "Aha",
+      "optionD": "Yay",
+      "correctOption": "Option A",
+      "explanation": "'Alas' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q018",
+      "questionText": "\"___! You did an excellent job on your final presentation.\"",
+      "optionA": "Yuck",
+      "optionB": "Bravo",
+      "optionC": "Oops",
+      "optionD": "Ouch",
+      "correctOption": "Option B",
+      "explanation": "'Bravo' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q019",
+      "questionText": "\"___? Did you say the lecture is canceled?\"",
+      "optionA": "Ouch",
+      "optionB": "Shh",
+      "optionC": "Huh",
+      "optionD": "Bingo",
+      "correctOption": "Option C",
+      "explanation": "'Huh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q020",
+      "questionText": "\"___! We won the university football game!\"",
+      "optionA": "Alas",
+      "optionB": "Eww",
+      "optionC": "Ouch",
+      "optionD": "Hurray",
+      "correctOption": "Option D",
+      "explanation": "'Hurray' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q021",
+      "questionText": "\"___, I don't really know which major to choose,\" Ben mumbled.",
+      "optionA": "Hmm",
+      "optionB": "Bingo",
+      "optionC": "Yay",
+      "optionD": "Aha",
+      "correctOption": "Option A",
+      "explanation": "'Hmm' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q022",
+      "questionText": "\"___! The professor is coming into the classroom,\" whispered Jane.",
+      "optionA": "Ouch",
+      "optionB": "Psst",
+      "optionC": "Yuck",
+      "optionD": "Bravo",
+      "correctOption": "Option B",
+      "explanation": "'Psst' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q023",
+      "questionText": "\"___, that exam was much harder than I expected.\"",
+      "optionA": "Yay",
+      "optionB": "Aha",
+      "optionC": "Oof",
+      "optionD": "Bingo",
+      "correctOption": "Option C",
+      "explanation": "'Oof' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q024",
+      "questionText": "\"___! My laptop just died in the middle of taking notes.\"",
+      "optionA": "Bravo",
+      "optionB": "Shh",
+      "optionC": "Phew",
+      "optionD": "Ugh",
+      "correctOption": "Option D",
+      "explanation": "'Ugh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q025",
+      "questionText": "\"___, I think I left my dorm key inside the room.\"",
+      "optionA": "Darn",
+      "optionB": "Yay",
+      "optionC": "Aha",
+      "optionD": "Bingo",
+      "correctOption": "Option A",
+      "explanation": "'Darn' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q026",
+      "questionText": "\"___, over here! I saved a seat for you,\" she called out.",
+      "optionA": "Ouch",
+      "optionB": "Yoo-hoo",
+      "optionC": "Shh",
+      "optionD": "Alas",
+      "correctOption": "Option B",
+      "explanation": "'Yoo-hoo' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q027",
+      "questionText": "\"___! I cut my finger on the edge of the paper.\"",
+      "optionA": "Yay",
+      "optionB": "Wow",
+      "optionC": "Ow",
+      "optionD": "Phew",
+      "correctOption": "Option C",
+      "explanation": "'Ow' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q028",
+      "questionText": "\"___, what a beautiful day for graduation!\"",
+      "optionA": "Yuck",
+      "optionB": "Uh-oh",
+      "optionC": "Ouch",
+      "optionD": "Ah",
+      "correctOption": "Option D",
+      "explanation": "'Ah' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q029",
+      "questionText": "\"___! The coffee is extremely hot.\"",
+      "optionA": "Whoa",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Phew",
+      "correctOption": "Option A",
+      "explanation": "'Whoa' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q030",
+      "questionText": "\"___! I almost dropped my entire tray of food.\"",
+      "optionA": "Bravo",
+      "optionB": "Whoops",
+      "optionC": "Aha",
+      "optionD": "Yay",
+      "correctOption": "Option B",
+      "explanation": "'Whoops' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q031",
+      "questionText": "\"___! You startled me while I was reading.\"",
+      "optionA": "Shh",
+      "optionB": "Yay",
+      "optionC": "Gee",
+      "optionD": "Bingo",
+      "correctOption": "Option C",
+      "explanation": "'Gee' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q032",
+      "questionText": "\"___, I guess I have to start my research paper all over again.\"",
+      "optionA": "Bravo",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Well",
+      "correctOption": "Option D",
+      "explanation": "'Well' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q033",
+      "questionText": "\"___, I will join your study group.\"",
+      "optionA": "Alright",
+      "optionB": "Ouch",
+      "optionC": "Yuck",
+      "optionD": "Alas",
+      "correctOption": "Option A",
+      "explanation": "'Alright' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q034",
+      "questionText": "\"___, I have no idea how to solve this equation.\"",
+      "optionA": "Hurray",
+      "optionB": "Geez",
+      "optionC": "Bingo",
+      "optionD": "Yay",
+      "correctOption": "Option B",
+      "explanation": "'Geez' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q035",
+      "questionText": "\"___! We finally finished the group project!\"",
+      "optionA": "Alas",
+      "optionB": "Yuck",
+      "optionC": "Hallelujah",
+      "optionD": "Ouch",
+      "correctOption": "Option C",
+      "explanation": "'Hallelujah' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q036",
+      "questionText": "\"___, I can't believe I got an A on that difficult test!\"",
+      "optionA": "Yuck",
+      "optionB": "Eww",
+      "optionC": "Alas",
+      "optionD": "Wow",
+      "correctOption": "Option D",
+      "explanation": "'Wow' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q037",
+      "questionText": "\"___! Watch where you are going with that bicycle!\"",
+      "optionA": "Hey",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Phew",
+      "correctOption": "Option A",
+      "explanation": "'Hey' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q038",
+      "questionText": "\"___, did we have homework due today?\"",
+      "optionA": "Hurray",
+      "optionB": "Oh my",
+      "optionC": "Bingo",
+      "optionD": "Bravo",
+      "correctOption": "Option B",
+      "explanation": "'Oh my' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q039",
+      "questionText": "\"___, I am so exhausted from studying all night.\"",
+      "optionA": "Yay",
+      "optionB": "Aha",
+      "optionC": "Man",
+      "optionD": "Bingo",
+      "correctOption": "Option C",
+      "explanation": "'Man' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q040",
+      "questionText": "\"___! This is the worst movie the film club has ever shown.\"",
+      "optionA": "Bravo",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Ugh",
+      "correctOption": "Option D",
+      "explanation": "'Ugh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q041",
+      "questionText": "\"___! I found the missing book in the library.\"",
+      "optionA": "Aha",
+      "optionB": "Alas",
+      "optionC": "Ouch",
+      "optionD": "Shh",
+      "correctOption": "Option A",
+      "explanation": "'Aha' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q042",
+      "questionText": "\"___! The fire alarm is ringing!\"",
+      "optionA": "Yay",
+      "optionB": "Yikes",
+      "optionC": "Bingo",
+      "optionD": "Bravo",
+      "correctOption": "Option B",
+      "explanation": "'Yikes' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q043",
+      "questionText": "\"___! Your drawing for the art class is beautiful.\"",
+      "optionA": "Yuck",
+      "optionB": "Ouch",
+      "optionC": "Wow",
+      "optionD": "Shh",
+      "correctOption": "Option C",
+      "explanation": "'Wow' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q044",
+      "questionText": "\"___! Don't talk during the exam.\"",
+      "optionA": "Yay",
+      "optionB": "Bingo",
+      "optionC": "Aha",
+      "optionD": "Shh",
+      "correctOption": "Option D",
+      "explanation": "'Shh' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q045",
+      "questionText": "\"___! I just hit my elbow on the door frame.\"",
+      "optionA": "Ow",
+      "optionB": "Yay",
+      "optionC": "Phew",
+      "optionD": "Bingo",
+      "correctOption": "Option A",
+      "explanation": "'Ow' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q046",
+      "questionText": "\"___! I thought I lost my wallet, but it is in my backpack.\"",
+      "optionA": "Oops",
+      "optionB": "Phew",
+      "optionC": "Yuck",
+      "optionD": "Alas",
+      "correctOption": "Option B",
+      "explanation": "'Phew' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q047",
+      "questionText": "\"___! That is the perfect topic for our presentation.\"",
+      "optionA": "Yuck",
+      "optionB": "Alas",
+      "optionC": "Bingo",
+      "optionD": "Ouch",
+      "correctOption": "Option C",
+      "explanation": "'Bingo' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q048",
+      "questionText": "\"___! I dropped my phone and cracked the screen.\"",
+      "optionA": "Yay",
+      "optionB": "Bravo",
+      "optionC": "Aha",
+      "optionD": "Oh no",
+      "correctOption": "Option D",
+      "explanation": "'Oh no' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q049",
+      "questionText": "\"___, this soup from the dining hall is cold.\"",
+      "optionA": "Eww",
+      "optionB": "Yay",
+      "optionC": "Bingo",
+      "optionD": "Bravo",
+      "correctOption": "Option A",
+      "explanation": "'Eww' is an interjection used to express emotion or exclamation."
+    },
+    {
+      "questionId": "T014-Q050",
+      "questionText": "\"___! You won the first prize in the debate competition.\"",
+      "optionA": "Ouch",
+      "optionB": "Congratulations",
+      "optionC": "Alas",
+      "optionD": "Yuck",
+      "correctOption": "Option B",
+      "explanation": "'Congratulations' is an interjection used to express emotion or exclamation."
+    }
+  ]
+}

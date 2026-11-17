@@ -1,0 +1,507 @@
+{
+  "topicId": 38,
+  "topicName": "Indefinite pronouns",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T038-Q001",
+      "questionText": "___ is knocking on the door.",
+      "optionA": "Someone",
+      "optionB": "Anyone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option A",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q002",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "anyone",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q003",
+      "questionText": "___ is ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Everything",
+      "optionD": "Nothing",
+      "correctOption": "Option C",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q004",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "something",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q005",
+      "questionText": "___ is to be loved.",
+      "optionA": "Everybody",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option A",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q006",
+      "questionText": "___ has knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Someone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option B",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q007",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "everything",
+      "optionC": "anyone",
+      "optionD": "nothing",
+      "correctOption": "Option C",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q008",
+      "questionText": "___ has ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Everything",
+      "correctOption": "Option D",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q009",
+      "questionText": "I have ___ to wear.",
+      "optionA": "nothing",
+      "optionB": "anything",
+      "optionC": "everything",
+      "optionD": "something",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q010",
+      "questionText": "___ has to be loved.",
+      "optionA": "Anything",
+      "optionB": "Everybody",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option B",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q011",
+      "questionText": "___ needs knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Everything",
+      "optionC": "Someone",
+      "optionD": "Nobody",
+      "correctOption": "Option C",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q012",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "anyone",
+      "correctOption": "Option D",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q013",
+      "questionText": "___ needs ready for the party.",
+      "optionA": "Everything",
+      "optionB": "Everyone",
+      "optionC": "Anything",
+      "optionD": "Nothing",
+      "correctOption": "Option A",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q014",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "nothing",
+      "optionC": "everything",
+      "optionD": "something",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q015",
+      "questionText": "___ needs to be loved.",
+      "optionA": "Anything",
+      "optionB": "Nothing",
+      "optionC": "Everybody",
+      "optionD": "Somewhere",
+      "correctOption": "Option C",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q016",
+      "questionText": "___ wants knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Everything",
+      "optionC": "Nobody",
+      "optionD": "Someone",
+      "correctOption": "Option D",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q017",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "anyone",
+      "optionB": "someone",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option A",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q018",
+      "questionText": "___ wants ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Everything",
+      "optionC": "Anything",
+      "optionD": "Nothing",
+      "correctOption": "Option B",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q019",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "something",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q020",
+      "questionText": "___ wants to be loved.",
+      "optionA": "Anything",
+      "optionB": "Nothing",
+      "optionC": "Somewhere",
+      "optionD": "Everybody",
+      "correctOption": "Option D",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q021",
+      "questionText": "___ knows knocking on the door.",
+      "optionA": "Someone",
+      "optionB": "Anyone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option A",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q022",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "anyone",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q023",
+      "questionText": "___ knows ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Everything",
+      "optionD": "Nothing",
+      "correctOption": "Option C",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q024",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "something",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q025",
+      "questionText": "___ knows to be loved.",
+      "optionA": "Everybody",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option A",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q026",
+      "questionText": "___ likes knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Someone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option B",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q027",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "everything",
+      "optionC": "anyone",
+      "optionD": "nothing",
+      "correctOption": "Option C",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q028",
+      "questionText": "___ likes ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Everything",
+      "correctOption": "Option D",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q029",
+      "questionText": "I have ___ to wear.",
+      "optionA": "nothing",
+      "optionB": "anything",
+      "optionC": "everything",
+      "optionD": "something",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q030",
+      "questionText": "___ likes to be loved.",
+      "optionA": "Anything",
+      "optionB": "Everybody",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option B",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q031",
+      "questionText": "___ loves knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Everything",
+      "optionC": "Someone",
+      "optionD": "Nobody",
+      "correctOption": "Option C",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q032",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "anyone",
+      "correctOption": "Option D",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q033",
+      "questionText": "___ loves ready for the party.",
+      "optionA": "Everything",
+      "optionB": "Everyone",
+      "optionC": "Anything",
+      "optionD": "Nothing",
+      "correctOption": "Option A",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q034",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "nothing",
+      "optionC": "everything",
+      "optionD": "something",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q035",
+      "questionText": "___ loves to be loved.",
+      "optionA": "Anything",
+      "optionB": "Nothing",
+      "optionC": "Everybody",
+      "optionD": "Somewhere",
+      "correctOption": "Option C",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q036",
+      "questionText": "___ hates knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Everything",
+      "optionC": "Nobody",
+      "optionD": "Someone",
+      "correctOption": "Option D",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q037",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "anyone",
+      "optionB": "someone",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option A",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q038",
+      "questionText": "___ hates ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Everything",
+      "optionC": "Anything",
+      "optionD": "Nothing",
+      "correctOption": "Option B",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q039",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "something",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q040",
+      "questionText": "___ hates to be loved.",
+      "optionA": "Anything",
+      "optionB": "Nothing",
+      "optionC": "Somewhere",
+      "optionD": "Everybody",
+      "correctOption": "Option D",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q041",
+      "questionText": "___ understands knocking on the door.",
+      "optionA": "Someone",
+      "optionB": "Anyone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option A",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q042",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "anyone",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q043",
+      "questionText": "___ understands ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Everything",
+      "optionD": "Nothing",
+      "correctOption": "Option C",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q044",
+      "questionText": "I have ___ to wear.",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "something",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q045",
+      "questionText": "___ understands to be loved.",
+      "optionA": "Everybody",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option A",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q046",
+      "questionText": "___ sees knocking on the door.",
+      "optionA": "Anyone",
+      "optionB": "Someone",
+      "optionC": "Everything",
+      "optionD": "Nobody",
+      "correctOption": "Option B",
+      "explanation": "'Someone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q047",
+      "questionText": "Does ___ know where my keys are?",
+      "optionA": "someone",
+      "optionB": "everything",
+      "optionC": "anyone",
+      "optionD": "nothing",
+      "correctOption": "Option C",
+      "explanation": "'anyone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q048",
+      "questionText": "___ sees ready for the party.",
+      "optionA": "Everyone",
+      "optionB": "Anything",
+      "optionC": "Nothing",
+      "optionD": "Everything",
+      "correctOption": "Option D",
+      "explanation": "'Everything' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q049",
+      "questionText": "I have ___ to wear.",
+      "optionA": "nothing",
+      "optionB": "anything",
+      "optionC": "everything",
+      "optionD": "something",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T038-Q050",
+      "questionText": "___ sees to be loved.",
+      "optionA": "Anything",
+      "optionB": "Everybody",
+      "optionC": "Nothing",
+      "optionD": "Somewhere",
+      "correctOption": "Option B",
+      "explanation": "'Everybody' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "topicId": 3,
+  "topicName": "Predicate",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T003-Q001",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The professor explains the lesson clearly.\"",
+      "optionA": "the lesson clearly",
+      "optionB": "explains",
+      "optionC": "The professor",
+      "optionD": "explains the lesson clearly",
+      "correctOption": "Option B",
+      "explanation": "'explains' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q002",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The students read the textbook in the library.\"",
+      "optionA": "the textbook in the library",
+      "optionB": "read the textbook in the library",
+      "optionC": "The students",
+      "optionD": "read",
+      "correctOption": "Option B",
+      "explanation": "'read the textbook in the library' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q003",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The academic advisor helps freshmen with their schedules.\"",
+      "optionA": "The academic advisor",
+      "optionB": "helps",
+      "optionC": "freshmen with their schedules",
+      "optionD": "helps freshmen with their schedules",
+      "correctOption": "Option B",
+      "explanation": "'helps' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q004",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The librarian organizes the new books on the shelf.\"",
+      "optionA": "organizes the new books on the shelf",
+      "optionB": "The librarian",
+      "optionC": "organizes",
+      "optionD": "the new books on the shelf",
+      "correctOption": "Option A",
+      "explanation": "'organizes the new books on the shelf' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q005",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The biology lab opens at eight o'clock in the morning.\"",
+      "optionA": "opens",
+      "optionB": "at eight o'clock in the morning",
+      "optionC": "The biology lab",
+      "optionD": "opens at eight o'clock in the morning",
+      "correctOption": "Option A",
+      "explanation": "'opens' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q006",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The research team analyzes the data carefully.\"",
+      "optionA": "analyzes",
+      "optionB": "The research team",
+      "optionC": "the data carefully",
+      "optionD": "analyzes the data carefully",
+      "correctOption": "Option D",
+      "explanation": "'analyzes the data carefully' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q007",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The university president welcomes the new students.\"",
+      "optionA": "the new students",
+      "optionB": "welcomes the new students",
+      "optionC": "welcomes",
+      "optionD": "The university president",
+      "correctOption": "Option C",
+      "explanation": "'welcomes' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q008",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The study group meets every Tuesday evening.\"",
+      "optionA": "meets every Tuesday evening",
+      "optionB": "every Tuesday evening",
+      "optionC": "The study group",
+      "optionD": "meets",
+      "correctOption": "Option A",
+      "explanation": "'meets every Tuesday evening' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q009",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The final exam covers all the chapters in the book.\"",
+      "optionA": "all the chapters in the book",
+      "optionB": "covers all the chapters in the book",
+      "optionC": "covers",
+      "optionD": "The final exam",
+      "correctOption": "Option C",
+      "explanation": "'covers' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q010",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The teaching assistant grades the quizzes quickly.\"",
+      "optionA": "The teaching assistant",
+      "optionB": "grades the quizzes quickly",
+      "optionC": "the quizzes quickly",
+      "optionD": "grades",
+      "correctOption": "Option B",
+      "explanation": "'grades the quizzes quickly' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q011",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The computer science students write code for their project.\"",
+      "optionA": "The computer science students",
+      "optionB": "write code for their project",
+      "optionC": "write",
+      "optionD": "code for their project",
+      "correctOption": "Option C",
+      "explanation": "'write' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q012",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The history lecture starts in ten minutes.\"",
+      "optionA": "in ten minutes",
+      "optionB": "starts in ten minutes",
+      "optionC": "starts",
+      "optionD": "The history lecture",
+      "correctOption": "Option B",
+      "explanation": "'starts in ten minutes' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q013",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The campus cafeteria serves lunch until two o'clock.\"",
+      "optionA": "serves",
+      "optionB": "serves lunch until two o'clock",
+      "optionC": "The campus cafeteria",
+      "optionD": "lunch until two o'clock",
+      "correctOption": "Option A",
+      "explanation": "'serves' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q014",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The financial aid office processes scholarship applications.\"",
+      "optionA": "processes scholarship applications",
+      "optionB": "The financial aid office",
+      "optionC": "processes",
+      "optionD": "scholarship applications",
+      "correctOption": "Option A",
+      "explanation": "'processes scholarship applications' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q015",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The engineering department hosts a science fair every year.\"",
+      "optionA": "a science fair every year",
+      "optionB": "The engineering department",
+      "optionC": "hosts a science fair every year",
+      "optionD": "hosts",
+      "correctOption": "Option D",
+      "explanation": "'hosts' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q016",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The young student asks a question during the seminar.\"",
+      "optionA": "asks",
+      "optionB": "The young student",
+      "optionC": "a question during the seminar",
+      "optionD": "asks a question during the seminar",
+      "correctOption": "Option D",
+      "explanation": "'asks a question during the seminar' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q017",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The guest speaker presents a fascinating topic.\"",
+      "optionA": "presents",
+      "optionB": "a fascinating topic",
+      "optionC": "The guest speaker",
+      "optionD": "presents a fascinating topic",
+      "correctOption": "Option A",
+      "explanation": "'presents' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q018",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The chemistry professor demonstrates the experiment safely.\"",
+      "optionA": "the experiment safely",
+      "optionB": "demonstrates the experiment safely",
+      "optionC": "demonstrates",
+      "optionD": "The chemistry professor",
+      "correctOption": "Option B",
+      "explanation": "'demonstrates the experiment safely' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q019",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The writing center offers free tutoring sessions.\"",
+      "optionA": "The writing center",
+      "optionB": "offers free tutoring sessions",
+      "optionC": "offers",
+      "optionD": "free tutoring sessions",
+      "correctOption": "Option C",
+      "explanation": "'offers' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q020",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The scholarship committee awards funds to excellent students.\"",
+      "optionA": "awards funds to excellent students",
+      "optionB": "awards",
+      "optionC": "The scholarship committee",
+      "optionD": "funds to excellent students",
+      "correctOption": "Option A",
+      "explanation": "'awards funds to excellent students' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q021",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The campus bus arrives every fifteen minutes.\"",
+      "optionA": "The campus bus",
+      "optionB": "every fifteen minutes",
+      "optionC": "arrives every fifteen minutes",
+      "optionD": "arrives",
+      "correctOption": "Option D",
+      "explanation": "'arrives' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q022",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The student union organizes weekend activities.\"",
+      "optionA": "organizes",
+      "optionB": "organizes weekend activities",
+      "optionC": "weekend activities",
+      "optionD": "The student union",
+      "correctOption": "Option B",
+      "explanation": "'organizes weekend activities' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q023",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The math tutor solves complex equations easily.\"",
+      "optionA": "solves complex equations easily",
+      "optionB": "complex equations easily",
+      "optionC": "solves",
+      "optionD": "The math tutor",
+      "correctOption": "Option C",
+      "explanation": "'solves' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q024",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The campus bookstore sells all required materials.\"",
+      "optionA": "The campus bookstore",
+      "optionB": "all required materials",
+      "optionC": "sells",
+      "optionD": "sells all required materials",
+      "correctOption": "Option D",
+      "explanation": "'sells all required materials' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q025",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The art class visits the local museum today.\"",
+      "optionA": "the local museum today",
+      "optionB": "visits the local museum today",
+      "optionC": "The art class",
+      "optionD": "visits",
+      "correctOption": "Option D",
+      "explanation": "'visits' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q026",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The medical students observe the procedure quietly.\"",
+      "optionA": "The medical students",
+      "optionB": "observe",
+      "optionC": "observe the procedure quietly",
+      "optionD": "the procedure quietly",
+      "correctOption": "Option C",
+      "explanation": "'observe the procedure quietly' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q027",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The drama club rehearses the play in the auditorium.\"",
+      "optionA": "rehearses the play in the auditorium",
+      "optionB": "the play in the auditorium",
+      "optionC": "rehearses",
+      "optionD": "The drama club",
+      "correctOption": "Option C",
+      "explanation": "'rehearses' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q028",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The graduation ceremony takes place in the large stadium.\"",
+      "optionA": "The graduation ceremony",
+      "optionB": "takes place in the large stadium",
+      "optionC": "in the large stadium",
+      "optionD": "takes place",
+      "correctOption": "Option B",
+      "explanation": "'takes place in the large stadium' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q029",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The international students learn about local culture.\"",
+      "optionA": "learn about local culture",
+      "optionB": "learn",
+      "optionC": "about local culture",
+      "optionD": "The international students",
+      "correctOption": "Option B",
+      "explanation": "'learn' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q030",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The psychology professor assigns a long research paper.\"",
+      "optionA": "assigns",
+      "optionB": "a long research paper",
+      "optionC": "The psychology professor",
+      "optionD": "assigns a long research paper",
+      "correctOption": "Option D",
+      "explanation": "'assigns a long research paper' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q031",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The career fair connects students with employers.\"",
+      "optionA": "The career fair",
+      "optionB": "students with employers",
+      "optionC": "connects students with employers",
+      "optionD": "connects",
+      "correctOption": "Option D",
+      "explanation": "'connects' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q032",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The university choir sings beautifully at the concert.\"",
+      "optionA": "The university choir",
+      "optionB": "sings",
+      "optionC": "sings beautifully at the concert",
+      "optionD": "beautifully at the concert",
+      "correctOption": "Option C",
+      "explanation": "'sings beautifully at the concert' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q033",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The debate team argues their points convincingly.\"",
+      "optionA": "The debate team",
+      "optionB": "their points convincingly",
+      "optionC": "argues",
+      "optionD": "argues their points convincingly",
+      "correctOption": "Option C",
+      "explanation": "'argues' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q034",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The campus security patrols the area at night.\"",
+      "optionA": "the area at night",
+      "optionB": "The campus security",
+      "optionC": "patrols",
+      "optionD": "patrols the area at night",
+      "correctOption": "Option D",
+      "explanation": "'patrols the area at night' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q035",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The language lab provides software for pronunciation practice.\"",
+      "optionA": "provides software for pronunciation practice",
+      "optionB": "provides",
+      "optionC": "software for pronunciation practice",
+      "optionD": "The language lab",
+      "correctOption": "Option B",
+      "explanation": "'provides' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q036",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The athletic director announces the game schedule.\"",
+      "optionA": "announces",
+      "optionB": "the game schedule",
+      "optionC": "The athletic director",
+      "optionD": "announces the game schedule",
+      "correctOption": "Option D",
+      "explanation": "'announces the game schedule' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q037",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The dorm advisor plans a meeting for residents.\"",
+      "optionA": "a meeting for residents",
+      "optionB": "plans a meeting for residents",
+      "optionC": "The dorm advisor",
+      "optionD": "plans",
+      "correctOption": "Option D",
+      "explanation": "'plans' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q038",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The physics class studies the laws of motion.\"",
+      "optionA": "studies the laws of motion",
+      "optionB": "studies",
+      "optionC": "The physics class",
+      "optionD": "the laws of motion",
+      "correctOption": "Option A",
+      "explanation": "'studies the laws of motion' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q039",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The university clinic treats sick students daily.\"",
+      "optionA": "The university clinic",
+      "optionB": "sick students daily",
+      "optionC": "treats",
+      "optionD": "treats sick students daily",
+      "correctOption": "Option C",
+      "explanation": "'treats' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q040",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The campus radio station broadcasts news every morning.\"",
+      "optionA": "broadcasts",
+      "optionB": "The campus radio station",
+      "optionC": "broadcasts news every morning",
+      "optionD": "news every morning",
+      "correctOption": "Option C",
+      "explanation": "'broadcasts news every morning' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q041",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The student newspaper publishes interesting articles weekly.\"",
+      "optionA": "publishes",
+      "optionB": "The student newspaper",
+      "optionC": "publishes interesting articles weekly",
+      "optionD": "interesting articles weekly",
+      "correctOption": "Option A",
+      "explanation": "'publishes' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q042",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The alumni association raises money for new facilities.\"",
+      "optionA": "The alumni association",
+      "optionB": "raises",
+      "optionC": "raises money for new facilities",
+      "optionD": "money for new facilities",
+      "correctOption": "Option C",
+      "explanation": "'raises money for new facilities' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q043",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The dining hall prepares special meals for holidays.\"",
+      "optionA": "prepares",
+      "optionB": "The dining hall",
+      "optionC": "special meals for holidays",
+      "optionD": "prepares special meals for holidays",
+      "correctOption": "Option A",
+      "explanation": "'prepares' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q044",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The registration system crashes during the busy period.\"",
+      "optionA": "crashes during the busy period",
+      "optionB": "crashes",
+      "optionC": "The registration system",
+      "optionD": "during the busy period",
+      "correctOption": "Option A",
+      "explanation": "'crashes during the busy period' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q045",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The orientation leaders guide the campus tour.\"",
+      "optionA": "the campus tour",
+      "optionB": "guide",
+      "optionC": "The orientation leaders",
+      "optionD": "guide the campus tour",
+      "correctOption": "Option B",
+      "explanation": "'guide' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q046",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The sociology department conducts a survey on student life.\"",
+      "optionA": "The sociology department",
+      "optionB": "conducts a survey on student life",
+      "optionC": "conducts",
+      "optionD": "a survey on student life",
+      "correctOption": "Option B",
+      "explanation": "'conducts a survey on student life' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q047",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The environmental club cleans the park near the campus.\"",
+      "optionA": "The environmental club",
+      "optionB": "cleans",
+      "optionC": "the park near the campus",
+      "optionD": "cleans the park near the campus",
+      "correctOption": "Option B",
+      "explanation": "'cleans' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q048",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The astronomy class observes the stars at night.\"",
+      "optionA": "observes the stars at night",
+      "optionB": "the stars at night",
+      "optionC": "observes",
+      "optionD": "The astronomy class",
+      "correctOption": "Option A",
+      "explanation": "'observes the stars at night' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q049",
+      "questionText": "What is the simple predicate in the following sentence?\n\"The university library extends its hours during exams.\"",
+      "optionA": "extends",
+      "optionB": "extends its hours during exams",
+      "optionC": "The university library",
+      "optionD": "its hours during exams",
+      "correctOption": "Option A",
+      "explanation": "'extends' is the simple predicate (the main verb telling what the subject does).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T003-Q050",
+      "questionText": "What is the complete predicate in the following sentence?\n\"The campus IT helpdesk fixes computer problems for students.\"",
+      "optionA": "computer problems for students",
+      "optionB": "The campus IT helpdesk",
+      "optionC": "fixes",
+      "optionD": "fixes computer problems for students",
+      "correctOption": "Option D",
+      "explanation": "'fixes computer problems for students' is the predicate because it tells what the subject does or is.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

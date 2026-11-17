@@ -1,0 +1,507 @@
+{
+  "topicId": 207,
+  "topicName": "Adverb phrase",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T207-Q001",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment extremely well.",
+      "optionA": "rather slowly",
+      "optionB": "The professor (Variant 1)",
+      "optionC": "finished the assignment (Variant 1)",
+      "optionD": "the assignment (Variant 1)",
+      "correctOption": "Option A",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q002",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 2)",
+      "optionB": "finished the assignment (Variant 2)",
+      "optionC": "almost completely",
+      "optionD": "the assignment (Variant 2)",
+      "correctOption": "Option C",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q003",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment very quickly.",
+      "optionA": "The university library (Variant 3)",
+      "optionB": "finished the assignment (Variant 3)",
+      "optionC": "the assignment (Variant 3)",
+      "optionD": "quite easily",
+      "correctOption": "Option D",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q004",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment rather slowly.",
+      "optionA": "The university library (Variant 4)",
+      "optionB": "very quickly",
+      "optionC": "finished the assignment (Variant 4)",
+      "optionD": "the assignment (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q005",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment extremely well.",
+      "optionA": "The professor (Variant 5)",
+      "optionB": "finished the assignment (Variant 5)",
+      "optionC": "the assignment (Variant 5)",
+      "optionD": "very quickly",
+      "correctOption": "Option D",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q006",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment almost completely.",
+      "optionA": "Many researchers (Variant 6)",
+      "optionB": "finished the assignment (Variant 6)",
+      "optionC": "almost completely",
+      "optionD": "the assignment (Variant 6)",
+      "correctOption": "Option C",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q007",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment very quickly.",
+      "optionA": "Many researchers (Variant 7)",
+      "optionB": "finished the assignment (Variant 7)",
+      "optionC": "the assignment (Variant 7)",
+      "optionD": "almost completely",
+      "correctOption": "Option D",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q008",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment rather slowly.",
+      "optionA": "The professor (Variant 8)",
+      "optionB": "finished the assignment (Variant 8)",
+      "optionC": "the assignment (Variant 8)",
+      "optionD": "extremely well",
+      "correctOption": "Option D",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q009",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment rather slowly.",
+      "optionA": "rather slowly",
+      "optionB": "Many researchers (Variant 9)",
+      "optionC": "finished the assignment (Variant 9)",
+      "optionD": "the assignment (Variant 9)",
+      "correctOption": "Option A",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q010",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 10)",
+      "optionB": "finished the assignment (Variant 10)",
+      "optionC": "extremely well",
+      "optionD": "the assignment (Variant 10)",
+      "correctOption": "Option C",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q011",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment extremely well.",
+      "optionA": "quite easily",
+      "optionB": "Many researchers (Variant 11)",
+      "optionC": "finished the assignment (Variant 11)",
+      "optionD": "the assignment (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q012",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment very quickly.",
+      "optionA": "very quickly",
+      "optionB": "The textbook (Variant 12)",
+      "optionC": "finished the assignment (Variant 12)",
+      "optionD": "the assignment (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q013",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment almost completely.",
+      "optionA": "The professor (Variant 13)",
+      "optionB": "finished the assignment (Variant 13)",
+      "optionC": "extremely well",
+      "optionD": "the assignment (Variant 13)",
+      "correctOption": "Option C",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q014",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment quite easily.",
+      "optionA": "The textbook (Variant 14)",
+      "optionB": "finished the assignment (Variant 14)",
+      "optionC": "the assignment (Variant 14)",
+      "optionD": "rather slowly",
+      "correctOption": "Option D",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q015",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment quite easily.",
+      "optionA": "The professor (Variant 15)",
+      "optionB": "very quickly",
+      "optionC": "finished the assignment (Variant 15)",
+      "optionD": "the assignment (Variant 15)",
+      "correctOption": "Option B",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q016",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment very quickly.",
+      "optionA": "A bright student (Variant 16)",
+      "optionB": "finished the assignment (Variant 16)",
+      "optionC": "rather slowly",
+      "optionD": "the assignment (Variant 16)",
+      "correctOption": "Option C",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q017",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment almost completely.",
+      "optionA": "The university library (Variant 17)",
+      "optionB": "finished the assignment (Variant 17)",
+      "optionC": "quite easily",
+      "optionD": "the assignment (Variant 17)",
+      "correctOption": "Option C",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q018",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment very quickly.",
+      "optionA": "The professor (Variant 18)",
+      "optionB": "quite easily",
+      "optionC": "finished the assignment (Variant 18)",
+      "optionD": "the assignment (Variant 18)",
+      "correctOption": "Option B",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q019",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment rather slowly.",
+      "optionA": "The university library (Variant 19)",
+      "optionB": "finished the assignment (Variant 19)",
+      "optionC": "the assignment (Variant 19)",
+      "optionD": "extremely well",
+      "correctOption": "Option D",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q020",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment rather slowly.",
+      "optionA": "A bright student (Variant 20)",
+      "optionB": "finished the assignment (Variant 20)",
+      "optionC": "the assignment (Variant 20)",
+      "optionD": "quite easily",
+      "correctOption": "Option D",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q021",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment almost completely.",
+      "optionA": "The professor (Variant 21)",
+      "optionB": "finished the assignment (Variant 21)",
+      "optionC": "extremely well",
+      "optionD": "the assignment (Variant 21)",
+      "correctOption": "Option C",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q022",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 22)",
+      "optionB": "extremely well",
+      "optionC": "finished the assignment (Variant 22)",
+      "optionD": "the assignment (Variant 22)",
+      "correctOption": "Option B",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q023",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment extremely well.",
+      "optionA": "The university library (Variant 23)",
+      "optionB": "finished the assignment (Variant 23)",
+      "optionC": "the assignment (Variant 23)",
+      "optionD": "very quickly",
+      "correctOption": "Option D",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q024",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment extremely well.",
+      "optionA": "The professor (Variant 24)",
+      "optionB": "finished the assignment (Variant 24)",
+      "optionC": "the assignment (Variant 24)",
+      "optionD": "almost completely",
+      "correctOption": "Option D",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q025",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 25)",
+      "optionB": "rather slowly",
+      "optionC": "finished the assignment (Variant 25)",
+      "optionD": "the assignment (Variant 25)",
+      "correctOption": "Option B",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q026",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment rather slowly.",
+      "optionA": "The textbook (Variant 26)",
+      "optionB": "very quickly",
+      "optionC": "finished the assignment (Variant 26)",
+      "optionD": "the assignment (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q027",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment almost completely.",
+      "optionA": "extremely well",
+      "optionB": "The textbook (Variant 27)",
+      "optionC": "finished the assignment (Variant 27)",
+      "optionD": "the assignment (Variant 27)",
+      "correctOption": "Option A",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q028",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment quite easily.",
+      "optionA": "The university library (Variant 28)",
+      "optionB": "finished the assignment (Variant 28)",
+      "optionC": "the assignment (Variant 28)",
+      "optionD": "quite easily",
+      "correctOption": "Option D",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q029",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment very quickly.",
+      "optionA": "The university library (Variant 29)",
+      "optionB": "finished the assignment (Variant 29)",
+      "optionC": "rather slowly",
+      "optionD": "the assignment (Variant 29)",
+      "correctOption": "Option C",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q030",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment very quickly.",
+      "optionA": "almost completely",
+      "optionB": "Many researchers (Variant 30)",
+      "optionC": "finished the assignment (Variant 30)",
+      "optionD": "the assignment (Variant 30)",
+      "correctOption": "Option A",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q031",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment rather slowly.",
+      "optionA": "The professor (Variant 31)",
+      "optionB": "finished the assignment (Variant 31)",
+      "optionC": "the assignment (Variant 31)",
+      "optionD": "extremely well",
+      "correctOption": "Option D",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q032",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment extremely well.",
+      "optionA": "very quickly",
+      "optionB": "The textbook (Variant 32)",
+      "optionC": "finished the assignment (Variant 32)",
+      "optionD": "the assignment (Variant 32)",
+      "correctOption": "Option A",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q033",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment quite easily.",
+      "optionA": "Many researchers (Variant 33)",
+      "optionB": "finished the assignment (Variant 33)",
+      "optionC": "extremely well",
+      "optionD": "the assignment (Variant 33)",
+      "correctOption": "Option C",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q034",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment extremely well.",
+      "optionA": "The professor (Variant 34)",
+      "optionB": "extremely well",
+      "optionC": "finished the assignment (Variant 34)",
+      "optionD": "the assignment (Variant 34)",
+      "correctOption": "Option B",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q035",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment rather slowly.",
+      "optionA": "A bright student (Variant 35)",
+      "optionB": "very quickly",
+      "optionC": "finished the assignment (Variant 35)",
+      "optionD": "the assignment (Variant 35)",
+      "correctOption": "Option B",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q036",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 36)",
+      "optionB": "finished the assignment (Variant 36)",
+      "optionC": "quite easily",
+      "optionD": "the assignment (Variant 36)",
+      "correctOption": "Option C",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q037",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 37)",
+      "optionB": "finished the assignment (Variant 37)",
+      "optionC": "the assignment (Variant 37)",
+      "optionD": "rather slowly",
+      "correctOption": "Option D",
+      "explanation": "'rather slowly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q038",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment almost completely.",
+      "optionA": "The textbook (Variant 38)",
+      "optionB": "almost completely",
+      "optionC": "finished the assignment (Variant 38)",
+      "optionD": "the assignment (Variant 38)",
+      "correctOption": "Option B",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q039",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment quite easily.",
+      "optionA": "very quickly",
+      "optionB": "Many researchers (Variant 39)",
+      "optionC": "finished the assignment (Variant 39)",
+      "optionD": "the assignment (Variant 39)",
+      "correctOption": "Option A",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q040",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment almost completely.",
+      "optionA": "extremely well",
+      "optionB": "The university library (Variant 40)",
+      "optionC": "finished the assignment (Variant 40)",
+      "optionD": "the assignment (Variant 40)",
+      "correctOption": "Option A",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q041",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment very quickly.",
+      "optionA": "A bright student (Variant 41)",
+      "optionB": "very quickly",
+      "optionC": "finished the assignment (Variant 41)",
+      "optionD": "the assignment (Variant 41)",
+      "correctOption": "Option B",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q042",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment quite easily.",
+      "optionA": "Many researchers (Variant 42)",
+      "optionB": "finished the assignment (Variant 42)",
+      "optionC": "very quickly",
+      "optionD": "the assignment (Variant 42)",
+      "correctOption": "Option C",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q043",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment quite easily.",
+      "optionA": "A bright student (Variant 43)",
+      "optionB": "finished the assignment (Variant 43)",
+      "optionC": "very quickly",
+      "optionD": "the assignment (Variant 43)",
+      "correctOption": "Option C",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q044",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment quite easily.",
+      "optionA": "A bright student (Variant 44)",
+      "optionB": "finished the assignment (Variant 44)",
+      "optionC": "the assignment (Variant 44)",
+      "optionD": "extremely well",
+      "correctOption": "Option D",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q045",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment quite easily.",
+      "optionA": "A bright student (Variant 45)",
+      "optionB": "almost completely",
+      "optionC": "finished the assignment (Variant 45)",
+      "optionD": "the assignment (Variant 45)",
+      "correctOption": "Option B",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q046",
+      "questionText": "Identify the adverb phrase in the following sentence: The professor finished the assignment extremely well.",
+      "optionA": "The university library (Variant 46)",
+      "optionB": "finished the assignment (Variant 46)",
+      "optionC": "the assignment (Variant 46)",
+      "optionD": "very quickly",
+      "correctOption": "Option D",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q047",
+      "questionText": "Identify the adverb phrase in the following sentence: The textbook finished the assignment quite easily.",
+      "optionA": "extremely well",
+      "optionB": "The professor (Variant 47)",
+      "optionC": "finished the assignment (Variant 47)",
+      "optionD": "the assignment (Variant 47)",
+      "correctOption": "Option A",
+      "explanation": "'extremely well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q048",
+      "questionText": "Identify the adverb phrase in the following sentence: Many researchers finished the assignment rather slowly.",
+      "optionA": "The textbook (Variant 48)",
+      "optionB": "finished the assignment (Variant 48)",
+      "optionC": "almost completely",
+      "optionD": "the assignment (Variant 48)",
+      "correctOption": "Option C",
+      "explanation": "'almost completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q049",
+      "questionText": "Identify the adverb phrase in the following sentence: The university library finished the assignment rather slowly.",
+      "optionA": "Many researchers (Variant 49)",
+      "optionB": "finished the assignment (Variant 49)",
+      "optionC": "quite easily",
+      "optionD": "the assignment (Variant 49)",
+      "correctOption": "Option C",
+      "explanation": "'quite easily' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T207-Q050",
+      "questionText": "Identify the adverb phrase in the following sentence: A bright student finished the assignment very quickly.",
+      "optionA": "Many researchers (Variant 50)",
+      "optionB": "finished the assignment (Variant 50)",
+      "optionC": "the assignment (Variant 50)",
+      "optionD": "very quickly",
+      "correctOption": "Option D",
+      "explanation": "'very quickly' is the correct choice in standard English grammar."
+    }
+  ]
+}

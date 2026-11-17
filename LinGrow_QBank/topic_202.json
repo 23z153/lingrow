@@ -1,0 +1,507 @@
+{
+  "topicId": 202,
+  "topicName": "Gerund vs infinitive",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T202-Q001",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 1)",
+      "optionA": "smoking",
+      "optionB": "to smoke",
+      "optionC": "smoked",
+      "optionD": "smoke",
+      "correctOption": "Option A",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q002",
+      "questionText": "Please remember ___ the door when you leave. (Variant 2)",
+      "optionA": "locking",
+      "optionB": "to lock",
+      "optionC": "locked",
+      "optionD": "lock",
+      "correctOption": "Option B",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q003",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 3)",
+      "optionA": "visited",
+      "optionB": "visit",
+      "optionC": "visiting",
+      "optionD": "to visit",
+      "correctOption": "Option C",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q004",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 4)",
+      "optionA": "open",
+      "optionB": "opening",
+      "optionC": "opened",
+      "optionD": "to open",
+      "correctOption": "Option D",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q005",
+      "questionText": "He regrets ___ school so young. (Variant 5)",
+      "optionA": "leaving",
+      "optionB": "leave",
+      "optionC": "left",
+      "optionD": "to leave",
+      "correctOption": "Option A",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q006",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 6)",
+      "optionA": "smoked",
+      "optionB": "smoking",
+      "optionC": "smoke",
+      "optionD": "to smoke",
+      "correctOption": "Option B",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q007",
+      "questionText": "Please remember ___ the door when you leave. (Variant 7)",
+      "optionA": "locking",
+      "optionB": "locked",
+      "optionC": "to lock",
+      "optionD": "lock",
+      "correctOption": "Option C",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q008",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 8)",
+      "optionA": "visited",
+      "optionB": "visit",
+      "optionC": "to visit",
+      "optionD": "visiting",
+      "correctOption": "Option D",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q009",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 9)",
+      "optionA": "to open",
+      "optionB": "opening",
+      "optionC": "open",
+      "optionD": "opened",
+      "correctOption": "Option A",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q010",
+      "questionText": "He regrets ___ school so young. (Variant 10)",
+      "optionA": "leave",
+      "optionB": "leaving",
+      "optionC": "to leave",
+      "optionD": "left",
+      "correctOption": "Option B",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q011",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 11)",
+      "optionA": "smoked",
+      "optionB": "smoke",
+      "optionC": "smoking",
+      "optionD": "to smoke",
+      "correctOption": "Option C",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q012",
+      "questionText": "Please remember ___ the door when you leave. (Variant 12)",
+      "optionA": "locked",
+      "optionB": "locking",
+      "optionC": "lock",
+      "optionD": "to lock",
+      "correctOption": "Option D",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q013",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 13)",
+      "optionA": "visiting",
+      "optionB": "visited",
+      "optionC": "to visit",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q014",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 14)",
+      "optionA": "open",
+      "optionB": "to open",
+      "optionC": "opening",
+      "optionD": "opened",
+      "correctOption": "Option B",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q015",
+      "questionText": "He regrets ___ school so young. (Variant 15)",
+      "optionA": "to leave",
+      "optionB": "left",
+      "optionC": "leaving",
+      "optionD": "leave",
+      "correctOption": "Option C",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q016",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 16)",
+      "optionA": "smoke",
+      "optionB": "smoked",
+      "optionC": "to smoke",
+      "optionD": "smoking",
+      "correctOption": "Option D",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q017",
+      "questionText": "Please remember ___ the door when you leave. (Variant 17)",
+      "optionA": "to lock",
+      "optionB": "lock",
+      "optionC": "locking",
+      "optionD": "locked",
+      "correctOption": "Option A",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q018",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 18)",
+      "optionA": "to visit",
+      "optionB": "visiting",
+      "optionC": "visited",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q019",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 19)",
+      "optionA": "opened",
+      "optionB": "opening",
+      "optionC": "to open",
+      "optionD": "open",
+      "correctOption": "Option C",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q020",
+      "questionText": "He regrets ___ school so young. (Variant 20)",
+      "optionA": "left",
+      "optionB": "leave",
+      "optionC": "to leave",
+      "optionD": "leaving",
+      "correctOption": "Option D",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q021",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 21)",
+      "optionA": "smoking",
+      "optionB": "smoke",
+      "optionC": "smoked",
+      "optionD": "to smoke",
+      "correctOption": "Option A",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q022",
+      "questionText": "Please remember ___ the door when you leave. (Variant 22)",
+      "optionA": "locking",
+      "optionB": "to lock",
+      "optionC": "locked",
+      "optionD": "lock",
+      "correctOption": "Option B",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q023",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 23)",
+      "optionA": "visit",
+      "optionB": "visited",
+      "optionC": "visiting",
+      "optionD": "to visit",
+      "correctOption": "Option C",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q024",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 24)",
+      "optionA": "opening",
+      "optionB": "opened",
+      "optionC": "open",
+      "optionD": "to open",
+      "correctOption": "Option D",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q025",
+      "questionText": "He regrets ___ school so young. (Variant 25)",
+      "optionA": "leaving",
+      "optionB": "leave",
+      "optionC": "to leave",
+      "optionD": "left",
+      "correctOption": "Option A",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q026",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 26)",
+      "optionA": "to smoke",
+      "optionB": "smoking",
+      "optionC": "smoke",
+      "optionD": "smoked",
+      "correctOption": "Option B",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q027",
+      "questionText": "Please remember ___ the door when you leave. (Variant 27)",
+      "optionA": "locking",
+      "optionB": "locked",
+      "optionC": "to lock",
+      "optionD": "lock",
+      "correctOption": "Option C",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q028",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 28)",
+      "optionA": "visited",
+      "optionB": "visit",
+      "optionC": "to visit",
+      "optionD": "visiting",
+      "correctOption": "Option D",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q029",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 29)",
+      "optionA": "to open",
+      "optionB": "opened",
+      "optionC": "open",
+      "optionD": "opening",
+      "correctOption": "Option A",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q030",
+      "questionText": "He regrets ___ school so young. (Variant 30)",
+      "optionA": "to leave",
+      "optionB": "leaving",
+      "optionC": "leave",
+      "optionD": "left",
+      "correctOption": "Option B",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q031",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 31)",
+      "optionA": "smoked",
+      "optionB": "to smoke",
+      "optionC": "smoking",
+      "optionD": "smoke",
+      "correctOption": "Option C",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q032",
+      "questionText": "Please remember ___ the door when you leave. (Variant 32)",
+      "optionA": "lock",
+      "optionB": "locking",
+      "optionC": "locked",
+      "optionD": "to lock",
+      "correctOption": "Option D",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q033",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 33)",
+      "optionA": "visiting",
+      "optionB": "visited",
+      "optionC": "to visit",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q034",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 34)",
+      "optionA": "opening",
+      "optionB": "to open",
+      "optionC": "opened",
+      "optionD": "open",
+      "correctOption": "Option B",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q035",
+      "questionText": "He regrets ___ school so young. (Variant 35)",
+      "optionA": "to leave",
+      "optionB": "leave",
+      "optionC": "leaving",
+      "optionD": "left",
+      "correctOption": "Option C",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q036",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 36)",
+      "optionA": "smoked",
+      "optionB": "to smoke",
+      "optionC": "smoke",
+      "optionD": "smoking",
+      "correctOption": "Option D",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q037",
+      "questionText": "Please remember ___ the door when you leave. (Variant 37)",
+      "optionA": "to lock",
+      "optionB": "locked",
+      "optionC": "locking",
+      "optionD": "lock",
+      "correctOption": "Option A",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q038",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 38)",
+      "optionA": "to visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "visited",
+      "correctOption": "Option B",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q039",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 39)",
+      "optionA": "opening",
+      "optionB": "open",
+      "optionC": "to open",
+      "optionD": "opened",
+      "correctOption": "Option C",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q040",
+      "questionText": "He regrets ___ school so young. (Variant 40)",
+      "optionA": "to leave",
+      "optionB": "leave",
+      "optionC": "left",
+      "optionD": "leaving",
+      "correctOption": "Option D",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q041",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 41)",
+      "optionA": "smoking",
+      "optionB": "smoke",
+      "optionC": "smoked",
+      "optionD": "to smoke",
+      "correctOption": "Option A",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q042",
+      "questionText": "Please remember ___ the door when you leave. (Variant 42)",
+      "optionA": "locked",
+      "optionB": "to lock",
+      "optionC": "locking",
+      "optionD": "lock",
+      "correctOption": "Option B",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q043",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 43)",
+      "optionA": "to visit",
+      "optionB": "visited",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option C",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q044",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 44)",
+      "optionA": "open",
+      "optionB": "opening",
+      "optionC": "opened",
+      "optionD": "to open",
+      "correctOption": "Option D",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q045",
+      "questionText": "He regrets ___ school so young. (Variant 45)",
+      "optionA": "leaving",
+      "optionB": "left",
+      "optionC": "to leave",
+      "optionD": "leave",
+      "correctOption": "Option A",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q046",
+      "questionText": "I stopped ___ because it was bad for my health. (Variant 46)",
+      "optionA": "to smoke",
+      "optionB": "smoking",
+      "optionC": "smoked",
+      "optionD": "smoke",
+      "correctOption": "Option B",
+      "explanation": "'smoking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q047",
+      "questionText": "Please remember ___ the door when you leave. (Variant 47)",
+      "optionA": "lock",
+      "optionB": "locked",
+      "optionC": "to lock",
+      "optionD": "locking",
+      "correctOption": "Option C",
+      "explanation": "'to lock' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q048",
+      "questionText": "I'll never forget ___ Paris for the first time. (Variant 48)",
+      "optionA": "to visit",
+      "optionB": "visit",
+      "optionC": "visited",
+      "optionD": "visiting",
+      "correctOption": "Option D",
+      "explanation": "'visiting' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q049",
+      "questionText": "I tried ___ the jar, but the lid was too tight. (Variant 49)",
+      "optionA": "to open",
+      "optionB": "open",
+      "optionC": "opened",
+      "optionD": "opening",
+      "correctOption": "Option A",
+      "explanation": "'to open' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T202-Q050",
+      "questionText": "He regrets ___ school so young. (Variant 50)",
+      "optionA": "left",
+      "optionB": "leaving",
+      "optionC": "to leave",
+      "optionD": "leave",
+      "correctOption": "Option B",
+      "explanation": "'leaving' is the correct choice in standard English grammar."
+    }
+  ]
+}

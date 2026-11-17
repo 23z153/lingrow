@@ -1,0 +1,507 @@
+{
+  "topicId": 184,
+  "topicName": "Can",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T184-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The researcher can understand the assignment.",
+      "optionB": "Can assignment researcher the the understand.",
+      "optionC": "The can understand the assignment.",
+      "optionD": "The researcher can understand the assignmenting.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "An expert can present the articleing.",
+      "optionB": "Present the expert an article can.",
+      "optionC": "An can present the article.",
+      "optionD": "An expert can present the article.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The scientist can write the proposal.",
+      "optionB": "The scientist can write the proposaling.",
+      "optionC": "Write proposal can scientist the the.",
+      "optionD": "The can write the proposal.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Present article can team the the.",
+      "optionB": "The team can present the articleing.",
+      "optionC": "The team can present the article.",
+      "optionD": "The can present the article.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The scientist can understand the article.",
+      "optionB": "The scientist can understand the articleing.",
+      "optionC": "Understand scientist the can the article.",
+      "optionD": "The can understand the article.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The committee can present the data.",
+      "optionB": "The the can present data committee.",
+      "optionC": "The can present the data.",
+      "optionD": "The committee can present the dataing.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The author can analyze a booking.",
+      "optionB": "Book the can a analyze author.",
+      "optionC": "The can analyze a book.",
+      "optionD": "The author can analyze a book.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The committee can explain the experimenting.",
+      "optionB": "The can explain the experiment.",
+      "optionC": "The committee can explain the experiment.",
+      "optionD": "Explain the the can committee experiment.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The the proposal write scientist can.",
+      "optionB": "The scientist can write the proposaling.",
+      "optionC": "The can write the proposal.",
+      "optionD": "The scientist can write the proposal.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The author can present the experiment.",
+      "optionB": "The author can present the experimenting.",
+      "optionC": "The can present the experiment.",
+      "optionD": "Experiment the present author the can.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can understand the results.",
+      "optionB": "The can results committee understand the.",
+      "optionC": "The committee can understand the results.",
+      "optionD": "The committee can understand the resultsing.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can present an essay.",
+      "optionB": "Present committee essay can an the.",
+      "optionC": "The committee can present an essay.",
+      "optionD": "The committee can present an essaying.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "An expert can understand the results.",
+      "optionB": "An can understand the results.",
+      "optionC": "An expert can understand the resultsing.",
+      "optionD": "Can understand results the an expert.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The scientist can present the experimenting.",
+      "optionB": "The scientist can present the experiment.",
+      "optionC": "The can present the experiment.",
+      "optionD": "Scientist can the experiment present the.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can explain a thesis.",
+      "optionB": "The author can explain a thesis.",
+      "optionC": "The author can explain a thesising.",
+      "optionD": "Can explain a the thesis author.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Can colleague a explain the experiment.",
+      "optionB": "A colleague can explain the experimenting.",
+      "optionC": "A can explain the experiment.",
+      "optionD": "A colleague can explain the experiment.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The student can analyze the dataing.",
+      "optionB": "The student can analyze the data.",
+      "optionC": "The can analyze the data.",
+      "optionD": "The student data can analyze the.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Author can the the assignment present.",
+      "optionB": "The author can present the assignmenting.",
+      "optionC": "The can present the assignment.",
+      "optionD": "The author can present the assignment.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "An expert can present a book.",
+      "optionB": "An can present a book.",
+      "optionC": "A expert book present can an.",
+      "optionD": "An expert can present a booking.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Analyze a book an expert can.",
+      "optionB": "An expert can analyze a book.",
+      "optionC": "An can analyze a book.",
+      "optionD": "An expert can analyze a booking.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Expert write a an can thesis.",
+      "optionB": "An expert can write a thesising.",
+      "optionC": "An expert can write a thesis.",
+      "optionD": "An can write a thesis.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The professor present can the data.",
+      "optionB": "The professor can present the dataing.",
+      "optionC": "The professor can present the data.",
+      "optionD": "The can present the data.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Colleague explain a the can assignment.",
+      "optionB": "A can explain the assignment.",
+      "optionC": "A colleague can explain the assignment.",
+      "optionD": "A colleague can explain the assignmenting.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "A colleague can understand the results.",
+      "optionB": "A colleague can understand the resultsing.",
+      "optionC": "A can understand the results.",
+      "optionD": "Results colleague understand a the can.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can analyze the results.",
+      "optionB": "University the can results the analyze.",
+      "optionC": "The university can analyze the resultsing.",
+      "optionD": "The university can analyze the results.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Results colleague the present can a.",
+      "optionB": "A can present the results.",
+      "optionC": "A colleague can present the results.",
+      "optionD": "A colleague can present the resultsing.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Scientist can data the the present.",
+      "optionB": "The can present the data.",
+      "optionC": "The scientist can present the data.",
+      "optionD": "The scientist can present the dataing.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The report can analyze the university.",
+      "optionB": "The can analyze the report.",
+      "optionC": "The university can analyze the reporting.",
+      "optionD": "The university can analyze the report.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Can scientist explain the the article.",
+      "optionB": "The can explain the article.",
+      "optionC": "The scientist can explain the article.",
+      "optionD": "The scientist can explain the articleing.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The the can present team data.",
+      "optionB": "The team can present the dataing.",
+      "optionC": "The can present the data.",
+      "optionD": "The team can present the data.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The author can write the proposaling.",
+      "optionB": "The author the can write proposal.",
+      "optionC": "The author can write the proposal.",
+      "optionD": "The can write the proposal.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The committee can explain a thesis.",
+      "optionB": "The committee can explain a thesising.",
+      "optionC": "The can explain a thesis.",
+      "optionD": "Thesis the a can committee explain.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The team can data understand the.",
+      "optionB": "The team can understand the dataing.",
+      "optionC": "The team can understand the data.",
+      "optionD": "The can understand the data.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "An can understand the proposal.",
+      "optionB": "Expert the understand proposal can an.",
+      "optionC": "An expert can understand the proposaling.",
+      "optionD": "An expert can understand the proposal.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The researcher can understand an essaying.",
+      "optionB": "Understand essay can researcher the an.",
+      "optionC": "The researcher can understand an essay.",
+      "optionD": "The can understand an essay.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The committee can present the data.",
+      "optionB": "The committee can present the dataing.",
+      "optionC": "Committee data present can the the.",
+      "optionD": "The can present the data.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The university can explain an essaying.",
+      "optionB": "Essay explain the an university can.",
+      "optionC": "The can explain an essay.",
+      "optionD": "The university can explain an essay.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The author can analyze a book.",
+      "optionB": "The can analyze a book.",
+      "optionC": "Author book can analyze the a.",
+      "optionD": "The author can analyze a booking.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can understand the proposal.",
+      "optionB": "The university can understand the proposal.",
+      "optionC": "The proposal can university the understand.",
+      "optionD": "The university can understand the proposaling.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The team can present a book.",
+      "optionB": "A the present can team book.",
+      "optionC": "The team can present a booking.",
+      "optionD": "The can present a book.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The professor can write the experimenting.",
+      "optionB": "The professor can write the experiment.",
+      "optionC": "Experiment the can write the professor.",
+      "optionD": "The can write the experiment.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Can book the researcher a understand.",
+      "optionB": "The can understand a book.",
+      "optionC": "The researcher can understand a booking.",
+      "optionD": "The researcher can understand a book.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The student can present a thesis.",
+      "optionB": "A the can present thesis student.",
+      "optionC": "The can present a thesis.",
+      "optionD": "The student can present a thesising.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The student can present the data.",
+      "optionB": "Student can the the data present.",
+      "optionC": "The can present the data.",
+      "optionD": "The student can present the dataing.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can explain the experiment.",
+      "optionB": "Can experiment committee explain the the.",
+      "optionC": "The committee can explain the experiment.",
+      "optionD": "The committee can explain the experimenting.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The university can write an essay.",
+      "optionB": "Essay the university an write can.",
+      "optionC": "The university can write an essaying.",
+      "optionD": "The can write an essay.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "Experiment can researcher the the understand.",
+      "optionB": "The researcher can understand the experimenting.",
+      "optionC": "The can understand the experiment.",
+      "optionD": "The researcher can understand the experiment.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can understand the assignment.",
+      "optionB": "The student can understand the assignment.",
+      "optionC": "The student can understand the assignmenting.",
+      "optionD": "The the student can understand assignment.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The professor can explain the article.",
+      "optionB": "The professor can explain the articleing.",
+      "optionC": "The article the professor can explain.",
+      "optionD": "The can explain the article.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T184-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Can'?",
+      "optionA": "The can explain an essay.",
+      "optionB": "The team can explain an essay.",
+      "optionC": "The team can explain an essaying.",
+      "optionD": "Explain team essay can the an.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    }
+  ]
+}

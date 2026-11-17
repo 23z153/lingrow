@@ -1,0 +1,507 @@
+{
+  "topicId": 41,
+  "topicName": "A",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T041-Q001",
+      "questionText": "I saw ___ big cat today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q002",
+      "questionText": "She has ___ small cat.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q003",
+      "questionText": "He bought ___ new cat.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q004",
+      "questionText": "They found ___ beautiful cat.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q005",
+      "questionText": "We want ___ fast cat.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q006",
+      "questionText": "I saw ___ big dog today.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q007",
+      "questionText": "She has ___ small dog.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q008",
+      "questionText": "He bought ___ new dog.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q009",
+      "questionText": "They found ___ beautiful dog.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q010",
+      "questionText": "We want ___ fast dog.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q011",
+      "questionText": "I saw ___ big book today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q012",
+      "questionText": "She has ___ small book.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q013",
+      "questionText": "He bought ___ new book.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q014",
+      "questionText": "They found ___ beautiful book.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q015",
+      "questionText": "We want ___ fast book.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q016",
+      "questionText": "I saw ___ big tree today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q017",
+      "questionText": "She has ___ small tree.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q018",
+      "questionText": "He bought ___ new tree.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q019",
+      "questionText": "They found ___ beautiful tree.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q020",
+      "questionText": "We want ___ fast tree.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q021",
+      "questionText": "I saw ___ big car today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q022",
+      "questionText": "She has ___ small car.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q023",
+      "questionText": "He bought ___ new car.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q024",
+      "questionText": "They found ___ beautiful car.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q025",
+      "questionText": "We want ___ fast car.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q026",
+      "questionText": "I saw ___ big house today.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q027",
+      "questionText": "She has ___ small house.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q028",
+      "questionText": "He bought ___ new house.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q029",
+      "questionText": "They found ___ beautiful house.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q030",
+      "questionText": "We want ___ fast house.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q031",
+      "questionText": "I saw ___ big computer today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q032",
+      "questionText": "She has ___ small computer.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q033",
+      "questionText": "He bought ___ new computer.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q034",
+      "questionText": "They found ___ beautiful computer.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q035",
+      "questionText": "We want ___ fast computer.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q036",
+      "questionText": "I saw ___ big phone today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q037",
+      "questionText": "She has ___ small phone.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q038",
+      "questionText": "He bought ___ new phone.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q039",
+      "questionText": "They found ___ beautiful phone.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q040",
+      "questionText": "We want ___ fast phone.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q041",
+      "questionText": "I saw ___ big bottle today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q042",
+      "questionText": "She has ___ small bottle.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q043",
+      "questionText": "He bought ___ new bottle.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q044",
+      "questionText": "They found ___ beautiful bottle.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q045",
+      "questionText": "We want ___ fast bottle.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q046",
+      "questionText": "I saw ___ big shoe today.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q047",
+      "questionText": "She has ___ small shoe.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q048",
+      "questionText": "He bought ___ new shoe.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q049",
+      "questionText": "They found ___ beautiful shoe.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T041-Q050",
+      "questionText": "We want ___ fast shoe.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    }
+  ]
+}

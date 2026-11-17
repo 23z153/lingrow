@@ -1,0 +1,507 @@
+{
+  "topicId": 217,
+  "topicName": "Zero conditional",
+  "unit": "UNIT 23 — BASIC CONDITIONALS",
+  "questions": [
+    {
+      "questionId": "T217-Q001",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 1)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q002",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 2)",
+      "optionA": "will boil",
+      "optionB": "boil",
+      "optionC": "boiled",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q003",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 3)",
+      "optionA": "boil",
+      "optionB": "boils",
+      "optionC": "will boil",
+      "optionD": "boiled",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q004",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 4)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q005",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 5)",
+      "optionA": "boils",
+      "optionB": "will boil",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q006",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 6)",
+      "optionA": "boils",
+      "optionB": "boil",
+      "optionC": "will boil",
+      "optionD": "boiled",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q007",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 7)",
+      "optionA": "will boil",
+      "optionB": "boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q008",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 8)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "will boil",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q009",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 9)",
+      "optionA": "boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q010",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 10)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q011",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 11)",
+      "optionA": "boil",
+      "optionB": "will boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q012",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 12)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "boiled",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q013",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 13)",
+      "optionA": "boils",
+      "optionB": "boil",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q014",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 14)",
+      "optionA": "boil",
+      "optionB": "will boil",
+      "optionC": "boiled",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q015",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 15)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "will boil",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q016",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 16)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "boiled",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q017",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 17)",
+      "optionA": "boiled",
+      "optionB": "boil",
+      "optionC": "will boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q018",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 18)",
+      "optionA": "boiled",
+      "optionB": "will boil",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q019",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 19)",
+      "optionA": "boils",
+      "optionB": "boil",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q020",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 20)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q021",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 21)",
+      "optionA": "boil",
+      "optionB": "boiled",
+      "optionC": "boils",
+      "optionD": "will boil",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q022",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 22)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q023",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 23)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "will boil",
+      "optionD": "boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q024",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 24)",
+      "optionA": "boil",
+      "optionB": "will boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q025",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 25)",
+      "optionA": "boils",
+      "optionB": "boil",
+      "optionC": "will boil",
+      "optionD": "boiled",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q026",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 26)",
+      "optionA": "boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q027",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 27)",
+      "optionA": "boils",
+      "optionB": "will boil",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q028",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 28)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boils",
+      "optionD": "boil",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q029",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 29)",
+      "optionA": "boil",
+      "optionB": "will boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q030",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 30)",
+      "optionA": "boil",
+      "optionB": "boiled",
+      "optionC": "will boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q031",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 31)",
+      "optionA": "boil",
+      "optionB": "boils",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q032",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 32)",
+      "optionA": "boils",
+      "optionB": "boil",
+      "optionC": "boiled",
+      "optionD": "will boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q033",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 33)",
+      "optionA": "boils",
+      "optionB": "boiled",
+      "optionC": "will boil",
+      "optionD": "boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q034",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 34)",
+      "optionA": "boiled",
+      "optionB": "boil",
+      "optionC": "will boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q035",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 35)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boils",
+      "optionD": "boil",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q036",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 36)",
+      "optionA": "boils",
+      "optionB": "boiled",
+      "optionC": "will boil",
+      "optionD": "boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q037",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 37)",
+      "optionA": "will boil",
+      "optionB": "boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q038",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 38)",
+      "optionA": "will boil",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "boiled",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q039",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 39)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q040",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 40)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q041",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 41)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q042",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 42)",
+      "optionA": "boil",
+      "optionB": "boiled",
+      "optionC": "will boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q043",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 43)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q044",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 44)",
+      "optionA": "boiled",
+      "optionB": "will boil",
+      "optionC": "boil",
+      "optionD": "boils",
+      "correctOption": "Option D",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q045",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 45)",
+      "optionA": "boil",
+      "optionB": "boiled",
+      "optionC": "boils",
+      "optionD": "will boil",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q046",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 46)",
+      "optionA": "will boil",
+      "optionB": "boil",
+      "optionC": "boils",
+      "optionD": "boiled",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q047",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 47)",
+      "optionA": "will boil",
+      "optionB": "boiled",
+      "optionC": "boils",
+      "optionD": "boil",
+      "correctOption": "Option C",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q048",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 48)",
+      "optionA": "boils",
+      "optionB": "will boil",
+      "optionC": "boiled",
+      "optionD": "boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q049",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 49)",
+      "optionA": "boiled",
+      "optionB": "boils",
+      "optionC": "boil",
+      "optionD": "will boil",
+      "correctOption": "Option B",
+      "explanation": "'boils' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T217-Q050",
+      "questionText": "Fill in the blank for the zero conditional: If you heat water to 100 degrees, it ____. (Question 50)",
+      "optionA": "boils",
+      "optionB": "boiled",
+      "optionC": "boil",
+      "optionD": "will boil",
+      "correctOption": "Option A",
+      "explanation": "'boils' correctly completes the conditional structure."
+    }
+  ]
+}

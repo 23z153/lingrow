@@ -1,0 +1,507 @@
+{
+  "topicId": 44,
+  "topicName": "A vs an",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T044-Q001",
+      "questionText": "It is ___ hour.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q002",
+      "questionText": "She saw ___ hour.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q003",
+      "questionText": "We need ___ hour.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q004",
+      "questionText": "He talked to ___ hour.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q005",
+      "questionText": "This is ___ hour.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q006",
+      "questionText": "It is ___ university.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q007",
+      "questionText": "She saw ___ university.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q008",
+      "questionText": "We need ___ university.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q009",
+      "questionText": "He talked to ___ university.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q010",
+      "questionText": "This is ___ university.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q011",
+      "questionText": "It is ___ honor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q012",
+      "questionText": "She saw ___ honor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q013",
+      "questionText": "We need ___ honor.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q014",
+      "questionText": "He talked to ___ honor.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q015",
+      "questionText": "This is ___ honor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q016",
+      "questionText": "It is ___ unicorn.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q017",
+      "questionText": "She saw ___ unicorn.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q018",
+      "questionText": "We need ___ unicorn.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q019",
+      "questionText": "He talked to ___ unicorn.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q020",
+      "questionText": "This is ___ unicorn.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q021",
+      "questionText": "It is ___ European.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q022",
+      "questionText": "She saw ___ European.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q023",
+      "questionText": "We need ___ European.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q024",
+      "questionText": "He talked to ___ European.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q025",
+      "questionText": "This is ___ European.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q026",
+      "questionText": "It is ___ honest man.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q027",
+      "questionText": "She saw ___ honest man.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q028",
+      "questionText": "We need ___ honest man.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q029",
+      "questionText": "He talked to ___ honest man.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q030",
+      "questionText": "This is ___ honest man.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q031",
+      "questionText": "It is ___ umbrella.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q032",
+      "questionText": "She saw ___ umbrella.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q033",
+      "questionText": "We need ___ umbrella.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q034",
+      "questionText": "He talked to ___ umbrella.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q035",
+      "questionText": "This is ___ umbrella.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q036",
+      "questionText": "It is ___ user.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q037",
+      "questionText": "She saw ___ user.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q038",
+      "questionText": "We need ___ user.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q039",
+      "questionText": "He talked to ___ user.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q040",
+      "questionText": "This is ___ user.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q041",
+      "questionText": "It is ___ FBI agent.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q042",
+      "questionText": "She saw ___ FBI agent.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q043",
+      "questionText": "We need ___ FBI agent.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q044",
+      "questionText": "He talked to ___ FBI agent.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q045",
+      "questionText": "This is ___ FBI agent.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T044-Q046",
+      "questionText": "It is ___ NASA scientist.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q047",
+      "questionText": "She saw ___ NASA scientist.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q048",
+      "questionText": "We need ___ NASA scientist.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q049",
+      "questionText": "He talked to ___ NASA scientist.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T044-Q050",
+      "questionText": "This is ___ NASA scientist.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    }
+  ]
+}

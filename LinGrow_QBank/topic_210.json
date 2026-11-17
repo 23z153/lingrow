@@ -1,0 +1,507 @@
+{
+  "topicId": 210,
+  "topicName": "Basic relative clause",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T210-Q001",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 1)",
+      "optionB": "whose (Variant 1)",
+      "optionC": "who",
+      "optionD": "whom (Variant 1)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q002",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 2)",
+      "optionC": "whose (Variant 2)",
+      "optionD": "whom (Variant 2)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q003",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 3)",
+      "optionB": "whose (Variant 3)",
+      "optionC": "who",
+      "optionD": "whom (Variant 3)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q004",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 4)",
+      "optionB": "whose (Variant 4)",
+      "optionC": "whom (Variant 4)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q005",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "which (Variant 5)",
+      "optionB": "whose (Variant 5)",
+      "optionC": "who",
+      "optionD": "whom (Variant 5)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q006",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 6)",
+      "optionC": "whose (Variant 6)",
+      "optionD": "whom (Variant 6)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q007",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 7)",
+      "optionB": "whose (Variant 7)",
+      "optionC": "who",
+      "optionD": "whom (Variant 7)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q008",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "which (Variant 8)",
+      "optionB": "who",
+      "optionC": "whose (Variant 8)",
+      "optionD": "whom (Variant 8)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q009",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 9)",
+      "optionC": "whose (Variant 9)",
+      "optionD": "whom (Variant 9)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q010",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 10)",
+      "optionB": "whose (Variant 10)",
+      "optionC": "who",
+      "optionD": "whom (Variant 10)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q011",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 11)",
+      "optionC": "whose (Variant 11)",
+      "optionD": "whom (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q012",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 12)",
+      "optionC": "whose (Variant 12)",
+      "optionD": "whom (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q013",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 13)",
+      "optionB": "whose (Variant 13)",
+      "optionC": "whom (Variant 13)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q014",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 14)",
+      "optionB": "who",
+      "optionC": "whose (Variant 14)",
+      "optionD": "whom (Variant 14)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q015",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 15)",
+      "optionB": "who",
+      "optionC": "whose (Variant 15)",
+      "optionD": "whom (Variant 15)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q016",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 16)",
+      "optionB": "whose (Variant 16)",
+      "optionC": "who",
+      "optionD": "whom (Variant 16)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q017",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 17)",
+      "optionB": "whose (Variant 17)",
+      "optionC": "whom (Variant 17)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q018",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 18)",
+      "optionC": "whose (Variant 18)",
+      "optionD": "whom (Variant 18)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q019",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 19)",
+      "optionB": "whose (Variant 19)",
+      "optionC": "who",
+      "optionD": "whom (Variant 19)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q020",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 20)",
+      "optionB": "who",
+      "optionC": "whose (Variant 20)",
+      "optionD": "whom (Variant 20)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q021",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 21)",
+      "optionB": "whose (Variant 21)",
+      "optionC": "whom (Variant 21)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q022",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "which (Variant 22)",
+      "optionB": "whose (Variant 22)",
+      "optionC": "who",
+      "optionD": "whom (Variant 22)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q023",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 23)",
+      "optionB": "whose (Variant 23)",
+      "optionC": "whom (Variant 23)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q024",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 24)",
+      "optionC": "whose (Variant 24)",
+      "optionD": "whom (Variant 24)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q025",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 25)",
+      "optionB": "who",
+      "optionC": "whose (Variant 25)",
+      "optionD": "whom (Variant 25)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q026",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 26)",
+      "optionB": "whose (Variant 26)",
+      "optionC": "who",
+      "optionD": "whom (Variant 26)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q027",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 27)",
+      "optionC": "whose (Variant 27)",
+      "optionD": "whom (Variant 27)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q028",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 28)",
+      "optionB": "whose (Variant 28)",
+      "optionC": "whom (Variant 28)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q029",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 29)",
+      "optionC": "whose (Variant 29)",
+      "optionD": "whom (Variant 29)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q030",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 30)",
+      "optionB": "who",
+      "optionC": "whose (Variant 30)",
+      "optionD": "whom (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q031",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 31)",
+      "optionB": "whose (Variant 31)",
+      "optionC": "whom (Variant 31)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q032",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 32)",
+      "optionB": "who",
+      "optionC": "whose (Variant 32)",
+      "optionD": "whom (Variant 32)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q033",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 33)",
+      "optionC": "whose (Variant 33)",
+      "optionD": "whom (Variant 33)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q034",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 34)",
+      "optionB": "whose (Variant 34)",
+      "optionC": "whom (Variant 34)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q035",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 35)",
+      "optionB": "whose (Variant 35)",
+      "optionC": "who",
+      "optionD": "whom (Variant 35)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q036",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 36)",
+      "optionB": "whose (Variant 36)",
+      "optionC": "who",
+      "optionD": "whom (Variant 36)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q037",
+      "questionText": "Choose the correct relative pronoun: The student ___ analyzes the chapter is here.",
+      "optionA": "which (Variant 37)",
+      "optionB": "whose (Variant 37)",
+      "optionC": "who",
+      "optionD": "whom (Variant 37)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q038",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 38)",
+      "optionC": "whose (Variant 38)",
+      "optionD": "whom (Variant 38)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q039",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "which (Variant 39)",
+      "optionB": "whose (Variant 39)",
+      "optionC": "who",
+      "optionD": "whom (Variant 39)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q040",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 40)",
+      "optionB": "whose (Variant 40)",
+      "optionC": "whom (Variant 40)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q041",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 41)",
+      "optionC": "whose (Variant 41)",
+      "optionD": "whom (Variant 41)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q042",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "which (Variant 42)",
+      "optionB": "whose (Variant 42)",
+      "optionC": "who",
+      "optionD": "whom (Variant 42)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q043",
+      "questionText": "Choose the correct relative pronoun: The student ___ reviews the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 43)",
+      "optionC": "whose (Variant 43)",
+      "optionD": "whom (Variant 43)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q044",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 44)",
+      "optionC": "whose (Variant 44)",
+      "optionD": "whom (Variant 44)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q045",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 45)",
+      "optionC": "whose (Variant 45)",
+      "optionD": "whom (Variant 45)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q046",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "which (Variant 46)",
+      "optionB": "who",
+      "optionC": "whose (Variant 46)",
+      "optionD": "whom (Variant 46)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q047",
+      "questionText": "Choose the correct relative pronoun: The student ___ completes the chapter is here.",
+      "optionA": "which (Variant 47)",
+      "optionB": "whose (Variant 47)",
+      "optionC": "who",
+      "optionD": "whom (Variant 47)",
+      "correctOption": "Option C",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q048",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 48)",
+      "optionB": "whose (Variant 48)",
+      "optionC": "whom (Variant 48)",
+      "optionD": "who",
+      "correctOption": "Option D",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q049",
+      "questionText": "Choose the correct relative pronoun: The student ___ discovers the chapter is here.",
+      "optionA": "which (Variant 49)",
+      "optionB": "who",
+      "optionC": "whose (Variant 49)",
+      "optionD": "whom (Variant 49)",
+      "correctOption": "Option B",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T210-Q050",
+      "questionText": "Choose the correct relative pronoun: The student ___ explains the chapter is here.",
+      "optionA": "who",
+      "optionB": "which (Variant 50)",
+      "optionC": "whose (Variant 50)",
+      "optionD": "whom (Variant 50)",
+      "correctOption": "Option A",
+      "explanation": "'who' is the correct choice in standard English grammar."
+    }
+  ]
+}

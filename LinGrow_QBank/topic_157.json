@@ -1,0 +1,507 @@
+{
+  "topicId": 157,
+  "topicName": "Fixed combinations",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T157-Q001",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "with",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q002",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "about",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q003",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "of",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "with",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q004",
+      "questionText": "Judy is afraid ___ spiders.",
+      "optionA": "for",
+      "optionB": "about",
+      "optionC": "at",
+      "optionD": "of",
+      "correctOption": "Option D",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q005",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "with",
+      "optionC": "for",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q006",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "about",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q007",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "in",
+      "optionB": "of",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q008",
+      "questionText": "Charlie is afraid ___ spiders.",
+      "optionA": "for",
+      "optionB": "about",
+      "optionC": "of",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q009",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "in",
+      "optionB": "with",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q010",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q011",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "for",
+      "optionB": "of",
+      "optionC": "with",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q012",
+      "questionText": "Grace is afraid ___ spiders.",
+      "optionA": "for",
+      "optionB": "with",
+      "optionC": "of",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q013",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q014",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q015",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "for",
+      "optionB": "with",
+      "optionC": "of",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q016",
+      "questionText": "Diana is afraid ___ spiders.",
+      "optionA": "of",
+      "optionB": "about",
+      "optionC": "with",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q017",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q018",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q019",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "with",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option D",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q020",
+      "questionText": "Frank is afraid ___ spiders.",
+      "optionA": "with",
+      "optionB": "of",
+      "optionC": "about",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q021",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "with",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q022",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q023",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "for",
+      "optionB": "of",
+      "optionC": "with",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q024",
+      "questionText": "Grace is afraid ___ spiders.",
+      "optionA": "at",
+      "optionB": "about",
+      "optionC": "of",
+      "optionD": "with",
+      "correctOption": "Option C",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q025",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "on",
+      "optionD": "with",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q026",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "for",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q027",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "in",
+      "optionB": "with",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q028",
+      "questionText": "Frank is afraid ___ spiders.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "about",
+      "optionD": "of",
+      "correctOption": "Option D",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q029",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "at",
+      "optionB": "with",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q030",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "about",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q031",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "of",
+      "optionB": "for",
+      "optionC": "with",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q032",
+      "questionText": "Charlie is afraid ___ spiders.",
+      "optionA": "with",
+      "optionB": "at",
+      "optionC": "about",
+      "optionD": "of",
+      "correctOption": "Option D",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q033",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "with",
+      "optionB": "for",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q034",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q035",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "with",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q036",
+      "questionText": "Judy is afraid ___ spiders.",
+      "optionA": "about",
+      "optionB": "of",
+      "optionC": "with",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q037",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "with",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q038",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "about",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q039",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "of",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q040",
+      "questionText": "Frank is afraid ___ spiders.",
+      "optionA": "of",
+      "optionB": "about",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q041",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "for",
+      "optionB": "with",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q042",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q043",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "with",
+      "optionD": "of",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q044",
+      "questionText": "Judy is afraid ___ spiders.",
+      "optionA": "about",
+      "optionB": "at",
+      "optionC": "of",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q045",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q046",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "for",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "about",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q047",
+      "questionText": "I apologize ___ being late.",
+      "optionA": "with",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "of",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q048",
+      "questionText": "Charlie is afraid ___ spiders.",
+      "optionA": "at",
+      "optionB": "of",
+      "optionC": "about",
+      "optionD": "with",
+      "correctOption": "Option B",
+      "explanation": "'of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q049",
+      "questionText": "They are good ___ playing tennis.",
+      "optionA": "with",
+      "optionB": "at",
+      "optionC": "for",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T157-Q050",
+      "questionText": "She is interested ___ learning French.",
+      "optionA": "on",
+      "optionB": "about",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 68,
+  "topicName": "Enough/too",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T068-Q001",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "much",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q002",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money enough to buy the book.",
+      "optionB": "I have enough money to buy the book.",
+      "optionC": "I have money too to buy the book.",
+      "optionD": "I have too money to buy the book.",
+      "correctOption": "Option B",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q003",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> difficult enough",
+      "optionB": "enough difficult -> too difficult",
+      "optionC": "enough difficult -> much difficult",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option B",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q004",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "very",
+      "optionB": "too",
+      "optionC": "much",
+      "optionD": "enough",
+      "correctOption": "Option B",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q005",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "much",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q006",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money too to buy the book.",
+      "optionB": "I have enough money to buy the book.",
+      "optionC": "I have money enough to buy the book.",
+      "optionD": "I have too money to buy the book.",
+      "correctOption": "Option B",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q007",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> much difficult",
+      "optionB": "enough difficult -> difficult enough",
+      "optionC": "enough difficult -> too difficult",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option C",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q008",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "very",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q009",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "much",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q010",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money enough to buy the book.",
+      "optionB": "I have money too to buy the book.",
+      "optionC": "I have enough money to buy the book.",
+      "optionD": "I have too money to buy the book.",
+      "correctOption": "Option C",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q011",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> much difficult",
+      "optionB": "enough difficult -> difficult enough",
+      "optionC": "enough difficult -> too difficult",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option C",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q012",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "too",
+      "optionB": "much",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option A",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q013",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q014",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money enough to buy the book.",
+      "optionB": "I have too money to buy the book.",
+      "optionC": "I have money too to buy the book.",
+      "optionD": "I have enough money to buy the book.",
+      "correctOption": "Option D",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q015",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> very difficult",
+      "optionB": "enough difficult -> much difficult",
+      "optionC": "enough difficult -> difficult enough",
+      "optionD": "enough difficult -> too difficult",
+      "correctOption": "Option D",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q016",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "enough",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q017",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "much",
+      "optionB": "enough",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q018",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money enough to buy the book.",
+      "optionB": "I have money too to buy the book.",
+      "optionC": "I have enough money to buy the book.",
+      "optionD": "I have too money to buy the book.",
+      "correctOption": "Option C",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q019",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> much difficult",
+      "optionB": "enough difficult -> very difficult",
+      "optionC": "enough difficult -> difficult enough",
+      "optionD": "enough difficult -> too difficult",
+      "correctOption": "Option D",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q020",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "much",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option C",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q021",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "enough",
+      "optionC": "much",
+      "optionD": "too",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q022",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have enough money to buy the book.",
+      "optionB": "I have money too to buy the book.",
+      "optionC": "I have too money to buy the book.",
+      "optionD": "I have money enough to buy the book.",
+      "correctOption": "Option A",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q023",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> difficult enough",
+      "optionB": "enough difficult -> too difficult",
+      "optionC": "enough difficult -> very difficult",
+      "optionD": "enough difficult -> much difficult",
+      "correctOption": "Option B",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q024",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "enough",
+      "optionB": "much",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q025",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q026",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have too money to buy the book.",
+      "optionB": "I have money too to buy the book.",
+      "optionC": "I have enough money to buy the book.",
+      "optionD": "I have money enough to buy the book.",
+      "correctOption": "Option C",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q027",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> much difficult",
+      "optionB": "enough difficult -> too difficult",
+      "optionC": "enough difficult -> difficult enough",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option B",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q028",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "much",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option C",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q029",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q030",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money too to buy the book.",
+      "optionB": "I have too money to buy the book.",
+      "optionC": "I have money enough to buy the book.",
+      "optionD": "I have enough money to buy the book.",
+      "correctOption": "Option D",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q031",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> too difficult",
+      "optionB": "enough difficult -> difficult enough",
+      "optionC": "enough difficult -> very difficult",
+      "optionD": "enough difficult -> much difficult",
+      "correctOption": "Option A",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q032",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "very",
+      "optionB": "enough",
+      "optionC": "much",
+      "optionD": "too",
+      "correctOption": "Option D",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q033",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "much",
+      "optionC": "very",
+      "optionD": "too",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q034",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have too money to buy the book.",
+      "optionB": "I have money enough to buy the book.",
+      "optionC": "I have money too to buy the book.",
+      "optionD": "I have enough money to buy the book.",
+      "correctOption": "Option D",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q035",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> too difficult",
+      "optionB": "enough difficult -> difficult enough",
+      "optionC": "enough difficult -> much difficult",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option A",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q036",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q037",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q038",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money too to buy the book.",
+      "optionB": "I have money enough to buy the book.",
+      "optionC": "I have enough money to buy the book.",
+      "optionD": "I have too money to buy the book.",
+      "correctOption": "Option C",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q039",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> difficult enough",
+      "optionB": "enough difficult -> much difficult",
+      "optionC": "enough difficult -> very difficult",
+      "optionD": "enough difficult -> too difficult",
+      "correctOption": "Option D",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q040",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "much",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q041",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "much",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q042",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money too to buy the book.",
+      "optionB": "I have money enough to buy the book.",
+      "optionC": "I have too money to buy the book.",
+      "optionD": "I have enough money to buy the book.",
+      "correctOption": "Option D",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q043",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> too difficult",
+      "optionB": "enough difficult -> difficult enough",
+      "optionC": "enough difficult -> much difficult",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option A",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q044",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "too",
+      "optionB": "much",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q045",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "much",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q046",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have money enough to buy the book.",
+      "optionB": "I have enough money to buy the book.",
+      "optionC": "I have too money to buy the book.",
+      "optionD": "I have money too to buy the book.",
+      "correctOption": "Option B",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q047",
+      "questionText": "Identify the error: 'The test was enough difficult.'",
+      "optionA": "enough difficult -> much difficult",
+      "optionB": "enough difficult -> too difficult",
+      "optionC": "enough difficult -> difficult enough",
+      "optionD": "enough difficult -> very difficult",
+      "correctOption": "Option B",
+      "explanation": "'enough difficult -> too difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T068-Q048",
+      "questionText": "The coffee is _____ hot to drink.",
+      "optionA": "much",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'too' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q049",
+      "questionText": "He is not tall _____ to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T068-Q050",
+      "questionText": "Which sentence is correct?",
+      "optionA": "I have enough money to buy the book.",
+      "optionB": "I have too money to buy the book.",
+      "optionC": "I have money enough to buy the book.",
+      "optionD": "I have money too to buy the book.",
+      "correctOption": "Option A",
+      "explanation": "'I have enough money to buy the book' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

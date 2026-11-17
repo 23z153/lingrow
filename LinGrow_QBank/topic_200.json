@@ -1,0 +1,507 @@
+{
+  "topicId": 200,
+  "topicName": "Infinitive of purpose",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T200-Q001",
+      "questionText": "I went to the store ___ some milk. (Variant 1)",
+      "optionA": "to buy",
+      "optionB": "buying",
+      "optionC": "buy",
+      "optionD": "for buying",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q002",
+      "questionText": "She studies hard ___ her exams. (Variant 2)",
+      "optionA": "passing",
+      "optionB": "to pass",
+      "optionC": "pass",
+      "optionD": "for pass",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q003",
+      "questionText": "He called ___ me the good news. (Variant 3)",
+      "optionA": "for telling",
+      "optionB": "telling",
+      "optionC": "to tell",
+      "optionD": "tell",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q004",
+      "questionText": "They saved money ___ a house. (Variant 4)",
+      "optionA": "purchasing",
+      "optionB": "purchase",
+      "optionC": "for purchase",
+      "optionD": "to purchase",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q005",
+      "questionText": "I use this app ___ English. (Variant 5)",
+      "optionA": "to practice",
+      "optionB": "practicing",
+      "optionC": "for practicing",
+      "optionD": "practice",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q006",
+      "questionText": "I went to the store ___ some milk. (Variant 6)",
+      "optionA": "buying",
+      "optionB": "to buy",
+      "optionC": "for buying",
+      "optionD": "buy",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q007",
+      "questionText": "She studies hard ___ her exams. (Variant 7)",
+      "optionA": "passing",
+      "optionB": "for pass",
+      "optionC": "to pass",
+      "optionD": "pass",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q008",
+      "questionText": "He called ___ me the good news. (Variant 8)",
+      "optionA": "tell",
+      "optionB": "telling",
+      "optionC": "for telling",
+      "optionD": "to tell",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q009",
+      "questionText": "They saved money ___ a house. (Variant 9)",
+      "optionA": "to purchase",
+      "optionB": "purchasing",
+      "optionC": "purchase",
+      "optionD": "for purchase",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q010",
+      "questionText": "I use this app ___ English. (Variant 10)",
+      "optionA": "for practicing",
+      "optionB": "to practice",
+      "optionC": "practicing",
+      "optionD": "practice",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q011",
+      "questionText": "I went to the store ___ some milk. (Variant 11)",
+      "optionA": "buy",
+      "optionB": "buying",
+      "optionC": "to buy",
+      "optionD": "for buying",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q012",
+      "questionText": "She studies hard ___ her exams. (Variant 12)",
+      "optionA": "pass",
+      "optionB": "for pass",
+      "optionC": "passing",
+      "optionD": "to pass",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q013",
+      "questionText": "He called ___ me the good news. (Variant 13)",
+      "optionA": "to tell",
+      "optionB": "tell",
+      "optionC": "telling",
+      "optionD": "for telling",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q014",
+      "questionText": "They saved money ___ a house. (Variant 14)",
+      "optionA": "for purchase",
+      "optionB": "to purchase",
+      "optionC": "purchasing",
+      "optionD": "purchase",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q015",
+      "questionText": "I use this app ___ English. (Variant 15)",
+      "optionA": "practicing",
+      "optionB": "practice",
+      "optionC": "to practice",
+      "optionD": "for practicing",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q016",
+      "questionText": "I went to the store ___ some milk. (Variant 16)",
+      "optionA": "buying",
+      "optionB": "for buying",
+      "optionC": "buy",
+      "optionD": "to buy",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q017",
+      "questionText": "She studies hard ___ her exams. (Variant 17)",
+      "optionA": "to pass",
+      "optionB": "for pass",
+      "optionC": "passing",
+      "optionD": "pass",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q018",
+      "questionText": "He called ___ me the good news. (Variant 18)",
+      "optionA": "telling",
+      "optionB": "to tell",
+      "optionC": "tell",
+      "optionD": "for telling",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q019",
+      "questionText": "They saved money ___ a house. (Variant 19)",
+      "optionA": "purchasing",
+      "optionB": "purchase",
+      "optionC": "to purchase",
+      "optionD": "for purchase",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q020",
+      "questionText": "I use this app ___ English. (Variant 20)",
+      "optionA": "for practicing",
+      "optionB": "practice",
+      "optionC": "practicing",
+      "optionD": "to practice",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q021",
+      "questionText": "I went to the store ___ some milk. (Variant 21)",
+      "optionA": "to buy",
+      "optionB": "buy",
+      "optionC": "buying",
+      "optionD": "for buying",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q022",
+      "questionText": "She studies hard ___ her exams. (Variant 22)",
+      "optionA": "for pass",
+      "optionB": "to pass",
+      "optionC": "pass",
+      "optionD": "passing",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q023",
+      "questionText": "He called ___ me the good news. (Variant 23)",
+      "optionA": "for telling",
+      "optionB": "telling",
+      "optionC": "to tell",
+      "optionD": "tell",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q024",
+      "questionText": "They saved money ___ a house. (Variant 24)",
+      "optionA": "purchase",
+      "optionB": "purchasing",
+      "optionC": "for purchase",
+      "optionD": "to purchase",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q025",
+      "questionText": "I use this app ___ English. (Variant 25)",
+      "optionA": "to practice",
+      "optionB": "for practicing",
+      "optionC": "practice",
+      "optionD": "practicing",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q026",
+      "questionText": "I went to the store ___ some milk. (Variant 26)",
+      "optionA": "for buying",
+      "optionB": "to buy",
+      "optionC": "buy",
+      "optionD": "buying",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q027",
+      "questionText": "She studies hard ___ her exams. (Variant 27)",
+      "optionA": "for pass",
+      "optionB": "passing",
+      "optionC": "to pass",
+      "optionD": "pass",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q028",
+      "questionText": "He called ___ me the good news. (Variant 28)",
+      "optionA": "tell",
+      "optionB": "telling",
+      "optionC": "for telling",
+      "optionD": "to tell",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q029",
+      "questionText": "They saved money ___ a house. (Variant 29)",
+      "optionA": "to purchase",
+      "optionB": "for purchase",
+      "optionC": "purchase",
+      "optionD": "purchasing",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q030",
+      "questionText": "I use this app ___ English. (Variant 30)",
+      "optionA": "practice",
+      "optionB": "to practice",
+      "optionC": "for practicing",
+      "optionD": "practicing",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q031",
+      "questionText": "I went to the store ___ some milk. (Variant 31)",
+      "optionA": "for buying",
+      "optionB": "buying",
+      "optionC": "to buy",
+      "optionD": "buy",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q032",
+      "questionText": "She studies hard ___ her exams. (Variant 32)",
+      "optionA": "for pass",
+      "optionB": "passing",
+      "optionC": "pass",
+      "optionD": "to pass",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q033",
+      "questionText": "He called ___ me the good news. (Variant 33)",
+      "optionA": "to tell",
+      "optionB": "for telling",
+      "optionC": "telling",
+      "optionD": "tell",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q034",
+      "questionText": "They saved money ___ a house. (Variant 34)",
+      "optionA": "for purchase",
+      "optionB": "to purchase",
+      "optionC": "purchase",
+      "optionD": "purchasing",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q035",
+      "questionText": "I use this app ___ English. (Variant 35)",
+      "optionA": "practicing",
+      "optionB": "for practicing",
+      "optionC": "to practice",
+      "optionD": "practice",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q036",
+      "questionText": "I went to the store ___ some milk. (Variant 36)",
+      "optionA": "buy",
+      "optionB": "for buying",
+      "optionC": "buying",
+      "optionD": "to buy",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q037",
+      "questionText": "She studies hard ___ her exams. (Variant 37)",
+      "optionA": "to pass",
+      "optionB": "pass",
+      "optionC": "for pass",
+      "optionD": "passing",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q038",
+      "questionText": "He called ___ me the good news. (Variant 38)",
+      "optionA": "telling",
+      "optionB": "to tell",
+      "optionC": "for telling",
+      "optionD": "tell",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q039",
+      "questionText": "They saved money ___ a house. (Variant 39)",
+      "optionA": "purchasing",
+      "optionB": "for purchase",
+      "optionC": "to purchase",
+      "optionD": "purchase",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q040",
+      "questionText": "I use this app ___ English. (Variant 40)",
+      "optionA": "practicing",
+      "optionB": "practice",
+      "optionC": "for practicing",
+      "optionD": "to practice",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q041",
+      "questionText": "I went to the store ___ some milk. (Variant 41)",
+      "optionA": "to buy",
+      "optionB": "buying",
+      "optionC": "for buying",
+      "optionD": "buy",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q042",
+      "questionText": "She studies hard ___ her exams. (Variant 42)",
+      "optionA": "passing",
+      "optionB": "to pass",
+      "optionC": "pass",
+      "optionD": "for pass",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q043",
+      "questionText": "He called ___ me the good news. (Variant 43)",
+      "optionA": "telling",
+      "optionB": "tell",
+      "optionC": "to tell",
+      "optionD": "for telling",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q044",
+      "questionText": "They saved money ___ a house. (Variant 44)",
+      "optionA": "for purchase",
+      "optionB": "purchasing",
+      "optionC": "purchase",
+      "optionD": "to purchase",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q045",
+      "questionText": "I use this app ___ English. (Variant 45)",
+      "optionA": "to practice",
+      "optionB": "practicing",
+      "optionC": "practice",
+      "optionD": "for practicing",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q046",
+      "questionText": "I went to the store ___ some milk. (Variant 46)",
+      "optionA": "for buying",
+      "optionB": "to buy",
+      "optionC": "buy",
+      "optionD": "buying",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to buy' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q047",
+      "questionText": "She studies hard ___ her exams. (Variant 47)",
+      "optionA": "passing",
+      "optionB": "for pass",
+      "optionC": "to pass",
+      "optionD": "pass",
+      "correctOption": "Option C",
+      "explanation": "Use the infinitive 'to pass' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q048",
+      "questionText": "He called ___ me the good news. (Variant 48)",
+      "optionA": "for telling",
+      "optionB": "telling",
+      "optionC": "tell",
+      "optionD": "to tell",
+      "correctOption": "Option D",
+      "explanation": "Use the infinitive 'to tell' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q049",
+      "questionText": "They saved money ___ a house. (Variant 49)",
+      "optionA": "to purchase",
+      "optionB": "for purchase",
+      "optionC": "purchasing",
+      "optionD": "purchase",
+      "correctOption": "Option A",
+      "explanation": "Use the infinitive 'to purchase' (to + verb) to explain the purpose or reason for doing something."
+    },
+    {
+      "questionId": "T200-Q050",
+      "questionText": "I use this app ___ English. (Variant 50)",
+      "optionA": "practicing",
+      "optionB": "to practice",
+      "optionC": "for practicing",
+      "optionD": "practice",
+      "correctOption": "Option B",
+      "explanation": "Use the infinitive 'to practice' (to + verb) to explain the purpose or reason for doing something."
+    }
+  ]
+}

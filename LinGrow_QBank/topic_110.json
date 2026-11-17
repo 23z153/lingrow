@@ -1,0 +1,507 @@
+{
+  "topicId": 110,
+  "topicName": "Short answers",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T110-Q001",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q002",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q003",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q004",
+      "questionText": "Does Grace like apples? Yes, he ___.",
+      "optionA": "is",
+      "optionB": "does",
+      "optionC": "like",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q005",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q006",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "am",
+      "optionB": "do",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q007",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q008",
+      "questionText": "Does The teacher like apples? Yes, he ___.",
+      "optionA": "like",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q009",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q010",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q011",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q012",
+      "questionText": "Does Alice like apples? Yes, he ___.",
+      "optionA": "like",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q013",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q014",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "do",
+      "correctOption": "Option A",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q015",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q016",
+      "questionText": "Does Ivy like apples? Yes, he ___.",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "like",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q017",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q018",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "do",
+      "correctOption": "Option A",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q019",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q020",
+      "questionText": "Does Maria like apples? Yes, he ___.",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "like",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q021",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q022",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q023",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q024",
+      "questionText": "Does The student like apples? Yes, he ___.",
+      "optionA": "is",
+      "optionB": "like",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q025",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q026",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "do",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q027",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q028",
+      "questionText": "Does The student like apples? Yes, he ___.",
+      "optionA": "does",
+      "optionB": "is",
+      "optionC": "do",
+      "optionD": "like",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q029",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q030",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q031",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q032",
+      "questionText": "Does Frank like apples? Yes, he ___.",
+      "optionA": "like",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q033",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q034",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q035",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q036",
+      "questionText": "Does Ivy like apples? Yes, he ___.",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "like",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q037",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q038",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "do",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q039",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q040",
+      "questionText": "Does The teacher like apples? Yes, he ___.",
+      "optionA": "is",
+      "optionB": "does",
+      "optionC": "like",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q041",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q042",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "do",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q043",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option D",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q044",
+      "questionText": "Does Frank like apples? Yes, he ___.",
+      "optionA": "like",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q045",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q046",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q047",
+      "questionText": "Is she reading? No, she ___.",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q048",
+      "questionText": "Does The student like apples? Yes, he ___.",
+      "optionA": "does",
+      "optionB": "like",
+      "optionC": "is",
+      "optionD": "do",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q049",
+      "questionText": "Do they play tennis? No, they ___.",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T110-Q050",
+      "questionText": "Are you a student? Yes, I ___.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    }
+  ]
+}

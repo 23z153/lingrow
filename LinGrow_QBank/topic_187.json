@@ -1,0 +1,507 @@
+{
+  "topicId": 187,
+  "topicName": "Might",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T187-Q001",
+      "questionText": "Fill in the blank: You ___ study a letter later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q002",
+      "questionText": "Fill in the blank: He ___ read gracefully later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might to",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q003",
+      "questionText": "Fill in the blank: She ___ speak some food later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q004",
+      "questionText": "Fill in the blank: It ___ jump math later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "to might",
+      "optionC": "might to",
+      "optionD": "mights",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q005",
+      "questionText": "Fill in the blank: We ___ cook football later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "mights",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q006",
+      "questionText": "Fill in the blank: They ___ drive high later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q007",
+      "questionText": "Fill in the blank: The student ___ buy in the sky later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might to",
+      "optionC": "to might",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q008",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q009",
+      "questionText": "Fill in the blank: The dog ___ create for the exam later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q010",
+      "questionText": "Fill in the blank: My friend ___ go fast later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q011",
+      "questionText": "Fill in the blank: The team ___ study the car later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q012",
+      "questionText": "Fill in the blank: Someone ___ read a program later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "to might",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q013",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q014",
+      "questionText": "Fill in the blank: Everyone ___ jump to music later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q015",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might to",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q016",
+      "questionText": "Fill in the blank: The doctor ___ drive the house later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q017",
+      "questionText": "Fill in the blank: The manager ___ buy history later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q018",
+      "questionText": "Fill in the blank: The child ___ draw a book later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might",
+      "optionC": "mights",
+      "optionD": "might to",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q019",
+      "questionText": "Fill in the blank: The workers ___ create a song later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q020",
+      "questionText": "Fill in the blank: Alice ___ go a movie later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q021",
+      "questionText": "Fill in the blank: Bob ___ study a building later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q022",
+      "questionText": "Fill in the blank: Charlie ___ read at the office later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q023",
+      "questionText": "Fill in the blank: David ___ speak slowly later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q024",
+      "questionText": "Fill in the blank: Eve ___ jump to Paris later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q025",
+      "questionText": "Fill in the blank: Frank ___ cook a website later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "might to",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q026",
+      "questionText": "Fill in the blank: Grace ___ drive all night later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q027",
+      "questionText": "Fill in the blank: Hannah ___ buy English later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "might to",
+      "optionC": "mights",
+      "optionD": "to might",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q028",
+      "questionText": "Fill in the blank: Ivy ___ draw the room later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q029",
+      "questionText": "Fill in the blank: Jack ___ create a picture later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q030",
+      "questionText": "Fill in the blank: I ___ go to the park later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might to",
+      "optionC": "might",
+      "optionD": "to might",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q031",
+      "questionText": "Fill in the blank: You ___ study a letter later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might to",
+      "optionC": "might",
+      "optionD": "to might",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q032",
+      "questionText": "Fill in the blank: He ___ read gracefully later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q033",
+      "questionText": "Fill in the blank: She ___ speak some food later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q034",
+      "questionText": "Fill in the blank: It ___ jump math later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q035",
+      "questionText": "Fill in the blank: We ___ cook football later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q036",
+      "questionText": "Fill in the blank: They ___ drive high later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "might to",
+      "optionC": "mights",
+      "optionD": "to might",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q037",
+      "questionText": "Fill in the blank: The student ___ buy in the sky later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q038",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "to might",
+      "optionC": "might",
+      "optionD": "mights",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q039",
+      "questionText": "Fill in the blank: The dog ___ create for the exam later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q040",
+      "questionText": "Fill in the blank: My friend ___ go fast later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "mights",
+      "optionC": "to might",
+      "optionD": "might to",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q041",
+      "questionText": "Fill in the blank: The team ___ study the car later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q042",
+      "questionText": "Fill in the blank: Someone ___ read a program later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might to",
+      "optionC": "might",
+      "optionD": "mights",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q043",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q044",
+      "questionText": "Fill in the blank: Everyone ___ jump to music later, but it is uncertain.",
+      "optionA": "to might",
+      "optionB": "mights",
+      "optionC": "might to",
+      "optionD": "might",
+      "correctOption": "Option D",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q045",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might to",
+      "optionC": "might",
+      "optionD": "to might",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q046",
+      "questionText": "Fill in the blank: The doctor ___ drive the house later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "to might",
+      "optionD": "mights",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q047",
+      "questionText": "Fill in the blank: The manager ___ buy history later, but it is uncertain.",
+      "optionA": "might to",
+      "optionB": "might",
+      "optionC": "mights",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q048",
+      "questionText": "Fill in the blank: The child ___ draw a book later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "might",
+      "optionC": "might to",
+      "optionD": "to might",
+      "correctOption": "Option B",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q049",
+      "questionText": "Fill in the blank: The workers ___ create a song later, but it is uncertain.",
+      "optionA": "might",
+      "optionB": "might to",
+      "optionC": "mights",
+      "optionD": "to might",
+      "correctOption": "Option A",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T187-Q050",
+      "questionText": "Fill in the blank: Alice ___ go a movie later, but it is uncertain.",
+      "optionA": "mights",
+      "optionB": "to might",
+      "optionC": "might",
+      "optionD": "might to",
+      "correctOption": "Option C",
+      "explanation": "'might' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 139,
+  "topicName": "Didn't",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T139-Q001",
+      "questionText": "Complete: We ___ see the movie. (Variant 1)",
+      "optionA": "didn't",
+      "optionB": "haven't",
+      "optionC": "weren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q002",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 2)",
+      "optionA": "He didn't goes.",
+      "optionB": "He wasn't go.",
+      "optionC": "He didn't go.",
+      "optionD": "He don't went.",
+      "correctOption": "Option C",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q003",
+      "questionText": "___ they call you last night? (Variant 3)",
+      "optionA": "Weren't",
+      "optionB": "Didn't",
+      "optionC": "Don't",
+      "optionD": "Haven't",
+      "correctOption": "Option B",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q004",
+      "questionText": "I ___ understand the lecture. (Variant 4)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "doesn't",
+      "optionD": "am not",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q005",
+      "questionText": "Past tense negative: She ___ go to the party this morning. (Variant 5)",
+      "optionA": "don't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q006",
+      "questionText": "Complete: We ___ see the movie. (Variant 6)",
+      "optionA": "weren't",
+      "optionB": "haven't",
+      "optionC": "didn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q007",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 7)",
+      "optionA": "He didn't goes.",
+      "optionB": "He don't went.",
+      "optionC": "He wasn't go.",
+      "optionD": "He didn't go.",
+      "correctOption": "Option D",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q008",
+      "questionText": "___ they call you this morning? (Variant 8)",
+      "optionA": "Didn't",
+      "optionB": "Don't",
+      "optionC": "Weren't",
+      "optionD": "Haven't",
+      "correctOption": "Option A",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q009",
+      "questionText": "I ___ understand the lecture. (Variant 9)",
+      "optionA": "am not",
+      "optionB": "wasn't",
+      "optionC": "doesn't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q010",
+      "questionText": "Past tense negative: She ___ go to the party last week. (Variant 10)",
+      "optionA": "wasn't",
+      "optionB": "doesn't",
+      "optionC": "didn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q011",
+      "questionText": "Complete: We ___ see the movie. (Variant 11)",
+      "optionA": "didn't",
+      "optionB": "don't",
+      "optionC": "haven't",
+      "optionD": "weren't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q012",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 12)",
+      "optionA": "He wasn't go.",
+      "optionB": "He don't went.",
+      "optionC": "He didn't goes.",
+      "optionD": "He didn't go.",
+      "correctOption": "Option D",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q013",
+      "questionText": "___ they call you two days ago? (Variant 13)",
+      "optionA": "Don't",
+      "optionB": "Haven't",
+      "optionC": "Didn't",
+      "optionD": "Weren't",
+      "correctOption": "Option C",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q014",
+      "questionText": "I ___ understand the lecture. (Variant 14)",
+      "optionA": "am not",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q015",
+      "questionText": "Past tense negative: She ___ go to the party yesterday. (Variant 15)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q016",
+      "questionText": "Complete: We ___ see the movie. (Variant 16)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "haven't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q017",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 17)",
+      "optionA": "He don't went.",
+      "optionB": "He didn't go.",
+      "optionC": "He didn't goes.",
+      "optionD": "He wasn't go.",
+      "correctOption": "Option B",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q018",
+      "questionText": "___ they call you this morning? (Variant 18)",
+      "optionA": "Weren't",
+      "optionB": "Don't",
+      "optionC": "Didn't",
+      "optionD": "Haven't",
+      "correctOption": "Option C",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q019",
+      "questionText": "I ___ understand the lecture. (Variant 19)",
+      "optionA": "didn't",
+      "optionB": "wasn't",
+      "optionC": "am not",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q020",
+      "questionText": "Past tense negative: She ___ go to the party this morning. (Variant 20)",
+      "optionA": "doesn't",
+      "optionB": "wasn't",
+      "optionC": "didn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q021",
+      "questionText": "Complete: We ___ see the movie. (Variant 21)",
+      "optionA": "didn't",
+      "optionB": "weren't",
+      "optionC": "don't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q022",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 22)",
+      "optionA": "He didn't goes.",
+      "optionB": "He don't went.",
+      "optionC": "He wasn't go.",
+      "optionD": "He didn't go.",
+      "correctOption": "Option D",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q023",
+      "questionText": "___ they call you yesterday? (Variant 23)",
+      "optionA": "Didn't",
+      "optionB": "Haven't",
+      "optionC": "Weren't",
+      "optionD": "Don't",
+      "correctOption": "Option A",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q024",
+      "questionText": "I ___ understand the lecture. (Variant 24)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "am not",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q025",
+      "questionText": "Past tense negative: She ___ go to the party two days ago. (Variant 25)",
+      "optionA": "doesn't",
+      "optionB": "wasn't",
+      "optionC": "don't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q026",
+      "questionText": "Complete: We ___ see the movie. (Variant 26)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "haven't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q027",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 27)",
+      "optionA": "He didn't goes.",
+      "optionB": "He don't went.",
+      "optionC": "He didn't go.",
+      "optionD": "He wasn't go.",
+      "correctOption": "Option C",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q028",
+      "questionText": "___ they call you two days ago? (Variant 28)",
+      "optionA": "Don't",
+      "optionB": "Didn't",
+      "optionC": "Weren't",
+      "optionD": "Haven't",
+      "correctOption": "Option B",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q029",
+      "questionText": "I ___ understand the lecture. (Variant 29)",
+      "optionA": "didn't",
+      "optionB": "am not",
+      "optionC": "doesn't",
+      "optionD": "wasn't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q030",
+      "questionText": "Past tense negative: She ___ go to the party two days ago. (Variant 30)",
+      "optionA": "wasn't",
+      "optionB": "didn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q031",
+      "questionText": "Complete: We ___ see the movie. (Variant 31)",
+      "optionA": "weren't",
+      "optionB": "haven't",
+      "optionC": "didn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q032",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 32)",
+      "optionA": "He didn't go.",
+      "optionB": "He wasn't go.",
+      "optionC": "He don't went.",
+      "optionD": "He didn't goes.",
+      "correctOption": "Option A",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q033",
+      "questionText": "___ they call you last week? (Variant 33)",
+      "optionA": "Weren't",
+      "optionB": "Haven't",
+      "optionC": "Don't",
+      "optionD": "Didn't",
+      "correctOption": "Option D",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q034",
+      "questionText": "I ___ understand the lecture. (Variant 34)",
+      "optionA": "wasn't",
+      "optionB": "am not",
+      "optionC": "doesn't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q035",
+      "questionText": "Past tense negative: She ___ go to the party last week. (Variant 35)",
+      "optionA": "doesn't",
+      "optionB": "didn't",
+      "optionC": "wasn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q036",
+      "questionText": "Complete: We ___ see the movie. (Variant 36)",
+      "optionA": "weren't",
+      "optionB": "didn't",
+      "optionC": "haven't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q037",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 37)",
+      "optionA": "He didn't go.",
+      "optionB": "He didn't goes.",
+      "optionC": "He don't went.",
+      "optionD": "He wasn't go.",
+      "correctOption": "Option A",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q038",
+      "questionText": "___ they call you last night? (Variant 38)",
+      "optionA": "Don't",
+      "optionB": "Haven't",
+      "optionC": "Weren't",
+      "optionD": "Didn't",
+      "correctOption": "Option D",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q039",
+      "questionText": "I ___ understand the lecture. (Variant 39)",
+      "optionA": "doesn't",
+      "optionB": "wasn't",
+      "optionC": "am not",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q040",
+      "questionText": "Past tense negative: She ___ go to the party two days ago. (Variant 40)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "wasn't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q041",
+      "questionText": "Complete: We ___ see the movie. (Variant 41)",
+      "optionA": "haven't",
+      "optionB": "weren't",
+      "optionC": "don't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q042",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 42)",
+      "optionA": "He wasn't go.",
+      "optionB": "He didn't goes.",
+      "optionC": "He didn't go.",
+      "optionD": "He don't went.",
+      "correctOption": "Option C",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q043",
+      "questionText": "___ they call you last week? (Variant 43)",
+      "optionA": "Haven't",
+      "optionB": "Weren't",
+      "optionC": "Didn't",
+      "optionD": "Don't",
+      "correctOption": "Option C",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q044",
+      "questionText": "I ___ understand the lecture. (Variant 44)",
+      "optionA": "am not",
+      "optionB": "wasn't",
+      "optionC": "didn't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q045",
+      "questionText": "Past tense negative: She ___ go to the party last night. (Variant 45)",
+      "optionA": "wasn't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q046",
+      "questionText": "Complete: We ___ see the movie. (Variant 46)",
+      "optionA": "didn't",
+      "optionB": "don't",
+      "optionC": "weren't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q047",
+      "questionText": "Error correction: 'He didn't went.' (Correct version:) (Variant 47)",
+      "optionA": "He wasn't go.",
+      "optionB": "He didn't goes.",
+      "optionC": "He didn't go.",
+      "optionD": "He don't went.",
+      "correctOption": "Option C",
+      "explanation": "'He didn't go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q048",
+      "questionText": "___ they call you this morning? (Variant 48)",
+      "optionA": "Don't",
+      "optionB": "Didn't",
+      "optionC": "Haven't",
+      "optionD": "Weren't",
+      "correctOption": "Option B",
+      "explanation": "'Didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q049",
+      "questionText": "I ___ understand the lecture. (Variant 49)",
+      "optionA": "am not",
+      "optionB": "doesn't",
+      "optionC": "wasn't",
+      "optionD": "didn't",
+      "correctOption": "Option D",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T139-Q050",
+      "questionText": "Past tense negative: She ___ go to the party last week. (Variant 50)",
+      "optionA": "wasn't",
+      "optionB": "don't",
+      "optionC": "didn't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'didn't' is the correct choice in standard English grammar."
+    }
+  ]
+}

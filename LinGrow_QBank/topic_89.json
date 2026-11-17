@@ -1,0 +1,507 @@
+{
+  "topicId": 89,
+  "topicName": "Short answers",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T089-Q001",
+      "questionText": "Do you like pizza? Yes, I _____. (1)",
+      "optionA": "do",
+      "optionB": "have",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q002",
+      "questionText": "Do you like pizza? Yes, I _____. (2)",
+      "optionA": "does",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q003",
+      "questionText": "Do you like pizza? Yes, I _____. (3)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q004",
+      "questionText": "Do you like pizza? Yes, I _____. (4)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q005",
+      "questionText": "Do you like pizza? Yes, I _____. (5)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q006",
+      "questionText": "Do you like pizza? Yes, I _____. (6)",
+      "optionA": "am",
+      "optionB": "do",
+      "optionC": "have",
+      "optionD": "does",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q007",
+      "questionText": "Do you like pizza? Yes, I _____. (7)",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q008",
+      "questionText": "Do you like pizza? Yes, I _____. (8)",
+      "optionA": "do",
+      "optionB": "am",
+      "optionC": "does",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q009",
+      "questionText": "Do you like pizza? Yes, I _____. (9)",
+      "optionA": "do",
+      "optionB": "have",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q010",
+      "questionText": "Do you like pizza? Yes, I _____. (10)",
+      "optionA": "does",
+      "optionB": "have",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q011",
+      "questionText": "Do you like pizza? Yes, I _____. (11)",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "have",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q012",
+      "questionText": "Do you like pizza? Yes, I _____. (12)",
+      "optionA": "do",
+      "optionB": "am",
+      "optionC": "have",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q013",
+      "questionText": "Do you like pizza? Yes, I _____. (13)",
+      "optionA": "am",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q014",
+      "questionText": "Do you like pizza? Yes, I _____. (14)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q015",
+      "questionText": "Do you like pizza? Yes, I _____. (15)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q016",
+      "questionText": "Do you like pizza? Yes, I _____. (16)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q017",
+      "questionText": "Do you like pizza? Yes, I _____. (17)",
+      "optionA": "am",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q018",
+      "questionText": "Do you like pizza? Yes, I _____. (18)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "am",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q019",
+      "questionText": "Do you like pizza? Yes, I _____. (19)",
+      "optionA": "am",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q020",
+      "questionText": "Do you like pizza? Yes, I _____. (20)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "am",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q021",
+      "questionText": "Do you like pizza? Yes, I _____. (21)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q022",
+      "questionText": "Do you like pizza? Yes, I _____. (22)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q023",
+      "questionText": "Do you like pizza? Yes, I _____. (23)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q024",
+      "questionText": "Do you like pizza? Yes, I _____. (24)",
+      "optionA": "does",
+      "optionB": "am",
+      "optionC": "have",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q025",
+      "questionText": "Do you like pizza? Yes, I _____. (25)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q026",
+      "questionText": "Do you like pizza? Yes, I _____. (26)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q027",
+      "questionText": "Do you like pizza? Yes, I _____. (27)",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q028",
+      "questionText": "Do you like pizza? Yes, I _____. (28)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q029",
+      "questionText": "Do you like pizza? Yes, I _____. (29)",
+      "optionA": "have",
+      "optionB": "am",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q030",
+      "questionText": "Do you like pizza? Yes, I _____. (30)",
+      "optionA": "do",
+      "optionB": "am",
+      "optionC": "have",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q031",
+      "questionText": "Do you like pizza? Yes, I _____. (31)",
+      "optionA": "have",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q032",
+      "questionText": "Do you like pizza? Yes, I _____. (32)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q033",
+      "questionText": "Do you like pizza? Yes, I _____. (33)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q034",
+      "questionText": "Do you like pizza? Yes, I _____. (34)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q035",
+      "questionText": "Do you like pizza? Yes, I _____. (35)",
+      "optionA": "does",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q036",
+      "questionText": "Do you like pizza? Yes, I _____. (36)",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q037",
+      "questionText": "Do you like pizza? Yes, I _____. (37)",
+      "optionA": "do",
+      "optionB": "have",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q038",
+      "questionText": "Do you like pizza? Yes, I _____. (38)",
+      "optionA": "am",
+      "optionB": "does",
+      "optionC": "have",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q039",
+      "questionText": "Do you like pizza? Yes, I _____. (39)",
+      "optionA": "am",
+      "optionB": "have",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q040",
+      "questionText": "Do you like pizza? Yes, I _____. (40)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option D",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q041",
+      "questionText": "Do you like pizza? Yes, I _____. (41)",
+      "optionA": "am",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q042",
+      "questionText": "Do you like pizza? Yes, I _____. (42)",
+      "optionA": "do",
+      "optionB": "have",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q043",
+      "questionText": "Do you like pizza? Yes, I _____. (43)",
+      "optionA": "am",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q044",
+      "questionText": "Do you like pizza? Yes, I _____. (44)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "does",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q045",
+      "questionText": "Do you like pizza? Yes, I _____. (45)",
+      "optionA": "have",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q046",
+      "questionText": "Do you like pizza? Yes, I _____. (46)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q047",
+      "questionText": "Do you like pizza? Yes, I _____. (47)",
+      "optionA": "have",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q048",
+      "questionText": "Do you like pizza? Yes, I _____. (48)",
+      "optionA": "do",
+      "optionB": "have",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q049",
+      "questionText": "Do you like pizza? Yes, I _____. (49)",
+      "optionA": "have",
+      "optionB": "am",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T089-Q050",
+      "questionText": "Do you like pizza? Yes, I _____. (50)",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "am",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'do' is the correct choice in standard English grammar."
+    }
+  ]
+}

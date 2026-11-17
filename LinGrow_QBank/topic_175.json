@@ -1,0 +1,507 @@
+{
+  "topicId": 175,
+  "topicName": "Unless",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T175-Q001",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q002",
+      "questionText": "____ you have a valid ID, you cannot enter the classroom.",
+      "optionA": "Because",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q003",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q004",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Although",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q005",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q006",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q007",
+      "questionText": "____ you have a valid ID, you cannot enter the study hall.",
+      "optionA": "Although",
+      "optionB": "Because",
+      "optionC": "Unless",
+      "optionD": "So",
+      "correctOption": "Option C",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q008",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q009",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q010",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q011",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q012",
+      "questionText": "____ you have a valid ID, you cannot enter the library.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q013",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q014",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q015",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q016",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q017",
+      "questionText": "____ you have a valid ID, you cannot enter the study hall.",
+      "optionA": "So",
+      "optionB": "Because",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q018",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q019",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Because",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q020",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q021",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q022",
+      "questionText": "____ you have a valid ID, you cannot enter the library.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "So",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q023",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q024",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q025",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q026",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "because",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q027",
+      "questionText": "____ you have a valid ID, you cannot enter the library.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Unless",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q028",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q029",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "Unless",
+      "correctOption": "Option D",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q030",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q031",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q032",
+      "questionText": "____ you have a valid ID, you cannot enter the study hall.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q033",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q034",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "So",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q035",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q036",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q037",
+      "questionText": "____ you have a valid ID, you cannot enter the study hall.",
+      "optionA": "So",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q038",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "because",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q039",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Unless",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q040",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q041",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q042",
+      "questionText": "____ you have a valid ID, you cannot enter the classroom.",
+      "optionA": "Unless",
+      "optionB": "Because",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option A",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q043",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q044",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q045",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q046",
+      "questionText": "You will not pass ____ you study.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q047",
+      "questionText": "____ you have a valid ID, you cannot enter the study hall.",
+      "optionA": "Because",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q048",
+      "questionText": "I will not go to the party ____ I finish my essay.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option D",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q049",
+      "questionText": "____ it rains, we will have the class outside.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "So",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Unless' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T175-Q050",
+      "questionText": "He won't understand the topic ____ he asks questions.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'unless' is the correct choice in standard English grammar."
+    }
+  ]
+}

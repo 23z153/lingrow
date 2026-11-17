@@ -1,0 +1,507 @@
+{
+  "topicId": 176,
+  "topicName": "Subject + Verb",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T176-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "Smiles the committee.",
+      "optionB": "The committee smiles.",
+      "optionC": "The smiles.",
+      "optionD": "The committee smilesing.",
+      "correctOption": "Option B",
+      "explanation": "'The committee smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The author speaks.",
+      "optionB": "The author speaks.",
+      "optionC": "The author speaksing.",
+      "optionD": "The speaks.",
+      "correctOption": "Option A",
+      "explanation": "'The author speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "An expert pauses.",
+      "optionB": "Pauses expert an.",
+      "optionC": "An pauses.",
+      "optionD": "An expert pausesing.",
+      "correctOption": "Option A",
+      "explanation": "'An expert pauses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The author speaksing.",
+      "optionB": "Author speaks the.",
+      "optionC": "The author speaks.",
+      "optionD": "The speaks.",
+      "correctOption": "Option C",
+      "explanation": "'The author speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The listens university.",
+      "optionB": "The listens.",
+      "optionC": "The university listensing.",
+      "optionD": "The university listens.",
+      "correctOption": "Option D",
+      "explanation": "'The university listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The professor arrivesing.",
+      "optionB": "Arrives the professor.",
+      "optionC": "The arrives.",
+      "optionD": "The professor arrives.",
+      "correctOption": "Option D",
+      "explanation": "'The professor arrives' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university worksing.",
+      "optionB": "The university works.",
+      "optionC": "The works.",
+      "optionD": "Works university the.",
+      "correctOption": "Option B",
+      "explanation": "'The university works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The listens.",
+      "optionB": "The professor listensing.",
+      "optionC": "The professor listens.",
+      "optionD": "The listens professor.",
+      "correctOption": "Option C",
+      "explanation": "'The professor listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "An smiles.",
+      "optionB": "Smiles an expert.",
+      "optionC": "An expert smiles.",
+      "optionD": "An expert smilesing.",
+      "correctOption": "Option C",
+      "explanation": "'An expert smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The disagrees.",
+      "optionB": "Disagrees professor the.",
+      "optionC": "The professor disagreesing.",
+      "optionD": "The professor disagrees.",
+      "correctOption": "Option D",
+      "explanation": "'The professor disagrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A colleague smilesing.",
+      "optionB": "A smiles.",
+      "optionC": "A colleague smiles.",
+      "optionD": "Colleague a smiles.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The agrees.",
+      "optionB": "The university agreesing.",
+      "optionC": "The university agrees.",
+      "optionD": "The agrees university.",
+      "correctOption": "Option C",
+      "explanation": "'The university agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A colleague agreesing.",
+      "optionB": "Agrees colleague a.",
+      "optionC": "A agrees.",
+      "optionD": "A colleague agrees.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university smiles.",
+      "optionB": "Smiles the university.",
+      "optionC": "The university smilesing.",
+      "optionD": "The smiles.",
+      "correctOption": "Option A",
+      "explanation": "'The university smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The student graduates.",
+      "optionB": "The graduates.",
+      "optionC": "The student graduatesing.",
+      "optionD": "The graduates student.",
+      "correctOption": "Option A",
+      "explanation": "'The student graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The hesitates.",
+      "optionB": "Hesitates the researcher.",
+      "optionC": "The researcher hesitates.",
+      "optionD": "The researcher hesitatesing.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher hesitates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The student smiles.",
+      "optionB": "The student smilesing.",
+      "optionC": "The smiles.",
+      "optionD": "Student smiles the.",
+      "correctOption": "Option A",
+      "explanation": "'The student smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The professor graduatesing.",
+      "optionB": "Graduates the professor.",
+      "optionC": "The professor graduates.",
+      "optionD": "The graduates.",
+      "correctOption": "Option C",
+      "explanation": "'The professor graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university agreesing.",
+      "optionB": "The university agrees.",
+      "optionC": "Agrees university the.",
+      "optionD": "The agrees.",
+      "correctOption": "Option B",
+      "explanation": "'The university agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university speaksing.",
+      "optionB": "The speaks university.",
+      "optionC": "The speaks.",
+      "optionD": "The university speaks.",
+      "correctOption": "Option D",
+      "explanation": "'The university speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The researcher disagreesing.",
+      "optionB": "The disagrees.",
+      "optionC": "The researcher disagrees.",
+      "optionD": "The disagrees researcher.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher disagrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The listens.",
+      "optionB": "The scientist listensing.",
+      "optionC": "The scientist listens.",
+      "optionD": "Scientist listens the.",
+      "correctOption": "Option C",
+      "explanation": "'The scientist listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The pauses.",
+      "optionB": "The scientist pausesing.",
+      "optionC": "The scientist pauses.",
+      "optionD": "Pauses scientist the.",
+      "correctOption": "Option C",
+      "explanation": "'The scientist pauses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The team graduates.",
+      "optionB": "Graduates team the.",
+      "optionC": "The team graduatesing.",
+      "optionD": "The graduates.",
+      "correctOption": "Option A",
+      "explanation": "'The team graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The committee arrives.",
+      "optionB": "The committee arrivesing.",
+      "optionC": "The committee arrives.",
+      "optionD": "The arrives.",
+      "correctOption": "Option A",
+      "explanation": "'The committee arrives' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The listens.",
+      "optionB": "Listens student the.",
+      "optionC": "The student listensing.",
+      "optionD": "The student listens.",
+      "correctOption": "Option D",
+      "explanation": "'The student listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The researcher pauses.",
+      "optionB": "The researcher pausesing.",
+      "optionC": "Pauses the researcher.",
+      "optionD": "The pauses.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher pauses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The researcher hesitates.",
+      "optionB": "Researcher the hesitates.",
+      "optionC": "The hesitates.",
+      "optionD": "The researcher hesitatesing.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher hesitates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The professor speaks.",
+      "optionB": "The speaks professor.",
+      "optionC": "The speaks.",
+      "optionD": "The professor speaksing.",
+      "correctOption": "Option A",
+      "explanation": "'The professor speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The disagrees.",
+      "optionB": "The committee disagrees.",
+      "optionC": "Committee disagrees the.",
+      "optionD": "The committee disagreesing.",
+      "correctOption": "Option B",
+      "explanation": "'The committee disagrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The committee graduatesing.",
+      "optionB": "Committee graduates the.",
+      "optionC": "The committee graduates.",
+      "optionD": "The graduates.",
+      "correctOption": "Option C",
+      "explanation": "'The committee graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The works.",
+      "optionB": "The scientist works.",
+      "optionC": "Scientist works the.",
+      "optionD": "The scientist worksing.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university graduatesing.",
+      "optionB": "The university graduates.",
+      "optionC": "The graduates.",
+      "optionD": "The university graduates.",
+      "correctOption": "Option B",
+      "explanation": "'The university graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The team agrees.",
+      "optionB": "The team agrees.",
+      "optionC": "The team agreesing.",
+      "optionD": "The agrees.",
+      "correctOption": "Option A",
+      "explanation": "'The team agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "An expert graduatesing.",
+      "optionB": "An graduates.",
+      "optionC": "Graduates an expert.",
+      "optionD": "An expert graduates.",
+      "correctOption": "Option D",
+      "explanation": "'An expert graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A colleague hesitates.",
+      "optionB": "A colleague hesitatesing.",
+      "optionC": "A hesitates.",
+      "optionD": "A colleague hesitates.",
+      "correctOption": "Option A",
+      "explanation": "'A colleague hesitates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The scientist works.",
+      "optionB": "Works the scientist.",
+      "optionC": "The scientist worksing.",
+      "optionD": "The works.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The author agrees.",
+      "optionB": "The author agreesing.",
+      "optionC": "The agrees.",
+      "optionD": "The agrees author.",
+      "correctOption": "Option A",
+      "explanation": "'The author agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The speaks student.",
+      "optionB": "The student speaks.",
+      "optionC": "The speaks.",
+      "optionD": "The student speaksing.",
+      "correctOption": "Option B",
+      "explanation": "'The student speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A speaks colleague.",
+      "optionB": "A colleague speaksing.",
+      "optionC": "A speaks.",
+      "optionD": "A colleague speaks.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague speaks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A colleague smiles.",
+      "optionB": "A colleague smilesing.",
+      "optionC": "Smiles colleague a.",
+      "optionD": "A smiles.",
+      "correctOption": "Option A",
+      "explanation": "'A colleague smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The researcher smiles.",
+      "optionB": "The researcher smiles.",
+      "optionC": "The smiles.",
+      "optionD": "The researcher smilesing.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The researcher smilesing.",
+      "optionB": "The researcher smiles.",
+      "optionC": "The researcher smiles.",
+      "optionD": "The smiles.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher smiles' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The works team.",
+      "optionB": "The team works.",
+      "optionC": "The team worksing.",
+      "optionD": "The works.",
+      "correctOption": "Option B",
+      "explanation": "'The team works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The university graduates.",
+      "optionB": "The university graduatesing.",
+      "optionC": "The graduates.",
+      "optionD": "University graduates the.",
+      "correctOption": "Option A",
+      "explanation": "'The university graduates' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "Listens colleague a.",
+      "optionB": "A colleague listens.",
+      "optionC": "A colleague listensing.",
+      "optionD": "A listens.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "A listens.",
+      "optionB": "A colleague listens.",
+      "optionC": "A colleague listens.",
+      "optionD": "A colleague listensing.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague listens' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The student arrivesing.",
+      "optionB": "Student the arrives.",
+      "optionC": "The student arrives.",
+      "optionD": "The arrives.",
+      "correctOption": "Option C",
+      "explanation": "'The student arrives' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The team agreesing.",
+      "optionB": "The team agrees.",
+      "optionC": "The agrees.",
+      "optionD": "Team agrees the.",
+      "correctOption": "Option B",
+      "explanation": "'The team agrees' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T176-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb'?",
+      "optionA": "The listens.",
+      "optionB": "Author listens the.",
+      "optionC": "The author listens.",
+      "optionD": "The author listensing.",
+      "correctOption": "Option C",
+      "explanation": "'The author listens' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 45,
+  "topicName": "First/later mention",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T045-Q001",
+      "questionText": "I saw a dog and a cat. ___ dog was big.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q002",
+      "questionText": "She bought a dog. ___ dog is expensive.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q003",
+      "questionText": "We have a cat. ___ cat is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q004",
+      "questionText": "There is a dog here. Where is ___ dog from?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q005",
+      "questionText": "He found a cat. He gave ___ cat to me.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q006",
+      "questionText": "I saw a car and a bike. ___ car was big.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q007",
+      "questionText": "She bought a car. ___ car is expensive.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q008",
+      "questionText": "We have a bike. ___ bike is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q009",
+      "questionText": "There is a car here. Where is ___ car from?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q010",
+      "questionText": "He found a bike. He gave ___ bike to me.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q011",
+      "questionText": "I saw a book and a pen. ___ book was big.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q012",
+      "questionText": "She bought a book. ___ book is expensive.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q013",
+      "questionText": "We have a pen. ___ pen is new.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q014",
+      "questionText": "There is a book here. Where is ___ book from?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q015",
+      "questionText": "He found a pen. He gave ___ pen to me.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q016",
+      "questionText": "I saw a shirt and a hat. ___ shirt was big.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q017",
+      "questionText": "She bought a shirt. ___ shirt is expensive.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q018",
+      "questionText": "We have a hat. ___ hat is new.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q019",
+      "questionText": "There is a shirt here. Where is ___ shirt from?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q020",
+      "questionText": "He found a hat. He gave ___ hat to me.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q021",
+      "questionText": "I saw a computer and a phone. ___ computer was big.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q022",
+      "questionText": "She bought a computer. ___ computer is expensive.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q023",
+      "questionText": "We have a phone. ___ phone is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q024",
+      "questionText": "There is a computer here. Where is ___ computer from?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q025",
+      "questionText": "He found a phone. He gave ___ phone to me.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q026",
+      "questionText": "I saw a house and a garden. ___ house was big.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q027",
+      "questionText": "She bought a house. ___ house is expensive.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q028",
+      "questionText": "We have a garden. ___ garden is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q029",
+      "questionText": "There is a house here. Where is ___ house from?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q030",
+      "questionText": "He found a garden. He gave ___ garden to me.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q031",
+      "questionText": "I saw a man and a woman. ___ man was big.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q032",
+      "questionText": "She bought a man. ___ man is expensive.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q033",
+      "questionText": "We have a woman. ___ woman is new.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q034",
+      "questionText": "There is a man here. Where is ___ man from?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q035",
+      "questionText": "He found a woman. He gave ___ woman to me.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q036",
+      "questionText": "I saw a boy and a girl. ___ boy was big.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q037",
+      "questionText": "She bought a boy. ___ boy is expensive.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q038",
+      "questionText": "We have a girl. ___ girl is new.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q039",
+      "questionText": "There is a boy here. Where is ___ boy from?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q040",
+      "questionText": "He found a girl. He gave ___ girl to me.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q041",
+      "questionText": "I saw a teacher and a student. ___ teacher was big.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q042",
+      "questionText": "She bought a teacher. ___ teacher is expensive.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q043",
+      "questionText": "We have a student. ___ student is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q044",
+      "questionText": "There is a teacher here. Where is ___ teacher from?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q045",
+      "questionText": "He found a student. He gave ___ student to me.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q046",
+      "questionText": "I saw a bird and a tree. ___ bird was big.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q047",
+      "questionText": "She bought a bird. ___ bird is expensive.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q048",
+      "questionText": "We have a tree. ___ tree is new.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q049",
+      "questionText": "There is a bird here. Where is ___ bird from?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T045-Q050",
+      "questionText": "He found a tree. He gave ___ tree to me.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    }
+  ]
+}

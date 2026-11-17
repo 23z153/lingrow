@@ -1,0 +1,507 @@
+{
+  "topicId": 225,
+  "topicName": "Pronoun changes",
+  "unit": "UNIT 24 — BASIC REPORTED SPEECH",
+  "questions": [
+    {
+      "questionId": "T225-Q001",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 1)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q002",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 2)",
+      "optionA": "she / her",
+      "optionB": "she / my",
+      "optionC": "I / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q003",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 3)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q004",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 4)",
+      "optionA": "I / her",
+      "optionB": "I / my",
+      "optionC": "she / her",
+      "optionD": "she / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q005",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 5)",
+      "optionA": "she / my",
+      "optionB": "I / her",
+      "optionC": "I / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q006",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 6)",
+      "optionA": "she / her",
+      "optionB": "she / my",
+      "optionC": "I / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q007",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 7)",
+      "optionA": "she / my",
+      "optionB": "she / her",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q008",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 8)",
+      "optionA": "I / my",
+      "optionB": "I / her",
+      "optionC": "she / her",
+      "optionD": "she / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q009",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 9)",
+      "optionA": "she / her",
+      "optionB": "I / my",
+      "optionC": "I / her",
+      "optionD": "she / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q010",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 10)",
+      "optionA": "I / my",
+      "optionB": "she / her",
+      "optionC": "I / her",
+      "optionD": "she / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q011",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 11)",
+      "optionA": "she / her",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "I / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q012",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 12)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q013",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 13)",
+      "optionA": "she / my",
+      "optionB": "I / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q014",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 14)",
+      "optionA": "she / my",
+      "optionB": "I / her",
+      "optionC": "I / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q015",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 15)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q016",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 16)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "I / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q017",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 17)",
+      "optionA": "she / her",
+      "optionB": "I / her",
+      "optionC": "I / my",
+      "optionD": "she / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q018",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 18)",
+      "optionA": "I / my",
+      "optionB": "she / her",
+      "optionC": "I / her",
+      "optionD": "she / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q019",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 19)",
+      "optionA": "she / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q020",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 20)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q021",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 21)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q022",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 22)",
+      "optionA": "she / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q023",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 23)",
+      "optionA": "I / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q024",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 24)",
+      "optionA": "I / her",
+      "optionB": "she / her",
+      "optionC": "she / my",
+      "optionD": "I / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q025",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 25)",
+      "optionA": "she / her",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q026",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 26)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "I / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q027",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 27)",
+      "optionA": "I / my",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q028",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 28)",
+      "optionA": "she / my",
+      "optionB": "I / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q029",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 29)",
+      "optionA": "I / my",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q030",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 30)",
+      "optionA": "I / her",
+      "optionB": "she / her",
+      "optionC": "she / my",
+      "optionD": "I / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q031",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 31)",
+      "optionA": "she / my",
+      "optionB": "she / her",
+      "optionC": "I / my",
+      "optionD": "I / her",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q032",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 32)",
+      "optionA": "she / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q033",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 33)",
+      "optionA": "I / my",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q034",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 34)",
+      "optionA": "she / my",
+      "optionB": "she / her",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q035",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 35)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q036",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 36)",
+      "optionA": "she / my",
+      "optionB": "I / my",
+      "optionC": "I / her",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q037",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 37)",
+      "optionA": "she / her",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "I / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q038",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 38)",
+      "optionA": "she / her",
+      "optionB": "I / her",
+      "optionC": "I / my",
+      "optionD": "she / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q039",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 39)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q040",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 40)",
+      "optionA": "she / her",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q041",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 41)",
+      "optionA": "she / my",
+      "optionB": "she / her",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option B",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q042",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 42)",
+      "optionA": "she / her",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "I / my",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q043",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 43)",
+      "optionA": "I / my",
+      "optionB": "I / her",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q044",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 44)",
+      "optionA": "I / her",
+      "optionB": "she / my",
+      "optionC": "she / her",
+      "optionD": "I / my",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q045",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 45)",
+      "optionA": "she / my",
+      "optionB": "I / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q046",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 46)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q047",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 47)",
+      "optionA": "I / my",
+      "optionB": "she / my",
+      "optionC": "I / her",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q048",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 48)",
+      "optionA": "I / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "she / her",
+      "correctOption": "Option D",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q049",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 49)",
+      "optionA": "she / her",
+      "optionB": "I / my",
+      "optionC": "she / my",
+      "optionD": "I / her",
+      "correctOption": "Option A",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T225-Q050",
+      "questionText": "Change the pronoun correctly: 'I like my new car,' she said. She said that ____ liked ____ new car. (Question 50)",
+      "optionA": "she / my",
+      "optionB": "I / my",
+      "optionC": "she / her",
+      "optionD": "I / her",
+      "correctOption": "Option C",
+      "explanation": "'she / her' is the correct choice in standard English grammar."
+    }
+  ]
+}

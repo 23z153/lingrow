@@ -1,0 +1,507 @@
+{
+  "topicId": 135,
+  "topicName": "How well",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T135-Q001",
+      "questionText": "Which question word is used to ask about ability or degree of success?",
+      "optionA": "How good",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q002",
+      "questionText": "Identify the missing word: I don't know ____ she will make.",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How well",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q003",
+      "questionText": "____ do you know the new manager?",
+      "optionA": "How long",
+      "optionB": "How well",
+      "optionC": "How good",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q004",
+      "questionText": "Which question word is used to ask about ability or degree of success? (1)",
+      "optionA": "How well",
+      "optionB": "How many",
+      "optionC": "How good",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q005",
+      "questionText": "Which question word is used to ask about ability or degree of success? (2)",
+      "optionA": "How long",
+      "optionB": "How many",
+      "optionC": "How well",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q006",
+      "questionText": "Which question word is used to ask about ability or degree of success? (3)",
+      "optionA": "How good",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q007",
+      "questionText": "____ does she play the piano?",
+      "optionA": "How often",
+      "optionB": "How well",
+      "optionC": "How far",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q008",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will wait.",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How well",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q009",
+      "questionText": "Identify the missing word: I don't know ____ the dog will run.",
+      "optionA": "How good",
+      "optionB": "How well",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q010",
+      "questionText": "____ does she play the piano? (1)",
+      "optionA": "How much",
+      "optionB": "How well",
+      "optionC": "How often",
+      "optionD": "How good",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q011",
+      "questionText": "____ does she play the piano? (2)",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How well",
+      "optionD": "How good",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q012",
+      "questionText": "Which question word is used to ask about ability or degree of success? (4)",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q013",
+      "questionText": "Which question word is used to ask about ability or degree of success? (5)",
+      "optionA": "How well",
+      "optionB": "How far",
+      "optionC": "How good",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q014",
+      "questionText": "Identify the missing word: I don't know ____ the dog will take.",
+      "optionA": "How many",
+      "optionB": "How far",
+      "optionC": "How well",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q015",
+      "questionText": "____ does she play the piano? (3)",
+      "optionA": "How often",
+      "optionB": "How good",
+      "optionC": "How long",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q016",
+      "questionText": "Identify the missing word: I don't know ____ they will do.",
+      "optionA": "How long",
+      "optionB": "How many",
+      "optionC": "How well",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q017",
+      "questionText": "Which question word is used to ask about ability or degree of success? (6)",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How good",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q018",
+      "questionText": "Which question word is used to ask about ability or degree of success? (7)",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How good",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q019",
+      "questionText": "____ do you know the new manager? (1)",
+      "optionA": "How far",
+      "optionB": "How well",
+      "optionC": "How good",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q020",
+      "questionText": "____ do you know the new manager? (2)",
+      "optionA": "How well",
+      "optionB": "How much",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q021",
+      "questionText": "____ does she play the piano? (4)",
+      "optionA": "How many",
+      "optionB": "How well",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q022",
+      "questionText": "Which question word is used to ask about ability or degree of success? (8)",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How good",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q023",
+      "questionText": "Which question word is used to ask about ability or degree of success? (9)",
+      "optionA": "How well",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q024",
+      "questionText": "Identify the missing word: I don't know ____ the company will see.",
+      "optionA": "How good",
+      "optionB": "How much",
+      "optionC": "How well",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q025",
+      "questionText": "____ do you know the new manager? (3)",
+      "optionA": "How well",
+      "optionB": "How good",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q026",
+      "questionText": "Which question word is used to ask about ability or degree of success? (10)",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How well",
+      "optionD": "How good",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q027",
+      "questionText": "Identify the missing word: I don't know ____ you will want.",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q028",
+      "questionText": "____ do you know the new manager? (4)",
+      "optionA": "How well",
+      "optionB": "How good",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q029",
+      "questionText": "____ do you know the new manager? (5)",
+      "optionA": "How well",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q030",
+      "questionText": "Which question word is used to ask about ability or degree of success? (11)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How well",
+      "optionD": "How good",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q031",
+      "questionText": "Identify the missing word: I don't know ____ I will depart.",
+      "optionA": "How well",
+      "optionB": "How good",
+      "optionC": "How long",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q032",
+      "questionText": "____ does she play the piano? (5)",
+      "optionA": "How well",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q033",
+      "questionText": "Identify the missing word: I don't know ____ the student will make.",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How well",
+      "optionD": "How good",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q034",
+      "questionText": "Identify the missing word: I don't know ____ we will run.",
+      "optionA": "How often",
+      "optionB": "How much",
+      "optionC": "How well",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q035",
+      "questionText": "Identify the missing word: I don't know ____ I will sleep.",
+      "optionA": "How far",
+      "optionB": "How well",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q036",
+      "questionText": "____ does she play the piano? (6)",
+      "optionA": "How much",
+      "optionB": "How well",
+      "optionC": "How often",
+      "optionD": "How good",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q037",
+      "questionText": "____ do you know the new manager? (6)",
+      "optionA": "How often",
+      "optionB": "How good",
+      "optionC": "How far",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q038",
+      "questionText": "____ does she play the piano? (7)",
+      "optionA": "How well",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How good",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q039",
+      "questionText": "Identify the missing word: I don't know ____ the company will take.",
+      "optionA": "How good",
+      "optionB": "How well",
+      "optionC": "How many",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q040",
+      "questionText": "Identify the missing word: I don't know ____ the team will depart.",
+      "optionA": "How well",
+      "optionB": "How far",
+      "optionC": "How good",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q041",
+      "questionText": "____ does she play the piano? (8)",
+      "optionA": "How well",
+      "optionB": "How many",
+      "optionC": "How much",
+      "optionD": "How good",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q042",
+      "questionText": "Identify the missing word: I don't know ____ the company will wait.",
+      "optionA": "How well",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q043",
+      "questionText": "Identify the missing word: I don't know ____ I will think.",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q044",
+      "questionText": "____ does she play the piano? (9)",
+      "optionA": "How well",
+      "optionB": "How far",
+      "optionC": "How good",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q045",
+      "questionText": "Which question word is used to ask about ability or degree of success? (12)",
+      "optionA": "How good",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q046",
+      "questionText": "____ does she play the piano? (10)",
+      "optionA": "How well",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How good",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q047",
+      "questionText": "Which question word is used to ask about ability or degree of success? (13)",
+      "optionA": "How many",
+      "optionB": "How long",
+      "optionC": "How well",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q048",
+      "questionText": "____ does she play the piano? (11)",
+      "optionA": "How well",
+      "optionB": "How long",
+      "optionC": "How much",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q049",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will stay.",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How good",
+      "optionD": "How well",
+      "correctOption": "Option D",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T135-Q050",
+      "questionText": "____ does she play the piano? (12)",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How well",
+      "optionD": "How good",
+      "correctOption": "Option C",
+      "explanation": "'How well' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 136,
+  "topicName": "Question tags",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T136-Q001",
+      "questionText": "They play tennis every day, ___? (Variant 1)",
+      "optionA": "do they",
+      "optionB": "don't they",
+      "optionC": "aren't they",
+      "optionD": "haven't they",
+      "correctOption": "Option B",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q002",
+      "questionText": "We have finished the project, ___? (Variant 2)",
+      "optionA": "don't we",
+      "optionB": "have we",
+      "optionC": "haven't we",
+      "optionD": "aren't we",
+      "correctOption": "Option C",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q003",
+      "questionText": "She won't be late, ___? (Variant 3)",
+      "optionA": "won't she",
+      "optionB": "will she",
+      "optionC": "does she",
+      "optionD": "is she",
+      "correctOption": "Option B",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q004",
+      "questionText": "You can speak English, ___? (Variant 4)",
+      "optionA": "aren't you",
+      "optionB": "can you",
+      "optionC": "can't you",
+      "optionD": "don't you",
+      "correctOption": "Option C",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q005",
+      "questionText": "Tom is a student, ___? (Variant 5)",
+      "optionA": "wasn't he/she",
+      "optionB": "is he/she",
+      "optionC": "isn't he/she",
+      "optionD": "doesn't he/she",
+      "correctOption": "Option C",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q006",
+      "questionText": "They play tennis every day, ___? (Variant 6)",
+      "optionA": "aren't they",
+      "optionB": "don't they",
+      "optionC": "do they",
+      "optionD": "haven't they",
+      "correctOption": "Option B",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q007",
+      "questionText": "We have finished the project, ___? (Variant 7)",
+      "optionA": "have we",
+      "optionB": "aren't we",
+      "optionC": "don't we",
+      "optionD": "haven't we",
+      "correctOption": "Option D",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q008",
+      "questionText": "She won't be late, ___? (Variant 8)",
+      "optionA": "will she",
+      "optionB": "won't she",
+      "optionC": "is she",
+      "optionD": "does she",
+      "correctOption": "Option A",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q009",
+      "questionText": "You can speak English, ___? (Variant 9)",
+      "optionA": "can you",
+      "optionB": "can't you",
+      "optionC": "aren't you",
+      "optionD": "don't you",
+      "correctOption": "Option B",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q010",
+      "questionText": "David is a student, ___? (Variant 10)",
+      "optionA": "doesn't he/she",
+      "optionB": "is he/she",
+      "optionC": "isn't he/she",
+      "optionD": "wasn't he/she",
+      "correctOption": "Option C",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q011",
+      "questionText": "They play tennis every day, ___? (Variant 11)",
+      "optionA": "haven't they",
+      "optionB": "do they",
+      "optionC": "aren't they",
+      "optionD": "don't they",
+      "correctOption": "Option D",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q012",
+      "questionText": "We have finished the project, ___? (Variant 12)",
+      "optionA": "aren't we",
+      "optionB": "have we",
+      "optionC": "don't we",
+      "optionD": "haven't we",
+      "correctOption": "Option D",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q013",
+      "questionText": "She won't be late, ___? (Variant 13)",
+      "optionA": "will she",
+      "optionB": "is she",
+      "optionC": "does she",
+      "optionD": "won't she",
+      "correctOption": "Option A",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q014",
+      "questionText": "You can speak English, ___? (Variant 14)",
+      "optionA": "don't you",
+      "optionB": "can't you",
+      "optionC": "aren't you",
+      "optionD": "can you",
+      "correctOption": "Option B",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q015",
+      "questionText": "John is a student, ___? (Variant 15)",
+      "optionA": "doesn't he/she",
+      "optionB": "is he/she",
+      "optionC": "wasn't he/she",
+      "optionD": "isn't he/she",
+      "correctOption": "Option D",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q016",
+      "questionText": "They play tennis every day, ___? (Variant 16)",
+      "optionA": "don't they",
+      "optionB": "aren't they",
+      "optionC": "haven't they",
+      "optionD": "do they",
+      "correctOption": "Option A",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q017",
+      "questionText": "We have finished the project, ___? (Variant 17)",
+      "optionA": "have we",
+      "optionB": "aren't we",
+      "optionC": "haven't we",
+      "optionD": "don't we",
+      "correctOption": "Option C",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q018",
+      "questionText": "She won't be late, ___? (Variant 18)",
+      "optionA": "is she",
+      "optionB": "will she",
+      "optionC": "does she",
+      "optionD": "won't she",
+      "correctOption": "Option B",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q019",
+      "questionText": "You can speak English, ___? (Variant 19)",
+      "optionA": "don't you",
+      "optionB": "can you",
+      "optionC": "aren't you",
+      "optionD": "can't you",
+      "correctOption": "Option D",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q020",
+      "questionText": "His brother is a student, ___? (Variant 20)",
+      "optionA": "is he/she",
+      "optionB": "doesn't he/she",
+      "optionC": "isn't he/she",
+      "optionD": "wasn't he/she",
+      "correctOption": "Option C",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q021",
+      "questionText": "They play tennis every day, ___? (Variant 21)",
+      "optionA": "do they",
+      "optionB": "haven't they",
+      "optionC": "don't they",
+      "optionD": "aren't they",
+      "correctOption": "Option C",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q022",
+      "questionText": "We have finished the project, ___? (Variant 22)",
+      "optionA": "aren't we",
+      "optionB": "haven't we",
+      "optionC": "have we",
+      "optionD": "don't we",
+      "correctOption": "Option B",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q023",
+      "questionText": "She won't be late, ___? (Variant 23)",
+      "optionA": "will she",
+      "optionB": "is she",
+      "optionC": "does she",
+      "optionD": "won't she",
+      "correctOption": "Option A",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q024",
+      "questionText": "You can speak English, ___? (Variant 24)",
+      "optionA": "can you",
+      "optionB": "aren't you",
+      "optionC": "can't you",
+      "optionD": "don't you",
+      "correctOption": "Option C",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q025",
+      "questionText": "John is a student, ___? (Variant 25)",
+      "optionA": "isn't he/she",
+      "optionB": "wasn't he/she",
+      "optionC": "doesn't he/she",
+      "optionD": "is he/she",
+      "correctOption": "Option A",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q026",
+      "questionText": "They play tennis every day, ___? (Variant 26)",
+      "optionA": "haven't they",
+      "optionB": "do they",
+      "optionC": "don't they",
+      "optionD": "aren't they",
+      "correctOption": "Option C",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q027",
+      "questionText": "We have finished the project, ___? (Variant 27)",
+      "optionA": "haven't we",
+      "optionB": "aren't we",
+      "optionC": "don't we",
+      "optionD": "have we",
+      "correctOption": "Option A",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q028",
+      "questionText": "She won't be late, ___? (Variant 28)",
+      "optionA": "is she",
+      "optionB": "will she",
+      "optionC": "won't she",
+      "optionD": "does she",
+      "correctOption": "Option B",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q029",
+      "questionText": "You can speak English, ___? (Variant 29)",
+      "optionA": "can't you",
+      "optionB": "aren't you",
+      "optionC": "can you",
+      "optionD": "don't you",
+      "correctOption": "Option A",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q030",
+      "questionText": "Sarah is a student, ___? (Variant 30)",
+      "optionA": "doesn't he/she",
+      "optionB": "is he/she",
+      "optionC": "wasn't he/she",
+      "optionD": "isn't he/she",
+      "correctOption": "Option D",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q031",
+      "questionText": "They play tennis every day, ___? (Variant 31)",
+      "optionA": "haven't they",
+      "optionB": "aren't they",
+      "optionC": "do they",
+      "optionD": "don't they",
+      "correctOption": "Option D",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q032",
+      "questionText": "We have finished the project, ___? (Variant 32)",
+      "optionA": "aren't we",
+      "optionB": "have we",
+      "optionC": "haven't we",
+      "optionD": "don't we",
+      "correctOption": "Option C",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q033",
+      "questionText": "She won't be late, ___? (Variant 33)",
+      "optionA": "will she",
+      "optionB": "won't she",
+      "optionC": "does she",
+      "optionD": "is she",
+      "correctOption": "Option A",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q034",
+      "questionText": "You can speak English, ___? (Variant 34)",
+      "optionA": "don't you",
+      "optionB": "aren't you",
+      "optionC": "can you",
+      "optionD": "can't you",
+      "correctOption": "Option D",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q035",
+      "questionText": "The teacher is a student, ___? (Variant 35)",
+      "optionA": "isn't he/she",
+      "optionB": "doesn't he/she",
+      "optionC": "wasn't he/she",
+      "optionD": "is he/she",
+      "correctOption": "Option A",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q036",
+      "questionText": "They play tennis every day, ___? (Variant 36)",
+      "optionA": "haven't they",
+      "optionB": "do they",
+      "optionC": "aren't they",
+      "optionD": "don't they",
+      "correctOption": "Option D",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q037",
+      "questionText": "We have finished the project, ___? (Variant 37)",
+      "optionA": "have we",
+      "optionB": "don't we",
+      "optionC": "haven't we",
+      "optionD": "aren't we",
+      "correctOption": "Option C",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q038",
+      "questionText": "She won't be late, ___? (Variant 38)",
+      "optionA": "will she",
+      "optionB": "does she",
+      "optionC": "won't she",
+      "optionD": "is she",
+      "correctOption": "Option A",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q039",
+      "questionText": "You can speak English, ___? (Variant 39)",
+      "optionA": "can't you",
+      "optionB": "aren't you",
+      "optionC": "don't you",
+      "optionD": "can you",
+      "correctOption": "Option A",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q040",
+      "questionText": "Mary is a student, ___? (Variant 40)",
+      "optionA": "is he/she",
+      "optionB": "wasn't he/she",
+      "optionC": "isn't he/she",
+      "optionD": "doesn't he/she",
+      "correctOption": "Option C",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q041",
+      "questionText": "They play tennis every day, ___? (Variant 41)",
+      "optionA": "haven't they",
+      "optionB": "aren't they",
+      "optionC": "don't they",
+      "optionD": "do they",
+      "correctOption": "Option C",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q042",
+      "questionText": "We have finished the project, ___? (Variant 42)",
+      "optionA": "haven't we",
+      "optionB": "don't we",
+      "optionC": "have we",
+      "optionD": "aren't we",
+      "correctOption": "Option A",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q043",
+      "questionText": "She won't be late, ___? (Variant 43)",
+      "optionA": "does she",
+      "optionB": "won't she",
+      "optionC": "will she",
+      "optionD": "is she",
+      "correctOption": "Option C",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q044",
+      "questionText": "You can speak English, ___? (Variant 44)",
+      "optionA": "can you",
+      "optionB": "aren't you",
+      "optionC": "can't you",
+      "optionD": "don't you",
+      "correctOption": "Option C",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q045",
+      "questionText": "David is a student, ___? (Variant 45)",
+      "optionA": "isn't he/she",
+      "optionB": "wasn't he/she",
+      "optionC": "doesn't he/she",
+      "optionD": "is he/she",
+      "correctOption": "Option A",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q046",
+      "questionText": "They play tennis every day, ___? (Variant 46)",
+      "optionA": "do they",
+      "optionB": "aren't they",
+      "optionC": "don't they",
+      "optionD": "haven't they",
+      "correctOption": "Option C",
+      "explanation": "'don't they' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q047",
+      "questionText": "We have finished the project, ___? (Variant 47)",
+      "optionA": "aren't we",
+      "optionB": "have we",
+      "optionC": "haven't we",
+      "optionD": "don't we",
+      "correctOption": "Option C",
+      "explanation": "'haven't we' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q048",
+      "questionText": "She won't be late, ___? (Variant 48)",
+      "optionA": "is she",
+      "optionB": "does she",
+      "optionC": "won't she",
+      "optionD": "will she",
+      "correctOption": "Option D",
+      "explanation": "'will she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q049",
+      "questionText": "You can speak English, ___? (Variant 49)",
+      "optionA": "can you",
+      "optionB": "don't you",
+      "optionC": "can't you",
+      "optionD": "aren't you",
+      "correctOption": "Option C",
+      "explanation": "'can't you' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T136-Q050",
+      "questionText": "The teacher is a student, ___? (Variant 50)",
+      "optionA": "isn't he/she",
+      "optionB": "doesn't he/she",
+      "optionC": "is he/she",
+      "optionD": "wasn't he/she",
+      "correctOption": "Option A",
+      "explanation": "'isn't he/she' is the correct choice in standard English grammar."
+    }
+  ]
+}

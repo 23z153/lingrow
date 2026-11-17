@@ -1,0 +1,507 @@
+{
+  "topicId": 113,
+  "topicName": "Plural subjects",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T113-Q001",
+      "questionText": "The students ___ to the store.",
+      "optionA": "go",
+      "optionB": "going",
+      "optionC": "is going",
+      "optionD": "goes",
+      "correctOption": "Option A",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q002",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "like",
+      "optionB": "liking",
+      "optionC": "is liking",
+      "optionD": "likes",
+      "correctOption": "Option A",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q003",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "work",
+      "optionB": "is working",
+      "optionC": "works",
+      "optionD": "working",
+      "correctOption": "Option A",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q004",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meowing",
+      "optionC": "meows",
+      "optionD": "is meowing",
+      "correctOption": "Option A",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q005",
+      "questionText": "The students ___ to the store.",
+      "optionA": "going",
+      "optionB": "goes",
+      "optionC": "is going",
+      "optionD": "go",
+      "correctOption": "Option D",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q006",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "is liking",
+      "optionB": "liking",
+      "optionC": "like",
+      "optionD": "likes",
+      "correctOption": "Option C",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q007",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "works",
+      "optionB": "working",
+      "optionC": "work",
+      "optionD": "is working",
+      "correctOption": "Option C",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q008",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meowing",
+      "optionB": "is meowing",
+      "optionC": "meows",
+      "optionD": "meow",
+      "correctOption": "Option D",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q009",
+      "questionText": "The students ___ to the store.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "is going",
+      "correctOption": "Option A",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q010",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "like",
+      "optionB": "likes",
+      "optionC": "is liking",
+      "optionD": "liking",
+      "correctOption": "Option A",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q011",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "is working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option D",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q012",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meows",
+      "optionB": "meow",
+      "optionC": "is meowing",
+      "optionD": "meowing",
+      "correctOption": "Option B",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q013",
+      "questionText": "The students ___ to the store.",
+      "optionA": "is going",
+      "optionB": "go",
+      "optionC": "going",
+      "optionD": "goes",
+      "correctOption": "Option B",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q014",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "liking",
+      "optionB": "likes",
+      "optionC": "is liking",
+      "optionD": "like",
+      "correctOption": "Option D",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q015",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "works",
+      "optionB": "work",
+      "optionC": "is working",
+      "optionD": "working",
+      "correctOption": "Option B",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q016",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meow",
+      "optionB": "is meowing",
+      "optionC": "meows",
+      "optionD": "meowing",
+      "correctOption": "Option A",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q017",
+      "questionText": "The students ___ to the store.",
+      "optionA": "goes",
+      "optionB": "is going",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option D",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q018",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "is liking",
+      "optionB": "likes",
+      "optionC": "like",
+      "optionD": "liking",
+      "correctOption": "Option C",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q019",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "work",
+      "optionB": "working",
+      "optionC": "is working",
+      "optionD": "works",
+      "correctOption": "Option A",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q020",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meow",
+      "optionB": "is meowing",
+      "optionC": "meows",
+      "optionD": "meowing",
+      "correctOption": "Option A",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q021",
+      "questionText": "The students ___ to the store.",
+      "optionA": "goes",
+      "optionB": "is going",
+      "optionC": "go",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q022",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "liking",
+      "optionB": "like",
+      "optionC": "likes",
+      "optionD": "is liking",
+      "correctOption": "Option B",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q023",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "working",
+      "optionB": "is working",
+      "optionC": "work",
+      "optionD": "works",
+      "correctOption": "Option C",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q024",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meowing",
+      "optionB": "is meowing",
+      "optionC": "meow",
+      "optionD": "meows",
+      "correctOption": "Option C",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q025",
+      "questionText": "The students ___ to the store.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "is going",
+      "optionD": "going",
+      "correctOption": "Option A",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q026",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "liking",
+      "optionB": "like",
+      "optionC": "is liking",
+      "optionD": "likes",
+      "correctOption": "Option B",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q027",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "work",
+      "optionB": "works",
+      "optionC": "working",
+      "optionD": "is working",
+      "correctOption": "Option A",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q028",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meow",
+      "optionB": "is meowing",
+      "optionC": "meowing",
+      "optionD": "meows",
+      "correctOption": "Option A",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q029",
+      "questionText": "The students ___ to the store.",
+      "optionA": "is going",
+      "optionB": "goes",
+      "optionC": "go",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q030",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "liking",
+      "optionB": "is liking",
+      "optionC": "like",
+      "optionD": "likes",
+      "correctOption": "Option C",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q031",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "works",
+      "optionB": "work",
+      "optionC": "is working",
+      "optionD": "working",
+      "correctOption": "Option B",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q032",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meows",
+      "optionC": "is meowing",
+      "optionD": "meowing",
+      "correctOption": "Option A",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q033",
+      "questionText": "The students ___ to the store.",
+      "optionA": "going",
+      "optionB": "is going",
+      "optionC": "goes",
+      "optionD": "go",
+      "correctOption": "Option D",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q034",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "like",
+      "optionB": "liking",
+      "optionC": "likes",
+      "optionD": "is liking",
+      "correctOption": "Option A",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q035",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "working",
+      "optionB": "work",
+      "optionC": "is working",
+      "optionD": "works",
+      "correctOption": "Option B",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q036",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "is meowing",
+      "optionB": "meow",
+      "optionC": "meowing",
+      "optionD": "meows",
+      "correctOption": "Option B",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q037",
+      "questionText": "The students ___ to the store.",
+      "optionA": "go",
+      "optionB": "going",
+      "optionC": "goes",
+      "optionD": "is going",
+      "correctOption": "Option A",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q038",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "is liking",
+      "optionB": "liking",
+      "optionC": "likes",
+      "optionD": "like",
+      "correctOption": "Option D",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q039",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "is working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option D",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q040",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "is meowing",
+      "optionB": "meow",
+      "optionC": "meows",
+      "optionD": "meowing",
+      "correctOption": "Option B",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q041",
+      "questionText": "The students ___ to the store.",
+      "optionA": "goes",
+      "optionB": "is going",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option D",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q042",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "liking",
+      "optionB": "is liking",
+      "optionC": "likes",
+      "optionD": "like",
+      "correctOption": "Option D",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q043",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "work",
+      "optionB": "works",
+      "optionC": "working",
+      "optionD": "is working",
+      "correctOption": "Option A",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q044",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meows",
+      "optionB": "meowing",
+      "optionC": "meow",
+      "optionD": "is meowing",
+      "correctOption": "Option C",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q045",
+      "questionText": "The students ___ to the store.",
+      "optionA": "goes",
+      "optionB": "go",
+      "optionC": "is going",
+      "optionD": "going",
+      "correctOption": "Option B",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q046",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "is liking",
+      "optionB": "liking",
+      "optionC": "likes",
+      "optionD": "like",
+      "correctOption": "Option D",
+      "explanation": "'like' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q047",
+      "questionText": "The machines ___ perfectly.",
+      "optionA": "is working",
+      "optionB": "work",
+      "optionC": "working",
+      "optionD": "works",
+      "correctOption": "Option B",
+      "explanation": "'work' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q048",
+      "questionText": "The cats ___ loudly.",
+      "optionA": "meows",
+      "optionB": "meow",
+      "optionC": "meowing",
+      "optionD": "is meowing",
+      "correctOption": "Option B",
+      "explanation": "'meow' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q049",
+      "questionText": "The students ___ to the store.",
+      "optionA": "going",
+      "optionB": "is going",
+      "optionC": "go",
+      "optionD": "goes",
+      "correctOption": "Option C",
+      "explanation": "'go' is the correct plural form in standard English."
+    },
+    {
+      "questionId": "T113-Q050",
+      "questionText": "Dogs ___ to run outside.",
+      "optionA": "like",
+      "optionB": "liking",
+      "optionC": "is liking",
+      "optionD": "likes",
+      "correctOption": "Option A",
+      "explanation": "'like' is the correct plural form in standard English."
+    }
+  ]
+}

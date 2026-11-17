@@ -1,0 +1,507 @@
+{
+  "topicId": 78,
+  "topicName": "Irregular verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T078-Q001",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q002",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q003",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writed",
+      "optionC": "written",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q004",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q005",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q006",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q007",
+      "questionText": "Choose the correct irregular past tense verb for: The lecture ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "wrote",
+      "optionC": "writed",
+      "optionD": "written",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q008",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q009",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q010",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q011",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q012",
+      "questionText": "Choose the correct irregular past tense verb for: The lecture ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writed",
+      "optionC": "written",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q013",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q014",
+      "questionText": "Choose the correct irregular past tense verb for: The research team ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writes",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q015",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writes",
+      "optionC": "writed",
+      "optionD": "written",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q016",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writes",
+      "optionC": "writed",
+      "optionD": "written",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q017",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writes",
+      "optionC": "written",
+      "optionD": "writed",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q018",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q019",
+      "questionText": "Choose the correct irregular past tense verb for: The research team ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q020",
+      "questionText": "Choose the correct irregular past tense verb for: The lecture ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writes",
+      "optionC": "writed",
+      "optionD": "written",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q021",
+      "questionText": "Choose the correct irregular past tense verb for: The laboratory ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "wrote",
+      "optionC": "writes",
+      "optionD": "written",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q022",
+      "questionText": "Choose the correct irregular past tense verb for: The laboratory ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "wrote",
+      "optionC": "written",
+      "optionD": "writes",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q023",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q024",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writes",
+      "optionC": "wrote",
+      "optionD": "writed",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q025",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "wrote",
+      "optionC": "writes",
+      "optionD": "written",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q026",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q027",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "wrote",
+      "optionC": "written",
+      "optionD": "writed",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q028",
+      "questionText": "Choose the correct irregular past tense verb for: The research team ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writed",
+      "optionC": "written",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q029",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q030",
+      "questionText": "Choose the correct irregular past tense verb for: The campus ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "writes",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q031",
+      "questionText": "Choose the correct irregular past tense verb for: The laboratory ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "written",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q032",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q033",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "writes",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q034",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writed",
+      "optionC": "writes",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q035",
+      "questionText": "Choose the correct irregular past tense verb for: The students ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "writes",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q036",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "written",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q037",
+      "questionText": "Choose the correct irregular past tense verb for: The university ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q038",
+      "questionText": "Choose the correct irregular past tense verb for: The students ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q039",
+      "questionText": "Choose the correct irregular past tense verb for: The lecture ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q040",
+      "questionText": "Choose the correct irregular past tense verb for: The academic paper ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q041",
+      "questionText": "Choose the correct irregular past tense verb for: The research team ___ (write) the thesis.",
+      "optionA": "writes",
+      "optionB": "writed",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q042",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "writes",
+      "optionC": "written",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q043",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "writes",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q044",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "wrote",
+      "optionC": "writes",
+      "optionD": "written",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q045",
+      "questionText": "Choose the correct irregular past tense verb for: The students ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "writes",
+      "optionC": "written",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q046",
+      "questionText": "Choose the correct irregular past tense verb for: The professor ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "wrote",
+      "optionC": "writed",
+      "optionD": "writes",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q047",
+      "questionText": "Choose the correct irregular past tense verb for: The campus ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "writes",
+      "optionC": "writed",
+      "optionD": "written",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q048",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "writed",
+      "optionB": "writes",
+      "optionC": "wrote",
+      "optionD": "written",
+      "correctOption": "Option C",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q049",
+      "questionText": "Choose the correct irregular past tense verb for: The librarian ___ (write) the thesis.",
+      "optionA": "wrote",
+      "optionB": "written",
+      "optionC": "writed",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T078-Q050",
+      "questionText": "Choose the correct irregular past tense verb for: The graduate student ___ (write) the thesis.",
+      "optionA": "written",
+      "optionB": "wrote",
+      "optionC": "writes",
+      "optionD": "writed",
+      "correctOption": "Option B",
+      "explanation": "'wrote' is the correct choice in standard English grammar."
+    }
+  ]
+}

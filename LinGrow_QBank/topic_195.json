@@ -1,0 +1,507 @@
+{
+  "topicId": 195,
+  "topicName": "Gerund",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T195-Q001",
+      "questionText": "Fill in the blank: You enjoys ___ a letter.",
+      "optionA": "to study",
+      "optionB": "study",
+      "optionC": "studys",
+      "optionD": "studying",
+      "correctOption": "Option D",
+      "explanation": "'studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q002",
+      "questionText": "Fill in the blank: He enjoys ___ gracefully.",
+      "optionA": "read",
+      "optionB": "to read",
+      "optionC": "reads",
+      "optionD": "reading",
+      "correctOption": "Option D",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q003",
+      "questionText": "Fill in the blank: She enjoys ___ some food.",
+      "optionA": "speaks",
+      "optionB": "speak",
+      "optionC": "to speak",
+      "optionD": "speaking",
+      "correctOption": "Option D",
+      "explanation": "'speaking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q004",
+      "questionText": "Fill in the blank: It enjoys ___ math.",
+      "optionA": "jumping",
+      "optionB": "jump",
+      "optionC": "jumps",
+      "optionD": "to jump",
+      "correctOption": "Option A",
+      "explanation": "'jumping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q005",
+      "questionText": "Fill in the blank: We enjoys ___ football.",
+      "optionA": "cook",
+      "optionB": "to cook",
+      "optionC": "cooks",
+      "optionD": "cooking",
+      "correctOption": "Option D",
+      "explanation": "'cooking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q006",
+      "questionText": "Fill in the blank: They enjoys ___ high.",
+      "optionA": "drives",
+      "optionB": "drive",
+      "optionC": "to drive",
+      "optionD": "driving",
+      "correctOption": "Option D",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q007",
+      "questionText": "Fill in the blank: The student enjoys ___ in the sky.",
+      "optionA": "buying",
+      "optionB": "buy",
+      "optionC": "to buy",
+      "optionD": "buys",
+      "correctOption": "Option A",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q008",
+      "questionText": "Fill in the blank: The professor enjoys ___ a bridge.",
+      "optionA": "to draw",
+      "optionB": "draw",
+      "optionC": "draws",
+      "optionD": "drawing",
+      "correctOption": "Option D",
+      "explanation": "'drawing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q009",
+      "questionText": "Fill in the blank: The dog enjoys ___ for the exam.",
+      "optionA": "create",
+      "optionB": "to create",
+      "optionC": "creating",
+      "optionD": "creates",
+      "correctOption": "Option C",
+      "explanation": "'creating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q010",
+      "questionText": "Fill in the blank: My friend enjoys ___ fast.",
+      "optionA": "to go",
+      "optionB": "going",
+      "optionC": "go",
+      "optionD": "gos",
+      "correctOption": "Option B",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q011",
+      "questionText": "Fill in the blank: The team enjoys ___ the car.",
+      "optionA": "to study",
+      "optionB": "study",
+      "optionC": "studys",
+      "optionD": "studying",
+      "correctOption": "Option D",
+      "explanation": "'studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q012",
+      "questionText": "Fill in the blank: Someone enjoys ___ a program.",
+      "optionA": "reads",
+      "optionB": "reading",
+      "optionC": "to read",
+      "optionD": "read",
+      "correctOption": "Option B",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q013",
+      "questionText": "Fill in the blank: Nobody enjoys ___ an apple.",
+      "optionA": "speak",
+      "optionB": "speaking",
+      "optionC": "speaks",
+      "optionD": "to speak",
+      "correctOption": "Option B",
+      "explanation": "'speaking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q014",
+      "questionText": "Fill in the blank: Everyone enjoys ___ to music.",
+      "optionA": "to jump",
+      "optionB": "jump",
+      "optionC": "jumps",
+      "optionD": "jumping",
+      "correctOption": "Option D",
+      "explanation": "'jumping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q015",
+      "questionText": "Fill in the blank: The teacher enjoys ___ dinner.",
+      "optionA": "to cook",
+      "optionB": "cook",
+      "optionC": "cooking",
+      "optionD": "cooks",
+      "correctOption": "Option C",
+      "explanation": "'cooking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q016",
+      "questionText": "Fill in the blank: The doctor enjoys ___ the house.",
+      "optionA": "drive",
+      "optionB": "driving",
+      "optionC": "drives",
+      "optionD": "to drive",
+      "correctOption": "Option B",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q017",
+      "questionText": "Fill in the blank: The manager enjoys ___ history.",
+      "optionA": "buy",
+      "optionB": "buying",
+      "optionC": "to buy",
+      "optionD": "buys",
+      "correctOption": "Option B",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q018",
+      "questionText": "Fill in the blank: The child enjoys ___ a book.",
+      "optionA": "to draw",
+      "optionB": "drawing",
+      "optionC": "draws",
+      "optionD": "draw",
+      "correctOption": "Option B",
+      "explanation": "'drawing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q019",
+      "questionText": "Fill in the blank: The workers enjoys ___ a song.",
+      "optionA": "creating",
+      "optionB": "creates",
+      "optionC": "create",
+      "optionD": "to create",
+      "correctOption": "Option A",
+      "explanation": "'creating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q020",
+      "questionText": "Fill in the blank: Alice enjoys ___ a movie.",
+      "optionA": "gos",
+      "optionB": "go",
+      "optionC": "to go",
+      "optionD": "going",
+      "correctOption": "Option D",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q021",
+      "questionText": "Fill in the blank: Bob enjoys ___ a building.",
+      "optionA": "studys",
+      "optionB": "studying",
+      "optionC": "to study",
+      "optionD": "study",
+      "correctOption": "Option B",
+      "explanation": "'studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q022",
+      "questionText": "Fill in the blank: Charlie enjoys ___ at the office.",
+      "optionA": "read",
+      "optionB": "reads",
+      "optionC": "reading",
+      "optionD": "to read",
+      "correctOption": "Option C",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q023",
+      "questionText": "Fill in the blank: David enjoys ___ slowly.",
+      "optionA": "speak",
+      "optionB": "speaks",
+      "optionC": "speaking",
+      "optionD": "to speak",
+      "correctOption": "Option C",
+      "explanation": "'speaking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q024",
+      "questionText": "Fill in the blank: Eve enjoys ___ to Paris.",
+      "optionA": "jump",
+      "optionB": "jumping",
+      "optionC": "jumps",
+      "optionD": "to jump",
+      "correctOption": "Option B",
+      "explanation": "'jumping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q025",
+      "questionText": "Fill in the blank: Frank enjoys ___ a website.",
+      "optionA": "cooks",
+      "optionB": "cooking",
+      "optionC": "to cook",
+      "optionD": "cook",
+      "correctOption": "Option B",
+      "explanation": "'cooking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q026",
+      "questionText": "Fill in the blank: Grace enjoys ___ all night.",
+      "optionA": "to drive",
+      "optionB": "driving",
+      "optionC": "drives",
+      "optionD": "drive",
+      "correctOption": "Option B",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q027",
+      "questionText": "Fill in the blank: Hannah enjoys ___ English.",
+      "optionA": "to buy",
+      "optionB": "buy",
+      "optionC": "buys",
+      "optionD": "buying",
+      "correctOption": "Option D",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q028",
+      "questionText": "Fill in the blank: Ivy enjoys ___ the room.",
+      "optionA": "drawing",
+      "optionB": "draws",
+      "optionC": "draw",
+      "optionD": "to draw",
+      "correctOption": "Option A",
+      "explanation": "'drawing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q029",
+      "questionText": "Fill in the blank: Jack enjoys ___ a picture.",
+      "optionA": "to create",
+      "optionB": "create",
+      "optionC": "creates",
+      "optionD": "creating",
+      "correctOption": "Option D",
+      "explanation": "'creating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q030",
+      "questionText": "Fill in the blank: I enjoys ___ to the park.",
+      "optionA": "gos",
+      "optionB": "to go",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option C",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q031",
+      "questionText": "Fill in the blank: You enjoys ___ a letter.",
+      "optionA": "study",
+      "optionB": "to study",
+      "optionC": "studying",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q032",
+      "questionText": "Fill in the blank: He enjoys ___ gracefully.",
+      "optionA": "reading",
+      "optionB": "read",
+      "optionC": "to read",
+      "optionD": "reads",
+      "correctOption": "Option A",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q033",
+      "questionText": "Fill in the blank: She enjoys ___ some food.",
+      "optionA": "speaks",
+      "optionB": "speaking",
+      "optionC": "to speak",
+      "optionD": "speak",
+      "correctOption": "Option B",
+      "explanation": "'speaking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q034",
+      "questionText": "Fill in the blank: It enjoys ___ math.",
+      "optionA": "to jump",
+      "optionB": "jumps",
+      "optionC": "jumping",
+      "optionD": "jump",
+      "correctOption": "Option C",
+      "explanation": "'jumping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q035",
+      "questionText": "Fill in the blank: We enjoys ___ football.",
+      "optionA": "to cook",
+      "optionB": "cooking",
+      "optionC": "cooks",
+      "optionD": "cook",
+      "correctOption": "Option B",
+      "explanation": "'cooking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q036",
+      "questionText": "Fill in the blank: They enjoys ___ high.",
+      "optionA": "to drive",
+      "optionB": "drive",
+      "optionC": "drives",
+      "optionD": "driving",
+      "correctOption": "Option D",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q037",
+      "questionText": "Fill in the blank: The student enjoys ___ in the sky.",
+      "optionA": "buy",
+      "optionB": "buys",
+      "optionC": "buying",
+      "optionD": "to buy",
+      "correctOption": "Option C",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q038",
+      "questionText": "Fill in the blank: The professor enjoys ___ a bridge.",
+      "optionA": "draws",
+      "optionB": "drawing",
+      "optionC": "to draw",
+      "optionD": "draw",
+      "correctOption": "Option B",
+      "explanation": "'drawing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q039",
+      "questionText": "Fill in the blank: The dog enjoys ___ for the exam.",
+      "optionA": "creates",
+      "optionB": "creating",
+      "optionC": "create",
+      "optionD": "to create",
+      "correctOption": "Option B",
+      "explanation": "'creating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q040",
+      "questionText": "Fill in the blank: My friend enjoys ___ fast.",
+      "optionA": "go",
+      "optionB": "going",
+      "optionC": "gos",
+      "optionD": "to go",
+      "correctOption": "Option B",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q041",
+      "questionText": "Fill in the blank: The team enjoys ___ the car.",
+      "optionA": "studying",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "to study",
+      "correctOption": "Option A",
+      "explanation": "'studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q042",
+      "questionText": "Fill in the blank: Someone enjoys ___ a program.",
+      "optionA": "read",
+      "optionB": "to read",
+      "optionC": "reading",
+      "optionD": "reads",
+      "correctOption": "Option C",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q043",
+      "questionText": "Fill in the blank: Nobody enjoys ___ an apple.",
+      "optionA": "speaks",
+      "optionB": "speak",
+      "optionC": "speaking",
+      "optionD": "to speak",
+      "correctOption": "Option C",
+      "explanation": "'speaking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q044",
+      "questionText": "Fill in the blank: Everyone enjoys ___ to music.",
+      "optionA": "jump",
+      "optionB": "to jump",
+      "optionC": "jumps",
+      "optionD": "jumping",
+      "correctOption": "Option D",
+      "explanation": "'jumping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q045",
+      "questionText": "Fill in the blank: The teacher enjoys ___ dinner.",
+      "optionA": "to cook",
+      "optionB": "cook",
+      "optionC": "cooks",
+      "optionD": "cooking",
+      "correctOption": "Option D",
+      "explanation": "'cooking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q046",
+      "questionText": "Fill in the blank: The doctor enjoys ___ the house.",
+      "optionA": "to drive",
+      "optionB": "drives",
+      "optionC": "drive",
+      "optionD": "driving",
+      "correctOption": "Option D",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q047",
+      "questionText": "Fill in the blank: The manager enjoys ___ history.",
+      "optionA": "buys",
+      "optionB": "buy",
+      "optionC": "buying",
+      "optionD": "to buy",
+      "correctOption": "Option C",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q048",
+      "questionText": "Fill in the blank: The child enjoys ___ a book.",
+      "optionA": "draws",
+      "optionB": "drawing",
+      "optionC": "draw",
+      "optionD": "to draw",
+      "correctOption": "Option B",
+      "explanation": "'drawing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q049",
+      "questionText": "Fill in the blank: The workers enjoys ___ a song.",
+      "optionA": "creating",
+      "optionB": "to create",
+      "optionC": "create",
+      "optionD": "creates",
+      "correctOption": "Option A",
+      "explanation": "'creating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T195-Q050",
+      "questionText": "Fill in the blank: Alice enjoys ___ a movie.",
+      "optionA": "going",
+      "optionB": "to go",
+      "optionC": "gos",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    }
+  ]
+}

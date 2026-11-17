@@ -1,0 +1,507 @@
+{
+  "topicId": 9,
+  "topicName": "Verbs",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T009-Q001",
+      "questionText": "The students ____ in the library right now.",
+      "optionA": "are studying",
+      "optionB": "is studying",
+      "optionC": "studies",
+      "optionD": "studied",
+      "correctOption": "Option A",
+      "explanation": "'are studying' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q002",
+      "questionText": "Professor Smith ____ an interesting lecture yesterday.",
+      "optionA": "gave",
+      "optionB": "gives",
+      "optionC": "is giving",
+      "optionD": "give",
+      "correctOption": "Option A",
+      "explanation": "'gave' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q003",
+      "questionText": "She ____ not like her new schedule.",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'does' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q004",
+      "questionText": "I ____ finishing my biology assignment now.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "do",
+      "correctOption": "Option A",
+      "explanation": "'am' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q005",
+      "questionText": "They ____ reading the textbook for history class.",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "did",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'were' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q006",
+      "questionText": "He ____ an exam tomorrow morning.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'has' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q007",
+      "questionText": "We ____ go to the cafeteria for lunch.",
+      "optionA": "will",
+      "optionB": "is",
+      "optionC": "doing",
+      "optionD": "was",
+      "correctOption": "Option A",
+      "explanation": "'will' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q008",
+      "questionText": "The university ____ new rules every year.",
+      "optionA": "makes",
+      "optionB": "make",
+      "optionC": "making",
+      "optionD": "is make",
+      "correctOption": "Option A",
+      "explanation": "'makes' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q009",
+      "questionText": "The professor ____ written a new book.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "did",
+      "optionD": "was",
+      "correctOption": "Option A",
+      "explanation": "'has' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q010",
+      "questionText": "Many students ____ to join clubs on campus.",
+      "optionA": "want",
+      "optionB": "wants",
+      "optionC": "is wanting",
+      "optionD": "wanting",
+      "correctOption": "Option A",
+      "explanation": "'want' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q011",
+      "questionText": "My roommate ____ sleeping when I arrived.",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q012",
+      "questionText": "The campus bus ____ late today.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "do",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q013",
+      "questionText": "You ____ need to study hard for this test.",
+      "optionA": "will",
+      "optionB": "is",
+      "optionC": "was",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "'will' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q014",
+      "questionText": "The lab ____ important equipment for experiments.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'has' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q015",
+      "questionText": "____ you going to the study group tonight?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Are' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q016",
+      "questionText": "The library ____ not close at midnight.",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'does' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q017",
+      "questionText": "We ____ working on our group project all day yesterday.",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "are",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'were' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q018",
+      "questionText": "My classmates ____ very friendly.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "does",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'are' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q019",
+      "questionText": "I ____ seen that professor before.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "am",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'have' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q020",
+      "questionText": "The lecture ____ interesting.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'was' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q021",
+      "questionText": "She ____ studying computer science.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "do",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q022",
+      "questionText": "They ____ not know the answer to the question.",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'do' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q023",
+      "questionText": "He ____ to the library every evening.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "is go",
+      "correctOption": "Option B",
+      "explanation": "'goes' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q024",
+      "questionText": "The exam ____ difficult.",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "have",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q025",
+      "questionText": "I ____ writing an essay for my English class.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "does",
+      "correctOption": "Option B",
+      "explanation": "'am' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q026",
+      "questionText": "____ he finished his assignment?",
+      "optionA": "Have",
+      "optionB": "Has",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option B",
+      "explanation": "'Has' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q027",
+      "questionText": "The students ____ to the cafeteria.",
+      "optionA": "walking",
+      "optionB": "is walking",
+      "optionC": "are walking",
+      "optionD": "walks",
+      "correctOption": "Option C",
+      "explanation": "'are walking' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q028",
+      "questionText": "She ____ working on her thesis.",
+      "optionA": "were",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q029",
+      "questionText": "We ____ not understand the math problem.",
+      "optionA": "does",
+      "optionB": "is",
+      "optionC": "do",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'do' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q030",
+      "questionText": "The campus ____ very large.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q031",
+      "questionText": "____ they have class tomorrow?",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option C",
+      "explanation": "'Do' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q032",
+      "questionText": "The professor ____ talking to a student.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q033",
+      "questionText": "I ____ a lot of homework tonight.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'have' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q034",
+      "questionText": "They ____ listening to the lecture.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'were' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q035",
+      "questionText": "He ____ a good grade on the test.",
+      "optionA": "getting",
+      "optionB": "get",
+      "optionC": "got",
+      "optionD": "is get",
+      "correctOption": "Option C",
+      "explanation": "'got' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q036",
+      "questionText": "The books ____ on the desk.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "are",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "'are' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q037",
+      "questionText": "____ you finished your project?",
+      "optionA": "Has",
+      "optionB": "Are",
+      "optionC": "Have",
+      "optionD": "Is",
+      "correctOption": "Option C",
+      "explanation": "'Have' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q038",
+      "questionText": "She ____ to graduate next year.",
+      "optionA": "wanting",
+      "optionB": "want",
+      "optionC": "wants",
+      "optionD": "is want",
+      "correctOption": "Option C",
+      "explanation": "'wants' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q039",
+      "questionText": "I ____ tired after the long lecture.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "does",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q040",
+      "questionText": "The university ____ founded in 1990.",
+      "optionA": "were",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q041",
+      "questionText": "____ she like her major?",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q042",
+      "questionText": "We ____ a great time at the campus event.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "is having",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q043",
+      "questionText": "They ____ studying for the final exams.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q044",
+      "questionText": "He ____ not have his student ID.",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "'does' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q045",
+      "questionText": "The dining hall ____ open until 8 PM.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "do",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q046",
+      "questionText": "Many classes ____ online this semester.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q047",
+      "questionText": "I ____ reading a fascinating article for my research.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q048",
+      "questionText": "The advisor ____ helping a student right now.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "does",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q049",
+      "questionText": "____ the students finished their lab report?",
+      "optionA": "Has",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Have",
+      "correctOption": "Option D",
+      "explanation": "'Have' is a verb because it expresses an action or state of being."
+    },
+    {
+      "questionId": "T009-Q050",
+      "questionText": "My friend ____ a new laptop for college.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "are",
+      "optionD": "needs",
+      "correctOption": "Option D",
+      "explanation": "'needs' is a verb because it expresses an action or state of being."
+    }
+  ]
+}

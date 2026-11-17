@@ -1,0 +1,507 @@
+{
+  "topicId": 48,
+  "topicName": "Unique things",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T048-Q001",
+      "questionText": "Look at ___ moon 0! It's so bright today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q002",
+      "questionText": "He spends a lot of time on ___ internet 1.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q003",
+      "questionText": "___ sun 2 rises in the east.",
+      "optionA": "An",
+      "optionB": "The",
+      "optionC": "A",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q004",
+      "questionText": "Who is ___ president 3 of your country?",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q005",
+      "questionText": "We live on ___ planet Earth 4.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q006",
+      "questionText": "Look at ___ moon 5! It's so bright today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q007",
+      "questionText": "He spends a lot of time on ___ internet 6.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q008",
+      "questionText": "___ sun 7 rises in the east.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q009",
+      "questionText": "Who is ___ president 8 of your country?",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q010",
+      "questionText": "We live on ___ planet Earth 9.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q011",
+      "questionText": "Look at ___ moon 10! It's so bright today.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q012",
+      "questionText": "He spends a lot of time on ___ internet 11.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q013",
+      "questionText": "___ sun 12 rises in the east.",
+      "optionA": "The",
+      "optionB": "-",
+      "optionC": "An",
+      "optionD": "A",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q014",
+      "questionText": "Who is ___ president 13 of your country?",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q015",
+      "questionText": "We live on ___ planet Earth 14.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q016",
+      "questionText": "Look at ___ moon 15! It's so bright today.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q017",
+      "questionText": "He spends a lot of time on ___ internet 16.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q018",
+      "questionText": "___ sun 17 rises in the east.",
+      "optionA": "The",
+      "optionB": "-",
+      "optionC": "An",
+      "optionD": "A",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q019",
+      "questionText": "Who is ___ president 18 of your country?",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q020",
+      "questionText": "We live on ___ planet Earth 19.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q021",
+      "questionText": "Look at ___ moon 20! It's so bright today.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q022",
+      "questionText": "He spends a lot of time on ___ internet 21.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q023",
+      "questionText": "___ sun 22 rises in the east.",
+      "optionA": "A",
+      "optionB": "-",
+      "optionC": "The",
+      "optionD": "An",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q024",
+      "questionText": "Who is ___ president 23 of your country?",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q025",
+      "questionText": "We live on ___ planet Earth 24.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q026",
+      "questionText": "Look at ___ moon 25! It's so bright today.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q027",
+      "questionText": "He spends a lot of time on ___ internet 26.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q028",
+      "questionText": "___ sun 27 rises in the east.",
+      "optionA": "-",
+      "optionB": "A",
+      "optionC": "The",
+      "optionD": "An",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q029",
+      "questionText": "Who is ___ president 28 of your country?",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q030",
+      "questionText": "We live on ___ planet Earth 29.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q031",
+      "questionText": "Look at ___ moon 30! It's so bright today.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q032",
+      "questionText": "He spends a lot of time on ___ internet 31.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q033",
+      "questionText": "___ sun 32 rises in the east.",
+      "optionA": "The",
+      "optionB": "An",
+      "optionC": "A",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q034",
+      "questionText": "Who is ___ president 33 of your country?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q035",
+      "questionText": "We live on ___ planet Earth 34.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q036",
+      "questionText": "Look at ___ moon 35! It's so bright today.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q037",
+      "questionText": "He spends a lot of time on ___ internet 36.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q038",
+      "questionText": "___ sun 37 rises in the east.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q039",
+      "questionText": "Who is ___ president 38 of your country?",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q040",
+      "questionText": "We live on ___ planet Earth 39.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q041",
+      "questionText": "Look at ___ moon 40! It's so bright today.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q042",
+      "questionText": "He spends a lot of time on ___ internet 41.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q043",
+      "questionText": "___ sun 42 rises in the east.",
+      "optionA": "An",
+      "optionB": "-",
+      "optionC": "A",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q044",
+      "questionText": "Who is ___ president 43 of your country?",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q045",
+      "questionText": "We live on ___ planet Earth 44.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q046",
+      "questionText": "Look at ___ moon 45! It's so bright today.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q047",
+      "questionText": "He spends a lot of time on ___ internet 46.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q048",
+      "questionText": "___ sun 47 rises in the east.",
+      "optionA": "An",
+      "optionB": "-",
+      "optionC": "The",
+      "optionD": "A",
+      "correctOption": "Option C",
+      "explanation": "'The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q049",
+      "questionText": "Who is ___ president 48 of your country?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T048-Q050",
+      "questionText": "We live on ___ planet Earth 49.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    }
+  ]
+}

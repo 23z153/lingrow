@@ -1,0 +1,507 @@
+{
+  "topicId": 137,
+  "topicName": "Not",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T137-Q001",
+      "questionText": "Complete: I decided ___ to go. (Variant 1)",
+      "optionA": "no",
+      "optionB": "don't",
+      "optionC": "none",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q002",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 2)",
+      "optionA": "never",
+      "optionB": "nothing",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q003",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 3)",
+      "optionA": "She has no money.",
+      "optionB": "She not has money.",
+      "optionC": "She don't have money.",
+      "optionD": "She has not a money.",
+      "correctOption": "Option A",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q004",
+      "questionText": "Complete: I hope ___. (Variant 4)",
+      "optionA": "none",
+      "optionB": "no",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q005",
+      "questionText": "Choose the correct sentence. (Variant 5)",
+      "optionA": "Sarah is not going to the class.",
+      "optionB": "Sarah not is going to the class.",
+      "optionC": "Sarah not going to the class.",
+      "optionD": "Sarah is going not to the class.",
+      "correctOption": "Option A",
+      "explanation": "'Sarah is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q006",
+      "questionText": "Complete: I decided ___ to go. (Variant 6)",
+      "optionA": "none",
+      "optionB": "don't",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q007",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 7)",
+      "optionA": "no",
+      "optionB": "not",
+      "optionC": "never",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q008",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 8)",
+      "optionA": "She not has money.",
+      "optionB": "She has no money.",
+      "optionC": "She has not a money.",
+      "optionD": "She don't have money.",
+      "correctOption": "Option B",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q009",
+      "questionText": "Complete: I hope ___. (Variant 9)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "none",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q010",
+      "questionText": "Choose the correct sentence. (Variant 10)",
+      "optionA": "My friend is not going to the class.",
+      "optionB": "My friend not going to the class.",
+      "optionC": "My friend not is going to the class.",
+      "optionD": "My friend is going not to the class.",
+      "correctOption": "Option A",
+      "explanation": "'My friend is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q011",
+      "questionText": "Complete: I decided ___ to go. (Variant 11)",
+      "optionA": "not",
+      "optionB": "no",
+      "optionC": "don't",
+      "optionD": "none",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q012",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 12)",
+      "optionA": "nothing",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "never",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q013",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 13)",
+      "optionA": "She has no money.",
+      "optionB": "She not has money.",
+      "optionC": "She don't have money.",
+      "optionD": "She has not a money.",
+      "correctOption": "Option A",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q014",
+      "questionText": "Complete: I hope ___. (Variant 14)",
+      "optionA": "none",
+      "optionB": "no",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q015",
+      "questionText": "Choose the correct sentence. (Variant 15)",
+      "optionA": "Sarah is going not to the class.",
+      "optionB": "Sarah is not going to the class.",
+      "optionC": "Sarah not is going to the class.",
+      "optionD": "Sarah not going to the class.",
+      "correctOption": "Option B",
+      "explanation": "'Sarah is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q016",
+      "questionText": "Complete: I decided ___ to go. (Variant 16)",
+      "optionA": "no",
+      "optionB": "not",
+      "optionC": "none",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q017",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 17)",
+      "optionA": "not",
+      "optionB": "nothing",
+      "optionC": "never",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q018",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 18)",
+      "optionA": "She has not a money.",
+      "optionB": "She has no money.",
+      "optionC": "She not has money.",
+      "optionD": "She don't have money.",
+      "correctOption": "Option B",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q019",
+      "questionText": "Complete: I hope ___. (Variant 19)",
+      "optionA": "don't",
+      "optionB": "none",
+      "optionC": "not",
+      "optionD": "no",
+      "correctOption": "Option C",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q020",
+      "questionText": "Choose the correct sentence. (Variant 20)",
+      "optionA": "Mary not going to the class.",
+      "optionB": "Mary not is going to the class.",
+      "optionC": "Mary is going not to the class.",
+      "optionD": "Mary is not going to the class.",
+      "correctOption": "Option D",
+      "explanation": "'Mary is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q021",
+      "questionText": "Complete: I decided ___ to go. (Variant 21)",
+      "optionA": "none",
+      "optionB": "no",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q022",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 22)",
+      "optionA": "nothing",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "never",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q023",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 23)",
+      "optionA": "She don't have money.",
+      "optionB": "She has no money.",
+      "optionC": "She not has money.",
+      "optionD": "She has not a money.",
+      "correctOption": "Option B",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q024",
+      "questionText": "Complete: I hope ___. (Variant 24)",
+      "optionA": "none",
+      "optionB": "don't",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q025",
+      "questionText": "Choose the correct sentence. (Variant 25)",
+      "optionA": "John is going not to the class.",
+      "optionB": "John is not going to the class.",
+      "optionC": "John not going to the class.",
+      "optionD": "John not is going to the class.",
+      "correctOption": "Option B",
+      "explanation": "'John is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q026",
+      "questionText": "Complete: I decided ___ to go. (Variant 26)",
+      "optionA": "none",
+      "optionB": "don't",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q027",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 27)",
+      "optionA": "never",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q028",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 28)",
+      "optionA": "She don't have money.",
+      "optionB": "She has no money.",
+      "optionC": "She not has money.",
+      "optionD": "She has not a money.",
+      "correctOption": "Option B",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q029",
+      "questionText": "Complete: I hope ___. (Variant 29)",
+      "optionA": "no",
+      "optionB": "none",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q030",
+      "questionText": "Choose the correct sentence. (Variant 30)",
+      "optionA": "The teacher not going to the class.",
+      "optionB": "The teacher is going not to the class.",
+      "optionC": "The teacher is not going to the class.",
+      "optionD": "The teacher not is going to the class.",
+      "correctOption": "Option C",
+      "explanation": "'The teacher is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q031",
+      "questionText": "Complete: I decided ___ to go. (Variant 31)",
+      "optionA": "don't",
+      "optionB": "none",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q032",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 32)",
+      "optionA": "not",
+      "optionB": "no",
+      "optionC": "nothing",
+      "optionD": "never",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q033",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 33)",
+      "optionA": "She don't have money.",
+      "optionB": "She not has money.",
+      "optionC": "She has not a money.",
+      "optionD": "She has no money.",
+      "correctOption": "Option D",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q034",
+      "questionText": "Complete: I hope ___. (Variant 34)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "none",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q035",
+      "questionText": "Choose the correct sentence. (Variant 35)",
+      "optionA": "The student is not going to the class.",
+      "optionB": "The student not is going to the class.",
+      "optionC": "The student is going not to the class.",
+      "optionD": "The student not going to the class.",
+      "correctOption": "Option A",
+      "explanation": "'The student is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q036",
+      "questionText": "Complete: I decided ___ to go. (Variant 36)",
+      "optionA": "don't",
+      "optionB": "none",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q037",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 37)",
+      "optionA": "no",
+      "optionB": "nothing",
+      "optionC": "never",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q038",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 38)",
+      "optionA": "She not has money.",
+      "optionB": "She has not a money.",
+      "optionC": "She don't have money.",
+      "optionD": "She has no money.",
+      "correctOption": "Option D",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q039",
+      "questionText": "Complete: I hope ___. (Variant 39)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "none",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q040",
+      "questionText": "Choose the correct sentence. (Variant 40)",
+      "optionA": "David is going not to the class.",
+      "optionB": "David is not going to the class.",
+      "optionC": "David not going to the class.",
+      "optionD": "David not is going to the class.",
+      "correctOption": "Option B",
+      "explanation": "'David is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q041",
+      "questionText": "Complete: I decided ___ to go. (Variant 41)",
+      "optionA": "not",
+      "optionB": "none",
+      "optionC": "don't",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q042",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 42)",
+      "optionA": "nothing",
+      "optionB": "never",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option D",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q043",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 43)",
+      "optionA": "She has no money.",
+      "optionB": "She don't have money.",
+      "optionC": "She not has money.",
+      "optionD": "She has not a money.",
+      "correctOption": "Option A",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q044",
+      "questionText": "Complete: I hope ___. (Variant 44)",
+      "optionA": "don't",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "none",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q045",
+      "questionText": "Choose the correct sentence. (Variant 45)",
+      "optionA": "Anna not going to the class.",
+      "optionB": "Anna is going not to the class.",
+      "optionC": "Anna is not going to the class.",
+      "optionD": "Anna not is going to the class.",
+      "correctOption": "Option C",
+      "explanation": "'Anna is not going to the class' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q046",
+      "questionText": "Complete: I decided ___ to go. (Variant 46)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "no",
+      "optionD": "none",
+      "correctOption": "Option A",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q047",
+      "questionText": "Complete: He was told ___ to touch it. (Variant 47)",
+      "optionA": "never",
+      "optionB": "no",
+      "optionC": "not",
+      "optionD": "nothing",
+      "correctOption": "Option C",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q048",
+      "questionText": "Identify the error: 'She has not money.' (Correct version:) (Variant 48)",
+      "optionA": "She not has money.",
+      "optionB": "She don't have money.",
+      "optionC": "She has not a money.",
+      "optionD": "She has no money.",
+      "correctOption": "Option D",
+      "explanation": "'She has no money' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T137-Q049",
+      "questionText": "Complete: I hope ___. (Variant 49)",
+      "optionA": "no",
+      "optionB": "not",
+      "optionC": "don't",
+      "optionD": "none",
+      "correctOption": "Option B",
+      "explanation": "'not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T137-Q050",
+      "questionText": "Choose the correct sentence. (Variant 50)",
+      "optionA": "David not going to the class.",
+      "optionB": "David not is going to the class.",
+      "optionC": "David is going not to the class.",
+      "optionD": "David is not going to the class.",
+      "correctOption": "Option D",
+      "explanation": "'David is not going to the class' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

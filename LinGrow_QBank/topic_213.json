@@ -1,0 +1,507 @@
+{
+  "topicId": 213,
+  "topicName": "Present passive",
+  "unit": "UNIT 22 — ACTIVE & PASSIVE VOICE",
+  "questions": [
+    {
+      "questionId": "T213-Q001",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 1)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 1)",
+      "optionD": "has analyzed (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q002",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 2)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 2)",
+      "optionD": "has analyzed (Variant 2)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q003",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 3)",
+      "optionB": "will be analyzed (Variant 3)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 3)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q004",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 4)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 4)",
+      "optionD": "has analyzed (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q005",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 5)",
+      "optionB": "will be analyzed (Variant 5)",
+      "optionC": "has analyzed (Variant 5)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q006",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 6)",
+      "optionB": "will be analyzed (Variant 6)",
+      "optionC": "has analyzed (Variant 6)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q007",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 7)",
+      "optionB": "will be analyzed (Variant 7)",
+      "optionC": "has analyzed (Variant 7)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q008",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 8)",
+      "optionB": "will be analyzed (Variant 8)",
+      "optionC": "has analyzed (Variant 8)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q009",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 9)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 9)",
+      "optionD": "has analyzed (Variant 9)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q010",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 10)",
+      "optionB": "will be analyzed (Variant 10)",
+      "optionC": "has analyzed (Variant 10)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q011",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 11)",
+      "optionB": "will be analyzed (Variant 11)",
+      "optionC": "has analyzed (Variant 11)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q012",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 12)",
+      "optionB": "will be analyzed (Variant 12)",
+      "optionC": "has analyzed (Variant 12)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q013",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 13)",
+      "optionC": "will be analyzed (Variant 13)",
+      "optionD": "has analyzed (Variant 13)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q014",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 14)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 14)",
+      "optionD": "has analyzed (Variant 14)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q015",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 15)",
+      "optionB": "will be analyzed (Variant 15)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q016",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 16)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 16)",
+      "optionD": "has analyzed (Variant 16)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q017",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 17)",
+      "optionB": "will be analyzed (Variant 17)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 17)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q018",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 18)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 18)",
+      "optionD": "has analyzed (Variant 18)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q019",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 19)",
+      "optionB": "will be analyzed (Variant 19)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 19)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q020",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 20)",
+      "optionC": "will be analyzed (Variant 20)",
+      "optionD": "has analyzed (Variant 20)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q021",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 21)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 21)",
+      "optionD": "has analyzed (Variant 21)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q022",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 22)",
+      "optionB": "will be analyzed (Variant 22)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 22)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q023",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 23)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 23)",
+      "optionD": "has analyzed (Variant 23)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q024",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 24)",
+      "optionB": "will be analyzed (Variant 24)",
+      "optionC": "has analyzed (Variant 24)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q025",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 25)",
+      "optionC": "will be analyzed (Variant 25)",
+      "optionD": "has analyzed (Variant 25)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q026",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 26)",
+      "optionC": "will be analyzed (Variant 26)",
+      "optionD": "has analyzed (Variant 26)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q027",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 27)",
+      "optionB": "will be analyzed (Variant 27)",
+      "optionC": "has analyzed (Variant 27)",
+      "optionD": "is analyzed",
+      "correctOption": "Option D",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q028",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 28)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 28)",
+      "optionD": "has analyzed (Variant 28)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q029",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 29)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 29)",
+      "optionD": "has analyzed (Variant 29)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q030",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 30)",
+      "optionC": "will be analyzed (Variant 30)",
+      "optionD": "has analyzed (Variant 30)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q031",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 31)",
+      "optionC": "will be analyzed (Variant 31)",
+      "optionD": "has analyzed (Variant 31)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q032",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 32)",
+      "optionC": "will be analyzed (Variant 32)",
+      "optionD": "has analyzed (Variant 32)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q033",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 33)",
+      "optionB": "will be analyzed (Variant 33)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 33)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q034",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 34)",
+      "optionC": "will be analyzed (Variant 34)",
+      "optionD": "has analyzed (Variant 34)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q035",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 35)",
+      "optionB": "will be analyzed (Variant 35)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 35)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q036",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 36)",
+      "optionC": "will be analyzed (Variant 36)",
+      "optionD": "has analyzed (Variant 36)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q037",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 37)",
+      "optionB": "will be analyzed (Variant 37)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 37)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q038",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 38)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 38)",
+      "optionD": "has analyzed (Variant 38)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q039",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 39)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 39)",
+      "optionD": "has analyzed (Variant 39)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q040",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 40)",
+      "optionB": "will be analyzed (Variant 40)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 40)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q041",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 41)",
+      "optionC": "will be analyzed (Variant 41)",
+      "optionD": "has analyzed (Variant 41)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q042",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 42)",
+      "optionB": "will be analyzed (Variant 42)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 42)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q043",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 43)",
+      "optionB": "will be analyzed (Variant 43)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 43)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q044",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 44)",
+      "optionB": "is analyzed",
+      "optionC": "will be analyzed (Variant 44)",
+      "optionD": "has analyzed (Variant 44)",
+      "correctOption": "Option B",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q045",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 45)",
+      "optionC": "will be analyzed (Variant 45)",
+      "optionD": "has analyzed (Variant 45)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q046",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "was analyzed (Variant 46)",
+      "optionB": "will be analyzed (Variant 46)",
+      "optionC": "is analyzed",
+      "optionD": "has analyzed (Variant 46)",
+      "correctOption": "Option C",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q047",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 47)",
+      "optionC": "will be analyzed (Variant 47)",
+      "optionD": "has analyzed (Variant 47)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q048",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 48)",
+      "optionC": "will be analyzed (Variant 48)",
+      "optionD": "has analyzed (Variant 48)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q049",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 49)",
+      "optionC": "will be analyzed (Variant 49)",
+      "optionD": "has analyzed (Variant 49)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T213-Q050",
+      "questionText": "Identify the present passive verb phrase:",
+      "optionA": "is analyzed",
+      "optionB": "was analyzed (Variant 50)",
+      "optionC": "will be analyzed (Variant 50)",
+      "optionD": "has analyzed (Variant 50)",
+      "correctOption": "Option A",
+      "explanation": "'is analyzed' is in passive voice (be + past participle), focusing on the action or object."
+    }
+  ]
+}

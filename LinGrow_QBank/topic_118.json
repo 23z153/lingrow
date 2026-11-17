@@ -1,0 +1,507 @@
+{
+  "topicId": 118,
+  "topicName": "Either/neither",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T118-Q001",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q002",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q003",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "None",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q004",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q005",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q006",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q007",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q008",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q009",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q010",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "None",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q011",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "None",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q012",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q013",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q014",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q015",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q016",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q017",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q018",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q019",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "None",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q020",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q021",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q022",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q023",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q024",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q025",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "None",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q026",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q027",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q028",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q029",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q030",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q031",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q032",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q033",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q034",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q035",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q036",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "None",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q037",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q038",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q039",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "None",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q040",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Either",
+      "optionB": "None",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q041",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "None",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q042",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q043",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "None",
+      "optionD": "Both",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q044",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "None",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q045",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q046",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q047",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "Neither",
+      "optionB": "None",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option C",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q048",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "None",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option D",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q049",
+      "questionText": "______ John nor Mary will be fine.",
+      "optionA": "None",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T118-Q050",
+      "questionText": "______ tea or coffee will be fine.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "None",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Either' is the correct choice in standard English grammar."
+    }
+  ]
+}

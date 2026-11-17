@@ -1,0 +1,507 @@
+{
+  "topicId": 152,
+  "topicName": "Inside/outside",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T152-Q001",
+      "questionText": "The children are playing ___ in the garden. (1)",
+      "optionA": "out",
+      "optionB": "outside",
+      "optionC": "inside",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q002",
+      "questionText": "It's raining, let's go ___. (2)",
+      "optionA": "into",
+      "optionB": "outside",
+      "optionC": "inside",
+      "optionD": "onto",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q003",
+      "questionText": "It's raining, let's go ___. (3)",
+      "optionA": "outside",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q004",
+      "questionText": "It's raining, let's go ___. (4)",
+      "optionA": "inside",
+      "optionB": "outside",
+      "optionC": "onto",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q005",
+      "questionText": "The children are playing ___ in the garden. (5)",
+      "optionA": "over",
+      "optionB": "outside",
+      "optionC": "inside",
+      "optionD": "out",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q006",
+      "questionText": "The children are playing ___ in the garden. (6)",
+      "optionA": "over",
+      "optionB": "inside",
+      "optionC": "outside",
+      "optionD": "out",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q007",
+      "questionText": "The children are playing ___ in the garden. (7)",
+      "optionA": "out",
+      "optionB": "over",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option D",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q008",
+      "questionText": "It's raining, let's go ___. (8)",
+      "optionA": "inside",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "outside",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q009",
+      "questionText": "It's raining, let's go ___. (9)",
+      "optionA": "onto",
+      "optionB": "inside",
+      "optionC": "outside",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q010",
+      "questionText": "The children are playing ___ in the garden. (10)",
+      "optionA": "out",
+      "optionB": "inside",
+      "optionC": "outside",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q011",
+      "questionText": "The children are playing ___ in the garden. (11)",
+      "optionA": "over",
+      "optionB": "inside",
+      "optionC": "out",
+      "optionD": "outside",
+      "correctOption": "Option D",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q012",
+      "questionText": "The children are playing ___ in the garden. (12)",
+      "optionA": "outside",
+      "optionB": "inside",
+      "optionC": "out",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q013",
+      "questionText": "The children are playing ___ in the garden. (13)",
+      "optionA": "over",
+      "optionB": "outside",
+      "optionC": "out",
+      "optionD": "inside",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q014",
+      "questionText": "It's raining, let's go ___. (14)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q015",
+      "questionText": "The children are playing ___ in the garden. (15)",
+      "optionA": "over",
+      "optionB": "out",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option D",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q016",
+      "questionText": "It's raining, let's go ___. (16)",
+      "optionA": "inside",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "outside",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q017",
+      "questionText": "It's raining, let's go ___. (17)",
+      "optionA": "outside",
+      "optionB": "inside",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option B",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q018",
+      "questionText": "It's raining, let's go ___. (18)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q019",
+      "questionText": "It's raining, let's go ___. (19)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q020",
+      "questionText": "The children are playing ___ in the garden. (20)",
+      "optionA": "outside",
+      "optionB": "inside",
+      "optionC": "out",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q021",
+      "questionText": "It's raining, let's go ___. (21)",
+      "optionA": "into",
+      "optionB": "inside",
+      "optionC": "onto",
+      "optionD": "outside",
+      "correctOption": "Option B",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q022",
+      "questionText": "The children are playing ___ in the garden. (22)",
+      "optionA": "out",
+      "optionB": "over",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q023",
+      "questionText": "The children are playing ___ in the garden. (23)",
+      "optionA": "out",
+      "optionB": "over",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option D",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q024",
+      "questionText": "The children are playing ___ in the garden. (24)",
+      "optionA": "outside",
+      "optionB": "inside",
+      "optionC": "out",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q025",
+      "questionText": "The children are playing ___ in the garden. (25)",
+      "optionA": "out",
+      "optionB": "outside",
+      "optionC": "over",
+      "optionD": "inside",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q026",
+      "questionText": "The children are playing ___ in the garden. (26)",
+      "optionA": "over",
+      "optionB": "inside",
+      "optionC": "outside",
+      "optionD": "out",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q027",
+      "questionText": "It's raining, let's go ___. (27)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q028",
+      "questionText": "It's raining, let's go ___. (28)",
+      "optionA": "inside",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "onto",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q029",
+      "questionText": "The children are playing ___ in the garden. (29)",
+      "optionA": "out",
+      "optionB": "outside",
+      "optionC": "inside",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q030",
+      "questionText": "It's raining, let's go ___. (30)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q031",
+      "questionText": "It's raining, let's go ___. (31)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q032",
+      "questionText": "It's raining, let's go ___. (32)",
+      "optionA": "inside",
+      "optionB": "onto",
+      "optionC": "outside",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q033",
+      "questionText": "It's raining, let's go ___. (33)",
+      "optionA": "onto",
+      "optionB": "inside",
+      "optionC": "outside",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q034",
+      "questionText": "The children are playing ___ in the garden. (34)",
+      "optionA": "inside",
+      "optionB": "out",
+      "optionC": "outside",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q035",
+      "questionText": "It's raining, let's go ___. (35)",
+      "optionA": "onto",
+      "optionB": "outside",
+      "optionC": "into",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q036",
+      "questionText": "It's raining, let's go ___. (36)",
+      "optionA": "inside",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "outside",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q037",
+      "questionText": "The children are playing ___ in the garden. (37)",
+      "optionA": "inside",
+      "optionB": "outside",
+      "optionC": "out",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q038",
+      "questionText": "The children are playing ___ in the garden. (38)",
+      "optionA": "over",
+      "optionB": "out",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q039",
+      "questionText": "It's raining, let's go ___. (39)",
+      "optionA": "onto",
+      "optionB": "outside",
+      "optionC": "into",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q040",
+      "questionText": "The children are playing ___ in the garden. (40)",
+      "optionA": "outside",
+      "optionB": "over",
+      "optionC": "inside",
+      "optionD": "out",
+      "correctOption": "Option A",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q041",
+      "questionText": "The children are playing ___ in the garden. (41)",
+      "optionA": "over",
+      "optionB": "outside",
+      "optionC": "out",
+      "optionD": "inside",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q042",
+      "questionText": "It's raining, let's go ___. (42)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q043",
+      "questionText": "It's raining, let's go ___. (43)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q044",
+      "questionText": "It's raining, let's go ___. (44)",
+      "optionA": "inside",
+      "optionB": "into",
+      "optionC": "outside",
+      "optionD": "onto",
+      "correctOption": "Option A",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q045",
+      "questionText": "The children are playing ___ in the garden. (45)",
+      "optionA": "inside",
+      "optionB": "outside",
+      "optionC": "out",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q046",
+      "questionText": "It's raining, let's go ___. (46)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "inside",
+      "optionD": "outside",
+      "correctOption": "Option C",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q047",
+      "questionText": "It's raining, let's go ___. (47)",
+      "optionA": "outside",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "inside",
+      "correctOption": "Option D",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q048",
+      "questionText": "The children are playing ___ in the garden. (48)",
+      "optionA": "outside",
+      "optionB": "inside",
+      "optionC": "over",
+      "optionD": "out",
+      "correctOption": "Option A",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q049",
+      "questionText": "It's raining, let's go ___. (49)",
+      "optionA": "onto",
+      "optionB": "inside",
+      "optionC": "into",
+      "optionD": "outside",
+      "correctOption": "Option B",
+      "explanation": "'inside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T152-Q050",
+      "questionText": "The children are playing ___ in the garden. (50)",
+      "optionA": "inside",
+      "optionB": "out",
+      "optionC": "outside",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'outside' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "topicId": 5,
+  "topicName": "Complement",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T005-Q001",
+      "questionText": "The new biology textbook is _____.",
+      "optionA": "expensive",
+      "optionB": "expensively",
+      "optionC": "expense",
+      "optionD": "an expensive",
+      "correctOption": "Option A",
+      "explanation": "'expensive' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q002",
+      "questionText": "The students find the new software _____.",
+      "optionA": "useful",
+      "optionB": "usefully",
+      "optionC": "usefulness",
+      "optionD": "a useful",
+      "correctOption": "Option A",
+      "explanation": "'useful' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q003",
+      "questionText": "The dean declared the meeting _____.",
+      "optionA": "open",
+      "optionB": "openly",
+      "optionC": "openness",
+      "optionD": "an open",
+      "correctOption": "Option A",
+      "explanation": "'open' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q004",
+      "questionText": "My favorite class this semester is _____.",
+      "optionA": "chemistry",
+      "optionB": "chemical",
+      "optionC": "chemist",
+      "optionD": "chemically",
+      "correctOption": "Option A",
+      "explanation": "'chemistry' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q005",
+      "questionText": "The scholarship made her _____.",
+      "optionA": "very happy",
+      "optionB": "very happily",
+      "optionC": "very happiness",
+      "optionD": "a very happy",
+      "correctOption": "Option A",
+      "explanation": "'very happy' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q006",
+      "questionText": "The dormitory room appeared _____.",
+      "optionA": "clean",
+      "optionB": "cleanly",
+      "optionC": "cleanness",
+      "optionD": "a clean",
+      "correctOption": "Option A",
+      "explanation": "'clean' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q007",
+      "questionText": "We call our study group _____.",
+      "optionA": "The Thinkers",
+      "optionB": "The Thinking",
+      "optionC": "The Think",
+      "optionD": "Thinkersly",
+      "correctOption": "Option A",
+      "explanation": "'The Thinkers' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q008",
+      "questionText": "The online course turned out _____.",
+      "optionA": "great",
+      "optionB": "greatly",
+      "optionC": "greatness",
+      "optionD": "a great",
+      "correctOption": "Option A",
+      "explanation": "'great' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q009",
+      "questionText": "The math problem left me _____.",
+      "optionA": "confused",
+      "optionB": "confusedly",
+      "optionC": "confusion",
+      "optionD": "a confused",
+      "correctOption": "Option A",
+      "explanation": "'confused' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q010",
+      "questionText": "The university named the building _____.",
+      "optionA": "Smith Hall",
+      "optionB": "Smith Halled",
+      "optionC": "Smith Halling",
+      "optionD": "Smith Hall's",
+      "correctOption": "Option A",
+      "explanation": "'Smith Hall' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q011",
+      "questionText": "The professor's voice sounds _____.",
+      "optionA": "calm",
+      "optionB": "calmly",
+      "optionC": "calmness",
+      "optionD": "a calm",
+      "correctOption": "Option A",
+      "explanation": "'calm' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q012",
+      "questionText": "He considers the assignment _____.",
+      "optionA": "a challenge",
+      "optionB": "a challengingly",
+      "optionC": "challengingly",
+      "optionD": "challenge",
+      "correctOption": "Option A",
+      "explanation": "'a challenge' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q013",
+      "questionText": "The weather became _____ during the field trip.",
+      "optionA": "rainily",
+      "optionB": "rainy",
+      "optionC": "rain",
+      "optionD": "a rain",
+      "correctOption": "Option B",
+      "explanation": "'rainy' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q014",
+      "questionText": "The students painted the club room _____.",
+      "optionA": "whitely",
+      "optionB": "white",
+      "optionC": "whiteness",
+      "optionD": "a white",
+      "correctOption": "Option B",
+      "explanation": "'white' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q015",
+      "questionText": "Her presentation was _____.",
+      "optionA": "a successfully",
+      "optionB": "a success",
+      "optionC": "successfully",
+      "optionD": "successes",
+      "correctOption": "Option B",
+      "explanation": "'a success' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q016",
+      "questionText": "The graduation ceremony felt _____.",
+      "optionA": "specially",
+      "optionB": "special",
+      "optionC": "specialness",
+      "optionD": "a special",
+      "correctOption": "Option B",
+      "explanation": "'special' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q017",
+      "questionText": "The academic advisor kept the door _____.",
+      "optionA": "unlocking",
+      "optionB": "unlocked",
+      "optionC": "unlockedly",
+      "optionD": "an unlock",
+      "correctOption": "Option B",
+      "explanation": "'unlocked' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q018",
+      "questionText": "They elected him _____ of the science club.",
+      "optionA": "treasury",
+      "optionB": "treasurer",
+      "optionC": "treasured",
+      "optionD": "treasuring",
+      "correctOption": "Option B",
+      "explanation": "'treasurer' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q019",
+      "questionText": "The soup in the dining hall tastes _____.",
+      "optionA": "saltily",
+      "optionB": "salty",
+      "optionC": "salt",
+      "optionD": "a salt",
+      "correctOption": "Option B",
+      "explanation": "'salty' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q020",
+      "questionText": "The exam results made everyone _____.",
+      "optionA": "excitedly",
+      "optionB": "excited",
+      "optionC": "excitement",
+      "optionD": "an excited",
+      "correctOption": "Option B",
+      "explanation": "'excited' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q021",
+      "questionText": "My roommate is _____.",
+      "optionA": "a musically",
+      "optionB": "a musician",
+      "optionC": "musically",
+      "optionD": "music",
+      "correctOption": "Option B",
+      "explanation": "'a musician' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q022",
+      "questionText": "The campus looks _____ in the spring.",
+      "optionA": "beautifully",
+      "optionB": "beautiful",
+      "optionC": "beauty",
+      "optionD": "a beauty",
+      "correctOption": "Option B",
+      "explanation": "'beautiful' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q023",
+      "questionText": "The professor considers plagiarism _____.",
+      "optionA": "unacceptably",
+      "optionB": "unacceptable",
+      "optionC": "unacceptability",
+      "optionD": "an unacceptable",
+      "correctOption": "Option B",
+      "explanation": "'unacceptable' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q024",
+      "questionText": "The students left the classroom _____.",
+      "optionA": "messily",
+      "optionB": "messy",
+      "optionC": "messiness",
+      "optionD": "a messy",
+      "correctOption": "Option B",
+      "explanation": "'messy' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q025",
+      "questionText": "His excuse sounded _____.",
+      "optionA": "fakely",
+      "optionB": "fake",
+      "optionC": "fakeness",
+      "optionD": "a fake",
+      "correctOption": "Option B",
+      "explanation": "'fake' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q026",
+      "questionText": "We found the documentary _____.",
+      "optionA": "informatively",
+      "optionB": "information",
+      "optionC": "informative",
+      "optionD": "an informative",
+      "correctOption": "Option C",
+      "explanation": "'informative' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q027",
+      "questionText": "The new policy proved _____.",
+      "optionA": "unpopularly",
+      "optionB": "unpopularity",
+      "optionC": "unpopular",
+      "optionD": "an unpopular",
+      "correctOption": "Option C",
+      "explanation": "'unpopular' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q028",
+      "questionText": "The committee appointed her _____.",
+      "optionA": "chairing",
+      "optionB": "chaired",
+      "optionC": "chairperson",
+      "optionD": "a chairing",
+      "correctOption": "Option C",
+      "explanation": "'chairperson' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q029",
+      "questionText": "The milk in the fridge went _____.",
+      "optionA": "sourly",
+      "optionB": "sourness",
+      "optionC": "sour",
+      "optionD": "a sour",
+      "correctOption": "Option C",
+      "explanation": "'sour' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q030",
+      "questionText": "The long walk made me _____.",
+      "optionA": "tiredly",
+      "optionB": "tiredness",
+      "optionC": "tired",
+      "optionD": "a tired",
+      "correctOption": "Option C",
+      "explanation": "'tired' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q031",
+      "questionText": "The book is _____.",
+      "optionA": "a masterfully",
+      "optionB": "masterfully",
+      "optionC": "a masterpiece",
+      "optionD": "masterpieces",
+      "correctOption": "Option C",
+      "explanation": "'a masterpiece' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q032",
+      "questionText": "The music from the dorm next door is _____.",
+      "optionA": "loudly",
+      "optionB": "loudness",
+      "optionC": "loud",
+      "optionD": "a loud",
+      "correctOption": "Option C",
+      "explanation": "'loud' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q033",
+      "questionText": "The students consider him _____.",
+      "optionA": "a geniusly",
+      "optionB": "geniusly",
+      "optionC": "a genius",
+      "optionD": "the geniuses",
+      "correctOption": "Option C",
+      "explanation": "'a genius' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q034",
+      "questionText": "The extra studying kept her _____ for the test.",
+      "optionA": "preparedly",
+      "optionB": "preparation",
+      "optionC": "prepared",
+      "optionD": "a prepare",
+      "correctOption": "Option C",
+      "explanation": "'prepared' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q035",
+      "questionText": "The new rules seem _____.",
+      "optionA": "strictly",
+      "optionB": "strictness",
+      "optionC": "strict",
+      "optionD": "a strict",
+      "correctOption": "Option C",
+      "explanation": "'strict' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q036",
+      "questionText": "They painted the student lounge _____.",
+      "optionA": "greenly",
+      "optionB": "greenness",
+      "optionC": "green",
+      "optionD": "a green",
+      "correctOption": "Option C",
+      "explanation": "'green' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q037",
+      "questionText": "Her answer was _____.",
+      "optionA": "correctly",
+      "optionB": "correctness",
+      "optionC": "correct",
+      "optionD": "a correct",
+      "correctOption": "Option C",
+      "explanation": "'correct' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q038",
+      "questionText": "The lecture on Shakespeare proved _____.",
+      "optionA": "fascinatingly",
+      "optionB": "fascination",
+      "optionC": "a fascinating",
+      "optionD": "fascinating",
+      "correctOption": "Option D",
+      "explanation": "'fascinating' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q039",
+      "questionText": "We elected John _____ of the study group.",
+      "optionA": "leadership",
+      "optionB": "leading",
+      "optionC": "to lead",
+      "optionD": "leader",
+      "correctOption": "Option D",
+      "explanation": "'leader' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q040",
+      "questionText": "The fresh air felt _____ after class.",
+      "optionA": "refreshingly",
+      "optionB": "refresh",
+      "optionC": "a refreshing",
+      "optionD": "refreshing",
+      "correctOption": "Option D",
+      "explanation": "'refreshing' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q041",
+      "questionText": "The assignment made the students _____.",
+      "optionA": "frustratedly",
+      "optionB": "frustration",
+      "optionC": "a frustrated",
+      "optionD": "frustrated",
+      "correctOption": "Option D",
+      "explanation": "'frustrated' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q042",
+      "questionText": "The campus remains _____ at night.",
+      "optionA": "safely",
+      "optionB": "safety",
+      "optionC": "a safe",
+      "optionD": "safe",
+      "correctOption": "Option D",
+      "explanation": "'safe' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q043",
+      "questionText": "They call the old building _____.",
+      "optionA": "The Ghostly Towering",
+      "optionB": "The Ghost Towerly",
+      "optionC": "Ghostly Tower",
+      "optionD": "The Ghost Tower",
+      "correctOption": "Option D",
+      "explanation": "'The Ghost Tower' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q044",
+      "questionText": "The coffee tasted _____.",
+      "optionA": "bitterly",
+      "optionB": "bitterness",
+      "optionC": "a bitter",
+      "optionD": "bitter",
+      "correctOption": "Option D",
+      "explanation": "'bitter' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q045",
+      "questionText": "She found the exam _____.",
+      "optionA": "easily",
+      "optionB": "easiness",
+      "optionC": "an easy",
+      "optionD": "easy",
+      "correctOption": "Option D",
+      "explanation": "'easy' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q046",
+      "questionText": "The university president is _____.",
+      "optionA": "a scholarly",
+      "optionB": "scholarship",
+      "optionC": "scholars",
+      "optionD": "a scholar",
+      "correctOption": "Option D",
+      "explanation": "'a scholar' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q047",
+      "questionText": "The students kept the library _____.",
+      "optionA": "quietly",
+      "optionB": "quietness",
+      "optionC": "a quiet",
+      "optionD": "quiet",
+      "correctOption": "Option D",
+      "explanation": "'quiet' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q048",
+      "questionText": "The presentation seemed _____.",
+      "optionA": "endlessly",
+      "optionB": "endlessness",
+      "optionC": "an endless",
+      "optionD": "endless",
+      "correctOption": "Option D",
+      "explanation": "'endless' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q049",
+      "questionText": "We consider the project _____.",
+      "optionA": "a failingly",
+      "optionB": "failingly",
+      "optionC": "to failing",
+      "optionD": "a failure",
+      "correctOption": "Option D",
+      "explanation": "'a failure' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T005-Q050",
+      "questionText": "The room got _____ during the movie.",
+      "optionA": "darkly",
+      "optionB": "darkness",
+      "optionC": "a dark",
+      "optionD": "dark",
+      "correctOption": "Option D",
+      "explanation": "'dark' is a complement because it completes the meaning of the subject or verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

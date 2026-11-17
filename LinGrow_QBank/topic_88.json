@@ -1,0 +1,507 @@
+{
+  "topicId": 88,
+  "topicName": "Auxiliaries in negatives",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T088-Q001",
+      "questionText": "You _____ watch TV. (1)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q002",
+      "questionText": "I _____ work hard. (2)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q003",
+      "questionText": "John _____ sleep well. (3)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q004",
+      "questionText": "You _____ write a letter. (4)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q005",
+      "questionText": "You _____ work hard. (5)",
+      "optionA": "isn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q006",
+      "questionText": "You _____ sleep well. (6)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q007",
+      "questionText": "The students _____ read a book. (7)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q008",
+      "questionText": "They _____ read a book. (8)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q009",
+      "questionText": "The students _____ sleep well. (9)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q010",
+      "questionText": "He _____ go to the park. (10)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q011",
+      "questionText": "It _____ go to the park. (11)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q012",
+      "questionText": "He _____ eat an apple. (12)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q013",
+      "questionText": "We _____ eat an apple. (13)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q014",
+      "questionText": "They _____ work hard. (14)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q015",
+      "questionText": "We _____ sleep well. (15)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q016",
+      "questionText": "You _____ listen to music. (16)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q017",
+      "questionText": "They _____ go to the park. (17)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q018",
+      "questionText": "Mary _____ sleep well. (18)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q019",
+      "questionText": "Mary _____ sleep well. (19)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q020",
+      "questionText": "You _____ sleep well. (20)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q021",
+      "questionText": "The teacher _____ play tennis. (21)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q022",
+      "questionText": "She _____ watch TV. (22)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q023",
+      "questionText": "The teacher _____ eat an apple. (23)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q024",
+      "questionText": "It _____ work hard. (24)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q025",
+      "questionText": "They _____ write a letter. (25)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q026",
+      "questionText": "He _____ sleep well. (26)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q027",
+      "questionText": "We _____ read a book. (27)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q028",
+      "questionText": "He _____ read a book. (28)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q029",
+      "questionText": "They _____ go to the park. (29)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q030",
+      "questionText": "He _____ write a letter. (30)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q031",
+      "questionText": "We _____ read a book. (31)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q032",
+      "questionText": "He _____ watch TV. (32)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q033",
+      "questionText": "They _____ play tennis. (33)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q034",
+      "questionText": "Mary _____ work hard. (34)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q035",
+      "questionText": "The teacher _____ go to the park. (35)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q036",
+      "questionText": "The teacher _____ work hard. (36)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q037",
+      "questionText": "She _____ read a book. (37)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q038",
+      "questionText": "You _____ listen to music. (38)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q039",
+      "questionText": "I _____ write a letter. (39)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q040",
+      "questionText": "She _____ watch TV. (40)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q041",
+      "questionText": "She _____ read a book. (41)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q042",
+      "questionText": "Mary _____ watch TV. (42)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q043",
+      "questionText": "She _____ listen to music. (43)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q044",
+      "questionText": "We _____ listen to music. (44)",
+      "optionA": "doesn't",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q045",
+      "questionText": "The teacher _____ go to the park. (45)",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q046",
+      "questionText": "Mary _____ write a letter. (46)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q047",
+      "questionText": "She _____ sleep well. (47)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q048",
+      "questionText": "I _____ work hard. (48)",
+      "optionA": "don't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q049",
+      "questionText": "The students _____ write a letter. (49)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T088-Q050",
+      "questionText": "You _____ read a book. (50)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    }
+  ]
+}

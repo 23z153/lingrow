@@ -1,0 +1,507 @@
+{
+  "topicId": 242,
+  "topicName": "Pronoun errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T242-Q001",
+      "questionText": "Which sentence uses pronouns correctly? (Question 1)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Everyone must bring their own lunch.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option B",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q002",
+      "questionText": "Which sentence uses pronouns correctly? (Question 2)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q003",
+      "questionText": "Which sentence uses pronouns correctly? (Question 3)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "The book is mines.",
+      "optionD": "She and I went to the store.",
+      "correctOption": "Option D",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q004",
+      "questionText": "Which sentence uses pronouns correctly? (Question 4)",
+      "optionA": "She and I went to the store.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q005",
+      "questionText": "Which sentence uses pronouns correctly? (Question 5)",
+      "optionA": "Me and her went to the store.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q006",
+      "questionText": "Which sentence uses pronouns correctly? (Question 6)",
+      "optionA": "The book is mines.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "The book is mines.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q007",
+      "questionText": "Which sentence uses pronouns correctly? (Question 7)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "She and I went to the store.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q008",
+      "questionText": "Which sentence uses pronouns correctly? (Question 8)",
+      "optionA": "She and I went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "The book is mines.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q009",
+      "questionText": "Which sentence uses pronouns correctly? (Question 9)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Everyone must bring their own lunch.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q010",
+      "questionText": "Which sentence uses pronouns correctly? (Question 10)",
+      "optionA": "The book is mines.",
+      "optionB": "Everyone must bring their own lunch.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option B",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q011",
+      "questionText": "Which sentence uses pronouns correctly? (Question 11)",
+      "optionA": "She and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mines.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option A",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q012",
+      "questionText": "Which sentence uses pronouns correctly? (Question 12)",
+      "optionA": "The book is mines.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "The book is mines.",
+      "optionD": "The book is mine.",
+      "correctOption": "Option D",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q013",
+      "questionText": "Which sentence uses pronouns correctly? (Question 13)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "She and I went to the store.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q014",
+      "questionText": "Which sentence uses pronouns correctly? (Question 14)",
+      "optionA": "The book is mines.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "She and I went to the store.",
+      "correctOption": "Option D",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q015",
+      "questionText": "Which sentence uses pronouns correctly? (Question 15)",
+      "optionA": "Me and her went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mine.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q016",
+      "questionText": "Which sentence uses pronouns correctly? (Question 16)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "She and I went to the store.",
+      "optionC": "The book is mines.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option B",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q017",
+      "questionText": "Which sentence uses pronouns correctly? (Question 17)",
+      "optionA": "Me and her went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "She and I went to the store.",
+      "correctOption": "Option D",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q018",
+      "questionText": "Which sentence uses pronouns correctly? (Question 18)",
+      "optionA": "Everyone must bring their own lunch.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option A",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q019",
+      "questionText": "Which sentence uses pronouns correctly? (Question 19)",
+      "optionA": "The book is mine.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q020",
+      "questionText": "Which sentence uses pronouns correctly? (Question 20)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Everyone must bring their own lunch.",
+      "optionC": "The book is mines.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option B",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q021",
+      "questionText": "Which sentence uses pronouns correctly? (Question 21)",
+      "optionA": "Everyone must bring their own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q022",
+      "questionText": "Which sentence uses pronouns correctly? (Question 22)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mine.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q023",
+      "questionText": "Which sentence uses pronouns correctly? (Question 23)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mines.",
+      "optionD": "She and I went to the store.",
+      "correctOption": "Option D",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q024",
+      "questionText": "Which sentence uses pronouns correctly? (Question 24)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "She and I went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option B",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q025",
+      "questionText": "Which sentence uses pronouns correctly? (Question 25)",
+      "optionA": "The book is mines.",
+      "optionB": "She and I went to the store.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option B",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q026",
+      "questionText": "Which sentence uses pronouns correctly? (Question 26)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mines.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q027",
+      "questionText": "Which sentence uses pronouns correctly? (Question 27)",
+      "optionA": "Everyone must bring their own lunch.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option A",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q028",
+      "questionText": "Which sentence uses pronouns correctly? (Question 28)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Everyone must bring their own lunch.",
+      "optionC": "The book is mines.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option B",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q029",
+      "questionText": "Which sentence uses pronouns correctly? (Question 29)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "The book is mine.",
+      "optionC": "The book is mines.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option B",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q030",
+      "questionText": "Which sentence uses pronouns correctly? (Question 30)",
+      "optionA": "The book is mine.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option A",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q031",
+      "questionText": "Which sentence uses pronouns correctly? (Question 31)",
+      "optionA": "The book is mines.",
+      "optionB": "The book is mines.",
+      "optionC": "She and I went to the store.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q032",
+      "questionText": "Which sentence uses pronouns correctly? (Question 32)",
+      "optionA": "The book is mines.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "The book is mine.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q033",
+      "questionText": "Which sentence uses pronouns correctly? (Question 33)",
+      "optionA": "Everyone must bring their own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q034",
+      "questionText": "Which sentence uses pronouns correctly? (Question 34)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "The book is mines.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q035",
+      "questionText": "Which sentence uses pronouns correctly? (Question 35)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "She and I went to the store.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option C",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q036",
+      "questionText": "Which sentence uses pronouns correctly? (Question 36)",
+      "optionA": "The book is mines.",
+      "optionB": "The book is mine.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option B",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q037",
+      "questionText": "Which sentence uses pronouns correctly? (Question 37)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "She and I went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option B",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q038",
+      "questionText": "Which sentence uses pronouns correctly? (Question 38)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "The book is mines.",
+      "optionD": "The book is mine.",
+      "correctOption": "Option D",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q039",
+      "questionText": "Which sentence uses pronouns correctly? (Question 39)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "Everyone must bring their own lunch.",
+      "correctOption": "Option D",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q040",
+      "questionText": "Which sentence uses pronouns correctly? (Question 40)",
+      "optionA": "The book is mine.",
+      "optionB": "The book is mines.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q041",
+      "questionText": "Which sentence uses pronouns correctly? (Question 41)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "She and I went to the store.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option B",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q042",
+      "questionText": "Which sentence uses pronouns correctly? (Question 42)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "The book is mines.",
+      "optionC": "Everyone must bring their own lunch.",
+      "optionD": "Me and her went to the store.",
+      "correctOption": "Option C",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q043",
+      "questionText": "Which sentence uses pronouns correctly? (Question 43)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "Everyone must bring their own lunch.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "Her and I went to the store.",
+      "correctOption": "Option B",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q044",
+      "questionText": "Which sentence uses pronouns correctly? (Question 44)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "Her and I went to the store.",
+      "optionD": "The book is mine.",
+      "correctOption": "Option D",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q045",
+      "questionText": "Which sentence uses pronouns correctly? (Question 45)",
+      "optionA": "Her and I went to the store.",
+      "optionB": "Her and I went to the store.",
+      "optionC": "The book is mine.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option C",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q046",
+      "questionText": "Which sentence uses pronouns correctly? (Question 46)",
+      "optionA": "Everyone must bring their own lunch.",
+      "optionB": "Me and her went to the store.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option A",
+      "explanation": "'Everyone must bring their own lunch' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q047",
+      "questionText": "Which sentence uses pronouns correctly? (Question 47)",
+      "optionA": "Me and her went to the store.",
+      "optionB": "Everyone must bring his own lunch.",
+      "optionC": "Me and her went to the store.",
+      "optionD": "The book is mine.",
+      "correctOption": "Option D",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q048",
+      "questionText": "Which sentence uses pronouns correctly? (Question 48)",
+      "optionA": "She and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option A",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q049",
+      "questionText": "Which sentence uses pronouns correctly? (Question 49)",
+      "optionA": "She and I went to the store.",
+      "optionB": "The book is mines.",
+      "optionC": "The book is mines.",
+      "optionD": "The book is mines.",
+      "correctOption": "Option A",
+      "explanation": "'She and I went to the store' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T242-Q050",
+      "questionText": "Which sentence uses pronouns correctly? (Question 50)",
+      "optionA": "Everyone must bring his own lunch.",
+      "optionB": "The book is mine.",
+      "optionC": "Everyone must bring his own lunch.",
+      "optionD": "Everyone must bring his own lunch.",
+      "correctOption": "Option B",
+      "explanation": "'The book is mine' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

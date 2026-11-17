@@ -1,0 +1,507 @@
+{
+  "topicId": 143,
+  "topicName": "Never",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T143-Q001",
+      "questionText": "He ___ eats vegetables. (Variant 1)",
+      "optionA": "no",
+      "optionB": "none",
+      "optionC": "not",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q002",
+      "questionText": "Which is correct? (Variant 2)",
+      "optionA": "She never goes to the gym.",
+      "optionB": "Never she goes to the gym.",
+      "optionC": "She doesn't never go to the gym.",
+      "optionD": "She never go to the gym.",
+      "correctOption": "Option A",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q003",
+      "questionText": "I will ___ forget this day. (Variant 3)",
+      "optionA": "never",
+      "optionB": "nothing",
+      "optionC": "not",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q004",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 4)",
+      "optionA": "never / not",
+      "optionB": "ever / not",
+      "optionC": "ever / never",
+      "optionD": "never / never",
+      "correctOption": "Option C",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q005",
+      "questionText": "Choose the correct sentence. (Variant 5)",
+      "optionA": "I never have been there.",
+      "optionB": "I have been never there.",
+      "optionC": "I have never been there.",
+      "optionD": "I haven't never been there.",
+      "correctOption": "Option C",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q006",
+      "questionText": "He ___ eats vegetables. (Variant 6)",
+      "optionA": "never",
+      "optionB": "none",
+      "optionC": "not",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q007",
+      "questionText": "Which is correct? (Variant 7)",
+      "optionA": "She never go to the gym.",
+      "optionB": "She doesn't never go to the gym.",
+      "optionC": "She never goes to the gym.",
+      "optionD": "Never she goes to the gym.",
+      "correctOption": "Option C",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q008",
+      "questionText": "I will ___ forget this day. (Variant 8)",
+      "optionA": "nothing",
+      "optionB": "not",
+      "optionC": "never",
+      "optionD": "no",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q009",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 9)",
+      "optionA": "never / never",
+      "optionB": "never / not",
+      "optionC": "ever / never",
+      "optionD": "ever / not",
+      "correctOption": "Option C",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q010",
+      "questionText": "Choose the correct sentence. (Variant 10)",
+      "optionA": "I have been never there.",
+      "optionB": "I have never been there.",
+      "optionC": "I haven't never been there.",
+      "optionD": "I never have been there.",
+      "correctOption": "Option B",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q011",
+      "questionText": "He ___ eats vegetables. (Variant 11)",
+      "optionA": "none",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q012",
+      "questionText": "Which is correct? (Variant 12)",
+      "optionA": "She never goes to the gym.",
+      "optionB": "She never go to the gym.",
+      "optionC": "Never she goes to the gym.",
+      "optionD": "She doesn't never go to the gym.",
+      "correctOption": "Option A",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q013",
+      "questionText": "I will ___ forget this day. (Variant 13)",
+      "optionA": "nothing",
+      "optionB": "no",
+      "optionC": "not",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q014",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 14)",
+      "optionA": "never / not",
+      "optionB": "ever / not",
+      "optionC": "ever / never",
+      "optionD": "never / never",
+      "correctOption": "Option C",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q015",
+      "questionText": "Choose the correct sentence. (Variant 15)",
+      "optionA": "I never have been there.",
+      "optionB": "I have never been there.",
+      "optionC": "I have been never there.",
+      "optionD": "I haven't never been there.",
+      "correctOption": "Option B",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q016",
+      "questionText": "He ___ eats vegetables. (Variant 16)",
+      "optionA": "no",
+      "optionB": "none",
+      "optionC": "never",
+      "optionD": "not",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q017",
+      "questionText": "Which is correct? (Variant 17)",
+      "optionA": "She never go to the gym.",
+      "optionB": "Never she goes to the gym.",
+      "optionC": "She doesn't never go to the gym.",
+      "optionD": "She never goes to the gym.",
+      "correctOption": "Option D",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q018",
+      "questionText": "I will ___ forget this day. (Variant 18)",
+      "optionA": "nothing",
+      "optionB": "not",
+      "optionC": "never",
+      "optionD": "no",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q019",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 19)",
+      "optionA": "ever / never",
+      "optionB": "never / not",
+      "optionC": "ever / not",
+      "optionD": "never / never",
+      "correctOption": "Option A",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q020",
+      "questionText": "Choose the correct sentence. (Variant 20)",
+      "optionA": "I haven't never been there.",
+      "optionB": "I have never been there.",
+      "optionC": "I have been never there.",
+      "optionD": "I never have been there.",
+      "correctOption": "Option B",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q021",
+      "questionText": "He ___ eats vegetables. (Variant 21)",
+      "optionA": "never",
+      "optionB": "not",
+      "optionC": "none",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q022",
+      "questionText": "Which is correct? (Variant 22)",
+      "optionA": "Never she goes to the gym.",
+      "optionB": "She doesn't never go to the gym.",
+      "optionC": "She never goes to the gym.",
+      "optionD": "She never go to the gym.",
+      "correctOption": "Option C",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q023",
+      "questionText": "I will ___ forget this day. (Variant 23)",
+      "optionA": "never",
+      "optionB": "nothing",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q024",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 24)",
+      "optionA": "ever / not",
+      "optionB": "never / not",
+      "optionC": "never / never",
+      "optionD": "ever / never",
+      "correctOption": "Option D",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q025",
+      "questionText": "Choose the correct sentence. (Variant 25)",
+      "optionA": "I have never been there.",
+      "optionB": "I have been never there.",
+      "optionC": "I haven't never been there.",
+      "optionD": "I never have been there.",
+      "correctOption": "Option A",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q026",
+      "questionText": "He ___ eats vegetables. (Variant 26)",
+      "optionA": "none",
+      "optionB": "never",
+      "optionC": "not",
+      "optionD": "no",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q027",
+      "questionText": "Which is correct? (Variant 27)",
+      "optionA": "She never goes to the gym.",
+      "optionB": "She never go to the gym.",
+      "optionC": "Never she goes to the gym.",
+      "optionD": "She doesn't never go to the gym.",
+      "correctOption": "Option A",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q028",
+      "questionText": "I will ___ forget this day. (Variant 28)",
+      "optionA": "not",
+      "optionB": "no",
+      "optionC": "nothing",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q029",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 29)",
+      "optionA": "ever / not",
+      "optionB": "ever / never",
+      "optionC": "never / never",
+      "optionD": "never / not",
+      "correctOption": "Option B",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q030",
+      "questionText": "Choose the correct sentence. (Variant 30)",
+      "optionA": "I have been never there.",
+      "optionB": "I have never been there.",
+      "optionC": "I haven't never been there.",
+      "optionD": "I never have been there.",
+      "correctOption": "Option B",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q031",
+      "questionText": "He ___ eats vegetables. (Variant 31)",
+      "optionA": "not",
+      "optionB": "none",
+      "optionC": "never",
+      "optionD": "no",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q032",
+      "questionText": "Which is correct? (Variant 32)",
+      "optionA": "She doesn't never go to the gym.",
+      "optionB": "She never go to the gym.",
+      "optionC": "She never goes to the gym.",
+      "optionD": "Never she goes to the gym.",
+      "correctOption": "Option C",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q033",
+      "questionText": "I will ___ forget this day. (Variant 33)",
+      "optionA": "not",
+      "optionB": "never",
+      "optionC": "nothing",
+      "optionD": "no",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q034",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 34)",
+      "optionA": "ever / not",
+      "optionB": "never / never",
+      "optionC": "never / not",
+      "optionD": "ever / never",
+      "correctOption": "Option D",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q035",
+      "questionText": "Choose the correct sentence. (Variant 35)",
+      "optionA": "I haven't never been there.",
+      "optionB": "I never have been there.",
+      "optionC": "I have never been there.",
+      "optionD": "I have been never there.",
+      "correctOption": "Option C",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q036",
+      "questionText": "He ___ eats vegetables. (Variant 36)",
+      "optionA": "never",
+      "optionB": "not",
+      "optionC": "none",
+      "optionD": "no",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q037",
+      "questionText": "Which is correct? (Variant 37)",
+      "optionA": "She doesn't never go to the gym.",
+      "optionB": "She never goes to the gym.",
+      "optionC": "She never go to the gym.",
+      "optionD": "Never she goes to the gym.",
+      "correctOption": "Option B",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q038",
+      "questionText": "I will ___ forget this day. (Variant 38)",
+      "optionA": "nothing",
+      "optionB": "not",
+      "optionC": "no",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q039",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 39)",
+      "optionA": "never / not",
+      "optionB": "ever / not",
+      "optionC": "never / never",
+      "optionD": "ever / never",
+      "correctOption": "Option D",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q040",
+      "questionText": "Choose the correct sentence. (Variant 40)",
+      "optionA": "I never have been there.",
+      "optionB": "I have been never there.",
+      "optionC": "I haven't never been there.",
+      "optionD": "I have never been there.",
+      "correctOption": "Option D",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q041",
+      "questionText": "He ___ eats vegetables. (Variant 41)",
+      "optionA": "none",
+      "optionB": "never",
+      "optionC": "no",
+      "optionD": "not",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q042",
+      "questionText": "Which is correct? (Variant 42)",
+      "optionA": "She never goes to the gym.",
+      "optionB": "She never go to the gym.",
+      "optionC": "Never she goes to the gym.",
+      "optionD": "She doesn't never go to the gym.",
+      "correctOption": "Option A",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q043",
+      "questionText": "I will ___ forget this day. (Variant 43)",
+      "optionA": "no",
+      "optionB": "never",
+      "optionC": "not",
+      "optionD": "nothing",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q044",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 44)",
+      "optionA": "ever / not",
+      "optionB": "never / not",
+      "optionC": "ever / never",
+      "optionD": "never / never",
+      "correctOption": "Option C",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q045",
+      "questionText": "Choose the correct sentence. (Variant 45)",
+      "optionA": "I have been never there.",
+      "optionB": "I never have been there.",
+      "optionC": "I haven't never been there.",
+      "optionD": "I have never been there.",
+      "correctOption": "Option D",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q046",
+      "questionText": "He ___ eats vegetables. (Variant 46)",
+      "optionA": "none",
+      "optionB": "not",
+      "optionC": "never",
+      "optionD": "no",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q047",
+      "questionText": "Which is correct? (Variant 47)",
+      "optionA": "She never go to the gym.",
+      "optionB": "She never goes to the gym.",
+      "optionC": "She doesn't never go to the gym.",
+      "optionD": "Never she goes to the gym.",
+      "correctOption": "Option B",
+      "explanation": "'She never goes to the gym' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T143-Q048",
+      "questionText": "I will ___ forget this day. (Variant 48)",
+      "optionA": "never",
+      "optionB": "no",
+      "optionC": "nothing",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q049",
+      "questionText": "Have you ___ seen a ghost? No, ___. (Variant 49)",
+      "optionA": "ever / never",
+      "optionB": "ever / not",
+      "optionC": "never / not",
+      "optionD": "never / never",
+      "correctOption": "Option A",
+      "explanation": "'ever / never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T143-Q050",
+      "questionText": "Choose the correct sentence. (Variant 50)",
+      "optionA": "I haven't never been there.",
+      "optionB": "I have been never there.",
+      "optionC": "I have never been there.",
+      "optionD": "I never have been there.",
+      "correctOption": "Option C",
+      "explanation": "'I have never been there' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

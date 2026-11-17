@@ -1,0 +1,507 @@
+{
+  "topicId": 183,
+  "topicName": "Sentence expansion",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T183-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Reads after proposal researcher carefully the seminar the the.",
+      "optionB": "The researcher reads the proposal carefully after the seminar.",
+      "optionC": "The researcher reads the proposal carefully after the seminaring.",
+      "optionD": "The reads the proposal carefully after the seminar.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher reads the proposal carefully after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An reads the experiment efficiently in the evening.",
+      "optionB": "An expert reads the experiment efficiently in the eveninging.",
+      "optionC": "Efficiently in the an evening reads experiment expert the.",
+      "optionD": "An expert reads the experiment efficiently in the evening.",
+      "correctOption": "Option D",
+      "explanation": "'An expert reads the experiment efficiently in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "In professor accurately classroom the the questions the article.",
+      "optionB": "The professor questions the article accurately in the classroom.",
+      "optionC": "The questions the article accurately in the classroom.",
+      "optionD": "The professor questions the article accurately in the classrooming.",
+      "correctOption": "Option B",
+      "explanation": "'The professor questions the article accurately in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The student reads the article carefully in the librarying.",
+      "optionB": "The student reads the article carefully in the library.",
+      "optionC": "The reads the article carefully in the library.",
+      "optionD": "In library article student carefully reads the the the.",
+      "correctOption": "Option B",
+      "explanation": "'The student reads the article carefully in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The completes the assignment carefully in the library.",
+      "optionB": "The professor completes the assignment carefully in the librarying.",
+      "optionC": "The professor completes the assignment carefully in the library.",
+      "optionD": "The library in the assignment professor the completes carefully.",
+      "correctOption": "Option C",
+      "explanation": "'The professor completes the assignment carefully in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An submits an essay perfectly in the classroom.",
+      "optionB": "An expert submits an essay perfectly in the classroom.",
+      "optionC": "An expert submits an essay perfectly in the classrooming.",
+      "optionD": "Classroom an expert submits essay perfectly an the in.",
+      "correctOption": "Option B",
+      "explanation": "'An expert submits an essay perfectly in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Submits the the author article at laboratory eagerly the.",
+      "optionB": "The submits the article eagerly at the laboratory.",
+      "optionC": "The author submits the article eagerly at the laboratorying.",
+      "optionD": "The author submits the article eagerly at the laboratory.",
+      "correctOption": "Option D",
+      "explanation": "'The author submits the article eagerly at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Completes clearly the team the morning this experiment.",
+      "optionB": "The team completes the experiment clearly this morning.",
+      "optionC": "The team completes the experiment clearly this morninging.",
+      "optionD": "The completes the experiment clearly this morning.",
+      "correctOption": "Option B",
+      "explanation": "'The team completes the experiment clearly this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The submits the results carefully yesterday.",
+      "optionB": "The scientist submits the results carefully yesterdaying.",
+      "optionC": "Results the carefully yesterday scientist submits the.",
+      "optionD": "The scientist submits the results carefully yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'The scientist submits the results carefully yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The submits the report clearly in the library.",
+      "optionB": "The committee submits the report clearly in the library.",
+      "optionC": "The committee submits the report clearly in the librarying.",
+      "optionD": "Library report in clearly the committee the the submits.",
+      "correctOption": "Option B",
+      "explanation": "'The committee submits the report clearly in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "A colleague questions the experiment perfectly in the evening.",
+      "optionB": "The questions a in experiment perfectly colleague evening the.",
+      "optionC": "A colleague questions the experiment perfectly in the eveninging.",
+      "optionD": "A questions the experiment perfectly in the evening.",
+      "correctOption": "Option A",
+      "explanation": "'A colleague questions the experiment perfectly in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The presents the assignment accurately this morning.",
+      "optionB": "This morning team presents the assignment accurately the.",
+      "optionC": "The team presents the assignment accurately this morning.",
+      "optionD": "The team presents the assignment accurately this morninging.",
+      "correctOption": "Option C",
+      "explanation": "'The team presents the assignment accurately this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The author analyzes the article accurately in the evening.",
+      "optionB": "The author analyzes the article accurately in the eveninging.",
+      "optionC": "In evening author the accurately the the article analyzes.",
+      "optionD": "The analyzes the article accurately in the evening.",
+      "correctOption": "Option A",
+      "explanation": "'The author analyzes the article accurately in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The committee week observes results next the thoroughly.",
+      "optionB": "The committee observes the results thoroughly next week.",
+      "optionC": "The committee observes the results thoroughly next weeking.",
+      "optionD": "The observes the results thoroughly next week.",
+      "correctOption": "Option B",
+      "explanation": "'The committee observes the results thoroughly next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An expert observes the report accurately this morninging.",
+      "optionB": "An observes the report accurately this morning.",
+      "optionC": "Expert morning accurately report the this an observes.",
+      "optionD": "An expert observes the report accurately this morning.",
+      "correctOption": "Option D",
+      "explanation": "'An expert observes the report accurately this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The analyzes the results eagerly next week.",
+      "optionB": "The week the next eagerly results student analyzes.",
+      "optionC": "The student analyzes the results eagerly next weeking.",
+      "optionD": "The student analyzes the results eagerly next week.",
+      "correctOption": "Option D",
+      "explanation": "'The student analyzes the results eagerly next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "A colleague observes the results efficiently in the classrooming.",
+      "optionB": "A colleague observes the results efficiently in the classroom.",
+      "optionC": "A observes the results efficiently in the classroom.",
+      "optionD": "In efficiently a results the the colleague classroom observes.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague observes the results efficiently in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Researcher the thesis a in library the eagerly analyzes.",
+      "optionB": "The researcher analyzes a thesis eagerly in the librarying.",
+      "optionC": "The researcher analyzes a thesis eagerly in the library.",
+      "optionD": "The analyzes a thesis eagerly in the library.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher analyzes a thesis eagerly in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The writes the data quickly this morning.",
+      "optionB": "The author writes the data quickly this morning.",
+      "optionC": "This quickly author data writes morning the the.",
+      "optionD": "The author writes the data quickly this morninging.",
+      "correctOption": "Option B",
+      "explanation": "'The author writes the data quickly this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The professor observes the experiment quickly during the lectureing.",
+      "optionB": "The observes the experiment quickly during the lecture.",
+      "optionC": "Observes lecture during professor the experiment the quickly the.",
+      "optionD": "The professor observes the experiment quickly during the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'The professor observes the experiment quickly during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Report the completes researcher the efficiently the library in.",
+      "optionB": "The researcher completes the report efficiently in the librarying.",
+      "optionC": "The completes the report efficiently in the library.",
+      "optionD": "The researcher completes the report efficiently in the library.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher completes the report efficiently in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The team reads a thesis clearly during the lecture.",
+      "optionB": "The reads a thesis clearly during the lecture.",
+      "optionC": "The team reads a thesis clearly during the lectureing.",
+      "optionD": "The during clearly the thesis reads team lecture a.",
+      "correctOption": "Option A",
+      "explanation": "'The team reads a thesis clearly during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An presents the assignment quickly yesterday.",
+      "optionB": "Assignment quickly expert an the presents yesterday.",
+      "optionC": "An expert presents the assignment quickly yesterdaying.",
+      "optionD": "An expert presents the assignment quickly yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'An expert presents the assignment quickly yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The author reviews the assignment slowly after the seminaring.",
+      "optionB": "Assignment author the the slowly reviews the after seminar.",
+      "optionC": "The reviews the assignment slowly after the seminar.",
+      "optionD": "The author reviews the assignment slowly after the seminar.",
+      "correctOption": "Option D",
+      "explanation": "'The author reviews the assignment slowly after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The submits the results carefully after the seminar.",
+      "optionB": "The committee submits the results carefully after the seminaring.",
+      "optionC": "Results the the submits the committee seminar carefully after.",
+      "optionD": "The committee submits the results carefully after the seminar.",
+      "correctOption": "Option D",
+      "explanation": "'The committee submits the results carefully after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "In a committee book the the writes slowly evening.",
+      "optionB": "The committee writes a book slowly in the eveninging.",
+      "optionC": "The committee writes a book slowly in the evening.",
+      "optionD": "The writes a book slowly in the evening.",
+      "correctOption": "Option C",
+      "explanation": "'The committee writes a book slowly in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Questions morning quickly this the results professor the.",
+      "optionB": "The questions the results quickly this morning.",
+      "optionC": "The professor questions the results quickly this morning.",
+      "optionD": "The professor questions the results quickly this morninging.",
+      "correctOption": "Option C",
+      "explanation": "'The professor questions the results quickly this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Proposal eagerly the student week reads next the.",
+      "optionB": "The student reads the proposal eagerly next weeking.",
+      "optionC": "The reads the proposal eagerly next week.",
+      "optionD": "The student reads the proposal eagerly next week.",
+      "correctOption": "Option D",
+      "explanation": "'The student reads the proposal eagerly next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An expert analyzes the proposal silently at the laboratorying.",
+      "optionB": "Silently the proposal analyzes expert the an laboratory at.",
+      "optionC": "An expert analyzes the proposal silently at the laboratory.",
+      "optionD": "An analyzes the proposal silently at the laboratory.",
+      "correctOption": "Option C",
+      "explanation": "'An expert analyzes the proposal silently at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "This the writes proposal the committee slowly morning.",
+      "optionB": "The committee writes the proposal slowly this morninging.",
+      "optionC": "The committee writes the proposal slowly this morning.",
+      "optionD": "The writes the proposal slowly this morning.",
+      "correctOption": "Option C",
+      "explanation": "'The committee writes the proposal slowly this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The professor questions the experiment eagerly in the evening.",
+      "optionB": "The questions the experiment eagerly in the evening.",
+      "optionC": "The professor questions the experiment eagerly in the eveninging.",
+      "optionD": "Evening the eagerly the experiment the in questions professor.",
+      "correctOption": "Option A",
+      "explanation": "'The professor questions the experiment eagerly in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The professor reads the report carefully in the evening.",
+      "optionB": "The professor reads the report carefully in the eveninging.",
+      "optionC": "The in professor report carefully the evening the reads.",
+      "optionD": "The reads the report carefully in the evening.",
+      "correctOption": "Option A",
+      "explanation": "'The professor reads the report carefully in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An expert presents the article slowly yesterdaying.",
+      "optionB": "An yesterday slowly presents article the expert.",
+      "optionC": "An expert presents the article slowly yesterday.",
+      "optionD": "An presents the article slowly yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'An expert presents the article slowly yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The studies the article silently in the evening.",
+      "optionB": "The author studies the article silently in the evening.",
+      "optionC": "Author the evening in the the article studies silently.",
+      "optionD": "The author studies the article silently in the eveninging.",
+      "correctOption": "Option B",
+      "explanation": "'The author studies the article silently in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An expert presents the results accurately during the lecture.",
+      "optionB": "An presents the results accurately during the lecture.",
+      "optionC": "Lecture an expert accurately presents the during results the.",
+      "optionD": "An expert presents the results accurately during the lectureing.",
+      "correctOption": "Option A",
+      "explanation": "'An expert presents the results accurately during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An studies the report efficiently at the laboratory.",
+      "optionB": "An the report the at expert laboratory studies efficiently.",
+      "optionC": "An expert studies the report efficiently at the laboratory.",
+      "optionD": "An expert studies the report efficiently at the laboratorying.",
+      "correctOption": "Option C",
+      "explanation": "'An expert studies the report efficiently at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The committee completes a thesis clearly in the classroom.",
+      "optionB": "The completes a thesis clearly in the classroom.",
+      "optionC": "A in the thesis classroom completes the clearly committee.",
+      "optionD": "The committee completes a thesis clearly in the classrooming.",
+      "correctOption": "Option A",
+      "explanation": "'The committee completes a thesis clearly in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The professor analyzes the experiment thoroughly in the eveninging.",
+      "optionB": "Professor experiment in the the analyzes the evening thoroughly.",
+      "optionC": "The analyzes the experiment thoroughly in the evening.",
+      "optionD": "The professor analyzes the experiment thoroughly in the evening.",
+      "correctOption": "Option D",
+      "explanation": "'The professor analyzes the experiment thoroughly in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The library the in carefully author experiment studies the.",
+      "optionB": "The author studies the experiment carefully in the library.",
+      "optionC": "The author studies the experiment carefully in the librarying.",
+      "optionD": "The studies the experiment carefully in the library.",
+      "correctOption": "Option B",
+      "explanation": "'The author studies the experiment carefully in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "In data submits classroom the slowly the student the.",
+      "optionB": "The student submits the data slowly in the classrooming.",
+      "optionC": "The student submits the data slowly in the classroom.",
+      "optionD": "The submits the data slowly in the classroom.",
+      "correctOption": "Option C",
+      "explanation": "'The student submits the data slowly in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The researcher analyzes an essay silently during the lectureing.",
+      "optionB": "Silently lecture researcher an the during essay analyzes the.",
+      "optionC": "The analyzes an essay silently during the lecture.",
+      "optionD": "The researcher analyzes an essay silently during the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher analyzes an essay silently during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The professor submits the assignment slowly yesterday.",
+      "optionB": "The submits the assignment slowly yesterday.",
+      "optionC": "The professor submits the assignment slowly yesterdaying.",
+      "optionD": "Submits the yesterday assignment the professor slowly.",
+      "correctOption": "Option A",
+      "explanation": "'The professor submits the assignment slowly yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "An expert submits the article eagerly this morninging.",
+      "optionB": "An expert submits the article eagerly this morning.",
+      "optionC": "An submits the article eagerly this morning.",
+      "optionD": "Submits this the article an eagerly expert morning.",
+      "correctOption": "Option B",
+      "explanation": "'An expert submits the article eagerly this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The observes the assignment efficiently on campus.",
+      "optionB": "The team observes the assignment efficiently on campus.",
+      "optionC": "Team observes campus the on the efficiently assignment.",
+      "optionD": "The team observes the assignment efficiently on campusing.",
+      "correctOption": "Option B",
+      "explanation": "'The team observes the assignment efficiently on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The presents the report slowly yesterday.",
+      "optionB": "The researcher presents the report slowly yesterdaying.",
+      "optionC": "Yesterday report researcher the presents the slowly.",
+      "optionD": "The researcher presents the report slowly yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher presents the report slowly yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The author completes an essay silently in the eveninging.",
+      "optionB": "Author the essay an in completes the silently evening.",
+      "optionC": "The author completes an essay silently in the evening.",
+      "optionD": "The completes an essay silently in the evening.",
+      "correctOption": "Option C",
+      "explanation": "'The author completes an essay silently in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "Next the experiment the observes committee week accurately.",
+      "optionB": "The committee observes the experiment accurately next week.",
+      "optionC": "The observes the experiment accurately next week.",
+      "optionD": "The committee observes the experiment accurately next weeking.",
+      "correctOption": "Option B",
+      "explanation": "'The committee observes the experiment accurately next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The studies the results thoroughly in the evening.",
+      "optionB": "The author studies the results thoroughly in the eveninging.",
+      "optionC": "The the author the in thoroughly studies results evening.",
+      "optionD": "The author studies the results thoroughly in the evening.",
+      "correctOption": "Option D",
+      "explanation": "'The author studies the results thoroughly in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The student questions an essay quickly in the classroom.",
+      "optionB": "The student questions an essay quickly in the classrooming.",
+      "optionC": "The questions an essay quickly in the classroom.",
+      "optionD": "Student in classroom essay questions an the quickly the.",
+      "correctOption": "Option A",
+      "explanation": "'The student questions an essay quickly in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T183-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Sentence expansion'?",
+      "optionA": "The author completes the report silently during the lecture.",
+      "optionB": "Lecture silently the author completes the the during report.",
+      "optionC": "The completes the report silently during the lecture.",
+      "optionD": "The author completes the report silently during the lectureing.",
+      "correctOption": "Option A",
+      "explanation": "'The author completes the report silently during the lecture' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

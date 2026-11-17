@@ -1,0 +1,507 @@
+{
+  "topicId": 163,
+  "topicName": "Position",
+  "unit": "UNIT 16 — ADVERBS",
+  "questions": [
+    {
+      "questionId": "T163-Q001",
+      "questionText": "She is ___ late.",
+      "optionA": "always",
+      "optionB": "always is",
+      "optionC": "is always being",
+      "optionD": "always be",
+      "correctOption": "Option A",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q002",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already be",
+      "optionB": "already",
+      "optionC": "be already",
+      "optionD": "have already been",
+      "correctOption": "Option B",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q003",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "completely",
+      "optionC": "am completely",
+      "optionD": "do completely",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q004",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "usually is",
+      "optionB": "usual",
+      "optionC": "does usually",
+      "optionD": "usually",
+      "correctOption": "Option D",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q005",
+      "questionText": "She is ___ late.",
+      "optionA": "be always",
+      "optionB": "always is",
+      "optionC": "always",
+      "optionD": "always be",
+      "correctOption": "Option C",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q006",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "have already been",
+      "optionB": "already",
+      "optionC": "already have",
+      "optionD": "already be",
+      "correctOption": "Option B",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q007",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "do completely",
+      "optionB": "complete",
+      "optionC": "completely",
+      "optionD": "am completely",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q008",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "usually",
+      "optionB": "usual",
+      "optionC": "usually is",
+      "optionD": "is usually",
+      "correctOption": "Option A",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q009",
+      "questionText": "She is ___ late.",
+      "optionA": "always",
+      "optionB": "is always being",
+      "optionC": "always is",
+      "optionD": "be always",
+      "correctOption": "Option A",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q010",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already have",
+      "optionB": "have already been",
+      "optionC": "be already",
+      "optionD": "already",
+      "correctOption": "Option D",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q011",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "completely",
+      "optionB": "am completely",
+      "optionC": "do completely",
+      "optionD": "completely do",
+      "correctOption": "Option A",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q012",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "usually",
+      "optionB": "usually is",
+      "optionC": "is usually",
+      "optionD": "usual",
+      "correctOption": "Option A",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q013",
+      "questionText": "She is ___ late.",
+      "optionA": "be always",
+      "optionB": "always",
+      "optionC": "always is",
+      "optionD": "always be",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q014",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already",
+      "optionB": "be already",
+      "optionC": "already be",
+      "optionD": "have already been",
+      "correctOption": "Option A",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q015",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "do completely",
+      "optionB": "completely",
+      "optionC": "completely do",
+      "optionD": "am completely",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q016",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "is usually",
+      "optionB": "usual",
+      "optionC": "usually is",
+      "optionD": "usually",
+      "correctOption": "Option D",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q017",
+      "questionText": "She is ___ late.",
+      "optionA": "always",
+      "optionB": "always is",
+      "optionC": "always be",
+      "optionD": "be always",
+      "correctOption": "Option A",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q018",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already have",
+      "optionB": "have already been",
+      "optionC": "already",
+      "optionD": "be already",
+      "correctOption": "Option C",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q019",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "do completely",
+      "optionC": "completely do",
+      "optionD": "completely",
+      "correctOption": "Option D",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q020",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "usually",
+      "optionB": "usually is",
+      "optionC": "is usually",
+      "optionD": "does usually",
+      "correctOption": "Option A",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q021",
+      "questionText": "She is ___ late.",
+      "optionA": "always is",
+      "optionB": "always",
+      "optionC": "always be",
+      "optionD": "be always",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q022",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already have",
+      "optionB": "be already",
+      "optionC": "already",
+      "optionD": "already be",
+      "correctOption": "Option C",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q023",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "do completely",
+      "optionC": "completely do",
+      "optionD": "completely",
+      "correctOption": "Option D",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q024",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "is usually",
+      "optionB": "does usually",
+      "optionC": "usually",
+      "optionD": "usual",
+      "correctOption": "Option C",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q025",
+      "questionText": "She is ___ late.",
+      "optionA": "always be",
+      "optionB": "always",
+      "optionC": "be always",
+      "optionD": "is always being",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q026",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "have already been",
+      "optionB": "already",
+      "optionC": "already be",
+      "optionD": "already have",
+      "correctOption": "Option B",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q027",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "completely do",
+      "optionB": "am completely",
+      "optionC": "completely",
+      "optionD": "complete",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q028",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "does usually",
+      "optionB": "usual",
+      "optionC": "usually",
+      "optionD": "is usually",
+      "correctOption": "Option C",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q029",
+      "questionText": "She is ___ late.",
+      "optionA": "be always",
+      "optionB": "always be",
+      "optionC": "always",
+      "optionD": "is always being",
+      "correctOption": "Option C",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q030",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "be already",
+      "optionB": "have already been",
+      "optionC": "already",
+      "optionD": "already be",
+      "correctOption": "Option C",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q031",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "am completely",
+      "optionB": "completely",
+      "optionC": "completely do",
+      "optionD": "complete",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q032",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "is usually",
+      "optionB": "usually",
+      "optionC": "usually is",
+      "optionD": "does usually",
+      "correctOption": "Option B",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q033",
+      "questionText": "She is ___ late.",
+      "optionA": "always be",
+      "optionB": "always",
+      "optionC": "always is",
+      "optionD": "be always",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q034",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "be already",
+      "optionB": "have already been",
+      "optionC": "already",
+      "optionD": "already have",
+      "correctOption": "Option C",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q035",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "am completely",
+      "optionB": "completely do",
+      "optionC": "completely",
+      "optionD": "do completely",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q036",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "does usually",
+      "optionB": "usual",
+      "optionC": "usually",
+      "optionD": "usually is",
+      "correctOption": "Option C",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q037",
+      "questionText": "She is ___ late.",
+      "optionA": "always be",
+      "optionB": "is always being",
+      "optionC": "always is",
+      "optionD": "always",
+      "correctOption": "Option D",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q038",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already",
+      "optionB": "already be",
+      "optionC": "already have",
+      "optionD": "be already",
+      "correctOption": "Option A",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q039",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "completely do",
+      "optionC": "do completely",
+      "optionD": "completely",
+      "correctOption": "Option D",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q040",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "does usually",
+      "optionB": "usually",
+      "optionC": "usual",
+      "optionD": "is usually",
+      "correctOption": "Option B",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q041",
+      "questionText": "She is ___ late.",
+      "optionA": "always be",
+      "optionB": "is always being",
+      "optionC": "always is",
+      "optionD": "always",
+      "correctOption": "Option D",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q042",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already",
+      "optionB": "be already",
+      "optionC": "already be",
+      "optionD": "already have",
+      "correctOption": "Option A",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q043",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "completely",
+      "optionC": "am completely",
+      "optionD": "completely do",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q044",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "does usually",
+      "optionB": "usually",
+      "optionC": "is usually",
+      "optionD": "usual",
+      "correctOption": "Option B",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q045",
+      "questionText": "She is ___ late.",
+      "optionA": "be always",
+      "optionB": "always is",
+      "optionC": "always",
+      "optionD": "is always being",
+      "correctOption": "Option C",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q046",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "already",
+      "optionB": "already have",
+      "optionC": "be already",
+      "optionD": "already be",
+      "correctOption": "Option A",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q047",
+      "questionText": "I don't ___ agree with you.",
+      "optionA": "complete",
+      "optionB": "do completely",
+      "optionC": "completely",
+      "optionD": "am completely",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q048",
+      "questionText": "He ___ finishes his work early.",
+      "optionA": "usually is",
+      "optionB": "does usually",
+      "optionC": "usually",
+      "optionD": "is usually",
+      "correctOption": "Option C",
+      "explanation": "'usually' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q049",
+      "questionText": "She is ___ late.",
+      "optionA": "always",
+      "optionB": "always be",
+      "optionC": "always is",
+      "optionD": "is always being",
+      "correctOption": "Option A",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T163-Q050",
+      "questionText": "They have ___ seen that movie.",
+      "optionA": "be already",
+      "optionB": "already be",
+      "optionC": "already",
+      "optionD": "already have",
+      "correctOption": "Option C",
+      "explanation": "'already' is the correct choice in standard English grammar."
+    }
+  ]
+}

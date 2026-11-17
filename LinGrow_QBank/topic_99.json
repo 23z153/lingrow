@@ -1,0 +1,507 @@
+{
+  "topicId": 99,
+  "topicName": "Going to",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T099-Q001",
+      "questionText": "Choose the correct going to form: I ___ the assignment.",
+      "optionA": "visit",
+      "optionB": "am going to visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q002",
+      "questionText": "Choose the correct going to form: I ___ the exam.",
+      "optionA": "will visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "am going to visit",
+      "correctOption": "Option D",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q003",
+      "questionText": "Choose the correct going to form: I ___ the essay.",
+      "optionA": "visit",
+      "optionB": "am going to visit",
+      "optionC": "visiting",
+      "optionD": "will visit",
+      "correctOption": "Option B",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q004",
+      "questionText": "Choose the correct going to form: The professor ___ the project.",
+      "optionA": "will visit",
+      "optionB": "visiting",
+      "optionC": "is going to visit",
+      "optionD": "visit",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q005",
+      "questionText": "Choose the correct going to form: They ___ the report.",
+      "optionA": "are going to visit",
+      "optionB": "will visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q006",
+      "questionText": "Choose the correct going to form: You ___ the document.",
+      "optionA": "visiting",
+      "optionB": "visit",
+      "optionC": "am going to visit",
+      "optionD": "will visit",
+      "correctOption": "Option C",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q007",
+      "questionText": "Choose the correct going to form: You ___ the exam.",
+      "optionA": "am going to visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "will visit",
+      "correctOption": "Option A",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q008",
+      "questionText": "Choose the correct going to form: The team ___ the report.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q009",
+      "questionText": "Choose the correct going to form: He ___ the essay.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q010",
+      "questionText": "Choose the correct going to form: It ___ the homework.",
+      "optionA": "visiting",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "will visit",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q011",
+      "questionText": "Choose the correct going to form: The team ___ the homework.",
+      "optionA": "visiting",
+      "optionB": "is going to visit",
+      "optionC": "will visit",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q012",
+      "questionText": "Choose the correct going to form: The professor ___ the task.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q013",
+      "questionText": "Choose the correct going to form: The professor ___ the task.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q014",
+      "questionText": "Choose the correct going to form: They ___ the task.",
+      "optionA": "visit",
+      "optionB": "visiting",
+      "optionC": "will visit",
+      "optionD": "are going to visit",
+      "correctOption": "Option D",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q015",
+      "questionText": "Choose the correct going to form: The professor ___ the report.",
+      "optionA": "visit",
+      "optionB": "is going to visit",
+      "optionC": "visiting",
+      "optionD": "will visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q016",
+      "questionText": "Choose the correct going to form: She ___ the essay.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q017",
+      "questionText": "Choose the correct going to form: It ___ the test.",
+      "optionA": "visiting",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "will visit",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q018",
+      "questionText": "Choose the correct going to form: The student ___ the document.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q019",
+      "questionText": "Choose the correct going to form: The team ___ the project.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q020",
+      "questionText": "Choose the correct going to form: They ___ the report.",
+      "optionA": "are going to visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "will visit",
+      "correctOption": "Option A",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q021",
+      "questionText": "Choose the correct going to form: She ___ the task.",
+      "optionA": "is going to visit",
+      "optionB": "visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q022",
+      "questionText": "Choose the correct going to form: The team ___ the homework.",
+      "optionA": "visiting",
+      "optionB": "will visit",
+      "optionC": "visit",
+      "optionD": "is going to visit",
+      "correctOption": "Option D",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q023",
+      "questionText": "Choose the correct going to form: They ___ the homework.",
+      "optionA": "visiting",
+      "optionB": "visit",
+      "optionC": "will visit",
+      "optionD": "are going to visit",
+      "correctOption": "Option D",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q024",
+      "questionText": "Choose the correct going to form: We ___ the test.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "are going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q025",
+      "questionText": "Choose the correct going to form: The student ___ the report.",
+      "optionA": "visit",
+      "optionB": "visiting",
+      "optionC": "will visit",
+      "optionD": "is going to visit",
+      "correctOption": "Option D",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q026",
+      "questionText": "Choose the correct going to form: The student ___ the assignment.",
+      "optionA": "visit",
+      "optionB": "will visit",
+      "optionC": "is going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q027",
+      "questionText": "Choose the correct going to form: It ___ the essay.",
+      "optionA": "is going to visit",
+      "optionB": "visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q028",
+      "questionText": "Choose the correct going to form: I ___ the exam.",
+      "optionA": "will visit",
+      "optionB": "am going to visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q029",
+      "questionText": "Choose the correct going to form: You ___ the report.",
+      "optionA": "visit",
+      "optionB": "am going to visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q030",
+      "questionText": "Choose the correct going to form: We ___ the project.",
+      "optionA": "are going to visit",
+      "optionB": "will visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q031",
+      "questionText": "Choose the correct going to form: I ___ the project.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "visiting",
+      "optionD": "am going to visit",
+      "correctOption": "Option D",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q032",
+      "questionText": "Choose the correct going to form: The team ___ the presentation.",
+      "optionA": "visiting",
+      "optionB": "will visit",
+      "optionC": "visit",
+      "optionD": "is going to visit",
+      "correctOption": "Option D",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q033",
+      "questionText": "Choose the correct going to form: We ___ the report.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "visiting",
+      "optionD": "are going to visit",
+      "correctOption": "Option D",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q034",
+      "questionText": "Choose the correct going to form: It ___ the homework.",
+      "optionA": "visiting",
+      "optionB": "is going to visit",
+      "optionC": "will visit",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q035",
+      "questionText": "Choose the correct going to form: I ___ the exam.",
+      "optionA": "visit",
+      "optionB": "will visit",
+      "optionC": "am going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q036",
+      "questionText": "Choose the correct going to form: The student ___ the exam.",
+      "optionA": "visit",
+      "optionB": "is going to visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q037",
+      "questionText": "Choose the correct going to form: I ___ the document.",
+      "optionA": "will visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "am going to visit",
+      "correctOption": "Option D",
+      "explanation": "'am going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q038",
+      "questionText": "Choose the correct going to form: The professor ___ the report.",
+      "optionA": "will visit",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q039",
+      "questionText": "Choose the correct going to form: He ___ the test.",
+      "optionA": "is going to visit",
+      "optionB": "visit",
+      "optionC": "visiting",
+      "optionD": "will visit",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q040",
+      "questionText": "Choose the correct going to form: The student ___ the essay.",
+      "optionA": "is going to visit",
+      "optionB": "will visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q041",
+      "questionText": "Choose the correct going to form: The professor ___ the test.",
+      "optionA": "visit",
+      "optionB": "is going to visit",
+      "optionC": "will visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q042",
+      "questionText": "Choose the correct going to form: She ___ the test.",
+      "optionA": "visit",
+      "optionB": "will visit",
+      "optionC": "visiting",
+      "optionD": "is going to visit",
+      "correctOption": "Option D",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q043",
+      "questionText": "Choose the correct going to form: It ___ the essay.",
+      "optionA": "visit",
+      "optionB": "will visit",
+      "optionC": "is going to visit",
+      "optionD": "visiting",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q044",
+      "questionText": "Choose the correct going to form: They ___ the project.",
+      "optionA": "are going to visit",
+      "optionB": "will visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q045",
+      "questionText": "Choose the correct going to form: They ___ the homework.",
+      "optionA": "visit",
+      "optionB": "are going to visit",
+      "optionC": "visiting",
+      "optionD": "will visit",
+      "correctOption": "Option B",
+      "explanation": "'are going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q046",
+      "questionText": "Choose the correct going to form: She ___ the presentation.",
+      "optionA": "visit",
+      "optionB": "will visit",
+      "optionC": "visiting",
+      "optionD": "is going to visit",
+      "correctOption": "Option D",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q047",
+      "questionText": "Choose the correct going to form: He ___ the report.",
+      "optionA": "is going to visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "will visit",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q048",
+      "questionText": "Choose the correct going to form: She ___ the exam.",
+      "optionA": "visiting",
+      "optionB": "visit",
+      "optionC": "is going to visit",
+      "optionD": "will visit",
+      "correctOption": "Option C",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q049",
+      "questionText": "Choose the correct going to form: It ___ the project.",
+      "optionA": "will visit",
+      "optionB": "is going to visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T099-Q050",
+      "questionText": "Choose the correct going to form: The student ___ the homework.",
+      "optionA": "is going to visit",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "will visit",
+      "correctOption": "Option A",
+      "explanation": "'is going to visit' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

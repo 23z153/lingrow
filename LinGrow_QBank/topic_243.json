@@ -1,0 +1,507 @@
+{
+  "topicId": 243,
+  "topicName": "Capitalization/spelling",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T243-Q001",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 1)",
+      "optionA": "My favorite day is Friday.",
+      "optionB": "I live in new york.",
+      "optionC": "She studies english.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q002",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 2)",
+      "optionA": "I live in New York.",
+      "optionB": "i live in New york.",
+      "optionC": "i live in New york.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q003",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 3)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies english.",
+      "optionD": "I live in New York.",
+      "correctOption": "Option D",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q004",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 4)",
+      "optionA": "i live in New york.",
+      "optionB": "I live in New York.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q005",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 5)",
+      "optionA": "She studies english.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies english.",
+      "optionD": "I live in New York.",
+      "correctOption": "Option D",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q006",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 6)",
+      "optionA": "I live in new york.",
+      "optionB": "i live in New york.",
+      "optionC": "She studies English.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q007",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 7)",
+      "optionA": "She studies english.",
+      "optionB": "I live in New York.",
+      "optionC": "I live in new york.",
+      "optionD": "She studies english.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q008",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 8)",
+      "optionA": "My favorite day is Friday.",
+      "optionB": "i live in New york.",
+      "optionC": "She studies english.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option A",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q009",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 9)",
+      "optionA": "i live in New york.",
+      "optionB": "I live in New York.",
+      "optionC": "She studies english.",
+      "optionD": "She studies english.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q010",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 10)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "I live in new york.",
+      "optionC": "i live in New york.",
+      "optionD": "I live in New York.",
+      "correctOption": "Option D",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q011",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 11)",
+      "optionA": "I live in new york.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "My favorite day is Friday.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option C",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q012",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 12)",
+      "optionA": "My favorite day is Friday.",
+      "optionB": "She studies english.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option A",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q013",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 13)",
+      "optionA": "I live in new york.",
+      "optionB": "My favorite day is Friday.",
+      "optionC": "i live in New york.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option B",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q014",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 14)",
+      "optionA": "i live in New york.",
+      "optionB": "i live in New york.",
+      "optionC": "I live in new york.",
+      "optionD": "My favorite day is Friday.",
+      "correctOption": "Option D",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q015",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 15)",
+      "optionA": "She studies English.",
+      "optionB": "I live in new york.",
+      "optionC": "She studies english.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q016",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 16)",
+      "optionA": "She studies english.",
+      "optionB": "i live in New york.",
+      "optionC": "i live in New york.",
+      "optionD": "My favorite day is Friday.",
+      "correctOption": "Option D",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q017",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 17)",
+      "optionA": "i live in New york.",
+      "optionB": "i live in New york.",
+      "optionC": "I live in New York.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option C",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q018",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 18)",
+      "optionA": "I live in New York.",
+      "optionB": "i live in New york.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option A",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q019",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 19)",
+      "optionA": "i live in New york.",
+      "optionB": "She studies english.",
+      "optionC": "She studies english.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q020",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 20)",
+      "optionA": "i live in New york.",
+      "optionB": "She studies english.",
+      "optionC": "My favorite day is Friday.",
+      "optionD": "She studies english.",
+      "correctOption": "Option C",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q021",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 21)",
+      "optionA": "I live in new york.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies english.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q022",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 22)",
+      "optionA": "I live in New York.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "She studies english.",
+      "correctOption": "Option A",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q023",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 23)",
+      "optionA": "She studies english.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies English.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q024",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 24)",
+      "optionA": "She studies English.",
+      "optionB": "i live in New york.",
+      "optionC": "I live in new york.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q025",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 25)",
+      "optionA": "She studies english.",
+      "optionB": "I live in new york.",
+      "optionC": "My favorite day is Friday.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option C",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q026",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 26)",
+      "optionA": "I live in new york.",
+      "optionB": "She studies English.",
+      "optionC": "i live in New york.",
+      "optionD": "She studies english.",
+      "correctOption": "Option B",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q027",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 27)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "i live in New york.",
+      "optionC": "i live in New york.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q028",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 28)",
+      "optionA": "She studies English.",
+      "optionB": "She studies english.",
+      "optionC": "I live in new york.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q029",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 29)",
+      "optionA": "She studies english.",
+      "optionB": "I live in New York.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q030",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 30)",
+      "optionA": "I live in new york.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies English.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q031",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 31)",
+      "optionA": "I live in new york.",
+      "optionB": "I live in New York.",
+      "optionC": "She studies english.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q032",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 32)",
+      "optionA": "i live in New york.",
+      "optionB": "I live in new york.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "My favorite day is Friday.",
+      "correctOption": "Option D",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q033",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 33)",
+      "optionA": "She studies english.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies english.",
+      "optionD": "I live in New York.",
+      "correctOption": "Option D",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q034",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 34)",
+      "optionA": "My favorite day is Friday.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies english.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option A",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q035",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 35)",
+      "optionA": "She studies English.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "I live in new york.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option A",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q036",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 36)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "I live in New York.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q037",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 37)",
+      "optionA": "i live in New york.",
+      "optionB": "i live in New york.",
+      "optionC": "She studies English.",
+      "optionD": "She studies english.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q038",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 38)",
+      "optionA": "i live in New york.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "i live in New york.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q039",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 39)",
+      "optionA": "She studies english.",
+      "optionB": "She studies English.",
+      "optionC": "She studies english.",
+      "optionD": "She studies english.",
+      "correctOption": "Option B",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q040",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 40)",
+      "optionA": "I live in new york.",
+      "optionB": "I live in New York.",
+      "optionC": "i live in New york.",
+      "optionD": "She studies english.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q041",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 41)",
+      "optionA": "I live in New York.",
+      "optionB": "She studies english.",
+      "optionC": "My favorite day is friday.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option A",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q042",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 42)",
+      "optionA": "She studies english.",
+      "optionB": "I live in new york.",
+      "optionC": "I live in new york.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q043",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 43)",
+      "optionA": "I live in new york.",
+      "optionB": "She studies english.",
+      "optionC": "My favorite day is Friday.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option C",
+      "explanation": "'My favorite day is Friday' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q044",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 44)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "I live in New York.",
+      "optionC": "She studies english.",
+      "optionD": "i live in New york.",
+      "correctOption": "Option B",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q045",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 45)",
+      "optionA": "I live in New York.",
+      "optionB": "I live in new york.",
+      "optionC": "I live in new york.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option A",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q046",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 46)",
+      "optionA": "She studies english.",
+      "optionB": "i live in New york.",
+      "optionC": "I live in new york.",
+      "optionD": "She studies English.",
+      "correctOption": "Option D",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q047",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 47)",
+      "optionA": "She studies english.",
+      "optionB": "I live in new york.",
+      "optionC": "She studies English.",
+      "optionD": "She studies english.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q048",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 48)",
+      "optionA": "My favorite day is friday.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "I live in New York.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option C",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q049",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 49)",
+      "optionA": "I live in new york.",
+      "optionB": "My favorite day is friday.",
+      "optionC": "She studies English.",
+      "optionD": "I live in new york.",
+      "correctOption": "Option C",
+      "explanation": "'She studies English' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T243-Q050",
+      "questionText": "Identify the sentence with correct capitalization and spelling. (Question 50)",
+      "optionA": "I live in new york.",
+      "optionB": "I live in new york.",
+      "optionC": "I live in New York.",
+      "optionD": "My favorite day is friday.",
+      "correctOption": "Option C",
+      "explanation": "'I live in New York' correctly follows standard English punctuation and capitalization rules."
+    }
+  ]
+}

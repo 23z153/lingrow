@@ -1,0 +1,507 @@
+{
+  "topicId": 28,
+  "topicName": "Compound nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T028-Q001",
+      "questionText": "What is the correct plural of the compound noun 'mother-in-law'?",
+      "optionA": "mothers-in-laws",
+      "optionB": "mother-in-laws",
+      "optionC": "motherinlaws",
+      "optionD": "mothers-in-law",
+      "correctOption": "Option D",
+      "explanation": "'mothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q002",
+      "questionText": "What is the correct plural of the compound noun 'washing machine'?",
+      "optionA": "washing machinees",
+      "optionB": "washing machiness",
+      "optionC": "washing machines",
+      "optionD": "washing machines",
+      "correctOption": "Option C",
+      "explanation": "'washing machines' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q003",
+      "questionText": "What is the correct plural of the compound noun 'swimming pool'?",
+      "optionA": "swimming poolss",
+      "optionB": "swimming pooles",
+      "optionC": "swimming pools",
+      "optionD": "swimming pools",
+      "correctOption": "Option C",
+      "explanation": "'swimming pools' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q004",
+      "questionText": "What is the correct plural of the compound noun 'toothpaste'?",
+      "optionA": "toothpastes",
+      "optionB": "toothpastess",
+      "optionC": "toothpastes",
+      "optionD": "toothpastees",
+      "correctOption": "Option A",
+      "explanation": "'toothpastes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q005",
+      "questionText": "What is the correct plural of the compound noun 'haircut'?",
+      "optionA": "haircutes",
+      "optionB": "haircuts",
+      "optionC": "haircuts",
+      "optionD": "haircutss",
+      "correctOption": "Option B",
+      "explanation": "'haircuts' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q006",
+      "questionText": "What is the correct plural of the compound noun 'passer-by'?",
+      "optionA": "passer-bys",
+      "optionB": "passerbys",
+      "optionC": "passers-bys",
+      "optionD": "passers-by",
+      "correctOption": "Option D",
+      "explanation": "'passers-by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q007",
+      "questionText": "What is the correct plural of the compound noun 'brother-in-law'?",
+      "optionA": "brotherinlaws",
+      "optionB": "brothers-in-laws",
+      "optionC": "brother-in-laws",
+      "optionD": "brothers-in-law",
+      "correctOption": "Option D",
+      "explanation": "'brothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q008",
+      "questionText": "What is the correct plural of the compound noun 'greenhouse'?",
+      "optionA": "greenhousees",
+      "optionB": "greenhouses",
+      "optionC": "greenhouses",
+      "optionD": "greenhousess",
+      "correctOption": "Option B",
+      "explanation": "'greenhouses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q009",
+      "questionText": "What is the correct plural of the compound noun 'software'?",
+      "optionA": "softwares",
+      "optionB": "software",
+      "optionC": "softwares",
+      "optionD": "softwares",
+      "correctOption": "Option B",
+      "explanation": "'software' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q010",
+      "questionText": "What is the correct plural of the compound noun 'bus stop'?",
+      "optionA": "bus stopes",
+      "optionB": "bus stopss",
+      "optionC": "bus stops",
+      "optionD": "bus stops",
+      "correctOption": "Option C",
+      "explanation": "'bus stops' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q011",
+      "questionText": "What is the correct plural of the compound noun 'mother-in-law'?",
+      "optionA": "mothers-in-laws",
+      "optionB": "motherinlaws",
+      "optionC": "mother-in-laws",
+      "optionD": "mothers-in-law",
+      "correctOption": "Option D",
+      "explanation": "'mothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q012",
+      "questionText": "What is the correct plural of the compound noun 'washing machine'?",
+      "optionA": "washing machiness",
+      "optionB": "washing machines",
+      "optionC": "washing machines",
+      "optionD": "washing machinees",
+      "correctOption": "Option B",
+      "explanation": "'washing machines' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q013",
+      "questionText": "What is the correct plural of the compound noun 'swimming pool'?",
+      "optionA": "swimming pools",
+      "optionB": "swimming pools",
+      "optionC": "swimming poolss",
+      "optionD": "swimming pooles",
+      "correctOption": "Option A",
+      "explanation": "'swimming pools' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q014",
+      "questionText": "What is the correct plural of the compound noun 'toothpaste'?",
+      "optionA": "toothpastes",
+      "optionB": "toothpastess",
+      "optionC": "toothpastes",
+      "optionD": "toothpastees",
+      "correctOption": "Option A",
+      "explanation": "'toothpastes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q015",
+      "questionText": "What is the correct plural of the compound noun 'haircut'?",
+      "optionA": "haircutes",
+      "optionB": "haircuts",
+      "optionC": "haircuts",
+      "optionD": "haircutss",
+      "correctOption": "Option B",
+      "explanation": "'haircuts' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q016",
+      "questionText": "What is the correct plural of the compound noun 'passer-by'?",
+      "optionA": "passer-bys",
+      "optionB": "passers-bys",
+      "optionC": "passers-by",
+      "optionD": "passerbys",
+      "correctOption": "Option C",
+      "explanation": "'passers-by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q017",
+      "questionText": "What is the correct plural of the compound noun 'brother-in-law'?",
+      "optionA": "brotherinlaws",
+      "optionB": "brother-in-laws",
+      "optionC": "brothers-in-law",
+      "optionD": "brothers-in-laws",
+      "correctOption": "Option C",
+      "explanation": "'brothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q018",
+      "questionText": "What is the correct plural of the compound noun 'greenhouse'?",
+      "optionA": "greenhouses",
+      "optionB": "greenhousess",
+      "optionC": "greenhouses",
+      "optionD": "greenhousees",
+      "correctOption": "Option A",
+      "explanation": "'greenhouses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q019",
+      "questionText": "What is the correct plural of the compound noun 'software'?",
+      "optionA": "softwares",
+      "optionB": "software",
+      "optionC": "softwares",
+      "optionD": "softwares",
+      "correctOption": "Option B",
+      "explanation": "'software' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q020",
+      "questionText": "What is the correct plural of the compound noun 'bus stop'?",
+      "optionA": "bus stopss",
+      "optionB": "bus stops",
+      "optionC": "bus stops",
+      "optionD": "bus stopes",
+      "correctOption": "Option B",
+      "explanation": "'bus stops' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q021",
+      "questionText": "What is the correct plural of the compound noun 'mother-in-law'?",
+      "optionA": "mothers-in-law",
+      "optionB": "motherinlaws",
+      "optionC": "mother-in-laws",
+      "optionD": "mothers-in-laws",
+      "correctOption": "Option A",
+      "explanation": "'mothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q022",
+      "questionText": "What is the correct plural of the compound noun 'washing machine'?",
+      "optionA": "washing machiness",
+      "optionB": "washing machines",
+      "optionC": "washing machinees",
+      "optionD": "washing machines",
+      "correctOption": "Option B",
+      "explanation": "'washing machines' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q023",
+      "questionText": "What is the correct plural of the compound noun 'swimming pool'?",
+      "optionA": "swimming pools",
+      "optionB": "swimming pooles",
+      "optionC": "swimming pools",
+      "optionD": "swimming poolss",
+      "correctOption": "Option A",
+      "explanation": "'swimming pools' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q024",
+      "questionText": "What is the correct plural of the compound noun 'toothpaste'?",
+      "optionA": "toothpastes",
+      "optionB": "toothpastees",
+      "optionC": "toothpastess",
+      "optionD": "toothpastes",
+      "correctOption": "Option A",
+      "explanation": "'toothpastes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q025",
+      "questionText": "What is the correct plural of the compound noun 'haircut'?",
+      "optionA": "haircuts",
+      "optionB": "haircutss",
+      "optionC": "haircuts",
+      "optionD": "haircutes",
+      "correctOption": "Option A",
+      "explanation": "'haircuts' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q026",
+      "questionText": "What is the correct plural of the compound noun 'passer-by'?",
+      "optionA": "passerbys",
+      "optionB": "passer-bys",
+      "optionC": "passers-bys",
+      "optionD": "passers-by",
+      "correctOption": "Option D",
+      "explanation": "'passers-by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q027",
+      "questionText": "What is the correct plural of the compound noun 'brother-in-law'?",
+      "optionA": "brothers-in-law",
+      "optionB": "brother-in-laws",
+      "optionC": "brothers-in-laws",
+      "optionD": "brotherinlaws",
+      "correctOption": "Option A",
+      "explanation": "'brothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q028",
+      "questionText": "What is the correct plural of the compound noun 'greenhouse'?",
+      "optionA": "greenhousees",
+      "optionB": "greenhouses",
+      "optionC": "greenhouses",
+      "optionD": "greenhousess",
+      "correctOption": "Option B",
+      "explanation": "'greenhouses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q029",
+      "questionText": "What is the correct plural of the compound noun 'software'?",
+      "optionA": "softwares",
+      "optionB": "software",
+      "optionC": "softwares",
+      "optionD": "softwares",
+      "correctOption": "Option B",
+      "explanation": "'software' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q030",
+      "questionText": "What is the correct plural of the compound noun 'bus stop'?",
+      "optionA": "bus stopss",
+      "optionB": "bus stopes",
+      "optionC": "bus stops",
+      "optionD": "bus stops",
+      "correctOption": "Option C",
+      "explanation": "'bus stops' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q031",
+      "questionText": "What is the correct plural of the compound noun 'mother-in-law'?",
+      "optionA": "mother-in-laws",
+      "optionB": "mothers-in-laws",
+      "optionC": "motherinlaws",
+      "optionD": "mothers-in-law",
+      "correctOption": "Option D",
+      "explanation": "'mothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q032",
+      "questionText": "What is the correct plural of the compound noun 'washing machine'?",
+      "optionA": "washing machiness",
+      "optionB": "washing machines",
+      "optionC": "washing machinees",
+      "optionD": "washing machines",
+      "correctOption": "Option B",
+      "explanation": "'washing machines' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q033",
+      "questionText": "What is the correct plural of the compound noun 'swimming pool'?",
+      "optionA": "swimming pools",
+      "optionB": "swimming pooles",
+      "optionC": "swimming poolss",
+      "optionD": "swimming pools",
+      "correctOption": "Option A",
+      "explanation": "'swimming pools' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q034",
+      "questionText": "What is the correct plural of the compound noun 'toothpaste'?",
+      "optionA": "toothpastess",
+      "optionB": "toothpastees",
+      "optionC": "toothpastes",
+      "optionD": "toothpastes",
+      "correctOption": "Option C",
+      "explanation": "'toothpastes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q035",
+      "questionText": "What is the correct plural of the compound noun 'haircut'?",
+      "optionA": "haircuts",
+      "optionB": "haircutes",
+      "optionC": "haircutss",
+      "optionD": "haircuts",
+      "correctOption": "Option A",
+      "explanation": "'haircuts' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q036",
+      "questionText": "What is the correct plural of the compound noun 'passer-by'?",
+      "optionA": "passers-by",
+      "optionB": "passers-bys",
+      "optionC": "passer-bys",
+      "optionD": "passerbys",
+      "correctOption": "Option A",
+      "explanation": "'passers-by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q037",
+      "questionText": "What is the correct plural of the compound noun 'brother-in-law'?",
+      "optionA": "brotherinlaws",
+      "optionB": "brothers-in-laws",
+      "optionC": "brothers-in-law",
+      "optionD": "brother-in-laws",
+      "correctOption": "Option C",
+      "explanation": "'brothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q038",
+      "questionText": "What is the correct plural of the compound noun 'greenhouse'?",
+      "optionA": "greenhousees",
+      "optionB": "greenhouses",
+      "optionC": "greenhouses",
+      "optionD": "greenhousess",
+      "correctOption": "Option B",
+      "explanation": "'greenhouses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q039",
+      "questionText": "What is the correct plural of the compound noun 'software'?",
+      "optionA": "softwares",
+      "optionB": "software",
+      "optionC": "softwares",
+      "optionD": "softwares",
+      "correctOption": "Option B",
+      "explanation": "'software' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q040",
+      "questionText": "What is the correct plural of the compound noun 'bus stop'?",
+      "optionA": "bus stopss",
+      "optionB": "bus stops",
+      "optionC": "bus stopes",
+      "optionD": "bus stops",
+      "correctOption": "Option B",
+      "explanation": "'bus stops' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q041",
+      "questionText": "What is the correct plural of the compound noun 'mother-in-law'?",
+      "optionA": "mothers-in-law",
+      "optionB": "mother-in-laws",
+      "optionC": "motherinlaws",
+      "optionD": "mothers-in-laws",
+      "correctOption": "Option A",
+      "explanation": "'mothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q042",
+      "questionText": "What is the correct plural of the compound noun 'washing machine'?",
+      "optionA": "washing machines",
+      "optionB": "washing machines",
+      "optionC": "washing machinees",
+      "optionD": "washing machiness",
+      "correctOption": "Option A",
+      "explanation": "'washing machines' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q043",
+      "questionText": "What is the correct plural of the compound noun 'swimming pool'?",
+      "optionA": "swimming pools",
+      "optionB": "swimming poolss",
+      "optionC": "swimming pools",
+      "optionD": "swimming pooles",
+      "correctOption": "Option A",
+      "explanation": "'swimming pools' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q044",
+      "questionText": "What is the correct plural of the compound noun 'toothpaste'?",
+      "optionA": "toothpastess",
+      "optionB": "toothpastes",
+      "optionC": "toothpastes",
+      "optionD": "toothpastees",
+      "correctOption": "Option B",
+      "explanation": "'toothpastes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q045",
+      "questionText": "What is the correct plural of the compound noun 'haircut'?",
+      "optionA": "haircuts",
+      "optionB": "haircutes",
+      "optionC": "haircutss",
+      "optionD": "haircuts",
+      "correctOption": "Option A",
+      "explanation": "'haircuts' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q046",
+      "questionText": "What is the correct plural of the compound noun 'passer-by'?",
+      "optionA": "passerbys",
+      "optionB": "passer-bys",
+      "optionC": "passers-bys",
+      "optionD": "passers-by",
+      "correctOption": "Option D",
+      "explanation": "'passers-by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q047",
+      "questionText": "What is the correct plural of the compound noun 'brother-in-law'?",
+      "optionA": "brothers-in-laws",
+      "optionB": "brotherinlaws",
+      "optionC": "brothers-in-law",
+      "optionD": "brother-in-laws",
+      "correctOption": "Option C",
+      "explanation": "'brothers-in-law' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q048",
+      "questionText": "What is the correct plural of the compound noun 'greenhouse'?",
+      "optionA": "greenhousees",
+      "optionB": "greenhouses",
+      "optionC": "greenhousess",
+      "optionD": "greenhouses",
+      "correctOption": "Option B",
+      "explanation": "'greenhouses' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q049",
+      "questionText": "What is the correct plural of the compound noun 'software'?",
+      "optionA": "softwares",
+      "optionB": "software",
+      "optionC": "softwares",
+      "optionD": "softwares",
+      "correctOption": "Option B",
+      "explanation": "'software' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T028-Q050",
+      "questionText": "What is the correct plural of the compound noun 'bus stop'?",
+      "optionA": "bus stops",
+      "optionB": "bus stops",
+      "optionC": "bus stopes",
+      "optionD": "bus stopss",
+      "correctOption": "Option A",
+      "explanation": "'bus stops' is the correct choice in standard English grammar."
+    }
+  ]
+}

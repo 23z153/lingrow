@@ -1,0 +1,507 @@
+{
+  "topicId": 22,
+  "topicName": "Material nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T022-Q001",
+      "questionText": "Which of the following is a material noun?",
+      "optionA": "Gold",
+      "optionB": "Honesty",
+      "optionC": "Committee",
+      "optionD": "Student",
+      "correctOption": "Option A",
+      "explanation": "'Gold' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q002",
+      "questionText": "Which noun refers to a substance or material from which things can be made?",
+      "optionA": "Wood",
+      "optionB": "Engineer",
+      "optionC": "Freedom",
+      "optionD": "Team",
+      "correctOption": "Option A",
+      "explanation": "'Wood' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q003",
+      "questionText": "Identify the material noun in the sentence: “The table is made of wood.”",
+      "optionA": "Table",
+      "optionB": "Made",
+      "optionC": "Wood",
+      "optionD": "Of",
+      "correctOption": "Option C",
+      "explanation": "'Wood' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q004",
+      "questionText": "Which of the following is a material noun?",
+      "optionA": "Iron",
+      "optionB": "Courage",
+      "optionC": "Teacher",
+      "optionD": "Committee",
+      "correctOption": "Option A",
+      "explanation": "'Iron' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q005",
+      "questionText": "Which sentence contains a material noun?",
+      "optionA": "The researcher showed patience.",
+      "optionB": "The bridge was constructed from steel.",
+      "optionC": "The committee discussed the proposal.",
+      "optionD": "The student demonstrated confidence.",
+      "correctOption": "Option B",
+      "explanation": "'The bridge was constructed from steel' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q006",
+      "questionText": "Which word refers to a naturally occurring substance?",
+      "optionA": "Copper",
+      "optionB": "Researcher",
+      "optionC": "Knowledge",
+      "optionD": "Audience",
+      "correctOption": "Option A",
+      "explanation": "'Copper' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q007",
+      "questionText": "Identify the material noun: “The laboratory uses glass containers for experiments.”",
+      "optionA": "Laboratory",
+      "optionB": "Uses",
+      "optionC": "Glass",
+      "optionD": "Experiments",
+      "correctOption": "Option C",
+      "explanation": "'Glass' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q008",
+      "questionText": "Which of the following is NOT a material noun?",
+      "optionA": "Silver",
+      "optionB": "Cotton",
+      "optionC": "Plastic",
+      "optionD": "Honesty",
+      "correctOption": "Option D",
+      "explanation": "'Honesty' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q009",
+      "questionText": "Which noun is a material commonly used to manufacture electrical wires?",
+      "optionA": "Copper",
+      "optionB": "Intelligence",
+      "optionC": "Committee",
+      "optionD": "Engineer",
+      "correctOption": "Option A",
+      "explanation": "'Copper' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q010",
+      "questionText": "Which material noun is commonly used to make windows?",
+      "optionA": "Glass",
+      "optionB": "Wisdom",
+      "optionC": "Student",
+      "optionD": "Team",
+      "correctOption": "Option A",
+      "explanation": "'Glass' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q011",
+      "questionText": "Identify the material noun in: “The sculpture was carved from marble.”",
+      "optionA": "Sculpture",
+      "optionB": "Carved",
+      "optionC": "Marble",
+      "optionD": "From",
+      "correctOption": "Option C",
+      "explanation": "'Marble' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q012",
+      "questionText": "Which word is a material noun?",
+      "optionA": "Steel",
+      "optionB": "Leadership",
+      "optionC": "Faculty",
+      "optionD": "Researcher",
+      "correctOption": "Option A",
+      "explanation": "'Steel' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q013",
+      "questionText": "Which sentence contains a material noun referring to a textile?",
+      "optionA": "The designer selected cotton for the fabric.",
+      "optionB": "The designer showed creativity.",
+      "optionC": "The committee approved the design.",
+      "optionD": "The student demonstrated patience.",
+      "correctOption": "Option A",
+      "explanation": "'The designer selected cotton for the fabric' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q014",
+      "questionText": "Which of the following is a material noun?",
+      "optionA": "Leather",
+      "optionB": "Friendship",
+      "optionC": "Audience",
+      "optionD": "Professor",
+      "correctOption": "Option A",
+      "explanation": "'Leather' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q015",
+      "questionText": "Identify the material noun: “The laboratory stores chemicals in plastic containers.”",
+      "optionA": "Laboratory",
+      "optionB": "Chemicals",
+      "optionC": "Plastic",
+      "optionD": "Containers",
+      "correctOption": "Option C",
+      "explanation": "'Plastic' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q016",
+      "questionText": "Which noun refers to a substance obtained from trees and commonly used in construction?",
+      "optionA": "Wood",
+      "optionB": "Knowledge",
+      "optionC": "Faculty",
+      "optionD": "Research",
+      "correctOption": "Option A",
+      "explanation": "'Wood' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q017",
+      "questionText": "Which pair contains only material nouns?",
+      "optionA": "Gold, silver",
+      "optionB": "Gold, honesty",
+      "optionC": "Silver, courage",
+      "optionD": "Steel, engineer",
+      "correctOption": "Option A",
+      "explanation": "'Gold, silver' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q018",
+      "questionText": "Which sentence contains two material nouns?",
+      "optionA": "The device contains copper and plastic components.",
+      "optionB": "The engineer demonstrated creativity.",
+      "optionC": "The team showed determination.",
+      "optionD": "The researcher presented the findings.",
+      "correctOption": "Option A",
+      "explanation": "'The device contains copper and plastic components' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q019",
+      "questionText": "Which of the following is a material noun associated with construction?",
+      "optionA": "Cement",
+      "optionB": "Leadership",
+      "optionC": "Committee",
+      "optionD": "Intelligence",
+      "correctOption": "Option A",
+      "explanation": "'Cement' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q020",
+      "questionText": "Identify the material noun in: “The technician replaced the damaged copper wire.”",
+      "optionA": "Technician",
+      "optionB": "Replaced",
+      "optionC": "Damaged",
+      "optionD": "Copper",
+      "correctOption": "Option D",
+      "explanation": "'Copper' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q021",
+      "questionText": "Which noun refers to a substance used to produce paper?",
+      "optionA": "Pulp",
+      "optionB": "Knowledge",
+      "optionC": "Researcher",
+      "optionD": "Team",
+      "correctOption": "Option A",
+      "explanation": "'Pulp' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q022",
+      "questionText": "Which of the following is a material noun commonly used in clothing?",
+      "optionA": "Wool",
+      "optionB": "Patience",
+      "optionC": "Leadership",
+      "optionD": "Committee",
+      "correctOption": "Option A",
+      "explanation": "'Wool' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q023",
+      "questionText": "Identify the material noun: “The manufacturer used aluminum to reduce the product's weight.”",
+      "optionA": "Manufacturer",
+      "optionB": "Aluminum",
+      "optionC": "Product",
+      "optionD": "Weight",
+      "correctOption": "Option B",
+      "explanation": "'Aluminum' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q024",
+      "questionText": "Which sentence correctly uses a material noun?",
+      "optionA": "The technician repaired the copper cable.",
+      "optionB": "The technician repaired the honesty.",
+      "optionC": "The technician repaired the courage.",
+      "optionD": "The technician repaired the patience.",
+      "correctOption": "Option A",
+      "explanation": "'The technician repaired the copper cable' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q025",
+      "questionText": "Which material noun is commonly used for making furniture?",
+      "optionA": "Timber",
+      "optionB": "Confidence",
+      "optionC": "Responsibility",
+      "optionD": "Committee",
+      "correctOption": "Option A",
+      "explanation": "'Timber' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q026",
+      "questionText": "Which of the following is a material noun derived from a natural resource?",
+      "optionA": "Coal",
+      "optionB": "Friendship",
+      "optionC": "Audience",
+      "optionD": "Wisdom",
+      "correctOption": "Option A",
+      "explanation": "'Coal' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q027",
+      "questionText": "Identify the material noun in: “The factory processes raw cotton into fabric.”",
+      "optionA": "Factory",
+      "optionB": "Processes",
+      "optionC": "Cotton",
+      "optionD": "Fabric",
+      "correctOption": "Option C",
+      "explanation": "'Cotton' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q028",
+      "questionText": "Which noun is a material used to manufacture many electronic components?",
+      "optionA": "Silicon",
+      "optionB": "Courage",
+      "optionC": "Leadership",
+      "optionD": "Faculty",
+      "correctOption": "Option A",
+      "explanation": "'Silicon' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q029",
+      "questionText": "Which pair contains a material noun and an abstract noun?",
+      "optionA": "Iron, courage",
+      "optionB": "Gold, silver",
+      "optionC": "Cotton, wool",
+      "optionD": "Steel, copper",
+      "correctOption": "Option A",
+      "explanation": "'Iron, courage' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q030",
+      "questionText": "Which sentence contains a material noun referring to a precious substance?",
+      "optionA": "The researcher showed great patience.",
+      "optionB": "The necklace was made of gold.",
+      "optionC": "The team demonstrated unity.",
+      "optionD": "The professor valued honesty.",
+      "correctOption": "Option B",
+      "explanation": "'The necklace was made of gold' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q031",
+      "questionText": "Which material noun is commonly associated with fuel?",
+      "optionA": "Petrol",
+      "optionB": "Friendship",
+      "optionC": "Committee",
+      "optionD": "Knowledge",
+      "correctOption": "Option A",
+      "explanation": "'Petrol' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q032",
+      "questionText": "Identify the material noun in: “The artist mixed oil with pigments.”",
+      "optionA": "Artist",
+      "optionB": "Mixed",
+      "optionC": "Oil",
+      "optionD": "Pigments",
+      "correctOption": "Option C",
+      "explanation": "'Oil' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q033",
+      "questionText": "Which of the following is a material noun used in food preparation?",
+      "optionA": "Sugar",
+      "optionB": "Intelligence",
+      "optionC": "Committee",
+      "optionD": "Researcher",
+      "correctOption": "Option A",
+      "explanation": "'Sugar' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q034",
+      "questionText": "Which sentence contains a material noun referring to a liquid?",
+      "optionA": "The container is filled with water.",
+      "optionB": "The student showed determination.",
+      "optionC": "The committee reached an agreement.",
+      "optionD": "The researcher demonstrated creativity.",
+      "correctOption": "Option A",
+      "explanation": "'The container is filled with water' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q035",
+      "questionText": "Which word is a material noun?",
+      "optionA": "Water",
+      "optionB": "Happiness",
+      "optionC": "Team",
+      "optionD": "Lecturer",
+      "correctOption": "Option A",
+      "explanation": "'Water' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q036",
+      "questionText": "Identify the material noun in: “The manufacturer selected rubber for the protective covering.”",
+      "optionA": "Manufacturer",
+      "optionB": "Selected",
+      "optionC": "Rubber",
+      "optionD": "Covering",
+      "correctOption": "Option C",
+      "explanation": "'Rubber' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q037",
+      "questionText": "Which pair consists entirely of material nouns?",
+      "optionA": "Rubber, plastic",
+      "optionB": "Rubber, honesty",
+      "optionC": "Plastic, courage",
+      "optionD": "Glass, intelligence",
+      "correctOption": "Option A",
+      "explanation": "'Rubber, plastic' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q038",
+      "questionText": "Which material noun is commonly used to make ropes and textiles?",
+      "optionA": "Nylon",
+      "optionB": "Knowledge",
+      "optionC": "Leadership",
+      "optionD": "Audience",
+      "correctOption": "Option A",
+      "explanation": "'Nylon' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q039",
+      "questionText": "Which sentence contains a material noun used as the substance from which an object is made?",
+      "optionA": "The chair is made of metal.",
+      "optionB": "The student showed confidence.",
+      "optionC": "The team demonstrated unity.",
+      "optionD": "The professor explained the concept.",
+      "correctOption": "Option A",
+      "explanation": "'The chair is made of metal' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q040",
+      "questionText": "Identify the material noun: “The construction company ordered bricks and cement.”",
+      "optionA": "Construction",
+      "optionB": "Company",
+      "optionC": "Bricks",
+      "optionD": "Cement",
+      "correctOption": "Option D",
+      "explanation": "'Cement' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q041",
+      "questionText": "Which of the following is a material noun associated with agriculture?",
+      "optionA": "Fertilizer",
+      "optionB": "Responsibility",
+      "optionC": "Committee",
+      "optionD": "Knowledge",
+      "correctOption": "Option A",
+      "explanation": "'Fertilizer' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q042",
+      "questionText": "Which noun refers to a material used to make many containers and packages?",
+      "optionA": "Plastic",
+      "optionB": "Courage",
+      "optionC": "Wisdom",
+      "optionD": "Friendship",
+      "correctOption": "Option A",
+      "explanation": "'Plastic' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q043",
+      "questionText": "Identify the material noun in: “The laboratory equipment is made from stainless steel.”",
+      "optionA": "Laboratory",
+      "optionB": "Equipment",
+      "optionC": "Made",
+      "optionD": "Steel",
+      "correctOption": "Option D",
+      "explanation": "'Steel' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q044",
+      "questionText": "Which sentence contains a material noun referring to a mineral?",
+      "optionA": "The company extracted iron from the mine.",
+      "optionB": "The company demonstrated responsibility.",
+      "optionC": "The manager showed patience.",
+      "optionD": "The team developed confidence.",
+      "correctOption": "Option A",
+      "explanation": "'The company extracted iron from the mine' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q045",
+      "questionText": "Which of the following is a material noun?",
+      "optionA": "Hydrogen",
+      "optionB": "Honesty",
+      "optionC": "Leadership",
+      "optionD": "Committee",
+      "correctOption": "Option A",
+      "explanation": "'Hydrogen' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q046",
+      "questionText": "Which sentence contains two material nouns?",
+      "optionA": "The bottle contains water and glass.",
+      "optionB": "The student showed patience and courage.",
+      "optionC": "The committee discussed responsibility and honesty.",
+      "optionD": "The researcher demonstrated intelligence and creativity.",
+      "correctOption": "Option A",
+      "explanation": "'The bottle contains water and glass' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q047",
+      "questionText": "Which material noun is commonly used for making books and newspapers?",
+      "optionA": "Paper",
+      "optionB": "Knowledge",
+      "optionC": "Research",
+      "optionD": "Information",
+      "correctOption": "Option A",
+      "explanation": "'Paper' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q048",
+      "questionText": "Identify the material noun in: “The engineer tested the strength of the concrete.”",
+      "optionA": "Engineer",
+      "optionB": "Tested",
+      "optionC": "Strength",
+      "optionD": "Concrete",
+      "correctOption": "Option D",
+      "explanation": "'Concrete' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q049",
+      "questionText": "Which option contains only material nouns?",
+      "optionA": "Cotton, leather, wool",
+      "optionB": "Cotton, patience, wool",
+      "optionC": "Leather, courage, steel",
+      "optionD": "Wool, intelligence, plastic",
+      "correctOption": "Option A",
+      "explanation": "'Cotton, leather, wool' is a material noun because it refers to a substance or raw material used to produce things."
+    },
+    {
+      "questionId": "T022-Q050",
+      "questionText": "Which sentence best demonstrates the use of a material noun?",
+      "optionA": "The architect selected marble for the building's interior.",
+      "optionB": "The architect demonstrated creativity in the design.",
+      "optionC": "The architect valued honesty in the workplace.",
+      "optionD": "The architect showed patience during the meeting.",
+      "correctOption": "Option A",
+      "explanation": "'The architect selected marble for the building's interior' is a material noun because it refers to a substance or raw material used to produce things."
+    }
+  ]
+}

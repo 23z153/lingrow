@@ -1,0 +1,507 @@
+{
+  "topicId": 69,
+  "topicName": "Participial adjectives",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T069-Q001",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tired",
+      "optionB": "tirely",
+      "optionC": "tire",
+      "optionD": "tiring",
+      "correctOption": "Option A",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q002",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuses",
+      "optionB": "confusing",
+      "optionC": "confuse",
+      "optionD": "confused",
+      "correctOption": "Option B",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q003",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "child",
+      "optionC": "The",
+      "optionD": "cried",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q004",
+      "questionText": "The movie was very _____.",
+      "optionA": "interest",
+      "optionB": "confused",
+      "optionC": "interestingly",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q005",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tirely",
+      "optionB": "tire",
+      "optionC": "tired",
+      "optionD": "tiring",
+      "correctOption": "Option C",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q006",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confused",
+      "optionB": "confuse",
+      "optionC": "confuses",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q007",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "child",
+      "optionB": "frightened",
+      "optionC": "cried",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q008",
+      "questionText": "The movie was very _____.",
+      "optionA": "interest",
+      "optionB": "shocking",
+      "optionC": "shocked",
+      "optionD": "interestingly",
+      "correctOption": "Option B",
+      "explanation": "'shocking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q009",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tired",
+      "optionB": "tire",
+      "optionC": "tiring",
+      "optionD": "tirely",
+      "correctOption": "Option A",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q010",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuses",
+      "optionB": "confuse",
+      "optionC": "confusing",
+      "optionD": "confused",
+      "correctOption": "Option C",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q011",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "cried",
+      "optionB": "The",
+      "optionC": "child",
+      "optionD": "frightened",
+      "correctOption": "Option D",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q012",
+      "questionText": "The movie was very _____.",
+      "optionA": "tiring",
+      "optionB": "interestingly",
+      "optionC": "interest",
+      "optionD": "tired",
+      "correctOption": "Option A",
+      "explanation": "'tiring' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q013",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tiring",
+      "optionB": "tirely",
+      "optionC": "tire",
+      "optionD": "tired",
+      "correctOption": "Option D",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q014",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuse",
+      "optionB": "confuses",
+      "optionC": "confused",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q015",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "child",
+      "optionC": "cried",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q016",
+      "questionText": "The movie was very _____.",
+      "optionA": "frightening",
+      "optionB": "frightened",
+      "optionC": "interest",
+      "optionD": "interestingly",
+      "correctOption": "Option A",
+      "explanation": "'frightening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q017",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tiring",
+      "optionC": "tired",
+      "optionD": "tirely",
+      "correctOption": "Option C",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q018",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuse",
+      "optionB": "confusing",
+      "optionC": "confused",
+      "optionD": "confuses",
+      "correctOption": "Option B",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q019",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "child",
+      "optionC": "The",
+      "optionD": "cried",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q020",
+      "questionText": "The movie was very _____.",
+      "optionA": "boring",
+      "optionB": "interest",
+      "optionC": "interestingly",
+      "optionD": "bored",
+      "correctOption": "Option A",
+      "explanation": "'boring' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q021",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tirely",
+      "optionB": "tiring",
+      "optionC": "tire",
+      "optionD": "tired",
+      "correctOption": "Option D",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q022",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confusing",
+      "optionB": "confuse",
+      "optionC": "confuses",
+      "optionD": "confused",
+      "correctOption": "Option A",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q023",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "child",
+      "optionB": "frightened",
+      "optionC": "The",
+      "optionD": "cried",
+      "correctOption": "Option B",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q024",
+      "questionText": "The movie was very _____.",
+      "optionA": "interestingly",
+      "optionB": "interest",
+      "optionC": "confusing",
+      "optionD": "confused",
+      "correctOption": "Option C",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q025",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tiring",
+      "optionB": "tired",
+      "optionC": "tire",
+      "optionD": "tirely",
+      "correctOption": "Option B",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q026",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuse",
+      "optionB": "confuses",
+      "optionC": "confusing",
+      "optionD": "confused",
+      "correctOption": "Option C",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q027",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "cried",
+      "optionC": "child",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q028",
+      "questionText": "The movie was very _____.",
+      "optionA": "shocked",
+      "optionB": "interest",
+      "optionC": "shocking",
+      "optionD": "interestingly",
+      "correctOption": "Option C",
+      "explanation": "'shocking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q029",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tired",
+      "optionC": "tiring",
+      "optionD": "tirely",
+      "correctOption": "Option B",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q030",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuse",
+      "optionB": "confusing",
+      "optionC": "confused",
+      "optionD": "confuses",
+      "correctOption": "Option B",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q031",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "The",
+      "optionC": "child",
+      "optionD": "cried",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q032",
+      "questionText": "The movie was very _____.",
+      "optionA": "tired",
+      "optionB": "tiring",
+      "optionC": "interest",
+      "optionD": "interestingly",
+      "correctOption": "Option B",
+      "explanation": "'tiring' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q033",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tiring",
+      "optionC": "tired",
+      "optionD": "tirely",
+      "correctOption": "Option C",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q034",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuse",
+      "optionB": "confusing",
+      "optionC": "confused",
+      "optionD": "confuses",
+      "correctOption": "Option B",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q035",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "cried",
+      "optionC": "child",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q036",
+      "questionText": "The movie was very _____.",
+      "optionA": "interest",
+      "optionB": "frightening",
+      "optionC": "interestingly",
+      "optionD": "frightened",
+      "correctOption": "Option B",
+      "explanation": "'frightening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q037",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tirely",
+      "optionC": "tiring",
+      "optionD": "tired",
+      "correctOption": "Option D",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q038",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confuses",
+      "optionB": "confused",
+      "optionC": "confuse",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q039",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "cried",
+      "optionB": "frightened",
+      "optionC": "The",
+      "optionD": "child",
+      "correctOption": "Option B",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q040",
+      "questionText": "The movie was very _____.",
+      "optionA": "interestingly",
+      "optionB": "interest",
+      "optionC": "bored",
+      "optionD": "boring",
+      "correctOption": "Option D",
+      "explanation": "'boring' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q041",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tirely",
+      "optionB": "tiring",
+      "optionC": "tired",
+      "optionD": "tire",
+      "correctOption": "Option C",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q042",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confusing",
+      "optionB": "confuses",
+      "optionC": "confused",
+      "optionD": "confuse",
+      "correctOption": "Option A",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q043",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "frightened",
+      "optionB": "The",
+      "optionC": "child",
+      "optionD": "cried",
+      "correctOption": "Option A",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q044",
+      "questionText": "The movie was very _____.",
+      "optionA": "interest",
+      "optionB": "interestingly",
+      "optionC": "confused",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q045",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tirely",
+      "optionC": "tiring",
+      "optionD": "tired",
+      "correctOption": "Option D",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q046",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confused",
+      "optionB": "confuses",
+      "optionC": "confuse",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q047",
+      "questionText": "Identify the participial adjective: 'The frightened child cried.'",
+      "optionA": "child",
+      "optionB": "cried",
+      "optionC": "The",
+      "optionD": "frightened",
+      "correctOption": "Option D",
+      "explanation": "'frightened' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q048",
+      "questionText": "The movie was very _____.",
+      "optionA": "shocked",
+      "optionB": "interestingly",
+      "optionC": "interest",
+      "optionD": "shocking",
+      "correctOption": "Option D",
+      "explanation": "'shocking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q049",
+      "questionText": "I felt very _____ after the long trip.",
+      "optionA": "tire",
+      "optionB": "tirely",
+      "optionC": "tired",
+      "optionD": "tiring",
+      "correctOption": "Option C",
+      "explanation": "'tired' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T069-Q050",
+      "questionText": "Choose the correct word: The instructions were _____.",
+      "optionA": "confused",
+      "optionB": "confuses",
+      "optionC": "confuse",
+      "optionD": "confusing",
+      "correctOption": "Option D",
+      "explanation": "'confusing' is the correct choice in standard English grammar."
+    }
+  ]
+}

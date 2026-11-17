@@ -1,0 +1,507 @@
+{
+  "topicId": 18,
+  "topicName": "Proper nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T018-Q001",
+      "questionText": "My professor is ___ Smith.",
+      "optionA": "DR.",
+      "optionB": "doctor",
+      "optionC": "dr.",
+      "optionD": "Dr.",
+      "correctOption": "Option D",
+      "explanation": "'Dr' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q002",
+      "questionText": "I have a meeting with ___.",
+      "optionA": "professor Davis",
+      "optionB": "Professor Davis",
+      "optionC": "professor davis",
+      "optionD": "Professor davis",
+      "correctOption": "Option B",
+      "explanation": "'Professor Davis' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q003",
+      "questionText": "The new student's name is ___.",
+      "optionA": "Maria Garcia",
+      "optionB": "maria Garcia",
+      "optionC": "Maria garcia",
+      "optionD": "maria garcia",
+      "correctOption": "Option A",
+      "explanation": "'Maria Garcia' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q004",
+      "questionText": "We study the theories of ___.",
+      "optionA": "isaac newton",
+      "optionB": "Isaac Newton",
+      "optionC": "Isaac newton",
+      "optionD": "isaac Newton",
+      "correctOption": "Option B",
+      "explanation": "'Isaac Newton' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q005",
+      "questionText": "Have you met ___?",
+      "optionA": "mr. Johnson",
+      "optionB": "mr. johnson",
+      "optionC": "Mr. Johnson",
+      "optionD": "Mr. johnson",
+      "correctOption": "Option C",
+      "explanation": "'Mr. Johnson' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q006",
+      "questionText": "Our English class is on ___.",
+      "optionA": "Monday",
+      "optionB": "monday's",
+      "optionC": "Mondays'",
+      "optionD": "monday",
+      "correctOption": "Option A",
+      "explanation": "'Monday' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q007",
+      "questionText": "The campus library is closed every ___.",
+      "optionA": "sunday",
+      "optionB": "Sunday",
+      "optionC": "sundays",
+      "optionD": "SunDay",
+      "correctOption": "Option B",
+      "explanation": "'Sunday' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q008",
+      "questionText": "The final exam is next ___.",
+      "optionA": "wednesdays",
+      "optionB": "WEDnesday",
+      "optionC": "Wednesday",
+      "optionD": "wednesday",
+      "correctOption": "Option C",
+      "explanation": "'Wednesday' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q009",
+      "questionText": "We have a lab session on ___ morning.",
+      "optionA": "Tuesday",
+      "optionB": "tuesday",
+      "optionC": "tuesday's",
+      "optionD": "tuesdays",
+      "correctOption": "Option A",
+      "explanation": "'Tuesday' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q010",
+      "questionText": "The student club meets this ___.",
+      "optionA": "Friday",
+      "optionB": "friday",
+      "optionC": "friday's",
+      "optionD": "fridays",
+      "correctOption": "Option A",
+      "explanation": "'Friday' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q011",
+      "questionText": "The semester begins in ___.",
+      "optionA": "September",
+      "optionB": "september",
+      "optionC": "sept",
+      "optionD": "septembers",
+      "correctOption": "Option A",
+      "explanation": "'September' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q012",
+      "questionText": "Spring break is in ___.",
+      "optionA": "March",
+      "optionB": "march",
+      "optionC": "marches",
+      "optionD": "Marchs",
+      "correctOption": "Option A",
+      "explanation": "'March' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q013",
+      "questionText": "Final grades are posted in ___.",
+      "optionA": "dec",
+      "optionB": "December",
+      "optionC": "december",
+      "optionD": "decembers",
+      "correctOption": "Option B",
+      "explanation": "'December' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q014",
+      "questionText": "I started university last ___.",
+      "optionA": "augusts",
+      "optionB": "aug",
+      "optionC": "August",
+      "optionD": "august",
+      "correctOption": "Option C",
+      "explanation": "'August' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q015",
+      "questionText": "The conference is in ___.",
+      "optionA": "january",
+      "optionB": "January",
+      "optionC": "JanUary",
+      "optionD": "jan",
+      "correctOption": "Option B",
+      "explanation": "'January' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q016",
+      "questionText": "The university is located in ___.",
+      "optionA": "Bostons",
+      "optionB": "Boston",
+      "optionC": "bostons",
+      "optionD": "boston",
+      "correctOption": "Option B",
+      "explanation": "'Boston' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q017",
+      "questionText": "She is an international student from ___.",
+      "optionA": "TOkyo",
+      "optionB": "tokyo",
+      "optionC": "Tokyo",
+      "optionD": "tokyos",
+      "correctOption": "Option C",
+      "explanation": "'Tokyo' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q018",
+      "questionText": "Our research team traveled to ___.",
+      "optionA": "londons",
+      "optionB": "Londons",
+      "optionC": "London",
+      "optionD": "london",
+      "correctOption": "Option C",
+      "explanation": "'London' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q019",
+      "questionText": "The academic conference will be held in ___.",
+      "optionA": "paris",
+      "optionB": "parises",
+      "optionC": "Parises",
+      "optionD": "Paris",
+      "correctOption": "Option D",
+      "explanation": "'Paris' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q020",
+      "questionText": "Many students live in ___.",
+      "optionA": "new york",
+      "optionB": "new York",
+      "optionC": "New york",
+      "optionD": "New York",
+      "correctOption": "Option D",
+      "explanation": "'New York' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q021",
+      "questionText": "He is studying the history of ___.",
+      "optionA": "canada",
+      "optionB": "canadas",
+      "optionC": "Canadas",
+      "optionD": "Canada",
+      "correctOption": "Option D",
+      "explanation": "'Canada' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q022",
+      "questionText": "There are many students from ___ in this program.",
+      "optionA": "chinas",
+      "optionB": "Chinas",
+      "optionC": "china",
+      "optionD": "China",
+      "correctOption": "Option D",
+      "explanation": "'China' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q023",
+      "questionText": "She received a scholarship to study in ___.",
+      "optionA": "australia",
+      "optionB": "Australias",
+      "optionC": "Australia",
+      "optionD": "australias",
+      "correctOption": "Option C",
+      "explanation": "'Australia' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q024",
+      "questionText": "The exchange program is in ___.",
+      "optionA": "mexicos",
+      "optionB": "mexico",
+      "optionC": "Mexicos",
+      "optionD": "Mexico",
+      "correctOption": "Option D",
+      "explanation": "'Mexico' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q025",
+      "questionText": "They are researching the economy of ___.",
+      "optionA": "Brazil",
+      "optionB": "Brazils",
+      "optionC": "brazil",
+      "optionD": "brazils",
+      "correctOption": "Option A",
+      "explanation": "'Brazil' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q026",
+      "questionText": "In this class, we must speak ___.",
+      "optionA": "english",
+      "optionB": "Englishes",
+      "optionC": "English",
+      "optionD": "englishes",
+      "correctOption": "Option C",
+      "explanation": "'English' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q027",
+      "questionText": "She is taking a course in ___ literature.",
+      "optionA": "Spanishes",
+      "optionB": "spanish",
+      "optionC": "Spanish",
+      "optionD": "spanishes",
+      "correctOption": "Option C",
+      "explanation": "'Spanish' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q028",
+      "questionText": "The professor speaks fluent ___.",
+      "optionA": "japaneses",
+      "optionB": "Japanese",
+      "optionC": "japanese",
+      "optionD": "Japaneses",
+      "correctOption": "Option B",
+      "explanation": "'Japanese' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q029",
+      "questionText": "Many students in the dorm are ___.",
+      "optionA": "Frenches",
+      "optionB": "frenches",
+      "optionC": "French",
+      "optionD": "french",
+      "correctOption": "Option C",
+      "explanation": "'French' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q030",
+      "questionText": "I am learning ___ this semester.",
+      "optionA": "arabic",
+      "optionB": "Arabic",
+      "optionC": "Arabics",
+      "optionD": "arabics",
+      "correctOption": "Option B",
+      "explanation": "'Arabic' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q031",
+      "questionText": "She was accepted to ___.",
+      "optionA": "Harvard university",
+      "optionB": "harvard university",
+      "optionC": "Harvard University",
+      "optionD": "harvard University",
+      "correctOption": "Option C",
+      "explanation": "'Harvard University' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q032",
+      "questionText": "He studies at ___.",
+      "optionA": "Stanford University",
+      "optionB": "stanford university",
+      "optionC": "Stanford university",
+      "optionD": "stanford University",
+      "correctOption": "Option A",
+      "explanation": "'Stanford University' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q033",
+      "questionText": "They met at ___.",
+      "optionA": "oxfords",
+      "optionB": "Oxford",
+      "optionC": "oxford",
+      "optionD": "Oxfords",
+      "correctOption": "Option B",
+      "explanation": "'Oxford' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q034",
+      "questionText": "The library at ___ is very large.",
+      "optionA": "Yale",
+      "optionB": "yales",
+      "optionC": "Yales",
+      "optionD": "yale",
+      "correctOption": "Option A",
+      "explanation": "'Yale' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q035",
+      "questionText": "I will transfer to ___ next year.",
+      "optionA": "Columbia university",
+      "optionB": "Columbia University",
+      "optionC": "columbia university",
+      "optionD": "columbia University",
+      "correctOption": "Option B",
+      "explanation": "'Columbia University' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q036",
+      "questionText": "Campus is closed for ___.",
+      "optionA": "thanksgiving",
+      "optionB": "thanksgivings",
+      "optionC": "Thanksgiving",
+      "optionD": "Thanksgivings",
+      "correctOption": "Option C",
+      "explanation": "'Thanksgiving' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q037",
+      "questionText": "Are you going home for ___?",
+      "optionA": "christmases",
+      "optionB": "Christmases",
+      "optionC": "christmas",
+      "optionD": "Christmas",
+      "correctOption": "Option D",
+      "explanation": "'Christmas' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q038",
+      "questionText": "The spring semester starts after ___.",
+      "optionA": "New Year's day",
+      "optionB": "New year's day",
+      "optionC": "New Year's Day",
+      "optionD": "new year's day",
+      "correctOption": "Option C",
+      "explanation": "'New Year's Day' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q039",
+      "questionText": "We have no classes on ___.",
+      "optionA": "Independence day",
+      "optionB": "Independence Day",
+      "optionC": "independence day",
+      "optionD": "independence Day",
+      "correctOption": "Option B",
+      "explanation": "'Independence Day' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q040",
+      "questionText": "She traveled during the ___ break.",
+      "optionA": "easter",
+      "optionB": "easters",
+      "optionC": "Easters",
+      "optionD": "Easter",
+      "correctOption": "Option D",
+      "explanation": "'Easter' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q041",
+      "questionText": "I am registered for ___.",
+      "optionA": "Biology 101",
+      "optionB": "biology class",
+      "optionC": "biology one hundred",
+      "optionD": "biology 101",
+      "correctOption": "Option A",
+      "explanation": "'Biology 101' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q042",
+      "questionText": "She needs to pass ___ to graduate.",
+      "optionA": "History 205",
+      "optionB": "History class",
+      "optionC": "history class",
+      "optionD": "history 205",
+      "correctOption": "Option A",
+      "explanation": "'History 205' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q043",
+      "questionText": "His favorite class is ___.",
+      "optionA": "Introduction To psychology",
+      "optionB": "introduction to Psychology",
+      "optionC": "introduction to psychology",
+      "optionD": "Introduction to Psychology",
+      "correctOption": "Option D",
+      "explanation": "'Introduction to Psychology' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q044",
+      "questionText": "Tomorrow I have an exam in ___.",
+      "optionA": "advanced calculus",
+      "optionB": "Advanced calculus",
+      "optionC": "advanced Calculus",
+      "optionD": "Advanced Calculus",
+      "correctOption": "Option D",
+      "explanation": "'Advanced Calculus' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q045",
+      "questionText": "Are you taking ___ this term?",
+      "optionA": "Chemistry 301",
+      "optionB": "chemistry 301",
+      "optionC": "chemistry class",
+      "optionD": "chemistry",
+      "correctOption": "Option A",
+      "explanation": "'Chemistry 301' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q046",
+      "questionText": "The university is near the ___.",
+      "optionA": "pacific ocean",
+      "optionB": "pacific Ocean",
+      "optionC": "Pacific ocean",
+      "optionD": "Pacific Ocean",
+      "correctOption": "Option D",
+      "explanation": "'Pacific Ocean' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q047",
+      "questionText": "They went on a field trip to the ___.",
+      "optionA": "grand Canyon",
+      "optionB": "grand canyon",
+      "optionC": "Grand canyon",
+      "optionD": "Grand Canyon",
+      "correctOption": "Option D",
+      "explanation": "'Grand Canyon' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q048",
+      "questionText": "The campus looks out over ___.",
+      "optionA": "lake michigan",
+      "optionB": "Lake Michigan",
+      "optionC": "lake Michigan",
+      "optionD": "Lake michigan",
+      "correctOption": "Option B",
+      "explanation": "'Lake Michigan' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q049",
+      "questionText": "Our geology class studied the ___.",
+      "optionA": "Rocky Mountains",
+      "optionB": "rocky mountains",
+      "optionC": "Rocky mountains",
+      "optionD": "rocky Mountains",
+      "correctOption": "Option A",
+      "explanation": "'Rocky Mountains' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    },
+    {
+      "questionId": "T018-Q050",
+      "questionText": "The research station is on the ___.",
+      "optionA": "Amazon river",
+      "optionB": "Amazon River",
+      "optionC": "amazon River",
+      "optionD": "amazon river",
+      "correctOption": "Option B",
+      "explanation": "'Amazon River' is a proper noun because it names a specific person, place, or organization and begins with a capital letter."
+    }
+  ]
+}

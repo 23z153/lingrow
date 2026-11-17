@@ -1,0 +1,507 @@
+{
+  "topicId": 178,
+  "topicName": "Subject + Verb + Complement",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T178-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team becomes clearing.",
+      "optionB": "The team becomes clear.",
+      "optionC": "Team the becomes clear.",
+      "optionD": "The becomes clear.",
+      "correctOption": "Option B",
+      "explanation": "'The team becomes clear' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The professor looks promising.",
+      "optionB": "Promising professor the looks.",
+      "optionC": "The looks promising.",
+      "optionD": "The professor looks promisinging.",
+      "correctOption": "Option A",
+      "explanation": "'The professor looks promising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The is important.",
+      "optionB": "Is team important the.",
+      "optionC": "The team is importanting.",
+      "optionD": "The team is important.",
+      "correctOption": "Option D",
+      "explanation": "'The team is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The researcher remains valid.",
+      "optionB": "The remains valid.",
+      "optionC": "Researcher valid remains the.",
+      "optionD": "The researcher remains validing.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher remains valid' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team remains validing.",
+      "optionB": "The team remains valid.",
+      "optionC": "Remains team valid the.",
+      "optionD": "The remains valid.",
+      "correctOption": "Option B",
+      "explanation": "'The team remains valid' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The committee interesting sounds.",
+      "optionB": "The committee sounds interestinging.",
+      "optionC": "The committee sounds interesting.",
+      "optionD": "The sounds interesting.",
+      "correctOption": "Option C",
+      "explanation": "'The committee sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A appears colleague correct.",
+      "optionB": "A appears correct.",
+      "optionC": "A colleague appears correcting.",
+      "optionD": "A colleague appears correct.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague appears correct' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The university sounds interesting.",
+      "optionB": "The university sounds interestinging.",
+      "optionC": "The sounds interesting.",
+      "optionD": "The interesting sounds university.",
+      "correctOption": "Option A",
+      "explanation": "'The university sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team is necessarying.",
+      "optionB": "The team is necessary.",
+      "optionC": "The is necessary.",
+      "optionD": "The team is necessary.",
+      "correctOption": "Option B",
+      "explanation": "'The team is necessary' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The is fascinating.",
+      "optionB": "Fascinating author is the.",
+      "optionC": "The author is fascinating.",
+      "optionD": "The author is fascinatinging.",
+      "correctOption": "Option C",
+      "explanation": "'The author is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Author is fascinating the.",
+      "optionB": "The is fascinating.",
+      "optionC": "The author is fascinatinging.",
+      "optionD": "The author is fascinating.",
+      "correctOption": "Option D",
+      "explanation": "'The author is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The is necessary.",
+      "optionB": "The professor is necessarying.",
+      "optionC": "Is professor the necessary.",
+      "optionD": "The professor is necessary.",
+      "correctOption": "Option D",
+      "explanation": "'The professor is necessary' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The scientist becomes clearing.",
+      "optionB": "The scientist becomes clear.",
+      "optionC": "Clear scientist the becomes.",
+      "optionD": "The becomes clear.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist becomes clear' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The student looks promisinging.",
+      "optionB": "Student promising looks the.",
+      "optionC": "The looks promising.",
+      "optionD": "The student looks promising.",
+      "correctOption": "Option D",
+      "explanation": "'The student looks promising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A sounds interesting.",
+      "optionB": "A colleague sounds interestinging.",
+      "optionC": "A colleague sounds interesting.",
+      "optionD": "Interesting colleague a sounds.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The professor seems difficulting.",
+      "optionB": "The professor seems difficult.",
+      "optionC": "Seems the difficult professor.",
+      "optionD": "The seems difficult.",
+      "correctOption": "Option B",
+      "explanation": "'The professor seems difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A becomes clear.",
+      "optionB": "A colleague becomes clear.",
+      "optionC": "A colleague becomes clearing.",
+      "optionD": "Clear becomes a colleague.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague becomes clear' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team is necessarying.",
+      "optionB": "The team is necessary.",
+      "optionC": "The is necessary.",
+      "optionD": "Is the necessary team.",
+      "correctOption": "Option B",
+      "explanation": "'The team is necessary' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "An expert is importanting.",
+      "optionB": "An is important.",
+      "optionC": "An expert is important.",
+      "optionD": "Is an expert important.",
+      "correctOption": "Option C",
+      "explanation": "'An expert is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A colleague is fascinatinging.",
+      "optionB": "A is fascinating.",
+      "optionC": "A colleague is fascinating.",
+      "optionD": "Colleague fascinating a is.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The university becomes clearing.",
+      "optionB": "University the becomes clear.",
+      "optionC": "The becomes clear.",
+      "optionD": "The university becomes clear.",
+      "correctOption": "Option D",
+      "explanation": "'The university becomes clear' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The sounds interesting.",
+      "optionB": "The sounds interesting university.",
+      "optionC": "The university sounds interesting.",
+      "optionD": "The university sounds interestinging.",
+      "correctOption": "Option C",
+      "explanation": "'The university sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A colleague sounds interesting.",
+      "optionB": "A sounds interesting.",
+      "optionC": "A colleague sounds interestinging.",
+      "optionD": "Sounds a interesting colleague.",
+      "correctOption": "Option A",
+      "explanation": "'A colleague sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The university appears correcting.",
+      "optionB": "The university appears correct.",
+      "optionC": "University the appears correct.",
+      "optionD": "The appears correct.",
+      "correctOption": "Option B",
+      "explanation": "'The university appears correct' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team is fascinating.",
+      "optionB": "The is fascinating.",
+      "optionC": "The team is fascinatinging.",
+      "optionD": "Fascinating is team the.",
+      "correctOption": "Option A",
+      "explanation": "'The team is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The student sounds interestinging.",
+      "optionB": "Student sounds the interesting.",
+      "optionC": "The sounds interesting.",
+      "optionD": "The student sounds interesting.",
+      "correctOption": "Option D",
+      "explanation": "'The student sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The author is fascinating.",
+      "optionB": "The is fascinating.",
+      "optionC": "Author the fascinating is.",
+      "optionD": "The author is fascinatinging.",
+      "correctOption": "Option A",
+      "explanation": "'The author is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team appears correcting.",
+      "optionB": "The team appears correct.",
+      "optionC": "The appears correct.",
+      "optionD": "Team appears the correct.",
+      "correctOption": "Option B",
+      "explanation": "'The team appears correct' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Expert fascinating an is.",
+      "optionB": "An expert is fascinatinging.",
+      "optionC": "An is fascinating.",
+      "optionD": "An expert is fascinating.",
+      "correctOption": "Option D",
+      "explanation": "'An expert is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Seems expert difficult an.",
+      "optionB": "An expert seems difficulting.",
+      "optionC": "An seems difficult.",
+      "optionD": "An expert seems difficult.",
+      "correctOption": "Option D",
+      "explanation": "'An expert seems difficult' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The is important.",
+      "optionB": "The is author important.",
+      "optionC": "The author is important.",
+      "optionD": "The author is importanting.",
+      "correctOption": "Option C",
+      "explanation": "'The author is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The team looks promisinging.",
+      "optionB": "Team the promising looks.",
+      "optionC": "The looks promising.",
+      "optionD": "The team looks promising.",
+      "correctOption": "Option D",
+      "explanation": "'The team looks promising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Is important professor the.",
+      "optionB": "The is important.",
+      "optionC": "The professor is importanting.",
+      "optionD": "The professor is important.",
+      "correctOption": "Option D",
+      "explanation": "'The professor is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "An expert sounds interestinging.",
+      "optionB": "Expert sounds an interesting.",
+      "optionC": "An sounds interesting.",
+      "optionD": "An expert sounds interesting.",
+      "correctOption": "Option D",
+      "explanation": "'An expert sounds interesting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The student remains valid.",
+      "optionB": "The remains valid.",
+      "optionC": "The student remains validing.",
+      "optionD": "Remains valid student the.",
+      "correctOption": "Option A",
+      "explanation": "'The student remains valid' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The is fascinating.",
+      "optionB": "The author is fascinatinging.",
+      "optionC": "Fascinating author the is.",
+      "optionD": "The author is fascinating.",
+      "correctOption": "Option D",
+      "explanation": "'The author is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The university is important.",
+      "optionB": "The university is importanting.",
+      "optionC": "The university important is.",
+      "optionD": "The is important.",
+      "correctOption": "Option A",
+      "explanation": "'The university is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The professor is fascinatinging.",
+      "optionB": "Fascinating the is professor.",
+      "optionC": "The professor is fascinating.",
+      "optionD": "The is fascinating.",
+      "correctOption": "Option C",
+      "explanation": "'The professor is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The university feels right.",
+      "optionB": "The university feels righting.",
+      "optionC": "The feels right.",
+      "optionD": "The university right feels.",
+      "correctOption": "Option A",
+      "explanation": "'The university feels right' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Is important the researcher.",
+      "optionB": "The is important.",
+      "optionC": "The researcher is important.",
+      "optionD": "The researcher is importanting.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The author is necessarying.",
+      "optionB": "The author is necessary.",
+      "optionC": "The is necessary.",
+      "optionD": "The is author necessary.",
+      "correctOption": "Option B",
+      "explanation": "'The author is necessary' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The looks promising.",
+      "optionB": "The student looks promising.",
+      "optionC": "Student the promising looks.",
+      "optionD": "The student looks promisinging.",
+      "correctOption": "Option B",
+      "explanation": "'The student looks promising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The professor remains valid.",
+      "optionB": "The professor remains validing.",
+      "optionC": "The remains valid.",
+      "optionD": "Remains the valid professor.",
+      "correctOption": "Option A",
+      "explanation": "'The professor remains valid' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Promising the researcher looks.",
+      "optionB": "The looks promising.",
+      "optionC": "The researcher looks promising.",
+      "optionD": "The researcher looks promisinging.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher looks promising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The committee remains validing.",
+      "optionB": "The committee remains valid.",
+      "optionC": "Committee remains the valid.",
+      "optionD": "The remains valid.",
+      "correctOption": "Option B",
+      "explanation": "'The committee remains valid' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The author is important.",
+      "optionB": "The author is importanting.",
+      "optionC": "The is important.",
+      "optionD": "Important is the author.",
+      "correctOption": "Option A",
+      "explanation": "'The author is important' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "The author is necessarying.",
+      "optionB": "The author is necessary.",
+      "optionC": "The is necessary.",
+      "optionD": "The author necessary is.",
+      "correctOption": "Option B",
+      "explanation": "'The author is necessary' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Colleague a fascinating is.",
+      "optionB": "A colleague is fascinatinging.",
+      "optionC": "A is fascinating.",
+      "optionD": "A colleague is fascinating.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague is fascinating' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "Appears the correct university.",
+      "optionB": "The university appears correcting.",
+      "optionC": "The university appears correct.",
+      "optionD": "The appears correct.",
+      "correctOption": "Option C",
+      "explanation": "'The university appears correct' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T178-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Complement'?",
+      "optionA": "A remains colleague valid.",
+      "optionB": "A colleague remains validing.",
+      "optionC": "A remains valid.",
+      "optionD": "A colleague remains valid.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague remains valid' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

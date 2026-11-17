@@ -1,0 +1,507 @@
+{
+  "topicId": 67,
+  "topicName": "Irregular comparison",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T067-Q001",
+      "questionText": "What is the superlative form of 'bad'?",
+      "optionA": "worse",
+      "optionB": "badest",
+      "optionC": "most bad",
+      "optionD": "worst",
+      "correctOption": "Option D",
+      "explanation": "'worst' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q002",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "farer",
+      "optionB": "farthest",
+      "optionC": "more far",
+      "optionD": "farther",
+      "correctOption": "Option D",
+      "explanation": "'farther' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q003",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> best",
+      "optionB": "most good -> more good",
+      "optionC": "most good -> goodest",
+      "optionD": "most good -> better",
+      "correctOption": "Option A",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q004",
+      "questionText": "What is the comparative form of 'little'?",
+      "optionA": "less",
+      "optionB": "more little",
+      "optionC": "least",
+      "optionD": "littleer",
+      "correctOption": "Option A",
+      "explanation": "'less' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q005",
+      "questionText": "What is the superlative form of 'much'?",
+      "optionA": "more",
+      "optionB": "most",
+      "optionC": "most much",
+      "optionD": "muchest",
+      "correctOption": "Option B",
+      "explanation": "'most' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q006",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more",
+      "optionB": "most",
+      "optionC": "manyer",
+      "optionD": "more many",
+      "correctOption": "Option A",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q007",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> best",
+      "optionB": "most good -> better",
+      "optionC": "most good -> goodest",
+      "optionD": "most good -> more good",
+      "correctOption": "Option A",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q008",
+      "questionText": "What is the comparative form of 'bad'?",
+      "optionA": "bader",
+      "optionB": "more bad",
+      "optionC": "worst",
+      "optionD": "worse",
+      "correctOption": "Option D",
+      "explanation": "'worse' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q009",
+      "questionText": "What is the superlative form of 'far'?",
+      "optionA": "most far",
+      "optionB": "farther",
+      "optionC": "farest",
+      "optionD": "farthest",
+      "correctOption": "Option D",
+      "explanation": "'farthest' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q010",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "furthest",
+      "optionB": "further",
+      "optionC": "more far",
+      "optionD": "farer",
+      "correctOption": "Option B",
+      "explanation": "'further' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q011",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> better",
+      "optionB": "most good -> goodest",
+      "optionC": "most good -> more good",
+      "optionD": "most good -> best",
+      "correctOption": "Option D",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q012",
+      "questionText": "What is the comparative form of 'much'?",
+      "optionA": "most",
+      "optionB": "more much",
+      "optionC": "more",
+      "optionD": "mucher",
+      "correctOption": "Option C",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q013",
+      "questionText": "What is the superlative form of 'many'?",
+      "optionA": "manyest",
+      "optionB": "more",
+      "optionC": "most",
+      "optionD": "most many",
+      "correctOption": "Option C",
+      "explanation": "'most' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q014",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "better",
+      "optionB": "gooder",
+      "optionC": "best",
+      "optionD": "more good",
+      "correctOption": "Option A",
+      "explanation": "'better' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q015",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> more good",
+      "optionB": "most good -> best",
+      "optionC": "most good -> goodest",
+      "optionD": "most good -> better",
+      "correctOption": "Option B",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q016",
+      "questionText": "What is the comparative form of 'far'?",
+      "optionA": "more far",
+      "optionB": "farer",
+      "optionC": "farther",
+      "optionD": "farthest",
+      "correctOption": "Option C",
+      "explanation": "'farther' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q017",
+      "questionText": "What is the superlative form of 'far'?",
+      "optionA": "farest",
+      "optionB": "most far",
+      "optionC": "furthest",
+      "optionD": "further",
+      "correctOption": "Option C",
+      "explanation": "'furthest' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q018",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "least",
+      "optionB": "littleer",
+      "optionC": "more little",
+      "optionD": "less",
+      "correctOption": "Option D",
+      "explanation": "'less' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q019",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> best",
+      "optionB": "most good -> more good",
+      "optionC": "most good -> better",
+      "optionD": "most good -> goodest",
+      "correctOption": "Option A",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q020",
+      "questionText": "What is the comparative form of 'many'?",
+      "optionA": "manyer",
+      "optionB": "more",
+      "optionC": "more many",
+      "optionD": "most",
+      "correctOption": "Option B",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q021",
+      "questionText": "What is the superlative form of 'good'?",
+      "optionA": "most good",
+      "optionB": "goodest",
+      "optionC": "better",
+      "optionD": "best",
+      "correctOption": "Option D",
+      "explanation": "'best' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q022",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "badder",
+      "optionB": "worst",
+      "optionC": "worse",
+      "optionD": "more bad",
+      "correctOption": "Option C",
+      "explanation": "'worse' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q023",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> goodest",
+      "optionB": "most good -> more good",
+      "optionC": "most good -> best",
+      "optionD": "most good -> better",
+      "correctOption": "Option C",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q024",
+      "questionText": "What is the comparative form of 'far'?",
+      "optionA": "more far",
+      "optionB": "further",
+      "optionC": "furthest",
+      "optionD": "farer",
+      "correctOption": "Option B",
+      "explanation": "'further' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q025",
+      "questionText": "What is the superlative form of 'little'?",
+      "optionA": "less",
+      "optionB": "least",
+      "optionC": "littleest",
+      "optionD": "most little",
+      "correctOption": "Option B",
+      "explanation": "'least' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q026",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more much",
+      "optionB": "most",
+      "optionC": "mucher",
+      "optionD": "more",
+      "correctOption": "Option D",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q027",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> better",
+      "optionB": "most good -> more good",
+      "optionC": "most good -> goodest",
+      "optionD": "most good -> best",
+      "correctOption": "Option D",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q028",
+      "questionText": "What is the comparative form of 'good'?",
+      "optionA": "gooder",
+      "optionB": "more good",
+      "optionC": "best",
+      "optionD": "better",
+      "correctOption": "Option D",
+      "explanation": "'better' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q029",
+      "questionText": "What is the superlative form of 'bad'?",
+      "optionA": "worst",
+      "optionB": "most bad",
+      "optionC": "badest",
+      "optionD": "worse",
+      "correctOption": "Option A",
+      "explanation": "'worst' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q030",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more far",
+      "optionB": "farther",
+      "optionC": "farthest",
+      "optionD": "farer",
+      "correctOption": "Option B",
+      "explanation": "'farther' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q031",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> goodest",
+      "optionB": "most good -> best",
+      "optionC": "most good -> more good",
+      "optionD": "most good -> better",
+      "correctOption": "Option B",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q032",
+      "questionText": "What is the comparative form of 'little'?",
+      "optionA": "less",
+      "optionB": "more little",
+      "optionC": "littleer",
+      "optionD": "least",
+      "correctOption": "Option A",
+      "explanation": "'less' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q033",
+      "questionText": "What is the superlative form of 'much'?",
+      "optionA": "most",
+      "optionB": "more",
+      "optionC": "muchest",
+      "optionD": "most much",
+      "correctOption": "Option A",
+      "explanation": "'most' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q034",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more many",
+      "optionB": "most",
+      "optionC": "more",
+      "optionD": "manyer",
+      "correctOption": "Option C",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q035",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> more good",
+      "optionB": "most good -> goodest",
+      "optionC": "most good -> best",
+      "optionD": "most good -> better",
+      "correctOption": "Option C",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q036",
+      "questionText": "What is the comparative form of 'bad'?",
+      "optionA": "bader",
+      "optionB": "worst",
+      "optionC": "worse",
+      "optionD": "more bad",
+      "correctOption": "Option C",
+      "explanation": "'worse' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q037",
+      "questionText": "What is the superlative form of 'far'?",
+      "optionA": "farest",
+      "optionB": "farthest",
+      "optionC": "most far",
+      "optionD": "farther",
+      "correctOption": "Option B",
+      "explanation": "'farthest' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q038",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "farer",
+      "optionB": "furthest",
+      "optionC": "more far",
+      "optionD": "further",
+      "correctOption": "Option D",
+      "explanation": "'further' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q039",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> more good",
+      "optionB": "most good -> goodest",
+      "optionC": "most good -> best",
+      "optionD": "most good -> better",
+      "correctOption": "Option C",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q040",
+      "questionText": "What is the comparative form of 'much'?",
+      "optionA": "more much",
+      "optionB": "more",
+      "optionC": "most",
+      "optionD": "mucher",
+      "correctOption": "Option B",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q041",
+      "questionText": "What is the superlative form of 'many'?",
+      "optionA": "more",
+      "optionB": "most",
+      "optionC": "most many",
+      "optionD": "manyest",
+      "correctOption": "Option B",
+      "explanation": "'most' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q042",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "best",
+      "optionB": "more good",
+      "optionC": "gooder",
+      "optionD": "better",
+      "correctOption": "Option D",
+      "explanation": "'better' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q043",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> more good",
+      "optionB": "most good -> better",
+      "optionC": "most good -> best",
+      "optionD": "most good -> goodest",
+      "correctOption": "Option C",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q044",
+      "questionText": "What is the comparative form of 'far'?",
+      "optionA": "farther",
+      "optionB": "more far",
+      "optionC": "farthest",
+      "optionD": "farer",
+      "correctOption": "Option A",
+      "explanation": "'farther' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q045",
+      "questionText": "What is the superlative form of 'far'?",
+      "optionA": "furthest",
+      "optionB": "further",
+      "optionC": "most far",
+      "optionD": "farest",
+      "correctOption": "Option A",
+      "explanation": "'furthest' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q046",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more little",
+      "optionB": "less",
+      "optionC": "littleer",
+      "optionD": "least",
+      "correctOption": "Option B",
+      "explanation": "'less' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q047",
+      "questionText": "Identify the error: 'She is the most good player on the team.'",
+      "optionA": "most good -> goodest",
+      "optionB": "most good -> more good",
+      "optionC": "most good -> better",
+      "optionD": "most good -> best",
+      "correctOption": "Option D",
+      "explanation": "'most good -> best' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T067-Q048",
+      "questionText": "What is the comparative form of 'many'?",
+      "optionA": "manyer",
+      "optionB": "most",
+      "optionC": "more many",
+      "optionD": "more",
+      "correctOption": "Option D",
+      "explanation": "'more' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q049",
+      "questionText": "What is the superlative form of 'good'?",
+      "optionA": "better",
+      "optionB": "goodest",
+      "optionC": "best",
+      "optionD": "most good",
+      "correctOption": "Option C",
+      "explanation": "'best' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T067-Q050",
+      "questionText": "He is _____ than his brother at math.",
+      "optionA": "more bad",
+      "optionB": "badder",
+      "optionC": "worst",
+      "optionD": "worse",
+      "correctOption": "Option D",
+      "explanation": "'worse' is the correct choice in standard English grammar."
+    }
+  ]
+}

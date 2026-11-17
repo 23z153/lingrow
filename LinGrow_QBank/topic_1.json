@@ -1,0 +1,707 @@
+{
+  "topicId": 1,
+  "topicName": "What is a sentence?",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T001-Q001",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the student studies.",
+      "optionB": "The student in the library.",
+      "optionC": "Studies in the library.",
+      "optionD": "The student studies in the library.",
+      "correctOption": "Option D",
+      "explanation": "'The student studies in the library' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q002",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "Explains the topic.",
+      "optionB": "When the professor explains.",
+      "optionC": "The professor explains the topic.",
+      "optionD": "The professor the topic.",
+      "correctOption": "Option C",
+      "explanation": "'The professor explains the topic' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q003",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "The librarian students.",
+      "optionB": "When the librarian helps.",
+      "optionC": "The librarian helps students.",
+      "optionD": "Helps students.",
+      "correctOption": "Option C",
+      "explanation": "'The librarian helps students' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q004",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the lecture begins.",
+      "optionB": "The lecture at 9 AM.",
+      "optionC": "The lecture begins at 9 AM.",
+      "optionD": "Begins at 9 AM.",
+      "correctOption": "Option C",
+      "explanation": "'The lecture begins at 9 AM' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q005",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the assignment requires.",
+      "optionB": "Requires much effort.",
+      "optionC": "The assignment much effort.",
+      "optionD": "The assignment requires much effort.",
+      "correctOption": "Option D",
+      "explanation": "'The assignment requires much effort' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q006",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the university provides.",
+      "optionB": "Provides many resources.",
+      "optionC": "The university many resources.",
+      "optionD": "The university provides many resources.",
+      "correctOption": "Option D",
+      "explanation": "'The university provides many resources' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q007",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the research paper discusses.",
+      "optionB": "Discusses the results.",
+      "optionC": "The research paper the results.",
+      "optionD": "The research paper discusses the results.",
+      "correctOption": "Option D",
+      "explanation": "'The research paper discusses the results' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q008",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "When the laboratory opens.",
+      "optionB": "The laboratory opens every day.",
+      "optionC": "Opens every day.",
+      "optionD": "The laboratory every day.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory opens every day' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q009",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "The presentation shows good ideas.",
+      "optionB": "Shows good ideas.",
+      "optionC": "When the presentation shows.",
+      "optionD": "The presentation good ideas.",
+      "correctOption": "Option A",
+      "explanation": "'The presentation shows good ideas' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q010",
+      "questionText": "Which of the following is a complete sentence?",
+      "optionA": "The exam our knowledge.",
+      "optionB": "The exam tests our knowledge.",
+      "optionC": "When the exam tests.",
+      "optionD": "Tests our knowledge.",
+      "correctOption": "Option B",
+      "explanation": "'The exam tests our knowledge' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q011",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "Because the lecture begins.",
+      "optionB": "The assignment requires.",
+      "optionC": "She is reading.",
+      "optionD": "The lecture begins at 9 AM.",
+      "correctOption": "Option A",
+      "explanation": "'Because the lecture begins' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q012",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "The university provides.",
+      "optionB": "Because the assignment requires.",
+      "optionC": "The assignment requires much effort.",
+      "optionD": "She is reading.",
+      "correctOption": "Option B",
+      "explanation": "'Because the assignment requires' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q013",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "Because the university provides.",
+      "optionB": "She is reading.",
+      "optionC": "The research paper discusses.",
+      "optionD": "The university provides many resources.",
+      "correctOption": "Option A",
+      "explanation": "'Because the university provides' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q014",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "She is reading.",
+      "optionB": "The laboratory opens.",
+      "optionC": "The research paper discusses the results.",
+      "optionD": "Because the research paper discusses.",
+      "correctOption": "Option D",
+      "explanation": "'Because the research paper discusses' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q015",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "Because the laboratory opens.",
+      "optionB": "She is reading.",
+      "optionC": "The presentation shows.",
+      "optionD": "The laboratory opens every day.",
+      "correctOption": "Option A",
+      "explanation": "'Because the laboratory opens' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q016",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "The presentation shows good ideas.",
+      "optionB": "Because the presentation shows.",
+      "optionC": "She is reading.",
+      "optionD": "The exam tests.",
+      "correctOption": "Option B",
+      "explanation": "'Because the presentation shows' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q017",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "Because the exam tests.",
+      "optionB": "She is reading.",
+      "optionC": "The student studies.",
+      "optionD": "The exam tests our knowledge.",
+      "correctOption": "Option A",
+      "explanation": "'Because the exam tests' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q018",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "The student studies in the library.",
+      "optionB": "She is reading.",
+      "optionC": "Because the student studies.",
+      "optionD": "The professor explains.",
+      "correctOption": "Option C",
+      "explanation": "'Because the student studies' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q019",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "Because the professor explains.",
+      "optionB": "The librarian helps.",
+      "optionC": "The professor explains the topic.",
+      "optionD": "She is reading.",
+      "correctOption": "Option A",
+      "explanation": "'Because the professor explains' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q020",
+      "questionText": "Which of the following is an incomplete sentence (a fragment)?",
+      "optionA": "She is reading.",
+      "optionB": "The librarian helps students.",
+      "optionC": "Because the librarian helps.",
+      "optionD": "The lecture begins.",
+      "correctOption": "Option C",
+      "explanation": "'Because the librarian helps' is a complete sentence because it contains both a subject and a verb and expresses a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q021",
+      "questionText": "Read this group of words: 'the research paper in the room'. What is this?",
+      "optionA": "Paragraph",
+      "optionB": "Word",
+      "optionC": "Phrase",
+      "optionD": "Sentence",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q022",
+      "questionText": "Read this: 'The laboratory opens every day.' What is this?",
+      "optionA": "Phrase",
+      "optionB": "Sentence",
+      "optionC": "Word",
+      "optionD": "Paragraph",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q023",
+      "questionText": "Read this group of words: 'the presentation in the room'. What is this?",
+      "optionA": "Paragraph",
+      "optionB": "Phrase",
+      "optionC": "Sentence",
+      "optionD": "Word",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q024",
+      "questionText": "Read this: 'The exam tests our knowledge.' What is this?",
+      "optionA": "Phrase",
+      "optionB": "Paragraph",
+      "optionC": "Word",
+      "optionD": "Sentence",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q025",
+      "questionText": "Read this group of words: 'the student in the room'. What is this?",
+      "optionA": "Word",
+      "optionB": "Paragraph",
+      "optionC": "Sentence",
+      "optionD": "Phrase",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q026",
+      "questionText": "Read this: 'The professor explains the topic.' What is this?",
+      "optionA": "Sentence",
+      "optionB": "Phrase",
+      "optionC": "Word",
+      "optionD": "Paragraph",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q027",
+      "questionText": "Read this group of words: 'the librarian in the room'. What is this?",
+      "optionA": "Paragraph",
+      "optionB": "Word",
+      "optionC": "Phrase",
+      "optionD": "Sentence",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q028",
+      "questionText": "Read this: 'The lecture begins at 9 AM.' What is this?",
+      "optionA": "Sentence",
+      "optionB": "Paragraph",
+      "optionC": "Word",
+      "optionD": "Phrase",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q029",
+      "questionText": "Read this group of words: 'the assignment in the room'. What is this?",
+      "optionA": "Word",
+      "optionB": "Phrase",
+      "optionC": "Sentence",
+      "optionD": "Paragraph",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q030",
+      "questionText": "Read this: 'The university provides many resources.' What is this?",
+      "optionA": "Paragraph",
+      "optionB": "Word",
+      "optionC": "Sentence",
+      "optionD": "Phrase",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q031",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "The professor the topic explains.",
+      "optionB": "Explains the professor the topic.",
+      "optionC": "The topic the professor explains.",
+      "optionD": "The professor explains the topic.",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q032",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "Students the librarian helps.",
+      "optionB": "The librarian helps students.",
+      "optionC": "The librarian students helps.",
+      "optionD": "Helps the librarian students.",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q033",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "At 9 am the lecture begins.",
+      "optionB": "The lecture begins at 9 AM.",
+      "optionC": "Begins the lecture at 9 AM.",
+      "optionD": "The lecture at 9 AM begins.",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q034",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "Much effort the assignment requires.",
+      "optionB": "The assignment requires much effort.",
+      "optionC": "The assignment much effort requires.",
+      "optionD": "Requires the assignment much effort.",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q035",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "The university provides many resources.",
+      "optionB": "Provides the university many resources.",
+      "optionC": "Many resources the university provides.",
+      "optionD": "The university many resources provides.",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q036",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "The research paper the results discusses.",
+      "optionB": "The research paper discusses the results.",
+      "optionC": "Discusses the research paper the results.",
+      "optionD": "The results the research paper discusses.",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q037",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "Opens the laboratory every day.",
+      "optionB": "Every day the laboratory opens.",
+      "optionC": "The laboratory every day opens.",
+      "optionD": "The laboratory opens every day.",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q038",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "The presentation shows good ideas.",
+      "optionB": "Shows the presentation good ideas.",
+      "optionC": "Good ideas the presentation shows.",
+      "optionD": "The presentation good ideas shows.",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q039",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "Tests the exam our knowledge.",
+      "optionB": "Our knowledge the exam tests.",
+      "optionC": "The exam our knowledge tests.",
+      "optionD": "The exam tests our knowledge.",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q040",
+      "questionText": "Choose the sentence with the correct word order.",
+      "optionA": "Studies the student in the library.",
+      "optionB": "In the library the student studies.",
+      "optionC": "The student studies in the library.",
+      "optionD": "The student in the library studies.",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q041",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The presentation shows good ideas.",
+      "optionB": "the presentation shows good ideas.",
+      "optionC": "The presentation shows good ideas",
+      "optionD": "the presentation shows good ideas",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q042",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "the exam tests our knowledge.",
+      "optionB": "The exam tests our knowledge",
+      "optionC": "The exam tests our knowledge.",
+      "optionD": "the exam tests our knowledge",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q043",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "the student studies in the library.",
+      "optionB": "The student studies in the library",
+      "optionC": "The student studies in the library.",
+      "optionD": "the student studies in the library",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q044",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The professor explains the topic",
+      "optionB": "The professor explains the topic.",
+      "optionC": "the professor explains the topic",
+      "optionD": "the professor explains the topic.",
+      "correctOption": "Option B",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q045",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The librarian helps students",
+      "optionB": "the librarian helps students",
+      "optionC": "The librarian helps students.",
+      "optionD": "the librarian helps students.",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q046",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "the lecture begins at 9 AM",
+      "optionB": "the lecture begins at 9 AM.",
+      "optionC": "The lecture begins at 9 AM",
+      "optionD": "The lecture begins at 9 AM.",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q047",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The assignment requires much effort.",
+      "optionB": "the assignment requires much effort",
+      "optionC": "The assignment requires much effort",
+      "optionD": "the assignment requires much effort.",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q048",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The university provides many resources",
+      "optionB": "the university provides many resources.",
+      "optionC": "the university provides many resources",
+      "optionD": "The university provides many resources.",
+      "correctOption": "Option D",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q049",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "the research paper discusses the results.",
+      "optionB": "The research paper discusses the results",
+      "optionC": "The research paper discusses the results.",
+      "optionD": "the research paper discusses the results",
+      "correctOption": "Option C",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T001-Q050",
+      "questionText": "Which sentence has the correct capitalization and punctuation?",
+      "optionA": "The laboratory opens every day.",
+      "optionB": "the laboratory opens every day.",
+      "optionC": "The laboratory opens every day",
+      "optionD": "the laboratory opens every day",
+      "correctOption": "Option A",
+      "explanation": "A complete sentence must contain a subject and a verb to express a complete thought.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

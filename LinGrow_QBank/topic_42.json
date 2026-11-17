@@ -1,0 +1,507 @@
+{
+  "topicId": 42,
+  "topicName": "An",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T042-Q001",
+      "questionText": "I saw ___ old apple.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q002",
+      "questionText": "She has ___ interesting apple.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q003",
+      "questionText": "He described ___ amazing apple.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q004",
+      "questionText": "They discovered ___ ugly apple.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q005",
+      "questionText": "This is ___ incredible apple.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q006",
+      "questionText": "I saw ___ old egg.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q007",
+      "questionText": "She has ___ interesting egg.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q008",
+      "questionText": "He described ___ amazing egg.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q009",
+      "questionText": "They discovered ___ ugly egg.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q010",
+      "questionText": "This is ___ incredible egg.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q011",
+      "questionText": "I saw ___ old elephant.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q012",
+      "questionText": "She has ___ interesting elephant.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q013",
+      "questionText": "He described ___ amazing elephant.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q014",
+      "questionText": "They discovered ___ ugly elephant.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q015",
+      "questionText": "This is ___ incredible elephant.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q016",
+      "questionText": "I saw ___ old orange.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q017",
+      "questionText": "She has ___ interesting orange.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q018",
+      "questionText": "He described ___ amazing orange.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q019",
+      "questionText": "They discovered ___ ugly orange.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q020",
+      "questionText": "This is ___ incredible orange.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q021",
+      "questionText": "I saw ___ old umbrella.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q022",
+      "questionText": "She has ___ interesting umbrella.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q023",
+      "questionText": "He described ___ amazing umbrella.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q024",
+      "questionText": "They discovered ___ ugly umbrella.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q025",
+      "questionText": "This is ___ incredible umbrella.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q026",
+      "questionText": "I saw ___ old ice cream.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q027",
+      "questionText": "She has ___ interesting ice cream.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q028",
+      "questionText": "He described ___ amazing ice cream.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q029",
+      "questionText": "They discovered ___ ugly ice cream.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q030",
+      "questionText": "This is ___ incredible ice cream.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q031",
+      "questionText": "I saw ___ old actor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q032",
+      "questionText": "She has ___ interesting actor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q033",
+      "questionText": "He described ___ amazing actor.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q034",
+      "questionText": "They discovered ___ ugly actor.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q035",
+      "questionText": "This is ___ incredible actor.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q036",
+      "questionText": "I saw ___ old artist.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q037",
+      "questionText": "She has ___ interesting artist.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q038",
+      "questionText": "He described ___ amazing artist.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q039",
+      "questionText": "They discovered ___ ugly artist.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q040",
+      "questionText": "This is ___ incredible artist.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q041",
+      "questionText": "I saw ___ old island.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q042",
+      "questionText": "She has ___ interesting island.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q043",
+      "questionText": "He described ___ amazing island.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q044",
+      "questionText": "They discovered ___ ugly island.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q045",
+      "questionText": "This is ___ incredible island.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q046",
+      "questionText": "I saw ___ old eagle.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q047",
+      "questionText": "She has ___ interesting eagle.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q048",
+      "questionText": "He described ___ amazing eagle.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "no article",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q049",
+      "questionText": "They discovered ___ ugly eagle.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T042-Q050",
+      "questionText": "This is ___ incredible eagle.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    }
+  ]
+}

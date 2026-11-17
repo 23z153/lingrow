@@ -1,0 +1,507 @@
+{
+  "topicId": 181,
+  "topicName": "Compound sentences",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T181-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "Studies expert the the an but hesitates, data team.",
+      "optionB": "The team hesitates, but an expert studies the data.",
+      "optionC": "The hesitates, but an expert studies the data.",
+      "optionD": "The team hesitates, but an expert studies the dataing.",
+      "correctOption": "Option B",
+      "explanation": "'The team hesitates, but an expert studies the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The agrees, yet the committee studies the assignment.",
+      "optionB": "The scientist agrees, yet the committee studies the assignmenting.",
+      "optionC": "The the agrees, studies assignment yet scientist committee the.",
+      "optionD": "The scientist agrees, yet the committee studies the assignment.",
+      "correctOption": "Option D",
+      "explanation": "'The scientist agrees, yet the committee studies the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A colleague arrives, and the committee studies a booking.",
+      "optionB": "A arrives, and the committee studies a book.",
+      "optionC": "A colleague arrives, and the committee studies a book.",
+      "optionD": "A and colleague book the a arrives, studies committee.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague arrives, and the committee studies a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A graduates, or the student questions a book.",
+      "optionB": "A colleague graduates, or the student questions a book.",
+      "optionC": "A colleague graduates, or the student questions a booking.",
+      "optionD": "Questions graduates, book colleague student the a a or.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague graduates, or the student questions a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The listens, but an expert writes a book.",
+      "optionB": "The researcher listens, but an expert writes a booking.",
+      "optionC": "An the a expert listens, writes researcher book but.",
+      "optionD": "The researcher listens, but an expert writes a book.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher listens, but an expert writes a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The team listens, so the scientist completes the experimenting.",
+      "optionB": "The listens, so the scientist completes the experiment.",
+      "optionC": "The team listens, so the scientist completes the experiment.",
+      "optionD": "Completes the experiment team the listens, scientist the so.",
+      "correctOption": "Option C",
+      "explanation": "'The team listens, so the scientist completes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The but report committee the presents disagrees, the scientist.",
+      "optionB": "The disagrees, but the committee presents the report.",
+      "optionC": "The scientist disagrees, but the committee presents the report.",
+      "optionD": "The scientist disagrees, but the committee presents the reporting.",
+      "correctOption": "Option C",
+      "explanation": "'The scientist disagrees, but the committee presents the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The arrives, professor and university the data reads the.",
+      "optionB": "The professor arrives, and the university reads the dataing.",
+      "optionC": "The professor arrives, and the university reads the data.",
+      "optionD": "The arrives, and the university reads the data.",
+      "correctOption": "Option C",
+      "explanation": "'The professor arrives, and the university reads the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The committee disagrees, or the researcher completes the data.",
+      "optionB": "The committee disagrees, or the researcher completes the dataing.",
+      "optionC": "The disagrees, completes committee or data the researcher the.",
+      "optionD": "The disagrees, or the researcher completes the data.",
+      "correctOption": "Option A",
+      "explanation": "'The committee disagrees, or the researcher completes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "Observes yet the the university report the graduates, committee.",
+      "optionB": "The committee graduates, yet the university observes the reporting.",
+      "optionC": "The graduates, yet the university observes the report.",
+      "optionD": "The committee graduates, yet the university observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'The committee graduates, yet the university observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The graduates, so an expert questions an essay.",
+      "optionB": "The scientist graduates, so an expert questions an essay.",
+      "optionC": "Questions essay scientist graduates, the an expert so an.",
+      "optionD": "The scientist graduates, so an expert questions an essaying.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist graduates, so an expert questions an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert pauses, and a colleague completes the article.",
+      "optionB": "An expert pauses, and a colleague completes the articleing.",
+      "optionC": "An pauses, and a colleague completes the article.",
+      "optionD": "Completes an expert article a and pauses, colleague the.",
+      "correctOption": "Option A",
+      "explanation": "'An expert pauses, and a colleague completes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The researcher smiles, so the student questions the proposal.",
+      "optionB": "The smiles, the student researcher so questions the proposal.",
+      "optionC": "The smiles, so the student questions the proposal.",
+      "optionD": "The researcher smiles, so the student questions the proposaling.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher smiles, so the student questions the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The pauses, so the team observes the article.",
+      "optionB": "The committee pauses, so the team observes the article.",
+      "optionC": "Observes the committee team article the the so pauses,.",
+      "optionD": "The committee pauses, so the team observes the articleing.",
+      "correctOption": "Option B",
+      "explanation": "'The committee pauses, so the team observes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A smiles, but the professor questions the data.",
+      "optionB": "A colleague smiles, but the professor questions the dataing.",
+      "optionC": "A colleague smiles, but the professor questions the data.",
+      "optionD": "Colleague professor a the smiles, questions data but the.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague smiles, but the professor questions the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The speaks, and an expert reviews the proposal.",
+      "optionB": "Speaks, the university the reviews proposal and expert an.",
+      "optionC": "The university speaks, and an expert reviews the proposal.",
+      "optionD": "The university speaks, and an expert reviews the proposaling.",
+      "correctOption": "Option C",
+      "explanation": "'The university speaks, and an expert reviews the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The professor graduates, but the student reviews the dataing.",
+      "optionB": "Data but the student the the graduates, professor reviews.",
+      "optionC": "The graduates, but the student reviews the data.",
+      "optionD": "The professor graduates, but the student reviews the data.",
+      "correctOption": "Option D",
+      "explanation": "'The professor graduates, but the student reviews the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The scientist listens, yet the student writes an essay.",
+      "optionB": "Listens, student essay an the scientist yet the writes.",
+      "optionC": "The scientist listens, yet the student writes an essaying.",
+      "optionD": "The listens, yet the student writes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist listens, yet the student writes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert pauses, yet the university observes a thesis.",
+      "optionB": "Pauses, the thesis observes yet an university expert a.",
+      "optionC": "An expert pauses, yet the university observes a thesising.",
+      "optionD": "An pauses, yet the university observes a thesis.",
+      "correctOption": "Option A",
+      "explanation": "'An expert pauses, yet the university observes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The the essay team researcher an arrives, but analyzes.",
+      "optionB": "The arrives, but the team analyzes an essay.",
+      "optionC": "The researcher arrives, but the team analyzes an essaying.",
+      "optionD": "The researcher arrives, but the team analyzes an essay.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher arrives, but the team analyzes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The committee data author the works, completes the yet.",
+      "optionB": "The works, yet the committee completes the data.",
+      "optionC": "The author works, yet the committee completes the dataing.",
+      "optionD": "The author works, yet the committee completes the data.",
+      "correctOption": "Option D",
+      "explanation": "'The author works, yet the committee completes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The arrives, but the committee studies the experiment.",
+      "optionB": "The committee studies the the student experiment but arrives,.",
+      "optionC": "The student arrives, but the committee studies the experiment.",
+      "optionD": "The student arrives, but the committee studies the experimenting.",
+      "correctOption": "Option C",
+      "explanation": "'The student arrives, but the committee studies the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "So colleague experiment the the agrees, submits a committee.",
+      "optionB": "A colleague agrees, so the committee submits the experiment.",
+      "optionC": "A agrees, so the committee submits the experiment.",
+      "optionD": "A colleague agrees, so the committee submits the experimenting.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague agrees, so the committee submits the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The scientist speaks, or the professor completes the article.",
+      "optionB": "The speaks, or the professor completes the article.",
+      "optionC": "The professor or the scientist the completes speaks, article.",
+      "optionD": "The scientist speaks, or the professor completes the articleing.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist speaks, or the professor completes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert speaks, and the researcher completes the resultsing.",
+      "optionB": "Speaks, results researcher the the and completes expert an.",
+      "optionC": "An speaks, and the researcher completes the results.",
+      "optionD": "An expert speaks, and the researcher completes the results.",
+      "correctOption": "Option D",
+      "explanation": "'An expert speaks, and the researcher completes the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The the team hesitates, the presents report and professor.",
+      "optionB": "The team hesitates, and the professor presents the report.",
+      "optionC": "The hesitates, and the professor presents the report.",
+      "optionD": "The team hesitates, and the professor presents the reporting.",
+      "correctOption": "Option B",
+      "explanation": "'The team hesitates, and the professor presents the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The university graduates, and the student completes a book.",
+      "optionB": "Student the graduates, completes and book the university a.",
+      "optionC": "The graduates, and the student completes a book.",
+      "optionD": "The university graduates, and the student completes a booking.",
+      "correctOption": "Option A",
+      "explanation": "'The university graduates, and the student completes a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A colleague agrees, yet the researcher submits the dataing.",
+      "optionB": "A colleague agrees, yet the researcher submits the data.",
+      "optionC": "A agrees, yet the researcher submits the data.",
+      "optionD": "Data the a colleague the agrees, researcher submits yet.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague agrees, yet the researcher submits the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The researcher hesitates, but the scientist reviews the experiment.",
+      "optionB": "Hesitates, the experiment the but scientist reviews researcher the.",
+      "optionC": "The hesitates, but the scientist reviews the experiment.",
+      "optionD": "The researcher hesitates, but the scientist reviews the experimenting.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher hesitates, but the scientist reviews the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The committee speaks, or the committee observes an essaying.",
+      "optionB": "The committee speaks, or the committee observes an essay.",
+      "optionC": "The an essay or speaks, observes the committee committee.",
+      "optionD": "The speaks, or the committee observes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The committee speaks, or the committee observes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The pauses, so a colleague studies the results.",
+      "optionB": "The scientist pauses, so a colleague studies the results.",
+      "optionC": "Results the studies colleague so the scientist pauses, a.",
+      "optionD": "The scientist pauses, so a colleague studies the resultsing.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist pauses, so a colleague studies the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "Report yet the the observes author the works, author.",
+      "optionB": "The author works, yet the author observes the reporting.",
+      "optionC": "The works, yet the author observes the report.",
+      "optionD": "The author works, yet the author observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'The author works, yet the author observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The agrees, or the committee presents the data.",
+      "optionB": "Presents or committee the data the researcher the agrees,.",
+      "optionC": "The researcher agrees, or the committee presents the data.",
+      "optionD": "The researcher agrees, or the committee presents the dataing.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher agrees, or the committee presents the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The committee agrees, or the university analyzes the data.",
+      "optionB": "The agrees, or the university analyzes the data.",
+      "optionC": "Agrees, the committee the data or university the analyzes.",
+      "optionD": "The committee agrees, or the university analyzes the dataing.",
+      "correctOption": "Option A",
+      "explanation": "'The committee agrees, or the university analyzes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The university arrives, and an expert reviews the proposaling.",
+      "optionB": "The proposal arrives, and an reviews expert university the.",
+      "optionC": "The arrives, and an expert reviews the proposal.",
+      "optionD": "The university arrives, and an expert reviews the proposal.",
+      "correctOption": "Option D",
+      "explanation": "'The university arrives, and an expert reviews the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An speaks, and the student observes a thesis.",
+      "optionB": "An expert speaks, and the student observes a thesis.",
+      "optionC": "An expert speaks, and the student observes a thesising.",
+      "optionD": "Observes student speaks, a and expert thesis the an.",
+      "correctOption": "Option B",
+      "explanation": "'An expert speaks, and the student observes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The professor graduates, but the committee submits the article.",
+      "optionB": "The professor graduates, but the committee submits the articleing.",
+      "optionC": "The graduates, but the committee submits the article.",
+      "optionD": "Submits the the the professor but committee article graduates,.",
+      "correctOption": "Option A",
+      "explanation": "'The professor graduates, but the committee submits the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The colleague researcher listens, but a reads thesis a.",
+      "optionB": "A listens, but the researcher reads a thesis.",
+      "optionC": "A colleague listens, but the researcher reads a thesis.",
+      "optionD": "A colleague listens, but the researcher reads a thesising.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague listens, but the researcher reads a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The researcher disagrees, so the committee questions the proposaling.",
+      "optionB": "The researcher disagrees, so the committee questions the proposal.",
+      "optionC": "The disagrees, so the committee questions the proposal.",
+      "optionD": "Committee disagrees, so the researcher questions proposal the the.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher disagrees, so the committee questions the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The smiles, or the professor reviews an essay.",
+      "optionB": "The university smiles, or the professor reviews an essay.",
+      "optionC": "The university smiles, or the professor reviews an essaying.",
+      "optionD": "Or university essay the an professor reviews the smiles,.",
+      "correctOption": "Option B",
+      "explanation": "'The university smiles, or the professor reviews an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert pauses, or the author questions the reporting.",
+      "optionB": "An pauses, or the author questions the report.",
+      "optionC": "Report author pauses, or the an expert the questions.",
+      "optionD": "An expert pauses, or the author questions the report.",
+      "correctOption": "Option D",
+      "explanation": "'An expert pauses, or the author questions the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The works, so the university completes the report.",
+      "optionB": "The university works, so the university completes the report.",
+      "optionC": "University works, so the the report university the completes.",
+      "optionD": "The university works, so the university completes the reporting.",
+      "correctOption": "Option B",
+      "explanation": "'The university works, so the university completes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A colleague graduates, so the author presents an essaying.",
+      "optionB": "A colleague graduates, so the author presents an essay.",
+      "optionC": "A graduates, so the author presents an essay.",
+      "optionD": "Colleague so a essay author graduates, an the presents.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague graduates, so the author presents an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert graduates, so the professor reads the proposal.",
+      "optionB": "Graduates, so an the proposal expert the reads professor.",
+      "optionC": "An expert graduates, so the professor reads the proposaling.",
+      "optionD": "An graduates, so the professor reads the proposal.",
+      "correctOption": "Option A",
+      "explanation": "'An expert graduates, so the professor reads the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An listens, yet the student analyzes the data.",
+      "optionB": "An expert listens, yet the student analyzes the data.",
+      "optionC": "An expert listens, yet the student analyzes the dataing.",
+      "optionD": "Analyzes listens, the an data yet the student expert.",
+      "correctOption": "Option B",
+      "explanation": "'An expert listens, yet the student analyzes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "An expert disagrees, and an expert questions the dataing.",
+      "optionB": "An disagrees, and an expert questions the data.",
+      "optionC": "And data an the expert disagrees, expert questions an.",
+      "optionD": "An expert disagrees, and an expert questions the data.",
+      "correctOption": "Option D",
+      "explanation": "'An expert disagrees, and an expert questions the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A graduates, so the author completes the results.",
+      "optionB": "A colleague graduates, so the author completes the resultsing.",
+      "optionC": "A colleague graduates, so the author completes the results.",
+      "optionD": "Graduates, completes author colleague the results a the so.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague graduates, so the author completes the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The works, but the committee observes the report.",
+      "optionB": "Observes committee author the report works, but the the.",
+      "optionC": "The author works, but the committee observes the reporting.",
+      "optionD": "The author works, but the committee observes the report.",
+      "correctOption": "Option D",
+      "explanation": "'The author works, but the committee observes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "The works, or the university reads an essay.",
+      "optionB": "The researcher works, or the university reads an essay.",
+      "optionC": "The works, university reads researcher an the or essay.",
+      "optionD": "The researcher works, or the university reads an essaying.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher works, or the university reads an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T181-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Compound sentences'?",
+      "optionA": "A hesitates, so the team analyzes the proposal.",
+      "optionB": "So the a analyzes proposal colleague hesitates, the team.",
+      "optionC": "A colleague hesitates, so the team analyzes the proposal.",
+      "optionD": "A colleague hesitates, so the team analyzes the proposaling.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague hesitates, so the team analyzes the proposal' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

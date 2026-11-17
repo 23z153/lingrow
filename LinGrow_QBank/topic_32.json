@@ -1,0 +1,507 @@
+{
+  "topicId": 32,
+  "topicName": "Object pronouns",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T032-Q001",
+      "questionText": "I saw Emily at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q002",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q003",
+      "questionText": "I saw Emma at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q004",
+      "questionText": "I saw Isabella at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q005",
+      "questionText": "I saw Elizabeth at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q006",
+      "questionText": "I saw Sarah at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "him",
+      "optionC": "she",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q007",
+      "questionText": "I saw Amelia at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q008",
+      "questionText": "I saw Isabella at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q009",
+      "questionText": "I saw Abigail at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q010",
+      "questionText": "I saw Sophia at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q011",
+      "questionText": "I saw Harper at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q012",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "them",
+      "optionC": "him",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q013",
+      "questionText": "I saw Elizabeth at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q014",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q015",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q016",
+      "questionText": "I saw Amelia at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "them",
+      "optionC": "him",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q017",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q018",
+      "questionText": "I saw Harper at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q019",
+      "questionText": "I saw Olivia at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q020",
+      "questionText": "I saw Emily at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q021",
+      "questionText": "I saw Abigail at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "him",
+      "optionC": "them",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q022",
+      "questionText": "I saw Evelyn at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q023",
+      "questionText": "I saw Evelyn at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q024",
+      "questionText": "I saw Emily at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "them",
+      "optionC": "him",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q025",
+      "questionText": "I saw Abigail at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q026",
+      "questionText": "I saw Mary at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q027",
+      "questionText": "I saw Isabella at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q028",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q029",
+      "questionText": "I saw Sarah at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q030",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q031",
+      "questionText": "I saw Amelia at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q032",
+      "questionText": "I saw Elizabeth at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "them",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q033",
+      "questionText": "I saw Sarah at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q034",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q035",
+      "questionText": "I saw Emma at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "him",
+      "optionC": "them",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q036",
+      "questionText": "I saw Olivia at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q037",
+      "questionText": "I saw Elizabeth at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q038",
+      "questionText": "I saw Abigail at the library, and I waved to ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q039",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "him",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q040",
+      "questionText": "I saw Emma at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q041",
+      "questionText": "I saw Abigail at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q042",
+      "questionText": "I saw Mia at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q043",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q044",
+      "questionText": "I saw Sarah at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "her",
+      "optionC": "him",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q045",
+      "questionText": "I saw Mary at the library, and I waved to ___.",
+      "optionA": "she",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q046",
+      "questionText": "I saw Evelyn at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q047",
+      "questionText": "I saw Charlotte at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q048",
+      "questionText": "I saw Evelyn at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "her",
+      "optionC": "him",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q049",
+      "questionText": "I saw Alice at the library, and I waved to ___.",
+      "optionA": "him",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    },
+    {
+      "questionId": "T032-Q050",
+      "questionText": "I saw Evelyn at the library, and I waved to ___.",
+      "optionA": "them",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'her' is an object pronoun used as the receiver of the action or object of a preposition."
+    }
+  ]
+}

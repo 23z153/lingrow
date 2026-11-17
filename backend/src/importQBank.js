@@ -7,7 +7,19 @@ dotenv.config({ path: path.join(__dirname, '..', '.env') });
 
 const GrammarTopic = require('./models/GrammarTopic');
 
-const QBANK_DIR = process.env.QBANK_DIR || 'D:\\LinGrow_QBank';
+function resolveQBankDir() {
+  const candidates = [
+    process.env.QBANK_DIR,
+    path.join(__dirname, '..', '..', 'LinGrow_QBank'),
+    path.join(__dirname, '..', 'LinGrow_QBank'),
+    path.join(process.cwd(), 'LinGrow_QBank'),
+    path.join(process.cwd(), '..', 'LinGrow_QBank'),
+    'D:\\LinGrow_QBank',
+  ];
+  return candidates.find((c) => c && fs.existsSync(c)) || path.join(__dirname, '..', '..', 'LinGrow_QBank');
+}
+
+const QBANK_DIR = resolveQBankDir();
 
 const CANONICAL_CATEGORIES = {
   'PARTS OF SPEECH': 'Parts of Speech',
@@ -91,7 +103,7 @@ async function importQuestionBank(qbankDir = QBANK_DIR) {
     const topicId = content.topicId || (parseInt(file.replace(/\D/g, ''), 10) || 1);
     const title = content.topicName || `Topic ${topicId}`;
 
-    const questions = (content.questions || []).slice(0, 25).map((q, idx) => {
+    const questions = (content.questions || []).map((q, idx) => {
       const options = [
         String(q.optionA || '').trim(),
         String(q.optionB || '').trim(),

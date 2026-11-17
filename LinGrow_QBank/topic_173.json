@@ -1,0 +1,507 @@
+{
+  "topicId": 173,
+  "topicName": "Before/after",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T173-Q001",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q002",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "after",
+      "correctOption": "Option D",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q003",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "while",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q004",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "If",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q005",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "before",
+      "correctOption": "Option D",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q006",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "before",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q007",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "after",
+      "correctOption": "Option D",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q008",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q009",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "If",
+      "optionB": "Unless",
+      "optionC": "After",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q010",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "before",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q011",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "unless",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "before",
+      "correctOption": "Option D",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q012",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "after",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q013",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "before",
+      "optionB": "while",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q014",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "If",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q015",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "before",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q016",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "unless",
+      "optionB": "before",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q017",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "unless",
+      "optionB": "after",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q018",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "before",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q019",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q020",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "if",
+      "optionB": "before",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q021",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q022",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "if",
+      "optionB": "after",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q023",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "so",
+      "optionB": "while",
+      "optionC": "before",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q024",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "Although",
+      "optionC": "If",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q025",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "before",
+      "correctOption": "Option D",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q026",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "so",
+      "optionB": "before",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q027",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "after",
+      "correctOption": "Option D",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q028",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "while",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q029",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "Unless",
+      "optionB": "After",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option B",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q030",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "if",
+      "optionB": "before",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q031",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q032",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "after",
+      "correctOption": "Option D",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q033",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "before",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q034",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q035",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "before",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q036",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q037",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "after",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q038",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "so",
+      "optionB": "before",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q039",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "After",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option A",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q040",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "before",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q041",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "before",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q042",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "after",
+      "correctOption": "Option D",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q043",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "so",
+      "optionD": "before",
+      "correctOption": "Option D",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q044",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "If",
+      "optionB": "After",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q045",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "unless",
+      "optionB": "before",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q046",
+      "questionText": "Please read the chapter ____ the class starts.",
+      "optionA": "before",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q047",
+      "questionText": "We will have lunch ____ the lecture finishes.",
+      "optionA": "if",
+      "optionB": "after",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'after' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q048",
+      "questionText": "Always check your answers ____ you submit the test.",
+      "optionA": "before",
+      "optionB": "while",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q049",
+      "questionText": "____ passing the final exam, he graduated.",
+      "optionA": "If",
+      "optionB": "After",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'After' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T173-Q050",
+      "questionText": "She bought a notebook ____ going to her first class.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "before",
+      "correctOption": "Option D",
+      "explanation": "'before' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 149,
+  "topicName": "At/on/in for place",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T149-Q001",
+      "questionText": "The book is ___ the table. (1)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q002",
+      "questionText": "The book is ___ the table. (2)",
+      "optionA": "over",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q003",
+      "questionText": "I will meet you ___ the bus stop. (3)",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q004",
+      "questionText": "She is currently ___ Paris. (4)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q005",
+      "questionText": "She is currently ___ Paris. (5)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q006",
+      "questionText": "The book is ___ the table. (6)",
+      "optionA": "in",
+      "optionB": "over",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q007",
+      "questionText": "I will meet you ___ the bus stop. (7)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q008",
+      "questionText": "I will meet you ___ the bus stop. (8)",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q009",
+      "questionText": "The book is ___ the table. (9)",
+      "optionA": "over",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q010",
+      "questionText": "The book is ___ the table. (10)",
+      "optionA": "in",
+      "optionB": "over",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q011",
+      "questionText": "I will meet you ___ the bus stop. (11)",
+      "optionA": "on",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q012",
+      "questionText": "She is currently ___ Paris. (12)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q013",
+      "questionText": "I will meet you ___ the bus stop. (13)",
+      "optionA": "to",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q014",
+      "questionText": "The book is ___ the table. (14)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q015",
+      "questionText": "I will meet you ___ the bus stop. (15)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q016",
+      "questionText": "She is currently ___ Paris. (16)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q017",
+      "questionText": "The book is ___ the table. (17)",
+      "optionA": "over",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q018",
+      "questionText": "I will meet you ___ the bus stop. (18)",
+      "optionA": "on",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q019",
+      "questionText": "The book is ___ the table. (19)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "over",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q020",
+      "questionText": "She is currently ___ Paris. (20)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q021",
+      "questionText": "She is currently ___ Paris. (21)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q022",
+      "questionText": "She is currently ___ Paris. (22)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q023",
+      "questionText": "I will meet you ___ the bus stop. (23)",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q024",
+      "questionText": "She is currently ___ Paris. (24)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q025",
+      "questionText": "The book is ___ the table. (25)",
+      "optionA": "over",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q026",
+      "questionText": "I will meet you ___ the bus stop. (26)",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q027",
+      "questionText": "The book is ___ the table. (27)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "over",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q028",
+      "questionText": "I will meet you ___ the bus stop. (28)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q029",
+      "questionText": "I will meet you ___ the bus stop. (29)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q030",
+      "questionText": "She is currently ___ Paris. (30)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q031",
+      "questionText": "She is currently ___ Paris. (31)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "into",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q032",
+      "questionText": "The book is ___ the table. (32)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q033",
+      "questionText": "She is currently ___ Paris. (33)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q034",
+      "questionText": "The book is ___ the table. (34)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q035",
+      "questionText": "She is currently ___ Paris. (35)",
+      "optionA": "into",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q036",
+      "questionText": "The book is ___ the table. (36)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q037",
+      "questionText": "I will meet you ___ the bus stop. (37)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q038",
+      "questionText": "The book is ___ the table. (38)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q039",
+      "questionText": "She is currently ___ Paris. (39)",
+      "optionA": "at",
+      "optionB": "into",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q040",
+      "questionText": "I will meet you ___ the bus stop. (40)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q041",
+      "questionText": "She is currently ___ Paris. (41)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q042",
+      "questionText": "She is currently ___ Paris. (42)",
+      "optionA": "on",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q043",
+      "questionText": "She is currently ___ Paris. (43)",
+      "optionA": "into",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q044",
+      "questionText": "I will meet you ___ the bus stop. (44)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q045",
+      "questionText": "She is currently ___ Paris. (45)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q046",
+      "questionText": "The book is ___ the table. (46)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q047",
+      "questionText": "I will meet you ___ the bus stop. (47)",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q048",
+      "questionText": "The book is ___ the table. (48)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "over",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q049",
+      "questionText": "I will meet you ___ the bus stop. (49)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T149-Q050",
+      "questionText": "The book is ___ the table. (50)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 47,
+  "topicName": "Professions",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T047-Q001",
+      "questionText": "My brother wants to be ___ engineer 0.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q002",
+      "questionText": "She works as ___ teacher 1 at the local school.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q003",
+      "questionText": "Is he ___ doctor 2?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q004",
+      "questionText": "They are studying to become ___ architects 3.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q005",
+      "questionText": "John is ___ pilot 4 for a major airline.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q006",
+      "questionText": "My brother wants to be ___ engineer 5.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q007",
+      "questionText": "She works as ___ teacher 6 at the local school.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q008",
+      "questionText": "Is he ___ doctor 7?",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q009",
+      "questionText": "They are studying to become ___ architects 8.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q010",
+      "questionText": "John is ___ pilot 9 for a major airline.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q011",
+      "questionText": "My brother wants to be ___ engineer 10.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q012",
+      "questionText": "She works as ___ teacher 11 at the local school.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q013",
+      "questionText": "Is he ___ doctor 12?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q014",
+      "questionText": "They are studying to become ___ architects 13.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q015",
+      "questionText": "John is ___ pilot 14 for a major airline.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q016",
+      "questionText": "My brother wants to be ___ engineer 15.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q017",
+      "questionText": "She works as ___ teacher 16 at the local school.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q018",
+      "questionText": "Is he ___ doctor 17?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q019",
+      "questionText": "They are studying to become ___ architects 18.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q020",
+      "questionText": "John is ___ pilot 19 for a major airline.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q021",
+      "questionText": "My brother wants to be ___ engineer 20.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q022",
+      "questionText": "She works as ___ teacher 21 at the local school.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q023",
+      "questionText": "Is he ___ doctor 22?",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q024",
+      "questionText": "They are studying to become ___ architects 23.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q025",
+      "questionText": "John is ___ pilot 24 for a major airline.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q026",
+      "questionText": "My brother wants to be ___ engineer 25.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q027",
+      "questionText": "She works as ___ teacher 26 at the local school.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q028",
+      "questionText": "Is he ___ doctor 27?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q029",
+      "questionText": "They are studying to become ___ architects 28.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q030",
+      "questionText": "John is ___ pilot 29 for a major airline.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q031",
+      "questionText": "My brother wants to be ___ engineer 30.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q032",
+      "questionText": "She works as ___ teacher 31 at the local school.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q033",
+      "questionText": "Is he ___ doctor 32?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q034",
+      "questionText": "They are studying to become ___ architects 33.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q035",
+      "questionText": "John is ___ pilot 34 for a major airline.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q036",
+      "questionText": "My brother wants to be ___ engineer 35.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q037",
+      "questionText": "She works as ___ teacher 36 at the local school.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q038",
+      "questionText": "Is he ___ doctor 37?",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q039",
+      "questionText": "They are studying to become ___ architects 38.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q040",
+      "questionText": "John is ___ pilot 39 for a major airline.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q041",
+      "questionText": "My brother wants to be ___ engineer 40.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q042",
+      "questionText": "She works as ___ teacher 41 at the local school.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q043",
+      "questionText": "Is he ___ doctor 42?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q044",
+      "questionText": "They are studying to become ___ architects 43.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q045",
+      "questionText": "John is ___ pilot 44 for a major airline.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q046",
+      "questionText": "My brother wants to be ___ engineer 45.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q047",
+      "questionText": "She works as ___ teacher 46 at the local school.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q048",
+      "questionText": "Is he ___ doctor 47?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q049",
+      "questionText": "They are studying to become ___ architects 48.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T047-Q050",
+      "questionText": "John is ___ pilot 49 for a major airline.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    }
+  ]
+}

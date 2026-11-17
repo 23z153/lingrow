@@ -1,0 +1,507 @@
+{
+  "topicId": 169,
+  "topicName": "Although",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T169-Q001",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Although",
+      "optionD": "Or",
+      "correctOption": "Option C",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q002",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Because",
+      "optionB": "If",
+      "optionC": "When",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q003",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q004",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Until",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q005",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q006",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "Because",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "Or",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q007",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Although",
+      "optionB": "If",
+      "optionC": "Because",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q008",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q009",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Because",
+      "optionB": "Until",
+      "optionC": "So",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q010",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q011",
+      "questionText": "____ the exam was difficult, most students passed.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Or",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q012",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "When",
+      "optionB": "If",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q013",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q014",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Until",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q015",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q016",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "Or",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q017",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Because",
+      "optionB": "When",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q018",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q019",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Until",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q020",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q021",
+      "questionText": "____ the exam was difficult, most learners passed.",
+      "optionA": "Or",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q022",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Although",
+      "optionB": "Because",
+      "optionC": "If",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q023",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q024",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "Until",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q025",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "if",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q026",
+      "questionText": "____ the exam was difficult, most learners passed.",
+      "optionA": "Because",
+      "optionB": "Or",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option C",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q027",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Although",
+      "optionB": "Because",
+      "optionC": "If",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q028",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "or",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q029",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Until",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q030",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q031",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "Although",
+      "optionB": "So",
+      "optionC": "Or",
+      "optionD": "Because",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q032",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "If",
+      "optionB": "When",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q033",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q034",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Because",
+      "optionB": "Until",
+      "optionC": "So",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q035",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "so",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q036",
+      "questionText": "____ the exam was difficult, most learners passed.",
+      "optionA": "Or",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q037",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Although",
+      "optionB": "When",
+      "optionC": "If",
+      "optionD": "Because",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q038",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q039",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Because",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "Until",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q040",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "if",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q041",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "Although",
+      "optionB": "Because",
+      "optionC": "So",
+      "optionD": "Or",
+      "correctOption": "Option A",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q042",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "Because",
+      "optionB": "When",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option D",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q043",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "although",
+      "correctOption": "Option D",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q044",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Until",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q045",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q046",
+      "questionText": "____ the exam was difficult, most pupils passed.",
+      "optionA": "So",
+      "optionB": "Or",
+      "optionC": "Although",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q047",
+      "questionText": "____ it was raining, they walked to the university.",
+      "optionA": "When",
+      "optionB": "Because",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q048",
+      "questionText": "He didn't finish the essay, ____ he worked on it all night.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q049",
+      "questionText": "____ she was tired, she attended the morning lecture.",
+      "optionA": "Until",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "Because",
+      "correctOption": "Option B",
+      "explanation": "'Although' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T169-Q050",
+      "questionText": "They arrived late, ____ they ran all the way.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'although' is the correct choice in standard English grammar."
+    }
+  ]
+}

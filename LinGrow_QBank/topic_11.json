@@ -1,0 +1,507 @@
+{
+  "topicId": 11,
+  "topicName": "Adverbs",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T011-Q001",
+      "questionText": "The professor _____ explains the topic before the test.",
+      "optionA": "usually",
+      "optionB": "usual",
+      "optionC": "is usually",
+      "optionD": "usuals",
+      "correctOption": "Option A",
+      "explanation": "'usually' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q002",
+      "questionText": "The students listened to the guest speaker _____.",
+      "optionA": "quiet",
+      "optionB": "quietly",
+      "optionC": "quietness",
+      "optionD": "more quiet",
+      "correctOption": "Option B",
+      "explanation": "'quietly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q003",
+      "questionText": "This math problem is _____ difficult for beginners.",
+      "optionA": "much",
+      "optionB": "lot",
+      "optionC": "too",
+      "optionD": "completely",
+      "correctOption": "Option C",
+      "explanation": "'too' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q004",
+      "questionText": "He checks his university email _____.",
+      "optionA": "daily base",
+      "optionB": "day",
+      "optionC": "in daily",
+      "optionD": "daily",
+      "correctOption": "Option D",
+      "explanation": "'daily' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q005",
+      "questionText": "The campus bus drives _____ when it snows.",
+      "optionA": "slowly",
+      "optionB": "slow",
+      "optionC": "in slow",
+      "optionD": "slowness",
+      "correctOption": "Option A",
+      "explanation": "'slowly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q006",
+      "questionText": "She _____ forgets her student ID card.",
+      "optionA": "never is",
+      "optionB": "never",
+      "optionC": "is never",
+      "optionD": "don't never",
+      "correctOption": "Option B",
+      "explanation": "'never' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q007",
+      "questionText": "The physics lecture was _____ boring.",
+      "optionA": "fully",
+      "optionB": "deeply",
+      "optionC": "quite",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'quite' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q008",
+      "questionText": "John answered the professor's question _____.",
+      "optionA": "perfect",
+      "optionB": "perfection",
+      "optionC": "in perfect",
+      "optionD": "perfectly",
+      "correctOption": "Option D",
+      "explanation": "'perfectly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q009",
+      "questionText": "University classes _____ start at 8:00 AM.",
+      "optionA": "often",
+      "optionB": "oftenly",
+      "optionC": "are often",
+      "optionD": "often are",
+      "correctOption": "Option A",
+      "explanation": "'often' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q010",
+      "questionText": "My roommate speaks English very _____.",
+      "optionA": "good",
+      "optionB": "well",
+      "optionC": "nice",
+      "optionD": "better",
+      "correctOption": "Option B",
+      "explanation": "'well' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q011",
+      "questionText": "The textbook is _____ expensive this semester.",
+      "optionA": "total",
+      "optionB": "much",
+      "optionC": "extremely",
+      "optionD": "completely",
+      "correctOption": "Option C",
+      "explanation": "'extremely' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q012",
+      "questionText": "Please read the laboratory instructions _____.",
+      "optionA": "careful",
+      "optionB": "care",
+      "optionC": "carefulness",
+      "optionD": "carefully",
+      "correctOption": "Option D",
+      "explanation": "'carefully' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q013",
+      "questionText": "I _____ go to the cafeteria for lunch.",
+      "optionA": "sometimes",
+      "optionB": "sometime",
+      "optionC": "am sometimes",
+      "optionD": "sometimes am",
+      "correctOption": "Option A",
+      "explanation": "'sometimes' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q014",
+      "questionText": "The engineering students work _____ on their projects.",
+      "optionA": "hardily",
+      "optionB": "hard",
+      "optionC": "hardness",
+      "optionD": "in hard",
+      "correctOption": "Option B",
+      "explanation": "'hard' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q015",
+      "questionText": "The coffee at the student center is _____ hot.",
+      "optionA": "much",
+      "optionB": "lot",
+      "optionC": "really",
+      "optionD": "whole",
+      "correctOption": "Option C",
+      "explanation": "'really' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q016",
+      "questionText": "He finished his biology assignment _____.",
+      "optionA": "quick",
+      "optionB": "quicker",
+      "optionC": "quickness",
+      "optionD": "quickly",
+      "correctOption": "Option D",
+      "explanation": "'quickly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q017",
+      "questionText": "International students _____ live in the dorms.",
+      "optionA": "rarely",
+      "optionB": "rare",
+      "optionC": "are rarely",
+      "optionD": "rarely are",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q018",
+      "questionText": "The professor looked at the late student _____.",
+      "optionA": "angry",
+      "optionB": "angrily",
+      "optionC": "anger",
+      "optionD": "angriness",
+      "correctOption": "Option B",
+      "explanation": "'angrily' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q019",
+      "questionText": "This grammar rule is _____ simple to understand.",
+      "optionA": "greatly",
+      "optionB": "totally",
+      "optionC": "fairly",
+      "optionD": "full",
+      "correctOption": "Option C",
+      "explanation": "'fairly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q020",
+      "questionText": "You need to study _____ to pass the chemistry exam.",
+      "optionA": "serious",
+      "optionB": "in serious",
+      "optionC": "seriousness",
+      "optionD": "seriously",
+      "correctOption": "Option D",
+      "explanation": "'seriously' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q021",
+      "questionText": "The dean _____ attends the student club meetings.",
+      "optionA": "occasionally",
+      "optionB": "occasional",
+      "optionC": "is occasionally",
+      "optionD": "occasionaly",
+      "correctOption": "Option A",
+      "explanation": "'occasionally' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q022",
+      "questionText": "The choir sang _____ at the graduation ceremony.",
+      "optionA": "beautiful",
+      "optionB": "beautifully",
+      "optionC": "beauty",
+      "optionD": "beautify",
+      "correctOption": "Option B",
+      "explanation": "'beautifully' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q023",
+      "questionText": "The final exam was _____ long.",
+      "optionA": "many",
+      "optionB": "vast",
+      "optionC": "incredibly",
+      "optionD": "heavy",
+      "correctOption": "Option C",
+      "explanation": "'incredibly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q024",
+      "questionText": "They walk to campus _____ every morning.",
+      "optionA": "fastly",
+      "optionB": "in fast",
+      "optionC": "faster",
+      "optionD": "fast",
+      "correctOption": "Option D",
+      "explanation": "'fast' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q025",
+      "questionText": "We _____ use dictionaries during the test.",
+      "optionA": "never",
+      "optionB": "never are",
+      "optionC": "don't never",
+      "optionD": "are never",
+      "correctOption": "Option A",
+      "explanation": "'never' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q026",
+      "questionText": "The science experiment went _____ wrong.",
+      "optionA": "terrible",
+      "optionB": "terribly",
+      "optionC": "terror",
+      "optionD": "bad",
+      "correctOption": "Option B",
+      "explanation": "'terribly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q027",
+      "questionText": "The lecture hall is _____ noisy during breaks.",
+      "optionA": "much",
+      "optionB": "heavily",
+      "optionC": "rather",
+      "optionD": "complete",
+      "correctOption": "Option C",
+      "explanation": "'rather' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q028",
+      "questionText": "She plays the piano _____ in the music room.",
+      "optionA": "bad",
+      "optionB": "worser",
+      "optionC": "baddest",
+      "optionD": "badly",
+      "correctOption": "Option D",
+      "explanation": "'badly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q029",
+      "questionText": "New students _____ get lost on campus.",
+      "optionA": "always",
+      "optionB": "always are",
+      "optionC": "are always",
+      "optionD": "alway",
+      "correctOption": "Option A",
+      "explanation": "'always' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q030",
+      "questionText": "He answered the academic counselor _____.",
+      "optionA": "polite",
+      "optionB": "politely",
+      "optionC": "politeness",
+      "optionD": "more polite",
+      "correctOption": "Option B",
+      "explanation": "'politely' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q031",
+      "questionText": "The tuition fee is _____ high this year.",
+      "optionA": "lots",
+      "optionB": "heavily",
+      "optionC": "surprisingly",
+      "optionD": "major",
+      "correctOption": "Option C",
+      "explanation": "'surprisingly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q032",
+      "questionText": "He packed his backpack _____ before the bus arrived.",
+      "optionA": "hurry",
+      "optionB": "hurried",
+      "optionC": "in hurry",
+      "optionD": "hurriedly",
+      "correctOption": "Option D",
+      "explanation": "'hurriedly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q033",
+      "questionText": "I _____ finish my homework before dinner.",
+      "optionA": "normally",
+      "optionB": "normal",
+      "optionC": "am normally",
+      "optionD": "normaly",
+      "correctOption": "Option A",
+      "explanation": "'normally' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q034",
+      "questionText": "She smiled _____ when she saw her test grade.",
+      "optionA": "happy",
+      "optionB": "happily",
+      "optionC": "happiness",
+      "optionD": "happier",
+      "correctOption": "Option B",
+      "explanation": "'happily' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q035",
+      "questionText": "The registration process is _____ confusing.",
+      "optionA": "entirely",
+      "optionB": "whole",
+      "optionC": "somewhat",
+      "optionD": "lot",
+      "correctOption": "Option C",
+      "explanation": "'somewhat' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q036",
+      "questionText": "The computer in the lab works very _____.",
+      "optionA": "poor",
+      "optionB": "poory",
+      "optionC": "poorness",
+      "optionD": "poorly",
+      "correctOption": "Option D",
+      "explanation": "'poorly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q037",
+      "questionText": "The academic advisor is _____ busy on Mondays.",
+      "optionA": "always",
+      "optionB": "neverly",
+      "optionC": "always is",
+      "optionD": "forever",
+      "correctOption": "Option A",
+      "explanation": "'always' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q038",
+      "questionText": "They discussed the group project _____.",
+      "optionA": "serious",
+      "optionB": "seriously",
+      "optionC": "seriousity",
+      "optionD": "more serious",
+      "correctOption": "Option B",
+      "explanation": "'seriously' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q039",
+      "questionText": "The history book is _____ heavy to carry.",
+      "optionA": "very",
+      "optionB": "so",
+      "optionC": "too",
+      "optionD": "completely",
+      "correctOption": "Option C",
+      "explanation": "'too' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q040",
+      "questionText": "He writes his notes very _____ in class.",
+      "optionA": "neat",
+      "optionB": "neatness",
+      "optionC": "in neat",
+      "optionD": "neatly",
+      "correctOption": "Option D",
+      "explanation": "'neatly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q041",
+      "questionText": "My classmates _____ help each other with assignments.",
+      "optionA": "frequently",
+      "optionB": "frequent",
+      "optionC": "are frequently",
+      "optionD": "frequenting",
+      "correctOption": "Option A",
+      "explanation": "'frequently' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q042",
+      "questionText": "She opened the library door _____.",
+      "optionA": "gentle",
+      "optionB": "gently",
+      "optionC": "gentleness",
+      "optionD": "gentler",
+      "correctOption": "Option B",
+      "explanation": "'gently' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q043",
+      "questionText": "The campus internet is _____ slow today.",
+      "optionA": "grandly",
+      "optionB": "large",
+      "optionC": "unusually",
+      "optionD": "huge",
+      "correctOption": "Option C",
+      "explanation": "'unusually' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q044",
+      "questionText": "The speaker shouted _____ so everyone could hear.",
+      "optionA": "loud",
+      "optionB": "in loud",
+      "optionC": "loudness",
+      "optionD": "loudly",
+      "correctOption": "Option D",
+      "explanation": "'loudly' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q045",
+      "questionText": "We _____ have a quiz on Fridays.",
+      "optionA": "generally",
+      "optionB": "general",
+      "optionC": "are generally",
+      "optionD": "generaly",
+      "correctOption": "Option A",
+      "explanation": "'generally' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q046",
+      "questionText": "The art students painted _____.",
+      "optionA": "creative",
+      "optionB": "creatively",
+      "optionC": "creativity",
+      "optionD": "creates",
+      "correctOption": "Option B",
+      "explanation": "'creatively' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q047",
+      "questionText": "His dorm room is _____ clean.",
+      "optionA": "much",
+      "optionB": "complete",
+      "optionC": "very",
+      "optionD": "heavily",
+      "correctOption": "Option C",
+      "explanation": "'very' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q048",
+      "questionText": "She waited _____ for the professor's office hours to begin.",
+      "optionA": "patient",
+      "optionB": "patience",
+      "optionC": "in patient",
+      "optionD": "patiently",
+      "correctOption": "Option D",
+      "explanation": "'patiently' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q049",
+      "questionText": "I _____ understand the new math concept.",
+      "optionA": "completely",
+      "optionB": "complete",
+      "optionC": "completion",
+      "optionD": "completely am",
+      "correctOption": "Option A",
+      "explanation": "'completely' is an adverb because it modifies a verb, adjective, or sentence."
+    },
+    {
+      "questionId": "T011-Q050",
+      "questionText": "They walked _____ to their next class.",
+      "optionA": "brisk",
+      "optionB": "briskly",
+      "optionC": "briskness",
+      "optionD": "in brisk",
+      "correctOption": "Option B",
+      "explanation": "'briskly' is an adverb because it modifies a verb, adjective, or sentence."
+    }
+  ]
+}

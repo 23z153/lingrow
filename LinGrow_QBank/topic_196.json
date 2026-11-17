@@ -1,0 +1,507 @@
+{
+  "topicId": 196,
+  "topicName": "Gerund as subject",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T196-Q001",
+      "questionText": "___ is a great way to stay healthy. (Variant 1)",
+      "optionA": "Swimming",
+      "optionB": "Swam",
+      "optionC": "Swim",
+      "optionD": "To swim",
+      "correctOption": "Option A",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q002",
+      "questionText": "___ books broadens the mind. (Variant 2)",
+      "optionA": "To reading",
+      "optionB": "Reading",
+      "optionC": "Read",
+      "optionD": "Reads",
+      "correctOption": "Option B",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q003",
+      "questionText": "___ too much junk food causes health problems. (Variant 3)",
+      "optionA": "Eat",
+      "optionB": "Ate",
+      "optionC": "Eating",
+      "optionD": "Eaten",
+      "correctOption": "Option C",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q004",
+      "questionText": "___ English can be challenging but fun. (Variant 4)",
+      "optionA": "Learn",
+      "optionB": "Learned",
+      "optionC": "To learning",
+      "optionD": "Learning",
+      "correctOption": "Option D",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q005",
+      "questionText": "___ late is not acceptable in this class. (Variant 5)",
+      "optionA": "Arriving",
+      "optionB": "Arrived",
+      "optionC": "Arrive",
+      "optionD": "To arriving",
+      "correctOption": "Option A",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q006",
+      "questionText": "___ is a great way to stay healthy. (Variant 6)",
+      "optionA": "To swim",
+      "optionB": "Swimming",
+      "optionC": "Swam",
+      "optionD": "Swim",
+      "correctOption": "Option B",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q007",
+      "questionText": "___ books broadens the mind. (Variant 7)",
+      "optionA": "Reads",
+      "optionB": "To reading",
+      "optionC": "Reading",
+      "optionD": "Read",
+      "correctOption": "Option C",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q008",
+      "questionText": "___ too much junk food causes health problems. (Variant 8)",
+      "optionA": "Ate",
+      "optionB": "Eaten",
+      "optionC": "Eat",
+      "optionD": "Eating",
+      "correctOption": "Option D",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q009",
+      "questionText": "___ English can be challenging but fun. (Variant 9)",
+      "optionA": "Learning",
+      "optionB": "Learn",
+      "optionC": "Learned",
+      "optionD": "To learning",
+      "correctOption": "Option A",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q010",
+      "questionText": "___ late is not acceptable in this class. (Variant 10)",
+      "optionA": "Arrived",
+      "optionB": "Arriving",
+      "optionC": "Arrive",
+      "optionD": "To arriving",
+      "correctOption": "Option B",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q011",
+      "questionText": "___ is a great way to stay healthy. (Variant 11)",
+      "optionA": "Swam",
+      "optionB": "To swim",
+      "optionC": "Swimming",
+      "optionD": "Swim",
+      "correctOption": "Option C",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q012",
+      "questionText": "___ books broadens the mind. (Variant 12)",
+      "optionA": "To reading",
+      "optionB": "Reads",
+      "optionC": "Read",
+      "optionD": "Reading",
+      "correctOption": "Option D",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q013",
+      "questionText": "___ too much junk food causes health problems. (Variant 13)",
+      "optionA": "Eating",
+      "optionB": "Eaten",
+      "optionC": "Eat",
+      "optionD": "Ate",
+      "correctOption": "Option A",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q014",
+      "questionText": "___ English can be challenging but fun. (Variant 14)",
+      "optionA": "Learn",
+      "optionB": "Learning",
+      "optionC": "Learned",
+      "optionD": "To learning",
+      "correctOption": "Option B",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q015",
+      "questionText": "___ late is not acceptable in this class. (Variant 15)",
+      "optionA": "To arriving",
+      "optionB": "Arrive",
+      "optionC": "Arriving",
+      "optionD": "Arrived",
+      "correctOption": "Option C",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q016",
+      "questionText": "___ is a great way to stay healthy. (Variant 16)",
+      "optionA": "Swim",
+      "optionB": "Swam",
+      "optionC": "To swim",
+      "optionD": "Swimming",
+      "correctOption": "Option D",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q017",
+      "questionText": "___ books broadens the mind. (Variant 17)",
+      "optionA": "Reading",
+      "optionB": "Reads",
+      "optionC": "Read",
+      "optionD": "To reading",
+      "correctOption": "Option A",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q018",
+      "questionText": "___ too much junk food causes health problems. (Variant 18)",
+      "optionA": "Ate",
+      "optionB": "Eating",
+      "optionC": "Eaten",
+      "optionD": "Eat",
+      "correctOption": "Option B",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q019",
+      "questionText": "___ English can be challenging but fun. (Variant 19)",
+      "optionA": "Learn",
+      "optionB": "Learned",
+      "optionC": "Learning",
+      "optionD": "To learning",
+      "correctOption": "Option C",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q020",
+      "questionText": "___ late is not acceptable in this class. (Variant 20)",
+      "optionA": "To arriving",
+      "optionB": "Arrived",
+      "optionC": "Arrive",
+      "optionD": "Arriving",
+      "correctOption": "Option D",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q021",
+      "questionText": "___ is a great way to stay healthy. (Variant 21)",
+      "optionA": "Swimming",
+      "optionB": "To swim",
+      "optionC": "Swam",
+      "optionD": "Swim",
+      "correctOption": "Option A",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q022",
+      "questionText": "___ books broadens the mind. (Variant 22)",
+      "optionA": "Reads",
+      "optionB": "Reading",
+      "optionC": "Read",
+      "optionD": "To reading",
+      "correctOption": "Option B",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q023",
+      "questionText": "___ too much junk food causes health problems. (Variant 23)",
+      "optionA": "Eaten",
+      "optionB": "Ate",
+      "optionC": "Eating",
+      "optionD": "Eat",
+      "correctOption": "Option C",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q024",
+      "questionText": "___ English can be challenging but fun. (Variant 24)",
+      "optionA": "Learn",
+      "optionB": "To learning",
+      "optionC": "Learned",
+      "optionD": "Learning",
+      "correctOption": "Option D",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q025",
+      "questionText": "___ late is not acceptable in this class. (Variant 25)",
+      "optionA": "Arriving",
+      "optionB": "Arrive",
+      "optionC": "To arriving",
+      "optionD": "Arrived",
+      "correctOption": "Option A",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q026",
+      "questionText": "___ is a great way to stay healthy. (Variant 26)",
+      "optionA": "Swam",
+      "optionB": "Swimming",
+      "optionC": "To swim",
+      "optionD": "Swim",
+      "correctOption": "Option B",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q027",
+      "questionText": "___ books broadens the mind. (Variant 27)",
+      "optionA": "Reads",
+      "optionB": "To reading",
+      "optionC": "Reading",
+      "optionD": "Read",
+      "correctOption": "Option C",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q028",
+      "questionText": "___ too much junk food causes health problems. (Variant 28)",
+      "optionA": "Ate",
+      "optionB": "Eat",
+      "optionC": "Eaten",
+      "optionD": "Eating",
+      "correctOption": "Option D",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q029",
+      "questionText": "___ English can be challenging but fun. (Variant 29)",
+      "optionA": "Learning",
+      "optionB": "Learn",
+      "optionC": "To learning",
+      "optionD": "Learned",
+      "correctOption": "Option A",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q030",
+      "questionText": "___ late is not acceptable in this class. (Variant 30)",
+      "optionA": "To arriving",
+      "optionB": "Arriving",
+      "optionC": "Arrive",
+      "optionD": "Arrived",
+      "correctOption": "Option B",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q031",
+      "questionText": "___ is a great way to stay healthy. (Variant 31)",
+      "optionA": "Swam",
+      "optionB": "Swim",
+      "optionC": "Swimming",
+      "optionD": "To swim",
+      "correctOption": "Option C",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q032",
+      "questionText": "___ books broadens the mind. (Variant 32)",
+      "optionA": "To reading",
+      "optionB": "Reads",
+      "optionC": "Read",
+      "optionD": "Reading",
+      "correctOption": "Option D",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q033",
+      "questionText": "___ too much junk food causes health problems. (Variant 33)",
+      "optionA": "Eating",
+      "optionB": "Eaten",
+      "optionC": "Eat",
+      "optionD": "Ate",
+      "correctOption": "Option A",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q034",
+      "questionText": "___ English can be challenging but fun. (Variant 34)",
+      "optionA": "Learn",
+      "optionB": "Learning",
+      "optionC": "Learned",
+      "optionD": "To learning",
+      "correctOption": "Option B",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q035",
+      "questionText": "___ late is not acceptable in this class. (Variant 35)",
+      "optionA": "To arriving",
+      "optionB": "Arrive",
+      "optionC": "Arriving",
+      "optionD": "Arrived",
+      "correctOption": "Option C",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q036",
+      "questionText": "___ is a great way to stay healthy. (Variant 36)",
+      "optionA": "Swim",
+      "optionB": "Swam",
+      "optionC": "To swim",
+      "optionD": "Swimming",
+      "correctOption": "Option D",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q037",
+      "questionText": "___ books broadens the mind. (Variant 37)",
+      "optionA": "Reading",
+      "optionB": "To reading",
+      "optionC": "Read",
+      "optionD": "Reads",
+      "correctOption": "Option A",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q038",
+      "questionText": "___ too much junk food causes health problems. (Variant 38)",
+      "optionA": "Eaten",
+      "optionB": "Eating",
+      "optionC": "Eat",
+      "optionD": "Ate",
+      "correctOption": "Option B",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q039",
+      "questionText": "___ English can be challenging but fun. (Variant 39)",
+      "optionA": "To learning",
+      "optionB": "Learn",
+      "optionC": "Learning",
+      "optionD": "Learned",
+      "correctOption": "Option C",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q040",
+      "questionText": "___ late is not acceptable in this class. (Variant 40)",
+      "optionA": "To arriving",
+      "optionB": "Arrive",
+      "optionC": "Arrived",
+      "optionD": "Arriving",
+      "correctOption": "Option D",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q041",
+      "questionText": "___ is a great way to stay healthy. (Variant 41)",
+      "optionA": "Swimming",
+      "optionB": "To swim",
+      "optionC": "Swam",
+      "optionD": "Swim",
+      "correctOption": "Option A",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q042",
+      "questionText": "___ books broadens the mind. (Variant 42)",
+      "optionA": "Read",
+      "optionB": "Reading",
+      "optionC": "Reads",
+      "optionD": "To reading",
+      "correctOption": "Option B",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q043",
+      "questionText": "___ too much junk food causes health problems. (Variant 43)",
+      "optionA": "Ate",
+      "optionB": "Eat",
+      "optionC": "Eating",
+      "optionD": "Eaten",
+      "correctOption": "Option C",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q044",
+      "questionText": "___ English can be challenging but fun. (Variant 44)",
+      "optionA": "Learned",
+      "optionB": "To learning",
+      "optionC": "Learn",
+      "optionD": "Learning",
+      "correctOption": "Option D",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q045",
+      "questionText": "___ late is not acceptable in this class. (Variant 45)",
+      "optionA": "Arriving",
+      "optionB": "To arriving",
+      "optionC": "Arrive",
+      "optionD": "Arrived",
+      "correctOption": "Option A",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q046",
+      "questionText": "___ is a great way to stay healthy. (Variant 46)",
+      "optionA": "Swam",
+      "optionB": "Swimming",
+      "optionC": "To swim",
+      "optionD": "Swim",
+      "correctOption": "Option B",
+      "explanation": "'Swimming' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q047",
+      "questionText": "___ books broadens the mind. (Variant 47)",
+      "optionA": "To reading",
+      "optionB": "Reads",
+      "optionC": "Reading",
+      "optionD": "Read",
+      "correctOption": "Option C",
+      "explanation": "'Reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q048",
+      "questionText": "___ too much junk food causes health problems. (Variant 48)",
+      "optionA": "Eaten",
+      "optionB": "Eat",
+      "optionC": "Ate",
+      "optionD": "Eating",
+      "correctOption": "Option D",
+      "explanation": "'Eating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q049",
+      "questionText": "___ English can be challenging but fun. (Variant 49)",
+      "optionA": "Learning",
+      "optionB": "Learned",
+      "optionC": "Learn",
+      "optionD": "To learning",
+      "correctOption": "Option A",
+      "explanation": "'Learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T196-Q050",
+      "questionText": "___ late is not acceptable in this class. (Variant 50)",
+      "optionA": "Arrived",
+      "optionB": "Arriving",
+      "optionC": "Arrive",
+      "optionD": "To arriving",
+      "correctOption": "Option B",
+      "explanation": "'Arriving' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 13,
+  "topicName": "Conjunctions",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T013-Q001",
+      "questionText": "I study biology, ___ I also take a chemistry class.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "Use 'and' to connect similar ideas."
+    },
+    {
+      "questionId": "T013-Q002",
+      "questionText": "The professor was sick, ___ she canceled the lecture.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q003",
+      "questionText": "We can meet at the library, ___ we can study at the cafe.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q004",
+      "questionText": "The exam was very difficult, ___ most students passed.",
+      "optionA": "but",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q005",
+      "questionText": "He didn't submit the assignment ___ he lost his flash drive.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q006",
+      "questionText": "You must read the chapter ___ you come to class.",
+      "optionA": "before",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'before' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q007",
+      "questionText": "___ the bell rings, the students leave the classroom.",
+      "optionA": "When",
+      "optionB": "But",
+      "optionC": "So",
+      "optionD": "And",
+      "correctOption": "Option A",
+      "explanation": "'When' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q008",
+      "questionText": "She wants to study in London, ___ she is saving money.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q009",
+      "questionText": "I like the math teacher, ___ I don't understand the lessons.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q010",
+      "questionText": "We will have a test on Friday ___ Monday.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q011",
+      "questionText": "I drink coffee ___ I read my textbook.",
+      "optionA": "while",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'while' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q012",
+      "questionText": "___ he was tired, he finished his essay.",
+      "optionA": "Although",
+      "optionB": "Because",
+      "optionC": "And",
+      "optionD": "So",
+      "correctOption": "Option A",
+      "explanation": "'Although' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q013",
+      "questionText": "They went to the cafeteria ___ they were hungry.",
+      "optionA": "because",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q014",
+      "questionText": "I need a pen ___ a notebook for this class.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "Use 'and' to connect similar ideas."
+    },
+    {
+      "questionId": "T013-Q015",
+      "questionText": "He missed the bus, ___ he was late for the seminar.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q016",
+      "questionText": "I can write an essay, ___ I cannot write a poem.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q017",
+      "questionText": "Do you want to study now, ___ later?",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q018",
+      "questionText": "She was happy ___ she got an A on her test.",
+      "optionA": "but",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q019",
+      "questionText": "I will call you ___ the class is over.",
+      "optionA": "but",
+      "optionB": "after",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'after' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q020",
+      "questionText": "___ it was raining, we walked to the campus.",
+      "optionA": "Because",
+      "optionB": "Although",
+      "optionC": "And",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'Although' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q021",
+      "questionText": "I have a laptop, ___ I don't have a printer.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q022",
+      "questionText": "Please listen quietly ___ the professor is speaking.",
+      "optionA": "but",
+      "optionB": "while",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'while' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q023",
+      "questionText": "The library is closed, ___ we have to study at home.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q024",
+      "questionText": "You can drink water, ___ you cannot eat in the lab.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q025",
+      "questionText": "We need to finish the project ___ the deadline.",
+      "optionA": "and",
+      "optionB": "before",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'before' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q026",
+      "questionText": "He is smart ___ very hardworking.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "Use 'and' to connect similar ideas."
+    },
+    {
+      "questionId": "T013-Q027",
+      "questionText": "I did my homework, ___ I forgot to bring it.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q028",
+      "questionText": "The course was very easy, ___ he still failed.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q029",
+      "questionText": "You must register for the course, ___ you cannot take the exam.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q030",
+      "questionText": "He went to the administration office ___ he needed to pay his fees.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q031",
+      "questionText": "I will start my research ___ I find a good topic.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "when",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'when' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q032",
+      "questionText": "The lecture was long, ___ it was very interesting.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q033",
+      "questionText": "___ I am a freshman, I am taking advanced math.",
+      "optionA": "Because",
+      "optionB": "So",
+      "optionC": "Although",
+      "optionD": "And",
+      "correctOption": "Option C",
+      "explanation": "'Although' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q034",
+      "questionText": "You can write with a pencil ___ a black pen.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q035",
+      "questionText": "She wants to be a doctor, ___ she studies science.",
+      "optionA": "but",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q036",
+      "questionText": "I cannot print the document ___ the printer is broken.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q037",
+      "questionText": "We will review the notes ___ the test begins.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "before",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'before' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q038",
+      "questionText": "He listened to music ___ he was doing his math homework.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'while' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q039",
+      "questionText": "I like reading history books ___ novels.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "Use 'and' to connect similar ideas."
+    },
+    {
+      "questionId": "T013-Q040",
+      "questionText": "It is raining, ___ our physical education class is indoors.",
+      "optionA": "because",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q041",
+      "questionText": "She did not understand the question, ___ she asked the tutor for help.",
+      "optionA": "but",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q042",
+      "questionText": "You can take the morning class ___ the evening class.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q043",
+      "questionText": "I went to the library ___ I needed a quiet place to read.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q044",
+      "questionText": "I will wait here ___ you finish your exam.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q045",
+      "questionText": "He speaks English ___ Spanish fluently.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "Use 'and' to connect similar ideas."
+    },
+    {
+      "questionId": "T013-Q046",
+      "questionText": "The cafeteria food is cheap, ___ it is not very good.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "Use 'but' to show contrast."
+    },
+    {
+      "questionId": "T013-Q047",
+      "questionText": "We can go to the study room, ___ we can stay in the dorm.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q048",
+      "questionText": "She smiled ___ she received her diploma.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is a conjunction used to connect words, phrases, or clauses."
+    },
+    {
+      "questionId": "T013-Q049",
+      "questionText": "The assignment is due tomorrow, ___ I must finish it tonight.",
+      "optionA": "but",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "Use 'so' to show a result or effect."
+    },
+    {
+      "questionId": "T013-Q050",
+      "questionText": "___ he studied hard, he got the highest grade in the class.",
+      "optionA": "Although",
+      "optionB": "But",
+      "optionC": "Or",
+      "optionD": "Because",
+      "correctOption": "Option D",
+      "explanation": "'Because' is a conjunction used to connect words, phrases, or clauses."
+    }
+  ]
+}

@@ -200,11 +200,18 @@ async function run() {
     ]);
   }
 
-    const qbankPath = process.env.QBANK_DIR || 'D:\\LinGrow_QBank';
-  if (fs.existsSync(qbankPath)) {
-    console.log('[seed] Found LinGrow Question Bank at ' + qbankPath + '. Importing all topics & questions...');
-    await importQuestionBank(qbankPath);
-  } else {
+    const qbankCandidates = [
+      process.env.QBANK_DIR,
+      path.join(__dirname, '..', '..', 'LinGrow_QBank'),
+      path.join(__dirname, '..', 'LinGrow_QBank'),
+      path.join(process.cwd(), 'LinGrow_QBank'),
+      'D:\\LinGrow_QBank',
+    ];
+    const qbankPath = qbankCandidates.find((p) => p && fs.existsSync(p)) || 'D:\\LinGrow_QBank';
+    if (fs.existsSync(qbankPath)) {
+      console.log('[seed] Found LinGrow Question Bank at ' + qbankPath + '. Importing all topics & questions...');
+      await importQuestionBank(qbankPath);
+    } else {
     await GrammarTopic.deleteMany({});
     await GrammarTopic.insertMany([
       {

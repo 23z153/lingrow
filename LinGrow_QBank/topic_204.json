@@ -1,0 +1,507 @@
+{
+  "topicId": 204,
+  "topicName": "Verb phrase",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T204-Q001",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 1)",
+      "optionA": "will be going",
+      "optionB": "going tomorrow",
+      "optionC": "be going tomorrow",
+      "optionD": "She will",
+      "correctOption": "Option A",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q002",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 2)",
+      "optionA": "working all",
+      "optionB": "have been working",
+      "optionC": "They have",
+      "optionD": "been working all",
+      "correctOption": "Option B",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q003",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 3)",
+      "optionA": "might have",
+      "optionB": "have seen it",
+      "optionC": "might have seen",
+      "optionD": "He might",
+      "correctOption": "Option C",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q004",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 4)",
+      "optionA": "The dog",
+      "optionB": "barking loudly",
+      "optionC": "dog is",
+      "optionD": "is barking",
+      "correctOption": "Option D",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q005",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 5)",
+      "optionA": "should call",
+      "optionB": "call her",
+      "optionC": "should call her",
+      "optionD": "You should",
+      "correctOption": "Option A",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q006",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 6)",
+      "optionA": "She will",
+      "optionB": "will be going",
+      "optionC": "going tomorrow",
+      "optionD": "be going tomorrow",
+      "correctOption": "Option B",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q007",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 7)",
+      "optionA": "working all",
+      "optionB": "They have",
+      "optionC": "have been working",
+      "optionD": "been working all",
+      "correctOption": "Option C",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q008",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 8)",
+      "optionA": "have seen it",
+      "optionB": "might have",
+      "optionC": "He might",
+      "optionD": "might have seen",
+      "correctOption": "Option D",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q009",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 9)",
+      "optionA": "is barking",
+      "optionB": "dog is",
+      "optionC": "The dog",
+      "optionD": "barking loudly",
+      "correctOption": "Option A",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q010",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 10)",
+      "optionA": "call her",
+      "optionB": "should call",
+      "optionC": "You should",
+      "optionD": "should call her",
+      "correctOption": "Option B",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q011",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 11)",
+      "optionA": "going tomorrow",
+      "optionB": "be going tomorrow",
+      "optionC": "will be going",
+      "optionD": "She will",
+      "correctOption": "Option C",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q012",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 12)",
+      "optionA": "been working all",
+      "optionB": "They have",
+      "optionC": "working all",
+      "optionD": "have been working",
+      "correctOption": "Option D",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q013",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 13)",
+      "optionA": "might have seen",
+      "optionB": "have seen it",
+      "optionC": "He might",
+      "optionD": "might have",
+      "correctOption": "Option A",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q014",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 14)",
+      "optionA": "barking loudly",
+      "optionB": "is barking",
+      "optionC": "dog is",
+      "optionD": "The dog",
+      "correctOption": "Option B",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q015",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 15)",
+      "optionA": "You should",
+      "optionB": "call her",
+      "optionC": "should call",
+      "optionD": "should call her",
+      "correctOption": "Option C",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q016",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 16)",
+      "optionA": "be going tomorrow",
+      "optionB": "She will",
+      "optionC": "going tomorrow",
+      "optionD": "will be going",
+      "correctOption": "Option D",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q017",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 17)",
+      "optionA": "have been working",
+      "optionB": "working all",
+      "optionC": "been working all",
+      "optionD": "They have",
+      "correctOption": "Option A",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q018",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 18)",
+      "optionA": "He might",
+      "optionB": "might have seen",
+      "optionC": "might have",
+      "optionD": "have seen it",
+      "correctOption": "Option B",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q019",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 19)",
+      "optionA": "The dog",
+      "optionB": "dog is",
+      "optionC": "is barking",
+      "optionD": "barking loudly",
+      "correctOption": "Option C",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q020",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 20)",
+      "optionA": "You should",
+      "optionB": "should call her",
+      "optionC": "call her",
+      "optionD": "should call",
+      "correctOption": "Option D",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q021",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 21)",
+      "optionA": "will be going",
+      "optionB": "She will",
+      "optionC": "be going tomorrow",
+      "optionD": "going tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q022",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 22)",
+      "optionA": "been working all",
+      "optionB": "have been working",
+      "optionC": "working all",
+      "optionD": "They have",
+      "correctOption": "Option B",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q023",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 23)",
+      "optionA": "might have",
+      "optionB": "He might",
+      "optionC": "might have seen",
+      "optionD": "have seen it",
+      "correctOption": "Option C",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q024",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 24)",
+      "optionA": "dog is",
+      "optionB": "The dog",
+      "optionC": "barking loudly",
+      "optionD": "is barking",
+      "correctOption": "Option D",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q025",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 25)",
+      "optionA": "should call",
+      "optionB": "You should",
+      "optionC": "should call her",
+      "optionD": "call her",
+      "correctOption": "Option A",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q026",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 26)",
+      "optionA": "She will",
+      "optionB": "will be going",
+      "optionC": "be going tomorrow",
+      "optionD": "going tomorrow",
+      "correctOption": "Option B",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q027",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 27)",
+      "optionA": "They have",
+      "optionB": "working all",
+      "optionC": "have been working",
+      "optionD": "been working all",
+      "correctOption": "Option C",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q028",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 28)",
+      "optionA": "might have",
+      "optionB": "He might",
+      "optionC": "have seen it",
+      "optionD": "might have seen",
+      "correctOption": "Option D",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q029",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 29)",
+      "optionA": "is barking",
+      "optionB": "The dog",
+      "optionC": "barking loudly",
+      "optionD": "dog is",
+      "correctOption": "Option A",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q030",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 30)",
+      "optionA": "should call her",
+      "optionB": "should call",
+      "optionC": "You should",
+      "optionD": "call her",
+      "correctOption": "Option B",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q031",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 31)",
+      "optionA": "She will",
+      "optionB": "going tomorrow",
+      "optionC": "will be going",
+      "optionD": "be going tomorrow",
+      "correctOption": "Option C",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q032",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 32)",
+      "optionA": "working all",
+      "optionB": "They have",
+      "optionC": "been working all",
+      "optionD": "have been working",
+      "correctOption": "Option D",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q033",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 33)",
+      "optionA": "might have seen",
+      "optionB": "He might",
+      "optionC": "have seen it",
+      "optionD": "might have",
+      "correctOption": "Option A",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q034",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 34)",
+      "optionA": "The dog",
+      "optionB": "is barking",
+      "optionC": "barking loudly",
+      "optionD": "dog is",
+      "correctOption": "Option B",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q035",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 35)",
+      "optionA": "call her",
+      "optionB": "You should",
+      "optionC": "should call",
+      "optionD": "should call her",
+      "correctOption": "Option C",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q036",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 36)",
+      "optionA": "be going tomorrow",
+      "optionB": "going tomorrow",
+      "optionC": "She will",
+      "optionD": "will be going",
+      "correctOption": "Option D",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q037",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 37)",
+      "optionA": "have been working",
+      "optionB": "been working all",
+      "optionC": "They have",
+      "optionD": "working all",
+      "correctOption": "Option A",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q038",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 38)",
+      "optionA": "have seen it",
+      "optionB": "might have seen",
+      "optionC": "might have",
+      "optionD": "He might",
+      "correctOption": "Option B",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q039",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 39)",
+      "optionA": "barking loudly",
+      "optionB": "The dog",
+      "optionC": "is barking",
+      "optionD": "dog is",
+      "correctOption": "Option C",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q040",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 40)",
+      "optionA": "call her",
+      "optionB": "should call her",
+      "optionC": "You should",
+      "optionD": "should call",
+      "correctOption": "Option D",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q041",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 41)",
+      "optionA": "will be going",
+      "optionB": "going tomorrow",
+      "optionC": "be going tomorrow",
+      "optionD": "She will",
+      "correctOption": "Option A",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q042",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 42)",
+      "optionA": "They have",
+      "optionB": "have been working",
+      "optionC": "working all",
+      "optionD": "been working all",
+      "correctOption": "Option B",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q043",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 43)",
+      "optionA": "have seen it",
+      "optionB": "might have",
+      "optionC": "might have seen",
+      "optionD": "He might",
+      "correctOption": "Option C",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q044",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 44)",
+      "optionA": "barking loudly",
+      "optionB": "dog is",
+      "optionC": "The dog",
+      "optionD": "is barking",
+      "correctOption": "Option D",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q045",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 45)",
+      "optionA": "should call",
+      "optionB": "should call her",
+      "optionC": "You should",
+      "optionD": "call her",
+      "correctOption": "Option A",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q046",
+      "questionText": "Identify the verb phrase: She will be going tomorrow. (Variant 46)",
+      "optionA": "be going tomorrow",
+      "optionB": "will be going",
+      "optionC": "going tomorrow",
+      "optionD": "She will",
+      "correctOption": "Option B",
+      "explanation": "'will be going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q047",
+      "questionText": "Find the verb phrase: They have been working all day. (Variant 47)",
+      "optionA": "They have",
+      "optionB": "working all",
+      "optionC": "have been working",
+      "optionD": "been working all",
+      "correctOption": "Option C",
+      "explanation": "'have been working' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q048",
+      "questionText": "Which part is a verb phrase? He might have seen it. (Variant 48)",
+      "optionA": "have seen it",
+      "optionB": "He might",
+      "optionC": "might have",
+      "optionD": "might have seen",
+      "correctOption": "Option D",
+      "explanation": "'might have seen' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q049",
+      "questionText": "Identify the verb phrase: The dog is barking loudly. (Variant 49)",
+      "optionA": "is barking",
+      "optionB": "dog is",
+      "optionC": "barking loudly",
+      "optionD": "The dog",
+      "correctOption": "Option A",
+      "explanation": "'is barking' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T204-Q050",
+      "questionText": "What is the verb phrase? You should call her now. (Variant 50)",
+      "optionA": "should call her",
+      "optionB": "should call",
+      "optionC": "You should",
+      "optionD": "call her",
+      "correctOption": "Option B",
+      "explanation": "'should call' is the correct choice in standard English grammar."
+    }
+  ]
+}

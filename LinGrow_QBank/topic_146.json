@@ -1,0 +1,507 @@
+{
+  "topicId": 146,
+  "topicName": "At/on/in for time",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T146-Q001",
+      "questionText": "The lecture starts ___ 8 o'clock. (1)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q002",
+      "questionText": "We have an exam ___ Monday. (2)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q003",
+      "questionText": "The lecture starts ___ 10 o'clock. (3)",
+      "optionA": "on",
+      "optionB": "by",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q004",
+      "questionText": "She was born ___ 1995. (4)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "for",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q005",
+      "questionText": "The lecture starts ___ 8 o'clock. (5)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q006",
+      "questionText": "She was born ___ 1990. (6)",
+      "optionA": "on",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q007",
+      "questionText": "The lecture starts ___ 8 o'clock. (7)",
+      "optionA": "in",
+      "optionB": "by",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q008",
+      "questionText": "She was born ___ 1990. (8)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q009",
+      "questionText": "The lecture starts ___ 9 o'clock. (9)",
+      "optionA": "by",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q010",
+      "questionText": "We have an exam ___ Tuesday. (10)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q011",
+      "questionText": "The lecture starts ___ 4 o'clock. (11)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "by",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q012",
+      "questionText": "She was born ___ 1990. (12)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q013",
+      "questionText": "She was born ___ 2000. (13)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q014",
+      "questionText": "We have an exam ___ Monday. (14)",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q015",
+      "questionText": "She was born ___ 2000. (15)",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q016",
+      "questionText": "We have an exam ___ Tuesday. (16)",
+      "optionA": "on",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q017",
+      "questionText": "She was born ___ 1990. (17)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q018",
+      "questionText": "We have an exam ___ Tuesday. (18)",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q019",
+      "questionText": "She was born ___ 1995. (19)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q020",
+      "questionText": "The lecture starts ___ 12 o'clock. (20)",
+      "optionA": "at",
+      "optionB": "by",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q021",
+      "questionText": "The lecture starts ___ 2 o'clock. (21)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "by",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q022",
+      "questionText": "The lecture starts ___ 9 o'clock. (22)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q023",
+      "questionText": "We have an exam ___ Monday. (23)",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q024",
+      "questionText": "The lecture starts ___ 8 o'clock. (24)",
+      "optionA": "at",
+      "optionB": "by",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q025",
+      "questionText": "She was born ___ 1995. (25)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q026",
+      "questionText": "We have an exam ___ Friday. (26)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q027",
+      "questionText": "She was born ___ 2000. (27)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q028",
+      "questionText": "We have an exam ___ Monday. (28)",
+      "optionA": "on",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q029",
+      "questionText": "She was born ___ 1990. (29)",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q030",
+      "questionText": "She was born ___ 1990. (30)",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q031",
+      "questionText": "We have an exam ___ Friday. (31)",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q032",
+      "questionText": "She was born ___ 2000. (32)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q033",
+      "questionText": "The lecture starts ___ 1 o'clock. (33)",
+      "optionA": "by",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q034",
+      "questionText": "The lecture starts ___ 12 o'clock. (34)",
+      "optionA": "by",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q035",
+      "questionText": "We have an exam ___ Monday. (35)",
+      "optionA": "to",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q036",
+      "questionText": "She was born ___ 1995. (36)",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q037",
+      "questionText": "The lecture starts ___ 8 o'clock. (37)",
+      "optionA": "by",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q038",
+      "questionText": "She was born ___ 1995. (38)",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q039",
+      "questionText": "We have an exam ___ Monday. (39)",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option D",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q040",
+      "questionText": "She was born ___ 1990. (40)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q041",
+      "questionText": "The lecture starts ___ 10 o'clock. (41)",
+      "optionA": "on",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q042",
+      "questionText": "We have an exam ___ Friday. (42)",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "to",
+      "correctOption": "Option C",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q043",
+      "questionText": "The lecture starts ___ 5 o'clock. (43)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "by",
+      "optionD": "at",
+      "correctOption": "Option D",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q044",
+      "questionText": "The lecture starts ___ 7 o'clock. (44)",
+      "optionA": "at",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "by",
+      "correctOption": "Option A",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q045",
+      "questionText": "The lecture starts ___ 3 o'clock. (45)",
+      "optionA": "by",
+      "optionB": "at",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q046",
+      "questionText": "The lecture starts ___ 12 o'clock. (46)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q047",
+      "questionText": "She was born ___ 1990. (47)",
+      "optionA": "for",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option D",
+      "explanation": "'in' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q048",
+      "questionText": "We have an exam ___ Tuesday. (48)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q049",
+      "questionText": "We have an exam ___ Friday. (49)",
+      "optionA": "to",
+      "optionB": "on",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'on' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T146-Q050",
+      "questionText": "The lecture starts ___ 12 o'clock. (50)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "'at' is the correct choice in standard English grammar."
+    }
+  ]
+}

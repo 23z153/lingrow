@@ -1,0 +1,507 @@
+{
+  "topicId": 86,
+  "topicName": "Did",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T086-Q001",
+      "questionText": "_____ we write a letter yesterday? (1)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Did",
+      "optionD": "Done",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q002",
+      "questionText": "_____ she read a book yesterday? (2)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q003",
+      "questionText": "_____ john read a book yesterday? (3)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q004",
+      "questionText": "_____ john write a letter yesterday? (4)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q005",
+      "questionText": "_____ we read a book yesterday? (5)",
+      "optionA": "Done",
+      "optionB": "Does",
+      "optionC": "Did",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q006",
+      "questionText": "_____ the teacher work hard yesterday? (6)",
+      "optionA": "Does",
+      "optionB": "Done",
+      "optionC": "Do",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q007",
+      "questionText": "_____ the students read a book yesterday? (7)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q008",
+      "questionText": "_____ we watch TV yesterday? (8)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q009",
+      "questionText": "_____ you study English yesterday? (9)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Done",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q010",
+      "questionText": "_____ mary work hard yesterday? (10)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q011",
+      "questionText": "_____ the teacher write a letter yesterday? (11)",
+      "optionA": "Does",
+      "optionB": "Done",
+      "optionC": "Did",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q012",
+      "questionText": "_____ it go to the park yesterday? (12)",
+      "optionA": "Do",
+      "optionB": "Did",
+      "optionC": "Does",
+      "optionD": "Done",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q013",
+      "questionText": "_____ she play tennis yesterday? (13)",
+      "optionA": "Does",
+      "optionB": "Done",
+      "optionC": "Do",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q014",
+      "questionText": "_____ they read a book yesterday? (14)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q015",
+      "questionText": "_____ we watch TV yesterday? (15)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q016",
+      "questionText": "_____ the students work hard yesterday? (16)",
+      "optionA": "Did",
+      "optionB": "Do",
+      "optionC": "Done",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q017",
+      "questionText": "_____ we watch TV yesterday? (17)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q018",
+      "questionText": "_____ you watch TV yesterday? (18)",
+      "optionA": "Do",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q019",
+      "questionText": "_____ the students eat an apple yesterday? (19)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q020",
+      "questionText": "_____ it work hard yesterday? (20)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q021",
+      "questionText": "_____ mary listen to music yesterday? (21)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q022",
+      "questionText": "_____ she write a letter yesterday? (22)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q023",
+      "questionText": "_____ the teacher write a letter yesterday? (23)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q024",
+      "questionText": "_____ we study English yesterday? (24)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Did",
+      "optionD": "Done",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q025",
+      "questionText": "_____ it go to the park yesterday? (25)",
+      "optionA": "Does",
+      "optionB": "Done",
+      "optionC": "Did",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q026",
+      "questionText": "_____ they work hard yesterday? (26)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q027",
+      "questionText": "_____ you listen to music yesterday? (27)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q028",
+      "questionText": "_____ he read a book yesterday? (28)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q029",
+      "questionText": "_____ he read a book yesterday? (29)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Did",
+      "optionD": "Done",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q030",
+      "questionText": "_____ she play tennis yesterday? (30)",
+      "optionA": "Does",
+      "optionB": "Done",
+      "optionC": "Did",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q031",
+      "questionText": "_____ you go to the park yesterday? (31)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Did",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q032",
+      "questionText": "_____ you listen to music yesterday? (32)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Did",
+      "optionD": "Done",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q033",
+      "questionText": "_____ they work hard yesterday? (33)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Did",
+      "optionD": "Done",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q034",
+      "questionText": "_____ i go to the park yesterday? (34)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q035",
+      "questionText": "_____ they study English yesterday? (35)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q036",
+      "questionText": "_____ i play tennis yesterday? (36)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q037",
+      "questionText": "_____ we read a book yesterday? (37)",
+      "optionA": "Did",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q038",
+      "questionText": "_____ she work hard yesterday? (38)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q039",
+      "questionText": "_____ she eat an apple yesterday? (39)",
+      "optionA": "Did",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q040",
+      "questionText": "_____ the teacher listen to music yesterday? (40)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Did",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q041",
+      "questionText": "_____ i sleep well yesterday? (41)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q042",
+      "questionText": "_____ he study English yesterday? (42)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Do",
+      "optionD": "Done",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q043",
+      "questionText": "_____ i sleep well yesterday? (43)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Done",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q044",
+      "questionText": "_____ the students eat an apple yesterday? (44)",
+      "optionA": "Does",
+      "optionB": "Did",
+      "optionC": "Done",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q045",
+      "questionText": "_____ the teacher write a letter yesterday? (45)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Did",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q046",
+      "questionText": "_____ they listen to music yesterday? (46)",
+      "optionA": "Done",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q047",
+      "questionText": "_____ john write a letter yesterday? (47)",
+      "optionA": "Did",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q048",
+      "questionText": "_____ john study English yesterday? (48)",
+      "optionA": "Do",
+      "optionB": "Done",
+      "optionC": "Does",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q049",
+      "questionText": "_____ they watch TV yesterday? (49)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Done",
+      "optionD": "Did",
+      "correctOption": "Option D",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T086-Q050",
+      "questionText": "_____ she write a letter yesterday? (50)",
+      "optionA": "Did",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Done",
+      "correctOption": "Option A",
+      "explanation": "'Did' is the correct choice in standard English grammar."
+    }
+  ]
+}

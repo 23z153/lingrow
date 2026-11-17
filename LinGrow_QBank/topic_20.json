@@ -1,0 +1,507 @@
+{
+  "topicId": 20,
+  "topicName": "Abstract nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T020-Q001",
+      "questionText": "Which word is an abstract noun?",
+      "optionA": "Laptop",
+      "optionB": "Honesty",
+      "optionC": "Classroom",
+      "optionD": "Notebook",
+      "correctOption": "Option B",
+      "explanation": "'Honesty' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q002",
+      "questionText": "Which sentence contains an abstract noun?",
+      "optionA": "The researcher opened the laboratory door.",
+      "optionB": "The student submitted the assignment.",
+      "optionC": "Her dedication impressed the supervisor.",
+      "optionD": "The technician repaired the printer.",
+      "correctOption": "Option C",
+      "explanation": "'Her dedication impressed the supervisor' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q003",
+      "questionText": "Which noun refers to a quality rather than a physical object?",
+      "optionA": "Courage",
+      "optionB": "Helmet",
+      "optionC": "Bridge",
+      "optionD": "Keyboard",
+      "correctOption": "Option A",
+      "explanation": "'Courage' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q004",
+      "questionText": "Which word represents an emotion?",
+      "optionA": "Happiness",
+      "optionB": "Pencil",
+      "optionC": "Building",
+      "optionD": "Bottle",
+      "correctOption": "Option A",
+      "explanation": "'Happiness' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q005",
+      "questionText": "Which of the following is an abstract noun?",
+      "optionA": "Chair",
+      "optionB": "Freedom",
+      "optionC": "Window",
+      "optionD": "Bicycle",
+      "correctOption": "Option B",
+      "explanation": "'Freedom' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q006",
+      "questionText": "Identify the abstract noun in the sentence: “The committee appreciated her patience.”",
+      "optionA": "Committee",
+      "optionB": "Appreciated",
+      "optionC": "Her",
+      "optionD": "Patience",
+      "correctOption": "Option D",
+      "explanation": "'Patience' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q007",
+      "questionText": "Which noun represents an idea rather than something that can be physically touched?",
+      "optionA": "Justice",
+      "optionB": "Table",
+      "optionC": "Camera",
+      "optionD": "Folder",
+      "correctOption": "Option A",
+      "explanation": "'Justice' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q008",
+      "questionText": "Which pair contains only abstract nouns?",
+      "optionA": "Wisdom, courage",
+      "optionB": "Book, wisdom",
+      "optionC": "Courage, building",
+      "optionD": "Computer, freedom",
+      "correctOption": "Option A",
+      "explanation": "'Wisdom, courage' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q009",
+      "questionText": "Which noun expresses a feeling?",
+      "optionA": "Anxiety",
+      "optionB": "Desk",
+      "optionC": "Document",
+      "optionD": "Elevator",
+      "correctOption": "Option A",
+      "explanation": "'Anxiety' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q010",
+      "questionText": "Which sentence uses an abstract noun correctly?",
+      "optionA": "The manager placed the honesty on the desk.",
+      "optionB": "The candidate demonstrated confidence during the interview.",
+      "optionC": "The student carried the patience to class.",
+      "optionD": "The engineer repaired the responsibility.",
+      "correctOption": "Option B",
+      "explanation": "'The candidate demonstrated confidence during the interview' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q011",
+      "questionText": "Which word is an abstract noun formed from the adjective “kind”?",
+      "optionA": "Kindly",
+      "optionB": "Kindness",
+      "optionC": "Kinder",
+      "optionD": "Kindful",
+      "correctOption": "Option B",
+      "explanation": "'Kindness' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q012",
+      "questionText": "Which noun is formed from the adjective “brave”?",
+      "optionA": "Bravely",
+      "optionB": "Bravery",
+      "optionC": "Braver",
+      "optionD": "Braveful",
+      "correctOption": "Option B",
+      "explanation": "'Bravery' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q013",
+      "questionText": "Which abstract noun is related to “accurate”?",
+      "optionA": "Accurately",
+      "optionB": "Accuracy",
+      "optionC": "Accurateness",
+      "optionD": "Accurating",
+      "correctOption": "Option B",
+      "explanation": "'Accuracy' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q014",
+      "questionText": "Which word represents a state or condition?",
+      "optionA": "Poverty",
+      "optionB": "Backpack",
+      "optionC": "Computer",
+      "optionD": "Laboratory",
+      "correctOption": "Option A",
+      "explanation": "'Poverty' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q015",
+      "questionText": "Identify the abstract noun: “The professor praised the student's creativity.”",
+      "optionA": "Professor",
+      "optionB": "Student",
+      "optionC": "Creativity",
+      "optionD": "Praised",
+      "correctOption": "Option C",
+      "explanation": "'Creativity' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q016",
+      "questionText": "Which noun represents a moral quality?",
+      "optionA": "Integrity",
+      "optionB": "Keyboard",
+      "optionC": "Building",
+      "optionD": "Vehicle",
+      "correctOption": "Option A",
+      "explanation": "'Integrity' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q017",
+      "questionText": "Which of the following is NOT an abstract noun?",
+      "optionA": "Knowledge",
+      "optionB": "Friendship",
+      "optionC": "Equipment",
+      "optionD": "Honesty",
+      "correctOption": "Option C",
+      "explanation": "'Equipment' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q018",
+      "questionText": "Which sentence contains an abstract noun referring to an emotion?",
+      "optionA": "The nurse entered the ward.",
+      "optionB": "The patient experienced fear before the procedure.",
+      "optionC": "The doctor examined the report.",
+      "optionD": "The assistant cleaned the equipment.",
+      "correctOption": "Option B",
+      "explanation": "'The patient experienced fear before the procedure' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q019",
+      "questionText": "Which noun represents a relationship?",
+      "optionA": "Friendship",
+      "optionB": "Backpack",
+      "optionC": "Smartphone",
+      "optionD": "Laboratory",
+      "correctOption": "Option A",
+      "explanation": "'Friendship' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q020",
+      "questionText": "Which noun represents a concept?",
+      "optionA": "Equality",
+      "optionB": "Notebook",
+      "optionC": "Printer",
+      "optionD": "Building",
+      "correctOption": "Option A",
+      "explanation": "'Equality' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q021",
+      "questionText": "Identify the abstract noun in: “The organization values transparency in its operations.”",
+      "optionA": "Organization",
+      "optionB": "Values",
+      "optionC": "Transparency",
+      "optionD": "Operations",
+      "correctOption": "Option C",
+      "explanation": "'Transparency' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q022",
+      "questionText": "Which pair contains an emotion and a quality?",
+      "optionA": "Anger, honesty",
+      "optionB": "Anger, computer",
+      "optionC": "Chair, kindness",
+      "optionD": "Building, happiness",
+      "correctOption": "Option A",
+      "explanation": "'Anger, honesty' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q023",
+      "questionText": "Which word is an abstract noun?",
+      "optionA": "Leadership",
+      "optionB": "Leader",
+      "optionC": "Laboratory",
+      "optionD": "Laptop",
+      "correctOption": "Option A",
+      "explanation": "'Leadership' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q024",
+      "questionText": "Which sentence contains two abstract nouns?",
+      "optionA": "The student opened the book.",
+      "optionB": "Her confidence and determination helped her succeed.",
+      "optionC": "The engineer checked the machine.",
+      "optionD": "The teacher entered the classroom.",
+      "correctOption": "Option B",
+      "explanation": "'Her confidence and determination helped her succeed' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q025",
+      "questionText": "Which noun refers to a mental ability or state of understanding?",
+      "optionA": "Knowledge",
+      "optionB": "Notebook",
+      "optionC": "Screen",
+      "optionD": "Cabinet",
+      "correctOption": "Option A",
+      "explanation": "'Knowledge' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q026",
+      "questionText": "Which abstract noun is derived from “strong”?",
+      "optionA": "Strongly",
+      "optionB": "Strength",
+      "optionC": "Stronger",
+      "optionD": "Strongness",
+      "correctOption": "Option B",
+      "explanation": "'Strength' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q027",
+      "questionText": "Which abstract noun is derived from “honest”?",
+      "optionA": "Honestly",
+      "optionB": "Honesty",
+      "optionC": "Honested",
+      "optionD": "Honestness",
+      "correctOption": "Option B",
+      "explanation": "'Honesty' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q028",
+      "questionText": "Which noun refers to the condition of being free?",
+      "optionA": "Freedom",
+      "optionB": "Freely",
+      "optionC": "Freeing",
+      "optionD": "Freeness",
+      "correctOption": "Option A",
+      "explanation": "'Freedom' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q029",
+      "questionText": "Identify the abstract noun in: “The team celebrated its success after completing the project.”",
+      "optionA": "Team",
+      "optionB": "Celebrated",
+      "optionC": "Success",
+      "optionD": "Project",
+      "correctOption": "Option C",
+      "explanation": "'Success' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q030",
+      "questionText": "Which word represents a human emotion?",
+      "optionA": "Jealousy",
+      "optionB": "Window",
+      "optionC": "Keyboard",
+      "optionD": "Document",
+      "correctOption": "Option A",
+      "explanation": "'Jealousy' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q031",
+      "questionText": "Which sentence contains an abstract noun referring to a quality?",
+      "optionA": "The researcher examined the sample.",
+      "optionB": "The candidate showed remarkable patience.",
+      "optionC": "The technician replaced the cable.",
+      "optionD": "The student carried the equipment.",
+      "correctOption": "Option B",
+      "explanation": "'The candidate showed remarkable patience' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q032",
+      "questionText": "Which of the following is an abstract noun related to “wise”?",
+      "optionA": "Wisely",
+      "optionB": "Wisdom",
+      "optionC": "Wiser",
+      "optionD": "Wiseful",
+      "correctOption": "Option B",
+      "explanation": "'Wisdom' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q033",
+      "questionText": "Which noun represents a social relationship?",
+      "optionA": "Cooperation",
+      "optionB": "Computer",
+      "optionC": "Classroom",
+      "optionD": "Document",
+      "correctOption": "Option A",
+      "explanation": "'Cooperation' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q034",
+      "questionText": "Which word represents a principle or value?",
+      "optionA": "Responsibility",
+      "optionB": "Backpack",
+      "optionC": "Keyboard",
+      "optionD": "Building",
+      "correctOption": "Option A",
+      "explanation": "'Responsibility' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q035",
+      "questionText": "Identify the abstract noun in: “The students discussed the importance of academic integrity.”",
+      "optionA": "Students",
+      "optionB": "Discussed",
+      "optionC": "Importance",
+      "optionD": "Academic",
+      "correctOption": "Option C",
+      "explanation": "'Importance' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q036",
+      "questionText": "Which sentence contains an abstract noun representing a state?",
+      "optionA": "The researcher entered the laboratory.",
+      "optionB": "The company experienced rapid growth.",
+      "optionC": "The technician switched on the computer.",
+      "optionD": "The student opened the file.",
+      "correctOption": "Option B",
+      "explanation": "'The company experienced rapid growth' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q037",
+      "questionText": "Which noun refers to the quality of being responsible?",
+      "optionA": "Responsibility",
+      "optionB": "Responsible",
+      "optionC": "Responsibly",
+      "optionD": "Responsibleness",
+      "correctOption": "Option A",
+      "explanation": "'Responsibility' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q038",
+      "questionText": "Which pair consists entirely of abstract nouns?",
+      "optionA": "Knowledge, justice",
+      "optionB": "Knowledge, library",
+      "optionC": "Justice, computer",
+      "optionD": "Library, computer",
+      "correctOption": "Option A",
+      "explanation": "'Knowledge, justice' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q039",
+      "questionText": "Which word is an abstract noun formed from “possible”?",
+      "optionA": "Possibly",
+      "optionB": "Possibility",
+      "optionC": "Possiblely",
+      "optionD": "Possibleness",
+      "correctOption": "Option B",
+      "explanation": "'Possibility' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q040",
+      "questionText": "Identify the abstract noun in: “Their friendship developed during their university years.”",
+      "optionA": "Their",
+      "optionB": "Friendship",
+      "optionC": "Developed",
+      "optionD": "University",
+      "correctOption": "Option B",
+      "explanation": "'Friendship' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q041",
+      "questionText": "Which noun expresses the feeling of being afraid?",
+      "optionA": "Fear",
+      "optionB": "Helmet",
+      "optionC": "Door",
+      "optionD": "Shield",
+      "correctOption": "Option A",
+      "explanation": "'Fear' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q042",
+      "questionText": "Which noun represents a quality of being loyal?",
+      "optionA": "Loyalty",
+      "optionB": "Loyal",
+      "optionC": "Loyally",
+      "optionD": "Loyalness",
+      "correctOption": "Option A",
+      "explanation": "'Loyalty' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q043",
+      "questionText": "Which sentence contains an abstract noun related to achievement?",
+      "optionA": "The athlete entered the stadium.",
+      "optionB": "The team celebrated its victory.",
+      "optionC": "The coach carried the equipment.",
+      "optionD": "The audience filled the seats.",
+      "correctOption": "Option B",
+      "explanation": "'The team celebrated its victory' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q044",
+      "questionText": "Which word represents an abstract concept related to education?",
+      "optionA": "Knowledge",
+      "optionB": "Blackboard",
+      "optionC": "Classroom",
+      "optionD": "Textbook",
+      "correctOption": "Option A",
+      "explanation": "'Knowledge' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q045",
+      "questionText": "Which of the following is an abstract noun rather than a concrete noun?",
+      "optionA": "Researcher",
+      "optionB": "Experiment",
+      "optionC": "Innovation",
+      "optionD": "Laboratory",
+      "correctOption": "Option C",
+      "explanation": "'Innovation' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q046",
+      "questionText": "Identify the abstract nouns in the sentence: “Honesty and discipline are important professional qualities.”",
+      "optionA": "Honesty and discipline",
+      "optionB": "Important and professional",
+      "optionC": "Professional and qualities",
+      "optionD": "Honesty and professional",
+      "correctOption": "Option A",
+      "explanation": "'Honesty and discipline' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q047",
+      "questionText": "Which noun refers to the feeling of being pleased or satisfied?",
+      "optionA": "Satisfaction",
+      "optionB": "Furniture",
+      "optionC": "Assignment",
+      "optionD": "Equipment",
+      "correctOption": "Option A",
+      "explanation": "'Satisfaction' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q048",
+      "questionText": "Which sentence uses an abstract noun correctly?",
+      "optionA": "The student placed the responsibility on the table.",
+      "optionB": "The manager appreciated the employee's reliability.",
+      "optionC": "The engineer repaired the creativity.",
+      "optionD": "The professor carried the knowledge to the laboratory.",
+      "correctOption": "Option B",
+      "explanation": "'The manager appreciated the employee's reliability' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q049",
+      "questionText": "Which pair contains two nouns representing human qualities?",
+      "optionA": "Patience, generosity",
+      "optionB": "Patience, computer",
+      "optionC": "Generosity, classroom",
+      "optionD": "Computer, laboratory",
+      "correctOption": "Option A",
+      "explanation": "'Patience, generosity' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    },
+    {
+      "questionId": "T020-Q050",
+      "questionText": "Which sentence contains an abstract noun representing an idea or principle?",
+      "optionA": "The researcher collected the samples.",
+      "optionB": "The university promotes equality among students.",
+      "optionC": "The technician repaired the equipment.",
+      "optionD": "The professor opened the textbook.",
+      "correctOption": "Option B",
+      "explanation": "'The university promotes equality among students' is an abstract noun because it refers to an idea, quality, emotion, or state that cannot be physically touched."
+    }
+  ]
+}

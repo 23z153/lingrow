@@ -1,0 +1,507 @@
+{
+  "topicId": 238,
+  "topicName": "Tense errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T238-Q001",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 1)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I went to the store yesterday.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option B",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q002",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 2)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "I went to the store yesterday.",
+      "optionC": "She studying right now.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q003",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 3)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I was go to the store yesterday.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q004",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 4)",
+      "optionA": "She studying right now.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I go to the store yesterday.",
+      "optionD": "They will arrive tomorrow.",
+      "correctOption": "Option D",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q005",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 5)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q006",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 6)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q007",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 7)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "I was go to the store yesterday.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q008",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 8)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "She studying right now.",
+      "optionC": "She is studying right now.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q009",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 9)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "She studying right now.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q010",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 10)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q011",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 11)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "She studying right now.",
+      "optionC": "They will arrive tomorrow.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q012",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 12)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "They will arrive tomorrow.",
+      "correctOption": "Option D",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q013",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 13)",
+      "optionA": "She studying right now.",
+      "optionB": "She studying right now.",
+      "optionC": "She studying right now.",
+      "optionD": "They will arrive tomorrow.",
+      "correctOption": "Option D",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q014",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 14)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q015",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 15)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "She is studying right now.",
+      "correctOption": "Option D",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q016",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 16)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They will arrive tomorrow.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q017",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 17)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "They will arrive tomorrow.",
+      "optionC": "She studying right now.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option B",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q018",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 18)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "She studying right now.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q019",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 19)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "She is studying right now.",
+      "optionC": "She studying right now.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option B",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q020",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 20)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "She is studying right now.",
+      "correctOption": "Option D",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q021",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 21)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q022",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 22)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I go to the store yesterday.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q023",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 23)",
+      "optionA": "She studying right now.",
+      "optionB": "They will arrive tomorrow.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q024",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 24)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I go to the store yesterday.",
+      "optionD": "I went to the store yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q025",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 25)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "I was go to the store yesterday.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q026",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 26)",
+      "optionA": "She studying right now.",
+      "optionB": "She is studying right now.",
+      "optionC": "She studying right now.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q027",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 27)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They will arrive tomorrow.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option C",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q028",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 28)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I went to the store yesterday.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q029",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 29)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "She studying right now.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "I went to the store yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q030",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 30)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q031",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 31)",
+      "optionA": "She studying right now.",
+      "optionB": "She is studying right now.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option B",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q032",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 32)",
+      "optionA": "She studying right now.",
+      "optionB": "She is studying right now.",
+      "optionC": "She studying right now.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option B",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q033",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 33)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "She studying right now.",
+      "optionC": "She is studying right now.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option C",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q034",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 34)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q035",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 35)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q036",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 36)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "She studying right now.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "They will arrive tomorrow.",
+      "correctOption": "Option D",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q037",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 37)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I go to the store yesterday.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q038",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 38)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q039",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 39)",
+      "optionA": "She studying right now.",
+      "optionB": "I was go to the store yesterday.",
+      "optionC": "She is studying right now.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q040",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 40)",
+      "optionA": "I was go to the store yesterday.",
+      "optionB": "I was go to the store yesterday.",
+      "optionC": "She studying right now.",
+      "optionD": "She is studying right now.",
+      "correctOption": "Option D",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q041",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 41)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "She studying right now.",
+      "optionC": "I went to the store yesterday.",
+      "optionD": "I go to the store yesterday.",
+      "correctOption": "Option C",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q042",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 42)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q043",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 43)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "She studying right now.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q044",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 44)",
+      "optionA": "They will arrive tomorrow.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I was go to the store yesterday.",
+      "optionD": "I was go to the store yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q045",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 45)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "She studying right now.",
+      "optionD": "She is studying right now.",
+      "correctOption": "Option D",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q046",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 46)",
+      "optionA": "They arrived tomorrow.",
+      "optionB": "I went to the store yesterday.",
+      "optionC": "She studying right now.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option B",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q047",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 47)",
+      "optionA": "I go to the store yesterday.",
+      "optionB": "They will arrive tomorrow.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option B",
+      "explanation": "'They will arrive tomorrow' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q048",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 48)",
+      "optionA": "She is studying right now.",
+      "optionB": "I go to the store yesterday.",
+      "optionC": "I go to the store yesterday.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option A",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q049",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 49)",
+      "optionA": "She studying right now.",
+      "optionB": "They arrived tomorrow.",
+      "optionC": "She studying right now.",
+      "optionD": "She is studying right now.",
+      "correctOption": "Option D",
+      "explanation": "'She is studying right now' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T238-Q050",
+      "questionText": "Identify the sentence with the correct verb tense. (Question 50)",
+      "optionA": "I went to the store yesterday.",
+      "optionB": "She studying right now.",
+      "optionC": "They arrived tomorrow.",
+      "optionD": "They arrived tomorrow.",
+      "correctOption": "Option A",
+      "explanation": "'I went to the store yesterday' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

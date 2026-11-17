@@ -1,0 +1,507 @@
+{
+  "topicId": 109,
+  "topicName": "Negative questions",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T109-Q001",
+      "questionText": "___ you like coffee?",
+      "optionA": "Isn't",
+      "optionB": "Aren't",
+      "optionC": "Don't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q002",
+      "questionText": "___ he studying right now?",
+      "optionA": "Don't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option D",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q003",
+      "questionText": "___ we going to the park?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q004",
+      "questionText": "___ Charlie listen in the classroom?",
+      "optionA": "Isn't",
+      "optionB": "Aren't",
+      "optionC": "Doesn't",
+      "optionD": "Don't",
+      "correctOption": "Option C",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q005",
+      "questionText": "___ you like coffee?",
+      "optionA": "Aren't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q006",
+      "questionText": "___ he studying right now?",
+      "optionA": "Aren't",
+      "optionB": "Isn't",
+      "optionC": "Don't",
+      "optionD": "Doesn't",
+      "correctOption": "Option B",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q007",
+      "questionText": "___ we going to the park?",
+      "optionA": "Aren't",
+      "optionB": "Isn't",
+      "optionC": "Don't",
+      "optionD": "Doesn't",
+      "correctOption": "Option A",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q008",
+      "questionText": "___ Eve see on campus?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Doesn't",
+      "optionD": "Isn't",
+      "correctOption": "Option C",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q009",
+      "questionText": "___ you like coffee?",
+      "optionA": "Doesn't",
+      "optionB": "Don't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q010",
+      "questionText": "___ he studying right now?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option A",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q011",
+      "questionText": "___ we going to the park?",
+      "optionA": "Doesn't",
+      "optionB": "Aren't",
+      "optionC": "Don't",
+      "optionD": "Isn't",
+      "correctOption": "Option B",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q012",
+      "questionText": "___ Dr. Smith think at the university?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option B",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q013",
+      "questionText": "___ you like coffee?",
+      "optionA": "Doesn't",
+      "optionB": "Isn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option C",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q014",
+      "questionText": "___ he studying right now?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option A",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q015",
+      "questionText": "___ we going to the park?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Aren't",
+      "correctOption": "Option D",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q016",
+      "questionText": "___ Ken play in the library?",
+      "optionA": "Isn't",
+      "optionB": "Don't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option D",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q017",
+      "questionText": "___ you like coffee?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q018",
+      "questionText": "___ he studying right now?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q019",
+      "questionText": "___ we going to the park?",
+      "optionA": "Aren't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Don't",
+      "correctOption": "Option A",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q020",
+      "questionText": "___ Dr. Smith read at the office?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option B",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q021",
+      "questionText": "___ you like coffee?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q022",
+      "questionText": "___ he studying right now?",
+      "optionA": "Doesn't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option B",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q023",
+      "questionText": "___ we going to the park?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option A",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q024",
+      "questionText": "___ Ken do at the university?",
+      "optionA": "Doesn't",
+      "optionB": "Aren't",
+      "optionC": "Isn't",
+      "optionD": "Don't",
+      "correctOption": "Option A",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q025",
+      "questionText": "___ you like coffee?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q026",
+      "questionText": "___ he studying right now?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q027",
+      "questionText": "___ we going to the park?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option C",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q028",
+      "questionText": "___ Eve take in the lab?",
+      "optionA": "Aren't",
+      "optionB": "Doesn't",
+      "optionC": "Isn't",
+      "optionD": "Don't",
+      "correctOption": "Option B",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q029",
+      "questionText": "___ you like coffee?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Aren't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q030",
+      "questionText": "___ he studying right now?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Aren't",
+      "correctOption": "Option B",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q031",
+      "questionText": "___ we going to the park?",
+      "optionA": "Isn't",
+      "optionB": "Don't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q032",
+      "questionText": "___ Charlie study at home?",
+      "optionA": "Don't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Aren't",
+      "correctOption": "Option C",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q033",
+      "questionText": "___ you like coffee?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Doesn't",
+      "optionD": "Isn't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q034",
+      "questionText": "___ he studying right now?",
+      "optionA": "Don't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option D",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q035",
+      "questionText": "___ we going to the park?",
+      "optionA": "Doesn't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Aren't",
+      "correctOption": "Option D",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q036",
+      "questionText": "___ Bob make at the university?",
+      "optionA": "Doesn't",
+      "optionB": "Isn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option A",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q037",
+      "questionText": "___ you like coffee?",
+      "optionA": "Isn't",
+      "optionB": "Don't",
+      "optionC": "Doesn't",
+      "optionD": "Aren't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q038",
+      "questionText": "___ he studying right now?",
+      "optionA": "Aren't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Isn't",
+      "correctOption": "Option D",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q039",
+      "questionText": "___ we going to the park?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option D",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q040",
+      "questionText": "___ Diana know on campus?",
+      "optionA": "Isn't",
+      "optionB": "Aren't",
+      "optionC": "Don't",
+      "optionD": "Doesn't",
+      "correctOption": "Option D",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q041",
+      "questionText": "___ you like coffee?",
+      "optionA": "Doesn't",
+      "optionB": "Aren't",
+      "optionC": "Isn't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q042",
+      "questionText": "___ he studying right now?",
+      "optionA": "Don't",
+      "optionB": "Aren't",
+      "optionC": "Doesn't",
+      "optionD": "Isn't",
+      "correctOption": "Option D",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q043",
+      "questionText": "___ we going to the park?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option D",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q044",
+      "questionText": "___ Alice speak at home?",
+      "optionA": "Doesn't",
+      "optionB": "Aren't",
+      "optionC": "Isn't",
+      "optionD": "Don't",
+      "correctOption": "Option A",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q045",
+      "questionText": "___ you like coffee?",
+      "optionA": "Don't",
+      "optionB": "Aren't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q046",
+      "questionText": "___ he studying right now?",
+      "optionA": "Don't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option D",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q047",
+      "questionText": "___ we going to the park?",
+      "optionA": "Doesn't",
+      "optionB": "Don't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option C",
+      "explanation": "'Aren't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q048",
+      "questionText": "___ Maria see at the university?",
+      "optionA": "Doesn't",
+      "optionB": "Aren't",
+      "optionC": "Don't",
+      "optionD": "Isn't",
+      "correctOption": "Option A",
+      "explanation": "'Doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q049",
+      "questionText": "___ you like coffee?",
+      "optionA": "Isn't",
+      "optionB": "Doesn't",
+      "optionC": "Don't",
+      "optionD": "Aren't",
+      "correctOption": "Option C",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T109-Q050",
+      "questionText": "___ he studying right now?",
+      "optionA": "Aren't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Doesn't",
+      "correctOption": "Option C",
+      "explanation": "'Isn't' is the correct choice in standard English grammar."
+    }
+  ]
+}

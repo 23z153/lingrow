@@ -1,0 +1,507 @@
+{
+  "topicId": 133,
+  "topicName": "How far",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T133-Q001",
+      "questionText": "Which question word is used to ask about distance?",
+      "optionA": "How far",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q002",
+      "questionText": "____ is the airport from the hotel?",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q003",
+      "questionText": "____ is the airport from the hotel? (1)",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q004",
+      "questionText": "Which question word is used to ask about distance? (1)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q005",
+      "questionText": "Identify the missing word: I don't know ____ I will depart.",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q006",
+      "questionText": "Which question word is used to ask about distance? (2)",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q007",
+      "questionText": "Which question word is used to ask about distance? (3)",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How long",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q008",
+      "questionText": "Identify the missing word: I don't know ____ the team will go.",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q009",
+      "questionText": "Identify the missing word: I don't know ____ the team will see.",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q010",
+      "questionText": "Identify the missing word: I don't know ____ they will want.",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How many",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q011",
+      "questionText": "____ can you run without stopping?",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q012",
+      "questionText": "____ is the airport from the hotel? (2)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q013",
+      "questionText": "____ can you run without stopping? (1)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q014",
+      "questionText": "____ can you run without stopping? (2)",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q015",
+      "questionText": "Which question word is used to ask about distance? (4)",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q016",
+      "questionText": "Identify the missing word: I don't know ____ the student will stay.",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q017",
+      "questionText": "Identify the missing word: I don't know ____ the company will buy.",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q018",
+      "questionText": "____ can you run without stopping? (3)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q019",
+      "questionText": "____ is the airport from the hotel? (3)",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How old",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q020",
+      "questionText": "Which question word is used to ask about distance? (5)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q021",
+      "questionText": "Identify the missing word: I don't know ____ we will arrive.",
+      "optionA": "How old",
+      "optionB": "How many",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q022",
+      "questionText": "Identify the missing word: I don't know ____ the dog will make.",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q023",
+      "questionText": "____ can you run without stopping? (4)",
+      "optionA": "How long",
+      "optionB": "How many",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q024",
+      "questionText": "Which question word is used to ask about distance? (6)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q025",
+      "questionText": "____ is the airport from the hotel? (4)",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q026",
+      "questionText": "Which question word is used to ask about distance? (7)",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q027",
+      "questionText": "____ can you run without stopping? (5)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q028",
+      "questionText": "Identify the missing word: I don't know ____ it will go.",
+      "optionA": "How much",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q029",
+      "questionText": "Which question word is used to ask about distance? (8)",
+      "optionA": "How far",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q030",
+      "questionText": "____ is the airport from the hotel? (5)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q031",
+      "questionText": "Which question word is used to ask about distance? (9)",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q032",
+      "questionText": "____ can you run without stopping? (6)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q033",
+      "questionText": "Identify the missing word: I don't know ____ we will know.",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q034",
+      "questionText": "Identify the missing word: I don't know ____ we will do.",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q035",
+      "questionText": "Identify the missing word: I don't know ____ we will wait.",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q036",
+      "questionText": "____ can you run without stopping? (7)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q037",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will stay.",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q038",
+      "questionText": "____ can you run without stopping? (8)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q039",
+      "questionText": "Identify the missing word: I don't know ____ the company will arrive.",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q040",
+      "questionText": "____ can you run without stopping? (9)",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q041",
+      "questionText": "____ is the airport from the hotel? (6)",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How old",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q042",
+      "questionText": "Which question word is used to ask about distance? (10)",
+      "optionA": "How old",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q043",
+      "questionText": "Which question word is used to ask about distance? (11)",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q044",
+      "questionText": "____ can you run without stopping? (10)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q045",
+      "questionText": "____ is the airport from the hotel? (7)",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q046",
+      "questionText": "Which question word is used to ask about distance? (12)",
+      "optionA": "How much",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q047",
+      "questionText": "____ is the airport from the hotel? (8)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q048",
+      "questionText": "Identify the missing word: I don't know ____ she will come.",
+      "optionA": "How far",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q049",
+      "questionText": "Identify the missing word: I don't know ____ they will sleep.",
+      "optionA": "How often",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T133-Q050",
+      "questionText": "____ can you run without stopping? (11)",
+      "optionA": "How many",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option D",
+      "explanation": "'How far' is the correct choice in standard English grammar."
+    }
+  ]
+}

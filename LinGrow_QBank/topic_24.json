@@ -1,0 +1,507 @@
+{
+  "topicId": 24,
+  "topicName": "Uncountable nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T024-Q001",
+      "questionText": "Which of the following is an uncountable noun?",
+      "optionA": "Laptop",
+      "optionB": "Information",
+      "optionC": "Student",
+      "optionD": "Document",
+      "correctOption": "Option B",
+      "explanation": "'Information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q002",
+      "questionText": "Which noun generally refers to a substance or concept that is not counted as separate individual units?",
+      "optionA": "Water",
+      "optionB": "Chair",
+      "optionC": "Book",
+      "optionD": "Engineer",
+      "correctOption": "Option A",
+      "explanation": "'Water' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q003",
+      "questionText": "Identify the uncountable noun in the sentence: “The researcher collected useful information.”",
+      "optionA": "Researcher",
+      "optionB": "Collected",
+      "optionC": "Useful",
+      "optionD": "Information",
+      "correctOption": "Option D",
+      "explanation": "'Information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q004",
+      "questionText": "Which of the following is NOT an uncountable noun?",
+      "optionA": "Advice",
+      "optionB": "Furniture",
+      "optionC": "Computer",
+      "optionD": "Equipment",
+      "correctOption": "Option C",
+      "explanation": "'Computer' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q005",
+      "questionText": "Which sentence correctly uses an uncountable noun?",
+      "optionA": "She gave me an advice.",
+      "optionB": "She gave me some advice.",
+      "optionC": "She gave me two advices.",
+      "optionD": "She gave me many advice.",
+      "correctOption": "Option B",
+      "explanation": "'She gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q006",
+      "questionText": "Which noun is normally used without a plural “-s” when referring to the substance or concept generally?",
+      "optionA": "Research",
+      "optionB": "Project",
+      "optionC": "Student",
+      "optionD": "Machine",
+      "correctOption": "Option A",
+      "explanation": "'Research' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q007",
+      "questionText": "Identify the uncountable noun: “The laboratory requires additional equipment.”",
+      "optionA": "Laboratory",
+      "optionB": "Requires",
+      "optionC": "Additional",
+      "optionD": "Equipment",
+      "correctOption": "Option D",
+      "explanation": "'Equipment' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q008",
+      "questionText": "Which word is an uncountable noun?",
+      "optionA": "Knowledge",
+      "optionB": "Experiment",
+      "optionC": "Researcher",
+      "optionD": "Computer",
+      "correctOption": "Option A",
+      "explanation": "'Knowledge' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q009",
+      "questionText": "Which sentence correctly uses “much” with an uncountable noun?",
+      "optionA": "There are much students in the class.",
+      "optionB": "We do not have much information about the issue.",
+      "optionC": "She purchased much laptops.",
+      "optionD": "The laboratory has much computers.",
+      "correctOption": "Option B",
+      "explanation": "'We do not have much information about the issue' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q010",
+      "questionText": "Which sentence correctly uses “little” with an uncountable noun?",
+      "optionA": "There are little students in the room.",
+      "optionB": "We have little time to complete the experiment.",
+      "optionC": "She has little books on the subject.",
+      "optionD": "The department received little applications.",
+      "correctOption": "Option B",
+      "explanation": "'We have little time to complete the experiment' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q011",
+      "questionText": "Which noun can correctly follow “a piece of”?",
+      "optionA": "Advice",
+      "optionB": "Student",
+      "optionC": "Computer",
+      "optionD": "Engineer",
+      "correctOption": "Option A",
+      "explanation": "'Advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q012",
+      "questionText": "Which phrase is grammatically correct?",
+      "optionA": "Two informations",
+      "optionB": "Two advices",
+      "optionC": "Two pieces of advice",
+      "optionD": "Two equipments",
+      "correctOption": "Option C",
+      "explanation": "'Two pieces of advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q013",
+      "questionText": "Which sentence correctly uses “some” with an uncountable noun?",
+      "optionA": "We need some information.",
+      "optionB": "We need some informations.",
+      "optionC": "We need some advicees.",
+      "optionD": "We need some equipments.",
+      "correctOption": "Option A",
+      "explanation": "'We need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q014",
+      "questionText": "Which noun is normally treated as uncountable when referring to knowledge or facts?",
+      "optionA": "Information",
+      "optionB": "Report",
+      "optionC": "Article",
+      "optionD": "File",
+      "correctOption": "Option A",
+      "explanation": "'Information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q015",
+      "questionText": "Identify the uncountable noun in: “The professor provided valuable feedback.”",
+      "optionA": "Professor",
+      "optionB": "Provided",
+      "optionC": "Valuable",
+      "optionD": "Feedback",
+      "correctOption": "Option D",
+      "explanation": "'Feedback' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q016",
+      "questionText": "Which sentence is grammatically correct?",
+      "optionA": "The company purchased new equipments.",
+      "optionB": "The company purchased some equipment.",
+      "optionC": "The company purchased an equipment.",
+      "optionD": "The company purchased many equipment.",
+      "correctOption": "Option B",
+      "explanation": "'The company purchased some equipment' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q017",
+      "questionText": "Which noun is uncountable in the given context?",
+      "optionA": "Research",
+      "optionB": "Experiment",
+      "optionC": "Scientist",
+      "optionD": "Journal",
+      "correctOption": "Option A",
+      "explanation": "'Research' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q018",
+      "questionText": "Which sentence correctly uses “a little” with an uncountable noun?",
+      "optionA": "I have a little experience in database administration.",
+      "optionB": "I have a little projects in database administration.",
+      "optionC": "I have a little applications to submit.",
+      "optionD": "I have a little computers in the laboratory.",
+      "correctOption": "Option A",
+      "explanation": "'I have a little experience in database administration' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q019",
+      "questionText": "Which word is an uncountable noun?",
+      "optionA": "Traffic",
+      "optionB": "Vehicle",
+      "optionC": "Passenger",
+      "optionD": "Road",
+      "correctOption": "Option A",
+      "explanation": "'Traffic' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q020",
+      "questionText": "Which sentence correctly uses “much”?",
+      "optionA": "How much information do you need?",
+      "optionB": "How much reports do you need?",
+      "optionC": "How much documents do you need?",
+      "optionD": "How much students attended?",
+      "correctOption": "Option A",
+      "explanation": "'How much information do you need?' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q021",
+      "questionText": "Which question correctly uses “how much” with an uncountable noun?",
+      "optionA": "How much books did you read?",
+      "optionB": "How much research has been completed?",
+      "optionC": "How much students joined?",
+      "optionD": "How much assignments were submitted?",
+      "correctOption": "Option B",
+      "explanation": "'How much research has been completed?' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q022",
+      "questionText": "Which question correctly uses “how much” with an uncountable noun?",
+      "optionA": "How much equipment is required?",
+      "optionB": "How much machines are required?",
+      "optionC": "How much computers are required?",
+      "optionD": "How much laboratories are required?",
+      "correctOption": "Option A",
+      "explanation": "'How much equipment is required?' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q023",
+      "questionText": "Which sentence contains an uncountable noun referring to a substance?",
+      "optionA": "The engineer purchased steel for the structure.",
+      "optionB": "The engineer purchased three beams.",
+      "optionC": "The engineer hired two workers.",
+      "optionD": "The engineer inspected four buildings.",
+      "correctOption": "Option A",
+      "explanation": "'The engineer purchased steel for the structure' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q024",
+      "questionText": "Which noun is normally uncountable when referring to the material used for writing?",
+      "optionA": "Paper",
+      "optionB": "Notebook",
+      "optionC": "Page",
+      "optionD": "Document",
+      "correctOption": "Option A",
+      "explanation": "'Paper' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q025",
+      "questionText": "Which sentence correctly uses “paper” as an uncountable noun?",
+      "optionA": "The printer needs some paper.",
+      "optionB": "The printer needs some papers.",
+      "optionC": "The printer needs a paper for printing.",
+      "optionD": "The printer needs many paper.",
+      "correctOption": "Option A",
+      "explanation": "'The printer needs some paper' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q026",
+      "questionText": "Which noun is uncountable when referring to the material used for cooking or consumption?",
+      "optionA": "Rice",
+      "optionB": "Grain",
+      "optionC": "Plate",
+      "optionD": "Bowl",
+      "correctOption": "Option A",
+      "explanation": "'Rice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q027",
+      "questionText": "Which sentence correctly uses an uncountable food noun?",
+      "optionA": "The restaurant served some rice.",
+      "optionB": "The restaurant served two rices.",
+      "optionC": "The restaurant served a rice.",
+      "optionD": "The restaurant served many rice.",
+      "correctOption": "Option A",
+      "explanation": "'The restaurant served some rice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q028",
+      "questionText": "Which of the following is an uncountable noun?",
+      "optionA": "Electricity",
+      "optionB": "Battery",
+      "optionC": "Cable",
+      "optionD": "Device",
+      "correctOption": "Option A",
+      "explanation": "'Electricity' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q029",
+      "questionText": "Identify the uncountable noun: “The new system consumes less energy.”",
+      "optionA": "System",
+      "optionB": "Consumes",
+      "optionC": "Less",
+      "optionD": "Energy",
+      "correctOption": "Option D",
+      "explanation": "'Energy' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q030",
+      "questionText": "Which sentence correctly uses an uncountable noun with “less”?",
+      "optionA": "The new server uses less electricity.",
+      "optionB": "The new server uses less computers.",
+      "optionC": "The new server uses less devices.",
+      "optionD": "The new server uses less cables.",
+      "correctOption": "Option A",
+      "explanation": "'The new server uses less electricity' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q031",
+      "questionText": "Which noun is generally uncountable when referring to the general activity or field of investigation?",
+      "optionA": "Research",
+      "optionB": "Experiment",
+      "optionC": "Survey",
+      "optionD": "Study",
+      "correctOption": "Option A",
+      "explanation": "'Research' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q032",
+      "questionText": "Which sentence correctly uses “research”?",
+      "optionA": "The team conducted several researchs.",
+      "optionB": "The team conducted some research.",
+      "optionC": "The team conducted a research.",
+      "optionD": "The team conducted many research.",
+      "correctOption": "Option B",
+      "explanation": "'The team conducted some research' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q033",
+      "questionText": "Which noun is uncountable when referring to the general concept of guidance or recommendation?",
+      "optionA": "Advice",
+      "optionB": "Suggestion",
+      "optionC": "Recommendation",
+      "optionD": "Proposal",
+      "correctOption": "Option A",
+      "explanation": "'Advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q034",
+      "questionText": "Which sentence is grammatically correct?",
+      "optionA": "The consultant gave us several advice.",
+      "optionB": "The consultant gave us some advice.",
+      "optionC": "The consultant gave us an advice.",
+      "optionD": "The consultant gave us many advices.",
+      "correctOption": "Option B",
+      "explanation": "'The consultant gave us some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q035",
+      "questionText": "Which noun is uncountable when referring to objects collectively used to furnish a room?",
+      "optionA": "Furniture",
+      "optionB": "Chair",
+      "optionC": "Table",
+      "optionD": "Cabinet",
+      "correctOption": "Option A",
+      "explanation": "'Furniture' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q036",
+      "questionText": "Which sentence correctly uses “furniture”?",
+      "optionA": "The office needs some new furniture.",
+      "optionB": "The office needs many furnitures.",
+      "optionC": "The office needs a furniture.",
+      "optionD": "The office needs three furnitures.",
+      "correctOption": "Option A",
+      "explanation": "'The office needs some new furniture' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q037",
+      "questionText": "Which noun is generally uncountable when referring to machines and tools collectively?",
+      "optionA": "Equipment",
+      "optionB": "Machine",
+      "optionC": "Tool",
+      "optionD": "Device",
+      "correctOption": "Option A",
+      "explanation": "'Equipment' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q038",
+      "questionText": "Which sentence correctly uses “equipment”?",
+      "optionA": "The laboratory purchased several equipment.",
+      "optionB": "The laboratory purchased new equipment.",
+      "optionC": "The laboratory purchased an equipment.",
+      "optionD": "The laboratory purchased many equipments.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory purchased new equipment' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q039",
+      "questionText": "Which pair contains only uncountable nouns?",
+      "optionA": "Advice, information",
+      "optionB": "Laptop, information",
+      "optionC": "Student, equipment",
+      "optionD": "Report, furniture",
+      "correctOption": "Option A",
+      "explanation": "'Advice, information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q040",
+      "questionText": "Which pair contains one countable noun and one uncountable noun?",
+      "optionA": "Book, information",
+      "optionB": "Chair, table",
+      "optionC": "Student, researcher",
+      "optionD": "Laptop, computer",
+      "correctOption": "Option A",
+      "explanation": "'Book, information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q041",
+      "questionText": "Which sentence correctly distinguishes countable and uncountable nouns?",
+      "optionA": "We received three reports and some information.",
+      "optionB": "We received three informations and some reports.",
+      "optionC": "We received three information and some report.",
+      "optionD": "We received an information and three report.",
+      "correctOption": "Option A",
+      "explanation": "'We received three reports and some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q042",
+      "questionText": "Which sentence correctly uses “a piece of” with an uncountable noun?",
+      "optionA": "She gave me a piece of advice.",
+      "optionB": "She gave me a piece of advices.",
+      "optionC": "She gave me a piece of informationes.",
+      "optionD": "She gave me a piece of equipments.",
+      "correctOption": "Option A",
+      "explanation": "'She gave me a piece of advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q043",
+      "questionText": "Which phrase is grammatically correct?",
+      "optionA": "A piece of information",
+      "optionB": "An information",
+      "optionC": "An informations",
+      "optionD": "Many information",
+      "correctOption": "Option A",
+      "explanation": "'A piece of information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q044",
+      "questionText": "Which sentence correctly uses “some” and “many”?",
+      "optionA": "We collected some data and interviewed many participants.",
+      "optionB": "We collected many data and interviewed some participant.",
+      "optionC": "We collected some datas and interviewed many participant.",
+      "optionD": "We collected an data and interviewed much participants.",
+      "correctOption": "Option A",
+      "explanation": "'We collected some data and interviewed many participants' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q045",
+      "questionText": "Which noun is normally uncountable when referring to the general concept of progress or development?",
+      "optionA": "Progress",
+      "optionB": "Project",
+      "optionC": "Program",
+      "optionD": "Product",
+      "correctOption": "Option A",
+      "explanation": "'Progress' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q046",
+      "questionText": "Which sentence correctly uses “progress”?",
+      "optionA": "The project has made good progress.",
+      "optionB": "The project has made many progresses.",
+      "optionC": "The project has made a progress.",
+      "optionD": "The project has made several progress.",
+      "correctOption": "Option A",
+      "explanation": "'The project has made good progress' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q047",
+      "questionText": "Which noun is normally uncountable when referring to general knowledge acquired through learning or experience?",
+      "optionA": "Knowledge",
+      "optionB": "Fact",
+      "optionC": "Lesson",
+      "optionD": "Concept",
+      "correctOption": "Option A",
+      "explanation": "'Knowledge' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q048",
+      "questionText": "Which sentence correctly uses “knowledge”?",
+      "optionA": "She has extensive knowledge of programming.",
+      "optionB": "She has many knowledges of programming.",
+      "optionC": "She has a knowledge of programming.",
+      "optionD": "She has several knowledge of programming.",
+      "correctOption": "Option A",
+      "explanation": "'She has extensive knowledge of programming' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q049",
+      "questionText": "Which sentence contains only correctly used uncountable nouns?",
+      "optionA": "The researcher collected information, equipment, and feedback.",
+      "optionB": "The researcher collected informations, equipments, and feedbacks.",
+      "optionC": "The researcher collected an information, an equipment, and feedbacks.",
+      "optionD": "The researcher collected many information, equipment, and feedbacks.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher collected information, equipment, and feedback' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T024-Q050",
+      "questionText": "Which sentence correctly uses uncountable nouns in an academic context?",
+      "optionA": "The researchers collected useful information and conducted further research.",
+      "optionB": "The researchers collected useful informations and conducted further researches.",
+      "optionC": "The researchers collected an information and conducted a research.",
+      "optionD": "The researchers collected many information and several research.",
+      "correctOption": "Option A",
+      "explanation": "'The researchers collected useful information and conducted further research' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    }
+  ]
+}

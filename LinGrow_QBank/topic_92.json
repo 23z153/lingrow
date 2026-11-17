@@ -1,0 +1,507 @@
+{
+  "topicId": 92,
+  "topicName": "Present Perfect",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T092-Q001",
+      "questionText": "It _____ read a book. (1)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q002",
+      "questionText": "We _____ worked hard. (2)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q003",
+      "questionText": "John _____ eaten an apple. (3)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q004",
+      "questionText": "She _____ listened to music. (4)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q005",
+      "questionText": "You _____ eaten an apple. (5)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q006",
+      "questionText": "The teacher _____ played tennis. (6)",
+      "optionA": "has",
+      "optionB": "is",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q007",
+      "questionText": "The teacher _____ written a letter. (7)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q008",
+      "questionText": "The students _____ read a book. (8)",
+      "optionA": "have",
+      "optionB": "is",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q009",
+      "questionText": "We _____ eaten an apple. (9)",
+      "optionA": "had",
+      "optionB": "is",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q010",
+      "questionText": "John _____ eaten an apple. (10)",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "is",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q011",
+      "questionText": "He _____ played tennis. (11)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q012",
+      "questionText": "John _____ played tennis. (12)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q013",
+      "questionText": "Mary _____ studied English. (13)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q014",
+      "questionText": "John _____ read a book. (14)",
+      "optionA": "have",
+      "optionB": "is",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q015",
+      "questionText": "She _____ worked hard. (15)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q016",
+      "questionText": "John _____ studied English. (16)",
+      "optionA": "had",
+      "optionB": "is",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q017",
+      "questionText": "He _____ read a book. (17)",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q018",
+      "questionText": "I _____ worked hard. (18)",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q019",
+      "questionText": "Mary _____ gone to the park. (19)",
+      "optionA": "had",
+      "optionB": "is",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q020",
+      "questionText": "He _____ gone to the park. (20)",
+      "optionA": "is",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q021",
+      "questionText": "I _____ slept well. (21)",
+      "optionA": "had",
+      "optionB": "is",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q022",
+      "questionText": "The teacher _____ slept well. (22)",
+      "optionA": "is",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q023",
+      "questionText": "I _____ played tennis. (23)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q024",
+      "questionText": "I _____ slept well. (24)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q025",
+      "questionText": "The teacher _____ written a letter. (25)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q026",
+      "questionText": "The students _____ played tennis. (26)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q027",
+      "questionText": "They _____ eaten an apple. (27)",
+      "optionA": "is",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q028",
+      "questionText": "John _____ played tennis. (28)",
+      "optionA": "have",
+      "optionB": "is",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q029",
+      "questionText": "It _____ worked hard. (29)",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q030",
+      "questionText": "The students _____ read a book. (30)",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "is",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q031",
+      "questionText": "You _____ slept well. (31)",
+      "optionA": "is",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q032",
+      "questionText": "He _____ eaten an apple. (32)",
+      "optionA": "is",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q033",
+      "questionText": "Mary _____ written a letter. (33)",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q034",
+      "questionText": "The students _____ read a book. (34)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q035",
+      "questionText": "You _____ studied English. (35)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q036",
+      "questionText": "He _____ written a letter. (36)",
+      "optionA": "have",
+      "optionB": "is",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q037",
+      "questionText": "They _____ studied English. (37)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q038",
+      "questionText": "They _____ read a book. (38)",
+      "optionA": "has",
+      "optionB": "is",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q039",
+      "questionText": "We _____ studied English. (39)",
+      "optionA": "is",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q040",
+      "questionText": "It _____ studied English. (40)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q041",
+      "questionText": "The students _____ slept well. (41)",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q042",
+      "questionText": "You _____ read a book. (42)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q043",
+      "questionText": "You _____ listened to music. (43)",
+      "optionA": "is",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q044",
+      "questionText": "You _____ watched TV. (44)",
+      "optionA": "has",
+      "optionB": "is",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q045",
+      "questionText": "John _____ watched TV. (45)",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q046",
+      "questionText": "I _____ listened to music. (46)",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q047",
+      "questionText": "You _____ read a book. (47)",
+      "optionA": "had",
+      "optionB": "is",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q048",
+      "questionText": "She _____ studied English. (48)",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q049",
+      "questionText": "She _____ studied English. (49)",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has' to connect past actions to the present."
+    },
+    {
+      "questionId": "T092-Q050",
+      "questionText": "The students _____ slept well. (50)",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have' to connect past actions to the present."
+    }
+  ]
+}

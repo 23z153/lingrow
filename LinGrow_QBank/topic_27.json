@@ -1,0 +1,507 @@
+{
+  "topicId": 27,
+  "topicName": "Irregular plurals",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T027-Q001",
+      "questionText": "What is the correct plural form of 'woman'?",
+      "optionA": "womens",
+      "optionB": "womanes",
+      "optionC": "women",
+      "optionD": "womans",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'woman' is 'women'."
+    },
+    {
+      "questionId": "T027-Q002",
+      "questionText": "What is the correct plural form of 'child'?",
+      "optionA": "childs",
+      "optionB": "childes",
+      "optionC": "childrens",
+      "optionD": "children",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'child' is 'children'."
+    },
+    {
+      "questionId": "T027-Q003",
+      "questionText": "What is the correct plural form of 'tooth'?",
+      "optionA": "toothes",
+      "optionB": "teeths",
+      "optionC": "teeth",
+      "optionD": "tooths",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'tooth' is 'teeth'."
+    },
+    {
+      "questionId": "T027-Q004",
+      "questionText": "What is the correct plural form of 'foot'?",
+      "optionA": "foots",
+      "optionB": "feets",
+      "optionC": "footies",
+      "optionD": "feet",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'foot' is 'feet'."
+    },
+    {
+      "questionId": "T027-Q005",
+      "questionText": "What is the correct plural form of 'mouse'?",
+      "optionA": "mices",
+      "optionB": "mice's",
+      "optionC": "mouses",
+      "optionD": "mice",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'mouse' is 'mice'."
+    },
+    {
+      "questionId": "T027-Q006",
+      "questionText": "What is the correct plural form of 'person'?",
+      "optionA": "people",
+      "optionB": "peoples",
+      "optionC": "persones",
+      "optionD": "persons",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'person' is 'people'."
+    },
+    {
+      "questionId": "T027-Q007",
+      "questionText": "What is the correct plural form of 'sheep'?",
+      "optionA": "shoop",
+      "optionB": "sheep",
+      "optionC": "sheepes",
+      "optionD": "sheeps",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'sheep' is 'sheep'."
+    },
+    {
+      "questionId": "T027-Q008",
+      "questionText": "What is the correct plural form of 'fish'?",
+      "optionA": "fishs",
+      "optionB": "fishes",
+      "optionC": "fish",
+      "optionD": "feesh",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'fish' is 'fish'."
+    },
+    {
+      "questionId": "T027-Q009",
+      "questionText": "What is the correct plural form of 'deer'?",
+      "optionA": "deers",
+      "optionB": "deeres",
+      "optionC": "deer",
+      "optionD": "doer",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'deer' is 'deer'."
+    },
+    {
+      "questionId": "T027-Q010",
+      "questionText": "What is the correct plural form of 'man'?",
+      "optionA": "manes",
+      "optionB": "mans",
+      "optionC": "mens",
+      "optionD": "men",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'man' is 'men'."
+    },
+    {
+      "questionId": "T027-Q011",
+      "questionText": "What is the correct plural form of 'woman'?",
+      "optionA": "women",
+      "optionB": "womanes",
+      "optionC": "womans",
+      "optionD": "womens",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'woman' is 'women'."
+    },
+    {
+      "questionId": "T027-Q012",
+      "questionText": "What is the correct plural form of 'child'?",
+      "optionA": "childs",
+      "optionB": "children",
+      "optionC": "childrens",
+      "optionD": "childes",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'child' is 'children'."
+    },
+    {
+      "questionId": "T027-Q013",
+      "questionText": "What is the correct plural form of 'tooth'?",
+      "optionA": "teeths",
+      "optionB": "tooths",
+      "optionC": "toothes",
+      "optionD": "teeth",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'tooth' is 'teeth'."
+    },
+    {
+      "questionId": "T027-Q014",
+      "questionText": "What is the correct plural form of 'foot'?",
+      "optionA": "foots",
+      "optionB": "footies",
+      "optionC": "feet",
+      "optionD": "feets",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'foot' is 'feet'."
+    },
+    {
+      "questionId": "T027-Q015",
+      "questionText": "What is the correct plural form of 'mouse'?",
+      "optionA": "mices",
+      "optionB": "mice's",
+      "optionC": "mice",
+      "optionD": "mouses",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'mouse' is 'mice'."
+    },
+    {
+      "questionId": "T027-Q016",
+      "questionText": "What is the correct plural form of 'person'?",
+      "optionA": "peoples",
+      "optionB": "people",
+      "optionC": "persones",
+      "optionD": "persons",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'person' is 'people'."
+    },
+    {
+      "questionId": "T027-Q017",
+      "questionText": "What is the correct plural form of 'sheep'?",
+      "optionA": "shoop",
+      "optionB": "sheep",
+      "optionC": "sheeps",
+      "optionD": "sheepes",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'sheep' is 'sheep'."
+    },
+    {
+      "questionId": "T027-Q018",
+      "questionText": "What is the correct plural form of 'fish'?",
+      "optionA": "fishs",
+      "optionB": "feesh",
+      "optionC": "fishes",
+      "optionD": "fish",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'fish' is 'fish'."
+    },
+    {
+      "questionId": "T027-Q019",
+      "questionText": "What is the correct plural form of 'deer'?",
+      "optionA": "deers",
+      "optionB": "doer",
+      "optionC": "deeres",
+      "optionD": "deer",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'deer' is 'deer'."
+    },
+    {
+      "questionId": "T027-Q020",
+      "questionText": "What is the correct plural form of 'man'?",
+      "optionA": "mans",
+      "optionB": "mens",
+      "optionC": "manes",
+      "optionD": "men",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'man' is 'men'."
+    },
+    {
+      "questionId": "T027-Q021",
+      "questionText": "What is the correct plural form of 'woman'?",
+      "optionA": "women",
+      "optionB": "womens",
+      "optionC": "womans",
+      "optionD": "womanes",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'woman' is 'women'."
+    },
+    {
+      "questionId": "T027-Q022",
+      "questionText": "What is the correct plural form of 'child'?",
+      "optionA": "childrens",
+      "optionB": "children",
+      "optionC": "childes",
+      "optionD": "childs",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'child' is 'children'."
+    },
+    {
+      "questionId": "T027-Q023",
+      "questionText": "What is the correct plural form of 'tooth'?",
+      "optionA": "teeths",
+      "optionB": "teeth",
+      "optionC": "toothes",
+      "optionD": "tooths",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'tooth' is 'teeth'."
+    },
+    {
+      "questionId": "T027-Q024",
+      "questionText": "What is the correct plural form of 'foot'?",
+      "optionA": "feet",
+      "optionB": "feets",
+      "optionC": "foots",
+      "optionD": "footies",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'foot' is 'feet'."
+    },
+    {
+      "questionId": "T027-Q025",
+      "questionText": "What is the correct plural form of 'mouse'?",
+      "optionA": "mice",
+      "optionB": "mice's",
+      "optionC": "mouses",
+      "optionD": "mices",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'mouse' is 'mice'."
+    },
+    {
+      "questionId": "T027-Q026",
+      "questionText": "What is the correct plural form of 'person'?",
+      "optionA": "peoples",
+      "optionB": "persones",
+      "optionC": "people",
+      "optionD": "persons",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'person' is 'people'."
+    },
+    {
+      "questionId": "T027-Q027",
+      "questionText": "What is the correct plural form of 'sheep'?",
+      "optionA": "shoop",
+      "optionB": "sheepes",
+      "optionC": "sheep",
+      "optionD": "sheeps",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'sheep' is 'sheep'."
+    },
+    {
+      "questionId": "T027-Q028",
+      "questionText": "What is the correct plural form of 'fish'?",
+      "optionA": "fishes",
+      "optionB": "feesh",
+      "optionC": "fish",
+      "optionD": "fishs",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'fish' is 'fish'."
+    },
+    {
+      "questionId": "T027-Q029",
+      "questionText": "What is the correct plural form of 'deer'?",
+      "optionA": "deers",
+      "optionB": "deer",
+      "optionC": "deeres",
+      "optionD": "doer",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'deer' is 'deer'."
+    },
+    {
+      "questionId": "T027-Q030",
+      "questionText": "What is the correct plural form of 'man'?",
+      "optionA": "mans",
+      "optionB": "manes",
+      "optionC": "mens",
+      "optionD": "men",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'man' is 'men'."
+    },
+    {
+      "questionId": "T027-Q031",
+      "questionText": "What is the correct plural form of 'woman'?",
+      "optionA": "womanes",
+      "optionB": "womens",
+      "optionC": "women",
+      "optionD": "womans",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'woman' is 'women'."
+    },
+    {
+      "questionId": "T027-Q032",
+      "questionText": "What is the correct plural form of 'child'?",
+      "optionA": "childrens",
+      "optionB": "children",
+      "optionC": "childes",
+      "optionD": "childs",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'child' is 'children'."
+    },
+    {
+      "questionId": "T027-Q033",
+      "questionText": "What is the correct plural form of 'tooth'?",
+      "optionA": "toothes",
+      "optionB": "teeth",
+      "optionC": "teeths",
+      "optionD": "tooths",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'tooth' is 'teeth'."
+    },
+    {
+      "questionId": "T027-Q034",
+      "questionText": "What is the correct plural form of 'foot'?",
+      "optionA": "footies",
+      "optionB": "feets",
+      "optionC": "foots",
+      "optionD": "feet",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'foot' is 'feet'."
+    },
+    {
+      "questionId": "T027-Q035",
+      "questionText": "What is the correct plural form of 'mouse'?",
+      "optionA": "mice's",
+      "optionB": "mouses",
+      "optionC": "mice",
+      "optionD": "mices",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'mouse' is 'mice'."
+    },
+    {
+      "questionId": "T027-Q036",
+      "questionText": "What is the correct plural form of 'person'?",
+      "optionA": "people",
+      "optionB": "peoples",
+      "optionC": "persones",
+      "optionD": "persons",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'person' is 'people'."
+    },
+    {
+      "questionId": "T027-Q037",
+      "questionText": "What is the correct plural form of 'sheep'?",
+      "optionA": "sheep",
+      "optionB": "shoop",
+      "optionC": "sheepes",
+      "optionD": "sheeps",
+      "correctOption": "Option A",
+      "explanation": "The correct plural form of 'sheep' is 'sheep'."
+    },
+    {
+      "questionId": "T027-Q038",
+      "questionText": "What is the correct plural form of 'fish'?",
+      "optionA": "fishs",
+      "optionB": "fish",
+      "optionC": "fishes",
+      "optionD": "feesh",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'fish' is 'fish'."
+    },
+    {
+      "questionId": "T027-Q039",
+      "questionText": "What is the correct plural form of 'deer'?",
+      "optionA": "deeres",
+      "optionB": "doer",
+      "optionC": "deers",
+      "optionD": "deer",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'deer' is 'deer'."
+    },
+    {
+      "questionId": "T027-Q040",
+      "questionText": "What is the correct plural form of 'man'?",
+      "optionA": "mans",
+      "optionB": "manes",
+      "optionC": "mens",
+      "optionD": "men",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'man' is 'men'."
+    },
+    {
+      "questionId": "T027-Q041",
+      "questionText": "What is the correct plural form of 'woman'?",
+      "optionA": "womanes",
+      "optionB": "womans",
+      "optionC": "women",
+      "optionD": "womens",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'woman' is 'women'."
+    },
+    {
+      "questionId": "T027-Q042",
+      "questionText": "What is the correct plural form of 'child'?",
+      "optionA": "childrens",
+      "optionB": "childs",
+      "optionC": "childes",
+      "optionD": "children",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'child' is 'children'."
+    },
+    {
+      "questionId": "T027-Q043",
+      "questionText": "What is the correct plural form of 'tooth'?",
+      "optionA": "toothes",
+      "optionB": "tooths",
+      "optionC": "teeth",
+      "optionD": "teeths",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'tooth' is 'teeth'."
+    },
+    {
+      "questionId": "T027-Q044",
+      "questionText": "What is the correct plural form of 'foot'?",
+      "optionA": "foots",
+      "optionB": "feet",
+      "optionC": "footies",
+      "optionD": "feets",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'foot' is 'feet'."
+    },
+    {
+      "questionId": "T027-Q045",
+      "questionText": "What is the correct plural form of 'mouse'?",
+      "optionA": "mouses",
+      "optionB": "mice",
+      "optionC": "mice's",
+      "optionD": "mices",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'mouse' is 'mice'."
+    },
+    {
+      "questionId": "T027-Q046",
+      "questionText": "What is the correct plural form of 'person'?",
+      "optionA": "peoples",
+      "optionB": "people",
+      "optionC": "persones",
+      "optionD": "persons",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'person' is 'people'."
+    },
+    {
+      "questionId": "T027-Q047",
+      "questionText": "What is the correct plural form of 'sheep'?",
+      "optionA": "sheeps",
+      "optionB": "shoop",
+      "optionC": "sheepes",
+      "optionD": "sheep",
+      "correctOption": "Option D",
+      "explanation": "The correct plural form of 'sheep' is 'sheep'."
+    },
+    {
+      "questionId": "T027-Q048",
+      "questionText": "What is the correct plural form of 'fish'?",
+      "optionA": "feesh",
+      "optionB": "fish",
+      "optionC": "fishes",
+      "optionD": "fishs",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'fish' is 'fish'."
+    },
+    {
+      "questionId": "T027-Q049",
+      "questionText": "What is the correct plural form of 'deer'?",
+      "optionA": "doer",
+      "optionB": "deers",
+      "optionC": "deer",
+      "optionD": "deeres",
+      "correctOption": "Option C",
+      "explanation": "The correct plural form of 'deer' is 'deer'."
+    },
+    {
+      "questionId": "T027-Q050",
+      "questionText": "What is the correct plural form of 'man'?",
+      "optionA": "mens",
+      "optionB": "men",
+      "optionC": "mans",
+      "optionD": "manes",
+      "correctOption": "Option B",
+      "explanation": "The correct plural form of 'man' is 'men'."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 53,
+  "topicName": "Much/many",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T053-Q001",
+      "questionText": "How ___ money 0 do you have?",
+      "optionA": "some",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q002",
+      "questionText": "There are too ___ cars 1 on the road today.",
+      "optionA": "many",
+      "optionB": "a little",
+      "optionC": "much",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q003",
+      "questionText": "I don't have ___ time 2 for this.",
+      "optionA": "few",
+      "optionB": "much",
+      "optionC": "many",
+      "optionD": "several",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q004",
+      "questionText": "She has visited ___ countries 3 in Europe.",
+      "optionA": "many",
+      "optionB": "amount of",
+      "optionC": "little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q005",
+      "questionText": "How ___ times 4 have I told you?",
+      "optionA": "much",
+      "optionB": "often",
+      "optionC": "many",
+      "optionD": "long",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q006",
+      "questionText": "How ___ money 5 do you have?",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "few",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q007",
+      "questionText": "There are too ___ cars 6 on the road today.",
+      "optionA": "much",
+      "optionB": "a little",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q008",
+      "questionText": "I don't have ___ time 7 for this.",
+      "optionA": "few",
+      "optionB": "much",
+      "optionC": "several",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q009",
+      "questionText": "She has visited ___ countries 8 in Europe.",
+      "optionA": "many",
+      "optionB": "little",
+      "optionC": "amount of",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q010",
+      "questionText": "How ___ times 9 have I told you?",
+      "optionA": "long",
+      "optionB": "often",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q011",
+      "questionText": "How ___ money 10 do you have?",
+      "optionA": "some",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q012",
+      "questionText": "There are too ___ cars 11 on the road today.",
+      "optionA": "much",
+      "optionB": "a little",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q013",
+      "questionText": "I don't have ___ time 12 for this.",
+      "optionA": "much",
+      "optionB": "few",
+      "optionC": "several",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q014",
+      "questionText": "She has visited ___ countries 13 in Europe.",
+      "optionA": "little",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "amount of",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q015",
+      "questionText": "How ___ times 14 have I told you?",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "often",
+      "optionD": "long",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q016",
+      "questionText": "How ___ money 15 do you have?",
+      "optionA": "many",
+      "optionB": "some",
+      "optionC": "much",
+      "optionD": "few",
+      "correctOption": "Option C",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q017",
+      "questionText": "There are too ___ cars 16 on the road today.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q018",
+      "questionText": "I don't have ___ time 17 for this.",
+      "optionA": "much",
+      "optionB": "few",
+      "optionC": "several",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q019",
+      "questionText": "She has visited ___ countries 18 in Europe.",
+      "optionA": "many",
+      "optionB": "little",
+      "optionC": "much",
+      "optionD": "amount of",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q020",
+      "questionText": "How ___ times 19 have I told you?",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "often",
+      "optionD": "long",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q021",
+      "questionText": "How ___ money 20 do you have?",
+      "optionA": "few",
+      "optionB": "some",
+      "optionC": "much",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q022",
+      "questionText": "There are too ___ cars 21 on the road today.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "a little",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q023",
+      "questionText": "I don't have ___ time 22 for this.",
+      "optionA": "several",
+      "optionB": "much",
+      "optionC": "few",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q024",
+      "questionText": "She has visited ___ countries 23 in Europe.",
+      "optionA": "little",
+      "optionB": "much",
+      "optionC": "amount of",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q025",
+      "questionText": "How ___ times 24 have I told you?",
+      "optionA": "long",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "often",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q026",
+      "questionText": "How ___ money 25 do you have?",
+      "optionA": "few",
+      "optionB": "much",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q027",
+      "questionText": "There are too ___ cars 26 on the road today.",
+      "optionA": "some",
+      "optionB": "a little",
+      "optionC": "much",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q028",
+      "questionText": "I don't have ___ time 27 for this.",
+      "optionA": "several",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q029",
+      "questionText": "She has visited ___ countries 28 in Europe.",
+      "optionA": "much",
+      "optionB": "little",
+      "optionC": "amount of",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q030",
+      "questionText": "How ___ times 29 have I told you?",
+      "optionA": "much",
+      "optionB": "long",
+      "optionC": "many",
+      "optionD": "often",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q031",
+      "questionText": "How ___ money 30 do you have?",
+      "optionA": "much",
+      "optionB": "some",
+      "optionC": "few",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q032",
+      "questionText": "There are too ___ cars 31 on the road today.",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q033",
+      "questionText": "I don't have ___ time 32 for this.",
+      "optionA": "many",
+      "optionB": "few",
+      "optionC": "much",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q034",
+      "questionText": "She has visited ___ countries 33 in Europe.",
+      "optionA": "little",
+      "optionB": "much",
+      "optionC": "many",
+      "optionD": "amount of",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q035",
+      "questionText": "How ___ times 34 have I told you?",
+      "optionA": "often",
+      "optionB": "long",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q036",
+      "questionText": "How ___ money 35 do you have?",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "few",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q037",
+      "questionText": "There are too ___ cars 36 on the road today.",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q038",
+      "questionText": "I don't have ___ time 37 for this.",
+      "optionA": "much",
+      "optionB": "several",
+      "optionC": "few",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q039",
+      "questionText": "She has visited ___ countries 38 in Europe.",
+      "optionA": "little",
+      "optionB": "much",
+      "optionC": "many",
+      "optionD": "amount of",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q040",
+      "questionText": "How ___ times 39 have I told you?",
+      "optionA": "much",
+      "optionB": "long",
+      "optionC": "often",
+      "optionD": "many",
+      "correctOption": "Option D",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q041",
+      "questionText": "How ___ money 40 do you have?",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "few",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q042",
+      "questionText": "There are too ___ cars 41 on the road today.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q043",
+      "questionText": "I don't have ___ time 42 for this.",
+      "optionA": "many",
+      "optionB": "few",
+      "optionC": "several",
+      "optionD": "much",
+      "correctOption": "Option D",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q044",
+      "questionText": "She has visited ___ countries 43 in Europe.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "amount of",
+      "optionD": "little",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q045",
+      "questionText": "How ___ times 44 have I told you?",
+      "optionA": "many",
+      "optionB": "often",
+      "optionC": "long",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q046",
+      "questionText": "How ___ money 45 do you have?",
+      "optionA": "some",
+      "optionB": "few",
+      "optionC": "much",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q047",
+      "questionText": "There are too ___ cars 46 on the road today.",
+      "optionA": "many",
+      "optionB": "some",
+      "optionC": "a little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q048",
+      "questionText": "I don't have ___ time 47 for this.",
+      "optionA": "several",
+      "optionB": "much",
+      "optionC": "few",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'much' with uncountable nouns."
+    },
+    {
+      "questionId": "T053-Q049",
+      "questionText": "She has visited ___ countries 48 in Europe.",
+      "optionA": "amount of",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "little",
+      "correctOption": "Option B",
+      "explanation": "Use 'many' with plural countable nouns."
+    },
+    {
+      "questionId": "T053-Q050",
+      "questionText": "How ___ times 49 have I told you?",
+      "optionA": "often",
+      "optionB": "much",
+      "optionC": "many",
+      "optionD": "long",
+      "correctOption": "Option C",
+      "explanation": "Use 'many' with plural countable nouns."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 39,
+  "topicName": "Pronoun agreement",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T039-Q001",
+      "questionText": "Every student must bring ___ own laptop.",
+      "optionA": "his or her",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q002",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "his",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q003",
+      "questionText": "Both of the students forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "their",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q004",
+      "questionText": "If a student wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "we",
+      "optionD": "he or she",
+      "correctOption": "Option D",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q005",
+      "questionText": "The students completed ___ projects early.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q006",
+      "questionText": "Every teacher must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "his or her",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q007",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q008",
+      "questionText": "Both of the teachers forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "her",
+      "optionD": "their",
+      "correctOption": "Option D",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q009",
+      "questionText": "If a teacher wants to succeed, ___ must work hard.",
+      "optionA": "he or she",
+      "optionB": "they",
+      "optionC": "it",
+      "optionD": "we",
+      "correctOption": "Option A",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q010",
+      "questionText": "The teachers completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q011",
+      "questionText": "Every doctor must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "his or her",
+      "optionD": "our",
+      "correctOption": "Option C",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q012",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "her",
+      "optionD": "its",
+      "correctOption": "Option D",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q013",
+      "questionText": "Both of the doctors forgot ___ passwords.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q014",
+      "questionText": "If a doctor wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "he or she",
+      "optionC": "it",
+      "optionD": "we",
+      "correctOption": "Option B",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q015",
+      "questionText": "The doctors completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "their",
+      "optionD": "our",
+      "correctOption": "Option C",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q016",
+      "questionText": "Every driver must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "our",
+      "optionD": "his or her",
+      "correctOption": "Option D",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q017",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "its",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q018",
+      "questionText": "Both of the drivers forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q019",
+      "questionText": "If a driver wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "he or she",
+      "optionD": "we",
+      "correctOption": "Option C",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q020",
+      "questionText": "The drivers completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "our",
+      "optionD": "their",
+      "correctOption": "Option D",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q021",
+      "questionText": "Every chef must bring ___ own laptop.",
+      "optionA": "his or her",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q022",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "his",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q023",
+      "questionText": "Both of the chefs forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "their",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q024",
+      "questionText": "If a chef wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "we",
+      "optionD": "he or she",
+      "correctOption": "Option D",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q025",
+      "questionText": "The chefs completed ___ projects early.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q026",
+      "questionText": "Every writer must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "his or her",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q027",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q028",
+      "questionText": "Both of the writers forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "her",
+      "optionD": "their",
+      "correctOption": "Option D",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q029",
+      "questionText": "If a writer wants to succeed, ___ must work hard.",
+      "optionA": "he or she",
+      "optionB": "they",
+      "optionC": "it",
+      "optionD": "we",
+      "correctOption": "Option A",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q030",
+      "questionText": "The writers completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q031",
+      "questionText": "Every manager must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "his or her",
+      "optionD": "our",
+      "correctOption": "Option C",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q032",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "her",
+      "optionD": "its",
+      "correctOption": "Option D",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q033",
+      "questionText": "Both of the managers forgot ___ passwords.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q034",
+      "questionText": "If a manager wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "he or she",
+      "optionC": "it",
+      "optionD": "we",
+      "correctOption": "Option B",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q035",
+      "questionText": "The managers completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "their",
+      "optionD": "our",
+      "correctOption": "Option C",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q036",
+      "questionText": "Every worker must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "our",
+      "optionD": "his or her",
+      "correctOption": "Option D",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q037",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "its",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q038",
+      "questionText": "Both of the workers forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q039",
+      "questionText": "If a worker wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "he or she",
+      "optionD": "we",
+      "correctOption": "Option C",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q040",
+      "questionText": "The workers completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "our",
+      "optionD": "their",
+      "correctOption": "Option D",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q041",
+      "questionText": "Every artist must bring ___ own laptop.",
+      "optionA": "his or her",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q042",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "its",
+      "optionC": "his",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q043",
+      "questionText": "Both of the artists forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "their",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q044",
+      "questionText": "If a artist wants to succeed, ___ must work hard.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "we",
+      "optionD": "he or she",
+      "correctOption": "Option D",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q045",
+      "questionText": "The artists completed ___ projects early.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option A",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q046",
+      "questionText": "Every player must bring ___ own laptop.",
+      "optionA": "their",
+      "optionB": "his or her",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'his or her' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q047",
+      "questionText": "The committee announced ___ decision today.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "its",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'its' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q048",
+      "questionText": "Both of the players forgot ___ passwords.",
+      "optionA": "his",
+      "optionB": "its",
+      "optionC": "her",
+      "optionD": "their",
+      "correctOption": "Option D",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q049",
+      "questionText": "If a player wants to succeed, ___ must work hard.",
+      "optionA": "he or she",
+      "optionB": "they",
+      "optionC": "it",
+      "optionD": "we",
+      "correctOption": "Option A",
+      "explanation": "'he or she' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T039-Q050",
+      "questionText": "The players completed ___ projects early.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "its",
+      "optionD": "our",
+      "correctOption": "Option B",
+      "explanation": "'their' is the correct choice in standard English grammar."
+    }
+  ]
+}

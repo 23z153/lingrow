@@ -1,0 +1,507 @@
+{
+  "topicId": 72,
+  "topicName": "Action verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T072-Q001",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He runs every morning.",
+      "optionB": "She seems tired.",
+      "optionC": "He is happy.",
+      "optionD": "The soup tastes good.",
+      "correctOption": "Option A",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q002",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "problem",
+      "optionB": "about",
+      "optionC": "They",
+      "optionD": "thought",
+      "correctOption": "Option D",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q003",
+      "questionText": "Which word is an action verb?",
+      "optionA": "seem",
+      "optionB": "is",
+      "optionC": "write",
+      "optionD": "become",
+      "correctOption": "Option C",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q004",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "jumped",
+      "optionB": "over",
+      "optionC": "cat",
+      "optionD": "fence",
+      "correctOption": "Option A",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q005",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He runs every morning.",
+      "optionB": "She seems tired.",
+      "optionC": "He is happy.",
+      "optionD": "The soup tastes good.",
+      "correctOption": "Option A",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q006",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "problem",
+      "optionB": "thought",
+      "optionC": "about",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q007",
+      "questionText": "Which word is an action verb?",
+      "optionA": "seem",
+      "optionB": "is",
+      "optionC": "write",
+      "optionD": "become",
+      "correctOption": "Option C",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q008",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "fence",
+      "optionB": "over",
+      "optionC": "cat",
+      "optionD": "jumped",
+      "correctOption": "Option D",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q009",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "She seems tired.",
+      "optionB": "He runs every morning.",
+      "optionC": "He is happy.",
+      "optionD": "The soup tastes good.",
+      "correctOption": "Option B",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q010",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "They",
+      "optionB": "about",
+      "optionC": "thought",
+      "optionD": "problem",
+      "correctOption": "Option C",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q011",
+      "questionText": "Which word is an action verb?",
+      "optionA": "become",
+      "optionB": "is",
+      "optionC": "write",
+      "optionD": "seem",
+      "correctOption": "Option C",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q012",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "fence",
+      "optionB": "cat",
+      "optionC": "over",
+      "optionD": "jumped",
+      "correctOption": "Option D",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q013",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He is happy.",
+      "optionB": "The soup tastes good.",
+      "optionC": "She seems tired.",
+      "optionD": "He runs every morning.",
+      "correctOption": "Option D",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q014",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "They",
+      "optionB": "thought",
+      "optionC": "about",
+      "optionD": "problem",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q015",
+      "questionText": "Which word is an action verb?",
+      "optionA": "become",
+      "optionB": "seem",
+      "optionC": "is",
+      "optionD": "write",
+      "correctOption": "Option D",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q016",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "jumped",
+      "optionB": "cat",
+      "optionC": "fence",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q017",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "The soup tastes good.",
+      "optionB": "She seems tired.",
+      "optionC": "He is happy.",
+      "optionD": "He runs every morning.",
+      "correctOption": "Option D",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q018",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "thought",
+      "optionB": "They",
+      "optionC": "problem",
+      "optionD": "about",
+      "correctOption": "Option A",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q019",
+      "questionText": "Which word is an action verb?",
+      "optionA": "is",
+      "optionB": "become",
+      "optionC": "seem",
+      "optionD": "write",
+      "correctOption": "Option D",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q020",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "jumped",
+      "optionB": "fence",
+      "optionC": "over",
+      "optionD": "cat",
+      "correctOption": "Option A",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q021",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "The soup tastes good.",
+      "optionB": "He runs every morning.",
+      "optionC": "She seems tired.",
+      "optionD": "He is happy.",
+      "correctOption": "Option B",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q022",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "They",
+      "optionB": "about",
+      "optionC": "thought",
+      "optionD": "problem",
+      "correctOption": "Option C",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q023",
+      "questionText": "Which word is an action verb?",
+      "optionA": "seem",
+      "optionB": "is",
+      "optionC": "write",
+      "optionD": "become",
+      "correctOption": "Option C",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q024",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "over",
+      "optionB": "cat",
+      "optionC": "fence",
+      "optionD": "jumped",
+      "correctOption": "Option D",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q025",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "The soup tastes good.",
+      "optionB": "She seems tired.",
+      "optionC": "He is happy.",
+      "optionD": "He runs every morning.",
+      "correctOption": "Option D",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q026",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "problem",
+      "optionB": "thought",
+      "optionC": "They",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q027",
+      "questionText": "Which word is an action verb?",
+      "optionA": "write",
+      "optionB": "become",
+      "optionC": "seem",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q028",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "fence",
+      "optionB": "over",
+      "optionC": "jumped",
+      "optionD": "cat",
+      "correctOption": "Option C",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q029",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "The soup tastes good.",
+      "optionB": "He is happy.",
+      "optionC": "She seems tired.",
+      "optionD": "He runs every morning.",
+      "correctOption": "Option D",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q030",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "about",
+      "optionB": "thought",
+      "optionC": "problem",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q031",
+      "questionText": "Which word is an action verb?",
+      "optionA": "write",
+      "optionB": "seem",
+      "optionC": "become",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q032",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "over",
+      "optionB": "jumped",
+      "optionC": "cat",
+      "optionD": "fence",
+      "correctOption": "Option B",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q033",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "She seems tired.",
+      "optionB": "He runs every morning.",
+      "optionC": "He is happy.",
+      "optionD": "The soup tastes good.",
+      "correctOption": "Option B",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q034",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "problem",
+      "optionB": "about",
+      "optionC": "They",
+      "optionD": "thought",
+      "correctOption": "Option D",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q035",
+      "questionText": "Which word is an action verb?",
+      "optionA": "write",
+      "optionB": "is",
+      "optionC": "become",
+      "optionD": "seem",
+      "correctOption": "Option A",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q036",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "jumped",
+      "optionB": "fence",
+      "optionC": "cat",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q037",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He runs every morning.",
+      "optionB": "She seems tired.",
+      "optionC": "The soup tastes good.",
+      "optionD": "He is happy.",
+      "correctOption": "Option A",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q038",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "about",
+      "optionB": "They",
+      "optionC": "problem",
+      "optionD": "thought",
+      "correctOption": "Option D",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q039",
+      "questionText": "Which word is an action verb?",
+      "optionA": "write",
+      "optionB": "is",
+      "optionC": "become",
+      "optionD": "seem",
+      "correctOption": "Option A",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q040",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "fence",
+      "optionB": "cat",
+      "optionC": "jumped",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q041",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He is happy.",
+      "optionB": "The soup tastes good.",
+      "optionC": "He runs every morning.",
+      "optionD": "She seems tired.",
+      "correctOption": "Option C",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q042",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "about",
+      "optionB": "thought",
+      "optionC": "They",
+      "optionD": "problem",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q043",
+      "questionText": "Which word is an action verb?",
+      "optionA": "is",
+      "optionB": "become",
+      "optionC": "write",
+      "optionD": "seem",
+      "correctOption": "Option C",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q044",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "cat",
+      "optionB": "jumped",
+      "optionC": "fence",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q045",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He is happy.",
+      "optionB": "The soup tastes good.",
+      "optionC": "She seems tired.",
+      "optionD": "He runs every morning.",
+      "correctOption": "Option D",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q046",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "problem",
+      "optionB": "thought",
+      "optionC": "They",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q047",
+      "questionText": "Which word is an action verb?",
+      "optionA": "is",
+      "optionB": "write",
+      "optionC": "become",
+      "optionD": "seem",
+      "correctOption": "Option B",
+      "explanation": "'write' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q048",
+      "questionText": "Identify the action verb: 'The cat jumped over the fence.'",
+      "optionA": "fence",
+      "optionB": "over",
+      "optionC": "cat",
+      "optionD": "jumped",
+      "correctOption": "Option D",
+      "explanation": "'jumped' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q049",
+      "questionText": "Which sentence contains an action verb?",
+      "optionA": "He is happy.",
+      "optionB": "She seems tired.",
+      "optionC": "He runs every morning.",
+      "optionD": "The soup tastes good.",
+      "correctOption": "Option C",
+      "explanation": "'He runs every morning' is an action verb because it expresses a physical or mental action."
+    },
+    {
+      "questionId": "T072-Q050",
+      "questionText": "Identify the action verb: 'They thought about the problem.'",
+      "optionA": "thought",
+      "optionB": "problem",
+      "optionC": "about",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'thought' is an action verb because it expresses a physical or mental action."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 160,
+  "topicName": "Place",
+  "unit": "UNIT 16 — ADVERBS",
+  "questions": [
+    {
+      "questionId": "T160-Q001",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "everywhere",
+      "optionB": "here",
+      "optionC": "somewhere",
+      "optionD": "nowhere",
+      "correctOption": "Option A",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q002",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "nowhere",
+      "optionB": "anywhere",
+      "optionC": "somewhere",
+      "optionD": "there",
+      "correctOption": "Option C",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q003",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "tomorrow",
+      "optionB": "always",
+      "optionC": "downstairs",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q004",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "anywhere",
+      "optionB": "there",
+      "optionC": "everywhere",
+      "optionD": "here",
+      "correctOption": "Option D",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q005",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "nowhere",
+      "optionB": "everywhere",
+      "optionC": "here",
+      "optionD": "there",
+      "correctOption": "Option B",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q006",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "somewhere",
+      "optionB": "everywhere",
+      "optionC": "there",
+      "optionD": "anywhere",
+      "correctOption": "Option A",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q007",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "downstairs",
+      "optionB": "very",
+      "optionC": "always",
+      "optionD": "recently",
+      "correctOption": "Option A",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q008",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "there",
+      "optionB": "here",
+      "optionC": "everywhere",
+      "optionD": "nowhere",
+      "correctOption": "Option B",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q009",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "nowhere",
+      "optionB": "here",
+      "optionC": "there",
+      "optionD": "everywhere",
+      "correctOption": "Option D",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q010",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "anywhere",
+      "optionB": "somewhere",
+      "optionC": "everywhere",
+      "optionD": "there",
+      "correctOption": "Option B",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q011",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "downstairs",
+      "optionB": "always",
+      "optionC": "tomorrow",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q012",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "nowhere",
+      "optionB": "here",
+      "optionC": "anywhere",
+      "optionD": "there",
+      "correctOption": "Option B",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q013",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "somewhere",
+      "optionB": "there",
+      "optionC": "nowhere",
+      "optionD": "everywhere",
+      "correctOption": "Option D",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q014",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "nowhere",
+      "optionB": "anywhere",
+      "optionC": "everywhere",
+      "optionD": "somewhere",
+      "correctOption": "Option D",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q015",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "recently",
+      "optionB": "always",
+      "optionC": "downstairs",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q016",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "here",
+      "optionB": "anywhere",
+      "optionC": "there",
+      "optionD": "nowhere",
+      "correctOption": "Option A",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q017",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "everywhere",
+      "optionB": "here",
+      "optionC": "there",
+      "optionD": "nowhere",
+      "correctOption": "Option A",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q018",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "everywhere",
+      "optionB": "somewhere",
+      "optionC": "nowhere",
+      "optionD": "anywhere",
+      "correctOption": "Option B",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q019",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "downstairs",
+      "optionB": "always",
+      "optionC": "recently",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q020",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "anywhere",
+      "optionB": "here",
+      "optionC": "there",
+      "optionD": "everywhere",
+      "correctOption": "Option B",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q021",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "here",
+      "optionB": "everywhere",
+      "optionC": "somewhere",
+      "optionD": "nowhere",
+      "correctOption": "Option B",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q022",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "everywhere",
+      "optionB": "there",
+      "optionC": "nowhere",
+      "optionD": "somewhere",
+      "correctOption": "Option D",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q023",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "very",
+      "optionB": "tomorrow",
+      "optionC": "downstairs",
+      "optionD": "always",
+      "correctOption": "Option C",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q024",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "there",
+      "optionB": "here",
+      "optionC": "everywhere",
+      "optionD": "anywhere",
+      "correctOption": "Option B",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q025",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "nowhere",
+      "optionB": "somewhere",
+      "optionC": "everywhere",
+      "optionD": "here",
+      "correctOption": "Option C",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q026",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "everywhere",
+      "optionB": "there",
+      "optionC": "nowhere",
+      "optionD": "somewhere",
+      "correctOption": "Option D",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q027",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "recently",
+      "optionB": "always",
+      "optionC": "downstairs",
+      "optionD": "tomorrow",
+      "correctOption": "Option C",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q028",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "here",
+      "optionB": "everywhere",
+      "optionC": "anywhere",
+      "optionD": "there",
+      "correctOption": "Option A",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q029",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "there",
+      "optionB": "here",
+      "optionC": "nowhere",
+      "optionD": "everywhere",
+      "correctOption": "Option D",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q030",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "there",
+      "optionB": "anywhere",
+      "optionC": "somewhere",
+      "optionD": "nowhere",
+      "correctOption": "Option C",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q031",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "very",
+      "optionB": "tomorrow",
+      "optionC": "always",
+      "optionD": "downstairs",
+      "correctOption": "Option D",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q032",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "everywhere",
+      "optionB": "here",
+      "optionC": "there",
+      "optionD": "nowhere",
+      "correctOption": "Option B",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q033",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "nowhere",
+      "optionB": "everywhere",
+      "optionC": "here",
+      "optionD": "there",
+      "correctOption": "Option B",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q034",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "everywhere",
+      "optionB": "somewhere",
+      "optionC": "nowhere",
+      "optionD": "anywhere",
+      "correctOption": "Option B",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q035",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "tomorrow",
+      "optionB": "recently",
+      "optionC": "downstairs",
+      "optionD": "always",
+      "correctOption": "Option C",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q036",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "here",
+      "optionB": "anywhere",
+      "optionC": "there",
+      "optionD": "nowhere",
+      "correctOption": "Option A",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q037",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "nowhere",
+      "optionB": "there",
+      "optionC": "here",
+      "optionD": "everywhere",
+      "correctOption": "Option D",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q038",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "everywhere",
+      "optionB": "there",
+      "optionC": "somewhere",
+      "optionD": "anywhere",
+      "correctOption": "Option C",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q039",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "tomorrow",
+      "optionB": "always",
+      "optionC": "recently",
+      "optionD": "downstairs",
+      "correctOption": "Option D",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q040",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "anywhere",
+      "optionB": "everywhere",
+      "optionC": "here",
+      "optionD": "there",
+      "correctOption": "Option C",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q041",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "everywhere",
+      "optionB": "somewhere",
+      "optionC": "nowhere",
+      "optionD": "there",
+      "correctOption": "Option A",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q042",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "anywhere",
+      "optionB": "nowhere",
+      "optionC": "somewhere",
+      "optionD": "there",
+      "correctOption": "Option C",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q043",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "downstairs",
+      "optionB": "recently",
+      "optionC": "tomorrow",
+      "optionD": "always",
+      "correctOption": "Option A",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q044",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "here",
+      "optionB": "there",
+      "optionC": "nowhere",
+      "optionD": "everywhere",
+      "correctOption": "Option A",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q045",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "here",
+      "optionB": "nowhere",
+      "optionC": "everywhere",
+      "optionD": "somewhere",
+      "correctOption": "Option C",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q046",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "nowhere",
+      "optionB": "there",
+      "optionC": "somewhere",
+      "optionD": "anywhere",
+      "correctOption": "Option C",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q047",
+      "questionText": "The cat is hiding ___.",
+      "optionA": "very",
+      "optionB": "recently",
+      "optionC": "always",
+      "optionD": "downstairs",
+      "correctOption": "Option D",
+      "explanation": "'downstairs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q048",
+      "questionText": "Please leave your bags ___.",
+      "optionA": "everywhere",
+      "optionB": "there",
+      "optionC": "anywhere",
+      "optionD": "here",
+      "correctOption": "Option D",
+      "explanation": "'here' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q049",
+      "questionText": "They searched ___ for the lost keys.",
+      "optionA": "somewhere",
+      "optionB": "here",
+      "optionC": "everywhere",
+      "optionD": "there",
+      "correctOption": "Option C",
+      "explanation": "'everywhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T160-Q050",
+      "questionText": "Let's go ___ quiet.",
+      "optionA": "somewhere",
+      "optionB": "there",
+      "optionC": "nowhere",
+      "optionD": "anywhere",
+      "correctOption": "Option A",
+      "explanation": "'somewhere' is the correct choice in standard English grammar."
+    }
+  ]
+}

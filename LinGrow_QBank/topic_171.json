@@ -1,0 +1,507 @@
+{
+  "topicId": 171,
+  "topicName": "When",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T171-Q001",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Unless",
+      "optionD": "When",
+      "correctOption": "Option D",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q002",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "or",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q003",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "If",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "When",
+      "correctOption": "Option D",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q004",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q005",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q006",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "Unless",
+      "optionB": "When",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q007",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "when",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q008",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Because",
+      "optionB": "When",
+      "optionC": "If",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q009",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "when",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q010",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "Although",
+      "optionC": "Unless",
+      "optionD": "If",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q011",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "When",
+      "optionB": "So",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q012",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "or",
+      "optionB": "unless",
+      "optionC": "when",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q013",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "If",
+      "optionB": "Because",
+      "optionC": "When",
+      "optionD": "Unless",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q014",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "when",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q015",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q016",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "So",
+      "optionB": "When",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q017",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "or",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q018",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Unless",
+      "optionB": "When",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q019",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "when",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q020",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q021",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "Unless",
+      "optionB": "When",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q022",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "or",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q023",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "When",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q024",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "when",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q025",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q026",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "Although",
+      "optionB": "When",
+      "optionC": "Unless",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q027",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "unless",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q028",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "If",
+      "optionB": "Because",
+      "optionC": "When",
+      "optionD": "Unless",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q029",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q030",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "When",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q031",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "So",
+      "optionB": "When",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q032",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "unless",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q033",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Unless",
+      "optionB": "When",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option B",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q034",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q035",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q036",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "Unless",
+      "optionB": "Although",
+      "optionC": "When",
+      "optionD": "So",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q037",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "although",
+      "optionB": "or",
+      "optionC": "when",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q038",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Because",
+      "optionB": "Unless",
+      "optionC": "When",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q039",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "when",
+      "correctOption": "Option D",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q040",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q041",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "When",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q042",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "or",
+      "optionB": "unless",
+      "optionC": "when",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q043",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Unless",
+      "optionB": "Because",
+      "optionC": "If",
+      "optionD": "When",
+      "correctOption": "Option D",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q044",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "when",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q045",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "When",
+      "optionB": "Although",
+      "optionC": "If",
+      "optionD": "Unless",
+      "correctOption": "Option A",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q046",
+      "questionText": "____ the bell rings, the lecture begins.",
+      "optionA": "So",
+      "optionB": "Unless",
+      "optionC": "When",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q047",
+      "questionText": "I will call you ____ I finish my assignment.",
+      "optionA": "when",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q048",
+      "questionText": "____ he arrived at campus, the class had already started.",
+      "optionA": "Because",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "When",
+      "correctOption": "Option D",
+      "explanation": "Use 'When' to ask about a time or date."
+    },
+    {
+      "questionId": "T171-Q049",
+      "questionText": "She felt nervous ____ she took the exam.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "when",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'when' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T171-Q050",
+      "questionText": "____ the semester ends, we will celebrate.",
+      "optionA": "Unless",
+      "optionB": "Although",
+      "optionC": "When",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "Use 'When' to ask about a time or date."
+    }
+  ]
+}

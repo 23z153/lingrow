@@ -1,0 +1,507 @@
+{
+  "topicId": 148,
+  "topicName": "During/until/by",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T148-Q001",
+      "questionText": "You must submit the assignment ___ Friday. (1)",
+      "optionA": "until",
+      "optionB": "by",
+      "optionC": "during",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q002",
+      "questionText": "Please do not talk ___ the presentation. (2)",
+      "optionA": "until",
+      "optionB": "while",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q003",
+      "questionText": "You must submit the assignment ___ Friday. (3)",
+      "optionA": "on",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q004",
+      "questionText": "Please do not talk ___ the presentation. (4)",
+      "optionA": "during",
+      "optionB": "for",
+      "optionC": "while",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q005",
+      "questionText": "The library is open ___ midnight. (5)",
+      "optionA": "by",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q006",
+      "questionText": "The library is open ___ midnight. (6)",
+      "optionA": "during",
+      "optionB": "for",
+      "optionC": "until",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q007",
+      "questionText": "Please do not talk ___ the presentation. (7)",
+      "optionA": "for",
+      "optionB": "until",
+      "optionC": "while",
+      "optionD": "during",
+      "correctOption": "Option D",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q008",
+      "questionText": "Please do not talk ___ the presentation. (8)",
+      "optionA": "during",
+      "optionB": "until",
+      "optionC": "while",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q009",
+      "questionText": "You must submit the assignment ___ Friday. (9)",
+      "optionA": "during",
+      "optionB": "by",
+      "optionC": "on",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q010",
+      "questionText": "Please do not talk ___ the presentation. (10)",
+      "optionA": "for",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "while",
+      "correctOption": "Option C",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q011",
+      "questionText": "The library is open ___ midnight. (11)",
+      "optionA": "during",
+      "optionB": "by",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q012",
+      "questionText": "Please do not talk ___ the presentation. (12)",
+      "optionA": "during",
+      "optionB": "while",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q013",
+      "questionText": "Please do not talk ___ the presentation. (13)",
+      "optionA": "for",
+      "optionB": "during",
+      "optionC": "while",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q014",
+      "questionText": "Please do not talk ___ the presentation. (14)",
+      "optionA": "while",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q015",
+      "questionText": "You must submit the assignment ___ Friday. (15)",
+      "optionA": "during",
+      "optionB": "on",
+      "optionC": "until",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q016",
+      "questionText": "Please do not talk ___ the presentation. (16)",
+      "optionA": "during",
+      "optionB": "while",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q017",
+      "questionText": "Please do not talk ___ the presentation. (17)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q018",
+      "questionText": "The library is open ___ midnight. (18)",
+      "optionA": "during",
+      "optionB": "by",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q019",
+      "questionText": "You must submit the assignment ___ Friday. (19)",
+      "optionA": "on",
+      "optionB": "during",
+      "optionC": "until",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q020",
+      "questionText": "The library is open ___ midnight. (20)",
+      "optionA": "until",
+      "optionB": "by",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q021",
+      "questionText": "Please do not talk ___ the presentation. (21)",
+      "optionA": "for",
+      "optionB": "during",
+      "optionC": "until",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q022",
+      "questionText": "You must submit the assignment ___ Friday. (22)",
+      "optionA": "on",
+      "optionB": "during",
+      "optionC": "by",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q023",
+      "questionText": "The library is open ___ midnight. (23)",
+      "optionA": "by",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q024",
+      "questionText": "You must submit the assignment ___ Friday. (24)",
+      "optionA": "by",
+      "optionB": "during",
+      "optionC": "until",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q025",
+      "questionText": "The library is open ___ midnight. (25)",
+      "optionA": "by",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q026",
+      "questionText": "You must submit the assignment ___ Friday. (26)",
+      "optionA": "on",
+      "optionB": "until",
+      "optionC": "by",
+      "optionD": "during",
+      "correctOption": "Option C",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q027",
+      "questionText": "You must submit the assignment ___ Friday. (27)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q028",
+      "questionText": "The library is open ___ midnight. (28)",
+      "optionA": "until",
+      "optionB": "by",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q029",
+      "questionText": "The library is open ___ midnight. (29)",
+      "optionA": "during",
+      "optionB": "until",
+      "optionC": "for",
+      "optionD": "by",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q030",
+      "questionText": "The library is open ___ midnight. (30)",
+      "optionA": "by",
+      "optionB": "for",
+      "optionC": "until",
+      "optionD": "during",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q031",
+      "questionText": "You must submit the assignment ___ Friday. (31)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q032",
+      "questionText": "The library is open ___ midnight. (32)",
+      "optionA": "until",
+      "optionB": "for",
+      "optionC": "during",
+      "optionD": "by",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q033",
+      "questionText": "You must submit the assignment ___ Friday. (33)",
+      "optionA": "until",
+      "optionB": "by",
+      "optionC": "during",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q034",
+      "questionText": "The library is open ___ midnight. (34)",
+      "optionA": "during",
+      "optionB": "by",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q035",
+      "questionText": "The library is open ___ midnight. (35)",
+      "optionA": "for",
+      "optionB": "by",
+      "optionC": "during",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q036",
+      "questionText": "Please do not talk ___ the presentation. (36)",
+      "optionA": "during",
+      "optionB": "while",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q037",
+      "questionText": "Please do not talk ___ the presentation. (37)",
+      "optionA": "while",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q038",
+      "questionText": "The library is open ___ midnight. (38)",
+      "optionA": "by",
+      "optionB": "during",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q039",
+      "questionText": "Please do not talk ___ the presentation. (39)",
+      "optionA": "until",
+      "optionB": "while",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option D",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q040",
+      "questionText": "Please do not talk ___ the presentation. (40)",
+      "optionA": "during",
+      "optionB": "for",
+      "optionC": "while",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q041",
+      "questionText": "Please do not talk ___ the presentation. (41)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q042",
+      "questionText": "Please do not talk ___ the presentation. (42)",
+      "optionA": "while",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q043",
+      "questionText": "You must submit the assignment ___ Friday. (43)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "on",
+      "optionD": "by",
+      "correctOption": "Option D",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q044",
+      "questionText": "You must submit the assignment ___ Friday. (44)",
+      "optionA": "by",
+      "optionB": "until",
+      "optionC": "on",
+      "optionD": "during",
+      "correctOption": "Option A",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q045",
+      "questionText": "Please do not talk ___ the presentation. (45)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'during' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q046",
+      "questionText": "The library is open ___ midnight. (46)",
+      "optionA": "during",
+      "optionB": "for",
+      "optionC": "until",
+      "optionD": "by",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q047",
+      "questionText": "The library is open ___ midnight. (47)",
+      "optionA": "by",
+      "optionB": "for",
+      "optionC": "during",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q048",
+      "questionText": "The library is open ___ midnight. (48)",
+      "optionA": "until",
+      "optionB": "by",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q049",
+      "questionText": "The library is open ___ midnight. (49)",
+      "optionA": "by",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T148-Q050",
+      "questionText": "You must submit the assignment ___ Friday. (50)",
+      "optionA": "during",
+      "optionB": "on",
+      "optionC": "by",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'by' is the correct choice in standard English grammar."
+    }
+  ]
+}

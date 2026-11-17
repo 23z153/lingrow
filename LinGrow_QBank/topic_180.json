@@ -1,0 +1,507 @@
+{
+  "topicId": 180,
+  "topicName": "Add place/time",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T180-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The researcher observes the report yesterdaying.",
+      "optionB": "The researcher observes the report yesterday.",
+      "optionC": "The observes the report yesterday.",
+      "optionD": "The yesterday report researcher observes the.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher observes the report yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "An expert questions the experiment next week.",
+      "optionB": "Next expert the experiment questions week an.",
+      "optionC": "An questions the experiment next week.",
+      "optionD": "An expert questions the experiment next weeking.",
+      "correctOption": "Option A",
+      "explanation": "'An expert questions the experiment next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team completes the data this morning.",
+      "optionB": "The completes the data this morning.",
+      "optionC": "Morning this completes team the data the.",
+      "optionD": "The team completes the data this morninging.",
+      "correctOption": "Option A",
+      "explanation": "'The team completes the data this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor observes the results in the librarying.",
+      "optionB": "The observes the results in the library.",
+      "optionC": "The in observes professor library the the results.",
+      "optionD": "The professor observes the results in the library.",
+      "correctOption": "Option D",
+      "explanation": "'The professor observes the results in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team observes the experiment on campus.",
+      "optionB": "The observes the experiment on campus.",
+      "optionC": "The team observes the experiment on campusing.",
+      "optionD": "On experiment observes the the campus team.",
+      "correctOption": "Option A",
+      "explanation": "'The team observes the experiment on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The university studies the experiment after the seminar.",
+      "optionB": "The studies the experiment after the seminar.",
+      "optionC": "The university studies the experiment after the seminaring.",
+      "optionD": "Studies seminar the university the the after experiment.",
+      "correctOption": "Option A",
+      "explanation": "'The university studies the experiment after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The university submits a thesis after the seminar.",
+      "optionB": "The submits a thesis after the seminar.",
+      "optionC": "The seminar submits thesis university the a after.",
+      "optionD": "The university submits a thesis after the seminaring.",
+      "correctOption": "Option A",
+      "explanation": "'The university submits a thesis after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor writes a thesis in the eveninging.",
+      "optionB": "Professor the thesis in the evening writes a.",
+      "optionC": "The writes a thesis in the evening.",
+      "optionD": "The professor writes a thesis in the evening.",
+      "correctOption": "Option D",
+      "explanation": "'The professor writes a thesis in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "Morning submits university experiment this the the.",
+      "optionB": "The submits the experiment this morning.",
+      "optionC": "The university submits the experiment this morninging.",
+      "optionD": "The university submits the experiment this morning.",
+      "correctOption": "Option D",
+      "explanation": "'The university submits the experiment this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The scientist reviews a thesis at the laboratory.",
+      "optionB": "The scientist reviews a thesis at the laboratorying.",
+      "optionC": "A scientist the reviews at the thesis laboratory.",
+      "optionD": "The reviews a thesis at the laboratory.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist reviews a thesis at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The researcher questions the proposal yesterdaying.",
+      "optionB": "The questions the proposal yesterday.",
+      "optionC": "The researcher questions the proposal yesterday.",
+      "optionD": "Yesterday researcher the questions the proposal.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher questions the proposal yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The committee submits the results in the librarying.",
+      "optionB": "The submits the results in the library.",
+      "optionC": "The committee submits the results in the library.",
+      "optionD": "The results in the committee submits the library.",
+      "correctOption": "Option C",
+      "explanation": "'The committee submits the results in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The author completes a thesis next weeking.",
+      "optionB": "The author completes a thesis next week.",
+      "optionC": "Completes author week a the next thesis.",
+      "optionD": "The completes a thesis next week.",
+      "correctOption": "Option B",
+      "explanation": "'The author completes a thesis next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The author reads a book in the classrooming.",
+      "optionB": "The reads a book in the classroom.",
+      "optionC": "Author reads in book a classroom the the.",
+      "optionD": "The author reads a book in the classroom.",
+      "correctOption": "Option D",
+      "explanation": "'The author reads a book in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "An expert analyzes an essay next weeking.",
+      "optionB": "An analyzes an essay next week.",
+      "optionC": "Next an week an analyzes expert essay.",
+      "optionD": "An expert analyzes an essay next week.",
+      "correctOption": "Option D",
+      "explanation": "'An expert analyzes an essay next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team observes the results during the lectureing.",
+      "optionB": "Observes results team lecture the during the the.",
+      "optionC": "The team observes the results during the lecture.",
+      "optionD": "The observes the results during the lecture.",
+      "correctOption": "Option C",
+      "explanation": "'The team observes the results during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The committee reviews the article yesterdaying.",
+      "optionB": "The reviews the article yesterday.",
+      "optionC": "Committee article the reviews the yesterday.",
+      "optionD": "The committee reviews the article yesterday.",
+      "correctOption": "Option D",
+      "explanation": "'The committee reviews the article yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The university reads the report this morning.",
+      "optionB": "The university reads the report this morninging.",
+      "optionC": "The reads the report this morning.",
+      "optionD": "The morning report this university the reads.",
+      "correctOption": "Option A",
+      "explanation": "'The university reads the report this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The observes the proposal during the lecture.",
+      "optionB": "The researcher observes the proposal during the lectureing.",
+      "optionC": "The researcher observes the proposal during the lecture.",
+      "optionD": "Proposal the the during observes lecture the researcher.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher observes the proposal during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "Presents an next the data week expert.",
+      "optionB": "An expert presents the data next week.",
+      "optionC": "An expert presents the data next weeking.",
+      "optionD": "An presents the data next week.",
+      "correctOption": "Option B",
+      "explanation": "'An expert presents the data next week' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The researcher analyzes the article after the seminaring.",
+      "optionB": "The analyzes the article after the seminar.",
+      "optionC": "Analyzes the seminar the article the after researcher.",
+      "optionD": "The researcher analyzes the article after the seminar.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher analyzes the article after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The researcher studies the results during the lectureing.",
+      "optionB": "Lecture results the the during the studies researcher.",
+      "optionC": "The researcher studies the results during the lecture.",
+      "optionD": "The studies the results during the lecture.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher studies the results during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The reviews campus essay on university an.",
+      "optionB": "The university reviews an essay on campus.",
+      "optionC": "The reviews an essay on campus.",
+      "optionD": "The university reviews an essay on campusing.",
+      "correctOption": "Option B",
+      "explanation": "'The university reviews an essay on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The author questions the assignment in the classroom.",
+      "optionB": "The author questions the assignment in the classrooming.",
+      "optionC": "In the the questions classroom author the assignment.",
+      "optionD": "The questions the assignment in the classroom.",
+      "correctOption": "Option A",
+      "explanation": "'The author questions the assignment in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor presents the proposal at the laboratorying.",
+      "optionB": "The professor the proposal presents laboratory at the.",
+      "optionC": "The professor presents the proposal at the laboratory.",
+      "optionD": "The presents the proposal at the laboratory.",
+      "correctOption": "Option C",
+      "explanation": "'The professor presents the proposal at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team reviews the assignment this morninging.",
+      "optionB": "The reviews the assignment this morning.",
+      "optionC": "The team reviews the assignment this morning.",
+      "optionD": "Assignment the morning the this reviews team.",
+      "correctOption": "Option C",
+      "explanation": "'The team reviews the assignment this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The analyzes the proposal in the library.",
+      "optionB": "The professor analyzes the proposal in the library.",
+      "optionC": "Proposal the analyzes the library the in professor.",
+      "optionD": "The professor analyzes the proposal in the librarying.",
+      "correctOption": "Option B",
+      "explanation": "'The professor analyzes the proposal in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The submits the assignment on campus.",
+      "optionB": "The committee submits the assignment on campus.",
+      "optionC": "The committee submits the assignment on campusing.",
+      "optionD": "The assignment committee submits the campus on.",
+      "correctOption": "Option B",
+      "explanation": "'The committee submits the assignment on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "A colleague studies a book this morninging.",
+      "optionB": "A colleague studies a book this morning.",
+      "optionC": "A studies a book this morning.",
+      "optionD": "This a morning colleague studies book a.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague studies a book this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor questions a thesis during the lectureing.",
+      "optionB": "The questions a thesis during the lecture.",
+      "optionC": "During the questions lecture a the professor thesis.",
+      "optionD": "The professor questions a thesis during the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'The professor questions a thesis during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The reviews a book this morning.",
+      "optionB": "The student reviews a book this morning.",
+      "optionC": "The student reviews a book this morninging.",
+      "optionD": "Student reviews book the morning this a.",
+      "correctOption": "Option B",
+      "explanation": "'The student reviews a book this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The studies the assignment this morning.",
+      "optionB": "The scientist studies the assignment this morninging.",
+      "optionC": "The assignment the this scientist studies morning.",
+      "optionD": "The scientist studies the assignment this morning.",
+      "correctOption": "Option D",
+      "explanation": "'The scientist studies the assignment this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor presents a book during the lectureing.",
+      "optionB": "The during a book professor the presents lecture.",
+      "optionC": "The presents a book during the lecture.",
+      "optionD": "The professor presents a book during the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'The professor presents a book during the lecture' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The committee studies the article this morning.",
+      "optionB": "The committee studies the article this morninging.",
+      "optionC": "Article committee morning studies this the the.",
+      "optionD": "The studies the article this morning.",
+      "correctOption": "Option A",
+      "explanation": "'The committee studies the article this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The studies the data library in colleague a.",
+      "optionB": "A colleague studies the data in the library.",
+      "optionC": "A studies the data in the library.",
+      "optionD": "A colleague studies the data in the librarying.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague studies the data in the library' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The studies the report on campus.",
+      "optionB": "The scientist studies the report on campus.",
+      "optionC": "The scientist studies the report on campusing.",
+      "optionD": "Campus the on scientist the studies report.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist studies the report on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The student submits an essay in the classroom.",
+      "optionB": "The student submits an classroom the essay in.",
+      "optionC": "The student submits an essay in the classrooming.",
+      "optionD": "The submits an essay in the classroom.",
+      "correctOption": "Option A",
+      "explanation": "'The student submits an essay in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The scientist studies the assignment this morninging.",
+      "optionB": "The studies the assignment this morning.",
+      "optionC": "Studies scientist morning the assignment this the.",
+      "optionD": "The scientist studies the assignment this morning.",
+      "correctOption": "Option D",
+      "explanation": "'The scientist studies the assignment this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team studies the results in the eveninging.",
+      "optionB": "The team studies the results in the evening.",
+      "optionC": "The studies the results in the evening.",
+      "optionD": "The evening the team results the studies in.",
+      "correctOption": "Option B",
+      "explanation": "'The team studies the results in the evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The researcher studies the article in the classrooming.",
+      "optionB": "The studies the article in the classroom.",
+      "optionC": "The researcher studies the article in the classroom.",
+      "optionD": "Article the the studies the researcher classroom in.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher studies the article in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The analyzes the article yesterday.",
+      "optionB": "The committee analyzes the article yesterdaying.",
+      "optionC": "The committee analyzes the article yesterday.",
+      "optionD": "The analyzes article the yesterday committee.",
+      "correctOption": "Option C",
+      "explanation": "'The committee analyzes the article yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The professor submits the data this morninging.",
+      "optionB": "The professor submits the data this morning.",
+      "optionC": "Morning this professor the submits the data.",
+      "optionD": "The submits the data this morning.",
+      "correctOption": "Option B",
+      "explanation": "'The professor submits the data this morning' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The student writes the experiment in the classrooming.",
+      "optionB": "The classroom student the writes in the experiment.",
+      "optionC": "The student writes the experiment in the classroom.",
+      "optionD": "The writes the experiment in the classroom.",
+      "correctOption": "Option C",
+      "explanation": "'The student writes the experiment in the classroom' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "A colleague completes the data at the laboratorying.",
+      "optionB": "Laboratory completes colleague the data at a the.",
+      "optionC": "A colleague completes the data at the laboratory.",
+      "optionD": "A completes the data at the laboratory.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague completes the data at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The writes seminar after the proposal the team.",
+      "optionB": "The team writes the proposal after the seminar.",
+      "optionC": "The team writes the proposal after the seminaring.",
+      "optionD": "The writes the proposal after the seminar.",
+      "correctOption": "Option B",
+      "explanation": "'The team writes the proposal after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "An expert reads a thesis at the laboratory.",
+      "optionB": "Laboratory an at reads expert thesis a the.",
+      "optionC": "An expert reads a thesis at the laboratorying.",
+      "optionD": "An reads a thesis at the laboratory.",
+      "correctOption": "Option A",
+      "explanation": "'An expert reads a thesis at the laboratory' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The team presents the data on campusing.",
+      "optionB": "Team the data on the campus presents.",
+      "optionC": "The presents the data on campus.",
+      "optionD": "The team presents the data on campus.",
+      "correctOption": "Option D",
+      "explanation": "'The team presents the data on campus' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The student studies the experiment after the seminar.",
+      "optionB": "The studies the experiment after the seminar.",
+      "optionC": "The student studies the experiment after the seminaring.",
+      "optionD": "After experiment the seminar student the the studies.",
+      "correctOption": "Option A",
+      "explanation": "'The student studies the experiment after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The writes the data after the seminar.",
+      "optionB": "The professor writes the data after the seminaring.",
+      "optionC": "After writes the the seminar professor data the.",
+      "optionD": "The professor writes the data after the seminar.",
+      "correctOption": "Option D",
+      "explanation": "'The professor writes the data after the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T180-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Add place/time'?",
+      "optionA": "The observes thesis in student a classroom the.",
+      "optionB": "The student observes a thesis in the classroom.",
+      "optionC": "The observes a thesis in the classroom.",
+      "optionD": "The student observes a thesis in the classrooming.",
+      "correctOption": "Option B",
+      "explanation": "'The student observes a thesis in the classroom' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

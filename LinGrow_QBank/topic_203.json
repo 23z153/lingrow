@@ -1,0 +1,507 @@
+{
+  "topicId": 203,
+  "topicName": "Noun phrase",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T203-Q001",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 1)",
+      "optionA": "The cute little puppy",
+      "optionB": "cute little",
+      "optionC": "ran away",
+      "optionD": "little puppy ran",
+      "correctOption": "Option A",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q002",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 2)",
+      "optionA": "visiting today",
+      "optionB": "My best friend",
+      "optionC": "friend is",
+      "optionD": "is visiting",
+      "correctOption": "Option B",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q003",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 3)",
+      "optionA": "stood on",
+      "optionB": "on the hill",
+      "optionC": "The old wooden house",
+      "optionD": "wooden house stood",
+      "correctOption": "Option C",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q004",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 4)",
+      "optionA": "tall man walked",
+      "optionB": "man walked",
+      "optionC": "walked in",
+      "optionD": "A tall man",
+      "correctOption": "Option D",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q005",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 5)",
+      "optionA": "The expensive new car",
+      "optionB": "broke down",
+      "optionC": "expensive new",
+      "optionD": "new car broke",
+      "correctOption": "Option A",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q006",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 6)",
+      "optionA": "cute little",
+      "optionB": "The cute little puppy",
+      "optionC": "ran away",
+      "optionD": "little puppy ran",
+      "correctOption": "Option B",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q007",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 7)",
+      "optionA": "is visiting",
+      "optionB": "friend is",
+      "optionC": "My best friend",
+      "optionD": "visiting today",
+      "correctOption": "Option C",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q008",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 8)",
+      "optionA": "wooden house stood",
+      "optionB": "stood on",
+      "optionC": "on the hill",
+      "optionD": "The old wooden house",
+      "correctOption": "Option D",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q009",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 9)",
+      "optionA": "A tall man",
+      "optionB": "man walked",
+      "optionC": "tall man walked",
+      "optionD": "walked in",
+      "correctOption": "Option A",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q010",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 10)",
+      "optionA": "expensive new",
+      "optionB": "The expensive new car",
+      "optionC": "broke down",
+      "optionD": "new car broke",
+      "correctOption": "Option B",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q011",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 11)",
+      "optionA": "ran away",
+      "optionB": "little puppy ran",
+      "optionC": "The cute little puppy",
+      "optionD": "cute little",
+      "correctOption": "Option C",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q012",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 12)",
+      "optionA": "is visiting",
+      "optionB": "friend is",
+      "optionC": "visiting today",
+      "optionD": "My best friend",
+      "correctOption": "Option D",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q013",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 13)",
+      "optionA": "The old wooden house",
+      "optionB": "wooden house stood",
+      "optionC": "stood on",
+      "optionD": "on the hill",
+      "correctOption": "Option A",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q014",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 14)",
+      "optionA": "man walked",
+      "optionB": "A tall man",
+      "optionC": "tall man walked",
+      "optionD": "walked in",
+      "correctOption": "Option B",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q015",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 15)",
+      "optionA": "new car broke",
+      "optionB": "broke down",
+      "optionC": "The expensive new car",
+      "optionD": "expensive new",
+      "correctOption": "Option C",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q016",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 16)",
+      "optionA": "cute little",
+      "optionB": "little puppy ran",
+      "optionC": "ran away",
+      "optionD": "The cute little puppy",
+      "correctOption": "Option D",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q017",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 17)",
+      "optionA": "My best friend",
+      "optionB": "visiting today",
+      "optionC": "is visiting",
+      "optionD": "friend is",
+      "correctOption": "Option A",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q018",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 18)",
+      "optionA": "stood on",
+      "optionB": "The old wooden house",
+      "optionC": "wooden house stood",
+      "optionD": "on the hill",
+      "correctOption": "Option B",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q019",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 19)",
+      "optionA": "man walked",
+      "optionB": "walked in",
+      "optionC": "A tall man",
+      "optionD": "tall man walked",
+      "correctOption": "Option C",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q020",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 20)",
+      "optionA": "expensive new",
+      "optionB": "broke down",
+      "optionC": "new car broke",
+      "optionD": "The expensive new car",
+      "correctOption": "Option D",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q021",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 21)",
+      "optionA": "The cute little puppy",
+      "optionB": "cute little",
+      "optionC": "little puppy ran",
+      "optionD": "ran away",
+      "correctOption": "Option A",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q022",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 22)",
+      "optionA": "visiting today",
+      "optionB": "My best friend",
+      "optionC": "friend is",
+      "optionD": "is visiting",
+      "correctOption": "Option B",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q023",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 23)",
+      "optionA": "wooden house stood",
+      "optionB": "on the hill",
+      "optionC": "The old wooden house",
+      "optionD": "stood on",
+      "correctOption": "Option C",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q024",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 24)",
+      "optionA": "tall man walked",
+      "optionB": "walked in",
+      "optionC": "man walked",
+      "optionD": "A tall man",
+      "correctOption": "Option D",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q025",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 25)",
+      "optionA": "The expensive new car",
+      "optionB": "broke down",
+      "optionC": "new car broke",
+      "optionD": "expensive new",
+      "correctOption": "Option A",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q026",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 26)",
+      "optionA": "ran away",
+      "optionB": "The cute little puppy",
+      "optionC": "little puppy ran",
+      "optionD": "cute little",
+      "correctOption": "Option B",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q027",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 27)",
+      "optionA": "visiting today",
+      "optionB": "is visiting",
+      "optionC": "My best friend",
+      "optionD": "friend is",
+      "correctOption": "Option C",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q028",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 28)",
+      "optionA": "stood on",
+      "optionB": "wooden house stood",
+      "optionC": "on the hill",
+      "optionD": "The old wooden house",
+      "correctOption": "Option D",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q029",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 29)",
+      "optionA": "A tall man",
+      "optionB": "walked in",
+      "optionC": "man walked",
+      "optionD": "tall man walked",
+      "correctOption": "Option A",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q030",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 30)",
+      "optionA": "new car broke",
+      "optionB": "The expensive new car",
+      "optionC": "broke down",
+      "optionD": "expensive new",
+      "correctOption": "Option B",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q031",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 31)",
+      "optionA": "little puppy ran",
+      "optionB": "ran away",
+      "optionC": "The cute little puppy",
+      "optionD": "cute little",
+      "correctOption": "Option C",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q032",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 32)",
+      "optionA": "friend is",
+      "optionB": "is visiting",
+      "optionC": "visiting today",
+      "optionD": "My best friend",
+      "correctOption": "Option D",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q033",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 33)",
+      "optionA": "The old wooden house",
+      "optionB": "on the hill",
+      "optionC": "wooden house stood",
+      "optionD": "stood on",
+      "correctOption": "Option A",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q034",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 34)",
+      "optionA": "man walked",
+      "optionB": "A tall man",
+      "optionC": "walked in",
+      "optionD": "tall man walked",
+      "correctOption": "Option B",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q035",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 35)",
+      "optionA": "broke down",
+      "optionB": "expensive new",
+      "optionC": "The expensive new car",
+      "optionD": "new car broke",
+      "correctOption": "Option C",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q036",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 36)",
+      "optionA": "cute little",
+      "optionB": "ran away",
+      "optionC": "little puppy ran",
+      "optionD": "The cute little puppy",
+      "correctOption": "Option D",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q037",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 37)",
+      "optionA": "My best friend",
+      "optionB": "visiting today",
+      "optionC": "is visiting",
+      "optionD": "friend is",
+      "correctOption": "Option A",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q038",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 38)",
+      "optionA": "wooden house stood",
+      "optionB": "The old wooden house",
+      "optionC": "on the hill",
+      "optionD": "stood on",
+      "correctOption": "Option B",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q039",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 39)",
+      "optionA": "walked in",
+      "optionB": "tall man walked",
+      "optionC": "A tall man",
+      "optionD": "man walked",
+      "correctOption": "Option C",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q040",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 40)",
+      "optionA": "broke down",
+      "optionB": "new car broke",
+      "optionC": "expensive new",
+      "optionD": "The expensive new car",
+      "correctOption": "Option D",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q041",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 41)",
+      "optionA": "The cute little puppy",
+      "optionB": "cute little",
+      "optionC": "little puppy ran",
+      "optionD": "ran away",
+      "correctOption": "Option A",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q042",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 42)",
+      "optionA": "visiting today",
+      "optionB": "My best friend",
+      "optionC": "is visiting",
+      "optionD": "friend is",
+      "correctOption": "Option B",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q043",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 43)",
+      "optionA": "wooden house stood",
+      "optionB": "on the hill",
+      "optionC": "The old wooden house",
+      "optionD": "stood on",
+      "correctOption": "Option C",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q044",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 44)",
+      "optionA": "walked in",
+      "optionB": "man walked",
+      "optionC": "tall man walked",
+      "optionD": "A tall man",
+      "correctOption": "Option D",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q045",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 45)",
+      "optionA": "The expensive new car",
+      "optionB": "new car broke",
+      "optionC": "broke down",
+      "optionD": "expensive new",
+      "correctOption": "Option A",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q046",
+      "questionText": "Identify the noun phrase: The cute little puppy ran away. (Variant 46)",
+      "optionA": "ran away",
+      "optionB": "The cute little puppy",
+      "optionC": "little puppy ran",
+      "optionD": "cute little",
+      "correctOption": "Option B",
+      "explanation": "'The cute little puppy' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q047",
+      "questionText": "Find the noun phrase: My best friend is visiting today. (Variant 47)",
+      "optionA": "is visiting",
+      "optionB": "visiting today",
+      "optionC": "My best friend",
+      "optionD": "friend is",
+      "correctOption": "Option C",
+      "explanation": "'My best friend' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q048",
+      "questionText": "Which part is a noun phrase? The old wooden house stood on the hill. (Variant 48)",
+      "optionA": "wooden house stood",
+      "optionB": "stood on",
+      "optionC": "on the hill",
+      "optionD": "The old wooden house",
+      "correctOption": "Option D",
+      "explanation": "'The old wooden house' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T203-Q049",
+      "questionText": "Identify the noun phrase: A tall man walked in. (Variant 49)",
+      "optionA": "A tall man",
+      "optionB": "tall man walked",
+      "optionC": "walked in",
+      "optionD": "man walked",
+      "correctOption": "Option A",
+      "explanation": "'A tall man' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T203-Q050",
+      "questionText": "What is the noun phrase? The expensive new car broke down. (Variant 50)",
+      "optionA": "expensive new",
+      "optionB": "The expensive new car",
+      "optionC": "broke down",
+      "optionD": "new car broke",
+      "correctOption": "Option B",
+      "explanation": "'The expensive new car' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

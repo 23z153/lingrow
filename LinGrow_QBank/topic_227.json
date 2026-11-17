@@ -1,0 +1,507 @@
+{
+  "topicId": 227,
+  "topicName": "Comma",
+  "unit": "UNIT 25 — PUNCTUATION & CAPITALIZATION",
+  "questions": [
+    {
+      "questionId": "T227-Q001",
+      "questionText": "Choose the correctly punctuated sentence. (Question 1)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q002",
+      "questionText": "Choose the correctly punctuated sentence. (Question 2)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q003",
+      "questionText": "Choose the correctly punctuated sentence. (Question 3)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q004",
+      "questionText": "Choose the correctly punctuated sentence. (Question 4)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q005",
+      "questionText": "Choose the correctly punctuated sentence. (Question 5)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q006",
+      "questionText": "Choose the correctly punctuated sentence. (Question 6)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q007",
+      "questionText": "Choose the correctly punctuated sentence. (Question 7)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q008",
+      "questionText": "Choose the correctly punctuated sentence. (Question 8)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q009",
+      "questionText": "Choose the correctly punctuated sentence. (Question 9)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q010",
+      "questionText": "Choose the correctly punctuated sentence. (Question 10)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q011",
+      "questionText": "Choose the correctly punctuated sentence. (Question 11)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q012",
+      "questionText": "Choose the correctly punctuated sentence. (Question 12)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q013",
+      "questionText": "Choose the correctly punctuated sentence. (Question 13)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q014",
+      "questionText": "Choose the correctly punctuated sentence. (Question 14)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q015",
+      "questionText": "Choose the correctly punctuated sentence. (Question 15)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q016",
+      "questionText": "Choose the correctly punctuated sentence. (Question 16)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q017",
+      "questionText": "Choose the correctly punctuated sentence. (Question 17)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q018",
+      "questionText": "Choose the correctly punctuated sentence. (Question 18)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q019",
+      "questionText": "Choose the correctly punctuated sentence. (Question 19)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q020",
+      "questionText": "Choose the correctly punctuated sentence. (Question 20)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q021",
+      "questionText": "Choose the correctly punctuated sentence. (Question 21)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q022",
+      "questionText": "Choose the correctly punctuated sentence. (Question 22)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q023",
+      "questionText": "Choose the correctly punctuated sentence. (Question 23)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q024",
+      "questionText": "Choose the correctly punctuated sentence. (Question 24)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q025",
+      "questionText": "Choose the correctly punctuated sentence. (Question 25)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q026",
+      "questionText": "Choose the correctly punctuated sentence. (Question 26)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q027",
+      "questionText": "Choose the correctly punctuated sentence. (Question 27)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q028",
+      "questionText": "Choose the correctly punctuated sentence. (Question 28)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q029",
+      "questionText": "Choose the correctly punctuated sentence. (Question 29)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q030",
+      "questionText": "Choose the correctly punctuated sentence. (Question 30)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q031",
+      "questionText": "Choose the correctly punctuated sentence. (Question 31)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q032",
+      "questionText": "Choose the correctly punctuated sentence. (Question 32)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q033",
+      "questionText": "Choose the correctly punctuated sentence. (Question 33)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q034",
+      "questionText": "Choose the correctly punctuated sentence. (Question 34)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q035",
+      "questionText": "Choose the correctly punctuated sentence. (Question 35)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q036",
+      "questionText": "Choose the correctly punctuated sentence. (Question 36)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q037",
+      "questionText": "Choose the correctly punctuated sentence. (Question 37)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q038",
+      "questionText": "Choose the correctly punctuated sentence. (Question 38)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q039",
+      "questionText": "Choose the correctly punctuated sentence. (Question 39)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q040",
+      "questionText": "Choose the correctly punctuated sentence. (Question 40)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q041",
+      "questionText": "Choose the correctly punctuated sentence. (Question 41)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q042",
+      "questionText": "Choose the correctly punctuated sentence. (Question 42)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q043",
+      "questionText": "Choose the correctly punctuated sentence. (Question 43)",
+      "optionA": "I bought apples, oranges and, bananas.",
+      "optionB": "I bought apples oranges, and bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q044",
+      "questionText": "Choose the correctly punctuated sentence. (Question 44)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought, apples oranges and bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q045",
+      "questionText": "Choose the correctly punctuated sentence. (Question 45)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples, oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option C",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q046",
+      "questionText": "Choose the correctly punctuated sentence. (Question 46)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples oranges, and bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q047",
+      "questionText": "Choose the correctly punctuated sentence. (Question 47)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q048",
+      "questionText": "Choose the correctly punctuated sentence. (Question 48)",
+      "optionA": "I bought, apples oranges and bananas.",
+      "optionB": "I bought apples, oranges, and bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought apples, oranges and, bananas.",
+      "correctOption": "Option B",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q049",
+      "questionText": "Choose the correctly punctuated sentence. (Question 49)",
+      "optionA": "I bought apples oranges, and bananas.",
+      "optionB": "I bought, apples oranges and bananas.",
+      "optionC": "I bought apples, oranges and, bananas.",
+      "optionD": "I bought apples, oranges, and bananas.",
+      "correctOption": "Option D",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T227-Q050",
+      "questionText": "Choose the correctly punctuated sentence. (Question 50)",
+      "optionA": "I bought apples, oranges, and bananas.",
+      "optionB": "I bought apples, oranges and, bananas.",
+      "optionC": "I bought apples oranges, and bananas.",
+      "optionD": "I bought, apples oranges and bananas.",
+      "correctOption": "Option A",
+      "explanation": "'I bought apples, oranges, and bananas' correctly follows standard English punctuation and capitalization rules."
+    }
+  ]
+}

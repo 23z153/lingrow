@@ -1,0 +1,507 @@
+{
+  "topicId": 114,
+  "topicName": "I and you",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T114-Q001",
+      "questionText": "You ___ very smart.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q002",
+      "questionText": "I ___ like apples.",
+      "optionA": "am not",
+      "optionB": "is not",
+      "optionC": "do not",
+      "optionD": "does not",
+      "correctOption": "Option C",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q003",
+      "questionText": "You ___ to go now.",
+      "optionA": "is needing",
+      "optionB": "need",
+      "optionC": "needs",
+      "optionD": "needing",
+      "correctOption": "Option B",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q004",
+      "questionText": "I ___ a student.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q005",
+      "questionText": "You ___ very smart.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q006",
+      "questionText": "I ___ like apples.",
+      "optionA": "do not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "am not",
+      "correctOption": "Option A",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q007",
+      "questionText": "You ___ to go now.",
+      "optionA": "needing",
+      "optionB": "is needing",
+      "optionC": "need",
+      "optionD": "needs",
+      "correctOption": "Option C",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q008",
+      "questionText": "I ___ a student.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q009",
+      "questionText": "You ___ very smart.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q010",
+      "questionText": "I ___ like apples.",
+      "optionA": "does not",
+      "optionB": "is not",
+      "optionC": "do not",
+      "optionD": "am not",
+      "correctOption": "Option C",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q011",
+      "questionText": "You ___ to go now.",
+      "optionA": "need",
+      "optionB": "needs",
+      "optionC": "needing",
+      "optionD": "is needing",
+      "correctOption": "Option A",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q012",
+      "questionText": "I ___ a student.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q013",
+      "questionText": "You ___ very smart.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q014",
+      "questionText": "I ___ like apples.",
+      "optionA": "does not",
+      "optionB": "am not",
+      "optionC": "do not",
+      "optionD": "is not",
+      "correctOption": "Option C",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q015",
+      "questionText": "You ___ to go now.",
+      "optionA": "is needing",
+      "optionB": "needing",
+      "optionC": "needs",
+      "optionD": "need",
+      "correctOption": "Option D",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q016",
+      "questionText": "I ___ a student.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q017",
+      "questionText": "You ___ very smart.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q018",
+      "questionText": "I ___ like apples.",
+      "optionA": "am not",
+      "optionB": "do not",
+      "optionC": "is not",
+      "optionD": "does not",
+      "correctOption": "Option B",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q019",
+      "questionText": "You ___ to go now.",
+      "optionA": "is needing",
+      "optionB": "needs",
+      "optionC": "needing",
+      "optionD": "need",
+      "correctOption": "Option D",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q020",
+      "questionText": "I ___ a student.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q021",
+      "questionText": "You ___ very smart.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q022",
+      "questionText": "I ___ like apples.",
+      "optionA": "is not",
+      "optionB": "does not",
+      "optionC": "am not",
+      "optionD": "do not",
+      "correctOption": "Option D",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q023",
+      "questionText": "You ___ to go now.",
+      "optionA": "is needing",
+      "optionB": "need",
+      "optionC": "needing",
+      "optionD": "needs",
+      "correctOption": "Option B",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q024",
+      "questionText": "I ___ a student.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q025",
+      "questionText": "You ___ very smart.",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q026",
+      "questionText": "I ___ like apples.",
+      "optionA": "do not",
+      "optionB": "is not",
+      "optionC": "am not",
+      "optionD": "does not",
+      "correctOption": "Option A",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q027",
+      "questionText": "You ___ to go now.",
+      "optionA": "is needing",
+      "optionB": "need",
+      "optionC": "needing",
+      "optionD": "needs",
+      "correctOption": "Option B",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q028",
+      "questionText": "I ___ a student.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option D",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q029",
+      "questionText": "You ___ very smart.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q030",
+      "questionText": "I ___ like apples.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "am not",
+      "optionD": "does not",
+      "correctOption": "Option B",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q031",
+      "questionText": "You ___ to go now.",
+      "optionA": "needs",
+      "optionB": "needing",
+      "optionC": "need",
+      "optionD": "is needing",
+      "correctOption": "Option C",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q032",
+      "questionText": "I ___ a student.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q033",
+      "questionText": "You ___ very smart.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q034",
+      "questionText": "I ___ like apples.",
+      "optionA": "does not",
+      "optionB": "is not",
+      "optionC": "do not",
+      "optionD": "am not",
+      "correctOption": "Option C",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q035",
+      "questionText": "You ___ to go now.",
+      "optionA": "needing",
+      "optionB": "need",
+      "optionC": "needs",
+      "optionD": "is needing",
+      "correctOption": "Option B",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q036",
+      "questionText": "I ___ a student.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q037",
+      "questionText": "You ___ very smart.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q038",
+      "questionText": "I ___ like apples.",
+      "optionA": "am not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "do not",
+      "correctOption": "Option D",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q039",
+      "questionText": "You ___ to go now.",
+      "optionA": "needing",
+      "optionB": "needs",
+      "optionC": "need",
+      "optionD": "is needing",
+      "correctOption": "Option C",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q040",
+      "questionText": "I ___ a student.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q041",
+      "questionText": "You ___ very smart.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q042",
+      "questionText": "I ___ like apples.",
+      "optionA": "is not",
+      "optionB": "does not",
+      "optionC": "do not",
+      "optionD": "am not",
+      "correctOption": "Option C",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q043",
+      "questionText": "You ___ to go now.",
+      "optionA": "needs",
+      "optionB": "is needing",
+      "optionC": "needing",
+      "optionD": "need",
+      "correctOption": "Option D",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q044",
+      "questionText": "I ___ a student.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q045",
+      "questionText": "You ___ very smart.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q046",
+      "questionText": "I ___ like apples.",
+      "optionA": "is not",
+      "optionB": "does not",
+      "optionC": "am not",
+      "optionD": "do not",
+      "correctOption": "Option D",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q047",
+      "questionText": "You ___ to go now.",
+      "optionA": "needing",
+      "optionB": "needs",
+      "optionC": "is needing",
+      "optionD": "need",
+      "correctOption": "Option D",
+      "explanation": "'need' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q048",
+      "questionText": "I ___ a student.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'am' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q049",
+      "questionText": "You ___ very smart.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T114-Q050",
+      "questionText": "I ___ like apples.",
+      "optionA": "do not",
+      "optionB": "am not",
+      "optionC": "does not",
+      "optionD": "is not",
+      "correctOption": "Option A",
+      "explanation": "'do not' is the correct choice in standard English grammar."
+    }
+  ]
+}

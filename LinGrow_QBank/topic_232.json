@@ -1,0 +1,507 @@
+{
+  "topicId": 232,
+  "topicName": "Capital letters",
+  "unit": "UNIT 25 — PUNCTUATION & CAPITALIZATION",
+  "questions": [
+    {
+      "questionId": "T232-Q001",
+      "questionText": "Which sentence has correct capitalization? (Question 1)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q002",
+      "questionText": "Which sentence has correct capitalization? (Question 2)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q003",
+      "questionText": "Which sentence has correct capitalization? (Question 3)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q004",
+      "questionText": "Which sentence has correct capitalization? (Question 4)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q005",
+      "questionText": "Which sentence has correct capitalization? (Question 5)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q006",
+      "questionText": "Which sentence has correct capitalization? (Question 6)",
+      "optionA": "i went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q007",
+      "questionText": "Which sentence has correct capitalization? (Question 7)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q008",
+      "questionText": "Which sentence has correct capitalization? (Question 8)",
+      "optionA": "i went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q009",
+      "questionText": "Which sentence has correct capitalization? (Question 9)",
+      "optionA": "i went to Paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q010",
+      "questionText": "Which sentence has correct capitalization? (Question 10)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q011",
+      "questionText": "Which sentence has correct capitalization? (Question 11)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q012",
+      "questionText": "Which sentence has correct capitalization? (Question 12)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q013",
+      "questionText": "Which sentence has correct capitalization? (Question 13)",
+      "optionA": "I went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q014",
+      "questionText": "Which sentence has correct capitalization? (Question 14)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q015",
+      "questionText": "Which sentence has correct capitalization? (Question 15)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q016",
+      "questionText": "Which sentence has correct capitalization? (Question 16)",
+      "optionA": "i went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q017",
+      "questionText": "Which sentence has correct capitalization? (Question 17)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q018",
+      "questionText": "Which sentence has correct capitalization? (Question 18)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q019",
+      "questionText": "Which sentence has correct capitalization? (Question 19)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q020",
+      "questionText": "Which sentence has correct capitalization? (Question 20)",
+      "optionA": "I went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q021",
+      "questionText": "Which sentence has correct capitalization? (Question 21)",
+      "optionA": "i went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q022",
+      "questionText": "Which sentence has correct capitalization? (Question 22)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q023",
+      "questionText": "Which sentence has correct capitalization? (Question 23)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q024",
+      "questionText": "Which sentence has correct capitalization? (Question 24)",
+      "optionA": "I went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q025",
+      "questionText": "Which sentence has correct capitalization? (Question 25)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q026",
+      "questionText": "Which sentence has correct capitalization? (Question 26)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q027",
+      "questionText": "Which sentence has correct capitalization? (Question 27)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q028",
+      "questionText": "Which sentence has correct capitalization? (Question 28)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q029",
+      "questionText": "Which sentence has correct capitalization? (Question 29)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q030",
+      "questionText": "Which sentence has correct capitalization? (Question 30)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q031",
+      "questionText": "Which sentence has correct capitalization? (Question 31)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "I went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q032",
+      "questionText": "Which sentence has correct capitalization? (Question 32)",
+      "optionA": "I went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q033",
+      "questionText": "Which sentence has correct capitalization? (Question 33)",
+      "optionA": "I went to paris.",
+      "optionB": "I went to Paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option B",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q034",
+      "questionText": "Which sentence has correct capitalization? (Question 34)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q035",
+      "questionText": "Which sentence has correct capitalization? (Question 35)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q036",
+      "questionText": "Which sentence has correct capitalization? (Question 36)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q037",
+      "questionText": "Which sentence has correct capitalization? (Question 37)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q038",
+      "questionText": "Which sentence has correct capitalization? (Question 38)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q039",
+      "questionText": "Which sentence has correct capitalization? (Question 39)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q040",
+      "questionText": "Which sentence has correct capitalization? (Question 40)",
+      "optionA": "i went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q041",
+      "questionText": "Which sentence has correct capitalization? (Question 41)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q042",
+      "questionText": "Which sentence has correct capitalization? (Question 42)",
+      "optionA": "i went to paris.",
+      "optionB": "I went to paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q043",
+      "questionText": "Which sentence has correct capitalization? (Question 43)",
+      "optionA": "I went to paris.",
+      "optionB": "i went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "I went to Paris.",
+      "correctOption": "Option D",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q044",
+      "questionText": "Which sentence has correct capitalization? (Question 44)",
+      "optionA": "I went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to Paris.",
+      "optionD": "i went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q045",
+      "questionText": "Which sentence has correct capitalization? (Question 45)",
+      "optionA": "I went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q046",
+      "questionText": "Which sentence has correct capitalization? (Question 46)",
+      "optionA": "I went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q047",
+      "questionText": "Which sentence has correct capitalization? (Question 47)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q048",
+      "questionText": "Which sentence has correct capitalization? (Question 48)",
+      "optionA": "i went to paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "I went to Paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option C",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q049",
+      "questionText": "Which sentence has correct capitalization? (Question 49)",
+      "optionA": "I went to Paris.",
+      "optionB": "I went to paris.",
+      "optionC": "i went to paris.",
+      "optionD": "i went to Paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T232-Q050",
+      "questionText": "Which sentence has correct capitalization? (Question 50)",
+      "optionA": "I went to Paris.",
+      "optionB": "i went to Paris.",
+      "optionC": "i went to paris.",
+      "optionD": "I went to paris.",
+      "correctOption": "Option A",
+      "explanation": "'I went to Paris' correctly follows standard English punctuation and capitalization rules."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 115,
+  "topicName": "Compound subjects",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T115-Q001",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "plays",
+      "optionB": "play",
+      "optionC": "playing",
+      "optionD": "is playing",
+      "correctOption": "Option B",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q002",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q003",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q004",
+      "questionText": "Jack and Alice ___ friends.",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q005",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "plays",
+      "optionB": "is playing",
+      "optionC": "play",
+      "optionD": "playing",
+      "correctOption": "Option C",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q006",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q007",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "was",
+      "optionB": "has",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q008",
+      "questionText": "Jack and Henry ___ friends.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q009",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "play",
+      "optionB": "plays",
+      "optionC": "is playing",
+      "optionD": "playing",
+      "correctOption": "Option A",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q010",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q011",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "is",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q012",
+      "questionText": "Henry and Alice ___ friends.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q013",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "playing",
+      "optionB": "plays",
+      "optionC": "is playing",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q014",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q015",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q016",
+      "questionText": "The teacher and Ivy ___ friends.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q017",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "is playing",
+      "optionB": "plays",
+      "optionC": "play",
+      "optionD": "playing",
+      "correctOption": "Option C",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q018",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q019",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q020",
+      "questionText": "Frank and Dr. Smith ___ friends.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option C",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q021",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "is playing",
+      "optionB": "plays",
+      "optionC": "playing",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q022",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q023",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q024",
+      "questionText": "The teacher and Charlie ___ friends.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q025",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "playing",
+      "optionB": "play",
+      "optionC": "plays",
+      "optionD": "is playing",
+      "correctOption": "Option B",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q026",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q027",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q028",
+      "questionText": "The student and Diana ___ friends.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q029",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "playing",
+      "optionB": "plays",
+      "optionC": "is playing",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q030",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q031",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "has",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q032",
+      "questionText": "Eve and The teacher ___ friends.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q033",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "play",
+      "optionB": "is playing",
+      "optionC": "playing",
+      "optionD": "plays",
+      "correctOption": "Option A",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q034",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q035",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "has",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q036",
+      "questionText": "The student and Jack ___ friends.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q037",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "plays",
+      "optionB": "is playing",
+      "optionC": "play",
+      "optionD": "playing",
+      "correctOption": "Option C",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q038",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q039",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "was",
+      "optionB": "has",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q040",
+      "questionText": "The student and Ivy ___ friends.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q041",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "playing",
+      "optionB": "play",
+      "optionC": "plays",
+      "optionD": "is playing",
+      "correctOption": "Option B",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q042",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q043",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q044",
+      "questionText": "Charlie and Alice ___ friends.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q045",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "playing",
+      "optionB": "plays",
+      "optionC": "is playing",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q046",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q047",
+      "questionText": "Both the teacher and the student ___ present.",
+      "optionA": "was",
+      "optionB": "has",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q048",
+      "questionText": "Jack and Grace ___ friends.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q049",
+      "questionText": "The cat and the dog ___ outside.",
+      "optionA": "is playing",
+      "optionB": "playing",
+      "optionC": "plays",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "'play' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T115-Q050",
+      "questionText": "My brother and I ___ going to the park.",
+      "optionA": "am",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'are' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 154,
+  "topicName": "Into/onto",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T154-Q001",
+      "questionText": "He jumped ___ the pool. (1)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q002",
+      "questionText": "He jumped ___ the pool. (2)",
+      "optionA": "onto",
+      "optionB": "on",
+      "optionC": "into",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q003",
+      "questionText": "The cat jumped ___ the roof. (3)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q004",
+      "questionText": "He jumped ___ the pool. (4)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q005",
+      "questionText": "The cat jumped ___ the roof. (5)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q006",
+      "questionText": "He jumped ___ the pool. (6)",
+      "optionA": "onto",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q007",
+      "questionText": "He jumped ___ the pool. (7)",
+      "optionA": "onto",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q008",
+      "questionText": "The cat jumped ___ the roof. (8)",
+      "optionA": "onto",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q009",
+      "questionText": "He jumped ___ the pool. (9)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q010",
+      "questionText": "He jumped ___ the pool. (10)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q011",
+      "questionText": "He jumped ___ the pool. (11)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q012",
+      "questionText": "He jumped ___ the pool. (12)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q013",
+      "questionText": "He jumped ___ the pool. (13)",
+      "optionA": "on",
+      "optionB": "into",
+      "optionC": "onto",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q014",
+      "questionText": "He jumped ___ the pool. (14)",
+      "optionA": "on",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q015",
+      "questionText": "He jumped ___ the pool. (15)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "onto",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q016",
+      "questionText": "He jumped ___ the pool. (16)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q017",
+      "questionText": "He jumped ___ the pool. (17)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "on",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q018",
+      "questionText": "The cat jumped ___ the roof. (18)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "onto",
+      "optionD": "on",
+      "correctOption": "Option C",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q019",
+      "questionText": "The cat jumped ___ the roof. (19)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q020",
+      "questionText": "The cat jumped ___ the roof. (20)",
+      "optionA": "onto",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q021",
+      "questionText": "The cat jumped ___ the roof. (21)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q022",
+      "questionText": "He jumped ___ the pool. (22)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q023",
+      "questionText": "He jumped ___ the pool. (23)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "onto",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q024",
+      "questionText": "He jumped ___ the pool. (24)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "onto",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q025",
+      "questionText": "The cat jumped ___ the roof. (25)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q026",
+      "questionText": "The cat jumped ___ the roof. (26)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "onto",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q027",
+      "questionText": "He jumped ___ the pool. (27)",
+      "optionA": "on",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q028",
+      "questionText": "He jumped ___ the pool. (28)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q029",
+      "questionText": "The cat jumped ___ the roof. (29)",
+      "optionA": "into",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q030",
+      "questionText": "He jumped ___ the pool. (30)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q031",
+      "questionText": "The cat jumped ___ the roof. (31)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q032",
+      "questionText": "The cat jumped ___ the roof. (32)",
+      "optionA": "onto",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q033",
+      "questionText": "The cat jumped ___ the roof. (33)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q034",
+      "questionText": "The cat jumped ___ the roof. (34)",
+      "optionA": "into",
+      "optionB": "on",
+      "optionC": "onto",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q035",
+      "questionText": "He jumped ___ the pool. (35)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "on",
+      "optionD": "into",
+      "correctOption": "Option D",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q036",
+      "questionText": "The cat jumped ___ the roof. (36)",
+      "optionA": "onto",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q037",
+      "questionText": "The cat jumped ___ the roof. (37)",
+      "optionA": "on",
+      "optionB": "onto",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q038",
+      "questionText": "He jumped ___ the pool. (38)",
+      "optionA": "on",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q039",
+      "questionText": "The cat jumped ___ the roof. (39)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "on",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q040",
+      "questionText": "The cat jumped ___ the roof. (40)",
+      "optionA": "onto",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q041",
+      "questionText": "The cat jumped ___ the roof. (41)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q042",
+      "questionText": "The cat jumped ___ the roof. (42)",
+      "optionA": "on",
+      "optionB": "in",
+      "optionC": "onto",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q043",
+      "questionText": "The cat jumped ___ the roof. (43)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "on",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q044",
+      "questionText": "He jumped ___ the pool. (44)",
+      "optionA": "into",
+      "optionB": "in",
+      "optionC": "on",
+      "optionD": "onto",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q045",
+      "questionText": "The cat jumped ___ the roof. (45)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q046",
+      "questionText": "He jumped ___ the pool. (46)",
+      "optionA": "on",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q047",
+      "questionText": "The cat jumped ___ the roof. (47)",
+      "optionA": "on",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "onto",
+      "correctOption": "Option D",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q048",
+      "questionText": "He jumped ___ the pool. (48)",
+      "optionA": "into",
+      "optionB": "on",
+      "optionC": "in",
+      "optionD": "onto",
+      "correctOption": "Option A",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q049",
+      "questionText": "The cat jumped ___ the roof. (49)",
+      "optionA": "in",
+      "optionB": "onto",
+      "optionC": "into",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'onto' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T154-Q050",
+      "questionText": "He jumped ___ the pool. (50)",
+      "optionA": "in",
+      "optionB": "on",
+      "optionC": "into",
+      "optionD": "onto",
+      "correctOption": "Option C",
+      "explanation": "'into' is the correct choice in standard English grammar."
+    }
+  ]
+}

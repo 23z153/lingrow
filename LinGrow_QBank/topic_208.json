@@ -1,0 +1,507 @@
+{
+  "topicId": 208,
+  "topicName": "Independent clause",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T208-Q001",
+      "questionText": "Identify the independent clause: Because it was late, the professor discovers the chapter.",
+      "optionA": "Because it was late (Variant 1)",
+      "optionB": "the professor analyzes the chapter",
+      "optionC": "it was late (Variant 1)",
+      "optionD": "the chapter (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'the professor analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q002",
+      "questionText": "Identify the independent clause: Because it was late, a bright student explains the chapter.",
+      "optionA": "a bright student explains the chapter",
+      "optionB": "Because it was late (Variant 2)",
+      "optionC": "it was late (Variant 2)",
+      "optionD": "the chapter (Variant 2)",
+      "correctOption": "Option A",
+      "explanation": "'a bright student explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q003",
+      "questionText": "Identify the independent clause: Because it was late, the university library discovers the chapter.",
+      "optionA": "Because it was late (Variant 3)",
+      "optionB": "it was late (Variant 3)",
+      "optionC": "many researchers completes the chapter",
+      "optionD": "the chapter (Variant 3)",
+      "correctOption": "Option C",
+      "explanation": "'many researchers completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q004",
+      "questionText": "Identify the independent clause: Because it was late, the textbook analyzes the chapter.",
+      "optionA": "Because it was late (Variant 4)",
+      "optionB": "the professor explains the chapter",
+      "optionC": "it was late (Variant 4)",
+      "optionD": "the chapter (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'the professor explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q005",
+      "questionText": "Identify the independent clause: Because it was late, the textbook discovers the chapter.",
+      "optionA": "the professor discovers the chapter",
+      "optionB": "Because it was late (Variant 5)",
+      "optionC": "it was late (Variant 5)",
+      "optionD": "the chapter (Variant 5)",
+      "correctOption": "Option A",
+      "explanation": "'the professor discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q006",
+      "questionText": "Identify the independent clause: Because it was late, the professor explains the chapter.",
+      "optionA": "Because it was late (Variant 6)",
+      "optionB": "a bright student completes the chapter",
+      "optionC": "it was late (Variant 6)",
+      "optionD": "the chapter (Variant 6)",
+      "correctOption": "Option B",
+      "explanation": "'a bright student completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q007",
+      "questionText": "Identify the independent clause: Because it was late, a bright student explains the chapter.",
+      "optionA": "Because it was late (Variant 7)",
+      "optionB": "many researchers explains the chapter",
+      "optionC": "it was late (Variant 7)",
+      "optionD": "the chapter (Variant 7)",
+      "correctOption": "Option B",
+      "explanation": "'many researchers explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q008",
+      "questionText": "Identify the independent clause: Because it was late, the textbook discovers the chapter.",
+      "optionA": "Because it was late (Variant 8)",
+      "optionB": "it was late (Variant 8)",
+      "optionC": "the textbook analyzes the chapter",
+      "optionD": "the chapter (Variant 8)",
+      "correctOption": "Option C",
+      "explanation": "'the textbook analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q009",
+      "questionText": "Identify the independent clause: Because it was late, a bright student explains the chapter.",
+      "optionA": "the textbook analyzes the chapter",
+      "optionB": "Because it was late (Variant 9)",
+      "optionC": "it was late (Variant 9)",
+      "optionD": "the chapter (Variant 9)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q010",
+      "questionText": "Identify the independent clause: Because it was late, many researchers analyzes the chapter.",
+      "optionA": "Because it was late (Variant 10)",
+      "optionB": "it was late (Variant 10)",
+      "optionC": "the chapter (Variant 10)",
+      "optionD": "the textbook analyzes the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the textbook analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q011",
+      "questionText": "Identify the independent clause: Because it was late, the university library reviews the chapter.",
+      "optionA": "many researchers analyzes the chapter",
+      "optionB": "Because it was late (Variant 11)",
+      "optionC": "it was late (Variant 11)",
+      "optionD": "the chapter (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'many researchers analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q012",
+      "questionText": "Identify the independent clause: Because it was late, the professor explains the chapter.",
+      "optionA": "the textbook explains the chapter",
+      "optionB": "Because it was late (Variant 12)",
+      "optionC": "it was late (Variant 12)",
+      "optionD": "the chapter (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q013",
+      "questionText": "Identify the independent clause: Because it was late, many researchers reviews the chapter.",
+      "optionA": "Because it was late (Variant 13)",
+      "optionB": "the textbook completes the chapter",
+      "optionC": "it was late (Variant 13)",
+      "optionD": "the chapter (Variant 13)",
+      "correctOption": "Option B",
+      "explanation": "'the textbook completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q014",
+      "questionText": "Identify the independent clause: Because it was late, the textbook discovers the chapter.",
+      "optionA": "many researchers analyzes the chapter",
+      "optionB": "Because it was late (Variant 14)",
+      "optionC": "it was late (Variant 14)",
+      "optionD": "the chapter (Variant 14)",
+      "correctOption": "Option A",
+      "explanation": "'many researchers analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q015",
+      "questionText": "Identify the independent clause: Because it was late, the professor analyzes the chapter.",
+      "optionA": "Because it was late (Variant 15)",
+      "optionB": "it was late (Variant 15)",
+      "optionC": "a bright student analyzes the chapter",
+      "optionD": "the chapter (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'a bright student analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q016",
+      "questionText": "Identify the independent clause: Because it was late, a bright student reviews the chapter.",
+      "optionA": "the professor analyzes the chapter",
+      "optionB": "Because it was late (Variant 16)",
+      "optionC": "it was late (Variant 16)",
+      "optionD": "the chapter (Variant 16)",
+      "correctOption": "Option A",
+      "explanation": "'the professor analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q017",
+      "questionText": "Identify the independent clause: Because it was late, the textbook discovers the chapter.",
+      "optionA": "the textbook explains the chapter",
+      "optionB": "Because it was late (Variant 17)",
+      "optionC": "it was late (Variant 17)",
+      "optionD": "the chapter (Variant 17)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q018",
+      "questionText": "Identify the independent clause: Because it was late, a bright student completes the chapter.",
+      "optionA": "Because it was late (Variant 18)",
+      "optionB": "it was late (Variant 18)",
+      "optionC": "the chapter (Variant 18)",
+      "optionD": "the university library completes the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the university library completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q019",
+      "questionText": "Identify the independent clause: Because it was late, the professor discovers the chapter.",
+      "optionA": "Because it was late (Variant 19)",
+      "optionB": "it was late (Variant 19)",
+      "optionC": "the chapter (Variant 19)",
+      "optionD": "many researchers discovers the chapter",
+      "correctOption": "Option D",
+      "explanation": "'many researchers discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q020",
+      "questionText": "Identify the independent clause: Because it was late, the university library discovers the chapter.",
+      "optionA": "the textbook completes the chapter",
+      "optionB": "Because it was late (Variant 20)",
+      "optionC": "it was late (Variant 20)",
+      "optionD": "the chapter (Variant 20)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q021",
+      "questionText": "Identify the independent clause: Because it was late, a bright student discovers the chapter.",
+      "optionA": "many researchers analyzes the chapter",
+      "optionB": "Because it was late (Variant 21)",
+      "optionC": "it was late (Variant 21)",
+      "optionD": "the chapter (Variant 21)",
+      "correctOption": "Option A",
+      "explanation": "'many researchers analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q022",
+      "questionText": "Identify the independent clause: Because it was late, many researchers completes the chapter.",
+      "optionA": "Because it was late (Variant 22)",
+      "optionB": "many researchers completes the chapter",
+      "optionC": "it was late (Variant 22)",
+      "optionD": "the chapter (Variant 22)",
+      "correctOption": "Option B",
+      "explanation": "'many researchers completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q023",
+      "questionText": "Identify the independent clause: Because it was late, many researchers analyzes the chapter.",
+      "optionA": "Because it was late (Variant 23)",
+      "optionB": "it was late (Variant 23)",
+      "optionC": "the chapter (Variant 23)",
+      "optionD": "the textbook reviews the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the textbook reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q024",
+      "questionText": "Identify the independent clause: Because it was late, the textbook explains the chapter.",
+      "optionA": "Because it was late (Variant 24)",
+      "optionB": "it was late (Variant 24)",
+      "optionC": "a bright student reviews the chapter",
+      "optionD": "the chapter (Variant 24)",
+      "correctOption": "Option C",
+      "explanation": "'a bright student reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q025",
+      "questionText": "Identify the independent clause: Because it was late, a bright student reviews the chapter.",
+      "optionA": "Because it was late (Variant 25)",
+      "optionB": "it was late (Variant 25)",
+      "optionC": "the university library reviews the chapter",
+      "optionD": "the chapter (Variant 25)",
+      "correctOption": "Option C",
+      "explanation": "'the university library reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q026",
+      "questionText": "Identify the independent clause: Because it was late, many researchers completes the chapter.",
+      "optionA": "Because it was late (Variant 26)",
+      "optionB": "the university library explains the chapter",
+      "optionC": "it was late (Variant 26)",
+      "optionD": "the chapter (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'the university library explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q027",
+      "questionText": "Identify the independent clause: Because it was late, a bright student discovers the chapter.",
+      "optionA": "the university library explains the chapter",
+      "optionB": "Because it was late (Variant 27)",
+      "optionC": "it was late (Variant 27)",
+      "optionD": "the chapter (Variant 27)",
+      "correctOption": "Option A",
+      "explanation": "'the university library explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q028",
+      "questionText": "Identify the independent clause: Because it was late, many researchers discovers the chapter.",
+      "optionA": "Because it was late (Variant 28)",
+      "optionB": "it was late (Variant 28)",
+      "optionC": "the chapter (Variant 28)",
+      "optionD": "the university library discovers the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the university library discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q029",
+      "questionText": "Identify the independent clause: Because it was late, the textbook completes the chapter.",
+      "optionA": "Because it was late (Variant 29)",
+      "optionB": "it was late (Variant 29)",
+      "optionC": "the chapter (Variant 29)",
+      "optionD": "many researchers explains the chapter",
+      "correctOption": "Option D",
+      "explanation": "'many researchers explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q030",
+      "questionText": "Identify the independent clause: Because it was late, many researchers reviews the chapter.",
+      "optionA": "the university library discovers the chapter",
+      "optionB": "Because it was late (Variant 30)",
+      "optionC": "it was late (Variant 30)",
+      "optionD": "the chapter (Variant 30)",
+      "correctOption": "Option A",
+      "explanation": "'the university library discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q031",
+      "questionText": "Identify the independent clause: Because it was late, the university library analyzes the chapter.",
+      "optionA": "the textbook reviews the chapter",
+      "optionB": "Because it was late (Variant 31)",
+      "optionC": "it was late (Variant 31)",
+      "optionD": "the chapter (Variant 31)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q032",
+      "questionText": "Identify the independent clause: Because it was late, many researchers analyzes the chapter.",
+      "optionA": "Because it was late (Variant 32)",
+      "optionB": "it was late (Variant 32)",
+      "optionC": "the professor completes the chapter",
+      "optionD": "the chapter (Variant 32)",
+      "correctOption": "Option C",
+      "explanation": "'the professor completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q033",
+      "questionText": "Identify the independent clause: Because it was late, a bright student reviews the chapter.",
+      "optionA": "Because it was late (Variant 33)",
+      "optionB": "the university library explains the chapter",
+      "optionC": "it was late (Variant 33)",
+      "optionD": "the chapter (Variant 33)",
+      "correctOption": "Option B",
+      "explanation": "'the university library explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q034",
+      "questionText": "Identify the independent clause: Because it was late, a bright student reviews the chapter.",
+      "optionA": "Because it was late (Variant 34)",
+      "optionB": "it was late (Variant 34)",
+      "optionC": "the chapter (Variant 34)",
+      "optionD": "the professor completes the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the professor completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q035",
+      "questionText": "Identify the independent clause: Because it was late, a bright student reviews the chapter.",
+      "optionA": "Because it was late (Variant 35)",
+      "optionB": "it was late (Variant 35)",
+      "optionC": "the textbook explains the chapter",
+      "optionD": "the chapter (Variant 35)",
+      "correctOption": "Option C",
+      "explanation": "'the textbook explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q036",
+      "questionText": "Identify the independent clause: Because it was late, the professor completes the chapter.",
+      "optionA": "the textbook reviews the chapter",
+      "optionB": "Because it was late (Variant 36)",
+      "optionC": "it was late (Variant 36)",
+      "optionD": "the chapter (Variant 36)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q037",
+      "questionText": "Identify the independent clause: Because it was late, a bright student analyzes the chapter.",
+      "optionA": "Because it was late (Variant 37)",
+      "optionB": "it was late (Variant 37)",
+      "optionC": "the chapter (Variant 37)",
+      "optionD": "the professor discovers the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the professor discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q038",
+      "questionText": "Identify the independent clause: Because it was late, a bright student discovers the chapter.",
+      "optionA": "Because it was late (Variant 38)",
+      "optionB": "it was late (Variant 38)",
+      "optionC": "the chapter (Variant 38)",
+      "optionD": "many researchers discovers the chapter",
+      "correctOption": "Option D",
+      "explanation": "'many researchers discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q039",
+      "questionText": "Identify the independent clause: Because it was late, the textbook explains the chapter.",
+      "optionA": "Because it was late (Variant 39)",
+      "optionB": "the textbook discovers the chapter",
+      "optionC": "it was late (Variant 39)",
+      "optionD": "the chapter (Variant 39)",
+      "correctOption": "Option B",
+      "explanation": "'the textbook discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q040",
+      "questionText": "Identify the independent clause: Because it was late, the university library analyzes the chapter.",
+      "optionA": "Because it was late (Variant 40)",
+      "optionB": "it was late (Variant 40)",
+      "optionC": "the university library discovers the chapter",
+      "optionD": "the chapter (Variant 40)",
+      "correctOption": "Option C",
+      "explanation": "'the university library discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q041",
+      "questionText": "Identify the independent clause: Because it was late, a bright student explains the chapter.",
+      "optionA": "Because it was late (Variant 41)",
+      "optionB": "it was late (Variant 41)",
+      "optionC": "the chapter (Variant 41)",
+      "optionD": "the professor analyzes the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the professor analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q042",
+      "questionText": "Identify the independent clause: Because it was late, the university library explains the chapter.",
+      "optionA": "Because it was late (Variant 42)",
+      "optionB": "it was late (Variant 42)",
+      "optionC": "many researchers analyzes the chapter",
+      "optionD": "the chapter (Variant 42)",
+      "correctOption": "Option C",
+      "explanation": "'many researchers analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q043",
+      "questionText": "Identify the independent clause: Because it was late, the university library discovers the chapter.",
+      "optionA": "Because it was late (Variant 43)",
+      "optionB": "the professor analyzes the chapter",
+      "optionC": "it was late (Variant 43)",
+      "optionD": "the chapter (Variant 43)",
+      "correctOption": "Option B",
+      "explanation": "'the professor analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q044",
+      "questionText": "Identify the independent clause: Because it was late, a bright student analyzes the chapter.",
+      "optionA": "the textbook reviews the chapter",
+      "optionB": "Because it was late (Variant 44)",
+      "optionC": "it was late (Variant 44)",
+      "optionD": "the chapter (Variant 44)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q045",
+      "questionText": "Identify the independent clause: Because it was late, the university library explains the chapter.",
+      "optionA": "the professor completes the chapter",
+      "optionB": "Because it was late (Variant 45)",
+      "optionC": "it was late (Variant 45)",
+      "optionD": "the chapter (Variant 45)",
+      "correctOption": "Option A",
+      "explanation": "'the professor completes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q046",
+      "questionText": "Identify the independent clause: Because it was late, many researchers analyzes the chapter.",
+      "optionA": "the textbook reviews the chapter",
+      "optionB": "Because it was late (Variant 46)",
+      "optionC": "it was late (Variant 46)",
+      "optionD": "the chapter (Variant 46)",
+      "correctOption": "Option A",
+      "explanation": "'the textbook reviews the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q047",
+      "questionText": "Identify the independent clause: Because it was late, many researchers explains the chapter.",
+      "optionA": "Because it was late (Variant 47)",
+      "optionB": "it was late (Variant 47)",
+      "optionC": "a bright student explains the chapter",
+      "optionD": "the chapter (Variant 47)",
+      "correctOption": "Option C",
+      "explanation": "'a bright student explains the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q048",
+      "questionText": "Identify the independent clause: Because it was late, the textbook completes the chapter.",
+      "optionA": "Because it was late (Variant 48)",
+      "optionB": "it was late (Variant 48)",
+      "optionC": "the chapter (Variant 48)",
+      "optionD": "the professor discovers the chapter",
+      "correctOption": "Option D",
+      "explanation": "'the professor discovers the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q049",
+      "questionText": "Identify the independent clause: Because it was late, the professor reviews the chapter.",
+      "optionA": "Because it was late (Variant 49)",
+      "optionB": "it was late (Variant 49)",
+      "optionC": "the professor analyzes the chapter",
+      "optionD": "the chapter (Variant 49)",
+      "correctOption": "Option C",
+      "explanation": "'the professor analyzes the chapter' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T208-Q050",
+      "questionText": "Identify the independent clause: Because it was late, the textbook explains the chapter.",
+      "optionA": "Because it was late (Variant 50)",
+      "optionB": "the textbook discovers the chapter",
+      "optionC": "it was late (Variant 50)",
+      "optionD": "the chapter (Variant 50)",
+      "correctOption": "Option B",
+      "explanation": "'the textbook discovers the chapter' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

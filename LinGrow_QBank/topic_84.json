@@ -1,0 +1,507 @@
+{
+  "topicId": 84,
+  "topicName": "Had",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T084-Q001",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q002",
+      "questionText": "Choose the correct verb: Before the class started, The graduate student ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q003",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "having",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q004",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q005",
+      "questionText": "Choose the correct verb: Before the class started, The university ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q006",
+      "questionText": "Choose the correct verb: Before the class started, The academic paper ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q007",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q008",
+      "questionText": "Choose the correct verb: Before the class started, The laboratory ___ already arrived.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q009",
+      "questionText": "Choose the correct verb: Before the class started, The librarian ___ already arrived.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q010",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q011",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q012",
+      "questionText": "Choose the correct verb: Before the class started, The university ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q013",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q014",
+      "questionText": "Choose the correct verb: Before the class started, The research team ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q015",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q016",
+      "questionText": "Choose the correct verb: Before the class started, The laboratory ___ already arrived.",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q017",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q018",
+      "questionText": "Choose the correct verb: Before the class started, The graduate student ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q019",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q020",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q021",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q022",
+      "questionText": "Choose the correct verb: Before the class started, The graduate student ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q023",
+      "questionText": "Choose the correct verb: Before the class started, The librarian ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q024",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q025",
+      "questionText": "Choose the correct verb: Before the class started, The academic paper ___ already arrived.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q026",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "having",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q027",
+      "questionText": "Choose the correct verb: Before the class started, The academic paper ___ already arrived.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q028",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q029",
+      "questionText": "Choose the correct verb: Before the class started, The laboratory ___ already arrived.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q030",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q031",
+      "questionText": "Choose the correct verb: Before the class started, The librarian ___ already arrived.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q032",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q033",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q034",
+      "questionText": "Choose the correct verb: Before the class started, The librarian ___ already arrived.",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q035",
+      "questionText": "Choose the correct verb: Before the class started, The graduate student ___ already arrived.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q036",
+      "questionText": "Choose the correct verb: Before the class started, The graduate student ___ already arrived.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q037",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q038",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q039",
+      "questionText": "Choose the correct verb: Before the class started, The laboratory ___ already arrived.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q040",
+      "questionText": "Choose the correct verb: Before the class started, The academic paper ___ already arrived.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q041",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q042",
+      "questionText": "Choose the correct verb: Before the class started, The lecture ___ already arrived.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option C",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q043",
+      "questionText": "Choose the correct verb: Before the class started, The professor ___ already arrived.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q044",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q045",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q046",
+      "questionText": "Choose the correct verb: Before the class started, The research team ___ already arrived.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "had",
+      "correctOption": "Option D",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q047",
+      "questionText": "Choose the correct verb: Before the class started, The students ___ already arrived.",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q048",
+      "questionText": "Choose the correct verb: Before the class started, The laboratory ___ already arrived.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q049",
+      "questionText": "Choose the correct verb: Before the class started, The academic paper ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T084-Q050",
+      "questionText": "Choose the correct verb: Before the class started, The campus ___ already arrived.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'had' is the correct choice in standard English grammar."
+    }
+  ]
+}

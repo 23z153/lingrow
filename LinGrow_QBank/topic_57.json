@@ -1,0 +1,507 @@
+{
+  "topicId": 57,
+  "topicName": "Both/either/neither",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T057-Q001",
+      "questionText": "Choose the correct word: ____ (1) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q002",
+      "questionText": "Choose the correct word: ____ (2) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q003",
+      "questionText": "Choose the correct word: ____ (3) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q004",
+      "questionText": "Choose the correct word: ____ (4) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Every",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q005",
+      "questionText": "Choose the correct word: ____ (5) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q006",
+      "questionText": "Choose the correct word: ____ (6) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Every",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q007",
+      "questionText": "Choose the correct word: ____ (7) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Every",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q008",
+      "questionText": "Choose the correct word: ____ (8) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Every",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q009",
+      "questionText": "Choose the correct word: ____ (9) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q010",
+      "questionText": "Choose the correct word: ____ (10) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q011",
+      "questionText": "Choose the correct word: ____ (11) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "Every",
+      "optionD": "Either",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q012",
+      "questionText": "Choose the correct word: ____ (12) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q013",
+      "questionText": "Choose the correct word: ____ (13) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Every",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q014",
+      "questionText": "Choose the correct word: ____ (14) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Every",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q015",
+      "questionText": "Choose the correct word: ____ (15) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Every",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q016",
+      "questionText": "Choose the correct word: ____ (16) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q017",
+      "questionText": "Choose the correct word: ____ (17) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q018",
+      "questionText": "Choose the correct word: ____ (18) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Every",
+      "optionC": "Either",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q019",
+      "questionText": "Choose the correct word: ____ (19) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Every",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q020",
+      "questionText": "Choose the correct word: ____ (20) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Every",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q021",
+      "questionText": "Choose the correct word: ____ (21) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q022",
+      "questionText": "Choose the correct word: ____ (22) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q023",
+      "questionText": "Choose the correct word: ____ (23) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q024",
+      "questionText": "Choose the correct word: ____ (24) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Every",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q025",
+      "questionText": "Choose the correct word: ____ (25) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q026",
+      "questionText": "Choose the correct word: ____ (26) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q027",
+      "questionText": "Choose the correct word: ____ (27) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q028",
+      "questionText": "Choose the correct word: ____ (28) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q029",
+      "questionText": "Choose the correct word: ____ (29) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q030",
+      "questionText": "Choose the correct word: ____ (30) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q031",
+      "questionText": "Choose the correct word: ____ (31) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Every",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q032",
+      "questionText": "Choose the correct word: ____ (32) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "Either",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q033",
+      "questionText": "Choose the correct word: ____ (33) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Every",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q034",
+      "questionText": "Choose the correct word: ____ (34) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q035",
+      "questionText": "Choose the correct word: ____ (35) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q036",
+      "questionText": "Choose the correct word: ____ (36) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "Either",
+      "optionD": "Every",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q037",
+      "questionText": "Choose the correct word: ____ (37) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Every",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q038",
+      "questionText": "Choose the correct word: ____ (38) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q039",
+      "questionText": "Choose the correct word: ____ (39) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Every",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q040",
+      "questionText": "Choose the correct word: ____ (40) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Both",
+      "optionD": "Neither",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q041",
+      "questionText": "Choose the correct word: ____ (41) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Every",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q042",
+      "questionText": "Choose the correct word: ____ (42) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Neither",
+      "optionC": "Both",
+      "optionD": "Every",
+      "correctOption": "Option C",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q043",
+      "questionText": "Choose the correct word: ____ (43) of my parents are teachers.",
+      "optionA": "Either",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q044",
+      "questionText": "Choose the correct word: ____ (44) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q045",
+      "questionText": "Choose the correct word: ____ (45) of my parents are teachers.",
+      "optionA": "Neither",
+      "optionB": "Both",
+      "optionC": "Every",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q046",
+      "questionText": "Choose the correct word: ____ (46) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Neither",
+      "optionD": "Either",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q047",
+      "questionText": "Choose the correct word: ____ (47) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Either",
+      "optionC": "Neither",
+      "optionD": "Both",
+      "correctOption": "Option D",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q048",
+      "questionText": "Choose the correct word: ____ (48) of my parents are teachers.",
+      "optionA": "Every",
+      "optionB": "Both",
+      "optionC": "Either",
+      "optionD": "Neither",
+      "correctOption": "Option B",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q049",
+      "questionText": "Choose the correct word: ____ (49) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Neither",
+      "optionC": "Every",
+      "optionD": "Either",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T057-Q050",
+      "questionText": "Choose the correct word: ____ (50) of my parents are teachers.",
+      "optionA": "Both",
+      "optionB": "Either",
+      "optionC": "Every",
+      "optionD": "Neither",
+      "correctOption": "Option A",
+      "explanation": "'Both' is the correct quantifier for this noun type."
+    }
+  ]
+}

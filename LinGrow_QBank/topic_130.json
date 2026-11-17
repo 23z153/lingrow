@@ -1,0 +1,507 @@
+{
+  "topicId": 130,
+  "topicName": "How much/how many",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T130-Q001",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.'",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q002",
+      "questionText": "____ people do you need?",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q003",
+      "questionText": "Choose the correct word: [What / How many] days do you have?",
+      "optionA": "How old",
+      "optionB": "How many",
+      "optionC": "What time",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q004",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.'",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q005",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.' (1)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "What time",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q006",
+      "questionText": "Which question word is used to ask about quantity with countable nouns?",
+      "optionA": "What time",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q007",
+      "questionText": "____ information do you need?",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q008",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (1)",
+      "optionA": "How old",
+      "optionB": "What time",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q009",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.' (2)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "What time",
+      "correctOption": "Option A",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q010",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (2)",
+      "optionA": "How long",
+      "optionB": "What time",
+      "optionC": "How many",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q011",
+      "questionText": "____ chairs do you need?",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "What time",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q012",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (1)",
+      "optionA": "How far",
+      "optionB": "What time",
+      "optionC": "How old",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q013",
+      "questionText": "____ time do you need?",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q014",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (2)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q015",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns?",
+      "optionA": "What time",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q016",
+      "questionText": "Choose the correct word: [What / How much] money do you have?",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q017",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (3)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q018",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.' (3)",
+      "optionA": "How often",
+      "optionB": "What time",
+      "optionC": "How many",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q019",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns? (1)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "What time",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q020",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.' (4)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q021",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (3)",
+      "optionA": "How much",
+      "optionB": "What time",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q022",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (4)",
+      "optionA": "How much",
+      "optionB": "What time",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q023",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns? (2)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q024",
+      "questionText": "Choose the correct word: [What / How many] cars do you have?",
+      "optionA": "What time",
+      "optionB": "How many",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q025",
+      "questionText": "____ cars do you need?",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q026",
+      "questionText": "____ water do you need?",
+      "optionA": "What time",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q027",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (4)",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How old",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q028",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (5)",
+      "optionA": "How many",
+      "optionB": "How long",
+      "optionC": "What time",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q029",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns? (3)",
+      "optionA": "How old",
+      "optionB": "How much",
+      "optionC": "What time",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q030",
+      "questionText": "Choose the correct word: [What / How much] sugar do you have?",
+      "optionA": "How often",
+      "optionB": "What time",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q031",
+      "questionText": "Complete the dialogue: A: '____ siblings do you have?' B: 'I have two.' (5)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q032",
+      "questionText": "Choose the correct word: [What / How much] water do you have?",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q033",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (5)",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q034",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (6)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q035",
+      "questionText": "Choose the correct word: [What / How many] people do you have?",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option D",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q036",
+      "questionText": "Choose the correct word: [What / How much] time do you have?",
+      "optionA": "What time",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q037",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (6)",
+      "optionA": "What time",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q038",
+      "questionText": "____ cars do you need? (1)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "What time",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q039",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns? (4)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q040",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (7)",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q041",
+      "questionText": "____ time do you need? (1)",
+      "optionA": "How far",
+      "optionB": "What time",
+      "optionC": "How old",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q042",
+      "questionText": "Complete the dialogue: A: '____ is this?' B: 'It's ten dollars.' (8)",
+      "optionA": "How old",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q043",
+      "questionText": "Which question word is used to ask about quantity with countable nouns? (7)",
+      "optionA": "How many",
+      "optionB": "What time",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q044",
+      "questionText": "Choose the correct word: [What / How much] information do you have?",
+      "optionA": "What time",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q045",
+      "questionText": "Choose the correct word: [What / How much] information do you have? (1)",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q046",
+      "questionText": "Choose the correct word: [What / How much] water do you have? (1)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q047",
+      "questionText": "Choose the correct word: [What / How many] cars do you have? (1)",
+      "optionA": "How old",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "What time",
+      "correctOption": "Option B",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q048",
+      "questionText": "Choose the correct word: [What / How much] money do you have? (1)",
+      "optionA": "What time",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option D",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q049",
+      "questionText": "____ cars do you need? (2)",
+      "optionA": "What time",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T130-Q050",
+      "questionText": "Which question word is used to ask about quantity with uncountable nouns? (5)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "What time",
+      "correctOption": "Option B",
+      "explanation": "'How much' is the correct choice in standard English grammar."
+    }
+  ]
+}

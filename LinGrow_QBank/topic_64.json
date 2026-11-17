@@ -1,0 +1,507 @@
+{
+  "topicId": 64,
+  "topicName": "Predicate adjectives",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T064-Q001",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q002",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "tastes",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q003",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "tastes",
+      "optionD": "soup",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q004",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "soup",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q005",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "tastes",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q006",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q007",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q008",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "soup",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q009",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "tastes",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q010",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "soup",
+      "optionC": "delicious",
+      "optionD": "The",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q011",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "soup",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q012",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q013",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "soup",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q014",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q015",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "delicious",
+      "optionC": "The",
+      "optionD": "soup",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q016",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q017",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "tastes",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q018",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "tastes",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q019",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "soup",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q020",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "tastes",
+      "optionC": "The",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q021",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q022",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "soup",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q023",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q024",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q025",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "tastes",
+      "optionC": "soup",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q026",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "tastes",
+      "optionC": "soup",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q027",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "soup",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q028",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q029",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "The",
+      "optionC": "soup",
+      "optionD": "tastes",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q030",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "delicious",
+      "optionD": "soup",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q031",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "tastes",
+      "optionC": "The",
+      "optionD": "soup",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q032",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q033",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "tastes",
+      "optionD": "soup",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q034",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "delicious",
+      "optionD": "soup",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q035",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "soup",
+      "optionC": "delicious",
+      "optionD": "The",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q036",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "soup",
+      "optionD": "tastes",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q037",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q038",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "soup",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q039",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "soup",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q040",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q041",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "delicious",
+      "optionC": "tastes",
+      "optionD": "soup",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q042",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "tastes",
+      "optionC": "delicious",
+      "optionD": "soup",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q043",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q044",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "delicious",
+      "optionC": "soup",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q045",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q046",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q047",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "The",
+      "optionB": "soup",
+      "optionC": "tastes",
+      "optionD": "delicious",
+      "correctOption": "Option D",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q048",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "soup",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "tastes",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q049",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "tastes",
+      "optionB": "The",
+      "optionC": "delicious",
+      "optionD": "soup",
+      "correctOption": "Option C",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T064-Q050",
+      "questionText": "Find the predicate adjective: The soup tastes delicious.",
+      "optionA": "delicious",
+      "optionB": "soup",
+      "optionC": "The",
+      "optionD": "tastes",
+      "correctOption": "Option A",
+      "explanation": "'delicious' is the correct choice in standard English grammar."
+    }
+  ]
+}

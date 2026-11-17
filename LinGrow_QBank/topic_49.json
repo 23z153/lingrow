@@ -1,0 +1,507 @@
+{
+  "topicId": 49,
+  "topicName": "Zero article",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T049-Q001",
+      "questionText": "I really love listening to ___ music 0.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q002",
+      "questionText": "___ cats 1 are usually very independent animals.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q003",
+      "questionText": "We traveled to ___ France 2 last summer.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q004",
+      "questionText": "___ water 3 is essential for life.",
+      "optionA": "An",
+      "optionB": "-",
+      "optionC": "The",
+      "optionD": "A",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q005",
+      "questionText": "She lives on ___ Main Street 4.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q006",
+      "questionText": "I really love listening to ___ music 5.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q007",
+      "questionText": "___ cats 6 are usually very independent animals.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "-",
+      "optionD": "An",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q008",
+      "questionText": "We traveled to ___ France 7 last summer.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q009",
+      "questionText": "___ water 8 is essential for life.",
+      "optionA": "A",
+      "optionB": "-",
+      "optionC": "An",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q010",
+      "questionText": "She lives on ___ Main Street 9.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q011",
+      "questionText": "I really love listening to ___ music 10.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q012",
+      "questionText": "___ cats 11 are usually very independent animals.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q013",
+      "questionText": "We traveled to ___ France 12 last summer.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q014",
+      "questionText": "___ water 13 is essential for life.",
+      "optionA": "-",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "A",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q015",
+      "questionText": "She lives on ___ Main Street 14.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q016",
+      "questionText": "I really love listening to ___ music 15.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q017",
+      "questionText": "___ cats 16 are usually very independent animals.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q018",
+      "questionText": "We traveled to ___ France 17 last summer.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q019",
+      "questionText": "___ water 18 is essential for life.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q020",
+      "questionText": "She lives on ___ Main Street 19.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q021",
+      "questionText": "I really love listening to ___ music 20.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q022",
+      "questionText": "___ cats 21 are usually very independent animals.",
+      "optionA": "-",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q023",
+      "questionText": "We traveled to ___ France 22 last summer.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q024",
+      "questionText": "___ water 23 is essential for life.",
+      "optionA": "An",
+      "optionB": "The",
+      "optionC": "A",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q025",
+      "questionText": "She lives on ___ Main Street 24.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q026",
+      "questionText": "I really love listening to ___ music 25.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q027",
+      "questionText": "___ cats 26 are usually very independent animals.",
+      "optionA": "An",
+      "optionB": "-",
+      "optionC": "The",
+      "optionD": "A",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q028",
+      "questionText": "We traveled to ___ France 27 last summer.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q029",
+      "questionText": "___ water 28 is essential for life.",
+      "optionA": "The",
+      "optionB": "-",
+      "optionC": "A",
+      "optionD": "An",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q030",
+      "questionText": "She lives on ___ Main Street 29.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q031",
+      "questionText": "I really love listening to ___ music 30.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q032",
+      "questionText": "___ cats 31 are usually very independent animals.",
+      "optionA": "An",
+      "optionB": "The",
+      "optionC": "A",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q033",
+      "questionText": "We traveled to ___ France 32 last summer.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q034",
+      "questionText": "___ water 33 is essential for life.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "-",
+      "optionD": "An",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q035",
+      "questionText": "She lives on ___ Main Street 34.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q036",
+      "questionText": "I really love listening to ___ music 35.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q037",
+      "questionText": "___ cats 36 are usually very independent animals.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q038",
+      "questionText": "We traveled to ___ France 37 last summer.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q039",
+      "questionText": "___ water 38 is essential for life.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q040",
+      "questionText": "She lives on ___ Main Street 39.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q041",
+      "questionText": "I really love listening to ___ music 40.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q042",
+      "questionText": "___ cats 41 are usually very independent animals.",
+      "optionA": "An",
+      "optionB": "The",
+      "optionC": "-",
+      "optionD": "A",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q043",
+      "questionText": "We traveled to ___ France 42 last summer.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q044",
+      "questionText": "___ water 43 is essential for life.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "-",
+      "optionD": "An",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q045",
+      "questionText": "She lives on ___ Main Street 44.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q046",
+      "questionText": "I really love listening to ___ music 45.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q047",
+      "questionText": "___ cats 46 are usually very independent animals.",
+      "optionA": "The",
+      "optionB": "-",
+      "optionC": "An",
+      "optionD": "A",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q048",
+      "questionText": "We traveled to ___ France 47 last summer.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q049",
+      "questionText": "___ water 48 is essential for life.",
+      "optionA": "An",
+      "optionB": "A",
+      "optionC": "The",
+      "optionD": "-",
+      "correctOption": "Option D",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T049-Q050",
+      "questionText": "She lives on ___ Main Street 49.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'-' is the correct choice in standard English grammar."
+    }
+  ]
+}

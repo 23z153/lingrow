@@ -1,0 +1,507 @@
+{
+  "topicId": 102,
+  "topicName": "Future Continuous",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T102-Q001",
+      "questionText": "Choose the correct future continuous form: We ___ the exam.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q002",
+      "questionText": "Choose the correct future continuous form: You ___ the test.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q003",
+      "questionText": "Choose the correct future continuous form: The student ___ the essay.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q004",
+      "questionText": "Choose the correct future continuous form: The professor ___ the essay.",
+      "optionA": "will sleep",
+      "optionB": "sleeps",
+      "optionC": "slept",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q005",
+      "questionText": "Choose the correct future continuous form: The student ___ the assignment.",
+      "optionA": "slept",
+      "optionB": "sleeps",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q006",
+      "questionText": "Choose the correct future continuous form: She ___ the project.",
+      "optionA": "slept",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q007",
+      "questionText": "Choose the correct future continuous form: The professor ___ the test.",
+      "optionA": "sleeps",
+      "optionB": "will be sleeping",
+      "optionC": "will sleep",
+      "optionD": "slept",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q008",
+      "questionText": "Choose the correct future continuous form: It ___ the document.",
+      "optionA": "will sleep",
+      "optionB": "will be sleeping",
+      "optionC": "slept",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q009",
+      "questionText": "Choose the correct future continuous form: You ___ the project.",
+      "optionA": "slept",
+      "optionB": "will be sleeping",
+      "optionC": "will sleep",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q010",
+      "questionText": "Choose the correct future continuous form: He ___ the presentation.",
+      "optionA": "slept",
+      "optionB": "will be sleeping",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q011",
+      "questionText": "Choose the correct future continuous form: I ___ the project.",
+      "optionA": "will sleep",
+      "optionB": "will be sleeping",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q012",
+      "questionText": "Choose the correct future continuous form: I ___ the presentation.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "slept",
+      "optionD": "sleeps",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q013",
+      "questionText": "Choose the correct future continuous form: She ___ the document.",
+      "optionA": "slept",
+      "optionB": "sleeps",
+      "optionC": "will sleep",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q014",
+      "questionText": "Choose the correct future continuous form: The professor ___ the report.",
+      "optionA": "will sleep",
+      "optionB": "will be sleeping",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q015",
+      "questionText": "Choose the correct future continuous form: I ___ the essay.",
+      "optionA": "will sleep",
+      "optionB": "will be sleeping",
+      "optionC": "slept",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q016",
+      "questionText": "Choose the correct future continuous form: The professor ___ the presentation.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q017",
+      "questionText": "Choose the correct future continuous form: It ___ the task.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will sleep",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q018",
+      "questionText": "Choose the correct future continuous form: The professor ___ the task.",
+      "optionA": "sleeps",
+      "optionB": "will sleep",
+      "optionC": "will be sleeping",
+      "optionD": "slept",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q019",
+      "questionText": "Choose the correct future continuous form: They ___ the project.",
+      "optionA": "sleeps",
+      "optionB": "will be sleeping",
+      "optionC": "will sleep",
+      "optionD": "slept",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q020",
+      "questionText": "Choose the correct future continuous form: The student ___ the task.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q021",
+      "questionText": "Choose the correct future continuous form: We ___ the document.",
+      "optionA": "will be sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q022",
+      "questionText": "Choose the correct future continuous form: The student ___ the essay.",
+      "optionA": "will sleep",
+      "optionB": "sleeps",
+      "optionC": "slept",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q023",
+      "questionText": "Choose the correct future continuous form: The professor ___ the task.",
+      "optionA": "slept",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q024",
+      "questionText": "Choose the correct future continuous form: I ___ the homework.",
+      "optionA": "sleeps",
+      "optionB": "will sleep",
+      "optionC": "slept",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q025",
+      "questionText": "Choose the correct future continuous form: The team ___ the task.",
+      "optionA": "slept",
+      "optionB": "will be sleeping",
+      "optionC": "will sleep",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q026",
+      "questionText": "Choose the correct future continuous form: They ___ the assignment.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "slept",
+      "optionD": "sleeps",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q027",
+      "questionText": "Choose the correct future continuous form: The student ___ the document.",
+      "optionA": "will be sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q028",
+      "questionText": "Choose the correct future continuous form: I ___ the presentation.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q029",
+      "questionText": "Choose the correct future continuous form: They ___ the test.",
+      "optionA": "will sleep",
+      "optionB": "will be sleeping",
+      "optionC": "slept",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q030",
+      "questionText": "Choose the correct future continuous form: I ___ the essay.",
+      "optionA": "will be sleeping",
+      "optionB": "sleeps",
+      "optionC": "will sleep",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q031",
+      "questionText": "Choose the correct future continuous form: The team ___ the report.",
+      "optionA": "will sleep",
+      "optionB": "slept",
+      "optionC": "will be sleeping",
+      "optionD": "sleeps",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q032",
+      "questionText": "Choose the correct future continuous form: The student ___ the presentation.",
+      "optionA": "will be sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q033",
+      "questionText": "Choose the correct future continuous form: You ___ the exam.",
+      "optionA": "sleeps",
+      "optionB": "will sleep",
+      "optionC": "will be sleeping",
+      "optionD": "slept",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q034",
+      "questionText": "Choose the correct future continuous form: She ___ the task.",
+      "optionA": "slept",
+      "optionB": "will be sleeping",
+      "optionC": "will sleep",
+      "optionD": "sleeps",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q035",
+      "questionText": "Choose the correct future continuous form: He ___ the task.",
+      "optionA": "slept",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q036",
+      "questionText": "Choose the correct future continuous form: He ___ the document.",
+      "optionA": "slept",
+      "optionB": "sleeps",
+      "optionC": "will sleep",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q037",
+      "questionText": "Choose the correct future continuous form: It ___ the essay.",
+      "optionA": "will be sleeping",
+      "optionB": "slept",
+      "optionC": "will sleep",
+      "optionD": "sleeps",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q038",
+      "questionText": "Choose the correct future continuous form: She ___ the task.",
+      "optionA": "slept",
+      "optionB": "sleeps",
+      "optionC": "will be sleeping",
+      "optionD": "will sleep",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q039",
+      "questionText": "Choose the correct future continuous form: I ___ the presentation.",
+      "optionA": "will sleep",
+      "optionB": "sleeps",
+      "optionC": "will be sleeping",
+      "optionD": "slept",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q040",
+      "questionText": "Choose the correct future continuous form: He ___ the exam.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q041",
+      "questionText": "Choose the correct future continuous form: We ___ the project.",
+      "optionA": "will be sleeping",
+      "optionB": "sleeps",
+      "optionC": "slept",
+      "optionD": "will sleep",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q042",
+      "questionText": "Choose the correct future continuous form: He ___ the assignment.",
+      "optionA": "will sleep",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q043",
+      "questionText": "Choose the correct future continuous form: They ___ the report.",
+      "optionA": "slept",
+      "optionB": "will be sleeping",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option B",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q044",
+      "questionText": "Choose the correct future continuous form: It ___ the presentation.",
+      "optionA": "slept",
+      "optionB": "will sleep",
+      "optionC": "will be sleeping",
+      "optionD": "sleeps",
+      "correctOption": "Option C",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q045",
+      "questionText": "Choose the correct future continuous form: They ___ the homework.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q046",
+      "questionText": "Choose the correct future continuous form: They ___ the exam.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q047",
+      "questionText": "Choose the correct future continuous form: They ___ the exam.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will sleep",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q048",
+      "questionText": "Choose the correct future continuous form: She ___ the presentation.",
+      "optionA": "will be sleeping",
+      "optionB": "will sleep",
+      "optionC": "sleeps",
+      "optionD": "slept",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q049",
+      "questionText": "Choose the correct future continuous form: I ___ the presentation.",
+      "optionA": "sleeps",
+      "optionB": "slept",
+      "optionC": "will sleep",
+      "optionD": "will be sleeping",
+      "correctOption": "Option D",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T102-Q050",
+      "questionText": "Choose the correct future continuous form: The team ___ the project.",
+      "optionA": "will be sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "will sleep",
+      "correctOption": "Option A",
+      "explanation": "'will be sleeping' is the correct choice in standard English grammar."
+    }
+  ]
+}

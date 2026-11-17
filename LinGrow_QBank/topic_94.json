@@ -1,0 +1,507 @@
+{
+  "topicId": 94,
+  "topicName": "Simple Past",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T094-Q001",
+      "questionText": "You _____ hard yesterday. (1)",
+      "optionA": "working",
+      "optionB": "worked",
+      "optionC": "worked",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'worked' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q002",
+      "questionText": "They _____ an apple yesterday. (2)",
+      "optionA": "eaten",
+      "optionB": "ate",
+      "optionC": "eat",
+      "optionD": "eating",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'ate' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q003",
+      "questionText": "John _____ a letter yesterday. (3)",
+      "optionA": "written",
+      "optionB": "write",
+      "optionC": "writing",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q004",
+      "questionText": "They _____ TV yesterday. (4)",
+      "optionA": "watch",
+      "optionB": "watched",
+      "optionC": "watched",
+      "optionD": "watching",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q005",
+      "questionText": "She _____ to music yesterday. (5)",
+      "optionA": "listening",
+      "optionB": "listen",
+      "optionC": "listened",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q006",
+      "questionText": "John _____ TV yesterday. (6)",
+      "optionA": "watching",
+      "optionB": "watch",
+      "optionC": "watched",
+      "optionD": "watched",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q007",
+      "questionText": "The teacher _____ a book yesterday. (7)",
+      "optionA": "reading",
+      "optionB": "read",
+      "optionC": "read",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'read' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q008",
+      "questionText": "They _____ a book yesterday. (8)",
+      "optionA": "reading",
+      "optionB": "read",
+      "optionC": "read",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'read' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q009",
+      "questionText": "They _____ tennis yesterday. (9)",
+      "optionA": "played",
+      "optionB": "played",
+      "optionC": "playing",
+      "optionD": "play",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'played' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q010",
+      "questionText": "We _____ hard yesterday. (10)",
+      "optionA": "working",
+      "optionB": "worked",
+      "optionC": "work",
+      "optionD": "worked",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'worked' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q011",
+      "questionText": "He _____ to music yesterday. (11)",
+      "optionA": "listening",
+      "optionB": "listened",
+      "optionC": "listen",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q012",
+      "questionText": "I _____ to the park yesterday. (12)",
+      "optionA": "gone",
+      "optionB": "went",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'went' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q013",
+      "questionText": "We _____ a book yesterday. (13)",
+      "optionA": "reading",
+      "optionB": "read",
+      "optionC": "read",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'read' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q014",
+      "questionText": "You _____ English yesterday. (14)",
+      "optionA": "studying",
+      "optionB": "study",
+      "optionC": "studied",
+      "optionD": "studied",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q015",
+      "questionText": "The students _____ a book yesterday. (15)",
+      "optionA": "read",
+      "optionB": "read",
+      "optionC": "read",
+      "optionD": "reading",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'read' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q016",
+      "questionText": "I _____ hard yesterday. (16)",
+      "optionA": "worked",
+      "optionB": "work",
+      "optionC": "working",
+      "optionD": "worked",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'worked' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q017",
+      "questionText": "You _____ to the park yesterday. (17)",
+      "optionA": "going",
+      "optionB": "go",
+      "optionC": "gone",
+      "optionD": "went",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'went' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q018",
+      "questionText": "It _____ to music yesterday. (18)",
+      "optionA": "listened",
+      "optionB": "listened",
+      "optionC": "listening",
+      "optionD": "listen",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q019",
+      "questionText": "The students _____ English yesterday. (19)",
+      "optionA": "studied",
+      "optionB": "studied",
+      "optionC": "studying",
+      "optionD": "study",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q020",
+      "questionText": "They _____ well yesterday. (20)",
+      "optionA": "sleeping",
+      "optionB": "sleep",
+      "optionC": "slept",
+      "optionD": "slept",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'slept' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q021",
+      "questionText": "She _____ TV yesterday. (21)",
+      "optionA": "watching",
+      "optionB": "watched",
+      "optionC": "watched",
+      "optionD": "watch",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q022",
+      "questionText": "The students _____ to music yesterday. (22)",
+      "optionA": "listened",
+      "optionB": "listening",
+      "optionC": "listened",
+      "optionD": "listen",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q023",
+      "questionText": "They _____ to the park yesterday. (23)",
+      "optionA": "gone",
+      "optionB": "went",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'went' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q024",
+      "questionText": "It _____ to music yesterday. (24)",
+      "optionA": "listening",
+      "optionB": "listened",
+      "optionC": "listen",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q025",
+      "questionText": "Mary _____ English yesterday. (25)",
+      "optionA": "study",
+      "optionB": "studied",
+      "optionC": "studied",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q026",
+      "questionText": "She _____ to music yesterday. (26)",
+      "optionA": "listened",
+      "optionB": "listened",
+      "optionC": "listening",
+      "optionD": "listen",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q027",
+      "questionText": "They _____ a letter yesterday. (27)",
+      "optionA": "writing",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "write",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q028",
+      "questionText": "The teacher _____ TV yesterday. (28)",
+      "optionA": "watched",
+      "optionB": "watched",
+      "optionC": "watch",
+      "optionD": "watching",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q029",
+      "questionText": "He _____ a letter yesterday. (29)",
+      "optionA": "wrote",
+      "optionB": "written",
+      "optionC": "writing",
+      "optionD": "write",
+      "correctOption": "Option A",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q030",
+      "questionText": "They _____ to music yesterday. (30)",
+      "optionA": "listening",
+      "optionB": "listen",
+      "optionC": "listened",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q031",
+      "questionText": "They _____ English yesterday. (31)",
+      "optionA": "studied",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studied",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q032",
+      "questionText": "She _____ a letter yesterday. (32)",
+      "optionA": "write",
+      "optionB": "wrote",
+      "optionC": "writing",
+      "optionD": "written",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q033",
+      "questionText": "It _____ to the park yesterday. (33)",
+      "optionA": "going",
+      "optionB": "went",
+      "optionC": "go",
+      "optionD": "gone",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'went' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q034",
+      "questionText": "The students _____ to music yesterday. (34)",
+      "optionA": "listened",
+      "optionB": "listen",
+      "optionC": "listened",
+      "optionD": "listening",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q035",
+      "questionText": "I _____ well yesterday. (35)",
+      "optionA": "sleeping",
+      "optionB": "sleep",
+      "optionC": "slept",
+      "optionD": "slept",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'slept' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q036",
+      "questionText": "John _____ hard yesterday. (36)",
+      "optionA": "working",
+      "optionB": "work",
+      "optionC": "worked",
+      "optionD": "worked",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'worked' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q037",
+      "questionText": "It _____ a letter yesterday. (37)",
+      "optionA": "writing",
+      "optionB": "write",
+      "optionC": "written",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q038",
+      "questionText": "I _____ an apple yesterday. (38)",
+      "optionA": "eating",
+      "optionB": "ate",
+      "optionC": "eat",
+      "optionD": "eaten",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'ate' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q039",
+      "questionText": "Mary _____ well yesterday. (39)",
+      "optionA": "slept",
+      "optionB": "sleeping",
+      "optionC": "sleep",
+      "optionD": "slept",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'slept' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q040",
+      "questionText": "I _____ to the park yesterday. (40)",
+      "optionA": "gone",
+      "optionB": "went",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "Simple Past uses 'went' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q041",
+      "questionText": "It _____ TV yesterday. (41)",
+      "optionA": "watched",
+      "optionB": "watching",
+      "optionC": "watch",
+      "optionD": "watched",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q042",
+      "questionText": "They _____ English yesterday. (42)",
+      "optionA": "study",
+      "optionB": "studied",
+      "optionC": "studied",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q043",
+      "questionText": "The students _____ a letter yesterday. (43)",
+      "optionA": "written",
+      "optionB": "write",
+      "optionC": "writing",
+      "optionD": "wrote",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q044",
+      "questionText": "You _____ to music yesterday. (44)",
+      "optionA": "listen",
+      "optionB": "listened",
+      "optionC": "listening",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q045",
+      "questionText": "Mary _____ TV yesterday. (45)",
+      "optionA": "watching",
+      "optionB": "watch",
+      "optionC": "watched",
+      "optionD": "watched",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'watched' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q046",
+      "questionText": "He _____ a letter yesterday. (46)",
+      "optionA": "write",
+      "optionB": "written",
+      "optionC": "wrote",
+      "optionD": "writing",
+      "correctOption": "Option C",
+      "explanation": "Simple Past uses 'wrote' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q047",
+      "questionText": "You _____ an apple yesterday. (47)",
+      "optionA": "eat",
+      "optionB": "eating",
+      "optionC": "eaten",
+      "optionD": "ate",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'ate' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q048",
+      "questionText": "I _____ English yesterday. (48)",
+      "optionA": "study",
+      "optionB": "studied",
+      "optionC": "studying",
+      "optionD": "studied",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'studied' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q049",
+      "questionText": "We _____ to music yesterday. (49)",
+      "optionA": "listened",
+      "optionB": "listen",
+      "optionC": "listening",
+      "optionD": "listened",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'listened' for actions completed in the past."
+    },
+    {
+      "questionId": "T094-Q050",
+      "questionText": "The teacher _____ an apple yesterday. (50)",
+      "optionA": "eaten",
+      "optionB": "eating",
+      "optionC": "eat",
+      "optionD": "ate",
+      "correctOption": "Option D",
+      "explanation": "Simple Past uses 'ate' for actions completed in the past."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 71,
+  "topicName": "Helping verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T071-Q001",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "have",
+      "optionC": "homework",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q002",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Noun",
+      "optionC": "Main verb",
+      "optionD": "Adjective",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q003",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "will",
+      "optionB": "go",
+      "optionC": "We",
+      "optionD": "tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q004",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "reading",
+      "optionB": "is",
+      "optionC": "book",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q005",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "homework",
+      "optionC": "They",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q006",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Main verb",
+      "optionB": "Helping/Modal verb",
+      "optionC": "Adjective",
+      "optionD": "Noun",
+      "correctOption": "Option B",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q007",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "We",
+      "optionB": "tomorrow",
+      "optionC": "will",
+      "optionD": "go",
+      "correctOption": "Option C",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q008",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "reading",
+      "optionB": "She",
+      "optionC": "book",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q009",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "have",
+      "optionB": "homework",
+      "optionC": "finished",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q010",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Main verb",
+      "optionB": "Adjective",
+      "optionC": "Helping/Modal verb",
+      "optionD": "Noun",
+      "correctOption": "Option C",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q011",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "will",
+      "optionB": "go",
+      "optionC": "We",
+      "optionD": "tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q012",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "reading",
+      "optionB": "She",
+      "optionC": "is",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q013",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "have",
+      "optionC": "They",
+      "optionD": "homework",
+      "correctOption": "Option B",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q014",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Main verb",
+      "optionB": "Noun",
+      "optionC": "Helping/Modal verb",
+      "optionD": "Adjective",
+      "correctOption": "Option C",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q015",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "tomorrow",
+      "optionB": "will",
+      "optionC": "We",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q016",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "reading",
+      "optionB": "She",
+      "optionC": "book",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q017",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "have",
+      "optionB": "finished",
+      "optionC": "They",
+      "optionD": "homework",
+      "correctOption": "Option A",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q018",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Noun",
+      "optionB": "Main verb",
+      "optionC": "Helping/Modal verb",
+      "optionD": "Adjective",
+      "correctOption": "Option C",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q019",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "will",
+      "optionB": "go",
+      "optionC": "We",
+      "optionD": "tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q020",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "is",
+      "optionB": "reading",
+      "optionC": "book",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q021",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "homework",
+      "optionC": "have",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q022",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Main verb",
+      "optionC": "Noun",
+      "optionD": "Adjective",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q023",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "go",
+      "optionB": "We",
+      "optionC": "will",
+      "optionD": "tomorrow",
+      "correctOption": "Option C",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q024",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "book",
+      "optionB": "is",
+      "optionC": "She",
+      "optionD": "reading",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q025",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "have",
+      "optionC": "They",
+      "optionD": "homework",
+      "correctOption": "Option B",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q026",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Noun",
+      "optionC": "Adjective",
+      "optionD": "Main verb",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q027",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "We",
+      "optionB": "go",
+      "optionC": "will",
+      "optionD": "tomorrow",
+      "correctOption": "Option C",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q028",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "She",
+      "optionB": "reading",
+      "optionC": "is",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q029",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "have",
+      "optionB": "They",
+      "optionC": "finished",
+      "optionD": "homework",
+      "correctOption": "Option A",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q030",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Main verb",
+      "optionB": "Helping/Modal verb",
+      "optionC": "Adjective",
+      "optionD": "Noun",
+      "correctOption": "Option B",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q031",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "will",
+      "optionB": "tomorrow",
+      "optionC": "We",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q032",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "is",
+      "optionB": "She",
+      "optionC": "reading",
+      "optionD": "book",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q033",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "homework",
+      "optionB": "They",
+      "optionC": "finished",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q034",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Adjective",
+      "optionC": "Main verb",
+      "optionD": "Noun",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q035",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "tomorrow",
+      "optionB": "We",
+      "optionC": "go",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q036",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "She",
+      "optionB": "is",
+      "optionC": "reading",
+      "optionD": "book",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q037",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "have",
+      "optionB": "They",
+      "optionC": "homework",
+      "optionD": "finished",
+      "correctOption": "Option A",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q038",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Main verb",
+      "optionC": "Noun",
+      "optionD": "Adjective",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q039",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "tomorrow",
+      "optionB": "go",
+      "optionC": "We",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q040",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "is",
+      "optionB": "She",
+      "optionC": "book",
+      "optionD": "reading",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q041",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "finished",
+      "optionB": "homework",
+      "optionC": "have",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q042",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Adjective",
+      "optionB": "Helping/Modal verb",
+      "optionC": "Noun",
+      "optionD": "Main verb",
+      "correctOption": "Option B",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q043",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "go",
+      "optionB": "will",
+      "optionC": "We",
+      "optionD": "tomorrow",
+      "correctOption": "Option B",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q044",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "reading",
+      "optionB": "She",
+      "optionC": "is",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q045",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "homework",
+      "optionB": "They",
+      "optionC": "finished",
+      "optionD": "have",
+      "correctOption": "Option D",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q046",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Helping/Modal verb",
+      "optionB": "Noun",
+      "optionC": "Adjective",
+      "optionD": "Main verb",
+      "correctOption": "Option A",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q047",
+      "questionText": "Identify the helping verb: 'We will go tomorrow.'",
+      "optionA": "will",
+      "optionB": "We",
+      "optionC": "go",
+      "optionD": "tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'will' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q048",
+      "questionText": "Identify the helping verb: 'She is reading a book.'",
+      "optionA": "She",
+      "optionB": "reading",
+      "optionC": "is",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q049",
+      "questionText": "Which word is the helping verb? 'They have finished their homework.'",
+      "optionA": "homework",
+      "optionB": "have",
+      "optionC": "They",
+      "optionD": "finished",
+      "correctOption": "Option B",
+      "explanation": "'have' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T071-Q050",
+      "questionText": "In the sentence 'He can speak Spanish', what is 'can'?",
+      "optionA": "Noun",
+      "optionB": "Adjective",
+      "optionC": "Helping/Modal verb",
+      "optionD": "Main verb",
+      "correctOption": "Option C",
+      "explanation": "'Helping/Modal verb' is the correct choice in standard English grammar."
+    }
+  ]
+}

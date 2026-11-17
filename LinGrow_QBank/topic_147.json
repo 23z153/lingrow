@@ -1,0 +1,507 @@
+{
+  "topicId": 147,
+  "topicName": "Since/for",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T147-Q001",
+      "questionText": "They have lived here ___ 2010. (1)",
+      "optionA": "in",
+      "optionB": "since",
+      "optionC": "for",
+      "optionD": "from",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q002",
+      "questionText": "She has been studying ___ 3 hours. (2)",
+      "optionA": "since",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q003",
+      "questionText": "She has been studying ___ 8 hours. (3)",
+      "optionA": "until",
+      "optionB": "since",
+      "optionC": "during",
+      "optionD": "for",
+      "correctOption": "Option D",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q004",
+      "questionText": "They have lived here ___ last year. (4)",
+      "optionA": "since",
+      "optionB": "from",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q005",
+      "questionText": "They have lived here ___ January. (5)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q006",
+      "questionText": "She has been studying ___ 2 hours. (6)",
+      "optionA": "since",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q007",
+      "questionText": "They have lived here ___ January. (7)",
+      "optionA": "from",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q008",
+      "questionText": "She has been studying ___ 9 hours. (8)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "during",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q009",
+      "questionText": "She has been studying ___ 9 hours. (9)",
+      "optionA": "since",
+      "optionB": "for",
+      "optionC": "during",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q010",
+      "questionText": "They have lived here ___ January. (10)",
+      "optionA": "from",
+      "optionB": "in",
+      "optionC": "since",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q011",
+      "questionText": "They have lived here ___ 2010. (11)",
+      "optionA": "for",
+      "optionB": "from",
+      "optionC": "in",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q012",
+      "questionText": "She has been studying ___ 7 hours. (12)",
+      "optionA": "for",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "since",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q013",
+      "questionText": "She has been studying ___ 6 hours. (13)",
+      "optionA": "until",
+      "optionB": "for",
+      "optionC": "during",
+      "optionD": "since",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q014",
+      "questionText": "She has been studying ___ 10 hours. (14)",
+      "optionA": "during",
+      "optionB": "since",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q015",
+      "questionText": "They have lived here ___ last year. (15)",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "from",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q016",
+      "questionText": "She has been studying ___ 10 hours. (16)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "until",
+      "optionD": "during",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q017",
+      "questionText": "They have lived here ___ January. (17)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q018",
+      "questionText": "She has been studying ___ 3 hours. (18)",
+      "optionA": "until",
+      "optionB": "during",
+      "optionC": "for",
+      "optionD": "since",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q019",
+      "questionText": "They have lived here ___ January. (19)",
+      "optionA": "from",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q020",
+      "questionText": "She has been studying ___ 8 hours. (20)",
+      "optionA": "for",
+      "optionB": "until",
+      "optionC": "during",
+      "optionD": "since",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q021",
+      "questionText": "They have lived here ___ January. (21)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q022",
+      "questionText": "She has been studying ___ 9 hours. (22)",
+      "optionA": "during",
+      "optionB": "since",
+      "optionC": "for",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q023",
+      "questionText": "She has been studying ___ 8 hours. (23)",
+      "optionA": "during",
+      "optionB": "since",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option D",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q024",
+      "questionText": "They have lived here ___ last year. (24)",
+      "optionA": "since",
+      "optionB": "for",
+      "optionC": "from",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q025",
+      "questionText": "They have lived here ___ 2010. (25)",
+      "optionA": "in",
+      "optionB": "since",
+      "optionC": "from",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q026",
+      "questionText": "She has been studying ___ 9 hours. (26)",
+      "optionA": "until",
+      "optionB": "since",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q027",
+      "questionText": "They have lived here ___ 2010. (27)",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "from",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q028",
+      "questionText": "They have lived here ___ January. (28)",
+      "optionA": "since",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "from",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q029",
+      "questionText": "They have lived here ___ January. (29)",
+      "optionA": "from",
+      "optionB": "since",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q030",
+      "questionText": "She has been studying ___ 3 hours. (30)",
+      "optionA": "since",
+      "optionB": "until",
+      "optionC": "for",
+      "optionD": "during",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q031",
+      "questionText": "They have lived here ___ last year. (31)",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "from",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q032",
+      "questionText": "She has been studying ___ 6 hours. (32)",
+      "optionA": "for",
+      "optionB": "during",
+      "optionC": "since",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q033",
+      "questionText": "They have lived here ___ January. (33)",
+      "optionA": "in",
+      "optionB": "since",
+      "optionC": "from",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q034",
+      "questionText": "She has been studying ___ 2 hours. (34)",
+      "optionA": "during",
+      "optionB": "until",
+      "optionC": "for",
+      "optionD": "since",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q035",
+      "questionText": "They have lived here ___ last year. (35)",
+      "optionA": "from",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q036",
+      "questionText": "They have lived here ___ January. (36)",
+      "optionA": "since",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q037",
+      "questionText": "She has been studying ___ 8 hours. (37)",
+      "optionA": "since",
+      "optionB": "for",
+      "optionC": "during",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q038",
+      "questionText": "They have lived here ___ January. (38)",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "since",
+      "optionD": "from",
+      "correctOption": "Option C",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q039",
+      "questionText": "She has been studying ___ 6 hours. (39)",
+      "optionA": "during",
+      "optionB": "since",
+      "optionC": "until",
+      "optionD": "for",
+      "correctOption": "Option D",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q040",
+      "questionText": "They have lived here ___ 2010. (40)",
+      "optionA": "since",
+      "optionB": "from",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q041",
+      "questionText": "She has been studying ___ 2 hours. (41)",
+      "optionA": "during",
+      "optionB": "for",
+      "optionC": "until",
+      "optionD": "since",
+      "correctOption": "Option B",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q042",
+      "questionText": "She has been studying ___ 6 hours. (42)",
+      "optionA": "during",
+      "optionB": "until",
+      "optionC": "for",
+      "optionD": "since",
+      "correctOption": "Option C",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q043",
+      "questionText": "They have lived here ___ 2010. (43)",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "from",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q044",
+      "questionText": "They have lived here ___ last year. (44)",
+      "optionA": "since",
+      "optionB": "in",
+      "optionC": "from",
+      "optionD": "for",
+      "correctOption": "Option A",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q045",
+      "questionText": "They have lived here ___ 2010. (45)",
+      "optionA": "from",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q046",
+      "questionText": "They have lived here ___ January. (46)",
+      "optionA": "in",
+      "optionB": "from",
+      "optionC": "since",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q047",
+      "questionText": "They have lived here ___ January. (47)",
+      "optionA": "in",
+      "optionB": "from",
+      "optionC": "for",
+      "optionD": "since",
+      "correctOption": "Option D",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q048",
+      "questionText": "She has been studying ___ 7 hours. (48)",
+      "optionA": "for",
+      "optionB": "during",
+      "optionC": "until",
+      "optionD": "since",
+      "correctOption": "Option A",
+      "explanation": "'for' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q049",
+      "questionText": "They have lived here ___ last year. (49)",
+      "optionA": "for",
+      "optionB": "since",
+      "optionC": "in",
+      "optionD": "from",
+      "correctOption": "Option B",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T147-Q050",
+      "questionText": "They have lived here ___ last year. (50)",
+      "optionA": "for",
+      "optionB": "from",
+      "optionC": "since",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'since' is the correct choice in standard English grammar."
+    }
+  ]
+}

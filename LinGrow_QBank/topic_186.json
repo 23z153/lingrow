@@ -1,0 +1,507 @@
+{
+  "topicId": 186,
+  "topicName": "May",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T186-Q001",
+      "questionText": "Fill in the blank: You ___ study a letter if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q002",
+      "questionText": "Fill in the blank: He ___ read gracefully if permitted.",
+      "optionA": "to may",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q003",
+      "questionText": "Fill in the blank: She ___ speak some food if permitted.",
+      "optionA": "may",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may to",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q004",
+      "questionText": "Fill in the blank: It ___ jump math if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q005",
+      "questionText": "Fill in the blank: We ___ cook football if permitted.",
+      "optionA": "may",
+      "optionB": "to may",
+      "optionC": "may to",
+      "optionD": "mays",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q006",
+      "questionText": "Fill in the blank: They ___ drive high if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q007",
+      "questionText": "Fill in the blank: The student ___ buy in the sky if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may",
+      "optionD": "may to",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q008",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge if permitted.",
+      "optionA": "mays",
+      "optionB": "may to",
+      "optionC": "to may",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q009",
+      "questionText": "Fill in the blank: The dog ___ create for the exam if permitted.",
+      "optionA": "mays",
+      "optionB": "to may",
+      "optionC": "may",
+      "optionD": "may to",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q010",
+      "questionText": "Fill in the blank: My friend ___ go fast if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q011",
+      "questionText": "Fill in the blank: The team ___ study the car if permitted.",
+      "optionA": "mays",
+      "optionB": "to may",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q012",
+      "questionText": "Fill in the blank: Someone ___ read a program if permitted.",
+      "optionA": "may to",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q013",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple if permitted.",
+      "optionA": "may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "to may",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q014",
+      "questionText": "Fill in the blank: Everyone ___ jump to music if permitted.",
+      "optionA": "mays",
+      "optionB": "to may",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q015",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner if permitted.",
+      "optionA": "may to",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q016",
+      "questionText": "Fill in the blank: The doctor ___ drive the house if permitted.",
+      "optionA": "may",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may to",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q017",
+      "questionText": "Fill in the blank: The manager ___ buy history if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q018",
+      "questionText": "Fill in the blank: The child ___ draw a book if permitted.",
+      "optionA": "mays",
+      "optionB": "to may",
+      "optionC": "may",
+      "optionD": "may to",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q019",
+      "questionText": "Fill in the blank: The workers ___ create a song if permitted.",
+      "optionA": "to may",
+      "optionB": "may",
+      "optionC": "mays",
+      "optionD": "may to",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q020",
+      "questionText": "Fill in the blank: Alice ___ go a movie if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q021",
+      "questionText": "Fill in the blank: Bob ___ study a building if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q022",
+      "questionText": "Fill in the blank: Charlie ___ read at the office if permitted.",
+      "optionA": "mays",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q023",
+      "questionText": "Fill in the blank: David ___ speak slowly if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q024",
+      "questionText": "Fill in the blank: Eve ___ jump to Paris if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may",
+      "optionD": "may to",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q025",
+      "questionText": "Fill in the blank: Frank ___ cook a website if permitted.",
+      "optionA": "mays",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q026",
+      "questionText": "Fill in the blank: Grace ___ drive all night if permitted.",
+      "optionA": "mays",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "may to",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q027",
+      "questionText": "Fill in the blank: Hannah ___ buy English if permitted.",
+      "optionA": "to may",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q028",
+      "questionText": "Fill in the blank: Ivy ___ draw the room if permitted.",
+      "optionA": "may",
+      "optionB": "may to",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q029",
+      "questionText": "Fill in the blank: Jack ___ create a picture if permitted.",
+      "optionA": "may to",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q030",
+      "questionText": "Fill in the blank: I ___ go to the park if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q031",
+      "questionText": "Fill in the blank: You ___ study a letter if permitted.",
+      "optionA": "mays",
+      "optionB": "may to",
+      "optionC": "may",
+      "optionD": "to may",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q032",
+      "questionText": "Fill in the blank: He ___ read gracefully if permitted.",
+      "optionA": "mays",
+      "optionB": "may to",
+      "optionC": "may",
+      "optionD": "to may",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q033",
+      "questionText": "Fill in the blank: She ___ speak some food if permitted.",
+      "optionA": "mays",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q034",
+      "questionText": "Fill in the blank: It ___ jump math if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q035",
+      "questionText": "Fill in the blank: We ___ cook football if permitted.",
+      "optionA": "to may",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q036",
+      "questionText": "Fill in the blank: They ___ drive high if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q037",
+      "questionText": "Fill in the blank: The student ___ buy in the sky if permitted.",
+      "optionA": "may",
+      "optionB": "may to",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q038",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q039",
+      "questionText": "Fill in the blank: The dog ___ create for the exam if permitted.",
+      "optionA": "may to",
+      "optionB": "to may",
+      "optionC": "may",
+      "optionD": "mays",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q040",
+      "questionText": "Fill in the blank: My friend ___ go fast if permitted.",
+      "optionA": "mays",
+      "optionB": "to may",
+      "optionC": "may",
+      "optionD": "may to",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q041",
+      "questionText": "Fill in the blank: The team ___ study the car if permitted.",
+      "optionA": "may",
+      "optionB": "mays",
+      "optionC": "to may",
+      "optionD": "may to",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q042",
+      "questionText": "Fill in the blank: Someone ___ read a program if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q043",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple if permitted.",
+      "optionA": "to may",
+      "optionB": "may to",
+      "optionC": "may",
+      "optionD": "mays",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q044",
+      "questionText": "Fill in the blank: Everyone ___ jump to music if permitted.",
+      "optionA": "to may",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q045",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner if permitted.",
+      "optionA": "to may",
+      "optionB": "mays",
+      "optionC": "may to",
+      "optionD": "may",
+      "correctOption": "Option D",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q046",
+      "questionText": "Fill in the blank: The doctor ___ drive the house if permitted.",
+      "optionA": "mays",
+      "optionB": "may to",
+      "optionC": "may",
+      "optionD": "to may",
+      "correctOption": "Option C",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q047",
+      "questionText": "Fill in the blank: The manager ___ buy history if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "to may",
+      "optionD": "mays",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q048",
+      "questionText": "Fill in the blank: The child ___ draw a book if permitted.",
+      "optionA": "may to",
+      "optionB": "may",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q049",
+      "questionText": "Fill in the blank: The workers ___ create a song if permitted.",
+      "optionA": "mays",
+      "optionB": "may",
+      "optionC": "may to",
+      "optionD": "to may",
+      "correctOption": "Option B",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T186-Q050",
+      "questionText": "Fill in the blank: Alice ___ go a movie if permitted.",
+      "optionA": "may",
+      "optionB": "may to",
+      "optionC": "mays",
+      "optionD": "to may",
+      "correctOption": "Option A",
+      "explanation": "'may' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

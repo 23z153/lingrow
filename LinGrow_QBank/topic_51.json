@@ -1,0 +1,507 @@
+{
+  "topicId": 51,
+  "topicName": "Quantifiers",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T051-Q001",
+      "questionText": "___ of the students 0 passed the exam. Everyone was happy.",
+      "optionA": "Much",
+      "optionB": "All",
+      "optionC": "None",
+      "optionD": "Some",
+      "correctOption": "Option B",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q002",
+      "questionText": "We have ___ time 1 left before the train leaves.",
+      "optionA": "plenty of",
+      "optionB": "a few",
+      "optionC": "many",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q003",
+      "questionText": "___ people 2 enjoy the new policy.",
+      "optionA": "Most",
+      "optionB": "None",
+      "optionC": "Much",
+      "optionD": "Every",
+      "correctOption": "Option A",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q004",
+      "questionText": "I ate ___ of the cake 3, not the whole thing.",
+      "optionA": "all",
+      "optionB": "some",
+      "optionC": "every",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q005",
+      "questionText": "There are ___ reasons 4 why we should go.",
+      "optionA": "several",
+      "optionB": "any",
+      "optionC": "much",
+      "optionD": "every",
+      "correctOption": "Option A",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q006",
+      "questionText": "___ of the students 5 passed the exam. Everyone was happy.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "None",
+      "optionD": "Much",
+      "correctOption": "Option B",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q007",
+      "questionText": "We have ___ time 6 left before the train leaves.",
+      "optionA": "many",
+      "optionB": "a few",
+      "optionC": "plenty of",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q008",
+      "questionText": "___ people 7 enjoy the new policy.",
+      "optionA": "Most",
+      "optionB": "None",
+      "optionC": "Much",
+      "optionD": "Every",
+      "correctOption": "Option A",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q009",
+      "questionText": "I ate ___ of the cake 8, not the whole thing.",
+      "optionA": "some",
+      "optionB": "every",
+      "optionC": "many",
+      "optionD": "all",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q010",
+      "questionText": "There are ___ reasons 9 why we should go.",
+      "optionA": "any",
+      "optionB": "much",
+      "optionC": "every",
+      "optionD": "several",
+      "correctOption": "Option D",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q011",
+      "questionText": "___ of the students 10 passed the exam. Everyone was happy.",
+      "optionA": "Some",
+      "optionB": "Much",
+      "optionC": "All",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q012",
+      "questionText": "We have ___ time 11 left before the train leaves.",
+      "optionA": "plenty of",
+      "optionB": "many",
+      "optionC": "several",
+      "optionD": "a few",
+      "correctOption": "Option A",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q013",
+      "questionText": "___ people 12 enjoy the new policy.",
+      "optionA": "Much",
+      "optionB": "Every",
+      "optionC": "Most",
+      "optionD": "None",
+      "correctOption": "Option C",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q014",
+      "questionText": "I ate ___ of the cake 13, not the whole thing.",
+      "optionA": "every",
+      "optionB": "all",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q015",
+      "questionText": "There are ___ reasons 14 why we should go.",
+      "optionA": "much",
+      "optionB": "several",
+      "optionC": "every",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q016",
+      "questionText": "___ of the students 15 passed the exam. Everyone was happy.",
+      "optionA": "Some",
+      "optionB": "None",
+      "optionC": "All",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q017",
+      "questionText": "We have ___ time 16 left before the train leaves.",
+      "optionA": "several",
+      "optionB": "a few",
+      "optionC": "many",
+      "optionD": "plenty of",
+      "correctOption": "Option D",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q018",
+      "questionText": "___ people 17 enjoy the new policy.",
+      "optionA": "Every",
+      "optionB": "None",
+      "optionC": "Much",
+      "optionD": "Most",
+      "correctOption": "Option D",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q019",
+      "questionText": "I ate ___ of the cake 18, not the whole thing.",
+      "optionA": "some",
+      "optionB": "every",
+      "optionC": "all",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q020",
+      "questionText": "There are ___ reasons 19 why we should go.",
+      "optionA": "every",
+      "optionB": "several",
+      "optionC": "any",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q021",
+      "questionText": "___ of the students 20 passed the exam. Everyone was happy.",
+      "optionA": "All",
+      "optionB": "Much",
+      "optionC": "None",
+      "optionD": "Some",
+      "correctOption": "Option A",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q022",
+      "questionText": "We have ___ time 21 left before the train leaves.",
+      "optionA": "a few",
+      "optionB": "several",
+      "optionC": "many",
+      "optionD": "plenty of",
+      "correctOption": "Option D",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q023",
+      "questionText": "___ people 22 enjoy the new policy.",
+      "optionA": "Every",
+      "optionB": "None",
+      "optionC": "Much",
+      "optionD": "Most",
+      "correctOption": "Option D",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q024",
+      "questionText": "I ate ___ of the cake 23, not the whole thing.",
+      "optionA": "every",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "all",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q025",
+      "questionText": "There are ___ reasons 24 why we should go.",
+      "optionA": "every",
+      "optionB": "several",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q026",
+      "questionText": "___ of the students 25 passed the exam. Everyone was happy.",
+      "optionA": "All",
+      "optionB": "Some",
+      "optionC": "Much",
+      "optionD": "None",
+      "correctOption": "Option A",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q027",
+      "questionText": "We have ___ time 26 left before the train leaves.",
+      "optionA": "several",
+      "optionB": "plenty of",
+      "optionC": "a few",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q028",
+      "questionText": "___ people 27 enjoy the new policy.",
+      "optionA": "None",
+      "optionB": "Much",
+      "optionC": "Every",
+      "optionD": "Most",
+      "correctOption": "Option D",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q029",
+      "questionText": "I ate ___ of the cake 28, not the whole thing.",
+      "optionA": "some",
+      "optionB": "all",
+      "optionC": "every",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q030",
+      "questionText": "There are ___ reasons 29 why we should go.",
+      "optionA": "much",
+      "optionB": "several",
+      "optionC": "any",
+      "optionD": "every",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q031",
+      "questionText": "___ of the students 30 passed the exam. Everyone was happy.",
+      "optionA": "Much",
+      "optionB": "All",
+      "optionC": "None",
+      "optionD": "Some",
+      "correctOption": "Option B",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q032",
+      "questionText": "We have ___ time 31 left before the train leaves.",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "several",
+      "optionD": "plenty of",
+      "correctOption": "Option D",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q033",
+      "questionText": "___ people 32 enjoy the new policy.",
+      "optionA": "None",
+      "optionB": "Every",
+      "optionC": "Much",
+      "optionD": "Most",
+      "correctOption": "Option D",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q034",
+      "questionText": "I ate ___ of the cake 33, not the whole thing.",
+      "optionA": "all",
+      "optionB": "every",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q035",
+      "questionText": "There are ___ reasons 34 why we should go.",
+      "optionA": "every",
+      "optionB": "several",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q036",
+      "questionText": "___ of the students 35 passed the exam. Everyone was happy.",
+      "optionA": "Some",
+      "optionB": "None",
+      "optionC": "All",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q037",
+      "questionText": "We have ___ time 36 left before the train leaves.",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "plenty of",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q038",
+      "questionText": "___ people 37 enjoy the new policy.",
+      "optionA": "None",
+      "optionB": "Every",
+      "optionC": "Much",
+      "optionD": "Most",
+      "correctOption": "Option D",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q039",
+      "questionText": "I ate ___ of the cake 38, not the whole thing.",
+      "optionA": "every",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "all",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q040",
+      "questionText": "There are ___ reasons 39 why we should go.",
+      "optionA": "several",
+      "optionB": "any",
+      "optionC": "every",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q041",
+      "questionText": "___ of the students 40 passed the exam. Everyone was happy.",
+      "optionA": "All",
+      "optionB": "Much",
+      "optionC": "Some",
+      "optionD": "None",
+      "correctOption": "Option A",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q042",
+      "questionText": "We have ___ time 41 left before the train leaves.",
+      "optionA": "many",
+      "optionB": "a few",
+      "optionC": "plenty of",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q043",
+      "questionText": "___ people 42 enjoy the new policy.",
+      "optionA": "Every",
+      "optionB": "None",
+      "optionC": "Most",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q044",
+      "questionText": "I ate ___ of the cake 43, not the whole thing.",
+      "optionA": "all",
+      "optionB": "every",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q045",
+      "questionText": "There are ___ reasons 44 why we should go.",
+      "optionA": "every",
+      "optionB": "much",
+      "optionC": "any",
+      "optionD": "several",
+      "correctOption": "Option D",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q046",
+      "questionText": "___ of the students 45 passed the exam. Everyone was happy.",
+      "optionA": "None",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'All' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q047",
+      "questionText": "We have ___ time 46 left before the train leaves.",
+      "optionA": "many",
+      "optionB": "a few",
+      "optionC": "several",
+      "optionD": "plenty of",
+      "correctOption": "Option D",
+      "explanation": "'plenty of' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q048",
+      "questionText": "___ people 47 enjoy the new policy.",
+      "optionA": "Much",
+      "optionB": "Most",
+      "optionC": "Every",
+      "optionD": "None",
+      "correctOption": "Option B",
+      "explanation": "'Most' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T051-Q049",
+      "questionText": "I ate ___ of the cake 48, not the whole thing.",
+      "optionA": "some",
+      "optionB": "all",
+      "optionC": "many",
+      "optionD": "every",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T051-Q050",
+      "questionText": "There are ___ reasons 49 why we should go.",
+      "optionA": "every",
+      "optionB": "several",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'several' is the correct quantifier for this noun type."
+    }
+  ]
+}

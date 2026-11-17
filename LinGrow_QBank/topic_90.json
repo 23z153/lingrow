@@ -1,0 +1,507 @@
+{
+  "topicId": 90,
+  "topicName": "Simple Present",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T090-Q001",
+      "questionText": "The students _____ a letter on weekends. (1)",
+      "optionA": "writes",
+      "optionB": "wrote",
+      "optionC": "writing",
+      "optionD": "write",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q002",
+      "questionText": "I _____ a letter on weekends. (2)",
+      "optionA": "write",
+      "optionB": "writing",
+      "optionC": "writes",
+      "optionD": "wrote",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q003",
+      "questionText": "You _____ hard on weekends. (3)",
+      "optionA": "worked",
+      "optionB": "working",
+      "optionC": "work",
+      "optionD": "works",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q004",
+      "questionText": "He _____ tennis on weekends. (4)",
+      "optionA": "play",
+      "optionB": "plays",
+      "optionC": "playing",
+      "optionD": "played",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'plays' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q005",
+      "questionText": "The teacher _____ TV on weekends. (5)",
+      "optionA": "watches",
+      "optionB": "watch",
+      "optionC": "watched",
+      "optionD": "watching",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'watches' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q006",
+      "questionText": "We _____ tennis on weekends. (6)",
+      "optionA": "playing",
+      "optionB": "plays",
+      "optionC": "played",
+      "optionD": "play",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'play' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q007",
+      "questionText": "We _____ well on weekends. (7)",
+      "optionA": "sleeps",
+      "optionB": "sleep",
+      "optionC": "sleeping",
+      "optionD": "slept",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'sleep' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q008",
+      "questionText": "You _____ TV on weekends. (8)",
+      "optionA": "watching",
+      "optionB": "watch",
+      "optionC": "watched",
+      "optionD": "watches",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'watch' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q009",
+      "questionText": "We _____ well on weekends. (9)",
+      "optionA": "sleeps",
+      "optionB": "sleeping",
+      "optionC": "sleep",
+      "optionD": "slept",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'sleep' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q010",
+      "questionText": "The teacher _____ tennis on weekends. (10)",
+      "optionA": "playing",
+      "optionB": "played",
+      "optionC": "plays",
+      "optionD": "play",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'plays' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q011",
+      "questionText": "It _____ hard on weekends. (11)",
+      "optionA": "working",
+      "optionB": "works",
+      "optionC": "worked",
+      "optionD": "work",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'works' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q012",
+      "questionText": "They _____ a book on weekends. (12)",
+      "optionA": "reads",
+      "optionB": "read",
+      "optionC": "reading",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'read' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q013",
+      "questionText": "We _____ a book on weekends. (13)",
+      "optionA": "read",
+      "optionB": "reads",
+      "optionC": "read",
+      "optionD": "reading",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'read' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q014",
+      "questionText": "He _____ English on weekends. (14)",
+      "optionA": "study",
+      "optionB": "studying",
+      "optionC": "studies",
+      "optionD": "studied",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'studies' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q015",
+      "questionText": "I _____ hard on weekends. (15)",
+      "optionA": "working",
+      "optionB": "works",
+      "optionC": "worked",
+      "optionD": "work",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q016",
+      "questionText": "He _____ to the park on weekends. (16)",
+      "optionA": "going",
+      "optionB": "go",
+      "optionC": "went",
+      "optionD": "goes",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'goes' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q017",
+      "questionText": "He _____ a book on weekends. (17)",
+      "optionA": "reads",
+      "optionB": "read",
+      "optionC": "reading",
+      "optionD": "read",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'reads' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q018",
+      "questionText": "John _____ a book on weekends. (18)",
+      "optionA": "read",
+      "optionB": "reads",
+      "optionC": "read",
+      "optionD": "reading",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'reads' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q019",
+      "questionText": "You _____ a letter on weekends. (19)",
+      "optionA": "write",
+      "optionB": "writing",
+      "optionC": "writes",
+      "optionD": "wrote",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q020",
+      "questionText": "He _____ an apple on weekends. (20)",
+      "optionA": "eat",
+      "optionB": "eating",
+      "optionC": "ate",
+      "optionD": "eats",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'eats' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q021",
+      "questionText": "She _____ to the park on weekends. (21)",
+      "optionA": "go",
+      "optionB": "going",
+      "optionC": "goes",
+      "optionD": "went",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'goes' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q022",
+      "questionText": "They _____ to music on weekends. (22)",
+      "optionA": "listens",
+      "optionB": "listening",
+      "optionC": "listened",
+      "optionD": "listen",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'listen' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q023",
+      "questionText": "They _____ tennis on weekends. (23)",
+      "optionA": "play",
+      "optionB": "playing",
+      "optionC": "played",
+      "optionD": "plays",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'play' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q024",
+      "questionText": "You _____ hard on weekends. (24)",
+      "optionA": "works",
+      "optionB": "work",
+      "optionC": "worked",
+      "optionD": "working",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q025",
+      "questionText": "Mary _____ an apple on weekends. (25)",
+      "optionA": "ate",
+      "optionB": "eating",
+      "optionC": "eat",
+      "optionD": "eats",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'eats' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q026",
+      "questionText": "I _____ a letter on weekends. (26)",
+      "optionA": "writing",
+      "optionB": "write",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q027",
+      "questionText": "Mary _____ a letter on weekends. (27)",
+      "optionA": "write",
+      "optionB": "writing",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'writes' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q028",
+      "questionText": "I _____ a letter on weekends. (28)",
+      "optionA": "write",
+      "optionB": "writing",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q029",
+      "questionText": "She _____ a book on weekends. (29)",
+      "optionA": "reads",
+      "optionB": "reading",
+      "optionC": "read",
+      "optionD": "read",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'reads' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q030",
+      "questionText": "She _____ a letter on weekends. (30)",
+      "optionA": "write",
+      "optionB": "writing",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'writes' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q031",
+      "questionText": "You _____ tennis on weekends. (31)",
+      "optionA": "played",
+      "optionB": "play",
+      "optionC": "plays",
+      "optionD": "playing",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'play' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q032",
+      "questionText": "You _____ hard on weekends. (32)",
+      "optionA": "worked",
+      "optionB": "works",
+      "optionC": "work",
+      "optionD": "working",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q033",
+      "questionText": "John _____ TV on weekends. (33)",
+      "optionA": "watched",
+      "optionB": "watches",
+      "optionC": "watch",
+      "optionD": "watching",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'watches' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q034",
+      "questionText": "You _____ well on weekends. (34)",
+      "optionA": "sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "sleep",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'sleep' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q035",
+      "questionText": "He _____ well on weekends. (35)",
+      "optionA": "slept",
+      "optionB": "sleep",
+      "optionC": "sleeps",
+      "optionD": "sleeping",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'sleeps' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q036",
+      "questionText": "I _____ English on weekends. (36)",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studied",
+      "optionD": "studying",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'study' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q037",
+      "questionText": "They _____ a book on weekends. (37)",
+      "optionA": "reads",
+      "optionB": "reading",
+      "optionC": "read",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'read' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q038",
+      "questionText": "He _____ English on weekends. (38)",
+      "optionA": "study",
+      "optionB": "studying",
+      "optionC": "studied",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'studies' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q039",
+      "questionText": "We _____ a letter on weekends. (39)",
+      "optionA": "writes",
+      "optionB": "writing",
+      "optionC": "wrote",
+      "optionD": "write",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q040",
+      "questionText": "The teacher _____ well on weekends. (40)",
+      "optionA": "sleep",
+      "optionB": "sleeps",
+      "optionC": "slept",
+      "optionD": "sleeping",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'sleeps' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q041",
+      "questionText": "We _____ to music on weekends. (41)",
+      "optionA": "listens",
+      "optionB": "listened",
+      "optionC": "listen",
+      "optionD": "listening",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'listen' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q042",
+      "questionText": "The students _____ a letter on weekends. (42)",
+      "optionA": "wrote",
+      "optionB": "write",
+      "optionC": "writing",
+      "optionD": "writes",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'write' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q043",
+      "questionText": "They _____ hard on weekends. (43)",
+      "optionA": "worked",
+      "optionB": "working",
+      "optionC": "work",
+      "optionD": "works",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q044",
+      "questionText": "I _____ tennis on weekends. (44)",
+      "optionA": "play",
+      "optionB": "playing",
+      "optionC": "played",
+      "optionD": "plays",
+      "correctOption": "Option A",
+      "explanation": "Simple Present uses 'play' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q045",
+      "questionText": "He _____ hard on weekends. (45)",
+      "optionA": "working",
+      "optionB": "worked",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'works' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q046",
+      "questionText": "She _____ a letter on weekends. (46)",
+      "optionA": "writing",
+      "optionB": "write",
+      "optionC": "wrote",
+      "optionD": "writes",
+      "correctOption": "Option D",
+      "explanation": "Simple Present uses 'writes' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q047",
+      "questionText": "I _____ hard on weekends. (47)",
+      "optionA": "working",
+      "optionB": "works",
+      "optionC": "work",
+      "optionD": "worked",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'work' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q048",
+      "questionText": "The students _____ English on weekends. (48)",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studied",
+      "correctOption": "Option B",
+      "explanation": "Simple Present uses 'study' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q049",
+      "questionText": "It _____ well on weekends. (49)",
+      "optionA": "sleeping",
+      "optionB": "slept",
+      "optionC": "sleeps",
+      "optionD": "sleep",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'sleeps' for regular habits, routines, or general truths."
+    },
+    {
+      "questionId": "T090-Q050",
+      "questionText": "Mary _____ to the park on weekends. (50)",
+      "optionA": "going",
+      "optionB": "go",
+      "optionC": "goes",
+      "optionD": "went",
+      "correctOption": "Option C",
+      "explanation": "Simple Present uses 'goes' for regular habits, routines, or general truths."
+    }
+  ]
+}

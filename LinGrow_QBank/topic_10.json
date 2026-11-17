@@ -1,0 +1,507 @@
+{
+  "topicId": 10,
+  "topicName": "Adjectives",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T010-Q001",
+      "questionText": "The library is a ___ place to study.",
+      "optionA": "quietly",
+      "optionB": "quiet",
+      "optionC": "quietness",
+      "optionD": "quiets",
+      "correctOption": "Option B",
+      "explanation": "'quiet' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q002",
+      "questionText": "Professor Lee gave a ___ lecture today.",
+      "optionA": "length",
+      "optionB": "long",
+      "optionC": "lengthen",
+      "optionD": "longly",
+      "correctOption": "Option B",
+      "explanation": "'long' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q003",
+      "questionText": "The final exam is very ___.",
+      "optionA": "difficulty",
+      "optionB": "difficult",
+      "optionC": "difficultly",
+      "optionD": "difficulties",
+      "correctOption": "Option B",
+      "explanation": "'difficult' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q004",
+      "questionText": "The university campus is ___.",
+      "optionA": "beautiful",
+      "optionB": "beauty",
+      "optionC": "beautifully",
+      "optionD": "beautify",
+      "correctOption": "Option A",
+      "explanation": "'beautiful' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q005",
+      "questionText": "We need a ___ room for the club meeting.",
+      "optionA": "large",
+      "optionB": "largely",
+      "optionC": "largeness",
+      "optionD": "largerly",
+      "correctOption": "Option A",
+      "explanation": "'large' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q006",
+      "questionText": "The science lab has ___ computers.",
+      "optionA": "fastly",
+      "optionB": "fastness",
+      "optionC": "fasting",
+      "optionD": "fast",
+      "correctOption": "Option D",
+      "explanation": "'fast' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q007",
+      "questionText": "She is a ___ student.",
+      "optionA": "smartly",
+      "optionB": "smartness",
+      "optionC": "smart",
+      "optionD": "smarts",
+      "correctOption": "Option C",
+      "explanation": "'smart' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q008",
+      "questionText": "The new textbook is very ___.",
+      "optionA": "heavy",
+      "optionB": "heavily",
+      "optionC": "heaviness",
+      "optionD": "heaves",
+      "correctOption": "Option A",
+      "explanation": "'heavy' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q009",
+      "questionText": "He wrote an ___ essay.",
+      "optionA": "excellently",
+      "optionB": "excellence",
+      "optionC": "excellent",
+      "optionD": "excel",
+      "correctOption": "Option C",
+      "explanation": "'excellent' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q010",
+      "questionText": "The dining hall is always ___ at noon.",
+      "optionA": "noisily",
+      "optionB": "noisy",
+      "optionC": "noise",
+      "optionD": "noises",
+      "correctOption": "Option B",
+      "explanation": "'noisy' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q011",
+      "questionText": "I have a ___ schedule this semester.",
+      "optionA": "busily",
+      "optionB": "business",
+      "optionC": "busy",
+      "optionD": "busies",
+      "correctOption": "Option C",
+      "explanation": "'busy' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q012",
+      "questionText": "The classroom has ___ windows.",
+      "optionA": "bigly",
+      "optionB": "big",
+      "optionC": "bigness",
+      "optionD": "biggerly",
+      "correctOption": "Option B",
+      "explanation": "'big' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q013",
+      "questionText": "Our chemistry professor is very ___.",
+      "optionA": "strict",
+      "optionB": "strictly",
+      "optionC": "strictness",
+      "optionD": "stricts",
+      "correctOption": "Option A",
+      "explanation": "'strict' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q014",
+      "questionText": "This is a ___ course for freshmen.",
+      "optionA": "useful",
+      "optionB": "usefully",
+      "optionC": "usefulness",
+      "optionD": "uses",
+      "correctOption": "Option A",
+      "explanation": "'useful' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q015",
+      "questionText": "The biology book is ___.",
+      "optionA": "thickly",
+      "optionB": "thickness",
+      "optionC": "thicks",
+      "optionD": "thick",
+      "correctOption": "Option D",
+      "explanation": "'thick' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q016",
+      "questionText": "She carries a ___ bag to class.",
+      "optionA": "smally",
+      "optionB": "smallness",
+      "optionC": "smallerly",
+      "optionD": "small",
+      "correctOption": "Option D",
+      "explanation": "'small' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q017",
+      "questionText": "The math problem was very ___.",
+      "optionA": "easy",
+      "optionB": "easily",
+      "optionC": "easiness",
+      "optionD": "eases",
+      "correctOption": "Option A",
+      "explanation": "'easy' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q018",
+      "questionText": "We watched an ___ video in history class.",
+      "optionA": "interest",
+      "optionB": "interesting",
+      "optionC": "interestingly",
+      "optionD": "interestedly",
+      "correctOption": "Option B",
+      "explanation": "'interesting' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q019",
+      "questionText": "The student union is a ___ building.",
+      "optionA": "newly",
+      "optionB": "newness",
+      "optionC": "new",
+      "optionD": "news",
+      "correctOption": "Option C",
+      "explanation": "'new' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q020",
+      "questionText": "Her presentation was ___.",
+      "optionA": "clear",
+      "optionB": "clearly",
+      "optionC": "clearness",
+      "optionD": "clears",
+      "correctOption": "Option A",
+      "explanation": "'clear' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q021",
+      "questionText": "He is a ___ speaker.",
+      "optionA": "loudly",
+      "optionB": "loudness",
+      "optionC": "louds",
+      "optionD": "loud",
+      "correctOption": "Option D",
+      "explanation": "'loud' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q022",
+      "questionText": "The history exam was ___.",
+      "optionA": "shortly",
+      "optionB": "short",
+      "optionC": "shortness",
+      "optionD": "shorts",
+      "correctOption": "Option B",
+      "explanation": "'short' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q023",
+      "questionText": "They are doing a ___ project.",
+      "optionA": "hardly",
+      "optionB": "hardness",
+      "optionC": "hard",
+      "optionD": "hards",
+      "correctOption": "Option C",
+      "explanation": "'hard' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q024",
+      "questionText": "The cafeteria food is ___.",
+      "optionA": "badly",
+      "optionB": "badness",
+      "optionC": "bads",
+      "optionD": "bad",
+      "correctOption": "Option D",
+      "explanation": "'bad' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q025",
+      "questionText": "She gave a ___ answer in class.",
+      "optionA": "correctly",
+      "optionB": "correctness",
+      "optionC": "corrects",
+      "optionD": "correct",
+      "correctOption": "Option D",
+      "explanation": "'correct' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q026",
+      "questionText": "The weather on campus is ___ today.",
+      "optionA": "coldly",
+      "optionB": "coldness",
+      "optionC": "cold",
+      "optionD": "colds",
+      "correctOption": "Option C",
+      "explanation": "'cold' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q027",
+      "questionText": "We need ___ chairs for the lecture hall.",
+      "optionA": "extraly",
+      "optionB": "extras",
+      "optionC": "extra",
+      "optionD": "extraing",
+      "correctOption": "Option C",
+      "explanation": "'extra' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q028",
+      "questionText": "The library rules are ___.",
+      "optionA": "simply",
+      "optionB": "simple",
+      "optionC": "simpleness",
+      "optionD": "simples",
+      "correctOption": "Option B",
+      "explanation": "'simple' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q029",
+      "questionText": "He is a ___ friend.",
+      "optionA": "well",
+      "optionB": "good",
+      "optionC": "goodness",
+      "optionD": "goods",
+      "correctOption": "Option B",
+      "explanation": "'good' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q030",
+      "questionText": "The art class is ___.",
+      "optionA": "funny",
+      "optionB": "funnily",
+      "optionC": "funs",
+      "optionD": "fun",
+      "correctOption": "Option D",
+      "explanation": "'fun' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q031",
+      "questionText": "I need a ___ pen for the test.",
+      "optionA": "redly",
+      "optionB": "redness",
+      "optionC": "reds",
+      "optionD": "red",
+      "correctOption": "Option D",
+      "explanation": "'red' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q032",
+      "questionText": "The university has a ___ library.",
+      "optionA": "modernly",
+      "optionB": "modernize",
+      "optionC": "modern",
+      "optionD": "modernization",
+      "correctOption": "Option C",
+      "explanation": "'modern' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q033",
+      "questionText": "Her voice is very ___.",
+      "optionA": "softly",
+      "optionB": "softness",
+      "optionC": "soft",
+      "optionD": "softs",
+      "correctOption": "Option C",
+      "explanation": "'soft' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q034",
+      "questionText": "They walk on the ___ path to the dorm.",
+      "optionA": "widely",
+      "optionB": "wideness",
+      "optionC": "widens",
+      "optionD": "wide",
+      "correctOption": "Option D",
+      "explanation": "'wide' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q035",
+      "questionText": "The economics test was ___.",
+      "optionA": "terribly",
+      "optionB": "terrible",
+      "optionC": "terribleness",
+      "optionD": "terribles",
+      "correctOption": "Option B",
+      "explanation": "'terrible' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q036",
+      "questionText": "He wore a ___ shirt to the presentation.",
+      "optionA": "cleanly",
+      "optionB": "cleanness",
+      "optionC": "cleans",
+      "optionD": "clean",
+      "correctOption": "Option D",
+      "explanation": "'clean' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q037",
+      "questionText": "The dormitory rooms are ___.",
+      "optionA": "tinily",
+      "optionB": "tininess",
+      "optionC": "tinys",
+      "optionD": "tiny",
+      "correctOption": "Option D",
+      "explanation": "'tiny' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q038",
+      "questionText": "She has a ___ idea for the essay.",
+      "optionA": "great",
+      "optionB": "greatly",
+      "optionC": "greatness",
+      "optionD": "greats",
+      "correctOption": "Option A",
+      "explanation": "'great' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q039",
+      "questionText": "The sports field is ___.",
+      "optionA": "greenly",
+      "optionB": "greenness",
+      "optionC": "green",
+      "optionD": "greens",
+      "correctOption": "Option C",
+      "explanation": "'green' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q040",
+      "questionText": "We took a ___ break between classes.",
+      "optionA": "quickly",
+      "optionB": "quickness",
+      "optionC": "quick",
+      "optionD": "quicks",
+      "correctOption": "Option C",
+      "explanation": "'quick' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q041",
+      "questionText": "The foreign exchange student is ___.",
+      "optionA": "friendly",
+      "optionB": "friend",
+      "optionC": "friendliness",
+      "optionD": "friendless",
+      "correctOption": "Option A",
+      "explanation": "'friendly' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q042",
+      "questionText": "I read a ___ article for my research.",
+      "optionA": "recently",
+      "optionB": "recentness",
+      "optionC": "recent",
+      "optionD": "recents",
+      "correctOption": "Option C",
+      "explanation": "'recent' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q043",
+      "questionText": "The college tuition is ___.",
+      "optionA": "high",
+      "optionB": "highly",
+      "optionC": "highness",
+      "optionD": "highs",
+      "correctOption": "Option A",
+      "explanation": "'high' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q044",
+      "questionText": "The students are ___ before the exam.",
+      "optionA": "nervous",
+      "optionB": "nervously",
+      "optionC": "nervousness",
+      "optionD": "nerves",
+      "correctOption": "Option A",
+      "explanation": "'nervous' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q045",
+      "questionText": "She bought a ___ laptop.",
+      "optionA": "cheaply",
+      "optionB": "cheap",
+      "optionC": "cheapness",
+      "optionD": "cheaps",
+      "correctOption": "Option B",
+      "explanation": "'cheap' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q046",
+      "questionText": "The campus map is ___.",
+      "optionA": "helpfully",
+      "optionB": "helpful",
+      "optionC": "helpfulness",
+      "optionD": "helps",
+      "correctOption": "Option B",
+      "explanation": "'helpful' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q047",
+      "questionText": "We study in a ___ room.",
+      "optionA": "brightly",
+      "optionB": "bright",
+      "optionC": "brightness",
+      "optionD": "brights",
+      "correctOption": "Option B",
+      "explanation": "'bright' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q048",
+      "questionText": "His handwriting is ___.",
+      "optionA": "neat",
+      "optionB": "neatly",
+      "optionC": "neatness",
+      "optionD": "neats",
+      "correctOption": "Option A",
+      "explanation": "'neat' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q049",
+      "questionText": "The professor has a ___ office.",
+      "optionA": "cozy",
+      "optionB": "cozily",
+      "optionC": "coziness",
+      "optionD": "cozys",
+      "correctOption": "Option A",
+      "explanation": "'cozy' is an adjective because it describes or modifies a noun."
+    },
+    {
+      "questionId": "T010-Q050",
+      "questionText": "The study group is ___.",
+      "optionA": "actively",
+      "optionB": "activeness",
+      "optionC": "actives",
+      "optionD": "active",
+      "correctOption": "Option D",
+      "explanation": "'active' is an adjective because it describes or modifies a noun."
+    }
+  ]
+}

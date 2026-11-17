@@ -1,0 +1,507 @@
+{
+  "topicId": 142,
+  "topicName": "Haven't/hasn't/hadn't",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T142-Q001",
+      "questionText": "David ___ finished the assignment. (Variant 1)",
+      "optionA": "haven't",
+      "optionB": "hasn't",
+      "optionC": "doesn't",
+      "optionD": "hadn't",
+      "correctOption": "Option B",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q002",
+      "questionText": "By the time we arrived, they ___ left. (Variant 2)",
+      "optionA": "hasn't",
+      "optionB": "hadn't",
+      "optionC": "haven't",
+      "optionD": "didn't",
+      "correctOption": "Option B",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q003",
+      "questionText": "We ___ been to Paris before. (Variant 3)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "hasn't",
+      "optionD": "weren't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q004",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 4)",
+      "optionA": "She didn't gone.",
+      "optionB": "She hasn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She hadn't gone.",
+      "correctOption": "Option B",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q005",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 5)",
+      "optionA": "haven't",
+      "optionB": "hasn't",
+      "optionC": "hadn't",
+      "optionD": "didn't",
+      "correctOption": "Option A",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q006",
+      "questionText": "John ___ finished the assignment. (Variant 6)",
+      "optionA": "hasn't",
+      "optionB": "doesn't",
+      "optionC": "hadn't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q007",
+      "questionText": "By the time we arrived, they ___ left. (Variant 7)",
+      "optionA": "hasn't",
+      "optionB": "didn't",
+      "optionC": "haven't",
+      "optionD": "hadn't",
+      "correctOption": "Option D",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q008",
+      "questionText": "We ___ been to Paris before. (Variant 8)",
+      "optionA": "weren't",
+      "optionB": "haven't",
+      "optionC": "hadn't",
+      "optionD": "hasn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q009",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 9)",
+      "optionA": "She isn't gone.",
+      "optionB": "She hasn't gone.",
+      "optionC": "She hadn't gone.",
+      "optionD": "She didn't gone.",
+      "correctOption": "Option B",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q010",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 10)",
+      "optionA": "didn't",
+      "optionB": "hasn't",
+      "optionC": "haven't",
+      "optionD": "hadn't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q011",
+      "questionText": "Anna ___ finished the assignment. (Variant 11)",
+      "optionA": "haven't",
+      "optionB": "hadn't",
+      "optionC": "hasn't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q012",
+      "questionText": "By the time we arrived, they ___ left. (Variant 12)",
+      "optionA": "haven't",
+      "optionB": "didn't",
+      "optionC": "hadn't",
+      "optionD": "hasn't",
+      "correctOption": "Option C",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q013",
+      "questionText": "We ___ been to Paris before. (Variant 13)",
+      "optionA": "hadn't",
+      "optionB": "weren't",
+      "optionC": "haven't",
+      "optionD": "hasn't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q014",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 14)",
+      "optionA": "She hasn't gone.",
+      "optionB": "She hadn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She didn't gone.",
+      "correctOption": "Option A",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q015",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 15)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "hasn't",
+      "optionD": "didn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q016",
+      "questionText": "Anna ___ finished the assignment. (Variant 16)",
+      "optionA": "haven't",
+      "optionB": "doesn't",
+      "optionC": "hadn't",
+      "optionD": "hasn't",
+      "correctOption": "Option D",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q017",
+      "questionText": "By the time we arrived, they ___ left. (Variant 17)",
+      "optionA": "haven't",
+      "optionB": "hasn't",
+      "optionC": "hadn't",
+      "optionD": "didn't",
+      "correctOption": "Option C",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q018",
+      "questionText": "We ___ been to Paris before. (Variant 18)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "weren't",
+      "optionD": "hasn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q019",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 19)",
+      "optionA": "She hadn't gone.",
+      "optionB": "She hasn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She didn't gone.",
+      "correctOption": "Option B",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q020",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 20)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "didn't",
+      "optionD": "hasn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q021",
+      "questionText": "David ___ finished the assignment. (Variant 21)",
+      "optionA": "hadn't",
+      "optionB": "doesn't",
+      "optionC": "hasn't",
+      "optionD": "haven't",
+      "correctOption": "Option C",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q022",
+      "questionText": "By the time we arrived, they ___ left. (Variant 22)",
+      "optionA": "hadn't",
+      "optionB": "didn't",
+      "optionC": "hasn't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q023",
+      "questionText": "We ___ been to Paris before. (Variant 23)",
+      "optionA": "weren't",
+      "optionB": "hasn't",
+      "optionC": "hadn't",
+      "optionD": "haven't",
+      "correctOption": "Option D",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q024",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 24)",
+      "optionA": "She didn't gone.",
+      "optionB": "She hasn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She hadn't gone.",
+      "correctOption": "Option B",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q025",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 25)",
+      "optionA": "didn't",
+      "optionB": "haven't",
+      "optionC": "hadn't",
+      "optionD": "hasn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q026",
+      "questionText": "His brother ___ finished the assignment. (Variant 26)",
+      "optionA": "hadn't",
+      "optionB": "hasn't",
+      "optionC": "doesn't",
+      "optionD": "haven't",
+      "correctOption": "Option B",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q027",
+      "questionText": "By the time we arrived, they ___ left. (Variant 27)",
+      "optionA": "hasn't",
+      "optionB": "hadn't",
+      "optionC": "didn't",
+      "optionD": "haven't",
+      "correctOption": "Option B",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q028",
+      "questionText": "We ___ been to Paris before. (Variant 28)",
+      "optionA": "weren't",
+      "optionB": "hadn't",
+      "optionC": "hasn't",
+      "optionD": "haven't",
+      "correctOption": "Option D",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q029",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 29)",
+      "optionA": "She hadn't gone.",
+      "optionB": "She didn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She hasn't gone.",
+      "correctOption": "Option D",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q030",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 30)",
+      "optionA": "didn't",
+      "optionB": "hadn't",
+      "optionC": "haven't",
+      "optionD": "hasn't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q031",
+      "questionText": "The student ___ finished the assignment. (Variant 31)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "hasn't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q032",
+      "questionText": "By the time we arrived, they ___ left. (Variant 32)",
+      "optionA": "haven't",
+      "optionB": "didn't",
+      "optionC": "hasn't",
+      "optionD": "hadn't",
+      "correctOption": "Option D",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q033",
+      "questionText": "We ___ been to Paris before. (Variant 33)",
+      "optionA": "weren't",
+      "optionB": "haven't",
+      "optionC": "hasn't",
+      "optionD": "hadn't",
+      "correctOption": "Option B",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q034",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 34)",
+      "optionA": "She didn't gone.",
+      "optionB": "She hasn't gone.",
+      "optionC": "She isn't gone.",
+      "optionD": "She hadn't gone.",
+      "correctOption": "Option B",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q035",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 35)",
+      "optionA": "didn't",
+      "optionB": "hasn't",
+      "optionC": "haven't",
+      "optionD": "hadn't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q036",
+      "questionText": "My friend ___ finished the assignment. (Variant 36)",
+      "optionA": "haven't",
+      "optionB": "hasn't",
+      "optionC": "doesn't",
+      "optionD": "hadn't",
+      "correctOption": "Option B",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q037",
+      "questionText": "By the time we arrived, they ___ left. (Variant 37)",
+      "optionA": "hadn't",
+      "optionB": "hasn't",
+      "optionC": "haven't",
+      "optionD": "didn't",
+      "correctOption": "Option A",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q038",
+      "questionText": "We ___ been to Paris before. (Variant 38)",
+      "optionA": "hasn't",
+      "optionB": "hadn't",
+      "optionC": "haven't",
+      "optionD": "weren't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q039",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 39)",
+      "optionA": "She hasn't gone.",
+      "optionB": "She isn't gone.",
+      "optionC": "She hadn't gone.",
+      "optionD": "She didn't gone.",
+      "correctOption": "Option A",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q040",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 40)",
+      "optionA": "haven't",
+      "optionB": "hadn't",
+      "optionC": "didn't",
+      "optionD": "hasn't",
+      "correctOption": "Option A",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q041",
+      "questionText": "David ___ finished the assignment. (Variant 41)",
+      "optionA": "hasn't",
+      "optionB": "doesn't",
+      "optionC": "hadn't",
+      "optionD": "haven't",
+      "correctOption": "Option A",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q042",
+      "questionText": "By the time we arrived, they ___ left. (Variant 42)",
+      "optionA": "hadn't",
+      "optionB": "haven't",
+      "optionC": "didn't",
+      "optionD": "hasn't",
+      "correctOption": "Option A",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q043",
+      "questionText": "We ___ been to Paris before. (Variant 43)",
+      "optionA": "hadn't",
+      "optionB": "weren't",
+      "optionC": "haven't",
+      "optionD": "hasn't",
+      "correctOption": "Option C",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q044",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 44)",
+      "optionA": "She hadn't gone.",
+      "optionB": "She isn't gone.",
+      "optionC": "She didn't gone.",
+      "optionD": "She hasn't gone.",
+      "correctOption": "Option D",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q045",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 45)",
+      "optionA": "didn't",
+      "optionB": "hasn't",
+      "optionC": "hadn't",
+      "optionD": "haven't",
+      "correctOption": "Option D",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q046",
+      "questionText": "Sarah ___ finished the assignment. (Variant 46)",
+      "optionA": "haven't",
+      "optionB": "doesn't",
+      "optionC": "hadn't",
+      "optionD": "hasn't",
+      "correctOption": "Option D",
+      "explanation": "'hasn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q047",
+      "questionText": "By the time we arrived, they ___ left. (Variant 47)",
+      "optionA": "hadn't",
+      "optionB": "didn't",
+      "optionC": "haven't",
+      "optionD": "hasn't",
+      "correctOption": "Option A",
+      "explanation": "'hadn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q048",
+      "questionText": "We ___ been to Paris before. (Variant 48)",
+      "optionA": "haven't",
+      "optionB": "hadn't",
+      "optionC": "hasn't",
+      "optionD": "weren't",
+      "correctOption": "Option A",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q049",
+      "questionText": "Choose the error: 'She haven't gone.' (Correction:) (Variant 49)",
+      "optionA": "She hadn't gone.",
+      "optionB": "She isn't gone.",
+      "optionC": "She didn't gone.",
+      "optionD": "She hasn't gone.",
+      "correctOption": "Option D",
+      "explanation": "'She hasn't gone' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T142-Q050",
+      "questionText": "Complete: I ___ seen that movie yet. (Variant 50)",
+      "optionA": "hasn't",
+      "optionB": "hadn't",
+      "optionC": "didn't",
+      "optionD": "haven't",
+      "correctOption": "Option D",
+      "explanation": "'haven't' is the correct choice in standard English grammar."
+    }
+  ]
+}

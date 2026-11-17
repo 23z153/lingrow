@@ -1,0 +1,507 @@
+{
+  "topicId": 37,
+  "topicName": "Interrogative pronouns",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T037-Q001",
+      "questionText": "___ is calling outside?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q002",
+      "questionText": "With ___ were you calling?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q003",
+      "questionText": "___ shoes are you wearing for calling?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q004",
+      "questionText": "___ calling technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option D",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q005",
+      "questionText": "___ caused the calling?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option A",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q006",
+      "questionText": "___ is singing outside?",
+      "optionA": "Whom",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q007",
+      "questionText": "With ___ were you singing?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "whom",
+      "optionD": "which",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q008",
+      "questionText": "___ shoes are you wearing for singing?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option D",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q009",
+      "questionText": "___ singing technique do you prefer, A or B?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q010",
+      "questionText": "___ caused the singing?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option B",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q011",
+      "questionText": "___ is crying outside?",
+      "optionA": "Whom",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q012",
+      "questionText": "With ___ were you crying?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "which",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q013",
+      "questionText": "___ shoes are you wearing for crying?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q014",
+      "questionText": "___ crying technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q015",
+      "questionText": "___ caused the crying?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Whom",
+      "correctOption": "Option C",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q016",
+      "questionText": "___ is talking outside?",
+      "optionA": "Whom",
+      "optionB": "Whose",
+      "optionC": "Which",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q017",
+      "questionText": "With ___ were you talking?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q018",
+      "questionText": "___ shoes are you wearing for talking?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q019",
+      "questionText": "___ talking technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q020",
+      "questionText": "___ caused the talking?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option D",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q021",
+      "questionText": "___ is laughing outside?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q022",
+      "questionText": "With ___ were you laughing?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q023",
+      "questionText": "___ shoes are you wearing for laughing?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q024",
+      "questionText": "___ laughing technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option D",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q025",
+      "questionText": "___ caused the laughing?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option A",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q026",
+      "questionText": "___ is shouting outside?",
+      "optionA": "Whom",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q027",
+      "questionText": "With ___ were you shouting?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "whom",
+      "optionD": "which",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q028",
+      "questionText": "___ shoes are you wearing for shouting?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option D",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q029",
+      "questionText": "___ shouting technique do you prefer, A or B?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q030",
+      "questionText": "___ caused the shouting?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option B",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q031",
+      "questionText": "___ is running outside?",
+      "optionA": "Whom",
+      "optionB": "Whose",
+      "optionC": "Who",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q032",
+      "questionText": "With ___ were you running?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "which",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q033",
+      "questionText": "___ shoes are you wearing for running?",
+      "optionA": "Whose",
+      "optionB": "Who",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q034",
+      "questionText": "___ running technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q035",
+      "questionText": "___ caused the running?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Whom",
+      "correctOption": "Option C",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q036",
+      "questionText": "___ is waiting outside?",
+      "optionA": "Whom",
+      "optionB": "Whose",
+      "optionC": "Which",
+      "optionD": "Who",
+      "correctOption": "Option D",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q037",
+      "questionText": "With ___ were you waiting?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q038",
+      "questionText": "___ shoes are you wearing for waiting?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q039",
+      "questionText": "___ waiting technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q040",
+      "questionText": "___ caused the waiting?",
+      "optionA": "Who",
+      "optionB": "Which",
+      "optionC": "Whom",
+      "optionD": "What",
+      "correctOption": "Option D",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q041",
+      "questionText": "___ is knocking outside?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q042",
+      "questionText": "With ___ were you knocking?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q043",
+      "questionText": "___ shoes are you wearing for knocking?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q044",
+      "questionText": "___ knocking technique do you prefer, A or B?",
+      "optionA": "Who",
+      "optionB": "Whose",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option D",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q045",
+      "questionText": "___ caused the knocking?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option A",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q046",
+      "questionText": "___ is playing outside?",
+      "optionA": "Whom",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "'Who' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q047",
+      "questionText": "With ___ were you playing?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "whom",
+      "optionD": "which",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q048",
+      "questionText": "___ shoes are you wearing for playing?",
+      "optionA": "Who",
+      "optionB": "Whom",
+      "optionC": "What",
+      "optionD": "Whose",
+      "correctOption": "Option D",
+      "explanation": "'Whose' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q049",
+      "questionText": "___ playing technique do you prefer, A or B?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Whose",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "'Which' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T037-Q050",
+      "questionText": "___ caused the playing?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "Whom",
+      "correctOption": "Option B",
+      "explanation": "'What' is the correct choice in standard English grammar."
+    }
+  ]
+}

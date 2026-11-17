@@ -1,0 +1,507 @@
+{
+  "topicId": 235,
+  "topicName": "Be-verb errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T235-Q001",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 1)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "The students am studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "She is a professor.",
+      "correctOption": "Option D",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q002",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 2)",
+      "optionA": "She is a professor.",
+      "optionB": "The students am studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option A",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q003",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 3)",
+      "optionA": "The students am studying.",
+      "optionB": "She am a professor.",
+      "optionC": "She am a professor.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q004",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 4)",
+      "optionA": "The students am studying.",
+      "optionB": "The students is studying.",
+      "optionC": "I am attending the lecture.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option C",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q005",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 5)",
+      "optionA": "The students are studying.",
+      "optionB": "She am a professor.",
+      "optionC": "The students is studying.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q006",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 6)",
+      "optionA": "The students are studying.",
+      "optionB": "The students am studying.",
+      "optionC": "The students is studying.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q007",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 7)",
+      "optionA": "I am attending the lecture.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "She am a professor.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option A",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q008",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 8)",
+      "optionA": "The students am studying.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "The students is studying.",
+      "optionD": "I am attending the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q009",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 9)",
+      "optionA": "The students is studying.",
+      "optionB": "The students am studying.",
+      "optionC": "I am attending the lecture.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option C",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q010",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 10)",
+      "optionA": "She am a professor.",
+      "optionB": "The students are studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option B",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q011",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 11)",
+      "optionA": "The students are studying.",
+      "optionB": "The students am studying.",
+      "optionC": "She am a professor.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q012",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 12)",
+      "optionA": "She am a professor.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "She am a professor.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q013",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 13)",
+      "optionA": "The students is studying.",
+      "optionB": "The students are studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q014",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 14)",
+      "optionA": "She am a professor.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "The students is studying.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q015",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 15)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "She am a professor.",
+      "optionC": "The students is studying.",
+      "optionD": "She is a professor.",
+      "correctOption": "Option D",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q016",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 16)",
+      "optionA": "She am a professor.",
+      "optionB": "The students am studying.",
+      "optionC": "I am attending the lecture.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option C",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q017",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 17)",
+      "optionA": "She am a professor.",
+      "optionB": "She am a professor.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q018",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 18)",
+      "optionA": "She am a professor.",
+      "optionB": "The students is studying.",
+      "optionC": "The students am studying.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q019",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 19)",
+      "optionA": "She is a professor.",
+      "optionB": "The students am studying.",
+      "optionC": "She am a professor.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option A",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q020",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 20)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "The students is studying.",
+      "optionC": "She is a professor.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option C",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q021",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 21)",
+      "optionA": "The students am studying.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "The students am studying.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q022",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 22)",
+      "optionA": "The students am studying.",
+      "optionB": "The students is studying.",
+      "optionC": "The students am studying.",
+      "optionD": "She is a professor.",
+      "correctOption": "Option D",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q023",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 23)",
+      "optionA": "The students am studying.",
+      "optionB": "The students am studying.",
+      "optionC": "The students am studying.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q024",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 24)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "She is a professor.",
+      "optionC": "She am a professor.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q025",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 25)",
+      "optionA": "The students are studying.",
+      "optionB": "The students am studying.",
+      "optionC": "The students am studying.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q026",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 26)",
+      "optionA": "She am a professor.",
+      "optionB": "She am a professor.",
+      "optionC": "The students are studying.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option C",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q027",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 27)",
+      "optionA": "She am a professor.",
+      "optionB": "She is a professor.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q028",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 28)",
+      "optionA": "She is a professor.",
+      "optionB": "The students am studying.",
+      "optionC": "The students is studying.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q029",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 29)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "The students is studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q030",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 30)",
+      "optionA": "She am a professor.",
+      "optionB": "The students am studying.",
+      "optionC": "The students are studying.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option C",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q031",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 31)",
+      "optionA": "She am a professor.",
+      "optionB": "She is a professor.",
+      "optionC": "She am a professor.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q032",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 32)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "The students am studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "I am attending the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q033",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 33)",
+      "optionA": "The students is studying.",
+      "optionB": "She am a professor.",
+      "optionC": "I am attending the lecture.",
+      "optionD": "I are attending the lecture.",
+      "correctOption": "Option C",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q034",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 34)",
+      "optionA": "I are attending the lecture.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "The students are studying.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option C",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q035",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 35)",
+      "optionA": "She am a professor.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "She is a professor.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option C",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q036",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 36)",
+      "optionA": "She am a professor.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "The students are studying.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option C",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q037",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 37)",
+      "optionA": "The students am studying.",
+      "optionB": "The students am studying.",
+      "optionC": "The students am studying.",
+      "optionD": "She is a professor.",
+      "correctOption": "Option D",
+      "explanation": "'She is a professor' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q038",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 38)",
+      "optionA": "She am a professor.",
+      "optionB": "The students are studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q039",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 39)",
+      "optionA": "I am attending the lecture.",
+      "optionB": "She am a professor.",
+      "optionC": "The students is studying.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q040",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 40)",
+      "optionA": "The students is studying.",
+      "optionB": "I are attending the lecture.",
+      "optionC": "She am a professor.",
+      "optionD": "I am attending the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q041",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 41)",
+      "optionA": "The students am studying.",
+      "optionB": "The students am studying.",
+      "optionC": "She am a professor.",
+      "optionD": "I am attending the lecture.",
+      "correctOption": "Option D",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q042",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 42)",
+      "optionA": "The students am studying.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "She am a professor.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q043",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 43)",
+      "optionA": "I am attending the lecture.",
+      "optionB": "The students is studying.",
+      "optionC": "She am a professor.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q044",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 44)",
+      "optionA": "The students are studying.",
+      "optionB": "She am a professor.",
+      "optionC": "She am a professor.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q045",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 45)",
+      "optionA": "The students is studying.",
+      "optionB": "The students are studying.",
+      "optionC": "The students is studying.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q046",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 46)",
+      "optionA": "I am attending the lecture.",
+      "optionB": "She am a professor.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option A",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q047",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 47)",
+      "optionA": "The students is studying.",
+      "optionB": "The students is studying.",
+      "optionC": "The students is studying.",
+      "optionD": "The students are studying.",
+      "correctOption": "Option D",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q048",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 48)",
+      "optionA": "The students is studying.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "The students is studying.",
+      "optionD": "The students is studying.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q049",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 49)",
+      "optionA": "She am a professor.",
+      "optionB": "I am attending the lecture.",
+      "optionC": "The students am studying.",
+      "optionD": "She am a professor.",
+      "correctOption": "Option B",
+      "explanation": "'I am attending the lecture' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T235-Q050",
+      "questionText": "Identify the sentence with the correct be-verb usage. (Question 50)",
+      "optionA": "The students are studying.",
+      "optionB": "The students am studying.",
+      "optionC": "I are attending the lecture.",
+      "optionD": "The students am studying.",
+      "correctOption": "Option A",
+      "explanation": "'The students are studying' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

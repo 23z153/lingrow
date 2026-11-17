@@ -1,0 +1,507 @@
+{
+  "topicId": 164,
+  "topicName": "And",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T164-Q001",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q002",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "although",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q003",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "yet",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q004",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q005",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "if",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q006",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "although",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q007",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "so",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "yet",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q008",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q009",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "and",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q010",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q011",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "but",
+      "optionB": "yet",
+      "optionC": "so",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q012",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q013",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q014",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q015",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "and",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q016",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q017",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "if",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q018",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "although",
+      "optionC": "but",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q019",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "yet",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q020",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q021",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "if",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q022",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "although",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q023",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q024",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q025",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "but",
+      "optionB": "if",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q026",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "although",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q027",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "yet",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q028",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q029",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q030",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "but",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q031",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "so",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "yet",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q032",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "because",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q033",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "if",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q034",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "but",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q035",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "so",
+      "optionB": "yet",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q036",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q037",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q038",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q039",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "yet",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q040",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option D",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q041",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "so",
+      "optionB": "if",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q042",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "but",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q043",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "yet",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q044",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "so",
+      "optionB": "and",
+      "optionC": "because",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q045",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q046",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "and",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "but",
+      "correctOption": "Option A",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q047",
+      "questionText": "He bought a pen ___ a notebook.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q048",
+      "questionText": "I like apples ___ bananas.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "and",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q049",
+      "questionText": "She opened the door ___ walked in.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option C",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T164-Q050",
+      "questionText": "The car is fast ___ reliable.",
+      "optionA": "although",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option B",
+      "explanation": "'and' is the correct choice in standard English grammar."
+    }
+  ]
+}

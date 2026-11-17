@@ -1,0 +1,507 @@
+{
+  "topicId": 197,
+  "topicName": "Gerund after preposition",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T197-Q001",
+      "questionText": "She is interested in ___ a new language. (Variant 1)",
+      "optionA": "learning",
+      "optionB": "learned",
+      "optionC": "learn",
+      "optionD": "to learn",
+      "correctOption": "Option A",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q002",
+      "questionText": "They apologized for ___ late. (Variant 2)",
+      "optionA": "been",
+      "optionB": "being",
+      "optionC": "to be",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q003",
+      "questionText": "He is afraid of ___ mistakes. (Variant 3)",
+      "optionA": "to make",
+      "optionB": "made",
+      "optionC": "making",
+      "optionD": "make",
+      "correctOption": "Option C",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q004",
+      "questionText": "We are looking forward to ___ you. (Variant 4)",
+      "optionA": "seen",
+      "optionB": "saw",
+      "optionC": "see",
+      "optionD": "seeing",
+      "correctOption": "Option D",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q005",
+      "questionText": "I'm thinking about ___ a new car. (Variant 5)",
+      "optionA": "buying",
+      "optionB": "bought",
+      "optionC": "buy",
+      "optionD": "to buy",
+      "correctOption": "Option A",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q006",
+      "questionText": "She is interested in ___ a new language. (Variant 6)",
+      "optionA": "to learn",
+      "optionB": "learning",
+      "optionC": "learned",
+      "optionD": "learn",
+      "correctOption": "Option B",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q007",
+      "questionText": "They apologized for ___ late. (Variant 7)",
+      "optionA": "to be",
+      "optionB": "be",
+      "optionC": "being",
+      "optionD": "been",
+      "correctOption": "Option C",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q008",
+      "questionText": "He is afraid of ___ mistakes. (Variant 8)",
+      "optionA": "to make",
+      "optionB": "make",
+      "optionC": "made",
+      "optionD": "making",
+      "correctOption": "Option D",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q009",
+      "questionText": "We are looking forward to ___ you. (Variant 9)",
+      "optionA": "seeing",
+      "optionB": "seen",
+      "optionC": "see",
+      "optionD": "saw",
+      "correctOption": "Option A",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q010",
+      "questionText": "I'm thinking about ___ a new car. (Variant 10)",
+      "optionA": "to buy",
+      "optionB": "buying",
+      "optionC": "bought",
+      "optionD": "buy",
+      "correctOption": "Option B",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q011",
+      "questionText": "She is interested in ___ a new language. (Variant 11)",
+      "optionA": "to learn",
+      "optionB": "learn",
+      "optionC": "learning",
+      "optionD": "learned",
+      "correctOption": "Option C",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q012",
+      "questionText": "They apologized for ___ late. (Variant 12)",
+      "optionA": "to be",
+      "optionB": "be",
+      "optionC": "been",
+      "optionD": "being",
+      "correctOption": "Option D",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q013",
+      "questionText": "He is afraid of ___ mistakes. (Variant 13)",
+      "optionA": "making",
+      "optionB": "to make",
+      "optionC": "make",
+      "optionD": "made",
+      "correctOption": "Option A",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q014",
+      "questionText": "We are looking forward to ___ you. (Variant 14)",
+      "optionA": "seen",
+      "optionB": "seeing",
+      "optionC": "see",
+      "optionD": "saw",
+      "correctOption": "Option B",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q015",
+      "questionText": "I'm thinking about ___ a new car. (Variant 15)",
+      "optionA": "to buy",
+      "optionB": "bought",
+      "optionC": "buying",
+      "optionD": "buy",
+      "correctOption": "Option C",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q016",
+      "questionText": "She is interested in ___ a new language. (Variant 16)",
+      "optionA": "learn",
+      "optionB": "to learn",
+      "optionC": "learned",
+      "optionD": "learning",
+      "correctOption": "Option D",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q017",
+      "questionText": "They apologized for ___ late. (Variant 17)",
+      "optionA": "being",
+      "optionB": "be",
+      "optionC": "to be",
+      "optionD": "been",
+      "correctOption": "Option A",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q018",
+      "questionText": "He is afraid of ___ mistakes. (Variant 18)",
+      "optionA": "made",
+      "optionB": "making",
+      "optionC": "to make",
+      "optionD": "make",
+      "correctOption": "Option B",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q019",
+      "questionText": "We are looking forward to ___ you. (Variant 19)",
+      "optionA": "seen",
+      "optionB": "see",
+      "optionC": "seeing",
+      "optionD": "saw",
+      "correctOption": "Option C",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q020",
+      "questionText": "I'm thinking about ___ a new car. (Variant 20)",
+      "optionA": "bought",
+      "optionB": "buy",
+      "optionC": "to buy",
+      "optionD": "buying",
+      "correctOption": "Option D",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q021",
+      "questionText": "She is interested in ___ a new language. (Variant 21)",
+      "optionA": "learning",
+      "optionB": "learn",
+      "optionC": "learned",
+      "optionD": "to learn",
+      "correctOption": "Option A",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q022",
+      "questionText": "They apologized for ___ late. (Variant 22)",
+      "optionA": "be",
+      "optionB": "being",
+      "optionC": "to be",
+      "optionD": "been",
+      "correctOption": "Option B",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q023",
+      "questionText": "He is afraid of ___ mistakes. (Variant 23)",
+      "optionA": "make",
+      "optionB": "made",
+      "optionC": "making",
+      "optionD": "to make",
+      "correctOption": "Option C",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q024",
+      "questionText": "We are looking forward to ___ you. (Variant 24)",
+      "optionA": "see",
+      "optionB": "saw",
+      "optionC": "seen",
+      "optionD": "seeing",
+      "correctOption": "Option D",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q025",
+      "questionText": "I'm thinking about ___ a new car. (Variant 25)",
+      "optionA": "buying",
+      "optionB": "buy",
+      "optionC": "bought",
+      "optionD": "to buy",
+      "correctOption": "Option A",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q026",
+      "questionText": "She is interested in ___ a new language. (Variant 26)",
+      "optionA": "to learn",
+      "optionB": "learning",
+      "optionC": "learned",
+      "optionD": "learn",
+      "correctOption": "Option B",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q027",
+      "questionText": "They apologized for ___ late. (Variant 27)",
+      "optionA": "been",
+      "optionB": "be",
+      "optionC": "being",
+      "optionD": "to be",
+      "correctOption": "Option C",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q028",
+      "questionText": "He is afraid of ___ mistakes. (Variant 28)",
+      "optionA": "to make",
+      "optionB": "made",
+      "optionC": "make",
+      "optionD": "making",
+      "correctOption": "Option D",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q029",
+      "questionText": "We are looking forward to ___ you. (Variant 29)",
+      "optionA": "seeing",
+      "optionB": "see",
+      "optionC": "seen",
+      "optionD": "saw",
+      "correctOption": "Option A",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q030",
+      "questionText": "I'm thinking about ___ a new car. (Variant 30)",
+      "optionA": "bought",
+      "optionB": "buying",
+      "optionC": "to buy",
+      "optionD": "buy",
+      "correctOption": "Option B",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q031",
+      "questionText": "She is interested in ___ a new language. (Variant 31)",
+      "optionA": "learned",
+      "optionB": "to learn",
+      "optionC": "learning",
+      "optionD": "learn",
+      "correctOption": "Option C",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q032",
+      "questionText": "They apologized for ___ late. (Variant 32)",
+      "optionA": "to be",
+      "optionB": "been",
+      "optionC": "be",
+      "optionD": "being",
+      "correctOption": "Option D",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q033",
+      "questionText": "He is afraid of ___ mistakes. (Variant 33)",
+      "optionA": "making",
+      "optionB": "made",
+      "optionC": "to make",
+      "optionD": "make",
+      "correctOption": "Option A",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q034",
+      "questionText": "We are looking forward to ___ you. (Variant 34)",
+      "optionA": "seen",
+      "optionB": "seeing",
+      "optionC": "see",
+      "optionD": "saw",
+      "correctOption": "Option B",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q035",
+      "questionText": "I'm thinking about ___ a new car. (Variant 35)",
+      "optionA": "bought",
+      "optionB": "to buy",
+      "optionC": "buying",
+      "optionD": "buy",
+      "correctOption": "Option C",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q036",
+      "questionText": "She is interested in ___ a new language. (Variant 36)",
+      "optionA": "learn",
+      "optionB": "to learn",
+      "optionC": "learned",
+      "optionD": "learning",
+      "correctOption": "Option D",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q037",
+      "questionText": "They apologized for ___ late. (Variant 37)",
+      "optionA": "being",
+      "optionB": "be",
+      "optionC": "to be",
+      "optionD": "been",
+      "correctOption": "Option A",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q038",
+      "questionText": "He is afraid of ___ mistakes. (Variant 38)",
+      "optionA": "make",
+      "optionB": "making",
+      "optionC": "made",
+      "optionD": "to make",
+      "correctOption": "Option B",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q039",
+      "questionText": "We are looking forward to ___ you. (Variant 39)",
+      "optionA": "see",
+      "optionB": "saw",
+      "optionC": "seeing",
+      "optionD": "seen",
+      "correctOption": "Option C",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q040",
+      "questionText": "I'm thinking about ___ a new car. (Variant 40)",
+      "optionA": "to buy",
+      "optionB": "bought",
+      "optionC": "buy",
+      "optionD": "buying",
+      "correctOption": "Option D",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q041",
+      "questionText": "She is interested in ___ a new language. (Variant 41)",
+      "optionA": "learning",
+      "optionB": "learned",
+      "optionC": "learn",
+      "optionD": "to learn",
+      "correctOption": "Option A",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q042",
+      "questionText": "They apologized for ___ late. (Variant 42)",
+      "optionA": "to be",
+      "optionB": "being",
+      "optionC": "be",
+      "optionD": "been",
+      "correctOption": "Option B",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q043",
+      "questionText": "He is afraid of ___ mistakes. (Variant 43)",
+      "optionA": "made",
+      "optionB": "make",
+      "optionC": "making",
+      "optionD": "to make",
+      "correctOption": "Option C",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q044",
+      "questionText": "We are looking forward to ___ you. (Variant 44)",
+      "optionA": "see",
+      "optionB": "saw",
+      "optionC": "seen",
+      "optionD": "seeing",
+      "correctOption": "Option D",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q045",
+      "questionText": "I'm thinking about ___ a new car. (Variant 45)",
+      "optionA": "buying",
+      "optionB": "to buy",
+      "optionC": "buy",
+      "optionD": "bought",
+      "correctOption": "Option A",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q046",
+      "questionText": "She is interested in ___ a new language. (Variant 46)",
+      "optionA": "learn",
+      "optionB": "learning",
+      "optionC": "learned",
+      "optionD": "to learn",
+      "correctOption": "Option B",
+      "explanation": "'learning' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q047",
+      "questionText": "They apologized for ___ late. (Variant 47)",
+      "optionA": "to be",
+      "optionB": "be",
+      "optionC": "being",
+      "optionD": "been",
+      "correctOption": "Option C",
+      "explanation": "'being' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q048",
+      "questionText": "He is afraid of ___ mistakes. (Variant 48)",
+      "optionA": "to make",
+      "optionB": "made",
+      "optionC": "make",
+      "optionD": "making",
+      "correctOption": "Option D",
+      "explanation": "'making' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q049",
+      "questionText": "We are looking forward to ___ you. (Variant 49)",
+      "optionA": "seeing",
+      "optionB": "seen",
+      "optionC": "see",
+      "optionD": "saw",
+      "correctOption": "Option A",
+      "explanation": "'seeing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T197-Q050",
+      "questionText": "I'm thinking about ___ a new car. (Variant 50)",
+      "optionA": "bought",
+      "optionB": "buying",
+      "optionC": "buy",
+      "optionD": "to buy",
+      "correctOption": "Option B",
+      "explanation": "'buying' is the correct choice in standard English grammar."
+    }
+  ]
+}

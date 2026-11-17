@@ -1,0 +1,507 @@
+{
+  "topicId": 158,
+  "topicName": "Manner",
+  "unit": "UNIT 16 — ADVERBS",
+  "questions": [
+    {
+      "questionId": "T158-Q001",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "slow",
+      "optionB": "quickly",
+      "optionC": "fastly",
+      "optionD": "good",
+      "correctOption": "Option B",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q002",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "hards",
+      "optionC": "harding",
+      "optionD": "harded",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q003",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "cares",
+      "optionB": "care",
+      "optionC": "careful",
+      "optionD": "carefully",
+      "correctOption": "Option D",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q004",
+      "questionText": "He speaks English very ___.",
+      "optionA": "good",
+      "optionB": "quick",
+      "optionC": "fastly",
+      "optionD": "well",
+      "correctOption": "Option D",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q005",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "slow",
+      "optionB": "good",
+      "optionC": "fastly",
+      "optionD": "quickly",
+      "correctOption": "Option D",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q006",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "harding",
+      "optionC": "harded",
+      "optionD": "hards",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q007",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "cares",
+      "optionB": "careful",
+      "optionC": "care",
+      "optionD": "carefully",
+      "correctOption": "Option D",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q008",
+      "questionText": "He speaks English very ___.",
+      "optionA": "well",
+      "optionB": "quick",
+      "optionC": "fastly",
+      "optionD": "good",
+      "correctOption": "Option A",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q009",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quickly",
+      "optionB": "good",
+      "optionC": "fastly",
+      "optionD": "slow",
+      "correctOption": "Option A",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q010",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "harding",
+      "optionC": "hards",
+      "optionD": "harded",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q011",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "carefully",
+      "optionB": "caring",
+      "optionC": "care",
+      "optionD": "cares",
+      "correctOption": "Option A",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q012",
+      "questionText": "He speaks English very ___.",
+      "optionA": "quick",
+      "optionB": "good",
+      "optionC": "well",
+      "optionD": "nice",
+      "correctOption": "Option C",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q013",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "good",
+      "optionB": "quick",
+      "optionC": "quickly",
+      "optionD": "slow",
+      "correctOption": "Option C",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q014",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "harding",
+      "optionB": "harded",
+      "optionC": "hards",
+      "optionD": "hard",
+      "correctOption": "Option D",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q015",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "carefully",
+      "optionB": "careful",
+      "optionC": "cares",
+      "optionD": "care",
+      "correctOption": "Option A",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q016",
+      "questionText": "He speaks English very ___.",
+      "optionA": "well",
+      "optionB": "nice",
+      "optionC": "good",
+      "optionD": "fastly",
+      "correctOption": "Option A",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q017",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quickly",
+      "optionB": "fastly",
+      "optionC": "quick",
+      "optionD": "slow",
+      "correctOption": "Option A",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q018",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "hards",
+      "optionC": "harded",
+      "optionD": "harding",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q019",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "carefully",
+      "optionB": "caring",
+      "optionC": "careful",
+      "optionD": "care",
+      "correctOption": "Option A",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q020",
+      "questionText": "He speaks English very ___.",
+      "optionA": "nice",
+      "optionB": "quick",
+      "optionC": "well",
+      "optionD": "good",
+      "correctOption": "Option C",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q021",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quickly",
+      "optionB": "fastly",
+      "optionC": "quick",
+      "optionD": "slow",
+      "correctOption": "Option A",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q022",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hards",
+      "optionB": "harded",
+      "optionC": "harding",
+      "optionD": "hard",
+      "correctOption": "Option D",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q023",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "carefully",
+      "optionB": "cares",
+      "optionC": "careful",
+      "optionD": "care",
+      "correctOption": "Option A",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q024",
+      "questionText": "He speaks English very ___.",
+      "optionA": "fastly",
+      "optionB": "nice",
+      "optionC": "good",
+      "optionD": "well",
+      "correctOption": "Option D",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q025",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "fastly",
+      "optionB": "quickly",
+      "optionC": "slow",
+      "optionD": "good",
+      "correctOption": "Option B",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q026",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hardly",
+      "optionB": "hard",
+      "optionC": "harding",
+      "optionD": "hards",
+      "correctOption": "Option B",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q027",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "careful",
+      "optionB": "caring",
+      "optionC": "care",
+      "optionD": "carefully",
+      "correctOption": "Option D",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q028",
+      "questionText": "He speaks English very ___.",
+      "optionA": "good",
+      "optionB": "fastly",
+      "optionC": "well",
+      "optionD": "quick",
+      "correctOption": "Option C",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q029",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "slow",
+      "optionB": "good",
+      "optionC": "quickly",
+      "optionD": "fastly",
+      "correctOption": "Option C",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q030",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "harding",
+      "optionC": "harded",
+      "optionD": "hardly",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q031",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "careful",
+      "optionB": "care",
+      "optionC": "caring",
+      "optionD": "carefully",
+      "correctOption": "Option D",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q032",
+      "questionText": "He speaks English very ___.",
+      "optionA": "well",
+      "optionB": "fastly",
+      "optionC": "quick",
+      "optionD": "nice",
+      "correctOption": "Option A",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q033",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quickly",
+      "optionB": "quick",
+      "optionC": "slow",
+      "optionD": "good",
+      "correctOption": "Option A",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q034",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "harded",
+      "optionB": "hard",
+      "optionC": "hards",
+      "optionD": "harding",
+      "correctOption": "Option B",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q035",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "careful",
+      "optionB": "carefully",
+      "optionC": "care",
+      "optionD": "caring",
+      "correctOption": "Option B",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q036",
+      "questionText": "He speaks English very ___.",
+      "optionA": "quick",
+      "optionB": "well",
+      "optionC": "fastly",
+      "optionD": "nice",
+      "correctOption": "Option B",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q037",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quickly",
+      "optionB": "fastly",
+      "optionC": "slow",
+      "optionD": "quick",
+      "correctOption": "Option A",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q038",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hards",
+      "optionB": "harding",
+      "optionC": "harded",
+      "optionD": "hard",
+      "correctOption": "Option D",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q039",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "care",
+      "optionB": "careful",
+      "optionC": "carefully",
+      "optionD": "cares",
+      "correctOption": "Option C",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q040",
+      "questionText": "He speaks English very ___.",
+      "optionA": "quick",
+      "optionB": "fastly",
+      "optionC": "well",
+      "optionD": "nice",
+      "correctOption": "Option C",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q041",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "slow",
+      "optionB": "good",
+      "optionC": "fastly",
+      "optionD": "quickly",
+      "correctOption": "Option D",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q042",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hards",
+      "optionB": "hard",
+      "optionC": "hardly",
+      "optionD": "harding",
+      "correctOption": "Option B",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q043",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "care",
+      "optionB": "caring",
+      "optionC": "carefully",
+      "optionD": "cares",
+      "correctOption": "Option C",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q044",
+      "questionText": "He speaks English very ___.",
+      "optionA": "well",
+      "optionB": "quick",
+      "optionC": "fastly",
+      "optionD": "good",
+      "correctOption": "Option A",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q045",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "good",
+      "optionB": "quickly",
+      "optionC": "slow",
+      "optionD": "quick",
+      "correctOption": "Option B",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q046",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hard",
+      "optionB": "hardly",
+      "optionC": "hards",
+      "optionD": "harded",
+      "correctOption": "Option A",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q047",
+      "questionText": "Please drive ___ in this neighborhood.",
+      "optionA": "careful",
+      "optionB": "cares",
+      "optionC": "carefully",
+      "optionD": "care",
+      "correctOption": "Option C",
+      "explanation": "'carefully' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q048",
+      "questionText": "He speaks English very ___.",
+      "optionA": "fastly",
+      "optionB": "well",
+      "optionC": "nice",
+      "optionD": "good",
+      "correctOption": "Option B",
+      "explanation": "'well' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q049",
+      "questionText": "She ran ___ to catch the bus.",
+      "optionA": "quick",
+      "optionB": "good",
+      "optionC": "slow",
+      "optionD": "quickly",
+      "correctOption": "Option D",
+      "explanation": "'quickly' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T158-Q050",
+      "questionText": "They worked ___ on the project.",
+      "optionA": "hards",
+      "optionB": "hard",
+      "optionC": "harding",
+      "optionD": "harded",
+      "correctOption": "Option B",
+      "explanation": "'hard' is the correct choice in standard English grammar."
+    }
+  ]
+}

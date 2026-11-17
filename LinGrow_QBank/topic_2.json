@@ -1,0 +1,707 @@
+{
+  "topicId": 2,
+  "topicName": "Subject",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T002-Q001",
+      "questionText": "Identify the subject in the following sentence: \"The professor teaches the class.\"",
+      "optionA": "the class",
+      "optionB": "The professor",
+      "optionC": "teaches",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'The professor' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q002",
+      "questionText": "Identify the subject in the following sentence: \"My textbook is on the desk.\"",
+      "optionA": "desk",
+      "optionB": "My textbook",
+      "optionC": "is",
+      "optionD": "on the desk",
+      "correctOption": "Option B",
+      "explanation": "'My textbook' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q003",
+      "questionText": "Identify the subject in the following sentence: \"The student reads a book.\"",
+      "optionA": "reads",
+      "optionB": "The student",
+      "optionC": "a book",
+      "optionD": "book",
+      "correctOption": "Option B",
+      "explanation": "'The student' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q004",
+      "questionText": "Identify the subject in the following sentence: \"Our classroom has a projector.\"",
+      "optionA": "Our classroom",
+      "optionB": "has",
+      "optionC": "a projector",
+      "optionD": "projector",
+      "correctOption": "Option A",
+      "explanation": "'Our classroom' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q005",
+      "questionText": "Identify the subject in the following sentence: \"The library opens at 8 AM.\"",
+      "optionA": "The library",
+      "optionB": "at 8 AM",
+      "optionC": "opens",
+      "optionD": "8 AM",
+      "correctOption": "Option A",
+      "explanation": "'The library' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q006",
+      "questionText": "Identify the subject in the following sentence: \"The exam starts in ten minutes.\"",
+      "optionA": "in ten minutes",
+      "optionB": "starts",
+      "optionC": "minutes",
+      "optionD": "The exam",
+      "correctOption": "Option D",
+      "explanation": "'The exam' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q007",
+      "questionText": "Identify the subject in the following sentence: \"A new semester begins today.\"",
+      "optionA": "today",
+      "optionB": "today",
+      "optionC": "A new semester",
+      "optionD": "begins",
+      "correctOption": "Option C",
+      "explanation": "'A new semester' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q008",
+      "questionText": "Identify the subject in the following sentence: \"My computer needs an update.\"",
+      "optionA": "My computer",
+      "optionB": "update",
+      "optionC": "needs",
+      "optionD": "an update",
+      "correctOption": "Option A",
+      "explanation": "'My computer' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q009",
+      "questionText": "Identify the subject in the following sentence: \"The campus is very large.\"",
+      "optionA": "very large",
+      "optionB": "large",
+      "optionC": "The campus",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'The campus' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q010",
+      "questionText": "Identify the subject in the following sentence: \"This assignment takes two hours.\"",
+      "optionA": "takes",
+      "optionB": "This assignment",
+      "optionC": "hours",
+      "optionD": "two hours",
+      "correctOption": "Option B",
+      "explanation": "'This assignment' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q011",
+      "questionText": "Identify the subject in the following sentence: \"The biology lab smells strange.\"",
+      "optionA": "smells",
+      "optionB": "strange",
+      "optionC": "The biology lab",
+      "optionD": "strange",
+      "correctOption": "Option C",
+      "explanation": "'The biology lab' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q012",
+      "questionText": "Identify the subject in the following sentence: \"His essay won a prize.\"",
+      "optionA": "prize",
+      "optionB": "His essay",
+      "optionC": "a prize",
+      "optionD": "won",
+      "correctOption": "Option B",
+      "explanation": "'His essay' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q013",
+      "questionText": "Identify the subject in the following sentence: \"The final grade depends on the test.\"",
+      "optionA": "The final grade",
+      "optionB": "test",
+      "optionC": "depends",
+      "optionD": "on the test",
+      "correctOption": "Option A",
+      "explanation": "'The final grade' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q014",
+      "questionText": "Identify the subject in the following sentence: \"A campus tour starts here.\"",
+      "optionA": "A campus tour",
+      "optionB": "starts",
+      "optionC": "here",
+      "optionD": "here",
+      "correctOption": "Option A",
+      "explanation": "'A campus tour' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q015",
+      "questionText": "Identify the subject in the following sentence: \"The history lecture is boring.\"",
+      "optionA": "boring",
+      "optionB": "is",
+      "optionC": "boring",
+      "optionD": "The history lecture",
+      "correctOption": "Option D",
+      "explanation": "'The history lecture' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q016",
+      "questionText": "Identify the subject in the following sentence: \"Her backpack is heavy.\"",
+      "optionA": "heavy",
+      "optionB": "is",
+      "optionC": "heavy",
+      "optionD": "Her backpack",
+      "correctOption": "Option D",
+      "explanation": "'Her backpack' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q017",
+      "questionText": "Identify the subject in the following sentence: \"The dormitory is quiet at night.\"",
+      "optionA": "The dormitory",
+      "optionB": "quiet",
+      "optionC": "is",
+      "optionD": "night",
+      "correctOption": "Option A",
+      "explanation": "'The dormitory' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q018",
+      "questionText": "Identify the subject in the following sentence: \"The professor and the student discuss the topic.\"",
+      "optionA": "topic",
+      "optionB": "The professor and the student",
+      "optionC": "the topic",
+      "optionD": "discuss",
+      "correctOption": "Option B",
+      "explanation": "'The professor and the student' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q019",
+      "questionText": "Identify the subject in the following sentence: \"Math and science are difficult subjects.\"",
+      "optionA": "are",
+      "optionB": "subjects",
+      "optionC": "Math and science",
+      "optionD": "difficult subjects",
+      "correctOption": "Option C",
+      "explanation": "'Math and science' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q020",
+      "questionText": "Identify the subject in the following sentence: \"My laptop and my phone are broken.\"",
+      "optionA": "My laptop and my phone",
+      "optionB": "broken",
+      "optionC": "are",
+      "optionD": "broken",
+      "correctOption": "Option A",
+      "explanation": "'My laptop and my phone' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q021",
+      "questionText": "Identify the subject in the following sentence: \"The library and the cafeteria are open.\"",
+      "optionA": "are",
+      "optionB": "open",
+      "optionC": "open",
+      "optionD": "The library and the cafeteria",
+      "correctOption": "Option D",
+      "explanation": "'The library and the cafeteria' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q022",
+      "questionText": "Identify the subject in the following sentence: \"Exams and quizzes cause stress.\"",
+      "optionA": "stress",
+      "optionB": "Exams and quizzes",
+      "optionC": "stress",
+      "optionD": "cause",
+      "correctOption": "Option B",
+      "explanation": "'Exams and quizzes' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q023",
+      "questionText": "Identify the subject in the following sentence: \"The dean and the teachers attend the meeting.\"",
+      "optionA": "meeting",
+      "optionB": "the meeting",
+      "optionC": "The dean and the teachers",
+      "optionD": "attend",
+      "correctOption": "Option C",
+      "explanation": "'The dean and the teachers' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q024",
+      "questionText": "Identify the subject in the following sentence: \"Pens and notebooks are on the table.\"",
+      "optionA": "are",
+      "optionB": "table",
+      "optionC": "on the table",
+      "optionD": "Pens and notebooks",
+      "correctOption": "Option D",
+      "explanation": "'Pens and notebooks' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q025",
+      "questionText": "Identify the subject in the following sentence: \"Reading and writing are essential skills.\"",
+      "optionA": "essential skills",
+      "optionB": "skills",
+      "optionC": "are",
+      "optionD": "Reading and writing",
+      "correctOption": "Option D",
+      "explanation": "'Reading and writing' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q026",
+      "questionText": "Identify the subject in the following sentence: \"The boys and the girls study together.\"",
+      "optionA": "study",
+      "optionB": "together",
+      "optionC": "The boys and the girls",
+      "optionD": "together",
+      "correctOption": "Option C",
+      "explanation": "'The boys and the girls' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q027",
+      "questionText": "Identify the subject in the following sentence: \"Coffee and tea are available in the lounge.\"",
+      "optionA": "lounge",
+      "optionB": "available",
+      "optionC": "Coffee and tea",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'Coffee and tea' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q028",
+      "questionText": "Identify the subject in the following sentence: \"Biology and chemistry labs require safety goggles.\"",
+      "optionA": "require",
+      "optionB": "Biology and chemistry labs",
+      "optionC": "goggles",
+      "optionD": "safety goggles",
+      "correctOption": "Option B",
+      "explanation": "'Biology and chemistry labs' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q029",
+      "questionText": "Identify the subject in the following sentence: \"The midterm and the final count for the grade.\"",
+      "optionA": "grade",
+      "optionB": "The midterm and the final",
+      "optionC": "for the grade",
+      "optionD": "count",
+      "correctOption": "Option B",
+      "explanation": "'The midterm and the final' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q030",
+      "questionText": "Identify the subject in the following sentence: \"Essays and presentations take time.\"",
+      "optionA": "time",
+      "optionB": "time",
+      "optionC": "take",
+      "optionD": "Essays and presentations",
+      "correctOption": "Option D",
+      "explanation": "'Essays and presentations' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q031",
+      "questionText": "Identify the subject in the following sentence: \"The bus and the train stop at the campus.\"",
+      "optionA": "stop",
+      "optionB": "at the campus",
+      "optionC": "campus",
+      "optionD": "The bus and the train",
+      "correctOption": "Option D",
+      "explanation": "'The bus and the train' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q032",
+      "questionText": "Identify the subject in the following sentence: \"Dictionaries and encyclopedias are in this room.\"",
+      "optionA": "are",
+      "optionB": "in this room",
+      "optionC": "Dictionaries and encyclopedias",
+      "optionD": "room",
+      "correctOption": "Option C",
+      "explanation": "'Dictionaries and encyclopedias' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q033",
+      "questionText": "Identify the subject in the following sentence: \"Freshmen and sophomores live in this building.\"",
+      "optionA": "live",
+      "optionB": "in this building",
+      "optionC": "Freshmen and sophomores",
+      "optionD": "building",
+      "correctOption": "Option C",
+      "explanation": "'Freshmen and sophomores' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q034",
+      "questionText": "Identify the subject in the following sentence: \"The morning lecture and the afternoon lab are mandatory.\"",
+      "optionA": "mandatory",
+      "optionB": "are",
+      "optionC": "mandatory",
+      "optionD": "The morning lecture and the afternoon lab",
+      "correctOption": "Option D",
+      "explanation": "'The morning lecture and the afternoon lab' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q035",
+      "questionText": "Identify the subject in the following sentence: \"Are the students ready for the test?\"",
+      "optionA": "test",
+      "optionB": "the students",
+      "optionC": "ready",
+      "optionD": "Are",
+      "correctOption": "Option B",
+      "explanation": "'the students' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q036",
+      "questionText": "Identify the subject in the following sentence: \"Is the library open on weekends?\"",
+      "optionA": "open",
+      "optionB": "weekends",
+      "optionC": "Is",
+      "optionD": "the library",
+      "correctOption": "Option D",
+      "explanation": "'the library' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q037",
+      "questionText": "Identify the subject in the following sentence: \"Where is my textbook?\"",
+      "optionA": "is",
+      "optionB": "Where is",
+      "optionC": "Where",
+      "optionD": "my textbook",
+      "correctOption": "Option D",
+      "explanation": "'my textbook' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q038",
+      "questionText": "Identify the subject in the following sentence: \"There are many books on the shelf.\"",
+      "optionA": "many books",
+      "optionB": "are",
+      "optionC": "There",
+      "optionD": "shelf",
+      "correctOption": "Option A",
+      "explanation": "'many books' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q039",
+      "questionText": "Identify the subject in the following sentence: \"There is a computer in the room.\"",
+      "optionA": "There",
+      "optionB": "is",
+      "optionC": "a computer",
+      "optionD": "room",
+      "correctOption": "Option C",
+      "explanation": "'a computer' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q040",
+      "questionText": "Identify the subject in the following sentence: \"Here comes the professor.\"",
+      "optionA": "comes",
+      "optionB": "Here",
+      "optionC": "the professor",
+      "optionD": "Here",
+      "correctOption": "Option C",
+      "explanation": "'the professor' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q041",
+      "questionText": "Identify the subject in the following sentence: \"Under the desk lies a dropped pen.\"",
+      "optionA": "a dropped pen",
+      "optionB": "Under",
+      "optionC": "lies",
+      "optionD": "desk",
+      "correctOption": "Option A",
+      "explanation": "'a dropped pen' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q042",
+      "questionText": "Identify the subject in the following sentence: \"Does the class start now?\"",
+      "optionA": "Does",
+      "optionB": "start",
+      "optionC": "the class",
+      "optionD": "now",
+      "correctOption": "Option C",
+      "explanation": "'the class' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q043",
+      "questionText": "Identify the subject in the following sentence: \"Do you have a pencil?\"",
+      "optionA": "you",
+      "optionB": "Do",
+      "optionC": "have",
+      "optionD": "pencil",
+      "correctOption": "Option A",
+      "explanation": "'you' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q044",
+      "questionText": "Identify the subject in the following sentence: \"There are three questions on the quiz.\"",
+      "optionA": "three questions",
+      "optionB": "are",
+      "optionC": "There",
+      "optionD": "quiz",
+      "correctOption": "Option A",
+      "explanation": "'three questions' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q045",
+      "questionText": "Identify the subject in the following sentence: \"Here is your graded paper.\"",
+      "optionA": "is",
+      "optionB": "your graded paper",
+      "optionC": "Here",
+      "optionD": "paper",
+      "correctOption": "Option B",
+      "explanation": "'your graded paper' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q046",
+      "questionText": "Identify the subject in the following sentence: \"Why is the door locked?\"",
+      "optionA": "Why",
+      "optionB": "the door",
+      "optionC": "is",
+      "optionD": "locked",
+      "correctOption": "Option B",
+      "explanation": "'the door' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q047",
+      "questionText": "Identify the subject in the following sentence: \"In the front row sits a new student.\"",
+      "optionA": "front row",
+      "optionB": "a new student",
+      "optionC": "sits",
+      "optionD": "In",
+      "correctOption": "Option B",
+      "explanation": "'a new student' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q048",
+      "questionText": "Identify the subject in the following sentence: \"Is the homework difficult?\"",
+      "optionA": "the homework",
+      "optionB": "homework",
+      "optionC": "difficult",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'the homework' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q049",
+      "questionText": "Identify the subject in the following sentence: \"There is no time left.\"",
+      "optionA": "no time",
+      "optionB": "left",
+      "optionC": "There",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'no time' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T002-Q050",
+      "questionText": "Identify the subject in the following sentence: \"Are your notes organized?\"",
+      "optionA": "notes",
+      "optionB": "Are",
+      "optionC": "organized",
+      "optionD": "your notes",
+      "correctOption": "Option D",
+      "explanation": "'your notes' is the subject because it names the person, place, or thing performing the action or being described.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 224,
+  "topicName": "Basic tense changes",
+  "unit": "UNIT 24 — BASIC REPORTED SPEECH",
+  "questions": [
+    {
+      "questionId": "T224-Q001",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 1)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q002",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 2)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q003",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 3)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q004",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 4)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q005",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 5)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q006",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 6)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q007",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 7)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q008",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 8)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q009",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 9)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q010",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 10)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q011",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 11)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q012",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 12)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q013",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 13)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q014",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 14)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q015",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 15)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q016",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 16)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q017",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 17)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q018",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 18)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q019",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 19)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q020",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 20)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q021",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 21)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q022",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 22)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q023",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 23)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q024",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 24)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q025",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 25)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q026",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 26)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q027",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 27)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q028",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 28)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q029",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 29)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q030",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 30)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q031",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 31)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q032",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 32)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q033",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 33)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q034",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 34)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q035",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 35)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q036",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 36)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q037",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 37)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q038",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 38)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q039",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 39)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q040",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 40)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q041",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 41)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Simple.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q042",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 42)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q043",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 43)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q044",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 44)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Perfect.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q045",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 45)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It stays Present Continuous.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q046",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 46)",
+      "optionA": "It changes to Past Continuous.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option A",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q047",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 47)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Continuous.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Simple.",
+      "correctOption": "Option B",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q048",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 48)",
+      "optionA": "It changes to Past Perfect.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It stays Present Continuous.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q049",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 49)",
+      "optionA": "It changes to Past Simple.",
+      "optionB": "It stays Present Continuous.",
+      "optionC": "It changes to Past Continuous.",
+      "optionD": "It changes to Past Perfect.",
+      "correctOption": "Option C",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T224-Q050",
+      "questionText": "What happens to the Present Continuous tense in reported speech? (Question 50)",
+      "optionA": "It stays Present Continuous.",
+      "optionB": "It changes to Past Simple.",
+      "optionC": "It changes to Past Perfect.",
+      "optionD": "It changes to Past Continuous.",
+      "correctOption": "Option D",
+      "explanation": "'It changes to Past Continuous' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

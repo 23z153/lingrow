@@ -1,0 +1,507 @@
+{
+  "topicId": 16,
+  "topicName": "Determiners",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T016-Q001",
+      "questionText": "She needs to buy ____ textbook for the biology class.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "some",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q002",
+      "questionText": "I have an appointment with ____ academic advisor today.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "some",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q003",
+      "questionText": "Who is ____ main professor for this course?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "some",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q004",
+      "questionText": "He left his notes in ____ library.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'the' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q005",
+      "questionText": "____ apple a day keeps the doctor away.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "Some",
+      "optionD": "An",
+      "correctOption": "Option D",
+      "explanation": "'An' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q006",
+      "questionText": "I am reading ____ interesting article for my essay.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "some",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q007",
+      "questionText": "They built ____ new dormitory on campus.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "'a' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q008",
+      "questionText": "Where is ____ cafeteria?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "'the' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q009",
+      "questionText": "____ classroom is too cold.",
+      "optionA": "These",
+      "optionB": "Those",
+      "optionC": "Some",
+      "optionD": "This",
+      "correctOption": "Option D",
+      "explanation": "'This' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q010",
+      "questionText": "Can you hand me ____ books on the shelf?",
+      "optionA": "those",
+      "optionB": "that",
+      "optionC": "this",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'those' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q011",
+      "questionText": "____ pen here is not working.",
+      "optionA": "This",
+      "optionB": "That",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option A",
+      "explanation": "'This' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q012",
+      "questionText": "I like ____ posters on the wall over there.",
+      "optionA": "those",
+      "optionB": "these",
+      "optionC": "this",
+      "optionD": "that",
+      "correctOption": "Option A",
+      "explanation": "'those' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q013",
+      "questionText": "____ assignment is much harder than the last one.",
+      "optionA": "These",
+      "optionB": "Those",
+      "optionC": "This",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'This' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q014",
+      "questionText": "Look at ____ students playing football outside.",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "much",
+      "optionD": "those",
+      "correctOption": "Option D",
+      "explanation": "'those' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q015",
+      "questionText": "Are ____ your keys on my desk?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "much",
+      "optionD": "these",
+      "correctOption": "Option D",
+      "explanation": "'these' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q016",
+      "questionText": "I cannot read ____ sign across the street.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "'that' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q017",
+      "questionText": "Do you have ____ questions about the syllabus?",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "any",
+      "optionD": "a little",
+      "correctOption": "Option C",
+      "explanation": "'any' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q018",
+      "questionText": "I need to buy ____ new notebooks for the semester.",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "much",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'some' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q019",
+      "questionText": "There aren't ____ computers available in the lab right now.",
+      "optionA": "some",
+      "optionB": "any",
+      "optionC": "much",
+      "optionD": "a little",
+      "correctOption": "Option B",
+      "explanation": "'any' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q020",
+      "questionText": "Can I have ____ more time for the test?",
+      "optionA": "some",
+      "optionB": "any",
+      "optionC": "many",
+      "optionD": "a few",
+      "correctOption": "Option A",
+      "explanation": "'some' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q021",
+      "questionText": "She didn't give me ____ help with the project.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "any",
+      "optionD": "a few",
+      "correctOption": "Option C",
+      "explanation": "'any' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q022",
+      "questionText": "Would you like ____ coffee before the lecture?",
+      "optionA": "any",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "'some' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q023",
+      "questionText": "I have ____ free time this afternoon.",
+      "optionA": "any",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "'some' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q024",
+      "questionText": "Did you find ____ good articles for your research?",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "any",
+      "optionD": "a little",
+      "correctOption": "Option C",
+      "explanation": "'any' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q025",
+      "questionText": "There are too ____ students in this small room.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'many' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q026",
+      "questionText": "I don't have ____ money on my meal plan.",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option B",
+      "explanation": "'much' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q027",
+      "questionText": "She has ____ friends in her study group.",
+      "optionA": "a lot of",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "'a lot of' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q028",
+      "questionText": "How ____ pages do we need to read?",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'many' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q029",
+      "questionText": "How ____ time do we have for the exam?",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "'much' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q030",
+      "questionText": "We spent ____ time working on the group project.",
+      "optionA": "a lot of",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "'a lot of' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q031",
+      "questionText": "Not ____ people attended the optional workshop.",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "a little",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "'many' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q032",
+      "questionText": "There isn't ____ milk left in the fridge in the dorm.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "a few",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "'much' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q033",
+      "questionText": "I have ____ questions to ask the professor.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'a few' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q034",
+      "questionText": "We just need ____ more time to finish the essay.",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "a little",
+      "optionD": "several",
+      "correctOption": "Option C",
+      "explanation": "'a little' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q035",
+      "questionText": "Can you give me ____ advice on choosing a major?",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "several",
+      "optionD": "a little",
+      "correctOption": "Option D",
+      "explanation": "'a little' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q036",
+      "questionText": "There are ____ good books on this topic in the library.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'a few' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q037",
+      "questionText": "I added ____ sugar to my tea to stay awake.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "many",
+      "optionD": "several",
+      "correctOption": "Option A",
+      "explanation": "'a little' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q038",
+      "questionText": "Only ____ students passed the difficult math test.",
+      "optionA": "a little",
+      "optionB": "a few",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "'a few' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q039",
+      "questionText": "Where is ____ classroom?",
+      "optionA": "mine",
+      "optionB": "me",
+      "optionC": "I",
+      "optionD": "my",
+      "correctOption": "Option D",
+      "explanation": "'my' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q040",
+      "questionText": "____ presentation was the best in the class.",
+      "optionA": "Hers",
+      "optionB": "She",
+      "optionC": "Her",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'Her' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q041",
+      "questionText": "The students forgot ____ textbooks at home.",
+      "optionA": "their",
+      "optionB": "theirs",
+      "optionC": "they",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'their' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q042",
+      "questionText": "____ campus is located in the city center.",
+      "optionA": "Ours",
+      "optionB": "We",
+      "optionC": "Our",
+      "optionD": "Us",
+      "correctOption": "Option C",
+      "explanation": "'Our' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q043",
+      "questionText": "He lost ____ student ID card.",
+      "optionA": "him",
+      "optionB": "his",
+      "optionC": "he",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'his' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q044",
+      "questionText": "The university changed ____ policy on attendance.",
+      "optionA": "it's",
+      "optionB": "its",
+      "optionC": "it",
+      "optionD": "itself",
+      "correctOption": "Option B",
+      "explanation": "'its' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q045",
+      "questionText": "Is this ____ notebook?",
+      "optionA": "yours",
+      "optionB": "you",
+      "optionC": "your",
+      "optionD": "yourself",
+      "correctOption": "Option C",
+      "explanation": "'your' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q046",
+      "questionText": "The professor uploaded ____ lecture slides online.",
+      "optionA": "him",
+      "optionB": "he",
+      "optionC": "his",
+      "optionD": "himself",
+      "correctOption": "Option C",
+      "explanation": "'his' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q047",
+      "questionText": "____ student must complete the registration form.",
+      "optionA": "All",
+      "optionB": "Many",
+      "optionC": "Every",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Every' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q048",
+      "questionText": "____ the students were tired after finals week.",
+      "optionA": "Every",
+      "optionB": "All",
+      "optionC": "Each",
+      "optionD": "Much",
+      "correctOption": "Option B",
+      "explanation": "'All' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q049",
+      "questionText": "She held a pen in ____ hand.",
+      "optionA": "every",
+      "optionB": "all",
+      "optionC": "each",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "'each' is a determiner placed before a noun to clarify its quantity or reference."
+    },
+    {
+      "questionId": "T016-Q050",
+      "questionText": "____ my parents are university professors.",
+      "optionA": "Both",
+      "optionB": "All",
+      "optionC": "Every",
+      "optionD": "Each",
+      "correctOption": "Option A",
+      "explanation": "'Both' is a determiner placed before a noun to clarify its quantity or reference."
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "topicId": 6,
+  "topicName": "Word order",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T006-Q001",
+      "questionText": "Choose the sentence with the correct word order:",
+      "optionA": "The professor teaches the lesson.",
+      "optionB": "The lesson teaches the professor.",
+      "optionC": "Teaches the professor the lesson.",
+      "optionD": "The professor the lesson teaches.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q002",
+      "questionText": "Rearrange the words to make a correct sentence: 'study / the students / biology'",
+      "optionA": "Study the students biology.",
+      "optionB": "The students study biology.",
+      "optionC": "Biology the students study.",
+      "optionD": "The students biology study.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q003",
+      "questionText": "Which sentence is grammatically correct?",
+      "optionA": "Opens the library at 8 AM.",
+      "optionB": "At 8 AM the library opens.",
+      "optionC": "The library opens at 8 AM.",
+      "optionD": "The library at 8 AM opens.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q004",
+      "questionText": "Identify the correct word order:",
+      "optionA": "Writes a paper she.",
+      "optionB": "She a paper writes.",
+      "optionC": "A paper she writes.",
+      "optionD": "She writes a paper.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q005",
+      "questionText": "Choose the correct sentence:",
+      "optionA": "He reads an article.",
+      "optionB": "Reads he an article.",
+      "optionC": "An article he reads.",
+      "optionD": "He an article reads.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q006",
+      "questionText": "Rearrange the words: 'the exam / passed / they'",
+      "optionA": "Passed they the exam.",
+      "optionB": "They passed the exam.",
+      "optionC": "The exam passed they.",
+      "optionD": "They the exam passed.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q007",
+      "questionText": "Which option correctly uses SVO order?",
+      "optionA": "The rules explains the teacher.",
+      "optionB": "Explains the teacher the rules.",
+      "optionC": "The teacher explains the rules.",
+      "optionD": "The teacher the rules explains.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q008",
+      "questionText": "Choose the best sentence:",
+      "optionA": "Attend we the lecture.",
+      "optionB": "The lecture we attend.",
+      "optionC": "We the lecture attend.",
+      "optionD": "We attend the lecture.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q009",
+      "questionText": "Select the correct sentence:",
+      "optionA": "The students do their homework.",
+      "optionB": "Do homework the students.",
+      "optionC": "Their homework do the students.",
+      "optionD": "The students their homework do.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q010",
+      "questionText": "Rearrange the words: 'a presentation / gives / the student'",
+      "optionA": "A presentation gives the student.",
+      "optionB": "The student gives a presentation.",
+      "optionC": "Gives the student a presentation.",
+      "optionD": "The student a presentation gives.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q011",
+      "questionText": "Which of the following is correct?",
+      "optionA": "Takes she notes in class.",
+      "optionB": "Notes she takes in class.",
+      "optionC": "She takes notes in class.",
+      "optionD": "She in class takes notes.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q012",
+      "questionText": "Identify the sentence with correct word order:",
+      "optionA": "Analyzes the researcher the data.",
+      "optionB": "The data analyzes the researcher.",
+      "optionC": "The researcher the data analyzes.",
+      "optionD": "The researcher analyzes the data.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q013",
+      "questionText": "Choose the correct sentence structure:",
+      "optionA": "I study mathematics.",
+      "optionB": "Mathematics study I.",
+      "optionC": "Study I mathematics.",
+      "optionD": "I mathematics study.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q014",
+      "questionText": "Rearrange: 'the lab / clean / they'",
+      "optionA": "Clean they the lab.",
+      "optionB": "They clean the lab.",
+      "optionC": "The lab clean they.",
+      "optionD": "They the lab clean.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q015",
+      "questionText": "Which sentence has the correct SVO structure?",
+      "optionA": "A question he asks.",
+      "optionB": "Asks he a question.",
+      "optionC": "He asks a question.",
+      "optionD": "He a question asks.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q016",
+      "questionText": "Select the grammatically correct sentence:",
+      "optionA": "Welcomes the dean the students.",
+      "optionB": "The students welcomes the dean.",
+      "optionC": "The dean the students welcomes.",
+      "optionD": "The dean welcomes the students.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q017",
+      "questionText": "Which sentence uses SVO correctly?",
+      "optionA": "The campus provides free wifi.",
+      "optionB": "Provides the campus free wifi.",
+      "optionC": "Free wifi provides the campus.",
+      "optionD": "The campus free wifi provides.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q018",
+      "questionText": "Where should the adjective 'difficult' go in the sentence 'This is a test'?",
+      "optionA": "This is a test difficult.",
+      "optionB": "This is a difficult test.",
+      "optionC": "This difficult is a test.",
+      "optionD": "Difficult this is a test.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q019",
+      "questionText": "Choose the correct sentence:",
+      "optionA": "She is a student intelligent.",
+      "optionB": "Intelligent she is a student.",
+      "optionC": "She is an intelligent student.",
+      "optionD": "She intelligent is a student.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q020",
+      "questionText": "Where should the adverb 'always' go in the sentence 'I do my homework'?",
+      "optionA": "I do my homework always.",
+      "optionB": "I do always my homework.",
+      "optionC": "Always I do my homework.",
+      "optionD": "I always do my homework.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q021",
+      "questionText": "Identify the correct word order:",
+      "optionA": "He is usually late for class.",
+      "optionB": "He is late usually for class.",
+      "optionC": "He usually is late for class.",
+      "optionD": "Usually he late is for class.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q022",
+      "questionText": "Select the sentence with correct adjective placement:",
+      "optionA": "They read a book interesting.",
+      "optionB": "They read an interesting book.",
+      "optionC": "They read interesting a book.",
+      "optionD": "Interesting they read a book.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q023",
+      "questionText": "Where should 'never' be placed in 'The professor is late'?",
+      "optionA": "The professor never is late.",
+      "optionB": "The never professor is late.",
+      "optionC": "The professor is never late.",
+      "optionD": "Never the professor is late.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q024",
+      "questionText": "Choose the correct sentence:",
+      "optionA": "We have a campus big.",
+      "optionB": "Big we have a campus.",
+      "optionC": "We big have a campus.",
+      "optionD": "We have a big campus.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q025",
+      "questionText": "Which sentence is correct?",
+      "optionA": "She speaks English well.",
+      "optionB": "She speaks well English.",
+      "optionC": "She well speaks English.",
+      "optionD": "Well she speaks English.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q026",
+      "questionText": "Where does the adverb 'often' go in 'They study in the library'?",
+      "optionA": "They study often in the library.",
+      "optionB": "They often study in the library.",
+      "optionC": "They study in the library often.",
+      "optionD": "Often they study in the library.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q027",
+      "questionText": "Select the correct adjective position:",
+      "optionA": "He bought a laptop new.",
+      "optionB": "New he bought a laptop.",
+      "optionC": "He bought a new laptop.",
+      "optionD": "He new bought a laptop.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q028",
+      "questionText": "Identify the correct adverb position:",
+      "optionA": "I finished quickly the exam.",
+      "optionB": "Quickly finished I the exam.",
+      "optionC": "I quickly the exam finished.",
+      "optionD": "I finished the exam quickly.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q029",
+      "questionText": "Which is the correct sentence?",
+      "optionA": "It is a subject important.",
+      "optionB": "Important it is a subject.",
+      "optionC": "It important is a subject.",
+      "optionD": "It is an important subject.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q030",
+      "questionText": "Choose the sentence with correct adverb placement:",
+      "optionA": "She quietly enters the room.",
+      "optionB": "She enters quietly the room.",
+      "optionC": "Enters she quietly the room.",
+      "optionD": "She enters the room quietly.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q031",
+      "questionText": "Where should 'rarely' go in 'He forgets his ID'?",
+      "optionA": "He forgets rarely his ID.",
+      "optionB": "He rarely forgets his ID.",
+      "optionC": "Rarely he forgets his ID.",
+      "optionD": "He forgets his rarely ID.",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q032",
+      "questionText": "Select the correct word order:",
+      "optionA": "This is an assignment hard.",
+      "optionB": "Hard this is an assignment.",
+      "optionC": "This is a hard assignment.",
+      "optionD": "This hard is an assignment.",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q033",
+      "questionText": "Which sentence is correct?",
+      "optionA": "The teacher slowly explained the topic.",
+      "optionB": "The teacher explained slowly the topic.",
+      "optionC": "The teacher explained the slowly topic.",
+      "optionD": "The slowly teacher explained the topic.",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q034",
+      "questionText": "Choose the correct form:",
+      "optionA": "She has a textbook expensive.",
+      "optionB": "Expensive she has a textbook.",
+      "optionC": "She expensive has a textbook.",
+      "optionD": "She has an expensive textbook.",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q035",
+      "questionText": "Which question has the correct word order?",
+      "optionA": "Are you a university student?",
+      "optionB": "You are a university student?",
+      "optionC": "A university student are you?",
+      "optionD": "Are a university student you?",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q036",
+      "questionText": "Choose the correct question:",
+      "optionA": "Where the library is?",
+      "optionB": "Where is the library?",
+      "optionC": "Is where the library?",
+      "optionD": "The library is where?",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q037",
+      "questionText": "Identify the correct question structure:",
+      "optionA": "Study you biology?",
+      "optionB": "You do study biology?",
+      "optionC": "Do you study biology?",
+      "optionD": "Biology do you study?",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q038",
+      "questionText": "Select the correct question:",
+      "optionA": "When starts the lecture?",
+      "optionB": "Does the lecture start when?",
+      "optionC": "The lecture starts when?",
+      "optionD": "When does the lecture start?",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q039",
+      "questionText": "Which question is correct?",
+      "optionA": "Is he a new professor?",
+      "optionB": "He is a new professor?",
+      "optionC": "A new professor is he?",
+      "optionD": "Is a new professor he?",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q040",
+      "questionText": "Rearrange to form a question: 'you / have / a pen / do'",
+      "optionA": "You do have a pen?",
+      "optionB": "Do you have a pen?",
+      "optionC": "Have you do a pen?",
+      "optionD": "Do have you a pen?",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q041",
+      "questionText": "Choose the correct question:",
+      "optionA": "How much costs this book?",
+      "optionB": "How much this book costs?",
+      "optionC": "How much does this book cost?",
+      "optionD": "Does this book cost how much?",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q042",
+      "questionText": "Which is the correct word order for this question?",
+      "optionA": "They are studying for the exam?",
+      "optionB": "Studying are they for the exam?",
+      "optionC": "For the exam are they studying?",
+      "optionD": "Are they studying for the exam?",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q043",
+      "questionText": "Select the correct question:",
+      "optionA": "Where do you live?",
+      "optionB": "Where you do live?",
+      "optionC": "Where do live you?",
+      "optionD": "You live where?",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q044",
+      "questionText": "Identify the correctly formed question:",
+      "optionA": "Does she likes chemistry?",
+      "optionB": "Does she like chemistry?",
+      "optionC": "She likes chemistry?",
+      "optionD": "Like she chemistry?",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q045",
+      "questionText": "Rearrange into a question: 'time / the class / what / finish / does'",
+      "optionA": "What time the class does finish?",
+      "optionB": "Does what time the class finish?",
+      "optionC": "What time does the class finish?",
+      "optionD": "The class finishes what time?",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q046",
+      "questionText": "Which question is grammatically correct?",
+      "optionA": "You can help me with this assignment?",
+      "optionB": "Can help you me with this assignment?",
+      "optionC": "Help can you me with this assignment?",
+      "optionD": "Can you help me with this assignment?",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q047",
+      "questionText": "Choose the correct question structure:",
+      "optionA": "Why are you late?",
+      "optionB": "Why you are late?",
+      "optionC": "Are you why late?",
+      "optionD": "You are late why?",
+      "correctOption": "Option A",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q048",
+      "questionText": "Select the correct question:",
+      "optionA": "Did he submitted the essay?",
+      "optionB": "Did he submit the essay?",
+      "optionC": "He submitted the essay?",
+      "optionD": "Submitted he the essay?",
+      "correctOption": "Option B",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q049",
+      "questionText": "Rearrange to make a question: 'your major / is / what'",
+      "optionA": "What your major is?",
+      "optionB": "Is what your major?",
+      "optionC": "What is your major?",
+      "optionD": "Your major is what?",
+      "correctOption": "Option C",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T006-Q050",
+      "questionText": "Which sentence is correct?",
+      "optionA": "Are going we to the lab?",
+      "optionB": "We are going to the lab?",
+      "optionC": "Going are we to the lab?",
+      "optionD": "Are we going to the lab?",
+      "correctOption": "Option D",
+      "explanation": "Standard English word order follows Subject + Verb + Object (SVO).",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 93,
+  "topicName": "Present Perfect Continuous",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T093-Q001",
+      "questionText": "You _____ going to the park for two hours. (1)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "has been",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q002",
+      "questionText": "The students _____ sleeping well for two hours. (2)",
+      "optionA": "has been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q003",
+      "questionText": "He _____ playing tennis for two hours. (3)",
+      "optionA": "have been",
+      "optionB": "is being",
+      "optionC": "has been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q004",
+      "questionText": "Mary _____ writing a letter for two hours. (4)",
+      "optionA": "have been",
+      "optionB": "had been",
+      "optionC": "is being",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q005",
+      "questionText": "You _____ watching TV for two hours. (5)",
+      "optionA": "had been",
+      "optionB": "has been",
+      "optionC": "have been",
+      "optionD": "is being",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q006",
+      "questionText": "She _____ going to the park for two hours. (6)",
+      "optionA": "is being",
+      "optionB": "have been",
+      "optionC": "has been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q007",
+      "questionText": "You _____ listening to music for two hours. (7)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "has been",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q008",
+      "questionText": "She _____ listening to music for two hours. (8)",
+      "optionA": "had been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q009",
+      "questionText": "I _____ working hard for two hours. (9)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q010",
+      "questionText": "She _____ playing tennis for two hours. (10)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q011",
+      "questionText": "Mary _____ writing a letter for two hours. (11)",
+      "optionA": "have been",
+      "optionB": "had been",
+      "optionC": "is being",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q012",
+      "questionText": "The students _____ listening to music for two hours. (12)",
+      "optionA": "had been",
+      "optionB": "have been",
+      "optionC": "is being",
+      "optionD": "has been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q013",
+      "questionText": "You _____ writing a letter for two hours. (13)",
+      "optionA": "had been",
+      "optionB": "has been",
+      "optionC": "is being",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q014",
+      "questionText": "It _____ eating an apple for two hours. (14)",
+      "optionA": "have been",
+      "optionB": "had been",
+      "optionC": "is being",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q015",
+      "questionText": "It _____ watching TV for two hours. (15)",
+      "optionA": "have been",
+      "optionB": "had been",
+      "optionC": "is being",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q016",
+      "questionText": "I _____ writing a letter for two hours. (16)",
+      "optionA": "have been",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q017",
+      "questionText": "Mary _____ writing a letter for two hours. (17)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "has been",
+      "optionD": "have been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q018",
+      "questionText": "We _____ eating an apple for two hours. (18)",
+      "optionA": "had been",
+      "optionB": "has been",
+      "optionC": "have been",
+      "optionD": "is being",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q019",
+      "questionText": "The teacher _____ working hard for two hours. (19)",
+      "optionA": "had been",
+      "optionB": "has been",
+      "optionC": "is being",
+      "optionD": "have been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q020",
+      "questionText": "I _____ watching TV for two hours. (20)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q021",
+      "questionText": "John _____ writing a letter for two hours. (21)",
+      "optionA": "have been",
+      "optionB": "is being",
+      "optionC": "had been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q022",
+      "questionText": "I _____ watching TV for two hours. (22)",
+      "optionA": "had been",
+      "optionB": "is being",
+      "optionC": "has been",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q023",
+      "questionText": "We _____ writing a letter for two hours. (23)",
+      "optionA": "have been",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q024",
+      "questionText": "It _____ watching TV for two hours. (24)",
+      "optionA": "had been",
+      "optionB": "have been",
+      "optionC": "has been",
+      "optionD": "is being",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q025",
+      "questionText": "The teacher _____ sleeping well for two hours. (25)",
+      "optionA": "have been",
+      "optionB": "has been",
+      "optionC": "is being",
+      "optionD": "had been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q026",
+      "questionText": "The teacher _____ eating an apple for two hours. (26)",
+      "optionA": "have been",
+      "optionB": "has been",
+      "optionC": "is being",
+      "optionD": "had been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q027",
+      "questionText": "You _____ eating an apple for two hours. (27)",
+      "optionA": "had been",
+      "optionB": "have been",
+      "optionC": "has been",
+      "optionD": "is being",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q028",
+      "questionText": "I _____ eating an apple for two hours. (28)",
+      "optionA": "have been",
+      "optionB": "is being",
+      "optionC": "has been",
+      "optionD": "had been",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q029",
+      "questionText": "They _____ eating an apple for two hours. (29)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "have been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q030",
+      "questionText": "You _____ reading a book for two hours. (30)",
+      "optionA": "has been",
+      "optionB": "have been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q031",
+      "questionText": "He _____ reading a book for two hours. (31)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "have been",
+      "optionD": "had been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q032",
+      "questionText": "The students _____ playing tennis for two hours. (32)",
+      "optionA": "has been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q033",
+      "questionText": "John _____ eating an apple for two hours. (33)",
+      "optionA": "has been",
+      "optionB": "have been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q034",
+      "questionText": "It _____ sleeping well for two hours. (34)",
+      "optionA": "is being",
+      "optionB": "had been",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q035",
+      "questionText": "He _____ sleeping well for two hours. (35)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "have been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q036",
+      "questionText": "Mary _____ studying English for two hours. (36)",
+      "optionA": "had been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q037",
+      "questionText": "Mary _____ eating an apple for two hours. (37)",
+      "optionA": "have been",
+      "optionB": "is being",
+      "optionC": "had been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q038",
+      "questionText": "The students _____ playing tennis for two hours. (38)",
+      "optionA": "had been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q039",
+      "questionText": "The teacher _____ studying English for two hours. (39)",
+      "optionA": "has been",
+      "optionB": "had been",
+      "optionC": "have been",
+      "optionD": "is being",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q040",
+      "questionText": "It _____ watching TV for two hours. (40)",
+      "optionA": "have been",
+      "optionB": "is being",
+      "optionC": "has been",
+      "optionD": "had been",
+      "correctOption": "Option C",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q041",
+      "questionText": "I _____ listening to music for two hours. (41)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "have been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q042",
+      "questionText": "They _____ listening to music for two hours. (42)",
+      "optionA": "have been",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q043",
+      "questionText": "It _____ going to the park for two hours. (43)",
+      "optionA": "has been",
+      "optionB": "had been",
+      "optionC": "is being",
+      "optionD": "have been",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q044",
+      "questionText": "Mary _____ sleeping well for two hours. (44)",
+      "optionA": "is being",
+      "optionB": "have been",
+      "optionC": "had been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q045",
+      "questionText": "I _____ watching TV for two hours. (45)",
+      "optionA": "has been",
+      "optionB": "have been",
+      "optionC": "had been",
+      "optionD": "is being",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q046",
+      "questionText": "The teacher _____ playing tennis for two hours. (46)",
+      "optionA": "has been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "had been",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q047",
+      "questionText": "John _____ listening to music for two hours. (47)",
+      "optionA": "is being",
+      "optionB": "has been",
+      "optionC": "had been",
+      "optionD": "have been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q048",
+      "questionText": "John _____ eating an apple for two hours. (48)",
+      "optionA": "has been",
+      "optionB": "have been",
+      "optionC": "is being",
+      "optionD": "had been",
+      "correctOption": "Option A",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q049",
+      "questionText": "We _____ sleeping well for two hours. (49)",
+      "optionA": "is being",
+      "optionB": "have been",
+      "optionC": "had been",
+      "optionD": "has been",
+      "correctOption": "Option B",
+      "explanation": "Present Perfect (have/has + past participle) uses 'have been' to connect past actions to the present."
+    },
+    {
+      "questionId": "T093-Q050",
+      "questionText": "The teacher _____ eating an apple for two hours. (50)",
+      "optionA": "had been",
+      "optionB": "is being",
+      "optionC": "have been",
+      "optionD": "has been",
+      "correctOption": "Option D",
+      "explanation": "Present Perfect (have/has + past participle) uses 'has been' to connect past actions to the present."
+    }
+  ]
+}

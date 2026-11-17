@@ -1,0 +1,507 @@
+{
+  "topicId": 87,
+  "topicName": "Auxiliaries in questions",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T087-Q001",
+      "questionText": "_____ i write a letter every day? (1)",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q002",
+      "questionText": "_____ mary read a book every day? (2)",
+      "optionA": "Are",
+      "optionB": "Do",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q003",
+      "questionText": "_____ the teacher work hard every day? (3)",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q004",
+      "questionText": "_____ the students go to the park every day? (4)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option B",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q005",
+      "questionText": "_____ it read a book every day? (5)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q006",
+      "questionText": "_____ mary eat an apple every day? (6)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q007",
+      "questionText": "_____ we study English every day? (7)",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q008",
+      "questionText": "_____ they read a book every day? (8)",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q009",
+      "questionText": "_____ john play tennis every day? (9)",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q010",
+      "questionText": "_____ it write a letter every day? (10)",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q011",
+      "questionText": "_____ mary eat an apple every day? (11)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q012",
+      "questionText": "_____ the teacher eat an apple every day? (12)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q013",
+      "questionText": "_____ mary play tennis every day? (13)",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q014",
+      "questionText": "_____ the students go to the park every day? (14)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q015",
+      "questionText": "_____ the students listen to music every day? (15)",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q016",
+      "questionText": "_____ it play tennis every day? (16)",
+      "optionA": "Are",
+      "optionB": "Do",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q017",
+      "questionText": "_____ you go to the park every day? (17)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q018",
+      "questionText": "_____ mary listen to music every day? (18)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q019",
+      "questionText": "_____ john write a letter every day? (19)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q020",
+      "questionText": "_____ we watch TV every day? (20)",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q021",
+      "questionText": "_____ we study English every day? (21)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q022",
+      "questionText": "_____ they work hard every day? (22)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q023",
+      "questionText": "_____ it watch TV every day? (23)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q024",
+      "questionText": "_____ they go to the park every day? (24)",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q025",
+      "questionText": "_____ you play tennis every day? (25)",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q026",
+      "questionText": "_____ the teacher go to the park every day? (26)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q027",
+      "questionText": "_____ it read a book every day? (27)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q028",
+      "questionText": "_____ john work hard every day? (28)",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q029",
+      "questionText": "_____ john listen to music every day? (29)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q030",
+      "questionText": "_____ she study English every day? (30)",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q031",
+      "questionText": "_____ john eat an apple every day? (31)",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q032",
+      "questionText": "_____ she read a book every day? (32)",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q033",
+      "questionText": "_____ it go to the park every day? (33)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q034",
+      "questionText": "_____ you sleep well every day? (34)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q035",
+      "questionText": "_____ we write a letter every day? (35)",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q036",
+      "questionText": "_____ john listen to music every day? (36)",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q037",
+      "questionText": "_____ the students write a letter every day? (37)",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q038",
+      "questionText": "_____ we play tennis every day? (38)",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q039",
+      "questionText": "_____ mary read a book every day? (39)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q040",
+      "questionText": "_____ the teacher listen to music every day? (40)",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q041",
+      "questionText": "_____ she read a book every day? (41)",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q042",
+      "questionText": "_____ the students sleep well every day? (42)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q043",
+      "questionText": "_____ it write a letter every day? (43)",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q044",
+      "questionText": "_____ it work hard every day? (44)",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q045",
+      "questionText": "_____ john eat an apple every day? (45)",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q046",
+      "questionText": "_____ i work hard every day? (46)",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option B",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q047",
+      "questionText": "_____ we write a letter every day? (47)",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q048",
+      "questionText": "_____ we go to the park every day? (48)",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q049",
+      "questionText": "_____ you play tennis every day? (49)",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T087-Q050",
+      "questionText": "_____ it listen to music every day? (50)",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    }
+  ]
+}

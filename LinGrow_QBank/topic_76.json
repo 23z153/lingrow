@@ -1,0 +1,507 @@
+{
+  "topicId": 76,
+  "topicName": "Intransitive verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T076-Q001",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor writes an essay.",
+      "optionB": "The professor sleeps.",
+      "optionC": "The professor eats an apple.",
+      "optionD": "The professor reads a book.",
+      "correctOption": "Option B",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q002",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student eats an apple.",
+      "optionB": "The graduate student reads a book.",
+      "optionC": "The graduate student sleeps.",
+      "optionD": "The graduate student writes an essay.",
+      "correctOption": "Option C",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q003",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor writes an essay.",
+      "optionB": "The professor eats an apple.",
+      "optionC": "The professor reads a book.",
+      "optionD": "The professor sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q004",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student eats an apple.",
+      "optionB": "The graduate student sleeps.",
+      "optionC": "The graduate student reads a book.",
+      "optionD": "The graduate student writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q005",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian reads a book.",
+      "optionB": "The librarian sleeps.",
+      "optionC": "The librarian eats an apple.",
+      "optionD": "The librarian writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q006",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The research team eats an apple.",
+      "optionB": "The research team reads a book.",
+      "optionC": "The research team writes an essay.",
+      "optionD": "The research team sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The research team sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q007",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian reads a book.",
+      "optionB": "The librarian writes an essay.",
+      "optionC": "The librarian eats an apple.",
+      "optionD": "The librarian sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q008",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The laboratory eats an apple.",
+      "optionB": "The laboratory writes an essay.",
+      "optionC": "The laboratory sleeps.",
+      "optionD": "The laboratory reads a book.",
+      "correctOption": "Option C",
+      "explanation": "'The laboratory sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q009",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor sleeps.",
+      "optionB": "The professor writes an essay.",
+      "optionC": "The professor eats an apple.",
+      "optionD": "The professor reads a book.",
+      "correctOption": "Option A",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q010",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor writes an essay.",
+      "optionB": "The professor reads a book.",
+      "optionC": "The professor eats an apple.",
+      "optionD": "The professor sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q011",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The students reads a book.",
+      "optionB": "The students eats an apple.",
+      "optionC": "The students sleeps.",
+      "optionD": "The students writes an essay.",
+      "correctOption": "Option C",
+      "explanation": "'The students sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q012",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The university eats an apple.",
+      "optionB": "The university reads a book.",
+      "optionC": "The university writes an essay.",
+      "optionD": "The university sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The university sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q013",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian eats an apple.",
+      "optionB": "The librarian writes an essay.",
+      "optionC": "The librarian sleeps.",
+      "optionD": "The librarian reads a book.",
+      "correctOption": "Option C",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q014",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The campus reads a book.",
+      "optionB": "The campus writes an essay.",
+      "optionC": "The campus sleeps.",
+      "optionD": "The campus eats an apple.",
+      "correctOption": "Option C",
+      "explanation": "'The campus sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q015",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian eats an apple.",
+      "optionB": "The librarian writes an essay.",
+      "optionC": "The librarian reads a book.",
+      "optionD": "The librarian sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q016",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The research team eats an apple.",
+      "optionB": "The research team writes an essay.",
+      "optionC": "The research team reads a book.",
+      "optionD": "The research team sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The research team sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q017",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The laboratory eats an apple.",
+      "optionB": "The laboratory writes an essay.",
+      "optionC": "The laboratory reads a book.",
+      "optionD": "The laboratory sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The laboratory sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q018",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The campus eats an apple.",
+      "optionB": "The campus writes an essay.",
+      "optionC": "The campus sleeps.",
+      "optionD": "The campus reads a book.",
+      "correctOption": "Option C",
+      "explanation": "'The campus sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q019",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor sleeps.",
+      "optionB": "The professor eats an apple.",
+      "optionC": "The professor reads a book.",
+      "optionD": "The professor writes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q020",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The laboratory reads a book.",
+      "optionB": "The laboratory sleeps.",
+      "optionC": "The laboratory writes an essay.",
+      "optionD": "The laboratory eats an apple.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q021",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student reads a book.",
+      "optionB": "The graduate student sleeps.",
+      "optionC": "The graduate student writes an essay.",
+      "optionD": "The graduate student eats an apple.",
+      "correctOption": "Option B",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q022",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The students reads a book.",
+      "optionB": "The students eats an apple.",
+      "optionC": "The students writes an essay.",
+      "optionD": "The students sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The students sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q023",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The lecture reads a book.",
+      "optionB": "The lecture eats an apple.",
+      "optionC": "The lecture writes an essay.",
+      "optionD": "The lecture sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The lecture sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q024",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor sleeps.",
+      "optionB": "The professor writes an essay.",
+      "optionC": "The professor reads a book.",
+      "optionD": "The professor eats an apple.",
+      "correctOption": "Option A",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q025",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The laboratory writes an essay.",
+      "optionB": "The laboratory sleeps.",
+      "optionC": "The laboratory eats an apple.",
+      "optionD": "The laboratory reads a book.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q026",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The lecture sleeps.",
+      "optionB": "The lecture reads a book.",
+      "optionC": "The lecture writes an essay.",
+      "optionD": "The lecture eats an apple.",
+      "correctOption": "Option A",
+      "explanation": "'The lecture sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q027",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The university reads a book.",
+      "optionB": "The university writes an essay.",
+      "optionC": "The university sleeps.",
+      "optionD": "The university eats an apple.",
+      "correctOption": "Option C",
+      "explanation": "'The university sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q028",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student writes an essay.",
+      "optionB": "The graduate student sleeps.",
+      "optionC": "The graduate student reads a book.",
+      "optionD": "The graduate student eats an apple.",
+      "correctOption": "Option B",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q029",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The academic paper sleeps.",
+      "optionB": "The academic paper eats an apple.",
+      "optionC": "The academic paper reads a book.",
+      "optionD": "The academic paper writes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The academic paper sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q030",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The students writes an essay.",
+      "optionB": "The students eats an apple.",
+      "optionC": "The students reads a book.",
+      "optionD": "The students sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The students sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q031",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor eats an apple.",
+      "optionB": "The professor writes an essay.",
+      "optionC": "The professor sleeps.",
+      "optionD": "The professor reads a book.",
+      "correctOption": "Option C",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q032",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student eats an apple.",
+      "optionB": "The graduate student sleeps.",
+      "optionC": "The graduate student reads a book.",
+      "optionD": "The graduate student writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q033",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The students eats an apple.",
+      "optionB": "The students sleeps.",
+      "optionC": "The students writes an essay.",
+      "optionD": "The students reads a book.",
+      "correctOption": "Option B",
+      "explanation": "'The students sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q034",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The graduate student reads a book.",
+      "optionB": "The graduate student sleeps.",
+      "optionC": "The graduate student eats an apple.",
+      "optionD": "The graduate student writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The graduate student sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q035",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian eats an apple.",
+      "optionB": "The librarian reads a book.",
+      "optionC": "The librarian sleeps.",
+      "optionD": "The librarian writes an essay.",
+      "correctOption": "Option C",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q036",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The campus reads a book.",
+      "optionB": "The campus eats an apple.",
+      "optionC": "The campus writes an essay.",
+      "optionD": "The campus sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The campus sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q037",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The lecture sleeps.",
+      "optionB": "The lecture eats an apple.",
+      "optionC": "The lecture writes an essay.",
+      "optionD": "The lecture reads a book.",
+      "correctOption": "Option A",
+      "explanation": "'The lecture sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q038",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The librarian reads a book.",
+      "optionB": "The librarian sleeps.",
+      "optionC": "The librarian eats an apple.",
+      "optionD": "The librarian writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The librarian sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q039",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The lecture reads a book.",
+      "optionB": "The lecture eats an apple.",
+      "optionC": "The lecture writes an essay.",
+      "optionD": "The lecture sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The lecture sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q040",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The research team writes an essay.",
+      "optionB": "The research team sleeps.",
+      "optionC": "The research team eats an apple.",
+      "optionD": "The research team reads a book.",
+      "correctOption": "Option B",
+      "explanation": "'The research team sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q041",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The students reads a book.",
+      "optionB": "The students sleeps.",
+      "optionC": "The students eats an apple.",
+      "optionD": "The students writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The students sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q042",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor sleeps.",
+      "optionB": "The professor eats an apple.",
+      "optionC": "The professor reads a book.",
+      "optionD": "The professor writes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q043",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The campus sleeps.",
+      "optionB": "The campus reads a book.",
+      "optionC": "The campus writes an essay.",
+      "optionD": "The campus eats an apple.",
+      "correctOption": "Option A",
+      "explanation": "'The campus sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q044",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The lecture sleeps.",
+      "optionB": "The lecture eats an apple.",
+      "optionC": "The lecture reads a book.",
+      "optionD": "The lecture writes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The lecture sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q045",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The campus reads a book.",
+      "optionB": "The campus writes an essay.",
+      "optionC": "The campus sleeps.",
+      "optionD": "The campus eats an apple.",
+      "correctOption": "Option C",
+      "explanation": "'The campus sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q046",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The professor reads a book.",
+      "optionB": "The professor eats an apple.",
+      "optionC": "The professor writes an essay.",
+      "optionD": "The professor sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The professor sleeps' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T076-Q047",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The academic paper writes an essay.",
+      "optionB": "The academic paper reads a book.",
+      "optionC": "The academic paper eats an apple.",
+      "optionD": "The academic paper sleeps.",
+      "correctOption": "Option D",
+      "explanation": "'The academic paper sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q048",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The academic paper eats an apple.",
+      "optionB": "The academic paper reads a book.",
+      "optionC": "The academic paper sleeps.",
+      "optionD": "The academic paper writes an essay.",
+      "correctOption": "Option C",
+      "explanation": "'The academic paper sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q049",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The academic paper writes an essay.",
+      "optionB": "The academic paper reads a book.",
+      "optionC": "The academic paper sleeps.",
+      "optionD": "The academic paper eats an apple.",
+      "correctOption": "Option C",
+      "explanation": "'The academic paper sleeps' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T076-Q050",
+      "questionText": "Identify the sentence with an intransitive verb.",
+      "optionA": "The laboratory eats an apple.",
+      "optionB": "The laboratory sleeps.",
+      "optionC": "The laboratory reads a book.",
+      "optionD": "The laboratory writes an essay.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory sleeps' is the correct choice in standard English grammar."
+    }
+  ]
+}

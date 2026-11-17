@@ -1,0 +1,707 @@
+{
+  "topicId": 4,
+  "topicName": "Object",
+  "unit": "UNIT 1 — SENTENCE FOUNDATIONS",
+  "questions": [
+    {
+      "questionId": "T004-Q001",
+      "questionText": "Identify the direct object in the sentence: 'The student reads the textbook.'",
+      "optionA": "the textbook",
+      "optionB": "reads",
+      "optionC": "The student",
+      "optionD": "student reads",
+      "correctOption": "Option A",
+      "explanation": "'the textbook' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q002",
+      "questionText": "Identify the direct object in the sentence: 'The professor gives a lecture.'",
+      "optionA": "a lecture",
+      "optionB": "The professor",
+      "optionC": "gives",
+      "optionD": "gives a",
+      "correctOption": "Option A",
+      "explanation": "'a lecture' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q003",
+      "questionText": "Identify the indirect object in the sentence: 'She asks the teacher a question.'",
+      "optionA": "the teacher",
+      "optionB": "a question",
+      "optionC": "She",
+      "optionD": "asks",
+      "correctOption": "Option A",
+      "explanation": "'the teacher' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q004",
+      "questionText": "Which word is the object pronoun in this sentence? 'The librarian helps us.'",
+      "optionA": "us",
+      "optionB": "The",
+      "optionC": "librarian",
+      "optionD": "helps",
+      "correctOption": "Option A",
+      "explanation": "'us' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q005",
+      "questionText": "Find the object in the sentence: 'We write essays in class.'",
+      "optionA": "essays",
+      "optionB": "We",
+      "optionC": "write",
+      "optionD": "in class",
+      "correctOption": "Option A",
+      "explanation": "'essays' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q006",
+      "questionText": "Identify the direct object: 'He studies chemistry.'",
+      "optionA": "chemistry",
+      "optionB": "He",
+      "optionC": "studies",
+      "optionD": "studies chemistry",
+      "correctOption": "Option A",
+      "explanation": "'chemistry' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q007",
+      "questionText": "Identify the indirect object: 'The university offers students free printing.'",
+      "optionA": "students",
+      "optionB": "free printing",
+      "optionC": "The university",
+      "optionD": "offers",
+      "correctOption": "Option A",
+      "explanation": "'students' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q008",
+      "questionText": "Find the direct object in the sentence: 'They buy laptops for college.'",
+      "optionA": "laptops",
+      "optionB": "They",
+      "optionC": "buy",
+      "optionD": "college",
+      "correctOption": "Option A",
+      "explanation": "'laptops' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q009",
+      "questionText": "Find the object in the sentence: 'The scientist observes the cells.'",
+      "optionA": "the cells",
+      "optionB": "The scientist",
+      "optionC": "observes",
+      "optionD": "scientist",
+      "correctOption": "Option A",
+      "explanation": "'the cells' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q010",
+      "questionText": "Identify the indirect object in the sentence: 'Please send the professor an email.'",
+      "optionA": "the professor",
+      "optionB": "Please",
+      "optionC": "send",
+      "optionD": "an email",
+      "correctOption": "Option A",
+      "explanation": "'the professor' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q011",
+      "questionText": "Identify the direct object: 'The dean welcomes the new freshmen.'",
+      "optionA": "the new freshmen",
+      "optionB": "The dean",
+      "optionC": "welcomes",
+      "optionD": "dean welcomes",
+      "correctOption": "Option A",
+      "explanation": "'the new freshmen' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q012",
+      "questionText": "Find the object in the sentence: 'She passes the exam.'",
+      "optionA": "the exam",
+      "optionB": "She",
+      "optionC": "passes",
+      "optionD": "passes the",
+      "correctOption": "Option A",
+      "explanation": "'the exam' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q013",
+      "questionText": "Identify the indirect object: 'The tutor teaches Maria math.'",
+      "optionA": "Maria",
+      "optionB": "The tutor",
+      "optionC": "teaches",
+      "optionD": "math",
+      "correctOption": "Option A",
+      "explanation": "'Maria' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q014",
+      "questionText": "Find the direct object in the sentence: 'He brings a pen to the classroom.'",
+      "optionA": "He",
+      "optionB": "a pen",
+      "optionC": "brings",
+      "optionD": "classroom",
+      "correctOption": "Option B",
+      "explanation": "'a pen' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q015",
+      "questionText": "Identify the indirect object: 'The college awards him a scholarship.'",
+      "optionA": "The college",
+      "optionB": "him",
+      "optionC": "awards",
+      "optionD": "a scholarship",
+      "correctOption": "Option B",
+      "explanation": "'him' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q016",
+      "questionText": "Find the object in the sentence: 'They answer the questions.'",
+      "optionA": "They",
+      "optionB": "the questions",
+      "optionC": "answer",
+      "optionD": "answer the",
+      "correctOption": "Option B",
+      "explanation": "'the questions' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q017",
+      "questionText": "Identify the direct object: 'She takes notes during the lecture.'",
+      "optionA": "She",
+      "optionB": "notes",
+      "optionC": "takes",
+      "optionD": "during",
+      "correctOption": "Option B",
+      "explanation": "'notes' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q018",
+      "questionText": "Identify the indirect object: 'The instructor shows the class a video.'",
+      "optionA": "a video",
+      "optionB": "the class",
+      "optionC": "The instructor",
+      "optionD": "shows",
+      "correctOption": "Option B",
+      "explanation": "'the class' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q019",
+      "questionText": "Find the object in the sentence: 'We complete the homework.'",
+      "optionA": "We",
+      "optionB": "the homework",
+      "optionC": "complete",
+      "optionD": "complete the",
+      "correctOption": "Option B",
+      "explanation": "'the homework' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q020",
+      "questionText": "Identify the direct object: 'The library lends books to students.'",
+      "optionA": "students",
+      "optionB": "books",
+      "optionC": "lends",
+      "optionD": "The library",
+      "correctOption": "Option B",
+      "explanation": "'books' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q021",
+      "questionText": "Which word is the object pronoun in this sentence? 'The teacher grades them.'",
+      "optionA": "The teacher",
+      "optionB": "them",
+      "optionC": "grades",
+      "optionD": "teacher grades",
+      "correctOption": "Option B",
+      "explanation": "'them' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q022",
+      "questionText": "Find the direct object in the sentence: 'He writes a report.'",
+      "optionA": "He",
+      "optionB": "a report",
+      "optionC": "writes",
+      "optionD": "He writes",
+      "correctOption": "Option B",
+      "explanation": "'a report' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q023",
+      "questionText": "Identify the indirect object: 'She buys her friend a coffee.'",
+      "optionA": "a coffee",
+      "optionB": "her friend",
+      "optionC": "buys",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'her friend' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q024",
+      "questionText": "Find the object in the sentence: 'The student asks a question.'",
+      "optionA": "asks",
+      "optionB": "a question",
+      "optionC": "The student",
+      "optionD": "student asks",
+      "correctOption": "Option B",
+      "explanation": "'a question' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q025",
+      "questionText": "Identify the direct object: 'They learn new vocabulary.'",
+      "optionA": "learn",
+      "optionB": "new vocabulary",
+      "optionC": "They",
+      "optionD": "learn new",
+      "correctOption": "Option B",
+      "explanation": "'new vocabulary' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q026",
+      "questionText": "Identify the indirect object: 'The advisor gives the student a schedule.'",
+      "optionA": "gives",
+      "optionB": "the student",
+      "optionC": "The advisor",
+      "optionD": "a schedule",
+      "correctOption": "Option B",
+      "explanation": "'the student' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q027",
+      "questionText": "Find the direct object in the sentence: 'The professor explains the theory.'",
+      "optionA": "The professor",
+      "optionB": "explains",
+      "optionC": "the theory",
+      "optionD": "professor explains",
+      "correctOption": "Option C",
+      "explanation": "'the theory' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q028",
+      "questionText": "Identify the indirect object: 'He tells his classmates the answer.'",
+      "optionA": "the answer",
+      "optionB": "He",
+      "optionC": "his classmates",
+      "optionD": "tells",
+      "correctOption": "Option C",
+      "explanation": "'his classmates' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q029",
+      "questionText": "Find the object in the sentence: 'She opens the dictionary.'",
+      "optionA": "She",
+      "optionB": "opens",
+      "optionC": "the dictionary",
+      "optionD": "opens the",
+      "correctOption": "Option C",
+      "explanation": "'the dictionary' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q030",
+      "questionText": "Identify the direct object: 'We wear uniforms in the lab.'",
+      "optionA": "in the lab",
+      "optionB": "We",
+      "optionC": "uniforms",
+      "optionD": "wear",
+      "correctOption": "Option C",
+      "explanation": "'uniforms' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q031",
+      "questionText": "Identify the indirect object: 'The university grants the researchers funding.'",
+      "optionA": "funding",
+      "optionB": "grants",
+      "optionC": "the researchers",
+      "optionD": "The university",
+      "correctOption": "Option C",
+      "explanation": "'the researchers' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q032",
+      "questionText": "Find the object in the sentence: 'He submits the assignment.'",
+      "optionA": "submits",
+      "optionB": "He",
+      "optionC": "the assignment",
+      "optionD": "submits the",
+      "correctOption": "Option C",
+      "explanation": "'the assignment' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q033",
+      "questionText": "Which word is the object pronoun? 'I see her in the library.'",
+      "optionA": "in the library",
+      "optionB": "see",
+      "optionC": "her",
+      "optionD": "I",
+      "correctOption": "Option C",
+      "explanation": "'her' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q034",
+      "questionText": "Find the direct object in the sentence: 'They design a project.'",
+      "optionA": "They",
+      "optionB": "design",
+      "optionC": "a project",
+      "optionD": "They design",
+      "correctOption": "Option C",
+      "explanation": "'a project' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q035",
+      "questionText": "Identify the indirect object: 'She writes the dean a letter.'",
+      "optionA": "a letter",
+      "optionB": "writes",
+      "optionC": "the dean",
+      "optionD": "She",
+      "correctOption": "Option C",
+      "explanation": "'the dean' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q036",
+      "questionText": "Find the object in the sentence: 'The student finds a mistake.'",
+      "optionA": "The",
+      "optionB": "student",
+      "optionC": "a mistake",
+      "optionD": "finds",
+      "correctOption": "Option C",
+      "explanation": "'a mistake' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q037",
+      "questionText": "Identify the direct object: 'We discuss the results.'",
+      "optionA": "We",
+      "optionB": "discuss",
+      "optionC": "the results",
+      "optionD": "We discuss",
+      "correctOption": "Option C",
+      "explanation": "'the results' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q038",
+      "questionText": "Identify the indirect object: 'The mentor offers the beginner advice.'",
+      "optionA": "advice",
+      "optionB": "offers",
+      "optionC": "the beginner",
+      "optionD": "The mentor",
+      "correctOption": "Option C",
+      "explanation": "'the beginner' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q039",
+      "questionText": "Find the direct object in the sentence: 'The researcher analyzes the data.'",
+      "optionA": "The researcher",
+      "optionB": "analyzes",
+      "optionC": "researcher analyzes",
+      "optionD": "the data",
+      "correctOption": "Option D",
+      "explanation": "'the data' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q040",
+      "questionText": "Identify the indirect object: 'He hands his partner the microscope.'",
+      "optionA": "the microscope",
+      "optionB": "hands",
+      "optionC": "He",
+      "optionD": "his partner",
+      "correctOption": "Option D",
+      "explanation": "'his partner' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q041",
+      "questionText": "Find the object in the sentence: 'She prints the document.'",
+      "optionA": "prints",
+      "optionB": "She",
+      "optionC": "prints the",
+      "optionD": "the document",
+      "correctOption": "Option D",
+      "explanation": "'the document' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q042",
+      "questionText": "Identify the direct object: 'They present a summary.'",
+      "optionA": "They",
+      "optionB": "present",
+      "optionC": "present a",
+      "optionD": "a summary",
+      "correctOption": "Option D",
+      "explanation": "'a summary' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q043",
+      "questionText": "Identify the indirect object: 'The coach teaches the team a new strategy.'",
+      "optionA": "a new strategy",
+      "optionB": "teaches",
+      "optionC": "The coach",
+      "optionD": "the team",
+      "correctOption": "Option D",
+      "explanation": "'the team' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q044",
+      "questionText": "Find the object in the sentence: 'We join a study group.'",
+      "optionA": "join",
+      "optionB": "We",
+      "optionC": "We join",
+      "optionD": "a study group",
+      "correctOption": "Option D",
+      "explanation": "'a study group' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q045",
+      "questionText": "Which word is the object pronoun? 'The professor calls him.'",
+      "optionA": "The",
+      "optionB": "professor",
+      "optionC": "calls",
+      "optionD": "him",
+      "correctOption": "Option D",
+      "explanation": "'him' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q046",
+      "questionText": "Find the direct object in the sentence: 'She creates a presentation.'",
+      "optionA": "creates",
+      "optionB": "She creates",
+      "optionC": "She",
+      "optionD": "a presentation",
+      "correctOption": "Option D",
+      "explanation": "'a presentation' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q047",
+      "questionText": "Identify the indirect object: 'They buy the club new equipment.'",
+      "optionA": "new equipment",
+      "optionB": "They",
+      "optionC": "buy",
+      "optionD": "the club",
+      "correctOption": "Option D",
+      "explanation": "'the club' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q048",
+      "questionText": "Find the object in the sentence: 'He reviews the lesson.'",
+      "optionA": "reviews",
+      "optionB": "He reviews",
+      "optionC": "He",
+      "optionD": "the lesson",
+      "correctOption": "Option D",
+      "explanation": "'the lesson' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q049",
+      "questionText": "Identify the direct object: 'The student translates the sentence.'",
+      "optionA": "The student",
+      "optionB": "translates",
+      "optionC": "student translates",
+      "optionD": "the sentence",
+      "correctOption": "Option D",
+      "explanation": "'the sentence' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T004-Q050",
+      "questionText": "Identify the indirect object: 'She shows the visitor the campus.'",
+      "optionA": "the campus",
+      "optionB": "shows",
+      "optionC": "She",
+      "optionD": "the visitor",
+      "correctOption": "Option D",
+      "explanation": "'the visitor' is the object because it receives the action of the main verb.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

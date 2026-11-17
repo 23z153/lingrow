@@ -1,0 +1,507 @@
+{
+  "topicId": 108,
+  "topicName": "WH questions",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T108-Q001",
+      "questionText": "How ___ they makeing at the university?",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q002",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "Where",
+      "optionC": "What",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q003",
+      "questionText": "___ do you live?",
+      "optionA": "Where",
+      "optionB": "When",
+      "optionC": "Who",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q004",
+      "questionText": "Who ___ Frank know?",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Frank' in question form."
+    },
+    {
+      "questionId": "T108-Q005",
+      "questionText": "Why ___ they understanding in the library?",
+      "optionA": "are",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q006",
+      "questionText": "___ is your name?",
+      "optionA": "When",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Where",
+      "correctOption": "Option C",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q007",
+      "questionText": "___ do you live?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "Where",
+      "correctOption": "Option D",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q008",
+      "questionText": "Who ___ Frank make?",
+      "optionA": "does",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "do",
+      "correctOption": "Option A",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Frank' in question form."
+    },
+    {
+      "questionId": "T108-Q009",
+      "questionText": "What ___ they playing in the library?",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q010",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "Where",
+      "optionC": "What",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q011",
+      "questionText": "___ do you live?",
+      "optionA": "Where",
+      "optionB": "When",
+      "optionC": "What",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q012",
+      "questionText": "Why ___ Ivy do?",
+      "optionA": "is",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Ivy' in question form."
+    },
+    {
+      "questionId": "T108-Q013",
+      "questionText": "When ___ they working at the university?",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q014",
+      "questionText": "___ is your name?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "When",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q015",
+      "questionText": "___ do you live?",
+      "optionA": "When",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q016",
+      "questionText": "Where ___ Maria play?",
+      "optionA": "are",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Maria' in question form."
+    },
+    {
+      "questionId": "T108-Q017",
+      "questionText": "Why ___ they speaking in the classroom?",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q018",
+      "questionText": "___ is your name?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q019",
+      "questionText": "___ do you live?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q020",
+      "questionText": "What ___ Frank eat?",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Frank' in question form."
+    },
+    {
+      "questionId": "T108-Q021",
+      "questionText": "When ___ they haveing at the university?",
+      "optionA": "do",
+      "optionB": "are",
+      "optionC": "does",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q022",
+      "questionText": "___ is your name?",
+      "optionA": "What",
+      "optionB": "When",
+      "optionC": "Who",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q023",
+      "questionText": "___ do you live?",
+      "optionA": "What",
+      "optionB": "Where",
+      "optionC": "Who",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q024",
+      "questionText": "When ___ Frank think?",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Frank' in question form."
+    },
+    {
+      "questionId": "T108-Q025",
+      "questionText": "When ___ they reading on campus?",
+      "optionA": "does",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q026",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "Where",
+      "correctOption": "Option B",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q027",
+      "questionText": "___ do you live?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "Where",
+      "correctOption": "Option D",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q028",
+      "questionText": "Who ___ The teacher work?",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "do",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'does' to form the question correctly."
+    },
+    {
+      "questionId": "T108-Q029",
+      "questionText": "Why ___ they makeing at the university?",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q030",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q031",
+      "questionText": "___ do you live?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q032",
+      "questionText": "Where ___ Diana play?",
+      "optionA": "are",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'does' to form the question correctly."
+    },
+    {
+      "questionId": "T108-Q033",
+      "questionText": "Where ___ they sleeping at home?",
+      "optionA": "are",
+      "optionB": "do",
+      "optionC": "is",
+      "optionD": "does",
+      "correctOption": "Option A",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q034",
+      "questionText": "___ is your name?",
+      "optionA": "What",
+      "optionB": "Where",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q035",
+      "questionText": "___ do you live?",
+      "optionA": "Where",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q036",
+      "questionText": "Who ___ Diana eat?",
+      "optionA": "is",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'does' to form the question correctly."
+    },
+    {
+      "questionId": "T108-Q037",
+      "questionText": "What ___ they eating in the library?",
+      "optionA": "does",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q038",
+      "questionText": "___ is your name?",
+      "optionA": "What",
+      "optionB": "Who",
+      "optionC": "Where",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q039",
+      "questionText": "___ do you live?",
+      "optionA": "When",
+      "optionB": "What",
+      "optionC": "Where",
+      "optionD": "Who",
+      "correctOption": "Option C",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q040",
+      "questionText": "How ___ Maria work?",
+      "optionA": "does",
+      "optionB": "are",
+      "optionC": "do",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "Use the auxiliary verb 'does' to match the subject 'Maria' in question form."
+    },
+    {
+      "questionId": "T108-Q041",
+      "questionText": "How ___ they haveing in the lab?",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "does",
+      "optionD": "are",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q042",
+      "questionText": "___ is your name?",
+      "optionA": "Where",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q043",
+      "questionText": "___ do you live?",
+      "optionA": "When",
+      "optionB": "Who",
+      "optionC": "What",
+      "optionD": "Where",
+      "correctOption": "Option D",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q044",
+      "questionText": "Where ___ Diana sleep?",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "Use the auxiliary verb 'does' to form the question correctly."
+    },
+    {
+      "questionId": "T108-Q045",
+      "questionText": "Why ___ they seeing at home?",
+      "optionA": "do",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "does",
+      "correctOption": "Option C",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q046",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "Where",
+      "optionC": "When",
+      "optionD": "What",
+      "correctOption": "Option D",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    },
+    {
+      "questionId": "T108-Q047",
+      "questionText": "___ do you live?",
+      "optionA": "Who",
+      "optionB": "When",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Where' to ask about a place or location."
+    },
+    {
+      "questionId": "T108-Q048",
+      "questionText": "Who ___ Henry sleep?",
+      "optionA": "is",
+      "optionB": "do",
+      "optionC": "are",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "Use the auxiliary verb 'does' to form the question correctly."
+    },
+    {
+      "questionId": "T108-Q049",
+      "questionText": "Why ___ they takeing at the office?",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "Use the auxiliary verb 'are' to match the subject 'they' in question form."
+    },
+    {
+      "questionId": "T108-Q050",
+      "questionText": "___ is your name?",
+      "optionA": "Who",
+      "optionB": "Where",
+      "optionC": "What",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'What' to ask about a thing, object, action, or specific information."
+    }
+  ]
+}

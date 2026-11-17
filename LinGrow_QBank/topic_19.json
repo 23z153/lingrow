@@ -1,0 +1,507 @@
+{
+  "topicId": 19,
+  "topicName": "Concrete nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T019-Q001",
+      "questionText": "Which of the following is a concrete noun?",
+      "optionA": "honesty",
+      "optionB": "laptop",
+      "optionC": "freedom",
+      "optionD": "knowledge",
+      "correctOption": "Option B",
+      "explanation": "'laptop' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q002",
+      "questionText": "Which word refers to something that can be experienced through one or more of the senses?",
+      "optionA": "happiness",
+      "optionB": "courage",
+      "optionC": "perfume",
+      "optionD": "intelligence",
+      "correctOption": "Option C",
+      "explanation": "'perfume' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q003",
+      "questionText": "Identify the concrete noun in the sentence “The researcher opened the laboratory door.”",
+      "optionA": "researcher",
+      "optionB": "opened",
+      "optionC": "laboratory",
+      "optionD": "door",
+      "correctOption": "Option D",
+      "explanation": "'door' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q004",
+      "questionText": "Which of the following is a concrete noun?",
+      "optionA": "friendship",
+      "optionB": "chair",
+      "optionC": "patience",
+      "optionD": "success",
+      "correctOption": "Option B",
+      "explanation": "'chair' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q005",
+      "questionText": "Which noun can be directly perceived by sight, touch, hearing, smell, or taste?",
+      "optionA": "confidence",
+      "optionB": "computer",
+      "optionC": "wisdom",
+      "optionD": "responsibility",
+      "correctOption": "Option B",
+      "explanation": "'computer' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q006",
+      "questionText": "Identify the concrete noun in the sentence “The technician repaired the machine.”",
+      "optionA": "technician",
+      "optionB": "repaired",
+      "optionC": "machine",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'machine' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q007",
+      "questionText": "Which of the following is NOT a concrete noun?",
+      "optionA": "keyboard",
+      "optionB": "building",
+      "optionC": "honesty",
+      "optionD": "microphone",
+      "correctOption": "Option C",
+      "explanation": "'honesty' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q008",
+      "questionText": "Choose the concrete noun that best completes the sentence: “The student placed the report on the ___.”",
+      "optionA": "desk",
+      "optionB": "confidence",
+      "optionC": "knowledge",
+      "optionD": "patience",
+      "correctOption": "Option A",
+      "explanation": "'desk' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q009",
+      "questionText": "Which pair contains only concrete nouns?",
+      "optionA": "book, pencil",
+      "optionB": "honesty, pencil",
+      "optionC": "knowledge, freedom",
+      "optionD": "courage, laptop",
+      "correctOption": "Option A",
+      "explanation": "'book, pencil' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q010",
+      "questionText": "Identify the concrete noun in “The professor wrote on the whiteboard.”",
+      "optionA": "professor",
+      "optionB": "wrote",
+      "optionC": "on",
+      "optionD": "whiteboard",
+      "correctOption": "Option D",
+      "explanation": "'whiteboard' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q011",
+      "questionText": "Which of the following is a concrete noun related to technology?",
+      "optionA": "algorithm",
+      "optionB": "laptop",
+      "optionC": "intelligence",
+      "optionD": "creativity",
+      "correctOption": "Option B",
+      "explanation": "'laptop' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q012",
+      "questionText": "Which sentence contains a concrete noun?",
+      "optionA": "Her kindness impressed everyone.",
+      "optionB": "His honesty was appreciated.",
+      "optionC": "The camera captured the scene.",
+      "optionD": "Their friendship lasted for years.",
+      "correctOption": "Option C",
+      "explanation": "'The camera captured the scene' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q013",
+      "questionText": "Identify the concrete noun in the sentence “The student heard a loud alarm.”",
+      "optionA": "student",
+      "optionB": "heard",
+      "optionC": "loud",
+      "optionD": "alarm",
+      "correctOption": "Option D",
+      "explanation": "'alarm' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q014",
+      "questionText": "Which of the following can be physically touched?",
+      "optionA": "responsibility",
+      "optionB": "notebook",
+      "optionC": "ambition",
+      "optionD": "education",
+      "correctOption": "Option B",
+      "explanation": "'notebook' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q015",
+      "questionText": "Choose the concrete noun.",
+      "optionA": "anger",
+      "optionB": "bottle",
+      "optionC": "confidence",
+      "optionD": "curiosity",
+      "correctOption": "Option B",
+      "explanation": "'bottle' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q016",
+      "questionText": "Which sentence contains two concrete nouns?",
+      "optionA": "The engineer tested the device.",
+      "optionB": "The engineer showed great confidence.",
+      "optionC": "The project required patience.",
+      "optionD": "Their friendship developed slowly.",
+      "correctOption": "Option A",
+      "explanation": "'The engineer tested the device' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q017",
+      "questionText": "Identify the two concrete nouns in “The nurse carried the medicine bottle.”",
+      "optionA": "nurse and bottle",
+      "optionB": "carried and medicine",
+      "optionC": "nurse and carried",
+      "optionD": "medicine and carried",
+      "correctOption": "Option A",
+      "explanation": "'nurse and bottle' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q018",
+      "questionText": "Which of the following is a concrete noun that can be heard?",
+      "optionA": "music",
+      "optionB": "honesty",
+      "optionC": "wisdom",
+      "optionD": "courage",
+      "correctOption": "Option A",
+      "explanation": "'music' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q019",
+      "questionText": "Which of the following is a concrete noun that can be smelled?",
+      "optionA": "fragrance",
+      "optionB": "kindness",
+      "optionC": "intelligence",
+      "optionD": "patience",
+      "correctOption": "Option A",
+      "explanation": "'fragrance' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q020",
+      "questionText": "Which of the following is a concrete noun that can be tasted?",
+      "optionA": "happiness",
+      "optionB": "chocolate",
+      "optionC": "courage",
+      "optionD": "freedom",
+      "correctOption": "Option B",
+      "explanation": "'chocolate' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q021",
+      "questionText": "Identify the concrete noun in “The chef prepared a delicious meal.”",
+      "optionA": "chef",
+      "optionB": "prepared",
+      "optionC": "delicious",
+      "optionD": "meal",
+      "correctOption": "Option D",
+      "explanation": "'meal' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q022",
+      "questionText": "Which pair contains one concrete noun and one abstract noun?",
+      "optionA": "table, chair",
+      "optionB": "honesty, courage",
+      "optionC": "computer, knowledge",
+      "optionD": "bottle, keyboard",
+      "correctOption": "Option C",
+      "explanation": "'computer, knowledge' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q023",
+      "questionText": "Which noun in the sentence “The child held a balloon” is a concrete noun?",
+      "optionA": "child",
+      "optionB": "held",
+      "optionC": "a",
+      "optionD": "both child and balloon",
+      "correctOption": "Option D",
+      "explanation": "'both child and balloon' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q024",
+      "questionText": "Which of the following is a concrete noun?",
+      "optionA": "fear",
+      "optionB": "river",
+      "optionC": "loyalty",
+      "optionD": "ambition",
+      "correctOption": "Option B",
+      "explanation": "'river' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q025",
+      "questionText": "Choose the sentence in which the highlighted noun is concrete.",
+      "optionA": "Her wisdom helped the team.",
+      "optionB": "His confidence impressed the panel.",
+      "optionC": "The printer stopped working.",
+      "optionD": "Their friendship grew stronger.",
+      "correctOption": "Option C",
+      "explanation": "'The printer stopped working' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q026",
+      "questionText": "Identify the concrete noun in “The students watched the football match.”",
+      "optionA": "students",
+      "optionB": "watched",
+      "optionC": "football",
+      "optionD": "both students and football",
+      "correctOption": "Option D",
+      "explanation": "'both students and football' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q027",
+      "questionText": "Which of the following is a concrete noun referring to a person?",
+      "optionA": "teacher",
+      "optionB": "honesty",
+      "optionC": "intelligence",
+      "optionD": "kindness",
+      "correctOption": "Option A",
+      "explanation": "'teacher' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q028",
+      "questionText": "Which of the following is a concrete noun referring to a place?",
+      "optionA": "laboratory",
+      "optionB": "knowledge",
+      "optionC": "education",
+      "optionD": "freedom",
+      "correctOption": "Option A",
+      "explanation": "'laboratory' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q029",
+      "questionText": "Which of the following is a concrete noun referring to an object?",
+      "optionA": "happiness",
+      "optionB": "smartphone",
+      "optionC": "bravery",
+      "optionD": "patience",
+      "correctOption": "Option B",
+      "explanation": "'smartphone' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q030",
+      "questionText": "Identify the concrete noun in “The photographer used a camera.”",
+      "optionA": "photographer",
+      "optionB": "used",
+      "optionC": "camera",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'camera' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q031",
+      "questionText": "Which sentence contains a concrete noun that can be seen and touched?",
+      "optionA": "The team demonstrated courage.",
+      "optionB": "The student carried a backpack.",
+      "optionC": "The manager valued honesty.",
+      "optionD": "The researcher showed patience.",
+      "correctOption": "Option B",
+      "explanation": "'The student carried a backpack' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q032",
+      "questionText": "Which of the following is a concrete noun?",
+      "optionA": "oxygen",
+      "optionB": "responsibility",
+      "optionC": "knowledge",
+      "optionD": "creativity",
+      "correctOption": "Option A",
+      "explanation": "'oxygen' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q033",
+      "questionText": "Identify the concrete noun in “The gardener watered the plants.”",
+      "optionA": "gardener",
+      "optionB": "watered",
+      "optionC": "plants",
+      "optionD": "both gardener and plants",
+      "correctOption": "Option D",
+      "explanation": "'both gardener and plants' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q034",
+      "questionText": "Which pair contains only concrete nouns?",
+      "optionA": "keyboard, monitor",
+      "optionB": "honesty, monitor",
+      "optionC": "confidence, keyboard",
+      "optionD": "intelligence, creativity",
+      "correctOption": "Option A",
+      "explanation": "'keyboard, monitor' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q035",
+      "questionText": "Which sentence contains a concrete noun associated with sound?",
+      "optionA": "The speaker produced a loud noise.",
+      "optionB": "The speaker demonstrated courage.",
+      "optionC": "The speaker showed confidence.",
+      "optionD": "The speaker expressed happiness.",
+      "correctOption": "Option A",
+      "explanation": "'The speaker produced a loud noise' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q036",
+      "questionText": "Which sentence contains a concrete noun associated with smell?",
+      "optionA": "The room was filled with fragrance.",
+      "optionB": "The team showed determination.",
+      "optionC": "The student demonstrated intelligence.",
+      "optionD": "The manager valued honesty.",
+      "correctOption": "Option A",
+      "explanation": "'The room was filled with fragrance' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q037",
+      "questionText": "Which sentence contains a concrete noun associated with taste?",
+      "optionA": "The chef served fresh mangoes.",
+      "optionB": "The student showed confidence.",
+      "optionC": "The researcher demonstrated patience.",
+      "optionD": "The manager valued loyalty.",
+      "correctOption": "Option A",
+      "explanation": "'The chef served fresh mangoes' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q038",
+      "questionText": "Identify the concrete nouns in “The mechanic repaired the car with a tool.”",
+      "optionA": "mechanic only",
+      "optionB": "car only",
+      "optionC": "tool only",
+      "optionD": "mechanic, car, and tool",
+      "correctOption": "Option D",
+      "explanation": "'mechanic, car, and tool' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q039",
+      "questionText": "Which of the following is a concrete noun even though it cannot be easily touched?",
+      "optionA": "sound",
+      "optionB": "honesty",
+      "optionC": "knowledge",
+      "optionD": "courage",
+      "correctOption": "Option A",
+      "explanation": "'sound' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q040",
+      "questionText": "Which statement best describes a concrete noun?",
+      "optionA": "It names an idea or quality only.",
+      "optionB": "It names something that can be perceived through the senses.",
+      "optionC": "It always refers to a person.",
+      "optionD": "It always refers to a physical object that can be touched.",
+      "correctOption": "Option B",
+      "explanation": "'It names something that can be perceived through the senses' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q041",
+      "questionText": "Which sentence contains both a concrete noun and an abstract noun?",
+      "optionA": "The laptop is on the desk.",
+      "optionB": "The student showed great patience.",
+      "optionC": "The chair is beside the table.",
+      "optionD": "The camera is on the shelf.",
+      "correctOption": "Option B",
+      "explanation": "'The student showed great patience' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q042",
+      "questionText": "In the sentence “Her kindness impressed the teacher,” which noun is concrete?",
+      "optionA": "kindness",
+      "optionB": "teacher",
+      "optionC": "impressed",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'teacher' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q043",
+      "questionText": "Which of the following is a concrete noun?",
+      "optionA": "rain",
+      "optionB": "courage",
+      "optionC": "knowledge",
+      "optionD": "justice",
+      "correctOption": "Option A",
+      "explanation": "'rain' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q044",
+      "questionText": "Choose the option in which the first noun is concrete and the second noun is abstract.",
+      "optionA": "computer, intelligence",
+      "optionB": "honesty, computer",
+      "optionC": "freedom, laptop",
+      "optionD": "courage, knowledge",
+      "correctOption": "Option A",
+      "explanation": "'computer, intelligence' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q045",
+      "questionText": "Identify the concrete nouns in “The doctor examined the patient in the hospital.”",
+      "optionA": "doctor only",
+      "optionB": "patient only",
+      "optionC": "hospital only",
+      "optionD": "doctor, patient, and hospital",
+      "correctOption": "Option D",
+      "explanation": "'doctor, patient, and hospital' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q046",
+      "questionText": "Which noun in the sentence “The researcher smelled the chemical” is concrete?",
+      "optionA": "researcher",
+      "optionB": "smelled",
+      "optionC": "chemical",
+      "optionD": "both researcher and chemical",
+      "correctOption": "Option D",
+      "explanation": "'both researcher and chemical' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q047",
+      "questionText": "Which of the following is a concrete noun related to nature?",
+      "optionA": "tree",
+      "optionB": "beauty",
+      "optionC": "freedom",
+      "optionD": "peace",
+      "correctOption": "Option A",
+      "explanation": "'tree' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q048",
+      "questionText": "Which sentence contains only concrete nouns?",
+      "optionA": "The student opened the book.",
+      "optionB": "The student showed confidence.",
+      "optionC": "The researcher demonstrated patience.",
+      "optionD": "The manager valued honesty.",
+      "correctOption": "Option A",
+      "explanation": "'The student opened the book' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q049",
+      "questionText": "Which statement about concrete nouns is correct?",
+      "optionA": "They refer only to things that can be touched.",
+      "optionB": "They refer to things that can be perceived through one or more senses.",
+      "optionC": "They refer only to physical objects.",
+      "optionD": "They cannot refer to people or places.",
+      "correctOption": "Option B",
+      "explanation": "'They refer to things that can be perceived through one or more senses' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    },
+    {
+      "questionId": "T019-Q050",
+      "questionText": "Which sentence contains concrete nouns used in an academic context?",
+      "optionA": "The researcher placed the samples in the laboratory.",
+      "optionB": "The researcher demonstrated excellent patience.",
+      "optionC": "The researcher showed great confidence.",
+      "optionD": "The researcher valued scientific knowledge.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher placed the samples in the laboratory' is a concrete noun because it refers to a physical object that can be perceived by the senses."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 59,
+  "topicName": "Another/other",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T059-Q001",
+      "questionText": "Can I have ____ (1) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q002",
+      "questionText": "Can I have ____ (2) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q003",
+      "questionText": "Can I have ____ (3) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "others",
+      "optionD": "other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q004",
+      "questionText": "Can I have ____ (4) cup of tea?",
+      "optionA": "the other",
+      "optionB": "another",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q005",
+      "questionText": "Can I have ____ (5) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "other",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q006",
+      "questionText": "Can I have ____ (6) cup of tea?",
+      "optionA": "others",
+      "optionB": "other",
+      "optionC": "the other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q007",
+      "questionText": "Can I have ____ (7) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q008",
+      "questionText": "Can I have ____ (8) cup of tea?",
+      "optionA": "other",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q009",
+      "questionText": "Can I have ____ (9) cup of tea?",
+      "optionA": "other",
+      "optionB": "another",
+      "optionC": "the other",
+      "optionD": "others",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q010",
+      "questionText": "Can I have ____ (10) cup of tea?",
+      "optionA": "other",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q011",
+      "questionText": "Can I have ____ (11) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q012",
+      "questionText": "Can I have ____ (12) cup of tea?",
+      "optionA": "other",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q013",
+      "questionText": "Can I have ____ (13) cup of tea?",
+      "optionA": "another",
+      "optionB": "others",
+      "optionC": "other",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q014",
+      "questionText": "Can I have ____ (14) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "other",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q015",
+      "questionText": "Can I have ____ (15) cup of tea?",
+      "optionA": "other",
+      "optionB": "another",
+      "optionC": "the other",
+      "optionD": "others",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q016",
+      "questionText": "Can I have ____ (16) cup of tea?",
+      "optionA": "the other",
+      "optionB": "others",
+      "optionC": "another",
+      "optionD": "other",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q017",
+      "questionText": "Can I have ____ (17) cup of tea?",
+      "optionA": "another",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q018",
+      "questionText": "Can I have ____ (18) cup of tea?",
+      "optionA": "others",
+      "optionB": "another",
+      "optionC": "other",
+      "optionD": "the other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q019",
+      "questionText": "Can I have ____ (19) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q020",
+      "questionText": "Can I have ____ (20) cup of tea?",
+      "optionA": "other",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q021",
+      "questionText": "Can I have ____ (21) cup of tea?",
+      "optionA": "another",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q022",
+      "questionText": "Can I have ____ (22) cup of tea?",
+      "optionA": "other",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q023",
+      "questionText": "Can I have ____ (23) cup of tea?",
+      "optionA": "the other",
+      "optionB": "others",
+      "optionC": "other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q024",
+      "questionText": "Can I have ____ (24) cup of tea?",
+      "optionA": "another",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q025",
+      "questionText": "Can I have ____ (25) cup of tea?",
+      "optionA": "the other",
+      "optionB": "another",
+      "optionC": "others",
+      "optionD": "other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q026",
+      "questionText": "Can I have ____ (26) cup of tea?",
+      "optionA": "another",
+      "optionB": "others",
+      "optionC": "other",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q027",
+      "questionText": "Can I have ____ (27) cup of tea?",
+      "optionA": "other",
+      "optionB": "another",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q028",
+      "questionText": "Can I have ____ (28) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q029",
+      "questionText": "Can I have ____ (29) cup of tea?",
+      "optionA": "other",
+      "optionB": "the other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q030",
+      "questionText": "Can I have ____ (30) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "another",
+      "optionD": "other",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q031",
+      "questionText": "Can I have ____ (31) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q032",
+      "questionText": "Can I have ____ (32) cup of tea?",
+      "optionA": "other",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q033",
+      "questionText": "Can I have ____ (33) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q034",
+      "questionText": "Can I have ____ (34) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "others",
+      "optionD": "other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q035",
+      "questionText": "Can I have ____ (35) cup of tea?",
+      "optionA": "other",
+      "optionB": "another",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q036",
+      "questionText": "Can I have ____ (36) cup of tea?",
+      "optionA": "other",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q037",
+      "questionText": "Can I have ____ (37) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q038",
+      "questionText": "Can I have ____ (38) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q039",
+      "questionText": "Can I have ____ (39) cup of tea?",
+      "optionA": "another",
+      "optionB": "others",
+      "optionC": "the other",
+      "optionD": "other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q040",
+      "questionText": "Can I have ____ (40) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q041",
+      "questionText": "Can I have ____ (41) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q042",
+      "questionText": "Can I have ____ (42) cup of tea?",
+      "optionA": "others",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q043",
+      "questionText": "Can I have ____ (43) cup of tea?",
+      "optionA": "others",
+      "optionB": "another",
+      "optionC": "the other",
+      "optionD": "other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q044",
+      "questionText": "Can I have ____ (44) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q045",
+      "questionText": "Can I have ____ (45) cup of tea?",
+      "optionA": "another",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q046",
+      "questionText": "Can I have ____ (46) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "another",
+      "correctOption": "Option D",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q047",
+      "questionText": "Can I have ____ (47) cup of tea?",
+      "optionA": "another",
+      "optionB": "the other",
+      "optionC": "other",
+      "optionD": "others",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q048",
+      "questionText": "Can I have ____ (48) cup of tea?",
+      "optionA": "the other",
+      "optionB": "other",
+      "optionC": "another",
+      "optionD": "others",
+      "correctOption": "Option C",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q049",
+      "questionText": "Can I have ____ (49) cup of tea?",
+      "optionA": "another",
+      "optionB": "other",
+      "optionC": "others",
+      "optionD": "the other",
+      "correctOption": "Option A",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T059-Q050",
+      "questionText": "Can I have ____ (50) cup of tea?",
+      "optionA": "others",
+      "optionB": "another",
+      "optionC": "other",
+      "optionD": "the other",
+      "correctOption": "Option B",
+      "explanation": "'another' is the correct quantifier for this noun type."
+    }
+  ]
+}

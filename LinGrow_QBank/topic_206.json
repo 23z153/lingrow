@@ -1,0 +1,507 @@
+{
+  "topicId": 206,
+  "topicName": "Adjective phrase",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T206-Q001",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam surprisingly easy.",
+      "optionA": "Many researchers (Variant 1)",
+      "optionB": "quite fascinating",
+      "optionC": "found the exam (Variant 1)",
+      "optionD": "the exam (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q002",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam surprisingly easy.",
+      "optionA": "The professor (Variant 2)",
+      "optionB": "found the exam (Variant 2)",
+      "optionC": "extremely difficult",
+      "optionD": "the exam (Variant 2)",
+      "correctOption": "Option C",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q003",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam quite fascinating.",
+      "optionA": "The textbook (Variant 3)",
+      "optionB": "extremely difficult",
+      "optionC": "found the exam (Variant 3)",
+      "optionD": "the exam (Variant 3)",
+      "correctOption": "Option B",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q004",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam quite fascinating.",
+      "optionA": "A bright student (Variant 4)",
+      "optionB": "very comprehensive",
+      "optionC": "found the exam (Variant 4)",
+      "optionD": "the exam (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q005",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam quite fascinating.",
+      "optionA": "The textbook (Variant 5)",
+      "optionB": "found the exam (Variant 5)",
+      "optionC": "the exam (Variant 5)",
+      "optionD": "very comprehensive",
+      "correctOption": "Option D",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q006",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam surprisingly easy.",
+      "optionA": "The textbook (Variant 6)",
+      "optionB": "highly unusual",
+      "optionC": "found the exam (Variant 6)",
+      "optionD": "the exam (Variant 6)",
+      "correctOption": "Option B",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q007",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam quite fascinating.",
+      "optionA": "The professor (Variant 7)",
+      "optionB": "found the exam (Variant 7)",
+      "optionC": "the exam (Variant 7)",
+      "optionD": "very comprehensive",
+      "correctOption": "Option D",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q008",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "surprisingly easy",
+      "optionB": "The textbook (Variant 8)",
+      "optionC": "found the exam (Variant 8)",
+      "optionD": "the exam (Variant 8)",
+      "correctOption": "Option A",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q009",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "The professor (Variant 9)",
+      "optionB": "found the exam (Variant 9)",
+      "optionC": "the exam (Variant 9)",
+      "optionD": "extremely difficult",
+      "correctOption": "Option D",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q010",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "The professor (Variant 10)",
+      "optionB": "found the exam (Variant 10)",
+      "optionC": "the exam (Variant 10)",
+      "optionD": "surprisingly easy",
+      "correctOption": "Option D",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q011",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam extremely difficult.",
+      "optionA": "A bright student (Variant 11)",
+      "optionB": "found the exam (Variant 11)",
+      "optionC": "extremely difficult",
+      "optionD": "the exam (Variant 11)",
+      "correctOption": "Option C",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q012",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam highly unusual.",
+      "optionA": "quite fascinating",
+      "optionB": "The university library (Variant 12)",
+      "optionC": "found the exam (Variant 12)",
+      "optionD": "the exam (Variant 12)",
+      "correctOption": "Option A",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q013",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam surprisingly easy.",
+      "optionA": "The university library (Variant 13)",
+      "optionB": "found the exam (Variant 13)",
+      "optionC": "very comprehensive",
+      "optionD": "the exam (Variant 13)",
+      "correctOption": "Option C",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q014",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam very comprehensive.",
+      "optionA": "Many researchers (Variant 14)",
+      "optionB": "very comprehensive",
+      "optionC": "found the exam (Variant 14)",
+      "optionD": "the exam (Variant 14)",
+      "correctOption": "Option B",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q015",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam quite fascinating.",
+      "optionA": "Many researchers (Variant 15)",
+      "optionB": "found the exam (Variant 15)",
+      "optionC": "quite fascinating",
+      "optionD": "the exam (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q016",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam surprisingly easy.",
+      "optionA": "surprisingly easy",
+      "optionB": "The professor (Variant 16)",
+      "optionC": "found the exam (Variant 16)",
+      "optionD": "the exam (Variant 16)",
+      "correctOption": "Option A",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q017",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam surprisingly easy.",
+      "optionA": "quite fascinating",
+      "optionB": "A bright student (Variant 17)",
+      "optionC": "found the exam (Variant 17)",
+      "optionD": "the exam (Variant 17)",
+      "correctOption": "Option A",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q018",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam quite fascinating.",
+      "optionA": "very comprehensive",
+      "optionB": "The university library (Variant 18)",
+      "optionC": "found the exam (Variant 18)",
+      "optionD": "the exam (Variant 18)",
+      "correctOption": "Option A",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q019",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam quite fascinating.",
+      "optionA": "The professor (Variant 19)",
+      "optionB": "found the exam (Variant 19)",
+      "optionC": "highly unusual",
+      "optionD": "the exam (Variant 19)",
+      "correctOption": "Option C",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q020",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam highly unusual.",
+      "optionA": "very comprehensive",
+      "optionB": "A bright student (Variant 20)",
+      "optionC": "found the exam (Variant 20)",
+      "optionD": "the exam (Variant 20)",
+      "correctOption": "Option A",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q021",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam surprisingly easy.",
+      "optionA": "The professor (Variant 21)",
+      "optionB": "very comprehensive",
+      "optionC": "found the exam (Variant 21)",
+      "optionD": "the exam (Variant 21)",
+      "correctOption": "Option B",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q022",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam extremely difficult.",
+      "optionA": "The university library (Variant 22)",
+      "optionB": "highly unusual",
+      "optionC": "found the exam (Variant 22)",
+      "optionD": "the exam (Variant 22)",
+      "correctOption": "Option B",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q023",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam surprisingly easy.",
+      "optionA": "Many researchers (Variant 23)",
+      "optionB": "found the exam (Variant 23)",
+      "optionC": "the exam (Variant 23)",
+      "optionD": "very comprehensive",
+      "correctOption": "Option D",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q024",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam very comprehensive.",
+      "optionA": "Many researchers (Variant 24)",
+      "optionB": "found the exam (Variant 24)",
+      "optionC": "the exam (Variant 24)",
+      "optionD": "quite fascinating",
+      "correctOption": "Option D",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q025",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam highly unusual.",
+      "optionA": "The textbook (Variant 25)",
+      "optionB": "found the exam (Variant 25)",
+      "optionC": "highly unusual",
+      "optionD": "the exam (Variant 25)",
+      "correctOption": "Option C",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q026",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam highly unusual.",
+      "optionA": "A bright student (Variant 26)",
+      "optionB": "found the exam (Variant 26)",
+      "optionC": "highly unusual",
+      "optionD": "the exam (Variant 26)",
+      "correctOption": "Option C",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q027",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam surprisingly easy.",
+      "optionA": "The university library (Variant 27)",
+      "optionB": "found the exam (Variant 27)",
+      "optionC": "very comprehensive",
+      "optionD": "the exam (Variant 27)",
+      "correctOption": "Option C",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q028",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam extremely difficult.",
+      "optionA": "The textbook (Variant 28)",
+      "optionB": "highly unusual",
+      "optionC": "found the exam (Variant 28)",
+      "optionD": "the exam (Variant 28)",
+      "correctOption": "Option B",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q029",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam quite fascinating.",
+      "optionA": "extremely difficult",
+      "optionB": "The textbook (Variant 29)",
+      "optionC": "found the exam (Variant 29)",
+      "optionD": "the exam (Variant 29)",
+      "correctOption": "Option A",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q030",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam surprisingly easy.",
+      "optionA": "The professor (Variant 30)",
+      "optionB": "extremely difficult",
+      "optionC": "found the exam (Variant 30)",
+      "optionD": "the exam (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q031",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam surprisingly easy.",
+      "optionA": "Many researchers (Variant 31)",
+      "optionB": "found the exam (Variant 31)",
+      "optionC": "very comprehensive",
+      "optionD": "the exam (Variant 31)",
+      "correctOption": "Option C",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q032",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam extremely difficult.",
+      "optionA": "The university library (Variant 32)",
+      "optionB": "found the exam (Variant 32)",
+      "optionC": "the exam (Variant 32)",
+      "optionD": "surprisingly easy",
+      "correctOption": "Option D",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q033",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "very comprehensive",
+      "optionB": "A bright student (Variant 33)",
+      "optionC": "found the exam (Variant 33)",
+      "optionD": "the exam (Variant 33)",
+      "correctOption": "Option A",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q034",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam extremely difficult.",
+      "optionA": "The professor (Variant 34)",
+      "optionB": "found the exam (Variant 34)",
+      "optionC": "the exam (Variant 34)",
+      "optionD": "highly unusual",
+      "correctOption": "Option D",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q035",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam quite fascinating.",
+      "optionA": "Many researchers (Variant 35)",
+      "optionB": "surprisingly easy",
+      "optionC": "found the exam (Variant 35)",
+      "optionD": "the exam (Variant 35)",
+      "correctOption": "Option B",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q036",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam very comprehensive.",
+      "optionA": "A bright student (Variant 36)",
+      "optionB": "found the exam (Variant 36)",
+      "optionC": "extremely difficult",
+      "optionD": "the exam (Variant 36)",
+      "correctOption": "Option C",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q037",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam surprisingly easy.",
+      "optionA": "extremely difficult",
+      "optionB": "The university library (Variant 37)",
+      "optionC": "found the exam (Variant 37)",
+      "optionD": "the exam (Variant 37)",
+      "correctOption": "Option A",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q038",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam very comprehensive.",
+      "optionA": "A bright student (Variant 38)",
+      "optionB": "found the exam (Variant 38)",
+      "optionC": "the exam (Variant 38)",
+      "optionD": "surprisingly easy",
+      "correctOption": "Option D",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q039",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "surprisingly easy",
+      "optionB": "Many researchers (Variant 39)",
+      "optionC": "found the exam (Variant 39)",
+      "optionD": "the exam (Variant 39)",
+      "correctOption": "Option A",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q040",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam highly unusual.",
+      "optionA": "A bright student (Variant 40)",
+      "optionB": "found the exam (Variant 40)",
+      "optionC": "highly unusual",
+      "optionD": "the exam (Variant 40)",
+      "correctOption": "Option C",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q041",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam very comprehensive.",
+      "optionA": "Many researchers (Variant 41)",
+      "optionB": "quite fascinating",
+      "optionC": "found the exam (Variant 41)",
+      "optionD": "the exam (Variant 41)",
+      "correctOption": "Option B",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q042",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam surprisingly easy.",
+      "optionA": "very comprehensive",
+      "optionB": "A bright student (Variant 42)",
+      "optionC": "found the exam (Variant 42)",
+      "optionD": "the exam (Variant 42)",
+      "correctOption": "Option A",
+      "explanation": "'very comprehensive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q043",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam very comprehensive.",
+      "optionA": "highly unusual",
+      "optionB": "Many researchers (Variant 43)",
+      "optionC": "found the exam (Variant 43)",
+      "optionD": "the exam (Variant 43)",
+      "correctOption": "Option A",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q044",
+      "questionText": "Which phrase functions as an adjective phrase? The university library found the exam highly unusual.",
+      "optionA": "Many researchers (Variant 44)",
+      "optionB": "found the exam (Variant 44)",
+      "optionC": "the exam (Variant 44)",
+      "optionD": "highly unusual",
+      "correctOption": "Option D",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q045",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam extremely difficult.",
+      "optionA": "quite fascinating",
+      "optionB": "The textbook (Variant 45)",
+      "optionC": "found the exam (Variant 45)",
+      "optionD": "the exam (Variant 45)",
+      "correctOption": "Option A",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q046",
+      "questionText": "Which phrase functions as an adjective phrase? A bright student found the exam highly unusual.",
+      "optionA": "The textbook (Variant 46)",
+      "optionB": "found the exam (Variant 46)",
+      "optionC": "quite fascinating",
+      "optionD": "the exam (Variant 46)",
+      "correctOption": "Option C",
+      "explanation": "'quite fascinating' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q047",
+      "questionText": "Which phrase functions as an adjective phrase? The textbook found the exam highly unusual.",
+      "optionA": "extremely difficult",
+      "optionB": "The professor (Variant 47)",
+      "optionC": "found the exam (Variant 47)",
+      "optionD": "the exam (Variant 47)",
+      "correctOption": "Option A",
+      "explanation": "'extremely difficult' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q048",
+      "questionText": "Which phrase functions as an adjective phrase? Many researchers found the exam very comprehensive.",
+      "optionA": "A bright student (Variant 48)",
+      "optionB": "found the exam (Variant 48)",
+      "optionC": "the exam (Variant 48)",
+      "optionD": "surprisingly easy",
+      "correctOption": "Option D",
+      "explanation": "'surprisingly easy' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q049",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam highly unusual.",
+      "optionA": "A bright student (Variant 49)",
+      "optionB": "found the exam (Variant 49)",
+      "optionC": "highly unusual",
+      "optionD": "the exam (Variant 49)",
+      "correctOption": "Option C",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T206-Q050",
+      "questionText": "Which phrase functions as an adjective phrase? The professor found the exam very comprehensive.",
+      "optionA": "The textbook (Variant 50)",
+      "optionB": "highly unusual",
+      "optionC": "found the exam (Variant 50)",
+      "optionD": "the exam (Variant 50)",
+      "correctOption": "Option B",
+      "explanation": "'highly unusual' is the correct choice in standard English grammar."
+    }
+  ]
+}

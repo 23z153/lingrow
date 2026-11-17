@@ -1,0 +1,507 @@
+{
+  "topicId": 119,
+  "topicName": "Quantities",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T119-Q001",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A lot of",
+      "optionC": "Much",
+      "optionD": "A few",
+      "correctOption": "Option A",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q002",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A lot of",
+      "optionC": "Much",
+      "optionD": "A few",
+      "correctOption": "Option C",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q003",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option B",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q004",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q005",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "A lot of",
+      "optionC": "Many",
+      "optionD": "A few",
+      "correctOption": "Option C",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q006",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q007",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A lot of",
+      "optionC": "Much",
+      "optionD": "A few",
+      "correctOption": "Option D",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q008",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q009",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q010",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Much",
+      "optionB": "A lot of",
+      "optionC": "Many",
+      "optionD": "A few",
+      "correctOption": "Option A",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q011",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A lot of",
+      "optionB": "A few",
+      "optionC": "Many",
+      "optionD": "Much",
+      "correctOption": "Option B",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q012",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "A lot of",
+      "optionC": "Many",
+      "optionD": "Much",
+      "correctOption": "Option B",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q013",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "Many",
+      "optionC": "A lot of",
+      "optionD": "A few",
+      "correctOption": "Option B",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q014",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A lot of",
+      "optionC": "A few",
+      "optionD": "Much",
+      "correctOption": "Option D",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q015",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "Much",
+      "optionC": "A few",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q016",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Much",
+      "optionB": "A few",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q017",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A lot of",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A few",
+      "correctOption": "Option C",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q018",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q019",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "Much",
+      "optionC": "A few",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q020",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "A lot of",
+      "optionD": "Many",
+      "correctOption": "Option C",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q021",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "A few",
+      "optionC": "A lot of",
+      "optionD": "Many",
+      "correctOption": "Option D",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q022",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "A lot of",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q023",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option A",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q024",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "Much",
+      "optionC": "A few",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q025",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "A lot of",
+      "optionD": "Much",
+      "correctOption": "Option A",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q026",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "A lot of",
+      "optionC": "Many",
+      "optionD": "Much",
+      "correctOption": "Option D",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q027",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option A",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q028",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "Much",
+      "optionC": "A lot of",
+      "optionD": "A few",
+      "correctOption": "Option C",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q029",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option A",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q030",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Much",
+      "optionB": "Many",
+      "optionC": "A lot of",
+      "optionD": "A few",
+      "correctOption": "Option A",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q031",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Many",
+      "optionB": "A lot of",
+      "optionC": "A few",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q032",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A lot of",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A few",
+      "correctOption": "Option A",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q033",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option C",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q034",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "A lot of",
+      "optionD": "Much",
+      "correctOption": "Option D",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q035",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option A",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q036",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "A lot of",
+      "optionC": "Much",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q037",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "Many",
+      "optionC": "A lot of",
+      "optionD": "A few",
+      "correctOption": "Option B",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q038",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Much",
+      "optionB": "A lot of",
+      "optionC": "A few",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q039",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "Many",
+      "optionC": "A lot of",
+      "optionD": "A few",
+      "correctOption": "Option D",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q040",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q041",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A lot of",
+      "optionB": "Many",
+      "optionC": "A few",
+      "optionD": "Much",
+      "correctOption": "Option B",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q042",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A few",
+      "optionB": "Much",
+      "optionC": "Many",
+      "optionD": "A lot of",
+      "correctOption": "Option B",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q043",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option A",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q044",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "Much",
+      "optionC": "A few",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q045",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "Much",
+      "optionB": "A lot of",
+      "optionC": "A few",
+      "optionD": "Many",
+      "correctOption": "Option D",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q046",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "A lot of",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A few",
+      "correctOption": "Option C",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q047",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A lot of",
+      "optionB": "Many",
+      "optionC": "A few",
+      "optionD": "Much",
+      "correctOption": "Option C",
+      "explanation": "'A few' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q048",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Many",
+      "optionB": "A few",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option D",
+      "explanation": "'A lot of' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q049",
+      "questionText": "Choose the correct quantity word: There are ______ students in the class.",
+      "optionA": "A few",
+      "optionB": "Many",
+      "optionC": "Much",
+      "optionD": "A lot of",
+      "correctOption": "Option B",
+      "explanation": "'Many' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T119-Q050",
+      "questionText": "Choose the correct quantity word to complete the sentence: We have ______ time left.",
+      "optionA": "Much",
+      "optionB": "A lot of",
+      "optionC": "Many",
+      "optionD": "A few",
+      "correctOption": "Option A",
+      "explanation": "'Much' is the correct choice in standard English grammar."
+    }
+  ]
+}

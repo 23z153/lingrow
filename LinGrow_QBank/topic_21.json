@@ -1,0 +1,507 @@
+{
+  "topicId": 21,
+  "topicName": "Collective nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T021-Q001",
+      "questionText": "Which of the following is a collective noun?",
+      "optionA": "Student",
+      "optionB": "Team",
+      "optionC": "Laptop",
+      "optionD": "Professor",
+      "correctOption": "Option B",
+      "explanation": "'Team' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q002",
+      "questionText": "Which noun refers to a group of people considered as one unit?",
+      "optionA": "Committee",
+      "optionB": "Researcher",
+      "optionC": "Laboratory",
+      "optionD": "Report",
+      "correctOption": "Option A",
+      "explanation": "'Committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q003",
+      "questionText": "Identify the collective noun in the sentence: “The committee approved the proposal.”",
+      "optionA": "Approved",
+      "optionB": "Proposal",
+      "optionC": "Committee",
+      "optionD": "The",
+      "correctOption": "Option C",
+      "explanation": "'Committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q004",
+      "questionText": "Which word is a collective noun?",
+      "optionA": "Audience",
+      "optionB": "Speaker",
+      "optionC": "Microphone",
+      "optionD": "Stage",
+      "correctOption": "Option A",
+      "explanation": "'Audience' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q005",
+      "questionText": "Which sentence contains a collective noun?",
+      "optionA": "The student submitted the assignment.",
+      "optionB": "The panel reviewed the applications.",
+      "optionC": "The professor opened the book.",
+      "optionD": "The technician repaired the printer.",
+      "correctOption": "Option B",
+      "explanation": "'The panel reviewed the applications' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q006",
+      "questionText": "Which noun refers to a group of students?",
+      "optionA": "Class",
+      "optionB": "Student",
+      "optionC": "Classroom",
+      "optionD": "Lesson",
+      "correctOption": "Option A",
+      "explanation": "'Class' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q007",
+      "questionText": "Identify the collective noun: “The jury reached a decision after several hours.”",
+      "optionA": "Decision",
+      "optionB": "Hours",
+      "optionC": "Jury",
+      "optionD": "Reached",
+      "correctOption": "Option C",
+      "explanation": "'Jury' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q008",
+      "questionText": "Which of the following is NOT a collective noun?",
+      "optionA": "Committee",
+      "optionB": "Team",
+      "optionC": "Department",
+      "optionD": "Engineer",
+      "correctOption": "Option D",
+      "explanation": "'Engineer' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q009",
+      "questionText": "Which collective noun refers to a group of musicians?",
+      "optionA": "Orchestra",
+      "optionB": "Instrument",
+      "optionC": "Musician",
+      "optionD": "Concert",
+      "correctOption": "Option A",
+      "explanation": "'Orchestra' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q010",
+      "questionText": "Which noun represents a group of people listening to a presentation?",
+      "optionA": "Audience",
+      "optionB": "Presenter",
+      "optionC": "Presentation",
+      "optionD": "Lecture",
+      "correctOption": "Option A",
+      "explanation": "'Audience' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q011",
+      "questionText": "Identify the collective noun: “The staff discussed the new workplace policy.”",
+      "optionA": "Discussed",
+      "optionB": "Workplace",
+      "optionC": "Policy",
+      "optionD": "Staff",
+      "correctOption": "Option D",
+      "explanation": "'Staff' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q012",
+      "questionText": "Which word is a collective noun for people working together on a project?",
+      "optionA": "Team",
+      "optionB": "Worker",
+      "optionC": "Project",
+      "optionD": "Manager",
+      "correctOption": "Option A",
+      "explanation": "'Team' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q013",
+      "questionText": "Which sentence uses a collective noun?",
+      "optionA": "The researcher analyzed the data.",
+      "optionB": "The research team analyzed the data.",
+      "optionC": "The computer processed the data.",
+      "optionD": "The student read the data.",
+      "correctOption": "Option B",
+      "explanation": "'The research team analyzed the data' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q014",
+      "questionText": "Which collective noun refers to a group of judges or experts assembled to evaluate something?",
+      "optionA": "Panel",
+      "optionB": "Candidate",
+      "optionC": "Evaluation",
+      "optionD": "Expert",
+      "correctOption": "Option A",
+      "explanation": "'Panel' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q015",
+      "questionText": "Identify the collective noun in: “The board announced its decision.”",
+      "optionA": "Announced",
+      "optionB": "Decision",
+      "optionC": "Board",
+      "optionD": "Its",
+      "correctOption": "Option C",
+      "explanation": "'Board' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q016",
+      "questionText": "Which noun can refer collectively to employees of an organization?",
+      "optionA": "Staff",
+      "optionB": "Employee",
+      "optionC": "Office",
+      "optionD": "Organization",
+      "correctOption": "Option A",
+      "explanation": "'Staff' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q017",
+      "questionText": "Which of the following is a collective noun for a group of soldiers?",
+      "optionA": "Army",
+      "optionB": "Soldier",
+      "optionC": "Uniform",
+      "optionD": "Weapon",
+      "correctOption": "Option A",
+      "explanation": "'Army' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q018",
+      "questionText": "Which sentence contains a collective noun?",
+      "optionA": "The engineers designed the system.",
+      "optionB": "The engineering team designed the system.",
+      "optionC": "The engineer designed the system.",
+      "optionD": "The system was tested yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'The engineering team designed the system' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q019",
+      "questionText": "Which noun refers to a group of people selected to make decisions or perform a specific function?",
+      "optionA": "Committee",
+      "optionB": "Member",
+      "optionC": "Meeting",
+      "optionD": "Office",
+      "correctOption": "Option A",
+      "explanation": "'Committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q020",
+      "questionText": "Identify the collective noun: “The family gathered for a formal discussion.”",
+      "optionA": "Formal",
+      "optionB": "Discussion",
+      "optionC": "Family",
+      "optionD": "Gathered",
+      "correctOption": "Option C",
+      "explanation": "'Family' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q021",
+      "questionText": "Which word is a collective noun for a group of singers?",
+      "optionA": "Choir",
+      "optionB": "Singer",
+      "optionC": "Song",
+      "optionD": "Stage",
+      "correctOption": "Option A",
+      "explanation": "'Choir' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q022",
+      "questionText": "Which collective noun refers to a group of ships?",
+      "optionA": "Fleet",
+      "optionB": "Sailor",
+      "optionC": "Ship",
+      "optionD": "Harbor",
+      "correctOption": "Option A",
+      "explanation": "'Fleet' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q023",
+      "questionText": "Which sentence contains the collective noun “faculty”?",
+      "optionA": "The faculty discussed the revised curriculum.",
+      "optionB": "The faculty member submitted a report.",
+      "optionC": "The professor taught the faculty.",
+      "optionD": "The student entered the faculty room.",
+      "correctOption": "Option A",
+      "explanation": "'The faculty discussed the revised curriculum' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q024",
+      "questionText": "Which noun refers collectively to people participating in a competition?",
+      "optionA": "Team",
+      "optionB": "Competitor",
+      "optionC": "Competition",
+      "optionD": "Trophy",
+      "correctOption": "Option A",
+      "explanation": "'Team' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q025",
+      "questionText": "Identify the collective noun: “The delegation arrived at the conference.”",
+      "optionA": "Arrived",
+      "optionB": "Conference",
+      "optionC": "Delegation",
+      "optionD": "At",
+      "correctOption": "Option C",
+      "explanation": "'Delegation' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q026",
+      "questionText": "Which collective noun refers to a group of representatives sent to another place?",
+      "optionA": "Delegation",
+      "optionB": "Representative",
+      "optionC": "Conference",
+      "optionD": "Embassy",
+      "correctOption": "Option A",
+      "explanation": "'Delegation' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q027",
+      "questionText": "Which of the following is a collective noun?",
+      "optionA": "Crowd",
+      "optionB": "Person",
+      "optionC": "Street",
+      "optionD": "Building",
+      "correctOption": "Option A",
+      "explanation": "'Crowd' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q028",
+      "questionText": "Identify the collective noun: “A crowd gathered outside the auditorium.”",
+      "optionA": "Gathered",
+      "optionB": "Outside",
+      "optionC": "Auditorium",
+      "optionD": "Crowd",
+      "correctOption": "Option D",
+      "explanation": "'Crowd' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q029",
+      "questionText": "Which noun refers to a group of people assembled for a meeting or discussion?",
+      "optionA": "Assembly",
+      "optionB": "Participant",
+      "optionC": "Chairperson",
+      "optionD": "Agenda",
+      "correctOption": "Option A",
+      "explanation": "'Assembly' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q030",
+      "questionText": "Which sentence contains a collective noun referring to a group of musicians?",
+      "optionA": "The musician tuned the guitar.",
+      "optionB": "The orchestra performed at the university event.",
+      "optionC": "The guitar was placed on the stage.",
+      "optionD": "The concert began at seven.",
+      "correctOption": "Option B",
+      "explanation": "'The orchestra performed at the university event' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q031",
+      "questionText": "Which collective noun refers to a group of directors or managers governing an organization?",
+      "optionA": "Board",
+      "optionB": "Director",
+      "optionC": "Manager",
+      "optionD": "Company",
+      "correctOption": "Option A",
+      "explanation": "'Board' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q032",
+      "questionText": "Identify the collective noun: “The crew prepared the aircraft for departure.”",
+      "optionA": "Aircraft",
+      "optionB": "Departure",
+      "optionC": "Crew",
+      "optionD": "Prepared",
+      "correctOption": "Option C",
+      "explanation": "'Crew' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q033",
+      "questionText": "Which noun refers collectively to people working on a ship or aircraft?",
+      "optionA": "Crew",
+      "optionB": "Passenger",
+      "optionC": "Vehicle",
+      "optionD": "Captain",
+      "correctOption": "Option A",
+      "explanation": "'Crew' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q034",
+      "questionText": "Which sentence contains a collective noun referring to performers?",
+      "optionA": "The performer entered the hall.",
+      "optionB": "The cast rehearsed the final scene.",
+      "optionC": "The actor memorized the dialogue.",
+      "optionD": "The scene required additional lighting.",
+      "correctOption": "Option B",
+      "explanation": "'The cast rehearsed the final scene' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q035",
+      "questionText": "Which collective noun refers to the performers in a play or film?",
+      "optionA": "Cast",
+      "optionB": "Actor",
+      "optionC": "Scene",
+      "optionD": "Script",
+      "correctOption": "Option A",
+      "explanation": "'Cast' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q036",
+      "questionText": "Identify the collective noun in: “The department formed a committee to review the issue.”",
+      "optionA": "Department",
+      "optionB": "Committee",
+      "optionC": "Issue",
+      "optionD": "Review",
+      "correctOption": "Option B",
+      "explanation": "'Committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q037",
+      "questionText": "Which sentence contains two collective nouns?",
+      "optionA": "The team met the coach.",
+      "optionB": "The committee consulted the panel before deciding.",
+      "optionC": "The student met the professor.",
+      "optionD": "The engineers tested the machine.",
+      "correctOption": "Option B",
+      "explanation": "'The committee consulted the panel before deciding' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q038",
+      "questionText": "Which pair contains only collective nouns?",
+      "optionA": "Team, committee",
+      "optionB": "Student, team",
+      "optionC": "Professor, audience",
+      "optionD": "Engineer, panel",
+      "correctOption": "Option A",
+      "explanation": "'Team, committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q039",
+      "questionText": "Which pair contains a collective noun and an individual noun?",
+      "optionA": "Team, player",
+      "optionB": "Committee, panel",
+      "optionC": "Audience, crowd",
+      "optionD": "Orchestra, choir",
+      "correctOption": "Option A",
+      "explanation": "'Team, player' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q040",
+      "questionText": "Identify the collective noun in: “The audience remained silent during the presentation.”",
+      "optionA": "Silent",
+      "optionB": "Presentation",
+      "optionC": "Audience",
+      "optionD": "Remained",
+      "correctOption": "Option C",
+      "explanation": "'Audience' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q041",
+      "questionText": "Which collective noun refers to a group of people attending a meeting?",
+      "optionA": "Attendance",
+      "optionB": "Assembly",
+      "optionC": "Participant",
+      "optionD": "Speaker",
+      "correctOption": "Option B",
+      "explanation": "'Assembly' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q042",
+      "questionText": "Which sentence uses “team” as a collective noun?",
+      "optionA": "Each team member completed the task.",
+      "optionB": "The team completed the project on schedule.",
+      "optionC": "The team leader interviewed the applicant.",
+      "optionD": "Several teams competed in the event.",
+      "correctOption": "Option B",
+      "explanation": "'The team completed the project on schedule' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q043",
+      "questionText": "Which noun is collective in the sentence: “The faculty welcomed the visiting professor.”",
+      "optionA": "Visiting",
+      "optionB": "Professor",
+      "optionC": "Faculty",
+      "optionD": "Welcomed",
+      "correctOption": "Option C",
+      "explanation": "'Faculty' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q044",
+      "questionText": "Which of the following can refer to a group of people rather than one individual?",
+      "optionA": "Committee",
+      "optionB": "Researcher",
+      "optionC": "Student",
+      "optionD": "Lecturer",
+      "correctOption": "Option A",
+      "explanation": "'Committee' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q045",
+      "questionText": "Which sentence contains a collective noun referring to a group of people responsible for judging a competition?",
+      "optionA": "The judge announced the result.",
+      "optionB": "The judging panel announced the result.",
+      "optionC": "The contestant received the result.",
+      "optionD": "The competition ended at noon.",
+      "correctOption": "Option B",
+      "explanation": "'The judging panel announced the result' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q046",
+      "questionText": "Which collective noun is most appropriate for a group of singers performing together?",
+      "optionA": "Choir",
+      "optionB": "Audience",
+      "optionC": "Cast",
+      "optionD": "Crew",
+      "correctOption": "Option A",
+      "explanation": "'Choir' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q047",
+      "questionText": "Identify the collective noun: “The research group published its findings.”",
+      "optionA": "Research",
+      "optionB": "Published",
+      "optionC": "Group",
+      "optionD": "Findings",
+      "correctOption": "Option C",
+      "explanation": "'Group' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q048",
+      "questionText": "Which sentence uses a collective noun to describe a group acting as a unit?",
+      "optionA": "The researchers each submitted separate reports.",
+      "optionB": "The committee approved the research proposal.",
+      "optionC": "The professor corrected the assignment.",
+      "optionD": "The students opened their books.",
+      "correctOption": "Option B",
+      "explanation": "'The committee approved the research proposal' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q049",
+      "questionText": "Which option contains three collective nouns?",
+      "optionA": "Team, committee, audience",
+      "optionB": "Student, team, teacher",
+      "optionC": "Professor, panel, researcher",
+      "optionD": "Engineer, committee, student",
+      "correctOption": "Option A",
+      "explanation": "'Team, committee, audience' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    },
+    {
+      "questionId": "T021-Q050",
+      "questionText": "Which sentence correctly identifies a group as a single collective unit?",
+      "optionA": "The committee reviewed the application.",
+      "optionB": "The member reviewed the application.",
+      "optionC": "The applicant reviewed the committee.",
+      "optionD": "The application reviewed the committee.",
+      "correctOption": "Option A",
+      "explanation": "'The committee reviewed the application' is a collective noun because it refers to a group of individuals or items acting as a single unit."
+    }
+  ]
+}

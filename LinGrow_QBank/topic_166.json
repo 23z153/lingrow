@@ -1,0 +1,507 @@
+{
+  "topicId": 166,
+  "topicName": "Or",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T166-Q001",
+      "questionText": "You can study in the classroom, ____ you can study in your dorm.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q002",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "or",
+      "optionB": "until",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q003",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "so",
+      "optionB": "when",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q004",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q005",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "unless",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "before",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q006",
+      "questionText": "You can study in the library, ____ you can study in your dorm.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q007",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q008",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "or",
+      "optionB": "while",
+      "optionC": "when",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q009",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q010",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "or",
+      "optionB": "unless",
+      "optionC": "before",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q011",
+      "questionText": "You can study in the classroom, ____ you can study in your dorm.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q012",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "or",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q013",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "or",
+      "optionB": "when",
+      "optionC": "while",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q014",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "or",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q015",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "or",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "before",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q016",
+      "questionText": "You can study in the library, ____ you can study in your dorm.",
+      "optionA": "or",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q017",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "until",
+      "optionB": "if",
+      "optionC": "or",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q018",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "so",
+      "optionB": "while",
+      "optionC": "when",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q019",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "or",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q020",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "unless",
+      "optionB": "before",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q021",
+      "questionText": "You can study in the library, ____ you can study in your dorm.",
+      "optionA": "or",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q022",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "until",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q023",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "when",
+      "optionB": "while",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q024",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q025",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "unless",
+      "optionD": "before",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q026",
+      "questionText": "You can study in the study hall, ____ you can study in your dorm.",
+      "optionA": "although",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q027",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "if",
+      "optionB": "or",
+      "optionC": "unless",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q028",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "while",
+      "optionB": "when",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q029",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q030",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "before",
+      "optionB": "unless",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q031",
+      "questionText": "You can study in the classroom, ____ you can study in your dorm.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q032",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "or",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q033",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "while",
+      "optionB": "or",
+      "optionC": "when",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q034",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q035",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q036",
+      "questionText": "You can study in the library, ____ you can study in your dorm.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q037",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "unless",
+      "optionB": "until",
+      "optionC": "or",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q038",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "so",
+      "optionB": "when",
+      "optionC": "or",
+      "optionD": "while",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q039",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q040",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q041",
+      "questionText": "You can study in the study hall, ____ you can study in your dorm.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q042",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "unless",
+      "optionB": "or",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q043",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "when",
+      "optionB": "so",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q044",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q045",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "before",
+      "optionB": "or",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q046",
+      "questionText": "You can study in the study hall, ____ you can study in your dorm.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q047",
+      "questionText": "We can take the bus to campus, ____ we can walk.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "until",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q048",
+      "questionText": "Would you prefer coffee ____ tea before the lecture?",
+      "optionA": "while",
+      "optionB": "when",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q049",
+      "questionText": "Students must submit their assignments today, ____ they will lose points.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T166-Q050",
+      "questionText": "Is the exam on Tuesday ____ Wednesday?",
+      "optionA": "so",
+      "optionB": "before",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option D",
+      "explanation": "'or' is the correct choice in standard English grammar."
+    }
+  ]
+}

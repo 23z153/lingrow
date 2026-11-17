@@ -1,0 +1,507 @@
+{
+  "topicId": 132,
+  "topicName": "How often",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T132-Q001",
+      "questionText": "Which question word is used to ask about frequency?",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q002",
+      "questionText": "____ do you go to the gym?",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q003",
+      "questionText": "____ does it rain here?",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q004",
+      "questionText": "Which question word is used to ask about frequency? (1)",
+      "optionA": "How many",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q005",
+      "questionText": "____ do you go to the gym? (1)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q006",
+      "questionText": "____ does it rain here? (1)",
+      "optionA": "How often",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q007",
+      "questionText": "____ do you go to the gym? (2)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q008",
+      "questionText": "Identify the missing word: I don't know ____ the team will run.",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q009",
+      "questionText": "Identify the missing word: I don't know ____ the team will take.",
+      "optionA": "How old",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q010",
+      "questionText": "____ does it rain here? (2)",
+      "optionA": "How much",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q011",
+      "questionText": "____ do you go to the gym? (3)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q012",
+      "questionText": "Which question word is used to ask about frequency? (2)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q013",
+      "questionText": "Which question word is used to ask about frequency? (3)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q014",
+      "questionText": "Which question word is used to ask about frequency? (4)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q015",
+      "questionText": "____ do you go to the gym? (4)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q016",
+      "questionText": "____ do you go to the gym? (5)",
+      "optionA": "How many",
+      "optionB": "How long",
+      "optionC": "How old",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q017",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will wait.",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q018",
+      "questionText": "____ does it rain here? (3)",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q019",
+      "questionText": "____ do you go to the gym? (6)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q020",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will go.",
+      "optionA": "How far",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q021",
+      "questionText": "Identify the missing word: I don't know ____ he will depart.",
+      "optionA": "How many",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q022",
+      "questionText": "Identify the missing word: I don't know ____ the company will make.",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q023",
+      "questionText": "____ do you go to the gym? (7)",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q024",
+      "questionText": "Which question word is used to ask about frequency? (5)",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How far",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q025",
+      "questionText": "____ does it rain here? (4)",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q026",
+      "questionText": "Which question word is used to ask about frequency? (6)",
+      "optionA": "How many",
+      "optionB": "How old",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q027",
+      "questionText": "Identify the missing word: I don't know ____ she will see.",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q028",
+      "questionText": "____ does it rain here? (5)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q029",
+      "questionText": "Which question word is used to ask about frequency? (7)",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q030",
+      "questionText": "____ do you go to the gym? (8)",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q031",
+      "questionText": "____ does it rain here? (6)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q032",
+      "questionText": "____ does it rain here? (7)",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q033",
+      "questionText": "Which question word is used to ask about frequency? (8)",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q034",
+      "questionText": "____ do you go to the gym? (9)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q035",
+      "questionText": "____ do you go to the gym? (10)",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q036",
+      "questionText": "Which question word is used to ask about frequency? (9)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q037",
+      "questionText": "____ does it rain here? (8)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How much",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q038",
+      "questionText": "Which question word is used to ask about frequency? (10)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How far",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q039",
+      "questionText": "Which question word is used to ask about frequency? (11)",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How old",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q040",
+      "questionText": "____ do you go to the gym? (11)",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How long",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q041",
+      "questionText": "Which question word is used to ask about frequency? (12)",
+      "optionA": "How often",
+      "optionB": "How long",
+      "optionC": "How much",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q042",
+      "questionText": "____ does it rain here? (9)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q043",
+      "questionText": "Identify the missing word: I don't know ____ the company will sleep.",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q044",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will want.",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q045",
+      "questionText": "____ do you go to the gym? (12)",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q046",
+      "questionText": "Which question word is used to ask about frequency? (13)",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How many",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q047",
+      "questionText": "Which question word is used to ask about frequency? (14)",
+      "optionA": "How often",
+      "optionB": "How much",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q048",
+      "questionText": "Which question word is used to ask about frequency? (15)",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q049",
+      "questionText": "____ do you go to the gym? (13)",
+      "optionA": "How old",
+      "optionB": "How far",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option D",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T132-Q050",
+      "questionText": "Which question word is used to ask about frequency? (16)",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How often' is the correct choice in standard English grammar."
+    }
+  ]
+}

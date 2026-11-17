@@ -1,0 +1,507 @@
+{
+  "topicId": 222,
+  "topicName": "Reported speech",
+  "unit": "UNIT 24 — BASIC REPORTED SPEECH",
+  "questions": [
+    {
+      "questionId": "T222-Q001",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 1)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q002",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 2)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q003",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 3)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q004",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 4)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q005",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 5)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q006",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 6)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q007",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 7)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q008",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 8)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q009",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 9)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q010",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 10)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q011",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 11)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q012",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 12)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q013",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 13)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q014",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 14)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q015",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 15)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q016",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 16)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q017",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 17)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q018",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 18)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q019",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 19)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q020",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 20)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q021",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 21)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q022",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 22)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q023",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 23)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q024",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 24)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q025",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 25)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q026",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 26)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q027",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 27)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q028",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 28)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q029",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 29)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q030",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 30)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q031",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 31)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q032",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 32)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q033",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 33)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q034",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 34)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q035",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 35)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q036",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 36)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q037",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 37)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q038",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 38)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q039",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 39)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q040",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 40)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q041",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 41)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q042",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 42)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q043",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 43)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q044",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 44)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that I am tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q045",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 45)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that I was tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q046",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 46)",
+      "optionA": "He said that I am tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I was tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q047",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 47)",
+      "optionA": "He said that he was tired.",
+      "optionB": "He said that he is tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option A",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q048",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 48)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that he was tired.",
+      "optionC": "He said that he is tired.",
+      "optionD": "He said that I am tired.",
+      "correctOption": "Option B",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q049",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 49)",
+      "optionA": "He said that he is tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that I was tired.",
+      "optionD": "He said that he was tired.",
+      "correctOption": "Option D",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T222-Q050",
+      "questionText": "Change to reported speech: 'I am tired,' he said. (Question 50)",
+      "optionA": "He said that I was tired.",
+      "optionB": "He said that I am tired.",
+      "optionC": "He said that he was tired.",
+      "optionD": "He said that he is tired.",
+      "correctOption": "Option C",
+      "explanation": "'He said that he was tired' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

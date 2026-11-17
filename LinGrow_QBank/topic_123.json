@@ -1,0 +1,507 @@
+{
+  "topicId": 123,
+  "topicName": "Whom",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T123-Q001",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q002",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "which",
+      "optionC": "who",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q003",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q004",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q005",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whom",
+      "optionC": "who",
+      "optionD": "whose",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q006",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "whose",
+      "optionC": "which",
+      "optionD": "who",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q007",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q008",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "which",
+      "optionD": "whose",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q009",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q010",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whom",
+      "optionD": "whose",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q011",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whose",
+      "optionC": "whom",
+      "optionD": "which",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q012",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "which",
+      "optionC": "who",
+      "optionD": "whose",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q013",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q014",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "whose",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q015",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q016",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q017",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "whose",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q018",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q019",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q020",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q021",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q022",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q023",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "which",
+      "optionC": "whom",
+      "optionD": "who",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q024",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q025",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "who",
+      "optionC": "whom",
+      "optionD": "which",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q026",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q027",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q028",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "which",
+      "optionC": "who",
+      "optionD": "whose",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q029",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "which",
+      "optionC": "who",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q030",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q031",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whom",
+      "optionD": "whose",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q032",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q033",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q034",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q035",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q036",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q037",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "which",
+      "optionC": "whose",
+      "optionD": "who",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q038",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q039",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "which",
+      "optionC": "whom",
+      "optionD": "whose",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q040",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "which",
+      "optionD": "whose",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q041",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q042",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "who",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q043",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "which",
+      "optionC": "whom",
+      "optionD": "who",
+      "correctOption": "Option C",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q044",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "who",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q045",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "which",
+      "optionB": "who",
+      "optionC": "whose",
+      "optionD": "whom",
+      "correctOption": "Option D",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q046",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "who",
+      "optionC": "which",
+      "optionD": "whose",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q047",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whose",
+      "optionB": "whom",
+      "optionC": "who",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q048",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "whose",
+      "optionC": "who",
+      "optionD": "which",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q049",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "whom",
+      "optionB": "which",
+      "optionC": "who",
+      "optionD": "whose",
+      "correctOption": "Option A",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T123-Q050",
+      "questionText": "Fill in the blank: With ______ did you go to the party?",
+      "optionA": "who",
+      "optionB": "whom",
+      "optionC": "whose",
+      "optionD": "which",
+      "correctOption": "Option B",
+      "explanation": "'whom' is the correct choice in standard English grammar."
+    }
+  ]
+}

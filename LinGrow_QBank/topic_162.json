@@ -1,0 +1,507 @@
+{
+  "topicId": 162,
+  "topicName": "Degree",
+  "unit": "UNIT 16 — ADVERBS",
+  "questions": [
+    {
+      "questionId": "T162-Q001",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "complete",
+      "optionB": "completely",
+      "optionC": "many",
+      "optionD": "lots",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q002",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "many",
+      "optionB": "some",
+      "optionC": "quite",
+      "optionD": "quiet",
+      "correctOption": "Option C",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q003",
+      "questionText": "That is ___ enough.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "almost",
+      "optionD": "most",
+      "correctOption": "Option C",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q004",
+      "questionText": "The water is ___ hot.",
+      "optionA": "much",
+      "optionB": "extremely",
+      "optionC": "extreme",
+      "optionD": "extremes",
+      "correctOption": "Option B",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q005",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "completely",
+      "optionB": "lots",
+      "optionC": "complete",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q006",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "some",
+      "optionD": "quite",
+      "correctOption": "Option D",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q007",
+      "questionText": "That is ___ enough.",
+      "optionA": "most",
+      "optionB": "almost",
+      "optionC": "some",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q008",
+      "questionText": "The water is ___ hot.",
+      "optionA": "many",
+      "optionB": "extremely",
+      "optionC": "extreme",
+      "optionD": "extremes",
+      "correctOption": "Option B",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q009",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "lots",
+      "optionB": "completely",
+      "optionC": "complete",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q010",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "quiet",
+      "optionD": "quite",
+      "correctOption": "Option D",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q011",
+      "questionText": "That is ___ enough.",
+      "optionA": "most",
+      "optionB": "much",
+      "optionC": "almost",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q012",
+      "questionText": "The water is ___ hot.",
+      "optionA": "many",
+      "optionB": "extremely",
+      "optionC": "much",
+      "optionD": "extreme",
+      "correctOption": "Option B",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q013",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "complete",
+      "optionB": "many",
+      "optionC": "completely",
+      "optionD": "lots",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q014",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quiet",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "quite",
+      "correctOption": "Option D",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q015",
+      "questionText": "That is ___ enough.",
+      "optionA": "most",
+      "optionB": "much",
+      "optionC": "almost",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q016",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremely",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "extreme",
+      "correctOption": "Option A",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q017",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "complete",
+      "optionB": "lots",
+      "optionC": "many",
+      "optionD": "completely",
+      "correctOption": "Option D",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q018",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "quiet",
+      "optionC": "many",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q019",
+      "questionText": "That is ___ enough.",
+      "optionA": "much",
+      "optionB": "some",
+      "optionC": "almost",
+      "optionD": "most",
+      "correctOption": "Option C",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q020",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremely",
+      "optionB": "much",
+      "optionC": "extremes",
+      "optionD": "extreme",
+      "correctOption": "Option A",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q021",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "lots",
+      "optionB": "completely",
+      "optionC": "complete",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q022",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "quiet",
+      "optionC": "much",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q023",
+      "questionText": "That is ___ enough.",
+      "optionA": "most",
+      "optionB": "much",
+      "optionC": "many",
+      "optionD": "almost",
+      "correctOption": "Option D",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q024",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremely",
+      "optionB": "much",
+      "optionC": "extremes",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q025",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "lots",
+      "optionB": "completely",
+      "optionC": "many",
+      "optionD": "complete",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q026",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "much",
+      "optionC": "quiet",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q027",
+      "questionText": "That is ___ enough.",
+      "optionA": "much",
+      "optionB": "almost",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q028",
+      "questionText": "The water is ___ hot.",
+      "optionA": "much",
+      "optionB": "many",
+      "optionC": "extreme",
+      "optionD": "extremely",
+      "correctOption": "Option D",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q029",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "much",
+      "optionB": "completely",
+      "optionC": "lots",
+      "optionD": "complete",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q030",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "some",
+      "optionB": "quite",
+      "optionC": "much",
+      "optionD": "quiet",
+      "correctOption": "Option B",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q031",
+      "questionText": "That is ___ enough.",
+      "optionA": "much",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "almost",
+      "correctOption": "Option D",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q032",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extreme",
+      "optionB": "many",
+      "optionC": "extremes",
+      "optionD": "extremely",
+      "correctOption": "Option D",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q033",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "lots",
+      "optionB": "complete",
+      "optionC": "completely",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q034",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "much",
+      "optionB": "quite",
+      "optionC": "some",
+      "optionD": "quiet",
+      "correctOption": "Option B",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q035",
+      "questionText": "That is ___ enough.",
+      "optionA": "almost",
+      "optionB": "much",
+      "optionC": "most",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q036",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremes",
+      "optionB": "much",
+      "optionC": "extremely",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q037",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "many",
+      "optionB": "completely",
+      "optionC": "much",
+      "optionD": "complete",
+      "correctOption": "Option B",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q038",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "much",
+      "optionC": "quiet",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q039",
+      "questionText": "That is ___ enough.",
+      "optionA": "many",
+      "optionB": "most",
+      "optionC": "almost",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q040",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremely",
+      "optionB": "extreme",
+      "optionC": "much",
+      "optionD": "extremes",
+      "correctOption": "Option A",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q041",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "many",
+      "optionB": "much",
+      "optionC": "completely",
+      "optionD": "lots",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q042",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "some",
+      "optionC": "quiet",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q043",
+      "questionText": "That is ___ enough.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "almost",
+      "correctOption": "Option D",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q044",
+      "questionText": "The water is ___ hot.",
+      "optionA": "much",
+      "optionB": "extremes",
+      "optionC": "extremely",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q045",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "lots",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "completely",
+      "correctOption": "Option D",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q046",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "quite",
+      "optionB": "many",
+      "optionC": "much",
+      "optionD": "quiet",
+      "correctOption": "Option A",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q047",
+      "questionText": "That is ___ enough.",
+      "optionA": "almost",
+      "optionB": "much",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'almost' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q048",
+      "questionText": "The water is ___ hot.",
+      "optionA": "extremes",
+      "optionB": "much",
+      "optionC": "extreme",
+      "optionD": "extremely",
+      "correctOption": "Option D",
+      "explanation": "'extremely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q049",
+      "questionText": "I am ___ exhausted.",
+      "optionA": "complete",
+      "optionB": "many",
+      "optionC": "completely",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'completely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T162-Q050",
+      "questionText": "She is ___ tall for her age.",
+      "optionA": "many",
+      "optionB": "quite",
+      "optionC": "quiet",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'quite' is the correct choice in standard English grammar."
+    }
+  ]
+}

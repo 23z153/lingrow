@@ -1,0 +1,507 @@
+{
+  "topicId": 188,
+  "topicName": "Will",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T188-Q001",
+      "questionText": "Fill in the blank: You ___ study a letter tomorrow.",
+      "optionA": "will",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will to",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q002",
+      "questionText": "Fill in the blank: He ___ read gracefully tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q003",
+      "questionText": "Fill in the blank: She ___ speak some food tomorrow.",
+      "optionA": "will",
+      "optionB": "to will",
+      "optionC": "will to",
+      "optionD": "wills",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q004",
+      "questionText": "Fill in the blank: It ___ jump math tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "wills",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q005",
+      "questionText": "Fill in the blank: We ___ cook football tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q006",
+      "questionText": "Fill in the blank: They ___ drive high tomorrow.",
+      "optionA": "wills",
+      "optionB": "will to",
+      "optionC": "to will",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q007",
+      "questionText": "Fill in the blank: The student ___ buy in the sky tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q008",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q009",
+      "questionText": "Fill in the blank: The dog ___ create for the exam tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q010",
+      "questionText": "Fill in the blank: My friend ___ go fast tomorrow.",
+      "optionA": "will to",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q011",
+      "questionText": "Fill in the blank: The team ___ study the car tomorrow.",
+      "optionA": "will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "to will",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q012",
+      "questionText": "Fill in the blank: Someone ___ read a program tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q013",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple tomorrow.",
+      "optionA": "will to",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q014",
+      "questionText": "Fill in the blank: Everyone ___ jump to music tomorrow.",
+      "optionA": "will",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will to",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q015",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q016",
+      "questionText": "Fill in the blank: The doctor ___ drive the house tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q017",
+      "questionText": "Fill in the blank: The manager ___ buy history tomorrow.",
+      "optionA": "to will",
+      "optionB": "will",
+      "optionC": "wills",
+      "optionD": "will to",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q018",
+      "questionText": "Fill in the blank: The child ___ draw a book tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q019",
+      "questionText": "Fill in the blank: The workers ___ create a song tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q020",
+      "questionText": "Fill in the blank: Alice ___ go a movie tomorrow.",
+      "optionA": "wills",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q021",
+      "questionText": "Fill in the blank: Bob ___ study a building tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q022",
+      "questionText": "Fill in the blank: Charlie ___ read at the office tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q023",
+      "questionText": "Fill in the blank: David ___ speak slowly tomorrow.",
+      "optionA": "wills",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q024",
+      "questionText": "Fill in the blank: Eve ___ jump to Paris tomorrow.",
+      "optionA": "wills",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "will to",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q025",
+      "questionText": "Fill in the blank: Frank ___ cook a website tomorrow.",
+      "optionA": "to will",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q026",
+      "questionText": "Fill in the blank: Grace ___ drive all night tomorrow.",
+      "optionA": "will",
+      "optionB": "will to",
+      "optionC": "wills",
+      "optionD": "to will",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q027",
+      "questionText": "Fill in the blank: Hannah ___ buy English tomorrow.",
+      "optionA": "will to",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q028",
+      "questionText": "Fill in the blank: Ivy ___ draw the room tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q029",
+      "questionText": "Fill in the blank: Jack ___ create a picture tomorrow.",
+      "optionA": "wills",
+      "optionB": "will to",
+      "optionC": "will",
+      "optionD": "to will",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q030",
+      "questionText": "Fill in the blank: I ___ go to the park tomorrow.",
+      "optionA": "wills",
+      "optionB": "will to",
+      "optionC": "will",
+      "optionD": "to will",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q031",
+      "questionText": "Fill in the blank: You ___ study a letter tomorrow.",
+      "optionA": "wills",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q032",
+      "questionText": "Fill in the blank: He ___ read gracefully tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q033",
+      "questionText": "Fill in the blank: She ___ speak some food tomorrow.",
+      "optionA": "to will",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q034",
+      "questionText": "Fill in the blank: It ___ jump math tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q035",
+      "questionText": "Fill in the blank: We ___ cook football tomorrow.",
+      "optionA": "will",
+      "optionB": "will to",
+      "optionC": "wills",
+      "optionD": "to will",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q036",
+      "questionText": "Fill in the blank: They ___ drive high tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q037",
+      "questionText": "Fill in the blank: The student ___ buy in the sky tomorrow.",
+      "optionA": "will to",
+      "optionB": "to will",
+      "optionC": "will",
+      "optionD": "wills",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q038",
+      "questionText": "Fill in the blank: The professor ___ draw a bridge tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q039",
+      "questionText": "Fill in the blank: The dog ___ create for the exam tomorrow.",
+      "optionA": "will",
+      "optionB": "wills",
+      "optionC": "to will",
+      "optionD": "will to",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q040",
+      "questionText": "Fill in the blank: My friend ___ go fast tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q041",
+      "questionText": "Fill in the blank: The team ___ study the car tomorrow.",
+      "optionA": "to will",
+      "optionB": "will to",
+      "optionC": "will",
+      "optionD": "wills",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q042",
+      "questionText": "Fill in the blank: Someone ___ read a program tomorrow.",
+      "optionA": "to will",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q043",
+      "questionText": "Fill in the blank: Nobody ___ speak an apple tomorrow.",
+      "optionA": "to will",
+      "optionB": "wills",
+      "optionC": "will to",
+      "optionD": "will",
+      "correctOption": "Option D",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q044",
+      "questionText": "Fill in the blank: Everyone ___ jump to music tomorrow.",
+      "optionA": "wills",
+      "optionB": "will to",
+      "optionC": "will",
+      "optionD": "to will",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q045",
+      "questionText": "Fill in the blank: The teacher ___ cook dinner tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "to will",
+      "optionD": "wills",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q046",
+      "questionText": "Fill in the blank: The doctor ___ drive the house tomorrow.",
+      "optionA": "will to",
+      "optionB": "will",
+      "optionC": "wills",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q047",
+      "questionText": "Fill in the blank: The manager ___ buy history tomorrow.",
+      "optionA": "wills",
+      "optionB": "will",
+      "optionC": "will to",
+      "optionD": "to will",
+      "correctOption": "Option B",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q048",
+      "questionText": "Fill in the blank: The child ___ draw a book tomorrow.",
+      "optionA": "will",
+      "optionB": "will to",
+      "optionC": "wills",
+      "optionD": "to will",
+      "correctOption": "Option A",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q049",
+      "questionText": "Fill in the blank: The workers ___ create a song tomorrow.",
+      "optionA": "wills",
+      "optionB": "to will",
+      "optionC": "will",
+      "optionD": "will to",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T188-Q050",
+      "questionText": "Fill in the blank: Alice ___ go a movie tomorrow.",
+      "optionA": "will to",
+      "optionB": "wills",
+      "optionC": "will",
+      "optionD": "to will",
+      "correctOption": "Option C",
+      "explanation": "'will' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

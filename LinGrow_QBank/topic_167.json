@@ -1,0 +1,507 @@
+{
+  "topicId": 167,
+  "topicName": "So",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T167-Q001",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q002",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q003",
+      "questionText": "The library was closed, ____ I went home.",
+      "optionA": "while",
+      "optionB": "when",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q004",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "before",
+      "optionB": "after",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q005",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q006",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q007",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q008",
+      "questionText": "The study hall was closed, ____ I went home.",
+      "optionA": "when",
+      "optionB": "while",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q009",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "after",
+      "optionB": "so",
+      "optionC": "before",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q010",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "unless",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q011",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q012",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "until",
+      "optionB": "so",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q013",
+      "questionText": "The study hall was closed, ____ I went home.",
+      "optionA": "when",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q014",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "before",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "after",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q015",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q016",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q017",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q018",
+      "questionText": "The study hall was closed, ____ I went home.",
+      "optionA": "while",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "when",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q019",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "before",
+      "optionB": "after",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q020",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q021",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q022",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q023",
+      "questionText": "The classroom was closed, ____ I went home.",
+      "optionA": "so",
+      "optionB": "while",
+      "optionC": "or",
+      "optionD": "when",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q024",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "so",
+      "optionB": "before",
+      "optionC": "after",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q025",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "so",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q026",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q027",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q028",
+      "questionText": "The classroom was closed, ____ I went home.",
+      "optionA": "while",
+      "optionB": "so",
+      "optionC": "when",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q029",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "after",
+      "optionB": "before",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q030",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q031",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q032",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q033",
+      "questionText": "The classroom was closed, ____ I went home.",
+      "optionA": "while",
+      "optionB": "so",
+      "optionC": "when",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q034",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "after",
+      "optionD": "before",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q035",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q036",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q037",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "although",
+      "optionB": "until",
+      "optionC": "so",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q038",
+      "questionText": "The library was closed, ____ I went home.",
+      "optionA": "so",
+      "optionB": "when",
+      "optionC": "while",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q039",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "after",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "before",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q040",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q041",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "unless",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q042",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q043",
+      "questionText": "The library was closed, ____ I went home.",
+      "optionA": "or",
+      "optionB": "when",
+      "optionC": "while",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q044",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "because",
+      "optionB": "before",
+      "optionC": "after",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q045",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q046",
+      "questionText": "I studied hard for the test, ____ I passed.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q047",
+      "questionText": "The professor spoke clearly, ____ everyone understood the lesson.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "until",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q048",
+      "questionText": "The library was closed, ____ I went home.",
+      "optionA": "when",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "while",
+      "correctOption": "Option C",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q049",
+      "questionText": "It was raining heavily, ____ the sports event was canceled.",
+      "optionA": "after",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "before",
+      "correctOption": "Option B",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T167-Q050",
+      "questionText": "She forgot her textbook, ____ she borrowed one from a friend.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option D",
+      "explanation": "'so' is the correct choice in standard English grammar."
+    }
+  ]
+}

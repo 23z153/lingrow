@@ -1,0 +1,507 @@
+{
+  "topicId": 241,
+  "topicName": "Double negatives",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T241-Q001",
+      "questionText": "Choose the sentence without a double negative. (Question 1)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "We hardly have any time.",
+      "correctOption": "Option D",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q002",
+      "questionText": "Choose the sentence without a double negative. (Question 2)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "We hardly have any time.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option B",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q003",
+      "questionText": "Choose the sentence without a double negative. (Question 3)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know anything.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q004",
+      "questionText": "Choose the sentence without a double negative. (Question 4)",
+      "optionA": "We hardly have any time.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option A",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q005",
+      "questionText": "Choose the sentence without a double negative. (Question 5)",
+      "optionA": "I don't need no help.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know anything.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q006",
+      "questionText": "Choose the sentence without a double negative. (Question 6)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q007",
+      "questionText": "Choose the sentence without a double negative. (Question 7)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "She has nothing to say.",
+      "optionC": "I don't know nothing.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q008",
+      "questionText": "Choose the sentence without a double negative. (Question 8)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I don't need no help.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q009",
+      "questionText": "Choose the sentence without a double negative. (Question 9)",
+      "optionA": "I don't need no help.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "We hardly have any time.",
+      "correctOption": "Option D",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q010",
+      "questionText": "Choose the sentence without a double negative. (Question 10)",
+      "optionA": "I don't know anything.",
+      "optionB": "I don't need no help.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q011",
+      "questionText": "Choose the sentence without a double negative. (Question 11)",
+      "optionA": "She has nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't need no help.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option A",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q012",
+      "questionText": "Choose the sentence without a double negative. (Question 12)",
+      "optionA": "I don't need no help.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't need no help.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q013",
+      "questionText": "Choose the sentence without a double negative. (Question 13)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't know anything.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q014",
+      "questionText": "Choose the sentence without a double negative. (Question 14)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't know anything.",
+      "optionD": "I don't need no help.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q015",
+      "questionText": "Choose the sentence without a double negative. (Question 15)",
+      "optionA": "I don't need no help.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know anything.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q016",
+      "questionText": "Choose the sentence without a double negative. (Question 16)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't know nothing.",
+      "optionD": "We hardly have any time.",
+      "correctOption": "Option D",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q017",
+      "questionText": "Choose the sentence without a double negative. (Question 17)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "She has nothing to say.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q018",
+      "questionText": "Choose the sentence without a double negative. (Question 18)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't know nothing.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "We hardly have any time.",
+      "correctOption": "Option D",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q019",
+      "questionText": "Choose the sentence without a double negative. (Question 19)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "I don't know anything.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q020",
+      "questionText": "Choose the sentence without a double negative. (Question 20)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know anything.",
+      "optionD": "I don't need no help.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q021",
+      "questionText": "Choose the sentence without a double negative. (Question 21)",
+      "optionA": "I don't know anything.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "I don't know nothing.",
+      "optionD": "I don't need no help.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q022",
+      "questionText": "Choose the sentence without a double negative. (Question 22)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "She has nothing to say.",
+      "optionC": "I don't need no help.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q023",
+      "questionText": "Choose the sentence without a double negative. (Question 23)",
+      "optionA": "We hardly have any time.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option A",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q024",
+      "questionText": "Choose the sentence without a double negative. (Question 24)",
+      "optionA": "I don't need no help.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "I don't know anything.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q025",
+      "questionText": "Choose the sentence without a double negative. (Question 25)",
+      "optionA": "We hardly have any time.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know nothing.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option A",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q026",
+      "questionText": "Choose the sentence without a double negative. (Question 26)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't know anything.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q027",
+      "questionText": "Choose the sentence without a double negative. (Question 27)",
+      "optionA": "I don't know anything.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q028",
+      "questionText": "Choose the sentence without a double negative. (Question 28)",
+      "optionA": "I don't know anything.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q029",
+      "questionText": "Choose the sentence without a double negative. (Question 29)",
+      "optionA": "I don't know nothing.",
+      "optionB": "I don't need no help.",
+      "optionC": "She has nothing to say.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option C",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q030",
+      "questionText": "Choose the sentence without a double negative. (Question 30)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "I don't know anything.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q031",
+      "questionText": "Choose the sentence without a double negative. (Question 31)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "I don't know anything.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q032",
+      "questionText": "Choose the sentence without a double negative. (Question 32)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't need no help.",
+      "optionC": "I don't need no help.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q033",
+      "questionText": "Choose the sentence without a double negative. (Question 33)",
+      "optionA": "I don't know nothing.",
+      "optionB": "We hardly have any time.",
+      "optionC": "I don't need no help.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option B",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q034",
+      "questionText": "Choose the sentence without a double negative. (Question 34)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "I don't know nothing.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q035",
+      "questionText": "Choose the sentence without a double negative. (Question 35)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't need no help.",
+      "optionC": "She has nothing to say.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option C",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q036",
+      "questionText": "Choose the sentence without a double negative. (Question 36)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "She has nothing to say.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "I don't need no help.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q037",
+      "questionText": "Choose the sentence without a double negative. (Question 37)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "I don't know anything.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option C",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q038",
+      "questionText": "Choose the sentence without a double negative. (Question 38)",
+      "optionA": "I don't need no help.",
+      "optionB": "We hardly have any time.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option B",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q039",
+      "questionText": "Choose the sentence without a double negative. (Question 39)",
+      "optionA": "We hardly have any time.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "I don't need no help.",
+      "correctOption": "Option A",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q040",
+      "questionText": "Choose the sentence without a double negative. (Question 40)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "I don't know nothing.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know anything.",
+      "correctOption": "Option D",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q041",
+      "questionText": "Choose the sentence without a double negative. (Question 41)",
+      "optionA": "I don't need no help.",
+      "optionB": "She has nothing to say.",
+      "optionC": "I don't know nothing.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q042",
+      "questionText": "Choose the sentence without a double negative. (Question 42)",
+      "optionA": "I don't know nothing.",
+      "optionB": "I don't know anything.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option B",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q043",
+      "questionText": "Choose the sentence without a double negative. (Question 43)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "She doesn't have nothing to say.",
+      "optionD": "We hardly have any time.",
+      "correctOption": "Option D",
+      "explanation": "'We hardly have any time' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q044",
+      "questionText": "Choose the sentence without a double negative. (Question 44)",
+      "optionA": "I don't know anything.",
+      "optionB": "She doesn't have nothing to say.",
+      "optionC": "I don't need no help.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option A",
+      "explanation": "'I don't know anything' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q045",
+      "questionText": "Choose the sentence without a double negative. (Question 45)",
+      "optionA": "She has nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't know nothing.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option A",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q046",
+      "questionText": "Choose the sentence without a double negative. (Question 46)",
+      "optionA": "We don't hardly have no time.",
+      "optionB": "She has nothing to say.",
+      "optionC": "I don't need no help.",
+      "optionD": "I don't know nothing.",
+      "correctOption": "Option B",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q047",
+      "questionText": "Choose the sentence without a double negative. (Question 47)",
+      "optionA": "I don't know nothing.",
+      "optionB": "I don't need no help.",
+      "optionC": "She has nothing to say.",
+      "optionD": "We don't hardly have no time.",
+      "correctOption": "Option C",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q048",
+      "questionText": "Choose the sentence without a double negative. (Question 48)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't need no help.",
+      "optionC": "We don't hardly have no time.",
+      "optionD": "She has nothing to say.",
+      "correctOption": "Option D",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q049",
+      "questionText": "Choose the sentence without a double negative. (Question 49)",
+      "optionA": "She has nothing to say.",
+      "optionB": "We don't hardly have no time.",
+      "optionC": "I don't need no help.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option A",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T241-Q050",
+      "questionText": "Choose the sentence without a double negative. (Question 50)",
+      "optionA": "She doesn't have nothing to say.",
+      "optionB": "I don't need no help.",
+      "optionC": "She has nothing to say.",
+      "optionD": "She doesn't have nothing to say.",
+      "correctOption": "Option C",
+      "explanation": "'She has nothing to say' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 66,
+  "topicName": "Superlative adjectives",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T066-Q001",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the more short building in the city.",
+      "optionB": "This is the short building in the city.",
+      "optionC": "This is the most shortest building in the city.",
+      "optionD": "This is the shortest building in the city.",
+      "correctOption": "Option D",
+      "explanation": "'This is the shortest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q002",
+      "questionText": "Identify the superlative adjective: 'He bought the smartest car available.'",
+      "optionA": "available",
+      "optionB": "car",
+      "optionC": "smartest",
+      "optionD": "bought",
+      "correctOption": "Option C",
+      "explanation": "'smartest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q003",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "taller",
+      "optionB": "most tall",
+      "optionC": "tall",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q004",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "slow",
+      "optionB": "more slow",
+      "optionC": "slowest",
+      "optionD": "most slow",
+      "correctOption": "Option C",
+      "explanation": "'slowest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q005",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the high building in the city.",
+      "optionB": "This is the more high building in the city.",
+      "optionC": "This is the most highest building in the city.",
+      "optionD": "This is the highest building in the city.",
+      "correctOption": "Option D",
+      "explanation": "'This is the highest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q006",
+      "questionText": "Identify the superlative adjective: 'He bought the lowest car available.'",
+      "optionA": "bought",
+      "optionB": "available",
+      "optionC": "car",
+      "optionD": "lowest",
+      "correctOption": "Option D",
+      "explanation": "'lowest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q007",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "tall",
+      "optionB": "taller",
+      "optionC": "tallest",
+      "optionD": "most tall",
+      "correctOption": "Option C",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q008",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "weak",
+      "optionB": "most weak",
+      "optionC": "weakest",
+      "optionD": "more weak",
+      "correctOption": "Option C",
+      "explanation": "'weakest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q009",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the youngest building in the city.",
+      "optionB": "This is the more young building in the city.",
+      "optionC": "This is the young building in the city.",
+      "optionD": "This is the most youngest building in the city.",
+      "correctOption": "Option A",
+      "explanation": "'This is the youngest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q010",
+      "questionText": "Identify the superlative adjective: 'He bought the oldest car available.'",
+      "optionA": "car",
+      "optionB": "available",
+      "optionC": "oldest",
+      "optionD": "bought",
+      "correctOption": "Option C",
+      "explanation": "'oldest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q011",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "tall",
+      "optionB": "taller",
+      "optionC": "most tall",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q012",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "most poor",
+      "optionB": "more poor",
+      "optionC": "poor",
+      "optionD": "poorest",
+      "correctOption": "Option D",
+      "explanation": "'poorest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q013",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the most loudest building in the city.",
+      "optionB": "This is the loud building in the city.",
+      "optionC": "This is the loudest building in the city.",
+      "optionD": "This is the more loud building in the city.",
+      "correctOption": "Option C",
+      "explanation": "'This is the loudest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q014",
+      "questionText": "Identify the superlative adjective: 'He bought the quietest car available.'",
+      "optionA": "car",
+      "optionB": "available",
+      "optionC": "bought",
+      "optionD": "quietest",
+      "correctOption": "Option D",
+      "explanation": "'quietest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q015",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "tallest",
+      "optionB": "taller",
+      "optionC": "most tall",
+      "optionD": "tall",
+      "correctOption": "Option A",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q016",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "most dark",
+      "optionB": "darkest",
+      "optionC": "more dark",
+      "optionD": "dark",
+      "correctOption": "Option B",
+      "explanation": "'darkest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q017",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the hard building in the city.",
+      "optionB": "This is the most hardest building in the city.",
+      "optionC": "This is the more hard building in the city.",
+      "optionD": "This is the hardest building in the city.",
+      "correctOption": "Option D",
+      "explanation": "'This is the hardest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q018",
+      "questionText": "Identify the superlative adjective: 'He bought the softest car available.'",
+      "optionA": "bought",
+      "optionB": "available",
+      "optionC": "softest",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'softest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q019",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "most tall",
+      "optionB": "tall",
+      "optionC": "taller",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q020",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "dirtiest",
+      "optionB": "dirty",
+      "optionC": "more dirty",
+      "optionD": "most dirty",
+      "correctOption": "Option A",
+      "explanation": "'dirtiest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q021",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the largest building in the city.",
+      "optionB": "This is the more large building in the city.",
+      "optionC": "This is the most largest building in the city.",
+      "optionD": "This is the large building in the city.",
+      "correctOption": "Option A",
+      "explanation": "'This is the largest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q022",
+      "questionText": "Identify the superlative adjective: 'He bought the smallest car available.'",
+      "optionA": "smallest",
+      "optionB": "available",
+      "optionC": "car",
+      "optionD": "bought",
+      "correctOption": "Option A",
+      "explanation": "'smallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q023",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "taller",
+      "optionB": "most tall",
+      "optionC": "tall",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q024",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "more narrow",
+      "optionB": "most narrow",
+      "optionC": "narrowest",
+      "optionD": "narrow",
+      "correctOption": "Option C",
+      "explanation": "'narrowest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q025",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the more deep building in the city.",
+      "optionB": "This is the deepest building in the city.",
+      "optionC": "This is the deep building in the city.",
+      "optionD": "This is the most deepest building in the city.",
+      "correctOption": "Option B",
+      "explanation": "'This is the deepest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q026",
+      "questionText": "Identify the superlative adjective: 'He bought the shallowest car available.'",
+      "optionA": "bought",
+      "optionB": "available",
+      "optionC": "shallowest",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'shallowest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q027",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "most tall",
+      "optionB": "tall",
+      "optionC": "taller",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q028",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "clever",
+      "optionB": "most clever",
+      "optionC": "cleverest",
+      "optionD": "more clever",
+      "correctOption": "Option C",
+      "explanation": "'cleverest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q029",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the most simplest building in the city.",
+      "optionB": "This is the simple building in the city.",
+      "optionC": "This is the simplest building in the city.",
+      "optionD": "This is the more simple building in the city.",
+      "correctOption": "Option C",
+      "explanation": "'This is the simplest building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q030",
+      "questionText": "Identify the superlative adjective: 'He bought the most beautiful car available.'",
+      "optionA": "most beautiful",
+      "optionB": "bought",
+      "optionC": "car",
+      "optionD": "available",
+      "correctOption": "Option A",
+      "explanation": "'most beautiful' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q031",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "tall",
+      "optionB": "tallest",
+      "optionC": "most tall",
+      "optionD": "taller",
+      "correctOption": "Option B",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q032",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "most interesting",
+      "optionB": "interestingest",
+      "optionC": "more interesting",
+      "optionD": "interesting",
+      "correctOption": "Option A",
+      "explanation": "'most interesting' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q033",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the most difficult building in the city.",
+      "optionB": "This is the difficult building in the city.",
+      "optionC": "This is the more difficult building in the city.",
+      "optionD": "This is the most most difficult building in the city.",
+      "correctOption": "Option A",
+      "explanation": "'This is the most difficult building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q034",
+      "questionText": "Identify the superlative adjective: 'He bought the most important car available.'",
+      "optionA": "bought",
+      "optionB": "available",
+      "optionC": "most important",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'most important' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q035",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "taller",
+      "optionB": "tall",
+      "optionC": "tallest",
+      "optionD": "most tall",
+      "correctOption": "Option C",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q036",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "comfortable",
+      "optionB": "more comfortable",
+      "optionC": "comfortableest",
+      "optionD": "most comfortable",
+      "correctOption": "Option D",
+      "explanation": "'most comfortable' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q037",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the careful building in the city.",
+      "optionB": "This is the most careful building in the city.",
+      "optionC": "This is the more careful building in the city.",
+      "optionD": "This is the most most careful building in the city.",
+      "correctOption": "Option B",
+      "explanation": "'This is the most careful building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q038",
+      "questionText": "Identify the superlative adjective: 'He bought the most popular car available.'",
+      "optionA": "most popular",
+      "optionB": "car",
+      "optionC": "bought",
+      "optionD": "available",
+      "correctOption": "Option A",
+      "explanation": "'most popular' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q039",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "taller",
+      "optionB": "tallest",
+      "optionC": "most tall",
+      "optionD": "tall",
+      "correctOption": "Option B",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q040",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "excitingest",
+      "optionB": "exciting",
+      "optionC": "more exciting",
+      "optionD": "most exciting",
+      "correctOption": "Option D",
+      "explanation": "'most exciting' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q041",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the most most boring building in the city.",
+      "optionB": "This is the boring building in the city.",
+      "optionC": "This is the most boring building in the city.",
+      "optionD": "This is the more boring building in the city.",
+      "correctOption": "Option C",
+      "explanation": "'This is the most boring building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q042",
+      "questionText": "Identify the superlative adjective: 'He bought the most tired car available.'",
+      "optionA": "car",
+      "optionB": "bought",
+      "optionC": "most tired",
+      "optionD": "available",
+      "correctOption": "Option C",
+      "explanation": "'most tired' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q043",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "most tall",
+      "optionB": "taller",
+      "optionC": "tall",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q044",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "frightenedest",
+      "optionB": "most frightened",
+      "optionC": "more frightened",
+      "optionD": "frightened",
+      "correctOption": "Option B",
+      "explanation": "'most frightened' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q045",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the confused building in the city.",
+      "optionB": "This is the most confused building in the city.",
+      "optionC": "This is the most most confused building in the city.",
+      "optionD": "This is the more confused building in the city.",
+      "correctOption": "Option B",
+      "explanation": "'This is the most confused building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q046",
+      "questionText": "Identify the superlative adjective: 'He bought the most annoyed car available.'",
+      "optionA": "car",
+      "optionB": "most annoyed",
+      "optionC": "available",
+      "optionD": "bought",
+      "correctOption": "Option B",
+      "explanation": "'most annoyed' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q047",
+      "questionText": "Fill in the blank: Mount Everest is the _____ mountain in the world.",
+      "optionA": "most tall",
+      "optionB": "taller",
+      "optionC": "tall",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q048",
+      "questionText": "She is the _____ student in the class.",
+      "optionA": "excited",
+      "optionB": "more excited",
+      "optionC": "most excited",
+      "optionD": "excitedest",
+      "correctOption": "Option C",
+      "explanation": "'most excited' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q049",
+      "questionText": "Which sentence is correct?",
+      "optionA": "This is the most most interested building in the city.",
+      "optionB": "This is the most interested building in the city.",
+      "optionC": "This is the interested building in the city.",
+      "optionD": "This is the more interested building in the city.",
+      "correctOption": "Option B",
+      "explanation": "'This is the most interested building in the city' is the superlative form used to compare three or more items."
+    },
+    {
+      "questionId": "T066-Q050",
+      "questionText": "Identify the superlative adjective: 'He bought the tallest car available.'",
+      "optionA": "bought",
+      "optionB": "car",
+      "optionC": "available",
+      "optionD": "tallest",
+      "correctOption": "Option D",
+      "explanation": "'tallest' is the superlative form used to compare three or more items."
+    }
+  ]
+}

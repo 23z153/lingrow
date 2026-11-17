@@ -1,0 +1,507 @@
+{
+  "topicId": 15,
+  "topicName": "Articles",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T015-Q001",
+      "questionText": "I need to buy ___ new notebook for my history class.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q002",
+      "questionText": "She has ___ exam tomorrow morning.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q003",
+      "questionText": "Where is ___ library?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q004",
+      "questionText": "We study ___ mathematics in the science building.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q005",
+      "questionText": "He is ___ student at the university.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q006",
+      "questionText": "Professor Lee gave us ___ interesting article to read.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "none",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q007",
+      "questionText": "Please give me ___ pen on your desk.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q008",
+      "questionText": "Students need to drink ___ water during the long lecture.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q009",
+      "questionText": "We have ___ test every Friday.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q010",
+      "questionText": "It is ___ honor to meet the university president.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q011",
+      "questionText": "___ cafeteria is open until 8:00 PM.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q012",
+      "questionText": "Dr. Smith teaches ___ biology.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q013",
+      "questionText": "I am looking for ___ computer lab. Is there one near here?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q014",
+      "questionText": "I need ___ hour to finish my homework.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q015",
+      "questionText": "Let's meet at ___ student union.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q016",
+      "questionText": "Do you like studying ___ history?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q017",
+      "questionText": "Do you have ___ dictionary I can borrow?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q018",
+      "questionText": "That is ___ excellent question.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q019",
+      "questionText": "Please open ___ book to page 45.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q020",
+      "questionText": "She always drinks ___ coffee before class.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q021",
+      "questionText": "He wants to be ___ teacher.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q022",
+      "questionText": "I found ___ apple on my desk.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q023",
+      "questionText": "___ professor for this course is very nice.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q024",
+      "questionText": "We do not have class on ___ Sunday.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q025",
+      "questionText": "My roommate bought ___ desk for her room.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q026",
+      "questionText": "It took me ___ hour and a half to read the chapter.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q027",
+      "questionText": "Did you finish ___ homework?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q028",
+      "questionText": "I enjoy learning ___ English.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q029",
+      "questionText": "She is taking ___ difficult physics class.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q030",
+      "questionText": "I have ___ idea for our group project.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q031",
+      "questionText": "___ campus is very beautiful in the spring.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q032",
+      "questionText": "He likes playing ___ tennis with his classmates.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q033",
+      "questionText": "Can you give me ___ piece of paper?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q034",
+      "questionText": "We watched ___ educational video in sociology today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q035",
+      "questionText": "What is ___ answer to the first question?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q036",
+      "questionText": "Many students eat ___ pizza for lunch.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q037",
+      "questionText": "There is ___ whiteboard in every classroom.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q038",
+      "questionText": "I am reading ___ article about economics.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q039",
+      "questionText": "Look at ___ map on the wall.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q040",
+      "questionText": "She speaks ___ Spanish very well.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q041",
+      "questionText": "I bought ___ new backpack yesterday.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q042",
+      "questionText": "He wrote ___ essay about climate change.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q043",
+      "questionText": "___ final exam is on Friday.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q044",
+      "questionText": "I need to buy ___ milk on the way back to the dorm.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q045",
+      "questionText": "I need ___ pencil for the test.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q046",
+      "questionText": "She sent me ___ email about the study group.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    },
+    {
+      "questionId": "T015-Q047",
+      "questionText": "Read ___ first sentence of the paragraph.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T015-Q048",
+      "questionText": "Do you listen to ___ music while studying?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option D",
+      "explanation": "No article is needed when speaking about general concepts or plural/uncountable nouns in general."
+    },
+    {
+      "questionId": "T015-Q049",
+      "questionText": "We took ___ quiz in chemistry today.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'a' before a singular countable noun starting with a consonant sound."
+    },
+    {
+      "questionId": "T015-Q050",
+      "questionText": "He is ___ honest student.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'an' before a singular countable noun starting with a vowel sound (a, e, i, o, u)."
+    }
+  ]
+}

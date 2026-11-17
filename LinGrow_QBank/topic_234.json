@@ -1,0 +1,507 @@
+{
+  "topicId": 234,
+  "topicName": "Subject–verb errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T234-Q001",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 1)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q002",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 2)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q003",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 3)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q004",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 4)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q005",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 5)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q006",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 6)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q007",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 7)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q008",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 8)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q009",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 9)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q010",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 10)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q011",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 11)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q012",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 12)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q013",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 13)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q014",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 14)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q015",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 15)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q016",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 16)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q017",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 17)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q018",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 18)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q019",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 19)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q020",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 20)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q021",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 21)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q022",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 22)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q023",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 23)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q024",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 24)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q025",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 25)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q026",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 26)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q027",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 27)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q028",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 28)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q029",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 29)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q030",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 30)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q031",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 31)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q032",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 32)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q033",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 33)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q034",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 34)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q035",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 35)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q036",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 36)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q037",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 37)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q038",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 38)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q039",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 39)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q040",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 40)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q041",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 41)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q042",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 42)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cat runs fast.",
+      "optionD": "The cats runs fast.",
+      "correctOption": "Option C",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q043",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 43)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q044",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 44)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cat running fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q045",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 45)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q046",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 46)",
+      "optionA": "The cat runs fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat running fast.",
+      "correctOption": "Option A",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q047",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 47)",
+      "optionA": "The cat run fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q048",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 48)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cat run fast.",
+      "optionC": "The cats runs fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q049",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 49)",
+      "optionA": "The cats runs fast.",
+      "optionB": "The cat runs fast.",
+      "optionC": "The cat running fast.",
+      "optionD": "The cat run fast.",
+      "correctOption": "Option B",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T234-Q050",
+      "questionText": "Choose the sentence with correct subject-verb agreement. (Question 50)",
+      "optionA": "The cat running fast.",
+      "optionB": "The cats runs fast.",
+      "optionC": "The cat run fast.",
+      "optionD": "The cat runs fast.",
+      "correctOption": "Option D",
+      "explanation": "'The cat runs fast' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

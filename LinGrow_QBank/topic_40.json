@@ -1,0 +1,507 @@
+{
+  "topicId": 40,
+  "topicName": "Clear reference",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T040-Q001",
+      "questionText": "John told Mark that ___ was promoted. (Make it clear John was promoted)",
+      "optionA": "John",
+      "optionB": "he",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option A",
+      "explanation": "'John' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q002",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "the radio",
+      "optionC": "them",
+      "optionD": "car",
+      "correctOption": "Option B",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q003",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "the reporters",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q004",
+      "questionText": "John dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "itself",
+      "optionD": "the glass",
+      "correctOption": "Option D",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q005",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "the teachers",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q006",
+      "questionText": "Sarah told Emily that ___ was promoted. (Make it clear Sarah was promoted)",
+      "optionA": "he",
+      "optionB": "Sarah",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'Sarah' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q007",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "the radio",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q008",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "the reporters",
+      "correctOption": "Option D",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q009",
+      "questionText": "Sarah dropped the glass on the plate and broke ___.",
+      "optionA": "the glass",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "itself",
+      "correctOption": "Option A",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q010",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "the teachers",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option B",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q011",
+      "questionText": "Mike told Dave that ___ was promoted. (Make it clear Mike was promoted)",
+      "optionA": "he",
+      "optionB": "she",
+      "optionC": "Mike",
+      "optionD": "they",
+      "correctOption": "Option C",
+      "explanation": "'Mike' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q012",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "car",
+      "optionD": "the radio",
+      "correctOption": "Option D",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q013",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "the reporters",
+      "optionB": "they",
+      "optionC": "it",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q014",
+      "questionText": "Mike dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "the glass",
+      "optionC": "them",
+      "optionD": "itself",
+      "correctOption": "Option B",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q015",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "them",
+      "optionC": "the teachers",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q016",
+      "questionText": "Lisa told Anna that ___ was promoted. (Make it clear Lisa was promoted)",
+      "optionA": "he",
+      "optionB": "she",
+      "optionC": "they",
+      "optionD": "Lisa",
+      "correctOption": "Option D",
+      "explanation": "'Lisa' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q017",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "the radio",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "car",
+      "correctOption": "Option A",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q018",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "the reporters",
+      "optionC": "it",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q019",
+      "questionText": "Lisa dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "the glass",
+      "optionD": "itself",
+      "correctOption": "Option C",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q020",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "them",
+      "optionC": "he",
+      "optionD": "the teachers",
+      "correctOption": "Option D",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q021",
+      "questionText": "Tom told Jerry that ___ was promoted. (Make it clear Tom was promoted)",
+      "optionA": "Tom",
+      "optionB": "he",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option A",
+      "explanation": "'Tom' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q022",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "the radio",
+      "optionC": "them",
+      "optionD": "car",
+      "correctOption": "Option B",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q023",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "the reporters",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q024",
+      "questionText": "Tom dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "itself",
+      "optionD": "the glass",
+      "correctOption": "Option D",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q025",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "the teachers",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q026",
+      "questionText": "Chris told Pat that ___ was promoted. (Make it clear Chris was promoted)",
+      "optionA": "he",
+      "optionB": "Chris",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'Chris' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q027",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "the radio",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q028",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "the reporters",
+      "correctOption": "Option D",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q029",
+      "questionText": "Chris dropped the glass on the plate and broke ___.",
+      "optionA": "the glass",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "itself",
+      "correctOption": "Option A",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q030",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "the teachers",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option B",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q031",
+      "questionText": "Alex told Sam that ___ was promoted. (Make it clear Alex was promoted)",
+      "optionA": "he",
+      "optionB": "she",
+      "optionC": "Alex",
+      "optionD": "they",
+      "correctOption": "Option C",
+      "explanation": "'Alex' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q032",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "car",
+      "optionD": "the radio",
+      "correctOption": "Option D",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q033",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "the reporters",
+      "optionB": "they",
+      "optionC": "it",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q034",
+      "questionText": "Alex dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "the glass",
+      "optionC": "them",
+      "optionD": "itself",
+      "correctOption": "Option B",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q035",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "them",
+      "optionC": "the teachers",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q036",
+      "questionText": "Kate told Jane that ___ was promoted. (Make it clear Kate was promoted)",
+      "optionA": "he",
+      "optionB": "she",
+      "optionC": "they",
+      "optionD": "Kate",
+      "correctOption": "Option D",
+      "explanation": "'Kate' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q037",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "the radio",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "car",
+      "correctOption": "Option A",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q038",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "the reporters",
+      "optionC": "it",
+      "optionD": "them",
+      "correctOption": "Option B",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q039",
+      "questionText": "Kate dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "the glass",
+      "optionD": "itself",
+      "correctOption": "Option C",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q040",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "them",
+      "optionC": "he",
+      "optionD": "the teachers",
+      "correctOption": "Option D",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q041",
+      "questionText": "Rob told Bob that ___ was promoted. (Make it clear Rob was promoted)",
+      "optionA": "Rob",
+      "optionB": "he",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option A",
+      "explanation": "'Rob' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q042",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "the radio",
+      "optionC": "them",
+      "optionD": "car",
+      "correctOption": "Option B",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q043",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "the reporters",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q044",
+      "questionText": "Rob dropped the glass on the plate and broke ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "itself",
+      "optionD": "the glass",
+      "correctOption": "Option D",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q045",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "the teachers",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q046",
+      "questionText": "Emma told Olivia that ___ was promoted. (Make it clear Emma was promoted)",
+      "optionA": "he",
+      "optionB": "Emma",
+      "optionC": "she",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'Emma' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q047",
+      "questionText": "Take the radio out of the car and fix ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "the radio",
+      "optionD": "car",
+      "correctOption": "Option C",
+      "explanation": "'the radio' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q048",
+      "questionText": "In the newspaper, ___ say the weather will be bad.",
+      "optionA": "they",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "the reporters",
+      "correctOption": "Option D",
+      "explanation": "'the reporters' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q049",
+      "questionText": "Emma dropped the glass on the plate and broke ___.",
+      "optionA": "the glass",
+      "optionB": "it",
+      "optionC": "them",
+      "optionD": "itself",
+      "correctOption": "Option A",
+      "explanation": "'the glass' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T040-Q050",
+      "questionText": "The teachers told the students that ___ would be late.",
+      "optionA": "they",
+      "optionB": "the teachers",
+      "optionC": "them",
+      "optionD": "he",
+      "correctOption": "Option B",
+      "explanation": "'the teachers' is the correct choice in standard English grammar."
+    }
+  ]
+}

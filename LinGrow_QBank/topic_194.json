@@ -1,0 +1,507 @@
+{
+  "topicId": 194,
+  "topicName": "Modal structure",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T194-Q001",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "You cans study a letter.",
+      "optionB": "You can to study a letter.",
+      "optionC": "You can study a letter.",
+      "optionD": "You to can study a letter.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q002",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "He can to read gracefully.",
+      "optionB": "He cans read gracefully.",
+      "optionC": "He to can read gracefully.",
+      "optionD": "He can read gracefully.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q003",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "She cans speak some food.",
+      "optionB": "She can to speak some food.",
+      "optionC": "She to can speak some food.",
+      "optionD": "She can speak some food.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q004",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "It to can jump math.",
+      "optionB": "It cans jump math.",
+      "optionC": "It can to jump math.",
+      "optionD": "It can jump math.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q005",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "We can cook football.",
+      "optionB": "We cans cook football.",
+      "optionC": "We to can cook football.",
+      "optionD": "We can to cook football.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q006",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "They cans drive high.",
+      "optionB": "They can to drive high.",
+      "optionC": "They to can drive high.",
+      "optionD": "They can drive high.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q007",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The student to can buy in the sky.",
+      "optionB": "The student cans buy in the sky.",
+      "optionC": "The student can to buy in the sky.",
+      "optionD": "The student can buy in the sky.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q008",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The professor can draw a bridge.",
+      "optionB": "The professor cans draw a bridge.",
+      "optionC": "The professor can to draw a bridge.",
+      "optionD": "The professor to can draw a bridge.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q009",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The dog can to create for the exam.",
+      "optionB": "The dog cans create for the exam.",
+      "optionC": "The dog to can create for the exam.",
+      "optionD": "The dog can create for the exam.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q010",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "My friend cans go fast.",
+      "optionB": "My friend can to go fast.",
+      "optionC": "My friend can go fast.",
+      "optionD": "My friend to can go fast.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q011",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The team can to study the car.",
+      "optionB": "The team can study the car.",
+      "optionC": "The team cans study the car.",
+      "optionD": "The team to can study the car.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q012",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Someone can to read a program.",
+      "optionB": "Someone cans read a program.",
+      "optionC": "Someone to can read a program.",
+      "optionD": "Someone can read a program.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q013",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Nobody to can speak an apple.",
+      "optionB": "Nobody can speak an apple.",
+      "optionC": "Nobody can to speak an apple.",
+      "optionD": "Nobody cans speak an apple.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q014",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Everyone cans jump to music.",
+      "optionB": "Everyone can jump to music.",
+      "optionC": "Everyone to can jump to music.",
+      "optionD": "Everyone can to jump to music.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q015",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The teacher can to cook dinner.",
+      "optionB": "The teacher cans cook dinner.",
+      "optionC": "The teacher to can cook dinner.",
+      "optionD": "The teacher can cook dinner.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q016",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The doctor can to drive the house.",
+      "optionB": "The doctor cans drive the house.",
+      "optionC": "The doctor can drive the house.",
+      "optionD": "The doctor to can drive the house.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q017",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The manager cans buy history.",
+      "optionB": "The manager can buy history.",
+      "optionC": "The manager to can buy history.",
+      "optionD": "The manager can to buy history.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q018",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The child cans draw a book.",
+      "optionB": "The child can draw a book.",
+      "optionC": "The child can to draw a book.",
+      "optionD": "The child to can draw a book.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q019",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The workers can to create a song.",
+      "optionB": "The workers can create a song.",
+      "optionC": "The workers to can create a song.",
+      "optionD": "The workers cans create a song.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q020",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Alice can go a movie.",
+      "optionB": "Alice to can go a movie.",
+      "optionC": "Alice cans go a movie.",
+      "optionD": "Alice can to go a movie.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q021",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Bob to can study a building.",
+      "optionB": "Bob cans study a building.",
+      "optionC": "Bob can to study a building.",
+      "optionD": "Bob can study a building.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q022",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Charlie to can read at the office.",
+      "optionB": "Charlie can read at the office.",
+      "optionC": "Charlie can to read at the office.",
+      "optionD": "Charlie cans read at the office.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q023",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "David cans speak slowly.",
+      "optionB": "David to can speak slowly.",
+      "optionC": "David can speak slowly.",
+      "optionD": "David can to speak slowly.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q024",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Eve cans jump to Paris.",
+      "optionB": "Eve to can jump to Paris.",
+      "optionC": "Eve can jump to Paris.",
+      "optionD": "Eve can to jump to Paris.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q025",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Frank cans cook a website.",
+      "optionB": "Frank can cook a website.",
+      "optionC": "Frank to can cook a website.",
+      "optionD": "Frank can to cook a website.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q026",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Grace to can drive all night.",
+      "optionB": "Grace can drive all night.",
+      "optionC": "Grace can to drive all night.",
+      "optionD": "Grace cans drive all night.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q027",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Hannah can to buy English.",
+      "optionB": "Hannah can buy English.",
+      "optionC": "Hannah to can buy English.",
+      "optionD": "Hannah cans buy English.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q028",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Ivy can to draw the room.",
+      "optionB": "Ivy cans draw the room.",
+      "optionC": "Ivy to can draw the room.",
+      "optionD": "Ivy can draw the room.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q029",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Jack can create a picture.",
+      "optionB": "Jack to can create a picture.",
+      "optionC": "Jack cans create a picture.",
+      "optionD": "Jack can to create a picture.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q030",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "I can to go to the park.",
+      "optionB": "I cans go to the park.",
+      "optionC": "I to can go to the park.",
+      "optionD": "I can go to the park.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q031",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "You to can study a letter.",
+      "optionB": "You can to study a letter.",
+      "optionC": "You can study a letter.",
+      "optionD": "You cans study a letter.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q032",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "He cans read gracefully.",
+      "optionB": "He can to read gracefully.",
+      "optionC": "He can read gracefully.",
+      "optionD": "He to can read gracefully.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q033",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "She can speak some food.",
+      "optionB": "She cans speak some food.",
+      "optionC": "She can to speak some food.",
+      "optionD": "She to can speak some food.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q034",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "It to can jump math.",
+      "optionB": "It can jump math.",
+      "optionC": "It can to jump math.",
+      "optionD": "It cans jump math.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q035",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "We can to cook football.",
+      "optionB": "We to can cook football.",
+      "optionC": "We can cook football.",
+      "optionD": "We cans cook football.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q036",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "They can to drive high.",
+      "optionB": "They can drive high.",
+      "optionC": "They to can drive high.",
+      "optionD": "They cans drive high.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q037",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The student can to buy in the sky.",
+      "optionB": "The student cans buy in the sky.",
+      "optionC": "The student to can buy in the sky.",
+      "optionD": "The student can buy in the sky.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q038",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The professor cans draw a bridge.",
+      "optionB": "The professor to can draw a bridge.",
+      "optionC": "The professor can draw a bridge.",
+      "optionD": "The professor can to draw a bridge.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q039",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The dog to can create for the exam.",
+      "optionB": "The dog can create for the exam.",
+      "optionC": "The dog can to create for the exam.",
+      "optionD": "The dog cans create for the exam.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q040",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "My friend to can go fast.",
+      "optionB": "My friend can go fast.",
+      "optionC": "My friend cans go fast.",
+      "optionD": "My friend can to go fast.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q041",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The team cans study the car.",
+      "optionB": "The team can study the car.",
+      "optionC": "The team to can study the car.",
+      "optionD": "The team can to study the car.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q042",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Someone can read a program.",
+      "optionB": "Someone to can read a program.",
+      "optionC": "Someone cans read a program.",
+      "optionD": "Someone can to read a program.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q043",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Nobody cans speak an apple.",
+      "optionB": "Nobody can to speak an apple.",
+      "optionC": "Nobody can speak an apple.",
+      "optionD": "Nobody to can speak an apple.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q044",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Everyone to can jump to music.",
+      "optionB": "Everyone cans jump to music.",
+      "optionC": "Everyone can jump to music.",
+      "optionD": "Everyone can to jump to music.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q045",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The teacher cans cook dinner.",
+      "optionB": "The teacher can to cook dinner.",
+      "optionC": "The teacher to can cook dinner.",
+      "optionD": "The teacher can cook dinner.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q046",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The doctor can to drive the house.",
+      "optionB": "The doctor cans drive the house.",
+      "optionC": "The doctor to can drive the house.",
+      "optionD": "The doctor can drive the house.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q047",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The manager can to buy history.",
+      "optionB": "The manager to can buy history.",
+      "optionC": "The manager cans buy history.",
+      "optionD": "The manager can buy history.",
+      "correctOption": "Option D",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q048",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The child to can draw a book.",
+      "optionB": "The child cans draw a book.",
+      "optionC": "The child can draw a book.",
+      "optionD": "The child can to draw a book.",
+      "correctOption": "Option C",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q049",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "The workers to can create a song.",
+      "optionB": "The workers can create a song.",
+      "optionC": "The workers cans create a song.",
+      "optionD": "The workers can to create a song.",
+      "correctOption": "Option B",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    },
+    {
+      "questionId": "T194-Q050",
+      "questionText": "Which sentence has the correct modal structure?",
+      "optionA": "Alice can go a movie.",
+      "optionB": "Alice can to go a movie.",
+      "optionC": "Alice cans go a movie.",
+      "optionD": "Alice to can go a movie.",
+      "correctOption": "Option A",
+      "explanation": "Standard modal sentence structure is: Subject + Modal + Base Verb + Object/Complement."
+    }
+  ]
+}

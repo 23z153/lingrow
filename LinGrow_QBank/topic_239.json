@@ -1,0 +1,507 @@
+{
+  "topicId": 239,
+  "topicName": "Uncountable noun errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T239-Q001",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 1)",
+      "optionA": "She has many luggages.",
+      "optionB": "He gave me an advice.",
+      "optionC": "I need some informations.",
+      "optionD": "She has a lot of luggage.",
+      "correctOption": "Option D",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q002",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 2)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "She has many luggages.",
+      "optionC": "I need an information.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q003",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 3)",
+      "optionA": "I need some information.",
+      "optionB": "I need some informations.",
+      "optionC": "He gave me an advice.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option A",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q004",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 4)",
+      "optionA": "I need some information.",
+      "optionB": "I need an information.",
+      "optionC": "He gave me an advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q005",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 5)",
+      "optionA": "I need some informations.",
+      "optionB": "She has a lot of luggage.",
+      "optionC": "He gave me an advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option B",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q006",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 6)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "I need an information.",
+      "optionC": "He gave me an advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q007",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 7)",
+      "optionA": "He gave me an advice.",
+      "optionB": "He gave me an advice.",
+      "optionC": "She has a lot of luggage.",
+      "optionD": "I need an information.",
+      "correctOption": "Option C",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q008",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 8)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "He gave me an advice.",
+      "optionC": "I need some informations.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q009",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 9)",
+      "optionA": "He gave me an advice.",
+      "optionB": "I need some information.",
+      "optionC": "He gave me an advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option B",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q010",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 10)",
+      "optionA": "I need some informations.",
+      "optionB": "I need some informations.",
+      "optionC": "He gave me some advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q011",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 11)",
+      "optionA": "He gave me an advice.",
+      "optionB": "He gave me an advice.",
+      "optionC": "She has many luggages.",
+      "optionD": "He gave me some advice.",
+      "correctOption": "Option D",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q012",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 12)",
+      "optionA": "I need some information.",
+      "optionB": "She has many luggages.",
+      "optionC": "I need some informations.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q013",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 13)",
+      "optionA": "She has many luggages.",
+      "optionB": "I need some information.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option B",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q014",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 14)",
+      "optionA": "I need an information.",
+      "optionB": "I need some informations.",
+      "optionC": "I need some information.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option C",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q015",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 15)",
+      "optionA": "She has many luggages.",
+      "optionB": "She has many luggages.",
+      "optionC": "I need an information.",
+      "optionD": "I need some information.",
+      "correctOption": "Option D",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q016",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 16)",
+      "optionA": "She has many luggages.",
+      "optionB": "He gave me an advice.",
+      "optionC": "She has a lot of luggage.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option C",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q017",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 17)",
+      "optionA": "She has many luggages.",
+      "optionB": "I need some information.",
+      "optionC": "I need an information.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option B",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q018",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 18)",
+      "optionA": "She has many luggages.",
+      "optionB": "He gave me some advice.",
+      "optionC": "He gave me an advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option B",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q019",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 19)",
+      "optionA": "He gave me some advice.",
+      "optionB": "He gave me an advice.",
+      "optionC": "He gave me an advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q020",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 20)",
+      "optionA": "He gave me an advice.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me some advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q021",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 21)",
+      "optionA": "He gave me an advice.",
+      "optionB": "I need some informations.",
+      "optionC": "I need some informations.",
+      "optionD": "He gave me some advice.",
+      "correctOption": "Option D",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q022",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 22)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "I need an information.",
+      "optionC": "I need some informations.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q023",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 23)",
+      "optionA": "I need an information.",
+      "optionB": "He gave me an advice.",
+      "optionC": "She has many luggages.",
+      "optionD": "He gave me some advice.",
+      "correctOption": "Option D",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q024",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 24)",
+      "optionA": "I need an information.",
+      "optionB": "I need an information.",
+      "optionC": "She has a lot of luggage.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option C",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q025",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 25)",
+      "optionA": "He gave me an advice.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me an advice.",
+      "optionD": "I need some information.",
+      "correctOption": "Option D",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q026",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 26)",
+      "optionA": "I need some informations.",
+      "optionB": "She has a lot of luggage.",
+      "optionC": "I need an information.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option B",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q027",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 27)",
+      "optionA": "She has many luggages.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me some advice.",
+      "optionD": "I need an information.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q028",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 28)",
+      "optionA": "I need some informations.",
+      "optionB": "He gave me some advice.",
+      "optionC": "I need some informations.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option B",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q029",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 29)",
+      "optionA": "I need an information.",
+      "optionB": "He gave me some advice.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option B",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q030",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 30)",
+      "optionA": "She has many luggages.",
+      "optionB": "I need an information.",
+      "optionC": "I need an information.",
+      "optionD": "She has a lot of luggage.",
+      "correctOption": "Option D",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q031",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 31)",
+      "optionA": "He gave me an advice.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me some advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q032",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 32)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "She has many luggages.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q033",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 33)",
+      "optionA": "I need some informations.",
+      "optionB": "She has many luggages.",
+      "optionC": "I need some informations.",
+      "optionD": "I need some information.",
+      "correctOption": "Option D",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q034",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 34)",
+      "optionA": "She has many luggages.",
+      "optionB": "I need an information.",
+      "optionC": "I need some information.",
+      "optionD": "I need an information.",
+      "correctOption": "Option C",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q035",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 35)",
+      "optionA": "She has many luggages.",
+      "optionB": "I need some informations.",
+      "optionC": "She has a lot of luggage.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option C",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q036",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 36)",
+      "optionA": "I need some informations.",
+      "optionB": "I need an information.",
+      "optionC": "She has many luggages.",
+      "optionD": "She has a lot of luggage.",
+      "correctOption": "Option D",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q037",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 37)",
+      "optionA": "She has a lot of luggage.",
+      "optionB": "I need some informations.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option A",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q038",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 38)",
+      "optionA": "I need some informations.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me some advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q039",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 39)",
+      "optionA": "He gave me some advice.",
+      "optionB": "I need an information.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option A",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q040",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 40)",
+      "optionA": "I need some informations.",
+      "optionB": "I need some informations.",
+      "optionC": "He gave me some advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q041",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 41)",
+      "optionA": "I need an information.",
+      "optionB": "He gave me an advice.",
+      "optionC": "She has many luggages.",
+      "optionD": "She has a lot of luggage.",
+      "correctOption": "Option D",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q042",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 42)",
+      "optionA": "I need an information.",
+      "optionB": "He gave me an advice.",
+      "optionC": "I need an information.",
+      "optionD": "I need some information.",
+      "correctOption": "Option D",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q043",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 43)",
+      "optionA": "I need an information.",
+      "optionB": "I need some information.",
+      "optionC": "I need some informations.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option B",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q044",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 44)",
+      "optionA": "I need an information.",
+      "optionB": "She has many luggages.",
+      "optionC": "I need an information.",
+      "optionD": "I need some information.",
+      "correctOption": "Option D",
+      "explanation": "'I need some information' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q045",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 45)",
+      "optionA": "I need some informations.",
+      "optionB": "She has a lot of luggage.",
+      "optionC": "He gave me an advice.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option B",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q046",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 46)",
+      "optionA": "He gave me an advice.",
+      "optionB": "I need some informations.",
+      "optionC": "She has a lot of luggage.",
+      "optionD": "I need some informations.",
+      "correctOption": "Option C",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q047",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 47)",
+      "optionA": "He gave me an advice.",
+      "optionB": "I need some informations.",
+      "optionC": "She has many luggages.",
+      "optionD": "She has a lot of luggage.",
+      "correctOption": "Option D",
+      "explanation": "'She has a lot of luggage' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q048",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 48)",
+      "optionA": "I need an information.",
+      "optionB": "She has many luggages.",
+      "optionC": "He gave me some advice.",
+      "optionD": "She has many luggages.",
+      "correctOption": "Option C",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q049",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 49)",
+      "optionA": "He gave me some advice.",
+      "optionB": "I need some informations.",
+      "optionC": "She has many luggages.",
+      "optionD": "I need an information.",
+      "correctOption": "Option A",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    },
+    {
+      "questionId": "T239-Q050",
+      "questionText": "Which sentence correctly handles uncountable nouns? (Question 50)",
+      "optionA": "He gave me some advice.",
+      "optionB": "I need an information.",
+      "optionC": "She has many luggages.",
+      "optionD": "He gave me an advice.",
+      "correctOption": "Option A",
+      "explanation": "'He gave me some advice' is an uncountable noun because it refers to a mass or concept that cannot be counted individually."
+    }
+  ]
+}

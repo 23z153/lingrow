@@ -1,0 +1,507 @@
+{
+  "topicId": 165,
+  "topicName": "But",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T165-Q001",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "and",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q002",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "or",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q003",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "and",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q004",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q005",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q006",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q007",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q008",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q009",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "or",
+      "optionB": "if",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q010",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q011",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q012",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q013",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "if",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q014",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "because",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q015",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q016",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "and",
+      "optionB": "because",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q017",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "but",
+      "optionB": "if",
+      "optionC": "and",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q018",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q019",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q020",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q021",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "if",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q022",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q023",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q024",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q025",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "and",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q026",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q027",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q028",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q029",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "if",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q030",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q031",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q032",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q033",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "but",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q034",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q035",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "and",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q036",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "but",
+      "optionB": "because",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q037",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q038",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q039",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "and",
+      "optionB": "because",
+      "optionC": "but",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q040",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "but",
+      "optionB": "and",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q041",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "or",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q042",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "and",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q043",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q044",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "so",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q045",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "and",
+      "optionB": "but",
+      "optionC": "so",
+      "optionD": "or",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q046",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "but",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q047",
+      "questionText": "She tried hard, ___ she failed the exam.",
+      "optionA": "because",
+      "optionB": "and",
+      "optionC": "or",
+      "optionD": "but",
+      "correctOption": "Option D",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q048",
+      "questionText": "I like tea, ___ I don't like coffee.",
+      "optionA": "or",
+      "optionB": "but",
+      "optionC": "because",
+      "optionD": "and",
+      "correctOption": "Option B",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q049",
+      "questionText": "It was raining, ___ we still went for a walk.",
+      "optionA": "or",
+      "optionB": "if",
+      "optionC": "but",
+      "optionD": "and",
+      "correctOption": "Option C",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T165-Q050",
+      "questionText": "He is tired ___ happy.",
+      "optionA": "but",
+      "optionB": "so",
+      "optionC": "and",
+      "optionD": "or",
+      "correctOption": "Option A",
+      "explanation": "'but' is the correct choice in standard English grammar."
+    }
+  ]
+}

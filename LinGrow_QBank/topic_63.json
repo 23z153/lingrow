@@ -1,0 +1,507 @@
+{
+  "topicId": 63,
+  "topicName": "Adjective + noun",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T063-Q001",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q002",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q003",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "fox ran",
+      "optionC": "ran away",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q004",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "fox ran",
+      "optionC": "The clever",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q005",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q006",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "The clever",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q007",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q008",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q009",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "ran away",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q010",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q011",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "clever fox",
+      "optionC": "fox ran",
+      "optionD": "ran away",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q012",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "ran away",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q013",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "fox ran",
+      "optionC": "clever fox",
+      "optionD": "The clever",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q014",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q015",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "fox ran",
+      "optionC": "The clever",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q016",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q017",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "The clever",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q018",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "fox ran",
+      "optionC": "clever fox",
+      "optionD": "The clever",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q019",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "fox ran",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q020",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "The clever",
+      "optionC": "ran away",
+      "optionD": "fox ran",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q021",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q022",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "ran away",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q023",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "ran away",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q024",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q025",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "The clever",
+      "optionC": "fox ran",
+      "optionD": "ran away",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q026",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "fox ran",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q027",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "fox ran",
+      "optionC": "ran away",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q028",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "The clever",
+      "optionC": "fox ran",
+      "optionD": "ran away",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q029",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q030",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q031",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "clever fox",
+      "optionC": "fox ran",
+      "optionD": "ran away",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q032",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q033",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q034",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "fox ran",
+      "optionC": "The clever",
+      "optionD": "ran away",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q035",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q036",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "ran away",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q037",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "clever fox",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q038",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "fox ran",
+      "optionC": "clever fox",
+      "optionD": "The clever",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q039",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "fox ran",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q040",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "clever fox",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q041",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "ran away",
+      "optionC": "The clever",
+      "optionD": "fox ran",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q042",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q043",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q044",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "fox ran",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q045",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "fox ran",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q046",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "fox ran",
+      "optionB": "The clever",
+      "optionC": "clever fox",
+      "optionD": "ran away",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q047",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "ran away",
+      "optionC": "clever fox",
+      "optionD": "fox ran",
+      "correctOption": "Option C",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q048",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "clever fox",
+      "optionB": "fox ran",
+      "optionC": "ran away",
+      "optionD": "The clever",
+      "correctOption": "Option A",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q049",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "ran away",
+      "optionB": "clever fox",
+      "optionC": "fox ran",
+      "optionD": "The clever",
+      "correctOption": "Option B",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T063-Q050",
+      "questionText": "Identify the adjective and noun pair: The clever fox ran away.",
+      "optionA": "The clever",
+      "optionB": "fox ran",
+      "optionC": "ran away",
+      "optionD": "clever fox",
+      "correctOption": "Option D",
+      "explanation": "'clever fox' is the correct choice in standard English grammar."
+    }
+  ]
+}

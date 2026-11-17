@@ -1,0 +1,507 @@
+{
+  "topicId": 214,
+  "topicName": "Past passive",
+  "unit": "UNIT 22 — ACTIVE & PASSIVE VOICE",
+  "questions": [
+    {
+      "questionId": "T214-Q001",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 1)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 1)",
+      "optionD": "completes (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q002",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 2)",
+      "optionC": "will be completed (Variant 2)",
+      "optionD": "completes (Variant 2)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q003",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 3)",
+      "optionB": "will be completed (Variant 3)",
+      "optionC": "completes (Variant 3)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q004",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 4)",
+      "optionC": "will be completed (Variant 4)",
+      "optionD": "completes (Variant 4)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q005",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 5)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 5)",
+      "optionD": "completes (Variant 5)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q006",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 6)",
+      "optionC": "will be completed (Variant 6)",
+      "optionD": "completes (Variant 6)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q007",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 7)",
+      "optionB": "will be completed (Variant 7)",
+      "optionC": "completes (Variant 7)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q008",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 8)",
+      "optionB": "will be completed (Variant 8)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 8)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q009",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 9)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 9)",
+      "optionD": "completes (Variant 9)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q010",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 10)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 10)",
+      "optionD": "completes (Variant 10)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q011",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 11)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 11)",
+      "optionD": "completes (Variant 11)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q012",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 12)",
+      "optionB": "will be completed (Variant 12)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 12)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q013",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 13)",
+      "optionB": "will be completed (Variant 13)",
+      "optionC": "completes (Variant 13)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q014",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 14)",
+      "optionB": "will be completed (Variant 14)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 14)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q015",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 15)",
+      "optionB": "will be completed (Variant 15)",
+      "optionC": "completes (Variant 15)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q016",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 16)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 16)",
+      "optionD": "completes (Variant 16)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q017",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 17)",
+      "optionB": "will be completed (Variant 17)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 17)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q018",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 18)",
+      "optionB": "will be completed (Variant 18)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 18)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q019",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 19)",
+      "optionB": "will be completed (Variant 19)",
+      "optionC": "completes (Variant 19)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q020",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 20)",
+      "optionB": "will be completed (Variant 20)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 20)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q021",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 21)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 21)",
+      "optionD": "completes (Variant 21)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q022",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 22)",
+      "optionC": "will be completed (Variant 22)",
+      "optionD": "completes (Variant 22)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q023",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 23)",
+      "optionB": "will be completed (Variant 23)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 23)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q024",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 24)",
+      "optionC": "will be completed (Variant 24)",
+      "optionD": "completes (Variant 24)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q025",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 25)",
+      "optionC": "will be completed (Variant 25)",
+      "optionD": "completes (Variant 25)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q026",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 26)",
+      "optionB": "will be completed (Variant 26)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 26)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q027",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 27)",
+      "optionB": "will be completed (Variant 27)",
+      "optionC": "completes (Variant 27)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q028",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 28)",
+      "optionB": "will be completed (Variant 28)",
+      "optionC": "completes (Variant 28)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q029",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 29)",
+      "optionB": "will be completed (Variant 29)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 29)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q030",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 30)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 30)",
+      "optionD": "completes (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q031",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 31)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 31)",
+      "optionD": "completes (Variant 31)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q032",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 32)",
+      "optionB": "will be completed (Variant 32)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 32)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q033",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 33)",
+      "optionB": "will be completed (Variant 33)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 33)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q034",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 34)",
+      "optionB": "will be completed (Variant 34)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 34)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q035",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 35)",
+      "optionB": "will be completed (Variant 35)",
+      "optionC": "completes (Variant 35)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q036",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 36)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 36)",
+      "optionD": "completes (Variant 36)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q037",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 37)",
+      "optionC": "will be completed (Variant 37)",
+      "optionD": "completes (Variant 37)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q038",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 38)",
+      "optionC": "will be completed (Variant 38)",
+      "optionD": "completes (Variant 38)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q039",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 39)",
+      "optionB": "will be completed (Variant 39)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 39)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q040",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 40)",
+      "optionB": "will be completed (Variant 40)",
+      "optionC": "completes (Variant 40)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q041",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 41)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 41)",
+      "optionD": "completes (Variant 41)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q042",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 42)",
+      "optionC": "will be completed (Variant 42)",
+      "optionD": "completes (Variant 42)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q043",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 43)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 43)",
+      "optionD": "completes (Variant 43)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q044",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 44)",
+      "optionB": "will be completed (Variant 44)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 44)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q045",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 45)",
+      "optionB": "will be completed (Variant 45)",
+      "optionC": "completes (Variant 45)",
+      "optionD": "was completed",
+      "correctOption": "Option D",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q046",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 46)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 46)",
+      "optionD": "completes (Variant 46)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q047",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 47)",
+      "optionC": "will be completed (Variant 47)",
+      "optionD": "completes (Variant 47)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q048",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "was completed",
+      "optionB": "is completed (Variant 48)",
+      "optionC": "will be completed (Variant 48)",
+      "optionD": "completes (Variant 48)",
+      "correctOption": "Option A",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q049",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 49)",
+      "optionB": "will be completed (Variant 49)",
+      "optionC": "was completed",
+      "optionD": "completes (Variant 49)",
+      "correctOption": "Option C",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T214-Q050",
+      "questionText": "Identify the past passive verb phrase:",
+      "optionA": "is completed (Variant 50)",
+      "optionB": "was completed",
+      "optionC": "will be completed (Variant 50)",
+      "optionD": "completes (Variant 50)",
+      "correctOption": "Option B",
+      "explanation": "'was completed' is in passive voice (be + past participle), focusing on the action or object."
+    }
+  ]
+}

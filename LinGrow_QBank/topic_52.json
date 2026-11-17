@@ -1,0 +1,507 @@
+{
+  "topicId": 52,
+  "topicName": "Some/any",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T052-Q001",
+      "questionText": "Do you have ___ questions 0?",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "a",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q002",
+      "questionText": "I would like ___ coffee 1, please.",
+      "optionA": "few",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q003",
+      "questionText": "She didn't give me ___ information 2.",
+      "optionA": "any",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "a few",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q004",
+      "questionText": "We need to buy ___ apples 3 at the store.",
+      "optionA": "any",
+      "optionB": "much",
+      "optionC": "little",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q005",
+      "questionText": "Is there ___ milk 4 left in the fridge?",
+      "optionA": "any",
+      "optionB": "a",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q006",
+      "questionText": "Do you have ___ questions 5?",
+      "optionA": "much",
+      "optionB": "a",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q007",
+      "questionText": "I would like ___ coffee 6, please.",
+      "optionA": "few",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q008",
+      "questionText": "She didn't give me ___ information 7.",
+      "optionA": "many",
+      "optionB": "any",
+      "optionC": "some",
+      "optionD": "a few",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q009",
+      "questionText": "We need to buy ___ apples 8 at the store.",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "little",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q010",
+      "questionText": "Is there ___ milk 9 left in the fridge?",
+      "optionA": "many",
+      "optionB": "a",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q011",
+      "questionText": "Do you have ___ questions 10?",
+      "optionA": "much",
+      "optionB": "some",
+      "optionC": "any",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q012",
+      "questionText": "I would like ___ coffee 11, please.",
+      "optionA": "few",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "any",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q013",
+      "questionText": "She didn't give me ___ information 12.",
+      "optionA": "some",
+      "optionB": "a few",
+      "optionC": "any",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q014",
+      "questionText": "We need to buy ___ apples 13 at the store.",
+      "optionA": "little",
+      "optionB": "much",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q015",
+      "questionText": "Is there ___ milk 14 left in the fridge?",
+      "optionA": "a",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q016",
+      "questionText": "Do you have ___ questions 15?",
+      "optionA": "a",
+      "optionB": "any",
+      "optionC": "much",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q017",
+      "questionText": "I would like ___ coffee 16, please.",
+      "optionA": "few",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q018",
+      "questionText": "She didn't give me ___ information 17.",
+      "optionA": "a few",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q019",
+      "questionText": "We need to buy ___ apples 18 at the store.",
+      "optionA": "any",
+      "optionB": "much",
+      "optionC": "some",
+      "optionD": "little",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q020",
+      "questionText": "Is there ___ milk 19 left in the fridge?",
+      "optionA": "many",
+      "optionB": "any",
+      "optionC": "some",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q021",
+      "questionText": "Do you have ___ questions 20?",
+      "optionA": "any",
+      "optionB": "a",
+      "optionC": "some",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q022",
+      "questionText": "I would like ___ coffee 21, please.",
+      "optionA": "few",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q023",
+      "questionText": "She didn't give me ___ information 22.",
+      "optionA": "a few",
+      "optionB": "any",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q024",
+      "questionText": "We need to buy ___ apples 23 at the store.",
+      "optionA": "little",
+      "optionB": "some",
+      "optionC": "any",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q025",
+      "questionText": "Is there ___ milk 24 left in the fridge?",
+      "optionA": "a",
+      "optionB": "many",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q026",
+      "questionText": "Do you have ___ questions 25?",
+      "optionA": "any",
+      "optionB": "much",
+      "optionC": "a",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q027",
+      "questionText": "I would like ___ coffee 26, please.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "few",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q028",
+      "questionText": "She didn't give me ___ information 27.",
+      "optionA": "many",
+      "optionB": "some",
+      "optionC": "a few",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q029",
+      "questionText": "We need to buy ___ apples 28 at the store.",
+      "optionA": "some",
+      "optionB": "little",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q030",
+      "questionText": "Is there ___ milk 29 left in the fridge?",
+      "optionA": "a",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q031",
+      "questionText": "Do you have ___ questions 30?",
+      "optionA": "some",
+      "optionB": "a",
+      "optionC": "much",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q032",
+      "questionText": "I would like ___ coffee 31, please.",
+      "optionA": "many",
+      "optionB": "few",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q033",
+      "questionText": "She didn't give me ___ information 32.",
+      "optionA": "many",
+      "optionB": "some",
+      "optionC": "any",
+      "optionD": "a few",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q034",
+      "questionText": "We need to buy ___ apples 33 at the store.",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "much",
+      "optionD": "little",
+      "correctOption": "Option B",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q035",
+      "questionText": "Is there ___ milk 34 left in the fridge?",
+      "optionA": "a",
+      "optionB": "any",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q036",
+      "questionText": "Do you have ___ questions 35?",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "any",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q037",
+      "questionText": "I would like ___ coffee 36, please.",
+      "optionA": "some",
+      "optionB": "many",
+      "optionC": "few",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q038",
+      "questionText": "She didn't give me ___ information 37.",
+      "optionA": "many",
+      "optionB": "any",
+      "optionC": "a few",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q039",
+      "questionText": "We need to buy ___ apples 38 at the store.",
+      "optionA": "some",
+      "optionB": "much",
+      "optionC": "little",
+      "optionD": "any",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q040",
+      "questionText": "Is there ___ milk 39 left in the fridge?",
+      "optionA": "a",
+      "optionB": "many",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option D",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q041",
+      "questionText": "Do you have ___ questions 40?",
+      "optionA": "any",
+      "optionB": "a",
+      "optionC": "much",
+      "optionD": "some",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q042",
+      "questionText": "I would like ___ coffee 41, please.",
+      "optionA": "any",
+      "optionB": "few",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q043",
+      "questionText": "She didn't give me ___ information 42.",
+      "optionA": "many",
+      "optionB": "a few",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q044",
+      "questionText": "We need to buy ___ apples 43 at the store.",
+      "optionA": "much",
+      "optionB": "little",
+      "optionC": "some",
+      "optionD": "any",
+      "correctOption": "Option C",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q045",
+      "questionText": "Is there ___ milk 44 left in the fridge?",
+      "optionA": "some",
+      "optionB": "any",
+      "optionC": "a",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q046",
+      "questionText": "Do you have ___ questions 45?",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "a",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q047",
+      "questionText": "I would like ___ coffee 46, please.",
+      "optionA": "many",
+      "optionB": "few",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option D",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q048",
+      "questionText": "She didn't give me ___ information 47.",
+      "optionA": "some",
+      "optionB": "a few",
+      "optionC": "any",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "Use 'any' in questions and negative statements."
+    },
+    {
+      "questionId": "T052-Q049",
+      "questionText": "We need to buy ___ apples 48 at the store.",
+      "optionA": "some",
+      "optionB": "any",
+      "optionC": "little",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "Use 'some' in positive statements."
+    },
+    {
+      "questionId": "T052-Q050",
+      "questionText": "Is there ___ milk 49 left in the fridge?",
+      "optionA": "a",
+      "optionB": "any",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "Use 'any' in questions and negative statements."
+    }
+  ]
+}

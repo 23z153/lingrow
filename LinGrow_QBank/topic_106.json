@@ -1,0 +1,507 @@
+{
+  "topicId": 106,
+  "topicName": "Negative",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T106-Q001",
+      "questionText": "Bob ___ see in the library yesterday.",
+      "optionA": "was not",
+      "optionB": "does not",
+      "optionC": "do not",
+      "optionD": "did not",
+      "correctOption": "Option D",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q002",
+      "questionText": "Ken ___ studying in the lab now.",
+      "optionA": "is not",
+      "optionB": "did not",
+      "optionC": "do not",
+      "optionD": "does not",
+      "correctOption": "Option A",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q003",
+      "questionText": "The books ___ on the table.",
+      "optionA": "do not",
+      "optionB": "does not",
+      "optionC": "are not",
+      "optionD": "is not",
+      "correctOption": "Option C",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q004",
+      "questionText": "Frank ___ read at home.",
+      "optionA": "do not",
+      "optionB": "not",
+      "optionC": "does not",
+      "optionD": "is not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q005",
+      "questionText": "Eve ___ listen at home yesterday.",
+      "optionA": "was not",
+      "optionB": "did not",
+      "optionC": "does not",
+      "optionD": "do not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q006",
+      "questionText": "Dr. Smith ___ speaking at home now.",
+      "optionA": "does not",
+      "optionB": "do not",
+      "optionC": "did not",
+      "optionD": "is not",
+      "correctOption": "Option D",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q007",
+      "questionText": "The books ___ on the table.",
+      "optionA": "do not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q008",
+      "questionText": "Dr. Smith ___ sleep at the office.",
+      "optionA": "not",
+      "optionB": "do not",
+      "optionC": "is not",
+      "optionD": "does not",
+      "correctOption": "Option D",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q009",
+      "questionText": "Alice ___ know at the office yesterday.",
+      "optionA": "do not",
+      "optionB": "did not",
+      "optionC": "does not",
+      "optionD": "was not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q010",
+      "questionText": "Maria ___ knowing at home now.",
+      "optionA": "did not",
+      "optionB": "does not",
+      "optionC": "do not",
+      "optionD": "is not",
+      "correctOption": "Option D",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q011",
+      "questionText": "The books ___ on the table.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q012",
+      "questionText": "Diana ___ think in the lab.",
+      "optionA": "not",
+      "optionB": "do not",
+      "optionC": "is not",
+      "optionD": "does not",
+      "correctOption": "Option D",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q013",
+      "questionText": "Ivy ___ play at the university yesterday.",
+      "optionA": "does not",
+      "optionB": "did not",
+      "optionC": "was not",
+      "optionD": "do not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q014",
+      "questionText": "Bob ___ writeing at the office now.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "did not",
+      "optionD": "does not",
+      "correctOption": "Option A",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q015",
+      "questionText": "The books ___ on the table.",
+      "optionA": "are not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "do not",
+      "correctOption": "Option A",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q016",
+      "questionText": "Professor Jones ___ speak in the library.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "not",
+      "optionD": "does not",
+      "correctOption": "Option D",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q017",
+      "questionText": "Grace ___ listen in the lab yesterday.",
+      "optionA": "was not",
+      "optionB": "does not",
+      "optionC": "did not",
+      "optionD": "do not",
+      "correctOption": "Option C",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q018",
+      "questionText": "Henry ___ eating in the lab now.",
+      "optionA": "did not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "do not",
+      "correctOption": "Option B",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q019",
+      "questionText": "The books ___ on the table.",
+      "optionA": "does not",
+      "optionB": "do not",
+      "optionC": "is not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q020",
+      "questionText": "Bob ___ sleep at the office.",
+      "optionA": "not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "is not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q021",
+      "questionText": "Frank ___ play in the lab yesterday.",
+      "optionA": "do not",
+      "optionB": "did not",
+      "optionC": "was not",
+      "optionD": "does not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q022",
+      "questionText": "Ivy ___ working in the classroom now.",
+      "optionA": "do not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "did not",
+      "correctOption": "Option C",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q023",
+      "questionText": "The books ___ on the table.",
+      "optionA": "are not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "do not",
+      "correctOption": "Option A",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q024",
+      "questionText": "Eve ___ take at home.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q025",
+      "questionText": "Frank ___ understand in the classroom yesterday.",
+      "optionA": "does not",
+      "optionB": "was not",
+      "optionC": "did not",
+      "optionD": "do not",
+      "correctOption": "Option C",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q026",
+      "questionText": "Diana ___ eating at home now.",
+      "optionA": "does not",
+      "optionB": "did not",
+      "optionC": "do not",
+      "optionD": "is not",
+      "correctOption": "Option D",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q027",
+      "questionText": "The books ___ on the table.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q028",
+      "questionText": "Henry ___ read in the library.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q029",
+      "questionText": "Grace ___ make at the university yesterday.",
+      "optionA": "did not",
+      "optionB": "do not",
+      "optionC": "does not",
+      "optionD": "was not",
+      "correctOption": "Option A",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q030",
+      "questionText": "Grace ___ understanding on campus now.",
+      "optionA": "do not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "did not",
+      "correctOption": "Option B",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q031",
+      "questionText": "The books ___ on the table.",
+      "optionA": "are not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "do not",
+      "correctOption": "Option A",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q032",
+      "questionText": "The teacher ___ speak at the university.",
+      "optionA": "not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "do not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q033",
+      "questionText": "The teacher ___ read at the university yesterday.",
+      "optionA": "does not",
+      "optionB": "do not",
+      "optionC": "did not",
+      "optionD": "was not",
+      "correctOption": "Option C",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q034",
+      "questionText": "Dr. Smith ___ knowing in the classroom now.",
+      "optionA": "do not",
+      "optionB": "is not",
+      "optionC": "did not",
+      "optionD": "does not",
+      "correctOption": "Option B",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q035",
+      "questionText": "The books ___ on the table.",
+      "optionA": "is not",
+      "optionB": "does not",
+      "optionC": "do not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q036",
+      "questionText": "Dr. Smith ___ make in the library.",
+      "optionA": "do not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "not",
+      "correctOption": "Option C",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q037",
+      "questionText": "Alice ___ work at the office yesterday.",
+      "optionA": "was not",
+      "optionB": "did not",
+      "optionC": "do not",
+      "optionD": "does not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q038",
+      "questionText": "Frank ___ haveing on campus now.",
+      "optionA": "do not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "did not",
+      "correctOption": "Option C",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q039",
+      "questionText": "The books ___ on the table.",
+      "optionA": "is not",
+      "optionB": "do not",
+      "optionC": "are not",
+      "optionD": "does not",
+      "correctOption": "Option C",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q040",
+      "questionText": "Alice ___ read in the classroom.",
+      "optionA": "does not",
+      "optionB": "not",
+      "optionC": "do not",
+      "optionD": "is not",
+      "correctOption": "Option A",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q041",
+      "questionText": "Charlie ___ understand on campus yesterday.",
+      "optionA": "do not",
+      "optionB": "did not",
+      "optionC": "does not",
+      "optionD": "was not",
+      "correctOption": "Option B",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q042",
+      "questionText": "Ken ___ sleeping in the library now.",
+      "optionA": "did not",
+      "optionB": "does not",
+      "optionC": "is not",
+      "optionD": "do not",
+      "correctOption": "Option C",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q043",
+      "questionText": "The books ___ on the table.",
+      "optionA": "does not",
+      "optionB": "are not",
+      "optionC": "do not",
+      "optionD": "is not",
+      "correctOption": "Option B",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q044",
+      "questionText": "Jack ___ work in the lab.",
+      "optionA": "do not",
+      "optionB": "is not",
+      "optionC": "not",
+      "optionD": "does not",
+      "correctOption": "Option D",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q045",
+      "questionText": "Professor Jones ___ do at the office yesterday.",
+      "optionA": "does not",
+      "optionB": "was not",
+      "optionC": "did not",
+      "optionD": "do not",
+      "correctOption": "Option C",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q046",
+      "questionText": "Charlie ___ listening at the office now.",
+      "optionA": "did not",
+      "optionB": "is not",
+      "optionC": "does not",
+      "optionD": "do not",
+      "correctOption": "Option B",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q047",
+      "questionText": "The books ___ on the table.",
+      "optionA": "does not",
+      "optionB": "is not",
+      "optionC": "do not",
+      "optionD": "are not",
+      "correctOption": "Option D",
+      "explanation": "'are not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q048",
+      "questionText": "Jack ___ go at the office.",
+      "optionA": "does not",
+      "optionB": "is not",
+      "optionC": "not",
+      "optionD": "do not",
+      "correctOption": "Option A",
+      "explanation": "'does not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q049",
+      "questionText": "Henry ___ read at the university yesterday.",
+      "optionA": "did not",
+      "optionB": "does not",
+      "optionC": "do not",
+      "optionD": "was not",
+      "correctOption": "Option A",
+      "explanation": "'did not' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T106-Q050",
+      "questionText": "Frank ___ listening in the classroom now.",
+      "optionA": "do not",
+      "optionB": "did not",
+      "optionC": "does not",
+      "optionD": "is not",
+      "correctOption": "Option D",
+      "explanation": "'is not' is the correct choice in standard English grammar."
+    }
+  ]
+}

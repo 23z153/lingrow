@@ -1,0 +1,507 @@
+{
+  "topicId": 77,
+  "topicName": "Regular verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T077-Q001",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q002",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walking",
+      "optionC": "walk",
+      "optionD": "walks",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q003",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walked",
+      "optionC": "walk",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q004",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q005",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q006",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q007",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walking",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q008",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q009",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walking",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q010",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q011",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q012",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walks",
+      "optionD": "walking",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q013",
+      "questionText": "Choose the correct regular past tense verb for: The university ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q014",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q015",
+      "questionText": "Choose the correct regular past tense verb for: The librarian ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walk",
+      "optionC": "walks",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q016",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q017",
+      "questionText": "Choose the correct regular past tense verb for: The academic paper ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walking",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q018",
+      "questionText": "Choose the correct regular past tense verb for: The students ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walking",
+      "optionC": "walk",
+      "optionD": "walks",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q019",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walking",
+      "optionC": "walked",
+      "optionD": "walks",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q020",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q021",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q022",
+      "questionText": "Choose the correct regular past tense verb for: The students ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q023",
+      "questionText": "Choose the correct regular past tense verb for: The librarian ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walking",
+      "optionC": "walked",
+      "optionD": "walk",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q024",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walking",
+      "optionC": "walked",
+      "optionD": "walk",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q025",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q026",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q027",
+      "questionText": "Choose the correct regular past tense verb for: The university ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walked",
+      "optionC": "walks",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q028",
+      "questionText": "Choose the correct regular past tense verb for: The librarian ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q029",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walks",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q030",
+      "questionText": "Choose the correct regular past tense verb for: The students ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q031",
+      "questionText": "Choose the correct regular past tense verb for: The students ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q032",
+      "questionText": "Choose the correct regular past tense verb for: The campus ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q033",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walking",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q034",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q035",
+      "questionText": "Choose the correct regular past tense verb for: The professor ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q036",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q037",
+      "questionText": "Choose the correct regular past tense verb for: The campus ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q038",
+      "questionText": "Choose the correct regular past tense verb for: The librarian ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walked",
+      "optionC": "walk",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q039",
+      "questionText": "Choose the correct regular past tense verb for: The campus ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "walking",
+      "optionD": "walk",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q040",
+      "questionText": "Choose the correct regular past tense verb for: The graduate student ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walking",
+      "optionD": "walks",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q041",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q042",
+      "questionText": "Choose the correct regular past tense verb for: The campus ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q043",
+      "questionText": "Choose the correct regular past tense verb for: The academic paper ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walked",
+      "optionC": "walks",
+      "optionD": "walking",
+      "correctOption": "Option B",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q044",
+      "questionText": "Choose the correct regular past tense verb for: The academic paper ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q045",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walking",
+      "optionC": "walked",
+      "optionD": "walks",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q046",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "walking",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q047",
+      "questionText": "Choose the correct regular past tense verb for: The lecture ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "walked",
+      "optionD": "walking",
+      "correctOption": "Option C",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q048",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walking",
+      "optionB": "walks",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q049",
+      "questionText": "Choose the correct regular past tense verb for: The laboratory ___ (walk) to the library.",
+      "optionA": "walks",
+      "optionB": "walking",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option D",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T077-Q050",
+      "questionText": "Choose the correct regular past tense verb for: The research team ___ (walk) to the library.",
+      "optionA": "walked",
+      "optionB": "walking",
+      "optionC": "walks",
+      "optionD": "walk",
+      "correctOption": "Option A",
+      "explanation": "'walked' is the correct choice in standard English grammar."
+    }
+  ]
+}

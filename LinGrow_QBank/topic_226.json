@@ -1,0 +1,507 @@
+{
+  "topicId": 226,
+  "topicName": "Full stop",
+  "unit": "UNIT 25 — PUNCTUATION & CAPITALIZATION",
+  "questions": [
+    {
+      "questionId": "T226-Q001",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 1)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q002",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 2)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q003",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 3)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q004",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 4)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q005",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 5)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q006",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 6)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q007",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 7)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q008",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 8)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q009",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 9)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q010",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 10)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q011",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 11)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q012",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 12)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q013",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 13)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q014",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 14)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q015",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 15)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q016",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 16)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q017",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 17)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q018",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 18)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q019",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 19)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q020",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 20)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q021",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 21)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q022",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 22)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q023",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 23)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q024",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 24)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q025",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 25)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q026",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 26)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q027",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 27)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q028",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 28)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q029",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 29)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q030",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 30)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q031",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 31)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q032",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 32)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q033",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 33)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q034",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 34)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q035",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 35)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like. apples They are sweet",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q036",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 36)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q037",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 37)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q038",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 38)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q039",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 39)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q040",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 40)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q041",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 41)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet.",
+      "correctOption": "Option D",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q042",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 42)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q043",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 43)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like apples. They are sweet",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q044",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 44)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q045",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 45)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q046",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 46)",
+      "optionA": "I like. apples They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like apples. They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q047",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 47)",
+      "optionA": "I like apples. They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option A",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q048",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 48)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples. They are sweet.",
+      "optionC": "I like. apples They are sweet",
+      "optionD": "I like apples They are sweet.",
+      "correctOption": "Option B",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q049",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 49)",
+      "optionA": "I like apples. They are sweet",
+      "optionB": "I like apples They are sweet.",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    },
+    {
+      "questionId": "T226-Q050",
+      "questionText": "Identify the sentence with the correct use of a full stop. (Question 50)",
+      "optionA": "I like apples They are sweet.",
+      "optionB": "I like apples. They are sweet",
+      "optionC": "I like apples. They are sweet.",
+      "optionD": "I like. apples They are sweet",
+      "correctOption": "Option C",
+      "explanation": "'I like apples. They are sweet' correctly follows standard English punctuation and capitalization rules."
+    }
+  ]
+}

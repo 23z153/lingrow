@@ -1,0 +1,507 @@
+{
+  "topicId": 215,
+  "topicName": "Future passive",
+  "unit": "UNIT 22 — ACTIVE & PASSIVE VOICE",
+  "questions": [
+    {
+      "questionId": "T215-Q001",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 1)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 1)",
+      "optionD": "reviews (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q002",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 2)",
+      "optionB": "is reviewed (Variant 2)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 2)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q003",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 3)",
+      "optionC": "is reviewed (Variant 3)",
+      "optionD": "reviews (Variant 3)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q004",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 4)",
+      "optionC": "is reviewed (Variant 4)",
+      "optionD": "reviews (Variant 4)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q005",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 5)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 5)",
+      "optionD": "reviews (Variant 5)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q006",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 6)",
+      "optionB": "is reviewed (Variant 6)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 6)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q007",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 7)",
+      "optionC": "is reviewed (Variant 7)",
+      "optionD": "reviews (Variant 7)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q008",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 8)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 8)",
+      "optionD": "reviews (Variant 8)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q009",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 9)",
+      "optionC": "is reviewed (Variant 9)",
+      "optionD": "reviews (Variant 9)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q010",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 10)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 10)",
+      "optionD": "reviews (Variant 10)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q011",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 11)",
+      "optionC": "is reviewed (Variant 11)",
+      "optionD": "reviews (Variant 11)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q012",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 12)",
+      "optionB": "is reviewed (Variant 12)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 12)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q013",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 13)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 13)",
+      "optionD": "reviews (Variant 13)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q014",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 14)",
+      "optionC": "is reviewed (Variant 14)",
+      "optionD": "reviews (Variant 14)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q015",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 15)",
+      "optionB": "is reviewed (Variant 15)",
+      "optionC": "reviews (Variant 15)",
+      "optionD": "will be reviewed",
+      "correctOption": "Option D",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q016",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 16)",
+      "optionC": "is reviewed (Variant 16)",
+      "optionD": "reviews (Variant 16)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q017",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 17)",
+      "optionB": "is reviewed (Variant 17)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 17)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q018",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 18)",
+      "optionC": "is reviewed (Variant 18)",
+      "optionD": "reviews (Variant 18)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q019",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 19)",
+      "optionB": "is reviewed (Variant 19)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 19)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q020",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 20)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 20)",
+      "optionD": "reviews (Variant 20)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q021",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 21)",
+      "optionC": "is reviewed (Variant 21)",
+      "optionD": "reviews (Variant 21)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q022",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 22)",
+      "optionB": "is reviewed (Variant 22)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 22)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q023",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 23)",
+      "optionB": "is reviewed (Variant 23)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 23)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q024",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 24)",
+      "optionB": "is reviewed (Variant 24)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 24)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q025",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 25)",
+      "optionC": "is reviewed (Variant 25)",
+      "optionD": "reviews (Variant 25)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q026",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 26)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 26)",
+      "optionD": "reviews (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q027",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 27)",
+      "optionC": "is reviewed (Variant 27)",
+      "optionD": "reviews (Variant 27)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q028",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 28)",
+      "optionB": "is reviewed (Variant 28)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 28)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q029",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 29)",
+      "optionC": "is reviewed (Variant 29)",
+      "optionD": "reviews (Variant 29)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q030",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 30)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 30)",
+      "optionD": "reviews (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q031",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 31)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 31)",
+      "optionD": "reviews (Variant 31)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q032",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 32)",
+      "optionB": "is reviewed (Variant 32)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 32)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q033",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 33)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 33)",
+      "optionD": "reviews (Variant 33)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q034",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 34)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 34)",
+      "optionD": "reviews (Variant 34)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q035",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 35)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 35)",
+      "optionD": "reviews (Variant 35)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q036",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 36)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 36)",
+      "optionD": "reviews (Variant 36)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q037",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 37)",
+      "optionC": "is reviewed (Variant 37)",
+      "optionD": "reviews (Variant 37)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q038",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 38)",
+      "optionB": "is reviewed (Variant 38)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 38)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q039",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 39)",
+      "optionC": "is reviewed (Variant 39)",
+      "optionD": "reviews (Variant 39)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q040",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 40)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 40)",
+      "optionD": "reviews (Variant 40)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q041",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 41)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 41)",
+      "optionD": "reviews (Variant 41)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q042",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 42)",
+      "optionB": "is reviewed (Variant 42)",
+      "optionC": "reviews (Variant 42)",
+      "optionD": "will be reviewed",
+      "correctOption": "Option D",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q043",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 43)",
+      "optionB": "is reviewed (Variant 43)",
+      "optionC": "reviews (Variant 43)",
+      "optionD": "will be reviewed",
+      "correctOption": "Option D",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q044",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 44)",
+      "optionB": "is reviewed (Variant 44)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 44)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q045",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 45)",
+      "optionB": "is reviewed (Variant 45)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 45)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q046",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 46)",
+      "optionB": "is reviewed (Variant 46)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 46)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q047",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "will be reviewed",
+      "optionB": "was reviewed (Variant 47)",
+      "optionC": "is reviewed (Variant 47)",
+      "optionD": "reviews (Variant 47)",
+      "correctOption": "Option A",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q048",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 48)",
+      "optionB": "is reviewed (Variant 48)",
+      "optionC": "reviews (Variant 48)",
+      "optionD": "will be reviewed",
+      "correctOption": "Option D",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q049",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 49)",
+      "optionB": "will be reviewed",
+      "optionC": "is reviewed (Variant 49)",
+      "optionD": "reviews (Variant 49)",
+      "correctOption": "Option B",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    },
+    {
+      "questionId": "T215-Q050",
+      "questionText": "Identify the future passive verb phrase:",
+      "optionA": "was reviewed (Variant 50)",
+      "optionB": "is reviewed (Variant 50)",
+      "optionC": "will be reviewed",
+      "optionD": "reviews (Variant 50)",
+      "correctOption": "Option C",
+      "explanation": "'will be reviewed' is in passive voice (be + past participle), focusing on the action or object."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 199,
+  "topicName": "Infinitive",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T199-Q001",
+      "questionText": "It is important ___ your best. (Variant 1)",
+      "optionA": "to do",
+      "optionB": "do",
+      "optionC": "did",
+      "optionD": "doing",
+      "correctOption": "Option A",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q002",
+      "questionText": "I have a lot of work ___ today. (Variant 2)",
+      "optionA": "finish",
+      "optionB": "to finish",
+      "optionC": "finishing",
+      "optionD": "finished",
+      "correctOption": "Option B",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q003",
+      "questionText": "She was the first person ___. (Variant 3)",
+      "optionA": "arrived",
+      "optionB": "arrive",
+      "optionC": "to arrive",
+      "optionD": "arriving",
+      "correctOption": "Option C",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q004",
+      "questionText": "It is difficult ___ Arabic. (Variant 4)",
+      "optionA": "learn",
+      "optionB": "learned",
+      "optionC": "learning",
+      "optionD": "to learn",
+      "correctOption": "Option D",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q005",
+      "questionText": "I need something ___. (Variant 5)",
+      "optionA": "to eat",
+      "optionB": "ate",
+      "optionC": "eating",
+      "optionD": "eat",
+      "correctOption": "Option A",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q006",
+      "questionText": "It is important ___ your best. (Variant 6)",
+      "optionA": "did",
+      "optionB": "to do",
+      "optionC": "doing",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q007",
+      "questionText": "I have a lot of work ___ today. (Variant 7)",
+      "optionA": "finished",
+      "optionB": "finishing",
+      "optionC": "to finish",
+      "optionD": "finish",
+      "correctOption": "Option C",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q008",
+      "questionText": "She was the first person ___. (Variant 8)",
+      "optionA": "arrived",
+      "optionB": "arrive",
+      "optionC": "arriving",
+      "optionD": "to arrive",
+      "correctOption": "Option D",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q009",
+      "questionText": "It is difficult ___ Arabic. (Variant 9)",
+      "optionA": "to learn",
+      "optionB": "learned",
+      "optionC": "learning",
+      "optionD": "learn",
+      "correctOption": "Option A",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q010",
+      "questionText": "I need something ___. (Variant 10)",
+      "optionA": "eating",
+      "optionB": "to eat",
+      "optionC": "ate",
+      "optionD": "eat",
+      "correctOption": "Option B",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q011",
+      "questionText": "It is important ___ your best. (Variant 11)",
+      "optionA": "did",
+      "optionB": "doing",
+      "optionC": "to do",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q012",
+      "questionText": "I have a lot of work ___ today. (Variant 12)",
+      "optionA": "finish",
+      "optionB": "finishing",
+      "optionC": "finished",
+      "optionD": "to finish",
+      "correctOption": "Option D",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q013",
+      "questionText": "She was the first person ___. (Variant 13)",
+      "optionA": "to arrive",
+      "optionB": "arrived",
+      "optionC": "arriving",
+      "optionD": "arrive",
+      "correctOption": "Option A",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q014",
+      "questionText": "It is difficult ___ Arabic. (Variant 14)",
+      "optionA": "learn",
+      "optionB": "to learn",
+      "optionC": "learning",
+      "optionD": "learned",
+      "correctOption": "Option B",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q015",
+      "questionText": "I need something ___. (Variant 15)",
+      "optionA": "ate",
+      "optionB": "eat",
+      "optionC": "to eat",
+      "optionD": "eating",
+      "correctOption": "Option C",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q016",
+      "questionText": "It is important ___ your best. (Variant 16)",
+      "optionA": "doing",
+      "optionB": "did",
+      "optionC": "do",
+      "optionD": "to do",
+      "correctOption": "Option D",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q017",
+      "questionText": "I have a lot of work ___ today. (Variant 17)",
+      "optionA": "to finish",
+      "optionB": "finishing",
+      "optionC": "finish",
+      "optionD": "finished",
+      "correctOption": "Option A",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q018",
+      "questionText": "She was the first person ___. (Variant 18)",
+      "optionA": "arrived",
+      "optionB": "to arrive",
+      "optionC": "arriving",
+      "optionD": "arrive",
+      "correctOption": "Option B",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q019",
+      "questionText": "It is difficult ___ Arabic. (Variant 19)",
+      "optionA": "learn",
+      "optionB": "learned",
+      "optionC": "to learn",
+      "optionD": "learning",
+      "correctOption": "Option C",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q020",
+      "questionText": "I need something ___. (Variant 20)",
+      "optionA": "ate",
+      "optionB": "eating",
+      "optionC": "eat",
+      "optionD": "to eat",
+      "correctOption": "Option D",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q021",
+      "questionText": "It is important ___ your best. (Variant 21)",
+      "optionA": "to do",
+      "optionB": "do",
+      "optionC": "did",
+      "optionD": "doing",
+      "correctOption": "Option A",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q022",
+      "questionText": "I have a lot of work ___ today. (Variant 22)",
+      "optionA": "finished",
+      "optionB": "to finish",
+      "optionC": "finishing",
+      "optionD": "finish",
+      "correctOption": "Option B",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q023",
+      "questionText": "She was the first person ___. (Variant 23)",
+      "optionA": "arrived",
+      "optionB": "arriving",
+      "optionC": "to arrive",
+      "optionD": "arrive",
+      "correctOption": "Option C",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q024",
+      "questionText": "It is difficult ___ Arabic. (Variant 24)",
+      "optionA": "learned",
+      "optionB": "learn",
+      "optionC": "learning",
+      "optionD": "to learn",
+      "correctOption": "Option D",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q025",
+      "questionText": "I need something ___. (Variant 25)",
+      "optionA": "to eat",
+      "optionB": "ate",
+      "optionC": "eat",
+      "optionD": "eating",
+      "correctOption": "Option A",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q026",
+      "questionText": "It is important ___ your best. (Variant 26)",
+      "optionA": "doing",
+      "optionB": "to do",
+      "optionC": "do",
+      "optionD": "did",
+      "correctOption": "Option B",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q027",
+      "questionText": "I have a lot of work ___ today. (Variant 27)",
+      "optionA": "finished",
+      "optionB": "finishing",
+      "optionC": "to finish",
+      "optionD": "finish",
+      "correctOption": "Option C",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q028",
+      "questionText": "She was the first person ___. (Variant 28)",
+      "optionA": "arrived",
+      "optionB": "arriving",
+      "optionC": "arrive",
+      "optionD": "to arrive",
+      "correctOption": "Option D",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q029",
+      "questionText": "It is difficult ___ Arabic. (Variant 29)",
+      "optionA": "to learn",
+      "optionB": "learning",
+      "optionC": "learn",
+      "optionD": "learned",
+      "correctOption": "Option A",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q030",
+      "questionText": "I need something ___. (Variant 30)",
+      "optionA": "ate",
+      "optionB": "to eat",
+      "optionC": "eating",
+      "optionD": "eat",
+      "correctOption": "Option B",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q031",
+      "questionText": "It is important ___ your best. (Variant 31)",
+      "optionA": "did",
+      "optionB": "do",
+      "optionC": "to do",
+      "optionD": "doing",
+      "correctOption": "Option C",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q032",
+      "questionText": "I have a lot of work ___ today. (Variant 32)",
+      "optionA": "finish",
+      "optionB": "finishing",
+      "optionC": "finished",
+      "optionD": "to finish",
+      "correctOption": "Option D",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q033",
+      "questionText": "She was the first person ___. (Variant 33)",
+      "optionA": "to arrive",
+      "optionB": "arrived",
+      "optionC": "arrive",
+      "optionD": "arriving",
+      "correctOption": "Option A",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q034",
+      "questionText": "It is difficult ___ Arabic. (Variant 34)",
+      "optionA": "learn",
+      "optionB": "to learn",
+      "optionC": "learning",
+      "optionD": "learned",
+      "correctOption": "Option B",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q035",
+      "questionText": "I need something ___. (Variant 35)",
+      "optionA": "eating",
+      "optionB": "ate",
+      "optionC": "to eat",
+      "optionD": "eat",
+      "correctOption": "Option C",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q036",
+      "questionText": "It is important ___ your best. (Variant 36)",
+      "optionA": "do",
+      "optionB": "doing",
+      "optionC": "did",
+      "optionD": "to do",
+      "correctOption": "Option D",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q037",
+      "questionText": "I have a lot of work ___ today. (Variant 37)",
+      "optionA": "to finish",
+      "optionB": "finishing",
+      "optionC": "finished",
+      "optionD": "finish",
+      "correctOption": "Option A",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q038",
+      "questionText": "She was the first person ___. (Variant 38)",
+      "optionA": "arriving",
+      "optionB": "to arrive",
+      "optionC": "arrived",
+      "optionD": "arrive",
+      "correctOption": "Option B",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q039",
+      "questionText": "It is difficult ___ Arabic. (Variant 39)",
+      "optionA": "learn",
+      "optionB": "learned",
+      "optionC": "to learn",
+      "optionD": "learning",
+      "correctOption": "Option C",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q040",
+      "questionText": "I need something ___. (Variant 40)",
+      "optionA": "eat",
+      "optionB": "ate",
+      "optionC": "eating",
+      "optionD": "to eat",
+      "correctOption": "Option D",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q041",
+      "questionText": "It is important ___ your best. (Variant 41)",
+      "optionA": "to do",
+      "optionB": "do",
+      "optionC": "doing",
+      "optionD": "did",
+      "correctOption": "Option A",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q042",
+      "questionText": "I have a lot of work ___ today. (Variant 42)",
+      "optionA": "finishing",
+      "optionB": "to finish",
+      "optionC": "finish",
+      "optionD": "finished",
+      "correctOption": "Option B",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q043",
+      "questionText": "She was the first person ___. (Variant 43)",
+      "optionA": "arrived",
+      "optionB": "arrive",
+      "optionC": "to arrive",
+      "optionD": "arriving",
+      "correctOption": "Option C",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q044",
+      "questionText": "It is difficult ___ Arabic. (Variant 44)",
+      "optionA": "learned",
+      "optionB": "learning",
+      "optionC": "learn",
+      "optionD": "to learn",
+      "correctOption": "Option D",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q045",
+      "questionText": "I need something ___. (Variant 45)",
+      "optionA": "to eat",
+      "optionB": "eat",
+      "optionC": "eating",
+      "optionD": "ate",
+      "correctOption": "Option A",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q046",
+      "questionText": "It is important ___ your best. (Variant 46)",
+      "optionA": "doing",
+      "optionB": "to do",
+      "optionC": "do",
+      "optionD": "did",
+      "correctOption": "Option B",
+      "explanation": "'to do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q047",
+      "questionText": "I have a lot of work ___ today. (Variant 47)",
+      "optionA": "finished",
+      "optionB": "finish",
+      "optionC": "to finish",
+      "optionD": "finishing",
+      "correctOption": "Option C",
+      "explanation": "'to finish' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q048",
+      "questionText": "She was the first person ___. (Variant 48)",
+      "optionA": "arrived",
+      "optionB": "arriving",
+      "optionC": "arrive",
+      "optionD": "to arrive",
+      "correctOption": "Option D",
+      "explanation": "'to arrive' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q049",
+      "questionText": "It is difficult ___ Arabic. (Variant 49)",
+      "optionA": "to learn",
+      "optionB": "learned",
+      "optionC": "learning",
+      "optionD": "learn",
+      "correctOption": "Option A",
+      "explanation": "'to learn' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T199-Q050",
+      "questionText": "I need something ___. (Variant 50)",
+      "optionA": "eating",
+      "optionB": "to eat",
+      "optionC": "eat",
+      "optionD": "ate",
+      "correctOption": "Option B",
+      "explanation": "'to eat' is the correct choice in standard English grammar."
+    }
+  ]
+}

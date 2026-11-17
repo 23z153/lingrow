@@ -1,0 +1,507 @@
+{
+  "topicId": 198,
+  "topicName": "Gerund after common verbs",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T198-Q001",
+      "questionText": "I enjoy ___ on the weekend. (Variant 1)",
+      "optionA": "reading",
+      "optionB": "read",
+      "optionC": "to read",
+      "optionD": "reads",
+      "correctOption": "Option A",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q002",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 2)",
+      "optionA": "drive",
+      "optionB": "driving",
+      "optionC": "to drive",
+      "optionD": "drove",
+      "correctOption": "Option B",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q003",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 3)",
+      "optionA": "done",
+      "optionB": "do",
+      "optionC": "doing",
+      "optionD": "to do",
+      "correctOption": "Option C",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q004",
+      "questionText": "They suggested ___ for a walk. (Variant 4)",
+      "optionA": "go",
+      "optionB": "went",
+      "optionC": "to go",
+      "optionD": "going",
+      "correctOption": "Option D",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q005",
+      "questionText": "Do you mind ___ the window? (Variant 5)",
+      "optionA": "opening",
+      "optionB": "to open",
+      "optionC": "open",
+      "optionD": "opened",
+      "correctOption": "Option A",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q006",
+      "questionText": "I enjoy ___ on the weekend. (Variant 6)",
+      "optionA": "read",
+      "optionB": "reading",
+      "optionC": "to read",
+      "optionD": "reads",
+      "correctOption": "Option B",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q007",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 7)",
+      "optionA": "to drive",
+      "optionB": "drive",
+      "optionC": "driving",
+      "optionD": "drove",
+      "correctOption": "Option C",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q008",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 8)",
+      "optionA": "do",
+      "optionB": "done",
+      "optionC": "to do",
+      "optionD": "doing",
+      "correctOption": "Option D",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q009",
+      "questionText": "They suggested ___ for a walk. (Variant 9)",
+      "optionA": "going",
+      "optionB": "to go",
+      "optionC": "go",
+      "optionD": "went",
+      "correctOption": "Option A",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q010",
+      "questionText": "Do you mind ___ the window? (Variant 10)",
+      "optionA": "to open",
+      "optionB": "opening",
+      "optionC": "open",
+      "optionD": "opened",
+      "correctOption": "Option B",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q011",
+      "questionText": "I enjoy ___ on the weekend. (Variant 11)",
+      "optionA": "reads",
+      "optionB": "to read",
+      "optionC": "reading",
+      "optionD": "read",
+      "correctOption": "Option C",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q012",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 12)",
+      "optionA": "to drive",
+      "optionB": "drive",
+      "optionC": "drove",
+      "optionD": "driving",
+      "correctOption": "Option D",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q013",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 13)",
+      "optionA": "doing",
+      "optionB": "do",
+      "optionC": "to do",
+      "optionD": "done",
+      "correctOption": "Option A",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q014",
+      "questionText": "They suggested ___ for a walk. (Variant 14)",
+      "optionA": "went",
+      "optionB": "going",
+      "optionC": "go",
+      "optionD": "to go",
+      "correctOption": "Option B",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q015",
+      "questionText": "Do you mind ___ the window? (Variant 15)",
+      "optionA": "opened",
+      "optionB": "open",
+      "optionC": "opening",
+      "optionD": "to open",
+      "correctOption": "Option C",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q016",
+      "questionText": "I enjoy ___ on the weekend. (Variant 16)",
+      "optionA": "to read",
+      "optionB": "reads",
+      "optionC": "read",
+      "optionD": "reading",
+      "correctOption": "Option D",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q017",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 17)",
+      "optionA": "driving",
+      "optionB": "drive",
+      "optionC": "to drive",
+      "optionD": "drove",
+      "correctOption": "Option A",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q018",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 18)",
+      "optionA": "done",
+      "optionB": "doing",
+      "optionC": "to do",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q019",
+      "questionText": "They suggested ___ for a walk. (Variant 19)",
+      "optionA": "went",
+      "optionB": "go",
+      "optionC": "going",
+      "optionD": "to go",
+      "correctOption": "Option C",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q020",
+      "questionText": "Do you mind ___ the window? (Variant 20)",
+      "optionA": "to open",
+      "optionB": "open",
+      "optionC": "opened",
+      "optionD": "opening",
+      "correctOption": "Option D",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q021",
+      "questionText": "I enjoy ___ on the weekend. (Variant 21)",
+      "optionA": "reading",
+      "optionB": "to read",
+      "optionC": "read",
+      "optionD": "reads",
+      "correctOption": "Option A",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q022",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 22)",
+      "optionA": "drive",
+      "optionB": "driving",
+      "optionC": "to drive",
+      "optionD": "drove",
+      "correctOption": "Option B",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q023",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 23)",
+      "optionA": "done",
+      "optionB": "to do",
+      "optionC": "doing",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q024",
+      "questionText": "They suggested ___ for a walk. (Variant 24)",
+      "optionA": "go",
+      "optionB": "went",
+      "optionC": "to go",
+      "optionD": "going",
+      "correctOption": "Option D",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q025",
+      "questionText": "Do you mind ___ the window? (Variant 25)",
+      "optionA": "opening",
+      "optionB": "open",
+      "optionC": "to open",
+      "optionD": "opened",
+      "correctOption": "Option A",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q026",
+      "questionText": "I enjoy ___ on the weekend. (Variant 26)",
+      "optionA": "to read",
+      "optionB": "reading",
+      "optionC": "read",
+      "optionD": "reads",
+      "correctOption": "Option B",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q027",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 27)",
+      "optionA": "drive",
+      "optionB": "drove",
+      "optionC": "driving",
+      "optionD": "to drive",
+      "correctOption": "Option C",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q028",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 28)",
+      "optionA": "to do",
+      "optionB": "do",
+      "optionC": "done",
+      "optionD": "doing",
+      "correctOption": "Option D",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q029",
+      "questionText": "They suggested ___ for a walk. (Variant 29)",
+      "optionA": "going",
+      "optionB": "went",
+      "optionC": "go",
+      "optionD": "to go",
+      "correctOption": "Option A",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q030",
+      "questionText": "Do you mind ___ the window? (Variant 30)",
+      "optionA": "open",
+      "optionB": "opening",
+      "optionC": "to open",
+      "optionD": "opened",
+      "correctOption": "Option B",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q031",
+      "questionText": "I enjoy ___ on the weekend. (Variant 31)",
+      "optionA": "reads",
+      "optionB": "read",
+      "optionC": "reading",
+      "optionD": "to read",
+      "correctOption": "Option C",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q032",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 32)",
+      "optionA": "to drive",
+      "optionB": "drive",
+      "optionC": "drove",
+      "optionD": "driving",
+      "correctOption": "Option D",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q033",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 33)",
+      "optionA": "doing",
+      "optionB": "do",
+      "optionC": "done",
+      "optionD": "to do",
+      "correctOption": "Option A",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q034",
+      "questionText": "They suggested ___ for a walk. (Variant 34)",
+      "optionA": "went",
+      "optionB": "going",
+      "optionC": "to go",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q035",
+      "questionText": "Do you mind ___ the window? (Variant 35)",
+      "optionA": "open",
+      "optionB": "opened",
+      "optionC": "opening",
+      "optionD": "to open",
+      "correctOption": "Option C",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q036",
+      "questionText": "I enjoy ___ on the weekend. (Variant 36)",
+      "optionA": "reads",
+      "optionB": "to read",
+      "optionC": "read",
+      "optionD": "reading",
+      "correctOption": "Option D",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q037",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 37)",
+      "optionA": "driving",
+      "optionB": "to drive",
+      "optionC": "drove",
+      "optionD": "drive",
+      "correctOption": "Option A",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q038",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 38)",
+      "optionA": "do",
+      "optionB": "doing",
+      "optionC": "done",
+      "optionD": "to do",
+      "correctOption": "Option B",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q039",
+      "questionText": "They suggested ___ for a walk. (Variant 39)",
+      "optionA": "to go",
+      "optionB": "went",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option C",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q040",
+      "questionText": "Do you mind ___ the window? (Variant 40)",
+      "optionA": "to open",
+      "optionB": "open",
+      "optionC": "opened",
+      "optionD": "opening",
+      "correctOption": "Option D",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q041",
+      "questionText": "I enjoy ___ on the weekend. (Variant 41)",
+      "optionA": "reading",
+      "optionB": "to read",
+      "optionC": "read",
+      "optionD": "reads",
+      "correctOption": "Option A",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q042",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 42)",
+      "optionA": "to drive",
+      "optionB": "driving",
+      "optionC": "drive",
+      "optionD": "drove",
+      "correctOption": "Option B",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q043",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 43)",
+      "optionA": "do",
+      "optionB": "to do",
+      "optionC": "doing",
+      "optionD": "done",
+      "correctOption": "Option C",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q044",
+      "questionText": "They suggested ___ for a walk. (Variant 44)",
+      "optionA": "go",
+      "optionB": "went",
+      "optionC": "to go",
+      "optionD": "going",
+      "correctOption": "Option D",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q045",
+      "questionText": "Do you mind ___ the window? (Variant 45)",
+      "optionA": "opening",
+      "optionB": "to open",
+      "optionC": "open",
+      "optionD": "opened",
+      "correctOption": "Option A",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q046",
+      "questionText": "I enjoy ___ on the weekend. (Variant 46)",
+      "optionA": "reads",
+      "optionB": "reading",
+      "optionC": "read",
+      "optionD": "to read",
+      "correctOption": "Option B",
+      "explanation": "'reading' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q047",
+      "questionText": "She avoids ___ in heavy traffic. (Variant 47)",
+      "optionA": "to drive",
+      "optionB": "drove",
+      "optionC": "driving",
+      "optionD": "drive",
+      "correctOption": "Option C",
+      "explanation": "'driving' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q048",
+      "questionText": "He hasn't finished ___ his homework yet. (Variant 48)",
+      "optionA": "do",
+      "optionB": "done",
+      "optionC": "to do",
+      "optionD": "doing",
+      "correctOption": "Option D",
+      "explanation": "'doing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q049",
+      "questionText": "They suggested ___ for a walk. (Variant 49)",
+      "optionA": "going",
+      "optionB": "to go",
+      "optionC": "go",
+      "optionD": "went",
+      "correctOption": "Option A",
+      "explanation": "'going' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T198-Q050",
+      "questionText": "Do you mind ___ the window? (Variant 50)",
+      "optionA": "to open",
+      "optionB": "opening",
+      "optionC": "open",
+      "optionD": "opened",
+      "correctOption": "Option B",
+      "explanation": "'opening' is the correct choice in standard English grammar."
+    }
+  ]
+}

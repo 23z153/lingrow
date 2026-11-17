@@ -1,0 +1,507 @@
+{
+  "topicId": 80,
+  "topicName": "Third-person -s",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T080-Q001",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q002",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q003",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q004",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q005",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studys",
+      "optionD": "studying",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q006",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q007",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studies",
+      "optionC": "studys",
+      "optionD": "studying",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q008",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q009",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q010",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studying",
+      "optionC": "studys",
+      "optionD": "study",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q011",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studys",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q012",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "study",
+      "optionC": "studys",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q013",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studying",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q014",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q015",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q016",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q017",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q018",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q019",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studying",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q020",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q021",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q022",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studys",
+      "optionC": "studying",
+      "optionD": "study",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q023",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studies",
+      "optionC": "studys",
+      "optionD": "studying",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q024",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q025",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q026",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studies",
+      "optionC": "studying",
+      "optionD": "studys",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q027",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studying",
+      "optionC": "studies",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q028",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "studying",
+      "optionC": "studies",
+      "optionD": "study",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q029",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studying",
+      "optionC": "studies",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q030",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studying",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q031",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q032",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q033",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q034",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q035",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studies",
+      "optionC": "studys",
+      "optionD": "study",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q036",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studys",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q037",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studys",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q038",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q039",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q040",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q041",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q042",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studying",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q043",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studys",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q044",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "studying",
+      "optionC": "studies",
+      "optionD": "study",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q045",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q046",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "study",
+      "optionB": "studys",
+      "optionC": "studies",
+      "optionD": "studying",
+      "correctOption": "Option C",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q047",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q048",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studying",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option B",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q049",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studys",
+      "optionB": "study",
+      "optionC": "studying",
+      "optionD": "studies",
+      "correctOption": "Option D",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T080-Q050",
+      "questionText": "Choose the correct verb form: The student always ___ (study) hard.",
+      "optionA": "studies",
+      "optionB": "studying",
+      "optionC": "study",
+      "optionD": "studys",
+      "correctOption": "Option A",
+      "explanation": "'studies' is the correct choice in standard English grammar."
+    }
+  ]
+}

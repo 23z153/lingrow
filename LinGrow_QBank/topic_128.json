@@ -1,0 +1,507 @@
+{
+  "topicId": 128,
+  "topicName": "Why",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T128-Q001",
+      "questionText": "Identify the missing word: I don't know ____ the dog will find.",
+      "optionA": "When",
+      "optionB": "Which",
+      "optionC": "Why",
+      "optionD": "Where",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q002",
+      "questionText": "____ did I depart?",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q003",
+      "questionText": "____ did they cancel the meeting?",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "How",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q004",
+      "questionText": "Which question word is used to ask about reason?",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Why",
+      "optionD": "Where",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q005",
+      "questionText": "Which question word is used to ask about reason? (1)",
+      "optionA": "Why",
+      "optionB": "When",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q006",
+      "questionText": "Identify the missing word: I don't know ____ I will stay.",
+      "optionA": "What",
+      "optionB": "When",
+      "optionC": "Where",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q007",
+      "questionText": "Which question word is used to ask about reason? (2)",
+      "optionA": "Why",
+      "optionB": "Where",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q008",
+      "questionText": "Which question word is used to ask about reason? (3)",
+      "optionA": "Why",
+      "optionB": "When",
+      "optionC": "Where",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q009",
+      "questionText": "____ did the company know?",
+      "optionA": "Why",
+      "optionB": "Where",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q010",
+      "questionText": "Which question word is used to ask about reason? (4)",
+      "optionA": "Where",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q011",
+      "questionText": "Identify the missing word: I don't know ____ he will find.",
+      "optionA": "Which",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "When",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q012",
+      "questionText": "____ did you come?",
+      "optionA": "When",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q013",
+      "questionText": "Which question word is used to ask about reason? (5)",
+      "optionA": "What",
+      "optionB": "Why",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q014",
+      "questionText": "Which question word is used to ask about reason? (6)",
+      "optionA": "What",
+      "optionB": "How",
+      "optionC": "Who",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q015",
+      "questionText": "____ are you crying?",
+      "optionA": "Why",
+      "optionB": "What",
+      "optionC": "Which",
+      "optionD": "How",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q016",
+      "questionText": "Identify the missing word: I don't know ____ it will go.",
+      "optionA": "What",
+      "optionB": "Where",
+      "optionC": "Which",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q017",
+      "questionText": "Identify the missing word: I don't know ____ the student will wait.",
+      "optionA": "Where",
+      "optionB": "When",
+      "optionC": "Which",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q018",
+      "questionText": "____ did I go?",
+      "optionA": "Who",
+      "optionB": "Why",
+      "optionC": "Where",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q019",
+      "questionText": "Identify the missing word: I don't know ____ you will sleep.",
+      "optionA": "Who",
+      "optionB": "When",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q020",
+      "questionText": "____ did it stay?",
+      "optionA": "What",
+      "optionB": "How",
+      "optionC": "Why",
+      "optionD": "Who",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q021",
+      "questionText": "Identify the missing word: I don't know ____ I will depart.",
+      "optionA": "Why",
+      "optionB": "Where",
+      "optionC": "How",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q022",
+      "questionText": "Which question word is used to ask about reason? (7)",
+      "optionA": "How",
+      "optionB": "Why",
+      "optionC": "What",
+      "optionD": "Where",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q023",
+      "questionText": "____ did they cancel the meeting? (1)",
+      "optionA": "Why",
+      "optionB": "How",
+      "optionC": "What",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q024",
+      "questionText": "Which question word is used to ask about reason? (8)",
+      "optionA": "When",
+      "optionB": "Who",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q025",
+      "questionText": "____ did they stay?",
+      "optionA": "Which",
+      "optionB": "Where",
+      "optionC": "When",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q026",
+      "questionText": "Identify the missing word: I don't know ____ the teacher will make.",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "How",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q027",
+      "questionText": "____ are you crying? (1)",
+      "optionA": "How",
+      "optionB": "Why",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q028",
+      "questionText": "Which question word is used to ask about reason? (9)",
+      "optionA": "Why",
+      "optionB": "When",
+      "optionC": "How",
+      "optionD": "Which",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q029",
+      "questionText": "Which question word is used to ask about reason? (10)",
+      "optionA": "Which",
+      "optionB": "How",
+      "optionC": "Why",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q030",
+      "questionText": "Which question word is used to ask about reason? (11)",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "When",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q031",
+      "questionText": "____ did they cancel the meeting? (2)",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "What",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q032",
+      "questionText": "Identify the missing word: I don't know ____ we will go.",
+      "optionA": "Why",
+      "optionB": "When",
+      "optionC": "Which",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q033",
+      "questionText": "Identify the missing word: I don't know ____ he will know.",
+      "optionA": "Which",
+      "optionB": "When",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q034",
+      "questionText": "____ are you crying? (2)",
+      "optionA": "Who",
+      "optionB": "Why",
+      "optionC": "What",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q035",
+      "questionText": "Which question word is used to ask about reason? (12)",
+      "optionA": "Where",
+      "optionB": "Why",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q036",
+      "questionText": "Which question word is used to ask about reason? (13)",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "When",
+      "optionD": "Where",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q037",
+      "questionText": "____ did they cancel the meeting? (3)",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "How",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q038",
+      "questionText": "Which question word is used to ask about reason? (14)",
+      "optionA": "What",
+      "optionB": "Why",
+      "optionC": "How",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q039",
+      "questionText": "____ are you crying? (3)",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "Why",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q040",
+      "questionText": "Identify the missing word: I don't know ____ the team will stay.",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "How",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q041",
+      "questionText": "Which question word is used to ask about reason? (15)",
+      "optionA": "Why",
+      "optionB": "Which",
+      "optionC": "Where",
+      "optionD": "What",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q042",
+      "questionText": "____ did it buy?",
+      "optionA": "Which",
+      "optionB": "Why",
+      "optionC": "How",
+      "optionD": "When",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q043",
+      "questionText": "____ are you crying? (4)",
+      "optionA": "Who",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "Which",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q044",
+      "questionText": "____ are you crying? (5)",
+      "optionA": "Why",
+      "optionB": "What",
+      "optionC": "When",
+      "optionD": "Who",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q045",
+      "questionText": "____ did they cancel the meeting? (4)",
+      "optionA": "When",
+      "optionB": "Why",
+      "optionC": "Which",
+      "optionD": "What",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q046",
+      "questionText": "Which question word is used to ask about reason? (16)",
+      "optionA": "Which",
+      "optionB": "Who",
+      "optionC": "When",
+      "optionD": "Why",
+      "correctOption": "Option D",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q047",
+      "questionText": "____ are you crying? (6)",
+      "optionA": "Which",
+      "optionB": "When",
+      "optionC": "Why",
+      "optionD": "What",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q048",
+      "questionText": "Which question word is used to ask about reason? (17)",
+      "optionA": "Why",
+      "optionB": "Who",
+      "optionC": "Which",
+      "optionD": "When",
+      "correctOption": "Option A",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q049",
+      "questionText": "____ did he see?",
+      "optionA": "When",
+      "optionB": "Why",
+      "optionC": "Who",
+      "optionD": "Which",
+      "correctOption": "Option B",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    },
+    {
+      "questionId": "T128-Q050",
+      "questionText": "____ are you crying? (7)",
+      "optionA": "When",
+      "optionB": "What",
+      "optionC": "Why",
+      "optionD": "How",
+      "correctOption": "Option C",
+      "explanation": "Use 'Why' to ask for a reason or explanation."
+    }
+  ]
+}

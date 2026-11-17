@@ -1,0 +1,507 @@
+{
+  "topicId": 33,
+  "topicName": "Possessive adjectives",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T033-Q001",
+      "questionText": "Robert forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "their",
+      "optionC": "him",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q002",
+      "questionText": "Emma forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "their",
+      "optionC": "her",
+      "optionD": "hers",
+      "correctOption": "Option C",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q003",
+      "questionText": "Charles forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "him",
+      "optionC": "their",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q004",
+      "questionText": "Sarah forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "their",
+      "optionC": "hers",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q005",
+      "questionText": "Mary forgot ___ bag at home.",
+      "optionA": "hers",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "their",
+      "correctOption": "Option B",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q006",
+      "questionText": "Steven forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "he",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q007",
+      "questionText": "Mia forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "hers",
+      "correctOption": "Option B",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q008",
+      "questionText": "David forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "he",
+      "optionC": "him",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q009",
+      "questionText": "Sophia forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "hers",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q010",
+      "questionText": "James forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "their",
+      "optionC": "him",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q011",
+      "questionText": "James forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "he",
+      "optionC": "their",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q012",
+      "questionText": "Mark forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "him",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q013",
+      "questionText": "Michael forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "their",
+      "optionC": "he",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q014",
+      "questionText": "Paul forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "him",
+      "optionC": "his",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q015",
+      "questionText": "Matthew forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "he",
+      "optionC": "him",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q016",
+      "questionText": "Mia forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "hers",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q017",
+      "questionText": "Matthew forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "him",
+      "optionD": "he",
+      "correctOption": "Option B",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q018",
+      "questionText": "Sophia forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "hers",
+      "optionC": "her",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q019",
+      "questionText": "Harper forgot ___ bag at home.",
+      "optionA": "hers",
+      "optionB": "she",
+      "optionC": "their",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q020",
+      "questionText": "Michael forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q021",
+      "questionText": "Emma forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "their",
+      "optionD": "hers",
+      "correctOption": "Option B",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q022",
+      "questionText": "Paul forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "him",
+      "optionC": "their",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q023",
+      "questionText": "Evelyn forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "hers",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q024",
+      "questionText": "Anthony forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "their",
+      "optionC": "he",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q025",
+      "questionText": "Robert forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "he",
+      "optionC": "his",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q026",
+      "questionText": "Anthony forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "him",
+      "optionC": "his",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q027",
+      "questionText": "Emma forgot ___ bag at home.",
+      "optionA": "hers",
+      "optionB": "her",
+      "optionC": "their",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q028",
+      "questionText": "Alice forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "their",
+      "optionC": "her",
+      "optionD": "hers",
+      "correctOption": "Option C",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q029",
+      "questionText": "Charles forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "him",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q030",
+      "questionText": "John forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q031",
+      "questionText": "James forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "his",
+      "optionC": "he",
+      "optionD": "him",
+      "correctOption": "Option B",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q032",
+      "questionText": "James forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "he",
+      "optionC": "their",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q033",
+      "questionText": "Steven forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "him",
+      "optionC": "his",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q034",
+      "questionText": "Daniel forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "his",
+      "optionC": "their",
+      "optionD": "he",
+      "correctOption": "Option B",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q035",
+      "questionText": "Abigail forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "hers",
+      "optionC": "their",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q036",
+      "questionText": "Charlotte forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "their",
+      "optionC": "hers",
+      "optionD": "her",
+      "correctOption": "Option D",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q037",
+      "questionText": "Charles forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "him",
+      "optionC": "he",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q038",
+      "questionText": "Mary forgot ___ bag at home.",
+      "optionA": "her",
+      "optionB": "hers",
+      "optionC": "she",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q039",
+      "questionText": "Richard forgot ___ bag at home.",
+      "optionA": "their",
+      "optionB": "he",
+      "optionC": "him",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q040",
+      "questionText": "Michael forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "him",
+      "optionC": "their",
+      "optionD": "he",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q041",
+      "questionText": "Sarah forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "their",
+      "optionC": "her",
+      "optionD": "hers",
+      "correctOption": "Option C",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q042",
+      "questionText": "Mark forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "he",
+      "optionC": "their",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q043",
+      "questionText": "Daniel forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "him",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q044",
+      "questionText": "Daniel forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "their",
+      "optionC": "his",
+      "optionD": "he",
+      "correctOption": "Option C",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q045",
+      "questionText": "Mary forgot ___ bag at home.",
+      "optionA": "she",
+      "optionB": "hers",
+      "optionC": "her",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q046",
+      "questionText": "Mark forgot ___ bag at home.",
+      "optionA": "his",
+      "optionB": "their",
+      "optionC": "he",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q047",
+      "questionText": "James forgot ___ bag at home.",
+      "optionA": "him",
+      "optionB": "his",
+      "optionC": "he",
+      "optionD": "their",
+      "correctOption": "Option B",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q048",
+      "questionText": "Paul forgot ___ bag at home.",
+      "optionA": "he",
+      "optionB": "their",
+      "optionC": "him",
+      "optionD": "his",
+      "correctOption": "Option D",
+      "explanation": "'his' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q049",
+      "questionText": "Evelyn forgot ___ bag at home.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "their",
+      "optionD": "hers",
+      "correctOption": "Option A",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    },
+    {
+      "questionId": "T033-Q050",
+      "questionText": "Emma forgot ___ bag at home.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "hers",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'her' is a possessive adjective placed before a noun to show ownership."
+    }
+  ]
+}

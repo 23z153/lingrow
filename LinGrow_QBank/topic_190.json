@@ -1,0 +1,507 @@
+{
+  "topicId": 190,
+  "topicName": "Shall",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T190-Q001",
+      "questionText": "Fill in the blank for a suggestion: ___ you study a letter now?",
+      "optionA": "Shall",
+      "optionB": "To shall",
+      "optionC": "Shall to",
+      "optionD": "Shalls",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q002",
+      "questionText": "Fill in the blank for a suggestion: ___ he read gracefully now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "Shalls",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q003",
+      "questionText": "Fill in the blank for a suggestion: ___ she speak some food now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q004",
+      "questionText": "Fill in the blank for a suggestion: ___ it jump math now?",
+      "optionA": "Shalls",
+      "optionB": "Shall to",
+      "optionC": "To shall",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q005",
+      "questionText": "Fill in the blank for a suggestion: ___ we cook football now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q006",
+      "questionText": "Fill in the blank for a suggestion: ___ they drive high now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q007",
+      "questionText": "Fill in the blank for a suggestion: ___ the student buy in the sky now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q008",
+      "questionText": "Fill in the blank for a suggestion: ___ the professor draw a bridge now?",
+      "optionA": "Shall to",
+      "optionB": "Shalls",
+      "optionC": "To shall",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q009",
+      "questionText": "Fill in the blank for a suggestion: ___ the dog create for the exam now?",
+      "optionA": "Shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "To shall",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q010",
+      "questionText": "Fill in the blank for a suggestion: ___ my friend go fast now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q011",
+      "questionText": "Fill in the blank for a suggestion: ___ the team study the car now?",
+      "optionA": "Shall to",
+      "optionB": "Shalls",
+      "optionC": "To shall",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q012",
+      "questionText": "Fill in the blank for a suggestion: ___ someone read a program now?",
+      "optionA": "Shall",
+      "optionB": "Shalls",
+      "optionC": "To shall",
+      "optionD": "Shall to",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q013",
+      "questionText": "Fill in the blank for a suggestion: ___ nobody speak an apple now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q014",
+      "questionText": "Fill in the blank for a suggestion: ___ everyone jump to music now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q015",
+      "questionText": "Fill in the blank for a suggestion: ___ the teacher cook dinner now?",
+      "optionA": "To shall",
+      "optionB": "Shall",
+      "optionC": "Shalls",
+      "optionD": "Shall to",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q016",
+      "questionText": "Fill in the blank for a suggestion: ___ the doctor drive the house now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q017",
+      "questionText": "Fill in the blank for a suggestion: ___ the manager buy history now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q018",
+      "questionText": "Fill in the blank for a suggestion: ___ the child draw a book now?",
+      "optionA": "Shalls",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q019",
+      "questionText": "Fill in the blank for a suggestion: ___ the workers create a song now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q020",
+      "questionText": "Fill in the blank for a suggestion: ___ alice go a movie now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q021",
+      "questionText": "Fill in the blank for a suggestion: ___ bob study a building now?",
+      "optionA": "Shalls",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q022",
+      "questionText": "Fill in the blank for a suggestion: ___ charlie read at the office now?",
+      "optionA": "Shalls",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shall to",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q023",
+      "questionText": "Fill in the blank for a suggestion: ___ david speak slowly now?",
+      "optionA": "To shall",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q024",
+      "questionText": "Fill in the blank for a suggestion: ___ eve jump to Paris now?",
+      "optionA": "Shall",
+      "optionB": "Shall to",
+      "optionC": "Shalls",
+      "optionD": "To shall",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q025",
+      "questionText": "Fill in the blank for a suggestion: ___ frank cook a website now?",
+      "optionA": "Shall to",
+      "optionB": "Shalls",
+      "optionC": "To shall",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q026",
+      "questionText": "Fill in the blank for a suggestion: ___ grace drive all night now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q027",
+      "questionText": "Fill in the blank for a suggestion: ___ hannah buy English now?",
+      "optionA": "Shalls",
+      "optionB": "Shall to",
+      "optionC": "Shall",
+      "optionD": "To shall",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q028",
+      "questionText": "Fill in the blank for a suggestion: ___ ivy draw the room now?",
+      "optionA": "Shalls",
+      "optionB": "Shall to",
+      "optionC": "Shall",
+      "optionD": "To shall",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q029",
+      "questionText": "Fill in the blank for a suggestion: ___ jack create a picture now?",
+      "optionA": "Shalls",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q030",
+      "questionText": "Fill in the blank for a suggestion: ___ i go to the park now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q031",
+      "questionText": "Fill in the blank for a suggestion: ___ you study a letter now?",
+      "optionA": "To shall",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q032",
+      "questionText": "Fill in the blank for a suggestion: ___ he read gracefully now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q033",
+      "questionText": "Fill in the blank for a suggestion: ___ she speak some food now?",
+      "optionA": "Shall",
+      "optionB": "Shall to",
+      "optionC": "Shalls",
+      "optionD": "To shall",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q034",
+      "questionText": "Fill in the blank for a suggestion: ___ it jump math now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q035",
+      "questionText": "Fill in the blank for a suggestion: ___ we cook football now?",
+      "optionA": "Shall to",
+      "optionB": "To shall",
+      "optionC": "Shall",
+      "optionD": "Shalls",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q036",
+      "questionText": "Fill in the blank for a suggestion: ___ they drive high now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q037",
+      "questionText": "Fill in the blank for a suggestion: ___ the student buy in the sky now?",
+      "optionA": "Shall",
+      "optionB": "Shalls",
+      "optionC": "To shall",
+      "optionD": "Shall to",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q038",
+      "questionText": "Fill in the blank for a suggestion: ___ the professor draw a bridge now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q039",
+      "questionText": "Fill in the blank for a suggestion: ___ the dog create for the exam now?",
+      "optionA": "To shall",
+      "optionB": "Shall to",
+      "optionC": "Shall",
+      "optionD": "Shalls",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q040",
+      "questionText": "Fill in the blank for a suggestion: ___ my friend go fast now?",
+      "optionA": "To shall",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q041",
+      "questionText": "Fill in the blank for a suggestion: ___ the team study the car now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q042",
+      "questionText": "Fill in the blank for a suggestion: ___ someone read a program now?",
+      "optionA": "Shalls",
+      "optionB": "Shall to",
+      "optionC": "Shall",
+      "optionD": "To shall",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q043",
+      "questionText": "Fill in the blank for a suggestion: ___ nobody speak an apple now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "To shall",
+      "optionD": "Shalls",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q044",
+      "questionText": "Fill in the blank for a suggestion: ___ everyone jump to music now?",
+      "optionA": "Shall to",
+      "optionB": "Shall",
+      "optionC": "Shalls",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q045",
+      "questionText": "Fill in the blank for a suggestion: ___ the teacher cook dinner now?",
+      "optionA": "Shalls",
+      "optionB": "Shall",
+      "optionC": "Shall to",
+      "optionD": "To shall",
+      "correctOption": "Option B",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q046",
+      "questionText": "Fill in the blank for a suggestion: ___ the doctor drive the house now?",
+      "optionA": "Shall",
+      "optionB": "Shall to",
+      "optionC": "Shalls",
+      "optionD": "To shall",
+      "correctOption": "Option A",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q047",
+      "questionText": "Fill in the blank for a suggestion: ___ the manager buy history now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall",
+      "optionD": "Shall to",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q048",
+      "questionText": "Fill in the blank for a suggestion: ___ the child draw a book now?",
+      "optionA": "Shall to",
+      "optionB": "Shalls",
+      "optionC": "Shall",
+      "optionD": "To shall",
+      "correctOption": "Option C",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q049",
+      "questionText": "Fill in the blank for a suggestion: ___ the workers create a song now?",
+      "optionA": "Shalls",
+      "optionB": "To shall",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T190-Q050",
+      "questionText": "Fill in the blank for a suggestion: ___ alice go a movie now?",
+      "optionA": "To shall",
+      "optionB": "Shalls",
+      "optionC": "Shall to",
+      "optionD": "Shall",
+      "correctOption": "Option D",
+      "explanation": "'Shall' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

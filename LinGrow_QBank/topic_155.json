@@ -1,0 +1,507 @@
+{
+  "topicId": 155,
+  "topicName": "Through/across",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T155-Q001",
+      "questionText": "We drove ___ the tunnel. (1)",
+      "optionA": "into",
+      "optionB": "through",
+      "optionC": "in",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q002",
+      "questionText": "We drove ___ the tunnel. (2)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option C",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q003",
+      "questionText": "She swam ___ the river. (3)",
+      "optionA": "through",
+      "optionB": "over",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q004",
+      "questionText": "She swam ___ the river. (4)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q005",
+      "questionText": "She swam ___ the river. (5)",
+      "optionA": "over",
+      "optionB": "across",
+      "optionC": "into",
+      "optionD": "through",
+      "correctOption": "Option B",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q006",
+      "questionText": "We drove ___ the tunnel. (6)",
+      "optionA": "across",
+      "optionB": "in",
+      "optionC": "through",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q007",
+      "questionText": "We drove ___ the tunnel. (7)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q008",
+      "questionText": "We drove ___ the tunnel. (8)",
+      "optionA": "through",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q009",
+      "questionText": "She swam ___ the river. (9)",
+      "optionA": "through",
+      "optionB": "across",
+      "optionC": "into",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q010",
+      "questionText": "She swam ___ the river. (10)",
+      "optionA": "over",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "through",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q011",
+      "questionText": "She swam ___ the river. (11)",
+      "optionA": "into",
+      "optionB": "over",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q012",
+      "questionText": "She swam ___ the river. (12)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q013",
+      "questionText": "She swam ___ the river. (13)",
+      "optionA": "over",
+      "optionB": "across",
+      "optionC": "through",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q014",
+      "questionText": "She swam ___ the river. (14)",
+      "optionA": "over",
+      "optionB": "through",
+      "optionC": "across",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q015",
+      "questionText": "We drove ___ the tunnel. (15)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q016",
+      "questionText": "She swam ___ the river. (16)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "over",
+      "optionD": "through",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q017",
+      "questionText": "We drove ___ the tunnel. (17)",
+      "optionA": "across",
+      "optionB": "through",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q018",
+      "questionText": "We drove ___ the tunnel. (18)",
+      "optionA": "in",
+      "optionB": "across",
+      "optionC": "through",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q019",
+      "questionText": "We drove ___ the tunnel. (19)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q020",
+      "questionText": "She swam ___ the river. (20)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "over",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q021",
+      "questionText": "We drove ___ the tunnel. (21)",
+      "optionA": "in",
+      "optionB": "through",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q022",
+      "questionText": "She swam ___ the river. (22)",
+      "optionA": "over",
+      "optionB": "through",
+      "optionC": "across",
+      "optionD": "into",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q023",
+      "questionText": "She swam ___ the river. (23)",
+      "optionA": "through",
+      "optionB": "into",
+      "optionC": "over",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q024",
+      "questionText": "We drove ___ the tunnel. (24)",
+      "optionA": "through",
+      "optionB": "in",
+      "optionC": "across",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q025",
+      "questionText": "She swam ___ the river. (25)",
+      "optionA": "into",
+      "optionB": "across",
+      "optionC": "through",
+      "optionD": "over",
+      "correctOption": "Option B",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q026",
+      "questionText": "We drove ___ the tunnel. (26)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option C",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q027",
+      "questionText": "She swam ___ the river. (27)",
+      "optionA": "over",
+      "optionB": "through",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q028",
+      "questionText": "We drove ___ the tunnel. (28)",
+      "optionA": "through",
+      "optionB": "in",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q029",
+      "questionText": "We drove ___ the tunnel. (29)",
+      "optionA": "in",
+      "optionB": "through",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q030",
+      "questionText": "She swam ___ the river. (30)",
+      "optionA": "into",
+      "optionB": "through",
+      "optionC": "across",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q031",
+      "questionText": "She swam ___ the river. (31)",
+      "optionA": "into",
+      "optionB": "over",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q032",
+      "questionText": "We drove ___ the tunnel. (32)",
+      "optionA": "through",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "across",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q033",
+      "questionText": "We drove ___ the tunnel. (33)",
+      "optionA": "in",
+      "optionB": "through",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q034",
+      "questionText": "She swam ___ the river. (34)",
+      "optionA": "through",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q035",
+      "questionText": "We drove ___ the tunnel. (35)",
+      "optionA": "across",
+      "optionB": "into",
+      "optionC": "in",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q036",
+      "questionText": "She swam ___ the river. (36)",
+      "optionA": "across",
+      "optionB": "through",
+      "optionC": "over",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q037",
+      "questionText": "We drove ___ the tunnel. (37)",
+      "optionA": "across",
+      "optionB": "through",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q038",
+      "questionText": "She swam ___ the river. (38)",
+      "optionA": "over",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "through",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q039",
+      "questionText": "We drove ___ the tunnel. (39)",
+      "optionA": "in",
+      "optionB": "across",
+      "optionC": "into",
+      "optionD": "through",
+      "correctOption": "Option D",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q040",
+      "questionText": "We drove ___ the tunnel. (40)",
+      "optionA": "through",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q041",
+      "questionText": "We drove ___ the tunnel. (41)",
+      "optionA": "in",
+      "optionB": "through",
+      "optionC": "into",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q042",
+      "questionText": "We drove ___ the tunnel. (42)",
+      "optionA": "in",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option C",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q043",
+      "questionText": "She swam ___ the river. (43)",
+      "optionA": "over",
+      "optionB": "into",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q044",
+      "questionText": "She swam ___ the river. (44)",
+      "optionA": "across",
+      "optionB": "over",
+      "optionC": "into",
+      "optionD": "through",
+      "correctOption": "Option A",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q045",
+      "questionText": "We drove ___ the tunnel. (45)",
+      "optionA": "across",
+      "optionB": "through",
+      "optionC": "in",
+      "optionD": "into",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q046",
+      "questionText": "She swam ___ the river. (46)",
+      "optionA": "into",
+      "optionB": "through",
+      "optionC": "across",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q047",
+      "questionText": "She swam ___ the river. (47)",
+      "optionA": "into",
+      "optionB": "over",
+      "optionC": "through",
+      "optionD": "across",
+      "correctOption": "Option D",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q048",
+      "questionText": "We drove ___ the tunnel. (48)",
+      "optionA": "through",
+      "optionB": "in",
+      "optionC": "across",
+      "optionD": "into",
+      "correctOption": "Option A",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q049",
+      "questionText": "We drove ___ the tunnel. (49)",
+      "optionA": "into",
+      "optionB": "through",
+      "optionC": "in",
+      "optionD": "across",
+      "correctOption": "Option B",
+      "explanation": "'through' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T155-Q050",
+      "questionText": "She swam ___ the river. (50)",
+      "optionA": "through",
+      "optionB": "into",
+      "optionC": "across",
+      "optionD": "over",
+      "correctOption": "Option C",
+      "explanation": "'across' is the correct choice in standard English grammar."
+    }
+  ]
+}

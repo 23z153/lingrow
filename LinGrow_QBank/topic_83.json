@@ -1,0 +1,507 @@
+{
+  "topicId": 83,
+  "topicName": "Have/has",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T083-Q001",
+      "questionText": "Choose the correct verb: The librarian ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q002",
+      "questionText": "Choose the correct verb: The research team ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q003",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q004",
+      "questionText": "Choose the correct verb: The students ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q005",
+      "questionText": "Choose the correct verb: The research team ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q006",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q007",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q008",
+      "questionText": "Choose the correct verb: The graduate student ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q009",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q010",
+      "questionText": "Choose the correct verb: The research team ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q011",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q012",
+      "questionText": "Choose the correct verb: The laboratory ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q013",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q014",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q015",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q016",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q017",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q018",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q019",
+      "questionText": "Choose the correct verb: The librarian ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q020",
+      "questionText": "Choose the correct verb: The academic paper ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q021",
+      "questionText": "Choose the correct verb: The graduate student ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q022",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q023",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q024",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q025",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q026",
+      "questionText": "Choose the correct verb: The research team ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q027",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q028",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q029",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q030",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q031",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q032",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q033",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "have",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q034",
+      "questionText": "Choose the correct verb: The students ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "have",
+      "optionC": "has",
+      "optionD": "had",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q035",
+      "questionText": "Choose the correct verb: The professor ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q036",
+      "questionText": "Choose the correct verb: The academic paper ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q037",
+      "questionText": "Choose the correct verb: The graduate student ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "have",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q038",
+      "questionText": "Choose the correct verb: The librarian ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q039",
+      "questionText": "Choose the correct verb: The lecture ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q040",
+      "questionText": "Choose the correct verb: The academic paper ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "having",
+      "optionC": "have",
+      "optionD": "had",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q041",
+      "questionText": "Choose the correct verb: The research team ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "having",
+      "optionC": "had",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q042",
+      "questionText": "Choose the correct verb: The students ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "has",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q043",
+      "questionText": "Choose the correct verb: The laboratory ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "have",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q044",
+      "questionText": "Choose the correct verb: The campus ___ finished the assignment.",
+      "optionA": "has",
+      "optionB": "had",
+      "optionC": "have",
+      "optionD": "having",
+      "correctOption": "Option A",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q045",
+      "questionText": "Choose the correct verb: The graduate student ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "having",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q046",
+      "questionText": "Choose the correct verb: The laboratory ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "had",
+      "optionC": "having",
+      "optionD": "has",
+      "correctOption": "Option D",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q047",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "have",
+      "optionB": "has",
+      "optionC": "had",
+      "optionD": "having",
+      "correctOption": "Option B",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q048",
+      "questionText": "Choose the correct verb: The students ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q049",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "having",
+      "optionB": "had",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T083-Q050",
+      "questionText": "Choose the correct verb: The university ___ finished the assignment.",
+      "optionA": "had",
+      "optionB": "having",
+      "optionC": "has",
+      "optionD": "have",
+      "correctOption": "Option C",
+      "explanation": "'has' is the correct choice in standard English grammar."
+    }
+  ]
+}

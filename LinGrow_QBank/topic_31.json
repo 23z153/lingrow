@@ -1,0 +1,507 @@
+{
+  "topicId": 31,
+  "topicName": "Subject pronouns",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T031-Q001",
+      "questionText": "Anthony is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q002",
+      "questionText": "Robert is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q003",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q004",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "It",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q005",
+      "questionText": "Michael is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q006",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q007",
+      "questionText": "Charles is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q008",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q009",
+      "questionText": "David is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q010",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q011",
+      "questionText": "Paul is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "They",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q012",
+      "questionText": "Anthony is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q013",
+      "questionText": "Paul is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q014",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "It",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q015",
+      "questionText": "Mark is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q016",
+      "questionText": "Matthew is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q017",
+      "questionText": "Michael is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q018",
+      "questionText": "Matthew is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "It",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q019",
+      "questionText": "Robert is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "They",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q020",
+      "questionText": "Steven is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "It",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q021",
+      "questionText": "Matthew is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q022",
+      "questionText": "Robert is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q023",
+      "questionText": "David is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "She",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q024",
+      "questionText": "David is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "They",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q025",
+      "questionText": "Charles is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q026",
+      "questionText": "Thomas is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "They",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q027",
+      "questionText": "Richard is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q028",
+      "questionText": "Paul is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q029",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "She",
+      "optionC": "He",
+      "optionD": "It",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q030",
+      "questionText": "Anthony is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q031",
+      "questionText": "Paul is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "They",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q032",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q033",
+      "questionText": "Thomas is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "It",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q034",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "She",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q035",
+      "questionText": "John is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q036",
+      "questionText": "Anthony is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q037",
+      "questionText": "Thomas is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q038",
+      "questionText": "Paul is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q039",
+      "questionText": "Charles is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "It",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q040",
+      "questionText": "Richard is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "She",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q041",
+      "questionText": "Mark is studying engineering. ___ wants to build bridges.",
+      "optionA": "He",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "It",
+      "correctOption": "Option A",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q042",
+      "questionText": "Matthew is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q043",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q044",
+      "questionText": "Daniel is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q045",
+      "questionText": "Michael is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q046",
+      "questionText": "Mark is studying engineering. ___ wants to build bridges.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q047",
+      "questionText": "Anthony is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "It",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q048",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "They",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q049",
+      "questionText": "William is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "It",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    },
+    {
+      "questionId": "T031-Q050",
+      "questionText": "Charles is studying engineering. ___ wants to build bridges.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'He' is a subject pronoun used as the subject doing the action."
+    }
+  ]
+}

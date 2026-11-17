@@ -1,0 +1,507 @@
+{
+  "topicId": 116,
+  "topicName": "There is/there are",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T116-Q001",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There are",
+      "optionB": "They are",
+      "optionC": "There be",
+      "optionD": "There is",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q002",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There is",
+      "optionB": "They is",
+      "optionC": "There are",
+      "optionD": "There am",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q003",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There be",
+      "optionB": "They are",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q004",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There is",
+      "optionB": "There am",
+      "optionC": "They is",
+      "optionD": "There are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q005",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There is",
+      "optionB": "They are",
+      "optionC": "There are",
+      "optionD": "There be",
+      "correctOption": "Option C",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q006",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There is",
+      "optionB": "There am",
+      "optionC": "There are",
+      "optionD": "They is",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q007",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There are",
+      "optionB": "There be",
+      "optionC": "They are",
+      "optionD": "There is",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q008",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There am",
+      "optionB": "They is",
+      "optionC": "There are",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q009",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There be",
+      "optionB": "There are",
+      "optionC": "There is",
+      "optionD": "They are",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q010",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There is",
+      "optionB": "There am",
+      "optionC": "They is",
+      "optionD": "There are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q011",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There be",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q012",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There am",
+      "optionB": "They is",
+      "optionC": "There are",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q013",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There be",
+      "optionB": "There are",
+      "optionC": "There is",
+      "optionD": "They are",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q014",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There are",
+      "optionB": "They is",
+      "optionC": "There am",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q015",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There is",
+      "optionC": "There be",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q016",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There are",
+      "optionB": "There is",
+      "optionC": "They is",
+      "optionD": "There am",
+      "correctOption": "Option B",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q017",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "They are",
+      "optionB": "There be",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q018",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There am",
+      "optionB": "There is",
+      "optionC": "There are",
+      "optionD": "They is",
+      "correctOption": "Option B",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q019",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There are",
+      "optionC": "There be",
+      "optionD": "There is",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q020",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "They is",
+      "optionB": "There is",
+      "optionC": "There am",
+      "optionD": "There are",
+      "correctOption": "Option B",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q021",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There is",
+      "optionB": "There be",
+      "optionC": "They are",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q022",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There am",
+      "optionB": "There are",
+      "optionC": "They is",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q023",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There be",
+      "optionB": "There is",
+      "optionC": "They are",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q024",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "They is",
+      "optionB": "There am",
+      "optionC": "There are",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q025",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There are",
+      "optionB": "There is",
+      "optionC": "They are",
+      "optionD": "There be",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q026",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "They is",
+      "optionB": "There are",
+      "optionC": "There am",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q027",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There are",
+      "optionB": "There is",
+      "optionC": "There be",
+      "optionD": "They are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q028",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There is",
+      "optionB": "There are",
+      "optionC": "They is",
+      "optionD": "There am",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q029",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There is",
+      "optionB": "There be",
+      "optionC": "They are",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q030",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "They is",
+      "optionB": "There am",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option C",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q031",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There are",
+      "optionC": "There is",
+      "optionD": "There be",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q032",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There are",
+      "optionB": "There is",
+      "optionC": "There am",
+      "optionD": "They is",
+      "correctOption": "Option B",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q033",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There be",
+      "optionB": "They are",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q034",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "They is",
+      "optionB": "There is",
+      "optionC": "There am",
+      "optionD": "There are",
+      "correctOption": "Option B",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q035",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There are",
+      "optionC": "There be",
+      "optionD": "There is",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q036",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There is",
+      "optionB": "They is",
+      "optionC": "There am",
+      "optionD": "There are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q037",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "They are",
+      "optionB": "There is",
+      "optionC": "There be",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q038",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There am",
+      "optionB": "There are",
+      "optionC": "There is",
+      "optionD": "They is",
+      "correctOption": "Option C",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q039",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There be",
+      "optionB": "They are",
+      "optionC": "There is",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q040",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "They is",
+      "optionB": "There are",
+      "optionC": "There is",
+      "optionD": "There am",
+      "correctOption": "Option C",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q041",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "They are",
+      "optionB": "There is",
+      "optionC": "There be",
+      "optionD": "There are",
+      "correctOption": "Option D",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q042",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There am",
+      "optionB": "There are",
+      "optionC": "They is",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q043",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "They are",
+      "optionB": "There be",
+      "optionC": "There are",
+      "optionD": "There is",
+      "correctOption": "Option C",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q044",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There is",
+      "optionB": "There am",
+      "optionC": "They is",
+      "optionD": "There are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q045",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There are",
+      "optionB": "They are",
+      "optionC": "There is",
+      "optionD": "There be",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q046",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There is",
+      "optionB": "There are",
+      "optionC": "They is",
+      "optionD": "There am",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q047",
+      "questionText": "Fill in the blank: ______ two dogs on the table.",
+      "optionA": "There are",
+      "optionB": "They are",
+      "optionC": "There be",
+      "optionD": "There is",
+      "correctOption": "Option A",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q048",
+      "questionText": "Fill in the blank: ______ an apple on the table.",
+      "optionA": "There is",
+      "optionB": "There am",
+      "optionC": "They is",
+      "optionD": "There are",
+      "correctOption": "Option A",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    },
+    {
+      "questionId": "T116-Q049",
+      "questionText": "Fill in the blank: ______ many cars on the table.",
+      "optionA": "There is",
+      "optionB": "There are",
+      "optionC": "They are",
+      "optionD": "There be",
+      "correctOption": "Option B",
+      "explanation": "Use 'There are' with plural nouns."
+    },
+    {
+      "questionId": "T116-Q050",
+      "questionText": "Fill in the blank: ______ some water on the table.",
+      "optionA": "There am",
+      "optionB": "There are",
+      "optionC": "They is",
+      "optionD": "There is",
+      "correctOption": "Option D",
+      "explanation": "Use 'There is' with singular nouns or uncountable nouns."
+    }
+  ]
+}

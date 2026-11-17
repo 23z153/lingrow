@@ -1,0 +1,507 @@
+{
+  "topicId": 209,
+  "topicName": "Dependent clause",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T209-Q001",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 1)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 1)",
+      "optionD": "the class (Variant 1)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q002",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 2)",
+      "optionC": "attended the lecture (Variant 2)",
+      "optionD": "the class (Variant 2)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q003",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 3)",
+      "optionB": "attended the lecture (Variant 3)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 3)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q004",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 4)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 4)",
+      "optionD": "the class (Variant 4)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q005",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 5)",
+      "optionC": "attended the lecture (Variant 5)",
+      "optionD": "the class (Variant 5)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q006",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 6)",
+      "optionC": "attended the lecture (Variant 6)",
+      "optionD": "the class (Variant 6)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q007",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 7)",
+      "optionC": "attended the lecture (Variant 7)",
+      "optionD": "the class (Variant 7)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q008",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 8)",
+      "optionC": "attended the lecture (Variant 8)",
+      "optionD": "the class (Variant 8)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q009",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 9)",
+      "optionB": "attended the lecture (Variant 9)",
+      "optionC": "the class (Variant 9)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q010",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 10)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 10)",
+      "optionD": "the class (Variant 10)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q011",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 11)",
+      "optionB": "attended the lecture (Variant 11)",
+      "optionC": "the class (Variant 11)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q012",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 12)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 12)",
+      "optionD": "the class (Variant 12)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q013",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 13)",
+      "optionB": "attended the lecture (Variant 13)",
+      "optionC": "the class (Variant 13)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q014",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 14)",
+      "optionB": "attended the lecture (Variant 14)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 14)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q015",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 15)",
+      "optionB": "attended the lecture (Variant 15)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 15)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q016",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 16)",
+      "optionC": "attended the lecture (Variant 16)",
+      "optionD": "the class (Variant 16)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q017",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 17)",
+      "optionC": "attended the lecture (Variant 17)",
+      "optionD": "the class (Variant 17)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q018",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 18)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 18)",
+      "optionD": "the class (Variant 18)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q019",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 19)",
+      "optionC": "attended the lecture (Variant 19)",
+      "optionD": "the class (Variant 19)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q020",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 20)",
+      "optionC": "attended the lecture (Variant 20)",
+      "optionD": "the class (Variant 20)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q021",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 21)",
+      "optionC": "attended the lecture (Variant 21)",
+      "optionD": "the class (Variant 21)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q022",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 22)",
+      "optionB": "attended the lecture (Variant 22)",
+      "optionC": "the class (Variant 22)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q023",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 23)",
+      "optionB": "attended the lecture (Variant 23)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 23)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q024",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 24)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 24)",
+      "optionD": "the class (Variant 24)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q025",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 25)",
+      "optionC": "attended the lecture (Variant 25)",
+      "optionD": "the class (Variant 25)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q026",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 26)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 26)",
+      "optionD": "the class (Variant 26)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q027",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 27)",
+      "optionB": "attended the lecture (Variant 27)",
+      "optionC": "the class (Variant 27)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q028",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 28)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 28)",
+      "optionD": "the class (Variant 28)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q029",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 29)",
+      "optionC": "attended the lecture (Variant 29)",
+      "optionD": "the class (Variant 29)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q030",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 30)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 30)",
+      "optionD": "the class (Variant 30)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q031",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 31)",
+      "optionC": "attended the lecture (Variant 31)",
+      "optionD": "the class (Variant 31)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q032",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 32)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 32)",
+      "optionD": "the class (Variant 32)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q033",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 33)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 33)",
+      "optionD": "the class (Variant 33)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q034",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 34)",
+      "optionC": "attended the lecture (Variant 34)",
+      "optionD": "the class (Variant 34)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q035",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 35)",
+      "optionC": "attended the lecture (Variant 35)",
+      "optionD": "the class (Variant 35)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q036",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 36)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 36)",
+      "optionD": "the class (Variant 36)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q037",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 37)",
+      "optionB": "attended the lecture (Variant 37)",
+      "optionC": "the class (Variant 37)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q038",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 38)",
+      "optionC": "attended the lecture (Variant 38)",
+      "optionD": "the class (Variant 38)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q039",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 39)",
+      "optionB": "attended the lecture (Variant 39)",
+      "optionC": "the class (Variant 39)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q040",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 40)",
+      "optionB": "attended the lecture (Variant 40)",
+      "optionC": "the class (Variant 40)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q041",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 41)",
+      "optionB": "attended the lecture (Variant 41)",
+      "optionC": "the class (Variant 41)",
+      "optionD": "Although it was raining",
+      "correctOption": "Option D",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q042",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 42)",
+      "optionB": "attended the lecture (Variant 42)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 42)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q043",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "Although it was raining",
+      "optionB": "the class attended (Variant 43)",
+      "optionC": "attended the lecture (Variant 43)",
+      "optionD": "the class (Variant 43)",
+      "correctOption": "Option A",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q044",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 44)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 44)",
+      "optionD": "the class (Variant 44)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q045",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 45)",
+      "optionB": "attended the lecture (Variant 45)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 45)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q046",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 46)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 46)",
+      "optionD": "the class (Variant 46)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q047",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 47)",
+      "optionB": "attended the lecture (Variant 47)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 47)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q048",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 48)",
+      "optionB": "attended the lecture (Variant 48)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 48)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q049",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 49)",
+      "optionB": "Although it was raining",
+      "optionC": "attended the lecture (Variant 49)",
+      "optionD": "the class (Variant 49)",
+      "correctOption": "Option B",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T209-Q050",
+      "questionText": "Which part of the sentence is a dependent clause? Although it was raining, the class attended the lecture.",
+      "optionA": "the class attended (Variant 50)",
+      "optionB": "attended the lecture (Variant 50)",
+      "optionC": "Although it was raining",
+      "optionD": "the class (Variant 50)",
+      "correctOption": "Option C",
+      "explanation": "'Although it was raining' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

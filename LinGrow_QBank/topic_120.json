@@ -1,0 +1,507 @@
+{
+  "topicId": 120,
+  "topicName": "Yes/No questions",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T120-Q001",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Is he a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "He is a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option A",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q002",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Do you like coffee?",
+      "optionB": "He is a doctor?",
+      "optionC": "What do you like?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option A",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q003",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Is he a doctor?",
+      "optionB": "He is a doctor?",
+      "optionC": "What do you like?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option A",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q004",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "Do you like coffee?",
+      "optionC": "He is a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q005",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "What do you like?",
+      "optionC": "He is a doctor?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q006",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "You like coffee?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q007",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q008",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Do you like coffee?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q009",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "Is he a doctor?",
+      "optionC": "He is a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q010",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "What do you like?",
+      "optionC": "He is a doctor?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q011",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q012",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Do you like coffee?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option A",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q013",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "You like coffee?",
+      "optionC": "He is a doctor?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q014",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "He is a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q015",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "Is he a doctor?",
+      "optionC": "He is a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q016",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Do you like coffee?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q017",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Is he a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q018",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "Do you like coffee?",
+      "optionC": "He is a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q019",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Is he a doctor?",
+      "optionB": "He is a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option A",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q020",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Do you like coffee?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q021",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Is he a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q022",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Do you like coffee?",
+      "optionB": "What do you like?",
+      "optionC": "He is a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option A",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q023",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "He is a doctor?",
+      "optionC": "Is he a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q024",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Do you like coffee?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q025",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Is he a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q026",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Do you like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q027",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "Is he a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q028",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Do you like coffee?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option A",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q029",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "Is he a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q030",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "You like coffee?",
+      "optionC": "Do you like coffee?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q031",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "Is he a doctor?",
+      "optionC": "He is a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q032",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "Do you like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q033",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q034",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "Do you like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q035",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Is he a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q036",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Do you like coffee?",
+      "optionB": "He is a doctor?",
+      "optionC": "What do you like?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option A",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q037",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "He is a doctor?",
+      "optionC": "Is he a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q038",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "Do you like coffee?",
+      "optionC": "You like coffee?",
+      "optionD": "What do you like?",
+      "correctOption": "Option B",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q039",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "You like coffee?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q040",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "You like coffee?",
+      "optionB": "What do you like?",
+      "optionC": "Do you like coffee?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q041",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Is he a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q042",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "You like coffee?",
+      "optionC": "Do you like coffee?",
+      "optionD": "He is a doctor?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q043",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Is he a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q044",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "He is a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q045",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "You like coffee?",
+      "optionD": "Is he a doctor?",
+      "correctOption": "Option D",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q046",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "What do you like?",
+      "optionB": "He is a doctor?",
+      "optionC": "You like coffee?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q047",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "Is he a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "He is a doctor?",
+      "optionD": "What do you like?",
+      "correctOption": "Option A",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q048",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Do you like coffee?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q049",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "What do you like?",
+      "optionC": "Is he a doctor?",
+      "optionD": "You like coffee?",
+      "correctOption": "Option C",
+      "explanation": "'Is he a doctor?' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T120-Q050",
+      "questionText": "Which of the following is a correct Yes/No question?",
+      "optionA": "He is a doctor?",
+      "optionB": "You like coffee?",
+      "optionC": "What do you like?",
+      "optionD": "Do you like coffee?",
+      "correctOption": "Option D",
+      "explanation": "'Do you like coffee?' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

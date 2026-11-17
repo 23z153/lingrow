@@ -1,0 +1,707 @@
+{
+  "topicId": 8,
+  "topicName": "Pronouns",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T008-Q001",
+      "questionText": "The professor gave the assignment to the students. The professor gave the assignment to ___.",
+      "optionA": "them",
+      "optionB": "they",
+      "optionC": "their",
+      "optionD": "theirs",
+      "correctOption": "Option A",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q002",
+      "questionText": "Maria is a freshman. ___ studies computer science.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'She' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q003",
+      "questionText": "The books are on the desk. Please put ___ in your bag.",
+      "optionA": "them",
+      "optionB": "it",
+      "optionC": "they",
+      "optionD": "their",
+      "correctOption": "Option A",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q004",
+      "questionText": "John and I are going to the library. ___ have an exam tomorrow.",
+      "optionA": "We",
+      "optionB": "They",
+      "optionC": "You",
+      "optionD": "Us",
+      "correctOption": "Option A",
+      "explanation": "'We' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q005",
+      "questionText": "The campus cafeteria is open. ___ serves hot meals until 8 PM.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q006",
+      "questionText": "My classmates are very friendly. I like ___ a lot.",
+      "optionA": "them",
+      "optionB": "they",
+      "optionC": "their",
+      "optionD": "theirs",
+      "correctOption": "Option A",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q007",
+      "questionText": "Mr. Lee is an excellent teacher. ___ explains grammar clearly.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "We",
+      "correctOption": "Option A",
+      "explanation": "'He' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q008",
+      "questionText": "I cannot find my student ID card. Have you seen ___?",
+      "optionA": "it",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q009",
+      "questionText": "Sarah finished her essay. She submitted ___ to the professor.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "her",
+      "optionD": "him",
+      "correctOption": "Option A",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q010",
+      "questionText": "The students are taking a test. Please do not disturb ___.",
+      "optionA": "them",
+      "optionB": "they",
+      "optionC": "their",
+      "optionD": "it",
+      "correctOption": "Option A",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q011",
+      "questionText": "Dr. Adams asked a question. Anna answered ___ correctly.",
+      "optionA": "it",
+      "optionB": "he",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option A",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q012",
+      "questionText": "We need a new laptop for the presentation. ___ must have an HDMI port.",
+      "optionA": "It",
+      "optionB": "He",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option A",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q013",
+      "questionText": "The university has a large sports center. ___ is open to all students.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "She",
+      "correctOption": "Option A",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q014",
+      "questionText": "My friends and I study together. ___ always share our notes.",
+      "optionA": "They",
+      "optionB": "We",
+      "optionC": "You",
+      "optionD": "Us",
+      "correctOption": "Option B",
+      "explanation": "'We' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q015",
+      "questionText": "The dean is giving a speech. Listen to ___ carefully.",
+      "optionA": "he",
+      "optionB": "him",
+      "optionC": "his",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'him' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q016",
+      "questionText": "Lisa has three exams this week. ___ is very stressed.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'She' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q017",
+      "questionText": "The textbooks are expensive. I cannot afford ___.",
+      "optionA": "it",
+      "optionB": "them",
+      "optionC": "they",
+      "optionD": "their",
+      "correctOption": "Option B",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q018",
+      "questionText": "James left his backpack in the classroom. Can you get ___ for him?",
+      "optionA": "them",
+      "optionB": "it",
+      "optionC": "him",
+      "optionD": "his",
+      "correctOption": "Option B",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q019",
+      "questionText": "The chemistry lab is on the second floor. ___ is next to the stairs.",
+      "optionA": "She",
+      "optionB": "It",
+      "optionC": "He",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q020",
+      "questionText": "The new students look lost. Let's help ___ find their classroom.",
+      "optionA": "they",
+      "optionB": "them",
+      "optionC": "their",
+      "optionD": "us",
+      "correctOption": "Option B",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q021",
+      "questionText": "I bought a notebook for the class. ___ has 100 pages.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q022",
+      "questionText": "Dr. Patel and Dr. Chen are in a meeting. ___ will be available at 2 PM.",
+      "optionA": "We",
+      "optionB": "They",
+      "optionC": "You",
+      "optionD": "He",
+      "correctOption": "Option B",
+      "explanation": "'They' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q023",
+      "questionText": "The lecture was very long. ___ lasted for three hours.",
+      "optionA": "He",
+      "optionB": "It",
+      "optionC": "She",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q024",
+      "questionText": "This pen does not work. Please give me another ___.",
+      "optionA": "it",
+      "optionB": "one",
+      "optionC": "them",
+      "optionD": "ones",
+      "correctOption": "Option B",
+      "explanation": "'one' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q025",
+      "questionText": "My sister is applying to this university. I hope ___ gets accepted.",
+      "optionA": "he",
+      "optionB": "she",
+      "optionC": "it",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'she' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q026",
+      "questionText": "The homework is difficult. Can you help me with ___?",
+      "optionA": "them",
+      "optionB": "it",
+      "optionC": "its",
+      "optionD": "they",
+      "correctOption": "Option B",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q027",
+      "questionText": "The professors are discussing the grades. ___ look serious.",
+      "optionA": "We",
+      "optionB": "You",
+      "optionC": "They",
+      "optionD": "He",
+      "correctOption": "Option C",
+      "explanation": "'They' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q028",
+      "questionText": "I have a question for the tutor. I need to find ___.",
+      "optionA": "he",
+      "optionB": "his",
+      "optionC": "him",
+      "optionD": "it",
+      "correctOption": "Option C",
+      "explanation": "'him' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q029",
+      "questionText": "The scholarship is very helpful. ___ covers all the tuition fees.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q030",
+      "questionText": "Anna and Mark are studying hard because ___ want to pass the exam.",
+      "optionA": "we",
+      "optionB": "you",
+      "optionC": "they",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'they' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q031",
+      "questionText": "The library closes at midnight. ___ is a quiet place to study.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q032",
+      "questionText": "The graduation ceremony is tomorrow. ___ will be very exciting.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q033",
+      "questionText": "My roommate is from Japan. ___ speaks English and Japanese.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "He",
+      "optionD": "We",
+      "correctOption": "Option C",
+      "explanation": "'He' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q034",
+      "questionText": "The math problems are confusing. I don't understand ___.",
+      "optionA": "it",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q035",
+      "questionText": "The campus bus is late. ___ usually arrives at 8:15.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "It",
+      "optionD": "They",
+      "correctOption": "Option C",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q036",
+      "questionText": "I lost my keys in the cafeteria. Did anyone find ___?",
+      "optionA": "it",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q037",
+      "questionText": "Professor Green is grading papers. Do not bother ___ right now.",
+      "optionA": "he",
+      "optionB": "his",
+      "optionC": "him",
+      "optionD": "them",
+      "correctOption": "Option C",
+      "explanation": "'him' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q038",
+      "questionText": "The presentation slides are ready. Let's review ___.",
+      "optionA": "it",
+      "optionB": "they",
+      "optionC": "them",
+      "optionD": "their",
+      "correctOption": "Option C",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q039",
+      "questionText": "You and I are in the same study group. ___ should meet tomorrow.",
+      "optionA": "They",
+      "optionB": "You",
+      "optionC": "Us",
+      "optionD": "We",
+      "correctOption": "Option D",
+      "explanation": "'We' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q040",
+      "questionText": "The history book is very thick. ___ has over 500 pages.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option D",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q041",
+      "questionText": "The students finished the experiment. Then, ___ wrote the report.",
+      "optionA": "them",
+      "optionB": "we",
+      "optionC": "you",
+      "optionD": "they",
+      "correctOption": "Option D",
+      "explanation": "'they' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q042",
+      "questionText": "I am reading a good article for class. ___ is about climate change.",
+      "optionA": "She",
+      "optionB": "He",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option D",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q043",
+      "questionText": "The university president sent an email. ___ welcomed the new students.",
+      "optionA": "It",
+      "optionB": "They",
+      "optionC": "We",
+      "optionD": "He",
+      "correctOption": "Option D",
+      "explanation": "'He' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q044",
+      "questionText": "My friends are at the student union. I will join ___ later.",
+      "optionA": "they",
+      "optionB": "their",
+      "optionC": "us",
+      "optionD": "them",
+      "correctOption": "Option D",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q045",
+      "questionText": "The science building is new. ___ has modern laboratories.",
+      "optionA": "He",
+      "optionB": "She",
+      "optionC": "They",
+      "optionD": "It",
+      "correctOption": "Option D",
+      "explanation": "'It' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q046",
+      "questionText": "Tom forgot his calculator. Can he borrow ___?",
+      "optionA": "your",
+      "optionB": "you",
+      "optionC": "yourself",
+      "optionD": "yours",
+      "correctOption": "Option D",
+      "explanation": "'yours' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q047",
+      "questionText": "The syllabus is available online. You can download ___ from the portal.",
+      "optionA": "them",
+      "optionB": "him",
+      "optionC": "her",
+      "optionD": "it",
+      "correctOption": "Option D",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q048",
+      "questionText": "My parents are coming to the campus tour. I will show ___ around.",
+      "optionA": "they",
+      "optionB": "their",
+      "optionC": "it",
+      "optionD": "them",
+      "correctOption": "Option D",
+      "explanation": "'them' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q049",
+      "questionText": "The research paper is due on Friday. Make sure to finish ___ on time.",
+      "optionA": "them",
+      "optionB": "its",
+      "optionC": "they",
+      "optionD": "it",
+      "correctOption": "Option D",
+      "explanation": "'it' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T008-Q050",
+      "questionText": "Emma and I won the debate competition. The professor congratulated ___.",
+      "optionA": "we",
+      "optionB": "our",
+      "optionC": "them",
+      "optionD": "us",
+      "correctOption": "Option D",
+      "explanation": "'us' is a pronoun used to replace a noun in the sentence.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

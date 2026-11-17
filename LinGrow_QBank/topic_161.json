@@ -1,0 +1,507 @@
+{
+  "topicId": 161,
+  "topicName": "Frequency",
+  "unit": "UNIT 16 — ADVERBS",
+  "questions": [
+    {
+      "questionId": "T161-Q001",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "often",
+      "optionB": "sometimes",
+      "optionC": "always",
+      "optionD": "rarely",
+      "correctOption": "Option D",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q002",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "anytime",
+      "optionB": "never",
+      "optionC": "sometimes",
+      "optionD": "ever",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q003",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "never",
+      "optionB": "always",
+      "optionC": "usually",
+      "optionD": "often",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q004",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "ever",
+      "optionB": "always",
+      "optionC": "any",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q005",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "often",
+      "optionB": "always",
+      "optionC": "usually",
+      "optionD": "rarely",
+      "correctOption": "Option D",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q006",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "never",
+      "optionB": "sometimes",
+      "optionC": "always",
+      "optionD": "ever",
+      "correctOption": "Option B",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q007",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "never",
+      "optionB": "often",
+      "optionC": "always",
+      "optionD": "usually",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q008",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "always",
+      "correctOption": "Option D",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q009",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "rarely",
+      "optionB": "often",
+      "optionC": "always",
+      "optionD": "usually",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q010",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "always",
+      "optionB": "ever",
+      "optionC": "never",
+      "optionD": "sometimes",
+      "correctOption": "Option D",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q011",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "never",
+      "optionB": "usually",
+      "optionC": "sometimes",
+      "optionD": "always",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q012",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "any",
+      "optionB": "always",
+      "optionC": "some",
+      "optionD": "ever",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q013",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "rarely",
+      "optionB": "always",
+      "optionC": "usually",
+      "optionD": "sometimes",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q014",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "anytime",
+      "optionB": "ever",
+      "optionC": "sometimes",
+      "optionD": "always",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q015",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "sometimes",
+      "optionB": "always",
+      "optionC": "often",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q016",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "ever",
+      "optionB": "always",
+      "optionC": "many",
+      "optionD": "some",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q017",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "rarely",
+      "optionB": "usually",
+      "optionC": "always",
+      "optionD": "often",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q018",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "ever",
+      "optionB": "always",
+      "optionC": "sometimes",
+      "optionD": "anytime",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q019",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "always",
+      "optionB": "usually",
+      "optionC": "never",
+      "optionD": "often",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q020",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "some",
+      "optionB": "always",
+      "optionC": "any",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q021",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "always",
+      "optionB": "sometimes",
+      "optionC": "rarely",
+      "optionD": "often",
+      "correctOption": "Option C",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q022",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "sometimes",
+      "optionB": "anytime",
+      "optionC": "ever",
+      "optionD": "never",
+      "correctOption": "Option A",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q023",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "sometimes",
+      "optionB": "always",
+      "optionC": "never",
+      "optionD": "usually",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q024",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "some",
+      "optionB": "always",
+      "optionC": "any",
+      "optionD": "ever",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q025",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "always",
+      "optionB": "rarely",
+      "optionC": "usually",
+      "optionD": "often",
+      "correctOption": "Option B",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q026",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "never",
+      "optionB": "ever",
+      "optionC": "always",
+      "optionD": "sometimes",
+      "correctOption": "Option D",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q027",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "sometimes",
+      "optionB": "always",
+      "optionC": "never",
+      "optionD": "often",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q028",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "any",
+      "optionB": "many",
+      "optionC": "always",
+      "optionD": "ever",
+      "correctOption": "Option C",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q029",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "sometimes",
+      "optionB": "usually",
+      "optionC": "rarely",
+      "optionD": "always",
+      "correctOption": "Option C",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q030",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "anytime",
+      "optionB": "sometimes",
+      "optionC": "always",
+      "optionD": "never",
+      "correctOption": "Option B",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q031",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "usually",
+      "optionB": "always",
+      "optionC": "never",
+      "optionD": "sometimes",
+      "correctOption": "Option C",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q032",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "ever",
+      "optionB": "some",
+      "optionC": "many",
+      "optionD": "always",
+      "correctOption": "Option D",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q033",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "often",
+      "optionB": "rarely",
+      "optionC": "sometimes",
+      "optionD": "usually",
+      "correctOption": "Option B",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q034",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "always",
+      "optionB": "anytime",
+      "optionC": "sometimes",
+      "optionD": "never",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q035",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "often",
+      "optionB": "never",
+      "optionC": "always",
+      "optionD": "sometimes",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q036",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "any",
+      "optionB": "some",
+      "optionC": "always",
+      "optionD": "ever",
+      "correctOption": "Option C",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q037",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "always",
+      "optionB": "usually",
+      "optionC": "rarely",
+      "optionD": "often",
+      "correctOption": "Option C",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q038",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "ever",
+      "optionB": "sometimes",
+      "optionC": "anytime",
+      "optionD": "never",
+      "correctOption": "Option B",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q039",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "often",
+      "optionB": "sometimes",
+      "optionC": "always",
+      "optionD": "never",
+      "correctOption": "Option D",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q040",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "always",
+      "optionB": "many",
+      "optionC": "any",
+      "optionD": "ever",
+      "correctOption": "Option A",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q041",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "rarely",
+      "optionB": "usually",
+      "optionC": "sometimes",
+      "optionD": "often",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q042",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "never",
+      "optionB": "anytime",
+      "optionC": "sometimes",
+      "optionD": "always",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q043",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "never",
+      "optionB": "always",
+      "optionC": "usually",
+      "optionD": "often",
+      "correctOption": "Option A",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q044",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "ever",
+      "optionB": "any",
+      "optionC": "many",
+      "optionD": "always",
+      "correctOption": "Option D",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q045",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "usually",
+      "optionB": "rarely",
+      "optionC": "sometimes",
+      "optionD": "often",
+      "correctOption": "Option B",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q046",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "always",
+      "optionB": "anytime",
+      "optionC": "sometimes",
+      "optionD": "ever",
+      "correctOption": "Option C",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q047",
+      "questionText": "He has ___ been to Japan.",
+      "optionA": "sometimes",
+      "optionB": "never",
+      "optionC": "often",
+      "optionD": "usually",
+      "correctOption": "Option B",
+      "explanation": "'never' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q048",
+      "questionText": "She ___ drinks coffee in the morning.",
+      "optionA": "ever",
+      "optionB": "always",
+      "optionC": "some",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'always' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q049",
+      "questionText": "They ___ go to the cinema anymore.",
+      "optionA": "rarely",
+      "optionB": "usually",
+      "optionC": "always",
+      "optionD": "often",
+      "correctOption": "Option A",
+      "explanation": "'rarely' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T161-Q050",
+      "questionText": "I ___ take the bus to work.",
+      "optionA": "never",
+      "optionB": "sometimes",
+      "optionC": "anytime",
+      "optionD": "always",
+      "correctOption": "Option B",
+      "explanation": "'sometimes' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 81,
+  "topicName": "Am/is/are",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T081-Q001",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q002",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q003",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q004",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q005",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q006",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q007",
+      "questionText": "Choose the correct form of 'be': The university ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q008",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q009",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q010",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q011",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q012",
+      "questionText": "Choose the correct form of 'be': The graduate student ___ present today.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q013",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q014",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q015",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q016",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q017",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q018",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q019",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q020",
+      "questionText": "Choose the correct form of 'be': The graduate student ___ present today.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q021",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "be",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q022",
+      "questionText": "Choose the correct form of 'be': The campus ___ present today.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q023",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q024",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q025",
+      "questionText": "Choose the correct form of 'be': The graduate student ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q026",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q027",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q028",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "am",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q029",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q030",
+      "questionText": "Choose the correct form of 'be': The professor ___ present today.",
+      "optionA": "is",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "am",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q031",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q032",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q033",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q034",
+      "questionText": "Choose the correct form of 'be': The laboratory ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q035",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "are",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q036",
+      "questionText": "Choose the correct form of 'be': The campus ___ present today.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q037",
+      "questionText": "Choose the correct form of 'be': The campus ___ present today.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q038",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "am",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q039",
+      "questionText": "Choose the correct form of 'be': The academic paper ___ present today.",
+      "optionA": "be",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option D",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q040",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "am",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q041",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q042",
+      "questionText": "Choose the correct form of 'be': The lecture ___ present today.",
+      "optionA": "am",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q043",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q044",
+      "questionText": "Choose the correct form of 'be': The campus ___ present today.",
+      "optionA": "are",
+      "optionB": "be",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q045",
+      "questionText": "Choose the correct form of 'be': The research team ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q046",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "are",
+      "optionD": "be",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q047",
+      "questionText": "Choose the correct form of 'be': The university ___ present today.",
+      "optionA": "is",
+      "optionB": "am",
+      "optionC": "be",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q048",
+      "questionText": "Choose the correct form of 'be': The professor ___ present today.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "be",
+      "optionD": "am",
+      "correctOption": "Option B",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q049",
+      "questionText": "Choose the correct form of 'be': The librarian ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T081-Q050",
+      "questionText": "Choose the correct form of 'be': The students ___ present today.",
+      "optionA": "be",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "am",
+      "correctOption": "Option C",
+      "explanation": "'is' is the correct choice in standard English grammar."
+    }
+  ]
+}

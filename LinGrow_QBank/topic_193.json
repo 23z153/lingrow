@@ -1,0 +1,507 @@
+{
+  "topicId": 193,
+  "topicName": "Ought to",
+  "unit": "UNIT 19 — MODAL VERBS",
+  "questions": [
+    {
+      "questionId": "T193-Q001",
+      "questionText": "Fill in the blank: You ought ___ study a letter.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q002",
+      "questionText": "Fill in the blank: He ought ___ read gracefully.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q003",
+      "questionText": "Fill in the blank: She ought ___ speak some food.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q004",
+      "questionText": "Fill in the blank: It ought ___ jump math.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q005",
+      "questionText": "Fill in the blank: We ought ___ cook football.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q006",
+      "questionText": "Fill in the blank: They ought ___ drive high.",
+      "optionA": "to",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q007",
+      "questionText": "Fill in the blank: The student ought ___ buy in the sky.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q008",
+      "questionText": "Fill in the blank: The professor ought ___ draw a bridge.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q009",
+      "questionText": "Fill in the blank: The dog ought ___ create for the exam.",
+      "optionA": "to",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q010",
+      "questionText": "Fill in the blank: My friend ought ___ go fast.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q011",
+      "questionText": "Fill in the blank: The team ought ___ study the car.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q012",
+      "questionText": "Fill in the blank: Someone ought ___ read a program.",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "for",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q013",
+      "questionText": "Fill in the blank: Nobody ought ___ speak an apple.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q014",
+      "questionText": "Fill in the blank: Everyone ought ___ jump to music.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q015",
+      "questionText": "Fill in the blank: The teacher ought ___ cook dinner.",
+      "optionA": "for",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q016",
+      "questionText": "Fill in the blank: The doctor ought ___ drive the house.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q017",
+      "questionText": "Fill in the blank: The manager ought ___ buy history.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q018",
+      "questionText": "Fill in the blank: The child ought ___ draw a book.",
+      "optionA": "for",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q019",
+      "questionText": "Fill in the blank: The workers ought ___ create a song.",
+      "optionA": "for",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q020",
+      "questionText": "Fill in the blank: Alice ought ___ go a movie.",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q021",
+      "questionText": "Fill in the blank: Bob ought ___ study a building.",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q022",
+      "questionText": "Fill in the blank: Charlie ought ___ read at the office.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q023",
+      "questionText": "Fill in the blank: David ought ___ speak slowly.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q024",
+      "questionText": "Fill in the blank: Eve ought ___ jump to Paris.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q025",
+      "questionText": "Fill in the blank: Frank ought ___ cook a website.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q026",
+      "questionText": "Fill in the blank: Grace ought ___ drive all night.",
+      "optionA": "for",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q027",
+      "questionText": "Fill in the blank: Hannah ought ___ buy English.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q028",
+      "questionText": "Fill in the blank: Ivy ought ___ draw the room.",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q029",
+      "questionText": "Fill in the blank: Jack ought ___ create a picture.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q030",
+      "questionText": "Fill in the blank: I ought ___ go to the park.",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q031",
+      "questionText": "Fill in the blank: You ought ___ study a letter.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q032",
+      "questionText": "Fill in the blank: He ought ___ read gracefully.",
+      "optionA": "in",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q033",
+      "questionText": "Fill in the blank: She ought ___ speak some food.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q034",
+      "questionText": "Fill in the blank: It ought ___ jump math.",
+      "optionA": "to",
+      "optionB": "for",
+      "optionC": "at",
+      "optionD": "in",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q035",
+      "questionText": "Fill in the blank: We ought ___ cook football.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q036",
+      "questionText": "Fill in the blank: They ought ___ drive high.",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "for",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q037",
+      "questionText": "Fill in the blank: The student ought ___ buy in the sky.",
+      "optionA": "at",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q038",
+      "questionText": "Fill in the blank: The professor ought ___ draw a bridge.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q039",
+      "questionText": "Fill in the blank: The dog ought ___ create for the exam.",
+      "optionA": "for",
+      "optionB": "in",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q040",
+      "questionText": "Fill in the blank: My friend ought ___ go fast.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "at",
+      "optionD": "for",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q041",
+      "questionText": "Fill in the blank: The team ought ___ study the car.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q042",
+      "questionText": "Fill in the blank: Someone ought ___ read a program.",
+      "optionA": "for",
+      "optionB": "to",
+      "optionC": "in",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q043",
+      "questionText": "Fill in the blank: Nobody ought ___ speak an apple.",
+      "optionA": "to",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option A",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q044",
+      "questionText": "Fill in the blank: Everyone ought ___ jump to music.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "to",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q045",
+      "questionText": "Fill in the blank: The teacher ought ___ cook dinner.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q046",
+      "questionText": "Fill in the blank: The doctor ought ___ drive the house.",
+      "optionA": "for",
+      "optionB": "at",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q047",
+      "questionText": "Fill in the blank: The manager ought ___ buy history.",
+      "optionA": "at",
+      "optionB": "for",
+      "optionC": "in",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q048",
+      "questionText": "Fill in the blank: The child ought ___ draw a book.",
+      "optionA": "at",
+      "optionB": "in",
+      "optionC": "for",
+      "optionD": "to",
+      "correctOption": "Option D",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q049",
+      "questionText": "Fill in the blank: The workers ought ___ create a song.",
+      "optionA": "in",
+      "optionB": "for",
+      "optionC": "to",
+      "optionD": "at",
+      "correctOption": "Option C",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    },
+    {
+      "questionId": "T193-Q050",
+      "questionText": "Fill in the blank: Alice ought ___ go a movie.",
+      "optionA": "in",
+      "optionB": "to",
+      "optionC": "for",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'to' is a modal verb used to express ability, permission, possibility, or obligation."
+    }
+  ]
+}

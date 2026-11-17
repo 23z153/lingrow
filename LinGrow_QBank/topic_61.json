@@ -1,0 +1,507 @@
+{
+  "topicId": 61,
+  "topicName": "Opinion vs fact",
+  "unit": "UNIT 7 — ADJECTIVES",
+  "questions": [
+    {
+      "questionId": "T061-Q001",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q002",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Ugly",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q003",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q004",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Amazing",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q005",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Ugly",
+      "optionC": "Wooden",
+      "optionD": "Beautiful",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q006",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Beautiful",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q007",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Beautiful",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q008",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q009",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Amazing",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q010",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Ugly",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q011",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Beautiful",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q012",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Wooden",
+      "optionC": "Ugly",
+      "optionD": "Amazing",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q013",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Beautiful",
+      "optionD": "Ugly",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q014",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Beautiful",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q015",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Beautiful",
+      "optionD": "Ugly",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q016",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Wooden",
+      "optionC": "Amazing",
+      "optionD": "Beautiful",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q017",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Wooden",
+      "optionC": "Ugly",
+      "optionD": "Beautiful",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q018",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q019",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q020",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Beautiful",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q021",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q022",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q023",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Beautiful",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q024",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Beautiful",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q025",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q026",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q027",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q028",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Beautiful",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q029",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Wooden",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q030",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q031",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Ugly",
+      "optionC": "Amazing",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q032",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Wooden",
+      "optionC": "Ugly",
+      "optionD": "Amazing",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q033",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q034",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Beautiful",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q035",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q036",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Ugly",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q037",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Beautiful",
+      "optionC": "Ugly",
+      "optionD": "Amazing",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q038",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q039",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q040",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Ugly",
+      "optionC": "Amazing",
+      "optionD": "Beautiful",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q041",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Wooden",
+      "optionD": "Amazing",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q042",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Beautiful",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Ugly",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q043",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q044",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Wooden",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q045",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Ugly",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q046",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Amazing",
+      "optionC": "Wooden",
+      "optionD": "Beautiful",
+      "correctOption": "Option C",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q047",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Wooden",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option B",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q048",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Amazing",
+      "optionB": "Beautiful",
+      "optionC": "Ugly",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q049",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Wooden",
+      "optionB": "Ugly",
+      "optionC": "Beautiful",
+      "optionD": "Amazing",
+      "correctOption": "Option A",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T061-Q050",
+      "questionText": "Which of the following is a fact adjective?",
+      "optionA": "Ugly",
+      "optionB": "Beautiful",
+      "optionC": "Amazing",
+      "optionD": "Wooden",
+      "correctOption": "Option D",
+      "explanation": "'Wooden' is the correct choice in standard English grammar."
+    }
+  ]
+}

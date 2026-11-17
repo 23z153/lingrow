@@ -1,0 +1,507 @@
+{
+  "topicId": 43,
+  "topicName": "The",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T043-Q001",
+      "questionText": "Look at ___ sun!",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q002",
+      "questionText": "He is studying ___ sun.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q003",
+      "questionText": "___ sun is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q004",
+      "questionText": "Have you seen ___ sun?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q005",
+      "questionText": "We must protect ___ sun.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q006",
+      "questionText": "Look at ___ moon!",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q007",
+      "questionText": "He is studying ___ moon.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q008",
+      "questionText": "___ moon is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q009",
+      "questionText": "Have you seen ___ moon?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q010",
+      "questionText": "We must protect ___ moon.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q011",
+      "questionText": "Look at ___ earth!",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q012",
+      "questionText": "He is studying ___ earth.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q013",
+      "questionText": "___ earth is very important.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q014",
+      "questionText": "Have you seen ___ earth?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q015",
+      "questionText": "We must protect ___ earth.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q016",
+      "questionText": "Look at ___ sky!",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q017",
+      "questionText": "He is studying ___ sky.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q018",
+      "questionText": "___ sky is very important.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q019",
+      "questionText": "Have you seen ___ sky?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q020",
+      "questionText": "We must protect ___ sky.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q021",
+      "questionText": "Look at ___ president!",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q022",
+      "questionText": "He is studying ___ president.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q023",
+      "questionText": "___ president is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q024",
+      "questionText": "Have you seen ___ president?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q025",
+      "questionText": "We must protect ___ president.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q026",
+      "questionText": "Look at ___ internet!",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q027",
+      "questionText": "He is studying ___ internet.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q028",
+      "questionText": "___ internet is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q029",
+      "questionText": "Have you seen ___ internet?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q030",
+      "questionText": "We must protect ___ internet.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q031",
+      "questionText": "Look at ___ world!",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q032",
+      "questionText": "He is studying ___ world.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q033",
+      "questionText": "___ world is very important.",
+      "optionA": "The",
+      "optionB": "A",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q034",
+      "questionText": "Have you seen ___ world?",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q035",
+      "questionText": "We must protect ___ world.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q036",
+      "questionText": "Look at ___ environment!",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q037",
+      "questionText": "He is studying ___ environment.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q038",
+      "questionText": "___ environment is very important.",
+      "optionA": "A",
+      "optionB": "The",
+      "optionC": "An",
+      "optionD": "No article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q039",
+      "questionText": "Have you seen ___ environment?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q040",
+      "questionText": "We must protect ___ environment.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q041",
+      "questionText": "Look at ___ capital!",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q042",
+      "questionText": "He is studying ___ capital.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q043",
+      "questionText": "___ capital is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "The",
+      "optionD": "No article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q044",
+      "questionText": "Have you seen ___ capital?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "no article",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q045",
+      "questionText": "We must protect ___ capital.",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q046",
+      "questionText": "Look at ___ ocean!",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q047",
+      "questionText": "He is studying ___ ocean.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "no article",
+      "correctOption": "Option C",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q048",
+      "questionText": "___ ocean is very important.",
+      "optionA": "A",
+      "optionB": "An",
+      "optionC": "No article",
+      "optionD": "The",
+      "correctOption": "Option D",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q049",
+      "questionText": "Have you seen ___ ocean?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option A",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    },
+    {
+      "questionId": "T043-Q050",
+      "questionText": "We must protect ___ ocean.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "no article",
+      "correctOption": "Option B",
+      "explanation": "Use 'the' to refer to a specific noun known to both the speaker and listener."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 168,
+  "topicName": "Because",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T168-Q001",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q002",
+      "questionText": "The pupils were happy ____ they passed the exam.",
+      "optionA": "unless",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q003",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "before",
+      "optionB": "while",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q004",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q005",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "while",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q006",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "or",
+      "optionB": "so",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q007",
+      "questionText": "The pupils were happy ____ they passed the exam.",
+      "optionA": "unless",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q008",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "before",
+      "optionB": "if",
+      "optionC": "while",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q009",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q010",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "unless",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q011",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "until",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q012",
+      "questionText": "The pupils were happy ____ they passed the exam.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q013",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "while",
+      "optionB": "because",
+      "optionC": "before",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q014",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "although",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q015",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q016",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "until",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q017",
+      "questionText": "The pupils were happy ____ they passed the exam.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q018",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "while",
+      "optionB": "before",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q019",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "so",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q020",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "unless",
+      "optionC": "while",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q021",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "until",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q022",
+      "questionText": "The learners were happy ____ they passed the exam.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q023",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "if",
+      "optionB": "while",
+      "optionC": "before",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q024",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q025",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "while",
+      "optionB": "until",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q026",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q027",
+      "questionText": "The students were happy ____ they passed the exam.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q028",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "before",
+      "optionB": "while",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q029",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q030",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "unless",
+      "optionD": "while",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q031",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "until",
+      "optionB": "or",
+      "optionC": "so",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q032",
+      "questionText": "The learners were happy ____ they passed the exam.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "unless",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q033",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "because",
+      "optionB": "before",
+      "optionC": "if",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q034",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "because",
+      "optionB": "or",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q035",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "unless",
+      "optionB": "until",
+      "optionC": "because",
+      "optionD": "while",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q036",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "until",
+      "optionC": "or",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q037",
+      "questionText": "The students were happy ____ they passed the exam.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q038",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "before",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q039",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "or",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q040",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "because",
+      "optionB": "until",
+      "optionC": "unless",
+      "optionD": "while",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q041",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "until",
+      "correctOption": "Option A",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q042",
+      "questionText": "The learners were happy ____ they passed the exam.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q043",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "while",
+      "optionB": "before",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q044",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "or",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q045",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "until",
+      "optionB": "while",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q046",
+      "questionText": "I missed the lecture ____ I was sick.",
+      "optionA": "until",
+      "optionB": "so",
+      "optionC": "or",
+      "optionD": "because",
+      "correctOption": "Option D",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q047",
+      "questionText": "The students were happy ____ they passed the exam.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q048",
+      "questionText": "We went to the cafeteria ____ we were hungry.",
+      "optionA": "before",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q049",
+      "questionText": "He asked a question ____ he didn't understand the topic.",
+      "optionA": "although",
+      "optionB": "or",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T168-Q050",
+      "questionText": "She received a scholarship ____ her grades were excellent.",
+      "optionA": "while",
+      "optionB": "until",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'because' is the correct choice in standard English grammar."
+    }
+  ]
+}

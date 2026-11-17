@@ -1,0 +1,507 @@
+{
+  "topicId": 201,
+  "topicName": "Infinitive after verbs",
+  "unit": "UNIT 20 — GERUNDS & INFINITIVES",
+  "questions": [
+    {
+      "questionId": "T201-Q001",
+      "questionText": "I want ___ home now. (Variant 1)",
+      "optionA": "to go",
+      "optionB": "going",
+      "optionC": "went",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q002",
+      "questionText": "She decided ___ the job offer. (Variant 2)",
+      "optionA": "accept",
+      "optionB": "to accept",
+      "optionC": "accepted",
+      "optionD": "accepting",
+      "correctOption": "Option B",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q003",
+      "questionText": "They hope ___ the match tomorrow. (Variant 3)",
+      "optionA": "win",
+      "optionB": "winning",
+      "optionC": "to win",
+      "optionD": "won",
+      "correctOption": "Option C",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q004",
+      "questionText": "He promised ___ me later. (Variant 4)",
+      "optionA": "called",
+      "optionB": "calling",
+      "optionC": "call",
+      "optionD": "to call",
+      "correctOption": "Option D",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q005",
+      "questionText": "We plan ___ Europe next year. (Variant 5)",
+      "optionA": "to visit",
+      "optionB": "visit",
+      "optionC": "visited",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q006",
+      "questionText": "I want ___ home now. (Variant 6)",
+      "optionA": "go",
+      "optionB": "to go",
+      "optionC": "went",
+      "optionD": "going",
+      "correctOption": "Option B",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q007",
+      "questionText": "She decided ___ the job offer. (Variant 7)",
+      "optionA": "accept",
+      "optionB": "accepted",
+      "optionC": "to accept",
+      "optionD": "accepting",
+      "correctOption": "Option C",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q008",
+      "questionText": "They hope ___ the match tomorrow. (Variant 8)",
+      "optionA": "won",
+      "optionB": "win",
+      "optionC": "winning",
+      "optionD": "to win",
+      "correctOption": "Option D",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q009",
+      "questionText": "He promised ___ me later. (Variant 9)",
+      "optionA": "to call",
+      "optionB": "calling",
+      "optionC": "call",
+      "optionD": "called",
+      "correctOption": "Option A",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q010",
+      "questionText": "We plan ___ Europe next year. (Variant 10)",
+      "optionA": "visited",
+      "optionB": "to visit",
+      "optionC": "visiting",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q011",
+      "questionText": "I want ___ home now. (Variant 11)",
+      "optionA": "going",
+      "optionB": "go",
+      "optionC": "to go",
+      "optionD": "went",
+      "correctOption": "Option C",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q012",
+      "questionText": "She decided ___ the job offer. (Variant 12)",
+      "optionA": "accept",
+      "optionB": "accepting",
+      "optionC": "accepted",
+      "optionD": "to accept",
+      "correctOption": "Option D",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q013",
+      "questionText": "They hope ___ the match tomorrow. (Variant 13)",
+      "optionA": "to win",
+      "optionB": "win",
+      "optionC": "winning",
+      "optionD": "won",
+      "correctOption": "Option A",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q014",
+      "questionText": "He promised ___ me later. (Variant 14)",
+      "optionA": "calling",
+      "optionB": "to call",
+      "optionC": "call",
+      "optionD": "called",
+      "correctOption": "Option B",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q015",
+      "questionText": "We plan ___ Europe next year. (Variant 15)",
+      "optionA": "visited",
+      "optionB": "visiting",
+      "optionC": "to visit",
+      "optionD": "visit",
+      "correctOption": "Option C",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q016",
+      "questionText": "I want ___ home now. (Variant 16)",
+      "optionA": "went",
+      "optionB": "go",
+      "optionC": "going",
+      "optionD": "to go",
+      "correctOption": "Option D",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q017",
+      "questionText": "She decided ___ the job offer. (Variant 17)",
+      "optionA": "to accept",
+      "optionB": "accepted",
+      "optionC": "accepting",
+      "optionD": "accept",
+      "correctOption": "Option A",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q018",
+      "questionText": "They hope ___ the match tomorrow. (Variant 18)",
+      "optionA": "win",
+      "optionB": "to win",
+      "optionC": "won",
+      "optionD": "winning",
+      "correctOption": "Option B",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q019",
+      "questionText": "He promised ___ me later. (Variant 19)",
+      "optionA": "called",
+      "optionB": "call",
+      "optionC": "to call",
+      "optionD": "calling",
+      "correctOption": "Option C",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q020",
+      "questionText": "We plan ___ Europe next year. (Variant 20)",
+      "optionA": "visited",
+      "optionB": "visiting",
+      "optionC": "visit",
+      "optionD": "to visit",
+      "correctOption": "Option D",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q021",
+      "questionText": "I want ___ home now. (Variant 21)",
+      "optionA": "to go",
+      "optionB": "going",
+      "optionC": "went",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q022",
+      "questionText": "She decided ___ the job offer. (Variant 22)",
+      "optionA": "accepting",
+      "optionB": "to accept",
+      "optionC": "accept",
+      "optionD": "accepted",
+      "correctOption": "Option B",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q023",
+      "questionText": "They hope ___ the match tomorrow. (Variant 23)",
+      "optionA": "win",
+      "optionB": "won",
+      "optionC": "to win",
+      "optionD": "winning",
+      "correctOption": "Option C",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q024",
+      "questionText": "He promised ___ me later. (Variant 24)",
+      "optionA": "calling",
+      "optionB": "call",
+      "optionC": "called",
+      "optionD": "to call",
+      "correctOption": "Option D",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q025",
+      "questionText": "We plan ___ Europe next year. (Variant 25)",
+      "optionA": "to visit",
+      "optionB": "visit",
+      "optionC": "visited",
+      "optionD": "visiting",
+      "correctOption": "Option A",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q026",
+      "questionText": "I want ___ home now. (Variant 26)",
+      "optionA": "going",
+      "optionB": "to go",
+      "optionC": "went",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q027",
+      "questionText": "She decided ___ the job offer. (Variant 27)",
+      "optionA": "accept",
+      "optionB": "accepted",
+      "optionC": "to accept",
+      "optionD": "accepting",
+      "correctOption": "Option C",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q028",
+      "questionText": "They hope ___ the match tomorrow. (Variant 28)",
+      "optionA": "winning",
+      "optionB": "win",
+      "optionC": "won",
+      "optionD": "to win",
+      "correctOption": "Option D",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q029",
+      "questionText": "He promised ___ me later. (Variant 29)",
+      "optionA": "to call",
+      "optionB": "call",
+      "optionC": "calling",
+      "optionD": "called",
+      "correctOption": "Option A",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q030",
+      "questionText": "We plan ___ Europe next year. (Variant 30)",
+      "optionA": "visited",
+      "optionB": "to visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q031",
+      "questionText": "I want ___ home now. (Variant 31)",
+      "optionA": "going",
+      "optionB": "go",
+      "optionC": "to go",
+      "optionD": "went",
+      "correctOption": "Option C",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q032",
+      "questionText": "She decided ___ the job offer. (Variant 32)",
+      "optionA": "accepting",
+      "optionB": "accepted",
+      "optionC": "accept",
+      "optionD": "to accept",
+      "correctOption": "Option D",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q033",
+      "questionText": "They hope ___ the match tomorrow. (Variant 33)",
+      "optionA": "to win",
+      "optionB": "winning",
+      "optionC": "won",
+      "optionD": "win",
+      "correctOption": "Option A",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q034",
+      "questionText": "He promised ___ me later. (Variant 34)",
+      "optionA": "calling",
+      "optionB": "to call",
+      "optionC": "called",
+      "optionD": "call",
+      "correctOption": "Option B",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q035",
+      "questionText": "We plan ___ Europe next year. (Variant 35)",
+      "optionA": "visiting",
+      "optionB": "visited",
+      "optionC": "to visit",
+      "optionD": "visit",
+      "correctOption": "Option C",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q036",
+      "questionText": "I want ___ home now. (Variant 36)",
+      "optionA": "going",
+      "optionB": "went",
+      "optionC": "go",
+      "optionD": "to go",
+      "correctOption": "Option D",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q037",
+      "questionText": "She decided ___ the job offer. (Variant 37)",
+      "optionA": "to accept",
+      "optionB": "accept",
+      "optionC": "accepting",
+      "optionD": "accepted",
+      "correctOption": "Option A",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q038",
+      "questionText": "They hope ___ the match tomorrow. (Variant 38)",
+      "optionA": "won",
+      "optionB": "to win",
+      "optionC": "winning",
+      "optionD": "win",
+      "correctOption": "Option B",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q039",
+      "questionText": "He promised ___ me later. (Variant 39)",
+      "optionA": "call",
+      "optionB": "calling",
+      "optionC": "to call",
+      "optionD": "called",
+      "correctOption": "Option C",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q040",
+      "questionText": "We plan ___ Europe next year. (Variant 40)",
+      "optionA": "visited",
+      "optionB": "visit",
+      "optionC": "visiting",
+      "optionD": "to visit",
+      "correctOption": "Option D",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q041",
+      "questionText": "I want ___ home now. (Variant 41)",
+      "optionA": "to go",
+      "optionB": "going",
+      "optionC": "went",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q042",
+      "questionText": "She decided ___ the job offer. (Variant 42)",
+      "optionA": "accepting",
+      "optionB": "to accept",
+      "optionC": "accepted",
+      "optionD": "accept",
+      "correctOption": "Option B",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q043",
+      "questionText": "They hope ___ the match tomorrow. (Variant 43)",
+      "optionA": "won",
+      "optionB": "winning",
+      "optionC": "to win",
+      "optionD": "win",
+      "correctOption": "Option C",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q044",
+      "questionText": "He promised ___ me later. (Variant 44)",
+      "optionA": "called",
+      "optionB": "call",
+      "optionC": "calling",
+      "optionD": "to call",
+      "correctOption": "Option D",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q045",
+      "questionText": "We plan ___ Europe next year. (Variant 45)",
+      "optionA": "to visit",
+      "optionB": "visiting",
+      "optionC": "visited",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q046",
+      "questionText": "I want ___ home now. (Variant 46)",
+      "optionA": "go",
+      "optionB": "to go",
+      "optionC": "went",
+      "optionD": "going",
+      "correctOption": "Option B",
+      "explanation": "'to go' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q047",
+      "questionText": "She decided ___ the job offer. (Variant 47)",
+      "optionA": "accepted",
+      "optionB": "accept",
+      "optionC": "to accept",
+      "optionD": "accepting",
+      "correctOption": "Option C",
+      "explanation": "'to accept' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q048",
+      "questionText": "They hope ___ the match tomorrow. (Variant 48)",
+      "optionA": "winning",
+      "optionB": "won",
+      "optionC": "win",
+      "optionD": "to win",
+      "correctOption": "Option D",
+      "explanation": "'to win' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q049",
+      "questionText": "He promised ___ me later. (Variant 49)",
+      "optionA": "to call",
+      "optionB": "call",
+      "optionC": "calling",
+      "optionD": "called",
+      "correctOption": "Option A",
+      "explanation": "'to call' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T201-Q050",
+      "questionText": "We plan ___ Europe next year. (Variant 50)",
+      "optionA": "visited",
+      "optionB": "to visit",
+      "optionC": "visit",
+      "optionD": "visiting",
+      "correctOption": "Option B",
+      "explanation": "'to visit' is the correct choice in standard English grammar."
+    }
+  ]
+}

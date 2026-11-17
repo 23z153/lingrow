@@ -1,0 +1,507 @@
+{
+  "topicId": 151,
+  "topicName": "Beside/between/among/near",
+  "unit": "UNIT 15 — PREPOSITIONS",
+  "questions": [
+    {
+      "questionId": "T151-Q001",
+      "questionText": "She sat ___ her best friend. (1)",
+      "optionA": "between",
+      "optionB": "beside",
+      "optionC": "near",
+      "optionD": "among",
+      "correctOption": "Option B",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q002",
+      "questionText": "The building is ___ the bank and the post office. (2)",
+      "optionA": "beside",
+      "optionB": "among",
+      "optionC": "between",
+      "optionD": "near",
+      "correctOption": "Option C",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q003",
+      "questionText": "She sat ___ her best friend. (3)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "beside",
+      "correctOption": "Option D",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q004",
+      "questionText": "She sat ___ her best friend. (4)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "between",
+      "correctOption": "Option A",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q005",
+      "questionText": "She sat ___ her best friend. (5)",
+      "optionA": "between",
+      "optionB": "beside",
+      "optionC": "near",
+      "optionD": "among",
+      "correctOption": "Option B",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q006",
+      "questionText": "The building is ___ the bank and the post office. (6)",
+      "optionA": "among",
+      "optionB": "beside",
+      "optionC": "between",
+      "optionD": "near",
+      "correctOption": "Option C",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q007",
+      "questionText": "The cottage is hidden ___ the trees. (7)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q008",
+      "questionText": "She sat ___ her best friend. (8)",
+      "optionA": "beside",
+      "optionB": "between",
+      "optionC": "near",
+      "optionD": "among",
+      "correctOption": "Option A",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q009",
+      "questionText": "The cottage is hidden ___ the trees. (9)",
+      "optionA": "beside",
+      "optionB": "among",
+      "optionC": "near",
+      "optionD": "between",
+      "correctOption": "Option B",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q010",
+      "questionText": "She sat ___ her best friend. (10)",
+      "optionA": "between",
+      "optionB": "among",
+      "optionC": "beside",
+      "optionD": "near",
+      "correctOption": "Option C",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q011",
+      "questionText": "We live ___ the university. (11)",
+      "optionA": "beside",
+      "optionB": "among",
+      "optionC": "between",
+      "optionD": "near",
+      "correctOption": "Option D",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q012",
+      "questionText": "The building is ___ the bank and the post office. (12)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "beside",
+      "optionD": "among",
+      "correctOption": "Option A",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q013",
+      "questionText": "The building is ___ the bank and the post office. (13)",
+      "optionA": "among",
+      "optionB": "between",
+      "optionC": "near",
+      "optionD": "beside",
+      "correctOption": "Option B",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q014",
+      "questionText": "She sat ___ her best friend. (14)",
+      "optionA": "between",
+      "optionB": "among",
+      "optionC": "beside",
+      "optionD": "near",
+      "correctOption": "Option C",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q015",
+      "questionText": "The cottage is hidden ___ the trees. (15)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q016",
+      "questionText": "We live ___ the university. (16)",
+      "optionA": "near",
+      "optionB": "beside",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option A",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q017",
+      "questionText": "We live ___ the university. (17)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "beside",
+      "optionD": "among",
+      "correctOption": "Option B",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q018",
+      "questionText": "We live ___ the university. (18)",
+      "optionA": "among",
+      "optionB": "between",
+      "optionC": "near",
+      "optionD": "beside",
+      "correctOption": "Option C",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q019",
+      "questionText": "The cottage is hidden ___ the trees. (19)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "beside",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q020",
+      "questionText": "We live ___ the university. (20)",
+      "optionA": "near",
+      "optionB": "beside",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option A",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q021",
+      "questionText": "We live ___ the university. (21)",
+      "optionA": "among",
+      "optionB": "near",
+      "optionC": "beside",
+      "optionD": "between",
+      "correctOption": "Option B",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q022",
+      "questionText": "She sat ___ her best friend. (22)",
+      "optionA": "near",
+      "optionB": "among",
+      "optionC": "beside",
+      "optionD": "between",
+      "correctOption": "Option C",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q023",
+      "questionText": "She sat ___ her best friend. (23)",
+      "optionA": "among",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "beside",
+      "correctOption": "Option D",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q024",
+      "questionText": "The cottage is hidden ___ the trees. (24)",
+      "optionA": "among",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "beside",
+      "correctOption": "Option A",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q025",
+      "questionText": "She sat ___ her best friend. (25)",
+      "optionA": "among",
+      "optionB": "beside",
+      "optionC": "between",
+      "optionD": "near",
+      "correctOption": "Option B",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q026",
+      "questionText": "The cottage is hidden ___ the trees. (26)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "beside",
+      "correctOption": "Option C",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q027",
+      "questionText": "The cottage is hidden ___ the trees. (27)",
+      "optionA": "beside",
+      "optionB": "between",
+      "optionC": "near",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q028",
+      "questionText": "We live ___ the university. (28)",
+      "optionA": "near",
+      "optionB": "between",
+      "optionC": "among",
+      "optionD": "beside",
+      "correctOption": "Option A",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q029",
+      "questionText": "The cottage is hidden ___ the trees. (29)",
+      "optionA": "near",
+      "optionB": "among",
+      "optionC": "beside",
+      "optionD": "between",
+      "correctOption": "Option B",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q030",
+      "questionText": "She sat ___ her best friend. (30)",
+      "optionA": "near",
+      "optionB": "between",
+      "optionC": "beside",
+      "optionD": "among",
+      "correctOption": "Option C",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q031",
+      "questionText": "The cottage is hidden ___ the trees. (31)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q032",
+      "questionText": "The building is ___ the bank and the post office. (32)",
+      "optionA": "between",
+      "optionB": "beside",
+      "optionC": "among",
+      "optionD": "near",
+      "correctOption": "Option A",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q033",
+      "questionText": "The cottage is hidden ___ the trees. (33)",
+      "optionA": "near",
+      "optionB": "among",
+      "optionC": "between",
+      "optionD": "beside",
+      "correctOption": "Option B",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q034",
+      "questionText": "The building is ___ the bank and the post office. (34)",
+      "optionA": "near",
+      "optionB": "among",
+      "optionC": "between",
+      "optionD": "beside",
+      "correctOption": "Option C",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q035",
+      "questionText": "She sat ___ her best friend. (35)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "beside",
+      "correctOption": "Option D",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q036",
+      "questionText": "The cottage is hidden ___ the trees. (36)",
+      "optionA": "among",
+      "optionB": "beside",
+      "optionC": "near",
+      "optionD": "between",
+      "correctOption": "Option A",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q037",
+      "questionText": "The cottage is hidden ___ the trees. (37)",
+      "optionA": "beside",
+      "optionB": "among",
+      "optionC": "near",
+      "optionD": "between",
+      "correctOption": "Option B",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q038",
+      "questionText": "The cottage is hidden ___ the trees. (38)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "between",
+      "correctOption": "Option C",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q039",
+      "questionText": "She sat ___ her best friend. (39)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "beside",
+      "correctOption": "Option D",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q040",
+      "questionText": "She sat ___ her best friend. (40)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option A",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q041",
+      "questionText": "She sat ___ her best friend. (41)",
+      "optionA": "between",
+      "optionB": "beside",
+      "optionC": "among",
+      "optionD": "near",
+      "correctOption": "Option B",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q042",
+      "questionText": "The cottage is hidden ___ the trees. (42)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "between",
+      "correctOption": "Option C",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q043",
+      "questionText": "The cottage is hidden ___ the trees. (43)",
+      "optionA": "near",
+      "optionB": "beside",
+      "optionC": "between",
+      "optionD": "among",
+      "correctOption": "Option D",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q044",
+      "questionText": "She sat ___ her best friend. (44)",
+      "optionA": "beside",
+      "optionB": "near",
+      "optionC": "among",
+      "optionD": "between",
+      "correctOption": "Option A",
+      "explanation": "'beside' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q045",
+      "questionText": "We live ___ the university. (45)",
+      "optionA": "between",
+      "optionB": "near",
+      "optionC": "beside",
+      "optionD": "among",
+      "correctOption": "Option B",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q046",
+      "questionText": "We live ___ the university. (46)",
+      "optionA": "between",
+      "optionB": "among",
+      "optionC": "near",
+      "optionD": "beside",
+      "correctOption": "Option C",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q047",
+      "questionText": "We live ___ the university. (47)",
+      "optionA": "beside",
+      "optionB": "between",
+      "optionC": "among",
+      "optionD": "near",
+      "correctOption": "Option D",
+      "explanation": "'near' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q048",
+      "questionText": "The building is ___ the bank and the post office. (48)",
+      "optionA": "between",
+      "optionB": "among",
+      "optionC": "near",
+      "optionD": "beside",
+      "correctOption": "Option A",
+      "explanation": "'between' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q049",
+      "questionText": "The cottage is hidden ___ the trees. (49)",
+      "optionA": "near",
+      "optionB": "among",
+      "optionC": "beside",
+      "optionD": "between",
+      "correctOption": "Option B",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T151-Q050",
+      "questionText": "The cottage is hidden ___ the trees. (50)",
+      "optionA": "near",
+      "optionB": "beside",
+      "optionC": "among",
+      "optionD": "between",
+      "correctOption": "Option C",
+      "explanation": "'among' is the correct choice in standard English grammar."
+    }
+  ]
+}

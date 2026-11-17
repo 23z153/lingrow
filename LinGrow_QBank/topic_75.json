@@ -1,0 +1,507 @@
+{
+  "topicId": 75,
+  "topicName": "Transitive verbs",
+  "unit": "UNIT 8 — VERBS & VERB FORMS",
+  "questions": [
+    {
+      "questionId": "T075-Q001",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "She slept well.",
+      "optionB": "They laughed loudly.",
+      "optionC": "He arrived late.",
+      "optionD": "He bought a new car.",
+      "correctOption": "Option D",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q002",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "ball",
+      "optionB": "chased",
+      "optionC": "The",
+      "optionD": "dog",
+      "correctOption": "Option A",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q003",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "to",
+      "optionB": "friend",
+      "optionC": "letter",
+      "optionD": "sent",
+      "correctOption": "Option D",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q004",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "book",
+      "optionB": "She",
+      "optionC": "read",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q005",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "She slept well.",
+      "optionC": "He bought a new car.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option C",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q006",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "ball",
+      "optionB": "chased",
+      "optionC": "The",
+      "optionD": "dog",
+      "correctOption": "Option A",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q007",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "to",
+      "optionB": "friend",
+      "optionC": "sent",
+      "optionD": "letter",
+      "correctOption": "Option C",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q008",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "the",
+      "optionB": "read",
+      "optionC": "book",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q009",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "He bought a new car.",
+      "optionC": "She slept well.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option B",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q010",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "chased",
+      "optionB": "dog",
+      "optionC": "The",
+      "optionD": "ball",
+      "correctOption": "Option D",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q011",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "sent",
+      "optionB": "letter",
+      "optionC": "friend",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q012",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "read",
+      "optionB": "She",
+      "optionC": "book",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q013",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "She slept well.",
+      "optionB": "He bought a new car.",
+      "optionC": "They laughed loudly.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option B",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q014",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "ball",
+      "optionB": "chased",
+      "optionC": "dog",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q015",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "letter",
+      "optionB": "sent",
+      "optionC": "to",
+      "optionD": "friend",
+      "correctOption": "Option B",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q016",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "She",
+      "optionB": "read",
+      "optionC": "book",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q017",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "He bought a new car.",
+      "optionB": "They laughed loudly.",
+      "optionC": "He arrived late.",
+      "optionD": "She slept well.",
+      "correctOption": "Option A",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q018",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "chased",
+      "optionB": "dog",
+      "optionC": "The",
+      "optionD": "ball",
+      "correctOption": "Option D",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q019",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "letter",
+      "optionB": "to",
+      "optionC": "sent",
+      "optionD": "friend",
+      "correctOption": "Option C",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q020",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "the",
+      "optionB": "read",
+      "optionC": "She",
+      "optionD": "book",
+      "correctOption": "Option B",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q021",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "He arrived late.",
+      "optionB": "He bought a new car.",
+      "optionC": "She slept well.",
+      "optionD": "They laughed loudly.",
+      "correctOption": "Option B",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q022",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "ball",
+      "optionB": "dog",
+      "optionC": "The",
+      "optionD": "chased",
+      "correctOption": "Option A",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q023",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "friend",
+      "optionB": "to",
+      "optionC": "sent",
+      "optionD": "letter",
+      "correctOption": "Option C",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q024",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "the",
+      "optionB": "book",
+      "optionC": "She",
+      "optionD": "read",
+      "correctOption": "Option D",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q025",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "She slept well.",
+      "optionC": "He bought a new car.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option C",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q026",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "chased",
+      "optionB": "ball",
+      "optionC": "dog",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q027",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "sent",
+      "optionB": "to",
+      "optionC": "letter",
+      "optionD": "friend",
+      "correctOption": "Option A",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q028",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "read",
+      "optionB": "the",
+      "optionC": "She",
+      "optionD": "book",
+      "correctOption": "Option A",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q029",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "He arrived late.",
+      "optionC": "She slept well.",
+      "optionD": "He bought a new car.",
+      "correctOption": "Option D",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q030",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "chased",
+      "optionB": "The",
+      "optionC": "dog",
+      "optionD": "ball",
+      "correctOption": "Option D",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q031",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "sent",
+      "optionB": "friend",
+      "optionC": "letter",
+      "optionD": "to",
+      "correctOption": "Option A",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q032",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "the",
+      "optionB": "read",
+      "optionC": "book",
+      "optionD": "She",
+      "correctOption": "Option B",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q033",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "He bought a new car.",
+      "optionB": "She slept well.",
+      "optionC": "They laughed loudly.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option A",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q034",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "dog",
+      "optionB": "chased",
+      "optionC": "ball",
+      "optionD": "The",
+      "correctOption": "Option C",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q035",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "sent",
+      "optionB": "letter",
+      "optionC": "to",
+      "optionD": "friend",
+      "correctOption": "Option A",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q036",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "She",
+      "optionB": "book",
+      "optionC": "read",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q037",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "He bought a new car.",
+      "optionB": "He arrived late.",
+      "optionC": "She slept well.",
+      "optionD": "They laughed loudly.",
+      "correctOption": "Option A",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q038",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "The",
+      "optionB": "chased",
+      "optionC": "dog",
+      "optionD": "ball",
+      "correctOption": "Option D",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q039",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "friend",
+      "optionB": "to",
+      "optionC": "sent",
+      "optionD": "letter",
+      "correctOption": "Option C",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q040",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "She",
+      "optionB": "the",
+      "optionC": "read",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q041",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "She slept well.",
+      "optionC": "He bought a new car.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option C",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q042",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "dog",
+      "optionB": "The",
+      "optionC": "ball",
+      "optionD": "chased",
+      "correctOption": "Option C",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q043",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "letter",
+      "optionB": "sent",
+      "optionC": "to",
+      "optionD": "friend",
+      "correctOption": "Option B",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q044",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "She",
+      "optionB": "the",
+      "optionC": "read",
+      "optionD": "book",
+      "correctOption": "Option C",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q045",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "They laughed loudly.",
+      "optionB": "He bought a new car.",
+      "optionC": "She slept well.",
+      "optionD": "He arrived late.",
+      "correctOption": "Option B",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q046",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "chased",
+      "optionB": "dog",
+      "optionC": "ball",
+      "optionD": "The",
+      "correctOption": "Option C",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q047",
+      "questionText": "Which word acts as a transitive verb here? 'I sent a letter to my friend.'",
+      "optionA": "letter",
+      "optionB": "sent",
+      "optionC": "to",
+      "optionD": "friend",
+      "correctOption": "Option B",
+      "explanation": "'sent' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q048",
+      "questionText": "Identify the transitive verb: 'She read the book.'",
+      "optionA": "read",
+      "optionB": "She",
+      "optionC": "the",
+      "optionD": "book",
+      "correctOption": "Option A",
+      "explanation": "'read' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T075-Q049",
+      "questionText": "Which sentence uses a transitive verb?",
+      "optionA": "He arrived late.",
+      "optionB": "She slept well.",
+      "optionC": "He bought a new car.",
+      "optionD": "They laughed loudly.",
+      "correctOption": "Option C",
+      "explanation": "'He bought a new car' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T075-Q050",
+      "questionText": "Identify the object of the transitive verb: 'The dog chased the ball.'",
+      "optionA": "The",
+      "optionB": "ball",
+      "optionC": "dog",
+      "optionD": "chased",
+      "correctOption": "Option B",
+      "explanation": "'ball' is the correct choice in standard English grammar."
+    }
+  ]
+}

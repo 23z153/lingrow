@@ -1,0 +1,507 @@
+{
+  "topicId": 17,
+  "topicName": "Common nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T017-Q001",
+      "questionText": "Choose the common noun in this sentence: \"The student reads in the library.\"",
+      "optionA": "student",
+      "optionB": "reads",
+      "optionC": "in",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'student' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q002",
+      "questionText": "Which word is a common noun?",
+      "optionA": "university",
+      "optionB": "quickly",
+      "optionC": "study",
+      "optionD": "Boston",
+      "correctOption": "Option A",
+      "explanation": "'university' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q003",
+      "questionText": "Fill in the blank: Please bring your ______ to the lecture.",
+      "optionA": "notebook",
+      "optionB": "smart",
+      "optionC": "arrive",
+      "optionD": "Mary",
+      "correctOption": "Option A",
+      "explanation": "'notebook' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q004",
+      "questionText": "Identify the common noun: \"Dr. Smith teaches science.\"",
+      "optionA": "science",
+      "optionB": "Dr. Smith",
+      "optionC": "teaches",
+      "optionD": "perfectly",
+      "correctOption": "Option A",
+      "explanation": "'science' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q005",
+      "questionText": "Which of the following is a general name for a person?",
+      "optionA": "boy",
+      "optionB": "David",
+      "optionC": "London",
+      "optionD": "create",
+      "correctOption": "Option A",
+      "explanation": "'boy' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q006",
+      "questionText": "Choose the correct common noun: The ______ is closed on Sundays.",
+      "optionA": "cafeteria",
+      "optionB": "eat",
+      "optionC": "hungry",
+      "optionD": "Professor Lee",
+      "correctOption": "Option A",
+      "explanation": "'cafeteria' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q007",
+      "questionText": "Identify the common noun: \"They bought a new computer.\"",
+      "optionA": "computer",
+      "optionB": "They",
+      "optionC": "bought",
+      "optionD": "new",
+      "correctOption": "Option A",
+      "explanation": "'computer' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q008",
+      "questionText": "Which word is a common noun?",
+      "optionA": "city",
+      "optionB": "beautifully",
+      "optionC": "understand",
+      "optionD": "Spanish",
+      "correctOption": "Option A",
+      "explanation": "'city' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q009",
+      "questionText": "Fill in the blank: The ______ is full of eager learners.",
+      "optionA": "classroom",
+      "optionB": "learn",
+      "optionC": "interesting",
+      "optionD": "tomorrow",
+      "correctOption": "Option A",
+      "explanation": "'classroom' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q010",
+      "questionText": "Identify the common noun: \"She left her backpack on the chair.\"",
+      "optionA": "backpack",
+      "optionB": "She",
+      "optionC": "left",
+      "optionD": "on",
+      "correctOption": "Option A",
+      "explanation": "'backpack' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q011",
+      "questionText": "Which word is a general name for a place?",
+      "optionA": "library",
+      "optionB": "Harvard",
+      "optionC": "walk",
+      "optionD": "tired",
+      "correctOption": "Option A",
+      "explanation": "'library' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q012",
+      "questionText": "Choose the correct common noun: We have a ______ in chemistry today.",
+      "optionA": "test",
+      "optionB": "tested",
+      "optionC": "difficult",
+      "optionD": "Wednesday",
+      "correctOption": "Option A",
+      "explanation": "'test' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q013",
+      "questionText": "Identify the common noun: \"The assignment is due next week.\"",
+      "optionA": "assignment",
+      "optionB": "The",
+      "optionC": "is",
+      "optionD": "due",
+      "correctOption": "Option A",
+      "explanation": "'assignment' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q014",
+      "questionText": "Choose the common noun: \"The bus arrives at 8 AM.\"",
+      "optionA": "arrives",
+      "optionB": "bus",
+      "optionC": "The",
+      "optionD": "at",
+      "correctOption": "Option B",
+      "explanation": "'bus' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q015",
+      "questionText": "Which word is a common noun?",
+      "optionA": "read",
+      "optionB": "dictionary",
+      "optionC": "very",
+      "optionD": "English",
+      "correctOption": "Option B",
+      "explanation": "'dictionary' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q016",
+      "questionText": "Fill in the blank: He is a friendly ______ in my class.",
+      "optionA": "happy",
+      "optionB": "guy",
+      "optionC": "speaks",
+      "optionD": "Michael",
+      "correctOption": "Option B",
+      "explanation": "'guy' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q017",
+      "questionText": "Identify the common noun: \"I have a question about the homework.\"",
+      "optionA": "I",
+      "optionB": "question",
+      "optionC": "have",
+      "optionD": "about",
+      "correctOption": "Option B",
+      "explanation": "'question' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q018",
+      "questionText": "Which of the following is a general name for a thing?",
+      "optionA": "write",
+      "optionB": "desk",
+      "optionC": "Alice",
+      "optionD": "loudly",
+      "correctOption": "Option B",
+      "explanation": "'desk' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q019",
+      "questionText": "Choose the correct common noun: The ______ requires a password.",
+      "optionA": "enter",
+      "optionB": "website",
+      "optionC": "secure",
+      "optionD": "Google",
+      "correctOption": "Option B",
+      "explanation": "'website' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q020",
+      "questionText": "Identify the common noun: \"They work on a large project.\"",
+      "optionA": "They",
+      "optionB": "project",
+      "optionC": "work",
+      "optionD": "large",
+      "correctOption": "Option B",
+      "explanation": "'project' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q021",
+      "questionText": "Which word is a common noun?",
+      "optionA": "Paris",
+      "optionB": "country",
+      "optionC": "fly",
+      "optionD": "beautiful",
+      "correctOption": "Option B",
+      "explanation": "'country' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q022",
+      "questionText": "Fill in the blank: I need to buy a ______ for the train.",
+      "optionA": "travel",
+      "optionB": "ticket",
+      "optionC": "fast",
+      "optionD": "London",
+      "correctOption": "Option B",
+      "explanation": "'ticket' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q023",
+      "questionText": "Identify the common noun: \"The professor holds a marker.\"",
+      "optionA": "holds",
+      "optionB": "marker",
+      "optionC": "The",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'marker' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q024",
+      "questionText": "Which word is a general name for a person?",
+      "optionA": "Sarah",
+      "optionB": "girl",
+      "optionC": "run",
+      "optionD": "slowly",
+      "correctOption": "Option B",
+      "explanation": "'girl' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q025",
+      "questionText": "Choose the correct common noun: She wrote a great ______ for history class.",
+      "optionA": "excellent",
+      "optionB": "essay",
+      "optionC": "wrote",
+      "optionD": "Dr. Brown",
+      "correctOption": "Option B",
+      "explanation": "'essay' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q026",
+      "questionText": "Identify the common noun: \"The schedule is on the wall.\"",
+      "optionA": "is",
+      "optionB": "wall",
+      "optionC": "The",
+      "optionD": "on",
+      "correctOption": "Option B",
+      "explanation": "'wall' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q027",
+      "questionText": "Choose the common noun: \"We eat in the dining hall.\"",
+      "optionA": "We",
+      "optionB": "eat",
+      "optionC": "hall",
+      "optionD": "in",
+      "correctOption": "Option C",
+      "explanation": "'hall' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q028",
+      "questionText": "Which word is a common noun?",
+      "optionA": "solve",
+      "optionB": "quickly",
+      "optionC": "problem",
+      "optionD": "Einstein",
+      "correctOption": "Option C",
+      "explanation": "'problem' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q029",
+      "questionText": "Fill in the blank: Our ______ starts in September.",
+      "optionA": "academic",
+      "optionB": "begin",
+      "optionC": "semester",
+      "optionD": "Monday",
+      "correctOption": "Option C",
+      "explanation": "'semester' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q030",
+      "questionText": "Identify the common noun: \"He brought his own pen.\"",
+      "optionA": "He",
+      "optionB": "brought",
+      "optionC": "pen",
+      "optionD": "his",
+      "correctOption": "Option C",
+      "explanation": "'pen' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q031",
+      "questionText": "Which of the following is a general name for a place?",
+      "optionA": "Texas",
+      "optionB": "big",
+      "optionC": "state",
+      "optionD": "grow",
+      "correctOption": "Option C",
+      "explanation": "'state' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q032",
+      "questionText": "Choose the correct common noun: Do you have enough ______ to pay for lunch?",
+      "optionA": "expensive",
+      "optionB": "buy",
+      "optionC": "money",
+      "optionD": "Visa",
+      "correctOption": "Option C",
+      "explanation": "'money' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q033",
+      "questionText": "Identify the common noun: \"The group studies together.\"",
+      "optionA": "The",
+      "optionB": "studies",
+      "optionC": "group",
+      "optionD": "together",
+      "correctOption": "Option C",
+      "explanation": "'group' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q034",
+      "questionText": "Which word is a common noun?",
+      "optionA": "jump",
+      "optionB": "over",
+      "optionC": "fence",
+      "optionD": "John",
+      "correctOption": "Option C",
+      "explanation": "'fence' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q035",
+      "questionText": "Fill in the blank: I live in an apartment with my ______. ",
+      "optionA": "shared",
+      "optionB": "clean",
+      "optionC": "roommate",
+      "optionD": "David",
+      "correctOption": "Option C",
+      "explanation": "'roommate' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q036",
+      "questionText": "Identify the common noun: \"The laboratory has new equipment.\"",
+      "optionA": "The",
+      "optionB": "has",
+      "optionC": "equipment",
+      "optionD": "new",
+      "correctOption": "Option C",
+      "explanation": "'equipment' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q037",
+      "questionText": "Which word is a general name for a thing?",
+      "optionA": "Apple (brand)",
+      "optionB": "bite",
+      "optionC": "apple (fruit)",
+      "optionD": "delicious",
+      "correctOption": "Option C",
+      "explanation": "'apple (fruit)' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q038",
+      "questionText": "Choose the correct common noun: They play a ______ every Friday.",
+      "optionA": "kick",
+      "optionB": "fun",
+      "optionC": "sport",
+      "optionD": "Brazil",
+      "correctOption": "Option C",
+      "explanation": "'sport' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q039",
+      "questionText": "Choose the common noun: \"I read an interesting article.\"",
+      "optionA": "I",
+      "optionB": "read",
+      "optionC": "interesting",
+      "optionD": "article",
+      "correctOption": "Option D",
+      "explanation": "'article' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q040",
+      "questionText": "Which word is a common noun?",
+      "optionA": "listen",
+      "optionB": "carefully",
+      "optionC": "Mozart",
+      "optionD": "music",
+      "correctOption": "Option D",
+      "explanation": "'music' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q041",
+      "questionText": "Fill in the blank: The ______ opens at 8 AM.",
+      "optionA": "open",
+      "optionB": "early",
+      "optionC": "Starbucks",
+      "optionD": "cafe",
+      "correctOption": "Option D",
+      "explanation": "'cafe' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q042",
+      "questionText": "Identify the common noun: \"She passed the exam.\"",
+      "optionA": "She",
+      "optionB": "passed",
+      "optionC": "the",
+      "optionD": "exam",
+      "correctOption": "Option D",
+      "explanation": "'exam' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q043",
+      "questionText": "Which of the following is a general name for a person?",
+      "optionA": "Emily",
+      "optionB": "speak",
+      "optionC": "politely",
+      "optionD": "woman",
+      "correctOption": "Option D",
+      "explanation": "'woman' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q044",
+      "questionText": "Choose the correct common noun: My ______ is in the science building.",
+      "optionA": "scientific",
+      "optionB": "study",
+      "optionC": "Dr. Green",
+      "optionD": "class",
+      "correctOption": "Option D",
+      "explanation": "'class' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q045",
+      "questionText": "Identify the common noun: \"The campus is very large.\"",
+      "optionA": "The",
+      "optionB": "is",
+      "optionC": "very",
+      "optionD": "campus",
+      "correctOption": "Option D",
+      "explanation": "'campus' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q046",
+      "questionText": "Which word is a common noun?",
+      "optionA": "arrive",
+      "optionB": "late",
+      "optionC": "Tokyo",
+      "optionD": "train",
+      "correctOption": "Option D",
+      "explanation": "'train' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q047",
+      "questionText": "Fill in the blank: I will check my ______ for messages.",
+      "optionA": "quickly",
+      "optionB": "send",
+      "optionC": "John",
+      "optionD": "phone",
+      "correctOption": "Option D",
+      "explanation": "'phone' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q048",
+      "questionText": "Identify the common noun: \"The graduation is next month.\"",
+      "optionA": "The",
+      "optionB": "is",
+      "optionC": "next",
+      "optionD": "month",
+      "correctOption": "Option D",
+      "explanation": "'month' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q049",
+      "questionText": "Which word is a general name for a place?",
+      "optionA": "Europe",
+      "optionB": "travel",
+      "optionC": "far",
+      "optionD": "continent",
+      "correctOption": "Option D",
+      "explanation": "'continent' is a common noun because it refers to a general class of person, place, or thing."
+    },
+    {
+      "questionId": "T017-Q050",
+      "questionText": "Choose the correct common noun: Please read the first ______ of the book.",
+      "optionA": "slowly",
+      "optionB": "read",
+      "optionC": "English",
+      "optionD": "chapter",
+      "correctOption": "Option D",
+      "explanation": "'chapter' is a common noun because it refers to a general class of person, place, or thing."
+    }
+  ]
+}

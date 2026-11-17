@@ -1,0 +1,507 @@
+{
+  "topicId": 177,
+  "topicName": "Subject + Verb + Object",
+  "unit": "UNIT 18 — SENTENCE CONSTRUCTION",
+  "questions": [
+    {
+      "questionId": "T177-Q001",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The reads a thesis.",
+      "optionB": "The thesis a professor reads.",
+      "optionC": "The professor reads a thesis.",
+      "optionD": "The professor reads a thesising.",
+      "correctOption": "Option C",
+      "explanation": "'The professor reads a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q002",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Report author analyzes the the.",
+      "optionB": "The author analyzes the report.",
+      "optionC": "The analyzes the report.",
+      "optionD": "The author analyzes the reporting.",
+      "correctOption": "Option B",
+      "explanation": "'The author analyzes the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q003",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The writes an essay.",
+      "optionB": "The professor writes an essay.",
+      "optionC": "The professor writes an essaying.",
+      "optionD": "An essay writes professor the.",
+      "correctOption": "Option B",
+      "explanation": "'The professor writes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q004",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "An expert completes the assignmenting.",
+      "optionB": "An completes the assignment.",
+      "optionC": "An expert completes the assignment.",
+      "optionD": "Expert completes assignment an the.",
+      "correctOption": "Option C",
+      "explanation": "'An expert completes the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q005",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The university analyzes a thesising.",
+      "optionB": "The analyzes a thesis.",
+      "optionC": "University thesis a analyzes the.",
+      "optionD": "The university analyzes a thesis.",
+      "correctOption": "Option D",
+      "explanation": "'The university analyzes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q006",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist observes a thesis.",
+      "optionB": "The scientist observes a thesising.",
+      "optionC": "The observes a thesis.",
+      "optionD": "Thesis the observes scientist a.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist observes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q007",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The university presents the proposal.",
+      "optionB": "The university presents the proposaling.",
+      "optionC": "The the proposal presents university.",
+      "optionD": "The presents the proposal.",
+      "correctOption": "Option A",
+      "explanation": "'The university presents the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q008",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "An studies the assignment.",
+      "optionB": "An expert studies the assignment.",
+      "optionC": "Assignment expert studies an the.",
+      "optionD": "An expert studies the assignmenting.",
+      "correctOption": "Option B",
+      "explanation": "'An expert studies the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q009",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist experiment completes the.",
+      "optionB": "The scientist completes the experimenting.",
+      "optionC": "The scientist completes the experiment.",
+      "optionD": "The completes the experiment.",
+      "correctOption": "Option C",
+      "explanation": "'The scientist completes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q010",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Questions book the a professor.",
+      "optionB": "The questions a book.",
+      "optionC": "The professor questions a booking.",
+      "optionD": "The professor questions a book.",
+      "correctOption": "Option D",
+      "explanation": "'The professor questions a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q011",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Analyzes the experiment the author.",
+      "optionB": "The analyzes the experiment.",
+      "optionC": "The author analyzes the experiment.",
+      "optionD": "The author analyzes the experimenting.",
+      "correctOption": "Option C",
+      "explanation": "'The author analyzes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q012",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Questions the report the author.",
+      "optionB": "The questions the report.",
+      "optionC": "The author questions the reporting.",
+      "optionD": "The author questions the report.",
+      "correctOption": "Option D",
+      "explanation": "'The author questions the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q013",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Experiment the questions expert an.",
+      "optionB": "An expert questions the experiment.",
+      "optionC": "An expert questions the experimenting.",
+      "optionD": "An questions the experiment.",
+      "correctOption": "Option B",
+      "explanation": "'An expert questions the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q014",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The researcher completes a thesising.",
+      "optionB": "The researcher completes a thesis.",
+      "optionC": "Researcher thesis completes the a.",
+      "optionD": "The completes a thesis.",
+      "correctOption": "Option B",
+      "explanation": "'The researcher completes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q015",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The researcher analyzes a thesis.",
+      "optionB": "A the thesis analyzes researcher.",
+      "optionC": "The researcher analyzes a thesising.",
+      "optionD": "The analyzes a thesis.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher analyzes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q016",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Essay colleague presents a an.",
+      "optionB": "A colleague presents an essay.",
+      "optionC": "A presents an essay.",
+      "optionD": "A colleague presents an essaying.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague presents an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q017",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The author reads a book.",
+      "optionB": "The author reads a booking.",
+      "optionC": "The reads a book.",
+      "optionD": "Book reads author a the.",
+      "correctOption": "Option A",
+      "explanation": "'The author reads a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q018",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The studies the experiment.",
+      "optionB": "The student studies the experimenting.",
+      "optionC": "The student studies the experiment.",
+      "optionD": "The student studies the experiment.",
+      "correctOption": "Option C",
+      "explanation": "'The student studies the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q019",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The university questions the experimenting.",
+      "optionB": "The questions the experiment.",
+      "optionC": "The questions university experiment the.",
+      "optionD": "The university questions the experiment.",
+      "correctOption": "Option D",
+      "explanation": "'The university questions the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q020",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The reads the report.",
+      "optionB": "The team reads the reporting.",
+      "optionC": "The team reads the report.",
+      "optionD": "Report team the reads the.",
+      "correctOption": "Option C",
+      "explanation": "'The team reads the report' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q021",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "A colleague submits an essaying.",
+      "optionB": "A submits an essay.",
+      "optionC": "Colleague essay a submits an.",
+      "optionD": "A colleague submits an essay.",
+      "correctOption": "Option D",
+      "explanation": "'A colleague submits an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q022",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The submits a thesis.",
+      "optionB": "The team submits a thesis.",
+      "optionC": "The team submits a thesising.",
+      "optionD": "The a team thesis submits.",
+      "correctOption": "Option B",
+      "explanation": "'The team submits a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q023",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The researcher observes the proposaling.",
+      "optionB": "Researcher the proposal observes the.",
+      "optionC": "The observes the proposal.",
+      "optionD": "The researcher observes the proposal.",
+      "correctOption": "Option D",
+      "explanation": "'The researcher observes the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q024",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "An expert completes the experimenting.",
+      "optionB": "Completes experiment expert the an.",
+      "optionC": "An expert completes the experiment.",
+      "optionD": "An completes the experiment.",
+      "correctOption": "Option C",
+      "explanation": "'An expert completes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q025",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Observes professor thesis the a.",
+      "optionB": "The professor observes a thesising.",
+      "optionC": "The observes a thesis.",
+      "optionD": "The professor observes a thesis.",
+      "correctOption": "Option D",
+      "explanation": "'The professor observes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q026",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The university analyzes an essay.",
+      "optionB": "Essay the university an analyzes.",
+      "optionC": "The university analyzes an essaying.",
+      "optionD": "The analyzes an essay.",
+      "correctOption": "Option A",
+      "explanation": "'The university analyzes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q027",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "A completes a thesis.",
+      "optionB": "A colleague completes a thesis.",
+      "optionC": "A colleague completes a thesising.",
+      "optionD": "Thesis a colleague completes a.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague completes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q028",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist completes the articleing.",
+      "optionB": "Scientist article completes the the.",
+      "optionC": "The completes the article.",
+      "optionD": "The scientist completes the article.",
+      "correctOption": "Option D",
+      "explanation": "'The scientist completes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q029",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist presents a thesis.",
+      "optionB": "The scientist presents a thesising.",
+      "optionC": "The presents a thesis.",
+      "optionD": "A thesis scientist the presents.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist presents a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q030",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The team reviews the experimenting.",
+      "optionB": "The reviews the experiment.",
+      "optionC": "The reviews team experiment the.",
+      "optionD": "The team reviews the experiment.",
+      "correctOption": "Option D",
+      "explanation": "'The team reviews the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q031",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "A colleague observes the articleing.",
+      "optionB": "A observes the article.",
+      "optionC": "A colleague observes the article.",
+      "optionD": "The observes colleague a article.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague observes the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q032",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Observes the colleague a results.",
+      "optionB": "A observes the results.",
+      "optionC": "A colleague observes the results.",
+      "optionD": "A colleague observes the resultsing.",
+      "correctOption": "Option C",
+      "explanation": "'A colleague observes the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q033",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The researcher questions the assignment.",
+      "optionB": "The questions the assignment.",
+      "optionC": "The researcher questions the assignmenting.",
+      "optionD": "Assignment the questions researcher the.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher questions the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q034",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Scientist the data the analyzes.",
+      "optionB": "The scientist analyzes the data.",
+      "optionC": "The scientist analyzes the dataing.",
+      "optionD": "The analyzes the data.",
+      "correctOption": "Option B",
+      "explanation": "'The scientist analyzes the data' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q035",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The completes an essay.",
+      "optionB": "Completes the professor essay an.",
+      "optionC": "The professor completes an essaying.",
+      "optionD": "The professor completes an essay.",
+      "correctOption": "Option D",
+      "explanation": "'The professor completes an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q036",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist reviews an essay.",
+      "optionB": "The scientist reviews an essaying.",
+      "optionC": "The reviews an essay.",
+      "optionD": "Reviews scientist essay an the.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist reviews an essay' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q037",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The student analyzes a thesis.",
+      "optionB": "The analyzes a thesis.",
+      "optionC": "The a analyzes student thesis.",
+      "optionD": "The student analyzes a thesising.",
+      "correctOption": "Option A",
+      "explanation": "'The student analyzes a thesis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q038",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Article the the reviews team.",
+      "optionB": "The reviews the article.",
+      "optionC": "The team reviews the articleing.",
+      "optionD": "The team reviews the article.",
+      "correctOption": "Option D",
+      "explanation": "'The team reviews the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q039",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The questions the article.",
+      "optionB": "The professor questions the article.",
+      "optionC": "The professor questions the articleing.",
+      "optionD": "Article questions professor the the.",
+      "correctOption": "Option B",
+      "explanation": "'The professor questions the article' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q040",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The analyzes a book.",
+      "optionB": "The professor analyzes a book.",
+      "optionC": "The professor analyzes a booking.",
+      "optionD": "Analyzes the professor book a.",
+      "correctOption": "Option B",
+      "explanation": "'The professor analyzes a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q041",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The university completes the experiment.",
+      "optionB": "The university completes the experimenting.",
+      "optionC": "The completes the experiment.",
+      "optionD": "University experiment the completes the.",
+      "correctOption": "Option A",
+      "explanation": "'The university completes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q042",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "An expert reviews the resultsing.",
+      "optionB": "An expert reviews the results.",
+      "optionC": "An reviews the results.",
+      "optionD": "Results the reviews an expert.",
+      "correctOption": "Option B",
+      "explanation": "'An expert reviews the results' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q043",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The writes the assignment.",
+      "optionB": "The professor writes the assignmenting.",
+      "optionC": "The professor writes the assignment.",
+      "optionD": "Assignment writes the professor the.",
+      "correctOption": "Option C",
+      "explanation": "'The professor writes the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q044",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "An expert submits the proposal.",
+      "optionB": "An expert submits the proposaling.",
+      "optionC": "The expert submits an proposal.",
+      "optionD": "An submits the proposal.",
+      "correctOption": "Option A",
+      "explanation": "'An expert submits the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q045",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The scientist presents the assignment.",
+      "optionB": "The scientist presents the assignmenting.",
+      "optionC": "The presents the assignment.",
+      "optionD": "Assignment the presents scientist the.",
+      "correctOption": "Option A",
+      "explanation": "'The scientist presents the assignment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q046",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The author questions the experimenting.",
+      "optionB": "The author questions the experiment.",
+      "optionC": "Experiment questions the the author.",
+      "optionD": "The questions the experiment.",
+      "correctOption": "Option B",
+      "explanation": "'The author questions the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q047",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "Student reviews a the book.",
+      "optionB": "The student reviews a book.",
+      "optionC": "The reviews a book.",
+      "optionD": "The student reviews a booking.",
+      "correctOption": "Option B",
+      "explanation": "'The student reviews a book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q048",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "A completes the proposal.",
+      "optionB": "A colleague completes the proposal.",
+      "optionC": "The colleague a proposal completes.",
+      "optionD": "A colleague completes the proposaling.",
+      "correctOption": "Option B",
+      "explanation": "'A colleague completes the proposal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q049",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The the experiment observes professor.",
+      "optionB": "The professor observes the experiment.",
+      "optionC": "The professor observes the experimenting.",
+      "optionD": "The observes the experiment.",
+      "correctOption": "Option B",
+      "explanation": "'The professor observes the experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T177-Q050",
+      "questionText": "Which of the following sentences correctly demonstrates the structure for 'Subject + Verb + Object'?",
+      "optionA": "The reads the report.",
+      "optionB": "Reads report scientist the the.",
+      "optionC": "The scientist reads the report.",
+      "optionD": "The scientist reads the reporting.",
+      "correctOption": "Option C",
+      "explanation": "'The scientist reads the report' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

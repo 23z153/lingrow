@@ -1,0 +1,507 @@
+{
+  "topicId": 46,
+  "topicName": "General vs specific",
+  "unit": "UNIT 5 — ARTICLES",
+  "questions": [
+    {
+      "questionId": "T046-Q001",
+      "questionText": "I bought ___ book 0 yesterday. ___ book is very interesting.",
+      "optionA": "a / A",
+      "optionB": "a / The",
+      "optionC": "the / A",
+      "optionD": "the / The",
+      "correctOption": "Option B",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q002",
+      "questionText": "She wants to buy ___ umbrella 1 for the trip.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q003",
+      "questionText": "Where is ___ pen 2 I lent you?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option D",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q004",
+      "questionText": "I saw ___ movie 3 last night.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q005",
+      "questionText": "He is reading ___ article 4 about science.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q006",
+      "questionText": "I bought ___ book 5 yesterday. ___ book is very interesting.",
+      "optionA": "the / A",
+      "optionB": "a / The",
+      "optionC": "a / A",
+      "optionD": "the / The",
+      "correctOption": "Option B",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q007",
+      "questionText": "She wants to buy ___ umbrella 6 for the trip.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q008",
+      "questionText": "Where is ___ pen 7 I lent you?",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q009",
+      "questionText": "I saw ___ movie 8 last night.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q010",
+      "questionText": "He is reading ___ article 9 about science.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q011",
+      "questionText": "I bought ___ book 10 yesterday. ___ book is very interesting.",
+      "optionA": "the / A",
+      "optionB": "the / The",
+      "optionC": "a / A",
+      "optionD": "a / The",
+      "correctOption": "Option D",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q012",
+      "questionText": "She wants to buy ___ umbrella 11 for the trip.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q013",
+      "questionText": "Where is ___ pen 12 I lent you?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q014",
+      "questionText": "I saw ___ movie 13 last night.",
+      "optionA": "an",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q015",
+      "questionText": "He is reading ___ article 14 about science.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q016",
+      "questionText": "I bought ___ book 15 yesterday. ___ book is very interesting.",
+      "optionA": "the / The",
+      "optionB": "the / A",
+      "optionC": "a / The",
+      "optionD": "a / A",
+      "correctOption": "Option C",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q017",
+      "questionText": "She wants to buy ___ umbrella 16 for the trip.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q018",
+      "questionText": "Where is ___ pen 17 I lent you?",
+      "optionA": "the",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "an",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q019",
+      "questionText": "I saw ___ movie 18 last night.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q020",
+      "questionText": "He is reading ___ article 19 about science.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q021",
+      "questionText": "I bought ___ book 20 yesterday. ___ book is very interesting.",
+      "optionA": "the / The",
+      "optionB": "the / A",
+      "optionC": "a / A",
+      "optionD": "a / The",
+      "correctOption": "Option D",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q022",
+      "questionText": "She wants to buy ___ umbrella 21 for the trip.",
+      "optionA": "-",
+      "optionB": "a",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q023",
+      "questionText": "Where is ___ pen 22 I lent you?",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q024",
+      "questionText": "I saw ___ movie 23 last night.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q025",
+      "questionText": "He is reading ___ article 24 about science.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q026",
+      "questionText": "I bought ___ book 25 yesterday. ___ book is very interesting.",
+      "optionA": "the / The",
+      "optionB": "the / A",
+      "optionC": "a / The",
+      "optionD": "a / A",
+      "correctOption": "Option C",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q027",
+      "questionText": "She wants to buy ___ umbrella 26 for the trip.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q028",
+      "questionText": "Where is ___ pen 27 I lent you?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q029",
+      "questionText": "I saw ___ movie 28 last night.",
+      "optionA": "the",
+      "optionB": "-",
+      "optionC": "a",
+      "optionD": "an",
+      "correctOption": "Option C",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q030",
+      "questionText": "He is reading ___ article 29 about science.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q031",
+      "questionText": "I bought ___ book 30 yesterday. ___ book is very interesting.",
+      "optionA": "the / The",
+      "optionB": "the / A",
+      "optionC": "a / The",
+      "optionD": "a / A",
+      "correctOption": "Option C",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q032",
+      "questionText": "She wants to buy ___ umbrella 31 for the trip.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q033",
+      "questionText": "Where is ___ pen 32 I lent you?",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "a",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q034",
+      "questionText": "I saw ___ movie 33 last night.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q035",
+      "questionText": "He is reading ___ article 34 about science.",
+      "optionA": "-",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q036",
+      "questionText": "I bought ___ book 35 yesterday. ___ book is very interesting.",
+      "optionA": "the / A",
+      "optionB": "a / The",
+      "optionC": "a / A",
+      "optionD": "the / The",
+      "correctOption": "Option B",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q037",
+      "questionText": "She wants to buy ___ umbrella 36 for the trip.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "the",
+      "optionD": "an",
+      "correctOption": "Option D",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q038",
+      "questionText": "Where is ___ pen 37 I lent you?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q039",
+      "questionText": "I saw ___ movie 38 last night.",
+      "optionA": "an",
+      "optionB": "the",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q040",
+      "questionText": "He is reading ___ article 39 about science.",
+      "optionA": "the",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q041",
+      "questionText": "I bought ___ book 40 yesterday. ___ book is very interesting.",
+      "optionA": "the / A",
+      "optionB": "a / The",
+      "optionC": "the / The",
+      "optionD": "a / A",
+      "correctOption": "Option B",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q042",
+      "questionText": "She wants to buy ___ umbrella 41 for the trip.",
+      "optionA": "a",
+      "optionB": "-",
+      "optionC": "an",
+      "optionD": "the",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q043",
+      "questionText": "Where is ___ pen 42 I lent you?",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "the",
+      "optionD": "-",
+      "correctOption": "Option C",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q044",
+      "questionText": "I saw ___ movie 43 last night.",
+      "optionA": "a",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "-",
+      "correctOption": "Option A",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q045",
+      "questionText": "He is reading ___ article 44 about science.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option C",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q046",
+      "questionText": "I bought ___ book 45 yesterday. ___ book is very interesting.",
+      "optionA": "the / A",
+      "optionB": "the / The",
+      "optionC": "a / A",
+      "optionD": "a / The",
+      "correctOption": "Option D",
+      "explanation": "'a / The' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q047",
+      "questionText": "She wants to buy ___ umbrella 46 for the trip.",
+      "optionA": "a",
+      "optionB": "an",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option B",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q048",
+      "questionText": "Where is ___ pen 47 I lent you?",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'the' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q049",
+      "questionText": "I saw ___ movie 48 last night.",
+      "optionA": "-",
+      "optionB": "the",
+      "optionC": "an",
+      "optionD": "a",
+      "correctOption": "Option D",
+      "explanation": "'a' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T046-Q050",
+      "questionText": "He is reading ___ article 49 about science.",
+      "optionA": "an",
+      "optionB": "a",
+      "optionC": "-",
+      "optionD": "the",
+      "correctOption": "Option A",
+      "explanation": "'an' is the correct choice in standard English grammar."
+    }
+  ]
+}

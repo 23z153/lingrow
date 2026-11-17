@@ -1,0 +1,507 @@
+{
+  "topicId": 174,
+  "topicName": "Until",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T174-Q001",
+      "questionText": "I will study in the study hall ____ it closes.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q002",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q003",
+      "questionText": "We waited ____ the instructor arrived.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q004",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q005",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q006",
+      "questionText": "I will study in the library ____ it closes.",
+      "optionA": "because",
+      "optionB": "until",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q007",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q008",
+      "questionText": "We waited ____ the professor arrived.",
+      "optionA": "although",
+      "optionB": "until",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q009",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q010",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "so",
+      "optionB": "until",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q011",
+      "questionText": "I will study in the study hall ____ it closes.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q012",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "until",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q013",
+      "questionText": "We waited ____ the instructor arrived.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q014",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q015",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "until",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q016",
+      "questionText": "I will study in the classroom ____ it closes.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "because",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q017",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "until",
+      "optionD": "so",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q018",
+      "questionText": "We waited ____ the teacher arrived.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q019",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "if",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q020",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "so",
+      "optionB": "although",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q021",
+      "questionText": "I will study in the classroom ____ it closes.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q022",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q023",
+      "questionText": "We waited ____ the instructor arrived.",
+      "optionA": "until",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q024",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "until",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q025",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "until",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q026",
+      "questionText": "I will study in the library ____ it closes.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "until",
+      "optionD": "if",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q027",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q028",
+      "questionText": "We waited ____ the teacher arrived.",
+      "optionA": "if",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q029",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "because",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q030",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "because",
+      "optionB": "until",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q031",
+      "questionText": "I will study in the library ____ it closes.",
+      "optionA": "although",
+      "optionB": "until",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q032",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "until",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "so",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q033",
+      "questionText": "We waited ____ the teacher arrived.",
+      "optionA": "if",
+      "optionB": "because",
+      "optionC": "until",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q034",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q035",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "although",
+      "optionB": "until",
+      "optionC": "because",
+      "optionD": "so",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q036",
+      "questionText": "I will study in the classroom ____ it closes.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q037",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "until",
+      "optionB": "so",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q038",
+      "questionText": "We waited ____ the instructor arrived.",
+      "optionA": "until",
+      "optionB": "although",
+      "optionC": "if",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q039",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "although",
+      "optionB": "until",
+      "optionC": "because",
+      "optionD": "if",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q040",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "until",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q041",
+      "questionText": "I will study in the classroom ____ it closes.",
+      "optionA": "if",
+      "optionB": "because",
+      "optionC": "until",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q042",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q043",
+      "questionText": "We waited ____ the professor arrived.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "if",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q044",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q045",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q046",
+      "questionText": "I will study in the library ____ it closes.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q047",
+      "questionText": "Do not leave the room ____ the exam is over.",
+      "optionA": "because",
+      "optionB": "so",
+      "optionC": "until",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q048",
+      "questionText": "We waited ____ the instructor arrived.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "until",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q049",
+      "questionText": "They cannot graduate ____ they complete all the courses.",
+      "optionA": "if",
+      "optionB": "until",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T174-Q050",
+      "questionText": "Keep writing ____ I tell you to stop.",
+      "optionA": "so",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "until",
+      "correctOption": "Option D",
+      "explanation": "'until' is the correct choice in standard English grammar."
+    }
+  ]
+}

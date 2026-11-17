@@ -1,0 +1,507 @@
+{
+  "topicId": 112,
+  "topicName": "Singular subjects",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T112-Q001",
+      "questionText": "Ken ___ to the store.",
+      "optionA": "go",
+      "optionB": "going",
+      "optionC": "are going",
+      "optionD": "goes",
+      "correctOption": "Option D",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q002",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "need",
+      "optionB": "needs",
+      "optionC": "are needing",
+      "optionD": "needing",
+      "correctOption": "Option B",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q003",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "works",
+      "optionB": "working",
+      "optionC": "work",
+      "optionD": "are working",
+      "correctOption": "Option A",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q004",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "are meowing",
+      "optionB": "meows",
+      "optionC": "meowing",
+      "optionD": "meow",
+      "correctOption": "Option B",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q005",
+      "questionText": "Maria ___ to the store.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "are going",
+      "correctOption": "Option B",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q006",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "need",
+      "optionC": "needing",
+      "optionD": "are needing",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q007",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "work",
+      "optionB": "working",
+      "optionC": "are working",
+      "optionD": "works",
+      "correctOption": "Option D",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q008",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meowing",
+      "optionC": "are meowing",
+      "optionD": "meows",
+      "correctOption": "Option D",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q009",
+      "questionText": "The student ___ to the store.",
+      "optionA": "are going",
+      "optionB": "go",
+      "optionC": "goes",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q010",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "need",
+      "optionB": "needing",
+      "optionC": "are needing",
+      "optionD": "needs",
+      "correctOption": "Option D",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q011",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q012",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meows",
+      "optionB": "are meowing",
+      "optionC": "meowing",
+      "optionD": "meow",
+      "correctOption": "Option A",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q013",
+      "questionText": "The student ___ to the store.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "are going",
+      "correctOption": "Option B",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q014",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "are needing",
+      "optionB": "needing",
+      "optionC": "needs",
+      "optionD": "need",
+      "correctOption": "Option C",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q015",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "work",
+      "optionD": "works",
+      "correctOption": "Option D",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q016",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "are meowing",
+      "optionB": "meows",
+      "optionC": "meowing",
+      "optionD": "meow",
+      "correctOption": "Option B",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q017",
+      "questionText": "Grace ___ to the store.",
+      "optionA": "goes",
+      "optionB": "go",
+      "optionC": "are going",
+      "optionD": "going",
+      "correctOption": "Option A",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q018",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "needing",
+      "optionC": "are needing",
+      "optionD": "need",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q019",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "works",
+      "optionC": "working",
+      "optionD": "work",
+      "correctOption": "Option B",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q020",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meowing",
+      "optionC": "are meowing",
+      "optionD": "meows",
+      "correctOption": "Option D",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q021",
+      "questionText": "Dr. Smith ___ to the store.",
+      "optionA": "goes",
+      "optionB": "going",
+      "optionC": "are going",
+      "optionD": "go",
+      "correctOption": "Option A",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q022",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "needing",
+      "optionC": "are needing",
+      "optionD": "need",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q023",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "works",
+      "optionB": "working",
+      "optionC": "are working",
+      "optionD": "work",
+      "correctOption": "Option A",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q024",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meows",
+      "optionC": "are meowing",
+      "optionD": "meowing",
+      "correctOption": "Option B",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q025",
+      "questionText": "Bob ___ to the store.",
+      "optionA": "goes",
+      "optionB": "go",
+      "optionC": "going",
+      "optionD": "are going",
+      "correctOption": "Option A",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q026",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "need",
+      "optionC": "needing",
+      "optionD": "are needing",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q027",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "work",
+      "optionC": "working",
+      "optionD": "works",
+      "correctOption": "Option D",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q028",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "are meowing",
+      "optionC": "meows",
+      "optionD": "meowing",
+      "correctOption": "Option C",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q029",
+      "questionText": "The student ___ to the store.",
+      "optionA": "go",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "are going",
+      "correctOption": "Option B",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q030",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needing",
+      "optionB": "needs",
+      "optionC": "are needing",
+      "optionD": "need",
+      "correctOption": "Option B",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q031",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q032",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "are meowing",
+      "optionB": "meow",
+      "optionC": "meowing",
+      "optionD": "meows",
+      "correctOption": "Option D",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q033",
+      "questionText": "Ivy ___ to the store.",
+      "optionA": "are going",
+      "optionB": "goes",
+      "optionC": "going",
+      "optionD": "go",
+      "correctOption": "Option B",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q034",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "need",
+      "optionC": "are needing",
+      "optionD": "needing",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q035",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q036",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meowing",
+      "optionB": "are meowing",
+      "optionC": "meows",
+      "optionD": "meow",
+      "correctOption": "Option C",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q037",
+      "questionText": "Charlie ___ to the store.",
+      "optionA": "are going",
+      "optionB": "go",
+      "optionC": "goes",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q038",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needing",
+      "optionB": "need",
+      "optionC": "are needing",
+      "optionD": "needs",
+      "correctOption": "Option D",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q039",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q040",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meows",
+      "optionC": "meowing",
+      "optionD": "are meowing",
+      "correctOption": "Option B",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q041",
+      "questionText": "Bob ___ to the store.",
+      "optionA": "going",
+      "optionB": "are going",
+      "optionC": "goes",
+      "optionD": "go",
+      "correctOption": "Option C",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q042",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "needs",
+      "optionB": "needing",
+      "optionC": "are needing",
+      "optionD": "need",
+      "correctOption": "Option A",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q043",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "working",
+      "optionB": "works",
+      "optionC": "work",
+      "optionD": "are working",
+      "correctOption": "Option B",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q044",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "meowing",
+      "optionC": "meows",
+      "optionD": "are meowing",
+      "correctOption": "Option C",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q045",
+      "questionText": "Diana ___ to the store.",
+      "optionA": "go",
+      "optionB": "are going",
+      "optionC": "goes",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q046",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "need",
+      "optionB": "are needing",
+      "optionC": "needing",
+      "optionD": "needs",
+      "correctOption": "Option D",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q047",
+      "questionText": "The machine ___ perfectly.",
+      "optionA": "are working",
+      "optionB": "working",
+      "optionC": "works",
+      "optionD": "work",
+      "correctOption": "Option C",
+      "explanation": "'works' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q048",
+      "questionText": "The cat ___ loudly.",
+      "optionA": "meow",
+      "optionB": "are meowing",
+      "optionC": "meowing",
+      "optionD": "meows",
+      "correctOption": "Option D",
+      "explanation": "'meows' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q049",
+      "questionText": "Diana ___ to the store.",
+      "optionA": "are going",
+      "optionB": "go",
+      "optionC": "goes",
+      "optionD": "going",
+      "correctOption": "Option C",
+      "explanation": "'goes' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T112-Q050",
+      "questionText": "A student ___ to study hard.",
+      "optionA": "are needing",
+      "optionB": "need",
+      "optionC": "needing",
+      "optionD": "needs",
+      "correctOption": "Option D",
+      "explanation": "'needs' is the correct choice in standard English grammar."
+    }
+  ]
+}

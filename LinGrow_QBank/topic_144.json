@@ -1,0 +1,507 @@
+{
+  "topicId": 144,
+  "topicName": "Nobody/nothing/nowhere",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T144-Q001",
+      "questionText": "I have ___ to wear to the party. (Variant 1)",
+      "optionA": "everything",
+      "optionB": "nothing",
+      "optionC": "something",
+      "optionD": "anything",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q002",
+      "questionText": "They went ___ for the holidays. (Variant 2)",
+      "optionA": "everywhere",
+      "optionB": "anywhere",
+      "optionC": "nowhere",
+      "optionD": "somewhere",
+      "correctOption": "Option C",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q003",
+      "questionText": "___ told me about the test. (Variant 3)",
+      "optionA": "Nothing",
+      "optionB": "Nowhere",
+      "optionC": "Nobody",
+      "optionD": "Anybody",
+      "correctOption": "Option C",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q004",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 4)",
+      "optionA": "anybody",
+      "optionB": "nowhere",
+      "optionC": "nobody",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q005",
+      "questionText": "There is ___ in the room. (Variant 5)",
+      "optionA": "everybody",
+      "optionB": "somebody",
+      "optionC": "nobody",
+      "optionD": "anybody",
+      "correctOption": "Option C",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q006",
+      "questionText": "I have ___ to wear to the party. (Variant 6)",
+      "optionA": "anything",
+      "optionB": "something",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q007",
+      "questionText": "They went ___ for the holidays. (Variant 7)",
+      "optionA": "everywhere",
+      "optionB": "nowhere",
+      "optionC": "somewhere",
+      "optionD": "anywhere",
+      "correctOption": "Option B",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q008",
+      "questionText": "___ told me about the test. (Variant 8)",
+      "optionA": "Nowhere",
+      "optionB": "Anybody",
+      "optionC": "Nothing",
+      "optionD": "Nobody",
+      "correctOption": "Option D",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q009",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 9)",
+      "optionA": "nobody",
+      "optionB": "nowhere",
+      "optionC": "anybody",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q010",
+      "questionText": "There is ___ in the room. (Variant 10)",
+      "optionA": "somebody",
+      "optionB": "nobody",
+      "optionC": "everybody",
+      "optionD": "anybody",
+      "correctOption": "Option B",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q011",
+      "questionText": "I have ___ to wear to the party. (Variant 11)",
+      "optionA": "nothing",
+      "optionB": "everything",
+      "optionC": "anything",
+      "optionD": "something",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q012",
+      "questionText": "They went ___ for the holidays. (Variant 12)",
+      "optionA": "anywhere",
+      "optionB": "somewhere",
+      "optionC": "everywhere",
+      "optionD": "nowhere",
+      "correctOption": "Option D",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q013",
+      "questionText": "___ told me about the test. (Variant 13)",
+      "optionA": "Nowhere",
+      "optionB": "Nothing",
+      "optionC": "Anybody",
+      "optionD": "Nobody",
+      "correctOption": "Option D",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q014",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 14)",
+      "optionA": "nobody",
+      "optionB": "anybody",
+      "optionC": "nowhere",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q015",
+      "questionText": "There is ___ in the room. (Variant 15)",
+      "optionA": "nobody",
+      "optionB": "everybody",
+      "optionC": "anybody",
+      "optionD": "somebody",
+      "correctOption": "Option A",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q016",
+      "questionText": "I have ___ to wear to the party. (Variant 16)",
+      "optionA": "anything",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "something",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q017",
+      "questionText": "They went ___ for the holidays. (Variant 17)",
+      "optionA": "nowhere",
+      "optionB": "anywhere",
+      "optionC": "somewhere",
+      "optionD": "everywhere",
+      "correctOption": "Option A",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q018",
+      "questionText": "___ told me about the test. (Variant 18)",
+      "optionA": "Nothing",
+      "optionB": "Anybody",
+      "optionC": "Nobody",
+      "optionD": "Nowhere",
+      "correctOption": "Option C",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q019",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 19)",
+      "optionA": "anybody",
+      "optionB": "nothing",
+      "optionC": "nobody",
+      "optionD": "nowhere",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q020",
+      "questionText": "There is ___ in the room. (Variant 20)",
+      "optionA": "somebody",
+      "optionB": "anybody",
+      "optionC": "nobody",
+      "optionD": "everybody",
+      "correctOption": "Option C",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q021",
+      "questionText": "I have ___ to wear to the party. (Variant 21)",
+      "optionA": "something",
+      "optionB": "anything",
+      "optionC": "nothing",
+      "optionD": "everything",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q022",
+      "questionText": "They went ___ for the holidays. (Variant 22)",
+      "optionA": "anywhere",
+      "optionB": "somewhere",
+      "optionC": "nowhere",
+      "optionD": "everywhere",
+      "correctOption": "Option C",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q023",
+      "questionText": "___ told me about the test. (Variant 23)",
+      "optionA": "Anybody",
+      "optionB": "Nowhere",
+      "optionC": "Nobody",
+      "optionD": "Nothing",
+      "correctOption": "Option C",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q024",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 24)",
+      "optionA": "nobody",
+      "optionB": "anybody",
+      "optionC": "nothing",
+      "optionD": "nowhere",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q025",
+      "questionText": "There is ___ in the room. (Variant 25)",
+      "optionA": "everybody",
+      "optionB": "nobody",
+      "optionC": "anybody",
+      "optionD": "somebody",
+      "correctOption": "Option B",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q026",
+      "questionText": "I have ___ to wear to the party. (Variant 26)",
+      "optionA": "anything",
+      "optionB": "something",
+      "optionC": "nothing",
+      "optionD": "everything",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q027",
+      "questionText": "They went ___ for the holidays. (Variant 27)",
+      "optionA": "anywhere",
+      "optionB": "nowhere",
+      "optionC": "everywhere",
+      "optionD": "somewhere",
+      "correctOption": "Option B",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q028",
+      "questionText": "___ told me about the test. (Variant 28)",
+      "optionA": "Nobody",
+      "optionB": "Nowhere",
+      "optionC": "Anybody",
+      "optionD": "Nothing",
+      "correctOption": "Option A",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q029",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 29)",
+      "optionA": "nothing",
+      "optionB": "nowhere",
+      "optionC": "anybody",
+      "optionD": "nobody",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q030",
+      "questionText": "There is ___ in the room. (Variant 30)",
+      "optionA": "somebody",
+      "optionB": "everybody",
+      "optionC": "anybody",
+      "optionD": "nobody",
+      "correctOption": "Option D",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q031",
+      "questionText": "I have ___ to wear to the party. (Variant 31)",
+      "optionA": "everything",
+      "optionB": "nothing",
+      "optionC": "something",
+      "optionD": "anything",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q032",
+      "questionText": "They went ___ for the holidays. (Variant 32)",
+      "optionA": "nowhere",
+      "optionB": "somewhere",
+      "optionC": "everywhere",
+      "optionD": "anywhere",
+      "correctOption": "Option A",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q033",
+      "questionText": "___ told me about the test. (Variant 33)",
+      "optionA": "Nobody",
+      "optionB": "Nowhere",
+      "optionC": "Nothing",
+      "optionD": "Anybody",
+      "correctOption": "Option A",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q034",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 34)",
+      "optionA": "anybody",
+      "optionB": "nobody",
+      "optionC": "nowhere",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q035",
+      "questionText": "There is ___ in the room. (Variant 35)",
+      "optionA": "everybody",
+      "optionB": "nobody",
+      "optionC": "somebody",
+      "optionD": "anybody",
+      "correctOption": "Option B",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q036",
+      "questionText": "I have ___ to wear to the party. (Variant 36)",
+      "optionA": "something",
+      "optionB": "everything",
+      "optionC": "nothing",
+      "optionD": "anything",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q037",
+      "questionText": "They went ___ for the holidays. (Variant 37)",
+      "optionA": "nowhere",
+      "optionB": "somewhere",
+      "optionC": "everywhere",
+      "optionD": "anywhere",
+      "correctOption": "Option A",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q038",
+      "questionText": "___ told me about the test. (Variant 38)",
+      "optionA": "Nobody",
+      "optionB": "Anybody",
+      "optionC": "Nowhere",
+      "optionD": "Nothing",
+      "correctOption": "Option A",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q039",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 39)",
+      "optionA": "nowhere",
+      "optionB": "nobody",
+      "optionC": "nothing",
+      "optionD": "anybody",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q040",
+      "questionText": "There is ___ in the room. (Variant 40)",
+      "optionA": "nobody",
+      "optionB": "somebody",
+      "optionC": "everybody",
+      "optionD": "anybody",
+      "correctOption": "Option A",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q041",
+      "questionText": "I have ___ to wear to the party. (Variant 41)",
+      "optionA": "something",
+      "optionB": "anything",
+      "optionC": "everything",
+      "optionD": "nothing",
+      "correctOption": "Option D",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q042",
+      "questionText": "They went ___ for the holidays. (Variant 42)",
+      "optionA": "somewhere",
+      "optionB": "anywhere",
+      "optionC": "everywhere",
+      "optionD": "nowhere",
+      "correctOption": "Option D",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q043",
+      "questionText": "___ told me about the test. (Variant 43)",
+      "optionA": "Nowhere",
+      "optionB": "Nobody",
+      "optionC": "Anybody",
+      "optionD": "Nothing",
+      "correctOption": "Option B",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q044",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 44)",
+      "optionA": "nothing",
+      "optionB": "nobody",
+      "optionC": "nowhere",
+      "optionD": "anybody",
+      "correctOption": "Option A",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q045",
+      "questionText": "There is ___ in the room. (Variant 45)",
+      "optionA": "nobody",
+      "optionB": "everybody",
+      "optionC": "somebody",
+      "optionD": "anybody",
+      "correctOption": "Option A",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q046",
+      "questionText": "I have ___ to wear to the party. (Variant 46)",
+      "optionA": "anything",
+      "optionB": "nothing",
+      "optionC": "something",
+      "optionD": "everything",
+      "correctOption": "Option B",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q047",
+      "questionText": "They went ___ for the holidays. (Variant 47)",
+      "optionA": "nowhere",
+      "optionB": "everywhere",
+      "optionC": "somewhere",
+      "optionD": "anywhere",
+      "correctOption": "Option A",
+      "explanation": "'nowhere' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q048",
+      "questionText": "___ told me about the test. (Variant 48)",
+      "optionA": "Nowhere",
+      "optionB": "Anybody",
+      "optionC": "Nobody",
+      "optionD": "Nothing",
+      "correctOption": "Option C",
+      "explanation": "'Nobody' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q049",
+      "questionText": "I opened the box, but there was ___ inside. (Variant 49)",
+      "optionA": "nobody",
+      "optionB": "nowhere",
+      "optionC": "nothing",
+      "optionD": "anybody",
+      "correctOption": "Option C",
+      "explanation": "'nothing' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T144-Q050",
+      "questionText": "There is ___ in the room. (Variant 50)",
+      "optionA": "everybody",
+      "optionB": "anybody",
+      "optionC": "somebody",
+      "optionD": "nobody",
+      "correctOption": "Option D",
+      "explanation": "'nobody' is the correct choice in standard English grammar."
+    }
+  ]
+}

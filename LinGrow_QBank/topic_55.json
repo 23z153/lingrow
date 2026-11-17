@@ -1,0 +1,507 @@
+{
+  "topicId": 55,
+  "topicName": "Enough",
+  "unit": "UNIT 6 — DETERMINERS & QUANTIFIERS",
+  "questions": [
+    {
+      "questionId": "T055-Q001",
+      "questionText": "Is the water warm ___ 0 for swimming?",
+      "optionA": "too",
+      "optionB": "very",
+      "optionC": "much",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q002",
+      "questionText": "We don't have ___ chairs 1 for everyone.",
+      "optionA": "enough",
+      "optionB": "very",
+      "optionC": "much",
+      "optionD": "too",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q003",
+      "questionText": "He didn't run fast ___ 2 to win the race.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q004",
+      "questionText": "Do you have ___ money 3 to buy that?",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q005",
+      "questionText": "She isn't tall ___ 4 to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "many",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q006",
+      "questionText": "Is the water warm ___ 5 for swimming?",
+      "optionA": "much",
+      "optionB": "very",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q007",
+      "questionText": "We don't have ___ chairs 6 for everyone.",
+      "optionA": "much",
+      "optionB": "enough",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q008",
+      "questionText": "He didn't run fast ___ 7 to win the race.",
+      "optionA": "enough",
+      "optionB": "many",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q009",
+      "questionText": "Do you have ___ money 8 to buy that?",
+      "optionA": "many",
+      "optionB": "very",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q010",
+      "questionText": "She isn't tall ___ 9 to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q011",
+      "questionText": "Is the water warm ___ 10 for swimming?",
+      "optionA": "much",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q012",
+      "questionText": "We don't have ___ chairs 11 for everyone.",
+      "optionA": "very",
+      "optionB": "too",
+      "optionC": "enough",
+      "optionD": "much",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q013",
+      "questionText": "He didn't run fast ___ 12 to win the race.",
+      "optionA": "many",
+      "optionB": "very",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q014",
+      "questionText": "Do you have ___ money 13 to buy that?",
+      "optionA": "very",
+      "optionB": "many",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q015",
+      "questionText": "She isn't tall ___ 14 to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "many",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q016",
+      "questionText": "Is the water warm ___ 15 for swimming?",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q017",
+      "questionText": "We don't have ___ chairs 16 for everyone.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q018",
+      "questionText": "He didn't run fast ___ 17 to win the race.",
+      "optionA": "many",
+      "optionB": "enough",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q019",
+      "questionText": "Do you have ___ money 18 to buy that?",
+      "optionA": "very",
+      "optionB": "enough",
+      "optionC": "many",
+      "optionD": "too",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q020",
+      "questionText": "She isn't tall ___ 19 to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q021",
+      "questionText": "Is the water warm ___ 20 for swimming?",
+      "optionA": "too",
+      "optionB": "much",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q022",
+      "questionText": "We don't have ___ chairs 21 for everyone.",
+      "optionA": "very",
+      "optionB": "much",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q023",
+      "questionText": "He didn't run fast ___ 22 to win the race.",
+      "optionA": "many",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q024",
+      "questionText": "Do you have ___ money 23 to buy that?",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q025",
+      "questionText": "She isn't tall ___ 24 to reach the top shelf.",
+      "optionA": "too",
+      "optionB": "very",
+      "optionC": "many",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q026",
+      "questionText": "Is the water warm ___ 25 for swimming?",
+      "optionA": "too",
+      "optionB": "much",
+      "optionC": "enough",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q027",
+      "questionText": "We don't have ___ chairs 26 for everyone.",
+      "optionA": "enough",
+      "optionB": "much",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q028",
+      "questionText": "He didn't run fast ___ 27 to win the race.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q029",
+      "questionText": "Do you have ___ money 28 to buy that?",
+      "optionA": "many",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "too",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q030",
+      "questionText": "She isn't tall ___ 29 to reach the top shelf.",
+      "optionA": "many",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q031",
+      "questionText": "Is the water warm ___ 30 for swimming?",
+      "optionA": "very",
+      "optionB": "enough",
+      "optionC": "much",
+      "optionD": "too",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q032",
+      "questionText": "We don't have ___ chairs 31 for everyone.",
+      "optionA": "much",
+      "optionB": "very",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q033",
+      "questionText": "He didn't run fast ___ 32 to win the race.",
+      "optionA": "many",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "too",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q034",
+      "questionText": "Do you have ___ money 33 to buy that?",
+      "optionA": "many",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q035",
+      "questionText": "She isn't tall ___ 34 to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q036",
+      "questionText": "Is the water warm ___ 35 for swimming?",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "much",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q037",
+      "questionText": "We don't have ___ chairs 36 for everyone.",
+      "optionA": "much",
+      "optionB": "very",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q038",
+      "questionText": "He didn't run fast ___ 37 to win the race.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "very",
+      "optionD": "many",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q039",
+      "questionText": "Do you have ___ money 38 to buy that?",
+      "optionA": "too",
+      "optionB": "many",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q040",
+      "questionText": "She isn't tall ___ 39 to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "many",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q041",
+      "questionText": "Is the water warm ___ 40 for swimming?",
+      "optionA": "much",
+      "optionB": "enough",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q042",
+      "questionText": "We don't have ___ chairs 41 for everyone.",
+      "optionA": "enough",
+      "optionB": "much",
+      "optionC": "too",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q043",
+      "questionText": "He didn't run fast ___ 42 to win the race.",
+      "optionA": "too",
+      "optionB": "very",
+      "optionC": "enough",
+      "optionD": "many",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q044",
+      "questionText": "Do you have ___ money 43 to buy that?",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q045",
+      "questionText": "She isn't tall ___ 44 to reach the top shelf.",
+      "optionA": "very",
+      "optionB": "many",
+      "optionC": "too",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q046",
+      "questionText": "Is the water warm ___ 45 for swimming?",
+      "optionA": "enough",
+      "optionB": "very",
+      "optionC": "much",
+      "optionD": "too",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q047",
+      "questionText": "We don't have ___ chairs 46 for everyone.",
+      "optionA": "very",
+      "optionB": "much",
+      "optionC": "enough",
+      "optionD": "too",
+      "correctOption": "Option C",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q048",
+      "questionText": "He didn't run fast ___ 47 to win the race.",
+      "optionA": "too",
+      "optionB": "enough",
+      "optionC": "very",
+      "optionD": "many",
+      "correctOption": "Option B",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q049",
+      "questionText": "Do you have ___ money 48 to buy that?",
+      "optionA": "too",
+      "optionB": "many",
+      "optionC": "very",
+      "optionD": "enough",
+      "correctOption": "Option D",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    },
+    {
+      "questionId": "T055-Q050",
+      "questionText": "She isn't tall ___ 49 to reach the top shelf.",
+      "optionA": "enough",
+      "optionB": "too",
+      "optionC": "many",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'enough' is the correct quantifier for this noun type."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 117,
+  "topicName": "Each/every",
+  "unit": "UNIT 12 — SUBJECT–VERB AGREEMENT",
+  "questions": [
+    {
+      "questionId": "T117-Q001",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Every",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q002",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Many",
+      "optionC": "Each",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q003",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Every",
+      "optionC": "Many",
+      "optionD": "All",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q004",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q005",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "All",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q006",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Each",
+      "optionC": "Many",
+      "optionD": "Some",
+      "correctOption": "Option B",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q007",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "Many",
+      "optionC": "Some",
+      "optionD": "All",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q008",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Many",
+      "optionC": "Some",
+      "optionD": "All",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q009",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q010",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Many",
+      "optionC": "All",
+      "optionD": "Some",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q011",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "All",
+      "optionC": "Every",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q012",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Each",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q013",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Many",
+      "optionD": "Every",
+      "correctOption": "Option D",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q014",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Many",
+      "optionC": "Each",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q015",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "All",
+      "optionC": "Many",
+      "optionD": "Some",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q016",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q017",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Many",
+      "optionC": "Every",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q018",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Many",
+      "optionC": "All",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q019",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "Some",
+      "optionC": "Many",
+      "optionD": "All",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q020",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Many",
+      "optionC": "Each",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q021",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Every",
+      "optionC": "Some",
+      "optionD": "All",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q022",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Some",
+      "optionC": "Each",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q023",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Some",
+      "optionC": "Every",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q024",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Many",
+      "optionC": "All",
+      "optionD": "Some",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q025",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Every",
+      "optionC": "Some",
+      "optionD": "All",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q026",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "All",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q027",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Every",
+      "optionD": "Many",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q028",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q029",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Every",
+      "optionC": "All",
+      "optionD": "Some",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q030",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q031",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "All",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q032",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "All",
+      "optionC": "Each",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q033",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "All",
+      "optionC": "Some",
+      "optionD": "Every",
+      "correctOption": "Option D",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q034",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Many",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q035",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Many",
+      "optionD": "Every",
+      "correctOption": "Option D",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q036",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Each",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q037",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Some",
+      "optionC": "Every",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q038",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Each",
+      "optionC": "All",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q039",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Some",
+      "optionC": "Many",
+      "optionD": "Every",
+      "correctOption": "Option D",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q040",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Each",
+      "optionD": "Many",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q041",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Every",
+      "optionC": "Many",
+      "optionD": "Some",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q042",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Each",
+      "optionC": "Many",
+      "optionD": "All",
+      "correctOption": "Option B",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q043",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "All",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q044",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Many",
+      "optionB": "Some",
+      "optionC": "All",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q045",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Every",
+      "optionC": "Some",
+      "optionD": "Many",
+      "correctOption": "Option B",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q046",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "All",
+      "optionC": "Many",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q047",
+      "questionText": "Fill in the blank: ______ time must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Many",
+      "optionC": "Every",
+      "optionD": "All",
+      "correctOption": "Option C",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q048",
+      "questionText": "Fill in the blank: ______ student must complete the assignment.",
+      "optionA": "Some",
+      "optionB": "Many",
+      "optionC": "All",
+      "optionD": "Each",
+      "correctOption": "Option D",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q049",
+      "questionText": "Fill in the blank: ______ teacher must complete the assignment.",
+      "optionA": "Every",
+      "optionB": "Many",
+      "optionC": "All",
+      "optionD": "Some",
+      "correctOption": "Option A",
+      "explanation": "'Every' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T117-Q050",
+      "questionText": "Fill in the blank: ______ day must complete the assignment.",
+      "optionA": "All",
+      "optionB": "Many",
+      "optionC": "Each",
+      "optionD": "Some",
+      "correctOption": "Option C",
+      "explanation": "'Each' is the correct choice in standard English grammar."
+    }
+  ]
+}

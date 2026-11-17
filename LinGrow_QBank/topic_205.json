@@ -1,0 +1,507 @@
+{
+  "topicId": 205,
+  "topicName": "Prepositional phrase",
+  "unit": "UNIT 21 — PHRASES & CLAUSES",
+  "questions": [
+    {
+      "questionId": "T205-Q001",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 1)",
+      "optionA": "on the table",
+      "optionB": "is on",
+      "optionC": "book is on",
+      "optionD": "The book",
+      "correctOption": "Option A",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q002",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 2)",
+      "optionA": "She hid",
+      "optionB": "under the bed",
+      "optionC": "the bed",
+      "optionD": "hid under",
+      "correctOption": "Option B",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q003",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 3)",
+      "optionA": "We met",
+      "optionB": "the station",
+      "optionC": "at the station",
+      "optionD": "met at",
+      "correctOption": "Option C",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q004",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 4)",
+      "optionA": "The cat",
+      "optionB": "jumped over",
+      "optionC": "cat jumped",
+      "optionD": "over the fence",
+      "correctOption": "Option D",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q005",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 5)",
+      "optionA": "by the river",
+      "optionB": "the river",
+      "optionC": "walked by",
+      "optionD": "He walked",
+      "correctOption": "Option A",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q006",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 6)",
+      "optionA": "is on",
+      "optionB": "on the table",
+      "optionC": "book is on",
+      "optionD": "The book",
+      "correctOption": "Option B",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q007",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 7)",
+      "optionA": "She hid",
+      "optionB": "hid under",
+      "optionC": "under the bed",
+      "optionD": "the bed",
+      "correctOption": "Option C",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q008",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 8)",
+      "optionA": "the station",
+      "optionB": "We met",
+      "optionC": "met at",
+      "optionD": "at the station",
+      "correctOption": "Option D",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q009",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 9)",
+      "optionA": "over the fence",
+      "optionB": "cat jumped",
+      "optionC": "jumped over",
+      "optionD": "The cat",
+      "correctOption": "Option A",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q010",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 10)",
+      "optionA": "the river",
+      "optionB": "by the river",
+      "optionC": "walked by",
+      "optionD": "He walked",
+      "correctOption": "Option B",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q011",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 11)",
+      "optionA": "The book",
+      "optionB": "is on",
+      "optionC": "on the table",
+      "optionD": "book is on",
+      "correctOption": "Option C",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q012",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 12)",
+      "optionA": "hid under",
+      "optionB": "the bed",
+      "optionC": "She hid",
+      "optionD": "under the bed",
+      "correctOption": "Option D",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q013",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 13)",
+      "optionA": "at the station",
+      "optionB": "We met",
+      "optionC": "met at",
+      "optionD": "the station",
+      "correctOption": "Option A",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q014",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 14)",
+      "optionA": "cat jumped",
+      "optionB": "over the fence",
+      "optionC": "jumped over",
+      "optionD": "The cat",
+      "correctOption": "Option B",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q015",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 15)",
+      "optionA": "the river",
+      "optionB": "walked by",
+      "optionC": "by the river",
+      "optionD": "He walked",
+      "correctOption": "Option C",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q016",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 16)",
+      "optionA": "book is on",
+      "optionB": "The book",
+      "optionC": "is on",
+      "optionD": "on the table",
+      "correctOption": "Option D",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q017",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 17)",
+      "optionA": "under the bed",
+      "optionB": "the bed",
+      "optionC": "She hid",
+      "optionD": "hid under",
+      "correctOption": "Option A",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q018",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 18)",
+      "optionA": "met at",
+      "optionB": "at the station",
+      "optionC": "the station",
+      "optionD": "We met",
+      "correctOption": "Option B",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q019",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 19)",
+      "optionA": "jumped over",
+      "optionB": "The cat",
+      "optionC": "over the fence",
+      "optionD": "cat jumped",
+      "correctOption": "Option C",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q020",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 20)",
+      "optionA": "He walked",
+      "optionB": "walked by",
+      "optionC": "the river",
+      "optionD": "by the river",
+      "correctOption": "Option D",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q021",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 21)",
+      "optionA": "on the table",
+      "optionB": "The book",
+      "optionC": "book is on",
+      "optionD": "is on",
+      "correctOption": "Option A",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q022",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 22)",
+      "optionA": "She hid",
+      "optionB": "under the bed",
+      "optionC": "the bed",
+      "optionD": "hid under",
+      "correctOption": "Option B",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q023",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 23)",
+      "optionA": "met at",
+      "optionB": "We met",
+      "optionC": "at the station",
+      "optionD": "the station",
+      "correctOption": "Option C",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q024",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 24)",
+      "optionA": "cat jumped",
+      "optionB": "jumped over",
+      "optionC": "The cat",
+      "optionD": "over the fence",
+      "correctOption": "Option D",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q025",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 25)",
+      "optionA": "by the river",
+      "optionB": "He walked",
+      "optionC": "walked by",
+      "optionD": "the river",
+      "correctOption": "Option A",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q026",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 26)",
+      "optionA": "is on",
+      "optionB": "on the table",
+      "optionC": "book is on",
+      "optionD": "The book",
+      "correctOption": "Option B",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q027",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 27)",
+      "optionA": "She hid",
+      "optionB": "hid under",
+      "optionC": "under the bed",
+      "optionD": "the bed",
+      "correctOption": "Option C",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q028",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 28)",
+      "optionA": "met at",
+      "optionB": "the station",
+      "optionC": "We met",
+      "optionD": "at the station",
+      "correctOption": "Option D",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q029",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 29)",
+      "optionA": "over the fence",
+      "optionB": "jumped over",
+      "optionC": "The cat",
+      "optionD": "cat jumped",
+      "correctOption": "Option A",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q030",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 30)",
+      "optionA": "walked by",
+      "optionB": "by the river",
+      "optionC": "the river",
+      "optionD": "He walked",
+      "correctOption": "Option B",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q031",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 31)",
+      "optionA": "book is on",
+      "optionB": "The book",
+      "optionC": "on the table",
+      "optionD": "is on",
+      "correctOption": "Option C",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q032",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 32)",
+      "optionA": "the bed",
+      "optionB": "She hid",
+      "optionC": "hid under",
+      "optionD": "under the bed",
+      "correctOption": "Option D",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q033",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 33)",
+      "optionA": "at the station",
+      "optionB": "the station",
+      "optionC": "met at",
+      "optionD": "We met",
+      "correctOption": "Option A",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q034",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 34)",
+      "optionA": "jumped over",
+      "optionB": "over the fence",
+      "optionC": "cat jumped",
+      "optionD": "The cat",
+      "correctOption": "Option B",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q035",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 35)",
+      "optionA": "walked by",
+      "optionB": "He walked",
+      "optionC": "by the river",
+      "optionD": "the river",
+      "correctOption": "Option C",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q036",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 36)",
+      "optionA": "book is on",
+      "optionB": "is on",
+      "optionC": "The book",
+      "optionD": "on the table",
+      "correctOption": "Option D",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q037",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 37)",
+      "optionA": "under the bed",
+      "optionB": "She hid",
+      "optionC": "hid under",
+      "optionD": "the bed",
+      "correctOption": "Option A",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q038",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 38)",
+      "optionA": "We met",
+      "optionB": "at the station",
+      "optionC": "met at",
+      "optionD": "the station",
+      "correctOption": "Option B",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q039",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 39)",
+      "optionA": "The cat",
+      "optionB": "cat jumped",
+      "optionC": "over the fence",
+      "optionD": "jumped over",
+      "correctOption": "Option C",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q040",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 40)",
+      "optionA": "He walked",
+      "optionB": "walked by",
+      "optionC": "the river",
+      "optionD": "by the river",
+      "correctOption": "Option D",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q041",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 41)",
+      "optionA": "on the table",
+      "optionB": "is on",
+      "optionC": "The book",
+      "optionD": "book is on",
+      "correctOption": "Option A",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q042",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 42)",
+      "optionA": "hid under",
+      "optionB": "under the bed",
+      "optionC": "She hid",
+      "optionD": "the bed",
+      "correctOption": "Option B",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q043",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 43)",
+      "optionA": "the station",
+      "optionB": "We met",
+      "optionC": "at the station",
+      "optionD": "met at",
+      "correctOption": "Option C",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q044",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 44)",
+      "optionA": "The cat",
+      "optionB": "cat jumped",
+      "optionC": "jumped over",
+      "optionD": "over the fence",
+      "correctOption": "Option D",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q045",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 45)",
+      "optionA": "by the river",
+      "optionB": "the river",
+      "optionC": "He walked",
+      "optionD": "walked by",
+      "correctOption": "Option A",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q046",
+      "questionText": "Identify the prepositional phrase: The book is on the table. (Variant 46)",
+      "optionA": "is on",
+      "optionB": "on the table",
+      "optionC": "The book",
+      "optionD": "book is on",
+      "correctOption": "Option B",
+      "explanation": "'on the table' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q047",
+      "questionText": "Find the prepositional phrase: She hid under the bed. (Variant 47)",
+      "optionA": "the bed",
+      "optionB": "She hid",
+      "optionC": "under the bed",
+      "optionD": "hid under",
+      "correctOption": "Option C",
+      "explanation": "'under the bed' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q048",
+      "questionText": "Which part is a prepositional phrase? We met at the station. (Variant 48)",
+      "optionA": "We met",
+      "optionB": "the station",
+      "optionC": "met at",
+      "optionD": "at the station",
+      "correctOption": "Option D",
+      "explanation": "'at the station' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q049",
+      "questionText": "Identify the prepositional phrase: The cat jumped over the fence. (Variant 49)",
+      "optionA": "over the fence",
+      "optionB": "jumped over",
+      "optionC": "The cat",
+      "optionD": "cat jumped",
+      "correctOption": "Option A",
+      "explanation": "'over the fence' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T205-Q050",
+      "questionText": "What is the prepositional phrase? He walked by the river. (Variant 50)",
+      "optionA": "the river",
+      "optionB": "by the river",
+      "optionC": "He walked",
+      "optionD": "walked by",
+      "correctOption": "Option B",
+      "explanation": "'by the river' is the correct choice in standard English grammar."
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "topicId": 7,
+  "topicName": "Nouns",
+  "unit": "UNIT 2 — PARTS OF SPEECH",
+  "questions": [
+    {
+      "questionId": "T007-Q001",
+      "questionText": "Identify the noun in the following sentence: 'The student reads a book.'",
+      "optionA": "The",
+      "optionB": "student",
+      "optionC": "reads",
+      "optionD": "a",
+      "correctOption": "Option B",
+      "explanation": "'student' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q002",
+      "questionText": "Identify the noun in this sentence: 'They walk to the library.'",
+      "optionA": "walk",
+      "optionB": "library",
+      "optionC": "to",
+      "optionD": "They",
+      "correctOption": "Option B",
+      "explanation": "'library' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q003",
+      "questionText": "Which word is a noun in this sentence? 'Professor Smith teaches clearly.'",
+      "optionA": "Which",
+      "optionB": "Professor Smith",
+      "optionC": "clearly",
+      "optionD": "teaches",
+      "correctOption": "Option B",
+      "explanation": "'Professor Smith' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q004",
+      "questionText": "Identify the noun: 'The assignment is very difficult.'",
+      "optionA": "assignment",
+      "optionB": "is",
+      "optionC": "difficult",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'assignment' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q005",
+      "questionText": "Which of the following words from the sentence is a noun? 'She has an exam tomorrow.'",
+      "optionA": "exam",
+      "optionB": "tomorrow",
+      "optionC": "She",
+      "optionD": "has",
+      "correctOption": "Option A",
+      "explanation": "'exam' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q006",
+      "questionText": "Find the noun in this sentence: 'The campus is large.'",
+      "optionA": "is",
+      "optionB": "The",
+      "optionC": "large",
+      "optionD": "campus",
+      "correctOption": "Option D",
+      "explanation": "'campus' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q007",
+      "questionText": "Identify the noun: 'He writes with a pen.'",
+      "optionA": "with",
+      "optionB": "writes",
+      "optionC": "pen",
+      "optionD": "He",
+      "correctOption": "Option C",
+      "explanation": "'pen' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q008",
+      "questionText": "Which word is a noun? 'The university opens at eight.'",
+      "optionA": "university",
+      "optionB": "at",
+      "optionC": "eight",
+      "optionD": "opens",
+      "correctOption": "Option A",
+      "explanation": "'university' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q009",
+      "questionText": "Identify the noun in the sentence: 'Her presentation was excellent.'",
+      "optionA": "was",
+      "optionB": "excellent",
+      "optionC": "presentation",
+      "optionD": "Her",
+      "correctOption": "Option C",
+      "explanation": "'presentation' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q010",
+      "questionText": "Which word is a noun? 'The students listen quietly.'",
+      "optionA": "listen",
+      "optionB": "students",
+      "optionC": "quietly",
+      "optionD": "The",
+      "correctOption": "Option B",
+      "explanation": "'students' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q011",
+      "questionText": "The ___ gave a long lecture.",
+      "optionA": "teach",
+      "optionB": "smart",
+      "optionC": "professor",
+      "optionD": "quickly",
+      "correctOption": "Option C",
+      "explanation": "'professor' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q012",
+      "questionText": "Many ___ live in the dormitory.",
+      "optionA": "happy",
+      "optionB": "students",
+      "optionC": "studying",
+      "optionD": "often",
+      "correctOption": "Option B",
+      "explanation": "'students' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q013",
+      "questionText": "The ___ is full of useful books.",
+      "optionA": "library",
+      "optionB": "always",
+      "optionC": "read",
+      "optionD": "loud",
+      "correctOption": "Option A",
+      "explanation": "'library' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q014",
+      "questionText": "A new ___ begins in September.",
+      "optionA": "semester",
+      "optionB": "early",
+      "optionC": "start",
+      "optionD": "very",
+      "correctOption": "Option A",
+      "explanation": "'semester' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q015",
+      "questionText": "The ___ graded the essays.",
+      "optionA": "grade",
+      "optionB": "and",
+      "optionC": "careful",
+      "optionD": "teacher",
+      "correctOption": "Option D",
+      "explanation": "'teacher' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q016",
+      "questionText": "My ___ is very heavy today.",
+      "optionA": "with",
+      "optionB": "carry",
+      "optionC": "heavy",
+      "optionD": "backpack",
+      "correctOption": "Option D",
+      "explanation": "'backpack' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q017",
+      "questionText": "The ___ has many computers.",
+      "optionA": "laboratory",
+      "optionB": "scientific",
+      "optionC": "run",
+      "optionD": "fast",
+      "correctOption": "Option A",
+      "explanation": "'laboratory' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q018",
+      "questionText": "Our ___ meets every Tuesday.",
+      "optionA": "interesting",
+      "optionB": "class",
+      "optionC": "quietly",
+      "optionD": "learn",
+      "correctOption": "Option B",
+      "explanation": "'class' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q019",
+      "questionText": "The ___ provided a syllabus.",
+      "optionA": "helpful",
+      "optionB": "soon",
+      "optionC": "instructor",
+      "optionD": "instruct",
+      "correctOption": "Option C",
+      "explanation": "'instructor' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q020",
+      "questionText": "A good ___ takes notes.",
+      "optionA": "student",
+      "optionB": "study",
+      "optionC": "smart",
+      "optionD": "well",
+      "correctOption": "Option A",
+      "explanation": "'student' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q021",
+      "questionText": "She passed the ___ with a high score.",
+      "optionA": "hard",
+      "optionB": "quickly",
+      "optionC": "write",
+      "optionD": "exam",
+      "correctOption": "Option D",
+      "explanation": "'exam' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q022",
+      "questionText": "He is writing an ___ for his class.",
+      "optionA": "write",
+      "optionB": "essay",
+      "optionC": "long",
+      "optionD": "now",
+      "correctOption": "Option B",
+      "explanation": "'essay' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q023",
+      "questionText": "They completed their ___ on time.",
+      "optionA": "do",
+      "optionB": "difficult",
+      "optionC": "homework",
+      "optionD": "very",
+      "correctOption": "Option C",
+      "explanation": "'homework' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q024",
+      "questionText": "The professor asked a ___.",
+      "optionA": "ask",
+      "optionB": "loudly",
+      "optionC": "confusing",
+      "optionD": "question",
+      "correctOption": "Option D",
+      "explanation": "'question' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q025",
+      "questionText": "She bought a new ___ for math.",
+      "optionA": "then",
+      "optionB": "expensive",
+      "optionC": "calculate",
+      "optionD": "calculator",
+      "correctOption": "Option D",
+      "explanation": "'calculator' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q026",
+      "questionText": "Please bring your ___ to class.",
+      "optionA": "read",
+      "optionB": "always",
+      "optionC": "textbook",
+      "optionD": "heavy",
+      "correctOption": "Option C",
+      "explanation": "'textbook' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q027",
+      "questionText": "He lost his ___ in the cafeteria.",
+      "optionA": "yesterday",
+      "optionB": "lose",
+      "optionC": "notebook",
+      "optionD": "sad",
+      "correctOption": "Option C",
+      "explanation": "'notebook' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q028",
+      "questionText": "The students ate ___ in the dining hall.",
+      "optionA": "quickly",
+      "optionB": "lunch",
+      "optionC": "eat",
+      "optionD": "hungry",
+      "correctOption": "Option B",
+      "explanation": "'lunch' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q029",
+      "questionText": "She gave a great ___ today.",
+      "optionA": "good",
+      "optionB": "presentation",
+      "optionC": "present",
+      "optionD": "very",
+      "correctOption": "Option B",
+      "explanation": "'presentation' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q030",
+      "questionText": "He earned his ___ last year.",
+      "optionA": "finally",
+      "optionB": "graduate",
+      "optionC": "smart",
+      "optionD": "degree",
+      "correctOption": "Option D",
+      "explanation": "'degree' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q031",
+      "questionText": "We met at the student ___.",
+      "optionA": "happily",
+      "optionB": "central",
+      "optionC": "meet",
+      "optionD": "center",
+      "correctOption": "Option D",
+      "explanation": "'center' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q032",
+      "questionText": "The biology ___ was very interesting.",
+      "optionA": "experimental",
+      "optionB": "very",
+      "optionC": "experiment",
+      "optionD": "try",
+      "correctOption": "Option C",
+      "explanation": "'experiment' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q033",
+      "questionText": "She lives in the new ___.",
+      "optionA": "comfortable",
+      "optionB": "there",
+      "optionC": "dormitory",
+      "optionD": "sleep",
+      "correctOption": "Option C",
+      "explanation": "'dormitory' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q034",
+      "questionText": "He goes to ___ every day.",
+      "optionA": "often",
+      "optionB": "study",
+      "optionC": "smart",
+      "optionD": "college",
+      "correctOption": "Option D",
+      "explanation": "'college' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q035",
+      "questionText": "They sat on the ___ in the park.",
+      "optionA": "sit",
+      "optionB": "bench",
+      "optionC": "wooden",
+      "optionD": "peacefully",
+      "correctOption": "Option B",
+      "explanation": "'bench' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q036",
+      "questionText": "The campus ___ has a lot of food options.",
+      "optionA": "loud",
+      "optionB": "tasty",
+      "optionC": "eat",
+      "optionD": "cafeteria",
+      "correctOption": "Option D",
+      "explanation": "'cafeteria' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q037",
+      "questionText": "She put her laptop on the ___.",
+      "optionA": "work",
+      "optionB": "hard",
+      "optionC": "down",
+      "optionD": "desk",
+      "correctOption": "Option D",
+      "explanation": "'desk' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q038",
+      "questionText": "He looked at the ___ on the wall.",
+      "optionA": "clock",
+      "optionB": "tick",
+      "optionC": "round",
+      "optionD": "fast",
+      "correctOption": "Option A",
+      "explanation": "'clock' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q039",
+      "questionText": "The ___ has many academic journals.",
+      "optionA": "search",
+      "optionB": "quickly",
+      "optionC": "database",
+      "optionD": "online",
+      "correctOption": "Option C",
+      "explanation": "'database' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q040",
+      "questionText": "They walked across the ___.",
+      "optionA": "green",
+      "optionB": "together",
+      "optionC": "quad",
+      "optionD": "walk",
+      "correctOption": "Option C",
+      "explanation": "'quad' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q041",
+      "questionText": "In the sentence 'The STUDENT studies hard', what is the role of the capitalized noun?",
+      "optionA": "Subject",
+      "optionB": "Verb",
+      "optionC": "Adjective",
+      "optionD": "Object",
+      "correctOption": "Option A",
+      "explanation": "'Subject' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q042",
+      "questionText": "In the sentence 'She reads a BOOK', what is the role of the capitalized noun?",
+      "optionA": "Adverb",
+      "optionB": "Verb",
+      "optionC": "Object",
+      "optionD": "Subject",
+      "correctOption": "Option C",
+      "explanation": "'Object' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q043",
+      "questionText": "In the sentence 'The PROFESSOR spoke loudly', what is the role of the capitalized noun?",
+      "optionA": "Subject",
+      "optionB": "Pronoun",
+      "optionC": "Object",
+      "optionD": "Adjective",
+      "correctOption": "Option A",
+      "explanation": "'Subject' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q044",
+      "questionText": "In the sentence 'He finished his ASSIGNMENT', what is the role of the capitalized noun?",
+      "optionA": "Object",
+      "optionB": "Subject",
+      "optionC": "Verb",
+      "optionD": "Preposition",
+      "correctOption": "Option A",
+      "explanation": "'Object' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q045",
+      "questionText": "In the sentence 'The LIBRARY opens at 8 AM', what is the role of the capitalized noun?",
+      "optionA": "Object",
+      "optionB": "Subject",
+      "optionC": "Conjunction",
+      "optionD": "Adjective",
+      "correctOption": "Option B",
+      "explanation": "'Subject' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q046",
+      "questionText": "In the sentence 'They answered the QUESTIONS', what is the role of the capitalized noun?",
+      "optionA": "Verb",
+      "optionB": "Object",
+      "optionC": "Subject",
+      "optionD": "Adverb",
+      "correctOption": "Option B",
+      "explanation": "'Object' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q047",
+      "questionText": "In the sentence 'My FRIEND helped me', what is the role of the capitalized noun?",
+      "optionA": "Preposition",
+      "optionB": "Subject",
+      "optionC": "Adjective",
+      "optionD": "Object",
+      "correctOption": "Option B",
+      "explanation": "'Subject' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q048",
+      "questionText": "In the sentence 'She drank COFFEE', what is the role of the capitalized noun?",
+      "optionA": "Object",
+      "optionB": "Verb",
+      "optionC": "Pronoun",
+      "optionD": "Subject",
+      "correctOption": "Option A",
+      "explanation": "'Object' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q049",
+      "questionText": "In the sentence 'The EXAM was difficult', what is the role of the capitalized noun?",
+      "optionA": "Subject",
+      "optionB": "Adverb",
+      "optionC": "Conjunction",
+      "optionD": "Object",
+      "correctOption": "Option A",
+      "explanation": "'Subject' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    },
+    {
+      "questionId": "T007-Q050",
+      "questionText": "In the sentence 'He joined a CLUB', what is the role of the capitalized noun?",
+      "optionA": "Subject",
+      "optionB": "Adjective",
+      "optionC": "Verb",
+      "optionD": "Object",
+      "correctOption": "Option D",
+      "explanation": "'Object' is a noun because it names a person, place, thing, or idea.",
+      "source": {
+        "type": "original",
+        "reference": "Lingrow curriculum based on the uploaded syllabus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "topicId": 218,
+  "topicName": "First conditional",
+  "unit": "UNIT 23 — BASIC CONDITIONALS",
+  "questions": [
+    {
+      "questionId": "T218-Q001",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 1)",
+      "optionA": "stayed",
+      "optionB": "would stay",
+      "optionC": "stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q002",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 2)",
+      "optionA": "stay",
+      "optionB": "will stay",
+      "optionC": "stayed",
+      "optionD": "would stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q003",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 3)",
+      "optionA": "will stay",
+      "optionB": "stay",
+      "optionC": "would stay",
+      "optionD": "stayed",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q004",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 4)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q005",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 5)",
+      "optionA": "stay",
+      "optionB": "will stay",
+      "optionC": "would stay",
+      "optionD": "stayed",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q006",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 6)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q007",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 7)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q008",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 8)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stayed",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q009",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 9)",
+      "optionA": "stayed",
+      "optionB": "will stay",
+      "optionC": "stay",
+      "optionD": "would stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q010",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 10)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stay",
+      "optionD": "stayed",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q011",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 11)",
+      "optionA": "stay",
+      "optionB": "would stay",
+      "optionC": "will stay",
+      "optionD": "stayed",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q012",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 12)",
+      "optionA": "stayed",
+      "optionB": "would stay",
+      "optionC": "stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q013",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 13)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q014",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 14)",
+      "optionA": "would stay",
+      "optionB": "stay",
+      "optionC": "will stay",
+      "optionD": "stayed",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q015",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 15)",
+      "optionA": "stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "would stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q016",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 16)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q017",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 17)",
+      "optionA": "stayed",
+      "optionB": "will stay",
+      "optionC": "stay",
+      "optionD": "would stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q018",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 18)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stay",
+      "optionD": "stayed",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q019",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 19)",
+      "optionA": "stay",
+      "optionB": "will stay",
+      "optionC": "stayed",
+      "optionD": "would stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q020",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 20)",
+      "optionA": "would stay",
+      "optionB": "will stay",
+      "optionC": "stay",
+      "optionD": "stayed",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q021",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 21)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q022",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 22)",
+      "optionA": "stayed",
+      "optionB": "would stay",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q023",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 23)",
+      "optionA": "would stay",
+      "optionB": "stay",
+      "optionC": "will stay",
+      "optionD": "stayed",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q024",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 24)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stayed",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q025",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 25)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stay",
+      "optionD": "stayed",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q026",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 26)",
+      "optionA": "will stay",
+      "optionB": "would stay",
+      "optionC": "stayed",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q027",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 27)",
+      "optionA": "stayed",
+      "optionB": "stay",
+      "optionC": "would stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q028",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 28)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q029",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 29)",
+      "optionA": "would stay",
+      "optionB": "will stay",
+      "optionC": "stayed",
+      "optionD": "stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q030",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 30)",
+      "optionA": "stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "would stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q031",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 31)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "stay",
+      "optionD": "would stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q032",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 32)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q033",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 33)",
+      "optionA": "stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "would stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q034",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 34)",
+      "optionA": "stay",
+      "optionB": "will stay",
+      "optionC": "stayed",
+      "optionD": "would stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q035",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 35)",
+      "optionA": "would stay",
+      "optionB": "stay",
+      "optionC": "will stay",
+      "optionD": "stayed",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q036",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 36)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q037",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 37)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "stay",
+      "optionD": "would stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q038",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 38)",
+      "optionA": "stayed",
+      "optionB": "would stay",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q039",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 39)",
+      "optionA": "stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q040",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 40)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "stay",
+      "optionD": "would stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q041",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 41)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q042",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 42)",
+      "optionA": "stayed",
+      "optionB": "stay",
+      "optionC": "would stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q043",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 43)",
+      "optionA": "will stay",
+      "optionB": "stayed",
+      "optionC": "would stay",
+      "optionD": "stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q044",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 44)",
+      "optionA": "would stay",
+      "optionB": "stay",
+      "optionC": "stayed",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q045",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 45)",
+      "optionA": "stayed",
+      "optionB": "would stay",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q046",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 46)",
+      "optionA": "will stay",
+      "optionB": "stay",
+      "optionC": "stayed",
+      "optionD": "would stay",
+      "correctOption": "Option A",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q047",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 47)",
+      "optionA": "would stay",
+      "optionB": "will stay",
+      "optionC": "stayed",
+      "optionD": "stay",
+      "correctOption": "Option B",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q048",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 48)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q049",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 49)",
+      "optionA": "stay",
+      "optionB": "stayed",
+      "optionC": "will stay",
+      "optionD": "would stay",
+      "correctOption": "Option C",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    },
+    {
+      "questionId": "T218-Q050",
+      "questionText": "Complete the first conditional: If it rains tomorrow, we ____ at home. (Question 50)",
+      "optionA": "would stay",
+      "optionB": "stayed",
+      "optionC": "stay",
+      "optionD": "will stay",
+      "correctOption": "Option D",
+      "explanation": "'will stay' correctly completes the conditional structure."
+    }
+  ]
+}

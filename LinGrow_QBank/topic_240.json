@@ -1,0 +1,507 @@
+{
+  "topicId": 240,
+  "topicName": "Word-order errors",
+  "unit": "UNIT 26 — COMMON BEGINNER ERRORS",
+  "questions": [
+    {
+      "questionId": "T240-Q001",
+      "questionText": "Select the sentence with correct word order. (Question 1)",
+      "optionA": "She speaks well English.",
+      "optionB": "She speaks well English.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q002",
+      "questionText": "Select the sentence with correct word order. (Question 2)",
+      "optionA": "She speaks English well.",
+      "optionB": "I eat always breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option A",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q003",
+      "questionText": "Select the sentence with correct word order. (Question 3)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q004",
+      "questionText": "Select the sentence with correct word order. (Question 4)",
+      "optionA": "Why you are crying?",
+      "optionB": "I eat always breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q005",
+      "questionText": "Select the sentence with correct word order. (Question 5)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Why are you crying?",
+      "optionC": "She speaks well English.",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q006",
+      "questionText": "Select the sentence with correct word order. (Question 6)",
+      "optionA": "I always eat breakfast.",
+      "optionB": "Why you are crying?",
+      "optionC": "I eat always breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option A",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q007",
+      "questionText": "Select the sentence with correct word order. (Question 7)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q008",
+      "questionText": "Select the sentence with correct word order. (Question 8)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why are you crying?",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q009",
+      "questionText": "Select the sentence with correct word order. (Question 9)",
+      "optionA": "She speaks well English.",
+      "optionB": "She speaks well English.",
+      "optionC": "I eat always breakfast.",
+      "optionD": "Why are you crying?",
+      "correctOption": "Option D",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q010",
+      "questionText": "Select the sentence with correct word order. (Question 10)",
+      "optionA": "Why you are crying?",
+      "optionB": "She speaks English well.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q011",
+      "questionText": "Select the sentence with correct word order. (Question 11)",
+      "optionA": "Always I eat breakfast.",
+      "optionB": "She speaks English well.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option B",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q012",
+      "questionText": "Select the sentence with correct word order. (Question 12)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q013",
+      "questionText": "Select the sentence with correct word order. (Question 13)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why you are crying?",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q014",
+      "questionText": "Select the sentence with correct word order. (Question 14)",
+      "optionA": "Why are you crying?",
+      "optionB": "I eat always breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q015",
+      "questionText": "Select the sentence with correct word order. (Question 15)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q016",
+      "questionText": "Select the sentence with correct word order. (Question 16)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why are you crying?",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q017",
+      "questionText": "Select the sentence with correct word order. (Question 17)",
+      "optionA": "Why are you crying?",
+      "optionB": "She speaks well English.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q018",
+      "questionText": "Select the sentence with correct word order. (Question 18)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why you are crying?",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q019",
+      "questionText": "Select the sentence with correct word order. (Question 19)",
+      "optionA": "Always I eat breakfast.",
+      "optionB": "She speaks well English.",
+      "optionC": "Why you are crying?",
+      "optionD": "Why are you crying?",
+      "correctOption": "Option D",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q020",
+      "questionText": "Select the sentence with correct word order. (Question 20)",
+      "optionA": "I always eat breakfast.",
+      "optionB": "I eat always breakfast.",
+      "optionC": "I eat always breakfast.",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q021",
+      "questionText": "Select the sentence with correct word order. (Question 21)",
+      "optionA": "Why are you crying?",
+      "optionB": "She speaks well English.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q022",
+      "questionText": "Select the sentence with correct word order. (Question 22)",
+      "optionA": "Why you are crying?",
+      "optionB": "I eat always breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q023",
+      "questionText": "Select the sentence with correct word order. (Question 23)",
+      "optionA": "Why you are crying?",
+      "optionB": "Why you are crying?",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q024",
+      "questionText": "Select the sentence with correct word order. (Question 24)",
+      "optionA": "Why are you crying?",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "Why you are crying?",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option A",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q025",
+      "questionText": "Select the sentence with correct word order. (Question 25)",
+      "optionA": "She speaks English well.",
+      "optionB": "I eat always breakfast.",
+      "optionC": "I eat always breakfast.",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q026",
+      "questionText": "Select the sentence with correct word order. (Question 26)",
+      "optionA": "She speaks English well.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "I eat always breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option A",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q027",
+      "questionText": "Select the sentence with correct word order. (Question 27)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "She speaks English well.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q028",
+      "questionText": "Select the sentence with correct word order. (Question 28)",
+      "optionA": "Why you are crying?",
+      "optionB": "She speaks English well.",
+      "optionC": "Why you are crying?",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q029",
+      "questionText": "Select the sentence with correct word order. (Question 29)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why you are crying?",
+      "optionC": "I always eat breakfast.",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q030",
+      "questionText": "Select the sentence with correct word order. (Question 30)",
+      "optionA": "Why you are crying?",
+      "optionB": "She speaks well English.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q031",
+      "questionText": "Select the sentence with correct word order. (Question 31)",
+      "optionA": "Why you are crying?",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q032",
+      "questionText": "Select the sentence with correct word order. (Question 32)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "I eat always breakfast.",
+      "optionC": "She speaks English well.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q033",
+      "questionText": "Select the sentence with correct word order. (Question 33)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Why you are crying?",
+      "optionC": "I eat always breakfast.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q034",
+      "questionText": "Select the sentence with correct word order. (Question 34)",
+      "optionA": "Always I eat breakfast.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q035",
+      "questionText": "Select the sentence with correct word order. (Question 35)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Why you are crying?",
+      "optionC": "She speaks well English.",
+      "optionD": "Why are you crying?",
+      "correctOption": "Option D",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q036",
+      "questionText": "Select the sentence with correct word order. (Question 36)",
+      "optionA": "Why you are crying?",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "I always eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q037",
+      "questionText": "Select the sentence with correct word order. (Question 37)",
+      "optionA": "She speaks English well.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option A",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q038",
+      "questionText": "Select the sentence with correct word order. (Question 38)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Why you are crying?",
+      "optionC": "She speaks English well.",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option C",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q039",
+      "questionText": "Select the sentence with correct word order. (Question 39)",
+      "optionA": "She speaks English well.",
+      "optionB": "Why you are crying?",
+      "optionC": "She speaks well English.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option A",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q040",
+      "questionText": "Select the sentence with correct word order. (Question 40)",
+      "optionA": "Always I eat breakfast.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q041",
+      "questionText": "Select the sentence with correct word order. (Question 41)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "I always eat breakfast.",
+      "correctOption": "Option D",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q042",
+      "questionText": "Select the sentence with correct word order. (Question 42)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Why you are crying?",
+      "optionC": "She speaks well English.",
+      "optionD": "Why are you crying?",
+      "correctOption": "Option D",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q043",
+      "questionText": "Select the sentence with correct word order. (Question 43)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "Always I eat breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q044",
+      "questionText": "Select the sentence with correct word order. (Question 44)",
+      "optionA": "She speaks well English.",
+      "optionB": "Why you are crying?",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q045",
+      "questionText": "Select the sentence with correct word order. (Question 45)",
+      "optionA": "Why are you crying?",
+      "optionB": "She speaks well English.",
+      "optionC": "Why you are crying?",
+      "optionD": "I eat always breakfast.",
+      "correctOption": "Option A",
+      "explanation": "'Why are you crying?' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q046",
+      "questionText": "Select the sentence with correct word order. (Question 46)",
+      "optionA": "Why you are crying?",
+      "optionB": "Why you are crying?",
+      "optionC": "I always eat breakfast.",
+      "optionD": "She speaks well English.",
+      "correctOption": "Option C",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q047",
+      "questionText": "Select the sentence with correct word order. (Question 47)",
+      "optionA": "Why you are crying?",
+      "optionB": "She speaks English well.",
+      "optionC": "Why you are crying?",
+      "optionD": "Always I eat breakfast.",
+      "correctOption": "Option B",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q048",
+      "questionText": "Select the sentence with correct word order. (Question 48)",
+      "optionA": "She speaks well English.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "She speaks well English.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q049",
+      "questionText": "Select the sentence with correct word order. (Question 49)",
+      "optionA": "I eat always breakfast.",
+      "optionB": "I always eat breakfast.",
+      "optionC": "Always I eat breakfast.",
+      "optionD": "Why you are crying?",
+      "correctOption": "Option B",
+      "explanation": "'I always eat breakfast' is the correct grammatical choice that fixes the common error."
+    },
+    {
+      "questionId": "T240-Q050",
+      "questionText": "Select the sentence with correct word order. (Question 50)",
+      "optionA": "She speaks well English.",
+      "optionB": "She speaks well English.",
+      "optionC": "She speaks well English.",
+      "optionD": "She speaks English well.",
+      "correctOption": "Option D",
+      "explanation": "'She speaks English well' is the correct grammatical choice that fixes the common error."
+    }
+  ]
+}

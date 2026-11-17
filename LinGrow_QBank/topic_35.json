@@ -1,0 +1,507 @@
+{
+  "topicId": 35,
+  "topicName": "Reflexive pronouns",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T035-Q001",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "himself",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q002",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "herself",
+      "optionD": "himself",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q003",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q004",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "her",
+      "optionC": "himself",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q005",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q006",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "herself",
+      "optionD": "himself",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q007",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q008",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q009",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q010",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q011",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q012",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q013",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q014",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "himself",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q015",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q016",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q017",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "her",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q018",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "she",
+      "optionC": "herself",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q019",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q020",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q021",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "himself",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q022",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q023",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q024",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q025",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q026",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "her",
+      "optionC": "himself",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q027",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "she",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q028",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q029",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q030",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "himself",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q031",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "herself",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q032",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q033",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q034",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q035",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q036",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q037",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q038",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "her",
+      "optionC": "himself",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q039",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "himself",
+      "optionC": "she",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q040",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "herself",
+      "optionC": "she",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q041",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "herself",
+      "optionD": "her",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q042",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q043",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "her",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q044",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "himself",
+      "optionC": "her",
+      "optionD": "she",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q045",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q046",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "himself",
+      "optionD": "her",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q047",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "her",
+      "optionC": "she",
+      "optionD": "herself",
+      "correctOption": "Option D",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q048",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "himself",
+      "optionB": "her",
+      "optionC": "herself",
+      "optionD": "she",
+      "correctOption": "Option C",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q049",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "herself",
+      "optionB": "she",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option A",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    },
+    {
+      "questionId": "T035-Q050",
+      "questionText": "She cooked the entire meal by ___.",
+      "optionA": "she",
+      "optionB": "herself",
+      "optionC": "her",
+      "optionD": "himself",
+      "correctOption": "Option B",
+      "explanation": "'herself' is a reflexive pronoun used when the subject and object are the same person or thing."
+    }
+  ]
+}

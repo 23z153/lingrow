@@ -1,0 +1,507 @@
+{
+  "topicId": 23,
+  "topicName": "Countable nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T023-Q001",
+      "questionText": "Which of the following is a countable noun?",
+      "optionA": "Water",
+      "optionB": "Information",
+      "optionC": "Book",
+      "optionD": "Advice",
+      "correctOption": "Option C",
+      "explanation": "'Book' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q002",
+      "questionText": "Which sentence contains a countable noun?",
+      "optionA": "The researcher collected information.",
+      "optionB": "The student purchased three notebooks.",
+      "optionC": "The equipment was expensive.",
+      "optionD": "The professor gave useful advice.",
+      "correctOption": "Option B",
+      "explanation": "'The student purchased three notebooks' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q003",
+      "questionText": "Which noun can naturally be used with “one,” “two,” or “three”?",
+      "optionA": "Furniture",
+      "optionB": "Research",
+      "optionC": "Computer",
+      "optionD": "Knowledge",
+      "correctOption": "Option C",
+      "explanation": "'Computer' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q004",
+      "questionText": "Which of the following is a countable noun?",
+      "optionA": "Chair",
+      "optionB": "Rice",
+      "optionC": "Electricity",
+      "optionD": "Information",
+      "correctOption": "Option A",
+      "explanation": "'Chair' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q005",
+      "questionText": "Identify the countable noun in the sentence: “The laboratory has five computers.”",
+      "optionA": "Laboratory",
+      "optionB": "Has",
+      "optionC": "Five",
+      "optionD": "Computers",
+      "correctOption": "Option D",
+      "explanation": "'Computers' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q006",
+      "questionText": "Which noun has both singular and plural forms?",
+      "optionA": "Equipment",
+      "optionB": "Advice",
+      "optionC": "Student",
+      "optionD": "Information",
+      "correctOption": "Option C",
+      "explanation": "'Student' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q007",
+      "questionText": "Which sentence uses a countable noun correctly?",
+      "optionA": "I bought two laptop.",
+      "optionB": "I bought two laptops.",
+      "optionC": "I bought two information.",
+      "optionD": "I bought two furniture.",
+      "correctOption": "Option B",
+      "explanation": "'I bought two laptops' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q008",
+      "questionText": "Which of the following is NOT a countable noun?",
+      "optionA": "Pen",
+      "optionB": "Employee",
+      "optionC": "Water",
+      "optionD": "Document",
+      "correctOption": "Option C",
+      "explanation": "'Water' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q009",
+      "questionText": "Which word can be preceded by “many”?",
+      "optionA": "Information",
+      "optionB": "Equipment",
+      "optionC": "Students",
+      "optionD": "Advice",
+      "correctOption": "Option C",
+      "explanation": "'Students' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q010",
+      "questionText": "Which word can be preceded by “a”?",
+      "optionA": "Research",
+      "optionB": "Computer",
+      "optionC": "Information",
+      "optionD": "Equipment",
+      "correctOption": "Option B",
+      "explanation": "'Computer' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q011",
+      "questionText": "Identify the countable noun: “The manager interviewed several candidates.”",
+      "optionA": "Manager",
+      "optionB": "Interviewed",
+      "optionC": "Several",
+      "optionD": "Candidates",
+      "correctOption": "Option D",
+      "explanation": "'Candidates' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q012",
+      "questionText": "Which noun can be made plural by adding “-s” in its regular plural form?",
+      "optionA": "Machine",
+      "optionB": "Advice",
+      "optionC": "Furniture",
+      "optionD": "Knowledge",
+      "correctOption": "Option A",
+      "explanation": "'Machine' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q013",
+      "questionText": "Which sentence contains a plural countable noun?",
+      "optionA": "The equipment is new.",
+      "optionB": "The researcher needs information.",
+      "optionC": "The engineers tested the system.",
+      "optionD": "The software requires maintenance.",
+      "correctOption": "Option C",
+      "explanation": "'The engineers tested the system' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q014",
+      "questionText": "Which noun is countable?",
+      "optionA": "Experiment",
+      "optionB": "Electricity",
+      "optionC": "Software",
+      "optionD": "Research",
+      "correctOption": "Option A",
+      "explanation": "'Experiment' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q015",
+      "questionText": "Which sentence correctly uses “many” with a countable noun?",
+      "optionA": "Many information was collected.",
+      "optionB": "Many equipment was purchased.",
+      "optionC": "Many students attended the seminar.",
+      "optionD": "Many advice was provided.",
+      "correctOption": "Option C",
+      "explanation": "'Many students attended the seminar' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q016",
+      "questionText": "Which sentence correctly uses “a” with a countable noun?",
+      "optionA": "She conducted a research.",
+      "optionB": "She received a useful advice.",
+      "optionC": "She purchased a laptop.",
+      "optionD": "She acquired a knowledge.",
+      "correctOption": "Option C",
+      "explanation": "'She purchased a laptop' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q017",
+      "questionText": "Which noun can be used in both singular and plural forms?",
+      "optionA": "Project",
+      "optionB": "Information",
+      "optionC": "Furniture",
+      "optionD": "Advice",
+      "correctOption": "Option A",
+      "explanation": "'Project' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q018",
+      "questionText": "Identify the countable noun in: “The department purchased ten new printers.”",
+      "optionA": "Department",
+      "optionB": "Purchased",
+      "optionC": "Ten",
+      "optionD": "Printers",
+      "correctOption": "Option D",
+      "explanation": "'Printers' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q019",
+      "questionText": "Which phrase is grammatically correct?",
+      "optionA": "Three equipment",
+      "optionB": "Three pieces of equipment",
+      "optionC": "Three informations",
+      "optionD": "Three advices",
+      "correctOption": "Option B",
+      "explanation": "'Three pieces of equipment' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q020",
+      "questionText": "Which phrase contains a countable noun?",
+      "optionA": "Much water",
+      "optionB": "A piece of advice",
+      "optionC": "Several reports",
+      "optionD": "Little information",
+      "correctOption": "Option C",
+      "explanation": "'Several reports' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q021",
+      "questionText": "Which noun can be used with “few”?",
+      "optionA": "Research",
+      "optionB": "Students",
+      "optionC": "Equipment",
+      "optionD": "Information",
+      "correctOption": "Option B",
+      "explanation": "'Students' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q022",
+      "questionText": "Which sentence correctly uses “few” with a countable noun?",
+      "optionA": "Few students attended the workshop.",
+      "optionB": "Few information was available.",
+      "optionC": "Few equipment was damaged.",
+      "optionD": "Few advice was useful.",
+      "correctOption": "Option A",
+      "explanation": "'Few students attended the workshop' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q023",
+      "questionText": "Which sentence correctly uses “a few” with a countable noun?",
+      "optionA": "A few questions remained unanswered.",
+      "optionB": "A few information remained.",
+      "optionC": "A few furniture was delivered.",
+      "optionD": "A few advice was given.",
+      "correctOption": "Option A",
+      "explanation": "'A few questions remained unanswered' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q024",
+      "questionText": "Which noun can be preceded by “each”?",
+      "optionA": "Information",
+      "optionB": "Student",
+      "optionC": "Equipment",
+      "optionD": "Advice",
+      "correctOption": "Option B",
+      "explanation": "'Student' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q025",
+      "questionText": "Which sentence correctly uses “each” with a countable noun?",
+      "optionA": "Each student received an ID card.",
+      "optionB": "Each information was verified.",
+      "optionC": "Each equipment was tested.",
+      "optionD": "Each advice was recorded.",
+      "correctOption": "Option A",
+      "explanation": "'Each student received an ID card' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q026",
+      "questionText": "Which noun can be preceded by “every”?",
+      "optionA": "Laptop",
+      "optionB": "Furniture",
+      "optionC": "Information",
+      "optionD": "Advice",
+      "correctOption": "Option A",
+      "explanation": "'Laptop' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q027",
+      "questionText": "Which sentence correctly uses “every” with a countable noun?",
+      "optionA": "Every employee must complete the training.",
+      "optionB": "Every information must be verified.",
+      "optionC": "Every equipment must be inspected.",
+      "optionD": "Every advice must be followed.",
+      "correctOption": "Option A",
+      "explanation": "'Every employee must complete the training' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q028",
+      "questionText": "Which noun can be preceded by “these”?",
+      "optionA": "Information",
+      "optionB": "Equipment",
+      "optionC": "Reports",
+      "optionD": "Advice",
+      "correctOption": "Option C",
+      "explanation": "'Reports' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q029",
+      "questionText": "Which sentence correctly uses “these” with a countable noun?",
+      "optionA": "These information is useful.",
+      "optionB": "These equipment is expensive.",
+      "optionC": "These reports contain the results.",
+      "optionD": "These advice is valuable.",
+      "correctOption": "Option C",
+      "explanation": "'These reports contain the results' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q030",
+      "questionText": "Which noun can be preceded by “those”?",
+      "optionA": "Machines",
+      "optionB": "Information",
+      "optionC": "Furniture",
+      "optionD": "Research",
+      "correctOption": "Option A",
+      "explanation": "'Machines' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q031",
+      "questionText": "Which sentence correctly uses “several”?",
+      "optionA": "Several information was collected.",
+      "optionB": "Several equipment was tested.",
+      "optionC": "Several researchers participated in the study.",
+      "optionD": "Several advice was provided.",
+      "correctOption": "Option C",
+      "explanation": "'Several researchers participated in the study' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q032",
+      "questionText": "Which noun is countable and can occur after “a number of”?",
+      "optionA": "Students",
+      "optionB": "Information",
+      "optionC": "Equipment",
+      "optionD": "Advice",
+      "correctOption": "Option A",
+      "explanation": "'Students' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q033",
+      "questionText": "Which sentence correctly uses “a number of”?",
+      "optionA": "A number of students joined the program.",
+      "optionB": "A number of information was collected.",
+      "optionC": "A number of equipment was purchased.",
+      "optionD": "A number of advice was received.",
+      "correctOption": "Option A",
+      "explanation": "'A number of students joined the program' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q034",
+      "questionText": "Which sentence contains a singular countable noun?",
+      "optionA": "The researcher collected data.",
+      "optionB": "The engineer designed a prototype.",
+      "optionC": "The team acquired equipment.",
+      "optionD": "The professor provided information.",
+      "correctOption": "Option B",
+      "explanation": "'The engineer designed a prototype' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q035",
+      "questionText": "Which sentence contains two countable nouns?",
+      "optionA": "The student opened the textbook.",
+      "optionB": "The researcher collected information.",
+      "optionC": "The engineer examined the equipment.",
+      "optionD": "The professor gave advice.",
+      "correctOption": "Option A",
+      "explanation": "'The student opened the textbook' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q036",
+      "questionText": "Which pair contains only countable nouns?",
+      "optionA": "Laptop, printer",
+      "optionB": "Water, laptop",
+      "optionC": "Advice, report",
+      "optionD": "Equipment, machine",
+      "correctOption": "Option A",
+      "explanation": "'Laptop, printer' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q037",
+      "questionText": "Which pair contains one countable noun and one uncountable noun?",
+      "optionA": "Laptop, water",
+      "optionB": "Chair, table",
+      "optionC": "Student, professor",
+      "optionD": "Report, document",
+      "correctOption": "Option A",
+      "explanation": "'Laptop, water' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q038",
+      "questionText": "Which sentence correctly distinguishes a countable noun from an uncountable noun?",
+      "optionA": "We bought three equipment.",
+      "optionB": "We bought three machines and some equipment.",
+      "optionC": "We bought three informations.",
+      "optionD": "We bought three advices.",
+      "correctOption": "Option B",
+      "explanation": "'We bought three machines and some equipment' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q039",
+      "questionText": "Which noun can be used after “two”?",
+      "optionA": "Research",
+      "optionB": "Furniture",
+      "optionC": "Experiments",
+      "optionD": "Advice",
+      "correctOption": "Option C",
+      "explanation": "'Experiments' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q040",
+      "questionText": "Which sentence is grammatically correct?",
+      "optionA": "The university has many laboratory.",
+      "optionB": "The university has much laboratories.",
+      "optionC": "The university has many laboratories.",
+      "optionD": "The university has many information.",
+      "correctOption": "Option C",
+      "explanation": "'The university has many laboratories' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q041",
+      "questionText": "Which noun can take a plural ending and refer to separate individual items?",
+      "optionA": "Book",
+      "optionB": "Milk",
+      "optionC": "Knowledge",
+      "optionD": "Furniture",
+      "correctOption": "Option A",
+      "explanation": "'Book' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q042",
+      "questionText": "Which sentence contains a correctly pluralized countable noun?",
+      "optionA": "The company hired five engineer.",
+      "optionB": "The company hired five engineers.",
+      "optionC": "The company hired five informations.",
+      "optionD": "The company hired five equipment.",
+      "correctOption": "Option B",
+      "explanation": "'The company hired five engineers' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q043",
+      "questionText": "Which question correctly asks about a countable noun?",
+      "optionA": "How much students are present?",
+      "optionB": "How many students are present?",
+      "optionC": "How many information is available?",
+      "optionD": "How much computers are required?",
+      "correctOption": "Option B",
+      "explanation": "'How many students are present?' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q044",
+      "questionText": "Which sentence correctly uses “how many”?",
+      "optionA": "How many equipment do we need?",
+      "optionB": "How many information did you collect?",
+      "optionC": "How many participants registered?",
+      "optionD": "How many advice did she give?",
+      "correctOption": "Option C",
+      "explanation": "'How many participants registered?' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q045",
+      "questionText": "Which noun can be preceded by “a large number of”?",
+      "optionA": "Applications",
+      "optionB": "Information",
+      "optionC": "Equipment",
+      "optionD": "Research",
+      "correctOption": "Option A",
+      "explanation": "'Applications' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q046",
+      "questionText": "Which sentence correctly uses “a large number of”?",
+      "optionA": "A large number of applications were received.",
+      "optionB": "A large number of information was received.",
+      "optionC": "A large number of equipment was received.",
+      "optionD": "A large number of advice was received.",
+      "correctOption": "Option A",
+      "explanation": "'A large number of applications were received' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q047",
+      "questionText": "Which sentence correctly uses “one” with a countable noun?",
+      "optionA": "One information",
+      "optionB": "One equipment",
+      "optionC": "One document",
+      "optionD": "One advice",
+      "correctOption": "Option C",
+      "explanation": "'One document' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q048",
+      "questionText": "Which of the following nouns can refer to individual items that can be counted separately?",
+      "optionA": "Furniture",
+      "optionB": "Equipment",
+      "optionC": "Chair",
+      "optionD": "Information",
+      "correctOption": "Option C",
+      "explanation": "'Chair' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q049",
+      "questionText": "Which sentence demonstrates the use of both singular and plural countable nouns?",
+      "optionA": "A student submitted three assignments.",
+      "optionB": "Some information was submitted.",
+      "optionC": "The equipment was delivered.",
+      "optionD": "Much research was conducted.",
+      "correctOption": "Option A",
+      "explanation": "'A student submitted three assignments' is a countable noun because it can be counted individually and has a plural form."
+    },
+    {
+      "questionId": "T023-Q050",
+      "questionText": "Which sentence correctly uses countable nouns throughout?",
+      "optionA": "The researcher purchased two laptops and three monitors.",
+      "optionB": "The researcher purchased two information and three equipment.",
+      "optionC": "The researcher purchased two advice and three furniture.",
+      "optionD": "The researcher purchased two research and three knowledge.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher purchased two laptops and three monitors' is a countable noun because it can be counted individually and has a plural form."
+    }
+  ]
+}

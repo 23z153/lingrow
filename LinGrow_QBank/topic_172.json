@@ -1,0 +1,507 @@
+{
+  "topicId": 172,
+  "topicName": "While",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T172-Q001",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "While",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Because",
+      "correctOption": "Option A",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q002",
+      "questionText": "Please do not talk ____ the teacher is speaking.",
+      "optionA": "although",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q003",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q004",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Because",
+      "optionC": "Or",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q005",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q006",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "While",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Because",
+      "correctOption": "Option A",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q007",
+      "questionText": "Please do not talk ____ the professor is speaking.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q008",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "while",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q009",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Because",
+      "optionC": "Or",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q010",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "while",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "because",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q011",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "If",
+      "optionB": "Unless",
+      "optionC": "Because",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q012",
+      "questionText": "Please do not talk ____ the professor is speaking.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "while",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q013",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q014",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "While",
+      "optionB": "Because",
+      "optionC": "Or",
+      "optionD": "So",
+      "correctOption": "Option A",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q015",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "although",
+      "optionB": "while",
+      "optionC": "unless",
+      "optionD": "because",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q016",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Because",
+      "optionB": "If",
+      "optionC": "Unless",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q017",
+      "questionText": "Please do not talk ____ the instructor is speaking.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q018",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q019",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "While",
+      "optionB": "So",
+      "optionC": "Because",
+      "optionD": "Or",
+      "correctOption": "Option A",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q020",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "while",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q021",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Unless",
+      "optionB": "Because",
+      "optionC": "While",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q022",
+      "questionText": "Please do not talk ____ the professor is speaking.",
+      "optionA": "while",
+      "optionB": "although",
+      "optionC": "because",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q023",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q024",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Or",
+      "optionC": "While",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q025",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "while",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q026",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Unless",
+      "optionB": "Because",
+      "optionC": "If",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q027",
+      "questionText": "Please do not talk ____ the instructor is speaking.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "while",
+      "optionD": "because",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q028",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "unless",
+      "optionB": "while",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q029",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Or",
+      "optionC": "While",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q030",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "while",
+      "optionB": "unless",
+      "optionC": "because",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q031",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Because",
+      "optionB": "Unless",
+      "optionC": "While",
+      "optionD": "If",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q032",
+      "questionText": "Please do not talk ____ the instructor is speaking.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "while",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q033",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q034",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "Because",
+      "optionB": "Or",
+      "optionC": "While",
+      "optionD": "So",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q035",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "unless",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q036",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Unless",
+      "optionB": "Because",
+      "optionC": "If",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q037",
+      "questionText": "Please do not talk ____ the teacher is speaking.",
+      "optionA": "while",
+      "optionB": "because",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q038",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "if",
+      "optionB": "while",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q039",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Or",
+      "optionC": "While",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q040",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "unless",
+      "optionB": "because",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q041",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Because",
+      "optionB": "If",
+      "optionC": "Unless",
+      "optionD": "While",
+      "correctOption": "Option D",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q042",
+      "questionText": "Please do not talk ____ the instructor is speaking.",
+      "optionA": "because",
+      "optionB": "while",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q043",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "while",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q044",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "So",
+      "optionB": "Or",
+      "optionC": "While",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q045",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q046",
+      "questionText": "____ I was studying, my roommate was watching TV.",
+      "optionA": "Because",
+      "optionB": "While",
+      "optionC": "If",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q047",
+      "questionText": "Please do not talk ____ the professor is speaking.",
+      "optionA": "because",
+      "optionB": "unless",
+      "optionC": "while",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q048",
+      "questionText": "I took notes ____ he explained the grammar rules.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "although",
+      "optionD": "while",
+      "correctOption": "Option D",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q049",
+      "questionText": "____ waiting for the bus, she read her textbook.",
+      "optionA": "Or",
+      "optionB": "While",
+      "optionC": "Because",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'While' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T172-Q050",
+      "questionText": "He fell asleep ____ reading the long chapter.",
+      "optionA": "because",
+      "optionB": "although",
+      "optionC": "while",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'while' is the correct choice in standard English grammar."
+    }
+  ]
+}

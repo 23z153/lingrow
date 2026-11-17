@@ -1,0 +1,507 @@
+{
+  "topicId": 25,
+  "topicName": "Singular nouns",
+  "unit": "UNIT 3 — NOUNS",
+  "questions": [
+    {
+      "questionId": "T025-Q001",
+      "questionText": "Which of the following is a singular noun?",
+      "optionA": "Students",
+      "optionB": "Books",
+      "optionC": "Computer",
+      "optionD": "Engineers",
+      "correctOption": "Option C",
+      "explanation": "'Computer' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q002",
+      "questionText": "Which sentence contains a singular noun?",
+      "optionA": "The students entered the laboratory.",
+      "optionB": "The researchers submitted their papers.",
+      "optionC": "The professor explained the concept.",
+      "optionD": "The engineers tested the machines.",
+      "correctOption": "Option C",
+      "explanation": "'The professor explained the concept' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q003",
+      "questionText": "Identify the singular noun in the sentence: “The student submitted an assignment.”",
+      "optionA": "Student",
+      "optionB": "Submitted",
+      "optionC": "An",
+      "optionD": "Assignment",
+      "correctOption": "Option A",
+      "explanation": "'Student' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q004",
+      "questionText": "Which of the following is singular?",
+      "optionA": "Applications",
+      "optionB": "Application",
+      "optionC": "Applicants",
+      "optionD": "Documents",
+      "correctOption": "Option B",
+      "explanation": "'Application' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q005",
+      "questionText": "Which sentence correctly uses a singular noun?",
+      "optionA": "The researcher conducted an experiment.",
+      "optionB": "The researchers conducted an experiments.",
+      "optionC": "The researcher conducted experiments.",
+      "optionD": "The researcher conducted several experiment.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher conducted an experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q006",
+      "questionText": "Which noun refers to one person?",
+      "optionA": "Employees",
+      "optionB": "Employee",
+      "optionC": "Teams",
+      "optionD": "Departments",
+      "correctOption": "Option B",
+      "explanation": "'Employee' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q007",
+      "questionText": "Identify the singular noun: “A laptop was placed on the desk.”",
+      "optionA": "Laptop",
+      "optionB": "Was",
+      "optionC": "Placed",
+      "optionD": "Desk",
+      "correctOption": "Option A",
+      "explanation": "'Laptop' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q008",
+      "questionText": "Which of the following is NOT a singular noun?",
+      "optionA": "Teacher",
+      "optionB": "Laboratory",
+      "optionC": "Students",
+      "optionD": "Computer",
+      "correctOption": "Option C",
+      "explanation": "'Students' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q009",
+      "questionText": "Which article can normally be used before a singular countable noun?",
+      "optionA": "A",
+      "optionB": "Many",
+      "optionC": "Few",
+      "optionD": "Several",
+      "correctOption": "Option A",
+      "explanation": "'A' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q010",
+      "questionText": "Which sentence contains two singular nouns?",
+      "optionA": "The student opened the book.",
+      "optionB": "The students opened their books.",
+      "optionC": "The researchers examined the samples.",
+      "optionD": "The engineers tested the systems.",
+      "correctOption": "Option A",
+      "explanation": "'The student opened the book' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q011",
+      "questionText": "Which sentence correctly uses a singular noun with “a”?",
+      "optionA": "She purchased a laptop.",
+      "optionB": "She purchased a laptops.",
+      "optionC": "She purchased a information.",
+      "optionD": "She purchased a equipment.",
+      "correctOption": "Option A",
+      "explanation": "'She purchased a laptop' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q012",
+      "questionText": "Which sentence correctly uses a singular noun with “an”?",
+      "optionA": "He conducted an experiment.",
+      "optionB": "He conducted an experiments.",
+      "optionC": "He conducted an research.",
+      "optionD": "He conducted an equipment.",
+      "correctOption": "Option A",
+      "explanation": "'He conducted an experiment' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q013",
+      "questionText": "Which noun is singular in the sentence: “The engineer designed a prototype”?",
+      "optionA": "Engineer",
+      "optionB": "Designed",
+      "optionC": "A",
+      "optionD": "Prototype",
+      "correctOption": "Option A",
+      "explanation": "'Engineer' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q014",
+      "questionText": "Which of the following is a singular noun?",
+      "optionA": "Analyses",
+      "optionB": "Criteria",
+      "optionC": "Device",
+      "optionD": "Laboratories",
+      "correctOption": "Option C",
+      "explanation": "'Device' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q015",
+      "questionText": "Which sentence contains a singular noun referring to a place?",
+      "optionA": "The laboratories were renovated.",
+      "optionB": "The laboratory was renovated.",
+      "optionC": "The classrooms were renovated.",
+      "optionD": "The offices were renovated.",
+      "correctOption": "Option B",
+      "explanation": "'The laboratory was renovated' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q016",
+      "questionText": "Which sentence correctly uses a singular noun with a singular verb?",
+      "optionA": "The student studies every evening.",
+      "optionB": "The student study every evening.",
+      "optionC": "The students studies every evening.",
+      "optionD": "The students studying every evening.",
+      "correctOption": "Option A",
+      "explanation": "'The student studies every evening' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q017",
+      "questionText": "Identify the singular noun in: “The manager reviews every report carefully.”",
+      "optionA": "Manager",
+      "optionB": "Reviews",
+      "optionC": "Every",
+      "optionD": "Report",
+      "correctOption": "Option A",
+      "explanation": "'Manager' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q018",
+      "questionText": "Which noun refers to one object?",
+      "optionA": "Tables",
+      "optionB": "Chairs",
+      "optionC": "Keyboard",
+      "optionD": "Monitors",
+      "correctOption": "Option C",
+      "explanation": "'Keyboard' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q019",
+      "questionText": "Which sentence uses a singular noun correctly with “this”?",
+      "optionA": "This students need assistance.",
+      "optionB": "This student needs assistance.",
+      "optionC": "This students needs assistance.",
+      "optionD": "This student need assistance.",
+      "correctOption": "Option B",
+      "explanation": "'This student needs assistance' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q020",
+      "questionText": "Which sentence uses a singular noun correctly with “that”?",
+      "optionA": "That computer works properly.",
+      "optionB": "That computers works properly.",
+      "optionC": "That computer work properly.",
+      "optionD": "That computers work properly.",
+      "correctOption": "Option A",
+      "explanation": "'That computer works properly' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q021",
+      "questionText": "Which noun can correctly follow “each”?",
+      "optionA": "Students",
+      "optionB": "Student",
+      "optionC": "Equipment",
+      "optionD": "Information",
+      "correctOption": "Option B",
+      "explanation": "'Student' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q022",
+      "questionText": "Which sentence correctly uses “each” with a singular noun?",
+      "optionA": "Each students received a certificate.",
+      "optionB": "Each student received a certificate.",
+      "optionC": "Each student receive a certificate.",
+      "optionD": "Each students receives a certificate.",
+      "correctOption": "Option B",
+      "explanation": "'Each student received a certificate' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q023",
+      "questionText": "Which noun can correctly follow “every”?",
+      "optionA": "Employees",
+      "optionB": "Employee",
+      "optionC": "Equipment",
+      "optionD": "Information",
+      "correctOption": "Option B",
+      "explanation": "'Employee' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q024",
+      "questionText": "Which sentence correctly uses “every” with a singular noun?",
+      "optionA": "Every employee must attend the meeting.",
+      "optionB": "Every employees must attend the meeting.",
+      "optionC": "Every employee must attends the meeting.",
+      "optionD": "Every employees must attends the meeting.",
+      "correctOption": "Option A",
+      "explanation": "'Every employee must attend the meeting' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q025",
+      "questionText": "Which sentence contains a singular noun followed by the correct form of “be”?",
+      "optionA": "The report are ready.",
+      "optionB": "The reports is ready.",
+      "optionC": "The report is ready.",
+      "optionD": "The reports am ready.",
+      "correctOption": "Option C",
+      "explanation": "'The report is ready' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q026",
+      "questionText": "Which sentence correctly uses a singular noun with “has”?",
+      "optionA": "The student has a question.",
+      "optionB": "The students has a question.",
+      "optionC": "The student have a question.",
+      "optionD": "The students having a question.",
+      "correctOption": "Option A",
+      "explanation": "'The student has a question' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q027",
+      "questionText": "Which sentence correctly uses a singular noun with “does”?",
+      "optionA": "The researcher do the analysis.",
+      "optionB": "The researchers does the analysis.",
+      "optionC": "The researcher does the analysis.",
+      "optionD": "The researcher doing the analysis.",
+      "correctOption": "Option C",
+      "explanation": "'The researcher does the analysis' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q028",
+      "questionText": "Which noun is singular in the sentence: “The company launched a new product”?",
+      "optionA": "Company",
+      "optionB": "Launched",
+      "optionC": "New",
+      "optionD": "Product",
+      "correctOption": "Option A",
+      "explanation": "'Company' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q029",
+      "questionText": "Which sentence contains one singular noun and one plural noun?",
+      "optionA": "The student submitted assignments.",
+      "optionB": "The students submitted assignments.",
+      "optionC": "The student submitted an assignment.",
+      "optionD": "The students submitted an assignment.",
+      "correctOption": "Option A",
+      "explanation": "'The student submitted assignments' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q030",
+      "questionText": "Which sentence contains only singular countable nouns?",
+      "optionA": "The researcher opened a journal.",
+      "optionB": "The researchers opened journals.",
+      "optionC": "The students opened textbooks.",
+      "optionD": "The engineers inspected machines.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher opened a journal' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q031",
+      "questionText": "Which word is the singular form of “libraries”?",
+      "optionA": "Library",
+      "optionB": "Librarian",
+      "optionC": "Librarys",
+      "optionD": "Libraries",
+      "correctOption": "Option A",
+      "explanation": "'Library' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q032",
+      "questionText": "Which word is the singular form of “classes”?",
+      "optionA": "Class",
+      "optionB": "Classe",
+      "optionC": "Classs",
+      "optionD": "Classes",
+      "correctOption": "Option A",
+      "explanation": "'Class' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q033",
+      "questionText": "Which word is the singular form of “analyses”?",
+      "optionA": "Analys",
+      "optionB": "Analysis",
+      "optionC": "Analyze",
+      "optionD": "Analysing",
+      "correctOption": "Option B",
+      "explanation": "'Analysis' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q034",
+      "questionText": "Which word is the singular form of “criteria”?",
+      "optionA": "Criterion",
+      "optionB": "Criterium",
+      "optionC": "Criteriae",
+      "optionD": "Criterioning",
+      "correctOption": "Option A",
+      "explanation": "'Criterion' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q035",
+      "questionText": "Which sentence correctly uses the singular form “criterion”?",
+      "optionA": "The criterion was clearly defined.",
+      "optionB": "The criterion were clearly defined.",
+      "optionC": "The criteria was clearly defined.",
+      "optionD": "The criterion are clearly defined.",
+      "correctOption": "Option A",
+      "explanation": "'The criterion was clearly defined' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q036",
+      "questionText": "Which noun is singular despite ending in “-s”?",
+      "optionA": "Mathematics",
+      "optionB": "Computers",
+      "optionC": "Applications",
+      "optionD": "Documents",
+      "correctOption": "Option A",
+      "explanation": "'Mathematics' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q037",
+      "questionText": "Which sentence correctly treats “mathematics” as a singular subject?",
+      "optionA": "Mathematics are difficult for some students.",
+      "optionB": "Mathematics is an important subject.",
+      "optionC": "Mathematics have several branches.",
+      "optionD": "Mathematics were taught yesterday.",
+      "correctOption": "Option B",
+      "explanation": "'Mathematics is an important subject' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q038",
+      "questionText": "Which noun is singular in this sentence: “The news is encouraging”?",
+      "optionA": "News",
+      "optionB": "Is",
+      "optionC": "Encouraging",
+      "optionD": "The",
+      "correctOption": "Option A",
+      "explanation": "'News' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q039",
+      "questionText": "Which sentence correctly uses “news” as a singular noun?",
+      "optionA": "The news are surprising.",
+      "optionB": "The news is surprising.",
+      "optionC": "The news were surprising.",
+      "optionD": "The news have surprising.",
+      "correctOption": "Option B",
+      "explanation": "'The news is surprising' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q040",
+      "questionText": "Which of the following is a singular noun even though it has an irregular form?",
+      "optionA": "Children",
+      "optionB": "People",
+      "optionC": "Person",
+      "optionD": "Mice",
+      "correctOption": "Option C",
+      "explanation": "'Person' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T025-Q041",
+      "questionText": "Which sentence correctly uses the singular noun “person”?",
+      "optionA": "One person was selected for the interview.",
+      "optionB": "One people was selected for the interview.",
+      "optionC": "One persons were selected for the interview.",
+      "optionD": "One person were selected for the interview.",
+      "correctOption": "Option A",
+      "explanation": "'One person was selected for the interview' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q042",
+      "questionText": "Which sentence correctly identifies a single item?",
+      "optionA": "There are a computer on the desk.",
+      "optionB": "There is a computer on the desk.",
+      "optionC": "There is computers on the desk.",
+      "optionD": "There are one computer on the desk.",
+      "correctOption": "Option B",
+      "explanation": "'There is a computer on the desk' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q043",
+      "questionText": "Which sentence correctly uses a singular noun after “one”?",
+      "optionA": "One students attended the seminar.",
+      "optionB": "One student attended the seminar.",
+      "optionC": "One student attended the seminars.",
+      "optionD": "One students attended the seminars.",
+      "correctOption": "Option B",
+      "explanation": "'One student attended the seminar' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q044",
+      "questionText": "Which sentence correctly uses “another” with a singular noun?",
+      "optionA": "We need another solution.",
+      "optionB": "We need another solutions.",
+      "optionC": "We need another information.",
+      "optionD": "We need another equipment.",
+      "correctOption": "Option A",
+      "explanation": "'We need another solution' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q045",
+      "questionText": "Which sentence correctly uses “a single” with a singular noun?",
+      "optionA": "A single applicant was selected.",
+      "optionB": "A single applicants was selected.",
+      "optionC": "A single applicant were selected.",
+      "optionD": "A single applicants were selected.",
+      "correctOption": "Option A",
+      "explanation": "'A single applicant was selected' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q046",
+      "questionText": "Which sentence contains a singular noun used as a subject?",
+      "optionA": "The software requires an update.",
+      "optionB": "The applications require updates.",
+      "optionC": "The computers require maintenance.",
+      "optionD": "The researchers conducted experiments.",
+      "correctOption": "Option A",
+      "explanation": "'The software requires an update' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q047",
+      "questionText": "Which sentence correctly uses a singular noun with “was”?",
+      "optionA": "The document was reviewed yesterday.",
+      "optionB": "The documents was reviewed yesterday.",
+      "optionC": "The document were reviewed yesterday.",
+      "optionD": "The documents were reviewed yesterday.",
+      "correctOption": "Option A",
+      "explanation": "'The document was reviewed yesterday' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q048",
+      "questionText": "Which sentence correctly uses a singular noun with “has been”?",
+      "optionA": "The system has been updated.",
+      "optionB": "The systems has been updated.",
+      "optionC": "The system have been updated.",
+      "optionD": "The systems have been updated.",
+      "correctOption": "Option A",
+      "explanation": "'The system has been updated' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q049",
+      "questionText": "Which sentence correctly uses a singular noun with “does not”?",
+      "optionA": "The application does not work properly.",
+      "optionB": "The application do not work properly.",
+      "optionC": "The applications does not work properly.",
+      "optionD": "The application does not works properly.",
+      "correctOption": "Option A",
+      "explanation": "'The application does not work properly' is correct because it forms a grammatically correct sentence."
+    },
+    {
+      "questionId": "T025-Q050",
+      "questionText": "Which sentence demonstrates correct use of a singular noun throughout?",
+      "optionA": "The researcher analyzes a sample and records the result.",
+      "optionB": "The researcher analyze a sample and record the result.",
+      "optionC": "The researchers analyzes a sample and records the result.",
+      "optionD": "The researcher analyzes samples and records the results.",
+      "correctOption": "Option A",
+      "explanation": "'The researcher analyzes a sample and records the result' is correct because it forms a grammatically correct sentence."
+    }
+  ]
+}

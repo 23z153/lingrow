@@ -1,0 +1,507 @@
+{
+  "topicId": 131,
+  "topicName": "How long",
+  "unit": "UNIT 13 — QUESTIONS",
+  "questions": [
+    {
+      "questionId": "T131-Q001",
+      "questionText": "Identify the missing word: I don't know ____ the team will arrive.",
+      "optionA": "How many",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q002",
+      "questionText": "Identify the missing word: I don't know ____ the student will want.",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How long",
+      "optionD": "How often",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q003",
+      "questionText": "Which question word is used to ask about duration?",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How far",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q004",
+      "questionText": "____ have you lived here?",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q005",
+      "questionText": "Identify the missing word: I don't know ____ the dog will arrive.",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q006",
+      "questionText": "____ does the flight take?",
+      "optionA": "How often",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q007",
+      "questionText": "____ have you lived here? (1)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q008",
+      "questionText": "Identify the missing word: I don't know ____ she will stay.",
+      "optionA": "How many",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q009",
+      "questionText": "Identify the missing word: I don't know ____ you will sleep.",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q010",
+      "questionText": "Identify the missing word: I don't know ____ the team will come.",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q011",
+      "questionText": "____ have you lived here? (2)",
+      "optionA": "How many",
+      "optionB": "How much",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q012",
+      "questionText": "Identify the missing word: I don't know ____ the dog will make.",
+      "optionA": "How long",
+      "optionB": "How many",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q013",
+      "questionText": "Identify the missing word: I don't know ____ you will run.",
+      "optionA": "How much",
+      "optionB": "How often",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q014",
+      "questionText": "____ have you lived here? (3)",
+      "optionA": "How far",
+      "optionB": "How many",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q015",
+      "questionText": "Identify the missing word: I don't know ____ it will use.",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q016",
+      "questionText": "____ have you lived here? (4)",
+      "optionA": "How old",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q017",
+      "questionText": "Which question word is used to ask about duration? (1)",
+      "optionA": "How long",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q018",
+      "questionText": "Which question word is used to ask about duration? (2)",
+      "optionA": "How much",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q019",
+      "questionText": "____ does the flight take? (1)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q020",
+      "questionText": "____ have you lived here? (5)",
+      "optionA": "How old",
+      "optionB": "How many",
+      "optionC": "How much",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q021",
+      "questionText": "Which question word is used to ask about duration? (3)",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q022",
+      "questionText": "____ does the flight take? (2)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q023",
+      "questionText": "____ have you lived here? (6)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q024",
+      "questionText": "____ does the flight take? (3)",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q025",
+      "questionText": "Which question word is used to ask about duration? (4)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How much",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q026",
+      "questionText": "____ does the flight take? (4)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q027",
+      "questionText": "Which question word is used to ask about duration? (5)",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q028",
+      "questionText": "Which question word is used to ask about duration? (6)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How many",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q029",
+      "questionText": "____ does the flight take? (5)",
+      "optionA": "How far",
+      "optionB": "How long",
+      "optionC": "How often",
+      "optionD": "How much",
+      "correctOption": "Option B",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q030",
+      "questionText": "____ have you lived here? (7)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q031",
+      "questionText": "____ have you lived here? (8)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q032",
+      "questionText": "Which question word is used to ask about duration? (7)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q033",
+      "questionText": "____ does the flight take? (6)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How long",
+      "optionD": "How far",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q034",
+      "questionText": "____ does the flight take? (7)",
+      "optionA": "How much",
+      "optionB": "How far",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q035",
+      "questionText": "____ have you lived here? (9)",
+      "optionA": "How much",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q036",
+      "questionText": "____ have you lived here? (10)",
+      "optionA": "How often",
+      "optionB": "How many",
+      "optionC": "How old",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q037",
+      "questionText": "Which question word is used to ask about duration? (8)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How old",
+      "optionD": "How many",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q038",
+      "questionText": "Identify the missing word: I don't know ____ they will make.",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q039",
+      "questionText": "____ have you lived here? (11)",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q040",
+      "questionText": "Which question word is used to ask about duration? (9)",
+      "optionA": "How long",
+      "optionB": "How often",
+      "optionC": "How many",
+      "optionD": "How far",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q041",
+      "questionText": "____ have you lived here? (12)",
+      "optionA": "How far",
+      "optionB": "How much",
+      "optionC": "How long",
+      "optionD": "How old",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q042",
+      "questionText": "____ does the flight take? (8)",
+      "optionA": "How often",
+      "optionB": "How old",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q043",
+      "questionText": "____ have you lived here? (13)",
+      "optionA": "How many",
+      "optionB": "How far",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q044",
+      "questionText": "____ does the flight take? (9)",
+      "optionA": "How long",
+      "optionB": "How old",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q045",
+      "questionText": "Which question word is used to ask about duration? (10)",
+      "optionA": "How much",
+      "optionB": "How long",
+      "optionC": "How many",
+      "optionD": "How often",
+      "correctOption": "Option B",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q046",
+      "questionText": "Which question word is used to ask about duration? (11)",
+      "optionA": "How far",
+      "optionB": "How often",
+      "optionC": "How long",
+      "optionD": "How much",
+      "correctOption": "Option C",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q047",
+      "questionText": "Identify the missing word: I don't know ____ they will use.",
+      "optionA": "How far",
+      "optionB": "How old",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q048",
+      "questionText": "____ does the flight take? (10)",
+      "optionA": "How old",
+      "optionB": "How much",
+      "optionC": "How often",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q049",
+      "questionText": "Identify the missing word: I don't know ____ I will find.",
+      "optionA": "How long",
+      "optionB": "How far",
+      "optionC": "How much",
+      "optionD": "How old",
+      "correctOption": "Option A",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T131-Q050",
+      "questionText": "Identify the missing word: I don't know ____ you will make.",
+      "optionA": "How much",
+      "optionB": "How many",
+      "optionC": "How far",
+      "optionD": "How long",
+      "correctOption": "Option D",
+      "explanation": "'How long' is the correct choice in standard English grammar."
+    }
+  ]
+}

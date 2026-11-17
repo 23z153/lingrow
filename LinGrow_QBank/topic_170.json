@@ -1,0 +1,507 @@
+{
+  "topicId": 170,
+  "topicName": "If",
+  "unit": "UNIT 17 — CONJUNCTIONS",
+  "questions": [
+    {
+      "questionId": "T170-Q001",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Unless",
+      "optionB": "Although",
+      "optionC": "So",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q002",
+      "questionText": "We will go to the classroom ____ it stops raining.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q003",
+      "questionText": "____ you need help, ask the professor.",
+      "optionA": "Because",
+      "optionB": "While",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q004",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q005",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "If",
+      "optionB": "Unless",
+      "optionC": "Until",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q006",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Unless",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "So",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q007",
+      "questionText": "We will go to the study hall ____ it stops raining.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "before",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q008",
+      "questionText": "____ you need help, ask the instructor.",
+      "optionA": "Although",
+      "optionB": "While",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q009",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q010",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Although",
+      "optionB": "If",
+      "optionC": "Until",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q011",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Although",
+      "optionB": "If",
+      "optionC": "So",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q012",
+      "questionText": "We will go to the library ____ it stops raining.",
+      "optionA": "before",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q013",
+      "questionText": "____ you need help, ask the teacher.",
+      "optionA": "While",
+      "optionB": "Although",
+      "optionC": "If",
+      "optionD": "Because",
+      "correctOption": "Option C",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q014",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q015",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Until",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q016",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "So",
+      "optionB": "Although",
+      "optionC": "Unless",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q017",
+      "questionText": "We will go to the study hall ____ it stops raining.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "before",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q018",
+      "questionText": "____ you need help, ask the teacher.",
+      "optionA": "Because",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "While",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q019",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "so",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "although",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q020",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Until",
+      "correctOption": "Option C",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q021",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Unless",
+      "optionB": "So",
+      "optionC": "Although",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q022",
+      "questionText": "We will go to the classroom ____ it stops raining.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "before",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q023",
+      "questionText": "____ you need help, ask the professor.",
+      "optionA": "Although",
+      "optionB": "While",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q024",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "unless",
+      "correctOption": "Option B",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q025",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "If",
+      "optionB": "Although",
+      "optionC": "Unless",
+      "optionD": "Until",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q026",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Unless",
+      "optionB": "So",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q027",
+      "questionText": "We will go to the study hall ____ it stops raining.",
+      "optionA": "if",
+      "optionB": "although",
+      "optionC": "before",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q028",
+      "questionText": "____ you need help, ask the instructor.",
+      "optionA": "If",
+      "optionB": "Because",
+      "optionC": "While",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q029",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "unless",
+      "optionB": "if",
+      "optionC": "so",
+      "optionD": "although",
+      "correctOption": "Option B",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q030",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Until",
+      "optionB": "Unless",
+      "optionC": "If",
+      "optionD": "Although",
+      "correctOption": "Option C",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q031",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Although",
+      "optionB": "Unless",
+      "optionC": "So",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q032",
+      "questionText": "We will go to the study hall ____ it stops raining.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "before",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q033",
+      "questionText": "____ you need help, ask the teacher.",
+      "optionA": "If",
+      "optionB": "While",
+      "optionC": "Although",
+      "optionD": "Because",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q034",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "if",
+      "optionD": "unless",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q035",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "If",
+      "optionB": "Unless",
+      "optionC": "Although",
+      "optionD": "Until",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q036",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "So",
+      "optionB": "If",
+      "optionC": "Although",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q037",
+      "questionText": "We will go to the library ____ it stops raining.",
+      "optionA": "although",
+      "optionB": "unless",
+      "optionC": "if",
+      "optionD": "before",
+      "correctOption": "Option C",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q038",
+      "questionText": "____ you need help, ask the teacher.",
+      "optionA": "If",
+      "optionB": "Because",
+      "optionC": "Although",
+      "optionD": "While",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q039",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "although",
+      "optionB": "so",
+      "optionC": "unless",
+      "optionD": "if",
+      "correctOption": "Option D",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q040",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Until",
+      "optionB": "If",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q041",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "If",
+      "optionB": "So",
+      "optionC": "Unless",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q042",
+      "questionText": "We will go to the classroom ____ it stops raining.",
+      "optionA": "if",
+      "optionB": "unless",
+      "optionC": "although",
+      "optionD": "before",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q043",
+      "questionText": "____ you need help, ask the teacher.",
+      "optionA": "If",
+      "optionB": "Because",
+      "optionC": "While",
+      "optionD": "Although",
+      "correctOption": "Option A",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q044",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "if",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "unless",
+      "correctOption": "Option A",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q045",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Unless",
+      "optionB": "Although",
+      "optionC": "Until",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q046",
+      "questionText": "____ you study hard, you will pass the course.",
+      "optionA": "Although",
+      "optionB": "If",
+      "optionC": "So",
+      "optionD": "Unless",
+      "correctOption": "Option B",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q047",
+      "questionText": "We will go to the library ____ it stops raining.",
+      "optionA": "although",
+      "optionB": "if",
+      "optionC": "unless",
+      "optionD": "before",
+      "correctOption": "Option B",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q048",
+      "questionText": "____ you need help, ask the professor.",
+      "optionA": "While",
+      "optionB": "Although",
+      "optionC": "Because",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q049",
+      "questionText": "I will bring my laptop ____ I need it for class.",
+      "optionA": "unless",
+      "optionB": "so",
+      "optionC": "although",
+      "optionD": "if",
+      "correctOption": "Option D",
+      "explanation": "'if' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T170-Q050",
+      "questionText": "____ the class is canceled, we will have a free hour.",
+      "optionA": "Although",
+      "optionB": "Until",
+      "optionC": "Unless",
+      "optionD": "If",
+      "correctOption": "Option D",
+      "explanation": "'If' is the correct choice in standard English grammar."
+    }
+  ]
+}

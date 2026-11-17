@@ -1,0 +1,507 @@
+{
+  "topicId": 107,
+  "topicName": "Yes/No questions",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T107-Q001",
+      "questionText": "___ they see at the university?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q002",
+      "questionText": "___ Dr. Smith knowing in the lab now?",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option D",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q003",
+      "questionText": "___ you a student?",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q004",
+      "questionText": "___ The teacher sleep at the university?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q005",
+      "questionText": "___ they go on campus?",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q006",
+      "questionText": "___ Charlie writeing at the university now?",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q007",
+      "questionText": "___ you a student?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q008",
+      "questionText": "___ Eve go at home?",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Is",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q009",
+      "questionText": "___ they work at home?",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q010",
+      "questionText": "___ Eve thinking at the university now?",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q011",
+      "questionText": "___ you a student?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q012",
+      "questionText": "___ Jack work in the library?",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q013",
+      "questionText": "___ they go in the classroom?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q014",
+      "questionText": "___ Eve reading in the lab now?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q015",
+      "questionText": "___ you a student?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q016",
+      "questionText": "___ Diana listen in the library?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q017",
+      "questionText": "___ they play in the lab?",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q018",
+      "questionText": "___ Grace thinking on campus now?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q019",
+      "questionText": "___ you a student?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q020",
+      "questionText": "___ The teacher go in the library?",
+      "optionA": "Do",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q021",
+      "questionText": "___ they speak on campus?",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Are",
+      "correctOption": "Option B",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q022",
+      "questionText": "___ Dr. Smith speaking at home now?",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option D",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q023",
+      "questionText": "___ you a student?",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option A",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q024",
+      "questionText": "___ Diana see at the university?",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Does",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q025",
+      "questionText": "___ they listen in the library?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q026",
+      "questionText": "___ Bob makeing in the lab now?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q027",
+      "questionText": "___ you a student?",
+      "optionA": "Are",
+      "optionB": "Do",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q028",
+      "questionText": "___ Ken eat at the university?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q029",
+      "questionText": "___ they do at home?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Are",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q030",
+      "questionText": "___ Alice speaking at home now?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q031",
+      "questionText": "___ you a student?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q032",
+      "questionText": "___ Ken have in the lab?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q033",
+      "questionText": "___ they eat in the library?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option D",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q034",
+      "questionText": "___ Dr. Smith writeing at home now?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q035",
+      "questionText": "___ you a student?",
+      "optionA": "Does",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Is",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q036",
+      "questionText": "___ Eve make at home?",
+      "optionA": "Is",
+      "optionB": "Do",
+      "optionC": "Are",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q037",
+      "questionText": "___ they understand in the lab?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q038",
+      "questionText": "___ Ivy doing in the classroom now?",
+      "optionA": "Is",
+      "optionB": "Does",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q039",
+      "questionText": "___ you a student?",
+      "optionA": "Does",
+      "optionB": "Is",
+      "optionC": "Are",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q040",
+      "questionText": "___ The teacher work in the library?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q041",
+      "questionText": "___ they speak at home?",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q042",
+      "questionText": "___ Grace listening on campus now?",
+      "optionA": "Is",
+      "optionB": "Are",
+      "optionC": "Does",
+      "optionD": "Do",
+      "correctOption": "Option A",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q043",
+      "questionText": "___ you a student?",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option B",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q044",
+      "questionText": "___ Grace read in the classroom?",
+      "optionA": "Do",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Are",
+      "correctOption": "Option B",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q045",
+      "questionText": "___ they know in the classroom?",
+      "optionA": "Do",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Does",
+      "correctOption": "Option A",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q046",
+      "questionText": "___ Dr. Smith eating at home now?",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q047",
+      "questionText": "___ you a student?",
+      "optionA": "Does",
+      "optionB": "Are",
+      "optionC": "Do",
+      "optionD": "Is",
+      "correctOption": "Option B",
+      "explanation": "'Are' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q048",
+      "questionText": "___ The teacher know at home?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option D",
+      "explanation": "'Does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q049",
+      "questionText": "___ they see in the classroom?",
+      "optionA": "Are",
+      "optionB": "Is",
+      "optionC": "Do",
+      "optionD": "Does",
+      "correctOption": "Option C",
+      "explanation": "'Do' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T107-Q050",
+      "questionText": "___ Bob speaking at home now?",
+      "optionA": "Are",
+      "optionB": "Does",
+      "optionC": "Is",
+      "optionD": "Do",
+      "correctOption": "Option C",
+      "explanation": "'Is' is the correct choice in standard English grammar."
+    }
+  ]
+}

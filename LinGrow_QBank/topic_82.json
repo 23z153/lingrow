@@ -1,0 +1,507 @@
+{
+  "topicId": 82,
+  "topicName": "Was/were",
+  "unit": "UNIT 9 — BE, HAVE & DO",
+  "questions": [
+    {
+      "questionId": "T082-Q001",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q002",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q003",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q004",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q005",
+      "questionText": "Choose the correct past form of 'be': The students ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q006",
+      "questionText": "Choose the correct past form of 'be': The students ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q007",
+      "questionText": "Choose the correct past form of 'be': The laboratory ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q008",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q009",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q010",
+      "questionText": "Choose the correct past form of 'be': The professor ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q011",
+      "questionText": "Choose the correct past form of 'be': The university ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q012",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q013",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q014",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q015",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q016",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q017",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q018",
+      "questionText": "Choose the correct past form of 'be': The librarian ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q019",
+      "questionText": "Choose the correct past form of 'be': The professor ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q020",
+      "questionText": "Choose the correct past form of 'be': The laboratory ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q021",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q022",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q023",
+      "questionText": "Choose the correct past form of 'be': The librarian ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q024",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q025",
+      "questionText": "Choose the correct past form of 'be': The students ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q026",
+      "questionText": "Choose the correct past form of 'be': The university ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q027",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q028",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q029",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q030",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q031",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q032",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q033",
+      "questionText": "Choose the correct past form of 'be': The students ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q034",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q035",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q036",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q037",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q038",
+      "questionText": "Choose the correct past form of 'be': The librarian ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q039",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q040",
+      "questionText": "Choose the correct past form of 'be': The laboratory ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q041",
+      "questionText": "Choose the correct past form of 'be': The university ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q042",
+      "questionText": "Choose the correct past form of 'be': The professor ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "were",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q043",
+      "questionText": "Choose the correct past form of 'be': The graduate student ___ absent yesterday.",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q044",
+      "questionText": "Choose the correct past form of 'be': The university ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q045",
+      "questionText": "Choose the correct past form of 'be': The research team ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q046",
+      "questionText": "Choose the correct past form of 'be': The librarian ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q047",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q048",
+      "questionText": "Choose the correct past form of 'be': The lecture ___ absent yesterday.",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q049",
+      "questionText": "Choose the correct past form of 'be': The campus ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T082-Q050",
+      "questionText": "Choose the correct past form of 'be': The academic paper ___ absent yesterday.",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    }
+  ]
+}

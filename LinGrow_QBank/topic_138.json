@@ -1,0 +1,507 @@
+{
+  "topicId": 138,
+  "topicName": "Don't/doesn't",
+  "unit": "UNIT 14 — NEGATIVES",
+  "questions": [
+    {
+      "questionId": "T138-Q001",
+      "questionText": "Complete: They ___ want to leave early. (Variant 1)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "doesn't",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q002",
+      "questionText": "___ you know the answer? (Variant 2)",
+      "optionA": "Doesn't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Aren't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q003",
+      "questionText": "My parents ___ speak French. (Variant 3)",
+      "optionA": "isn't",
+      "optionB": "not",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q004",
+      "questionText": "The computer ___ work properly. (Variant 4)",
+      "optionA": "isn't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "aren't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q005",
+      "questionText": "Choose the correct form: Sarah ___ like coffee. (Variant 5)",
+      "optionA": "isn't",
+      "optionB": "not",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q006",
+      "questionText": "Complete: They ___ want to leave early. (Variant 6)",
+      "optionA": "don't",
+      "optionB": "not",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q007",
+      "questionText": "___ you know the answer? (Variant 7)",
+      "optionA": "Doesn't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q008",
+      "questionText": "My parents ___ speak French. (Variant 8)",
+      "optionA": "not",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q009",
+      "questionText": "The computer ___ work properly. (Variant 9)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q010",
+      "questionText": "Choose the correct form: My friend ___ like coffee. (Variant 10)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "not",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q011",
+      "questionText": "Complete: They ___ want to leave early. (Variant 11)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q012",
+      "questionText": "___ you know the answer? (Variant 12)",
+      "optionA": "Aren't",
+      "optionB": "Isn't",
+      "optionC": "Doesn't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q013",
+      "questionText": "My parents ___ speak French. (Variant 13)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "not",
+      "optionD": "isn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q014",
+      "questionText": "The computer ___ work properly. (Variant 14)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q015",
+      "questionText": "Choose the correct form: Anna ___ like coffee. (Variant 15)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "not",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q016",
+      "questionText": "Complete: They ___ want to leave early. (Variant 16)",
+      "optionA": "aren't",
+      "optionB": "not",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q017",
+      "questionText": "___ you know the answer? (Variant 17)",
+      "optionA": "Don't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q018",
+      "questionText": "My parents ___ speak French. (Variant 18)",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q019",
+      "questionText": "The computer ___ work properly. (Variant 19)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q020",
+      "questionText": "Choose the correct form: Tom ___ like coffee. (Variant 20)",
+      "optionA": "isn't",
+      "optionB": "not",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q021",
+      "questionText": "Complete: They ___ want to leave early. (Variant 21)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q022",
+      "questionText": "___ you know the answer? (Variant 22)",
+      "optionA": "Doesn't",
+      "optionB": "Isn't",
+      "optionC": "Aren't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q023",
+      "questionText": "My parents ___ speak French. (Variant 23)",
+      "optionA": "not",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q024",
+      "questionText": "The computer ___ work properly. (Variant 24)",
+      "optionA": "don't",
+      "optionB": "aren't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q025",
+      "questionText": "Choose the correct form: Tom ___ like coffee. (Variant 25)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "don't",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q026",
+      "questionText": "Complete: They ___ want to leave early. (Variant 26)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "doesn't",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q027",
+      "questionText": "___ you know the answer? (Variant 27)",
+      "optionA": "Isn't",
+      "optionB": "Aren't",
+      "optionC": "Doesn't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q028",
+      "questionText": "My parents ___ speak French. (Variant 28)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "not",
+      "correctOption": "Option A",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q029",
+      "questionText": "The computer ___ work properly. (Variant 29)",
+      "optionA": "don't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q030",
+      "questionText": "Choose the correct form: His brother ___ like coffee. (Variant 30)",
+      "optionA": "not",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q031",
+      "questionText": "Complete: They ___ want to leave early. (Variant 31)",
+      "optionA": "not",
+      "optionB": "doesn't",
+      "optionC": "aren't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q032",
+      "questionText": "___ you know the answer? (Variant 32)",
+      "optionA": "Don't",
+      "optionB": "Doesn't",
+      "optionC": "Aren't",
+      "optionD": "Isn't",
+      "correctOption": "Option A",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q033",
+      "questionText": "My parents ___ speak French. (Variant 33)",
+      "optionA": "isn't",
+      "optionB": "not",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q034",
+      "questionText": "The computer ___ work properly. (Variant 34)",
+      "optionA": "aren't",
+      "optionB": "isn't",
+      "optionC": "doesn't",
+      "optionD": "don't",
+      "correctOption": "Option C",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q035",
+      "questionText": "Choose the correct form: Anna ___ like coffee. (Variant 35)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "not",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q036",
+      "questionText": "Complete: They ___ want to leave early. (Variant 36)",
+      "optionA": "not",
+      "optionB": "aren't",
+      "optionC": "don't",
+      "optionD": "doesn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q037",
+      "questionText": "___ you know the answer? (Variant 37)",
+      "optionA": "Aren't",
+      "optionB": "Doesn't",
+      "optionC": "Isn't",
+      "optionD": "Don't",
+      "correctOption": "Option D",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q038",
+      "questionText": "My parents ___ speak French. (Variant 38)",
+      "optionA": "not",
+      "optionB": "doesn't",
+      "optionC": "don't",
+      "optionD": "isn't",
+      "correctOption": "Option C",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q039",
+      "questionText": "The computer ___ work properly. (Variant 39)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "aren't",
+      "optionD": "isn't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q040",
+      "questionText": "Choose the correct form: Sarah ___ like coffee. (Variant 40)",
+      "optionA": "not",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "doesn't",
+      "correctOption": "Option D",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q041",
+      "questionText": "Complete: They ___ want to leave early. (Variant 41)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "not",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q042",
+      "questionText": "___ you know the answer? (Variant 42)",
+      "optionA": "Isn't",
+      "optionB": "Don't",
+      "optionC": "Aren't",
+      "optionD": "Doesn't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q043",
+      "questionText": "My parents ___ speak French. (Variant 43)",
+      "optionA": "isn't",
+      "optionB": "doesn't",
+      "optionC": "not",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q044",
+      "questionText": "The computer ___ work properly. (Variant 44)",
+      "optionA": "aren't",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q045",
+      "questionText": "Choose the correct form: The teacher ___ like coffee. (Variant 45)",
+      "optionA": "doesn't",
+      "optionB": "isn't",
+      "optionC": "not",
+      "optionD": "don't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q046",
+      "questionText": "Complete: They ___ want to leave early. (Variant 46)",
+      "optionA": "aren't",
+      "optionB": "don't",
+      "optionC": "doesn't",
+      "optionD": "not",
+      "correctOption": "Option B",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q047",
+      "questionText": "___ you know the answer? (Variant 47)",
+      "optionA": "Doesn't",
+      "optionB": "Don't",
+      "optionC": "Isn't",
+      "optionD": "Aren't",
+      "correctOption": "Option B",
+      "explanation": "'Don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q048",
+      "questionText": "My parents ___ speak French. (Variant 48)",
+      "optionA": "doesn't",
+      "optionB": "not",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option D",
+      "explanation": "'don't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q049",
+      "questionText": "The computer ___ work properly. (Variant 49)",
+      "optionA": "doesn't",
+      "optionB": "don't",
+      "optionC": "isn't",
+      "optionD": "aren't",
+      "correctOption": "Option A",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T138-Q050",
+      "questionText": "Choose the correct form: Tom ___ like coffee. (Variant 50)",
+      "optionA": "not",
+      "optionB": "doesn't",
+      "optionC": "isn't",
+      "optionD": "don't",
+      "correctOption": "Option B",
+      "explanation": "'doesn't' is the correct choice in standard English grammar."
+    }
+  ]
+}

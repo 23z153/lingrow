@@ -1,0 +1,507 @@
+{
+  "topicId": 111,
+  "topicName": "Tense contrast",
+  "unit": "UNIT 11 — TENSE SENTENCE FORMS",
+  "questions": [
+    {
+      "questionId": "T111-Q001",
+      "questionText": "I ___ right now.",
+      "optionA": "am studying",
+      "optionB": "studied",
+      "optionC": "studies",
+      "optionD": "study",
+      "correctOption": "Option A",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q002",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "are visiting",
+      "optionB": "visits",
+      "optionC": "visited",
+      "optionD": "visit",
+      "correctOption": "Option C",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q003",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "did",
+      "optionB": "is doing",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q004",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "is walking",
+      "optionD": "walked",
+      "correctOption": "Option A",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q005",
+      "questionText": "I ___ right now.",
+      "optionA": "studies",
+      "optionB": "study",
+      "optionC": "am studying",
+      "optionD": "studied",
+      "correctOption": "Option C",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q006",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visited",
+      "optionB": "are visiting",
+      "optionC": "visit",
+      "optionD": "visits",
+      "correctOption": "Option A",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q007",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is doing",
+      "optionD": "did",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q008",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walk",
+      "optionB": "is walking",
+      "optionC": "walks",
+      "optionD": "walked",
+      "correctOption": "Option C",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q009",
+      "questionText": "I ___ right now.",
+      "optionA": "am studying",
+      "optionB": "studied",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option A",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q010",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visited",
+      "optionB": "are visiting",
+      "optionC": "visits",
+      "optionD": "visit",
+      "correctOption": "Option A",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q011",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "does",
+      "optionB": "do",
+      "optionC": "did",
+      "optionD": "is doing",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q012",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "is walking",
+      "optionD": "walked",
+      "correctOption": "Option B",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q013",
+      "questionText": "I ___ right now.",
+      "optionA": "am studying",
+      "optionB": "studies",
+      "optionC": "studied",
+      "optionD": "study",
+      "correctOption": "Option A",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q014",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visited",
+      "optionB": "visit",
+      "optionC": "are visiting",
+      "optionD": "visits",
+      "correctOption": "Option A",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q015",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "does",
+      "optionB": "did",
+      "optionC": "do",
+      "optionD": "is doing",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q016",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walked",
+      "optionB": "walk",
+      "optionC": "is walking",
+      "optionD": "walks",
+      "correctOption": "Option D",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q017",
+      "questionText": "I ___ right now.",
+      "optionA": "am studying",
+      "optionB": "studied",
+      "optionC": "study",
+      "optionD": "studies",
+      "correctOption": "Option A",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q018",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visited",
+      "optionB": "visits",
+      "optionC": "visit",
+      "optionD": "are visiting",
+      "correctOption": "Option A",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q019",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "is doing",
+      "optionB": "does",
+      "optionC": "did",
+      "optionD": "do",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q020",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walk",
+      "optionB": "walks",
+      "optionC": "is walking",
+      "optionD": "walked",
+      "correctOption": "Option B",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q021",
+      "questionText": "I ___ right now.",
+      "optionA": "study",
+      "optionB": "am studying",
+      "optionC": "studied",
+      "optionD": "studies",
+      "correctOption": "Option B",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q022",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "are visiting",
+      "optionB": "visited",
+      "optionC": "visits",
+      "optionD": "visit",
+      "correctOption": "Option B",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q023",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "did",
+      "optionB": "do",
+      "optionC": "does",
+      "optionD": "is doing",
+      "correctOption": "Option C",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q024",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walked",
+      "optionB": "walks",
+      "optionC": "is walking",
+      "optionD": "walk",
+      "correctOption": "Option B",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q025",
+      "questionText": "I ___ right now.",
+      "optionA": "study",
+      "optionB": "am studying",
+      "optionC": "studied",
+      "optionD": "studies",
+      "correctOption": "Option B",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q026",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visit",
+      "optionB": "visited",
+      "optionC": "visits",
+      "optionD": "are visiting",
+      "correctOption": "Option B",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q027",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "is doing",
+      "optionB": "did",
+      "optionC": "does",
+      "optionD": "do",
+      "correctOption": "Option C",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q028",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walks",
+      "optionB": "is walking",
+      "optionC": "walked",
+      "optionD": "walk",
+      "correctOption": "Option A",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q029",
+      "questionText": "I ___ right now.",
+      "optionA": "studied",
+      "optionB": "study",
+      "optionC": "am studying",
+      "optionD": "studies",
+      "correctOption": "Option C",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q030",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visits",
+      "optionB": "visited",
+      "optionC": "visit",
+      "optionD": "are visiting",
+      "correctOption": "Option B",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q031",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "do",
+      "optionB": "is doing",
+      "optionC": "did",
+      "optionD": "does",
+      "correctOption": "Option D",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q032",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walks",
+      "optionB": "walk",
+      "optionC": "is walking",
+      "optionD": "walked",
+      "correctOption": "Option A",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q033",
+      "questionText": "I ___ right now.",
+      "optionA": "studied",
+      "optionB": "study",
+      "optionC": "am studying",
+      "optionD": "studies",
+      "correctOption": "Option C",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q034",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "are visiting",
+      "optionB": "visit",
+      "optionC": "visits",
+      "optionD": "visited",
+      "correctOption": "Option D",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q035",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "did",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "is doing",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q036",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "is walking",
+      "optionB": "walked",
+      "optionC": "walks",
+      "optionD": "walk",
+      "correctOption": "Option C",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q037",
+      "questionText": "I ___ right now.",
+      "optionA": "studies",
+      "optionB": "studied",
+      "optionC": "study",
+      "optionD": "am studying",
+      "correctOption": "Option D",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q038",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visited",
+      "optionB": "are visiting",
+      "optionC": "visit",
+      "optionD": "visits",
+      "correctOption": "Option A",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q039",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "do",
+      "optionB": "does",
+      "optionC": "is doing",
+      "optionD": "did",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q040",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walks",
+      "optionB": "walked",
+      "optionC": "is walking",
+      "optionD": "walk",
+      "correctOption": "Option A",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q041",
+      "questionText": "I ___ right now.",
+      "optionA": "studies",
+      "optionB": "am studying",
+      "optionC": "studied",
+      "optionD": "study",
+      "correctOption": "Option B",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q042",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visits",
+      "optionB": "are visiting",
+      "optionC": "visit",
+      "optionD": "visited",
+      "correctOption": "Option D",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q043",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "does",
+      "optionB": "is doing",
+      "optionC": "do",
+      "optionD": "did",
+      "correctOption": "Option A",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q044",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walks",
+      "optionB": "is walking",
+      "optionC": "walk",
+      "optionD": "walked",
+      "correctOption": "Option A",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q045",
+      "questionText": "I ___ right now.",
+      "optionA": "studied",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "am studying",
+      "correctOption": "Option D",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q046",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visit",
+      "optionB": "are visiting",
+      "optionC": "visits",
+      "optionD": "visited",
+      "correctOption": "Option D",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q047",
+      "questionText": "She always ___ her homework on time.",
+      "optionA": "is doing",
+      "optionB": "does",
+      "optionC": "do",
+      "optionD": "did",
+      "correctOption": "Option B",
+      "explanation": "'does' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q048",
+      "questionText": "He usually ___ to school, but today he is taking the bus.",
+      "optionA": "walked",
+      "optionB": "walk",
+      "optionC": "is walking",
+      "optionD": "walks",
+      "correctOption": "Option D",
+      "explanation": "'walks' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q049",
+      "questionText": "I ___ right now.",
+      "optionA": "am studying",
+      "optionB": "studies",
+      "optionC": "study",
+      "optionD": "studied",
+      "correctOption": "Option A",
+      "explanation": "'am studying' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T111-Q050",
+      "questionText": "They ___ Paris last year.",
+      "optionA": "visits",
+      "optionB": "visit",
+      "optionC": "are visiting",
+      "optionD": "visited",
+      "correctOption": "Option D",
+      "explanation": "'visited' is the correct choice in standard English grammar."
+    }
+  ]
+}

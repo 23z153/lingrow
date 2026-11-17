@@ -1,0 +1,507 @@
+{
+  "topicId": 95,
+  "topicName": "Past Continuous",
+  "unit": "UNIT 10 — TENSES",
+  "questions": [
+    {
+      "questionId": "T095-Q001",
+      "questionText": "He _____ reading a book at 8 PM last night. (1)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q002",
+      "questionText": "The teacher _____ working hard at 8 PM last night. (2)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q003",
+      "questionText": "She _____ reading a book at 8 PM last night. (3)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q004",
+      "questionText": "I _____ playing tennis at 8 PM last night. (4)",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q005",
+      "questionText": "You _____ sleeping well at 8 PM last night. (5)",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q006",
+      "questionText": "They _____ going to the park at 8 PM last night. (6)",
+      "optionA": "is",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q007",
+      "questionText": "She _____ writing a letter at 8 PM last night. (7)",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q008",
+      "questionText": "The teacher _____ writing a letter at 8 PM last night. (8)",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q009",
+      "questionText": "You _____ writing a letter at 8 PM last night. (9)",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q010",
+      "questionText": "We _____ watching TV at 8 PM last night. (10)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q011",
+      "questionText": "I _____ sleeping well at 8 PM last night. (11)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q012",
+      "questionText": "Mary _____ watching TV at 8 PM last night. (12)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q013",
+      "questionText": "It _____ playing tennis at 8 PM last night. (13)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q014",
+      "questionText": "The students _____ working hard at 8 PM last night. (14)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q015",
+      "questionText": "They _____ playing tennis at 8 PM last night. (15)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q016",
+      "questionText": "She _____ working hard at 8 PM last night. (16)",
+      "optionA": "were",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q017",
+      "questionText": "The students _____ going to the park at 8 PM last night. (17)",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q018",
+      "questionText": "You _____ listening to music at 8 PM last night. (18)",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q019",
+      "questionText": "The students _____ writing a letter at 8 PM last night. (19)",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q020",
+      "questionText": "She _____ sleeping well at 8 PM last night. (20)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q021",
+      "questionText": "Mary _____ studying English at 8 PM last night. (21)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q022",
+      "questionText": "They _____ going to the park at 8 PM last night. (22)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q023",
+      "questionText": "They _____ reading a book at 8 PM last night. (23)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q024",
+      "questionText": "The students _____ watching TV at 8 PM last night. (24)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q025",
+      "questionText": "John _____ reading a book at 8 PM last night. (25)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q026",
+      "questionText": "Mary _____ studying English at 8 PM last night. (26)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q027",
+      "questionText": "The students _____ playing tennis at 8 PM last night. (27)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q028",
+      "questionText": "The students _____ reading a book at 8 PM last night. (28)",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "are",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q029",
+      "questionText": "She _____ watching TV at 8 PM last night. (29)",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q030",
+      "questionText": "We _____ sleeping well at 8 PM last night. (30)",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q031",
+      "questionText": "John _____ listening to music at 8 PM last night. (31)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q032",
+      "questionText": "They _____ studying English at 8 PM last night. (32)",
+      "optionA": "were",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q033",
+      "questionText": "The students _____ studying English at 8 PM last night. (33)",
+      "optionA": "was",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "are",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q034",
+      "questionText": "The students _____ listening to music at 8 PM last night. (34)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q035",
+      "questionText": "I _____ eating an apple at 8 PM last night. (35)",
+      "optionA": "are",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q036",
+      "questionText": "Mary _____ studying English at 8 PM last night. (36)",
+      "optionA": "are",
+      "optionB": "was",
+      "optionC": "is",
+      "optionD": "were",
+      "correctOption": "Option B",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q037",
+      "questionText": "You _____ listening to music at 8 PM last night. (37)",
+      "optionA": "is",
+      "optionB": "was",
+      "optionC": "are",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q038",
+      "questionText": "I _____ listening to music at 8 PM last night. (38)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q039",
+      "questionText": "You _____ reading a book at 8 PM last night. (39)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option D",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q040",
+      "questionText": "We _____ writing a letter at 8 PM last night. (40)",
+      "optionA": "was",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "is",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q041",
+      "questionText": "John _____ eating an apple at 8 PM last night. (41)",
+      "optionA": "was",
+      "optionB": "is",
+      "optionC": "were",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q042",
+      "questionText": "We _____ working hard at 8 PM last night. (42)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "was",
+      "optionD": "is",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q043",
+      "questionText": "I _____ sleeping well at 8 PM last night. (43)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "was",
+      "optionD": "were",
+      "correctOption": "Option C",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q044",
+      "questionText": "It _____ writing a letter at 8 PM last night. (44)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q045",
+      "questionText": "You _____ going to the park at 8 PM last night. (45)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q046",
+      "questionText": "They _____ studying English at 8 PM last night. (46)",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "was",
+      "optionD": "are",
+      "correctOption": "Option A",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q047",
+      "questionText": "The students _____ writing a letter at 8 PM last night. (47)",
+      "optionA": "is",
+      "optionB": "are",
+      "optionC": "were",
+      "optionD": "was",
+      "correctOption": "Option C",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q048",
+      "questionText": "I _____ sleeping well at 8 PM last night. (48)",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q049",
+      "questionText": "They _____ going to the park at 8 PM last night. (49)",
+      "optionA": "are",
+      "optionB": "were",
+      "optionC": "is",
+      "optionD": "was",
+      "correctOption": "Option B",
+      "explanation": "'were' is the correct choice in standard English grammar."
+    },
+    {
+      "questionId": "T095-Q050",
+      "questionText": "I _____ eating an apple at 8 PM last night. (50)",
+      "optionA": "were",
+      "optionB": "is",
+      "optionC": "are",
+      "optionD": "was",
+      "correctOption": "Option D",
+      "explanation": "'was' is the correct choice in standard English grammar."
+    }
+  ]
+}

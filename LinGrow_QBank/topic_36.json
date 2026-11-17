@@ -1,0 +1,507 @@
+{
+  "topicId": 36,
+  "topicName": "Demonstratives",
+  "unit": "UNIT 4 — PRONOUNS",
+  "questions": [
+    {
+      "questionId": "T036-Q001",
+      "questionText": "Look at ___ book here in my hand.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q002",
+      "questionText": "___ book over there is beautiful.",
+      "optionA": "This",
+      "optionB": "That",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option B",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q003",
+      "questionText": "Are ___ books here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q004",
+      "questionText": "I want to buy ___ books on the top shelf.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option D",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q005",
+      "questionText": "Could you hand me ___ book right next to you?",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q006",
+      "questionText": "Look at ___ cup here in my hand.",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q007",
+      "questionText": "___ cup over there is beautiful.",
+      "optionA": "This",
+      "optionB": "These",
+      "optionC": "That",
+      "optionD": "Those",
+      "correctOption": "Option C",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q008",
+      "questionText": "Are ___ cups here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "those",
+      "optionD": "these",
+      "correctOption": "Option D",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q009",
+      "questionText": "I want to buy ___ cups on the top shelf.",
+      "optionA": "those",
+      "optionB": "this",
+      "optionC": "that",
+      "optionD": "these",
+      "correctOption": "Option A",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q010",
+      "questionText": "Could you hand me ___ cup right next to you?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q011",
+      "questionText": "Look at ___ pen here in my hand.",
+      "optionA": "that",
+      "optionB": "these",
+      "optionC": "this",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q012",
+      "questionText": "___ pen over there is beautiful.",
+      "optionA": "This",
+      "optionB": "These",
+      "optionC": "Those",
+      "optionD": "That",
+      "correctOption": "Option D",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q013",
+      "questionText": "Are ___ pens here yours?",
+      "optionA": "these",
+      "optionB": "this",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q014",
+      "questionText": "I want to buy ___ pens on the top shelf.",
+      "optionA": "this",
+      "optionB": "those",
+      "optionC": "that",
+      "optionD": "these",
+      "correctOption": "Option B",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q015",
+      "questionText": "Could you hand me ___ pen right next to you?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q016",
+      "questionText": "Look at ___ shirt here in my hand.",
+      "optionA": "that",
+      "optionB": "these",
+      "optionC": "those",
+      "optionD": "this",
+      "correctOption": "Option D",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q017",
+      "questionText": "___ shirt over there is beautiful.",
+      "optionA": "That",
+      "optionB": "This",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option A",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q018",
+      "questionText": "Are ___ shirts here yours?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q019",
+      "questionText": "I want to buy ___ shirts on the top shelf.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "those",
+      "optionD": "these",
+      "correctOption": "Option C",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q020",
+      "questionText": "Could you hand me ___ shirt right next to you?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "those",
+      "optionD": "that",
+      "correctOption": "Option D",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q021",
+      "questionText": "Look at ___ shoe here in my hand.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q022",
+      "questionText": "___ shoe over there is beautiful.",
+      "optionA": "This",
+      "optionB": "That",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option B",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q023",
+      "questionText": "Are ___ shoes here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q024",
+      "questionText": "I want to buy ___ shoes on the top shelf.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option D",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q025",
+      "questionText": "Could you hand me ___ shoe right next to you?",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q026",
+      "questionText": "Look at ___ ring here in my hand.",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q027",
+      "questionText": "___ ring over there is beautiful.",
+      "optionA": "This",
+      "optionB": "These",
+      "optionC": "That",
+      "optionD": "Those",
+      "correctOption": "Option C",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q028",
+      "questionText": "Are ___ rings here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "those",
+      "optionD": "these",
+      "correctOption": "Option D",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q029",
+      "questionText": "I want to buy ___ rings on the top shelf.",
+      "optionA": "those",
+      "optionB": "this",
+      "optionC": "that",
+      "optionD": "these",
+      "correctOption": "Option A",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q030",
+      "questionText": "Could you hand me ___ ring right next to you?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q031",
+      "questionText": "Look at ___ picture here in my hand.",
+      "optionA": "that",
+      "optionB": "these",
+      "optionC": "this",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q032",
+      "questionText": "___ picture over there is beautiful.",
+      "optionA": "This",
+      "optionB": "These",
+      "optionC": "Those",
+      "optionD": "That",
+      "correctOption": "Option D",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q033",
+      "questionText": "Are ___ pictures here yours?",
+      "optionA": "these",
+      "optionB": "this",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q034",
+      "questionText": "I want to buy ___ pictures on the top shelf.",
+      "optionA": "this",
+      "optionB": "those",
+      "optionC": "that",
+      "optionD": "these",
+      "correctOption": "Option B",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q035",
+      "questionText": "Could you hand me ___ picture right next to you?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q036",
+      "questionText": "Look at ___ bag here in my hand.",
+      "optionA": "that",
+      "optionB": "these",
+      "optionC": "those",
+      "optionD": "this",
+      "correctOption": "Option D",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q037",
+      "questionText": "___ bag over there is beautiful.",
+      "optionA": "That",
+      "optionB": "This",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option A",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q038",
+      "questionText": "Are ___ bags here yours?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "that",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q039",
+      "questionText": "I want to buy ___ bags on the top shelf.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "those",
+      "optionD": "these",
+      "correctOption": "Option C",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q040",
+      "questionText": "Could you hand me ___ bag right next to you?",
+      "optionA": "this",
+      "optionB": "these",
+      "optionC": "those",
+      "optionD": "that",
+      "correctOption": "Option D",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q041",
+      "questionText": "Look at ___ plant here in my hand.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q042",
+      "questionText": "___ plant over there is beautiful.",
+      "optionA": "This",
+      "optionB": "That",
+      "optionC": "These",
+      "optionD": "Those",
+      "correctOption": "Option B",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q043",
+      "questionText": "Are ___ plants here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option C",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q044",
+      "questionText": "I want to buy ___ plants on the top shelf.",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option D",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q045",
+      "questionText": "Could you hand me ___ plant right next to you?",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option A",
+      "explanation": "Use 'that' for distant items."
+    },
+    {
+      "questionId": "T036-Q046",
+      "questionText": "Look at ___ chair here in my hand.",
+      "optionA": "that",
+      "optionB": "this",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'this' for nearby items."
+    },
+    {
+      "questionId": "T036-Q047",
+      "questionText": "___ chair over there is beautiful.",
+      "optionA": "This",
+      "optionB": "These",
+      "optionC": "That",
+      "optionD": "Those",
+      "correctOption": "Option C",
+      "explanation": "'That' is a demonstrative word used to point out specific items based on distance and quantity."
+    },
+    {
+      "questionId": "T036-Q048",
+      "questionText": "Are ___ chairs here yours?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "those",
+      "optionD": "these",
+      "correctOption": "Option D",
+      "explanation": "Use 'these' for nearby items."
+    },
+    {
+      "questionId": "T036-Q049",
+      "questionText": "I want to buy ___ chairs on the top shelf.",
+      "optionA": "those",
+      "optionB": "this",
+      "optionC": "that",
+      "optionD": "these",
+      "correctOption": "Option A",
+      "explanation": "Use 'those' for distant items."
+    },
+    {
+      "questionId": "T036-Q050",
+      "questionText": "Could you hand me ___ chair right next to you?",
+      "optionA": "this",
+      "optionB": "that",
+      "optionC": "these",
+      "optionD": "those",
+      "correctOption": "Option B",
+      "explanation": "Use 'that' for distant items."
+    }
+  ]
+}
