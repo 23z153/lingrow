@@ -13,6 +13,7 @@ const GrammarTopic = require('./models/GrammarTopic');
 const SituationalPhrase = require('./models/SituationalPhrase');
 const Document = require('./models/Document');
 const WeakWord = require('./models/WeakWord');
+const { seedIdiomsData } = require('./seedIdioms');
 const { ingestDocument } = require('./services/ragService');
 const { scrapeDepartmentContent } = require('./services/departmentScraperService');
 
@@ -1065,6 +1066,8 @@ First, give a 1-sentence crisp definition. Second, state a concrete technical or
     }
     console.log('[seed] 8 Weak Words seeded for student@lingrow.demo (5 due for Daily 5 drill)!');
   }
+
+  await seedIdiomsData();
 
   console.log('[seed] Done. Demo logins:');
   console.log('  student@lingrow.demo  / password123 (Student 1 - Aarav Krishnan)');

@@ -268,6 +268,7 @@ const NAV = {
     ]},
     { group:'Kingdom Realms', items:[
       {id:'weakwords', label:'Weak Words Lab', icon:'target', minLevel:'Beginner', badge:'LAB'},
+      {id:'idioms', label:'Idioms & Phrasal Grove', icon:'feather', minLevel:'Intermediate', badge:'NEW'},
       {id:'simulator', label:'Communication Simulator', icon:'message', minLevel:'Beginner', badge:'NEW'},
       {id:'grammar', label:'Grammar Castle', icon:'edit', minLevel:'Beginner'},
       {id:'vocabulary', label:'Vocabulary Forest', icon:'book', minLevel:'Beginner'},
@@ -305,6 +306,7 @@ const VIEW_TITLES = {
   'kingdoms':['The 7 Dragon Kingdoms','Curriculum world map of enchanted English learning realms'],
   'adventures':['Special Adventure Experiences','Quests, detective cases, escape rooms & high-stakes simulations'],
   'weakwords':['Weak Words Lab','Spaced-repetition drills to master your mispronounced and tricky words'],
+  'idioms':['The Whispering Grove: Idioms & Phrasal Verbs','Master high-impact figurative expressions and phrasal verbs for Level 4-5 fluency'],
   'world-stage':['Grand Dragon Amphitheater','Simulated public speaking in iconic auditoriums before intelligent AI audiences'],
   'simulator':['AI Real-World Communication Simulator','Interactive voice & text simulations across interviews, workplace, travel & negotiation'],
   'read-aloud':['Speaking Volcano (Read Aloud)','Pronunciation & vocal power training'],
@@ -360,6 +362,7 @@ function renderShell(){
     'simulator': 'workshop',
     'situational': 'village',
     'weakwords': 'flame-lab',
+    'idioms': 'grove',
     'world-stage': 'amphitheater',
     'debate': 'arena',
   };

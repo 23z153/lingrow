@@ -141,6 +141,24 @@ const Api = {
   submitSituational(id, answers) { return this.post(`/situational/scenarios/${id}/submit`, { answers }); },
   mySituationalAttempts() { return this.get('/situational/attempts/me'); },
 
+  // idioms & phrasal verbs grove
+  getIdioms(params = {}) {
+    const q = new URLSearchParams();
+    if (params.type) q.set('type', params.type);
+    if (params.level) q.set('level', params.level);
+    if (params.baseVerb) q.set('baseVerb', params.baseVerb);
+    if (params.category) q.set('category', params.category);
+    if (params.search) q.set('search', params.search);
+    if (params.mastery) q.set('mastery', params.mastery);
+    const qs = q.toString();
+    return this.get('/idioms' + (qs ? `?${qs}` : ''));
+  },
+  getIdiomsStats() { return this.get('/idioms/stats'); },
+  getGroupedBaseVerbs() { return this.get('/idioms/grouped-verbs'); },
+  getIdiomDetails(id) { return this.get(`/idioms/${id}`); },
+  submitIdiomStage2(id, selectedOption) { return this.post(`/idioms/${id}/stage2-understand`, { selectedOption }); },
+  submitIdiomStage3(id, payload) { return this.post(`/idioms/${id}/stage3-use`, payload); },
+
   // debate
   debateTopics() { return this.get('/debate/topics'); },
   nextDebateTopic(params = {}) {
