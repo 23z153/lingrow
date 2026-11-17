@@ -41,6 +41,7 @@
 |---|---|---|
 | **Dragon Academy Gamification** | Dynamic procedural SVG dragon mascot with idle breathing, fire-breath, victory backflips, failure/rekindle animations, streaks, flame auras, and elemental masteries. | **Real & Active** |
 | **Comprehensive Curriculum** | **243 grammar topics** spanning 5 proficiency tiers with **12,150 curated MCQs** from `LinGrow_QBank`, with sequential unlock gating (50% passing threshold). | **Real & Active** |
+| **Idioms & Phrasal Verbs Grove** | Dedicated **4-stage learning module** (Discover, Understand, Use, Master) for **Level 4-5 students** with separable/inseparable handling, base-verb grouping, and LinGrow_QBank style distractor rationales. | **Real & Active** |
 | **Live Group Discussions (GD)** | Multi-participant real-time transcript sync (1s interval), auto-silence speech detection, explicit submit, and centered bubble conversation UI. | **Real & Active** |
 | **1-on-1 Peer Practice** | Anonymized student matchmaking queue with randomized debate/speaking topics and post-session peer ratings. | **Real & Active** |
 | **Weak Words Lab** | Persistent error-tracking engine capturing mispronounced or failed words across all exercises, with targeted spaced-repetition drills. | **Real & Active** |
@@ -93,6 +94,15 @@ The student journey is organized into legendary realms across the Dragon Kingdom
 5. **⚔️ The Arena (Debate, Story & Stage)**:
    - **Debate Arena**: Multi-turn structured debating against an AI opponent with argument scoring, counter-argument evaluation, and rebuttal rounds.
    - **Story Continuation**: Open-ended creative narrative builder challenging students to speak or write coherent subsequent chapters.
+
+6. **🌿 The Whispering Grove: Idioms & Phrasal Verbs (Level 4–5)**:
+   - Designed for upper-intermediate and placement-ready students.
+   - **4-Stage Learning Cycle**:
+     1. **Discover**: 2–4 line contextual scenario dialogue, literal vs. figurative comparison, register tag, region usage note, and phrasal verb separability breakdown.
+     2. **Understand**: Contextual MCQ evaluation featuring detailed LinGrow_QBank style explanations and distractor rationales for options A, B, C, and D.
+     3. **Use**: Fill-in-the-blank, sentence rewrite, and live speech recording challenge with browser `SpeechRecognition` and word-diff scoring.
+     4. **Master**: Spaced-repetition retention cycle (*New ➔ Familiar ➔ Mastered*) with automatic review scheduling.
+   - **Phrasal Verb Base-Verb Clustering**: Organizes multi-meaning phrasal verbs by base root (`look`, `take`, `put`, `turn`, `get`, `bring`).
 
 ---
 
@@ -267,6 +277,7 @@ lingrow-ai/
 │   ├── src/
 │   │   ├── app.js                     # Express app setup, routing, static handler
 │   │   ├── seed.js                    # Multi-role database seeder & QBank importer
+│   │   ├── seedIdioms.js              # Level 4-5 Idioms & Phrasal Verbs curriculum seeder
 │   │   ├── importQBank.js             # Automated 243-topic JSON parser & importer
 │   │   ├── config/db.js               # MongoDB Mongoose connection manager
 │   │   ├── middleware/auth.js         # JWT auth & RBAC route guards
@@ -274,6 +285,7 @@ lingrow-ai/
 │   │   ├── models/                    # 30+ Mongoose data models
 │   │   │   ├── User.js, Badge.js, GrammarTopic.js, GDRoom.js, PeerSession.js...
 │   │   │   ├── WeakWord.js, WorldStageScenario.js, SimulationSession.js...
+│   │   │   ├── IdiomPhrase.js, IdiomProgress.js...
 │   │   │   └── TutorMemory.js, TutorMessage.js, DebateAttempt.js...
 │   │   ├── services/                  # Business logic & AI engines
 │   │   │   ├── llmService.js          # Claude API, word-diff alignment, prompt engines
@@ -285,11 +297,11 @@ lingrow-ai/
 │   │   │   └── emailService.js        # SMTP & mock verification email delivery
 │   │   └── routes/                    # Modular Express REST endpoints
 │   │       ├── auth.js, gd.js, peer.js, grammar.js, vocabulary.js, practice.js...
-│   │       ├── weakwords.js, worldStage.js, simulation.js, tutor.js, teacher.js...
-│   │       └── debate.js, story.js, test.js, admin.js, progress.js...
-│   └── tests/                         # 21 automated Jest & Supertest test suites
+│   │       ├── idioms.js, weakwords.js, worldStage.js, simulation.js, tutor.js...
+│   │       └── debate.js, story.js, test.js, admin.js, progress.js, teacher.js...
+│   └── tests/                         # 22 automated Jest & Supertest test suites
 │       ├── setup.js                   # In-memory Mongo test environment
-│       ├── auth.test.js, gdRoom.test.js, debatePractice.test.js...
+│       ├── auth.test.js, idioms.test.js, gdRoom.test.js, debatePractice.test.js...
 │       └── grammar.test.js, weakwords.test.js, simulation.test.js...
 └── frontend/                          # Zero-build static web client
     ├── index.html                     # Main single-page application shell
@@ -299,13 +311,14 @@ lingrow-ai/
     │   ├── world-stage.css            # World Stage audience chamber UI
     │   └── weakwords.css              # Weak Words Lab & drill cards
     └── js/
-        ├── app.js                     # Application controller & 25-route navigation router
+        ├── app.js                     # Application controller & 26-route navigation router
         ├── api.js                     # Fetch client with auto-refresh token retry
         ├── speech.js                  # SpeechRecognition (STT) & SpeechSynthesis (TTS)
         ├── dragon-mascot.js           # Procedural animated Dragon Mascot controller
         ├── icons.js                   # SVG icon definitions & theme icons
         ├── views-dragon-academy.js    # Realm map, Dragon Kingdom dashboard & quest hubs
         ├── views-student.js           # Read-aloud, vocab, grammar, debate, peer GD views
+        ├── views-idioms.js            # Whispering Grove 4-stage Idioms & Phrasal Verbs player
         ├── views-weakwords.js         # Weak Words Lab dashboard & drill sessions
         ├── views-world-stage.js       # World Stage speech recording & audience feed
         ├── views-simulator.js         # Communication Simulator roleplays
