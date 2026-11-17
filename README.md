@@ -1,237 +1,469 @@
-# LinGrow AI — Full-Stack Prototype
+# 🐉 LinGrow AI — Dragon Academy Edition
 
-A speaking-practice platform for college students: pronunciation practice,
-vocabulary, listening comprehension, debate & story-continuation exercises,
-anonymized peer practice, an AI tutor chat, gamification, and teacher/admin
-dashboards — with a real Node.js/Express + MongoDB backend and Claude
-(Anthropic API) powering the "LLM" parts.
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas%20%7C%20Local-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Anthropic Claude](https://img.shields.io/badge/LLM-Anthropic%20Claude-D97706?logo=anthropic&logoColor=white)](https://console.anthropic.com/)
+[![Ollama](https://img.shields.io/badge/Local%20AI-Qwen%20%2B%20DeepSeek--R1-black?logo=ollama&logoColor=white)](https://ollama.ai/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+
+**LinGrow AI** is an intelligent English communication, pronunciation, and speaking mastery platform wrapped in a rich gamified **Dragon Academy** fantasy realm. Designed for college students, job seekers, and ESL learners, LinGrow AI transforms language practice into an epic adventure—featuring pronunciation labs, vocabulary forges, a 243-topic grammar quest, live peer group discussions, an audience-reactive public speaking stage, situational roleplays, and a dual-model AI tutor.
+
+---
+
+## 📑 Table of Contents
+
+- [🌟 Highlights & Core Pillars](#-highlights--core-pillars)
+- [🏰 The Dragon Academy World & Realms](#-the-dragon-academy-world--realms)
+- [📚 The 243-Topic Question Bank (`LinGrow_QBank`)](#-the-243-topic-question-bank-lingrow_qbank)
+- [🎙️ Live Group Discussions (GD) & Peer Practice](#️-live-group-discussions-gd--peer-practice)
+- [🎭 World Stage & Audience Reaction Engine](#-world-stage--audience-reaction-engine)
+- [💼 Communication & Situational Simulator](#-communication--situational-simulator)
+- [🧠 Two-Model Local AI Architecture & AI Tutor](#-two-model-local-ai-architecture--ai-tutor)
+- [🏫 Teacher & Administrator Portals](#-teacher--administrator-portals)
+- [🛡️ Production Hardening & Security](#️-production-hardening--security)
+- [📁 Project Architecture & Directory Layout](#-project-architecture--directory-layout)
+- [🚀 Quick Start Guide](#-quick-start-guide)
+  - [Prerequisites](#prerequisites)
+  - [1. Backend Setup](#1-backend-setup)
+  - [2. Importing Question Bank & Seeding Accounts](#2-importing-question-bank--seeding-accounts)
+  - [3. Frontend Setup](#3-frontend-setup)
+  - [4. Demo Accounts](#4-demo-accounts)
+- [🐳 Docker Deployment](#-docker-deployment)
+- [🧪 Running Automated Tests](#-running-automated-tests)
+- [⚙️ Environment Variables Reference](#️-environment-variables-reference)
+
+---
+
+## 🌟 Highlights & Core Pillars
+
+| Pillar | Description | Implementation Status |
+|---|---|---|
+| **Dragon Academy Gamification** | Dynamic procedural SVG dragon mascot with idle breathing, fire-breath, victory backflips, failure/rekindle animations, streaks, flame auras, and elemental masteries. | **Real & Active** |
+| **Comprehensive Curriculum** | **243 grammar topics** spanning 5 proficiency tiers with **12,150 curated MCQs** from `LinGrow_QBank`, with sequential unlock gating (50% passing threshold). | **Real & Active** |
+| **Live Group Discussions (GD)** | Multi-participant real-time transcript sync (1s interval), auto-silence speech detection, explicit submit, and centered bubble conversation UI. | **Real & Active** |
+| **1-on-1 Peer Practice** | Anonymized student matchmaking queue with randomized debate/speaking topics and post-session peer ratings. | **Real & Active** |
+| **Weak Words Lab** | Persistent error-tracking engine capturing mispronounced or failed words across all exercises, with targeted spaced-repetition drills. | **Real & Active** |
+| **World Stage** | Public speaking simulator with an interactive **Audience Engine** (bored, engaged, impressed, critical) reacting dynamically to speech tempo, pauses, and clarity. | **Real & Active** |
+| **Communication Simulator** | Scenario-based dialogue engine (Job Interviews, Tech Pitches, Campus Encounters, Daily Conversations) with instant multi-criteria rubric feedback. | **Real & Active** |
+| **AI Tutor ("Draco")** | Floating Action Button (FAB) and collapsible drawer with persistent cross-session memory, syllabus RAG context extraction, and conversation management. | **Real & Active** |
+| **Two-Model Local AI** | Sequential pipeline on consumer GPUs (NVIDIA RTX 3050 6GB): Primary generator (Qwen2.5) + Strict verifier (DeepSeek-R1) via Ollama, plus Anthropic Claude cloud API support. | **Real & Active** |
+| **Speech-to-Text & TTS** | Client-side speech recognition (`SpeechRecognition` API) with real-time word-diff alignment (`diffWords`) and browser speech synthesis (`SpeechSynthesis` API). | **Real & Active** |
+| **Teacher & Admin Portals** | Class performance analytics, live GD room observation, custom test creation, content library syllabus editor, and system health latency monitoring. | **Real & Active** |
+
+---
+
+## 🏰 The Dragon Academy World & Realms
+
+The student journey is organized into legendary realms across the Dragon Kingdom:
+
+```
+                          ┌────────────────────────┐
+                          │   👑 DRAGON KINGDOM    │
+                          │   (Kingdom Realm Map)  │
+                          └───────────┬────────────┘
+         ┌──────────────────┬─────────┴─────────┬──────────────────┐
+         ▼                  ▼                   ▼                  ▼
+  🌲 Whispering Woods  🌋 Fire Peaks     ⚡ Dragon Spire    🌊 Echo Caverns
+  (Vocabulary Forge)   (Pronunciation)    (Grammar Quest)   (Listening Lab)
+```
+
+1. **🌲 Whispering Woods (Vocabulary Forge)**:
+   - Interactive flashcard mastery system with definition reveals, phonetic transcriptions, part-of-speech categorization, and contextual example sentences.
+   - Word audio pronunciation playback via text-to-speech.
+   - Mastery level progression: New ➔ Familiar ➔ Mastered.
+
+2. **🌋 Fire Peaks (Pronunciation & Read-Aloud)**:
+   - Passage-reading lab with live browser microphone capture (`SpeechRecognition`).
+   - Word-by-word diff alignment (`diffWords` in `llmService.js`) comparing spoken transcript against the reference text.
+   - Real-time scoring on accuracy, completeness, and fluency with color-coded phonetic feedback:
+     - 🟢 **Green**: Accurately pronounced.
+     - 🟡 **Yellow**: Minor hesitation / variation.
+     - 🔴 **Red**: Mispronounced or skipped (automatically fed into the **Weak Words Lab**).
+
+3. **⚡ Dragon Spire (Grammar Quest)**:
+   - Full 243-topic curriculum powered by `LinGrow_QBank`.
+   - Practice trials with 50 MCQs per topic, instant explanation modals, and distractor rationale.
+   - Sequential unlock mechanism: Each topic requires a **50% passing mark** to unlock the subsequent topic in the mastery tree.
+
+4. **🌊 Echo Caverns (Listening Lab)**:
+   - Audio passage listening exercises with replay limits to simulate real test conditions.
+   - Targeted comprehension questions assessing main idea, key details, and implicit meaning.
+
+5. **⚔️ The Arena (Debate, Story & Stage)**:
+   - **Debate Arena**: Multi-turn structured debating against an AI opponent with argument scoring, counter-argument evaluation, and rebuttal rounds.
+   - **Story Continuation**: Open-ended creative narrative builder challenging students to speak or write coherent subsequent chapters.
+
+---
+
+## 📚 The 243-Topic Question Bank (`LinGrow_QBank`)
+
+The repository integrates a complete, production-grade question bank located in `LinGrow_QBank/`:
+
+- **243 Comprehensive Grammar Topics** categorized under canonical English classifications (Parts of Speech, Subject-Verb Agreement, Verb Tenses, Conditionals, Gerunds & Infinitives, Active & Passive Voice, Modals, Relative Clauses, and Advanced Syntax).
+- **12,150 Curated Multiple-Choice Questions** (50 questions per topic JSON file), complete with:
+  - Question prompt & 4 options (A, B, C, D)
+  - Correct answer mapping
+  - In-depth pedagogical explanation
+  - Distractor rationales (why incorrect choices are wrong)
+  - Target grammar rules and difficulty tags
+
+### Curriculum Tier Structure
+
+```
+Level 1: Foundations        ── Topics 001 - 048  (Nouns, Pronouns, Basic Tenses, Articles)
+Level 2: Elementary         ── Topics 049 - 096  (Prepositions, Conjunctions, Continuous Tenses)
+Level 3: Intermediate       ── Topics 097 - 144  (Perfect Tenses, Modals, Passive Voice, Conditionals)
+Level 4: Upper-Intermediate ── Topics 145 - 192  (Clauses, Gerunds/Infinitives, Reported Speech)
+Level 5: Advanced & Fluency ── Topics 193 - 243  (Inversion, Cleft Sentences, Subjunctive, Idioms)
+```
+
+### Importing the Question Bank
+The database importer automatically resolves the local question bank path across OS environments (Linux, macOS, Windows):
+```bash
+cd backend
+npm run import-qbank
+```
+*(Also automatically imported whenever running `npm run seed`).*
+
+---
+
+## 🎙️ Live Group Discussions (GD) & Peer Practice
+
+Designed specifically for placement preparation and group interview readiness:
+
+### 1. Live Group Discussion (GD) Rooms
+- **Centered Bubble Conversation Feed**: Real-time transcript feed styled with clear speaker avatars, participant name tags, timestamps, and easy-to-read speech bubbles.
+- **Real-Time Multi-Participant Sync**: Sub-second synchronization across all participants in active rooms via low-latency polling.
+- **Hands-Free Speech Recognition**: Live mic capture with auto-silence detection that automatically packages and submits spoken thoughts after natural pauses.
+- **Manual Send & Controls**: Explicit "Send Speech" button and mic mute/unmute toggles.
+- **Teacher Observation Mode**: Teachers can enter GD rooms in spectator mode to observe interactions and issue targeted feedback.
+
+### 2. 1-on-1 Anonymized Voice Practice
+- **Peer Matchmaking Queue**: Fast matchmaking system pairing students anonymously.
+- **Topic Cards**: Automatically provided discussion prompts (e.g., *“Should AI replace standardized testing?”*).
+- **Segmented Control**: Clear toggle switch separating GD Rooms from 1-on-1 Practice.
+- **Session Ratings**: Peer feedback on clarity, etiquette, and confidence.
+
+---
+
+## 🎭 World Stage & Audience Reaction Engine
+
+The **World Stage** (`views-world-stage.js`, `/api/world-stage`) simulates high-stakes public speaking:
+
+```
+┌────────────────────────────────────────────────────────┐
+│                      WORLD STAGE                       │
+│  [Speech Topic: Pitching Clean Energy to City Council] │
+│                                                        │
+│  AUDIENCE REACTIONS:                                   │
+│  😀 Engaged (65%)   🤔 Pensive (25%)   🥱 Bored (10%)  │
+│                                                        │
+│  METRICS:                                              │
+│  Pacing: 135 wpm    Fillers: 2 ("um", "like")          │
+│  Clarity: 88%       Confidence Score: 92/100           │
+└────────────────────────────────────────────────────────┘
+```
+
+- **Dynamic Audience Engine** (`backend/src/services/audienceEngine.js`): Simulates diverse audience archetypes (Academic, Executive, Youth, Skeptical). The audience visually reacts in real time to speech patterns:
+  - Fast tempo with low pauses ➔ Heightened engagement or overwhelm.
+  - Excessive pauses or filler words ➔ Audience restlessness and boredom.
+  - Clear, structured arguments ➔ Applause and high engagement.
+- **Comprehensive Rubric Evaluation**: Post-speech breakdown on Vocabulary Diversity, Pacing, Articulation, Confidence, and Filler-Word Frequency.
+
+---
+
+## 💼 Communication & Situational Simulator
+
+The **Communication Simulator** (`views-simulator.js`, `/api/simulation`) bridges academic English with real-world scenarios:
+
+- **Interactive Scenarios**:
+  - *Job Interview*: Answering behavioral questions, technical backgrounds, and salary expectations.
+  - *Tech Startup Pitch*: Presenting a problem, architecture, and value proposition to venture investors.
+  - *Academic Defense*: Responding to faculty critique and methodological inquiries.
+  - *Social Casual*: Ordering food, asking directions, networking at conferences.
+- **Turn-by-Turn Adaptive AI**: The simulated persona replies contextually based on the user's spoken or written inputs, probing deeper or steering the conversation naturally.
+
+---
+
+## 🧠 Two-Model Local AI Architecture & AI Tutor
+
+LinGrow AI includes a dedicated local neural pipeline designed for zero-API-cost local inference, specifically optimized for **NVIDIA RTX 3050 Laptop GPUs (6GB VRAM)**:
+
+```
+USER QUERY / ESSAY / SPEECH
+          │
+          ▼
+   INTENT ROUTER
+   (Checks if query needs Syllabus RAG, Web Search, or General Grammar)
+          │
+          ▼
+   QWEN 2.5 (3B / 7B) ──► Generates Draft Response
+          │
+          ▼
+   DEEPSEEK-R1 (1.5B / 8B) ──► Strict Verifier (Checks grammar accuracy & tone)
+          │
+          ├──────────────► Correct: Issues Verification Badge & Sends
+          └──────────────► Error: Rewrites Draft with Precise Correction
+```
+
+### Persistent AI Tutor ("Draco")
+- Accessible anywhere in the application via the floating dragon icon.
+- **Persistent Conversation Memory** (`TutorMemory`, `TutorMessage`): Remembers user strengths, recurring grammar mistakes, and topics discussed across sessions.
+- **RAG & Syllabus-Aware**: Uses `@xenova/transformers` for in-memory semantic search over curriculum documents.
+- **Dual Engine Fallback**: Automatically connects to local Ollama (`qwen2.5` + `deepseek-r1`) if available, falls back to Anthropic Claude Sonnet if configured in `.env`, or utilizes the intelligent rule-based offline heuristic engine.
+
+---
+
+## 🏫 Teacher & Administrator Portals
+
+### 🧑‍🏫 Teacher Portal (`views-teacher.js`)
+- **Class Overview & Analytics**: Class-wide completion rates, average pronunciation scores, and grammar unlock progress.
+- **Per-Student Diagnostics**: View individual weak words, recent debate attempts, and speaking recordings.
+- **Live GD Supervision**: Monitor active student group discussion rooms in real time.
+- **Custom Assignment & Test Distribution**: Create custom tests from the 12,150 question bank and assign them to specific student classes.
+
+### 🛡️ Administrator Console (`views-admin.js`)
+- **User & Role Provisioning**: Manage student, teacher, and admin accounts.
+- **Curriculum Library Editor**: Add, edit, or reorder curriculum passages, vocabulary lists, and debate topics.
+- **System Health & Telemetry**: Real-time database latency, active sessions, and API response metrics.
+
+---
+
+## 🛡️ Production Hardening & Security
+
+- **Dual-Token Auth Pipeline**:
+  - Short-lived JWT **access tokens** (15-minute default) passed via `Authorization: Bearer <token>`.
+  - Rotating **refresh tokens** stored in `httpOnly`, `SameSite=Lax` cookies scoped strictly to `/api/auth`.
+  - Only the SHA-256 hash of the refresh token is stored in MongoDB (`User.refreshTokenHash`)—preventing token reuse even in the event of a database compromise.
+- **Transparent Refresh Cycle**: The client API interceptor (`frontend/js/api.js`) automatically intercepts 401 errors, requests a new access token via `/api/auth/refresh`, and transparently retries the original request.
+- **Email Verification Flow**: Configurable verification emails with SMTP support (Nodemailer) or safe console logging (`[email:mock]`) for local development without external dependencies.
+- **Strict Role-Based Access Control (RBAC)**: Route middleware enforcing `student`, `teacher`, and `admin` permission boundaries.
+- **Cache-Busted Asset Pipeline**: Version-controlled asset URLs (`?v=7.2`) across all scripts and stylesheets to guarantee client synchronization without stale browser cache collisions.
+- **Input Sanitization & UI Caret Control**: Protection against XSS, plus explicit CSS/JS caret suppression across interactive surfaces.
+
+---
+
+## 📁 Project Architecture & Directory Layout
 
 ```
 lingrow-ai/
-  backend/     Node.js + Express + MongoDB API, JWT auth, Claude-powered scoring
-  frontend/    Static HTML/CSS/JS client (no build step required)
+├── README.md                          # Comprehensive project documentation
+├── docker-compose.yml                 # Multi-container orchestration (App + Mongo)
+├── LinGrow_QBank/                     # 243-topic curriculum (12,150 MCQs)
+│   ├── Level 1/                       # Topics 001 - 048
+│   ├── Level 2/                       # Topics 049 - 096
+│   ├── Level 3/                       # Topics 097 - 144
+│   ├── Level 4/                       # Topics 145 - 192
+│   └── Level 5/                       # Topics 193 - 243
+├── backend/
+│   ├── server.js                      # Application entrypoint
+│   ├── Dockerfile                     # Production container spec
+│   ├── package.json                   # Dependencies, scripts & Jest config
+│   ├── .env.example                   # Environment configuration template
+│   ├── two_model_ai/                  # Local dual-model AI service (Qwen + DeepSeek)
+│   │   ├── README.md                  # Two-model GPU architecture guide
+│   │   └── main.py                    # Sequential model executor
+│   ├── src/
+│   │   ├── app.js                     # Express app setup, routing, static handler
+│   │   ├── seed.js                    # Multi-role database seeder & QBank importer
+│   │   ├── importQBank.js             # Automated 243-topic JSON parser & importer
+│   │   ├── config/db.js               # MongoDB Mongoose connection manager
+│   │   ├── middleware/auth.js         # JWT auth & RBAC route guards
+│   │   ├── utils/tokens.js            # Access/refresh token generation & hashing
+│   │   ├── models/                    # 30+ Mongoose data models
+│   │   │   ├── User.js, Badge.js, GrammarTopic.js, GDRoom.js, PeerSession.js...
+│   │   │   ├── WeakWord.js, WorldStageScenario.js, SimulationSession.js...
+│   │   │   └── TutorMemory.js, TutorMessage.js, DebateAttempt.js...
+│   │   ├── services/                  # Business logic & AI engines
+│   │   │   ├── llmService.js          # Claude API, word-diff alignment, prompt engines
+│   │   │   ├── audienceEngine.js      # Real-time World Stage audience simulation
+│   │   │   ├── simulationEngine.js    # Multi-persona conversational roleplay
+│   │   │   ├── gdService.js           # Live GD room sync & speech coordination
+│   │   │   ├── weakWordService.js     # Mistake logging & spaced repetition logic
+│   │   │   ├── ragService.js          # In-memory document embeddings (@xenova)
+│   │   │   └── emailService.js        # SMTP & mock verification email delivery
+│   │   └── routes/                    # Modular Express REST endpoints
+│   │       ├── auth.js, gd.js, peer.js, grammar.js, vocabulary.js, practice.js...
+│   │       ├── weakwords.js, worldStage.js, simulation.js, tutor.js, teacher.js...
+│   │       └── debate.js, story.js, test.js, admin.js, progress.js...
+│   └── tests/                         # 21 automated Jest & Supertest test suites
+│       ├── setup.js                   # In-memory Mongo test environment
+│       ├── auth.test.js, gdRoom.test.js, debatePractice.test.js...
+│       └── grammar.test.js, weakwords.test.js, simulation.test.js...
+└── frontend/                          # Zero-build static web client
+    ├── index.html                     # Main single-page application shell
+    ├── css/
+    │   ├── style.css                  # Core typography, dark/light themes & design tokens
+    │   ├── dragon-academy.css         # Fantasy Dragon Academy styling & animations
+    │   ├── world-stage.css            # World Stage audience chamber UI
+    │   └── weakwords.css              # Weak Words Lab & drill cards
+    └── js/
+        ├── app.js                     # Application controller & 25-route navigation router
+        ├── api.js                     # Fetch client with auto-refresh token retry
+        ├── speech.js                  # SpeechRecognition (STT) & SpeechSynthesis (TTS)
+        ├── dragon-mascot.js           # Procedural animated Dragon Mascot controller
+        ├── icons.js                   # SVG icon definitions & theme icons
+        ├── views-dragon-academy.js    # Realm map, Dragon Kingdom dashboard & quest hubs
+        ├── views-student.js           # Read-aloud, vocab, grammar, debate, peer GD views
+        ├── views-weakwords.js         # Weak Words Lab dashboard & drill sessions
+        ├── views-world-stage.js       # World Stage speech recording & audience feed
+        ├── views-simulator.js         # Communication Simulator roleplays
+        ├── views-teacher.js           # Teacher dashboard, class rosters & assignments
+        └── views-admin.js             # Admin management, syllabus library & telemetry
 ```
 
-## What's real vs. simulated — please read this first
+---
 
-This was built inside a sandboxed environment with no GPU and no access to
-model-weight hosts (e.g. Hugging Face), so it can't literally ship the
-self-hosted Whisper / wav2vec2 / Coqui VITS / FreeVC pipeline described in
-the original architecture doc, and nobody can train a genuine custom LLM in
-a chat session. Here's what's actually running vs. what's stubbed:
+## 🚀 Quick Start Guide
 
-| Piece | Status |
-|---|---|
-| Backend API, auth, database models, business logic | **Real.** Express + MongoDB (Mongoose), JWT auth, bcrypt password hashing. |
-| Session security | **Real.** Short-lived (15 min) access tokens + a rotating, httpOnly-cookie refresh token (hashed at rest, like a password). See "Production hardening" below. |
-| Email verification | **Real flow**, mock delivery by default. Verification links are generated and checked server-side; without SMTP configured, the email is logged to the server console (and returned as `devVerifyUrl` in the register/resend response) instead of actually being delivered. Set `SMTP_*` in `.env` to send real email. |
-| AI Tutor chat, debate/story scoring, pronunciation feedback text | **Real LLM**, via the Anthropic API (Claude). Set `ANTHROPIC_API_KEY` in `backend/.env`. Without a key, everything still works using a local heuristic scorer, clearly labeled "offline heuristic" in the UI. |
-| Speech-to-text (mic capture) | **Real**, via the browser's built-in `SpeechRecognition` API (Chrome/Edge). Production would swap this for self-hosted Whisper — see `backend/src/services/llmService.js` for where to plug it in. |
-| Text-to-speech (passage/vocab playback) | **Real**, via the browser's `speechSynthesis` API. Production would swap this for a self-hosted VITS model. |
-| Pronunciation word-level accuracy | Computed with a real word-alignment diff (`diffWords` in `llmService.js`) between the reference passage and what the student actually said — not random. Forced-alignment-grade precision would need a real ASR model. |
-| Voice anonymization / peer WebRTC calls | **Modeled, not implemented.** `PeerSession` has the matching/queue/session-record logic working end-to-end, but the actual live audio call (WebRTC + a server-side voice-conversion pass) needs a signalling server and media infrastructure this environment can't run. See comments in `backend/src/routes/peer.js`. |
-| Gamification (XP, levels, streaks, badges, leaderboard) | **Real**, backed by the database. |
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18.0.0 or higher
+- [MongoDB](https://www.mongodb.com/) (Local instance running on `mongodb://127.0.0.1:27017` or a free MongoDB Atlas cloud cluster)
+- *(Optional)* [Ollama](https://ollama.ai/) for local offline two-model AI (`qwen2.5:3b` and `deepseek-r1:1.5b`)
+- *(Optional)* Anthropic API key for Claude-powered scoring and evaluation
 
-Nothing here is decorative — every screen calls a real endpoint, which reads
-and writes real MongoDB documents.
+---
 
-## Quick start
-
-### 1. Backend
+### 1. Backend Setup
 
 ```bash
+# Navigate to the backend directory
 cd backend
+
+# Install dependencies
 npm install
+
+# Create environment file from template
 cp .env.example .env
-# edit .env: set MONGO_URI (a local `mongod` or a free MongoDB Atlas cluster),
-# a JWT_SECRET, and — optionally — ANTHROPIC_API_KEY for real AI scoring.
-npm run seed     # creates demo accounts + starter content
-npm start         # -> http://localhost:5000
 ```
 
-Demo accounts created by the seed script (password for all: `password123`):
+Edit `.env` to configure your database connection:
+```ini
+MONGO_URI=mongodb://127.0.0.1:27017/lingrow_ai
+# Or MongoDB Atlas:
+# MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/lingrow_ai?retryWrites=true&w=majority
 
-- `student@lingrow.demo`
-- `teacher@lingrow.demo`
-- `admin@lingrow.demo`
+JWT_SECRET=super_secret_dragon_token_key_change_in_production
+PORT=5000
+NODE_ENV=development
+```
 
-### 2. Frontend
+---
 
-The frontend is plain static files — no build step. Easiest options:
+### 2. Importing Question Bank & Seeding Accounts
 
-- Open `frontend/index.html` directly with a local static server, e.g.
-  `npx serve frontend` or the VS Code "Live Server" extension.
-- Or let the backend serve it: it's already wired to serve `frontend/` as
-  static files from the same Express app, so once the backend is running you
-  can just visit `http://localhost:5000`.
-
-If you host the frontend on a different origin/port than the backend, open
-`frontend/js/api.js` and update `API_BASE`, and add that origin to
-`CORS_ORIGIN` in `backend/.env`.
-
-### 3. Sign in
-
-Use one of the seeded demo accounts above, or register a new account from
-the login screen (role selectable for demo purposes — in production you'd
-lock registration to student self-signup and provision teacher/admin
-accounts separately via the admin panel).
-
-## Production hardening
-
-The backend now has a real session-security model, email verification,
-a Docker setup, and an automated test suite — the pieces that turn this
-from "runs on my machine" into something you could actually deploy.
-
-### Auth: short-lived access tokens + rotating refresh tokens
-
-Login/register now return two things instead of one:
-
-- An **access token** (JWT, 15 min default) — sent as `Authorization: Bearer
-  <token>` on every API call, same as before.
-- A **refresh token** — a random opaque string, delivered as an `httpOnly`,
-  `SameSite=Lax` cookie scoped to `/api/auth`. Only its SHA-256 hash is
-  stored server-side (`User.refreshTokenHash`), so a database leak alone
-  can't be replayed into a session, and it can't be read or exfiltrated by
-  JS running on the page (XSS-resistant).
-
-`frontend/js/api.js` handles the whole cycle transparently: when a request
-gets a 401 because the access token expired, it silently calls
-`POST /api/auth/refresh`, retries the original request once, and only
-bounces the user to the login screen if the refresh cookie itself is
-missing or expired. Every refresh also **rotates** the token (issues a new
-one, invalidates the old), so a stolen refresh token stops working the
-next time the real user's client refreshes.
-
-`POST /api/auth/logout` clears the cookie and invalidates the stored hash
-server-side — logging out on one device actually ends that session, not
-just deletes a local variable.
-
-Tune the lifetimes via `ACCESS_TOKEN_EXPIRES_IN` and
-`REFRESH_TOKEN_EXPIRES_IN_DAYS` in `.env`.
-
-### Email verification
-
-Registering creates the account immediately (so the demo/dev flow isn't
-blocked on a mailbox) but marks `emailVerified: false` and sends a
-verification link. The frontend shows a dismiss-free banner for unverified
-users with a "Resend link" action; nothing is hard-gated behind
-verification yet — wire `requireAuth` + an `emailVerified` check into
-specific routes if you want a hard gate.
-
-Without SMTP configured, `backend/src/services/emailService.js` logs the
-email to the server console (prefixed `[email:mock]`) and the API also
-returns the link directly as `devVerifyUrl` in the register/resend response
-— you can test the whole flow with zero external services. Set
-`SMTP_HOST` / `SMTP_USER` / `SMTP_PASS` (any provider — Mailtrap, SES,
-SendGrid, Gmail app password, etc.) in `.env` to send real mail; seeded
-demo accounts are pre-verified so the demo login flow is never blocked.
-
-### Docker
+Run the comprehensive seed script. This automatically creates the demo accounts, starter lessons, debate topics, and imports all **243 topics and 12,150 MCQs** from `LinGrow_QBank`:
 
 ```bash
-cp backend/.env.example backend/.env   # fill in JWT_SECRET at minimum
-docker compose up --build              # starts mongo + backend on :5000
-docker compose run --rm seed           # one-off: demo accounts + starter content
+npm run seed
 ```
 
-`docker-compose.yml` runs MongoDB and the API as separate services on a
-shared network; the backend serves the static frontend too, so
-`http://localhost:5000` is the whole app. The `seed` service uses Compose
-[profiles](https://docs.docker.com/compose/how-tos/profiles/) so it doesn't
-start automatically — it's meant to be run once via `docker compose run`.
+*(You can also re-run just the question bank importer at any time with `npm run import-qbank`).*
 
-### Tests
+Now start the backend server:
+```bash
+npm start
+# Server will listen on http://0.0.0.0:5000 (http://localhost:5000)
+```
+
+---
+
+### 3. Frontend Setup
+
+The frontend consists of pure, modern vanilla JavaScript and CSS—**no bundling or build step required**.
+
+#### Option A: Direct Express Serving (Recommended)
+The backend is already configured to serve the `frontend/` directory statically. Simply open your browser and navigate to:
+👉 **`http://localhost:5000`**
+
+#### Option B: Live Server / Dedicated Static Server
+If you prefer running a dedicated static development server:
+```bash
+npx serve frontend -p 3000
+```
+*(Ensure `CORS_ORIGIN` in `backend/.env` includes `http://localhost:3000`).*
+
+---
+
+### 4. Demo Accounts
+
+All seeded accounts share the default development password: **`password123`**
+
+| Role | Email Address | Access Level |
+|---|---|---|
+| **Student 1** | `student@lingrow.demo` | Dragon Kingdom, Realms, GD Rooms, World Stage, AI Tutor |
+| **Student 2** | `student2@lingrow.demo` | Secondary student account for multi-browser live GD testing |
+| **Teacher** | `teacher@lingrow.demo` | Class performance analytics, student review, live GD monitoring |
+| **Admin** | `admin@lingrow.demo` | System health, user management, full content syllabus editor |
+
+---
+
+## 🐳 Docker Deployment
+
+The project includes a ready-to-deploy `docker-compose.yml`:
+
+```bash
+# 1. Configure backend environment
+cp backend/.env.example backend/.env
+
+# 2. Build and start MongoDB and the API container
+docker compose up --build -d
+
+# 3. Seed demo accounts and import the Question Bank
+docker compose run --rm seed
+
+# 4. Open the application
+# Visit http://localhost:5000 in your browser
+```
+
+---
+
+## 🧪 Running Automated Tests
+
+LinGrow AI includes a 21-suite test suite powered by **Jest**, **Supertest**, and **mongodb-memory-server** (an isolated in-memory MongoDB that requires zero local database setup):
 
 ```bash
 cd backend
-npm install
 npm test
 ```
 
-`backend/tests/` uses Jest + Supertest against the real Express app
-(`src/app.js`, importable without binding a port) and
-[`mongodb-memory-server`](https://github.com/typegoose/mongodb-memory-server)
-for an isolated, disposable MongoDB — no local `mongod` or Atlas cluster
-needed, and nothing touches your real database. Coverage: registration
-(validation, duplicate email), login (bad password, suspended account),
-the full access/refresh/logout token lifecycle including rotation, email
-verification, and a protected-route smoke test.
+### Test Coverage Highlights:
+- **Authentication**: Registration, password hashing, token expiration, refresh rotation, logout cookie clearing, email verification.
+- **Dragon Academy & Progression**: XP awarding, leveling curves, streak maintenance, badge unlock logic.
+- **Curriculum & Grammar**: Sequential topic unlocking, 50% passing threshold rules, quiz scoring.
+- **Group Discussions (GD)**: Room lifecycle, multi-participant transcript sync, auto-silence message broadcasting.
+- **Weak Words**: Mistake recording, spaced repetition scheduling, word mastery state transitions.
+- **World Stage & Simulation**: Audience reaction calculations, multi-turn roleplay session persistence.
+- **Two-Model Pipeline**: Intent routing, verifier verification logic, fallback to offline heuristics.
 
-Note: on first run, `mongodb-memory-server` downloads a `mongod` binary
-(~60–80 MB) from `fastdl.mongodb.org`, so `npm test` needs outbound
-internet access the first time (cached under `~/.cache/mongodb-binaries`
-after that). If you're running this in a network-restricted CI environment,
-either allowlist that host or point `MONGO_URI` at an already-running
-MongoDB instance and adapt `tests/setup.js` to skip spinning up the
-in-memory server.
+---
 
-## Speech features need a supported browser
+## ⚙️ Environment Variables Reference
 
-`SpeechRecognition` (mic capture) is a Chrome/Edge feature; Safari and
-Firefox support is inconsistent. If a browser doesn't support it, the app
-tells you instead of failing silently. Text-to-speech (`speechSynthesis`)
-has broader support.
+| Variable | Required? | Default | Description |
+|---|---|---|---|
+| `MONGO_URI` | **Yes** | `mongodb://127.0.0.1:27017/lingrow_ai` | MongoDB connection string (Local or MongoDB Atlas). |
+| `JWT_SECRET` | **Yes** | — | Secret string used to sign JWT access tokens. |
+| `ACCESS_TOKEN_EXPIRES_IN` | No | `15m` | Lifetime of the bearer access token. |
+| `REFRESH_TOKEN_EXPIRES_IN_DAYS` | No | `30` | Lifetime of the httpOnly refresh cookie. |
+| `PORT` | No | `5000` | Port the Node.js/Express server listens on. |
+| `NODE_ENV` | No | `development` | Environment mode (`development` or `production`). |
+| `FRONTEND_URL` | No | `http://localhost:5000` | URL used for email verification links. |
+| `ANTHROPIC_API_KEY` | Optional | — | Anthropic Claude API key for cloud AI scoring. |
+| `ANTHROPIC_MODEL` | Optional | `claude-sonnet-4-6` | Anthropic Claude model version. |
+| `OLLAMA_BASE_URL` | Optional | `http://127.0.0.1:11434` | Endpoint for local two-model AI inference. |
+| `PRIMARY_MODEL` | Optional | `qwen2.5:3b` | Primary generator model for local AI. |
+| `VERIFIER_MODEL` | Optional | `deepseek-r1:1.5b` | Verifier model for local AI factual checks. |
+| `SMTP_HOST` | Optional | — | SMTP server host for real verification emails. |
+| `SMTP_PORT` | Optional | `587` | SMTP port (e.g., 587 or 465). |
+| `SMTP_USER` | Optional | — | SMTP username / API key. |
+| `SMTP_PASS` | Optional | — | SMTP password / Secret. |
+| `CORS_ORIGIN` | Optional | `http://localhost:5173,...` | Allowed CORS origins when hosting frontend independently. |
 
-## Project layout
+---
 
-```
-backend/
-  server.js                 Entrypoint: connects DB, starts src/app.js listening
-  Dockerfile
-  .dockerignore
-  src/
-    app.js                   Express app (routes, middleware) — imported directly by tests
-    config/db.js             MongoDB connection
-    models/                  Mongoose schemas — one file per collection
-    middleware/auth.js       JWT auth + role guard
-    utils/tokens.js          Access/refresh JWT + hashed-token helpers
-    services/
-      llmService.js          Claude API integration: tutor, debate/story/
-                              pronunciation scoring, word-diff alignment
-      progressService.js     XP, levelling, badge logic
-      emailService.js        Verification email delivery (SMTP or console mock)
-    routes/                  One router per module (auth, practice,
-                              vocabulary, debate, story, listening, lessons,
-                              peer, tutor, notifications, progress, teacher,
-                              admin)
-    seed.js                  Demo accounts + starter content
-  tests/
-    setup.js                 Spins up mongodb-memory-server for the test run
-    auth.test.js             Register/login/refresh-rotation/logout/verify-email
-    progress.test.js         Protected-route smoke test
+## 📜 License
 
-docker-compose.yml           mongo + backend services (+ one-off seed profile)
-
-frontend/
-  index.html
-  css/style.css
-  js/
-    api.js                   fetch wrapper around every backend endpoint
-    speech.js                browser mic (STT) + text-to-speech (TTS)
-    icons.js                 inline SVG icon set
-    app.js                   auth screen, app shell, view router
-    views-student.js         dashboard, read-aloud, vocabulary, listening,
-                              story, debate, peer, tutor chat, lessons, progress
-    views-teacher.js         class overview, per-student detail & feedback
-    views-admin.js           user management, content library, system health
-```
-
-## Extending toward the full production architecture
-
-To move from this prototype to the original architecture doc's design:
-
-1. **Self-hosted STT**: stand up a Whisper (or `faster-whisper`) inference
-   service, have the client upload the raw audio blob instead of the
-   browser's transcript, and call it from `practice.js` / `listening.js`
-   before scoring.
-2. **Self-hosted TTS**: stand up Coqui VITS (or similar), replace
-   `SpeechOutput.speak()` calls in the frontend with a fetch to an audio
-   endpoint that streams back synthesized speech.
-3. **Voice anonymization + WebRTC peer calls**: add a signalling server
-   (Socket.IO) and an SFU (mediasoup/LiveKit), with a FreeVC-based voice
-   conversion pass sitting between the two audio tracks server-side. The
-   `PeerSession` model and matching queue in `routes/peer.js` are already
-   built to plug into this.
-4. **Pronunciation scoring precision**: replace the word-diff heuristic in
-   `llmService.js` with real forced alignment (e.g. wav2vec2-based) output
-   from the STT service.
+This project is licensed under the MIT License — see the LICENSE file for details.
+Built with ❤️ for learners reaching for global communication fluency.
