@@ -488,17 +488,22 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   display: flex;
   align-items: center;
   gap: 10px;
-  background: rgba(15, 23, 42, 0.75);
-  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(245, 158, 11, 0.40);
   padding: 4px 12px 4px 6px;
   border-radius: var(--radius-full);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(245, 158, 11, 0.12);
   transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 .topbar-dragon-profile:hover {
   transform: translateY(-1px);
   border-color: var(--color-flame);
   box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+}
+[data-theme="dark"] .topbar-dragon-profile {
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 .topbar-dragon-avatar {
   position: relative;
@@ -541,21 +546,30 @@ tr.tr-hover:hover td{background:rgba(237, 233, 254, 0.50);}
   font-family: var(--font-display);
   font-size: 11.5px;
   font-weight: 800;
-  color: #FFFFFF;
+  color: #0F172A;
   white-space: nowrap;
+}
+[data-theme="dark"] .topbar-dragon-name {
+  color: #FFFFFF;
 }
 .topbar-dragon-title {
   font-family: var(--font-body);
   font-size: 10.5px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #B45309;
+}
+[data-theme="dark"] .topbar-dragon-title {
   color: var(--color-flame);
 }
 .topbar-dragon-xp-track {
   width: 100%;
   height: 4px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(245, 158, 11, 0.20);
   border-radius: 99px;
   overflow: hidden;
+}
+[data-theme="dark"] .topbar-dragon-xp-track {
+  background: rgba(255, 255, 255, 0.15);
 }
 .topbar-dragon-xp-fill {
   height: 100%;

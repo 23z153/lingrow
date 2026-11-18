@@ -564,6 +564,8 @@ async function setView(view){
     if (view && view !== defaultHome && typeof VIEW_RENDERERS[defaultHome] === 'function') {
       console.warn(`View '${view}' is not registered in VIEW_RENDERERS. Falling back to '${defaultHome}'.`);
       view = defaultHome;
+    } else if (typeof VIEW_RENDERERS['dashboard'] === 'function') {
+      view = 'dashboard';
     }
   }
 
@@ -593,7 +595,17 @@ async function setView(view){
   mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
   try {
     if (typeof VIEW_RENDERERS[view] !== 'function') {
-      throw new Error(`View '${view}' is not currently loaded.`);
+      // Small 150ms retry delay in case script tags are still finalizing
+      await new Promise(r => setTimeout(r, 150));
+      if (typeof VIEW_RENDERERS[view] !== 'function') {
+        if (typeof VIEW_RENDERERS['dashboard'] === 'function') {
+          console.warn(`Chamber '${view}' not found, redirecting to Dragon Kingdom.`);
+          view = 'dashboard';
+          S.view = 'dashboard';
+          return await VIEW_RENDERERS['dashboard'](mount);
+        }
+        throw new Error(`The '${view}' chamber could not be unlocked.`);
+      }
     }
     await VIEW_RENDERERS[view](mount);
   } catch (err) {
@@ -601,12 +613,12 @@ async function setView(view){
     const errMessage = err.message || 'Failed to load view';
     const isAuthErr = errMessage.toLowerCase().includes('auth') || errMessage.toLowerCase().includes('forbidden') || errMessage.toLowerCase().includes('unauthorized');
     mount.innerHTML = `
-      <div class="card empty-state col gap-sm" style="padding:36px 24px;max-width:480px;margin:40px auto;text-align:center">
-        <div style="font-size:36px">${isAuthErr ? '🔒' : '⚠️'}</div>
-        <h3 style="font-size:18px;font-weight:700">${isAuthErr ? 'Access Restricted' : 'Unable to Load View'}</h3>
-        <p style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin:4px 0 12px">${esc(errMessage)}</p>
+      <div class="card card-fantasy empty-state col gap-sm" style="padding:36px 24px;max-width:480px;margin:40px auto;text-align:center;border-radius:18px">
+        <div style="font-size:36px">${isAuthErr ? '🔒' : '🐉'}</div>
+        <h3 style="font-size:18px;font-weight:700;font-family:var(--font-display);color:var(--color-text)">${isAuthErr ? 'Access Restricted' : 'Dragon Chamber Sealed'}</h3>
+        <p style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin:4px 0 16px">${esc(errMessage)}</p>
         <div class="row gap-sm" style="justify-content:center;flex-wrap:wrap">
-          <button class="btn btn-primary btn-sm" onclick="setView('${view}')">Retry Loading</button>
+          <button class="btn btn-primary btn-sm" onclick="setView('${view}')">Retry Chamber</button>
           <button class="btn btn-secondary btn-sm" onclick="setView('dashboard')">Return to Dragon Kingdom</button>
           ${isAuthErr ? `<button class="btn btn-ghost btn-sm" onclick="logout()">Sign in as Admin</button>` : ''}
         </div>
