@@ -62,7 +62,6 @@ router.post('/placement/start', requireAuth, async (req, res) => {
         return {
           id: q.id,
           section: q.section,
-          levelHint: q.levelHint,
           prompt: q.prompt,
           options,
         };
@@ -77,7 +76,6 @@ router.post('/placement/start', requireAuth, async (req, res) => {
         readAloudSentence: {
           id: READ_ALOUD_SENTENCE.id,
           sentence: READ_ALOUD_SENTENCE.sentence,
-          difficulty: READ_ALOUD_SENTENCE.difficulty,
         },
       });
     }
@@ -97,18 +95,69 @@ router.post('/placement/start', requireAuth, async (req, res) => {
       });
     }
 
-    // 4. Issue new Placement Attempt (seed from request body is strictly ignored)
+    // 4. Clean up any stale activeKey on submitted, consumed, or expired attempts for this user
+    await PlacementAttempt.updateMany(
+      {
+        userId: req.user._id,
+        activeKey: { $ne: null },
+        $or: [
+          { submittedAt: { $ne: null } },
+          { consumedAt: { $ne: null } },
+          { expiresAt: { $lte: new Date(now) } },
+        ],
+      },
+      { $set: { activeKey: null } }
+    );
+
+    // 5. Issue new Placement Attempt atomically (concurrency-safe via activeKey unique index)
     const session = generatePlacementSession();
     const expiryMs = PLACEMENT_CONFIG.expiryMs || 30 * 60 * 1000;
 
-    const newAttempt = await PlacementAttempt.create({
-      userId: req.user._id,
-      questionIds: session.questions.map((q) => q.id),
-      permutations: session.permutations,
-      issuedAt: new Date(now),
-      expiresAt: new Date(now + expiryMs),
-      submittedAt: null,
-    });
+    let newAttempt;
+    try {
+      newAttempt = await PlacementAttempt.create({
+        userId: req.user._id,
+        activeKey: req.user._id.toString(),
+        questionIds: session.questions.map((q) => q.id),
+        permutations: session.permutations,
+        issuedAt: new Date(now),
+        expiresAt: new Date(now + expiryMs),
+        submittedAt: null,
+      });
+    } catch (createErr) {
+      if (createErr.code === 11000) {
+        // Parallel call created an active attempt concurrently; retrieve and return it
+        const existing = await PlacementAttempt.findOne({
+          userId: req.user._id,
+          submittedAt: null,
+          expiresAt: { $gt: new Date(now) },
+        });
+        if (existing) {
+          const questions = PLACEMENT_QUESTIONS.map((q) => {
+            const perm = existing.permutations && existing.permutations[q.id];
+            const options = Array.isArray(perm) ? perm.map((idx) => q.options[idx]) : [...q.options];
+            return {
+              id: q.id,
+              section: q.section,
+              prompt: q.prompt,
+              options,
+            };
+          });
+          return res.status(200).json({
+            attemptId: existing._id,
+            resumed: true,
+            issuedAt: existing.issuedAt,
+            expiresAt: existing.expiresAt,
+            questions,
+            readAloudSentence: {
+              id: READ_ALOUD_SENTENCE.id,
+              sentence: READ_ALOUD_SENTENCE.sentence,
+            },
+          });
+        }
+      }
+      throw createErr;
+    }
 
     res.status(201).json({
       attemptId: newAttempt._id,
@@ -175,6 +224,7 @@ router.post('/placement/submit', requireAuth, async (req, res) => {
       {
         $set: {
           submittedAt: now,
+          activeKey: null,
           writtenScore: result.writtenScore,
           advancedCorrect: result.advancedCorrect,
           placementSpeechScore: result.placementSpeechScore,
@@ -337,25 +387,7 @@ router.post('/select-level', requireAuth, async (req, res) => {
         });
       }
 
-      // Atomic attempt consumption with precondition filter (consumedAt: null)
-      const updatedAttempt = await PlacementAttempt.findOneAndUpdate(
-        {
-          _id: attemptId,
-          userId: user._id,
-          submittedAt: { $ne: null },
-          consumedAt: null,
-        },
-        {
-          $set: { consumedAt: now },
-        },
-        { new: true }
-      );
-
-      if (!updatedAttempt) {
-        return res.status(400).json({ error: 'This placement attempt has already been consumed' });
-      }
-
-      // Atomic user level assignment with precondition filter (onboardingCompleted: false)
+      // Step 1: Update the user FIRST with precondition filter (onboardingCompleted: false)
       const updatedUser = await User.findOneAndUpdate(
         {
           _id: user._id,
@@ -365,8 +397,8 @@ router.post('/select-level', requireAuth, async (req, res) => {
           $set: {
             level,
             levelSource: 'placement',
-            placementScore: updatedAttempt.writtenScore,
-            placementSpeechScore: updatedAttempt.placementSpeechScore,
+            placementScore: attempt.writtenScore,
+            placementSpeechScore: attempt.placementSpeechScore,
             levelAssignedAt: now,
             onboardingCompleted: true,
           },
@@ -376,7 +408,7 @@ router.post('/select-level', requireAuth, async (req, res) => {
               previousLevel: user.legacyLevel || null,
               newLevel: level,
               source: 'placement',
-              reason: `Dragon Egg Trial placement confirmed (recommended: ${updatedAttempt.recommendedLevel}, selected: ${level})`,
+              reason: `Dragon Egg Trial placement confirmed (recommended: ${attempt.recommendedLevel}, selected: ${level})`,
               changedAt: now,
             },
           },
@@ -385,13 +417,26 @@ router.post('/select-level', requireAuth, async (req, res) => {
       );
 
       if (!updatedUser) {
-        // Rollback attempt consumption if concurrent request completed onboarding first
-        await PlacementAttempt.findByIdAndUpdate(attemptId, { consumedAt: null });
         return res.status(409).json({
           error: 'Onboarding has already been completed for this account',
           code: 'ONBOARDING_ALREADY_COMPLETED',
           level: user.level,
         });
+      }
+
+      // Step 2: Mark the attempt consumed (if this fails, user is already onboarded and nothing is stranded)
+      try {
+        await PlacementAttempt.findOneAndUpdate(
+          {
+            _id: attemptId,
+            consumedAt: null,
+          },
+          {
+            $set: { consumedAt: now, activeKey: null },
+          }
+        );
+      } catch (consumeErr) {
+        console.error('[onboarding] Warning: Failed to mark attempt consumed after user onboarding:', consumeErr);
       }
 
       return res.json({ ok: true, user: updatedUser.toSafeJSON() });

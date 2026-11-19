@@ -131,6 +131,47 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
       expect(count).toBe(1);
     });
 
+    test('no response field reveals a question or speech tier (no levelHint or difficulty)', async () => {
+      const freshRes = await request(app)
+        .post('/api/onboarding/placement/start')
+        .set('Authorization', `Bearer ${student1Token}`);
+      expect(freshRes.status).toBe(201);
+      freshRes.body.questions.forEach((q) => {
+        expect(q.levelHint).toBeUndefined();
+        expect(q.difficulty).toBeUndefined();
+        expect(q.tier).toBeUndefined();
+      });
+      expect(freshRes.body.readAloudSentence.difficulty).toBeUndefined();
+
+      const resumedRes = await request(app)
+        .post('/api/onboarding/placement/start')
+        .set('Authorization', `Bearer ${student1Token}`);
+      expect(resumedRes.status).toBe(200);
+      resumedRes.body.questions.forEach((q) => {
+        expect(q.levelHint).toBeUndefined();
+        expect(q.difficulty).toBeUndefined();
+        expect(q.tier).toBeUndefined();
+      });
+      expect(resumedRes.body.readAloudSentence.difficulty).toBeUndefined();
+    });
+
+    test('atomic /start concurrency: parallel calls never create two active attempts (Promise.all)', async () => {
+      const [res1, res2] = await Promise.all([
+        request(app).post('/api/onboarding/placement/start').set('Authorization', `Bearer ${student1Token}`),
+        request(app).post('/api/onboarding/placement/start').set('Authorization', `Bearer ${student1Token}`),
+      ]);
+
+      expect([200, 201]).toContain(res1.status);
+      expect([200, 201]).toContain(res2.status);
+      expect(res1.body.attemptId).toBe(res2.body.attemptId);
+
+      const activeAttemptsInDb = await PlacementAttempt.countDocuments({
+        userId: student1._id,
+        submittedAt: null,
+      });
+      expect(activeAttemptsInDb).toBe(1);
+    });
+
     test('rejects teacher or admin attempting to start a student placement trial with 403', async () => {
       const res = await request(app)
         .post('/api/onboarding/placement/start')
@@ -517,6 +558,58 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
           });
 
         expect(res.status).toBe(403); // foreign attempt
+      });
+
+      test('select-level failure order 1: when user is already onboarded, user update fails first, returning 409 and leaving attempt unconsumed', async () => {
+        // Pre-set user as onboarded
+        await User.findByIdAndUpdate(student1Id, { onboardingCompleted: true, level: 'Beginner' });
+
+        const res = await request(app)
+          .post('/api/onboarding/select-level')
+          .set('Authorization', `Bearer ${student1Token}`)
+          .send({
+            path: 'placement',
+            attemptId: intermediateAttemptId,
+            level: 'Intermediate',
+          });
+
+        expect(res.status).toBe(409);
+        expect(res.body.code).toBe('ONBOARDING_ALREADY_COMPLETED');
+
+        // Attempt is NOT consumed because step 1 failed
+        const attempt = await PlacementAttempt.findById(intermediateAttemptId);
+        expect(attempt.consumedAt).toBeNull();
+      });
+
+      test('select-level failure order 2: if attempt consumption fails after user update, user is already onboarded and not stranded', async () => {
+        // Mock PlacementAttempt.findOneAndUpdate to fail only when consuming (consumedAt: null)
+        const origFindOneAndUpdate = PlacementAttempt.findOneAndUpdate;
+        jest.spyOn(PlacementAttempt, 'findOneAndUpdate').mockImplementation(function (filter, update, options) {
+          if (filter && filter.consumedAt === null) {
+            return Promise.reject(new Error('Simulated DB failure during attempt consumption'));
+          }
+          return origFindOneAndUpdate.apply(this, arguments);
+        });
+
+        const res = await request(app)
+          .post('/api/onboarding/select-level')
+          .set('Authorization', `Bearer ${student1Token}`)
+          .send({
+            path: 'placement',
+            attemptId: intermediateAttemptId,
+            level: 'Intermediate',
+          });
+
+        PlacementAttempt.findOneAndUpdate.mockRestore();
+
+        // Returns 200 with user onboarded
+        expect(res.status).toBe(200);
+        expect(res.body.user.level).toBe('Intermediate');
+        expect(res.body.user.onboardingCompleted).toBe(true);
+
+        const dbUser = await User.findById(student1Id);
+        expect(dbUser.onboardingCompleted).toBe(true);
+        expect(dbUser.level).toBe('Intermediate');
       });
     });
 

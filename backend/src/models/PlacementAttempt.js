@@ -52,12 +52,22 @@ const placementAttemptSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
+    activeKey: {
+      type: String,
+      default: null,
+    },
   },
   { timestamps: true }
 );
 
 // Index to quickly find user attempts sorted by recency
 placementAttemptSchema.index({ userId: 1, createdAt: -1 });
+
+// Atomic active attempt constraint: only one active attempt with string activeKey per user
+placementAttemptSchema.index(
+  { activeKey: 1 },
+  { unique: true, partialFilterExpression: { activeKey: { $type: 'string' } } }
+);
 
 module.exports = mongoose.model('PlacementAttempt', placementAttemptSchema);
 
