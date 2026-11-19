@@ -271,7 +271,7 @@ router.post('/sessions/:id/end', requireAuth, async (req, res) => {
       level: session.difficulty === 'Beginner' ? 'Beginner' : (stageObj?.level || 'Advanced'),
       category: 'world-stage',
       score: result.evaluation?.overallScore || 80,
-      xp: result.xpAwarded || 35,
+      xp: 0, // XP is already claimed and awarded in endSessionAndEvaluate; pass 0 to prevent double-award
     }).catch((e) => {
       console.warn('[progression] World Stage record error:', e);
       return null;

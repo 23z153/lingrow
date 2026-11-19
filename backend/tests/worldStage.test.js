@@ -3,17 +3,9 @@ const createApp = require('../src/app');
 const User = require('../src/models/User');
 const WorldStageScenario = require('../src/models/WorldStageScenario');
 const WorldStageSession = require('../src/models/WorldStageSession');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
-
-function newUserPayload(namePrefix = 'StageStudent') {
-  return {
-    name: `${namePrefix} ${Date.now()}`,
-    email: `stage.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-    password: 'password123',
-    role: 'student',
-  };
-}
 
 describe('World Stage Public Speaking API', () => {
   let studentToken;
@@ -22,15 +14,15 @@ describe('World Stage Public Speaking API', () => {
   let otherStudentUser;
 
   beforeEach(async () => {
-    // Register primary student
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload('Speaker'));
-    studentToken = reg.body.token;
-    studentUser = await User.findOne({ email: reg.body.user.email });
+    // Create primary student with Advanced rank for World Stage
+    const s1 = await createTestUser({ name: 'Speaker', level: 'Advanced', onboardingCompleted: true });
+    studentToken = s1.token;
+    studentUser = s1.user;
 
-    // Register second student for access control testing
-    const regOther = await request(app).post('/api/auth/register').send(newUserPayload('OtherSpeaker'));
-    otherStudentToken = regOther.body.token;
-    otherStudentUser = await User.findOne({ email: regOther.body.user.email });
+    // Create second student for access control testing
+    const s2 = await createTestUser({ name: 'OtherSpeaker', level: 'Advanced', onboardingCompleted: true });
+    otherStudentToken = s2.token;
+    otherStudentUser = s2.user;
   });
 
   test('GET /api/world-stage/stages returns all 5 stage environments with atmosphere metadata', async () => {
@@ -288,5 +280,42 @@ describe('World Stage Public Speaking API', () => {
     expect(statsRes.body.totalSessions).toBeDefined();
     expect(statsRes.body.stageCounts).toBeDefined();
     expect(statsRes.body.dimensionAverages).toBeDefined();
+  });
+
+  test('Regression: POST /api/world-stage/sessions/:id/end awards XP exactly once (no progressionEngine double-crediting)', async () => {
+    const sessionRes = await request(app)
+      .post('/api/world-stage/sessions')
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        stageId: 'ted-talk',
+        topic: 'Ethics of Artificial Intelligence in Global Education',
+        targetDurationMinutes: 3,
+        difficulty: 'Advanced',
+      });
+    const sessionId = sessionRes.body.session._id;
+
+    await request(app)
+      .post(`/api/world-stage/sessions/${sessionId}/speech`)
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        segmentIndex: 0,
+        transcript: 'Today I want to present why artificial intelligence must be guided by human ethical discernment. When we evaluate academic progress, authentic learning must always prevail over rote automation.',
+        durationSeconds: 60,
+      });
+
+    const userBefore = await User.findById(studentUser._id);
+    const xpBefore = userBefore.xp || 0;
+
+    const endRes = await request(app)
+      .post(`/api/world-stage/sessions/${sessionId}/end`)
+      .set('Authorization', `Bearer ${studentToken}`);
+
+    expect(endRes.status).toBe(200);
+    const xpAwarded = endRes.body.xpAwarded;
+    expect(xpAwarded).toBeGreaterThan(0);
+
+    const userAfter = await User.findById(studentUser._id);
+    // Asserts XP was awarded exactly once, not duplicated by progression recorder
+    expect(userAfter.xp).toBe(xpBefore + xpAwarded);
   });
 });
