@@ -926,6 +926,7 @@ Evaluate and return the rubric scores and feedback in strict JSON format:`;
 module.exports = {
   hasKey,
   diffWords,
+  heuristicAccuracy,
   scorePronunciation,
   scoreDebate,
   generateDebateCounter,

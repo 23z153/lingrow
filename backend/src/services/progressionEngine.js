@@ -2,23 +2,19 @@ const User = require('../models/User');
 const ChallengeProgress = require('../models/ChallengeProgress');
 const Notification = require('../models/Notification');
 const { awardXP } = require('./progressService');
+const { canAccess, LEVELS } = require('../config/levelAccess');
 
 const UNLOCK_THRESHOLDS = {
-  Beginner: 4, // 4 Beginner completions unlock Intermediate
-  Intermediate: 4, // 4 Intermediate completions unlock Advanced
+  Beginner: 4, // Criteria tracking for Level-Up Trial
+  Intermediate: 4,
 };
 
 /**
- * Checks if a user has unlocked a target tier.
+ * Checks if a user can access a target tier using the unified canAccess helper.
  * Teachers, admins, and non-student roles have unrestricted access.
  */
 function canUserAccessLevel(user, targetLevel) {
-  if (!user) return false;
-  if (user.role && user.role !== 'student') return true;
-  if (!targetLevel || targetLevel === 'Beginner' || targetLevel === 'All Levels') return true;
-
-  const unlocked = user.getUnlockedLevels ? user.getUnlockedLevels() : (user.unlockedLevels || ['Beginner']);
-  return unlocked.includes(targetLevel);
+  return canAccess(user, targetLevel);
 }
 
 /**
@@ -56,8 +52,10 @@ async function recordActivityCompletion({
   if (userDoc.role === 'student' && !canUserAccessLevel(userDoc, normalizedLevel)) {
     const error = new Error(`Activity is in the ${normalizedLevel} tier, which is currently locked.`);
     error.status = 403;
+    error.code = 'LEVEL_LOCKED';
     error.locked = true;
     error.requiredLevel = normalizedLevel;
+    error.currentLevel = userDoc.level || null;
     error.unlockedLevels = userDoc.getUnlockedLevels();
     throw error;
   }
@@ -96,37 +94,8 @@ async function recordActivityCompletion({
   const intermediateCount = allCompletions.filter((c) => c.level === 'Intermediate').length;
   const advancedCount = allCompletions.filter((c) => c.level === 'Advanced').length;
 
-  let justUnlockedLevel = null;
-  let userModified = false;
-
-  // Unlock Intermediate if criteria met
-  if (beginnerCount >= UNLOCK_THRESHOLDS.Beginner && !userDoc.unlockedLevels.includes('Intermediate')) {
-    userDoc.unlockedLevels.push('Intermediate');
-    justUnlockedLevel = 'Intermediate';
-    userModified = true;
-    await Notification.create({
-      user: userDoc._id,
-      type: 'levelup',
-      text: '🎉 Congratulations! You completed 4 Beginner activities and unlocked the Intermediate Tier across LinGrow AI!',
-    }).catch(() => {});
-  }
-
-  // Unlock Advanced if criteria met
-  if (intermediateCount >= UNLOCK_THRESHOLDS.Intermediate && !userDoc.unlockedLevels.includes('Advanced')) {
-    userDoc.unlockedLevels.push('Advanced');
-    justUnlockedLevel = 'Advanced';
-    userModified = true;
-    await Notification.create({
-      user: userDoc._id,
-      type: 'levelup',
-      text: '🏆 Legendary Achievement! You completed 4 Intermediate activities and unlocked the Advanced Tier across LinGrow AI!',
-    }).catch(() => {});
-  }
-
-  if (userModified) {
-    await userDoc.save();
-  }
-
+  // Auto-unlock mutation removed per 3-Tier specification (Amendment 2).
+  // Level promotion is governed strictly by onboarding, Level-Up Trials, and teacher/admin overrides.
   const unlockedLevels = userDoc.getUnlockedLevels();
 
   return {
@@ -135,7 +104,7 @@ async function recordActivityCompletion({
     xpAwarded,
     totalXp: userDoc.xp || 0,
     unlockedLevels,
-    justUnlockedLevel,
+    justUnlockedLevel: null,
     beginnerCount,
     intermediateCount,
     advancedCount,

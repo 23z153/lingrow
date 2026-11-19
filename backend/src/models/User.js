@@ -45,16 +45,8 @@ userSchema.methods.checkPassword = function (plain) {
   return bcrypt.compare(plain, this.passwordHash);
 };
 userSchema.methods.getUnlockedLevels = function () {
-  const levels = new Set(this.unlockedLevels && this.unlockedLevels.length ? this.unlockedLevels : ['Beginner']);
-  levels.add('Beginner');
-  if (this.level === 'Intermediate' || (this.xp && this.xp >= 500)) {
-    levels.add('Intermediate');
-  }
-  if (this.level === 'Advanced' || (this.xp && this.xp >= 1500)) {
-    levels.add('Intermediate');
-    levels.add('Advanced');
-  }
-  return Array.from(levels);
+  const { getUnlockedLevelsForLevel } = require('../config/levelAccess');
+  return getUnlockedLevelsForLevel(this.level);
 };
 
 userSchema.methods.toSafeJSON = function () {

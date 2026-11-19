@@ -33,16 +33,8 @@ async function awardXP(user, amount) {
     { new: true }
   );
   if (!updated) return { xp: user.xp, level: user.level, leveledUp: false };
-  const newLevel = levelForXP(updated.xp);
-  const leveledUp = newLevel !== updated.level;
-  if (leveledUp) {
-    updated.level = newLevel;
-    await updated.save();
-    await Notification.create({ user: user._id, type: 'levelup', text: `You've reached ${newLevel} level! Keep going.` });
-  }
   user.xp = updated.xp;
-  user.level = updated.level;
-  return { xp: user.xp, level: user.level, leveledUp };
+  return { xp: user.xp, level: user.level, leveledUp: false };
 }
 
 const BADGE_DEFS = {
