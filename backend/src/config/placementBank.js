@@ -6,8 +6,21 @@
  * MUST NEVER be imported by levelAccess.js or sent via GET /api/levels/config.
  */
 
+const crypto = require('crypto');
 const { LEVELS } = require('./levelAccess');
 const { diffWords, heuristicAccuracy } = require('../services/llmService');
+
+let testInjectedSeed = null;
+
+function setTestPlacementSeed(seed) {
+  if (process.env.NODE_ENV === 'test') {
+    testInjectedSeed = seed;
+  }
+}
+
+function clearTestPlacementSeed() {
+  testInjectedSeed = null;
+}
 
 // Advanced question IDs used for difficulty-aware qualification
 const ADVANCED_QUESTION_IDS = new Set(['pt-g-04', 'pt-v-04', 'pt-r-03', 'pt-r-04']);
@@ -131,12 +144,24 @@ const READ_ALOUD_SENTENCE = {
 };
 
 /**
+ * Simple Linear Congruential Generator for deterministic seeded randomness.
+ */
+function makeSeededRNG(seed = 12345) {
+  let s = Math.abs(Number(seed) || 12345) % 2147483647;
+  if (s <= 0) s += 2147483646;
+  return function () {
+    s = (s * 16807) % 2147483647;
+    return (s - 1) / 2147483646;
+  };
+}
+
+/**
  * Creates an array permutation [0..n-1] shuffled pseudo-randomly.
  */
-function createPermutation(len = 4) {
+function createPermutation(len = 4, rng = Math.random) {
   const perm = Array.from({ length: len }, (_, i) => i);
   for (let i = perm.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(rng() * (i + 1));
     [perm[i], perm[j]] = [perm[j], perm[i]];
   }
   return perm;
@@ -145,11 +170,20 @@ function createPermutation(len = 4) {
 /**
  * Generates shuffled placement questions for a client session.
  * Stores permutations on the attempt so answers map back securely upon scoring.
+ * Production uses crypto.randomBytes; tests inject seed via setTestPlacementSeed().
  */
 function generatePlacementSession() {
+  let seed = null;
+  if (process.env.NODE_ENV === 'test' && testInjectedSeed !== null) {
+    seed = testInjectedSeed;
+  }
+  const rng = seed !== null
+    ? makeSeededRNG(seed)
+    : () => crypto.randomBytes(4).readUInt32LE(0) / 0xffffffff;
+
   const permutations = {};
   const questions = PLACEMENT_QUESTIONS.map((q) => {
-    const perm = createPermutation(q.options.length);
+    const perm = createPermutation(q.options.length, rng);
     permutations[q.id] = perm;
     const shuffledOptions = perm.map((origIdx) => q.options[origIdx]);
     return {
@@ -299,9 +333,12 @@ module.exports = {
   PLACEMENT_QUESTIONS,
   READ_ALOUD_SENTENCE,
   ADVANCED_QUESTION_IDS,
+  makeSeededRNG,
   createPermutation,
   generatePlacementSession,
   sanitizePlacementQuestion,
   levelFromScore,
   scorePlacementTest,
+  setTestPlacementSeed,
+  clearTestPlacementSeed,
 };

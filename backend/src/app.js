@@ -123,6 +123,8 @@ function createApp() {
   app.use('/api/weakwords', require('./routes/weakwords'));
   app.use('/api/idioms', require('./routes/idioms'));
   app.use('/api/challenges', require('./routes/challenges'));
+  app.use('/api/levels', require('./routes/levels'));
+  app.use('/api/onboarding', require('./routes/onboarding'));
 
   // Serve the built frontend (optional — the frontend can also be hosted separately).
   const frontendDist = path.join(__dirname, '..', '..', 'frontend');
