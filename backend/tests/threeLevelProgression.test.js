@@ -2,6 +2,7 @@ const request = require('supertest');
 const createApp = require('../src/app');
 const User = require('../src/models/User');
 const ChallengeProgress = require('../src/models/ChallengeProgress');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -12,14 +13,15 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
 
   beforeEach(async () => {
     userEmail = `tier.test.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`;
-    const reg = await request(app).post('/api/auth/register').send({
+    const testUser = await createTestUser({
       name: 'Tier Cadet',
       email: userEmail,
-      password: 'password123',
       role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
     });
-    userToken = reg.body.token;
-    userId = reg.body.user.id;
+    userToken = testUser.token;
+    userId = testUser.user._id.toString();
   });
 
   test('1 & 2 & 3: New user has Beginner unlocked, Intermediate & Advanced locked by default', async () => {

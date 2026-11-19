@@ -1,5 +1,6 @@
 const request = require('supertest');
 const createApp = require('../src/app');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -10,15 +11,14 @@ describe('GET /api/progress/me', () => {
   });
 
   test('returns xp/level/streak/badges for an authenticated user', async () => {
-    const payload = {
+    const { token } = await createTestUser({
       name: 'Progress Tester',
-      email: `progress.${Date.now()}@example.com`,
-      password: 'correct-horse-battery-staple',
       role: 'student',
-    };
-    const reg = await request(app).post('/api/auth/register').send(payload);
+      level: 'Beginner',
+      onboardingCompleted: true,
+    });
 
-    const res = await request(app).get('/api/progress/me').set('Authorization', `Bearer ${reg.body.token}`);
+    const res = await request(app).get('/api/progress/me').set('Authorization', `Bearer ${token}`);
     expect(res.status).toBe(200);
     expect(res.body).toEqual(
       expect.objectContaining({

@@ -1,6 +1,7 @@
 const request = require('supertest');
 const createApp = require('../src/app');
 const SituationalPhrase = require('../src/models/SituationalPhrase');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -18,8 +19,13 @@ describe('Situational Phrases API Routes', () => {
   let scenarioId;
 
   beforeEach(async () => {
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload());
-    token = reg.body.token;
+    const testUser = await createTestUser({
+      name: 'Situational Student',
+      role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
+    });
+    token = testUser.token;
 
     const scenario = new SituationalPhrase({
       title: 'Greeting a Professor Test',

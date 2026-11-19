@@ -2,6 +2,7 @@ const request = require('supertest');
 const createApp = require('../src/app');
 const GrammarTopic = require('../src/models/GrammarTopic');
 const GrammarProgress = require('../src/models/GrammarProgress');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -22,8 +23,13 @@ describe('Grammar API Routes & Sequential Unlock', () => {
 
   beforeEach(async () => {
     // Create test user and token
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload());
-    token = reg.body.token;
+    const testUser = await createTestUser({
+      name: 'Grammar Student',
+      role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
+    });
+    token = testUser.token;
 
     // Create topic 1
     const topic1 = new GrammarTopic({
