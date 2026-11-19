@@ -1,5 +1,6 @@
 const request = require('supertest');
 const createApp = require('../src/app');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -7,14 +8,13 @@ describe('Dragon Academy Progress & Missions API', () => {
   let token;
 
   beforeEach(async () => {
-    const payload = {
+    const student = await createTestUser({
       name: 'Dragon Cadet',
-      email: `dragon.cadet.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-      password: 'password123',
       role: 'student',
-    };
-    const reg = await request(app).post('/api/auth/register').send(payload);
-    token = reg.body.token;
+      level: 'Beginner',
+      onboardingCompleted: true,
+    });
+    token = student.token;
   });
 
   test('GET /api/progress/dragon returns dragon evolution stats and daily missions', async () => {

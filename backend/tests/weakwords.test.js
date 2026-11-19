@@ -2,6 +2,7 @@ const request = require('supertest');
 const createApp = require('../src/app');
 const User = require('../src/models/User');
 const WeakWord = require('../src/models/WeakWord');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -13,32 +14,32 @@ describe('Weak Words Lab API Routes', () => {
 
   beforeEach(async () => {
     // 1. Create a student
-    const studentRes = await request(app).post('/api/auth/register').send({
+    const student = await createTestUser({
       name: 'WeakWord Student',
-      email: `weakword.student.${Date.now()}.${Math.random().toString(36).slice(2, 6)}@example.com`,
-      password: 'password123',
       role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
     });
-    studentToken = studentRes.body.token || studentRes.body.accessToken;
-    studentUser = await User.findOne({ email: studentRes.body.user.email });
+    studentToken = student.token;
+    studentUser = student.user;
 
     // 2. Create another student for access control testing
-    const otherRes = await request(app).post('/api/auth/register').send({
+    const otherStudent = await createTestUser({
       name: 'Other Student',
-      email: `other.${Date.now()}.${Math.random().toString(36).slice(2, 6)}@example.com`,
-      password: 'password123',
       role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
     });
-    otherStudentToken = otherRes.body.token || otherRes.body.accessToken;
+    otherStudentToken = otherStudent.token;
 
     // 3. Create a teacher
-    const teacherRes = await request(app).post('/api/auth/register').send({
+    const teacher = await createTestUser({
       name: 'Teacher Smith',
-      email: `teacher.smith.${Date.now()}.${Math.random().toString(36).slice(2, 6)}@example.com`,
-      password: 'password123',
       role: 'teacher',
+      assignedClasses: ['A'],
+      onboardingCompleted: true,
     });
-    teacherToken = teacherRes.body.token || teacherRes.body.accessToken;
+    teacherToken = teacher.token;
   });
 
   test('POST /api/weakwords/bulk validates, sanitizes, and upserts words', async () => {

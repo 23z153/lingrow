@@ -1,7 +1,7 @@
 const request = require('supertest');
 const createApp = require('../src/app');
 const User = require('../src/models/User');
-const { signAccessToken } = require('../src/utils/tokens');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -11,69 +11,29 @@ describe('Teacher-Led Group Discussion (GD) Rooms API', () => {
   let student2Token;
 
   beforeEach(async () => {
-    // Attempt registration endpoint first (test mode) or fallback to direct model creation
-    try {
-      const regTeacher = await request(app).post('/api/auth/register').send({
-        name: 'GD Host Teacher',
-        email: `teacher.gd.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-        password: 'password123',
-        role: 'teacher',
-      });
-      if (regTeacher.status === 201) {
-        teacherToken = regTeacher.body.token;
-
-        const regS1 = await request(app).post('/api/auth/register').send({
-          name: 'Student Participant 1',
-          email: `student.gd.1.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-          password: 'password123',
-          role: 'student',
-        });
-        student1Token = regS1.body.token;
-
-        const regS2 = await request(app).post('/api/auth/register').send({
-          name: 'Student Participant 2',
-          email: `student.gd.2.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-          password: 'password123',
-          role: 'student',
-        });
-        student2Token = regS2.body.token;
-        return;
-      }
-    } catch (e) {}
-
-    // Fallback: direct user creation + token signing
-    const teacherUser = new User({
+    const teacher = await createTestUser({
       name: 'GD Host Teacher',
-      email: `teacher.gd.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'teacher',
-      createdByAdmin: true,
-      emailVerified: true,
+      assignedClasses: ['A'],
+      onboardingCompleted: true,
     });
-    await teacherUser.setPassword('password123');
-    await teacherUser.save();
-    teacherToken = signAccessToken(teacherUser);
+    teacherToken = teacher.token;
 
-    const s1User = new User({
+    const s1 = await createTestUser({
       name: 'Student Participant 1',
-      email: `student.gd.1.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
-      createdByAdmin: true,
-      emailVerified: true,
+      level: 'Beginner',
+      onboardingCompleted: true,
     });
-    await s1User.setPassword('password123');
-    await s1User.save();
-    student1Token = signAccessToken(s1User);
+    student1Token = s1.token;
 
-    const s2User = new User({
+    const s2 = await createTestUser({
       name: 'Student Participant 2',
-      email: `student.gd.2.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
-      createdByAdmin: true,
-      emailVerified: true,
+      level: 'Beginner',
+      onboardingCompleted: true,
     });
-    await s2User.setPassword('password123');
-    await s2User.save();
-    student2Token = signAccessToken(s2User);
+    student2Token = s2.token;
   });
 
   test('Teacher can create a GD Room with topic and max student count', async () => {

@@ -4,6 +4,7 @@ const User = require('../src/models/User');
 const IdiomPhrase = require('../src/models/IdiomPhrase');
 const IdiomProgress = require('../src/models/IdiomProgress');
 const { SEED_IDIOMS_DATA } = require('../src/seedIdioms');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -15,14 +16,14 @@ describe('Idioms & Phrasal Verbs Grove API Tests', () => {
 
   beforeEach(async () => {
     // 1. Create a student user
-    const studentRes = await request(app).post('/api/auth/register').send({
+    const student = await createTestUser({
       name: 'Grove Explorer',
-      email: `grove.explorer.${Date.now()}.${Math.random().toString(36).slice(2, 6)}@example.com`,
-      password: 'password123',
       role: 'student',
+      level: 'Intermediate',
+      onboardingCompleted: true,
     });
-    studentToken = studentRes.body.token || studentRes.body.accessToken;
-    studentUser = await User.findOne({ email: studentRes.body.user.email });
+    studentToken = student.token;
+    studentUser = student.user;
 
     // 2. Insert test items from seed data
     await IdiomPhrase.deleteMany({});

@@ -1,23 +1,20 @@
 const request = require('supertest');
 const createApp = require('../src/app');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
-
-function newUserPayload() {
-  return {
-    name: 'Daily Word Student',
-    email: `daily.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-    password: 'password123',
-    role: 'student',
-  };
-}
 
 describe('Daily Word & Afternoon Challenge API', () => {
   let token;
 
   beforeEach(async () => {
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload());
-    token = reg.body.token;
+    const student = await createTestUser({
+      name: 'Daily Word Student',
+      role: 'student',
+      level: 'Beginner',
+      onboardingCompleted: true,
+    });
+    token = student.token;
   });
 
   test('GET /api/notifications/daily-word returns today word & question', async () => {
