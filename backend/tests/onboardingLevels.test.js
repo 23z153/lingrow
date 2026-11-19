@@ -18,6 +18,7 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
   let admin, adminToken;
 
   beforeEach(async () => {
+    await PlacementAttempt.init();
     // Create new non-onboarded student (level: null, onboardingCompleted: false)
     const s1 = await createTestUser({
       name: 'Egg Cadet 1',
