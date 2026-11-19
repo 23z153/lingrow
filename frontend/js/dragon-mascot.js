@@ -40,7 +40,7 @@
       nextXp: 1000,
       title: 'Brave Apprentice',
       badge: 'APPRENTICE',
-      image: '/img/dragon/dragon-stage-3.jpg',
+      image: '/img/dragon/dragon-stage-2.jpg', // graceful fallback to stage 2
       quote: 'Our wings are growing strong! Challenge the harder lessons!',
       biome: 'Speaking Volcano',
       element: 'Magma Crest',
@@ -76,17 +76,29 @@
       nextXp: 5000,
       title: 'Grand Drake Archon',
       badge: 'CELESTIAL',
-      image: '/img/dragon/dragon-stage-6.jpg',
+      image: '/img/dragon/dragon-stage-5.jpg', // graceful fallback to stage 5
       quote: 'Ultimate mastery attained! You speak with the authority of the dragon kings.',
       biome: 'World Stage Arena',
       element: 'Eternal Celestial Aurora',
     },
   ];
 
+  // Available image assets: stages 1, 2, 4, 5.
+  // Stage 3 falls back gracefully to Stage 2, Stage 6 falls back to Stage 5.
+  const STAGE_IMAGE_FALLBACK = {
+    1: 1,
+    2: 2,
+    3: 2,
+    4: 4,
+    5: 5,
+    6: 5,
+  };
+
   function getImage(stage = 2) {
     const s = typeof stage === 'object' ? stage.stage : Number(stage) || 2;
     const clamped = Math.min(6, Math.max(1, s));
-    return `/img/dragon/dragon-stage-${clamped}.jpg`;
+    const resolved = STAGE_IMAGE_FALLBACK[clamped] || 2;
+    return `/img/dragon/dragon-stage-${resolved}.jpg`;
   }
 
   function getEvolutionByXp(xp = 0) {

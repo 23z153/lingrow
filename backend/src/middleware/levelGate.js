@@ -1,73 +1,114 @@
-const LEVEL_RANKS = { Beginner: 1, Intermediate: 2, Advanced: 3 };
+'use strict';
+
+const {
+  LEVELS,
+  LEVEL_RANKS,
+  MODULE_MIN_LEVEL,
+  canAccess,
+} = require('../config/levelAccess');
 
 /**
- * Middleware factory enforcing level and minimum XP requirements for advanced modules.
- * @param {number} minXP - Required minimum XP
- * @param {string} moduleName - Name of the locked module
- * @param {string} minLevel - Optional minimum level ('Beginner', 'Intermediate', 'Advanced')
- */
-function requireMinXP(minXP, moduleName = 'This module', minLevel = null) {
-  return (req, res, next) => {
-    if (req.user && req.user.role === 'student') {
-      const userXP = req.user.xp || 0;
-      const userLevel = req.user.level || 'Beginner';
-      const userRank = LEVEL_RANKS[userLevel] || 1;
-      const unlockedLevels = req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : (req.user.unlockedLevels || ['Beginner']);
-
-      let requiredRank = 1;
-      if (minLevel) {
-        requiredRank = LEVEL_RANKS[minLevel] || 1;
-      } else if (minXP >= 500) {
-        requiredRank = 2; // Intermediate
-      } else if (minXP >= 1500) {
-        requiredRank = 3; // Advanced
-      }
-
-      const reqLevelName = minLevel || (requiredRank === 3 ? 'Advanced' : requiredRank === 2 ? 'Intermediate' : 'Beginner');
-      const hasTierUnlocked = unlockedLevels.includes(reqLevelName);
-      const meetsLevel = userRank >= requiredRank || hasTierUnlocked;
-      const meetsXP = userXP >= minXP;
-
-      if (!meetsLevel && !meetsXP) {
-        const reqLevel = reqLevelName;
-        return res.status(403).json({
-          error: `${moduleName} is locked. Requires ${reqLevel} level to unlock.`,
-          minXP,
-          userXP,
-          minLevel,
-          requiredLevel: reqLevel,
-          requiredXp: minXP,
-          currentXp: userXP,
-          currentLevel: userLevel,
-          unlockedLevels,
-          xpNeeded: Math.max(0, minXP - userXP),
-          locked: true,
-        });
-      }
-    }
-    next();
-  };
-}
-
-/**
- * Middleware factory enforcing specific tier unlocking ('Beginner', 'Intermediate', 'Advanced').
+ * Middleware factory enforcing specific learner tier access ('Beginner', 'Intermediate', 'Advanced').
+ * Standardized 403 payloads:
+ * - { code: "ONBOARDING_REQUIRED", message, onboardingCompleted: false }
+ * - { code: "LEVEL_LOCKED", requiredLevel, currentLevel, message }
  */
 function requireLevel(minLevel, moduleName = 'This content') {
   return (req, res, next) => {
-    if (req.user && req.user.role === 'student') {
-      const unlocked = req.user.getUnlockedLevels ? req.user.getUnlockedLevels() : (req.user.unlockedLevels || ['Beginner']);
-      if (!unlocked.includes(minLevel)) {
-        return res.status(403).json({
-          error: `${moduleName} is locked. Requires unlocking the ${minLevel} tier first.`,
-          locked: true,
-          requiredLevel: minLevel,
-          unlockedLevels: unlocked,
-        });
-      }
+    if (!req.user) {
+      return res.status(401).json({ error: 'Authentication required' });
     }
+
+    // Teachers and Admins are not restricted by learner levels
+    if (req.user.role && req.user.role !== 'student') {
+      return next();
+    }
+
+    // Students who have not completed onboarding are blocked with ONBOARDING_REQUIRED
+    if (req.user.onboardingCompleted === false) {
+      return res.status(403).json({
+        code: 'ONBOARDING_REQUIRED',
+        message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
+        onboardingCompleted: false,
+      });
+    }
+
+    const currentLevel = req.user.level || null;
+    const requiredLevel = minLevel || LEVELS.BEGINNER;
+
+    if (!canAccess(req.user, requiredLevel)) {
+      return res.status(403).json({
+        code: 'LEVEL_LOCKED',
+        requiredLevel,
+        currentLevel,
+        message: `${moduleName} is locked. Requires ${requiredLevel} rank to enter.`,
+        locked: true, // for backwards-compatibility with existing frontend checks
+      });
+    }
+
     next();
   };
 }
 
-module.exports = { requireMinXP, requireLevel, LEVEL_RANKS };
+/**
+ * Middleware factory enforcing level access mapped by module key (e.g. 'read-aloud', 'world-stage').
+ * Reads from centralized config/levelAccess.js.
+ */
+function requireModuleAccess(moduleKey) {
+  const minLevel = MODULE_MIN_LEVEL[moduleKey] || LEVELS.BEGINNER;
+  return requireLevel(minLevel, `${moduleKey} chamber`);
+}
 
+/**
+ * Legacy XP / rank middleware kept for backwards compatibility.
+ */
+function requireMinXP(minXP = 0, moduleName = 'This module', minLevel = null) {
+  return (req, res, next) => {
+    if (!req.user || req.user.role !== 'student') {
+      return next();
+    }
+
+    if (req.user.onboardingCompleted === false) {
+      return res.status(403).json({
+        code: 'ONBOARDING_REQUIRED',
+        message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
+        onboardingCompleted: false,
+      });
+    }
+
+    const userXP = req.user.xp || 0;
+    const userLevel = req.user.level || LEVELS.BEGINNER;
+    const reqLevelName = minLevel || (minXP >= 1500 ? LEVELS.ADVANCED : minXP >= 500 ? LEVELS.INTERMEDIATE : LEVELS.BEGINNER);
+
+    const meetsLevel = canAccess(req.user, reqLevelName);
+    const meetsXP = userXP >= minXP;
+
+    if (!meetsLevel && !meetsXP) {
+      return res.status(403).json({
+        code: 'LEVEL_LOCKED',
+        error: `${moduleName} is locked. Requires ${reqLevelName} rank to unlock.`,
+        message: `${moduleName} is locked. Requires ${reqLevelName} rank to unlock.`,
+        minXP,
+        userXP,
+        minLevel: reqLevelName,
+        requiredLevel: reqLevelName,
+        requiredXp: minXP,
+        currentXp: userXP,
+        currentLevel: userLevel,
+        unlockedLevels: req.user.unlockedLevels || [LEVELS.BEGINNER],
+        xpNeeded: Math.max(0, minXP - userXP),
+        locked: true,
+      });
+    }
+
+    next();
+  };
+}
+
+module.exports = {
+  requireLevel,
+  requireModuleAccess,
+  requireMinXP,
+  canAccess,
+  LEVEL_RANKS,
+};
