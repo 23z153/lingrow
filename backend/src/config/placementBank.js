@@ -112,27 +112,42 @@ const PLACEMENT_QUESTIONS = [
     section: 'reading',
     levelHint: LEVELS.INTERMEDIATE,
     prompt: 'Passage: "Although renewable energy subsidies were initially met with skepticism, recent econometric models suggest they generated a tenfold return in local manufacturing jobs."\nThe author implies that the subsidies:',
-    options: ['Failed to stimulate local employment', 'Were discontinued prematurely by states', 'Proved unexpectedly beneficial economically', 'Exclusively enriched foreign corporations'],
-    correctIndex: 2,
-    correctAnswer: 'Proved unexpectedly beneficial economically',
+    options: [
+      'Largely displaced existing regional employment',
+      'Yielded positive economic returns',
+      'Failed to justify their initial legislative costs',
+      'Mainly benefited multinational corporate entities',
+    ],
+    correctIndex: 1,
+    correctAnswer: 'Yielded positive economic returns',
   },
   {
     id: 'pt-r-03',
     section: 'reading',
     levelHint: LEVELS.ADVANCED,
     prompt: 'Passage: "The scholar argued that linguistic drift is neither decay nor evolution, but an inexorable entropy that mirrors sociocultural flux."\nThe author views linguistic change as:',
-    options: ['A sign of declining educational standards', 'A deliberate refinement of syntactic rules', 'An anomaly accelerated by social media', 'An unavoidable reflection of societal movement'],
-    correctIndex: 3,
-    correctAnswer: 'An unavoidable reflection of societal movement',
+    options: [
+      'A natural reflection of cultural shifts',
+      'A gradual erosion of foundational grammatical standards',
+      'A deliberate attempt by younger speakers to modernize syntax',
+      'An unusual breakdown of formal communication conventions',
+    ],
+    correctIndex: 0,
+    correctAnswer: 'A natural reflection of cultural shifts',
   },
   {
     id: 'pt-r-04',
     section: 'reading',
     levelHint: LEVELS.ADVANCED,
     prompt: 'Passage: "In mitigating algorithmic bias, post-hoc calibration often resembles treating symptoms rather than the etiology, leaving underlying data asymmetries unaddressed."\nThe passage suggests that post-hoc calibration is:',
-    options: ['A superficial remedy that ignores root causes', 'The optimal long-term statistical strategy', 'Inherently destructive to model accuracy', 'A preventative structural pipeline reform'],
-    correctIndex: 0,
-    correctAnswer: 'A superficial remedy that ignores root causes',
+    options: [
+      'A comprehensive long-term solution to historical training data skew',
+      'A superficial adjustment to deeper flaws',
+      'A reliable statistical procedure for balancing demographic variables',
+      'A promising architectural technique that resolves systemic inequities',
+    ],
+    correctIndex: 1,
+    correctAnswer: 'A superficial adjustment to deeper flaws',
   },
 ];
 
@@ -189,7 +204,6 @@ function generatePlacementSession() {
     return {
       id: q.id,
       section: q.section,
-      levelHint: q.levelHint,
       prompt: q.prompt,
       options: shuffledOptions,
     };
@@ -201,19 +215,17 @@ function generatePlacementSession() {
     readAloudSentence: {
       id: READ_ALOUD_SENTENCE.id,
       sentence: READ_ALOUD_SENTENCE.sentence,
-      difficulty: READ_ALOUD_SENTENCE.difficulty,
     },
   };
 }
 
 /**
- * Sanitizes question objects by completely stripping answer keys.
+ * Sanitizes question objects by completely stripping answer keys and tier hints.
  */
 function sanitizePlacementQuestion(q) {
   return {
     id: q.id,
     section: q.section,
-    levelHint: q.levelHint,
     prompt: q.prompt,
     options: q.options,
   };

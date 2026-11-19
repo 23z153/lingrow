@@ -115,6 +115,21 @@ describe('Gate 1: levelAccess config and canAccess unit tests', () => {
       expect(sanitized.options).toEqual(rawQuestion.options);
       expect(sanitized.correctIndex).toBeUndefined();
       expect(sanitized.correctAnswer).toBeUndefined();
+      expect(sanitized.levelHint).toBeUndefined();
+    });
+
+    test('Placement answer-length bias: correct option is strictly longest in at most 4 of 12 questions', () => {
+      let strictlyLongestCount = 0;
+      PLACEMENT_QUESTIONS.forEach((q) => {
+        const correctOpt = q.options[q.correctIndex];
+        const maxDistractorLen = Math.max(
+          ...q.options.filter((_, idx) => idx !== q.correctIndex).map((o) => o.length)
+        );
+        if (correctOpt.length > maxDistractorLen) {
+          strictlyLongestCount++;
+        }
+      });
+      expect(strictlyLongestCount).toBeLessThanOrEqual(4);
     });
 
     test('levelFromScore strictly maps exact boundary thresholds (40, 41, 75, 76) and enforces difficulty-aware qualification', () => {
