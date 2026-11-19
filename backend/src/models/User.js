@@ -12,12 +12,27 @@ const userSchema = new mongoose.Schema(
     section: { type: String, default: 'A', trim: true }, // For students: Class/Section name (e.g. 'A', 'B', 'C')
     assignedClasses: [{ type: String, trim: true }], // For teachers: Array of assigned classes/sections (e.g. ['A', 'B'])
     createdByAdmin: { type: Boolean, default: false }, // Only admin-provisioned accounts can log in
-    level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' },
+    level: { type: String, enum: ['Beginner', 'Intermediate', 'Advanced', null], default: null },
     unlockedLevels: {
       type: [String],
       enum: ['Beginner', 'Intermediate', 'Advanced'],
       default: ['Beginner'],
     },
+    onboardingCompleted: { type: Boolean, default: false },
+    legacyLevel: { type: String, default: null },
+    levelSource: { type: String, enum: ['placement', 'self', 'teacher', 'admin', null], default: null },
+    placementScore: { type: Number, default: null },
+    placementSpeechScore: { type: Number, default: null },
+    levelAssignedAt: { type: Date, default: null },
+    levelAuditLog: [
+      {
+        changedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+        previousLevel: { type: String, default: null },
+        newLevel: { type: String, required: true },
+        reason: { type: String, required: true },
+        date: { type: Date, default: Date.now },
+      },
+    ],
     xp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
     lastActiveDate: { type: Date, default: null },
@@ -61,6 +76,12 @@ userSchema.methods.toSafeJSON = function () {
     assignedClasses: this.assignedClasses || [],
     createdByAdmin: this.createdByAdmin,
     level: this.level,
+    onboardingCompleted: this.onboardingCompleted ?? false,
+    legacyLevel: this.legacyLevel || null,
+    levelSource: this.levelSource || null,
+    placementScore: this.placementScore ?? null,
+    placementSpeechScore: this.placementSpeechScore ?? null,
+    levelAssignedAt: this.levelAssignedAt || null,
     unlockedLevels: this.getUnlockedLevels(),
     xp: this.xp,
     streak: this.streak,
