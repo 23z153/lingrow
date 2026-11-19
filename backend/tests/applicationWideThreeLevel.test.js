@@ -5,30 +5,31 @@ const User = require('../src/models/User');
 const Passage = require('../src/models/Passage');
 const Test = require('../src/models/Test');
 const { getLevelPedagogyInstructions } = require('../src/services/prompts');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
 describe('Application-Wide Three-Level Learning Architecture', () => {
   async function createStudent(unlockedLevels = ['Beginner'], xp = 0) {
-    const email = `student.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`;
-    const reg = await request(app).post('/api/auth/register').send({
+    const level = unlockedLevels.includes('Advanced') ? 'Advanced' : unlockedLevels.includes('Intermediate') ? 'Intermediate' : 'Beginner';
+    const created = await createTestUser({
       name: 'Rohan Cadet',
-      email,
-      password: 'password123',
       role: 'student',
+      level,
+      unlockedLevels,
+      onboardingCompleted: true,
+      xp,
     });
-    return { token: reg.body.token, user: reg.body.user, email };
+    return { token: created.token, user: created.user, email: created.user.email };
   }
 
   async function createTeacher() {
-    const email = `teacher.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`;
-    const reg = await request(app).post('/api/auth/register').send({
+    const created = await createTestUser({
       name: 'Prof. Demo',
-      email,
-      password: 'password123',
       role: 'teacher',
+      onboardingCompleted: true,
     });
-    return { token: reg.body.token, user: reg.body.user, email };
+    return { token: created.token, user: created.user, email: created.user.email };
   }
 
   beforeEach(async () => {
@@ -91,15 +92,18 @@ describe('Application-Wide Three-Level Learning Architecture', () => {
     expect(lockedChallenge.status).toBe(403);
     expect(lockedChallenge.body.locked).toBe(true);
 
-    // 5: Complete 4 Beginner activities -> Unlocks Intermediate
+    // 5: Complete 4 Beginner activities (does not auto-unlock next tier; level promotion requires explicit assignment)
     await request(app).post('/api/challenges/detective-b1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
     await request(app).post('/api/challenges/escape-b1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
     await request(app).post('/api/challenges/battle-b1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
     const b4 = await request(app).post('/api/challenges/quest-b1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
 
     expect(b4.status).toBe(200);
-    expect(b4.body.justUnlockedLevel).toBe('Intermediate');
-    expect(b4.body.unlockedLevels).toContain('Intermediate');
+    expect(b4.body.justUnlockedLevel).toBe(null);
+    expect(b4.body.unlockedLevels).toEqual(['Beginner']);
+
+    // Promote student to Intermediate
+    await User.findByIdAndUpdate(student.user._id, { level: 'Intermediate' });
 
     // 6: Intermediate activities now accessible
     const intPassage = await request(app)
@@ -119,14 +123,17 @@ describe('Application-Wide Three-Level Learning Architecture', () => {
       .set('Authorization', `Bearer ${student.token}`);
     expect(lockedAdv.status).toBe(403);
 
-    // Complete 3 more Intermediate activities (total 4) -> Unlocks Advanced
+    // Complete 3 more Intermediate activities (total 4)
     await request(app).post('/api/challenges/detective-i1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
     await request(app).post('/api/challenges/battle-i1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
     const i4 = await request(app).post('/api/challenges/quest-i1/complete').set('Authorization', `Bearer ${student.token}`).send({ score: 100 });
 
     expect(i4.status).toBe(200);
-    expect(i4.body.justUnlockedLevel).toBe('Advanced');
-    expect(i4.body.unlockedLevels).toContain('Advanced');
+    expect(i4.body.justUnlockedLevel).toBe(null);
+    expect(i4.body.unlockedLevels).toEqual(['Beginner', 'Intermediate']);
+
+    // Promote student to Advanced
+    await User.findByIdAndUpdate(student.user._id, { level: 'Advanced' });
 
     // 8: Advanced activities now accessible
     const advPassage = await request(app)

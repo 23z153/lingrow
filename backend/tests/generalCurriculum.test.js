@@ -5,6 +5,7 @@ const Passage = require('../src/models/Passage');
 const DebateTopic = require('../src/models/DebateTopic');
 const ListeningClip = require('../src/models/ListeningClip');
 const { signAccessToken } = require('../src/utils/tokens');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -47,17 +48,15 @@ describe('General Curriculum Endpoints (No Department Required)', () => {
       duration: '45s'
     });
 
-    user = new User({
+    const created = await createTestUser({
       name: 'Curriculum Learner',
-      email: `learner.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 150,
-      level: 'Beginner',
+      level: 'Advanced',
+      onboardingCompleted: true,
     });
-    await user.setPassword('password123');
-    await user.save();
-
-    token = signAccessToken(user);
+    user = created.user;
+    token = created.token;
   });
 
   test('GET /api/practice/passages returns active passages matching level with wordCount & estimatedReadingTime', async () => {

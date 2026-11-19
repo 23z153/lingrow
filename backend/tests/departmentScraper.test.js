@@ -3,6 +3,7 @@ const createApp = require('../src/app');
 const User = require('../src/models/User');
 const { signAccessToken } = require('../src/utils/tokens');
 const { getQuestionBankStats, scrapeDepartmentContent } = require('../src/services/departmentScraperService');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -15,18 +16,15 @@ describe('Department Scraper & 5-Item Sampler API', () => {
   });
 
   beforeEach(async () => {
-    user = new User({
+    const created = await createTestUser({
       name: 'Dept Test Student',
-      email: `dept.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-      role: 'student',
       department: 'CSE',
       xp: 500,
       level: 'Intermediate',
+      onboardingCompleted: true,
     });
-    await user.setPassword('password123');
-    await user.save();
-
-    token = signAccessToken(user);
+    user = created.user;
+    token = created.token;
   });
 
   test('getQuestionBankStats returns 50+ sets for each department', async () => {

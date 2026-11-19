@@ -6,6 +6,7 @@ const DebateAttempt = require('../src/models/DebateAttempt');
 const { signAccessToken } = require('../src/utils/tokens');
 const { stripTranscriptTags } = require('../src/services/llmService');
 const { requireMinXP } = require('../src/middleware/levelGate');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -59,17 +60,16 @@ describe('Debate: Topic Rotation, Tag Stripping, Dept Filters & Level Gate', () 
       againstKeyPoints: ['Distributed transaction complexity', 'Elevated network latency'],
     });
 
-    user = new User({
+    const created = await createTestUser({
       name: 'Rotation Debater',
-      email: `rotation.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 400,
-      level: 'Intermediate',
+      level: 'Advanced',
+      onboardingCompleted: true,
+      password: 'secret123',
     });
-    await user.setPassword('secret123');
-    await user.save();
-
-    token = signAccessToken(user);
+    user = created.user;
+    token = created.token;
   });
 
   describe('Transcript Tag Stripping Loop', () => {

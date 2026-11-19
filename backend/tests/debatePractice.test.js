@@ -4,6 +4,7 @@ const User = require('../src/models/User');
 const DebateTopic = require('../src/models/DebateTopic');
 const DebateAttempt = require('../src/models/DebateAttempt');
 const { signAccessToken } = require('../src/utils/tokens');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -31,17 +32,16 @@ describe('Debate: Assigned Stance Mode, Token Verification & Duration Validation
       againstKeyPoints: ['Restricts independent study autonomy', 'Encourages passive attendance'],
     });
 
-    user = new User({
+    const created = await createTestUser({
       name: 'Practice Debater',
-      email: `practice.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 400,
       level: 'Intermediate',
+      onboardingCompleted: true,
+      password: 'secret123',
     });
-    await user.setPassword('secret123');
-    await user.save();
-
-    token = signAccessToken(user);
+    user = created.user;
+    token = created.token;
   });
 
   describe('Assigned-Stance Mode & Security Validation', () => {

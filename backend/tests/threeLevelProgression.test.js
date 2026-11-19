@@ -84,7 +84,7 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
       expect(res.body.unlockedLevels).toEqual(['Beginner']);
     }
 
-    // Complete the 4th beginner challenge (triggering Intermediate unlock)
+    // Complete the 4th beginner challenge (does not auto-unlock next tier; requires promotion)
     const unlockRes = await request(app)
       .post(`/api/challenges/${beginnerChallenges[3]}/complete`)
       .set('Authorization', `Bearer ${userToken}`)
@@ -92,9 +92,12 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
 
     expect(unlockRes.status).toBe(200);
     expect(unlockRes.body.completed).toBe(true);
-    expect(unlockRes.body.justUnlockedLevel).toBe('Intermediate');
-    expect(unlockRes.body.unlockedLevels).toContain('Intermediate');
+    expect(unlockRes.body.justUnlockedLevel).toBe(null);
+    expect(unlockRes.body.unlockedLevels).not.toContain('Intermediate');
     expect(unlockRes.body.unlockedLevels).toContain('Beginner');
+
+    // Explicit level promotion to Intermediate
+    await User.findByIdAndUpdate(userId, { level: 'Intermediate' });
 
     // Verify GET /api/challenges now shows Intermediate unlocked
     const statusRes = await request(app)
@@ -116,6 +119,9 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
         .send({ score: 100 });
     }
 
+    // Explicit level promotion to Intermediate
+    await User.findByIdAndUpdate(userId, { level: 'Intermediate' });
+
     // Now Intermediate is unlocked: complete 4 Intermediate challenges
     const intermediateChallenges = ['detective-i1', 'escape-i1', 'battle-i1', 'quest-i1'];
     for (let i = 0; i < 3; i++) {
@@ -127,15 +133,18 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
       expect(res.body.unlockedLevels).not.toContain('Advanced');
     }
 
-    // Complete the 4th Intermediate challenge (triggering Advanced unlock)
+    // Complete the 4th Intermediate challenge
     const advUnlockRes = await request(app)
       .post(`/api/challenges/${intermediateChallenges[3]}/complete`)
       .set('Authorization', `Bearer ${userToken}`)
       .send({ score: 100 });
 
     expect(advUnlockRes.status).toBe(200);
-    expect(advUnlockRes.body.justUnlockedLevel).toBe('Advanced');
-    expect(advUnlockRes.body.unlockedLevels).toContain('Advanced');
+    expect(advUnlockRes.body.justUnlockedLevel).toBe(null);
+    expect(advUnlockRes.body.unlockedLevels).not.toContain('Advanced');
+
+    // Explicit level promotion to Advanced
+    await User.findByIdAndUpdate(userId, { level: 'Advanced' });
 
     // Advanced challenge can now be completed without 403
     const advRes = await request(app)
@@ -147,7 +156,7 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
   });
 
   test('8: Refreshing and re-logging in preserves unlocked levels and progress', async () => {
-    // Unlock Intermediate by completing 4 challenges
+    // Complete 4 challenges and promote to Intermediate
     const beginnerChallenges = ['detective-b1', 'escape-b1', 'battle-b1', 'quest-b1'];
     for (const id of beginnerChallenges) {
       await request(app)
@@ -155,6 +164,7 @@ describe('Three-Level Difficulty & Unlock Progression System', () => {
         .set('Authorization', `Bearer ${userToken}`)
         .send({ score: 100 });
     }
+    await User.findByIdAndUpdate(userId, { level: 'Intermediate' });
 
     // Re-login with fresh credentials
     const loginRes = await request(app).post('/api/auth/login').send({

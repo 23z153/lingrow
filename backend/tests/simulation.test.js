@@ -3,17 +3,9 @@ const createApp = require('../src/app');
 const User = require('../src/models/User');
 const SimulationScenario = require('../src/models/SimulationScenario');
 const SimulationSession = require('../src/models/SimulationSession');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
-
-function newUserPayload(namePrefix = 'SimStudent') {
-  return {
-    name: `${namePrefix} ${Date.now()}`,
-    email: `sim.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-    password: 'password123',
-    role: 'student',
-  };
-}
 
 describe('AI Real-World Communication Simulator API', () => {
   let studentToken;
@@ -22,15 +14,15 @@ describe('AI Real-World Communication Simulator API', () => {
   let otherStudentUser;
 
   beforeEach(async () => {
-    // Register primary student
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload('Alice'));
-    studentToken = reg.body.token;
-    studentUser = await User.findOne({ email: reg.body.user.email });
+    // Create primary student with Advanced rank so all scenarios are accessible
+    const s1 = await createTestUser({ name: 'Alice', level: 'Advanced', onboardingCompleted: true });
+    studentToken = s1.token;
+    studentUser = s1.user;
 
-    // Register second student for access control testing
-    const regOther = await request(app).post('/api/auth/register').send(newUserPayload('Bob'));
-    otherStudentToken = regOther.body.token;
-    otherStudentUser = await User.findOne({ email: regOther.body.user.email });
+    // Create second student for access control testing
+    const s2 = await createTestUser({ name: 'Bob', level: 'Advanced', onboardingCompleted: true });
+    otherStudentToken = s2.token;
+    otherStudentUser = s2.user;
   });
 
   test('GET /api/simulation/environments returns all five environments with emergency disclaimer', async () => {

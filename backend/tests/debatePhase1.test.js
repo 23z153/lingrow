@@ -5,6 +5,7 @@ const DebateTopic = require('../src/models/DebateTopic');
 const DebateAttempt = require('../src/models/DebateAttempt');
 const { signAccessToken } = require('../src/utils/tokens');
 const { scoreDebate } = require('../src/services/llmService');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -24,17 +25,15 @@ describe('Debate Phase 1: Scoring Reliability, Security, Delivery Metrics & Back
       againstKeyPoints: ['Potential hallucinations', 'Digital accessibility divide across students'],
     });
 
-    user = new User({
+    const created = await createTestUser({
       name: 'Debater Test',
-      email: `debater.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 800,
       level: 'Advanced',
+      onboardingCompleted: true,
     });
-    await user.setPassword('password123');
-    await user.save();
-
-    token = signAccessToken(user);
+    user = created.user;
+    token = created.token;
   });
 
   test('Pre-check: rejects submissions with fewer than 40 words with 400 and clear error', async () => {

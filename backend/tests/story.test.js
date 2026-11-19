@@ -2,30 +2,24 @@ const request = require('supertest');
 const createApp = require('../src/app');
 const StoryPrompt = require('../src/models/StoryPrompt');
 const User = require('../src/models/User');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
-
-function newUserPayload() {
-  return {
-    name: 'Story Student',
-    email: `story.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
-    password: 'password123',
-    role: 'student',
-  };
-}
 
 describe('Story Continuation API Routes', () => {
   let token;
   let user;
 
   beforeEach(async () => {
-    const reg = await request(app).post('/api/auth/register').send(newUserPayload());
-    token = reg.body.token;
-
-    // Grant 600 XP so user passes requireMinXP(500)
-    user = await User.findOne({ email: reg.body.user.email });
-    user.xp = 600;
-    await user.save();
+    const created = await createTestUser({
+      name: 'Story Student',
+      role: 'student',
+      level: 'Intermediate',
+      onboardingCompleted: true,
+      xp: 600,
+    });
+    user = created.user;
+    token = created.token;
 
     // Create an active general story
     await StoryPrompt.create({
