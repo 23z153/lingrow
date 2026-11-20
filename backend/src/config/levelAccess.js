@@ -54,6 +54,66 @@ const THEMED_CARDS = {
 };
 
 /**
+ * Extended Frontend Tier Details (Display metadata, kingdom icons, item-level rules, promotion criteria)
+ */
+const TIER_DETAILS = {
+  [LEVELS.BEGINNER]: {
+    rank: 1,
+    displayName: 'Hatchling',
+    kingdom: 'Dragon Egg Valley',
+    iconKey: 'egg',
+    route: '#/grammar',
+    badge: 'HATCHLING',
+    itemLevelRules: {
+      cefrBands: ['A1', 'A2'],
+      listeningSpeeds: ['0.75x', '1.0x'],
+      grammarTopicTiers: ['Basics', 'Tenses', 'Prepositions'],
+    },
+    promotionCriteria: {
+      requiredActivities: 4,
+      trialAvailable: true,
+      trialRoute: '#/level-trial/intermediate',
+    },
+  },
+  [LEVELS.INTERMEDIATE]: {
+    rank: 2,
+    displayName: 'Flame Keeper',
+    kingdom: 'Ember Highlands',
+    iconKey: 'flame',
+    route: '#/practice',
+    badge: 'FLAME_KEEPER',
+    itemLevelRules: {
+      cefrBands: ['B1', 'B2'],
+      listeningSpeeds: ['1.0x', '1.25x'],
+      grammarTopicTiers: ['Modals', 'Conditionals', 'Passive Voice'],
+    },
+    promotionCriteria: {
+      requiredActivities: 4,
+      trialAvailable: true,
+      trialRoute: '#/level-trial/advanced',
+    },
+  },
+  [LEVELS.ADVANCED]: {
+    rank: 3,
+    displayName: 'Grand Archon',
+    kingdom: 'Sky Citadel',
+    iconKey: 'crown',
+    route: '#/world-stage',
+    badge: 'GRAND_ARCHON',
+    itemLevelRules: {
+      cefrBands: ['C1', 'C2'],
+      listeningSpeeds: ['1.0x', '1.5x'],
+      grammarTopicTiers: ['Inversion', 'Subjunctive', 'Advanced Rhetoric'],
+    },
+    promotionCriteria: {
+      requiredActivities: null,
+      trialAvailable: false,
+      trialRoute: null,
+    },
+  },
+};
+
+/**
  * Module-to-Level Mapping (Granularity: Whole Module)
  */
 const MODULE_MIN_LEVEL = {
@@ -209,6 +269,7 @@ module.exports = {
   LEVEL_ORDER,
   LEVEL_RANKS,
   THEMED_CARDS,
+  TIER_DETAILS,
   MODULE_MIN_LEVEL,
   CONTENT_MIN_LEVEL,
   PLACEMENT_CONFIG,

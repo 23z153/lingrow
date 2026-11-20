@@ -58,7 +58,8 @@ describe('Debate Phase 5 & Hardening: AI Rebuttal Round, Security, Resume & Heur
       email: `rebuttal.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 400,
-      level: 'Intermediate',
+      level: 'Advanced',
+      onboardingCompleted: true,
     });
     await user.setPassword('secret123');
     await user.save();
@@ -109,6 +110,8 @@ describe('Debate Phase 5 & Hardening: AI Rebuttal Round, Security, Resume & Heur
         name: 'Other Debater',
         email: `other.${Date.now()}@example.com`,
         role: 'student',
+        level: 'Advanced',
+        onboardingCompleted: true,
       });
       await otherUser.setPassword('password123');
       await otherUser.save();
@@ -244,6 +247,8 @@ describe('Debate Phase 5 & Hardening: AI Rebuttal Round, Security, Resume & Heur
         name: 'Attacker Debater',
         email: `attacker.${Date.now()}@example.com`,
         role: 'student',
+        level: 'Advanced',
+        onboardingCompleted: true,
       });
       await otherUser.setPassword('password123');
       await otherUser.save();

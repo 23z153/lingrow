@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const crypto = require('crypto');
 const rateLimit = require('express-rate-limit');
 const { requireAuth } = require('../middleware/auth');
-const { requireMinXP } = require('../middleware/levelGate');
+const { requireMinXP, requireOnboarded, requireModuleAccess } = require('../middleware/levelGate');
 const DebateTopic = require('../models/DebateTopic');
 const DebateAttempt = require('../models/DebateAttempt');
 const DebateRebuttal = require('../models/DebateRebuttal');
@@ -232,7 +232,7 @@ function calculateDebateDeliveryMetrics({ transcript, durationSeconds, targetDur
 }
 
 // GET /api/debate/topics — All active debate topics
-router.get('/topics', requireAuth, requireMinXP(0, 'Debate Practice'), async (req, res) => {
+router.get('/topics', requireAuth, requireOnboarded, requireModuleAccess('debate'), requireMinXP(0, 'Debate Practice'), async (req, res) => {
   try {
     const topics = await DebateTopic.find({ active: { $ne: false } }).sort({ createdAt: -1 });
     res.json(topics);
@@ -242,7 +242,7 @@ router.get('/topics', requireAuth, requireMinXP(0, 'Debate Practice'), async (re
 });
 
 // GET /api/debate/topics/next — Intelligent 3-Pool Topic Rotation with difficulty matching & pool exhaustion
-router.get('/topics/next', requireAuth, requireMinXP(0, 'Debate Practice'), async (req, res) => {
+router.get('/topics/next', requireAuth, requireOnboarded, requireModuleAccess('debate'), requireMinXP(0, 'Debate Practice'), async (req, res) => {
   try {
     const requestedDept = req.query.department || req.user.selectedDebateDept || '';
     const assignStance = req.query.assignStance === 'true';
@@ -413,7 +413,7 @@ router.put('/preferences', requireAuth, async (req, res) => {
 });
 
 // POST /api/debate/attempts — Submit a debate attempt for scoring
-router.post('/attempts', requireAuth, debateAttemptLimiter, async (req, res) => {
+router.post('/attempts', requireAuth, requireOnboarded, requireModuleAccess('debate'), debateAttemptLimiter, async (req, res) => {
   try {
     const {
       topicId,
@@ -828,7 +828,7 @@ async function evaluateDebateBadges(user, topicId, stance, overallScore) {
 }
 
 // GET /api/debate/history — Returns per-metric trend series and weakest skill coaching tip
-router.get('/history', requireAuth, async (req, res) => {
+router.get('/history', requireAuth, requireOnboarded, requireModuleAccess('debate'), async (req, res) => {
   try {
     const attempts = await DebateAttempt.find({ user: req.user._id })
       .populate('topic', 'topic department level')
@@ -919,12 +919,12 @@ router.get('/history', requireAuth, async (req, res) => {
 });
 
 // GET /api/debate/attempts/me — Returns user's debate history
-router.get('/attempts/me', requireAuth, async (req, res) => {
+router.get('/attempts/me', requireAuth, requireOnboarded, requireModuleAccess('debate'), async (req, res) => {
   res.json(await DebateAttempt.find({ user: req.user._id }).populate('topic').sort({ createdAt: -1 }).limit(50));
 });
 
 // POST /api/debate/rebuttal/start — Generates AI counter-argument and returns rebuttal token
-router.post('/rebuttal/start', requireAuth, rebuttalStartLimiter, async (req, res) => {
+router.post('/rebuttal/start', requireAuth, requireOnboarded, requireModuleAccess('debate'), rebuttalStartLimiter, async (req, res) => {
   try {
     const { openingAttemptId } = req.body;
     if (!openingAttemptId || !mongoose.Types.ObjectId.isValid(openingAttemptId)) {
@@ -1048,7 +1048,7 @@ router.post('/rebuttal/start', requireAuth, rebuttalStartLimiter, async (req, re
 });
 
 // POST /api/debate/rebuttal/submit — Submits 60s student rebuttal and scores against counter
-router.post('/rebuttal/submit', requireAuth, debateAttemptLimiter, async (req, res) => {
+router.post('/rebuttal/submit', requireAuth, requireOnboarded, requireModuleAccess('debate'), debateAttemptLimiter, async (req, res) => {
   try {
     const { rebuttalToken, transcript, durationSeconds, mode, idempotencyKey } = req.body;
 

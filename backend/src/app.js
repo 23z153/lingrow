@@ -101,30 +101,44 @@ function createApp() {
     }
   });
 
+  const { requireAuth } = require('./middleware/auth');
+  const { requireOnboarded, requireModuleAccess } = require('./middleware/levelGate');
+
+  // Pre-onboarding and authentication routes
   app.use('/api/auth', require('./routes/auth'));
-  app.use('/api/practice', require('./routes/practice'));
-  app.use('/api/vocabulary', require('./routes/vocabulary'));
+  app.use('/api/onboarding', require('./routes/onboarding'));
+  app.use('/api/levels', require('./routes/levels'));
+
+  // Beginner Modules (requireAuth + requireOnboarded + module gating)
+  app.use('/api/grammar', requireAuth, requireOnboarded, requireModuleAccess('grammar'), require('./routes/grammar'));
+  app.use('/api/vocabulary', requireAuth, requireOnboarded, requireModuleAccess('vocabulary'), require('./routes/vocabulary'));
+  app.use('/api/listening', requireAuth, requireOnboarded, requireModuleAccess('listening'), require('./routes/listening'));
+  app.use('/api/story', requireAuth, requireOnboarded, requireModuleAccess('story'), require('./routes/story'));
+  app.use('/api/situational', requireAuth, requireOnboarded, requireModuleAccess('situational'), require('./routes/situational'));
+  app.use('/api/weakwords', requireAuth, requireOnboarded, requireModuleAccess('weakwords'), require('./routes/weakwords'));
+  app.use('/api/tutor', requireAuth, requireOnboarded, requireModuleAccess('tutor'), require('./routes/tutor'));
+
+  // Intermediate Modules
+  app.use('/api/practice', requireAuth, requireOnboarded, require('./routes/practice'));
+  app.use('/api/simulation', requireAuth, requireOnboarded, requireModuleAccess('simulator'), require('./routes/simulation'));
+  app.use('/api/idioms', requireAuth, requireOnboarded, requireModuleAccess('idioms'), require('./routes/idioms'));
+  app.use('/api/peer', requireAuth, requireOnboarded, requireModuleAccess('peer'), require('./routes/peer'));
+  app.use('/api/gd', requireAuth, requireOnboarded, require('./routes/gd'));
+
+  // Advanced Modules
+  app.use('/api/world-stage', requireAuth, requireOnboarded, requireModuleAccess('world-stage'), require('./routes/worldStage'));
   app.use('/api/debate', require('./routes/debate'));
-  app.use('/api/story', require('./routes/story'));
-  app.use('/api/listening', require('./routes/listening'));
-  app.use('/api/lessons', require('./routes/lessons'));
-  app.use('/api/peer', require('./routes/peer'));
-  app.use('/api/gd', require('./routes/gd'));
-  app.use('/api/tutor', require('./routes/tutor'));
-  app.use('/api/notifications', require('./routes/notifications'));
-  app.use('/api/progress', require('./routes/progress'));
+
+  // Student Utilities requiring Onboarding
+  app.use('/api/challenges', requireAuth, requireOnboarded, require('./routes/challenges'));
+  app.use('/api/lessons', requireAuth, requireOnboarded, require('./routes/lessons'));
+  app.use('/api/notifications', requireAuth, requireOnboarded, require('./routes/notifications'));
+  app.use('/api/progress', requireAuth, requireOnboarded, require('./routes/progress'));
+  app.use('/api/tests', requireAuth, requireOnboarded, require('./routes/test'));
+
+  // Teacher & Administrator Routes (Exempt from student learner gates)
   app.use('/api/teacher', require('./routes/teacher'));
   app.use('/api/admin', require('./routes/admin'));
-  app.use('/api/grammar', require('./routes/grammar'));
-  app.use('/api/tests', require('./routes/test'));
-  app.use('/api/situational', require('./routes/situational'));
-  app.use('/api/simulation', require('./routes/simulation'));
-  app.use('/api/world-stage', require('./routes/worldStage'));
-  app.use('/api/weakwords', require('./routes/weakwords'));
-  app.use('/api/idioms', require('./routes/idioms'));
-  app.use('/api/challenges', require('./routes/challenges'));
-  app.use('/api/levels', require('./routes/levels'));
-  app.use('/api/onboarding', require('./routes/onboarding'));
 
   // Serve the built frontend (optional — the frontend can also be hosted separately).
   const frontendDist = path.join(__dirname, '..', '..', 'frontend');

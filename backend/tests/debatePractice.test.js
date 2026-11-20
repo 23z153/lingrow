@@ -22,7 +22,7 @@ describe('Debate: Assigned Stance Mode, Token Verification & Duration Validation
 
     topicA = await DebateTopic.create({
       topic: 'Topic A: Should attendance be mandatory for undergraduates?',
-      level: 'Intermediate',
+      level: 'Advanced',
       difficulty: 'intermediate',
       department: 'General',
       active: true,
@@ -36,7 +36,7 @@ describe('Debate: Assigned Stance Mode, Token Verification & Duration Validation
       name: 'Practice Debater',
       role: 'student',
       xp: 400,
-      level: 'Intermediate',
+      level: 'Advanced',
       onboardingCompleted: true,
       password: 'secret123',
     });
@@ -75,7 +75,7 @@ describe('Debate: Assigned Stance Mode, Token Verification & Duration Validation
 
       const topicOther = await DebateTopic.create({
         topic: 'Other topic for replay test',
-        level: 'Intermediate',
+        level: 'Advanced',
         department: 'General',
         active: true,
       });
@@ -97,16 +97,14 @@ describe('Debate: Assigned Stance Mode, Token Verification & Duration Validation
     });
 
     test('rejects replay on a different user with 400 ASSIGNED_STANCE_MISMATCH', async () => {
-      const otherUser = new User({
+      const { user: otherUser, token: otherToken } = await createTestUser({
         name: 'Other Debater',
         email: `other.${Date.now()}@example.com`,
         role: 'student',
         xp: 300,
-        level: 'Intermediate',
+        level: 'Advanced',
+        onboardingCompleted: true,
       });
-      await otherUser.setPassword('pass123');
-      await otherUser.save();
-      const otherToken = signAccessToken(otherUser);
 
       const nextRes = await request(app)
         .get('/api/debate/topics/next?assignStance=true')

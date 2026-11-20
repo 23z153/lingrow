@@ -8,6 +8,34 @@ const {
 } = require('../config/levelAccess');
 
 /**
+ * Middleware requiring student accounts to have completed onboarding and have an active level assigned.
+ * Teachers and Admins are strictly exempt.
+ * Returns 403 with code "ONBOARDING_REQUIRED" when onboardingCompleted is false or level is null.
+ */
+function requireOnboarded(req, res, next) {
+  if (!req.user) {
+    return res.status(401).json({ error: 'Authentication required' });
+  }
+
+  // Teachers and Admins are exempt
+  if (req.user.role && req.user.role !== 'student') {
+    return next();
+  }
+
+  if (req.user.onboardingCompleted === false || !req.user.level) {
+    return res.status(403).json({
+      error: 'Onboarding required. Please complete the Dragon Egg Trial or self-select your starting level before accessing learning modules.',
+      code: 'ONBOARDING_REQUIRED',
+      message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
+      onboardingCompleted: false,
+      locked: true,
+    });
+  }
+
+  next();
+}
+
+/**
  * Middleware factory enforcing specific learner tier access ('Beginner', 'Intermediate', 'Advanced').
  * Standardized 403 payloads:
  * - { code: "ONBOARDING_REQUIRED", message, onboardingCompleted: false }
@@ -25,7 +53,7 @@ function requireLevel(minLevel, moduleName = 'This content') {
     }
 
     // Students who have not completed onboarding are blocked with ONBOARDING_REQUIRED
-    if (req.user.onboardingCompleted === false) {
+    if (req.user.onboardingCompleted === false || !req.user.level) {
       return res.status(403).json({
         code: 'ONBOARDING_REQUIRED',
         message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
@@ -41,6 +69,7 @@ function requireLevel(minLevel, moduleName = 'This content') {
         code: 'LEVEL_LOCKED',
         requiredLevel,
         currentLevel,
+        error: `${moduleName} is locked. Requires ${requiredLevel} rank to enter.`,
         message: `${moduleName} is locked. Requires ${requiredLevel} rank to enter.`,
         locked: true, // for backwards-compatibility with existing frontend checks
       });
@@ -106,6 +135,7 @@ function requireMinXP(minXP = 0, moduleName = 'This module', minLevel = null) {
 }
 
 module.exports = {
+  requireOnboarded,
   requireLevel,
   requireModuleAccess,
   requireMinXP,

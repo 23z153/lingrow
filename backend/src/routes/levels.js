@@ -8,7 +8,8 @@ const {
   LEVELS,
   LEVEL_RANKS,
   MODULE_MIN_LEVEL,
-  CONTENT_ITEM_MIN_LEVEL,
+  CONTENT_MIN_LEVEL,
+  TIER_DETAILS,
   PLACEMENT_CONFIG,
   getUnlockedLevelsForLevel,
 } = require('../config/levelAccess');
@@ -23,7 +24,8 @@ router.get('/config', requireAuth, (req, res) => {
     levels: LEVELS,
     ranks: LEVEL_RANKS,
     modules: MODULE_MIN_LEVEL,
-    contentItems: CONTENT_ITEM_MIN_LEVEL,
+    contentItems: CONTENT_MIN_LEVEL,
+    tiers: TIER_DETAILS,
     placement: {
       cooldownMs: PLACEMENT_CONFIG.cooldownMs,
       expiryMs: PLACEMENT_CONFIG.expiryMs,
