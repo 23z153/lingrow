@@ -47,7 +47,21 @@ router.post('/placement/start', requireAuth, async (req, res) => {
       }
     }
 
-    // 2. Check for active unexpired, unsubmitted attempt to resume
+    // 2. Clean up any stale activeKey on submitted, consumed, or expired attempts for this user
+    await PlacementAttempt.updateMany(
+      {
+        userId: req.user._id,
+        activeKey: { $ne: null },
+        $or: [
+          { submittedAt: { $ne: null } },
+          { consumedAt: { $ne: null } },
+          { expiresAt: { $lte: new Date(now) } },
+        ],
+      },
+      { $set: { activeKey: null } }
+    );
+
+    // 3. Check for active unexpired, unsubmitted attempt to resume
     const activeAttempt = await PlacementAttempt.findOne({
       userId: req.user._id,
       submittedAt: null,
@@ -80,7 +94,7 @@ router.post('/placement/start', requireAuth, async (req, res) => {
       });
     }
 
-    // 3. Rate-limit: at most 2 new attempts per 24 hours counting expired unsubmitted ones
+    // 4. Rate-limit: at most 2 new attempts per 24 hours counting expired unsubmitted ones
     const twentyFourHoursAgo = new Date(now - cooldownMs);
     const attemptsLast24h = await PlacementAttempt.countDocuments({
       userId: req.user._id,
@@ -94,20 +108,6 @@ router.post('/placement/start', requireAuth, async (req, res) => {
         maxAttemptsPer24h: 2,
       });
     }
-
-    // 4. Clean up any stale activeKey on submitted, consumed, or expired attempts for this user
-    await PlacementAttempt.updateMany(
-      {
-        userId: req.user._id,
-        activeKey: { $ne: null },
-        $or: [
-          { submittedAt: { $ne: null } },
-          { consumedAt: { $ne: null } },
-          { expiresAt: { $lte: new Date(now) } },
-        ],
-      },
-      { $set: { activeKey: null } }
-    );
 
     // 5. Issue new Placement Attempt atomically (concurrency-safe via activeKey unique index)
     const session = generatePlacementSession();
@@ -436,7 +436,7 @@ router.post('/select-level', requireAuth, async (req, res) => {
           }
         );
       } catch (consumeErr) {
-        console.error('[onboarding] Warning: Failed to mark attempt consumed after user onboarding:', consumeErr);
+        console.error(`[onboarding] Warning: Failed to mark attempt ${attemptId} consumed after user onboarding:`, consumeErr);
       }
 
       return res.json({ ok: true, user: updatedUser.toSafeJSON() });

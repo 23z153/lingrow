@@ -832,7 +832,7 @@ router.get('/history', requireAuth, async (req, res) => {
   try {
     const attempts = await DebateAttempt.find({ user: req.user._id })
       .populate('topic', 'topic department level')
-      .sort({ createdAt: -1 })
+      .sort({ createdAt: -1, _id: -1 })
       .limit(20);
 
     // Oldest to newest for trend series

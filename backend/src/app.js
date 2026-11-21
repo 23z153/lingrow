@@ -10,6 +10,10 @@ function createApp() {
     throw new Error('FATAL: JWT_SECRET environment variable is required in production.');
   }
 
+  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_TEST_REGISTRATION === '1') {
+    throw new Error('FATAL: ALLOW_TEST_REGISTRATION cannot be enabled in production.');
+  }
+
   const app = express();
 
   app.use(

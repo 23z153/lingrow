@@ -243,6 +243,106 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
       expect(res3.body.code).toBe('PLACEMENT_ATTEMPTS_RATE_LIMIT_EXCEEDED');
       expect(res3.body.attemptsLast24h).toBe(2);
     });
+
+    test('start -> expire -> start releases activeKey and issues a new attempt', async () => {
+      // 1. Initial start creates attempt 1
+      const res1 = await request(app)
+        .post('/api/onboarding/placement/start')
+        .set('Authorization', `Bearer ${student1Token}`);
+      expect(res1.status).toBe(201);
+      const attempt1Id = res1.body.attemptId;
+
+      const att1 = await PlacementAttempt.findById(attempt1Id);
+      expect(att1.activeKey).toBe(student1Id);
+
+      // 2. Expire attempt 1 (set expiresAt in past)
+      await PlacementAttempt.findByIdAndUpdate(attempt1Id, {
+        expiresAt: new Date(Date.now() - 5000),
+      });
+
+      // 3. Second start: releases attempt 1 activeKey and creates fresh attempt 2
+      const res2 = await request(app)
+        .post('/api/onboarding/placement/start')
+        .set('Authorization', `Bearer ${student1Token}`);
+      expect(res2.status).toBe(201);
+      const attempt2Id = res2.body.attemptId;
+      expect(attempt2Id).not.toBe(attempt1Id);
+
+      // Verify attempt 1 activeKey was released to null
+      const att1After = await PlacementAttempt.findById(attempt1Id);
+      expect(att1After.activeKey).toBeNull();
+
+      // Verify attempt 2 now holds the activeKey
+      const att2 = await PlacementAttempt.findById(attempt2Id);
+      expect(att2.activeKey).toBe(student1Id);
+    });
+
+    test('two parallel /start calls after expiry create exactly one attempt', async () => {
+      // Create and expire attempt 1
+      const initialRes = await request(app)
+        .post('/api/onboarding/placement/start')
+        .set('Authorization', `Bearer ${student1Token}`);
+      expect(initialRes.status).toBe(201);
+
+      await PlacementAttempt.findByIdAndUpdate(initialRes.body.attemptId, {
+        expiresAt: new Date(Date.now() - 5000),
+        // Move createdAt back past 24h so the 2-per-24h rate limiter doesn't block parallel calls
+        createdAt: new Date(Date.now() - 25 * 3600 * 1000),
+      });
+
+      // Execute two parallel /start calls right after expiry
+      const [pRes1, pRes2] = await Promise.all([
+        request(app).post('/api/onboarding/placement/start').set('Authorization', `Bearer ${student1Token}`),
+        request(app).post('/api/onboarding/placement/start').set('Authorization', `Bearer ${student1Token}`),
+      ]);
+
+      expect([200, 201]).toContain(pRes1.status);
+      expect([200, 201]).toContain(pRes2.status);
+      expect(pRes1.body.attemptId).toBe(pRes2.body.attemptId);
+
+      // Exactly one unexpired active attempt in DB
+      const activeCount = await PlacementAttempt.countDocuments({
+        userId: student1._id,
+        submittedAt: null,
+        expiresAt: { $gt: new Date() },
+      });
+      expect(activeCount).toBe(1);
+    });
+
+    test('placement bank option lengths: all options within +/-25% mean, strictly shortest/longest <= 3, always-shortest/longest <= 5/12', () => {
+      const { PLACEMENT_QUESTIONS } = require('../src/config/placementBank');
+      let strictlyShortest = 0;
+      let strictlyLongest = 0;
+      let alwaysShortestScore = 0;
+      let alwaysLongestScore = 0;
+
+      PLACEMENT_QUESTIONS.forEach((q) => {
+        const lens = q.options.map((o) => o.length);
+        const mean = lens.reduce((a, b) => a + b, 0) / lens.length;
+        const min = Math.min(...lens);
+        const max = Math.max(...lens);
+        const correctLen = q.options[q.correctIndex].length;
+
+        // Every option within +/-25% of question mean
+        const within25 = lens.every((l) => Math.abs(l - mean) <= 0.25 * mean);
+        expect(within25).toBe(true);
+
+        const isStrictlyShortest = correctLen === min && lens.filter((l) => l === min).length === 1;
+        const isStrictlyLongest = correctLen === max && lens.filter((l) => l === max).length === 1;
+
+        if (isStrictlyShortest) strictlyShortest++;
+        if (isStrictlyLongest) strictlyLongest++;
+
+        // First index of min/max length
+        if (lens.indexOf(min) === q.correctIndex) alwaysShortestScore++;
+        if (lens.indexOf(max) === q.correctIndex) alwaysLongestScore++;
+      });
+
+      expect(strictlyShortest).toBeLessThanOrEqual(3);
+      expect(strictlyLongest).toBeLessThanOrEqual(3);
+      expect(alwaysShortestScore).toBeLessThanOrEqual(5);
+      expect(alwaysLongestScore).toBeLessThanOrEqual(5);
+    });
   });
 
   describe('POST /api/onboarding/placement/submit & Cooldown', () => {
@@ -582,7 +682,8 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
         expect(attempt.consumedAt).toBeNull();
       });
 
-      test('select-level failure order 2: if attempt consumption fails after user update, user is already onboarded and not stranded', async () => {
+      test('select-level failure order 2: if attempt consumption fails after user update, user is already onboarded and failed attempt is logged with id', async () => {
+        const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
         // Mock PlacementAttempt.findOneAndUpdate to fail only when consuming (consumedAt: null)
         const origFindOneAndUpdate = PlacementAttempt.findOneAndUpdate;
         jest.spyOn(PlacementAttempt, 'findOneAndUpdate').mockImplementation(function (filter, update, options) {
@@ -607,6 +708,12 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
         expect(res.status).toBe(200);
         expect(res.body.user.level).toBe('Intermediate');
         expect(res.body.user.onboardingCompleted).toBe(true);
+
+        expect(consoleSpy).toHaveBeenCalledWith(
+          expect.stringContaining(`Failed to mark attempt ${intermediateAttemptId} consumed`),
+          expect.any(Error)
+        );
+        consoleSpy.mockRestore();
 
         const dbUser = await User.findById(student1Id);
         expect(dbUser.onboardingCompleted).toBe(true);
@@ -982,6 +1089,44 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
       const run2 = await migrateUserLevels({ apply: true, confirmBackup: true, silent: true });
       expect(run2.stats.toMigrate).toBe(0);
       expect(run2.stats.alreadyMigrated).toBeGreaterThanOrEqual(1);
+    });
+  });
+
+  describe('Registration Guard & ALLOW_TEST_REGISTRATION Flag', () => {
+    test('throws fatal error at boot if NODE_ENV is production and ALLOW_TEST_REGISTRATION is 1', () => {
+      const origNodeEnv = process.env.NODE_ENV;
+      const origFlag = process.env.ALLOW_TEST_REGISTRATION;
+      const origSecret = process.env.JWT_SECRET;
+      try {
+        process.env.NODE_ENV = 'production';
+        process.env.ALLOW_TEST_REGISTRATION = '1';
+        process.env.JWT_SECRET = 'temporary-test-jwt-secret';
+
+        const createApp = require('../src/app');
+        expect(() => createApp()).toThrow('FATAL: ALLOW_TEST_REGISTRATION cannot be enabled in production.');
+      } finally {
+        process.env.NODE_ENV = origNodeEnv;
+        process.env.ALLOW_TEST_REGISTRATION = origFlag;
+        process.env.JWT_SECRET = origSecret;
+      }
+    });
+
+    test('POST /api/auth/register returns 403 when ALLOW_TEST_REGISTRATION is not 1', async () => {
+      const origFlag = process.env.ALLOW_TEST_REGISTRATION;
+      try {
+        delete process.env.ALLOW_TEST_REGISTRATION;
+        const res = await request(app)
+          .post('/api/auth/register')
+          .send({
+            name: 'Unallowed Registration',
+            email: `unallowed.${Date.now()}@example.com`,
+            password: 'Password123!',
+          });
+        expect(res.status).toBe(403);
+        expect(res.body.error).toContain('Public self-registration is disabled');
+      } finally {
+        process.env.ALLOW_TEST_REGISTRATION = origFlag;
+      }
     });
   });
 });

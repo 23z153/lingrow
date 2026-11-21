@@ -34,7 +34,7 @@ async function issueVerificationEmail(user) {
 router.post('/register', async (req, res) => {
   // Public self-registration disabled as per security requirements:
   // Only accounts provisioned by the Administrator can access the application.
-  if (process.env.NODE_ENV !== 'test') {
+  if (process.env.ALLOW_TEST_REGISTRATION !== '1') {
     return res.status(403).json({
       error: 'Public self-registration is disabled. Only accounts created by an Administrator can access the application.',
     });

@@ -1,7 +1,9 @@
 process.env.NODE_ENV = 'test';
+process.env.ALLOW_TEST_REGISTRATION = '1';
 process.env.JWT_SECRET = process.env.JWT_SECRET || 'test-secret-do-not-use-in-prod';
 require('dotenv').config();
 process.env.NODE_ENV = 'test';
+process.env.ALLOW_TEST_REGISTRATION = '1';
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
