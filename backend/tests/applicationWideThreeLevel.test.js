@@ -184,7 +184,7 @@ describe('Application-Wide Three-Level Learning Architecture', () => {
     expect(advPrompt).toContain('executive presence');
   });
 
-  test('Assessments enforce 403 Forbidden on locked levels for beginner students', async () => {
+  test('Assessments are open to onboarded beginner students without learner-tier locking (Item 10)', async () => {
     const student = await createStudent(['Beginner']);
     const advTest = await Test.findOne({ title: 'Advanced Trials Test' });
 
@@ -192,9 +192,8 @@ describe('Application-Wide Three-Level Learning Architecture', () => {
       .get(`/api/tests/${advTest._id}/take`)
       .set('Authorization', `Bearer ${student.token}`);
 
-    expect(takeRes.status).toBe(403);
-    expect(takeRes.body.locked).toBe(true);
-    expect(takeRes.body.requiredLevel).toBe('Advanced');
+    expect(takeRes.status).toBe(200);
+    expect(takeRes.body.title).toBe('Advanced Trials Test');
   });
 
   test('Teacher and Admin roles remain unrestricted by learning tier locks', async () => {

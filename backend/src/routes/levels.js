@@ -7,8 +7,9 @@ const { requireAuth } = require('../middleware/auth');
 const {
   LEVELS,
   LEVEL_RANKS,
+  THEMED_CARDS,
+  TIER_DETAILS,
   MODULE_MIN_LEVEL,
-  CONTENT_ITEM_MIN_LEVEL,
   PLACEMENT_CONFIG,
   getUnlockedLevelsForLevel,
 } = require('../config/levelAccess');
@@ -22,8 +23,9 @@ router.get('/config', requireAuth, (req, res) => {
   res.json({
     levels: LEVELS,
     ranks: LEVEL_RANKS,
+    tiers: TIER_DETAILS,
+    themedCards: THEMED_CARDS,
     modules: MODULE_MIN_LEVEL,
-    contentItems: CONTENT_ITEM_MIN_LEVEL,
     placement: {
       cooldownMs: PLACEMENT_CONFIG.cooldownMs,
       expiryMs: PLACEMENT_CONFIG.expiryMs,

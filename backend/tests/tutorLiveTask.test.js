@@ -19,6 +19,7 @@ describe('Live Task Chatbot & Admin Monitoring API', () => {
       department: 'CSE',
       xp: 150,
       level: 'Beginner',
+      onboardingCompleted: true,
     });
     await studentUser.setPassword('password123');
     await studentUser.save();

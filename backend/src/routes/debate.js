@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const crypto = require('crypto');
 const rateLimit = require('express-rate-limit');
 const { requireAuth } = require('../middleware/auth');
-const { requireMinXP } = require('../middleware/levelGate');
+const { requireOnboarded, requireModuleAccess, requireMinXP } = require('../middleware/levelGate');
 const DebateTopic = require('../models/DebateTopic');
 const DebateAttempt = require('../models/DebateAttempt');
 const DebateRebuttal = require('../models/DebateRebuttal');
@@ -230,6 +230,16 @@ function calculateDebateDeliveryMetrics({ transcript, durationSeconds, targetDur
     targetAdherencePercent,
   };
 }
+
+// Router-level gating: Enforce requireOnboarded & requireModuleAccess('debate') on all debate arena endpoints except preferences
+router.use((req, res, next) => {
+  if (req.method === 'PUT' && req.path === '/preferences') {
+    return next();
+  }
+  return requireOnboarded(req, res, () => {
+    requireModuleAccess('debate')(req, res, next);
+  });
+});
 
 // GET /api/debate/topics — All active debate topics
 router.get('/topics', requireAuth, requireMinXP(0, 'Debate Practice'), async (req, res) => {

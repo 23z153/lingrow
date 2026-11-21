@@ -5,10 +5,28 @@ const VocabProgress = require('../models/VocabProgress');
 const { maybeAwardBadge, awardXP } = require('../services/progressService');
 const { detectGrammarCorrection } = require('../services/llm2BEngine');
 const { buildVocabQuiz } = require('../services/vocabQuizBuilder');
+const { canAccess, getUnlockedLevelsForLevel } = require('../config/levelAccess');
 
 router.get('/', requireAuth, async (req, res) => {
   const { level } = req.query;
-  const filter = level ? { level } : {};
+  const filter = {};
+  if (req.user && req.user.role === 'student') {
+    const allowedLevels = getUnlockedLevelsForLevel(req.user.level);
+    if (level) {
+      if (!allowedLevels.includes(level)) {
+        return res.status(403).json({
+          error: `Vocabulary level ${level} is locked. Requires higher rank.`,
+          code: 'LEVEL_LOCKED',
+          requiredLevel: level,
+        });
+      }
+      filter.level = level;
+    } else {
+      filter.level = { $in: allowedLevels };
+    }
+  } else if (level) {
+    filter.level = level;
+  }
   const words = await VocabWord.find(filter).sort({ createdAt: 1 });
   const progress = await VocabProgress.find({ user: req.user._id });
   const progressMap = Object.fromEntries(progress.map((p) => [p.word.toString(), p]));
@@ -68,6 +86,14 @@ router.post('/assessment', requireAuth, async (req, res) => {
 
     const word = await VocabWord.findById(wordId);
     if (!word) return res.status(404).json({ error: 'Word not found' });
+
+    if (req.user && req.user.role === 'student' && word.level && !canAccess(req.user, word.level)) {
+      return res.status(403).json({
+        error: `This vocabulary word is in the ${word.level} tier, which is currently locked.`,
+        code: 'LEVEL_LOCKED',
+        requiredLevel: word.level,
+      });
+    }
 
     let progress = await VocabProgress.findOne({ user: req.user._id, word: wordId });
     if (!progress) progress = new VocabProgress({ user: req.user._id, word: wordId });
@@ -146,6 +172,14 @@ router.post('/:id/review', requireAuth, async (req, res) => {
   const { known } = req.body;
   const word = await VocabWord.findById(id);
   if (!word) return res.status(404).json({ error: 'Word not found' });
+
+  if (req.user && req.user.role === 'student' && word.level && !canAccess(req.user, word.level)) {
+    return res.status(403).json({
+      error: `This vocabulary word is in the ${word.level} tier, which is currently locked.`,
+      code: 'LEVEL_LOCKED',
+      requiredLevel: word.level,
+    });
+  }
 
   let progress = await VocabProgress.findOne({ user: req.user._id, word: id });
   if (!progress) progress = new VocabProgress({ user: req.user._id, word: id });

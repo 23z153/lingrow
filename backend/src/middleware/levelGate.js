@@ -8,6 +8,40 @@ const {
 } = require('../config/levelAccess');
 
 /**
+ * Middleware requiring student accounts to have completed onboarding and have an active level assigned.
+ * Fail-Closed (Item 15):
+ * - req.user.onboardingCompleted === true
+ * - req.user.level is a valid non-empty string
+ * If either condition is missing or false, returns 403 ONBOARDING_REQUIRED.
+ * Teachers and Admins are strictly exempt.
+ */
+function requireOnboarded(req, res, next) {
+  if (!req.user) {
+    return res.status(401).json({ error: 'Authentication required' });
+  }
+
+  // Teachers and Admins are strictly exempt from learner gating
+  if (req.user.role && req.user.role !== 'student') {
+    return next();
+  }
+
+  const hasCompletedOnboarding = req.user.onboardingCompleted === true;
+  const hasValidLevel = typeof req.user.level === 'string' && req.user.level.trim().length > 0;
+
+  if (!hasCompletedOnboarding || !hasValidLevel) {
+    return res.status(403).json({
+      error: 'Onboarding required. Please complete the Dragon Egg Trial or self-select your starting level before accessing learning modules.',
+      code: 'ONBOARDING_REQUIRED',
+      message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
+      onboardingCompleted: false,
+      locked: true,
+    });
+  }
+
+  next();
+}
+
+/**
  * Middleware factory enforcing specific learner tier access ('Beginner', 'Intermediate', 'Advanced').
  * Standardized 403 payloads:
  * - { code: "ONBOARDING_REQUIRED", message, onboardingCompleted: false }
@@ -24,8 +58,11 @@ function requireLevel(minLevel, moduleName = 'This content') {
       return next();
     }
 
-    // Students who have not completed onboarding are blocked with ONBOARDING_REQUIRED
-    if (req.user.onboardingCompleted === false) {
+    const hasCompletedOnboarding = req.user.onboardingCompleted === true;
+    const hasValidLevel = typeof req.user.level === 'string' && req.user.level.trim().length > 0;
+
+    // Fail-closed onboarding guard
+    if (!hasCompletedOnboarding || !hasValidLevel) {
       return res.status(403).json({
         code: 'ONBOARDING_REQUIRED',
         message: 'Dragon Egg Trial onboarding must be completed before entering kingdoms.',
@@ -33,7 +70,7 @@ function requireLevel(minLevel, moduleName = 'This content') {
       });
     }
 
-    const currentLevel = req.user.level || null;
+    const currentLevel = req.user.level;
     const requiredLevel = minLevel || LEVELS.BEGINNER;
 
     if (!canAccess(req.user, requiredLevel)) {
@@ -41,6 +78,7 @@ function requireLevel(minLevel, moduleName = 'This content') {
         code: 'LEVEL_LOCKED',
         requiredLevel,
         currentLevel,
+        error: `${moduleName} is locked. Requires ${requiredLevel} rank to enter.`,
         message: `${moduleName} is locked. Requires ${requiredLevel} rank to enter.`,
         locked: true, // for backwards-compatibility with existing frontend checks
       });
@@ -106,6 +144,7 @@ function requireMinXP(minXP = 0, moduleName = 'This module', minLevel = null) {
 }
 
 module.exports = {
+  requireOnboarded,
   requireLevel,
   requireModuleAccess,
   requireMinXP,

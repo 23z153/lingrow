@@ -57,7 +57,8 @@ describe('Debate: XP Anti-Exploit Formula, Badges Atomicity & History Trends', (
       email: `xpdebater.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       xp: 400,
-      level: 'Intermediate',
+      level: 'Advanced',
+      onboardingCompleted: true,
     });
     await user.setPassword('secret123');
     await user.save();
