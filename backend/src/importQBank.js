@@ -133,6 +133,7 @@ async function importQuestionBank(qbankDir = QBANK_DIR) {
       description: `Comprehensive grammar question set and practice exercises on ${title} (${category}).`,
       ruleSummary: `Core principles, usage guidelines, and practical examples for ${title}.`,
       videoUrl: '',
+      questionCount: questions.length,
       questions,
     });
   }
@@ -161,21 +162,22 @@ async function importQuestionBank(qbankDir = QBANK_DIR) {
   return { topicsCount: topicsToInsert.length, questionsCount: totalQuestionsCount, categoryStats };
 }
 
+const connectDB = require('./config/db');
+
 // Standalone execution
 if (require.main === module) {
-  const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lingrow_ai';
-  mongoose.connect(mongoUri)
-    .then(async () => {
-      console.log(`[db] Connected to ${mongoUri}`);
+  (async () => {
+    try {
+      await connectDB();
       await importQuestionBank();
       await mongoose.disconnect();
       console.log('[db] Disconnected cleanly.');
       process.exit(0);
-    })
-    .catch((err) => {
+    } catch (err) {
       console.error('[QBank Import Error]:', err);
       process.exit(1);
-    });
+    }
+  })();
 }
 
 module.exports = { importQuestionBank };

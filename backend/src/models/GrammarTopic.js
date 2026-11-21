@@ -23,6 +23,7 @@ const grammarTopicSchema = new mongoose.Schema(
     description: { type: String, default: '' },
     ruleSummary: { type: String, default: '' }, // Concise explanation card & examples
     videoUrl: { type: String, default: '' }, // Embedded Video URL (e.g. YouTube embed link)
+    questionCount: { type: Number, default: 0 },
     questions: [questionSchema],
   },
   { timestamps: true }

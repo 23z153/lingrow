@@ -145,7 +145,7 @@ router.get('/progress', requireAuth, async (req, res) => {
 router.get('/', requireAuth, async (req, res) => {
   try {
     const topics = await GrammarTopic.find({})
-      .select('title category level unit topicId description ruleSummary videoUrl questions')
+      .select('title category level unit topicId description ruleSummary videoUrl questionCount')
       .sort({ topicId: 1, createdAt: 1 })
       .lean();
 
