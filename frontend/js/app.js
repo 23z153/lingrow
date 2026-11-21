@@ -5,7 +5,7 @@
 
 window.VIEW_RENDERERS = window.VIEW_RENDERERS || {};
 var VIEW_RENDERERS = window.VIEW_RENDERERS;
-const S = { user: null, view: 'dashboard', cache: {} };
+const S = { user: null, view: 'dashboard', cache: {}, levelConfig: null };
 
 function $(sel, root=document){ return root.querySelector(sel); }
 function el(html){
@@ -236,41 +236,148 @@ async function logout(){
   renderLogin();
 }
 
-/* ---------------------------- NAV DEFINITIONS ---------------------------- */
+/* ---------------------------- NAV DEFINITIONS & LEVEL ACCESS ---------------------------- */
 const LEVEL_RANKS = { 'Beginner': 1, 'Intermediate': 2, 'Advanced': 3 };
 
 function getStudentLevel(user) {
   if (!user) return 'Beginner';
+  if (user.level && LEVEL_RANKS[user.level]) return user.level;
   const unlocked = user.unlockedLevels || ['Beginner'];
   if (unlocked.includes('Advanced')) return 'Advanced';
   if (unlocked.includes('Intermediate')) return 'Intermediate';
-  if (user.level && LEVEL_RANKS[user.level]) return user.level;
-  const xp = user.xp || 0;
-  if (xp >= 1500) return 'Advanced';
-  if (xp >= 500) return 'Intermediate';
   return 'Beginner';
 }
+
+function canAccessLevel(userLevel, requiredLevel) {
+  if (!requiredLevel || requiredLevel === 'Beginner' || requiredLevel === 'All Levels') return true;
+  const ranks = (S.levelConfig && S.levelConfig.ranks) || LEVEL_RANKS;
+  const uRank = ranks[userLevel] || 1;
+  const rRank = ranks[requiredLevel] || 1;
+  return uRank >= rRank;
+}
+
+function isUserOnboarded(user) {
+  if (!user) return false;
+  if (user.role === 'teacher' || user.role === 'admin') return true;
+  return user.onboardingCompleted === true && typeof user.level === 'string' && user.level.trim().length > 0;
+}
+
+async function loadLevelConfig() {
+  if (S.levelConfig) return S.levelConfig;
+  try {
+    S.levelConfig = await Api.getLevelConfig();
+  } catch (e) {
+    console.warn('Could not fetch level config, using default mapping:', e);
+    S.levelConfig = {
+      ranks: { Beginner: 1, Intermediate: 2, Advanced: 3 },
+      tiers: {
+        Beginner: { id: 'Beginner', rank: 1, title: 'Hatchling', badge: 'HATCHLING' },
+        Intermediate: { id: 'Intermediate', rank: 2, title: 'Flame Keeper', badge: 'FLAME_KEEPER' },
+        Advanced: { id: 'Advanced', rank: 3, title: 'Sky Guardian', badge: 'SKY_GUARDIAN' }
+      },
+      modules: {
+        grammar: 'Beginner', vocabulary: 'Beginner', listening: 'Beginner', story: 'Beginner',
+        situational: 'Beginner', weakwords: 'Beginner', tutor: 'Beginner',
+        'read-aloud': 'Intermediate', practice: 'Intermediate', simulator: 'Intermediate',
+        idioms: 'Intermediate', peer: 'Intermediate', 'world-stage': 'Advanced', debate: 'Advanced'
+      }
+    };
+  }
+
+  // Reconcile NAV.student module minLevel with config
+  if (S.levelConfig && S.levelConfig.modules && NAV && NAV.student) {
+    NAV.student.forEach(g => {
+      g.items.forEach(it => {
+        if (S.levelConfig.modules[it.id]) {
+          it.minLevel = S.levelConfig.modules[it.id];
+        }
+      });
+    });
+  }
+  return S.levelConfig;
+}
+
+window.handleOnboardingRequired = function(data) {
+  if (S.user && S.user.role === 'student') {
+    S.user.onboardingCompleted = false;
+    setView('onboarding');
+    toast('Dragon Egg Trial required before entering academy chambers.', 'coral');
+  }
+};
+
+window.showLevelLockedModal = function(data = {}) {
+  const existing = document.getElementById('dragon-level-lock-modal');
+  if (existing) existing.remove();
+
+  const userLevel = S.user ? getStudentLevel(S.user) : 'Beginner';
+  const requiredLevel = data.requiredLevel || 'Intermediate';
+  const currentLevel = data.currentLevel || userLevel;
+  const moduleName = data.moduleName || data.chamber || 'Ancient Chamber';
+  const cfg = S.levelConfig || {};
+  const reqTier = cfg.tiers?.[requiredLevel] || { title: requiredLevel === 'Advanced' ? 'Sky Guardian' : 'Flame Keeper' };
+  const curTier = cfg.tiers?.[currentLevel] || { title: currentLevel === 'Advanced' ? 'Sky Guardian' : currentLevel === 'Intermediate' ? 'Flame Keeper' : 'Hatchling' };
+
+  const modal = document.createElement('div');
+  modal.id = 'dragon-level-lock-modal';
+  modal.className = 'modal-overlay level-lock-modal-overlay';
+  modal.innerHTML = `
+    <div class="modal level-lock-modal" style="max-width:500px;text-align:center;padding:28px 24px;border:1px solid rgba(239,68,68,0.35);box-shadow:0 12px 40px rgba(0,0,0,0.5), 0 0 24px rgba(239,68,68,0.25);border-radius:18px">
+      <div class="level-lock-icon-wrap" style="margin-bottom:14px">
+        <span style="font-size:48px;display:inline-block;filter:drop-shadow(0 0 12px rgba(239,68,68,0.4))">🔒</span>
+      </div>
+      <div class="pill coral" style="font-size:10.5px;letter-spacing:0.06em;font-weight:800;margin-bottom:8px">ANCIENT RUNE SEALED</div>
+      <h2 style="font-size:22px;font-family:var(--font-display);font-weight:800;margin-bottom:8px;color:var(--color-text)">
+        ${esc(moduleName)} is Locked
+      </h2>
+      <p style="font-size:13.5px;color:var(--cream-dim);line-height:1.5;margin-bottom:20px">
+        This realm is guarded by ancient draconic wards. To unseal this chamber, you must advance your rank to <strong>${esc(reqTier.title || requiredLevel)} (${esc(requiredLevel)})</strong>.
+      </p>
+
+      <div class="level-lock-tiers-box" style="display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 16px;background:var(--color-surface-2);border:1px solid var(--line);border-radius:12px;margin-bottom:20px">
+        <div style="flex:1;text-align:center">
+          <div style="font-size:11px;color:var(--cream-faint);text-transform:uppercase;font-weight:700">Your Rank</div>
+          <div style="font-size:14px;font-weight:800;color:var(--cyan);margin-top:2px">${esc(curTier.title || currentLevel)}</div>
+          <div style="font-size:11px;color:var(--cream-dim)">${esc(currentLevel)}</div>
+        </div>
+        <div style="font-size:18px;color:var(--cream-dim)">&rarr;</div>
+        <div style="flex:1;text-align:center">
+          <div style="font-size:11px;color:var(--cream-faint);text-transform:uppercase;font-weight:700">Required Rank</div>
+          <div style="font-size:14px;font-weight:800;color:var(--coral);margin-top:2px">${esc(reqTier.title || requiredLevel)}</div>
+          <div style="font-size:11px;color:var(--cream-dim)">${esc(requiredLevel)}</div>
+        </div>
+      </div>
+
+      <div style="font-size:12px;color:var(--cream-dim);background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);padding:10px 14px;border-radius:10px;margin-bottom:24px;text-align:left;line-height:1.45">
+        💡 <b>Promotion Path:</b> Master foundational chambers in your current tier, ask your mentor or teacher to review your proficiency, or complete the Level-Up Trial when eligible.
+      </div>
+
+      <div class="row gap-sm" style="justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-secondary btn-sm" id="lock-modal-close-btn" style="padding:8px 18px">Explore Unlocked Realms</button>
+        <button class="btn btn-primary btn-sm" id="lock-modal-progress-btn" style="padding:8px 18px">View Rider Progression</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  modal.querySelector('#lock-modal-close-btn').onclick = () => modal.remove();
+  modal.querySelector('#lock-modal-progress-btn').onclick = () => {
+    modal.remove();
+    setView('progress');
+  };
+  modal.onclick = (e) => {
+    if (e.target === modal) modal.remove();
+  };
+};
 
 function addStudentXP(amount) {
   if (!S.user || S.user.role !== 'student') return;
   const oldXp = S.user.xp || 0;
-  const oldRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
   S.user.xp = oldXp + amount;
-  if (S.user.xp >= 1500 && (!S.user.level || S.user.level === 'Intermediate')) S.user.level = 'Advanced';
-  else if (S.user.xp >= 500 && !S.user.level) S.user.level = 'Intermediate';
-
-  const newRank = LEVEL_RANKS[getStudentLevel(S.user)] || 1;
   renderTopbar();
 
   // Check if student crossed a dragon evolution stage threshold
   if (window.DragonMascot && window.DragonMascot.checkEvolution) {
     window.DragonMascot.checkEvolution(oldXp, S.user.xp);
-  }
-
-  if (newRank > oldRank) {
-    toast(`🎉 Leveled up to ${S.user.level}! New practice exercises unlocked!`, 'sprout');
-    renderShell();
-    initGlobalChatbot();
   }
 }
 
@@ -320,6 +427,7 @@ const NAV = {
 };
 const VIEW_TITLES = {
   'dashboard':['Dragon Kingdom','Train Your Mind. Awaken Your Dragon. Master English.'],
+  'onboarding':['The Dragon Egg Trial','Awaken Your Dragon Companion & Attune Your English Rank'],
   'kingdoms':['The 7 Dragon Kingdoms','Curriculum world map of enchanted English learning realms'],
   'adventures':['Special Adventure Experiences','Quests, detective cases, escape rooms & high-stakes simulations'],
   'weakwords':['Weak Words Lab','Spaced-repetition drills to master your mispronounced and tricky words'],
@@ -390,9 +498,10 @@ function renderShell(){
     return {
       ...g,
       items: g.items.map(it => {
-        const isLocked = it.minLevel && it.minLevel !== 'Beginner' && !unlocked.includes(it.minLevel);
+        const minLevel = (S.levelConfig?.modules && S.levelConfig.modules[it.id]) || it.minLevel || 'Beginner';
+        const isLocked = !canAccessLevel(userLevel, minLevel);
         const biome = BIOME_MAP[it.id] || '';
-        return { ...it, isLocked, biome };
+        return { ...it, minLevel, isLocked, biome };
       })
     };
   });
@@ -438,13 +547,19 @@ function renderShell(){
   `;
   $all2('.nav-item', sidebar).forEach(item=>{
     item.onclick = ()=> {
+      if (S.user && S.user.role === 'student' && !isUserOnboarded(S.user)) {
+        toast('Complete the Dragon Egg Trial before exploring academy chambers.', 'coral');
+        setView('onboarding');
+        closeMobileSidebar();
+        return;
+      }
       if (item.dataset.locked === 'true') {
-        const reqLevel = item.dataset.minlevel || 'higher';
-        const msg = `This realm is protected by ancient dragon runes! Attain ${reqLevel} rank to unseal the gates.`;
-        if (window.DragonMascot && window.DragonMascot.say) {
-          window.DragonMascot.say(msg, 'thinking');
+        const reqLevel = item.dataset.minlevel || 'Intermediate';
+        const label = item.querySelector('span:nth-child(2)')?.textContent || reqLevel;
+        if (typeof window.showLevelLockedModal === 'function') {
+          window.showLevelLockedModal({ requiredLevel: reqLevel, currentLevel: userLevel, moduleName: label });
         } else {
-          toast(msg, 'amber');
+          toast(`🔒 ${label} requires ${reqLevel} rank to unlock.`, 'coral');
         }
         return;
       }
@@ -465,10 +580,15 @@ function renderTopbar(){
   const topbar = $('#topbar');
   let right = '';
   if (S.user && S.user.role === 'student'){
+    const userLevel = getStudentLevel(S.user);
+    const tierTitle = S.levelConfig?.tiers?.[userLevel]?.title || (userLevel === 'Advanced' ? 'Sky Guardian' : userLevel === 'Intermediate' ? 'Flame Keeper' : 'Hatchling');
     const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(S.user.xp || 0) : { stage: 2, name: 'Dragon Companion', title: 'Curious Fledgling', percentToNext: 40, xpToNext: 150 };
     const streak = S.user.streak || 0;
     const streakScale = Math.min(1.5, 1 + streak * 0.06);
     right = `
+      <div class="topbar-level-badge pill ${levelColor(userLevel)}" style="font-weight:800;font-size:11.5px;padding:5px 11px;cursor:pointer;display:inline-flex;align-items:center;gap:6px" onclick="setView('progress')" title="Learner Rank: ${esc(tierTitle)} (${esc(userLevel)})">
+        <span>🛡️</span> <span>${esc(tierTitle)} &middot; ${esc(userLevel)}</span>
+      </div>
       <div class="topbar-dragon-profile" title="Dragon Companion: ${esc(evo.name)} (${esc(evo.title)}) - Click for Progression" onclick="setView('progress')" style="cursor:pointer">
         <div class="topbar-dragon-avatar">
           <img src="${window.DragonMascot ? window.DragonMascot.getImage(evo.stage) : '/img/dragon/dragon-stage-2.jpg'}" alt="${esc(evo.name)}" class="topbar-dragon-img" />
@@ -571,13 +691,21 @@ async function setView(view){
 
   // Level gating check for student role
   if (S.user && S.user.role === 'student') {
-    const unlocked = S.user.unlockedLevels && S.user.unlockedLevels.length ? S.user.unlockedLevels : ['Beginner'];
-    const allStudentNav = NAV.student.flatMap(g => g.items);
-    const item = allStudentNav.find(i => i.id === view);
-    if (item && item.minLevel && item.minLevel !== 'Beginner' && !unlocked.includes(item.minLevel)) {
-      const prevTier = item.minLevel === 'Advanced' ? 'Intermediate' : 'Beginner';
-      toast(`🔒 ${item.label} is locked in the ${item.minLevel} tier! Complete 4 ${prevTier} activities to unlock.`, 'coral');
-      view = 'dashboard';
+    if (!isUserOnboarded(S.user)) {
+      view = 'onboarding';
+    } else {
+      const userLevel = getStudentLevel(S.user);
+      const allStudentNav = NAV.student.flatMap(g => g.items);
+      const item = allStudentNav.find(i => i.id === view);
+      const minLevel = (S.levelConfig?.modules && S.levelConfig.modules[view]) || item?.minLevel;
+      if (item && minLevel && minLevel !== 'Beginner' && !canAccessLevel(userLevel, minLevel)) {
+        if (typeof window.showLevelLockedModal === 'function') {
+          window.showLevelLockedModal({ requiredLevel: minLevel, currentLevel: userLevel, moduleName: item.label });
+        } else {
+          toast(`🔒 ${item.label} is locked in the ${minLevel} tier!`, 'coral');
+        }
+        return;
+      }
     }
   }
 
@@ -627,7 +755,11 @@ async function setView(view){
 }
 
 async function enterApp(){
-  initGlobalChatbot();
+  await loadLevelConfig();
+  const onboarded = isUserOnboarded(S.user);
+  if (onboarded) {
+    initGlobalChatbot();
+  }
   const loginScreen = $('#login-screen');
   if (loginScreen) {
     loginScreen.innerHTML = '';
@@ -636,14 +768,16 @@ async function enterApp(){
   }
   $('#app').classList.add('active');
   renderShell();
-  if (window.DragonMascot && window.DragonMascot.initFloatingCompanion) {
+  if (onboarded && window.DragonMascot && window.DragonMascot.initFloatingCompanion) {
     window.DragonMascot.initFloatingCompanion(S.user);
   }
-  const home = S.user.role === 'student' ? 'dashboard' : S.user.role === 'teacher' ? 't-dashboard' : 'a-users';
+  const home = S.user.role === 'student' ? (onboarded ? 'dashboard' : 'onboarding') : S.user.role === 'teacher' ? 't-dashboard' : 'a-users';
   const hashView = (location.hash || '').replace(/^#/, '').trim();
   const sessionView = sessionStorage.getItem('lingrow_current_view');
   let targetView = home;
-  if (hashView && VIEW_RENDERERS[hashView]) {
+  if (!onboarded && S.user.role === 'student') {
+    targetView = 'onboarding';
+  } else if (hashView && VIEW_RENDERERS[hashView]) {
     targetView = hashView;
   } else if (sessionView && VIEW_RENDERERS[sessionView]) {
     targetView = sessionView;
@@ -721,7 +855,7 @@ function updateGlobalChatbotVisibility(view) {
   if (!fab) return;
   const currentView = view || S.view;
   const isAuth = !!S.user;
-  const isTutorPage = currentView === 'tutor';
+  const isTutorPage = currentView === 'tutor' || currentView === 'onboarding' || (S.user?.role === 'student' && !isUserOnboarded(S.user));
   const shouldHide = !isAuth || isTutorPage || isMicRecording;
   fab.style.display = shouldHide ? 'none' : 'flex';
   if (shouldHide) {

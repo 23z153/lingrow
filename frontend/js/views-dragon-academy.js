@@ -127,8 +127,10 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
   const dueCount = Array.isArray(dueWeakWords) ? dueWeakWords.length : 0;
   const dailyWord = dailyRes?.dailyWord || null;
   const challengeLevels = challengeRes?.levels || null;
-  const unlockedTiers = challengeRes?.unlockedLevels || ['Beginner'];
-  const highestTier = unlockedTiers.includes('Advanced') ? 'Advanced' : unlockedTiers.includes('Intermediate') ? 'Intermediate' : 'Beginner';
+  const studentLevel = (S.user && typeof getStudentLevel === 'function') ? getStudentLevel(S.user) : (progress.level || 'Beginner');
+  const isIntermUnlocked = typeof canAccessLevel === 'function' ? canAccessLevel(studentLevel, 'Intermediate') : (studentLevel === 'Intermediate' || studentLevel === 'Advanced');
+  const isAdvUnlocked = typeof canAccessLevel === 'function' ? canAccessLevel(studentLevel, 'Advanced') : (studentLevel === 'Advanced');
+  const highestTier = studentLevel;
 
   const recommendations = highestTier === 'Advanced' ? [
     { icon: '🎙️', tag: 'World Stage', title: 'TED Global Amphitheater', desc: 'Deliver an executive oratory with real-time rhetorical feedback.', nav: 'world-stage' },
@@ -259,16 +261,16 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
     </div>
 
     <div class="dragon-levels-grid" style="margin-bottom:32px">
-      <!-- BEGINNER TIER -->
+      <!-- BEGINNER TIER: HATCHLING -->
       <div class="tier-level-card" style="--tier-accent:#10B981; --tier-glow:rgba(16,185,129,0.35);padding:18px">
         <div>
           <div class="tier-badge-row" style="margin-bottom:8px">
-            <span class="tier-subtitle" style="font-size:11px">LEVEL 1 · FOUNDATIONS</span>
+            <span class="tier-subtitle" style="font-size:11px">LEVEL 1 · HATCHLING</span>
             <span class="tier-pill-unlocked" style="font-size:10.5px"><span>✓</span> UNLOCKED</span>
           </div>
           <div class="tier-title-row" style="margin-bottom:4px">
             <span style="font-size:22px">🌱</span>
-            <h3 class="tier-name" style="font-size:17px">BEGINNER</h3>
+            <h3 class="tier-name" style="font-size:17px">HATCHLING (BEGINNER)</h3>
           </div>
           <p class="tier-desc" style="font-size:12.5px;margin-bottom:12px;min-height:36px">
             Core grammar syntax, vocabulary, sentence construction, and daily spoken inquiry.
@@ -290,18 +292,18 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
         </div>
       </div>
 
-      <!-- INTERMEDIATE TIER -->
-      <div class="tier-level-card ${unlockedTiers.includes('Intermediate') ? '' : 'tier-locked'}" style="--tier-accent:#06B6D4; --tier-glow:rgba(6,182,212,0.35);padding:18px">
+      <!-- INTERMEDIATE TIER: FLAME KEEPER -->
+      <div class="tier-level-card ${isIntermUnlocked ? '' : 'tier-locked'}" style="--tier-accent:#06B6D4; --tier-glow:rgba(6,182,212,0.35);padding:18px">
         <div>
           <div class="tier-badge-row" style="margin-bottom:8px">
-            <span class="tier-subtitle" style="font-size:11px;color:#06B6D4">LEVEL 2 · FLUENCY & STORIES</span>
-            ${unlockedTiers.includes('Intermediate')
+            <span class="tier-subtitle" style="font-size:11px;color:#06B6D4">LEVEL 2 · FLAME KEEPER</span>
+            ${isIntermUnlocked
               ? `<span class="tier-pill-unlocked" style="font-size:10.5px;color:#06B6D4;border-color:#06B6D4"><span>✓</span> UNLOCKED</span>`
               : `<span class="tier-pill-locked" style="font-size:10.5px"><span>🔒</span> LOCKED</span>`}
           </div>
           <div class="tier-title-row" style="margin-bottom:4px">
             <span style="font-size:22px">⚡</span>
-            <h3 class="tier-name" style="font-size:17px">INTERMEDIATE</h3>
+            <h3 class="tier-name" style="font-size:17px">FLAME KEEPER (INTERMEDIATE)</h3>
           </div>
           <p class="tier-desc" style="font-size:12.5px;margin-bottom:12px;min-height:36px">
             Complex grammar, phrasal verbs, collegiate speed battles, and spontaneous storytelling.
@@ -317,30 +319,30 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
               <div class="tier-progress-bar-inner" style="width:${challengeLevels?.Intermediate?.percent || 0}%;background:#06B6D4"></div>
             </div>
           </div>
-          ${unlockedTiers.includes('Intermediate') ? `
+          ${isIntermUnlocked ? `
             <button class="btn btn-primary btn-sm w-full" data-nav="adventures" style="background:#06B6D4;border-color:#06B6D4;font-weight:700;font-size:12px">
               Play Challenges &rarr;
             </button>
           ` : `
-            <div style="font-size:11px;color:#EF4444;font-weight:600;text-align:center;padding:4px 0">
-              🔒 Requires 4 Beginner wins (${challengeLevels?.Beginner?.completed || 0}/4)
-            </div>
+            <button class="btn btn-ghost btn-sm w-full" onclick="showLevelLockedModal({ requiredLevel: 'Intermediate', currentLevel: '${studentLevel}', moduleName: 'Flame Keeper Challenges' })" style="font-size:11px;color:#EF4444;font-weight:600;text-align:center;padding:4px 0;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3)">
+              🔒 Requires Flame Keeper (Intermediate) rank
+            </button>
           `}
         </div>
       </div>
 
-      <!-- ADVANCED TIER -->
-      <div class="tier-level-card ${unlockedTiers.includes('Advanced') ? '' : 'tier-locked'}" style="--tier-accent:#8B5CF6; --tier-glow:rgba(139,92,246,0.35);padding:18px">
+      <!-- ADVANCED TIER: SKY GUARDIAN -->
+      <div class="tier-level-card ${isAdvUnlocked ? '' : 'tier-locked'}" style="--tier-accent:#8B5CF6; --tier-glow:rgba(139,92,246,0.35);padding:18px">
         <div>
           <div class="tier-badge-row" style="margin-bottom:8px">
-            <span class="tier-subtitle" style="font-size:11px;color:#8B5CF6">LEVEL 3 · ORATORY & ARENA</span>
-            ${unlockedTiers.includes('Advanced')
+            <span class="tier-subtitle" style="font-size:11px;color:#8B5CF6">LEVEL 3 · SKY GUARDIAN</span>
+            ${isAdvUnlocked
               ? `<span class="tier-pill-unlocked" style="font-size:10.5px;color:#8B5CF6;border-color:#8B5CF6"><span>✓</span> UNLOCKED</span>`
               : `<span class="tier-pill-locked" style="font-size:10.5px"><span>🔒</span> LOCKED</span>`}
           </div>
           <div class="tier-title-row" style="margin-bottom:4px">
             <span style="font-size:22px">🔥</span>
-            <h3 class="tier-name" style="font-size:17px">ADVANCED</h3>
+            <h3 class="tier-name" style="font-size:17px">SKY GUARDIAN (ADVANCED)</h3>
           </div>
           <p class="tier-desc" style="font-size:12.5px;margin-bottom:12px;min-height:36px">
             Hostile boardroom pitches, executive rhetoric, negative inversions, and TED-style public oratory.
@@ -356,14 +358,14 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
               <div class="tier-progress-bar-inner" style="width:${challengeLevels?.Advanced?.percent || 0}%;background:#8B5CF6"></div>
             </div>
           </div>
-          ${unlockedTiers.includes('Advanced') ? `
+          ${isAdvUnlocked ? `
             <button class="btn btn-primary btn-sm w-full" data-nav="adventures" style="background:#8B5CF6;border-color:#8B5CF6;font-weight:700;font-size:12px">
               Play Challenges &rarr;
             </button>
           ` : `
-            <div style="font-size:11px;color:#EF4444;font-weight:600;text-align:center;padding:4px 0">
-              🔒 Requires 4 Intermediate wins (${challengeLevels?.Intermediate?.completed || 0}/4)
-            </div>
+            <button class="btn btn-ghost btn-sm w-full" onclick="showLevelLockedModal({ requiredLevel: 'Advanced', currentLevel: '${studentLevel}', moduleName: 'Sky Guardian Challenges' })" style="font-size:11px;color:#EF4444;font-weight:600;text-align:center;padding:4px 0;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3)">
+              🔒 Requires Sky Guardian (Advanced) rank
+            </button>
           `}
         </div>
       </div>
@@ -585,6 +587,10 @@ VIEW_RENDERERS['dashboard'] = async (mount) => {
    VIEW 2: THE 7 DRAGON KINGDOMS (WORLD MAP)
    -------------------------------------------------------------------------- */
 VIEW_RENDERERS['kingdoms'] = async (mount) => {
+  const userLevel = (S.user && typeof getStudentLevel === 'function') ? getStudentLevel(S.user) : 'Beginner';
+  const cfg = S.levelConfig || {};
+  const modules = cfg.modules || {};
+
   mount.innerHTML = `
     <div style="margin-bottom:24px">
       <div class="row gap-sm" style="align-items:center;margin-bottom:6px">
@@ -598,8 +604,17 @@ VIEW_RENDERERS['kingdoms'] = async (mount) => {
     </div>
 
     <div class="dragon-kingdoms-grid" style="grid-template-columns:repeat(auto-fit, minmax(320px, 1fr))">
-      ${DRAGON_KINGDOMS.map((k) => `
-        <div class="kingdom-portal-card" data-nav="${k.destination}" style="--kingdom-color:${k.color}; --kingdom-soft:${k.soft}; --kingdom-glow:${k.glow}; padding:26px">
+      ${DRAGON_KINGDOMS.map((k) => {
+        const reqLevel = modules[k.destination] || (k.destination === 'read-aloud' || k.destination === 'simulator' ? 'Intermediate' : 'Beginner');
+        const isLocked = S.user?.role === 'student' && typeof canAccessLevel === 'function' && !canAccessLevel(userLevel, reqLevel);
+
+        return `
+        <div class="kingdom-portal-card ${isLocked ? 'is-locked' : ''}" data-nav="${k.destination}" data-locked="${isLocked ? 'true' : 'false'}" data-minlevel="${reqLevel}" data-name="${esc(k.name)}" style="--kingdom-color:${k.color}; --kingdom-soft:${k.soft}; --kingdom-glow:${k.glow}; padding:26px; position:relative; ${isLocked ? 'opacity:0.8; filter:grayscale(0.35);' : ''}">
+          ${isLocked ? `
+            <div style="position:absolute;top:18px;right:18px;display:flex;align-items:center;gap:5px;background:rgba(239,68,68,0.18);border:1px solid rgba(239,68,68,0.4);color:#EF4444;border-radius:20px;padding:3px 9px;font-size:10px;font-weight:800;letter-spacing:0.04em">
+              <span>🔒</span> <span>Requires ${reqLevel}</span>
+            </div>
+          ` : ''}
           <div>
             <div class="kingdom-header" style="margin-bottom:16px">
               <div class="kingdom-icon-crest" style="width:54px;height:54px;font-size:30px">${k.icon}</div>
@@ -614,16 +629,28 @@ VIEW_RENDERERS['kingdoms'] = async (mount) => {
               ${k.activities.map((act) => `<span class="kingdom-activity-pill" style="padding:4px 10px;font-size:12px">${act}</span>`).join('')}
             </div>
           </div>
-          <button class="kingdom-btn" style="padding:12px 18px;font-size:14px">
-            ${k.actionText} <span>&rarr;</span>
+          <button class="kingdom-btn" style="padding:12px 18px;font-size:14px; ${isLocked ? 'background:var(--color-surface-2);color:var(--cream-dim);border:1px solid var(--line);' : ''}">
+            ${isLocked ? `Locked Chamber 🔒` : `${k.actionText} <span>&rarr;</span>`}
           </button>
         </div>
-      `).join('')}
+      `;}).join('')}
     </div>
   `;
 
-  mount.querySelectorAll('[data-nav]').forEach((b) => {
-    b.onclick = () => setView(b.dataset.nav);
+  mount.querySelectorAll('.kingdom-portal-card').forEach((card) => {
+    card.onclick = () => {
+      if (card.dataset.locked === 'true') {
+        const reqLevel = card.dataset.minlevel;
+        const name = card.dataset.name;
+        if (typeof window.showLevelLockedModal === 'function') {
+          window.showLevelLockedModal({ requiredLevel: reqLevel, currentLevel: userLevel, moduleName: name });
+        } else {
+          toast(`🔒 ${name} requires ${reqLevel} rank to unlock.`, 'coral');
+        }
+        return;
+      }
+      setView(card.dataset.nav);
+    };
   });
 };
 

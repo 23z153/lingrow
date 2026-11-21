@@ -84,8 +84,25 @@ const Api = {
     }
 
     if (!res.ok) {
-      const err = new Error((data && data.error) || `Request failed (${res.status})`);
+      const err = new Error((data && (data.error || data.message)) || `Request failed (${res.status})`);
       err.status = res.status;
+      err.data = data;
+      err.code = data?.code;
+      err.requiredLevel = data?.requiredLevel;
+      err.currentLevel = data?.currentLevel;
+
+      if (res.status === 403 && typeof window !== 'undefined') {
+        if (data && data.code === 'ONBOARDING_REQUIRED') {
+          if (typeof window.handleOnboardingRequired === 'function') {
+            window.handleOnboardingRequired(data);
+          }
+        } else if (data && data.code === 'LEVEL_LOCKED') {
+          if (typeof window.showLevelLockedModal === 'function') {
+            window.showLevelLockedModal(data);
+          }
+        }
+      }
+
       throw err;
     }
     return data;
@@ -96,6 +113,14 @@ const Api = {
   put(path, body) { return this.request('PUT', path, body); },
   patch(path, body) { return this.request('PATCH', path, body); },
   del(path) { return this.request('DELETE', path); },
+
+  // levels & onboarding
+  getLevelConfig() { return this.get('/levels/config'); },
+  getMyLevel() { return this.get('/levels/me'); },
+  overrideUserLevel(userId, level, reason) { return this.patch(`/levels/${userId}`, { level, reason }); },
+  startPlacement() { return this.post('/onboarding/placement/start'); },
+  submitPlacement(payload) { return this.post('/onboarding/placement/submit', payload); },
+  selectOnboardingLevel(payload) { return this.post('/onboarding/select-level', payload); },
 
   // auth
   register(payload) { return this.post('/auth/register', payload); },

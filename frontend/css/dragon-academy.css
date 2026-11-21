@@ -2754,3 +2754,100 @@ a:focus-visible {
   }
 }
 
+/* ==========================================================================
+   GATE 4: DRAGON EGG TRIAL ONBOARDING & LEVEL LOCK MODAL STYLES
+   ========================================================================== */
+
+.trial-container {
+  width: 100%;
+}
+
+.trial-hero-card {
+  background: var(--color-surface);
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.25), 0 0 24px rgba(16, 185, 129, 0.1);
+}
+
+.trial-path-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.trial-path-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(6, 182, 212, 0.2);
+}
+
+.option-btn:hover {
+  transform: translateX(4px);
+  border-color: var(--cyan);
+}
+
+.tier-choice-card,
+.self-tier-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tier-choice-card:not(.disabled):hover,
+.self-tier-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.2);
+}
+
+.level-lock-modal-overlay {
+  z-index: 9999;
+  background: rgba(11, 17, 32, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.level-lock-modal {
+  animation: levelLockPop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes levelLockPop {
+  from {
+    opacity: 0;
+    transform: scale(0.93) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.topbar-level-badge {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease;
+}
+
+.topbar-level-badge:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .trial-hero-card {
+    padding: 24px 16px !important;
+  }
+  .trial-path-card {
+    padding: 20px 16px !important;
+  }
+  .level-lock-modal {
+    padding: 20px 16px !important;
+    margin: 12px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trial-path-card,
+  .option-btn,
+  .tier-choice-card,
+  .self-tier-card,
+  .level-lock-modal,
+  .topbar-level-badge {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+
