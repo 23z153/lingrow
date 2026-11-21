@@ -29,6 +29,14 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
   let chosenLevel = 'Beginner';
   let finalResult = null;
 
+  // If student has already completed onboarding, go straight to summary
+  if (S.user && (typeof isUserOnboarded === 'function' ? isUserOnboarded(S.user) : (S.user.onboardingCompleted && S.user.level))) {
+    chosenLevel = S.user.level || 'Beginner';
+    state = 'SUMMARY';
+    renderSummary();
+    return;
+  }
+
   function stopTimer() {
     if (timerInterval) {
       clearInterval(timerInterval);
@@ -698,19 +706,22 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
       const res = await Api.selectOnboardingLevel(payload);
       finalResult = res;
 
+      const userObj = res.user || res;
+      const assignedLevel = userObj.level || res.level || chosenLevel;
+
       // Update local state in app
       if (S.user) {
-        S.user.level = res.level;
+        S.user.level = assignedLevel;
         S.user.onboardingCompleted = true;
-        S.user.unlockedLevels = res.unlockedLevels || ['Beginner'];
+        S.user.unlockedLevels = userObj.unlockedLevels || res.unlockedLevels || (typeof getUnlockedLevelsForLevel === 'function' ? getUnlockedLevelsForLevel(assignedLevel) : ['Beginner']);
       }
 
       // Trigger Dragon Mascot celebration
       if (window.DragonMascot && window.DragonMascot.celebrate) {
-        const curTierTitle = res.currentTier?.title || chosenLevel;
+        const curTierTitle = res.currentTier?.title || userObj.currentTier?.title || (tiers[assignedLevel] && tiers[assignedLevel].title) || assignedLevel;
         window.DragonMascot.celebrate({
           title: `Dragon Companion Awakened!`,
-          message: `Your companion has bonded with you as a ${curTierTitle} (${res.level}). The gates of the academy are now open!`,
+          message: `Your companion has bonded with you as a ${curTierTitle} (${assignedLevel}). The gates of the academy are now open!`,
           xp: 25,
           onDismiss: () => {
             renderSummary();
@@ -722,6 +733,19 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
       state = 'SUMMARY';
       renderSummary();
     } catch (err) {
+      if (err.status === 409 || err.code === 'ONBOARDING_ALREADY_COMPLETED' || err.data?.code === 'ONBOARDING_ALREADY_COMPLETED' || (err.message && err.message.includes('already been completed'))) {
+        if (S.user) {
+          S.user.onboardingCompleted = true;
+          S.user.level = err.data?.level || S.user.level || chosenLevel || 'Beginner';
+          if (typeof getUnlockedLevelsForLevel === 'function') {
+            S.user.unlockedLevels = err.data?.unlockedLevels || getUnlockedLevelsForLevel(S.user.level);
+          }
+        }
+        toast('Your dragon companion is already attuned!', 'sprout');
+        state = 'SUMMARY';
+        renderSummary();
+        return;
+      }
       toast(err.message || 'Could not complete level attunement.', 'coral');
       if (btn) {
         btn.disabled = false;
