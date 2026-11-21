@@ -170,6 +170,70 @@ describe('Latency-Optimized AI Chatbot Architecture Unit Tests', () => {
     });
   });
 
+  describe('Structured JSON & Rich Card Parser', () => {
+    const { parseStructuredReply } = require('../src/routes/tutor');
+
+    test('parses explicit JSON structured response with diff', () => {
+      const raw = JSON.stringify({
+        type: 'correction',
+        message: 'Let us polish that sentence!',
+        diff: { original: 'He go there', corrected: 'He goes there', rule: 'Subject-Verb Agreement' },
+      });
+      const res = parseStructuredReply(raw, {
+        message: 'He go there',
+        correction: null,
+        verification: { isCorrect: true, feedback: 'Verified by verifier' },
+        pipelineRoute: 'grammar_detector_explainer',
+      });
+
+      expect(res.type).toBe('correction');
+      expect(res.diff).toBeDefined();
+      expect(res.diff.corrected).toBe('He goes there');
+      expect(res.verifierNotes).toBe('Verified by verifier');
+    });
+
+    test('parses markdown code-fenced JSON responses', () => {
+      const raw = '```json\n{"type":"vocab","vocab":{"word":"articulate","phonetic":"/ɑːˈtɪk.jə.lət/","meaning":"Express fluently"}}\n```';
+      const res = parseStructuredReply(raw, {
+        message: 'What is articulate?',
+        correction: null,
+        verification: null,
+        pipelineRoute: 'fast_single_pass',
+      });
+
+      expect(res.type).toBe('vocab');
+      expect(res.vocab.word).toBe('articulate');
+    });
+
+    test('falls back gracefully to general response when given unstructured plain text', () => {
+      const raw = 'The present perfect tense connects past events to the present moment.';
+      const res = parseStructuredReply(raw, {
+        message: 'Explain present perfect',
+        correction: null,
+        verification: { feedback: 'Audited' },
+        pipelineRoute: 'fast_single_pass',
+      });
+
+      expect(res.type).toBe('general');
+      expect(res.message).toBe(raw);
+      expect(res.verifierNotes).toBe('Audited');
+    });
+
+    test('auto-constructs diff structure from deterministic GEC correction span', () => {
+      const res = parseStructuredReply('Correction: He plays football.', {
+        message: 'He play football',
+        correction: '"play" -> "plays" (Subject-Verb Agreement)',
+        verification: null,
+        pipelineRoute: 'grammar_detector_explainer',
+      });
+
+      expect(res.type).toBe('correction');
+      expect(res.diff).toBeDefined();
+      expect(res.diff.corrected).toContain('plays');
+      expect(res.diff.rule).toContain('Subject-Verb Agreement');
+    });
+  });
+
   describe('End-to-End Pipeline Execution (Section 2 & 5)', () => {
     test('answers user query and returns execution metadata', async () => {
       const res = await answerQuestion({

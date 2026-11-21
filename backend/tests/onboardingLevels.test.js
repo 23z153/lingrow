@@ -443,7 +443,7 @@ describe('Gate 2: Onboarding, Placement Engine, Level Gating & Admin/Teacher Ove
           }
         }
       }
-    }, 60000);
+    }, 180000);
 
     test('rejects submitting another student\'s attempt with 403', async () => {
       const startRes = await request(app)

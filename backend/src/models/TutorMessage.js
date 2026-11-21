@@ -39,6 +39,7 @@ const tutorMessageSchema = new mongoose.Schema(
     pipelineRoute: { type: String },
     engine: { type: String },
     latencyMs: { type: Number },
+    structured: { type: mongoose.Schema.Types.Mixed },
     liveTaskSnapshot: { type: Object },
   },
   { timestamps: true }

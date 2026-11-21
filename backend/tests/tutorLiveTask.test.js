@@ -1,8 +1,6 @@
 const request = require('supertest');
 const createApp = require('../src/app');
-const User = require('../src/models/User');
-const TutorMessage = require('../src/models/TutorMessage');
-const { signAccessToken } = require('../src/utils/tokens');
+const { createTestUser } = require('./helpers/createUser');
 
 const app = createApp();
 
@@ -12,27 +10,22 @@ describe('Live Task Chatbot & Admin Monitoring API', () => {
   let studentUser;
 
   beforeEach(async () => {
-    studentUser = new User({
+    const studentRes = await createTestUser({
       name: 'Task Student',
-      email: `task.student.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'student',
       department: 'CSE',
       xp: 150,
       level: 'Beginner',
       onboardingCompleted: true,
     });
-    await studentUser.setPassword('password123');
-    await studentUser.save();
-    studentToken = signAccessToken(studentUser);
+    studentUser = studentRes.user;
+    studentToken = studentRes.token;
 
-    const adminUser = new User({
+    const adminRes = await createTestUser({
       name: 'Admin User',
-      email: `admin.${Date.now()}.${Math.random().toString(36).slice(2)}@example.com`,
       role: 'admin',
     });
-    await adminUser.setPassword('password123');
-    await adminUser.save();
-    adminToken = signAccessToken(adminUser);
+    adminToken = adminRes.token;
   });
 
   test('POST /api/tutor/message analyzes live student tasks and answers English query', async () => {
@@ -48,7 +41,7 @@ describe('Live Task Chatbot & Admin Monitoring API', () => {
 
   test('GET /api/admin/tutor-logs returns logged student chatbot queries for Admin', async () => {
     // Send a message first
-    await request(app)
+    const postRes = await request(app)
       .post('/api/tutor/message')
       .set('Authorization', `Bearer ${studentToken}`)
       .send({ message: 'What is the rule for present perfect tense?' });
