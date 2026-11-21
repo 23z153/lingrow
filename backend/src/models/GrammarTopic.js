@@ -29,4 +29,7 @@ const grammarTopicSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+grammarTopicSchema.index({ topicId: 1, createdAt: 1 });
+grammarTopicSchema.index({ level: 1, topicId: 1 });
+
 module.exports = mongoose.model('GrammarTopic', grammarTopicSchema);

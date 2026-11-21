@@ -19,4 +19,6 @@ const grammarAttemptSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+grammarAttemptSchema.index({ user: 1, topic: 1 });
+
 module.exports = mongoose.model('GrammarAttempt', grammarAttemptSchema);

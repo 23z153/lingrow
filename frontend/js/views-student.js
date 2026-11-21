@@ -4641,15 +4641,17 @@ const GRAMMAR_CAT_ICONS = {
 
 VIEW_RENDERERS['grammar'] = async (mount) => {
   let topics = [];
-  let progress = null;
   try {
-    [topics, progress] = await Promise.all([
-      Api.grammarTopics().catch(() => []),
-      Api.grammarProgress().catch(() => null),
-    ]);
+    topics = await Api.grammarTopics();
   } catch (err) {
     topics = [];
   }
+  const completedCount = topics.filter(t => t.isCompleted || t.completed).length;
+  const progress = {
+    completedCount,
+    totalTopics: topics.length,
+    passPercent: 50,
+  };
   renderGrammarView(mount, topics, progress);
 };
 
@@ -4682,9 +4684,10 @@ function renderGrammarView(mount, topics, progress) {
   // Find first unlocked topic that is not yet completed
   const firstActiveUnlocked = topics.find(t => !t.isLocked && !t.isCompleted && !t.completed);
 
-  let filterLevel = 'all';
+  let filterLevel = (window.S && S.user && S.user.level) ? S.user.level : 'all';
   let filterStatus = 'all';
   let searchQuery = '';
+  let displayLimit = 24;
 
   const beginnerCount = topics.filter(t => t.level === 'Beginner').length;
   const intermediateCount = topics.filter(t => t.level === 'Intermediate').length;
@@ -4716,10 +4719,10 @@ function renderGrammarView(mount, topics, progress) {
             <input type="text" id="grammar-search-input" class="input input-sm" placeholder="🔍 Search by topic, rule, category, or #topic..." style="width:100%;border-radius:20px;padding:8px 14px;font-size:13px">
           </div>
           <div class="row gap-xs" style="align-items:center;flex-wrap:wrap" id="grammar-level-btn-group">
-            <button class="btn btn-xs btn-primary grammar-level-btn" data-level="all">All (${topics.length})</button>
-            <button class="btn btn-xs btn-ghost grammar-level-btn" data-level="Beginner">Beginner (${beginnerCount})</button>
-            <button class="btn btn-xs btn-ghost grammar-level-btn" data-level="Intermediate">Intermediate (${intermediateCount})</button>
-            <button class="btn btn-xs btn-ghost grammar-level-btn" data-level="Advanced">Advanced (${advancedCount})</button>
+            <button class="btn btn-xs ${filterLevel === 'all' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="all">All (${topics.length})</button>
+            <button class="btn btn-xs ${filterLevel === 'Beginner' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Beginner">Beginner (${beginnerCount})</button>
+            <button class="btn btn-xs ${filterLevel === 'Intermediate' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Intermediate">Intermediate (${intermediateCount})</button>
+            <button class="btn btn-xs ${filterLevel === 'Advanced' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Advanced">Advanced (${advancedCount})</button>
           </div>
           <div class="row gap-xs" style="align-items:center" id="grammar-status-btn-group">
             <button class="btn btn-xs btn-secondary grammar-status-btn" data-status="all">All Status</button>
@@ -4728,7 +4731,7 @@ function renderGrammarView(mount, topics, progress) {
           </div>
         </div>
         <div class="row" style="justify-content:space-between;align-items:center;font-size:12px;color:var(--cream-faint);margin-top:2px">
-          <span id="grammar-filtered-count">Showing ${topics.length} of ${topics.length} topics</span>
+          <span id="grammar-filtered-count">Showing 0 of ${topics.length} topics</span>
           <span>🏰 Sequential Curriculum (Topic 1 &rarr; Topic 243)</span>
         </div>
       </div>
@@ -4763,8 +4766,13 @@ function renderGrammarView(mount, topics, progress) {
     if (!grid) return;
     const filtered = getFilteredTopics();
     const countInfo = mount.querySelector('#grammar-filtered-count');
+
+    // When searching, show all matches immediately; otherwise paginate in chunks of 24
+    const currentLimit = searchQuery ? filtered.length : displayLimit;
+    const visible = filtered.slice(0, currentLimit);
+
     if (countInfo) {
-      countInfo.textContent = `Showing ${filtered.length} of ${topics.length} topics`;
+      countInfo.textContent = `Showing ${visible.length} of ${filtered.length} topics (${topics.length} total)`;
     }
 
     if (!filtered.length) {
@@ -4778,7 +4786,7 @@ function renderGrammarView(mount, topics, progress) {
       return;
     }
 
-    grid.innerHTML = filtered.map(t => {
+    const cardsHtml = visible.map(t => {
       const isDone = !!(t.isCompleted || t.completed);
       const isLocked = !!t.isLocked;
       const isCurrent = !isLocked && !isDone && (!firstActiveUnlocked || String(firstActiveUnlocked._id) === String(t._id));
@@ -4844,9 +4852,39 @@ function renderGrammarView(mount, topics, progress) {
       `;
     }).join('');
 
+    const hasMore = visible.length < filtered.length;
+    const remainingCount = filtered.length - visible.length;
+    const loadMoreHtml = hasMore ? `
+      <div class="row gap-sm" style="grid-column:1/-1;justify-content:center;margin:24px 0 16px 0;align-items:center" id="grammar-load-more-wrap">
+        <button class="btn btn-primary btn-sm" id="btn-grammar-load-more" style="padding:10px 24px;border-radius:24px;font-weight:700">
+          Load More Topics (${remainingCount} remaining) &darr;
+        </button>
+        <button class="btn btn-ghost btn-sm" id="btn-grammar-load-all" style="padding:10px 18px;font-size:13px">
+          Show All (${filtered.length})
+        </button>
+      </div>
+    ` : '';
+
+    grid.innerHTML = cardsHtml + loadMoreHtml;
+
     grid.querySelectorAll('[data-start-grammar]').forEach(btn => {
       btn.onclick = () => openGrammarQuiz(btn.dataset.startGrammar, mount, topics);
     });
+
+    const loadMoreBtn = grid.querySelector('#btn-grammar-load-more');
+    if (loadMoreBtn) {
+      loadMoreBtn.onclick = () => {
+        displayLimit += 24;
+        renderGridCards();
+      };
+    }
+    const loadAllBtn = grid.querySelector('#btn-grammar-load-all');
+    if (loadAllBtn) {
+      loadAllBtn.onclick = () => {
+        displayLimit = filtered.length;
+        renderGridCards();
+      };
+    }
   }
 
   // Initial card render
@@ -4871,6 +4909,7 @@ function renderGrammarView(mount, topics, progress) {
       btn.classList.remove('btn-ghost');
       btn.classList.add('btn-primary');
       filterLevel = btn.dataset.level;
+      displayLimit = 24;
       renderGridCards();
     };
   });
@@ -4885,6 +4924,7 @@ function renderGrammarView(mount, topics, progress) {
       btn.classList.remove('btn-ghost');
       btn.classList.add('btn-secondary');
       filterStatus = btn.dataset.status;
+      displayLimit = 24;
       renderGridCards();
     };
   });
