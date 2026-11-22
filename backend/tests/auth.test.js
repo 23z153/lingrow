@@ -2,6 +2,8 @@ const request = require('supertest');
 const createApp = require('../src/app');
 const User = require('../src/models/User');
 
+jest.setTimeout(60000);
+
 const app = createApp();
 
 function newUserPayload(overrides = {}) {
