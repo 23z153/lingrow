@@ -4641,15 +4641,17 @@ const GRAMMAR_CAT_ICONS = {
 
 VIEW_RENDERERS['grammar'] = async (mount) => {
   let topics = [];
-  let progress = null;
   try {
-    [topics, progress] = await Promise.all([
-      Api.grammarTopics().catch(() => []),
-      Api.grammarProgress().catch(() => null),
-    ]);
+    topics = await Api.grammarTopics();
   } catch (err) {
     topics = [];
   }
+  const completedCount = topics.filter(t => t.isCompleted || t.completed).length;
+  const progress = {
+    completedCount,
+    totalTopics: topics.length,
+    passPercent: 50,
+  };
   renderGrammarView(mount, topics, progress);
 };
 
@@ -4682,6 +4684,15 @@ function renderGrammarView(mount, topics, progress) {
   // Find first unlocked topic that is not yet completed
   const firstActiveUnlocked = topics.find(t => !t.isLocked && !t.isCompleted && !t.completed);
 
+  let filterLevel = (window.S && S.user && S.user.level) ? S.user.level : 'all';
+  let filterStatus = 'all';
+  let searchQuery = '';
+  let displayLimit = 24;
+
+  const beginnerCount = topics.filter(t => t.level === 'Beginner').length;
+  const intermediateCount = topics.filter(t => t.level === 'Intermediate').length;
+  const advancedCount = topics.filter(t => t.level === 'Advanced').length;
+
   mount.innerHTML = `
     <div class="col gap-md">
       <!-- Sequential Progress Header -->
@@ -4701,81 +4712,221 @@ function renderGrammarView(mount, topics, progress) {
         </div>
       </div>
 
-      <!-- Topics Grid (Clean Syllabus Order, Sequential Unlocking) -->
-      <div class="grid grid-2" id="grammar-grid">
-        ${topics.length ? topics.map(t => {
-          const isDone = !!(t.isCompleted || t.completed);
-          const isLocked = !!t.isLocked;
-          const isCurrent = !isLocked && !isDone && (!firstActiveUnlocked || String(firstActiveUnlocked._id) === String(t._id));
-          const hasVideo = !!t.videoUrl;
-          const qCount = t.questionCount || (t.questions && t.questions.length) || 25;
-          const orderNum = t.order || t.topicId || '';
-
-          return `
-            <div id="topic-card-${t._id}" class="grammar-topic-card ${isDone ? 'completed' : ''}" style="${isLocked ? 'opacity:0.62;background:var(--color-surface-1);border:1px dashed var(--line);' : isCurrent ? 'border:2px solid var(--purple);box-shadow:0 0 16px rgba(124, 58, 237, 0.25);' : ''}">
-              <div>
-                <div class="row gap-xs" style="margin-bottom:10px;flex-wrap:wrap;align-items:center">
-                  <span class="pill ${t.category === 'Tenses' ? 'amber' : t.category === 'Common Pitfalls' ? 'coral' : 'sprout'}" style="font-size:11px">
-                    ${GRAMMAR_CAT_ICONS[t.category] || '📌'} ${esc(t.category)}
-                  </span>
-                  <span class="pill voice" style="font-size:10.5px">${t.level || 'Beginner'}</span>
-                  ${hasVideo ? '<span class="pill emerald" style="font-size:10.5px">📹 Video Lesson</span>' : ''}
-                  <div class="spacer"></div>
-                  <span id="badge-status-${t._id}">
-                    ${isDone
-                      ? `<span class="pill emerald" style="font-size:11px;font-weight:700">${ICONS.check} ${t.bestScore}% Best</span>`
-                      : isLocked
-                        ? `<span class="pill" style="font-size:10.5px;color:var(--cream-dim);border-color:var(--line)"><i class="bi bi-lock-fill"></i> Locked</span>`
-                        : `<span class="pill voice" style="font-size:10.5px;font-weight:700">Continue</span>`
-                    }
-                  </span>
-                </div>
-                <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">
-                  ${orderNum ? `<span style="font-size:13px;color:var(--cream-faint);margin-right:4px">#${orderNum}</span>` : ''}${esc(t.title)}
-                </h3>
-                <p style="font-size:13px;color:var(--cream-dim);line-height:1.55;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden">
-                  ${esc(t.description)}
-                </p>
-                <div id="unlock-msg-${t._id}">
-                  ${isLocked ? `
-                    <div style="font-size:12px;color:var(--coral);margin-bottom:12px;display:flex;align-items:center;gap:6px">
-                      <i class="bi bi-lock-fill"></i> Complete "${esc(t.previousTopicTitle || 'previous topic')}" with &ge;${passMark}% to unlock
-                    </div>
-                  ` : ''}
-                </div>
-              </div>
-              <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line);align-items:center">
-                <span style="font-size:12px;color:var(--cream-faint);display:inline-flex;align-items:center;gap:4px">
-                  📝 ${qCount} Questions Test
-                </span>
-                <div class="spacer"></div>
-                <div id="btn-container-${t._id}">
-                  ${isLocked ? `
-                    <button class="btn btn-secondary btn-sm" disabled style="opacity:0.6;cursor:not-allowed">
-                      <i class="bi bi-lock-fill"></i> Locked
-                    </button>
-                  ` : isDone ? `
-                    <button class="btn btn-secondary btn-sm" data-start-grammar="${t._id}">
-                      Retake Test ${ICONS.refresh}
-                    </button>
-                  ` : `
-                    <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
-                      Study &amp; Take Test ${ICONS.arrowRight}
-                    </button>
-                  `}
-                </div>
-              </div>
-            </div>
-          `;
-        }).join('') : '<div class="card empty-state">No grammar topics available.</div>'}
+      <!-- Search & Filters Toolbar -->
+      <div class="card col gap-sm" style="padding:14px 18px;background:var(--color-surface);border:1px solid var(--line);border-radius:14px">
+        <div class="row gap-sm" style="align-items:center;justify-content:space-between;flex-wrap:wrap">
+          <div style="flex:1;min-width:240px;position:relative">
+            <input type="text" id="grammar-search-input" class="input input-sm" placeholder="🔍 Search by topic, rule, category, or #topic..." style="width:100%;border-radius:20px;padding:8px 14px;font-size:13px">
+          </div>
+          <div class="row gap-xs" style="align-items:center;flex-wrap:wrap" id="grammar-level-btn-group">
+            <button class="btn btn-xs ${filterLevel === 'all' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="all">All (${topics.length})</button>
+            <button class="btn btn-xs ${filterLevel === 'Beginner' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Beginner">Beginner (${beginnerCount})</button>
+            <button class="btn btn-xs ${filterLevel === 'Intermediate' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Intermediate">Intermediate (${intermediateCount})</button>
+            <button class="btn btn-xs ${filterLevel === 'Advanced' ? 'btn-primary' : 'btn-ghost'} grammar-level-btn" data-level="Advanced">Advanced (${advancedCount})</button>
+          </div>
+          <div class="row gap-xs" style="align-items:center" id="grammar-status-btn-group">
+            <button class="btn btn-xs btn-secondary grammar-status-btn" data-status="all">All Status</button>
+            <button class="btn btn-xs btn-ghost grammar-status-btn" data-status="unlocked">Unlocked</button>
+            <button class="btn btn-xs btn-ghost grammar-status-btn" data-status="completed">Completed</button>
+          </div>
+        </div>
+        <div class="row" style="justify-content:space-between;align-items:center;font-size:12px;color:var(--cream-faint);margin-top:2px">
+          <span id="grammar-filtered-count">Showing 0 of ${topics.length} topics</span>
+          <span>🏰 Sequential Curriculum (Topic 1 &rarr; Topic 243)</span>
+        </div>
       </div>
+
+      <!-- Topics Grid (Clean Syllabus Order, Sequential Unlocking) -->
+      <div class="grid grid-2" id="grammar-grid"></div>
 
       <div id="grammar-active-area"></div>
     </div>
   `;
 
-  mount.querySelectorAll('[data-start-grammar]').forEach(btn => {
-    btn.onclick = () => openGrammarQuiz(btn.dataset.startGrammar, mount, topics);
+  function getFilteredTopics() {
+    return topics.filter(t => {
+      if (filterLevel !== 'all' && t.level !== filterLevel) return false;
+      if (filterStatus === 'unlocked' && t.isLocked) return false;
+      if (filterStatus === 'completed' && !(t.isCompleted || t.completed)) return false;
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const titleMatch = (t.title || '').toLowerCase().includes(q);
+        const catMatch = (t.category || '').toLowerCase().includes(q);
+        const unitMatch = (t.unit || '').toLowerCase().includes(q);
+        const descMatch = (t.description || '').toLowerCase().includes(q);
+        const idMatch = String(t.order || t.topicId || '').includes(q.replace('#', ''));
+        if (!titleMatch && !catMatch && !unitMatch && !descMatch && !idMatch) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderGridCards() {
+    const grid = mount.querySelector('#grammar-grid');
+    if (!grid) return;
+    const filtered = getFilteredTopics();
+    const countInfo = mount.querySelector('#grammar-filtered-count');
+
+    // When searching, show all matches immediately; otherwise paginate in chunks of 24
+    const currentLimit = searchQuery ? filtered.length : displayLimit;
+    const visible = filtered.slice(0, currentLimit);
+
+    if (countInfo) {
+      countInfo.textContent = `Showing ${visible.length} of ${filtered.length} topics (${topics.length} total)`;
+    }
+
+    if (!filtered.length) {
+      grid.innerHTML = `
+        <div class="card empty-state" style="grid-column:1/-1;padding:36px 20px;text-align:center">
+          <div style="font-size:32px;margin-bottom:8px">🔍</div>
+          <div style="font-size:15px;font-weight:700">No grammar topics match your filter</div>
+          <div style="font-size:13px;color:var(--cream-faint);margin-top:4px">Try adjusting your search query or switching levels.</div>
+        </div>
+      `;
+      return;
+    }
+
+    const cardsHtml = visible.map(t => {
+      const isDone = !!(t.isCompleted || t.completed);
+      const isLocked = !!t.isLocked;
+      const isCurrent = !isLocked && !isDone && (!firstActiveUnlocked || String(firstActiveUnlocked._id) === String(t._id));
+      const hasVideo = !!t.videoUrl;
+      const qCount = t.questionCount || (t.questions && t.questions.length) || 50;
+      const orderNum = t.order || t.topicId || '';
+
+      return `
+        <div id="topic-card-${t._id}" class="grammar-topic-card ${isDone ? 'completed' : ''}" style="${isLocked ? 'opacity:0.62;background:var(--color-surface-1);border:1px dashed var(--line);' : isCurrent ? 'border:2px solid var(--purple);box-shadow:0 0 16px rgba(124, 58, 237, 0.25);' : ''}">
+          <div>
+            <div class="row gap-xs" style="margin-bottom:10px;flex-wrap:wrap;align-items:center">
+              <span class="pill ${t.category === 'Tenses' ? 'amber' : t.category === 'Common Beginner Errors' ? 'coral' : 'sprout'}" style="font-size:11px">
+                ${GRAMMAR_CAT_ICONS[t.category] || '📌'} ${esc(t.category)}
+              </span>
+              <span class="pill voice" style="font-size:10.5px">${t.level || 'Beginner'}</span>
+              ${hasVideo ? '<span class="pill emerald" style="font-size:10.5px">📹 Video Lesson</span>' : ''}
+              <div class="spacer"></div>
+              <span id="badge-status-${t._id}">
+                ${isDone
+                  ? `<span class="pill emerald" style="font-size:11px;font-weight:700">${ICONS.check} ${t.bestScore}% Best</span>`
+                  : isLocked
+                    ? `<span class="pill" style="font-size:10.5px;color:var(--cream-dim);border-color:var(--line)"><i class="bi bi-lock-fill"></i> Locked</span>`
+                    : `<span class="pill voice" style="font-size:10.5px;font-weight:700">Continue</span>`
+                }
+              </span>
+            </div>
+            <h3 style="font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px">
+              ${orderNum ? `<span style="font-size:13px;color:var(--cream-faint);margin-right:4px">#${orderNum}</span>` : ''}${esc(t.title)}
+            </h3>
+            <p style="font-size:13px;color:var(--cream-dim);line-height:1.55;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden">
+              ${esc(t.description)}
+            </p>
+            <div id="unlock-msg-${t._id}">
+              ${isLocked ? `
+                <div style="font-size:12px;color:var(--coral);margin-bottom:12px;display:flex;align-items:center;gap:6px">
+                  <i class="bi bi-lock-fill"></i> Complete "${esc(t.previousTopicTitle || 'previous topic')}" with &ge;${passMark}% to unlock
+                </div>
+              ` : ''}
+            </div>
+          </div>
+          <div class="row gap-sm" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--line);align-items:center">
+            <span style="font-size:12px;color:var(--cream-faint);display:inline-flex;align-items:center;gap:4px">
+              📝 ${qCount} Questions Test
+            </span>
+            <div class="spacer"></div>
+            <div id="btn-container-${t._id}">
+              ${isLocked ? `
+                <button class="btn btn-secondary btn-sm" disabled style="opacity:0.6;cursor:not-allowed">
+                  <i class="bi bi-lock-fill"></i> Locked
+                </button>
+              ` : isDone ? `
+                <button class="btn btn-secondary btn-sm" data-start-grammar="${t._id}">
+                  Retake Test ${ICONS.refresh}
+                </button>
+              ` : `
+                <button class="btn btn-primary btn-sm" data-start-grammar="${t._id}">
+                  Study &amp; Take Test ${ICONS.arrowRight}
+                </button>
+              `}
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    const hasMore = visible.length < filtered.length;
+    const remainingCount = filtered.length - visible.length;
+    const loadMoreHtml = hasMore ? `
+      <div class="row gap-sm" style="grid-column:1/-1;justify-content:center;margin:24px 0 16px 0;align-items:center" id="grammar-load-more-wrap">
+        <button class="btn btn-primary btn-sm" id="btn-grammar-load-more" style="padding:10px 24px;border-radius:24px;font-weight:700">
+          Load More Topics (${remainingCount} remaining) &darr;
+        </button>
+        <button class="btn btn-ghost btn-sm" id="btn-grammar-load-all" style="padding:10px 18px;font-size:13px">
+          Show All (${filtered.length})
+        </button>
+      </div>
+    ` : '';
+
+    grid.innerHTML = cardsHtml + loadMoreHtml;
+
+    grid.querySelectorAll('[data-start-grammar]').forEach(btn => {
+      btn.onclick = () => openGrammarQuiz(btn.dataset.startGrammar, mount, topics);
+    });
+
+    const loadMoreBtn = grid.querySelector('#btn-grammar-load-more');
+    if (loadMoreBtn) {
+      loadMoreBtn.onclick = () => {
+        displayLimit += 24;
+        renderGridCards();
+      };
+    }
+    const loadAllBtn = grid.querySelector('#btn-grammar-load-all');
+    if (loadAllBtn) {
+      loadAllBtn.onclick = () => {
+        displayLimit = filtered.length;
+        renderGridCards();
+      };
+    }
+  }
+
+  // Initial card render
+  renderGridCards();
+
+  // Search input handler
+  const searchInput = mount.querySelector('#grammar-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderGridCards();
+    });
+  }
+
+  // Level filter buttons
+  mount.querySelectorAll('.grammar-level-btn').forEach(btn => {
+    btn.onclick = () => {
+      mount.querySelectorAll('.grammar-level-btn').forEach(b => {
+        b.classList.remove('btn-primary');
+        b.classList.add('btn-ghost');
+      });
+      btn.classList.remove('btn-ghost');
+      btn.classList.add('btn-primary');
+      filterLevel = btn.dataset.level;
+      displayLimit = 24;
+      renderGridCards();
+    };
+  });
+
+  // Status filter buttons
+  mount.querySelectorAll('.grammar-status-btn').forEach(btn => {
+    btn.onclick = () => {
+      mount.querySelectorAll('.grammar-status-btn').forEach(b => {
+        b.classList.remove('btn-secondary');
+        b.classList.add('btn-ghost');
+      });
+      btn.classList.remove('btn-ghost');
+      btn.classList.add('btn-secondary');
+      filterStatus = btn.dataset.status;
+      displayLimit = 24;
+      renderGridCards();
+    };
   });
 }
 

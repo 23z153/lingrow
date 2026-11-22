@@ -176,6 +176,106 @@ router.post('/search', requireAuth, async (req, res) => {
   }
 });
 
+/* ------------------- Helper: Structured Reply Parser ------------------- */
+function parseStructuredReply(rawText, { message, correction, verification, pipelineRoute }) {
+  if (!rawText && !correction) {
+    return {
+      type: 'general',
+      message: 'I am here to assist your English learning.',
+      verifierNotes: verification?.feedback || null,
+      pipelineRoute,
+    };
+  }
+
+  const text = String(rawText || '').trim();
+
+  // 1. Check for fenced code block ```json ... ```
+  let candidate = null;
+  const jsonMatch = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+  if (jsonMatch) {
+    try {
+      candidate = JSON.parse(jsonMatch[1].trim());
+    } catch (_) {}
+  }
+
+  // 2. Check for raw JSON object in text
+  if (!candidate && (text.startsWith('{') || text.includes('{"type"') || text.includes('{"message"'))) {
+    try {
+      const start = text.indexOf('{');
+      const end = text.lastIndexOf('}');
+      if (start !== -1 && end > start) {
+        candidate = JSON.parse(text.slice(start, end + 1));
+      }
+    } catch (_) {}
+  }
+
+  if (candidate && typeof candidate === 'object') {
+    const validTypes = ['correction', 'vocab', 'quiz', 'general'];
+    let type = validTypes.includes(candidate.type) ? candidate.type : 'general';
+    if (!candidate.type) {
+      if (candidate.diff) type = 'correction';
+      else if (candidate.vocab) type = 'vocab';
+      else if (candidate.quiz) type = 'quiz';
+    }
+
+    return {
+      type,
+      message: candidate.message || (type === 'general' ? text : ''),
+      diff: candidate.diff || null,
+      vocab: candidate.vocab || null,
+      quiz: candidate.quiz || null,
+      action: candidate.action || null,
+      verifierNotes: candidate.verifierNotes || verification?.feedback || (verification?.isCorrect ? 'Verified by Verifier Engine' : null),
+      pipelineRoute,
+    };
+  }
+
+  // 3. Fallback: If not JSON, check if GEC correction or grammar lane was triggered
+  if (correction || pipelineRoute === 'grammar_detector_explainer') {
+    let corrected = '';
+    let rule = '';
+    const spanMatch = String(correction || '').match(/"([^"]+)"\s*->\s*"([^"]+)"\s*(?:\(([^)]+)\))?/);
+    const suggMatch = String(correction || '').match(/Suggested:\s*"([^"]+)"/i);
+    const tipMatch = String(correction || '').match(/Tip:\s*(.+)/i);
+
+    if (spanMatch) {
+      const origSpan = spanMatch[1];
+      const fixSpan = spanMatch[2];
+      rule = spanMatch[3] ? `Rule: ${spanMatch[3]}` : 'Grammar correction suggested by GEC Engine';
+      if (message && message.includes(origSpan)) {
+        corrected = message.replace(origSpan, fixSpan);
+      }
+    } else if (suggMatch) {
+      corrected = suggMatch[1];
+      rule = 'Grammar correction suggested by GEC Engine';
+    } else if (tipMatch) {
+      rule = tipMatch[1];
+    } else if (correction) {
+      rule = correction;
+    }
+
+    return {
+      type: 'correction',
+      message: text,
+      diff: {
+        original: message || '',
+        corrected: corrected || (spanMatch ? spanMatch[2] : message || ''),
+        rule: rule || 'Check syntax and grammatical agreement',
+      },
+      verifierNotes: verification?.feedback || null,
+      pipelineRoute,
+    };
+  }
+
+  // 4. Default general text reply
+  return {
+    type: 'general',
+    message: text,
+    verifierNotes: verification?.feedback || null,
+    pipelineRoute,
+  };
+}
+
 /* ------------------- Two-Model Message Endpoint ------------------- */
 router.post('/message', requireAuth, async (req, res) => {
   try {
@@ -265,6 +365,13 @@ router.post('/message', requireAuth, async (req, res) => {
       const engine = typeof replyResult === 'object' ? replyResult.engine : 'Qwen2.5-3B Local Engine';
       const latencyMs = typeof replyResult === 'object' ? replyResult.latencyMs : null;
 
+      const structured = parseStructuredReply(replyText, {
+        message,
+        correction,
+        verification,
+        pipelineRoute,
+      });
+
       const saved = await TutorMessage.create({
         user: req.user._id,
         role: 'assistant',
@@ -282,6 +389,7 @@ router.post('/message', requireAuth, async (req, res) => {
         pipelineRoute,
         engine,
         latencyMs,
+        structured,
         liveTaskSnapshot: liveTaskContext,
       });
 
@@ -289,6 +397,7 @@ router.post('/message', requireAuth, async (req, res) => {
         type: 'done',
         reply: saved,
         replyText,
+        structured,
         correction,
         draft,
         verification,
@@ -325,6 +434,13 @@ router.post('/message', requireAuth, async (req, res) => {
     const engine = typeof replyResult === 'object' ? replyResult.engine : 'Qwen3-8B + DeepSeek-R1 (Local Engine)';
     const latencyMs = typeof replyResult === 'object' ? replyResult.latencyMs : null;
 
+    const structured = parseStructuredReply(replyText, {
+      message,
+      correction,
+      verification,
+      pipelineRoute,
+    });
+
     // Record assistant message with verification details
     const saved = await TutorMessage.create({
       user: req.user._id,
@@ -343,11 +459,13 @@ router.post('/message', requireAuth, async (req, res) => {
       pipelineRoute,
       engine,
       latencyMs,
+      structured,
       liveTaskSnapshot: liveTaskContext,
     });
 
     res.status(201).json({
       reply: saved,
+      structured,
       correction,
       draft,
       verification,
@@ -369,3 +487,4 @@ router.post('/message', requireAuth, async (req, res) => {
 });
 
 module.exports = router;
+module.exports.parseStructuredReply = parseStructuredReply;

@@ -5,6 +5,17 @@
  * Compatible with both inline SVG rendering and Bootstrap Icons CSS classes.
  */
 
+// Global HTML escaping utility — available before any view renderers execute
+function esc(s) {
+  if (typeof s !== 'string') {
+    if (s && typeof s === 'object' && s.text) s = s.text;
+    else s = String(s ?? '');
+  }
+  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+window.esc = esc;
+window.escapeHtml = esc;
+
 const ICONS = {
   // Navigation & Core Sections
   dashboard: `<svg class="bi bi-grid-1x2-fill" width="17" height="17" viewBox="0 0 16 16" fill="currentColor"><path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1z"/></svg>`,

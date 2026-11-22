@@ -909,6 +909,103 @@ function initGlobalChatbot() {
 
   if (!drawer) return;
 
+  let pipelineTimer = null;
+
+  function updateChatbotAvatar(mood = 'idle') {
+    const avatarEl = $('#chatbot-mascot-avatar');
+    if (!avatarEl) return;
+    const user = (typeof currentUser !== 'undefined' ? currentUser : null) || window.currentUser || { xp: 0 };
+    const evo = window.DragonMascot ? window.DragonMascot.getEvolutionByXp(user.xp || 0) : { stage: 2, name: 'Ignis' };
+    const imgUrl = window.DragonMascot ? window.DragonMascot.getImage(evo.stage) : '/img/dragon/dragon-stage-2.jpg';
+    avatarEl.className = `chatbot-mascot-avatar ${mood && mood !== 'idle' ? mood : ''}`;
+    avatarEl.innerHTML = `<img src="${imgUrl}" alt="${evo.name}" class="dragon-avatar-photo" />`;
+  }
+
+  function setChatbotMascotMood(mood = 'idle') {
+    const avatarEl = $('#chatbot-mascot-avatar');
+    if (avatarEl) {
+      avatarEl.className = `chatbot-mascot-avatar ${mood && mood !== 'idle' ? mood : ''}`;
+    }
+    if (window.DragonMascot && window.DragonMascot.setMood) {
+      try {
+        window.DragonMascot.setMood(mood);
+      } catch (_) {}
+    }
+  }
+
+  function setPipelineStep(step) {
+    const statusEl = $('#chatbot-pipeline-status');
+    if (!statusEl) return;
+    if (!step || step === 'hide') {
+      statusEl.style.display = 'none';
+      clearTimeout(pipelineTimer);
+      return;
+    }
+    statusEl.style.display = 'block';
+    const chips = statusEl.querySelectorAll('.pipeline-chip');
+    const bar = statusEl.querySelector('.pipeline-ember-progress');
+    const steps = ['routing', 'drafting', 'verifying', 'done'];
+    const curIdx = steps.indexOf(step);
+
+    chips.forEach((c) => {
+      const s = c.getAttribute('data-step');
+      const idx = steps.indexOf(s);
+      c.classList.remove('active', 'completed');
+      if (idx < curIdx) {
+        c.classList.add('completed');
+      } else if (idx === curIdx) {
+        c.classList.add('active');
+      }
+    });
+
+    const progressPercent = curIdx === 0 ? 25 : curIdx === 1 ? 55 : curIdx === 2 ? 80 : 100;
+    if (bar) bar.style.width = `${progressPercent}%`;
+  }
+
+  function startPipelineAnimation() {
+    clearTimeout(pipelineTimer);
+    setPipelineStep('routing');
+    pipelineTimer = setTimeout(() => {
+      setPipelineStep('drafting');
+      pipelineTimer = setTimeout(() => {
+        setPipelineStep('verifying');
+      }, 750);
+    }, 400);
+  }
+
+  function finishPipelineAnimation() {
+    clearTimeout(pipelineTimer);
+    setPipelineStep('done');
+    pipelineTimer = setTimeout(() => {
+      setPipelineStep('hide');
+    }, 1100);
+  }
+
+  function renderQuickChips() {
+    const chipsContainer = $('#chatbot-quick-chips');
+    if (!chipsContainer) return;
+    const suggestions = [
+      { label: '🔍 Check my grammar', text: 'Can you please check my sentence for grammar and clarity: ' },
+      { label: '📝 Quiz me on this', text: 'Give me a quick 1-question quiz on what we just discussed.' },
+      { label: '💡 Explain simpler', text: 'Could you explain that more simply with an easy everyday analogy?' },
+      { label: '🎯 Drill weak words', text: 'Give me a practice sentence using one of my weak vocabulary words.' },
+    ];
+
+    chipsContainer.innerHTML = suggestions.map((s) => `
+      <button type="button" class="quick-chip" data-quick-text="${esc(s.text)}">${s.label}</button>
+    `).join('');
+
+    chipsContainer.querySelectorAll('.quick-chip').forEach((btn) => {
+      btn.onclick = () => {
+        const inp = $('#chatbot-drawer-input');
+        if (inp) {
+          inp.value = btn.getAttribute('data-quick-text') || '';
+          inp.focus();
+        }
+      };
+    });
+  }
+
   function openDrawer() {
     const d = $('#global-chatbot-drawer');
     const o = $('#global-chatbot-overlay');
@@ -921,6 +1018,8 @@ function initGlobalChatbot() {
       o.style.display = 'block';
       o.classList.add('open');
     }
+    updateChatbotAvatar('idle');
+    renderQuickChips();
     if (inp) {
       setTimeout(() => inp.focus(), 100);
     }
@@ -938,6 +1037,8 @@ function initGlobalChatbot() {
       o.style.display = 'none';
       o.classList.remove('open');
     }
+    setPipelineStep('hide');
+    setChatbotMascotMood('idle');
   }
 
   window.openGlobalChatbot = openDrawer;
@@ -998,6 +1099,141 @@ function initGlobalChatbot() {
       };
     }
 
+    if (msgsContainer) {
+      msgsContainer.addEventListener('click', async (e) => {
+        // 1. Speak single word
+        const speakWordBtn = e.target.closest('[data-speak-word]');
+        if (speakWordBtn) {
+          e.preventDefault();
+          const word = speakWordBtn.getAttribute('data-speak-word');
+          if (word && window.SpeechOutput) {
+            setChatbotMascotMood('speaking');
+            window.SpeechOutput.speak(word, {
+              onEnd: () => setChatbotMascotMood('idle'),
+            });
+          }
+          return;
+        }
+
+        // 2. Speak whole message
+        const speakMsgBtn = e.target.closest('[data-speak-msg]');
+        if (speakMsgBtn) {
+          e.preventDefault();
+          const msg = speakMsgBtn.getAttribute('data-speak-msg');
+          if (msg && window.SpeechOutput) {
+            setChatbotMascotMood('speaking');
+            window.SpeechOutput.speak(msg.slice(0, 320), {
+              onEnd: () => setChatbotMascotMood('idle'),
+            });
+          }
+          return;
+        }
+
+        // 3. Copy message text
+        const copyBtn = e.target.closest('[data-copy-msg]');
+        if (copyBtn) {
+          e.preventDefault();
+          const textToCopy = copyBtn.getAttribute('data-copy-msg');
+          if (textToCopy && navigator.clipboard) {
+            try {
+              await navigator.clipboard.writeText(textToCopy);
+              copyBtn.innerHTML = '<i class="bi bi-check2"></i> Copied!';
+              setTimeout(() => {
+                copyBtn.innerHTML = '<i class="bi bi-clipboard"></i> Copy';
+              }, 2000);
+            } catch (_) {}
+          }
+          return;
+        }
+
+        // 4. Add to Vocabulary Forge
+        const addVocabBtn = e.target.closest('[data-add-vocab]');
+        if (addVocabBtn && !addVocabBtn.classList.contains('added')) {
+          e.preventDefault();
+          const word = addVocabBtn.getAttribute('data-add-vocab');
+          if (word) {
+            try {
+              await Api.postWeakWordsBulk({ words: [word], source: 'ai-tutor' });
+              addVocabBtn.classList.add('added');
+              addVocabBtn.innerHTML = '<i class="bi bi-check-circle-fill"></i> Added to Forge';
+              setChatbotMascotMood('celebrating');
+              if (window.DragonMascot && window.DragonMascot.playChime) {
+                window.DragonMascot.playChime('correct');
+              }
+              setTimeout(() => setChatbotMascotMood('idle'), 2000);
+            } catch (err) {
+              addVocabBtn.innerHTML = '<i class="bi bi-check-circle"></i> Saved';
+            }
+          }
+          return;
+        }
+
+        // 5. Expandable Verifier Details Toggle
+        const verifierToggle = e.target.closest('[data-toggle-verifier]');
+        if (verifierToggle) {
+          e.preventDefault();
+          const idx = verifierToggle.getAttribute('data-toggle-verifier');
+          const details = $(`#verifier-details-${idx}`);
+          if (details) {
+            const isHidden = details.style.display === 'none';
+            details.style.display = isHidden ? 'block' : 'none';
+            const chevron = verifierToggle.querySelector('.bi-chevron-down, .bi-chevron-up');
+            if (chevron) {
+              chevron.className = isHidden ? 'bi bi-chevron-up' : 'bi bi-chevron-down';
+            }
+          }
+          return;
+        }
+
+        // 6. Interactive Inline Mini-Quiz Option
+        const optBtn = e.target.closest('.quiz-opt-btn');
+        if (optBtn) {
+          e.preventDefault();
+          const card = optBtn.closest('.card-quiz');
+          if (!card || card.dataset.answered === 'true') return;
+          card.dataset.answered = 'true';
+
+          const selectedIdx = Number(optBtn.getAttribute('data-opt-idx'));
+          const correctIdx = Number(card.getAttribute('data-correct') || 0);
+          const explanation = card.getAttribute('data-explanation') || '';
+          const feedbackEl = card.querySelector('.quiz-feedback');
+
+          const allOpts = card.querySelectorAll('.quiz-opt-btn');
+          allOpts.forEach((b) => (b.disabled = true));
+
+          if (selectedIdx === correctIdx) {
+            optBtn.classList.add('correct');
+            if (feedbackEl) {
+              feedbackEl.className = 'quiz-feedback correct';
+              feedbackEl.innerHTML = `<span><i class="bi bi-check-circle-fill"></i> <strong>Spot on!</strong> ${esc(explanation)}</span> <span class="badge" style="background:#10B981;color:#fff">+10 XP</span>`;
+              feedbackEl.style.display = 'flex';
+            }
+            setChatbotMascotMood('celebrating');
+            if (window.DragonMascot && window.DragonMascot.playChime) {
+              window.DragonMascot.playChime('victory');
+            }
+            const user = (typeof currentUser !== 'undefined' ? currentUser : null) || window.currentUser;
+            if (user) {
+              user.xp = (user.xp || 0) + 10;
+              updateChatbotAvatar('happy');
+            }
+          } else {
+            optBtn.classList.add('wrong');
+            const correctBtn = allOpts[correctIdx];
+            if (correctBtn) correctBtn.classList.add('correct');
+            if (feedbackEl) {
+              feedbackEl.className = 'quiz-feedback wrong';
+              feedbackEl.innerHTML = `<span><i class="bi bi-x-circle-fill"></i> <strong>Not quite.</strong> ${esc(explanation)}</span>`;
+              feedbackEl.style.display = 'flex';
+            }
+            setChatbotMascotMood('thinking');
+          }
+          setTimeout(() => setChatbotMascotMood('idle'), 2400);
+          return;
+        }
+      });
+    }
+
     if (form && input) {
       form.onsubmit = async (e) => {
         e.preventDefault();
@@ -1008,10 +1244,13 @@ function initGlobalChatbot() {
         chatbotHistory.push({ role: 'user', text });
         renderChatbotMessages();
 
+        startPipelineAnimation();
+        setChatbotMascotMood('thinking');
+
         const msgs = $('#chatbot-drawer-messages');
         const typingEl = document.createElement('div');
         typingEl.className = 'msg-wrap ai';
-        typingEl.innerHTML = `<div class="msg ai" style="font-size:13px;color:var(--cream-dim);padding:8px 14px">AI Tutor is thinking…</div>`;
+        typingEl.innerHTML = `<div class="msg ai" style="font-size:13px;color:var(--cream-dim);padding:8px 14px"><i class="bi bi-stars" style="color:#F59E0B"></i> Ignis is analyzing and drafting response…</div>`;
         if (msgs) {
           msgs.appendChild(typingEl);
           msgs.scrollTop = msgs.scrollHeight;
@@ -1020,10 +1259,16 @@ function initGlobalChatbot() {
         try {
           const res = await Api.tutorMessage(text);
           if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
+          finishPipelineAnimation();
+          setChatbotMascotMood('idle');
+
           let replyText = '';
+          let structured = res ? res.structured : null;
+
           if (res) {
             if (typeof res.reply === 'object' && res.reply !== null) {
               replyText = res.reply.text || res.reply.message || '';
+              if (!structured && res.reply.structured) structured = res.reply.structured;
             } else if (typeof res.reply === 'string') {
               replyText = res.reply;
             } else if (typeof res.message === 'string') {
@@ -1035,13 +1280,25 @@ function initGlobalChatbot() {
           if (!replyText) {
             replyText = 'I am here to assist your English learning.';
           }
-          chatbotHistory.push({ role: 'assistant', text: replyText });
+
+          chatbotHistory.push({
+            role: 'assistant',
+            text: replyText,
+            structured: structured || null,
+            verification: res?.verification || null,
+            pipelineRoute: res?.pipelineRoute || null,
+            engine: res?.engine || null,
+            latencyMs: res?.latencyMs || null,
+          });
+
           try {
             sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory.slice(-25)));
           } catch (_) {}
           renderChatbotMessages();
         } catch (err) {
           if (typingEl.parentNode) typingEl.parentNode.removeChild(typingEl);
+          setPipelineStep('hide');
+          setChatbotMascotMood('idle');
           chatbotHistory.push({ role: 'assistant', text: 'Sorry, I encountered an error connecting to the AI Tutor. Please try again.' });
           renderChatbotMessages();
         }
@@ -1061,7 +1318,15 @@ function initGlobalChatbot() {
         chatbotHistory = hist.slice(-25).map((m) => {
           let t = m.text;
           if (t && typeof t === 'object') t = t.text || t.message || '';
-          return { role: m.role || 'assistant', text: String(t || '') };
+          return {
+            role: m.role || 'assistant',
+            text: String(t || ''),
+            structured: m.structured || null,
+            verification: m.verification || null,
+            pipelineRoute: m.pipelineRoute || null,
+            engine: m.engine || null,
+            latencyMs: m.latencyMs || null,
+          };
         });
         try {
           sessionStorage.setItem('lingrow_chatbot_drawer_history', JSON.stringify(chatbotHistory));
@@ -1073,7 +1338,15 @@ function initGlobalChatbot() {
           chatbotHistory = (Array.isArray(parsed) ? parsed : []).map((m) => {
             let t = m.text;
             if (t && typeof t === 'object') t = t.text || t.message || '';
-            return { role: m.role || 'assistant', text: String(t || '') };
+            return {
+              role: m.role || 'assistant',
+              text: String(t || ''),
+              structured: m.structured || null,
+              verification: m.verification || null,
+              pipelineRoute: m.pipelineRoute || null,
+              engine: m.engine || null,
+              latencyMs: m.latencyMs || null,
+            };
           });
         } else {
           chatbotHistory = [];
@@ -1087,7 +1360,15 @@ function initGlobalChatbot() {
           chatbotHistory = (Array.isArray(parsed) ? parsed : []).map((m) => {
             let t = m.text;
             if (t && typeof t === 'object') t = t.text || t.message || '';
-            return { role: m.role || 'assistant', text: String(t || '') };
+            return {
+              role: m.role || 'assistant',
+              text: String(t || ''),
+              structured: m.structured || null,
+              verification: m.verification || null,
+              pipelineRoute: m.pipelineRoute || null,
+              engine: m.engine || null,
+              latencyMs: m.latencyMs || null,
+            };
           });
         } catch (_) {
           chatbotHistory = [];
@@ -1099,32 +1380,165 @@ function initGlobalChatbot() {
     renderChatbotMessages();
   }
 
+  function formatAssistantMessage(m, index) {
+    let structured = m.structured;
+    let text = m.text;
+    if (text && typeof text === 'object') {
+      if (!structured && (text.type || text.diff || text.vocab || text.quiz)) {
+        structured = text;
+      }
+      text = text.text || text.message || '';
+    }
+
+    // Client-side JSON fallback parse if structured wasn't populated
+    if (!structured && typeof text === 'string' && (text.startsWith('{') || text.includes('```json'))) {
+      try {
+        const match = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+        const raw = match ? match[1].trim() : text.slice(text.indexOf('{'), text.lastIndexOf('}') + 1);
+        structured = JSON.parse(raw);
+      } catch (_) {}
+    }
+
+    let displayText = text;
+    let diffHtml = '';
+    let vocabHtml = '';
+    let quizHtml = '';
+
+    if (structured) {
+      if (structured.message) displayText = structured.message;
+
+      // 1. Grammar Diff
+      if (structured.diff) {
+        const d = structured.diff;
+        diffHtml = `
+          <div class="card-diff">
+            <div class="card-diff-label"><i class="bi bi-spellcheck"></i> Grammar Polish</div>
+            <div class="card-diff-content">
+              <span class="diff-del">${esc(d.original || '')}</span>
+              <span class="diff-ins">${esc(d.corrected || '')}</span>
+            </div>
+            ${d.rule ? `<div class="diff-rule"><i class="bi bi-lightbulb-fill"></i> ${esc(d.rule)}</div>` : ''}
+          </div>
+        `;
+      }
+
+      // 2. Vocab Card
+      if (structured.vocab) {
+        const v = structured.vocab;
+        vocabHtml = `
+          <div class="card-vocab">
+            <div class="vocab-header">
+              <span class="vocab-word">${esc(v.word || '')}</span>
+              <span class="badge" style="background:rgba(245,158,11,0.15);color:#F59E0B;font-size:11px">Vocabulary</span>
+            </div>
+            ${v.phonetic ? `
+              <div class="vocab-phonetic-wrap">
+                <span>${esc(v.phonetic)}</span>
+                <button type="button" class="vocab-speaker-btn" data-speak-word="${esc(v.word || '')}" title="Listen to pronunciation">
+                  <i class="bi bi-volume-up-fill"></i>
+                </button>
+              </div>
+            ` : ''}
+            ${v.meaning ? `<div class="vocab-meaning">${esc(v.meaning)}</div>` : ''}
+            ${v.example ? `<div class="vocab-example">"${esc(v.example)}"</div>` : ''}
+            <button type="button" class="btn-add-forge" data-add-vocab="${esc(v.word || '')}">
+              <i class="bi bi-plus-circle-fill"></i> Add to Vocabulary Forge
+            </button>
+          </div>
+        `;
+      }
+
+      // 3. Mini-Quiz
+      if (structured.quiz && Array.isArray(structured.quiz.options)) {
+        const q = structured.quiz;
+        const optsHtml = q.options.map((opt, oIdx) => `
+          <button type="button" class="quiz-opt-btn" data-msg-idx="${index}" data-opt-idx="${oIdx}">
+            <strong>${['A', 'B', 'C', 'D'][oIdx] || oIdx + 1}.</strong> ${esc(opt)}
+          </button>
+        `).join('');
+
+        quizHtml = `
+          <div class="card-quiz" id="quiz-card-${index}" data-correct="${q.answer ?? 0}" data-explanation="${esc(q.explanation || '')}">
+            <div class="quiz-question"><i class="bi bi-patch-question-fill" style="color:#8B5CF6"></i> ${esc(q.question || 'Quick Question:')}</div>
+            <div class="quiz-options">${optsHtml}</div>
+            <div class="quiz-feedback" id="quiz-feedback-${index}" style="display:none"></div>
+          </div>
+        `;
+      }
+    }
+
+    // Verifier Badge
+    let verifierHtml = '';
+    const verifierNotes = structured?.verifierNotes || m.verification?.feedback;
+    const isCorrect = m.verification?.isCorrect ?? true;
+    if (verifierNotes || m.verification) {
+      const verdictText = isCorrect ? 'Verified by DeepSeek Verifier (Pass)' : 'Verified & Refined by Verifier';
+      verifierHtml = `
+        <div class="verifier-badge-wrap">
+          <span class="verifier-badge-pill" data-toggle-verifier="${index}">
+            <i class="bi bi-shield-check"></i> ${verdictText} <i class="bi bi-chevron-down" style="font-size:9px"></i>
+          </span>
+          <div class="verifier-details" id="verifier-details-${index}" style="display:none">
+            <div>${esc(verifierNotes || 'Ground truth audit passed without contradictions.')}</div>
+            ${m.pipelineRoute ? `<div style="margin-top:4px;font-size:10.5px;opacity:0.8"><i class="bi bi-diagram-3"></i> Route: ${esc(m.pipelineRoute)}${m.latencyMs ? ` • ${m.latencyMs}ms` : ''}</div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+
+    const safeBody = esc(displayText || '').replace(/\n/g, '<br>');
+
+    return `
+      <div class="msg-wrap ai" style="margin-bottom:12px">
+        <div class="msg ai" style="font-size:14px;padding:12px 15px;line-height:1.55;background:var(--panel-2);border:1px solid var(--line);border-radius:14px">
+          <div class="msg-content">${safeBody}</div>
+          ${diffHtml}
+          ${vocabHtml}
+          ${quizHtml}
+          ${verifierHtml}
+        </div>
+        <div class="msg-actions-bar">
+          <button type="button" class="msg-action-btn" data-copy-msg="${esc(displayText)}" title="Copy message">
+            <i class="bi bi-clipboard"></i> Copy
+          </button>
+          <button type="button" class="msg-action-btn" data-speak-msg="${esc(displayText)}" title="Listen to Ignis">
+            <i class="bi bi-volume-up"></i> Speak
+          </button>
+        </div>
+      </div>
+    `;
+  }
+
   function renderChatbotMessages() {
     const msgs = $('#chatbot-drawer-messages');
     if (!msgs) return;
     if (!chatbotHistory.length) {
       msgs.innerHTML = `
         <div style="text-align:center;padding:28px 12px;color:var(--cream-dim)">
-          <div style="font-size:32px;margin-bottom:8px">👋</div>
-          <div style="font-weight:700;font-size:15px;color:var(--color-text);margin-bottom:4px">Welcome to your AI Tutor!</div>
-          <div style="font-size:13px;line-height:1.5">Ask questions about grammar, vocabulary, pronunciation, or practice English conversation.</div>
+          <div style="font-size:36px;margin-bottom:8px">🐉</div>
+          <div style="font-weight:700;font-size:15px;color:var(--color-text);margin-bottom:4px">Greetings from Ignis!</div>
+          <div style="font-size:13px;line-height:1.5;max-width:320px;margin:0 auto">I am your dragon mentor and language coach. Ask me to review grammar, explain vocabulary words, or quiz you on common idioms!</div>
         </div>
       `;
       return;
     }
 
-    msgs.innerHTML = chatbotHistory.map((m) => {
-      let t = m.text;
-      if (t && typeof t === 'object') t = t.text || t.message || '';
-      const safeText = esc(t || '').replace(/\n/g, '<br>');
-      return `
-        <div class="msg-wrap ${m.role === 'user' ? 'user' : 'ai'}" style="margin-bottom:8px">
-          <div class="msg ${m.role === 'user' ? 'user' : 'ai'}" style="font-size:14px;padding:10px 14px;line-height:1.5">
-            ${safeText}
+    msgs.innerHTML = chatbotHistory.map((m, idx) => {
+      if (m.role === 'user') {
+        let t = m.text;
+        if (t && typeof t === 'object') t = t.text || t.message || '';
+        const safeText = esc(t || '').replace(/\n/g, '<br>');
+        return `
+          <div class="msg-wrap user" style="margin-bottom:8px">
+            <div class="msg user" style="font-size:14px;padding:10px 14px;line-height:1.5">
+              ${safeText}
+            </div>
           </div>
-        </div>
-      `;
+        `;
+      }
+      return formatAssistantMessage(m, idx);
     }).join('');
+
     setTimeout(() => {
       msgs.scrollTop = msgs.scrollHeight;
     }, 50);

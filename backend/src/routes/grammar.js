@@ -10,6 +10,29 @@ const { canUserAccessLevel, recordActivityCompletion } = require('../services/pr
 // Pass mark threshold required to complete a topic and unlock the next topic
 const PASS_PERCENT = 50;
 
+// In-memory cache for static topic metadata (invalidated when topics change)
+let cachedTopicMetadata = null;
+let lastCacheTime = 0;
+const CACHE_TTL_MS = 60 * 1000; // 1 minute TTL
+
+async function getCachedTopicMetadata() {
+  const now = Date.now();
+  if (process.env.NODE_ENV !== 'test' && cachedTopicMetadata && (now - lastCacheTime < CACHE_TTL_MS)) {
+    return cachedTopicMetadata;
+  }
+  const topics = await GrammarTopic.find({})
+    .select('title category level unit topicId description ruleSummary videoUrl questionCount')
+    .sort({ topicId: 1, createdAt: 1 })
+    .lean();
+  cachedTopicMetadata = topics;
+  lastCacheTime = now;
+  return cachedTopicMetadata;
+}
+
+function invalidateTopicCache() {
+  cachedTopicMetadata = null;
+}
+
 /**
  * Normalizes any topic id representation (ObjectId, populated doc, string) to string
  */
@@ -39,15 +62,15 @@ async function findTopicByIdOrTopicId(paramId) {
 
 /**
  * Helper to fetch or create user's grammar progress.
- * Migrates existing attempts so users with prior completions are not locked out.
+ * Fast path: returns cached document immediately if it exists.
+ * Migrates existing attempts once on creation so users with prior completions are not locked out.
  */
 async function getOrCreateGrammarProgress(userId) {
   let progress = await GrammarProgress.findOne({ userId });
   if (progress) return progress;
 
-  // Find all historical attempts for initial progress creation / backfill
+  // Find all historical attempts for migration / sync only when initializing a new record
   const pastAttempts = await GrammarAttempt.find({ user: userId }).select('topic score').lean();
-
   const completedSet = new Set();
   const scores = {};
 
@@ -91,50 +114,19 @@ function checkTopicUnlocked(targetTopicId, allSortedTopics, completedSet) {
   return completedSet.has(prevIdStr);
 }
 
-let cachedBaseTopics = null;
-let lastBaseTopicsFetch = 0;
-const BASE_TOPICS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes in-memory cache
-
-async function getCachedBaseTopics() {
-  const now = Date.now();
-  if (cachedBaseTopics && now - lastBaseTopicsFetch < BASE_TOPICS_CACHE_TTL) {
-    return cachedBaseTopics;
-  }
-  const raw = await GrammarTopic.find({})
-    .select('title category level unit topicId description ruleSummary videoUrl')
-    .sort({ topicId: 1, createdAt: 1 })
-    .lean();
-  cachedBaseTopics = raw.map((t, idx) => ({
-    _id: t._id,
-    topicId: t.topicId || idx + 1,
-    order: t.topicId || idx + 1,
-    title: t.title,
-    category: t.category,
-    level: t.level,
-    unit: t.unit,
-    description: t.description,
-    ruleSummary: t.ruleSummary,
-    videoUrl: t.videoUrl,
-    questionCount: 50,
-  }));
-  lastBaseTopicsFetch = now;
-  return cachedBaseTopics;
-}
-
 // GET /api/grammar/progress - Current user's progress summary
 router.get('/progress', requireAuth, async (req, res) => {
   try {
     const [progress, topics] = await Promise.all([
       getOrCreateGrammarProgress(req.user._id),
-      getCachedBaseTopics(),
+      getCachedTopicMetadata(),
     ]);
-    const totalTopics = topics.length;
     const completedTopicIds = progress.completedTopicIds.map(toIdString);
 
     res.json({
       completedTopicIds,
       bestScores: Object.fromEntries(progress.bestScores || new Map()),
-      totalTopics,
+      totalTopics: topics.length,
       completedCount: completedTopicIds.length,
       passPercent: PASS_PERCENT,
     });
@@ -146,34 +138,35 @@ router.get('/progress', requireAuth, async (req, res) => {
 // GET /api/grammar - List all grammar topics with sequential unlock state
 router.get('/', requireAuth, async (req, res) => {
   try {
-    const [topics, progress, attempts] = await Promise.all([
-      getCachedBaseTopics(),
+    const [topics, progress] = await Promise.all([
+      getCachedTopicMetadata(),
       getOrCreateGrammarProgress(req.user._id),
-      GrammarAttempt.find({ user: req.user._id }).select('topic').lean(),
     ]);
 
     const completedSet = new Set(progress.completedTopicIds.map(toIdString));
-
-    const topicAttemptCounts = {};
-    for (const a of attempts) {
-      if (!a.topic) continue;
-      const tid = toIdString(a.topic);
-      topicAttemptCounts[tid] = (topicAttemptCounts[tid] || 0) + 1;
-    }
 
     const result = topics.map((t, idx) => {
       const tid = toIdString(t._id);
       const isCompleted = completedSet.has(tid);
       const isUnlocked = idx === 0 || completedSet.has(toIdString(topics[idx - 1]._id));
-      const bestScore = progress.bestScores && progress.bestScores.get
+      const bestScore = progress.bestScores.get
         ? (progress.bestScores.get(tid) || 0)
-        : (progress.bestScores && progress.bestScores[tid] || 0);
+        : (progress.bestScores[tid] || 0);
       const prevTopic = idx > 0 ? topics[idx - 1] : null;
 
       return {
-        ...t,
+        _id: t._id,
+        topicId: t.topicId || idx + 1,
+        order: t.topicId || idx + 1,
+        title: t.title,
+        category: t.category,
+        level: t.level,
+        unit: t.unit,
+        description: t.description,
+        ruleSummary: t.ruleSummary,
+        videoUrl: t.videoUrl,
+        questionCount: t.questionCount || (t.questions && t.questions.length) || 50,
         bestScore,
-        attemptsCount: topicAttemptCounts[tid] || 0,
         completed: isCompleted,
         isCompleted,
         isLocked: !isUnlocked,
@@ -439,3 +432,4 @@ router.post('/:id/submit', requireAuth, async (req, res) => {
 
 module.exports = router;
 module.exports.PASS_PERCENT = PASS_PERCENT;
+module.exports.invalidateTopicCache = invalidateTopicCache;

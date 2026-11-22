@@ -5,7 +5,7 @@ const router = express.Router();
 const User = require('../models/User');
 const PlacementAttempt = require('../models/PlacementAttempt');
 const { requireAuth } = require('../middleware/auth');
-const { LEVELS, PLACEMENT_CONFIG } = require('../config/levelAccess');
+const { LEVELS, PLACEMENT_CONFIG, TIER_DETAILS } = require('../config/levelAccess');
 const {
   generatePlacementSession,
   scorePlacementTest,
@@ -350,10 +350,18 @@ router.post('/select-level', requireAuth, async (req, res) => {
           error: 'Onboarding has already been completed for this account',
           code: 'ONBOARDING_ALREADY_COMPLETED',
           level: user.level,
+          unlockedLevels: typeof user.getUnlockedLevels === 'function' ? user.getUnlockedLevels() : ['Beginner'],
         });
       }
 
-      return res.json({ ok: true, user: updatedUser.toSafeJSON() });
+      return res.json({
+        ok: true,
+        user: updatedUser.toSafeJSON(),
+        level: updatedUser.level,
+        onboardingCompleted: true,
+        unlockedLevels: updatedUser.getUnlockedLevels(),
+        currentTier: (TIER_DETAILS && TIER_DETAILS[updatedUser.level]) || { title: updatedUser.level },
+      });
     }
 
     if (path === 'placement') {
@@ -432,6 +440,7 @@ router.post('/select-level', requireAuth, async (req, res) => {
           error: 'Onboarding has already been completed for this account',
           code: 'ONBOARDING_ALREADY_COMPLETED',
           level: user.level,
+          unlockedLevels: typeof user.getUnlockedLevels === 'function' ? user.getUnlockedLevels() : ['Beginner'],
         });
       }
 
@@ -450,7 +459,14 @@ router.post('/select-level', requireAuth, async (req, res) => {
         console.error(`[onboarding] Warning: Failed to mark attempt ${attemptId} consumed after user onboarding:`, consumeErr);
       }
 
-      return res.json({ ok: true, user: updatedUser.toSafeJSON() });
+      return res.json({
+        ok: true,
+        user: updatedUser.toSafeJSON(),
+        level: updatedUser.level,
+        onboardingCompleted: true,
+        unlockedLevels: updatedUser.getUnlockedLevels(),
+        currentTier: (TIER_DETAILS && TIER_DETAILS[updatedUser.level]) || { title: updatedUser.level },
+      });
     }
   } catch (err) {
     res.status(500).json({ error: err.message });
