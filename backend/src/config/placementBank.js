@@ -204,7 +204,9 @@ function generatePlacementSession() {
     return {
       id: q.id,
       section: q.section,
+      category: q.section,
       prompt: q.prompt,
+      question: q.prompt,
       options: shuffledOptions,
     };
   });
@@ -226,7 +228,9 @@ function sanitizePlacementQuestion(q) {
   return {
     id: q.id,
     section: q.section,
+    category: q.section,
     prompt: q.prompt,
+    question: q.prompt,
     options: q.options,
   };
 }
@@ -281,9 +285,15 @@ async function scorePlacementTest(input, maybeTranscript = null, maybeSeconds = 
 
   if (Array.isArray(answers)) {
     for (const a of answers) {
-      if (a && a.questionId) {
-        answerMap.set(String(a.questionId), Number(a.selectedIndex));
+      if (a && (a.questionId || a.id)) {
+        const qId = a.questionId || a.id;
+        const sIdx = a.selectedIndex !== undefined ? a.selectedIndex : a.selected;
+        answerMap.set(String(qId), Number(sIdx));
       }
+    }
+  } else if (answers && typeof answers === 'object') {
+    for (const [qId, selectedIdx] of Object.entries(answers)) {
+      answerMap.set(String(qId), Number(selectedIdx));
     }
   }
 

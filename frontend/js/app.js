@@ -719,8 +719,27 @@ async function setView(view){
   updateGlobalChatbotVisibility(view);
   const mount = $('#view-inner');
 
-  mount.className = 'view-inner view-enter-wipe';
-  mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
+  // Smooth, instant transition:
+  // If the mount already has content, do not aggressively wipe the screen with "Loading...".
+  // Allow fast/cached renderers to paint in <120ms with ZERO loading flicker!
+  const hasExistingContent = mount && mount.children.length > 0;
+  let loaderTimeout = null;
+
+  if (!hasExistingContent) {
+    mount.className = 'view-inner view-enter-wipe';
+    mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
+  } else {
+    mount.style.opacity = '0.8';
+    mount.style.transition = 'opacity 0.12s ease';
+    loaderTimeout = setTimeout(() => {
+      if (S.view === view) {
+        mount.className = 'view-inner view-enter-wipe';
+        mount.innerHTML = `<div class="empty-state">${wave(6)}<div style="margin-top:14px">Loading…</div></div>`;
+        mount.style.opacity = '1';
+      }
+    }, 120);
+  }
+
   try {
     if (typeof VIEW_RENDERERS[view] !== 'function') {
       // Small 150ms retry delay in case script tags are still finalizing
@@ -730,13 +749,19 @@ async function setView(view){
           console.warn(`Chamber '${view}' not found, redirecting to Dragon Kingdom.`);
           view = 'dashboard';
           S.view = 'dashboard';
+          if (loaderTimeout) clearTimeout(loaderTimeout);
           return await VIEW_RENDERERS['dashboard'](mount);
         }
         throw new Error(`The '${view}' chamber could not be unlocked.`);
       }
     }
     await VIEW_RENDERERS[view](mount);
+    if (loaderTimeout) clearTimeout(loaderTimeout);
+    mount.style.opacity = '1';
+    mount.className = 'view-inner view-enter-wipe';
   } catch (err) {
+    if (loaderTimeout) clearTimeout(loaderTimeout);
+    mount.style.opacity = '1';
     console.error(`Error rendering view '${view}':`, err);
     const errMessage = err.message || 'Failed to load view';
     const isAuthErr = errMessage.toLowerCase().includes('auth') || errMessage.toLowerCase().includes('forbidden') || errMessage.toLowerCase().includes('unauthorized');

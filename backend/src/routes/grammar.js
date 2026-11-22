@@ -43,62 +43,31 @@ async function findTopicByIdOrTopicId(paramId) {
  */
 async function getOrCreateGrammarProgress(userId) {
   let progress = await GrammarProgress.findOne({ userId });
+  if (progress) return progress;
 
-  // Find all historical attempts for migration / sync
+  // Find all historical attempts for initial progress creation / backfill
   const pastAttempts = await GrammarAttempt.find({ user: userId }).select('topic score').lean();
 
-  if (!progress) {
-    const completedSet = new Set();
-    const scores = {};
+  const completedSet = new Set();
+  const scores = {};
 
-    for (const a of pastAttempts) {
-      if (!a.topic) continue;
-      const tid = toIdString(a.topic);
-      if (a.score !== undefined && a.score !== null) {
-        scores[tid] = Math.max(scores[tid] || 0, a.score);
-        if (a.score >= PASS_PERCENT) {
-          completedSet.add(tid);
-        }
+  for (const a of pastAttempts) {
+    if (!a.topic) continue;
+    const tid = toIdString(a.topic);
+    if (a.score !== undefined && a.score !== null) {
+      scores[tid] = Math.max(scores[tid] || 0, a.score);
+      if (a.score >= PASS_PERCENT) {
+        completedSet.add(tid);
       }
-    }
-
-    progress = new GrammarProgress({
-      userId,
-      completedTopicIds: Array.from(completedSet),
-      bestScores: scores,
-    });
-    await progress.save();
-  } else {
-    // Ensure any previously unrecorded passing attempts are migrated
-    let updated = false;
-    const currentCompleted = new Set(progress.completedTopicIds.map(toIdString));
-
-    for (const a of pastAttempts) {
-      if (!a.topic) continue;
-      const tid = toIdString(a.topic);
-      const prevBest = progress.bestScores.get
-        ? (progress.bestScores.get(tid) || 0)
-        : (progress.bestScores[tid] || 0);
-      if (a.score > prevBest) {
-        if (progress.bestScores.set) {
-          progress.bestScores.set(tid, a.score);
-        } else {
-          progress.bestScores[tid] = a.score;
-        }
-        updated = true;
-      }
-      if (a.score >= PASS_PERCENT && !currentCompleted.has(tid)) {
-        progress.completedTopicIds.push(a.topic);
-        currentCompleted.add(tid);
-        updated = true;
-      }
-    }
-
-    if (updated) {
-      await progress.save();
     }
   }
 
+  progress = new GrammarProgress({
+    userId,
+    completedTopicIds: Array.from(completedSet),
+    bestScores: scores,
+  });
+  await progress.save();
   return progress;
 }
 
@@ -122,11 +91,44 @@ function checkTopicUnlocked(targetTopicId, allSortedTopics, completedSet) {
   return completedSet.has(prevIdStr);
 }
 
+let cachedBaseTopics = null;
+let lastBaseTopicsFetch = 0;
+const BASE_TOPICS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes in-memory cache
+
+async function getCachedBaseTopics() {
+  const now = Date.now();
+  if (cachedBaseTopics && now - lastBaseTopicsFetch < BASE_TOPICS_CACHE_TTL) {
+    return cachedBaseTopics;
+  }
+  const raw = await GrammarTopic.find({})
+    .select('title category level unit topicId description ruleSummary videoUrl')
+    .sort({ topicId: 1, createdAt: 1 })
+    .lean();
+  cachedBaseTopics = raw.map((t, idx) => ({
+    _id: t._id,
+    topicId: t.topicId || idx + 1,
+    order: t.topicId || idx + 1,
+    title: t.title,
+    category: t.category,
+    level: t.level,
+    unit: t.unit,
+    description: t.description,
+    ruleSummary: t.ruleSummary,
+    videoUrl: t.videoUrl,
+    questionCount: 50,
+  }));
+  lastBaseTopicsFetch = now;
+  return cachedBaseTopics;
+}
+
 // GET /api/grammar/progress - Current user's progress summary
 router.get('/progress', requireAuth, async (req, res) => {
   try {
-    const progress = await getOrCreateGrammarProgress(req.user._id);
-    const totalTopics = await GrammarTopic.countDocuments();
+    const [progress, topics] = await Promise.all([
+      getOrCreateGrammarProgress(req.user._id),
+      getCachedBaseTopics(),
+    ]);
+    const totalTopics = topics.length;
     const completedTopicIds = progress.completedTopicIds.map(toIdString);
 
     res.json({
@@ -144,15 +146,14 @@ router.get('/progress', requireAuth, async (req, res) => {
 // GET /api/grammar - List all grammar topics with sequential unlock state
 router.get('/', requireAuth, async (req, res) => {
   try {
-    const topics = await GrammarTopic.find({})
-      .select('title category level unit topicId description ruleSummary videoUrl questions')
-      .sort({ topicId: 1, createdAt: 1 })
-      .lean();
+    const [topics, progress, attempts] = await Promise.all([
+      getCachedBaseTopics(),
+      getOrCreateGrammarProgress(req.user._id),
+      GrammarAttempt.find({ user: req.user._id }).select('topic').lean(),
+    ]);
 
-    const progress = await getOrCreateGrammarProgress(req.user._id);
     const completedSet = new Set(progress.completedTopicIds.map(toIdString));
 
-    const attempts = await GrammarAttempt.find({ user: req.user._id }).select('topic score').lean();
     const topicAttemptCounts = {};
     for (const a of attempts) {
       if (!a.topic) continue;
@@ -164,23 +165,13 @@ router.get('/', requireAuth, async (req, res) => {
       const tid = toIdString(t._id);
       const isCompleted = completedSet.has(tid);
       const isUnlocked = idx === 0 || completedSet.has(toIdString(topics[idx - 1]._id));
-      const bestScore = progress.bestScores.get
+      const bestScore = progress.bestScores && progress.bestScores.get
         ? (progress.bestScores.get(tid) || 0)
-        : (progress.bestScores[tid] || 0);
+        : (progress.bestScores && progress.bestScores[tid] || 0);
       const prevTopic = idx > 0 ? topics[idx - 1] : null;
 
       return {
-        _id: t._id,
-        topicId: t.topicId || idx + 1,
-        order: t.topicId || idx + 1,
-        title: t.title,
-        category: t.category,
-        level: t.level,
-        unit: t.unit,
-        description: t.description,
-        ruleSummary: t.ruleSummary,
-        videoUrl: t.videoUrl,
-        questionCount: (t.questions && t.questions.length) || 0,
+        ...t,
         bestScore,
         attemptsCount: topicAttemptCounts[tid] || 0,
         completed: isCompleted,

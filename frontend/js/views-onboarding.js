@@ -25,6 +25,7 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
   let timeRemainingSec = 1800; // 30 minutes default
   let speechTranscript = '';
   let isRecording = false;
+  let isManualTyping = false;
   let placementResult = null;
   let chosenLevel = 'Beginner';
   let finalResult = null;
@@ -163,6 +164,7 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
       currentQuestionIdx = 0;
       speechTranscript = '';
       isRecording = false;
+      isManualTyping = false;
       state = 'PLACEMENT';
       startTimer(res.expiresAt);
       renderPlacementQuestion();
@@ -193,7 +195,7 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
       stepContent = `
         <div class="question-header row" style="justify-content:space-between;align-items:center;margin-bottom:16px">
           <span class="pill sprout" style="font-size:11px;font-weight:800;text-transform:uppercase">
-            ${esc(q.category || 'General English')}
+            ${esc(q.category || q.section || 'General English')}
           </span>
           <span style="font-size:12.5px;color:var(--cream-faint)">
             Question ${currentQuestionIdx + 1} of ${questions.length}
@@ -201,7 +203,7 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
         </div>
 
         <div class="question-prompt" style="font-size:17.5px;font-weight:600;line-height:1.6;color:var(--color-text);margin-bottom:24px">
-          ${esc(q.question)}
+          ${esc(q.prompt || q.question || q.text || '')}
         </div>
 
         <div class="options-list col gap-sm" style="margin-bottom:28px">
@@ -223,7 +225,9 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
       `;
     } else {
       // Step 13: Optional Speech Sentence Incantation
-      const sentence = placementAttempt?.speechSentence || "Clear communication and courage define the master of words.";
+      const sentence = placementAttempt?.speechSentence || (placementAttempt?.readAloudSentence && placementAttempt.readAloudSentence.sentence) || "Clear communication and courage define the master of words.";
+      const speechSupported = typeof window !== 'undefined' && (window.SpeechInput?.supported || window.SpeechRecognition || window.webkitSpeechRecognition);
+
       stepContent = `
         <div class="speech-header row" style="justify-content:space-between;align-items:center;margin-bottom:16px">
           <span class="pill purple" style="font-size:11px;font-weight:800;text-transform:uppercase">
@@ -235,7 +239,7 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
         </div>
 
         <div style="font-size:14.5px;color:var(--cream-dim);line-height:1.6;margin-bottom:20px">
-          Read this ancient dragon incantation aloud. The council will evaluate your spoken pronunciation and articulation. If your microphone is unavailable, you may safely skip without penalty.
+          Read this ancient dragon incantation aloud. The council will evaluate your spoken pronunciation and articulation. If your microphone is unavailable, you may type the words or safely skip without penalty.
         </div>
 
         <div class="incantation-box card" style="padding:22px;background:var(--color-surface-2);border:2px dashed rgba(139,92,246,0.4);border-radius:16px;text-align:center;margin-bottom:24px">
@@ -250,15 +254,25 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
             ${isRecording ? '⏹️' : '🎙️'}
           </button>
           <div style="font-size:12.5px;font-weight:700;color:${isRecording ? 'var(--coral)' : 'var(--cream-dim)'}">
-            ${isRecording ? 'Listening... Speak clearly into your microphone' : (speechTranscript ? 'Recording captured! Click mic to record again' : 'Click to start spoken recording')}
+            ${isRecording ? 'Listening... Speak clearly into your microphone' : (speechTranscript ? 'Recording captured! Click mic to record again' : (speechSupported ? 'Click to start spoken recording' : 'Microphone unavailable in this browser — type below'))}
           </div>
         </div>
 
         <div class="transcript-display card" style="padding:14px 18px;background:var(--color-surface);border:1px solid var(--line);border-radius:12px;margin-bottom:20px">
-          <div style="font-size:11px;font-weight:700;color:var(--cream-faint);margin-bottom:4px">CAPTURED TRANSCRIPT</div>
-          <div id="speech-transcript-text" style="font-size:13.5px;color:${speechTranscript ? 'var(--color-text)' : 'var(--cream-faint)'};font-style:${speechTranscript ? 'normal' : 'italic'}">
-            ${speechTranscript ? esc(speechTranscript) : 'No speech captured yet. Click mic to begin speaking.'}
+          <div class="row" style="justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-size:11px;font-weight:700;color:var(--cream-faint);text-transform:uppercase">CAPTURED TRANSCRIPT</div>
+            <button type="button" class="btn btn-ghost btn-sm" id="toggle-manual-speech-btn" style="font-size:11.5px;padding:3px 10px;color:var(--cyan)">
+              ${isManualTyping ? '🎙️ Switch to Microphone' : '✏️ Type / Edit Incantation'}
+            </button>
           </div>
+          ${isManualTyping ? `
+            <textarea id="speech-transcript-input" rows="2" style="width:100%;font-size:14px;padding:10px 12px;border-radius:8px;background:var(--color-surface-2);color:var(--color-text);border:1px solid var(--line);resize:vertical;font-family:inherit;box-sizing:border-box" placeholder="Type or paste the incantation here...">${esc(speechTranscript)}</textarea>
+            <div style="font-size:11.5px;color:var(--cream-faint);margin-top:4px">Tip: You can edit or paste the incantation directly. It will be evaluated when you submit.</div>
+          ` : `
+            <div id="speech-transcript-text" style="font-size:13.5px;line-height:1.5;color:${speechTranscript ? 'var(--color-text)' : 'var(--cream-faint)'};font-style:${speechTranscript ? 'normal' : 'italic'}">
+              ${speechTranscript ? esc(speechTranscript) : 'No speech captured yet. Click the mic button to speak, or click "Type / Edit Incantation" above.'}
+            </div>
+          `}
         </div>
       `;
     }
@@ -360,6 +374,22 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
         };
       }
 
+      const toggleManualBtn = mount.querySelector('#toggle-manual-speech-btn');
+      if (toggleManualBtn) {
+        toggleManualBtn.onclick = () => {
+          if (isRecording) stopSpeechRecording();
+          isManualTyping = !isManualTyping;
+          renderPlacementQuestion();
+        };
+      }
+
+      const transcriptInput = mount.querySelector('#speech-transcript-input');
+      if (transcriptInput) {
+        transcriptInput.oninput = (e) => {
+          speechTranscript = e.target.value;
+        };
+      }
+
       const skipBtn = mount.querySelector('#skip-speech-btn');
       if (skipBtn) {
         skipBtn.onclick = () => {
@@ -393,16 +423,31 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
   /* --------------------------------------------------------------------------
      SPEECH RECORDING LOGIC VIA SpeechInput
      -------------------------------------------------------------------------- */
+  function getSpeechEngine() {
+    return (typeof window !== 'undefined' && window.SpeechInput) || (typeof SpeechInput !== 'undefined' ? SpeechInput : null);
+  }
+
   function startSpeechRecording() {
-    if (!window.SpeechInput) {
-      toast('Speech input engine not found in browser.', 'amber');
+    const engine = getSpeechEngine();
+    if (!engine) {
+      toast('Speech input engine not found in browser. You can type the incantation or skip.', 'amber');
+      isManualTyping = true;
+      renderPlacementQuestion();
       return;
     }
+
+    if (!engine.supported) {
+      toast('Speech recognition is not supported in this browser (Chrome or Edge recommended). You can type the incantation or skip without penalty.', 'amber');
+      isManualTyping = true;
+      renderPlacementQuestion();
+      return;
+    }
+
     isRecording = true;
     const recBtn = mount.querySelector('#speech-rec-btn');
     if (recBtn) recBtn.classList.add('on');
 
-    window.SpeechInput.start({
+    engine.start({
       onResult: ({ final, interim }) => {
         const text = final || interim || '';
         speechTranscript = text;
@@ -417,7 +462,15 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
         console.warn('Speech error during placement:', err);
         isRecording = false;
         if (recBtn) recBtn.classList.remove('on');
-        toast('Speech note: You can speak again or skip without penalty.', 'amber');
+        if (err === 'not-allowed' || err === 'service-not-allowed') {
+          toast('Microphone access denied. Please allow microphone permissions in your browser URL bar, or type the incantation.', 'coral');
+          isManualTyping = true;
+          renderPlacementQuestion();
+        } else if (err === 'no-speech') {
+          toast('No speech detected. Please speak closer to your microphone or click to try again.', 'amber');
+        } else {
+          toast('Speech recognition: ' + (err || 'Audio error') + '. You can speak again, type, or skip without penalty.', 'amber');
+        }
       },
       onEnd: () => {
         isRecording = false;
@@ -427,8 +480,9 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
   }
 
   function stopSpeechRecording() {
-    if (window.SpeechInput && isRecording) {
-      window.SpeechInput.stop();
+    const engine = getSpeechEngine();
+    if (engine && isRecording) {
+      engine.stop();
     }
     isRecording = false;
   }
@@ -439,6 +493,13 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
   async function handleSubmitPlacement() {
     stopTimer();
     stopSpeechRecording();
+
+    if (isManualTyping) {
+      const transcriptInput = mount.querySelector('#speech-transcript-input');
+      if (transcriptInput) {
+        speechTranscript = transcriptInput.value;
+      }
+    }
 
     mount.innerHTML = `
       <div class="trial-container" style="max-width:540px;margin:80px auto;text-align:center;padding:0 16px">
@@ -456,9 +517,17 @@ VIEW_RENDERERS['onboarding'] = async (mount) => {
     `;
 
     try {
+      // Ensure answers are provided as array of { questionId, selectedIndex }
+      const answersArray = Array.isArray(userAnswers)
+        ? userAnswers
+        : Object.entries(userAnswers || {}).map(([questionId, selectedIndex]) => ({
+            questionId,
+            selectedIndex: Number(selectedIndex),
+          }));
+
       const payload = {
         attemptId: placementAttempt?.attemptId,
-        answers: userAnswers,
+        answers: answersArray,
         speechTranscript: speechTranscript.trim() ? speechTranscript.trim() : undefined,
       };
 

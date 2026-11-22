@@ -21,14 +21,16 @@
    * Main Weak Words view entry
    */
   VIEW_RENDERERS['weakwords'] = async function (root) {
-    root.innerHTML = `
-      <div class="col gap-md" id="ww-container">
-        <div class="empty-state">
-          <div class="spinner" style="margin:0 auto 12px"></div>
-          <div>Loading Weak Words Lab…</div>
+    if (!WWState.words || !WWState.words.length) {
+      root.innerHTML = `
+        <div class="col gap-md" id="ww-container">
+          <div class="empty-state">
+            <div class="spinner" style="margin:0 auto 12px"></div>
+            <div>Loading Weak Words Lab…</div>
+          </div>
         </div>
-      </div>
-    `;
+      `;
+    }
 
     try {
       await loadWeakWordsData();

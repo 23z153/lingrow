@@ -195,3 +195,13 @@ const SpeechOutput = {
     this.speaking = false;
   },
 };
+
+// Export to window for global browser availability
+if (typeof window !== 'undefined') {
+  window.SpeechInput = SpeechInput;
+  window.SpeechOutput = SpeechOutput;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { SpeechInput, SpeechOutput };
+}

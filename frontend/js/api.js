@@ -108,6 +108,31 @@ const Api = {
     return data;
   },
 
+  _cache: new Map(),
+
+  async getCached(path, ttlMs = 120000) {
+    const now = Date.now();
+    const entry = this._cache.get(path);
+    if (entry && (now - entry.timestamp < entry.ttl)) {
+      return entry.data;
+    }
+    const data = await this.get(path);
+    this._cache.set(path, { data, timestamp: now, ttl: ttlMs });
+    return data;
+  },
+
+  invalidateCache(pattern = null) {
+    if (!pattern) {
+      this._cache.clear();
+      return;
+    }
+    for (const key of this._cache.keys()) {
+      if (key.includes(pattern)) {
+        this._cache.delete(key);
+      }
+    }
+  },
+
   get(path) { return this.request('GET', path); },
   post(path, body) { return this.request('POST', path, body); },
   put(path, body) { return this.request('PUT', path, body); },
@@ -135,29 +160,29 @@ const Api = {
   resendVerification() { return this.post('/auth/resend-verification'); },
 
   // practice
-  passages(level) { return this.get('/practice/passages' + (level ? `?level=${level}` : '')); },
-  submitReadAloud(payload) { return this.post('/practice/attempts', payload); },
-  myReadAloudAttempts() { return this.get('/practice/attempts/me'); },
+  passages(level) { return this.getCached('/practice/passages' + (level ? `?level=${level}` : ''), 180000); },
+  submitReadAloud(payload) { this.invalidateCache('practice'); this.invalidateCache('progress'); return this.post('/practice/attempts', payload); },
+  myReadAloudAttempts() { return this.getCached('/practice/attempts/me', 30000); },
 
   // vocabulary
-  vocab(level) { return this.get('/vocabulary' + (level ? `?level=${level}` : '')); },
-  dailyVocab() { return this.get('/vocabulary/daily'); },
+  vocab(level) { return this.getCached('/vocabulary' + (level ? `?level=${level}` : ''), 180000); },
+  dailyVocab() { return this.getCached('/vocabulary/daily', 60000); },
   generateVocabQuiz(wordIds) { return this.post('/vocabulary/quiz', { wordIds }); },
-  submitVocabAssessment(payload) { return this.post('/vocabulary/assessment', payload); },
-  reviewVocab(id, known) { return this.post(`/vocabulary/${id}/review`, { known }); },
+  submitVocabAssessment(payload) { this.invalidateCache('vocabulary'); return this.post('/vocabulary/assessment', payload); },
+  reviewVocab(id, known) { this.invalidateCache('vocabulary'); return this.post(`/vocabulary/${id}/review`, { known }); },
 
   // grammar
-  grammarProgress() { return this.get('/grammar/progress'); },
+  grammarProgress() { return this.getCached('/grammar/progress', 60000); },
   grammarTopics(category, level) {
     const params = new URLSearchParams();
     if (category) params.append('category', category);
     if (level) params.append('level', level);
     const q = params.toString();
-    return this.get('/grammar' + (q ? `?${q}` : ''));
+    return this.getCached('/grammar' + (q ? `?${q}` : ''), 180000);
   },
   getGrammarTopic(id) { return this.get(`/grammar/${id}`); },
   getGrammarTest(id) { return this.get(`/grammar/${id}/test`); },
-  submitGrammar(id, answers, questionIds) { return this.post(`/grammar/${id}/submit`, { answers, questionIds }); },
+  submitGrammar(id, answers, questionIds) { this.invalidateCache('grammar'); return this.post(`/grammar/${id}/submit`, { answers, questionIds }); },
   myGrammarAttempts() { return this.get('/grammar/attempts/me'); },
 
   // situational
@@ -176,13 +201,13 @@ const Api = {
     if (params.search) q.set('search', params.search);
     if (params.mastery) q.set('mastery', params.mastery);
     const qs = q.toString();
-    return this.get('/idioms' + (qs ? `?${qs}` : ''));
+    return this.getCached('/idioms' + (qs ? `?${qs}` : ''), 120000);
   },
-  getIdiomsStats() { return this.get('/idioms/stats'); },
-  getGroupedBaseVerbs() { return this.get('/idioms/grouped-verbs'); },
+  getIdiomsStats() { return this.getCached('/idioms/stats', 60000); },
+  getGroupedBaseVerbs() { return this.getCached('/idioms/grouped-verbs', 300000); },
   getIdiomDetails(id) { return this.get(`/idioms/${id}`); },
-  submitIdiomStage2(id, selectedOption) { return this.post(`/idioms/${id}/stage2-understand`, { selectedOption }); },
-  submitIdiomStage3(id, payload) { return this.post(`/idioms/${id}/stage3-use`, payload); },
+  submitIdiomStage2(id, selectedOption) { this.invalidateCache('idioms'); return this.post(`/idioms/${id}/stage2-understand`, { selectedOption }); },
+  submitIdiomStage3(id, payload) { this.invalidateCache('idioms'); return this.post(`/idioms/${id}/stage3-use`, payload); },
 
   // debate
   debateTopics() { return this.get('/debate/topics'); },
@@ -302,20 +327,20 @@ const Api = {
   tutorClearMemories() { return this.del('/tutor/memories'); },
 
   // notifications
-  notifications() { return this.get('/notifications'); },
-  markNotificationRead(id) { return this.post(`/notifications/${id}/read`); },
-  markAllNotificationsRead() { return this.post('/notifications/read-all'); },
-  getDailyWord() { return this.get('/notifications/daily-word'); },
-  answerDailyWord(selectedOption) { return this.post('/notifications/daily-word/answer', { selectedOption }); },
+  notifications() { return this.getCached('/notifications', 30000); },
+  markNotificationRead(id) { this.invalidateCache('notifications'); return this.post(`/notifications/${id}/read`); },
+  markAllNotificationsRead() { this.invalidateCache('notifications'); return this.post('/notifications/read-all'); },
+  getDailyWord() { return this.getCached('/notifications/daily-word', 60000); },
+  answerDailyWord(selectedOption) { this.invalidateCache('notifications'); this.invalidateCache('progress'); return this.post('/notifications/daily-word/answer', { selectedOption }); },
 
   // progress & dragon academy
-  myProgress() { return this.get('/progress/me'); },
-  myDragonProgress() { return this.get('/progress/dragon'); },
-  claimDailyMissions() { return this.post('/progress/missions/claim'); },
-  leaderboard() { return this.get('/progress/leaderboard'); },
-  getChallenges() { return this.get('/challenges'); },
-  getProgression() { return this.get('/progress/progression'); },
-  completeChallenge(id, payload = {}) { return this.post(`/challenges/${id}/complete`, payload); },
+  myProgress() { return this.getCached('/progress/me', 30000); },
+  myDragonProgress() { return this.getCached('/progress/dragon', 30000); },
+  claimDailyMissions() { this.invalidateCache('progress'); return this.post('/progress/missions/claim'); },
+  leaderboard() { return this.getCached('/progress/leaderboard', 60000); },
+  getChallenges() { return this.getCached('/challenges', 60000); },
+  getProgression() { return this.getCached('/progress/progression', 60000); },
+  completeChallenge(id, payload = {}) { this.invalidateCache('challenges'); this.invalidateCache('progress'); return this.post(`/challenges/${id}/complete`, payload); },
 
   // Teacher-Led Group Discussion (GD) Rooms
   createGdRoom(payload) { return this.post('/gd/rooms', payload); },
@@ -427,10 +452,10 @@ const Api = {
   worldStageStats() { return this.get('/world-stage/stats'); },
 
   // Weak Words Lab Module
-  getWeakWords() { return this.get('/weakwords'); },
-  getWeakWordsDue(limit = 5) { return this.get(`/weakwords/due?limit=${limit}`); },
-  postWeakWordsBulk(payload) { return this.post('/weakwords/bulk', payload); },
-  submitWeakWordResult(id, payload) { return this.post(`/weakwords/${id}/result`, payload); },
-  deleteWeakWord(id) { return this.del(`/weakwords/${id}`); },
+  getWeakWords() { return this.getCached('/weakwords', 60000); },
+  getWeakWordsDue(limit = 5) { return this.getCached(`/weakwords/due?limit=${limit}`, 30000); },
+  postWeakWordsBulk(payload) { this.invalidateCache('weakwords'); return this.post('/weakwords/bulk', payload); },
+  submitWeakWordResult(id, payload) { this.invalidateCache('weakwords'); return this.post(`/weakwords/${id}/result`, payload); },
+  deleteWeakWord(id) { this.invalidateCache('weakwords'); return this.del(`/weakwords/${id}`); },
   weakWordsClassSummary() { return this.get('/weakwords/class-summary'); },
 };

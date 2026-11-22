@@ -76,7 +76,9 @@ router.post('/placement/start', requireAuth, async (req, res) => {
         return {
           id: q.id,
           section: q.section,
+          category: q.section,
           prompt: q.prompt,
+          question: q.prompt,
           options,
         };
       });
@@ -139,7 +141,9 @@ router.post('/placement/start', requireAuth, async (req, res) => {
             return {
               id: q.id,
               section: q.section,
+              category: q.section,
               prompt: q.prompt,
+              question: q.prompt,
               options,
             };
           });
@@ -206,7 +210,14 @@ router.post('/placement/submit', requireAuth, async (req, res) => {
     }
 
     const result = await scorePlacementTest({
-      answers: Array.isArray(answers) ? answers : [],
+      answers: Array.isArray(answers)
+        ? answers
+        : answers && typeof answers === 'object'
+          ? Object.entries(answers).map(([questionId, selectedIndex]) => ({
+              questionId,
+              selectedIndex: Number(selectedIndex),
+            }))
+          : [],
       speechTranscript,
       speechSeconds,
       permutations: attempt.permutations,
